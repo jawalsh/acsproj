@@ -1,0 +1,31 @@
+<item>
+  <p>An added letter:</p>
+
+  <floatingText rendition="#textbox" xml:id="{id}">
+    <index indexName="nav"/>
+    <body>
+      <head rendition="#plainhead">{id}<hi rendition="#sc">To: {to}</hi>
+        <!-- <ref xml:id="ref_01" target="#note_01" rendition="#super">1</ref>-->
+      </head>
+      <head rendition="#plainhead"><hi rendition="#sc">Text: {text}</hi></head>
+      <div type="letter">
+        <opener>
+          <dateline rendition="#right">{dataline}</dateline>
+          <salute>{salutation}</salute>
+        </opener>
+        <!-- body -->
+        <closer>
+          <salute/>
+          <signed/>
+        </closer>
+      </div>
+      <div type="notes">
+        <milestone unit="section" rendition="#hr-50"/>
+        <note xml:id="note_01" rendition="#block  #small">
+          <ref rendition="#super" target="#ref_01">1</ref>
+          <!-- note body -->
+        </note>
+      </div>
+    </body>
+  </floatingText>
+</item>

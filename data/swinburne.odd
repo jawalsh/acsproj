@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xml:lang="en">
+    <!-- TEI modules:
+        
+        Module name		A short description	Changes
+        analysis		Simple analytic mechanisms	
+        certainty		Certainty and uncertainty	
+        core		    Elements common to all TEI documents	
+        corpus		    Header extensions for corpus texts	
+        declarefs		Feature system declarations	
+        dictionaries	Printed dictionaries	
+        drama		    Performance texts	
+        figures		    Tables, formulae, and figures	
+        gaiji		    Character and glyph documentation	
+        header		    The TEI Header	
+        iso-fs		    Feature structures	
+        linking		    Linking, segmentation and alignment	
+        msdescription	Manuscript Description	
+        namesdates	 	Names and dates	
+        nets		    Graphs, networks and trees	
+        spoken		    Transcribed Speech	
+        tagdocs		    Documentation of TEI modules	
+        tei		        Declarations for datatypes, classes, 
+        and macros available to all TEI modules	
+        textcrit		Text criticism	
+        textstructure	Default text structure	
+        transcr		    Transcription of primary sources	
+        verse		    Verse structures
+    -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Swinburne</title>
+                <author>John A. Walsh</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This document is the original source; created on 23 November 2006.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <divGen type="toc"/>
+            <schemaSpec ident="swinburne" start="TEI" xml:lang="en">
+                <moduleRef key="core"/>
+                <moduleRef key="tei"/>
+                <moduleRef key="header"/>
+                <moduleRef key="textstructure"/>
+                <moduleRef key="figures"/> 
+                <moduleRef key="namesdates"/> 
+                <moduleRef key="linking"/>
+                <moduleRef key="transcr"/>
+                <moduleRef key="msdescription"/> 
+                <moduleRef key="analysis"/> 
+                <moduleRef key="drama"/> 
+                <moduleRef key="verse"/> 
+                <!--
+                <moduleRef key="corpus"/> 
+                -->
+                <moduleRef key="tagdocs"/> 
+                <!--
+ 		        <moduleRef key="nets"/>
+ 		        -->
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

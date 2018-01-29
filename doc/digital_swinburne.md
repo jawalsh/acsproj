@@ -1,0 +1,13 @@
+#Digital Swinburne
+ 
+ One becomes a bibliographic entity by virtue of being an author. In the act of creating a document, one creates an author, one enters willingly into a bibliographic [universe/relationship] and becomes benefits from and becomes subject to people and systems that relate/manipulate/store/retrieve/consume documents. That bibliographic universe is largely textual, but not exclusively. Swinburne is a bibliographic entity. [In the act of recording or inscribing something one enters into the universe of the material bibliographic measures: collation, quartos, folios, 12o, watermarks and so on.]
+ 
+Swinburne is a bibliographic entity to an extent, enthusiasm, . 
+
+His biography is fascinating[1] (Rikky Rooksby's _A. C. Swinburne: A Poet's Life_ (Scolar Press: Brookfield, VT, 1997) is excellent and the most recent biography), but his life is absent any enduring romantic relationships. 
+He had many close and enduring friends: the Rossettis, Burne-Jones, William Morris, Richard Francis Burton, Theodore Watts-Duncan, who saved Swinburne from self-destruction and provided a stable, if tame, environment for Swinburne to live out his life, and write and publish some of his very best poetry, including _Tristram of Lyonesse_, “By the North Sea,” “On the Cliffs,” “Thalassius,” _A Century of Roundels_—one hundred exemplars of an intricate and complex little verse form devised by Swinburne himself, modeled on the French rondeau and rondel.
+
+Why Swinburne. Swinburne is not an arbitrary choice for exploring these issues. If one is interested in textuality, documentation, bibliographic and indexical relationships, Swinburne is the ideal poet. Jerome McGann has written of Swinburne, “His life in letters was his life.” Paradoxically Swinburne, who writes odes and paeans to the trope of the book, who in many ways is more of a bibliographic entity than a biological creature, is among the finest demonstrations of Briet's breaking of the trope of the book.  It is relatively easy to view these entities (people, places, etc.) in Swinburne as documents because so many of them have relationships to objects about which there is no debate regarding their documentary status. Shakespeare, Sappho, Hugo, Landor, Christina Rossetti, George Eliot—these are all topics of Swinburne's poetry; they are all authors of texts/documents/books.  His work is full of specific, bibliographic references to other documents.  Not just elusive or suggestive poetic allusions, but some form or other of actual citation: quotations, epigraphs and notes, often with full bibliographic citations, including author, title, and line number. 
+
+Write out Sappho thing? Logos/Flesh cycle. Slides?
+

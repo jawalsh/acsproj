@@ -1,0 +1,22 @@
+<classDecl xml:id="acs.genres" xmlns="http://www.tei-c.org/ns/1.0">
+	<taxonomy>
+		<bibl>
+			<title>Swinburne Project Genres</title>
+			<author>
+				John A. Walsh
+			</author>
+		</bibl>
+	  <category xml:id="poetry">
+	    <catDesc>poetry</catDesc>
+	    <category xml:id="canzone">
+	      <catDesc>canzone</catDesc>
+	    </category>
+	    <category xml:id="dramatic_monologue">
+	      <catDesc>dramatic monologue</catDesc>
+	    </category>
+	    <category xml:id="imitation_greek_tragedy">
+	      <catDesc>imitaton of Greek tragedy</catDesc>
+	    </category>
+	  </category>
+	</taxonomy>
+</classDecl>

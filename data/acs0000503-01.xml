@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--acs0000503-01.xml: Introduction to Swinburne -->
+<?oxygen RNGSchema="swinburne.rnc" type="compact" ?>
+<!DOCTYPE TEI [
+  <!ENTITY title "An Introduction to Algernon Charles Swinburne">
+  <!ENTITY purlPrefix "http://www.purl.org/swinburnearchive/">
+  <!ENTITY workPrefix "http://localhost:8080/swinburne/view#docId=swinburne/">
+  <!ENTITY purlSuffix ".xml">
+  <!ENTITY pb1 '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Poems&#x0025;20and&#x0025;20Ballads,&#x0025;20First&#x0025;20Series">Poems and Ballads</ref></title>'>
+  <!ENTITY pb2 '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Poems&#x0025;20and&#x0025;20Ballads,&#x0025;20Second&#x0025;20Series">Poems and Ballads, Second Series</ref></title>'>
+  <!ENTITY pb3 '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Poems&#x0025;20and&#x0025;20Ballads,&#x0025;20Third&#x0025;20Series">Poems and Ballads, Third Series</ref></title>'>
+  <!ENTITY sbs "<title xmlns='http://www.tei-c.org/ns/1.0'><ref xmlns='http://www.tei-c.org/ns/1.0' target='/swinburne/search?f1-collection=Songs&#x0025;20Before&#x0025;20Sunrise'>Songs Before Sunrise</ref></title>">
+  <!ENTITY stn '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Songs&#x0025;20of&#x0025;20Two&#x0025;20Nations">Songs of Two Nations</ref></title>'>
+  <!ENTITY sos '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Songs&#x0025;20of&#x0025;20the&#x0025;20Springtides">Songs of the Springtides</ref></title>'>
+  <!ENTITY sis '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Studies&#x0025;20in&#x0025;20Song">Studies in Song</ref></title>'>
+  <!ENTITY hep '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=The&#x0025;20Heptalogia&#x0025;20or&#x0025;20The&#x0025;20Seven&#x0025;20Against&#x0025;20Sense:&#x0025;20A&#x0025;20Cap&#x0025;20with&#x0025;20Seven&#x0025;20Bells">The Heptalogia</ref></title>'>
+  <!ENTITY cor '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=A&#x0025;20Century&#x0025;20of&#x0025;20Roundels">A Century of Roundels</ref></title>'>
+  <!ENTITY tol "<title xmlns='http://www.tei-c.org/ns/1.0'>Tristram of Lyonesse and Other Poems</title>">
+  <!ENTITY erc '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="x-spid:acs0000001-04-i003">Erechtheus</ref></title>'>
+  <!ENTITY aic '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="x-spid:acs0000001-04-i002">Atalanta in Calydon</ref></title>'>
+  <!ENTITY cpo '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=A&#x0025;20Channel&#x0025;20Passage&#x0025;20and&#x0025;20Other&#x0025;20Poems">A Channel Passage and Other Poems</ref></title>'>
+  <!ENTITY aop '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=Astrophel&#x0025;20and&#x0025;20Other&#x0025;20Poems">Astrophel and Other Poems</ref></title>'>
+  <!ENTITY tob '<title xmlns="http://www.tei-c.org/ns/1.0"><ref xmlns="http://www.tei-c.org/ns/1.0" target="/swinburne/search?f1-collection=The&#x0025;20Tale&#x0025;20of&#x0025;20Balen">The Tale of Balen</ref></title>'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000503-01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&title;</title>
+                <author><persName key="jawalsh">John A. Walsh</persName></author>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/seriesStmt.xml"/>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author><persName key="jawalsh">John A. Walsh</persName></author>
+                        <title>An Introduction to Algernon Charles Swinburne</title>
+                    </analytic>
+                    
+                    <monogr>
+                        <title>The Algernon Charles Swinburne Project</title>
+                        
+                        <editor><persName key="jawalsh">John A. Walsh</persName></editor>
+                            <imprint>
+                                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                                    href="includes/publisher.xml"/>
+                                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                                    href="includes/pubPlace.xml"/>
+                                <date xml:id="sort_date" when="2012"/>
+                            </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/unfamiliar.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target="#collex_genre_criticism"/>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <text xml:id="acs0000503-01-content">
+        <body>
+            <pb n="1" rendition="#suppress" facs="dummy"/>
+            <!--
+            <div>
+                <head rendition="#styled">Overview</head>
+                <p/>
+            </div>
+            -->
+            <div xml:id="bio">
+                <index indexName="nav"/>
+                <head rendition="#styled">Brief Biographical Sketch</head>
+                <index indexName="nav"/>
+                <div xml:id="early_life"><head rendition="#styled">Early Life</head>
+                    <index indexName="nav"/>
+                <p>Algernon Charles Swinburne was born in London at <time when="05:00:00">5 a.m.</time> on <date when="1837-04-05">April 5<hi rendition="#super">th</hi> 1837</date> to Captain (later Admiral) Charles Henry Swinburne and Lady Jane Henrietta Swinburne. The eldest of six children, Swinburne was born into two old aristocratic families. His father was a younger son of Sir John Swinburne of Capheaton Hall in Northumberland, and his mother was the fourth daughter of the third Earl of Ashburnham, of Ashburnham Place in Sussex.</p>
+                <p>Swinburne grew up in two homes: Capheaton Hall in Northumberland, about twenty miles inland from the North Sea, and East Dene, a large stone mansion and estate in the village of Bonchurch on the Isle of Wight off the southern coast of England. The environs, emotions, and experiences of these twin homes—in the extreme north and extreme south of the country—served to seed Swinburne's potent collection of symbolically charged physical places and spaces: the Scottish border, the sea and cliff-lined seascapes, the Channel, Sark, Athens, Italy. Likewise, Swinburne's emotions, enthusiasms, experiences, education and above all the voracious reading begun during his earlier years at Capheaton and East Dene became touchstones throughout his life and work.<!--[Quote from Rikky Rooksby about Swinburne's early and enduring literary enthusiasms, see pp. 30ff].--></p>
+                    <p> In 1848, Swinburne was sent to live at Brooke Rectory, on the western side of the Isle of Wight, to be prepared for Eton by the Reverend Foster Fenwick. From 1849-53 Swinburne attended Eton and lived with his tutor, James Leigh Joynes, and Joynes' wife.</p>
+                    <p> Upon leaving Eton, Swinburne was sent to Cambo, Northumberland to be prepared for Oxford by Reverend John Wilkinson.
+                    </p>
+                </div>
+                <div xml:id="oxford">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">Oxford</head>
+                    <p>In 1856, Swinburne arrived at Oxford as a student in Balliol College. Swinburne established many influential and long-lasting
+                        relationships at Oxford, where he met the Pre-Raphaelites Dante Gabriel
+                        Rossetti, William Morris, Edward Burne-Jones, and William Michael Rossetti, all
+                        of whom would remain life-long friends and to each of whom, individually,
+                        Swinburne would dedicate a major work. <!--(<title>The Queen-Mother and Rosamond</title> (1860) to Dante Gabriel Rossetti; <title>Poems and Ballads</title> (1866) to Edward Burne Jones; <title>Astrophel and Other Poems</title> (1894);  Swinburne dedicated works to all
+                        three Rossettis. Swinburne's important critical study of William Blake is
+                        dedicated to William Michael Rossetti. <title>A Century of Roundels</title>
+                        (1883) is dedicated to Christina Rossetti. The 1866 <title>Poems and
+                            Ballads</title>, Swinburne's most famous and many would argue his
+                        greatest work, was dedicated to Edward Burne Jones. Swinburne alone dined
+                        with Dante Gabriel Rossetti and his wife Lizzie Siddal the evening Siddal
+                        died of an overdose of laudanum. Swinburne wrote to his mother, on William
+                        Morris's passing: <cit rendition="#blockquote">
+                            <quote>Thanks for your kind words of sympathy with Walter and me in our sorrow for the great loss we have just undergone of one of the best friends we ever had, and one of the best men that ever lived [W. Morris]—simple as a child and unselfish as few children are, brave and kind and true and loyal as any one of his own Icelandic heroes or mediaeval knights. As Walter has been saying to me this evening, it is unlike any other loss—it is like the loss of a noble and glorious child whose quaint charm of character made us half forget the unique genius of the poet and the extraordinary energy of the man. My friendship with him began in '57—think of that!—and was never broken or ruffled for a moment; tho' for many years we have hardly ever met, it was none the less cordial and true. I felt stunned all the day after his death. It seemed incredible. Walter says he felt just the same. . . .</quote>
+                            <bibl><ptr type="biblref" target="#"/> <biblScope type="vol">6</biblScope>:<biblScope type="pp">116</biblScope></bibl>
+                        </cit>-->
+                    </p>
+                    <p> Swinburne developed other strong friendships while at Oxford, including a lasting friendship Benjamin Jowett, an Oxford Don, Master of Balliol College, theologian and classicist, perhaps most famous as a translator of Plato.</p>
+                    <p>With his close friend, John Nichol, Swinburne was a member of an undergraduate group of
+                        intellectuals, writers, artists, thinkers. They called themselves the
+                        <soCalled>Old Mortality</soCalled> and published a short-lived
+                        journal <title>Undergraduate Papers</title>, which ran to three issues and in which Swinburne published essays on “The Early English Dramatists,” “Modern Hellenism” (a critique of Matthew Arnold's lectures as Professor of Poetry at Oxford), and “Church Imperialism.” He also published a parodic review of an invented drama <title>The Monomaniac's Tragedy</title> by an invented spasmodic poet Ernest Wheldrake. He published a canto of <title>Queen Yseult</title>, a narrative poem in rhymed tercets and an early example of Swinburne's recurring engagement with Arthurian legend.
+                      </p>
+                    <p>Swinburne left Oxford in November 1859 without taking a degree and moved to London.</p>
+                </div>
+                <div xml:id="df012b">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">London</head>
+                    <p>In London Swinburne engaged in an active social life. At social gatherings Swinburne would often recite from his prodigious memory his own poems and the works of others. He
+                        frequented parties hosted by Richard Monckton Milnes (later Lord Houghton). Milnes introduced Swinburne to many cultural figures, including Richard Francis Burton, adventurer, writer, translator, and diplomat. Burton and Swinburne shared a fondness for erotic literature and for brandy.</p>
+                    <p>Swinburne also traveled frequently during this period, including visits to the Channel Islands, Italy (where he met his hero Walter Savage Landor), and France (where he met another hero, Victor Hugo).</p>
+                    <p>In the 1870s Swinburne's health deteriorated as a result of his excessive
+                        drinking habits.</p>
+                    
+                </div>
+                <div xml:id="df012c">
+                    <head rendition="#styled">Putney</head>
+                    <index indexName="nav"/>
+                    <p>Through the intervention of his mother and close friend Theodore Watts (later Watts-Dunton), Swinburne was removed from his London rooms to live at The Pines in Putney with Watts-Dunton. There Swinburne lived out his days, writing prolifically and reading voraciously, under the watchful eye of his dear friend. As Rikky Rooksby writes in his biography of Swinburne, “The role of Watts-Dunton in Swinburne's life was a mixed blessing”:
+                        <cit rendition="#blockquote">
+                            <quote>For much of their time at The Pines, Swinburne was happy, healthy and productive. Watts-Dunton banished some of the loneliness from Swinburne's existence as he banished the spectre of an early death through alcoholism.… It is also true that he banished some of Swinburne's friends and sources of inspiration.</quote> <bibl>(2)</bibl></cit>
+                        Whatever the influence of Watts-Dunton, the decline in the quality of Swinburne's poetry is not markedly different from the decline seen in the work of many other poets who continue to a similar age as Swinburne. In any case, it is clear Swinburne produced some remarkable work after taking up residence at The Pines. Parts of <title>Songs of the Springtides</title>, <title>Studies in Song</title>, and other later collections rank among Swinburne's best work. The long narrative <title>Tristram of Lyonesse</title> is generally considered to be among Swinburne's greatest works and among the great long English poems of the nineteenth century.</p>
+                    <p>Swinburne continued writing and publishing into the twentieth century. Though he grew nearly deaf, which curtailed his social activities, Swinburne remained physically active until the end, settling into a daily routine of walks along Wimbledon Commons. Having arrived in Wimbledon, Swinburne would stop at a bookseller's shop for newspapers and at the <ref target="http://www.roseandcrownwimbledon.co.uk/history.php">Rose and Crown</ref> pub for a single bottle of Bass Ale before his return journey to The Pines. Swinburne's final years are recounted in a charming book, <title>The Home Life of Swinburne</title>, by Clara Watts-Dunton, who married Theodore Watts-Dunton in 1905.</p>
+                  <p>Algernon Charles Swinburne died on April 10th, 1909 of complications from pneumonia.</p>
+                    <p>
+                    For more details on Swinburne's life, consult the best and most recent of Swinburne biographies, Rikky Rooksby's excellent <title>A. C. Swinburne: A Poet's Life</title> <bibl>(Scolar Press, 1997)</bibl>.
+                    </p>
+                </div>
+            </div>
+            <div xml:id="literary_career">
+                <head rendition="#styled">Literary Career</head>
+                <index indexName="nav"/>
+                <div xml:id="early_fame">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">1860s: Early Fame</head>
+                    <p>Swinburne entered the public literary scene with little notice in 1860
+                        with the publication of two dramas in one volume, <title>The
+                            Queen-Mother and Rosamond</title>, dedicated to Dante Gabriel
+                        Rossetti. <title>The Queen-Mother</title> portrays the machinations
+                        of Catherine di Medici (the Queen Mother of the title) to persuade her son, King
+                        Charles IX of France, to order what would become known as the <name type="event"
+                            corresp="#unfamiliar" key="bartholomewMassacre">St. Bartholomew's
+                            Day Massacre.</name></p>
+                    <p>In his 1970 volume <title>Algernon Charles Swinburne</title> in the Critical Heritage series, Clyde K. Hyder identifies two short unsigned notices,
+                        in the <title>Spectator</title> and the <title>Athenaeum</title>, of <title>The Queen-Mother and Rosamond</title>. Both reviews were negative. The reviewer in the <title>Spectator</title> wrote, <cit><quote>We cannot say so much of the two dramas entitled, <title>The Queen Mother and Rosamond</title>. We have with some difficulty read through them</quote></cit>
+
+                    </p>
+                    <p>A more extended and very sympathetic <ref target="x-spid:acs0000507-01">review</ref> of the volume appears in <title>John Bull</title> April 6th 1861. The unsigned reviewer finds in Swinburne “signs of a rich fancy, and a powerful grasp of ideas,” “a very high poetic invention,” and “an artistic power of no common order.”</p>
+                    <p>In 1865 Swinburne published two more works: <title>Atalanta in Calydon</title>, a lyrical drama modeled on Greek tragedy with blank verse dialogue and rhymed, lyrical choruses, and <title>Chastelard</title>, the first in Swinburne's trilogy of dramas on the subject of Mary Stuart. <title>Atalanta</title> received a more positive reception than Swinburne's first volume. A lengthy, unsigned review in the <title>Saturday Review</title> observed:
+                    <cit rendition="#blockquote">
+                        <quote><title>Atalanta in Calydon</title> is an attempt to reproduce a Greek tragedy in its ideas as well as its form, to some extent even in its metres—an attempt necessarily chargeable with faults and weaknesses, yet still one of the most brilliant that our literature contains.</quote> <bibl>(540)</bibl></cit>
+                    </p>
+                    <p>In an 1866 letter to Charles Eliot Norton, John Ruskin wrote:
+                        <cit rendition="#blockquote">
+                            <quote>Have your read Swinburne's <title rendition="#n">Atalanta</title>—the grandest thing ever yet done by a youth—though he is a Demoniac youth—whether ever he will be clothed and his right mind—heaven only knows. His foam at the mouth is fine, meantime.</quote> <bibl>(96-97)</bibl></cit>
+                    </p>
+                </div>
+                <div xml:id="df012d">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">Poems and Ballads, First Series</head>
+                    <p>The publication in 1866 of &pb1; was the most significant
+                        event in the literary career of Algernon Charles Swinburne, and it
+                        was one of the more significant and influential events in
+                        nineteenth-century literature and Victorian culture. 
+                        An early biography of Swinburne by Edmund Gosse captures the intensity and impact of Swinburne's explosion onto the cultural and literary scene. Gosse was sixteen when &pb1; was published in July 1866 and benefits from being closer to the action than the modern twenty-first-century reader:
+                        <cit rendition="#blockquote">
+                            <quote>
+                                Algernon Swinburne in the winter of 1866 was simply the young man of almost fabulous genius, who had produced a sensation among lovers of poetry such as had not been approached since the youth of Tennyson. As an eminent critic, then an undergraduate at Oxford, has said, “It simply swept us off our legs with rapture.” At Cambridge the young men joined hands and marched along shouting <title level="a">Dolores</title> or <title level="a">A song in time of Revolution.</title> The volume was mixed up with other fire-crackers in the preparation for the Fifth of November. It stood for passion and flame and revolt, it raced beside the swiftest of its admirers and easily beat them. As Mr. [George] Saintsbury, himself an ardent youth in those days, outside any circle of personal relations with the poet, has recorded, “all the metaphors and similes of water, light, wind, fire, all the modes of motion” seemed to inspire and animate this wonderful poetry, which took the whole lettered youth of England by storm with its audacity and melody.</quote> <bibl>(160-161)</bibl></cit>
+                        
+                       Published as his first collection when Swinburne was twenty-nine, 
+                        &pb1; was a large collection, sixty-two poems representing Swinburne's best work to that point. The volume is famous for
+                        its fascination with the femme fatale and representations of taboo or unconventional sexuality, particularly evident in poems
+                        such as <title level="a"><ref
+                            target="x-spid:acs0000001-01-i037"
+                            >Dolores</ref>,</title>
+                        <title level="a"><ref
+                            target="x-spid:acs0000001-01-i022"
+                            >Faustine</ref>,</title> <title level="a"><ref
+                                target="x-spid:acs0000001-01-i004">Laus
+                                Veneris</ref>,</title> and <title level="a"><ref
+                                    target="x-spid:acs0000001-01-i010"
+                                    >Anactoria</ref>.</title> <!-- Anactoria presents another such femme fatale
+                        in one of the great Victorian
+                        dramatic monologues. The speaker is the Greek lyric poet Sappho,
+                        whom Swinburne considered to be <quote>the very greatest poet that ever lived</quote>
+                        <bibl>(<title>Letters</title> <biblScope type="vol">4</biblScope>:<biblScope type="pp">123</biblScope>)</bibl>,
+                        addressing her lesbian lover Anactoria. The poem, written in heroic
+                        couplets, constitutes a heroic, tragic, and desperate paean of love,
+                        lust, pain, despair, and hate: <cit rendition="#blockquote">
+                            <quote rendition="#inline">
+                                <lg rendition="#inline">
+                                    <l>I would my love could kill thee; I am satiated</l>
+                                    <l>With seeing the live, and fain would have thee dead.</l>
+                                    <l>I would earth had thy body as fruit to eat,</l>
+                                    <l>And no mouth but some serpent's found thee sweet.</l>
+                                    <l>I would find grievous ways to have thee slain,</l>
+                                    <l>Intense device, and superflux of pain;</l>
+                                    <l>Vex thee with amorous agonies, and shake</l>
+                                    <l>Life at thy lips, and leave it there to ache;</l>
+                                    <l>Strain out thy soul with pangs too soft to kill,</l>
+                                    <l>Intolerable interludes, and infinite ill;</l>
+                                    <l>Relapse and reluctation of the breath,</l>
+                                    <l>Dumb tunes and shuddering semitones of death. <bibl xml:id="bibl_df907">(<biblScope type="ll">23-34</biblScope>)</bibl></l></lg>
+                            </quote>
+                        </cit>
+                        -->
+                    </p>
+                    <p>The emphasis critics and literary historians have placed upon the representations of sexuality in &pb1; has obscured the diversity of not only the 1866 volume but of Swinburne's entire oeuvre. Jerome McGann has argued, <cit><quote>[S]o shocking was the advent of this epochal book that it would come to obscure the range of Swinburne’s work—a range so extensive that one can sometimes scarcely imagine how it came to be thought narrow or precious</quote> <bibl>(207)</bibl></cit>. This extensive range is evident within Swinburne's first collection, with its lyrics, ballads, dramatic monologues (<title level="a"><ref target="x-spid:acs0000001-01-i004">Laus Veneris</ref>,</title> <title level="a"><ref target="x-spid:acs0000001-01-i009">Itylus</ref>,</title> <title level="a"><ref target="x-spid:acs0000001-01-i010">Anactoria</ref>,</title> <title level="a"><ref target="x-spid:acs0000001-01-i011">Hymn to Proserpine</ref></title>), other dramatic forms (<title level="a"><ref target="x-spid:acs0000001-01-i005">Phaedra</ref>,</title>, <title level="a"><ref target="x-spid:acs0000001-01-i051">The Masque of Queen Bersabe</ref></title>), ekphrastic works (<title level="a"><ref target="x-spid:acs0000001-01-i050">A Christmas Carol</ref></title>,<title level="a"> <ref target="x-spid:acs0000001-01-i030">Before the Mirror</ref></title>, <title level="a"><ref target="x-spid:acs0000001-01-i013">Hermaphroditus</ref></title>), classical forms (<title level="a"><ref target="x-spid:acs0000001-01-i046">Hendecasyllabics</ref></title>, <title level="a"><ref target="x-spid:acs0000001-01-i047">Sapphics</ref></title>) poems with biblical, classical, medieval, and contemporary settings. &pb1; is an expansive tour de force displaying Swinburne's virtuosic mastery of genres and verse forms, diverse themes and settings, and compelling characters. </p>
+                </div>
+                <div xml:id="political_verse">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">1870s: Political Verse</head>
+                    <p>In the 1870s Swinburne's verse shifted focus to politics, patriotism,
+                        republicanism, condemnations of tyranny, and celebrations of liberty.
+                        These were not new themes for Swinburne, but the emphasis and focus on these themes was a marked contrast to the previous collection &pb1;. &sbs; appeared in 1871. The volume was dedicated to
+                        Italian patriot Giuseppe Mazzini, a major figure in the nineteenth-century
+                        unification of Italy. Many of the poems are explicitly topical, addressing
+                        specific events and figures in the Italian struggle, e.g., 
+                        <title level="a"><ref target="x-spid:acs0000001-02-i006">The Halt before Rome</ref>,</title>
+                        <title level="a"><ref target="x-spid:acs0000001-02-i007">Mentana: First Anniversary</ref>,</title>
+                        <title level="a"><ref target="x-spid:acs0000001-02-i008">Blessed among Women</ref>,</title>
+                        <title level="a"><ref target="x-spid:acs0000001-02-i031">Ode on the Insurrection in Candia</ref>,</title> and others. Swinburne
+                        often chose classical, biblical, or theological motifs to amplify his explorations of contemporary issues and events. <title level="a"><ref target="x-spid:acs0000001-02-i008">Blessed among Women</ref>,</title>  for instance, adopts Marian
+                        language and epithets in praise of Signora Adelaide Bono Cairoli, mother
+                        of five brothers, all of whom fought and four of whom died in the
+                        Italian struggle. And <title level="a"><ref target="x-spid:acs0000001-02-i005">Super Flumina Babylonis</ref>,</title> borrows its title from Psalm 136 in the Vulgate and evokes the Babylonian captivity.</p>
+                    
+                    
+                    <p>&stn; was a slim volume that included two long poems and a sonnet sequence, all previously published elsewhere before being collected into this volume. <title level="a"><ref target="x-spid:acs0000001-02-i043">A Song of Italy</ref>,</title> dedicated to Mazzini; <title level="a"><ref target="x-spid:acs0000001-02-i044">Ode on the Proclamation of the French Republic</ref>,</title> dedicated to Victor Hugo; and <title level="a"><ref target="x-spid:acs0000001-02-i045">Dirae</ref>,</title> a sonnet sequence of vituperative attacks against those Swinburne believed to be enemies of liberty and republicanism.</p>
+                    <p>Swinburne's &erc; appeared in 1876 and represents a return to the form of Greek tragedy first attempted with &aic;. &erc; may be read as the culmination of Swinburne's republican poetry. &erc; eschews the explicit topicality of the collections &sbs; and &stn; and instead provides a sustained classical and mythological framework to support Swinburne's themes of Republicanism, liberty, patriotism and sacrifice.  
+                    </p>
+                    <p>Swinburne closes the 1870s with &pb2;, published in 1878, a volume that departs from the preoccupation with politics that dominated Swinburne's poetry throughout most of the decade. The influence of French literature is particularly strong in this volume, which includes Swinburne famous elegy for Baudelaire (<title level="a"><ref target="&purlPrefix;">Ave Atque Vale</ref></title>), as well as elegies for Gautier, written in English (<title level="a"><ref target="x-spid:acs0000001-03-i012">Memorial Verses on the Death of Théophile Gautier</ref></title>), French (<title level="a"><ref target="x-spid:acs0000001-03-i056">Théophile Gautier</ref></title>), and Latin (<title level="a"><ref target="x-spid:acs0000001-03-i058">In Obitum Theophili Poetae</ref></title>) and verses to Villon, Hugo, and Théodore de Banville. &pb2; also includes many of Swinburne's translations from Villon.</p>
+                </div>
+                <div xml:id="transition">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">1880s: Transition &amp; Maturity</head>
+                    <p>Upon settling in with Watts-Dunton at The Pines, Swinburne entered an incredibly productive period. In 1880 he published four volumes: three smaller volumes of poetry (&sbs;, &sis;, and &hep;, a collection of parodies—of Tennyson, Rossetti, Swinburne himself, and others)  and a critical monograph, <title>A Study of Shakespeare</title>. In 1881 he published <title>Mary Stuart</title>, the final work in his trilogy, begun in 1865 with <title>Chastelard</title>, on the ill-fated queen. All this was followed in 1882 by <title>Tristram of Lyonesse and Other Poems</title>. <title>Tristram of Lyonesse</title>—a Romantic epic in heroic couplets—is unquestionably one of Swinburne's major works and one of the great long poems of the nineteenth century. Swinburne had long been fascinated by the story of Tristan and Iseult and wrote about the legend in his very early work <title level="a">Queen Yseult,</title> which appeared, while Swinburne was at Oxford, in the short-lived journal <title>Undergraduate Papers</title>.
+                    </p>
+                    <p>Following on the heels of this majestic, erotic epic, Swinburne published in 1853 &cor;, a volume that exhaustively explores a tiny form, the Roundel. Swinburne is credited with the invention of this form, modeled on French fixed forms, the rondeau and rondel. Swinburne's variation is a nine-line poem in three stanzas (abaR bab abaR, with the R designating a refrain that consists of the first word or phrase of the poem). &cor;, dedicated to Christina Rossetti, includes about midway through the volume a meta-poem providing commentary on the form:
+                        <cit rendition="#blockquote">
+                            <quote>
+                                <lg>
+                                        <head rendition="#center #uc">The Roundel</head>
+                                        <lg>
+                                            <l><hi rendition="#sc">A roundel</hi> is wrought as a ring or a starbright sphere,</l>
+                                            <l>With craft of delight and with cunning of sound unsought,</l>
+                                            <l>That the heart of the hearer may smile if to pleasure his ear</l>
+                                            <l rendition="#ti-6">A roundel is wrought.</l>
+                                        </lg>
+                                        <lg>
+                                            <l>Its jewel of music is carven of all or of aught—</l>
+                                            <l>Love, laughter, or mourning—remembrance of rapture or fear—</l>
+                                            <l>That fancy may fashion to hang in the ear of thought.</l>
+                                        </lg>
+                                        <lg>
+                                            <l>As a bird's quick song runs round, and the hearts in us hear</l>
+                                            <l>Pause answer to pause, and again the same strain caught,</l>
+                                            <l>So moves the device whence, round as a pearl or tear,</l>
+                                            <l rendition="#ti-6">A roundel is wrought.</l>
+                                        </lg>
+                                </lg>
+                            </quote> 
+                        </cit>
+                    </p>
+                    <p>
+                        Swinburne was also a prolific <ref target="x-spid:blah">composer</ref> of sonnets (see, for instance, <title level="a"><ref target="x-spid:acs0000001-01-i013">Hermaphroditus</ref></title>, <title level="a"><ref target="x-spid:acs0000001-01-i055">Love and Sleep</ref></title>, <title level="a"><ref target="x-spid:acs0000001-05-i075">A Death on Easter Day</ref></title>, <title><ref target="x-spid:acs0000001-05-i080">On Lamb's Specimens of Dramatic Poets</ref></title>, <title level="a"><ref target="x-spid:acs0000001-05-i084">On the Russian Persecution of the Jews</ref></title>, <title level="a"><ref target="x-spid:acs0000001-05-i105">Sonnets on English Dramatic Poets (1590-1650)</ref></title>, <title level="a"><ref target="x-spid:acs0000001-06-i046">A Sequence of Sonnets on the Death of Robert Browning</ref></title>). Swinburne was frequently charged by critics with excessive verbosity and lack of concision. These comments on <title level="a"><ref target="x-spid:acs0000001-03-i099">Thalassius</ref>,</title> from an unsigned review of &sos; in <title>The Saturday Review</title>, are typical:
+                        <cit rendition="#blockquote">
+                            <quote>Surely it is not an unfair or captious criticism which sees in <title level="a">Thalassius</title> a vast excess of sound over sense, a prodigality of words with do not so much express as conceal the poet's meaning.</quote> <bibl>(699)</bibl></cit>
+                            
+                        In the face of such charges, it is worth noting that Swinburne had mastered highly concentrated and compact forms such as the sonnet and the roundel.</p>
+                    <p>In 1884 Swinburne published <title><ref target="/swinburne/search?f1-collection=A%20Midsummer%20Holiday%20and%20Other%20Poems">A Midsummer Holiday and Other Poems</ref></title>, which included poems of landscapes and seascapes, political verse, and of course more elegies. &pb3;, published in 1889, included <title level="a"><ref target="x-sbid:acs0000001-03-i065">To a Seamew</ref>,</title>  <title level="a"><ref target="x-spid:acs0000001-03-i066">Pan and Thalassius</ref>,</title> <title level="a"><ref target="x-spid:acs0000001-03-i073">Neap-Tide</ref>,</title> elegies for <ref target="x-spid:acs0000001-03-i081">Sir Henry Taylor</ref> and <ref target="x-spid:acs0000001-03-i082">John William Inchbold</ref>, and a number of border ballads originally intended for <title>Lesbia Brandon</title>, Swinburne's unfinished novel. </p>
+                        
+                </div>
+                
+                <div xml:id="late">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">1890s and 1900s: Final Achievements</head>
+                    <p>In the 1890s and the first decade of the twentieth century, before his death in 1909, Swinburne published two more collections of poems, &aop; (1894) and &cpo; (1904), and another Arthurian epic, &tob; (1896). Swinburne wrote some splendid poetry in his later years. A fine example is <title level="a"><ref target="x-spid:acs0000001-06-i031">A Nympholept</ref>,</title> a submlime encounter with the nature god Pan:
+                        <cit rendition="#blockquote">
+                            <quote>
+                                <lg rend="margin-bottom:0;">
+                                    <l>The naked noon is upon me: the fierce dumb spell,</l>
+                                    <l rendition="#ti-1">The fearful charm of the strong sun's imminent might,</l>
+                                    <l>Unmerciful, steadfast, deeper than seas that swell,</l>
+                                    <l rendition="#ti-1">Pervades, invades, appals me with loveless light,</l>
+                                    <l rendition="#ti-1">With harsher awe than breathes in the breath of night.</l>
+                                    <l>Have mercy, God who art all! For I know thee well,</l>
+                                    <l rendition="#ti-1">How sharp is thine eye to lighten, thine hand to smite.</l>
+                                </lg>
+                            </quote>
+                            <bibl rend="margin-top:0; margin-left:21em;">(ll. 85-91)</bibl>
+                        </cit>
+                    </p>
+                    <p>
+                        As Swinburne aged and his friends, peers, and heroes passed away in increasing numbers, Swinburne had even more opportunities in these late volumes to add to his prolific output of elegies. The two late collections include elegies <ref target="x-spid:acs0000001-06-i044.xml">to Swinburne's close friend Richard Burton</ref>, <ref target="x-spid:acs0000001-06-i046">Robert Browning</ref>, <ref target="x-spid:acs0000001-06-i062">William Bell Scott</ref>, and <ref target="x-spid:acs0000001-06-i079">Christina Rossetti</ref>.  </p>
+                </div>
+                <div xml:id="drama_fiction_criticism">
+                    <index indexName="nav"/>
+                    <head rendition="#styled">Drama, Prose Fiction, and Criticism</head>
+                    <p>This introduction has focused on Swinburne's poetry. Swinburne's six-volume collected <title>Poems</title>, published in 1904, was followed in 1905 the five-volume <title>Tragedies of Algernon Charles Swinburne</title>. The dramas include: <title>Queen Mother</title>; <title>Rosamond</title>; the Mary Stuart trilogy: <title>Chastelard</title>,  <title>Bothwell</title>, and <title>Mary Stuart</title>; <title>Locrine</title>; <title>The Sisters</title>; <title>Marino Faliero</title>; and <title>Rosamund, Queen of the Lombards</title>. The fragmentary <title>Duke of Gandia</title> was published later in 1908. With the exception of <title>The Sisters</title>, a blank-verse drama with a contemporary nineteenth-century setting, these are all tragedies on historical or legendary figures and bear the strong influence of the Elizabethan and Jacobean drama to which Swinburne was so devoted. Swinburne's dramas have generally been considered unsuccessful. They are long and dense and complex. Swinburne had an intimate and comprehensive knowledge of Elizabethan and Jacobean drama. In fact, Swinburne, perhaps the most widely read of English poets, considered Charles Lamb's selections from Elizabethan and Jacobean dramatists to be among the two most influential books in the vast canon of literature that Swinburne knew so intimately. As Gosse reports in his <title>Life</title>, while looking over Gosse's bookshelves, Swinburne selected a copy of Lamb's <title>Specimens of the English Dramatic Poets</title>, and, turning to Gosse, said, <q>That book taught me more than any other in the world—that and the Bible.</q> Writing in his autobiography, Henry Adams comments at length on Swinburne and on his <q>incredible memory and knowledge of literature, classic, mediaeval, and modern; his faculty of reciting a play of Sophocles or a play of Shakespeare, forward or backward, from end to beginning; or Dante, or Villon, or Victor Hugo</q> (140). Thus a full appreciation and understanding of Swinburne's dramas (and other works) requires a familiarity with the literary past and the many literary traditions within which Swinburne worked. It would have been difficult for many nineteenth-century readers to match Swinburne's literary knowledge, and it is more difficult for modern readers who are often never exposed to many of the authors and works that held such sway over Swinburne. </p>
+                    <p>Swinburne was also a prolific and influential critic. Swinburne wrote shorter essays on Hugo, Byron, Shelley, Arnold, D. G. Rossetti, Morris, Coleridge, John Ford, Congreve, Collins, Wordsworth, Lamb, Landor, Keats, Tennyson, Emily Brontë, Chaucer, Spenser, Charles Reade, Walter Scott, Benjamin Jowett, John Webster, Beaumont and Fletcher, Wilkie Collins, Whitman, and others. He also wrote essays on art that influenced figures such as Pater and Wilde. Swinburne's shorter essays were gathered in the collections <title>Essays and Studies</title> (1875), <title>Miscellanies</title> (1886), and <title>Studies in Prose and Poetry</title> (1894). He also wrote several book-length critical works: <title>William Blake: A Critical Essay</title> (1868), <title>George Chapman: A Critical Essay</title> (1875), <title>A Note on Charlotte Brontë</title> (1877), <title>A Study of Ben Jonson</title> (1889), <title>A Study of Shakespeare</title> (1880), and <title>A Study of Victor Hugo</title> (1886). </p><p>Matthew Arnold found Swinburne to be a sensitive and insightful critic of Arnold's own works. After reading Swinburne's essay <title level="a">Mr. Arnold's <title>New Poems</title></title>, which appeared in the <title>Fortnightly Review</title> 8, (Oct. 1867), Arnold wrote in a letter to Francis Turner Palgrave:
+                        <cit rendition="#blockquote">
+                            <quote>Swinburne fairly took my breath away. I must say the general public praise me in the dubious style in which old Wordsworth used to praise Bernard Barton, James Montgomery, and suchlike; and the writers of poetry, on the other hand—Browning, Swinburne, Lytton—praise me as the general public praises its favourites. This is a curious reversal of the usual order of things. Perhaps it is from an exaggerated estimate of my own unpopularity and obscurity as a poet, but my first impulse is to be astonished at Swinburne's praising me, and to think it an act of generosity. Also he picks passages which I myself should have picked, and which I have not seen other people pick.</quote></cit>
+                    </p>
+                    <p>
+                        Twentieth-century poet and critic T. S. Eliot opens his essay <title level="a">Swinburne as Critic</title> with an acknowledgement of the signficiance of Swinburne's criticism and Swinburne's mastery of his subjects:
+                        <cit rendition="#blockquote"><quote>
+                        Three conclusions at least issue from the perusal of Swinburne's critical essays: Swinburne had mastered his material, was more inward with the Tudor-Stuart dramatists than any man of pure letters before or since; he is a more reliable guide to them than Hazlitt, Coleridge, or Lamb; and his perception of relative values is almost always correct. Against these merits we may oppose two objections: the style is the prose style of Swinburne, and the content is not, in an exact sense, criticism. The faults of style are, of course, personal; the tumultuous outcry of adjectives, the headstrong rush of undisciplined sentences, are the index to the impatience and perhaps laziness of a disorderly mind. But the style has one positive merit: it allows us to know that Swinburne was writing not to establish a critical reputation, not to instruct a docile public, but as a poet his notes upon poets whom he admired. And whatever our opinion of Swinburne's verse, the notes upon poets by a poet of Swinburne's dimensions must be read with attention and respect.</quote> <bibl>(17)</bibl></cit>
+                    </p>
+                    <p>
+                        Future editions of <title>The Swinburne Project</title> will incorporate texts of Swinburne's dramas and prose criticism.
+                    </p>
+                </div>
+            </div> 
+                
+        </body>
+        <back>
+            <div xml:id="works_cited">
+                <index indexName="nav"/>
+                <head rendition="#center #styled">Works Cited</head>
+                <listBibl>
+                    <bibl xml:id="adams1918">Adams, Henry. <title>The Education of Henry Adams: An Autobiography</title>. Boston: Houghton Mifflin, 1918.</bibl> 
+                    <bibl xml:id="arnold">Arnold, Matthew. “To Francis Turner Palgrave.” 9 Oct. 1867. Letter <ref target="http://rotunda.upress.virginia.edu/arnold/display.xqy?letter=V3P176D1">V3P176D1</ref> of <title><ref target="http://rotunda.upress.virginia.edu/arnold/">The Letters of Matthew Arnold: A Digital Edition</ref></title>. Charlottesville: U of Virginia P, 2006.</bibl>
+                    <bibl>Rev. of <title>Atalanta in Calydon</title>, by Algernon Charles Swinburne. <title>Saturday Review of Politics, Literature, Science and Art</title> <date when="1865-05-06">6 May 1865</date>: 540-42.</bibl>
+                    <bibl xml:id="eliot1920"><author>Eliot, T.S.</author> <title level="a">Swinburne as Critic.</title> <title>The Sacred Wood: Essays on Poetry and Criticism</title>. London: Methuen, <date when="1920">1920</date>. 17-23.</bibl>
+                    <bibl xml:id="gosse1917">Gosse, Edmund. <title>The Life of Algernon Charles Swinburne.</title>. New York: Macmillan, 1917.</bibl>
+                    <bibl xml:id="mcgann2004">McGann, Jerome. “<title rendition="#n">Swinburne's Radical Artifice; Or, the Comedian as A. C.</title>” <title>Modernism/Modernity</title>  11.2 (2004):  205-218.</bibl>
+                    <bibl xml:id="queenmother1861c">Rev. of <title>The Queen-Mother and Rosamond</title>, by Algernon Charles Swinburne. <title>The Spectator</title> <date when="1861-01-12">12 Jan. 1861</date>: 42.</bibl>
+                    <bibl xml:id="queenmother1861b">Rev. of <title>The Queen-Mother and Rosamond</title>, by Algernon Charles Swinburne. <title>John Bull</title> <date when="1861-04-06">6 Apr. 1861</date>: 219.</bibl>
+                    <bibl xml:id="queenmother1861a">Rev. of <title>The Queen-Mother and Rosamond</title>, by Algernon Charles Swinburne. <title>The Athenaeum</title> <date when="1861-05-04">4 May 1861</date>: 595.</bibl>
+                    <bibl xml:id="rooksby1997">Rooksby, Rikky. <title>A. C. Swinburne: A Poet’s Life</title>. Brookfield, VT: Scolar Press, 1997.</bibl>
+                    <bibl>Ruskin, John. “To Charles Eliot Norton.” 28 Jan. 1866. <title>Letters of John Ruskin to Charles Eliot Norton.</title> Ed. Charles Eliot Norton. Vol. 1. Boston: Houghton Mifflin, 1905. 156-57.</bibl>
+                    <bibl xml:id="sos1880">Rev. of <title>Songs of the Springtides</title>, by Algernon Charles Swinburne. <title>Saturday Review of Politics, Literature, Science and Art</title> <date when="1880-05-29">29 May 1880</date>: 698-99.</bibl>
+                    <bibl xml:id="swinburne1867"><author>Swinburne, Algernon Charles</author>. <title level="a">Mr. Arnold's <title>New Poems</title>.</title> <title>Fortnightly Review</title> <date when="1867-10-01">1 Oct. 1867</date>: 414-445.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

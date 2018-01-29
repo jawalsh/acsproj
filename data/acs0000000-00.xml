@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="swinburne.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000000-00">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Algernon Charles Swinburne Project</title>
+                <author>
+                    <persName key="acs">Swinburne, Algernon Charles</persName>
+                </author>
+                <editor role="editor">
+                    <persName key="jawalsh"> John A. Walsh </persName>
+                </editor>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+                    Swinburne</title>
+                <respStmt>
+                    <resp> Edited by </resp>
+                    <name> John A. Walsh </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcriber and Encoder</resp>
+                    <persName>Alice Wei</persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="acs0000000-00-md.xml" xpointer="element(acs0000000-00-bibl)"/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p xml:id="quotation_format">single</p>
+                </quotation>
+            </editorialDecl>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+            <p><note n="true" xml:id="hasPageImages"/></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
+            <change n="svninfo">
+                $Id: acs0000001-01.xml 1013 2009-09-24 16:29:08Z jawalsh $
+                $Rev: 1013 $
+                $Date: 2009-09-24 12:29:08 -0400 (Thu, 24 Sep 2009) $
+                $Author: jawalsh $
+            </change>
+        </revisionDesc>
+    </teiHeader>
+	<text>
+	    <body><p/></body>
+	</text>
+</TEI>

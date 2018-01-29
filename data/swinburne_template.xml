@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
+<!DOCTYPE TEI [
+<!ENTITY title "Swinburne Details">
+<!ENTITY id "acs">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="&id;">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&title;</title>
+                <author>
+                    <persName key="acs">Algernon Charles Swinburne</persName>
+                </author>
+                <editor role="editor">
+                    <persName xml:id="jawalsh" key="jawalsh">John A. Walsh</persName>
+                </editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
+                </respStmt>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+                    Swinburne</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name>John A. Walsh</name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">&title;</title>
+                        <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Chatto</publisher>
+                            <date when="1909">1909</date>
+                            <biblScope type="vol">6</biblScope>
+                            <biblScope type="pp">427-434</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <p></p>
+        </body>
+    </text>
+</TEI>

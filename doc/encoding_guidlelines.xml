@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="/Users/jawalsh/Dropbox/Development/tei/odd/RomaResults/swinburne.rnc" type="compact"?>
+<!DOCTYPE TEI [
+<!ENTITY title "Swinburne Encoding Guidelines">
+<!ENTITY tsp "<title>The Swinburne Project</title>">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&title;</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>John A. Walsh</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This TEI/XML document is the original source.</p>
+                <!--
+                <biblStruct xml:id="acs0000001-01-i010-bibl" n="readingtext">
+                    <analytic>
+                        <title>Anactoria</title>
+                        <author>
+                            <persName key="acs">Swinburne, Algernon Charles</persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Chatto &amp; Windus</publisher>
+                            <date when="1904"/>
+                            <biblScope type="vol">1</biblScope>
+                            <biblScope type="pp">57-66</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+                </biblStruct>
+                -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xmlns="http://www.tei-c.org/ns/1.0">
+                <rendition n="mono" xml:id="mono" scheme="css">font-family: Courier, monospace</rendition>
+                <!-- font-size -->
+                <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
+                <rendition n="x-small" xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+                <rendition n="xx-small" xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+                <rendition n="large" xml:id="large" scheme="css">font-size: large;</rendition>
+                <rendition n="x-large" xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+                <rendition n="xx-large" xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+                <!-- font-style -->
+                <rendition n="i" xml:id="i" scheme="css">font-style: italic;</rendition>
+                <rendition n="normal" xml:id="n" scheme="css">font-style: normal;</rendition>
+                <!-- font-variant -->
+                <rendition n="sc" xml:id="sc" scheme="css">font-variant: small-caps;</rendition>
+                <!-- font-weight -->
+                <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+                <!-- text-decoration -->
+                <rendition n="strike through" xml:id="strike" scheme="css">text-decoration:
+                    line-through;</rendition>
+                <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
+                <rendition xml:id="block" scheme="css">margin: 4em;</rendition>
+                <!-- text-align -->
+                <rendition n="center" xml:id="center" scheme="css">text-align: center;</rendition>
+                <rendition n="right" xml:id="right" scheme="css">text-align: right;</rendition>
+                <rendition n="right" xml:id="left" scheme="css">text-align: right;</rendition>
+                <!-- text-indent -->
+                <rendition n="indent 1 level" xml:id="ti-1" scheme="css">text-indent: 1em;</rendition>
+                <rendition n="indent 2 levels" xml:id="ti-2" scheme="css">text-indent: 2em;</rendition>
+                <rendition n="indent 3 levels" xml:id="ti-3" scheme="css">text-indent: 3em;</rendition>
+                <rendition n="indent 4 levels" xml:id="ti-4" scheme="css">text-indent: 4em;</rendition>
+                <rendition n="indent 5 levels" xml:id="ti-5" scheme="css">text-indent: 5em;</rendition>
+                <rendition n="indent 6 levels" xml:id="ti-6" scheme="css">text-indent: 6em;</rendition>
+                <rendition n="indent 7 levels" xml:id="ti-7" scheme="css">text-indent: 7em;</rendition>
+                <rendition n="indent 8 levels" xml:id="ti-8" scheme="css">text-indent: 8em;</rendition>
+                <rendition n="indent 9 levels" xml:id="ti-9" scheme="css">text-indent: 9em;</rendition>
+                <rendition n="indent 10 levels" xml:id="ti-10" scheme="css">text-indent: 10em;</rendition>
+                <!-- vertical-align -->
+                <rendition n="subscript" xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+                <rendition n="superscript" xml:id="super" scheme="css">vertical-align: super;</rendition>
+
+                <!-- color -->
+                <rendition n="red" xml:id="red" scheme="css">color: red;</rendition>
+                <rendition n="blue" xml:id="blue" scheme="css">color: blue;</rendition>
+                <!-- compound CSS -->
+                <rendition n="hanging indent" xml:id="hang" scheme="css">margin-left: 2em;
+                    text-indent: -2em; padding: 0;</rendition>
+                <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+                <!-- non-CSS styles -->
+                <rendition n="graphic" xml:id="graphic" scheme="free">Graphically rendered element;
+                    currently used for tables that should be graphically highlighted with color.</rendition>
+                <rendition n="bracket" xml:id="bracket" scheme="free">angle bracket</rendition>
+                <rendition n="suppress" xml:id="suppress" scheme="css">display: none</rendition>
+                <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
+                <rendition n="uppercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
+                <rendition n="quotes" xml:id="quotes" scheme="css"/>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The texts included in <title>The Swinburne Project</title> are encoded in TEI/XML.  That is, the texts are encoded in XML following the Text Encoding Initiative's <title><ref target="http://tei.oucs.ox.ac.uk/P5/Guidelines-web/en/html/">Guidelines for Electronic Text Encoding and Interchange</ref></title>, version <soCalled>P5.</soCalled></p>
+            </div>
+            <div>
+                <head>ODD and Schema Files</head>
+                <p>The TEI system utilizes an ODD (One Document Does It All) file to select a subset of the available TEI modules (collections of related elements and attributes). If necessary, the ODD file can also describe modifications to standard TEI structures and mechanisms. From the ODD file, one programmatically derives a validating DTD, W3C schema, or RelaxNG Schema.
+                </p>
+                <p>&tsp; ODD file includes the following TEI modules:
+                    <list type="gloss">
+                        <label>core</label><item>Elements common to all TEI documents.</item>
+                        <label>tei</label><item>Declarations for datatypes, classes, 
+                            and macros available to all TEI modules.</item>
+                        <label>header</label><item>The TEI Header.</item>
+                        <label>textstructure</label><item>Default text structure.</item>
+                        <label>figures</label><item>Tables, formulae, and figures.</item>
+                        <label>namesdates</label><item>Names and dates.</item>
+                        <label>linking</label><item>Linking, segmentation and alignment.</item>
+                        <label>transcr</label><item>Transcription of primary sources.</item>
+                        <label>msdescription</label><item>Manuscript Description.</item>
+                        <label>analysis</label><item>Simple analytic mechanisms.</item>
+                        <label>drama</label><item>Performance texts.</item>
+                        <label>verse</label><item>Verse structures.</item>
+                        <label>corpus</label><item>Header extensions for corpus texts.</item>
+                        <label>tagdocs</label><item>Documentation of TEI modules.</item>
+                        <label>nets</label><item>Graphs, networks and trees</item>
+                    </list>
+                </p>
+                <p>Individual &tsp; TEI/XML files use the RelaxNG (compact syntax) schema, derived from the &tsp; ODD file, for validation.</p>
+                <div>
+                    <head>Files</head>
+                    <list>
+                        <item><ref target="swinburne.odd">swinburne.odd</ref></item>
+                        <item><ref target="swinburne.rnc">swinburne.rnc</ref></item>
+                    </list>
+                </div>
+            </div>
+            <div>
+                <head>Bibliographic Elements</head>
+                <p>When citing Web-based electronic publications, many citations formats require that one include both the publication date and the date of access.  The <att>type</att> attribute on <gi>date</gi> is used to distinguish between these two, and potentially other, dates within a single bibliographic entry found in a <gi>bibl</gi>, <gi>biblStruct</gi>, or <gi>biblFull</gi> element. For example:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<bibl xml:id="tei2010"><editor>TEI Consortium</editor>, ed. 
+	<title>TEI P5: Guidelines for Electronic Text Encoding and Interchange</title>. 
+	<edition>Vers. 1.6.0.</edition> 
+    <publisher>TEI Consortium</publisher>, 
+	<date type="publication" when="2010-02-20">20 Feb. 2010</date>. 
+	<note place="inline">Web.</note> 
+	<date type="access" when="2010-04-04">4 Apr. 2010</date>. 
+	<ptr rendition="#bracket" target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/"/>.
+</bibl>
+                    </egXML>
+                </p>
+                
+            </div>
+            <div>
+                <head>Epigraphs</head>
+                <p>Epigraphs may occur in a number of permutations. For example:
+                    <list>
+                        <item>Epigraphs containing just a quotation</item>
+                        <item>Epigraphs containing a quotation and some form of bibliographic citation, in which both elements (quotation and bibliographic citation) are rendered as block elements.</item>
+                        <item>Epigraphs containing a quotation and some form of bibliographic citation, in which the bibliographic citation is <soCalled>inline</soCalled> in the same block of text as the quotation.</item>
+                    </list>
+                    
+                </p>
+                <div>
+                    <head>One-line epigraphs, no child <gi>bibl</gi></head>
+                    <p>Use <code>#center</code>.</p>
+                    <ab rendition="#wrap">
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<epigraph rendition="#center #i">
+    <p>Vicisti, <rs type="person" key="jesus"><choice><orig>Galilæe</orig><reg>Galilaee</reg></choice></rs>.</p>
+</epigraph>
+                    </egXML>
+                        
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<epigraph rendition="#center #i" xml:lang="fre">
+    <l>Mais où sont les neiges d'antan?</l>
+</epigraph>
+                    </egXML>
+                    </ab>
+                </div>
+                <div>
+                    <head>Multi-line epigraphs, with child <gi>cit</gi></head>
+                    <p>Use <code>#center-block</code> in <att>@rendition</att> and <code>width:XXem;</code>, where <soCalled>XX</soCalled> is the a number of em-dashed indicated the approximate width of the epigraph block.</p>
+                    <ab rendition="#wrap">
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<epigraph rendition="#center-block" rend="width:20em">
+    <cit rendition="#block">
+        <quote xml:lang="grc" rendition="#block">
+            <lg>
+                <l rendition="#ti-4">τίνος αὖ τὺ πειθοῖ</l>
+                <l>μὰψ σαγηνεύσας φιλόταταϗ</l>
+            </lg>
+        </quote>
+        <bibl rendition="#sc #block" rend="margin-left:10em;"><persName key="sappho">Sappho</persName>.</bibl>
+    </cit>
+</epigraph>
+                        </egXML>
+                    </ab>
+                </div>
+                <div>
+                    <head><soCalled>Songs</soCalled> embedded in longer poems, dramas, etc.</head>
+                    <p>Swinburne's dramas and longer poems like <title>Tristram of Lyonesse</title> contain embedded songs, which are rendered distinctly from the surrounding text.</p>
+                    <p>These are best handled on a case by case basis using a combination of <att>rendition</att> and <att>rend</att>. See example below which handles both the left-indent (using <att>rend</att> and the smaller text (using <att>rendition</att>).</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<lg type="verse_paragraph">
+	<l n="888" rendition="#ti-1">And <persName key="tristram" xml:id="persName_214">Tristram</persName> smiled and changed his
+						song and sang.</l>
+	<lg type="song" rendition="#x-small" rend="margin-left:4em;">
+		<lg>
+			<l n="889">"The breath between my lips of lips not mine,</l>
+			<l n="890">Like spirit in sense that makes pure sense divine,</l>
+			<l n="891" rendition="#ti-1">Is as life in them from the living sky</l>
+			<l n="892">That entering fills my heart with blood of thine</l>
+			<l n="893" rendition="#ti-1">And thee with me, while day shall live and die.
+							</l>
+		</lg>
+		<lg>
+			<l n="894">"Thy soul is shed into me with thy breath,</l>
+			<l n="895">And in my heart each heartbeat of thee saith</l>
+			<l n="896" rendition="#ti-1">How in thy life the lifesprings of me lie,</l>
+			<l n="897">Even one life to be gathered of one death</l>
+			<l n="898" rendition="#ti-1">In me and thee, though day may live and die.
+							</l>
+		</lg>
+		<lg>
+			<l n="899">"Ah, who knows now if in my veins it be</l>
+			<l n="900">My blood that feels life sweet, or blood of thee,</l>
+			<l n="901" rendition="#ti-1">And this thine eyesight kindled in mine eye</l>
+			<l n="902">That shows me in thy flesh the soul of me,</l>
+			<l n="903" rendition="#ti-1">For thine made mine, while day may live and die?
+							</l>
+		</lg>
+		<pb n="33" facs="acs0000001-04-044"/>
+		<lg>
+			<l n="904">"Ah, who knows yet if one be twain or one,</l>
+			<l n="905">And sunlight separable again from sun,</l>
+			<l n="906" rendition="#ti-1">And I from thee with all my lifesprings dry,</l>
+			<l n="907">And thou from me with all thine heartbeats done,</l>
+			<l n="908" rendition="#ti-1">Dead separate souls while day shall live and die?</l>
+		</lg>
+		<lg>
+			<l n="909">"I see my soul within thine eyes, and hear</l>
+			<l n="910">My spirit in all thy pulses thrill with fear,</l>
+			<l n="911" rendition="#ti-1">And in my lips the passion of thee sigh,</l>
+			<l n="912">And music of me made in mine own ear;</l>
+			<l n="913" rendition="#ti-1">Am I not thou while day shall live and die?</l>
+		</lg>
+		<lg>
+			<l n="914">"Art thou not I as I thy love am thou?</l>
+			<l n="915">So let all things pass from us; we are now,</l>
+			<l n="916" rendition="#ti-1">For all that was and will be, who knows why?</l>
+			<l n="917">And all that is and is not, who knows how?</l>
+			<l n="918" rendition="#ti-1">Who knows? <persName key="god" xml:id="persName_215">God</persName> knows why day should live and die."</l>
+		</lg>
+	</lg>
+	<l n="919">And <persName key="iseult" xml:id="persName_216">Iseult</persName> mused and spake no word, but sought</l>
+	<l n="920">Through all the hushed ways of her tongueless thought</l>
+	<l n="921">What face or covered likeness of a face</l>
+	<l n="922">In what veiled hour or dream-determined place</l>
+	<l n="923">She seeing might take for love's face, and believe</l>
+	<l n="924">This was the spirit to whom all spirits cleave.</l>
+	<l n="925">For that sweet wonder of the twain made one</l>
+	<l n="926">And each one twain, incorporate sun with sun,</l>
+	<l n="927">Star with star molten, soul with soul imbued,</l>
+	<l n="928">And all the soul's works, all their multitude,</l>
+	<l n="929">Made one thought and one vision and one song,</l>
+	<l n="930">Love&#x2014;this thing, this, laid hand on her so strong</l>
+	<l n="931">She could not choose but yearn till she should see.</l>
+	<l n="932">So went she musing down her thoughts; but he,</l>
+	<l n="933">Sweet-hearted as a bird that takes the sun</l>
+	<l n="934">With clear strong eyes and feels the glad god run</l>
+	<pb n="34" facs="acs0000001-04-045"/>
+	<l n="935">Bright through his blood and wide rejoicing wings,</l>
+	<l n="936">And opens all himself to heaven and sings,</l>
+	<l n="937">Made her mind light and full of noble mirth</l>
+	<l n="938">With words and songs the gladdest grown on earth,</l>
+	<l n="939">Till she was blithe and high of heart as he.</l>
+	<l n="940">So swam the Swallow through the springing sea.</l>
+</lg>
+                    </egXML>
+                </div>
+            </div>
+            <div>
+                <head>Notes</head>
+                <div>
+                    <head>Textual Notes</head>
+                    <p>Note should appear in place at the site of the textual phenomenon being described. The <gi>note</gi> should include the following attriubtes:
+                        <list>
+                            <item><att>type</att><code>="textual"</code></item>
+                            <item><att>xml:id</att></item>
+                            <item><att>resp</att> (e.g., <code>resp="#jawalsh"</code>)</item>
+                        </list>
+                    </p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<note xml:id="d71fe438" rendition="#small" resp="#jawalsh" type="textual">
+    Full stop is missing at the end of the line in the 1904 edition, but 
+    appears in other editions of <title>Poems and Ballads, First Series</title> 
+    and subsequent editions of the collected <title>Poems</title>.
+</note>
+                    </egXML>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

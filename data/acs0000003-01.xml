@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="swinburne.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000003-01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><title level="a">Rondel</title>. Algernon Swinburne Collection. Special Collections Research Center. Syracuse University.</title>
+                <author>
+                    <persName key="acs">Swinburne, Algernon Charles</persName>
+                </author>
+                <editor role="editor">
+                    <persName key="jawalsh"> John A. Walsh </persName>
+                </editor>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+                    Swinburne</title>
+                <respStmt>
+                    <resp> Edited by </resp>
+                    <name> John A. Walsh </name>
+                </respStmt>
+              
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United States</country>
+                        <institution>Syracuse University</institution>
+                        <repository>Special Collections Research Center</repository>
+                        <collection>Algernon Swinburne Collection</collection>
+                        <idno>“Rondel”</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title level="a">Rondel</title>
+                            <title type="first_line">How many years since we began to be,</title>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+            <p><note n="true" xml:id="hasPageImages"/></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
+            <change n="svninfo">
+                $Id: acs0000001-01.xml 1040 2009-11-08 21:31:57Z jawalsh $
+                $Rev: 1040 $
+                $Date: 2009-11-08 16:31:57 -0500 (Sun, 08 Nov 2009) $
+                $Author: jawalsh $
+            </change>
+        </revisionDesc>
+    </teiHeader>
+<text n="Rondel" type="poem" xml:id="acs0000003-01-content">
+    <index corresp="acs0000003-01-md.xml" indexName="text"/>
+    <body>
+        <lb/><head rendition="#center #u">Rondel</head>
+        <lg>
+            <lb/><l n="1">These many years since we began to be,</l>
+            <lb/><l n="2">What have the gods done with us? what with me,</l>
+            <lb/><l n="3">What with my love? they have shown me fates amp; fears,</l>
+            <lb/><l n="4">Harsh springs, &amp; fountains bitterer than the sea,</l>
+            <lb/><l n="5">Grief a fixed star, &amp; joy a vane that veers,</l>
+            <lb/><l n="6" rendition="#ti-1">These many years.</l>
+        </lg>
+        <lg>
+            <lb/><l n="7">With her, my love, with her have they done well?</l>
+            <lb/><l n="8">But who shall answer for her? who shall tell</l>
+            <lb/><l n="9">Sweet things or sad, such things as no man hears?</l>
+            <lb/><l n="10">May no tears fall, if no tears ever fell,</l>
+            <lb/><l n="11">From eyes more dear to me than starriest spheres</l>
+            <lb/><l n="12" rendition="#ti-1">These many years!</l>
+        </lg>
+        <lg>
+            <lb/><l n="13">But if tears ever touched, for any grief,</l>
+            <lb/><l n="14">Those eyelids <del>whiter than th</del> <add place="above">folded like</add> a white-rose leaf,</l>
+            <lb/><l n="15">Deep double shells wherethrough the eye-flower peers,</l>
+            <lb/><l n="16">Let them weep once more only, sweet and brief,</l>
+            <lb/><l n="17">Brief tears &amp; bright, for one who gave her tears</l>
+            <lb/><l n="18" rendition="#ti-1">These many years.</l>
+        </lg>
+    </body>
+</text>
+    </TEI>

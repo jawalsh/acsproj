@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"?><?xml-stylesheet type="text/css" href="../../tei2html/p5/css/tei.css"?>
+<!DOCTYPE TEI [
+<!ENTITY title "Swinburne Details">
+<!ENTITY id "acs">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="&id;">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&title;</title>
+                <author>
+                    <persName key="acs">Algernon Charles Swinburne</persName>
+                </author>
+                <editor role="editor">
+                    <persName xml:id="jawalsh" key="jawalsh">John A. Walsh</persName>
+                </editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>John A. Walsh</name>
+                </respStmt>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+                    Swinburne</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name>John A. Walsh</name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">&title;</title>
+                        <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Chatto</publisher>
+                            <date when="1909">1909</date>
+                            <biblScope type="vol">6</biblScope>
+                            <biblScope type="pp">427-434</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Swinburne: Details</head>
+            <div>
+                <head>Dedications</head>
+                <list>
+                        <item><title>Queen-Mother and Rosamond</title>: DGR</item>
+                        <item><title>Atalanta</title>: Landor</item>
+                        <item><title>Chastelard</title>: Hugo</item>
+                        <item><title>PB1</title>: Edward Burne Jones</item>
+                        <item><title>William Blake</title>: WMR</item>
+                        <item><title>Songs Before Sunrise</title>: Mazzini</item>
+                        <item><title>Bothwell</title>: Hugo</item>
+                        <item><title>Songs of Two Nations</title>: n/a for volume; Song of Italy / Mazzini; Ode on the Proclamation of the French Republic / Hugo; </item>
+                        <item><title>Essays and Studies</title>: To my Father</item>
+                        <item><title>Erechtheus</title>: To my Mother</item>
+                        <item><title>PB2</title>: Burton</item>
+                        <item><title>Songs of the Springtides</title>: Trelawney</item>
+                        <item><title>A Study of Shakespeare</title>: James Orchard Halliwell-Phillips (Shakespeare scholar, textual critic)</item>
+                        <item><title>Studies in Song: No dedication for the volume, two poems</title>: Song for the Centenary of Walter Savage Landor / Mrs. Lynn Linton (protegé of Landor, anti-feminist); By the North Sea / Watts</item>
+                        <item><title>Heptalogia</title>: n/a</item>
+                        <item><title>Mary Stuart</title>: Hugo</item>
+                        <item><title>Tristram and Other Poems</title>: "To my best friend Theodore Watts…"</item>
+                        <item><title>A Century of Roundels</title>: Christina Rossetti</item>
+                        <item><title>A Midsummer Holiday</title>: To Theodore Watts</item>
+                        <item><title>Marino Faliero</title>: Aurelio Saffi, Italian politician, close to Mazzini</item>
+                        <item><title>Miscellanies</title>: n/a</item>
+                        <item><title>A Study of Victor Hugo</title>: n/a</item>
+                        <item><title>Locrine</title>: To Alice Swinburne</item>
+                        <item><title>A Study of Ben Jonson</title>: n/a</item>
+                        <item><title>PB3</title> To William Bell Scott</item>
+                        <item><title>The Sisters</title>: To Lady Mary Gordon</item>
+                        <item><title>Astrophel and Other Poems</title>: To William Morris</item>
+                        <item><title>Studies in Prose and Poetry</title>: n/a</item>
+                        <item><title>A Tale of Balen</title>: To My Mother</item>
+                        <item><title>A Channel Passage</title>: In Memory of William Morris and Edward Burne Jones</item>
+                        <item><title>Rosamond, Queen of the Lombards</title>: Mrs. Disney Leith </item>
+                        <item><title>Love's Cross-Currents</title>: To Theordore Watts-Dunton</item>
+                        <item><title>The Duke of Gandia</title>: n/a</item>
+                        <item><title>The Age of Shakespeare</title>: To the Memory of Charles Lamb</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

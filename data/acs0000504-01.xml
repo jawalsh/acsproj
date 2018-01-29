@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="swinburne.rnc" type="compact"?>
+<!DOCTYPE TEI [
+<!ENTITY sb "<hi rendition='#u'>should be</hi>">
+<!ENTITY imgpath "/swinburne/images/swinburne/">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000504-01">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Some Notes Relating to Swinburne's Funeral</title>
+                <author>
+                    <persName key="meyers">Terry L. Meyers</persName>, Chancellor Professor of English <lb/>College of William and Mary
+                </author>
+            </titleStmt>
+            <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/publisher.xml"/>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/pubPlace.xml"/>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/pubDate.xml"/>
+                <availability xmlns="http://www.tei-c.org/ns/1.0">
+                    <p> Copyright &#169; 2005-2015 Terry L. Meyers. </p>
+                    <p>
+                        <!--Creative Commons License-->This work is licensed under an <ref
+                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-Noncommercial-Share Alike 3.0 Unported License</ref>. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author><persName key="meyers">Terry L. Meyers</persName></author>
+                        <title>Some Notes Relating to Swinburne's Funeral</title>
+                    </analytic>
+                    
+                    <monogr>
+                        <title>The Algernon Charles Swinburne Project</title>
+                        <editor><persName key="jawalsh">John A. Walsh</persName></editor>
+                        <imprint>
+                            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                                href="includes/publisher.xml"/>
+                            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                                href="includes/pubPlace.xml"/>
+                            <date xml:id="sort_date" when="2012"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target="#collex_genre_reference_works"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change n="svninfo"> $Id: acs0000499-01.xml 1090 2010-01-04 21:10:15Z jawalsh $ $Rev:
+                687 $ $Date: 2010-01-04 16:10:15 -0500 (Mon, 04 Jan 2010) $ $Author: jawalsh $
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="acs0000498-01-content">
+        <body>
+            <pb n="1" rendition="#suppress" facs="dummy"/>
+            <!--
+            Further Notes On Swinburne’s Funeral
+            by Terry L. Meyers
+            -->
+          <note rendition="#center #x-small" rend="margin-left:auto;margin-right:auto;">(Drawn from talks in July 2009 on the Isle of Wight to the Farringford Tennyson and Literary &amp; Arts Society and in <ref target="https://youtu.be/dK4zwndIB8w">November 2009 at the Georgetown University Library</ref> in connection with its centenary exhibition “A Swinburne Gallimaufry: Selections from the John S. Mayfield Papers”)</note>
+                
+                <p>Swinburne’s funeral is an occasion that has been discussed before, in an article in 1974 by a Canadian scholar, Roger Peattie (“Swinburne’s Funeral, <title>Notes and Queries</title>, 21[December 1974], 466-469, the source of the following quotations, unless otherwise indicated), and in modern biographies, especially in the best and most recent of Swinburne’s biographies, <title>A. C. Swinburne</title>, by Rikky Rooksby.   What I offer here is an account of the fractious occasion that draws more extensively than has ever been done from a number of documents and photographs that as far as I know have never been brought together.  I should express my gratitude to Rikky Rooksby for his generosity—we both discovered several years ago that we were each about to write about Swinburne’s funeral, each with a collection of photographs and newspaper clippings we had individually formed, and Rikky very kindly withdrew and left the field to me, even going so far as to send me copies of the material in his collection, some of which I did not have.</p>
+            <figure rend="margin-left:auto; margin-right:auto;">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-001.png"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">The cortège at The Pines; from a microfilm copy of <title>The Daily Chronicle</title>, 16 April 1909, p. 5</head><figDesc>The cortège at The Pines; from a microfilm copy of <title>The Daily Chronicle</title>, 16 April 1909, p. 5</figDesc></figure>
+            
+                <p>The standard account of Swinburne’s funeral is easily accessible in Cecil Y. Lang’s edition of Swinbune’s letters, at the very end of volume 6.  I won’t rehearse that account—it comes from several articles drawn from the <title>Times</title>—since what I’m interested in is what has not generally been known even to Swinburne scholars.</p>
+                <p>Let me start by noting the situation poor Theodore Watts-Dunton found himself in when Swinburne died.   Watts-Dunton, of course, was the solicitor and friend who saved Swinburne’s life in 1879 by almost literally kidnapping him and moving him forcibly to the suburban scene of Putney.  Swinburne had lived a life of dissipation in drink and otherwise throughout the 1860’s and 1870’s and there’s little doubt he would have died if Watt-Dunton hadn’t dried him out and overseen him domestically for the rest of his life.  Swinburne’s life settled down considerably at The Pines, Putney, and though I think he had a more vigorous social and intellectual life than many biographers allow and though some of his later poetry is beginning to attract critical interest, it is true that his later life was a more mundane one.   Each day, for example, he walked regularly across Wimbledon Common to a pub, The Rose and Crown, where he enjoyed one drink, one bottle of Bass Ale.  That pub still preserves Swinburne’s chair and will display it if you ask.</p>
+            <figure rend="margin-left:auto; margin-right:auto;">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-002.png"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping in the collection of Terry L. Meyers<ref xml:id="ref_97def" rendition="#super">1</ref></head>
+                <figDesc>Clipping in the collection of Terry L. Meyers</figDesc>
+            </figure>     
+                <p>When Swinburne died, April 10, 1909, Watts-Dunton was himself ill with influenza (so ill he could not even attend the funeral itself on April 15).  But he rose to his duty on April 14 and wrote a distressed and distressing letter to Swinburne’s surviving sister, Isabel.   He informed her that “the Church of England Burial Service cannot be read over Algernon’s grave” and went on, “there is no hope for it” as he sketched out his intentions for the funeral, with Swinburne’s coffin to be transported directly from Ventnor Station “strait to the grave.”  Though he allowed Isabel to contemplate “some other plan” if she or a “good Clergyman” could come up with one, he emphasized to her that “the burial service cannot be read over him.”  Watt-Dunton’s plan was simply for “assembled Friends … [to] gather round the grave and the Flowers will be dropped in the grave in the usual way and then the Ceremony will end.”</p>
+            <p>We don’t have Isabel’s reply, but as Roger Peattie thinks, later the same day, April 14, Watts-Dunton was again adamant, and wrote Isabel a second time that although Algernon had attended the burial of their mother in Bonchurch in 1896 (see <ptr type="figure" target="#figure7"/>) and was content to hear the burial service read over her grave, he’d behaved himself “in order not to wound the family.”  But Algernon had, Watts-Dunton assured Isabel, “up to his last moment cherished the deepest animosity against the Creed which he felt had severed him from his most beloved ties…..  If he had made a slight matter of his antagonism against Christianity… it would have been different but with him it increased with his years and at the last…  it was bitterer than ever.”</p>
+                <p>Peattie’s article makes it clear that behind Watts-Dunton’s letters to Isabel was an exchange of letters between Watts-Dunton and William Michael Rossetti in the days just after Swinburne’s death.   William Michael Rossetti was a close friend of Swinburne and a fierce free-thinker, quite different in that respect from his sister Christina Rossetti.  Peattie provides the documentation suggesting that Watts-Dunton had first acquiesced in Isabel’s plan for a conventional service and then had been reminded by Rossetti of a promise he’d made to Swinburne to not allow that.  At first even Rossetti seemed not interested in pushing the matter, though he quickly reversed himself and on April 11, he says, wrote of the matter to Watts-Dunton in “decisive terms.”  Watts-Dunton, in some clear agony, waffled in reply on April 13, saying of Swinburne that the matter of an Anglican service over his mother’s coffin in 1896  “had been threshed out by Swinburne years ago when his mother died.  He decided to accept the affair as part and parcel of the huge grotesque mummery against which the single-handed struggle seemed useless.”  Watts-Dunton here clearly seems to be giving in to Isabel and to convention, and went on to invite Rossetti to attend the funeral.  But Rossetti refused, telegraphing the same day, April 13, “No: I would have gone <emph rendition="#i">but</emph> for the service, which I think absolutely wrong.”</p>
+                <p>Rossetti’s telegram gave Watts-Dunton a troubled night and he changed his mind and determined to forbid the Anglican service.  He wrote Rossetti on April 14 that during 
+                    <quote rendition="#bockquote">the silent watches of the night there flashed upon my memory certain words of … [Swinburne’s] in which he said, ‘But with regard to myself, I should seem to be contradicting all my work if I consented to … [the burial service] being used over me.’</quote>
+                    With this, Watts-Dunton reported, he “started from my bed and immediately remembered that I promised him it should not be done.  And today I took measures to prevent the service being read”—these measures being his letters to Isabel Swinburne and, more dramatically in his capacity as “Sole executor under the will” of Swinburne, a telegram to the Rector of Bonchurch, the Rev. John Floyd Andrewes, forbidding the service that had already been authorized.  In a flurry of telegrams exchanged between the Rector and Watts-Dunton, a compromise was reached whereby there was to be no religious service but the Rector might be allowed, according to Watts-Dunton, to say over the grave “many kind words of him, who was simply the best and most adorable of men.”</p>
+            
+            <p>That wording appears to be what led to trouble and to controversy, for the Rector apparently found a license in this agreement that Rossetti at least had not anticipated.   In a letter after the funeral. Watts-Dunton professed himself satisfied.  Writing on April 28, he assured Rossetti that he “found the whole affair satisfactory,” that “all I wanted was that the ridiculous formula read over the grave of every rapscallion, about the sure hope of a resurrection under the Lord Jesus etc. should be omitted, and omitted … [those words] were.”   Rossetti was not entirely content with the behavior of the Rector.  He in the end had been unable to attend anyway, but he reported that his daughter, Helen Rossetti, who had attended, “thought the clergyman needlessly officious, and she withdrew at one moment of the performances.” </p>
+            <figure rend="margin-left:auto; margin-right:auto;">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-003.png"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping in the collection of Terry L. Meyers</head>
+                <figDesc>Clipping in the collection of Terry L. Meyers</figDesc>
+            </figure>
+            <figure rend="margin-left:auto; margin-right:auto;margin-top:2em;">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-004.png"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping in the collection of Rikky Rooksby</head>
+                <figDesc>Clipping in the collection of Rikky Rooksby</figDesc>
+            </figure>
+                <p>Rikky Rooksby includes in his biography Helen Rossetti’s detailed account of the funeral, from the arrival of the coffin at Waterloo Station to the end.  She is forthright in her disgust.  As she reached the burial ground, she reports, she
+                    <cit rendition="#blockquote">
+                        <quote>suddenly became aware of a lugubrious chanting noise, and on looking around perceived that several carrion crows [her description of  the funeral procession] had descended: a clergyman, in surplus get-up, was preceding the coffin chanting psalms or whatever they are.  On reaching the grave, and the coffin being deposited, he [the rector of Bonchurch] made a little speech.  He began by saying that he deeply regretted to announce that at a late hour yesterday he read a telegram from Swinburne’s executor saying that it was Swinburne’s wish not to have the burial service, that he however intended to show the utmost respect to the memory of the dead poet, who whatever his after opinions may have been, was nevertheless a baptised member of our Church [St. Boniface, where ACS had been baptized].  He went on talking, but I felt perfectly ill with disgust.  Emery Walker, who was standing near me, murmured ‘scandalous.’ I answered, ‘It’s disgraceful.  I can’t stand it.’  When I heard the wretch begin in his droning voice ‘Man that is born of woman’ I quietly retired from the scene and going right away from the vicinity of the grave plucked a branch of bay and some primroses and violets which were growing about wild.   When I saw that the clergyman had finished I returned, and was one of the first to throw flowers into the open grave.  Again to my horror[,] I saw the coffin was covered with a purple pall on which was designed a huge white cross, and I thought of … [Swinburne’s] verses: ‘Thou hast conquered, oh pale Galilean, and the world has grown grey from thy breath.’</quote> <bibl>(pp. 286)</bibl></cit>
+                </p>
+                <p>The collection of newspaper clippings that Rikky Rooksby and I each formed allows us to supplement the standard accounts of Swinburne’s funeral in a number of ways.  One letter in the <title>Times</title> itself, for example, has been left out of the discussion.  It is of some interest because it does mark Watts-Dunton’s public statement of his satisfaction with the way Swinburne’s funeral was conducted and does exonerate the Rev. Andrewes from some of the questions of whether the rector disregarded Swinburne’s and Watts-Dunton’s wishes in reading parts of the Burial Service at the grave.   Watts-Dunton wrote to the <title>Times</title> on May 13, 1909 with his final public statement, delayed by “continued ill-health,” clarifying that Swinburne’s will contained no specific instructions “concerning the Burial Service, although certain persons who followed him to the grave seem to have supposed that he did.  Swinburne, Watts-Dunton continued, “was not at all likely to do that.   But he had on more than one occasion said to me that he would like certain expressions with which he was not in accord to be omitted over his own grave.”  Watts-Dunton said that he “felt bound to respect those wishes” and that “the rector complied with my request to the very letter.”  And he included in the letter the text of his telegram of April 17 to Mary Gordon Leith, “a very dear relative of the dead poet”:
+                    <quote rendition="#blockquote">
+                        <p rendition="#indent">Please convey to rector of Bonchurch my deep gratitude and admiration for the admirable way in which he handled a complexity such as no clergyman ever had to confront before.  He turned what might have been a ghastly failure into a beautiful ceremony by his amazing tact, delicacy, and generosity.</p>
+                        </quote>
+                        </p>
+                <p>Watts-Dunton also included in this letter to the <title>Times</title> the text of a telegram in return, April 21, 1909, from the Rector of Bonchurch: “Mrs. Leith forwarded to me yesterday your most gratifying telegram exonerating me from having broken faith with you or acting contrary to your instructions ….   Thank you very much… for the kindness which has prompted so warm an acknowledgment of my simple desire to follow out your wishes in the matter.”</p>
+            <figure rend="margin-left:auto; margin-right:auto;">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-005.png"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">From Rooksby, <title>A. C. Swinburne</title>, p. [285]; courtesy Rikky Rooksby</head>
+                <figDesc>From Rooksby, <title>A. C. Swinburne</title>, p. [285]; courtesy Rikky Rooksby</figDesc>
+            </figure>
+           
+                <p>A number of further clippings flesh out details of Swinburne’s funeral.  </p>
+                <p>The <title>Telegraph</title> (April 15, 1909) noted that although the hearse in Putney was “timed to leave The Pines … at a quarter to seven o’clock, it did not actually start until a quarter past, when nearly 200 people had gathered in the bright sun-lit morning.”  In the single mourning coach accompanying the hearse were “Miss Watts, sister of Mr. Watts Dunton, and Mr. Mason, a nephew [sic], who from childhood had known the poet, and was the hero of his famous child epic, ‘A Dark Month.’  Traveling by Upper Richmond-road, St. John’s-hill, and Chelsea Bridge, the hearse and coach reached Waterloo at 8:40; there the coffin was transferred “to a railway-van which had been previously converted by the undertakers, Messrs. Haslett and Co., into a chapelle ardente.”  Mrs. Watts-Dunton traveled to Waterloo by train.”</p>
+                <p>The <title>Daily Graphic</title> (April 16. 1909) reported that the coffin was carried from the Pines “about seven o’clock” and at Waterloo Station was placed “in a draped saloon, attached to the 8:55 train for Portsmouth”: “the large crowd which had assembled at Waterloo stood with bared heads at the train steamed out of the station.”  At Ventnor, reached at about 2 p.m., “the mourners emerged from the train into the genial warmth and unclouded light of a perfect spring day.  There was here also a respectful crowd in waiting.”  The coffin was then transported in an open hearse for the journey to the churchyard, about a mile away: “at the church gates the cortege was met by the rector of Bonchurch, who read the opening sentences of the burial service as he led the way to the moss and primrose lined grave.”  After his remarks, “the rector … asked for silent prayer and concluded by pronouncing the Benediction.”</p>
+                <p>An unlabeled clipping (dating from April 17 and from the <title>Isle of Wight County Press</title>, as Vic King kindly tracked down for me) notes that the steamer had reached Ryde Pier at about 1 p.m.; “a large number witnessed the transfer of the coffin, which was covered with beautiful floral tributes, to the train for Ventnor.”  The article quotes “a correspondent” who gives further details of the feeling among the family and others at the churchyard:
+                    <quote rendition="#blockquote">
+                        It is stated on good authority that Miss Isabel Swinburne, the late poet’s only surviving sister, who was too ill to attend the funeral, delegated to her cousin, Mrs. Disney Leith, full authority to arrange the funeral, and that just before the burial relatives expressed a wish for prayers to be read, as they very much questioned whether the poet ever left instructions that his remains should not have a Christian burial.  Col. Leith [Mary Gordon Leith’s son] quietly restrained one or two of the principal mourners, holding opposite views with regard to the ceremony, from interfering with the Rector, when he commenced to read the opening sentences of the Burial Service at the entrance to the Churchyard, and also prevented what looked likely to develop into intervention on the part of one or two mourners at the graveside.”
+                        </quote>
+                </p>
+                <p>
+                    The <title>Isle of Wight Mercury</title> noted that from Ryde to Ventnor, “the coffin occupied a special van, hung with black draping, and with the floor carpeted.”  At Ventnor, “hundreds of persons had assembled” and along the road to Bonchurch “the route here and there was lined with spectators.”  
+                </p>
+                <p>
+                    The <title>Telegraph</title>’s account of the cortège from Ventnor differs slightly: 
+                    
+                    <quote rendition="#blockquote">
+                        <p rendition="#indent">
+                        At Ventnor station, where the body arrived shortly after two, not many people saw the coffin carried to the hearse, and along the mile of hilly road to the churchyard there were very few people to watch the cortège pass.  In Bonchurch village all blinds were drawn.   This seemed to be the only sign of mourning.   There was no tolling of bells, and of the several hundred spectators inside the cemetery fully half wore bright summer dresses.   The visitors to the locality were easily recognisable, and unfortunately, in their desire to secure the best places to witness the interment, they did not hesitate to scramble over graves which were clearly cared for by tender hands.   The news that no service was to be read over the poet’s remains quickly spread, and some old parishioners  who had been present at the funerals of most of the Swinburnes recalled the fact that the poet knelt by the graveside with his sisters when their mother was buried.  It was nearly three o’clock when the body reached the churchyard.
+                        </p>
+                    </quote>
+                    </p>
+                <p>
+                    The <title>Mercury</title> too takes note of the family’s hopes for a religious service:
+                    <quote rendition="#blockquote">
+                        <p rendition="#indent">
+                        We are informed that the truth in reference to the religious ceremony at the funeral is that Miss Isabel Swinburne, unable to attend the funeral herself, delegated to her cousin, Mrs. Disney Leith, full family authority as to the conduct of the funeral.  Colonel Leith, acting for his mother, came over and interviewed the Rector, and supported by Sir John Swinburne, brought the strongest possible pressure to bear to have a religious ceremony.  At the graveside he interposed and prevented several who endeavoured to stop the Rector from going on with the service.  There is a disposition on the part of the members of the family to deny that Swinburne ever left instructions that there should be no religious ceremony.
+                </p>
+                </quote>
+                </p>
+                <p>
+                    The <title> Daily Telegraph</title> account adds a few details.  It mentions that the Swinburne family graves are covered with “Sicilian marble, cut and carved under the admiral’s [Swinburne’s father’s] watchful eye”  (John Mayfield, incidentally, had once asked me who was responsible for the stonework). <title> The Telegraph </title> notes too that the “grave had been lined with moss the day before the burial and that the moss was to be picked out with primroses from The Orchard [the home of Mary Gordon] before the coffin was lowered.” And finally it draw attention to the closeness of Swinburne’s youthful home to the churchyard: “East Dene is now in the possession of the sisters of the Sacred Heart, and Swinburne was the only member of his family to enter the gates of the estate after it ceased to belong to his parents.   Mr. Swnburne on one occasion, when staying at the Orchard, took his friend Mr. Watts-Dunton, to see his old home.” 
+                </p>
+                <p>
+                    The <title> Daily Chronicle </title> (April16, 1909) explains the gaily dressed mourners apparent in several of the photographs and mentions the protests by Emery Walker and Helen Rossetti):
+                    <quote rendition="#blockquote">
+                        <p rendition="#indent">
+                        This afternoon all the trippers who are spending an Easter holiday in Ventnor made their way to Bonchurch and the new churchyard.  Life at Ventnor does not offer many chances of excitement, and to see a famous poet buried was an opportunity too good to be lost.  So they came, and the most enterprising gained standing room near the grave, and were only kept aloof from its intimate neighborhood by the constabulary.  Exhausted tourists sat on tombstones, those with more energy trampled the primroses and violets in search of a convenient point of view.  Professional photographers climbed trees and trained their cameras on the grave.   Amateurs were not less enterprising, and an American boy, who brought his parents with him, had obtained a good place not three yards away from the spot where the chief mourners were expected to assemble.   All were in holiday attire.   There is nothing definitely irreverent in a scarlet striped parasol, but it seemed out of place when it was unfurled to cover a lady in the front row of the spectators wearing a cream coloured costume.   Still, the sun was hot, and the funeral was exceedingly late; it had been expected quite half an hour before, and people who had afternoon tea engagements began to think that their homage to a dead poet was ill requited by this delay.
+                        </p>
+                        <figure rend="margin-left:auto; margin-right:auto;">
+                            <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-006.png"/>
+                            <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping, from The <title>Illustrated London News</title>, 24 April 1909, p. 603, in the collection of Terry L. Meyers</head>
+                            <figDesc>Clipping, from The <title>Illustrated London News</title>, 24 April 1909, p. 603, in the collection of Terry L. Meyers</figDesc>
+                        </figure>
+                <p rendition="#indent">
+                    
+                    The procession came at last, and one heard in the distance a firm, assertive voice repeating the familiar words: ‘We brought nothing into this world, and it is certain that we can carry nothing out.  The Lord gave and the Lord hath taken away; blessed be the name of the Lord.’</p>
+                    <p rendition="#indent">
+                        
+                        Some of those who were already at the grave wondered.   There was to be no service; that was the compact signed and sealed.  Amazement and anger was on the faces of the mourners who followed the coffin; one, at least, was dissuaded only by the appeal of a companion from making a protest there and then at the breaking of the bond.   The rector, the Rev. Floyd Andrewes, an elderly man, in full canonical [attire,] strode calmly in front of the procession….</p>
+                        <p rendition="#indent">
+                            
+                            The coffin was deposited on the planks covering the moss covered grave and made ready to be lowered, and then the Rev. Floyd Andrewes spoke….</p>
+                            <p rendition="#indent">
+                                
+                                … the rector, after all, had accepted the situation [‘that no formal service is desired over his (Swinburne’s) grave’].  Those of the mourners who had felt wrath when it seemed possible that the order for the burial of the dead was to be insisted upon were appeased.  But it was re-awakened when the voice of the rector repeated: ‘Man that is born of a woman hath but a short time to live and is full of misery.’</p>
+                                <p rendition="#indent">
+                                    
+                                    Never before, probably, has that sentiment been received with muttered exclamations of ‘Shame!’ and ‘Scandalous!’ as it was yesterday by those who attended as chief mourners.  But the Rev. Floyd Andrewes went relentlessly on.   He passed from that portion of the service to the committal sentence.  ‘For in as much as it hath pleased Almighty God, of His great mercy, to take unto Himself the soul of our dear brother here departed, we therefore commit his body to the ground; earth to earth, ashes to ashes, dust to dust.’  He stopped there, without reference to ‘sure and certain hope of the resurrection to eternal life.’
+                                    </p>
+                                    <p rendition="#indent">
+                                        
+                                        ‘I will now ask those present,’ said the rector, ‘to join with me for a moment or two in silent prayer.  The church is open for prayer and meditation for any of those who would like to retire to it after the service.’  And for a few moments this curious congregation bowed their heads; even the shutters of the camera were silent; only the birds sang to the sun striking hot out of the heavenly blue.
+                                        </p>
+                                        <p rendition="#indent">
+                                            
+                                            The rector returned to the church, where a few of the parishioners followed him but there was no spoken word.  Many passed in front of the open grave and dropped flowers upon the coffin, among them Lord Tennyson who was an unostentatious mourner at the funeral.
+                                            </p>
+                                            </quote>
+                                        </p>
+                                        <p>
+                                            To the documentation about the telegrams exchanged between Watts-Dunton and the Rector, this account gives a more precise time for Watts-Dunton’s telegraph of the day before in which he forbade the burial service.   The <title>Times</title>’ account (<title> Letters</title>, VI, 227) says it was sent “late on the evening” but the <title> Daily Chronicle </title> has the precise time: “Putney, 2.35 p.m., to the Rector of Bonchurch.”  In reply, the Rector telegraphed, “Bonchurch, 6.57.  To Watts Dunton.  Just received telegram.  Shall be present to receive poet and follow your instructions,--Rector, Bonchurch.”</p>
+                                        <p>
+                                            <title>The Daily Chronicle</title> reporter spoke to several of Swinburne’s relations and to the Rector about the poet’s wishes:<quote rendition="#blockquote">
+                                                <p rendition="#indent">
+                                                
+                                                The mourners who followed the coffin from Putney had accepted the rector’s assurances that there would be no service.  They were greatly indignant that the poet’s wishes had been disregarded.  Dr. Lowry, a cousin of Swinburne, stated to me after the interment that Swinburne left instructions in his will that there should be no religious service whatever.  Mr. Watts Dunton thought that he had made it certain by the steps he took to prevent any such thing.   That he has failed was not his fault, but because the rector had, in spite of his promise, insisted on reading fragments of the burial service.
+                                        </p>
+                                        <p rendition="#indent">
+                                            
+                                            The rector when I saw him this afternoon [April 15] said he was not convinced that the relatives were opposed to the service, and some of them had expressed a contrary opinion.  In the circumstances he thought a compromise was best, and he remarked that he had not, in the portions of the service which he read, done anything to offend anyone’s susceptibilities.
+                                            </p>
+                                            </quote>
+                                        </p>
+                                        <p>
+                                            In its account, the <title> Daily Telegraph </title> describes the incipient protest at the gate to the churchyard:
+                                            <quote rendition="#blockquote">
+                                                The cortège was met at the entrance to the churchyard by the Rev. J. Floyd Andrewes, the Rector of Bonchurch, in his surplice and stole, and so soon as the coffin had been lifted out of the hearse the reverend gentleman recited the opening sentences of the service, ‘I am the Resurrection and the Life, saith the Lord.’  There was no scene, though when Mrs. Watts-Dunton, the wife of the poet’s executor, attempted to make a mild protest she was quietly restrained by Colonel Leith, one of the mourners.  The coffin was carried straight to the graveside, and when it had been placed on the planks covering the opening of the grave, the rector gave a short address, explaining to a crowd of several hundreds the reason for the absence of the ordinary service.  Then, while the coffin was lowered to the bottom of the vault, the reverend gentleman said the first portion of the committal sentences, beginning with ‘Man that is born of a woman,’ and finishing with ‘Earth to earth, ashes to ashes, and dust to dust.’   There followed a profound silence, broken only by the piping of song-birds, and the throbbing engines of an ocean tramp a few hundred yards out in the Channel, and then Mrs. Leith, one of the mourners, and Colonel Leith, entered the church.  The other members of the funeral party remained discussing the rector’s action, while the public filed past the moss and primrose-lined grave, and cast handfuls of flowers on their departed friend.
+                                            </quote>
+                                        </p>
+                                                <p>
+                                                    The <title> Telegraph </title> suggests that a second clergyman, “a friend of Swinburne from boyhood,” had been anticipated to help officiate (which the <title> Times </title> too had anticipated [April 14, 1909, p. 8d]).   But Canon Feilden of Kirkby Stephen “was not well enough to attend the funeral.”   One of the wreaths came from Canon and Mrs. Feilden: “Deep regret, and in memory of life-long friendship and admiration”;  “Miss Marcia Feilden and Miss Cecilia Feilden, old Isle of Wight friends of the family, also sent floral tokens.”  </p>
+                                                <p>The <title> Telegraph </title> reporter also wrote that<quote rendition="#blockquote">
+                                                    <p rendition="#indent">
+                                                    in conversation with me after the funeral, Mr. Andrewes stated that some of Mr. Swinburne’s relatives saw him this morning, and ‘they did not like the idea’ of a silent burial.  Mrs. Watts-Dunton, who was accompanied by Dr. Lowry, Mr. Swinburne’s cousin, was very much distressed that the wishes of the poet had not been complied with.  ‘Mr. Swinburne,’ she said, ‘left instructions in his will that there should be no religious ceremony whatever at his funeral, and I should like it to be known that the clergyman of the parish, and not the executor, is responsible for the reading of a portion of the burial service at the graveside.’  Dr. Lowry subsequently added that the mourners and friends of Mr. Swinburne who had travelled from London were much concerned that the poet’s wishes had not been respected.</p></quote></p>
+                                                <p>
+                                                    One last note about Swinburne’s funeral: there had been some discussion of whether his remains might be interred in Poets Corner in Westminster Abbey.   The <title> Daily Chronicle </title> explored the matter in a story on  April 12, 1909: “already a number of communications have reached us suggesting that the honour of burial in Westminster Abbey is due to this last great poet of the Victorian era” (p. 1d).  The next day, the <title> Daily Chronicle </title> reported “a general desire” (p. 4f) to see Swinburne honored by burial at the Abbey.  The <title>Daily News</title> noted on April 12 that “a suggestion has been made that his [Swinburne’s] remains should find a resting place in Westminster Abbey, but the Dean of Westminster, when seen by a ‘Daily News’ representative last night, had no statement to make on the subject” (p. 5d).  The paper tried the Dean once more and reported on April 13 that up until the night before “Dr. Robinson had received no official communications regarding the possibility of the burial of Mr. Swinburne” (p. 5f).</p>
+                                                <p>
+                                                    The <title> Times </title> too reported that “the Dean of Westminster has not been approached by anyone authorized”; it printed a statement by “a correspondent who knew Mr. Swinburne well” deprecating the idea (April 14,1909, p. 8d).  The same day the <title> Daily Telegraph </title> specified that “we are asked to say that it is a misapprehension to suppose that the Dean of Westminster has been approached by anyone authorised to do so with respect to the poet’s burial in Westminster Abbey” (April 14, 1909, p. 11b).  
+                                                </p>
+                                                <p>
+                                                    America took note as well, as revealed in a passing remark by a correspondent in the <title> New York Times </title> (June 14, 1909, p. 6) alluding to a “controversy” over the matter.  The <title>New York Times</title> earlier had reported that the Dean of the Abbey "refused to make any statement on the subject" (April 11, 1909, p. 1]).  And in an editorial a few days later, the <title>New York Times</title> wagged its finger at the “blind misjudgment” that denied Westminster Abbey Swinburne’s remains: “that the murmurs of reproach should be loud and deep is but natural” (April 13, p. 8).
+                                                </p>
+                                                <p>
+                                                    I have yet to discover these murmurs of reproach—or the others the <title> New York Times </title> claimed when it revisited the controversy, June 20 (p.8), and discussed Swinburne’s religion. In an extraordinary claim, it said that unnamed  “Catholic periodicals” claimed that Swinburne was  “a communicant of the Roman Church,” and should not have been buried with a Protestant ceremony.
+                                                </p>
+            <figure rend="margin-left:auto; margin-right:auto;" xml:id="figure7">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-007.png"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">Swinburne (lower left) at the graveside service for his mother. Copyright © The National Portrait Gallery, London; the reproduction, transmission, performance, display, rental, lending or storage of this image in any form or in any retrieval system without the written consent of the copyright holders is forbidden; the photograph is by an unknown photographer (1 December 1896), but is reproduced from a copy made in 1926 by Howard M. King on the commission of S. S. Martin.</head>
+                <figDesc>Copyright © The National Portrait Gallery, London; the reproduction, transmission, performance, display, rental, lending or storage of this image in any form or in any retrieval system without the written consent of the copyright holders is forbidden; the photograph is by an unknown photographer (1 December 1896), but is reproduced from a copy made in 1926 by Howard M. King on the commission of S. S. Martin.</figDesc>
+            </figure>
+                                                <p>
+                                                    Thomas Hardy took note of the Westminster Abbey part of the controversy in his 1924 poem “A Refusal,” where the Dean of Westminster sputters his indignation at a proposal to honor another controversial poet, Byron, with, simply, a tablet in Poets’ Corner:  The Dean declares in irritation that if he were to honor Byron, there would be no limits:
+                                                    <quote rendition="#blockquote" rend="margin-left:10em;">
+                                                        <lg>
+                                                        <l>
+                                                            ‘Twill next be expected</l>
+                                                        <l>That I get erected</l>
+                                                        <l>To Shelley a tablet</l>
+                                                        <l>In some niche or gablet.</l>
+                                                        <l>Then--what makes my skin burn,</l>
+                                                        <l>Yea, forehead to chin burn—</l>
+                                                        <l>That I ensconce Swinburne!</l>
+                                                        </lg>
+                                                    </quote>
+                                                </p>
+            <figure rend="margin-left:auto; margin-right:auto;">
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;height:400px;" url="&imgpath;acs0000504-01-015.jpg"/>
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;margin-top:1em;" url="&imgpath;acs0000504-01-016.jpg"/>
+                <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;margin-top:1em;" url="&imgpath;acs0000504-01-017.jpg"/>
+                <head rend="width:60%;margin-left:auto;margin-right:auto;">Three views of Swinburne's grave. Photographed in September 2005 by John Walsh. Note the similarity with the stonework of Mary Gorden Leith's grave (see <ptr type="figure" target="#figure12"/> below).</head>
+                <figDesc>Swinburne's grave. Photographed in 2005 by John Walsh.</figDesc>
+            </figure>
+                                                <div>
+                                                    <head rendition="#styled">Post-Script</head>
+                                                    
+                                                    
+                                                    <p>Several other comments related to Swinburne’s death and funeral deserve notice.  One is simply the reply by Holman Hunt to a request that he comment on Swinburne’s passing.  He telegraphed to the <title> Daily News </title> (April 12, 1909, p. 5d) a modest tribute:  “I gladly accept the opportunity you offer by immediate telegram to tender my humble tribute to the genius of the great singer, Swinburne, whom I had the privilege to know over fifty years ago.”  In the same column is reported Watts-Dunton’s telegram regretting that “he is himself much too unwell to furnish us with an appreciation.”</p>
+                                                    <p>	More significant is this:  like others, Rikky Rooksby and I had long sought the source of Mary Gordon Leith’s citation of a “fiction” about a romantic relationship between Swinburne and her, a report that “has even got into print” (Leith, p. 4).  We now suspect that she had in mind a remark in the <title> Daily News </title> about several of Swinburne’s cousins who were expected to attend his funeral: “including one to whom he was especially attached, Mrs. Leith” (April 13, 1909, p. 5f). The wording is suggestive, other occasions for the two to be noted together in print seem rare, and her own book of personal recollections (1917) was not far removed in time from Swinburne’s funeral.</p>
+                                                    <p>	I revealed this discovery in my plenary talk at the Swinburne Centenary Conference at the University of London, July 2009, and was pleased to encourage Catherine Maxwell to note it in “Swinburne and Thackeray’s<title> The Newcomes</title>,” <title>Victorian Poetry</title>, 47:4 (Winter, 2009), 739.</p>
+                                                    <p>	Finally, the Times mentioned (April 14, 1909, p. 8d) that “Mr. J. Drury, of Gunter-grove, Chelsea” had taken a cast of Swinburne’s head “with a view to a bust in marble”—the Drury here was the sculptor Alfred Briscoe Drury (1856–1944; see <title>Uncollected Letters</title>, III, 306).  Philip Waller says Watts-Dunton refused Jacob Epstein as not famous enough and “called in Drury, who made a mould.  The result was black comedy.  Drury never delivered, claiming to have lost the mould” (<title>Writers, Readers, and Reputations: Literary Life in Britain, 1870-1918</title>, [New York: Oxford University Press, 2006], p. 362).</p>
+                                                </div>
+            <div>
+                <head rendition="#styled">One More Post-Script</head>
+                <p>
+                    One other funeral will be of interest to Swinburneians, that of Mary Gordon Leith (July 9, 1840-February 19, 1926). The photograph below was taken as her funeral procession moved to the cemetery of St. Peter’s, Shorwell, Isle of Wight. February 23, 1926. Vic King first discovered the photograph on-line and sent it to me; I subsequently learned that the photograph was taken by relatives, professional photographers, of Barbara Downer Palmer, the wife of Steven Palmer, who contributed it to the <ref target="http://www.isle-of-wight-fhs.co.uk/photoppl.htm">Isle of Wight Family History Society</ref> site and who has granted permission to include it here.  
+                </p>
+                <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
+                    <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-010.png"/>
+                    <head rend="width:60%;margin-left:auto;margin-right:auto;">Mary Gordon Leith funeral procession, February 23, 1926. Photgraph by relatives of Steven Palmer and Barbara Downer Palmer. Used with permission.</head>
+                    <figDesc>Mary Gordon Leith funeral procession, February 23, 1926. Photgraph by relatives of Steven Palmer and Barbara Downer Palmer. Used with permission.</figDesc>
+                </figure>
+                <p>The procession here appears to be moving after the service at the church to the burial ground not far along Farriers Way:
+                  <egXML  xmlns="http://www.tei-c.org/ns/Examples" rendition="#embed">
+                      <div xmlns="http://www.w3.org/1999/xhtml" style="margin-left:auto;margin-right:auto;width:430px;margin-top:1em;">
+                          <iframe style="border:1px solid black;" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14&amp;output=embed"></iframe><br /><a href="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14" style="text-align:left;font-size:85%;font-style:italic;">View Larger Map</a>
+                      </div>
+                  </egXML>
+                    <!--
+                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
+                        <graphic url="&imgpath;acs0000504-01-013.png" rend="padding:0;display:block;margin-left:auto;margin-right:auto;"/>
+                        <note type="figurePtr"><ptr target="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14"/></note>
+                    </figure>
+                    -->
+                    Jeremy Mitchell tells me that the land for the <soCalled>new</soCalled> cemetery where the burial took place, at a remove from the church, was donated by Leith’s mother, Lady Mary Gordon, in 1887, as the Shorwell Parish Records show.
+                </p>
+                <p>Details of the funeral are in The Times (February 20, 23, 1926):
+                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
+                        <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-011.png"/>
+                        <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping from <title>The Times</title>.</head>
+                        <figDesc>Clipping from <title>The Times</title>.</figDesc>
+                        <note type="figurePtr">
+                            <!-- figurePtr notes are for links that should activate when the image is clicked/selected. <ref> is not allowed in figure, 
+                            so not sure of a better way to do this. -->
+                            <ptr target="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14"/>
+                        </note>
+                    </figure> 
+                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
+                        <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-012.png"/>
+                        <head rend="width:60%;margin-left:auto;margin-right:auto;">Clipping from <title>The Times</title>.</head>
+                        <figDesc>Clipping from <title>The Times</title>.</figDesc>
+                    </figure> 
+                </p>
+                <p>The funeral was covered in detail in the <title>Isle of Wight County Press</title> (Feb. 26, 1926) where, with another photograph, it is recorded that the burial was in a grave next to that of General Disney Leith, C.B. “in the pretty village churchyard at Shorwell.” In the account of the service and those attending, Mary Gordon Leith is remembered as a “great lover of nature … [whose beauty her] pen had so faithfully portrayed in prose and verse.” The eulogy stresses her accomplishments as “the writer, the traveller, the poet, the author of ‘Auld Fernie’s son’” who “did more than interpret the rich Scotch tongue. At the age of 70 she crossed the Northern seas and found romance amongst the fisher folk of Iceland…. She was a most faithful and loyal member of her Church, loving this church and the village school, and loving Niton” (thanks to Vic King for a copy of the <title>County Press</title> article).</p>
+                <figure xml:id="figure12" rend="margin-left:auto; margin-right:auto;margin-top:2em">
+                    <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-014.jpg"/>
+                    <head rend="width:60%;margin-left:auto;margin-right:auto;">The Grave of Mary Gordon Leith (courtesy of Tony O'Nions, who, with friends, has tended the grave.</head><figDesc>The Grave of Mary Gordon Leith (courtesy of Tony O'Nions, who, with friends, has tended the grave.</figDesc>
+                </figure> 
+            </div>
+            <div>
+                <note xml:id="note_28" rendition="#block #small"><p><ref target="#ref_97def" rendition="#super" xml:id="note_97def">1</ref>In the first series of pictures, the circular inset is from a photograph taken 4 April 1907, the day before Swinburne turned 70; that photograph was printed in the <title>Daily Mirror</title>, 5 April 1907 (p. 6) (and reprinted, cropped as below, 12 April 1909 p. [8?]; this cropped picture was also printed, seemingly retouched somewhat, in the <title>Daily News</title>, 12 April p. 7b (see below), where is credited the editor of <title>Reynold’s Newspaper</title> and where are also pictured The Pines, the Rose and Crown, and the poet’s favorite bench on Putney Heath).  The photograph shows Swinburne striding along near Putney:
+                    <figure rend="margin-left:auto; margin-right:auto;margin-top:1em;">
+                        <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-008.png"/>
+                        <head rend="width:60%;margin-left:auto;margin-right:auto;">Swinburne striding along near Putney.</head>
+                        <figDesc>Swinburne striding along near Putney.</figDesc>
+                    </figure>
+                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
+                        <graphic rend="padding:0;display:block;margin-left:auto;margin-right:auto;" url="&imgpath;acs0000504-01-009.png"/>
+                        <head rend="width:60%;margin-left:auto;margin-right:auto;">Swinburne striding along near Putney. I am grateful to the Deputy Chief Librarian for the Daily Mirror in 1988, A. E. Freeman, who supplied the picture.</head>
+                        <figDesc>Swinburne striding along near Putney.</figDesc>
+                    </figure></p>
+                    <p>The photograph of Swinburne’s coffin being carried from The Pines would have been taken shortly after 7 a.m. on the day of the funeral, 15 April 1909; the gentleman leading the way was presumably the undertaker, Mr. Haslett of Wandsworth (<title>Daily News</title>, 14 April p. 7d).</p>
+                    
+                    
+                </note>                                 
+                                                
+                                                
+  
+           
+
+
+            </div>
+            <!--
+            <p>Concerning Swinburne’s funeral, Watts-Dunton dates Swinburne’s desire to forbid the Burial Service at his own interment to the time of his mother’s burial at Bonchurch, 1 December 1896. Watts-Dunton wrote to William Michael Rossetti of Swinburne’s dissatisfaction at that time: “he decided to accept the affair as part and parcel of the huge grotesque mummery against which the single-handed struggle seemed to be useless” (13 April 1909 in Peattie, p. 467; see too Watts-Dunton’s letter (dated by Lang 15 April 1909) to Isabel Swinburne where Swinburne is said to have listened at his mother’s graveside to the Burial Service—which “he always deeply disliked”—“in order not to wound his family” (Letters, VI, 223; Peattie believes it “probable” that this letter actually dates to 14 April 1909 [468n]).</p>
+            <p>Swinburne’s antipathy to the service for his mother seems apparent in the photograph below as he stands stiffly between his sisters.  The heavily veiled woman standing to the side of the grave is most likely Mary Gordon Leith.
+                <figure rend="margin-left:auto; margin-right:auto;">
+                    <graphic url="&imgpath;acs0000504-01-007.png"/>
+                    <head>Copyright © The National Portrait Gallery, London; the reproduction, transmission, performance, display, rental, lending or storage of this image in any form or in any retrieval system without the written consent of the copyright holders is forbidden; the photograph is by an unknown photographer (1 December 1896), but is reproduced from a copy made in 1926 by Howard M. King on the commission of S. S. Martin.</head>
+                    <figDesc>Copyright © The National Portrait Gallery, London; the reproduction, transmission, performance, display, rental, lending or storage of this image in any form or in any retrieval system without the written consent of the copyright holders is forbidden; the photograph is by an unknown photographer (1 December 1896), but is reproduced from a copy made in 1926 by Howard M. King on the commission of S. S. Martin.</figDesc>
+                </figure>
+            </p>
+            <p>Both Peattie’s account and Cecil Lang’s documentation (Letters, VI, 223-231) of the brouhaha surrounding Swinburne’s funeral omit one important letter. About the question of whether the rector disregarded Swinburne’s and Watts-Dunton’s wishes in reading parts of the Burial Service at the grave, Watts-Dunton wrote to the <title>Times</title> (13 May 1909, p. 10c) with a final statement: 
+                <quote rendition="#blockquote #nq">
+                    <floatingText>
+                        <body>
+                            <p rendition="#indent">
+                                Sir, —As I find that a deal of misconception is still abroad with regard to the omission of certain words of the Burial Service over the grave of Mr. Swinburne, you would greatly oblige me by giving prominence to the following correspondence between me and the rector of Bonchurch.  It is a mistake to suppose that Mr. Swinburne left any specific instructions in his will concerning the Burial Service, although certain persons who followed him to the grave seem to have supposed that he did.  He was not at all likely to do that.  But he had on more than one occasion said to me that he should like certain expressions with which he was not in accord to be omitted over his own grave.  I felt bound to respect those wishes, and telegraphed to the rector of Bonchurch to that effect.   The rector complied with my request to the very letter, and so much was I in accord with him and his proceeding that on April 17 I telegraphed to a very dear relative of the dead poet at Bonchurch to this effect:—</p>
+                            <p rendition="#indent">Please convey to rector of Bonchurch my deep gratitude and admiration for the admirable way in which he handled a complexity such as no clergyman ever had to confront before.  He turned what might have been a ghastly failure into a beautiful ceremony by his amazing tact, delicacy, and generosity.</p>
+                            <p rendition="#indent">In answer to this the rector wrote to me as follows:—</p>
+                            <floatingText>
+                                <body>
+                                    <opener>
+                                        <dateline rendition="#center">Bonchurch Rectory, <date when="1909-04-21">April 21, 1909</date></dateline>
+                                    </opener>
+                                    <p>Dear Mr. Watts-Dunton,—I thought I should like to write just a few words of sympathy with you in your serious illness, and to say how sorry indeed I am that you still continue so unwell.   Mrs. Leith forwarded to me yesterday your most gratifying telegram exonerating me from having broken faith with you or acting contrary to your instructions, and, please let me add, in terms far exceeding anything I deserve.   Thank you very much, however, for the kindness which has prompted so warm an acknowledgment of my simple desire to follow out your wishes in the matter.</p>
+                                    <closer>
+                                        <salute rendition="#ti-3">Believe me, dear Mr. Watts-Dunton,</salute>
+                                        <salute rendition="#ti-4">Yours very sincerely,</salute>
+                                        <signed rendition="#ti-8">J. F. Andrewes.</signed>
+                                    </closer>
+                                </body>
+                            </floatingText>
+                            <p>My continued ill-health had prevented my rectifying this matter before.</p>
+                            <closer>
+                                <salute rendition="#ti-6">Yours faithfully,</salute>
+                                <signed rendition="#ti-6">Theodore Watts-Dunton.</signed>
+                                <dateline>The Pines, 11, Putney-hill, S. W., <date when="1909-05-12">May 12</date>.</dateline>
+                            </closer>
+                        </body>
+                    </floatingText>
+                </quote>
+            </p>
+            <p>First, Holman Hunt replied to a request for a comment on Swinburne’s death with a telegram worth putting into the record: “I gladly accept the opportunity you offer by immediate telegram to tender my humble tribute to the genius of the great singer, Swinburne, whom I had the privilege to know over fifty years ago” (<title>Daily News</title>, 12 April 1909, p. 5d).  In the same column is reported Watts-Dunton’s telegram regretting that “he is himself much too unwell to furnish us with an appreciation.”</p>
+            <p>Second, Rikky Rooksby and I have long sought the source behind Mary Gordon Leith’s mention of a “fiction” about a romantic relationship between Swinburne and her, a report that “has even got into print” (Leith, p. 4).  We now suspect that she may have had in mind a remark in the <title>Daily News</title> about several of Swinburne’s cousins who were expected to attend his funeral: “including one to whom he was especially attached, Mrs. Leith” (13 April 1909, p. 5f). The wording is suggestive, other occasions for the two to be noted together in print seem rare, and her own book of personal recollections (1917) was not far removed in time from Swinburne’s funeral.</p>
+            <p>Third, about Swinburne’s funeral: a question was quickly abroad as to interring Swinburne in Poets’ Corner, Westminster Abbey. The <title>Daily Chronicle</title> explored the matter in a story on 12 April: “already a number of communications have reached us suggesting that the honour of burial in Westminster Abbey is due to this last great poet of the Victorian era” (p. 1d).  The next day, the <title>Daily Chronicle</title> reported “a general desire” (p. 4f) to see Swinburne honored by burial at the Abbey.  The <title>Daily News</title> noted on 12 April  that “a suggestion has been made that his [Swinburne’s] remains should find a resting place in Westminster Abbey, but the Dean of Westminster, when seen by a ‘Daily News’ representative last night, had no statement to make on the subject” (p. 5d).  The paper tried the Dean once more and reported on 13 April that up until the night before “Dr. Robinson had received no official communications regarding the possibility of the burial of Mr. Swinburne” (p. 5f).</p>
+            <p><title>The Times</title> too reported that “the Dean of Westminster has not been approached by anyone authorized”; it printed a statement by “a correspondent who knew Mr. Swinburne well” deprecating the idea (14 April 1909, p. 8d).  The same day the <title>Daily Telegraph</title> specified that “we are asked to say that it is a misapprehension to suppose that the Dean of Westminster has been approached by anyone authorised to do so with respect to the poet’s burial in Westminster Abbey” (14 April 1909, p. 11b).</p>
+            <p>America took note as well, as revealed in a passing remark by a correspondent in the <title>New York Times</title> (14 June 1909, p. 6) alluding to a “controversy” over the matter.  The <title>New York Times</title> earlier had reported that the Dean of the Abbey "refused to make any statement on the subject" (11 April 1909, p. 1]).  And in an editorial a few days later, the <title>New York Times</title>, wagged its finger at the “blind misjudgment” that denied Westminster Abbey Swinburne’s remains: “that the murmurs of reproach should be loud and deep is but natural” (13 April p. 8).</p>
+            <p>I have yet to discover these murmurs of reproach—or the others the <title>New York Times</title> claimed when it revisited the controversy, 20 June (p.8), and discussed Swinburne’s religion. It said that unnamed  “Catholic periodicals” protested the burial of Swinburne, “a communicant of the Roman Church,” with a Protestant ceremony.</p>
+            <p>Thomas Hardy no doubt reflects the whole controversy in his 1924 poem “A Refusal,” where the Dean of Westminster sputters his indignation at a proposal to honor Byron with a tablet in Poets’ Corner and concludes:
+                <quote rendition="#blockquote #nq">
+                    <lg>
+                        <l>’Twill next be expected</l>
+                        <l>That I get erected</l>
+                        <l>To Shelley a tablet</l>
+                        <l>In some niche or gablet.</l>
+                        <l>Then—what makes my skin burn,</l>
+                        <l>Yea, forehead to chin burn—</l>
+                        <l>That I ensconce Swinburne.</l>
+                    </lg>
+                </quote>
+            </p>
+            <p>Finally, from a series of newspaper clippings Rikky Rooksby has generously made available to me some details of Swinburne’s funeral may be gleaned.  The <title>Daily Graphic</title> (16 April 1909) reported that the coffin was carried from the Pines “about seven o’clock” and at Waterloo Station was placed “in a draped saloon, attached to the 8:55 train for Portsmouth”: “the large crowd which had assembled at Waterloo stood with bared heads at the train steamed out of the station.”  At Ventnor, reached at about 2 p.m., “the mourners emerged from the train into the genial warmth and unclouded light of a perfect spring day.  There was here also a respectful crowd in waiting.”  The coffin was then transported in an open hearse for the journey to the churchyard, about a mile away: “at the church gates the cortège was met by the rector of Bonchurch, who read the opening sentences of the burial service as he led the way to the moss and primrose lined grave.”  After his remarks, “the rector … asked for silent prayer and concluded by pronouncing the Benediction.”</p>
+            <p>An unlabeled clipping (probably dating from 17 April and probably from the Isle of <title>Wight County Press</title>) notes that the steamer had reached Ryde Pier at about 1 p.m.; “a large number witnessed the transfer of the coffin, which was covered with beautiful floral tributes, to the train for Ventnor.”  The article quotes “a correspondent” who gives further details of the feeling among the family and others at the churchyard:
+                <quote rendition="#blockquote #nq">
+                    It is stated on good authority that Miss Isabel Swinburne, the late poet’s only surviving sister, who was too ill to attend the funeral, delegated to her cousin, Mrs. Disney Leith, full authority to arrange the funeral, and that just before the burial relatives expressed a wish for prayers to be read, as they very much questioned whether the poet ever left instructions that his remains should not have a Christian burial.  Col. Leith quietly restrained one or two of the principal mourners, holding opposite views with regard to the ceremony, from interfering with the Rector, when he commenced to read the opening sentences of the Burial Service at the entrance to the Churchyard, and also prevented what looked likely to develop into intervention on the part of one or two mourners at the graveside.
+                </quote>
+            </p>
+            <p>The <title>Isle of Wight Mercury</title> noted that from Ryde to Ventnor, “the coffin occupied a special van, hung with black draping, and with the floor carpeted.”  At Ventnor, “hundreds of persons had assembled” and along the road to Bonchurch “the route here and there was lined with spectators.”  At the church gates, the arriving mourners were met by “Colonel A. H. Leith (late prospective Conservative candidate for the Island), and Mrs. Disney Leith (cousin of the poet).”   After the mourners scattered flowers on the lowered coffin, “crowds surged round the grave to look at the coffin.”</p>
+            <p>The <title>Mercury</title> too takes note of the family’s hopes for a religious service:
+                <quote rendition="#blockquote #nq">
+                    We are informed that the truth in reference to the religious ceremony at the funeral is that Miss Isabel Swinburne, unable to attend the funeral herself, delegated to her cousin, Mrs. Disney Leith, full family authority as to the conduct of the funeral.  Colonel Leith, acting for his mother, came over and interviewed the Rector, and supported by Sir John Swinburne, brought the strongest possible pressure to bear to have a religious ceremony.  At the graveside he interposed and prevented several who endeavoured  to stop the Rector from going on with the service.  There is a disposition on the part of the members of the family to deny that Swinburne ever left instructions that there should be no religious ceremony.
+                </quote>
+            </p>
+            <p>The <title>Daily Telegraph</title> account (15 April) adds a few details.  It mentions that the Swinburne family graves are covered with “Sicilian marble, cut and carved under the admiral’s [Swinburne’s father’s] watchful eye” (the implication is that Swinburne’s father perhaps chose and certainly approved the design; John Mayfield decades ago queried me about whose choice the stonework might have been).   It notes too that the grave had been lined with moss the day before the burial and that the moss was to be picked out with primroses from The Orchard before the coffin was lowered.  And finally it notes the closeness of Swinburne’s youthful home to the churchyard: “East Dene is now in the possession of the sisters of the Sacred Heart, and Swinburne was the only member of his family to enter the gates of the estate after it ceased to belong to his parents.   Mr. Swinburne on one occasion, when staying at the Orchard, took his friend Mr. Watts-Dunton, to see his old home.”</p>
+            <p>
+                The <title>Daily Chronicle</title> (16 April) explains the gaily dressed mourners apparent in several of the photographs and mentions the protests by Emery Walker and Helen Rossetti which she describes (Rooksby, A. C. Swinburne, p. 286):
+                <quote rendition="#blockquote #nq"><p rendition="#indent">This afternoon all the trippers who are spending an Easter holiday in Ventnor made their way to Bonchurch and the new churchyard.  Life at Ventnor does not offer many chances of excitement, and to see a famous poet buried was an opportunity too good to be lost.  So they came, and the most enterprising gained standing room near the grave, and were only kept aloof from its intimate neighborhood by the constabulary.  Exhausted tourists sat on tombstones, those with more energy trampled the primroses and violets in search of a convenient point of view.  Professional photographers climbed trees and trained their cameras on the grave.   Amateurs were not less enterprising, and an American boy, who brought his parents with him, had obtained a good place not three yards away from the spot where the chief mourners were expected to assemble.   All were in holiday attire.   There is nothing definitely irreverent in a scarlet striped parasol, but it seemed out of place when it was unfurled to cover a lady in the front row of the spectators wearing a cream coloured costume.   Still, the sun was hot, and the funeral was exceedingly late; it had been expected quite half an hour before, and people who had afternoon tea engagements began to think that their homage to a dead poet was ill requited by this delay.</p>
+                    <p rendition="#indent">The procession came at last, and one heard in the distance a firm, assertive voice repeating the familiar words: ’We brought nothing into this world, and it is certain that we can carry nothing out.  The Lord gave and the Lord hath taken away; blessed be the name of the Lord.’</p>
+                    <p rendition="#indent">Some of those who were already at the grave wondered.   There was to be no service; that was the compact signed and sealed.  Amazement and anger was on the faces of the mourners who followed the coffin; one, at least, was dissuaded only the by the appeal of a companion from making a protest there and then at the breaking of the bond.   The rector, the Rev. Floyd Andrewes, an elderly man, in full canonical strode calmly in front of the procession….</p>
+                    <p rendition="#indent">The coffin was deposited on the planks covering the moss covered grave and made ready to be lowered, and then the Rev. Floyd Andrewes spoke….</p>
+                    <p rendition="#indent">Then the rector, after all, had accepted the situation [‘that no formal service is desired over his (Swinburne’s) grave’].  Those of the mourners who had felt wrath when it seemed possible that the order for the burial of the dead was to be insisted upon were appeased.  But it was re-awakened when the voice of the rector repeated: ‘Man that is born of a woman hath but a short time to live and is full of misery.’
+                        Never before, probably, has that sentiment been received with muttered exclamations of ‘Shame!’ and ‘Scandalous!’ as it was yesterday by those who attended as chief mourners.  But the Rev. Floyd Andrewes went relentlessly on.   He passed from that portion of the service to the committal sentence.  ‘For in as much as it hath pleased Almighty God, of His great mercy, to take unto Himself the soul of our dear brother here departed, we therefore commit his body to the ground; earth to earth, ashes to ashes, dust to dust.’  He stopped there, without reference to ‘sure and certain hope of the resurrection to eternal life.’</p>
+                    <p rendition="#indent">‘I will now ask those present,’ said the rector, ‘to join with me for a moment or two in silent prayer.  The church is open for prayer and meditation for any of those who would like to retire to it after the service.’  And for a few moments this curious congregation bowed their heads; even the shutters of the camera were silent; only the birds sang to the sun striking hot out of the heavenly blue.</p>
+                    <p rendition="#indent">The rector returned to the church, where a few of the parishioners followed him but there was no spoken word.  Many passed in front of the open grave and dropped flowers upon the coffin, among them Lord Tennyson who was an unostentatious mourner at the funeral.</p></quote>
+            </p>
+            <p rendition="#indent">To the documentation about the telegrams exchanged between Watts-Dunton and the Rector, this account gives a more precise time for Watts-Dunton’s telegraph of the day before in which he forbade the burial service.   The <title>Times</title>’ account (Letters, VI, 227) says it was sent “late on the evening” but the <title>Daily Chronicle</title> has the precise time: “Putney, 2.35 p.m., to the Rector of Bonchurch.”  In reply, the Rector telegraphed, “Bonchurch, 6.57.  To Watts Dunton.  Just received telegram.  Shall be present to receive poet and follow your instructions,—Rector, Bonchurch.”</p>
+            <p rendition="#indent">To the documentation about the telegrams exchanged between Watts-Dunton and the Rector, this account gives a more precise time for Watts-Dunton’s telegraph of the day before in which he forbade the burial service.   The Times’ account (Letters, VI, 227) says it was sent “late on the evening” but the Daily Chronicle has the precise time: “Putney, 2.35 p.m., to the Rector of Bonchurch.”  In reply, the Rector telegraphed, “Bonchurch, 6.57.  To Watts Dunton.  Just received telegram.  Shall be present to receive poet and follow your instructions,—Rector, Bonchurch.”</p>
+            <p>
+                The <title>Daily Chronicle</title> reporter spoke to several of Swinburne’s relations and to the Rector about the poet’s wishes:<quote rendition="#blockquote #nq">
+                    <p rendition="#indent">The mourners who followed the coffin from Putney had accepted the rector’s assurances that there would be no service.  They were greatly indignant that the poet’s wishes had been disregarded.  Dr. Lowry, a cousin of Swinburne, stated to me after the interment that Swinburne left instructions in his will that there should be no religious service whatever.  Mr. Watts Dunton thought that he had made it certain by the steps he took to prevent any such thing.   That he has failed was not his fault, but because the rector had, in spite of his promise, insisted on reading fragments of the burial service.</p>
+                    <p rendition="#blockquote">The rector when I saw him this afternoon [April 15] said he was not convinced that the relatives were opposed to the service, and some of them had expressed a contrary opinion.  In the circumstances he thought a compromise was best, and he remarked that he had not, in the portions of the service which he read, done anything to offend anyone’s susceptibilities.</p></quote></p>
+            <p>In its account, the <title>Daily Telegraph</title> describes the incipient protest at the gate to the churchyard:<quote rendition="#blockquote #nq">
+                The cortège was met at the entrance to the churchyard by the Rev. J. Floyd Andrewes, the Rector of Bonchurch, in his surplice and stole, and so soon as the coffin had been lifted out of the hearse the reverend gentleman recited the opening sentences of the service, ‘I am the Resurrection and the Life, saith the Lord.’  There was no scene, though when Mrs. Watts-Dunton, the wife of the poet’s executor, attempted to make a mild protest she was quietly restrained by Colonel Leith, one of the mourners.  The coffin was carried straight to the graveside, and when it had been placed on the planks covering the opening of the grave, the rector gave a short address, explaining to a crowd of several hundreds the reason for the absence of the ordinary service.  Then, while the coffin was lowered to the bottom of the vault, the reverend gentleman said the first portion of the committal sentences, beginning with ‘Man that is born of a woman,’ and finishing with ‘Earth to earth, ashes to ashes, and dust to dust.’   There followed a profound silence, broken only by the piping of song-birds, and the throbbing engines of an ocean tramp a few hundred yards out in the Channel, and then Mrs. Leith, one of the mourners, and Colonel Leith, entered the church.  The other members of the funeral party remained discussing the rector’s action, while the public filed past the moss and primrose-lined grave, and cast handfuls of flowers on their departed friend.</quote></p>
+            <p>	The <title>Telegraph</title> suggests that a second clergyman, “a friend of Swinburne from boyhood,” had been expected to help officiate.   But Canon Feilden of Kirkby Stephen “was not well enough to attend the funeral.”  One of the wreaths came from Canon and Mrs. Feilden: “Deep regret, and in memory of life-long friendship and admiration”;  “Miss Marcia Feilden and Miss Cecilia Feilden, old Isle of Wight friends of the family, also sent floral tokens.”  The reporter also wrote that
+                <quote rendition="#blockquote #nq">
+                    in conversation with me after the funeral, Mr. Andrewes stated that some of Mr. Swinburne’s relatives saw him this morning, and ‘they did not like the idea’ of a silent burial.  Mrs. Watts-Dunton, who was accompanied by Dr. Lowry, Mr. Swinburne’s cousin, was very much distressed that the wishes of the poet had not been complied with.  ‘Mr. Swinburne,’ she said, ‘left instructions in his will that there should be no religious ceremony whatever at his funeral, and I should like it to be known that the clergyman of the parish, and not the executor, is responsible for the reading of a portion of the burial service at the graveside.’  Dr. Lowry subsequently added that the mourners and friends of Mr. Swinburne who had travelled from London were much concerned that the poet’s wishes had not been respected.</quote>
+            </p>
+            <p>In quoting the telegrams cited above, the Telegraph reporter makes it clear that their source was Dr. Lowry.</p>
+            <p>The paper’s account of the cortège from Ventnor differs slightly from the one above:
+                <quote rendition="#blockquote #nq">
+                    At Ventnor station, where the body arrived shortly after two, not many people saw the coffin carried to the hearse, and along the mile of hilly road to the churchyard there were very few people to watch the cortège pass.  In Bonchurch village all blinds were drawn.   This seemed to be the only sign of mourning.   There was no tolling of bells, and of the several hundred spectators inside the cemetery fully half wore bright summer dresses.   The visitors to the locality were easily recognisable, and unfortunately, in their desire to secure the best places to witness the interment, they did not hesitate to scramble over graves which were clearly cared for by tender hands.   The news that no service was to be read over the poet’s remains quickly spread, and some old parishioners  who had been present at the funerals of most of the Swinburnes recalled the fact that the poet knelt by the graveside with his sisters when their mother was buried.  It was nearly three o’clock when the body reached the churchyard.</quote></p>
+            <p>The <title>Telegraph</title> also states that the “purple pall with a white cross … had been used at the funeral of Swinburne’s parents and brother and sisters.”  When Helen Rossetti caught sight of the coffin in the grave, still covered “with a purple pall on which was designed a huge white cross” she immediately recalled Swinburne’s “Hymn to Proserpine”: “Thou has conquered, O pale Galilean, and the world has grown grey from thy breath” (Rooksby, <title>A. C. Swinburne</title>, p. 286).</p>
+            <milestone unit="section" rendition="#hr-50"/>
+            <note xml:id="note_28" rendition="#block #small"><p><ref target="#ref_28" rendition="#super">1</ref>In the first series of pictures, the circular inset is from a photograph taken 4 April 1907, the day before Swinburne turned 70; that photograph was printed in the <title>Daily Mirror</title>, 5 April 1907 (p. 6) (and reprinted, cropped as below, 12 April 1909 p. [8?]; this cropped picture was also printed, seemingly retouched somewhat, in the <title>Daily News</title>, 12 April p. 7b (see below), where is credited the editor of <title>Reynold’s Newspaper</title> and where are also pictured The Pines, the Rose and Crown, and the poet’s favorite bench on Putney Heath).  The photograph shows Swinburne striding along near Putney:
+                <figure rend="margin-left:auto; margin-right:auto;">
+                    <graphic url="&imgpath;acs0000504-01-008.png"/>
+                    <head>Swinburne striding along near Putney.</head>
+                    <figDesc>Swinburne striding along near Putney.</figDesc>
+                </figure>
+                <figure rend="margin-left:auto; margin-right:auto;">
+                    <graphic url="&imgpath;acs0000504-01-009.png"/>
+                    <head>Swinburne striding along near Putney. I am grateful to the Deputy Chief Librarian for the Daily Mirror in 1988, A. E. Freeman, who supplied the picture.</head>
+                    <figDesc>Swinburne striding along near Putney.</figDesc>
+                </figure></p>
+                <p>The photograph of Swinburne’s coffin being carried from The Pines would have been taken shortly after 7 a.m. on the day of the funeral, 15 April 1909; the gentleman leading the way was presumably the undertaker, Mr. Haslett of Wandsworth (Daily News, 14 April p. 7d).</p>
+                
+                
+            </note>
+            -->
+        </body>
+    </text>
+</TEI>
+
+    

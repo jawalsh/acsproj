@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl xml:id="collex_genres">
+        <taxonomy>
+          <bibl><ptr target="http://linktocollexgenres/"/></bibl>
+          
+          <category xml:id="collex_genre_architecture">
+            <catDesc>Architecture</catDesc>
+          </category>
+          <category xml:id="collex_genre_artifacts">
+            <catDesc>Artifacts</catDesc>
+          </category>
+          <category xml:id="collex_genre_bibliography">
+            <catDesc>Bibliography</catDesc>
+          </category>
+          <category xml:id="collex_genre_book_history">
+            <catDesc>Book History</catDesc>
+          </category>
+          <category xml:id="collex_genre_citation">
+            <catDesc>Citation</catDesc>
+          </category>
+          <category xml:id="collex_genre_collection">
+            <catDesc>Collection</catDesc>
+          </category>
+          <category xml:id="collex_genre_criticism">
+            <catDesc>Criticism</catDesc>
+          </category>
+          <category xml:id="collex_genre_drama">
+            <catDesc>Drama</catDesc>
+          </category>
+          <category xml:id="collex_genre_education">
+            <catDesc>Education</catDesc>
+          </category>
+          <category xml:id="collex_genre_ephemera">
+            <catDesc>Ephemera</catDesc>
+          </category>
+          <category xml:id="collex_genre_family_life">
+            <catDesc>Family Life</catDesc>
+          </category>
+          <category xml:id="collex_genre_fiction">
+            <catDesc>Fiction</catDesc>
+          </category>
+          <category xml:id="collex_genre_folklore">
+            <catDesc>Folklore</catDesc>
+          </category>
+          <category xml:id="collex_genre_history">
+            <catDesc>History</catDesc>
+          </category>
+          <category xml:id="collex_genre_humor">
+            <catDesc>Humor</catDesc>
+          </category>
+          <category xml:id="collex_genre_law">
+            <catDesc>Law</catDesc>
+          </category>
+          <category xml:id="collex_genre_leisure">
+            <catDesc>Leisure</catDesc>
+          </category>
+          <category xml:id="collex_genre_letters">
+            <catDesc>Letters</catDesc>
+          </category>
+          <category xml:id="collex_genre_life_writing">
+            <catDesc>Life Writing</catDesc>
+          </category>
+          <category xml:id="collex_genre_manuscript">
+            <catDesc>Manuscript</catDesc>
+          </category>
+          <category xml:id="collex_genre_music">
+            <catDesc>Music</catDesc>
+          </category>
+          <category xml:id="collex_genre_nonfiction">
+            <catDesc>Nonfiction</catDesc>
+          </category>
+          <category xml:id="collex_genre_paratext">
+            <catDesc>Paratext</catDesc>
+          </category>
+          <category xml:id="collex_genre_periodical">
+            <catDesc>Periodical</catDesc>
+          </category>
+          <category xml:id="collex_genre_philosophy">
+            <catDesc>Philosophy</catDesc>
+          </category>
+          <category xml:id="collex_genre_photograph">
+            <catDesc>Photograph</catDesc>
+          </category>
+          <category xml:id="collex_genre_poetry">
+            <catDesc>Poetry</catDesc>
+          </category>
+          <category xml:id="collex_genre_politics">
+            <catDesc>Politics</catDesc>
+          </category>
+          <category xml:id="collex_genre_reference_works">
+            <catDesc>Reference Works</catDesc>
+          </category>
+          <category xml:id="collex_genre_religion">
+            <catDesc>Religion</catDesc>
+          </category>
+          <category xml:id="collex_genre_review">
+            <catDesc>Review</catDesc>
+          </category>
+          <category xml:id="collex_genre_science">
+            <catDesc>Science</catDesc>
+          </category>
+          <category xml:id="collex_genre_translation">
+            <catDesc>Translation</catDesc>
+          </category>
+          <category xml:id="collex_genre_travel">
+            <catDesc>Travel</catDesc>
+          </category>
+          <category xml:id="collex_genre_visual_art">
+            <catDesc>Visual Art</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <p>Some text here.</p>
+    </body>
+  </text>
+</TEI>

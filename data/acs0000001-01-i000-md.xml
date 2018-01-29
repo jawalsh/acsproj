@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs000001-01-i000-md">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dedicatory Epistle</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/seriesStmt.xml"/>
+         <sourceDesc>
+            <p>This TEI/XML document is the original source.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+<include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_criticism"/>
+            <catRef target="#collex_genre_letters"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="svninfo">
+         $Id: acs0000001-01-i000-md.xml 1194 2011-10-14 11:52:04Z jawalsh $
+         $Rev: 1194 $
+         $Date: 2011-10-14 07:52:04 -0400 (Fri, 14 Oct 2011) $
+         $Author: jawalsh $
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="form">
+            <head>Form</head>
+            <list>
+               <item n="genre-main">prose</item>
+               <item n="genre-sub">epistle</item>
+               <item n="genre-sub">dedication</item>
+               <item n="genre-sub">essay</item>
+            </list>
+         </div>
+         <div xml:id="texts">
+            <head>texts</head>
+            <listBibl>
+               <biblStruct n="original_collection" xml:id="acs0000001-01-i000-bibl">
+                  <analytic>
+                     <author><persName key="acs">Algernon Charles Swinburne</persName></author>
+                     <title>Dedicatory Epistle</title>
+                  </analytic>
+                  <monogr>
+                     <title>The Poems of Algernon Charles Swinburne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Chatto &amp; Windus</publisher>
+                        <date xml:id="sort_date" when="1904">1904</date>
+                        <biblScope type="vol">1</biblScope>
+                        <biblScope type="pp">v-xxix</biblScope>
+                     </imprint>
+                     <extent>6 vols.</extent>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

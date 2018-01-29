@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- $Id --><?oxygen RNGSchema="swinburne.rnc"
+type="compact" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000501-01">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>A Swinburne Bibliography</title>
+                <editor role="editor">
+                    <persName key="jawalsh">John A. Walsh</persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/publisher.xml"/>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/pubPlace.xml"/>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/pubDate.xml"/>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                    href="includes/availability.xml"/>
+                <idno type="nines"><!-- old ID -->uclintro00</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p> This TEI XML document is the original source. </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+        </encodingDesc>
+        <revisionDesc>
+            <change n="svninfo"
+                > $Id: acs0000499-01.xml 1054 2009-11-22 12:18:07Z jawalsh $ $Rev:
+                687 $ $Date: 2009-11-22 07:18:07 -0500 (Sun, 22 Nov 2009) $ $Author: jawalsh $
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="acs0000501-01-content" type="bibliography">
+        <body>
+            <listBibl>
+                <biblStruct xml:id="Wilson1981">
+                    <analytic>
+                        <title>Algernon Agonistes: “Thalassius,” Visionary Strength, and Swinburne's Critique of Arnold's “Sweetness and Light”</title>
+                        <author><persName><surname>Wilson</surname>, William</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">92844</idno>
+                        <imprint>
+                            <biblScope type="vol">19</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">381-395</biblScope>
+                            <date when="1981"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="McSweeney1973">
+                    <analytic>
+                        <title>Swinburne's 'By the North Sea'</title>
+                        <author><persName><surname>McSweeney</surname>, Kerry</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>The Yearbook of English Studies</title>
+                        <idno type="bookends-rec-number">13989</idno>
+                        <imprint>
+                            <publisher>Modern Humanities Research Association</publisher>
+                            <biblScope type="vol">3</biblScope>
+                            <biblScope type="pp">222-231</biblScope>
+                            <date when="1973"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://links.jstor.org/sici?sici=0306-2473%281973%293%3C222%3AS%27TNS%3E2.0.CO%3B2-O"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Meyers2004">
+                    <analytic>
+                        <title>On Drink and Faith: Swinburne and John Nichol at Oxford</title>
+                        <author><persName><surname>Meyers</surname>, Terry L.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Review of English Studies: The Leading Journal of English Literature and the English Language</title>
+                        <idno type="bookends-rec-number">34267</idno>
+                        <imprint>
+                            <biblScope type="vol">55</biblScope>
+                            <biblScope type="issue">220</biblScope>
+                            <biblScope type="pp">392-424</biblScope>
+                            <date when="2004-06"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Laity2004">
+                    <analytic>
+                        <title>T. S. Eliot and A. C. Swinburne: Decadent Bodies, Modern Visualities, and Changing Modes of Perception</title>
+                        <author><persName><surname>Laity</surname>, Cassandra</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Modernism/Modernity</title>
+                        <idno type="bookends-rec-number">31421</idno>
+                        <imprint>
+                            <biblScope type="vol">11</biblScope>
+                            <biblScope type="issue">3</biblScope>
+                            <biblScope type="pp">425-448</biblScope>
+                            <date when="2004-09"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Kelly2003">
+                    <analytic>
+                        <title>Comparing French and British Intellectuals: Towards a Cross-Channel Perspective</title>
+                        <author><persName><surname>Kelly</surname>, Michael</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>French Cultural Studies</title>
+                        <idno type="bookends-rec-number">17339</idno>
+                        <imprint>
+                            <biblScope type="vol">14</biblScope>
+                            <biblScope type="issue">3</biblScope>
+                            <biblScope type="pp">336-348</biblScope>
+                            <date when="2003"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Meyers2002">
+                    <analytic>
+                        <title>An Attack on Lowell at the 1900 MLA Convention: A Poe Supporter Appeals to Swinburne</title>
+                        <author><persName><surname>Meyers</surname>, Terry L.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Poe Studies/Dark Romanticism: History, Theory, Interpretation</title>
+                        <idno type="bookends-rec-number">40924</idno>
+                        <imprint>
+                            <biblScope type="vol">35</biblScope>
+                            <biblScope type="pp">66-70</biblScope>
+                            <date when="2002"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Hardman2002">
+                    <analytic>
+                        <title>Faithful to the Greek?: Swinburnian Patterning (Hopkinsian Dapple)</title>
+                        <author><persName><surname>Hardman</surname>, Malcolm</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Yearbook of English Studies</title>
+                        <idno type="bookends-rec-number">11334</idno>
+                        <imprint>
+                            <biblScope type="vol">32</biblScope>
+                            <biblScope type="pp">19-35</biblScope>
+                            <date when="2002"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="McSweeney1971">
+                    <analytic>
+                        <title>Swinburne's "Thalassius"</title>
+                        <author><persName><surname>McSweeney</surname>, Kerry</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Humanities Association Bulletin</title>
+                        <idno type="bookends-rec-number">91111</idno>
+                        <imprint>
+                            <biblScope type="vol">22</biblScope>
+                            <biblScope type="pp">55</biblScope>
+                            <date when="1971"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Raymond1968">
+                    <analytic>
+                        <title>Swinburne Among the Nightingales</title>
+                        <author><persName><surname>Raymond</surname>, Meredith B.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">85653</idno>
+                        <imprint>
+                            <biblScope type="vol">6</biblScope>
+                            <biblScope type="pp">125-42</biblScope>
+                            <date when="1968"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="wise1966">
+                    <monogr>
+                        <title>A bibliography of the writings in prose and verse of Algernon Charles Swinburne</title>
+                        
+                        <author><persName><surname>Wise</surname>, Thomas James</persName></author>
+                        <note>
+                            Facsimile reprint of 1st ed., London, Richard Clay, 1919-20.
+                        </note>
+                        <imprint>
+                            <publisher>Dawsons</publisher>
+                            <pubPlace>London</pubPlace>
+                            <date when="1966"/>
+                            
+                        </imprint>
+                        <extent>2 vols.</extent>
+                    </monogr>
+                </biblStruct>
+                
+                
+                <biblStruct xml:id="Miller2003">
+                    <monogr>
+                        <author><persName><surname>Miller</surname>, J. Hillis</persName></author>
+                        <editor><persName><surname>Latham</surname>, David</persName></editor>
+                        <title>Whistler/Swinburne: 'Before the Mirror'</title>
+                        <idno type="bookends-rec-number">27363</idno>
+                        <imprint>
+                            <publisher>U of Toronto P</publisher>
+                            <pubPlace>Toronto</pubPlace>
+                            <biblScope type="pp">135-144</biblScope>
+                            <date when="2003"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Roberts1991">
+                    <analytic>
+                        <title>Hunting and Sacrifice in Swinburne's Atalanta in Calydon and Erechtheus</title>
+                        <author><persName><surname>Roberts</surname>, Adam</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Studies in English Literature, 1500-1900</title>
+                        <idno type="bookends-rec-number">32477</idno>
+                        <imprint>
+                            <biblScope type="vol">31</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">757-71</biblScope>
+                            <date when="1991">1991 Autumn</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Connolly1952">
+                    <analytic>
+                        <title>Swinburne's Theory of the End of Art</title>
+                        <author><persName><surname>Connolly</surname>, Thomas E.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>ELH</title>
+                        <idno type="bookends-rec-number">61511</idno>
+                        <imprint>
+                            <biblScope type="vol">19</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">277-290</biblScope>
+                            <date when="1952-12"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://links.jstor.org/sici?sici=0013-8304%28195212%2919%3A4%3C277%3ASTOTEO%3E2.0.CO%3B2-S"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Wagner-Lawlor1998">
+                    <analytic>
+                        <title>"Yet Many of These are Askew": On Imitation, Originality, and Parody in Swinburne's Heptalogia</title>
+                        <author><persName><surname>Wagner-Lawlor</surname>, Jennifer A.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Vic torian Literature and Culture</title>
+                        <idno type="bookends-rec-number">56456</idno>
+                        <imprint>
+                            <biblScope type="vol">1998</biblScope>
+                            <biblScope type="pp">237-257</biblScope>
+                            <date when="1998"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Saville2009">
+                    <analytic>
+                        <title>Cosmopolitan Republican Swinburne, the Immersive Poet as Public Moralist</title>
+                        <author><persName><surname>Saville</surname>, Julia F.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">82712</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">691-713</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.saville.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Boulet2009">
+                    <analytic>
+                        <title>“Will he rise and recover[?]”: Catullus, Castration, and Censorship in Swinburne’s “Dolores”</title>
+                        <author><persName><surname>Boulet</surname>, Jason</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">4357</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">747-758</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.boulet.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Tucker2008">
+                    <monogr>
+                        <title>Epic: Britain's Heroic Muse 1790-1910</title>
+                        <author><persName><surname>Tucker</surname>, Herbert F.</persName></author>
+                        <idno type="bookends-rec-number">13374</idno>
+                        <imprint>
+                            <publisher>Oxford UP</publisher>
+                            <pubPlace>Oxford</pubPlace>
+                            <date when="2008"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Meyers2005">
+                    <analytic>
+                        <title>A Manuscript of Swinburne's 'The Garden of Proserpine'</title>
+                        <author><persName><surname>Meyers</surname>, Terry L.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Yale University Library Gazette</title>
+                        <idno type="bookends-rec-number">21803</idno>
+                        <imprint>
+                            <biblScope type="vol">80</biblScope>
+                            <biblScope type="issue">1-2</biblScope>
+                            <biblScope type="pp">45-55</biblScope>
+                            <date when="2005-10"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Burnett2009">
+                    <analytic>
+                        <title>Some Reflections on the Text of Swinburne’s Unfinished Novel, the so-called “Lesbia Brandon”</title>
+                        <author><persName><surname>Burnett</surname>, T.A.J.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">11145</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">777-786</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.burnett.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Fippinger2009">
+                    <analytic>
+                        <title>Intimations and Imitations of Immortality: Swinburne’s “By the North Sea” and “Poeta Loquitur”</title>
+                        <author><persName><surname>Fippinger</surname>, Andrew</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">16621</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">675-690</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.fippinger.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Fisher2009">
+                    <analytic>
+                        <title>Swinburne’s “A Nympholept” in the Making</title>
+                        <author><persName><surname>Fisher</surname>, Benjamin F.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">94959</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">787-800</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.fisher.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Garland2009">
+                    <analytic>
+                        <title>Brothers in Paradox: Swinburne, Baudelaire, and the Paradox of Sin</title>
+                        <author><persName><surname>Garland </surname>, Tony W.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">90961</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">633-645</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.garland.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Levin2009">
+                    <analytic>
+                        <title>A Theory of Poetry: Swinburne’s <title level="a">A Dark Month</title></title>
+                        <author><persName><surname>Levin</surname>, Yisrael</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">10154</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">661-673</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.levin.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Louis2009">
+                    <analytic>
+                        <title>Erotic Figuration in Swinburne’s Tristram of Lyonesse, Canto 2: The Vanishing Knight and the Drift of Butterflies</title>
+                        <author><persName><surname>Louis</surname>, Margot K.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">15881</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">647-659</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.louis.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Maxwell2009">
+                    <analytic>
+                        <title>Swinburne and Thackeray’s The Newcomes</title>
+                        <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">86543</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">733-746</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.maxwell.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="McGann2009">
+                    <analytic>
+                        <title>Wagner, Baudelaire, Swinburne: Poetry in the Condition of Music</title>
+                        <author><persName><surname>McGann</surname>, Jerome</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">89388</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">619-632</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.mcgann.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Olverson2009">
+                    <analytic>
+                        <title>Libidinous Laureates and Lyrical Maenads: Michael Field, Swinburne and Erotic Hellenism</title>
+                        <author><persName><surname>Olverson</surname>, T. D.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">74446</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">759-776</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.olverson.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Paterson2009">
+                    <analytic>
+                        <title>“Much Regrafted Pain”: Schopenhauerian Love and the Fecundity of Pain in Atalanta in Calydon</title>
+                        <author><persName><surname>Paterson</surname>, Katie</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">53203</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">715-731</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.paterson.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Rooksby2009">
+                    <analytic>
+                        <title>Introduction</title>
+                        <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
+                        <author><persName><surname>Meyers</surname>, Terry L.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">40679</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">47</biblScope>
+                            <biblScope type="issue">4</biblScope>
+                            <biblScope type="pp">611-618</biblScope>
+                            <date when="2009"/>
+                            <note type="url">
+                                <ptr
+                                    target="http://muse.jhu.edu/journals/victorian_poetry/v047/47.4.rooksby.html"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Swinburne2006">
+                    <monogr>
+                        <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                        <editor><persName><surname>Walsh</surname>, John A.</persName></editor>
+                        <title>The Algernon Charles Swinburne Project</title>
+                        <idno type="bookends-rec-number">27830</idno>
+                        <imprint>
+                            <publisher>Indian University Digital Library Program</publisher>
+                            <pubPlace>Bloomington</pubPlace>
+                            <date from="2006" to="2010"/>
+                            <note type="url">
+                                <ptr target="http://www.swinburneproject.org/"/>
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Eliot1920">
+                    <analytic>
+                        <title>Swinburne as Poet</title>
+                        <author><persName><surname>Eliot</surname>, T.S.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>The Sacred Wood: Essays on Poetry and Criticism</title>
+                        <idno type="bookends-rec-number">2522</idno>
+                        <imprint>
+                            <publisher>Methuen</publisher>
+                            <pubPlace>London</pubPlace>
+                            <biblScope type="pp">144-150</biblScope>
+                            <date when="1920"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="cassidy1964">
+                    <monogr>
+                        <author><persName><surname>Cassidy</surname>, John A.</persName></author>
+                        <title>Algernon C. Swinburne</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>Twayne</publisher>
+                            <date when="1964"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="hyder1972">
+                    <analytic>
+                        <author><persName><surname>Hyder</surname>, Clyde K.</persName></author>
+                        <title>Introduction</title>
+                    </analytic>
+                    <monogr>
+                        <editor><persName><surname>Hyder</surname>, Clyde K.</persName></editor>
+                        <author><persName key="acs"/></author>
+                        <title>Swinburne as Critic.</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Routledge</publisher>
+                            <date when="1972"/>
+                            <biblScope type="pp">1-20</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="langIntro1959">
+                    <analytic>
+                        <author><persName><surname>Lang</surname>, Cecil Y.</persName></author>
+                        <title>Introduction</title>
+                    </analytic>
+                    <monogr>
+                        <title>The Swinburne Letters</title>
+                        <author><persName key="acs"/></author>
+                        <editor><persName>Cecil Y. Lang</persName></editor>
+                        <imprint>
+                            <pubPlace>New Haven</pubPlace>
+                            <publisher>Yale UP</publisher>
+                            <date when="1959" to="1962"/>
+                            <biblScope type="vol">1</biblScope>
+                            <biblScope type="pp">xiii-l</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="lang1959">
+                    <monogr>
+                        <title>The Swinburne Letters</title>
+                        <author><persName key="acs"/></author>
+                        <editor><persName>Cecil Y. Lang</persName></editor>
+                        <imprint>
+                            <pubPlace>New Haven</pubPlace>
+                            <publisher>Yale UP</publisher>
+                            <date from="1959" to="1962"/>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Louis1976">
+                    <monogr>
+                        <title>“Thalassius” and “On the Cliffs”: The Composition of a Poet</title>
+                        <author><persName><surname>Louis</surname>, Margot K.</persName></author>
+                        <idno type="bookends-rec-number">32129</idno>
+                        <imprint>
+                            <publisher>Smith College</publisher>
+                            <pubPlace>Northampton</pubPlace>
+                            <date when="1976"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Louis1990">
+                    <monogr>
+                        <title>Swinburne and His Gods: The Roots and Growth of an Agnostic Poetry</title>
+                        <author><persName><surname>Louis</surname>, Margot K.</persName></author>
+                        <idno type="bookends-rec-number">74702</idno>
+                        <imprint>
+                            <publisher>McGill-Queen's UP</publisher>
+                            <pubPlace>Montreal</pubPlace>
+                            <date when="1990"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Eron2006">
+                    <analytic>
+                        <title>Circles and the In-Between: Shaping Time, Space, and Paradox in Swinburnian Verse</title>
+                        <author><persName><surname>Eron</surname>, Sarah</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">86472</idno>
+                        <imprint>
+                            <biblScope type="vol">44</biblScope>
+                            <biblScope type="issue">3</biblScope>
+                            <biblScope type="pp">293-309</biblScope>
+                            <date when="2006"/>
+                            <note type="url">
+                                <ptr
+                                    target="x-yojimbo-item://65626108-DED4-402F-B253-E5568F36A1EF"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
+                <biblStruct xml:id="Rooksby">
+                    <analytic>
+                        <title>Swinburne's ‘Boo’ Rides Again</title>
+                        <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>The Review of English Studies</title>
+                        <idno type="bookends-rec-number">96142</idno>
+                        <imprint>
+                            <biblScope type="vol">44</biblScope>
+                            <biblScope type="issue">173</biblScope>
+                            <biblScope type="pp">77-82</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="mathews1971">
+                    <analytic>
+                        <author><persName><surname>Mathews</surname>, Richard</persName></author>
+                        <title>Heart's Love and Heart's Divisions: The Quest for Unity in Atalanta
+                            in Calydon</title>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <imprint>
+                            <biblScope type="vol">9</biblScope>
+                            <biblScope type="issue">1-2</biblScope>
+                            <date when="1971"/>
+                            <biblScope type="pp">35-48</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="maxwell2001">
+                    <monogr>
+                        <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                        <title>The Female Sublime from Milton to Swinburne: Bearing
+                            Blindness</title>
+                        <imprint>
+                            <pubPlace>Manchester</pubPlace>
+                            <publisher>Manchester UP</publisher>
+                            <date when="2001"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="maxwell2006">
+                    <!--
+                    <analytic>
+                        <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                        <title>Biographical Outline</title>
+                    </analytic>
+                    -->
+                    <monogr>
+                        <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                        <title>Swinburne</title>
+                        <imprint>
+                            <pubPlace>Tavistock</pubPlace>
+                            <publisher>Northcote</publisher>
+                            <date when="2006"/>
+                            <biblScope type="pp">ix-xii</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Kuduk2001">
+                    <analytic>
+                        <title><title level="a">A Sword of a Song</title>: Swinburne's Republican Aesthetics in <title>Songs before Sunrise</title></title>
+                        <author><persName><surname>Kuduk</surname>, Stephanie</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Studies</title>
+                        <idno type="bookends-rec-number">48002</idno>
+                        <imprint>
+                            <biblScope type="vol">43</biblScope>
+                            <biblScope type="issue">2</biblScope>
+                            <biblScope type="pp">253-278</biblScope>
+                            <date when="2001"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="McGann2004">
+                    <analytic>
+                        <title>Swinburne's Radical Artifice; or, the Comedian as A. C. </title>
+                        <author><persName><surname>McGann</surname>, Jerome </persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Modernism/Modernity </title>
+                        <idno type="bookends-rec-number">3126</idno>
+                        <imprint>
+                            <biblScope type="vol">11</biblScope>
+                            <biblScope type="issue">2</biblScope>
+                            <biblScope type="pp"> 205 -218 </biblScope>
+                            <date when="2004-04"/>
+                            <note type="url">
+                                <ptr
+                                    target="x-yojimbo-item://833288DC-5254-4502-B29C-ED1A2B60C952"
+                                />
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="mcgann1972">
+                    <monogr>
+                        <author><persName><surname>McGann</surname>, Jerome J.</persName></author>
+                        <title>Swinburne: An Experiment in Criticism</title>
+                        <imprint>
+                            <pubPlace>Chicago</pubPlace>
+                            <publisher>U of Chicago P</publisher>
+                            <date when="1972"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Swinburne2005">
+                    <monogr>
+                        <title>Uncollected Letters of Algernon Charles Swinburne</title>
+                        <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                        <editor><persName><surname>Meyers</surname>, Terry L.</persName></editor>
+                        <idno type="bookends-rec-number">3757</idno>
+                        <imprint>
+                            <publisher>Pickering &amp; Chatto</publisher>
+                            <pubPlace>London</pubPlace>
+                            <date when="2005"/>
+                        </imprint>
+                        <extent>3 vols.</extent>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="walsh2010">
+                    <analytic>
+                        <author><persName><surname>Walsh</surname>, John A..</persName></author>
+                        <title>“Quivering Web of Living Thought”: Conceptual Networks in Swinburne's
+                                <title
+                                level="m">Songs of the Springtides</title></title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">29-53</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="burton2010">
+                    <analytic>
+                        <author><persName><surname>Burton</surname>, Brian</persName></author>
+                        <title>Swinburne and the North</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">73-89</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="freeman2010">
+                    <analytic>
+                        <author><persName><surname>Freeman</surname>, Nick</persName></author>
+                        <title>Swinburne's <title>Shakespeare</title>: The Verbal Whirlwind?</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">91-106</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="ribeyrol2010">
+                    <analytic>
+                        <author><persName><surname>Ribeyrol</surname>, Charlotte</persName></author>
+                        <title>A Channel Passage: Swinburne and France</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">107-125</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Maxwell2001a">
+                    <analytic>
+                        <title>Swinburne and Sappho</title>
+                        <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Notes and Queries</title>
+                        <idno type="bookends-rec-number">48816</idno>
+                        <imprint>
+                            <biblScope type="vol">48</biblScope>
+                            <biblScope type="issue">2</biblScope>
+                            <biblScope type="pp">155-158</biblScope>
+                            <date when="2001"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="maxwell2010">
+                    <analytic>
+                        <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                        <title>Swinburne's Friendships with Women Writers</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">127-148</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="rooksby2010">
+                    <analytic>
+                        <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
+                        <title>Selecting Swinburne</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">149-166</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="kuduk_weiner2010">
+                    <analytic>
+                        <author><persName><surname>Kuduck Weiner</surname>,
+                            Stephanie</persName></author>
+                        <title>Knowledge and Sense Experience in Swinburne's Late Poetry</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">11-27</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+                <biblStruct xml:id="Levin2010a">
+                    <analytic>
+                        <author><persName><surname>Levin</surname>, Yisrael</persName></author>
+                        <title>Solar Erotica: Swinburne's Myth of Creation</title>
+                    </analytic>
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">55-72</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="levin2010">
+                    <monogr>
+                        <title>A. C. Swinburne and the Singing Word: New Perspectives on the Mature
+                            Poetry</title>
+                        <editor><persName><surname>Levin</surname>, Yisrael</persName></editor>
+                        <imprint>
+                            <pubPlace>Farnham, England</pubPlace>
+                            <publisher>Ashgate</publisher>
+                            <date when="2010"/>
+                            <biblScope type="pp">29-53</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="meyers1976">
+                    <analytic>
+                        <author><persName><surname>Meyers</surname>, Terry L.</persName></author>
+                        <title>Shelley's Influence on <title level="m"
+                                >Atalanta in
+                            Calydon</title></title>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <imprint>
+                            <biblScope type="vol">14</biblScope>
+                            <biblScope type="issue">2</biblScope>
+                            <date when="1976"/>
+                            <biblScope type="pp">150-54</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <!--
+                "Mr. Swinburne's Erechtheus."  Rev. of Erechtheus, by Algernon Charles Swinburne.  The Athenaeum.  1 Jan. 1876: 13-14. -->
+                <biblStruct xml:id="murfin1978">
+                    <monogr>
+                        <author><persName><surname>Murfin</surname>, Ross C.</persName></author>
+                        <title>Swinburne, Hardy, Lawrence and the Burden of Belief</title>
+                        <imprint>
+                            <pubPlace>Chicago</pubPlace>
+                            <publisher>U of Chicago P</publisher>
+                            <date when="1978"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Nicolson1926">
+                    <monogr>
+                        <title>Swinburne</title>
+                        <author><persName><surname>Nicolson</surname>, Harold</persName></author>
+                        <idno type="bookends-rec-number">91485</idno>
+                        <imprint>
+                            <publisher>Macmillan</publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date when="1926"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="riede1978a">
+                    <monogr>
+                        <author><persName><surname>Riede</surname>, David G.</persName></author>
+                        <title>Swinburne: A Study of Romantic Mythmaking</title>
+                        <imprint>
+                            <pubPlace>Charlottesville</pubPlace>
+                            <publisher>UP of Virginia</publisher>
+                            <date when="1978"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Riede1978">
+                    <analytic>
+                        <title>Swinburne's "On The Cliffs": The Evolution of a Romantic Myth</title>
+                        <author><persName><surname>Riede</surname>, David G.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">6798</idno>
+                        <imprint>
+                            <publisher>West Virginia University Press</publisher>
+                            <biblScope type="vol">16</biblScope>
+                            <biblScope type="issue">3</biblScope>
+                            <biblScope type="pp">189–203</biblScope>
+                            <date when="1978">1978 Autumn</date>
+                            <note type="url">
+                                <ptr target="http://www.jstor.org/stable/40002391"/>
+                            </note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Rosenberg2005">
+                    <analytic>
+                        <author><persName><surname>Rosenberg</surname></persName>, John D.</author>
+                        <title>Swinburne and the Ravages of Time</title>
+
+                    </analytic>
+                    <monogr>
+                        <title>Elegy for an Age: The Presence of the Past in Victorian Literature</title>
+                        <idno type="bookends-rec-number">16381</idno>
+                        <imprint>
+                            <publisher>Anthem Press</publisher>
+                            <pubPlace>London</pubPlace>
+                            <biblScope type="pp">163-186</biblScope>
+                            <date when="2005"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Rooksby1997">
+                    <monogr>
+                        <title>A. C. Swinburne: A Poet's Life</title>
+                        <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
+                        <idno type="bookends-rec-number">74725</idno>
+                        <imprint>
+                            <publisher>Scolar Press</publisher>
+                            <pubPlace>Brookfield, VT</pubPlace>
+                            <date when="1997"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Stuart1971">
+                    <analytic>
+                        <title>Swinburne: The Composition of a Self-Portrait</title>
+                        <author><persName><surname>Stuart</surname>, Donald C.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">34521</idno>
+                        <imprint>
+                            <biblScope type="vol">9</biblScope>
+                            <biblScope type="pp">111-28</biblScope>
+                            <date when="1971"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="McGhee1967">
+                    <analytic>
+                        <title>"Thalassius": Swinburne's Poetic Myth</title>
+                        <author><persName><surname>McGhee</surname>, Richard D.</persName></author>
+                    </analytic>
+                    <monogr>
+                        <title>Victorian Poetry</title>
+                        <idno type="bookends-rec-number">96677</idno>
+                        <imprint>
+                            <biblScope type="vol">5</biblScope>
+                            <biblScope type="pp">127-136</biblScope>
+                            <date when="1967"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <!--
+                Rosenberg, John D., ed.  Swinburne: Selected Poetry and Prose.  By Algernon Charles Swinburne.  New York: Modern Library, 1968.-->
+                <biblStruct xml:id="Rutland1931">
+                    <monogr>
+                        <title>Swinburne: A Nineteenth Century Hellene</title>
+                        <author><persName><surname>Rutland</surname>, William R.</persName></author>
+                        <idno type="bookends-rec-number">79885</idno>
+                        <imprint>
+                            <publisher>Blackwell</publisher>
+                            <pubPlace>Oxford</pubPlace>
+                            <date when="1931"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="welby1926">
+                    <monogr>
+                        <author><persName><surname>Welby</surname>, T. Earl.</persName></author>
+                        <title>A Study of Swinburne</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>George H. Doran</publisher>
+                            <date when="1926"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <div>
+                <head>Noteworthy Selections</head>
+                <listBibl>
+                    <biblStruct xml:id="Swinburne2004a">
+                        <monogr>
+                            <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                            <editor><persName><surname>McGann</surname>, Jerome J.</persName></editor>
+                            <editor><persName><surname>Sligh</surname>, Charles</persName></editor>
+                            <title>Major Poems and Selected Prose</title>
+                            <idno type="bookends-rec-number">8811</idno>
+                            <imprint>
+                                <publisher>Yale University Press</publisher>
+                                <pubPlace>New Haven</pubPlace>
+                                <date when="2004"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Swinburne1968">
+                        <monogr>
+                            <author><persName><surname>Swinburne</surname>, Algernon
+                                    Charles</persName></author>
+                            <editor><persName><surname>Rosenberg</surname>, John
+                                D.</persName></editor>
+                            <title>Swinburne: Selected Poetry and Prose</title>
+                            <imprint>
+                                <publisher>Modern Library</publisher>
+                                <pubPlace>New York</pubPlace>
+                                <date when="1968"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Swinburne2000">
+                        <monogr>
+                            <author><persName><surname>Swinburne</surname>, Algernon
+                                Charles</persName></author>
+                            <editor><persName><surname>Haynes</surname>, Kenneth</persName></editor>
+                            <title><title>Poems and Ballads</title> &amp; <title>Atalanta in Calydon</title></title>
+                            <imprint>
+                                <publisher>Penguin</publisher>
+                                <pubPlace>London</pubPlace>
+                                <date when="2000"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+                <listBibl xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+
+
+
+
+                   
+                    
+                    
+                    <biblStruct xml:id="Swinburne1959">
+                        <monogr>
+                            <title>The Swinburne Letters</title>
+                            <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                            <editor><persName><surname>Lang</surname>, Cecil Y.</persName></editor>
+                            <idno type="bookends-rec-number">92801</idno>
+                            <imprint>
+                                <publisher>Yale UP</publisher>
+                                <pubPlace>New Haven</pubPlace>
+                                <date from="1959" to="1962"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Eliot1920a">
+                        <analytic>
+                            <title>Swinburne as Critic</title>
+                            <author><persName><surname>Eliot</surname>, T.S.</persName></author>
+                        </analytic>
+                        <monogr>
+                            <title>The Sacred Wood: Essays on Poetry and Criticism</title>
+                            <idno type="bookends-rec-number">6513</idno>
+                            <imprint>
+                                <publisher>Methuen</publisher>
+                                <pubPlace>London</pubPlace>
+                                <biblScope type="pp">17-23</biblScope>
+                                <date when="1920"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="McGann1972">
+                        <monogr>
+                            <title>Swinburne: An Experiment in Criticism</title>
+                            <author><persName><surname>McGann</surname>, Jerome</persName></author>
+                            <idno type="bookends-rec-number">63756</idno>
+                            <imprint>
+                                <publisher>U of Chicago P</publisher>
+                                <pubPlace>Chicago</pubPlace>
+                                <date when="1972"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Swinburne1875a">
+                        <monogr>
+                            <title>George Chapman: A Critical Essay</title>
+                            <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                            <idno type="bookends-rec-number">45844</idno>
+                            <imprint>
+                                <publisher>Chatto</publisher>
+                                <pubPlace>London</pubPlace>
+                                <date when="1875"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Maxwell2001">
+                        <monogr>
+                            <title>The Female Sublime from Milton to Swinburne: Bearing Blindness</title>
+                            <author><persName><surname>Maxwell</surname>, Catherine</persName></author>
+                            <idno type="bookends-rec-number">20366</idno>
+                            <imprint>
+                                <publisher>Manchester UP</publisher>
+                                <pubPlace>Manchester</pubPlace>
+                                <date when="2001"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Temple1953">
+                        <monogr>
+                            <title>The Critic's Alchemy: A Study of the Introduction of French Symbolism into England</title>
+                            <author><persName><surname>Temple</surname>, Ruth Zabriskie</persName></author>
+                            <idno type="bookends-rec-number">54744</idno>
+                            <imprint>
+                                <publisher>Twayne</publisher>
+                                <pubPlace>New York</pubPlace>
+                                <date when="1953"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Prins1999">
+                        <monogr>
+                            <title>Victorian Sappho</title>
+                            <author><persName><surname>Prins</surname>, Yopie</persName></author>
+                            <idno type="bookends-rec-number">44419</idno>
+                            <imprint>
+                                <publisher>Princeton UP</publisher>
+                                <pubPlace>Princeton</pubPlace>
+                                <date when="1999"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+
+
+
+
+ 
+
+
+
+
+
+                  
+                    
+
+
+                    
+
+
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+                    <!-- Swinburne works -->
+                    <!--
+                        <biblStruct xml:id="Swinburne1875b">
+                        <analytic>
+                        <title>Byron</title>
+                        <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                        </analytic>
+                        <monogr>
+                        <title>Essays and Studies</title>
+                        <idno type="bookends-rec-number">11817</idno>
+                        <imprint>
+                        <publisher>Chatto &amp; Windus</publisher>
+                        <pubPlace>London</pubPlace>
+                        <biblScope type="pp">238-258</biblScope>
+                        <date when="1875"/>
+                        </imprint>
+                        </monogr>
+                        </biblStruct>
+                    <biblStruct xml:id="Swinburne1875">
+                        <analytic>
+                            <title>Victor Hugo: L'Homme Qui Rit</title>
+                            <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                        </analytic>
+                        <monogr>
+                            <title>Essays and Studies</title>
+                            <idno type="bookends-rec-number">11818</idno>
+                            <imprint>
+                                <publisher>Chatto &amp; Windus</publisher>
+                                <pubPlace>London</pubPlace>
+                                <biblScope type="pp">1-16</biblScope>
+                                <date when="1875"/>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Swinburne1904a">
+                    <monogr>
+                    <title>The Poems of Algernon Charles Swinburne</title>
+                    <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
+                    <idno type="bookends-rec-number">18127</idno>
+                    <imprint>
+                    <publisher>Chatto &amp; Windus</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date when="1904"/>
+                    </imprint>
+                    </monogr>
+                    </biblStruct>
+
+-->
+
+                    <!-- related texts -->
+                    <!--   
+   <biblStruct xml:id="Rossetti1990">
+      <monogr>
+         <author><persName><surname>Rossetti</surname>, William Michael</persName></author>
+         <editor><persName><surname>Peattie</surname>, Roger W.</persName></editor>
+         <title>Selected Letters of William Michael Rossetti</title>
+         <idno type="bookends-rec-number">7719</idno>
+         <imprint>
+            <publisher>Pennsylvania State UP</publisher>
+            <pubPlace>University Park</pubPlace>
+            <date when="1990"/>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   <biblStruct xml:id="Arnold1996">
+      <monogr>
+         <author><persName><surname>Arnold</surname>, Matthew</persName></author>
+         <editor><persName><surname>Lang</surname>, Cecil Y.</persName></editor>
+         <title>The Letters of Matthew Arnold</title>
+         <idno type="bookends-rec-number">5153</idno>
+         <imprint>
+            <publisher>U of Virginia P</publisher>
+            <pubPlace>Charlottesville</pubPlace>
+            <date from="1996" to="2001"/>
+         </imprint>
+      </monogr>
+   </biblStruct>
+   -->
+
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

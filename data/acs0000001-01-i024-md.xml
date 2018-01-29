@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
+        ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-01-i024-md">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Song Before Death</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/> 
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/seriesStmt.xml"/>
+         <sourceDesc>
+            <p>This TEI/XML document is the original source.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+<include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_poetry"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="svninfo">
+                        $Id$
+                        $Rev$
+                        $Date$
+                        $Author$
+                    </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="form">
+            <head>Form</head>
+            <list>
+               <item n="genre-main">poetry</item>
+            </list>
+         </div>
+         <div xml:id="commentary">
+            <head>Commentary</head>
+            <div xml:id="intro">
+               <head>Introduction</head>
+               <p>Swinburne's poem is a translation from de Sade's <title>Aline et Valcour; ou, Le Roman philosophique</title> (1795). In a letter to Richard Monckton Milnes, Swinburne wrote
+                  <cit rendition="#block">
+                     <quote>One thing I forgot about that eternal phallus-worshiper—why did you never tell me what a good lyrical poet the man was? There is a song in the eigth part o 'Aline et Valcour' whcih seems to me about the most exquisite piece of simple finished language and musical effect in all 18th century French literature. Rossetti and Meredith (to whom I shewed it at once, disguising at first the author's name to elude prejudice) fully agreed with me. It is something like Blake's poetry in England at the same date—both of them sweet and perfect, and unlike any contemporary work—mediaeval rather in grace and quiteness of beauty.</quote>
+                     <bibl rendition="#parens"><title>Letters</title> 1:58-59</bibl>
+                  </cit>
+               </p>
+            </div>
+         </div>
+         
+         <div xml:id="texts">
+            <head>texts</head>
+            <listBibl>
+               <biblStruct xml:id="acs0000001-01-i024-bibl" n="readingtext">
+                  <analytic>
+                     <title>Song Before Death</title>
+                     <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                  </analytic>
+                  <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Chatto &amp; Windus</publisher>
+                            <date when="1904"/>
+                            <biblScope type="vol">1</biblScope>
+                            <biblScope type="pp">114</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+               <idno type="nines">pb1sbdth00</idno></biblStruct>
+               <biblStruct n="original_collection">
+                  <analytic>
+                     <title>Song Before Death</title>
+                     <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                  </analytic>
+                  <monogr>
+                     <title>Poems and Ballads, First Series</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Moxon</publisher>
+                        <date xml:id="sort_date" when="1866"/>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

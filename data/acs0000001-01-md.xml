@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
+?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-01-md">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Poems of Algernon Charles Swinburne</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/seriesStmt.xml"/>
+         <sourceDesc>
+            <p>This TEI/XML document is the original source.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+<include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_poetry"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="svninfo">
+                        $Id$
+                        $Rev$
+                        $Date$
+                        $Author$
+                    </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="texts">
+            <head>texts</head>
+            <listBibl>
+               <biblStruct n="original_collection" xml:id="acs0000001-01-bibl">
+                     <analytic>
+                        <author>
+                           <persName key="acs"> Swinburne, Algernon Charles </persName>
+                        </author>
+                     </analytic>
+                     <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                           <pubPlace> London </pubPlace>
+                           <publisher>Chatto &amp; Windus</publisher>
+                           <date when="1904" xml:id="sort_date"/>
+                           <biblScope type="vol"> 1 </biblScope>
+                        </imprint>
+                        <extent> 6 vols. </extent>
+                     </monogr>
+                  </biblStruct>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

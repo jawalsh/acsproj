@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="swinburne.rnc" type="compact"?><?xml-stylesheet type="text/css" href="../../tei2html/p5/css/tei.css"?>
+<!DOCTYPE TEI [
+<!ENTITY title "Project Information">
+<!ENTITY id "acs0000508-01">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="&id;">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&title;</title>
+                <author>
+                	<persName xml:id="jawalsh" key="jawalsh">John A. Walsh</persName>
+                </author>
+                <editor role="editor">
+                    <persName key="jawalsh">John A. Walsh</persName>
+                </editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>John A. Walsh</name>
+                </respStmt>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+                    Swinburne</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name>John A. Walsh</name>
+                </respStmt>
+            </seriesStmt>
+        	<sourceDesc>
+        		<biblStruct>
+        			<analytic>
+        				<author><persName key="jawalsh">John A. Walsh</persName></author>
+        				<title>&title;</title>
+        			</analytic>
+        			
+        			<monogr>
+        				<title>The Algernon Charles Swinburne Project</title>
+        				
+        				<editor><persName key="jawalsh">John A. Walsh</persName></editor>
+        				<imprint>
+        					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+        						href="includes/publisher.xml"/>
+        					<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+        						href="includes/pubPlace.xml"/>
+        					<date xml:id="sort_date" when="2012"/>
+        				</imprint>
+        			</monogr>
+        		</biblStruct>
+        	</sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target="#collex_genre_review"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:id="&id;-content">
+        <pb n="1" rendition="#suppress" facs="dummy"/>
+         <body xml:id="home_content" rend="margin-left:0;margin-right:0;">
+      <div xml:id="overview">
+          <index indexName="nav"/>
+						<head rendition="#styled">Overview</head>
+						
+						<p><title>The Swinburne Project</title> aims to create and provide access to
+							high-quality texts of the wide range of literary and critical works by
+							Swinburne, an important and influential Victorian cultural figure. These
+							texts constitute the <title>Project</title>'s textual/documentary core,
+							around which is built a digital, paratextual framework of investigation
+							and performance. These paratextual performances include information
+							visualizations, maps (geographic and topical), timelines, textual
+							analysis interfaces and algorithms, and more.</p>
+					</div>
+         			<div xml:id="peer_review">
+         				<index indexName="nav"/>
+         				<head rendition="#styled">Peer Review</head>
+         				<p><title>The Swinburne Project</title> has been peer reviewed by NINES. The NINES Web site describes the goals of the organization:</p>
+         				<p>
+         					<cit rendition="#blockquote">
+         						<quote>
+         							<p rend="margin-bottom:0;">NINES (<hi rendition="#b">N</hi>etworked <hi rendition="#b">I</hi>nfrastructure of <hi rendition="#b">N</hi>ineteenth-Century <hi rendition="#b">E</hi>lectronic <hi rendition="#b">S</hi>cholarship) is a scholarly organization devoted to forging links between the material archive of the nineteenth century and the digital research environment of the twenty-first. Our activities are driven by three primary goals:
+         								<list rend="margin-bottom:0;">
+         									<item>to serve as a <ref target="http://www.nines.org/about/scholarship/peer-review/">peer-reviewing body</ref> for digital work in the long 19th-century (1770-1920), British and American;</item>
+         								<item>to support scholars’ priorities and best practices in the creation of digital research materials;</item>
+         								<item>to develop software tools for new and traditional forms of research and critical analysis.</item>
+         								</list>
+         							</p>
+         						</quote>
+         						<bibl rend="margin-left:20em;">(<title level="a"><ref target="http://www.nines.org/about/what-is-nines/">What is NINES?</ref></title>)</bibl>
+         					</cit>
+         				</p>
+         				<p>NINES provides a detailed explanation of their <ref target="http://www.nines.org/about/scholarship/peer-review/">peer review</ref> processes and standards, that begins with an explanation of the motivation for providing this peer review framework to the digital humanities community:
+         				<cit rendition="#blockquote">
+         					<quote><p>Digital humanities projects have long lacked a framework for peer review and thus have often had difficulty establishing their credibility as true scholarship. NINES exists in part to address this situation by instituting a robust system of review by some of the most <ref target="http://www.nines.org/about/scholarship/editorial-boards/">respected scholars</ref> in the field of nineteenth-century studies, British and American.</p>
+         						<p rend="margin-bottom:0;">NINES provides peer-review of digital resources and archives created by scholars in nineteenth-century studies. Our <ref target="http://www.nines.org/about/scholarship/editorial-boards/">Editorial Boards</ref> locate reviewers to evaluate both the intellectual content and the technical structure of each project submitted for inclusion in NINES.</p>
+         					</quote><bibl rend="margin-left:20em;">(<title level="a"><ref target="http://www.nines.org/about/scholarship/peer-review/">Peer Review</ref></title>)</bibl>
+         				</cit>
+         				</p>
+         				<p>For more information about the NINES review process see their full <title level="a"><ref target="http://www.nines.org/about/scholarship/peer-review/">Peer Review</ref></title> document.</p>
+         			</div>
+					<div xml:id="people">
+					    <index indexName="nav"/>
+						<head rendition="#styled">People</head>
+						<p><ref target="http://www.slis.indiana.edu/faculty/jawalsh">John A. Walsh</ref>,
+							Editor and Project Director, is an Assistant Professor of Library and
+							Information Science and an Adjunct Assistant Professor of English at
+							Indiana University. As part of the enterprise known as “digital
+							humanities” Walsh designs and builds things, things like <title>The
+								Swinburne Project</title> and its ancillary efforts. He has published
+							articles on digital humanities topics, Unicode and the language of
+							alchemy, Swinburne, holy icons of Eastern Christianity, and comic
+							books.</p>
+						<p>Over the years, many graduate students and assistants have contributed to
+							the project, assisting with encoding, proof-reading, documentation, and other tasks: 
+						<list rend="margin-top:1em;">
+							<item>Audre Azuolas</item>
+							<item>Jason Evan Groth</item>
+							<item>Ryan Lee</item>
+							<item>Elizabeth Munson</item>
+							<item>Brian Norberg</item>
+							<item>Adam Ploshay</item>
+							<item>Alan Rhoda</item>
+							<item>Xingxing Yao</item>
+							<item>Alice Wei</item>
+						</list></p>
+						<p>The Swinburne Project is supported by Indiana University's Libraries and
+							Digital Library Program. Many individuals from the Digital Library
+							Program have contributed their advice and expertise to the project: 
+						<list rend="margin-top:1em;">
+							<item>Michelle Dalmau, Digital Projects and Usability Librarian, Digital
+								Library Program</item>
+							<item>Kara Alexander, Digital Media Specialist, Digital Library
+								Program</item>
+							<item>Will Cowan, Associate Director for Digital Software Development,
+								Digital Library Program</item>
+							<item>Mike Durbin, Programmer/Analyst, Digital Library Infrastructure,
+								Digital Library Program</item>
+							<item>Jon Dunn, Director of Library Technologies and Digital Libraries,
+								Digital Library Program</item>
+							<item>David Jiao, Programmer/Analyst, Digital Library Program</item>
+							<item>Jenn Riley, Metadata Librarian, Digital Library Program
+								(2000-2010)</item>
+							<item>Brian Wheeler, System Administrator, Digital Library Program</item>
+						</list>
+						</p>
+					</div>
+         	<div xml:id="note_on_the_texts">
+         		<index indexName="nav"/>
+         		<head>A Note on the Texts</head>
+         		<p>           
+         			The core of <title>The Swinburne Project</title> consists of digital representations of Swinburne's works. Around this core are assembled multiple paratextual layers that explore various documentary and literary dimensions of the texts. The digital representations of Swinburne's works have been prepared according to the <ref target="http://www.tei-c.org/">Text Encoding Initiative</ref> (<ref target="http://www.tei-c.org/">TEI</ref>) <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index-toc.html"><title>Guidelines for Electronic Text Encoding and Interchange</title></ref>.
+         		</p>         
+         		<p>           
+         			While we attempt a diplomatic faithfulness to the source texts, we are conscious that we are necessarily creating new texts with an ever-growing amount of scholarly commentary, annotation, intervention, and additional paratextual layers. </p>
+         		<p>There is no reliable scholarly edition of Swinburne complete works or complete poems. The present edition of <title>The Swinburne Project</title> aims to fill that void. Edmund Gosse and the bibliographer and forger Thomas J. Wise edited the <soCalled>Bonchurch Edition</soCalled> of <title>The Complete Works of Algernon Charles Swinburne</title> (London: Heinemann, 1924-27) in twenty volumes, but their edition is considered unreliable, <cit><quote>misleading in arrangement and omissions and … often corrupt</quote> <bibl>(<ref target="#hyder1970">Hyder</ref> xi)</bibl></cit>. Wise's <title>Bibliography</title>, published separately and as volume twenty of the “Bonchurch Edition,” is an important and useful source of information on Swinburne's published works, though marred by the inclusion of spurious pamphlets forged by Wise himself. In the absence of subsequent authoritative editions, one turns to documents that Swinburne himself saw through the press.
+         		</p>
+         		
+         		<div xml:id="note_on_the_text_poems">
+         			<index indexName="nav"/>
+         			<head>Published Poems</head>
+         			<p>
+         				The text of Swinburne's published poems are based on the six-volume <title>Poems of Algernon Charles Swinburne</title> (London: Chatto &amp; Windus, 1904), which gathers all the individual collections of poetry from <title>Poems and Ballads, First Series</title> (1866) through <title>A Channel Passage and Other Poems</title> (1904). Also included in the six-volume <title>Poems</title> are the lyrical dramas <title>Atalanta in Calydon</title> (1865) and <title>Erechtheus</title> (1876) and the long Arthurian narratives <title>Tristram of Lyonesse</title> (1882) and <title>The Tale of Balen</title> (1896).</p>
+         			<p>Swinburne himself saw this collected edition through the press. The 1904 <title>Poems</title> is a reliable text and is the standard text that has typically been cited in Swinburne scholarship (although we hope that future scholarship will cite texts from <title>The Swinburne Project</title>). <title>The Swinburne Project</title> edition corrects errors in the source texts as they are identified. These errors and corrections are recorded in the TEI/XML encoding. For instance, the 1904 text of <title level="a"><ref target="x-spid:acs0000001-01-i003">A Ballad of Death</ref></title> reads <q>Her curled air had the wave of sea-water</q> for <q>Her curled hair had the wave of sea-water.</q>  See the encoding that records this error and the supplied correction: 
+         				<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<l n="36">
+	Her curled 
+	<choice>
+		<sic>air</sic>
+		<corr>hair</corr>
+	</choice> 
+	had the wave of sea-water
+</l>
+         				</egXML>
+         			</p>
+         		</div>
+         		<div xml:id="note_on_the_text_lcc">
+         			<index indexName="nav"/>
+         			<head><title>Love's Cross-Currents</title></head>
+         			<p>Swinburne's single published novel, <title>Love's Cross Currents</title>, was originally serialized as <title>A Year's Letters</title>, under the pseudonym <soCalled>Mrs. Horace Manners</soCalled>, in <title>The Tatler</title> from August 25th to December 29th, 1877. The text here is based on the 1905 edition, which appeared as <title>Love's Cross-Currents: A Year's Letters</title>, under Swinburne's name, published by Chatto &amp; Windus.</p>
+         		</div>
+         	</div>
+					<div xml:id="standards">
+					    <index indexName="nav"/>
+						<head rendition="#styled">Standards and Methodologies</head>
+						<div xml:id="encoded_text">
+						    <index indexName="nav"/>
+							<head rendition="#styled">The Encoded Text</head>
+							<div xml:id="tei_xml">
+							    <index indexName="nav"/>
+								<head rendition="#styled">TEI/XML</head>
+								<p>The technological, methodological, and performative foundation of
+									the
+										<title>The Swinburne Project</title> is the encoded text. The
+									standard technology for authoring encoded texts is the
+									eXtensible Markup Language, or XML, which was introduced in 1998.
+									XML is built upon an existing standard for encoded texts, the Standard
+									Generalized Markup Language, or SGML, which was adopted as a
+									standard by the International Standards Organization in 1986.
+									SGML itself was built upon a prior technology, IBM's Generalized
+									Markup Language (GML), developed in the 1960s by Charles
+									Goldfarb, Edward Mosher, and Raymond Lorie. </p>
+								<p>XML is a syntax for encoded texts. The syntax supports an
+									unlimited number of targeted XML schemas or vocabularies. The XML
+									vocabulary used by <title>The Swinburne Project</title> is the
+											<title><ref
+											target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/"
+											>Text Encoding Initiative P5: Guidelines for Electronic
+											Text Encoding and Interchange</ref></title>. The <title>TEI
+										Guidelines</title> are a mature conceptual model for digital
+									representation of a vast array of documents: inscriptions and
+									papyri; illuminated manuscripts; authorial holograph
+									manuscripts; correspondence; printed books of prose, verse, and
+									drama; critical editions; born-digital documents; and more. The
+										<title>TEI Guidelines</title>:
+								<cit rendition="#blockquote">
+									<quote>make recommendations about suitable ways of representing
+										those features of textual resources which need to be
+										identified explicitly in order to facilitate processing by
+										computer programs. In particular, they specify a set of
+										markers (or tags) which may be inserted in the electronic
+										representation of the text, in order to mark the text
+										structure and other features of interest.</quote>
+								</cit>
+								</p>
+								<!-- <ptr type="biblref" target="#tei2010"></ptr>-->
+								<p> The <title>TEI Guidelines</title> are widely used in the digital
+									humanities and academic library communities and are maintained
+									by the <ref target="http://www.tei-c.org/">TEI Consortium</ref>, an
+									international body whose membership includes universities;
+									libraries and other cultural heritage institutions; scholarly
+									projects; and individual scholars, librarians, and
+									technologists. The <title>TEI Guidelines</title> are implemented
+									as a set of modules, including modules for general categories of
+									documents, such as prose, drama, verse, and dictionaries. The
+										<title>Guidelines</title> also provide additional modules that
+									address more specific textual features and metadata
+									requirements, such as names and dates, manuscript description,
+									linking, textual criticism, and so on. And in the most recent
+									version, the <title>Guidelines</title> provide special XML
+									elements and attributes for linking transcriptions to facsimile
+									page images. From these many available modules, one selects a
+									subset that meets the needs of a particular document, project,
+									collection, or analytical approach.</p>
+								<p><title>The Swinburne Project</title> uses the following TEI
+									modules:
+								<list rend="margin-top:1em;">
+									<item>tei</item>
+									<item>core (Elements common to all TEI documents)</item>
+									<item>header (The TEI Header)</item>
+									<item>textstructure (Default text structure)</item>
+									<item>figures (Tables, formulæ, and figures)</item>
+									<item>namesdates (Names and dates)</item>
+									<item>linking (Linking, segmentation and alignment)</item>
+									<item>transcr (Transcription of primary sources)</item>
+									<item>msdescription (Manuscript Description)</item>
+									<item>analysis (Simple analytic mechanisms)</item>
+									<item>drama (Performance texts)</item>
+									<item>verse (Verse structures)</item>
+									<item>tagdocs (Documentation of TEI modules)</item>
+									<item>dictionaries (Dictionaries)</item>
+								</list>
+								</p>
+								<p>The TEI ODD file, which defines the TEI
+									configuration/customization, and the resulting Relax NG schema
+									are available for <ref target="/swinburne/downloads.jsp">download</ref>.</p>
+							</div>
+							<div xml:id="glossary">
+							    <index indexName="nav"/>
+								<head rendition="#styled">Glossary</head>
+								<p>Vocabulary that is likely to be unfamiliar to modern readers has
+									been glossed in a separate Swinburne Glossary TEI/XML document
+									that uses the TEI's dictionaries module. Glossary entries are
+									linked from the primary source texts and appear as pop-up notes
+									in the HTML versions of the texts. The presence of a glossary
+									note is indicated by a degree symbol (°).</p>
+							  <figure rendition="#center">
+							    <head>Glossary entry pop-up note.</head>
+									<graphic url="/swinburne/images/swinburne/swinburne_glossary.png"/>
+										<figDesc>Example of glossary entry in browser interface.</figDesc>
+							  </figure>
+							</div>
+							<div xml:id="topic_map">
+							    <index indexName="nav"/>
+							    <head rendition="#styled">Topic Maps</head>
+								<p>Topic Maps are another encoding standard, with an XML syntax, for
+									encoding information about topics. The XML Topic Map (XTM) 1.0
+									specification defines topics, and the related concept of
+									subjects, as follows:
+									<cit rendition="#blockquote">
+								<quote>
+									<p>A topic is a resource that acts as a proxy from some subject;
+										it is the topic map system's representation of that
+										subject.…</p>
+									<p rend="margin-bottom:0;">A subject is anything that can be
+										spoken about or conceived of by a human being. In the most
+										generic sense, a subject is anything whatsoever, regardless
+										of whether it exists or has any other specific
+										characteristics, about which anything whatsoever may be
+										asserted by any means whatsoever. In particular, it is
+										anything about which the author of a topic map chooses to
+										discourse.</p>
+								</quote>
+									<bibl rend="display:block; margin-top:0;text-indent:8em;">—<ptr target="http://www.topicmaps.org/xtm/"/></bibl>
+									</cit>
+								</p>
+								<p>Topic Maps are used in <title>The Swinburne Project</title> to
+									capture information about people, places, institutions, events,
+									and works that are referenced in Swinburne's own writings. Topic
+									Map entries are linked from the primary source texts and appear
+									as pop-up notes in the HTML versions of the texts. The presence
+									of a topical note is indicated by a degree symbol (°).</p>
+							  <figure rendition="#center">
+							    <head>Topic Map entry pop-up note. Information in
+							      this example note includes birth and death dates, a short
+							      description, and a link to Wikipedia article.</head>
+									<graphic url="/swinburne/images/swinburne/swinburne_xtm.png"/>
+										<figDesc>Example of topic map entry in browser interface.</figDesc>
+							  </figure>
+								</div>
+							</div>
+							<div xml:id="xslt" rend="margin-top:3em;">
+							    <index indexName="nav"/>
+							    <head rendition="#styled">eXtensible Stylesheet Language Transformations (XSLT)</head>
+								<p>XSLT is an XML-based language for transforming XML. XSLT is
+									utilized throughout <title>The Swinburne Project</title> to
+									perform the following transformations:
+								<list rend="margin-top:1em;">
+									<item>TEI/XML files representing physical volumes are decomposed
+										and combined with metadata to create XML files representing
+										individual works (e.g., poems or essays) within those
+										physical volumes.</item>
+									<item>TEI/XML files are transformed into METS (Metadata Encoding
+										and Transmission Standard) files that support the
+										page-turning and table-of-contents navigation features.</item>
+									<item>TEI/XML files are transformed into HTML for display in web
+										browsers. The TEI-to-HTML transformation also integrates
+										information from the external glossary and topic map
+										files.</item>
+									<item>TEI/XML files are transformed into RDF metadata and plain
+										text files for indexing by <ref target="http://www.nines.org/"
+											>NINES</ref>, a federated, peer-reviewed collection of
+										digital scholarship on the Nineteenth Century.</item>
+								</list></p>
+								<p>The <ref target="/swinburne/resources/tei2html.zip">TEI-to-HTML
+										stylesheets</ref> are available for <ref
+										target="/swinburne/downloads.jsp">download</ref>.</p>
+							</div>
+						</div>
+						<div xml:id="webapp">
+						    <index indexName="nav"/>
+							<head rendition="#styled">Web Application</head>
+							<p><title>The Swinburne Project</title> web application is built upon the
+									<ref target="http://xtf.cdlib.org/">eXtensible Text Framework</ref>
+									(<ref target="http://xtf.cdlib.org/">XTF</ref>) from the California
+								Digital Library. XTF is “a powerful open source platform for
+								providing access to digital content” (<ref
+									target="http://xtf.cdlib.org/">http://xtf.cdlib.org/</ref>). XTF is
+								a Java web application and utilizes popular open source technologies
+								such as the <ref target="http://lucene.apache.org/">Lucene</ref> search
+								engine library and the <ref target="http://saxon.sourceforge.net/"
+									>Saxon</ref> XSLT and XQuery processor. </p>
+							<p><title>The Swinburne Project</title> deploys a heavily customized
+								version of XTF. Many of the default XSLT stylesheets have been
+								replaced with custom stylesheets. In particular, the TEI to HTML
+								conversion is handled by the <ref
+									target="/swinburne/resources/tei2html.zip">tei2html</ref> XSLT
+								stylesheets discussed above, which were written specifically for
+									<title>The Swinburne Project</title>. <title>The Swinburne
+									Project</title> has also incorporated <ref
+									target="http://metsnavigator.svn.sourceforge.net/viewvc/metsnavigator/"
+									>METS Navigator</ref>, from Indiana University's <ref
+									target="http://www.dlib.indiana.edu/">Digital Library Program</ref>,
+								for navigating both the encoded texts and the facsimile page images. </p>
+							<p> Sencha <ref target="http://www.sencha.com/products/extjs3/">Ext JS</ref>
+								and Dyn-Web <ref target="http://www.dyn-web.com/code/tooltips/"
+									>Tooltip</ref> JavaScript libraries are used. </p>
+						</div>
+         	<div xml:id="browsers">
+         		<index indexName="nav"/>
+         			<head>Supported Browsers</head>
+         			<p><title>The Swinburne Project</title> uses current Web standards and technologies and requires a recent browser. Internet Explorer 8 or later, and recent versions of Safari, Firefox, and Chrome are all supported.</p>
+         	</div>
+         		<div xml:id="infrastructure">
+						    <index indexName="nav"/>
+							<head rendition="#styled">Infrastructure</head>
+							<p><title>The Swinburne Project</title> is hosted on Unix and Linux
+								servers maintained and supported by the IU <ref
+									target="http://www.dlib.indiana.edu">Digital Library Program</ref>
+								(DLP) and the <ref target="http://www.slis.indiana.edu/">School of
+									Library and Information Science</ref> (SLIS). </p>
+							<div xml:id="backups">
+							    <index indexName="nav"/>
+								<head rendition="#styled">Backups</head>
+								<p>The digital documents (XML, HTML, CSS, code, etc.) are under SVN
+									version control on DLP and SLIS servers.</p>
+								<p>These documents and image files (primarily facsimile page images)
+									are securely stored in Indiana University's <ref
+									  target="https://pti.iu.edu/storage/sda">Scholarly Data
+										Archive</ref>, a hierarchical storage management system with
+									mirrored systems in Bloomington and Indianapolis.</p>
+							</div>
+					
+					</div>
+					<div xml:id="sandlot">
+					    <index indexName="nav"/>
+						<head rendition="#styled"><ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref></head>
+						<p>
+							<ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref> is a collection of digital research—visualizations, image and text analysis tools, and creative works—from <title>The Swinburne Project</title>. These research projects engage with and are informed by the edited and encoded text corpus of the <title>Swinburne Project</title>. 
+					</p>
+						<figure rendition="#center">
+						  <head>Collage of items from <ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref>.</head>
+						
+							<graphic url="/swinburne/images/swinburne/sandlot.png"/>
+								<figDesc>Collage of items from Tools &amp; Tactics</figDesc>
+						</figure>
+						
+					</div>
+					<div xml:id="dedication" rend="text-align:center;">
+					    <index indexName="nav"/>
+						<head rendition="#styled">Dedication</head>
+						<p rend="font-style:italic;text-align:center;">For my beautiful Michelle,<lb />
+						and our little ones—<lb />
+							Patrick, Olivia, Mia,<lb />
+							and baby Jude.</p>
+					  <cit rendition="#block" rend="font-style:italic;margin-left:auto;margin-right:auto;text-align:left;width:14em;font-size:85%;font-family:'helvetica neue';">
+					    <quote>
+					      <lg>
+					        <l>
+					          <hi rendition="#sc">If </hi>love were what the rose is,</l>
+					        <l rendition="#ti-1">And I were like the leaf,</l>
+					        <l>Our lives would grow together</l>
+					        <l>In sad or singing weather,</l>
+					        <l>Blown fields or flowerful closes,</l>
+					        <l rendition="#ti-1">Green pleasure or grey grief;</l>
+					        <l>If love were what the rose is,</l>
+					        <l rendition="#ti-1">And I were like the leaf.</l>
+					      </lg>
+					      <lg>
+					        <l>If I were what the words are,</l>
+					        <l rendition="#ti-1">And love were like the tune,</l>
+					        <l>With double sound and single</l>
+					        <l>Delight our lips would mingle,</l>
+					        <l>With kisses glad as birds are</l>
+					        <l rendition="#ti-1">That get sweet rain at noon;</l>
+					        <l>If I were what the words are,</l>
+					        <l rendition="#ti-1">And love were like the tune.</l>
+					      </lg>
+					    </quote>
+					  </cit>
+
+					</div>
+
+
+
+    </body>
+    	<back>
+    		<div xml:id="works_cited">
+    			<index indexName="nav"/>
+    		<head rendition="#styled #center">Works Cited</head>
+    			<listBibl>
+    				<bibl xml:id="hyder1970">Hyder, Clyde K. <title level="a">Preface.</title> <title>Algernon Swinburne: The Critical Heritage</title>. Ed. Clyde K. Hyder. London: Routledge, 1970.</bibl>
+    			</listBibl>
+    		</div>
+    	</back>
+    </text>
+</TEI>

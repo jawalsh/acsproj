@@ -1,0 +1,36 @@
+Swinburne PURLS
+
+HTML:
+/swinburnearchive/<swinburne_project_id>.xml, e.g., http://www.purl.org/swinburnearchive/acs0000001-01-i000.xml
+
+id: /swinburnearchive/  
+type: partial-append-extension
+target: http://webapp-devel.dlib.indiana.edu/swinburne/view#docId=swinburne/
+maintainers: JAWALSH
+
+XML: 
+/swinburnearchive/source/<swinburne_project_id>.xml, e.g., http://www.purl.org/swinburnearchive/source/xml/acs0000001-01-i000
+
+id: /swinburnearchive/source/  
+type: partial-append-extension
+target: http://webapp-devel.dlib.indiana.edu/swinburne/data/swinburne/
+maintainers: JAWALSH
+
+TXT: 
+/swinburnearchve/txt/<swinburne_project_id>.txt
+
+id: /swinburnearchive/txt/  
+type: partial-append-extension
+target: http://webapp-devel.dlib.indiana.edu/swinburne/txt/
+maintainers: JAWALSH
+
+/swinburnearchve/text/<swinburne_project_id>.txt
+
+id: /swinburnearchive/txt/  
+type: partial-append-extension
+target: http://webapp-devel.dlib.indiana.edu/swinburne/txt/
+maintainers: JAWALSH
+
+chronology:
+/swinburnearchive/timeline/
+type: 302

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
+<!DOCTYPE TEI [
+<!ENTITY title "Swinburne's Top 100">
+<!ENTITY id "acs">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="&id;">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&title;</title>
+                <author>
+                    <persName key="acs">Algernon Charles Swinburne</persName>
+                </author>
+                <editor role="editor">
+                    <persName xml:id="jawalsh" key="jawalsh">John A. Walsh</persName>
+                </editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
+                </respStmt>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+                    Swinburne</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name>John A. Walsh</name>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">&title;</title>
+                        <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Chatto</publisher>
+                            <date when="1909">1909</date>
+                            <biblScope type="vol">6</biblScope>
+                            <biblScope type="pp">427-434</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+          <div>
+            <head>Introduction</head>
+            <p>The </p>
+          </div>
+          <div>
+            <head>Swinburne's Top 100 List</head>
+            <list type="ordered">
+              <item>Shakespeare.</item>
+              <item>Aeschylus.</item>
+              <item>Selections from the Bible: comprising Job, the Psalms, Ecclesiastes, the Song of Solomon, Isaiah, Ezekiel, Joel: the Gospels of St. Matthew and St. Luke, the Gospel and first Epistle of St. John, and the Epistle of St. James.</item>
+              <item>Homer.</item>
+              <item>Sophocles.</item>
+              <item>Aristophanes.</item>
+              <item>Pindar.</item>
+              <item>Lucretius.</item>
+              <item>Catullus.</item>
+              <item>Dante.</item>
+              <item>Chaucer.</item>
+              <item>Villon.</item>
+              <item>Marlowe.</item>
+              <item>Webster.</item>
+              <item>Moliere.</item>
+              <item>Rabelais.</item>
+              <item>Epictetus.</item>
+              <item>Mill on Liberty.</item>
+              <item>Rubaiiyat of Omar Khayyam (Fitzgerald's first version, 1859).</item>
+              <item>Milton.</item>
+              <item>Shelley.</item>
+              <item>Victor Hugo.</item>
+              <item>Landor.</item>
+              <item>Boccaccio.</item>
+              <item>Ballads of North England and Scotland (from Percy, Scott, Motherwell, and other selections).</item>
+              <item>Sir Philip Sidney (Astrophel and Stella).</item>
+              <item>Selections from the lyric poetry of the age of Shakespeare (England's Helicon, etc., etc.).</item>
+              <item>Charles Lamb.</item>
+              <note rendition="#center #block #large">Select works of</note>
+              <item>Coleridge (verse and prose).</item>
+              <item>Scott (prose and verse).</item>
+              <item>Blake.</item>
+              <item>Wordsworth.</item>
+              <item>Spenser.</item>
+              <item>Keats.</item>
+              <item>Mrs. Browning.</item>
+              <item>Burns.</item>
+              <item>Byron—‘Don Juan,’ cantos I-VII, XI-XVI, inclusive, and ‘Vision of Judgment.’</item>
+              <item>Balzac.</item>
+              <item>Dickens.</item>
+              <item>Thackeray.</item>
+              <item>Swift.</item>
+              <item>Ben Jonson.</item>
+              <item>Beaumont and Fletcher.</item>
+              <item>Ford.</item>
+              <item>Dekker.</item>
+              <item>Tourneur.</item>
+              <item>Marston.</item>
+              <item>Middleton.</item>
+              <item>Rossetti.</item>
+              <item rend="margin-top:2em;">Theocritus.</item>
+              <item>Story of the Volsungs and the Niblungs.</item>
+              <item>The Saga of Burnt Njal.</item>
+              <item>Lockhart's Life of Scott.</item>
+              <item>Autobiography of Lord Herbert of Cherbury.</item>
+              <item>Malory's Morte d'Arthur.</item>
+              <item>Ariosto.</item>
+              <item>Select works of</item>
+              <item>Donne.</item>
+              <item>Massinger.</item>
+              <item>Congreve.</item>
+              <item>Vanbrugh.</item>
+              <item>Dryden.</item>
+              <item>Pope.</item>
+              <item>Defoe.</item>
+              <item>Goldsmith.</item>
+              <item>Fielding.</item>
+              <item>Sterne.</item>
+              <item>Sheridan.</item>
+              <item>Butler (extracts from 'Hudibras' and 'Remains').</item>
+              <item>Collins.</item>
+              <item>Gray.</item>
+              <item>Herrick.</item>
+              <item>Suckling.</item>
+              <item>Prior.</item>
+              <item>Etherege.</item>
+              <item>Drayton.</item>
+              <item>George Herbert.</item>
+              <item>Crashaw.</item>
+              <item>Randolph.</item>
+              <item>Wither.</item>
+              <item>La Fontaine.</item>
+              <item>Voltaire.</item>
+              <item>Diderot.</item>
+              <item>Chamfort (Maxims).</item>
+              <item>Beaumarchais.</item>
+              <item>Stendhal.</item>
+              <item>Dumas.</item>
+              <item>Jane Austen.</item>
+              <item>Charlotte Bronte.</item>
+              <item>Emily Bronte (verse and prose).</item>
+              <item>Leigh Hunt.</item>
+              <item>Hood.</item>
+              <item>Mrs. Gaskell.</item>
+              <item>George Eliot.</item>
+              <item>Campbell.</item>
+              <item>Musset.</item>
+              <item>Macaulay.</item>
+              <item>Crabbe.</item>
+              <item>Meinhold (English translation).</item>
+              <item>Early English metrical romances from the collections of Weber, Ritson and Wright.</item>
+            </list>
+          </div>
+        </body>
+    </text>
+</TEI>

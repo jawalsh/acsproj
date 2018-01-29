@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="swinburne" basedir=".">
+	<!-- <property file="prod_files.properties"/>-->
+	
+	<!-- directories -->
+	<property name="dir.output" value="output"/>
+	<property name="dir.html" value="${dir.output}/html"/>
+	<property name="dir.rdf" value="${dir.output}/rdf"/>
+	<property name="dir.txt" value="${dir.output}/txt"/>
+	<property name="dir.delivery" value="${dir.output}/delivery"/>
+	<property name="dir.lib" value="lib"/>
+	<property name="dir.xslt" value="xslt"/>
+	<property name="dir.mets" value="${dir.output}/mets"/>
+	<property name="dir.metshost" value="/home/jawalsh/www/swinburne/mets"/>
+	
+	
+	<property name="dir.tei2html_home" value="../tei2html"/>
+	<property name="dir.tei2html_css" value="${dir.tei2html_home}/css/swinburne"/>
+	<property name="dir.tei2html_js" value="${dir.tei2html_home}/js"/>
+	<property name="dir.tei2html_images" value="${dir.tei2html_home}/images/swinburne"/>
+	<property name="dir.data_images" value="images"/>
+	
+	
+	<property name="dir.data" value="data"/>
+	<property name="dir.xtm" value="${dir.data}"/>
+	<property name="dir.glossary" value="${dir.data}"/>
+	
+	<property name="dir.to_xtf" value="${dir.output}/to_xtf"/>
+	<property name="dir.tmp" value="${dir.output}/tmp"/>
+	<property name="dir.xtf_home" value="/Applications/swinburne-xtf"/>
+	<property name="dir.xtf_data" value="${dir.xtf_home}/data/swinburne"/>
+	<property name="dir.xtf_data_templates" value="${dir.xtf_home}/data/templates/swinburne"/>
+	<property name="dir.xtf_index" value="${dir.xtf_home}/index"/>
+	<property name="dir.xtf_tei2html" value="${dir.xtf_home}/style/dynaXML/docFormatter/swinburne"/>
+	<property name="dir.xtf_css" value="${dir.xtf_home}/css/swinburne"/>
+	<property name="dir.xtf_js" value="${dir.xtf_home}/js/swinburne"/>
+	<property name="dir.xtf_images" value="${dir.xtf_home}/images/swinburne"/>
+	<property name="dir.xtf_mets" value="${dir.xtf_home}/mets/swinburne"/>
+	<property name="dir.xtf_resources" value="${dir.xtf_home}/resources"/>
+	<property name="dir.xtf_txt" value="${dir.xtf_home}/txt"/>
+	<property name="dir.supplementary_data" value="${dir.xtf_home}/style/swinburneCommon"/>
+	<property name="file.topic_map" value="swinburne.xtm"/>
+	<property name="file.glossary" value="swinburneGlossary.xml"/>
+
+	
+	
+	<!-- files -->
+	<property name="production_combo_files" value="production_combo_files.txt"/>
+	<property name="production_source_files" value="production_source_files.txt"/>
+	<property name="dynaxml_template" value="acs0000000-00.xml"/>
+
+
+	
+	<property name='saxon.jar' value="${dir.lib}/saxon9.jar"/>
+	<property name="saxon-ant.jar" value="${dir.lib}/saxon9-ant.jar"/>
+	<property name="jing.jar" value="${dir.lib}/jing.jar"/>
+	<property name="ant-contrib.jar" value="${dir.lib}/ant-contrib-1.0b3.jar"/>
+	<property name="ant-jsch.jar" value="${dir.lib}/ant-jsch-1.6.5.jar"/>
+	<property name="jsch.jar" value="${dir.lib}/jsch-0.1.42.jar"/>
+		
+	
+	<!-- xslt -->
+	<property name="xslt.tei2html" value="${dir.tei2html_home}/xslt/tei2html.xsl"/>
+	<property name="xslt.swinburne2txt" value="${dir.xslt}/swinburne2txt.xsl"/>
+	<property name="xslt.swinburne2rdf" value="${dir.xslt}/swinburne2rdf.xsl"/>
+	<property name="xslt.acsComponents" value="${dir.xslt}/acsComponents.xsl"/>
+	<property name="xslt.mets" value="${dir.xslt}/tei2mets.xsl"/>
+	<property name="xslt.tmp" value="/Users/jawalsh/Dropbox/Development/utilities/xml/tmp.xsl"/>
+	
+	<!-- schemas -->
+	
+	<property name="schema.swinburne" value="${dir.data}/swinburne.rnc"/>
+	<property name="schema.swinburneGlossary" value="${dir.data}/swinburneGlossary.rnc"/>
+	
+	<!-- executables -->
+	<property name="exec.textIndexer" value="/Applications/swinburne-xtf/bin/textIndexer"/>
+	<property name="exec.xmllint" value="/usr/bin/xmllint"/>
+	
+	<property name="username" value=""/>
+	<property name="password" value=""/>
+	<property name="mets_server" value="iris.ils.indiana.edu"/>
+	<property name="mets_server_path" value="~/www/swinburne/mets"/>
+	
+	
+	<!-- taskdefs -->
+	<taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" classpath="${jing.jar}"/>
+		
+	<taskdef name="saxon-xslt" classname="net.sf.saxon.ant.AntTransform" classpath="${saxon-ant.jar}:${saxon.jar}"/> 
+	
+	<taskdef resource="net/sf/antcontrib/antlib.xml" classpath="${ant-contrib.jar}"/>
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" classpath="${ant-contrib.jar}"/>
+	
+	
+	<!-- targets -->
+	<target name="init">
+		<mkdir dir="${dir.output}"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${dir.output}"/>
+	</target>
+		
+    <target name="supplementary_data">
+    	<copy todir="${dir.supplementary_data}">
+    		<fileset dir="${dir.xtm}" includes="${file.topic_map}"/>
+    		<fileset dir="${dir.glossary}" includes="${file.glossary}"/>
+    	</copy>
+    </target>
+	
+	<target name="html" depends="delivery">
+		<saxon-xslt basedir="${dir.to_xtf}" 
+			destdir="${dir.html}" includes="*.xml" force="true"
+			style="${xslt.tei2html}">
+			
+			<param name="STDOUT" expression="true"/>
+			
+			<outputproperty name="encoding" value="UTF-8"/>
+		</saxon-xslt>
+	</target>
+	
+	<target name="combo" depends="delivery">
+		<delete dir="${dir.to_xtf}"/>
+		<mkdir dir="${dir.to_xtf}"/>
+		<saxon-xslt basedir="${dir.delivery}"
+			destdir="${dir.to_xtf}" includesfile="${production_combo_files}" force="true"
+			style="${xslt.acsComponents}">
+			<param name="dataRoot" expression="../${dir.delivery}/"/>
+			<param name="mdDir" expression="../${dir.delivery}/"/>
+			<param name="outDir" expression=""/>
+			<param name="outFileExt" expression=".xml"/>
+			<outputproperty name="encoding" value="UTF-8"/>
+		</saxon-xslt>
+		<copy todir="${dir.to_xtf}">
+			<fileset dir="${dir.delivery}" includesfile="${production_source_files}"/>
+		</copy>
+	</target>
+	
+	
+	
+	<target name="mets"> <!-- depends="delivery">  -->
+		<delete dir="${dir.mets}"/>
+		<mkdir dir="${dir.mets}"/>
+		<saxon-xslt basedir="${dir.delivery}"
+			destdir="${dir.mets}" includesfile="${production_source_files}" force="true" extension=".mets.xml"
+			style="${xslt.mets}">
+			<outputproperty name="encoding" value="UTF-8"/>
+		</saxon-xslt>
+		<saxon-xslt basedir="${dir.delivery}"
+			destdir="${dir.mets}" includesfile="${production_combo_files}" force="true" extension=".mets.xml"
+			style="${xslt.mets}">
+			<outputproperty name="encoding" value="UTF-8"/>
+		</saxon-xslt>
+	  <!--
+		<scp
+			todir="${username}:${password}@${mets_server}:${mets_server_path}" 
+			keyfile="${user.home}/.ssh/id_dsa"
+			> 
+			<fileset dir="${dir.mets}">
+				<include name="*"/>
+			</fileset>
+		</scp>
+		-->
+		
+	</target>
+	
+	<target name="scp">
+		<scp todir="${username}:${password}@${mets_server}:${mets_server_path}" keyfile="${user.home}/.ssh/id_dsa">
+			<fileset dir="${dir.mets}">
+				<include name="*"/>
+			</fileset>
+		</scp>
+	</target>
+	
+	
+	
+	<!-- This task needs a java solution -->
+	<target name="delivery" depends="init">
+		<echo message="Processing XIncludes."/>
+		<mkdir dir="${dir.delivery}"/>
+		<for param="in">
+			<fileset dir="${dir.data}" includes="*.xml"/>
+			<sequential>
+				<propertyregex override="yes" property="out" input="@{in}" regexp=".*/([^\.]*\.xml)"
+					replace="\1"/>
+				<exec executable="${exec.xmllint}" input="@{in}" output="${dir.delivery}/${out}">
+					<arg value="--xinclude"/>
+					<arg value="--noent"/>
+					<arg value="--dropdtd"/>
+					<arg value="@{in}"/>
+				</exec>
+				<echo message="Processing XIncludes for @{in}."/>
+			</sequential>
+		</for>
+	</target>
+	
+	<target name="txt">
+<!--		<saxon-xslt basedir="${dir.delivery}" includes="*.xml" destdir="${dir.txt}" force="true" extension=".txt" style="${xslt.swinburne2txt}" /> -->
+		<saxon-xslt basedir="${dir.to_xtf}" includes="*.xml" destdir="${dir.txt}" force="true" extension=".txt" style="${xslt.swinburne2txt}" />
+		<!--
+		<copy todir="${dir.xtf_txt}">
+			<fileset dir="${dir.txt}"/>
+		</copy>
+		-->
+	</target>
+
+
+	<target name="rdf">
+		<saxon-xslt basedir="${dir.to_xtf}" includes="*.xml" destdir="${dir.rdf}" force="true" extension=".rdf" style="${xslt.swinburne2rdf}" />
+	</target>
+	
+	<target name="validate" depends="delivery">
+		<jing rngfile="${schema.swinburne}" compactsyntax="true">
+			<fileset dir="${dir.delivery}" includes="*.xml" excludes="swinburneGlossary.xml"/>
+		</jing>
+		<jing rngfile=".${swinburneGlossary}" compactsyntax="true">
+			<fileset dir="${dir.delivery}" includes="swinburneGlossary.xml" />
+		</jing>
+	</target>
+	
+	<target name="xslttmp">
+		<delete dir="${dir.tmp}"/>
+		<mkdir dir="${dir.tmp}"/>
+		<saxon-xslt basedir="${dir.data}" includes="*-md.xml" destdir="${dir.tmp}" force="true" extension=".xml" style="${xslt.tmp}"/>
+	</target>
+	<target name="xtf_clean">
+			<delete dir="${dir.xtf_data}"/>
+			<delete dir="${dir.xtf_index}"/>
+	</target>	
+
+	<target name="xtf_index" depends="xtf_clean,combo,supplementary_data,images,mets,txt"> <!-- ,mets -->
+		<mkdir dir="${dir.xtf_data}"/>
+		<copy todir="${dir.xtf_data}">
+			<fileset dir="${dir.to_xtf}" includes="*"/>
+		</copy>
+		<mkdir dir="${dir.xtf_data_templates}"/>
+		<copy todir="${dir.xtf_data_templates}">
+			<fileset dir="${dir.data}" includes="${dynaxml_template}"/>
+		</copy>
+		<mkdir dir="${dir.xtf_mets}"/>
+		<copy todir="${dir.xtf_mets}">
+			<fileset dir="${dir.mets}"/>
+		</copy>
+		<copy todir="${dir.xtf_txt}">
+			<fileset dir="${dir.txt}"/>
+		</copy>
+		<exec executable="${exec.textIndexer}">
+			<arg value="-index swinburne"/>
+		</exec>
+	</target>
+	
+	<target name="images">
+		<delete dir="${dir.xtf_images}"/>
+		<mkdir dir="${dir.xtf_images}"/>
+		
+		<copy todir="${dir.xtf_images}">
+			<fileset dir="${dir.data_images}" includes="*"/>
+			<fileset dir="${dir.tei2html_images}" includes="*"/>
+		</copy>
+	</target>
+	
+	
+	<target name="tei2html" depends="supplementary_data,images">
+		<delete dir="${dir.xtf_tei2html}"/>
+		<mkdir dir="${dir.xtf_tei2html}"/>
+		<delete dir="${dir.xtf_css}"/>
+		<mkdir dir="${dir.xtf_css}"/>
+		<copy  todir="${dir.xtf_tei2html}">
+			<fileset  dir="${dir.tei2html_home}" includes="**/*"/>
+		</copy>
+		<copy  todir="${dir.xtf_css}">
+			<fileset  dir="${dir.tei2html_css}" includes="*"/>
+		</copy>
+		<copy  todir="${dir.xtf_js}">
+			<fileset  dir="${dir.tei2html_js}"/>
+		</copy>
+	</target>
+	
+	<target name="deploy" depends="tei2html,xtf_index"/>
+	
+	<target name="downloads">
+		<zip destfile="${dir.xtf_resources}/swinburne_data.zip">
+			<zipfileset dir="output/delivery" includes="acs*.xml" prefix="swinburne_data" />
+			<zipfileset dir="data" includes="swinburne.rnc" prefix="swinburne_data" />
+			<zipfileset dir="data" includes="swinburne.odd" prefix="swinburne_data" />
+		</zip>
+		<zip destfile="${dir.xtf_resources}/tei2html.zip">
+			<zipfileset dir="/Users/jawalsh/development/tei2html/css" includes="*" prefix="tei2html/css" />
+			<zipfileset dir="/Users/jawalsh/development/tei2html/doc" includes="*" prefix="tei2html/doc" />
+			<zipfileset dir="/Users/jawalsh/development/tei2html/js" includes="tei2html.js" prefix="tei2html/js" />
+			<zipfileset dir="/Users/jawalsh/development/tei2html/xslt" includes="*" prefix="tei2html/xslt" />
+		</zip>
+		
+			
+	</target>
+	
+</project>
+
+	
+		
+
+
+

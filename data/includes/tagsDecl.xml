@@ -1,0 +1,204 @@
+<tagsDecl xmlns="http://www.tei-c.org/ns/1.0">
+    <rendition n="mono" xml:id="mono" scheme="css">font-family: Courier, monospace</rendition>
+    <rendition n="code" xml:id="code" scheme="css">font-family: courier, monospace; </rendition>
+    <!-- font-size -->
+    <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
+    <rendition n="x-small" xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+    <rendition n="xx-small" xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+    <rendition n="large" xml:id="large" scheme="css">font-size: large;</rendition>
+    <rendition n="x-large" xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+    <rendition n="xx-large" xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+    <!-- font-style -->
+    <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+    <rendition n="normal" xml:id="n" scheme="css">font-style: normal;</rendition>
+    <!-- font-variant -->
+    <rendition n="small caps" xml:id="sc" scheme="css">font-variant: small-caps;</rendition>
+    <!-- font-weight -->
+    <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+    <!-- text-decoration -->
+    <rendition n="strike through" xml:id="strike" scheme="css">text-decoration: line-through;</rendition>
+    <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
+    <rendition n="double underline" xml:id="uu" scheme="css">text-decoration: underline;
+        border-bottom: 1px solid black;</rendition>
+    <rendition n="block" xml:id="block" scheme="css">display: block; margin: 4em;</rendition>
+    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4em;</rendition>
+    <rendition n="expanded letter spacing" xml:id="expanded" scheme="css">letter-spacing: +3pt;</rendition>
+    
+    <!-- text-transform -->
+    <rendition n="uppercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
+    <!-- text-align -->
+    <rendition n="align center" xml:id="center" scheme="css">text-align: center;</rendition>
+    <rendition n="align right" xml:id="right" scheme="css">text-align: right;</rendition>
+    <rendition n="align left" xml:id="left" scheme="css">text-align: right;</rendition>
+    
+    <!-- block alignment: centers a block of text, but doesn't affect the 
+    alignment of text withing the centered block.-->
+    
+    <rendition n="center block" xml:id="center-block" scheme="css">
+        margin-left:auto;
+        margin-right:auto;
+    </rendition>
+    
+
+    <!-- text-indent: hanging indents for verse-->
+    <rendition n="indent 1 level" xml:id="ti-1" scheme="css">text-indent: 1em;</rendition>
+    <rendition n="indent 2 levels" xml:id="ti-2" scheme="css">text-indent: 2em;</rendition>
+    <rendition n="indent 3 levels" xml:id="ti-3" scheme="css">text-indent: 3em;</rendition>
+    <rendition n="indent 4 levels" xml:id="ti-4" scheme="css">text-indent: 4em;</rendition>
+    <rendition n="indent 5 levels" xml:id="ti-5" scheme="css">text-indent: 5em;</rendition>
+    <rendition n="indent 6 levels" xml:id="ti-6" scheme="css">text-indent: 6em;</rendition>
+    <rendition n="indent 7 levels" xml:id="ti-7" scheme="css">text-indent: 7em;</rendition>
+    <rendition n="indent 8 levels" xml:id="ti-8" scheme="css">text-indent: 8em;</rendition>
+    <rendition n="indent 9 levels" xml:id="ti-9" scheme="css">text-indent: 9em;</rendition>
+    <rendition n="indent 10 levels" xml:id="ti-10" scheme="css">text-indent: 10em;</rendition>
+    <rendition n="indent 10 levels" xml:id="ti-11" scheme="css">text-indent: 11em;</rendition>
+    <rendition n="indent 12 levels" xml:id="ti-12" scheme="css">text-indent: 12em;</rendition>
+    <rendition n="indent 13 levels" xml:id="ti-13" scheme="css">text-indent: 13em;</rendition>
+    <rendition n="indent 14 levels" xml:id="ti-14" scheme="css">text-indent: 14em;</rendition>
+    <rendition n="indent 15 levels" xml:id="ti-15" scheme="css">text-indent: 15em;</rendition>
+    <rendition n="indent 16 levels" xml:id="ti-16" scheme="css">text-indent: 16em;</rendition>
+    <rendition n="indent 17 levels" xml:id="ti-17" scheme="css">text-indent: 17em;</rendition>
+    <rendition n="indent 18 levels" xml:id="ti-18" scheme="css">text-indent: 18em;</rendition>
+    <rendition n="indent 19 levels" xml:id="ti-19" scheme="css">text-indent: 19em;</rendition>
+    <rendition n="indent 20 levels" xml:id="ti-20" scheme="css">text-indent: 20em;</rendition>
+    <rendition n="indent 21 levels" xml:id="ti-21" scheme="css">text-indent: 21em;</rendition>
+    <rendition n="indent 22 levels" xml:id="ti-22" scheme="css">text-indent: 22em;</rendition>
+    
+
+    <!-- vertical-align -->
+    <rendition n="subscript" xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+    <rendition n="superscript" xml:id="super" scheme="css">vertical-align: super;</rendition>
+    
+    <rendition n="border" xml:id="border" scheme="css">border: 2px solid;</rendition>
+    
+    <!-- color -->
+    <rendition n="red" xml:id="red" scheme="css">color: red;</rendition>
+    <rendition n="blue" xml:id="blue" scheme="css">color: blue;</rendition>
+    <!-- compound CSS -->
+    <rendition n="hanging indent" xml:id="hang" scheme="css">margin-left: 2em; text-indent: -2em;
+        padding: 0;</rendition>
+    <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+    <rendition n="suppress" xml:id="suppress" scheme="css">display: none</rendition>
+    <rendition n="wide" xml:id="wide" scheme="css">width:100%</rendition>
+    
+    <!-- non-CSS styles -->
+    <rendition n="inline speaker" xml:id="inline-speaker" scheme="free">Name of speaker appears on same line as start of speech</rendition>
+    <rendition n="triple space" xml:id="tripleSpace" scheme="free">milestone indicated by blank space approximately three lines in height"</rendition>
+    <rendition n="ellipsis with 5 dots" xml:id="ellipsis_5_dot" scheme="free">. . . . .</rendition>
+    <rendition n="ellipsis with 6 dots" xml:id="ellipsis_6_dot" scheme="free">. . . . . .</rendition>
+    <rendition n="ellipsis with 7 dots" xml:id="ellipsis_7_dot" scheme="free">. . . . . . .</rendition>
+    <rendition n="ellipsis with 7 asterisks" xml:id="ellipsis_7_asterisk" scheme="free">* * * * * * *</rendition>
+    <rendition n="graphic" xml:id="graphic" scheme="free">Graphically rendered element; currently
+        used for tables that should be graphically highlighted with color.</rendition>
+    <rendition n="rtl" xml:id="rtl" scheme="free">right to left language</rendition>
+    <rendition n="erased" xml:id="erased" scheme="free">used for deleted text that is legible, not stuck out, but erased—visibly lighter than surrounding text.</rendition>
+    <rendition n="inline column" xml:id="inlineColumn" scheme="free">inline list in verticle format</rendition>
+    <rendition n="angle bracket" xml:id="bracket" scheme="free">surrounding angle brackets</rendition>
+    <rendition n="sublinear caret insertion point" xml:id="subcaret" scheme="free">insert a sublinear
+        caret, ⁁</rendition>
+    <rendition n="upside down" xml:id="upsidedown" scheme="free">text or image is upside down</rendition>
+    <rendition n="caret insertion point" xml:id="caret" scheme="free">insert a caret, ⁁</rendition>
+    <rendition n="post line, right" xml:id="postright" scheme="free">Heading, typically used in
+        Swinburne for strophes and antiphones, that appears to the right of (i.e., after or "post")
+        the first line of the strophe or antiphone.</rendition>
+
+    <rendition n="horizontal rule" xml:id="hr" scheme="free">typical horizontal
+        rule that separates notes from the rest of the page, e.g., html <gi>hr</gi>.</rendition>
+    <rendition n="note reference" xml:id="noteRef" scheme="css">verical-align: super; font-size:
+        xx-small;</rendition>
+    <rendition n="inner line group" xml:id="sublg" scheme="free">sub line group; a subdivision of a
+        line group, such as the octet and sextet of a sonnet, that is a logical group but is not set
+        off typographically.</rendition>
+    
+    <rendition n="parentheses" xml:id="parens" scheme="free">Element is surrounded by parentheses. Implemented in CSS with .parens:before {content:
+        "(";} .parens:after {content: ")";}</rendition>
+    <rendition n="chronoTableDate" xml:id="chronoTableDate" scheme="css">/* date cell in a chronology
+        table */ font-style: italic;</rendition>
+    <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
+    <rendition n="embedHeadRight" xml:id="embedHeadRight" scheme="css">head/label embedded in a block
+        element, e.g., paragraph. See Study of Ben Jonson.</rendition>
+    <rendition n="embedHeadLeft" xml:id="embedHeadLeft" scheme="free">head/label embedded in a block
+        element, e.g., paragraph. See Study of Ben Jonson.</rendition>
+    <rendition n="indent" xml:id="indent" scheme="css">.indent:before {content:
+        "\A0\A0\A0\A0\A0\A0";} /* Should be implmented as .indent {text-indent: 4em;}, but a bug in Safari causes block elements to re-indent when interrupted by another block element. */></rendition>
+    <rendition n="comic font" xml:id="comicFont" scheme="css">font-family: CCBlahBlahBlah;</rendition>
+    <rendition n="single quotes" xml:id="sq" scheme="css">
+        span.sq:before {
+        content: "\2018";
+        }
+        span.sq:after {
+        content: "\2019";
+        }
+    </rendition>
+    <rendition n="double quotes" xml:id="dq" scheme="css">
+        span.dq:before {
+        content: "\201C";
+        }
+        span.dq:after {
+        content: "\201D";
+        }
+    </rendition>
+    <rendition n="no quotes" xml:id="nq" scheme="free">Used in <att>rendition</att> of <gi>q</gi> or <gi>quote</gi> for inline quoted speech or quotations that are not marked with quotation marks.</rendition>
+    <rendition n="table of contents" xml:id="toc" scheme="other"/>
+    <rendition n="wrapped code / wrappped formatted text" xml:id="wrap">
+    overflow-x: auto;
+/* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+    white-space: pre-wrap;
+/* css-3 */
+    white-space: -moz-pre-wrap !important;
+/* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+/* Opera 4-6 */
+    white-space: -o-pre-wrap;
+/* Opera 7 */
+/* width: 99%; */
+    word-wrap: break-word;
+/* Internet Explorer 5.5+ */
+    </rendition>
+    <!-- lists -->
+    <rendition n="deprecated:noBullets" xml:id="noBullets" scheme="css">list-style-type: none; </rendition>
+    <rendition xml:id="list-style-type_none" n="list style: none">list-style-type:none;</rendition>
+    <rendition xml:id="list-style-type_circle" n="list style: circle">list-style-type:circle;</rendition>
+    <rendition xml:id="list-style-type_disc" n="list style: disc">list-style-type:disc;</rendition>
+    <rendition xml:id="list-style-type_square" n="list style: square">list-style-type:square;</rendition>
+    <rendition xml:id="list-style-type_armenian" n="list style: armenian">list-style-type:armenian;</rendition>
+    <rendition xml:id="list-style-type_decimal" n="list style: decimal">list-style-type:decimal;</rendition>
+    <rendition xml:id="list-style-type_decimal-leading-zero" n="list style: decimal-leading-zero">list-style-type:decimal-leading-zero;</rendition>
+    <rendition xml:id="list-style-type_georgian" n="list style: georgian">list-style-type:georgian;</rendition>
+    <rendition xml:id="list-style-type_lower-alpha" n="list style: lower-alpha">list-style-type:lower-alpha;</rendition>
+    <rendition xml:id="list-style-type_lower-greek" n="list style: lower-greek">list-style-type:lower-greek;</rendition>
+    <rendition xml:id="list-style-type_lower-roman" n="list style: lower-roman">list-style-type:lower-roman;</rendition>
+    <rendition xml:id="list-style-type_upper-alpha" n="list style: upper-alpha">list-style-type:upper-alpha;</rendition>
+    <rendition xml:id="list-style-type_upper-roman" n="list style: upper-roman">list-style-type:upper-roman;</rendition>
+    <rendition xml:id="list" n="list" scheme="free">Indicates a element such as <gi>castItem</gi> is rendered in list form.</rendition>
+    <rendition xml:id="braced-right" n="braced right" scheme="free">Indicates that a block in a list (e.g., a castGroup in a CastList) is marked by a brace to the right of the list block.</rendition>
+    
+    <rendition xml:id="asteriskDivider" scheme="free">
+        Typically used on <gi>milestone</gi> elements. A string of asterisks representing some sort of division in the text. May be implemented in CSS as below:
+        <eg >
+.asteriskDivider:before {
+  content: "* * * * *";
+}
+        </eg>
+    </rendition>
+    
+    <!-- 
+        none  	No marker
+        circle 	The marker is a circle
+        disc 	The marker is a filled circle. This is default
+        square 	The marker is a square
+        armenian 	The marker is traditional Armenian numbering
+        decimal 	The marker is a number
+        decimal-leading-zero 	The marker is a number padded by initial zeros (01, 02, 03, etc.)
+        georgian 	The marker is traditional Georgian numbering (an, ban, gan, etc.)
+        lower-alpha 	The marker is lower-alpha (a, b, c, d, e, etc.)
+        lower-greek 	The marker is lower-greek (alpha, beta, gamma, etc.)
+        lower-latin 	The marker is lower-latin (a, b, c, d, e, etc.)
+        lower-roman 	The marker is lower-roman (i, ii, iii, iv, v, etc.)
+        upper-alpha 	The marker is upper-alpha (A, B, C, D, E, etc.) 
+        upper-latin 	The marker is upper-latin (A, B, C, D, E, etc.)
+        upper-roman 	The marker is upper-roman (I, II, III, IV, V, etc.)
+        -->
+        
+
+</tagsDecl>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
+        ?>
+<!DOCTYPE TEI [
+<!ENTITY title "Dirae">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02-i045-md">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>&title;</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/seriesStmt.xml"/>
+         <sourceDesc>
+            <p>This TEI/XML document is the original source.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+<include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_poetry"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="svninfo">
+                        $Id$
+                        $Rev$
+                        $Date$
+                        $Author$
+                    </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="form">
+            <head>Form</head>
+            <list>
+               <item n="genre-main">poetry</item>
+            </list>
+         </div>
+         <!--
+            <div xml:id="commentary">
+            <head>Commentary</head>
+            
+            <div xml:id="notes">
+            <note type="annotation" resp="#jawalsh" corresp="acs0000001-01.xml#acs0000001-01-i008.de1753" xml:id="acs0000001-01-i008-a1">See <bibl><title>John</title> <biblScope type="chap">14</biblScope>:<biblScope type="verses">31</biblScope>.</bibl></note>
+            </div>
+         -->
+         <div xml:id="commentary">
+            <head>Commentary</head>
+            <div xml:id="notes">
+               <note rendition="#suppress" corresp="acs0000001-02.xml#acs0000001-02-i045.def123" resp="#jawalsh" type="annotation" xml:id="acs0000001-02-i045-a1">Literally <q>the terrible</q>; a Latin name for the Furies</note>
+            </div>
+         </div>
+         <div xml:id="texts">
+            <head>texts</head>
+            <listBibl>
+               <biblStruct xml:id="acs0000001-02-i045-bibl" n="readingtext">
+                  <analytic>
+                     <title>
+                        <choice>
+                           <orig>Diræ</orig>
+                           <reg>&title;</reg>
+                        </choice>
+                     </title>
+                     <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                  </analytic>
+                  <monogr>
+                        <title>The Poems of Algernon Charles Swinburne</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Chatto &amp; Windus</publisher>
+                            <date when="1904"/>
+                            <biblScope type="vol">2</biblScope>
+                            <biblScope type="pp">291-292</biblScope>
+                        </imprint>
+                        <extent>6 vols.</extent>
+                    </monogr>
+               </biblStruct>
+               <biblStruct n="original_collection">
+                  <analytic>
+                     <title>
+                        <choice>
+                           <orig>Diræ</orig>
+                           <reg>&title;</reg>
+                        </choice>
+                     </title>
+                     <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                  </analytic>
+                  <monogr>
+                     <title>Songs of Two Nations</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Chatto &amp; Windus</publisher>
+                        <date xml:id="sort_date" when="1875"/>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. I. A Dead King</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-03-22"/>
+                        <biblScope type="pp">307</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. II. A Year After</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-03-22"/>
+                        <biblScope type="pp">307</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. III. Peter's Pence from Perugia</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-03-29"/>
+                        <biblScope type="pp">332</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. IV. Papal Allocution</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-03-29"/>
+                        <biblScope type="pp">332</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. V. The Burden of Austria</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-04-05"/>
+                        <biblScope type="pp">362</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. VI. Locusta</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-04-12"/>
+                        <biblScope type="pp">386</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. VII. Celaeno</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-04-19"/>
+                        <biblScope type="pp">410</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. VIII. A Choice</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-04-26"/>
+                        <biblScope type="pp">433</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. IX. The Augurs</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-04-26"/>
+                        <biblScope type="pp">433</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. X. A Counsel</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-05-03"/>
+                        <biblScope type="pp">458</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. XI. The Moderates</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-05-10"/>
+                        <biblScope type="pp">482</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>Intercession</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Fortnightly Review</title>
+                     <imprint>
+                        <date when="1869-11"/>
+                        <biblScope type="pp">509-510</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. XII. The Savior of Society</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-05-17"/>
+                        <biblScope type="pp">519</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. XIII. Mentana: Third Anniversary</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-05-24"/>
+                        <biblScope type="pp">543</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. XIV. Mentana: Second Anniversary</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-05-31"/>
+                        <biblScope type="pp">568</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. XV. The Descent into Hell</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-06-07"/>
+                        <biblScope type="pp">589</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title>&title;. XVI. Apologia</title>
+                     <author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title>The Examiner</title>
+                     <imprint>
+                        <date when="1873-06-14"/>
+                        <biblScope type="pp">615</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

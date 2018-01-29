@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:/Users/jawalsh/development/tei/odd/RomaResults/swinburneGlossary.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Swinburne Vocabulary Glossary</title>
+                <author>John A. Walsh</author>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>Bloomington, Indiana</pubPlace>
+                <publisher>John A. Walsh</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This TEI/XML document is the original source.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <entry xml:id="miltonsland">
+                    <form><orth>“Milton's land”</orth></form>
+                    <def>England.</def>
+                </entry>
+                <entry xml:id="tortive">
+                    <form>
+                        <orth>tortive</orth>
+                    </form>
+                    <def>Twisting, twisted,
+                        tortuous.<bibl rendition="#paren"><title level="a">tortive, a.</title> <title>The
+                                Oxford English Dictionary</title>. 2nd ed. 1989. <title>OED
+                            Online</title>. Oxford University Press. 4 Apr. 2000 <ptr target="http://dictionary.oed.com/cgi/entry/50254889"/>.</bibl></def>
+                </entry>
+                <entry xml:id="gibbet">
+                    <form>
+                        <orth>gibbet</orth>
+                    </form>
+                    <def>Gallows.</def>
+                </entry>
+                <entry xml:id="rapine">
+                    <form>
+                        <orth>rapine</orth>
+                    </form>
+                    <def>Spoiliation, pillage, plunder.</def>
+                </entry>
+                <entry xml:id="refluent">
+                    <form>
+                        <orth> refluent </orth>
+                    </form>
+                    <def>Ebbing, subsiding. </def>
+                </entry>
+                <entry xml:id="thaumaturgy">
+                    <form>
+                        <orth>thaumaturgy</orth>
+                    </form>
+                    <def> The working of wonders; miracle-working; magic. <bibl rendition="#paren"><title level="a">thaumaturgy</title> <title>The
+                        Oxford English Dictionary</title>. 2nd ed. 1989. <title>OED
+                            Online</title>. Oxford University Press. 28 Jan 2009 <ptr target="http://http://dictionary.oed.com/cgi/entry/50250377"/>.</bibl></def>
+                </entry>
+                <entry xml:id="antiphone">
+                    <form>
+                        <orth> antiphone </orth>
+                    </form>
+                    <def> A responsive devotional verse. </def>
+                </entry>
+                <entry xml:id="cenotaph">
+                    <form>
+                        <orth> cenotaph </orth>
+                    </form>
+                    <def> A tomb or monument erected for one whose remains are elsewhere. </def>
+                </entry>
+                <entry xml:id="cerecloth">
+                    <form>
+                        <orth> cerecloth </orth>
+                    </form>
+                    <def> Waxed, waterproof cloth, used for wrapping dead bodies. </def>
+                </entry>
+                <entry xml:id="tenebrae">
+                    <form>
+                        <orth>Tenebrae</orth>
+                    </form>
+
+                    <def>A church service observed during the final part of Holy Week in
+                        commemoration of the sufferings and death of Christ. The service includes
+                        the public chanting of psalms and the progressive extinguishing of all
+                        candles until only one remains burning behind or under the altar.</def>
+                </entry>
+                <entry xml:id="refluence">
+                    <form>
+                        <orth>refluence</orth>
+                    </form>
+
+                    <def>reflux; a flowing back.</def>
+                </entry>
+                <entry xml:id="unsloken">
+                    <form>
+                        <orth>unsloken</orth>
+                    </form>
+                    <def>unquenched.</def>
+                </entry>
+                <entry xml:id="despite">
+                    <form>
+                        <orth>despite</orth>
+                    </form>
+                    <hom>
+                        <gramGrp>
+                            <pos>n</pos>
+                            <usg>archaic</usg>
+                            <usg>poetic/literary</usg>
+                        </gramGrp>
+                        <sense>
+                            <def>outrage; injury</def>
+                        </sense>
+                        <sense>
+                            <def>contempt; disdain</def>
+                        </sense>
+                    </hom>
+                </entry>
+                <entry xml:id="confluent">
+                    <form>
+                        <orth>confluent</orth>
+                    </form>
+                    <def>Flowing together or merging.</def>
+                </entry>
+                <entry xml:id="culminant">
+                    <form>
+                        <orth>culminant</orth>
+                    </form>
+                    <def>At or forming the top or highest point.</def>
+                </entry>
+                <entry xml:id="whin">
+                    <form>
+                        <orth>whin</orth>
+                    </form>
+                    <def>Furze; gorse.</def>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>
