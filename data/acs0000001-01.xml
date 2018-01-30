@@ -839,7 +839,7 @@
 								<pb n="xxxvi" facs="acs0000001-01-041"/>
 								<row role="tocPageHead">
 
-									<cell role="tocPageHead" rendition="#xx-small">PAGE</cell>
+									<cell role="tocPageHead" rendition="#xx-small #uc">Page</cell>
 								</row>
 								<row>
 									<cell role="tocItem">
@@ -915,7 +915,7 @@
 								</row>
 								<row>
 									<cell role="tocItem">
-										<title rendition="#sc">A Song in TIme of Revolution. 1860</title>
+										<title rendition="#sc">A Song in Time of Revolution. 1860</title>
 									</cell>
 									<cell role="tocNumber">140</cell>
 								</row>
@@ -1024,7 +1024,7 @@
 								<pb n="xxxvii" facs="acs0000001-01-042"/>
 								<row role="tocPageHead">
 
-									<cell role="tocPageHead" rendition="#xx-small">PAGE</cell>
+									<cell role="tocPageHead" rendition="#xx-small #uc">Page</cell>
 								</row>
 								<row>
 									<cell role="tocItem">
@@ -1111,7 +1111,7 @@
         
         <body>
             <pb n="[1]" facs="acs0000001-01-044"/>
-            <head rendition="#center #n  #uc">A Ballad of Life</head>
+            <head rendition="#center #n #uc">A Ballad of Life</head>
             <lg>
                 <l n="1">
                     <s xml:id="s0001" next="s0002" part="I">
@@ -1466,7 +1466,7 @@
 	    <index corresp="acs0000001-01-i003-md.xml" indexName="text"/>
         <body>
             <pb rendition="#center" n="4" facs="acs0000001-01-047"/>
-            <head rendition="#center #n  #uc">A Ballad of Death</head>
+            <head rendition="#center #n #uc">A Ballad of Death</head>
             <lg>
                 <l n="1">
                     <s xml:id="acs0000090-01-s0001" next="#acs0000090-01-s0002" part="I">
@@ -2010,7 +2010,7 @@
         </front>
         <body>
             <pb n="[11]" facs="acs0000001-01-054"/>
-            <head rendition="#center #n  #uc">Laus Veneris</head>
+            <head rendition="#center #n #uc">Laus Veneris</head>
             <lg>
                 <l n="1">
                     <s xml:id="acs_pb1_t003_s0011" next="acs_pb1_t003_s0012" part="I">
@@ -3061,15 +3061,15 @@
 	<index corresp="acs0000001-01-i005-md.xml" indexName="text"/>
         <body>
             <pb n="27" facs="acs0000001-01-070"/>
-            <head rendition="#center #n  #uc"><persName key="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice></persName></head>
+            <head rendition="#center #n #uc"><persName key="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice></persName></head>
             <castList rendition="#center #x-small">
-                <castItem rendition="#inline"><persName key="hippolytus">HIPPOLYTUS</persName>;</castItem>
-                <castItem rendition="#inline"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>;</castItem>
-                <castItem rendition="#inline">CHORUS OF TRŒZENIAN<lb/> WOMEN</castItem>
+                <castItem rendition="#inline #uc" xml:id="hippolytus"><persName key="hippolytus">Hippolytus</persName>;</castItem>
+                <castItem rendition="#inline #uc" xml:id="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>;</castItem>
+                <castItem rendition="#inline #uc" xml:id="chorus_of_troezenian_women">Chorus of <choice><orig>Trœzenian</orig><reg>Trœzenian</reg></choice><lb/> Women</castItem>
             </castList>
            <space dim="vertical" unit="lines" quantity="2"/>
-            <sp>
-                <speaker rendition="#center">HIPPOLYTUS.</speaker>
+            <sp who="#hippolytus">
+                <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="1">
                         <hi rendition="#sc">Lay</hi> not thine hand upon me; let me go;</l>
@@ -3077,8 +3077,8 @@
                     <l n="3">What, wilt thou turn my loathing to thy death?</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="4">Nay, I will never loosen hold nor breathe</l>
                     <l n="5">Till thou have slain me; godlike for great brows</l>
@@ -3088,8 +3088,8 @@
                     <l n="9" part="I">Why not of thee?</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">CHORUS.</speaker>
+            <sp who="#chorus_of_troezenian_women">
+                <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="9" part="F" rendition="#ti-9">O queen, take heed of words; </l>
                     <l n="10">Why wilt thou eat the husk of evil speech? </l>
@@ -3097,8 +3097,8 @@
                     <l n="12">And goodness for the binding of thy brows.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="13">Nay, but this god hath cause enow to smite;</l>
                     <l n="14">If he will slay me, baring breast and throat,</l>
@@ -3131,8 +3131,8 @@
                     <l n="40">And I am sick with hating the sweet sun.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">HIPPOLYTUS.</speaker>
+            <sp who="#hippolytus">
+                <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="41">Let not this woman wail and cleave to me,</l>
                     <l n="42">That am no part of the gods’ wrath with her;</l>
@@ -3147,14 +3147,14 @@
                 </lg>
             </sp>
             <pb n="29" facs="acs0000001-01-072"/>
-            <sp>
-                <speaker rendition="#center">HIPPOLYTUS.</speaker>
+            <sp who="#hippolytus">
+                <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="46">Man is as beast when shame stands off from him.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="47">Man, what have I to do with shame or thee?</l>
                     <l n="48">I am not of one counsel with the gods.</l>
@@ -3184,22 +3184,22 @@
                     <l n="72">Till thou hast slain me. I am not good to live.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">CHORUS.</speaker>
+            <sp who="#chorus_of_troezenian_women">
+                <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="73">This is an evil born with all its teeth,</l>
                     <l n="74">When love is cast out of the bound of love.</l>
                 </lg>
             </sp>
             <pb n="30" facs="acs0000001-01-073"/>
-            <sp>
-                <speaker rendition="#center">HIPPOLYTUS.</speaker>
+            <sp who="#hippolytus">
+                <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="75">There is no hate that is so hateworthy.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="76">I pray thee turn that hate of thine my way,</l>
                     <l n="77">I hate not it nor anything of thine.</l>
@@ -3252,8 +3252,8 @@
                     <l n="109">Lest a snare take them though the ground be good.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">HIPPOLYTUS.</speaker>
+            <sp who="#hippolytus">
+                <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="110">Shame may do most where fear is found most weak;</l>
                     <l n="111">That which for shame’s sake yet I have not done,</l>
@@ -3261,48 +3261,48 @@
                     <l n="113">Better the foot slip than the whole soul swerve.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="114">The man is choice and exquisite of mouth;</l>
                     <l n="115">Yet in the end a curse shall curdle it.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">CHORUS.</speaker>
+            <sp who="#chorus_of_troezenian_women">
+                <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="116">He goes with cloak upgathered to the lip,</l>
                     <l n="117">Holding his eye as with some ill in sight.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="118">A bitter ill he hath i’ the way thereof,</l>
                     <l n="119">And it shall burn the sight out as with fire.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">CHORUS.</speaker>
+            <sp who="#chorus_of_troezenian_women">
+                <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="120">Speak no such word whereto mischance is kin.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="121">Out of my heart and by fate’s leave I speak.</l>
                 </lg>
             </sp>
-            <sp>
-                <speaker rendition="#center">CHORUS.</speaker>
+            <sp who="#chorus_of_troezenian_women">
+                <speaker rendition="#center #uc">Chorus.</speaker>
                 <lg>
                     <l n="122">Set not thy heart to follow after fate.</l>
                 </lg>
             </sp>
             <pb n="32" facs="acs0000001-01-075"/>
-            <sp>
-                <speaker rendition="#center"><choice><orig>PHÆDRA</orig><reg>PHAEDRA</reg></choice>.</speaker>
+            <sp who="#phaedra">
+                <speaker rendition="#center #uc"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>.</speaker>
                 <lg>
                     <l n="123">O women, O sweet people of this land,</l>
                     <l n="124">O goodly city and pleasant ways thereof,</l>
@@ -3375,7 +3375,7 @@
 	    <index corresp="acs0000001-01-i006-md.xml" indexName="text"/>
         <body>
             <pb n="34" facs="acs0000001-01-077"/>
-            <head rendition="#center #n  #uc">The Triumph of Time</head>
+            <head rendition="#center #n #uc">The Triumph of Time</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Before</hi> our lives divide for ever,</l>
@@ -3886,7 +3886,7 @@
         <index corresp="acs0000001-01-i007-md.xml" indexName="text"/>
         <body>
             <pb n="48" facs="acs0000001-01-091"/>
-            <head rendition="#center #n  #uc">Les Noyades</head>
+            <head rendition="#center #n #uc">Les Noyades</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Whatever</hi> a man of the sons of men</l>
@@ -4017,7 +4017,7 @@
         <index corresp="acs0000001-01-i008-md.xml" indexName="text"/>        
         <body>
             <pb n="52" facs="acs0000001-01-095"/>
-            <head rendition="#center #n  #uc">A Leave-Taking</head>
+            <head rendition="#center #n #uc">A Leave-Taking</head>
             <lg>
                 <l n="1" xml:id="acs0000001-01-i008.de1753">
                     <hi rendition="#sc">Let</hi> us go hence,<ptr type="annotation" target="acs0000001-01-i008-md.xml#acs0000001-01-i008-a1"/> my songs; she will not hear.</l>
@@ -4080,7 +4080,7 @@
         <index corresp="acs0000001-01-i009-md.xml" indexName="text"/>        
         <body>
             <pb n="54" facs="acs0000001-01-097"/>
-            <head rendition="#center #n  #uc"><persName key="itylus">Itylus</persName></head>
+            <head rendition="#center #n #uc"><persName key="itylus">Itylus</persName></head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Swallow</hi>, my sister, O sister swallow,</l>
@@ -4172,7 +4172,7 @@
     <index corresp="acs0000001-01-i010-md.xml" indexName="text"/>
     <body>
       <pb n="57" facs="acs0000001-01-100"/>
-      <head rendition="#center #n  #uc"><persName key="anactoria">Anactoria</persName></head>
+      <head rendition="#center #n #uc"><persName key="anactoria">Anactoria</persName></head>
       <epigraph rendition="#center-block" rend="width:20em">
         <cit rendition="#block">
           <quote xml:lang="gr" rendition="#block">
@@ -4506,8 +4506,8 @@
         <index corresp="acs0000001-01-i011-md.xml" indexName="text"/>      
         <body>
             <pb n="67" facs="acs0000001-01-110"/>
-            <head rendition="#center #n  #uc">Hymn to <persName key="proserpine">Proserpine</persName></head>
-            <head rendition="#center #n  #x-small #uc">(After the proclamation in Rome of the Christian faith)</head>
+            <head rendition="#center #n #uc">Hymn to <persName key="proserpine">Proserpine</persName></head>
+            <head rendition="#center #n #x-small #uc">(After the proclamation in Rome of the Christian faith)</head>
             <epigraph rendition="#center #i">
                 <p>Vicisti, <rs type="person" key="jesus"><choice><orig>Galilæe</orig><reg>Galilaee</reg></choice></rs>.</p>
             </epigraph>
@@ -4661,7 +4661,7 @@
         <index corresp="acs0000001-01-i012-md.xml" indexName="text"/>        
         <body>
             <pb n="74" facs="acs0000001-01-117"/>
-            <head rendition="#center #n  #uc">Ilicet</head>
+            <head rendition="#center #n #uc">Ilicet</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">There</hi> is an end of joy and sorrow;</l>
@@ -4865,7 +4865,7 @@
         <index corresp="acs0000001-01-i013-md.xml" indexName="text"/>        
         <body>
             <pb n="79" facs="acs0000001-01-122"/>
-            <head rendition="#center #n  #uc"><persName key="hermaphroditus">Hermaphroditus</persName></head>
+            <head rendition="#center #n #uc"><persName key="hermaphroditus">Hermaphroditus</persName></head>
             <div n="I">
                 <head rendition="#center #n">I</head>
                 <lg>
@@ -4959,7 +4959,7 @@
         <index corresp="acs0000001-01-i014-md.xml" indexName="text"/>        
         <body>
             <pb n="82" facs="acs0000001-01-125"/>
-            <head rendition="#center #n  #uc">Fragoletta</head>
+            <head rendition="#center #n #uc">Fragoletta</head>
             <lg rendition="#ti-2">
                 <l n="1">
                     <hi rendition="#sc">O love</hi>! what shall be said of thee?</l>
@@ -5067,7 +5067,7 @@
         <index corresp="acs0000001-01-i015-md.xml" indexName="text"/>
         <body>
             <pb n="85" facs="acs0000001-01-128"/>
-            <head rendition="#center #n  #uc">Rondel</head>
+            <head rendition="#center #n #uc">Rondel</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">These</hi> many years since we began to be,</l>
@@ -5099,7 +5099,7 @@
         <index corresp="acs0000001-01-i016-md.xml" indexName="text"/>        
         <body>
             <pb n="86" facs="acs0000001-01-129"/>
-            <head rendition="#center #n  #uc">Satia te Sanguine</head>
+            <head rendition="#center #n #uc">Satia te Sanguine</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">If </hi>you loved me ever so little,</l>
@@ -5217,7 +5217,7 @@
         <index corresp="acs0000001-01-i017-md.xml" indexName="text"/>                        
                         <body>
                                     <pb n="89" facs="acs0000001-01-132"/>
-                                    <head rendition="#center #n  #uc">A Litany</head>
+                                    <head rendition="#center #n #uc">A Litany</head>
                                     <epigraph rendition="#small #center-block" rend="width:28em; margin-bottom:2em;">
                                                 <cit>
                                                   <quote xml:lang="gr" rendition="#block">
@@ -5541,7 +5541,7 @@
         <index corresp="acs0000001-01-i018-md.xml" indexName="text"/>        
         <body>
             <pb n="95" facs="acs0000001-01-138"/>
-            <head rendition="#center #n  #uc">A Lamentation</head>
+            <head rendition="#center #n #uc">A Lamentation</head>
             <div n="I" xml:id="id333006">
                 <head rendition="#center #n">I</head>
                 <lg>
@@ -5706,7 +5706,7 @@
         <index corresp="acs0000001-01-i019-md.xml" indexName="text"/>        
         <body>
             <pb n="100" facs="acs0000001-01-143"/>
-            <head rendition="#center #n  #uc">Anima Anceps</head>
+            <head rendition="#center #n #uc">Anima Anceps</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Till</hi> death have broken</l>
@@ -5769,8 +5769,8 @@
         <index corresp="acs0000001-01-i020-md.xml" indexName="text"/>        
         <body>
             <pb n="102" facs="acs0000001-01-145"/>
-            <head rendition="#center #n  #uc">In the Orchard</head>
-            <head rendition="#center #n  #x-small">(PROVENÇAL BURDEN)</head>
+            <head rendition="#center #n #uc">In the Orchard</head>
+            <head rendition="#center #n #x-small #uc">(Provençal Burden)</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Leave</hi> go my hands, let me catch breath and see;</l>
@@ -5849,7 +5849,7 @@
         <index corresp="acs0000001-01-i021-md.xml" indexName="text"/>       
         <body>
             <pb n="104" facs="acs0000001-01-147"/>
-            <head rendition="#center #n  #uc">A Match</head>
+            <head rendition="#center #n #uc">A Match</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">If </hi>love were what the rose is,</l>
@@ -5918,7 +5918,7 @@
         <index corresp="acs0000001-01-i022-md.xml" indexName="text"/>       
         <body>
             <pb n="106" facs="acs0000001-01-149"/>
-            <head rendition="#center #n  #uc">Faustine</head>
+            <head rendition="#center #n #uc">Faustine</head>
             <epigraph rendition="#center #i" xml:lang="la">
                 <p>Ave Faustina Imperatrix, morituri te salutant.</p>
             </epigraph>
@@ -6181,7 +6181,7 @@
         <index corresp="acs0000001-01-i023-md.xml" indexName="text"/>
         <body>
             <pb n="113" facs="acs0000001-01-156"/>
-            <head rendition="#center #n  #uc">A Cameo</head>
+            <head rendition="#center #n #uc">A Cameo</head>
             <lg type="sonnet">
                 <l n="1">
                     <hi rendition="#sc">There</hi> was a graven image of Desire</l>
@@ -6206,8 +6206,8 @@
 				        <index corresp="acs0000001-01-i024-md.xml" indexName="text"/>
 		<body>
            <pb n="114" facs="acs0000001-01-157"/>
-            <head rendition="#center #n  #uc">Song Before Death</head>
-            <head rendition="#center #n  #x-small">(FROM THE FRENCH)</head>
+            <head rendition="#center #n #uc">Song Before Death</head>
+		    <head rendition="#center #n #x-small #uc">(From the French)</head>
             <head rendition="#center #n">1795</head>
             <lg>
                 <l n="1">
@@ -6240,7 +6240,7 @@
         <index corresp="acs0000001-01-i025-md.xml" indexName="text"/>
         <body>
             <pb n="115" facs="acs0000001-01-158"/>
-            <head rendition="#center #n  #uc">Rococo</head>
+            <head rendition="#center #n #uc">Rococo</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Take</hi> hands and part with laughter;</l>
@@ -6350,7 +6350,7 @@
         <index corresp="acs0000001-01-i026-md.xml" indexName="text"/>        
         <body>
             <pb n="118" facs="acs0000001-01-161"/>
-            <head rendition="#center #n  #uc">Stage Love</head>
+            <head rendition="#center #n #uc">Stage Love</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">When</hi> the game began between them for a jest,</l>
@@ -6382,7 +6382,7 @@
         <index corresp="acs0000001-01-i027-md.xml" indexName="text"/>        
         <body>
             <pb n="119" facs="acs0000001-01-162"/>
-            <head rendition="#center #n  #uc">The Leper</head>
+            <head rendition="#center #n #uc">The Leper</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Nothing</hi> is better, I well think,</l>
@@ -6613,7 +6613,7 @@
         <index corresp="acs0000001-01-i028-md.xml" indexName="text"/>        
         <body>
             <pb n="125" facs="acs0000001-01-168"/>
-            <head rendition="#center #n  #uc">A Ballad of Burdens</head>
+            <head rendition="#center #n #uc">A Ballad of Burdens</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">The</hi> burden of fair women. Vain delight,</l>
@@ -6709,7 +6709,7 @@
             </lg>
               
             <lg>
-                <head rendition="#center #n  #x-small #sc">L’Envoy</head>
+                <head rendition="#center #n #x-small #sc">L’Envoy</head>
                 <l n="73">Princes, and ye whom pleasure quickeneth,</l>
                 <l n="74" rendition="#ti-1">Heed well this rhyme before your pleasure tire;</l>
                 <l n="75">For life is sweet, but after life is death.</l>
@@ -6721,7 +6721,7 @@
         <index corresp="acs0000001-01-i029-md.xml" indexName="text"/>        
         <body>
             <pb n="128" facs="acs0000001-01-171"/>
-            <head rendition="#center #n  #uc">Rondel</head>
+            <head rendition="#center #n #uc">Rondel</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Kissing</hi> her hair I sat against her feet,</l>
@@ -6745,9 +6745,9 @@
         <index corresp="acs0000001-01-i030-md.xml" indexName="text"/>      
         <body>
             <pb n="129" facs="acs0000001-01-172"/>
-            <head rendition="#center #n  #uc" rend="margin-bottom:18pt;">Before the Mirror</head>
-            <head rendition="#center #n  #x-small #uc" rend="margin-bottom:18pt;">(Verses Written Under a Picture)</head>
-            <head rendition="#center #n  #xx-small #uc" rend="margin-bottom:18pt;">Inscribed to <persName key="whistler">J. A. Whistler</persName></head>
+            <head rendition="#center #n #uc" rend="margin-bottom:18pt;">Before the Mirror</head>
+            <head rendition="#center #n #x-small #uc" rend="margin-bottom:18pt;">(Verses Written Under a Picture)</head>
+            <head rendition="#center #n #xx-small #uc" rend="margin-bottom:18pt;">Inscribed to <persName key="whistler">J. A. Whistler</persName></head>
             <div n="I" xml:id="id333026">
                 <head rendition="#center #n">I</head>
                 <lg>
@@ -6847,7 +6847,7 @@
         <index corresp="acs0000001-01-i031-md.xml" indexName="text"/>        
         <body>
             <pb n="132" facs="acs0000001-01-175"/>
-            <head rendition="#center #n  #uc">Erotion</head>
+            <head rendition="#center #n #uc">Erotion</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Sweet</hi> for a little even to fear, and sweet,</l>
@@ -6903,7 +6903,7 @@
         <index corresp="acs0000001-01-i032-md.xml" indexName="text"/>        
         <body>
             <pb n="134" facs="acs0000001-01-177"/>
-            <head rendition="#center #n  #uc">In Memory of <persName key="landor">Walter Savage Landor</persName></head>
+            <head rendition="#center #n #uc">In Memory of <persName key="landor">Walter Savage Landor</persName></head>
             <lg>
                 <l n="1" rendition="#ti-1">
                     <hi rendition="#sc">Back</hi> to the flower-town, side by side,</l>
@@ -6991,7 +6991,7 @@
         <index corresp="acs0000001-01-i033-md.xml" indexName="text"/>        
         <body>
             <pb n="137" facs="acs0000001-01-180"/>
-            <head rendition="#center #n  #uc">A Song in Time of Order. 1852</head>
+            <head rendition="#center #n #uc">A Song in Time of Order. 1852</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Push</hi> hard across the sand,</l>
@@ -7085,7 +7085,7 @@
         <index corresp="acs0000001-01-i034-md.xml" indexName="text"/>        
         <body>
             <pb n="140" facs="acs0000001-01-183"/>
-            <head rendition="#center #n  #uc">A Song in Time of Revolution. 1860</head>
+            <head rendition="#center #n #uc">A Song in Time of Revolution. 1860</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">The</hi> heart of the rulers is sick, and the high-priest covers
@@ -7207,7 +7207,7 @@
         <index corresp="acs0000001-01-i035-md.xml" indexName="text"/>        
         <body>
             <pb n="144" facs="acs0000001-01-187"/>
-            <head rendition="#center #n  #uc">To <persName key="hugo">Victor Hugo</persName></head>
+            <head rendition="#center #n #uc">To <persName key="hugo">Victor Hugo</persName></head>
             <lg>
                 <l n="1" rendition="#ti-2">
                     <hi rendition="#sc">In</hi> the fair days when God</l>
@@ -7465,7 +7465,7 @@
         <index corresp="acs0000001-01-i036-md.xml" indexName="text"/>        
         <body>
             <pb n="151" facs="acs0000001-01-194"/>
-            <head rendition="#center #n  #uc">Before Dawn</head>
+            <head rendition="#center #n #uc">Before Dawn</head>
                 <lg>
                     <l n="1">
                         <hi rendition="#sc">Sweet</hi> life, if life were stronger,</l>
@@ -7581,8 +7581,8 @@
         <index corresp="acs0000001-01-i037-md.xml" indexName="text"/>                
                 <body>
                         <pb n="154" facs="acs0000001-01-197"/>
-                        <head rendition="#center #n  #uc">Dolores</head>
-                        <head rendition="#center #n  #x-small">(NOTRE-DAME DES SEPT DOULEURS)</head>
+                        <head rendition="#center #n #uc">Dolores</head>
+                    <head rendition="#center #n #x-small">(Notre-Dame des Sept Douleurs)</head>
                         <lg rendition="#ti-2">
                                 <l n="1">Cold eyelids that hide like a jewel</l>
                                 <l n="2" rendition="#ti-1">Hard eyes that grow soft for an hour;</l>
@@ -8175,7 +8175,7 @@
         <index corresp="acs0000001-01-i038-md.xml" indexName="text"/>    
         <body>
             <pb n="169" facs="acs0000001-01-212"/>
-            <head rendition="#center #n  #uc">The Garden of <persName key="proserpine">Proserpine</persName></head>
+            <head rendition="#center #n #uc">The Garden of <persName key="proserpine">Proserpine</persName></head>
             <lg rendition="#ti-1">
                 <l n="1">
                     <hi rendition="#sc">Here</hi>, where the world is quiet;</l>
@@ -8306,7 +8306,7 @@
         <index corresp="acs0000001-01-i039-md.xml" indexName="text"/>        
         <body>
             <pb n="173" facs="acs0000001-01-216"/>
-            <head rendition="#center #n  #uc">Hesperia</head>
+            <head rendition="#center #n #uc">Hesperia</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Out</hi> of the golden remote wild west where the sea without
@@ -8464,7 +8464,7 @@
         <index corresp="acs0000001-01-i040-md.xml" indexName="text"/>        
         <body>
             <pb n="179" facs="acs0000001-01-222"/>
-            <head rendition="#center #n  #uc">Love at Sea</head>
+            <head rendition="#center #n #uc">Love at Sea</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">We</hi> are in love’s land to-day;</l>
@@ -8521,9 +8521,9 @@
         <index corresp="acs0000001-01-i041-md.xml" indexName="text"/>    
         <body>
             <pb n="181" facs="acs0000001-01-224"/>
-            <head rendition="#center #n  #uc">April</head>
-            <head rendition="#center #n  #x-small #uc">From the French of the Vidame de Chartes</head>
-            <head rendition="#center #n  #x-small">12—?</head>
+            <head rendition="#center #n #uc">April</head>
+            <head rendition="#center #n #x-small #uc">From the French of the Vidame de Chartes</head>
+            <head rendition="#center #n #x-small">12—?</head>
               <lg rendition="#ti-2">
                 <l n="1">
                     <hi rendition="#sc">When</hi> the <choice><sic>field</sic><corr>fields</corr></choice> catch flower</l>
@@ -8610,7 +8610,7 @@
         <index corresp="acs0000001-01-i042-md.xml" indexName="text"/>		
 		<body>
 			<pb n="184" facs="acs0000001-01-227"/>
-			<head rendition="#center #n  #uc">Before Parting</head>
+			<head rendition="#center #n #uc">Before Parting</head>
 				<lg>
 				<l n="1">
 					<hi rendition="#sc">A month</hi> or twain to live on honeycomb</l>
@@ -8667,7 +8667,7 @@
         <index corresp="acs0000001-01-i043-md.xml" indexName="text"/>        
         <body>
             <pb n="186" facs="acs0000001-01-229"/>
-            <head rendition="#center #n  #uc">The Sundew</head>
+            <head rendition="#center #n #uc">The Sundew</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">A little</hi> marsh-plant, yellow green,</l>
@@ -8739,7 +8739,7 @@
         <index corresp="acs0000001-01-i044-md.xml" indexName="text"/>        
         <body>
             <pb n="188" facs="acs0000001-01-231"/>
-            <head rendition="#center #n  #uc">Félise</head>
+            <head rendition="#center #n #uc">Félise</head>
             <epigraph rendition="#center #i" xml:lang="fr">
                 <l>Mais où sont les neiges d’antan?</l>
             </epigraph>
@@ -9198,7 +9198,7 @@
 		<body>
 			<pb n="199" facs="acs0000001-01-242"/>
 			
-			<head rendition="#center #n  #uc"> An Interlude</head>
+			<head rendition="#center #n #uc"> An Interlude</head>
 			<lg>
 				<l n="1"> In the greenest growth of the Maytime,</l>
 				<l n="2" rendition="#ti-1"> I rode where the woods were wet,</l>
@@ -9291,7 +9291,7 @@
         <index corresp="acs0000001-01-i046-md.xml" indexName="text"/>		
 		<body>
 			<pb n="202" facs="acs0000001-01-245"/>
-			<head rendition="#center #n  #uc">Hendecasyllabics</head>
+			<head rendition="#center #n #uc">Hendecasyllabics</head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc">In </hi>the month of the long decline of roses</l>
@@ -9340,7 +9340,7 @@
         <index corresp="acs0000001-01-i047-md.xml" indexName="text"/>		
 		<body>
 			<pb n="204" facs="acs0000001-01-247"/>
-			<head rendition="#center #n  #uc">Sapphics</head>
+			<head rendition="#center #n #uc">Sapphics</head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc">All</hi> the night sleep came not upon my eyelids,</l>
@@ -9471,7 +9471,7 @@
         <index corresp="acs0000001-01-i048-md.xml" indexName="text"/>		
 		<body>
 			<pb n="208" facs="acs0000001-01-251"/>
-			<head rendition="#center #n  #uc"> At Eleusis </head>
+			<head rendition="#center #n #uc"> At Eleusis </head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc"> Men </hi> of Eleusis, ye that with long staves</l>
@@ -9710,7 +9710,7 @@
         <index corresp="acs0000001-01-i049-md.xml" indexName="text"/>		
 		<body>
 			<pb n="215" facs="acs0000001-01-258"/>
-			<head rendition="#center #n  #uc">August</head>
+			<head rendition="#center #n #uc">August</head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc">There</hi> were four apples on the bough,</l>
@@ -9800,7 +9800,7 @@
         <index corresp="acs0000001-01-i050-md.xml" indexName="text"/>		
 		<body>
 			<pb n="218" facs="acs0000001-01-261"/>
-		    <head rendition="#center #n  #uc">A Christmas Carol<ptr type="note" target="#acs0000001-01-i050-note01"/>
+		    <head rendition="#center #n #uc">A Christmas Carol<ptr type="note" target="#acs0000001-01-i050-note01"/>
 			</head>
 			<lg>
 				<l n="1">
@@ -9909,7 +9909,7 @@
         <index corresp="acs0000001-01-i051-md.xml" indexName="text"/>		
 		<body>
 			<pb n="221" facs="acs0000001-01-264"/>
-			<head rendition="#center #n  #uc" rend="margin-bottom:1em;">The Masque of Queen Bersabe</head>
+			<head rendition="#center #n #uc" rend="margin-bottom:1em;">The Masque of Queen Bersabe</head>
 			<head rendition="#center #n #uc #x-small" rend="margin-bottom:3em;">A Miracle-Play</head>
 			<milestone unit="space"/>
 			<sp>
@@ -10021,7 +10021,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small">PRIMUS MILES </speaker>
+			    <speaker rendition="#center #x-small #uc">Primus Miles</speaker>
 				<lg>
 					<l n="59">I bid you make good cheer to be</l>
 					<l n="60">So fair a queen as all men see.</l>
@@ -12193,7 +12193,7 @@
 		<body>
 			<pb n="282" facs="acs0000001-01-325"/>
 			<head rendition="#center #uc">May Janet</head>
-			<head rendition="#center #x-small">(BRETON)</head>
+		    <head rendition="#center #x-small #uc">(Breton)</head>
 			<lg>
 				<l n="1">"Stand up, stand up, thou May Janet,</l>
 				<l n="2" rendition="#ti-1">And go to the wars with me."</l>
@@ -12262,7 +12262,7 @@
 		<body>
 			<pb n="284" facs="acs0000001-01-327"/>
 			<head rendition="#center #uc">The Bloody Son</head>
-			<head rendition="#center #x-small">(FINNISH)</head>
+		    <head rendition="#center #x-small #uc">(Finnish)</head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc">"O where </hi>have ye been the morn sae late,</l>
