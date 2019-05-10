@@ -52,6 +52,7 @@ type="compact" ?>
 	<text n="Erechtheus" type="poem">
 		<body>
 			<pb n="01r"/>
+			<fw place="top right" type="pageNum">1</fw>
 			<sp>
 				<speaker rendition="#center">Erechtheus.</speaker>
 				<lg>
@@ -75,7 +76,7 @@ type="compact" ?>
 							<add seq="5" place="above">fire on thee</add>
 						</subst>,</l>
 					<l>Me fosterling of Pallas, in her shade</l>
-					<note resp="acs" place="margin">10</note>
+					<note resp="acs" place="margin right">10</note>
 					<l>Reared, that <del>being man</del> I first might pay the nursing debt,</l>
 					<l>Hallowing her fame with flower of third-year feasts,</l>
 					<l>And first bow down <subst>
@@ -111,9 +112,9 @@ type="compact" ?>
 						</subst></l>
 					<l>That whirl the four-yoked chariot; me the king</l>
 					<l>Who stand before thee naked now, &amp; cry,</l>
-					<l>O holy &amp; general mother of all men born,</l><note resp="acs" place="margin"><del>20</del></note>
-					<l>But mother most &amp; motherliest of mine,</l><note place="margin"><del>20</del><lb/><del>20</del></note>
-					<l>Earth, for I ask thee rather of all the gods,</l><note place="margin">20</note>
+					<l>O holy &amp; general mother of all men born,</l><note resp="acs" place="margin right"><del>20</del></note>
+					<l>But mother most &amp; motherliest of mine,</l><note place="margin right"><del>20</del><lb/><del>20</del></note>
+					<l>Earth, for I ask thee rather of all the gods,</l><note place="margin right">20</note>
 					<l>What have we done? what word mistimed or work</l>
 					<l>Hath <subst>
 							<del seq="1"><unclear cert="medium">given</unclear></del>
@@ -124,12 +125,13 @@ type="compact" ?>
 					<pb n="01v"/>
 					<!-- confirm empty -->
 					<pb n="02r"/>
+					<fw place="top right" type="pageNum">2</fw>
 					<l>To fall as fire upon us? Lo, I stand</l>
 					<l>Here on this <note resp="jawalsh">Insertion caret after <emph>this</emph>.</note> <add><del><gap reason="illegible" extent="1 word" unit="chars" atLeast="5" atMost="6"/></del> brow’s</add>brow's crown<del><gap extent="1 or 2 characters" reason="illegible" unit="chars" atLeast="1" atMost="2"/></del><subst><del seq="1"><unclear cert="high">head</unclear></del><add><del>girth</del></add></subst> of the city’s <subst><del seq="1">girth</del><add seq="2"><del>height</del></add></subst> head</l>
 					<l>That crowns its lovely body, till death’s <subst><del><unclear cert="high">hand</unclear></del> <add place="inline">hour</add></subst><note resp="jawalsh">In expressing confidence in the unclear reading of the deleted <emph>hand</emph>, I note that Swinburne used the phrase “death's hand” in <title rendition="#i">Erectheus</title> l. 342 and elsewhere in his poetry. See for instance “Phaedra” l. 20; “Concord” l. 1. The two words appear in close proximity throughout his poetry.</note></l>
 					<l>Waste it; but now the dew of dawn &amp; birth</l>
 					<l>Is fresh upon it from thy womb, &amp; we</l>
-					<l>Behold <del>it how good</del> it born how beauteous; <subst><del seq="1">even this</del><add seq="2">one</add></subst> day more</l> <note resp="acs" place="margin"><del>30</del></note>
+					<l>Behold <del>it how good</del> it born how beauteous; <subst><del seq="1">even this</del><add seq="2">one</add></subst> day more</l> <note resp="acs" place="margin right"><del>30</del></note>
 					<l>I see the world’s wheel of the circling sun</l>
 					<l>Roll up rejoicing to regard on earth</l>
 					<l>This one thing goodliest, fair as heaven or he,</l>
@@ -138,62 +140,75 @@ type="compact" ?>
 					<l><subst><del>And what shall</del><add>And <gap extent="3-4 words" reason="illegible"/></add></subst> <del>here for strife to lose or win</del></l>
 					<l><del><gap extent="1 word" reason="illegible"/> death for godless geurdon</del></l>
 					<l><subst><del seq="1">Shall</del><add seq="2">Would</add></subst> this day’s ebb of their spent wave of strife</l>
-					<l>Sweep it to sea, wash it on wreck, and leave</l>
-					<l>A costless thing contemned; and in our stead,</l>
-					<l>Where these walls were and sounding streets of men,</l>
+					<l>Sweep it to sea, <subst><del seq="1"><gap extent="1-2 words" reason="illegible" unit="chars" atLeast="5" atMost="6" /> adrift</del> <add seq="2" place="above">wash it on <del seq="3">wreck</del></add></subst> wreck, &amp; leave</l>
+					<l>A costless thing contemned; &amp; in our stead,</l>
+					<l>Where these walls were &amp; sounding streets of men,</l>
 					<l>Make wide a waste for tongueless water-herds</l>
-					<l>And spoil of ravening fishes; that no more</l>
-					<l>Should men say, Here was Athens. This shalt thou</l>
+					<l>And spoil of ravening fishes; that no more</l><note resp="acs" place="margin right"><del>40</del></note>
+					<l>Should men say, Here was Athens. This shalt thou</l><note resp="acs" place="margin right">40</note>
 					<l>Sustain not, nor thy son endure to see,</l>
 					<l>Nor thou to live and look on; for the womb</l>
 					<l>Bare me not base that bare me miserable,</l>
-					<l>To hear this loud brood of the Thracian foam</l>
+					<l>To <subst><del seq="1"><unclear cert="low">us</unclear></del><add seq="2">hear</add></subst> hear this loud brood of the Thracian foam</l>
+					<!-- can I put <del> around line? -->
+					<l><subst><del>With this their</del><add place="above"><del>And <gap extent="1 word"/></del></add></subst> <subst><del><gap extent="1 word"/></del><add place="above"><del><unclear extent="1 word"/></del></add></subst> <subst><del>ungrafted on our <gap extent="1 word"/></del><add><del>natural <unclear extent="1 word"/></del></add></subst></l>
+					<!-- need to look for gap[not(@unit)] -->
+					<pb n="02v"/>
+					<!-- confirm empty -->
+					<pb n="03r"/>
+					<fw place="top right" type="pageNum">3</fw>
 					<l>Break its broad strength of billowy-beating war</l>
-					<l>Here, and upon it as a blast of death</l>
+					<l>Here, &amp; upon it <del><gap extent="1 word"/></del> as a <subst><del seq="1"><unclear cert="low">wind</unclear></del><add seq="2" place="above">blast</add></subst> of death</l>
 					<l>Blowing, the keen wrath of a fire-souled king,</l>
-					<l>A strange growth grafted on our natural soil,</l>
-					<l>A root of Thrace in Eleusinian earth</l>
-					<l>Set for no comfort to the kindly land,</l>
-					<l>Son of the sea's lord and our first-born foe,</l>
-					<l>Eumolpus; nothing sweet in ears of thine</l>
-					<l>The music of his making, nor a song</l>
+					<l>A <subst><del seq="1"><unclear cert="low">new slip</unclear></del><add seq="2" place="above">strange</add></subst> growth grafted on our natural soil,</l>
+					<l>A <subst><del seq="1"><unclear cert="low">slip</unclear></del><add seq="2" place="above">root</add></subst> of Thrace in Eleusinian earth</l>note place="margin right" resp="acs"><del>50</del></note>
+					<l>Set for no comfort to the kindly land,</l>note place="margin right" resp="acs">50</note>
+					<l>Son of the sea's lord &amp; our first-born foe,</l>
+					<l>Eumolpus; <del>no sweet music</del> nothing sweet in ears of thine</l>
+					<l>The <del>song in</del> music of his making, nor a song</l>
 					<l>Toward hopes of ours auspicious; for the note</l>
-					<l>Rings as for death oracular to thy sons</l>
-					<l>That goes before him on the sea-wind blown</l>
-					<l>Full of this charge laid on me, to put out</l>
-					<l>The brief light kindled of mine own child's life,</l>
+					<l>Rings as <del>of</del> for death oracular <del><gap extent="1 word"/><!-- that?/than?--></del> to thy sons</l>
+					<l>That goes before him <subst><del seq="1"><gap extent="2 words"/></del><add place="above" seq="2">on the</add></subst> sea-wind blown</l>
+					<l><subst><del seq="1">With</del><add seq="2" place="above">Full of</add></subst> this charge laid on me, to put out</l>
+					<l>The brief light kindled of mine own child’s life,</l>
 
-					<l>Or with this helmsman hand that steers the state</l>
-					<l>Run right on the under shoal and ridge of death</l>
+					<l>Or with <subst><del seq="1"><unclear cert="low">mine</unclear></del><add seq="2" place="above">this</add></subst> helmsman hand that steers the state</l><note place="margin right" resp="acs"><del>60</del></note>
+					<l>Run right on the <subst><del seq="1">outer strand &amp; shoal</del><add seq="2" place="above">under shoal &amp; ridge</add></subst> of death</l><note place="margin right" resp="acs">60</note>
 					<l>The populous ship with all its fraughtage gone</l>
 					<l>And sails that were to take the wind of time</l>
-					<l>Rent, and the tackling that should hold out fast</l>
+					<l>Rent, &amp; the tackling that should hold out fast</l>
 					<l>In confluent surge of loud calamities</l>
-					<l>Broken, with spars of rudders and lost oars</l>
-					<l>That were to row toward harbour and find rest</l>
+					<l>Broken, with spars of rudders &amp; lost oars</l>
+					<l>That were to row toward harbour &amp; <del><gap extent="two words"/></del> find rest</l>
 					<l>In some most glorious haven of all the world</l>
-					<l>And else may never near it: such a song</l>
-					<l>The Gods have set his lips on fire withal</l>
+					<l>And else may never near it: such a <subst><del seq="1"><gap extent="1 word"/></del><add seq="2" place="above"><del><gap extent="1 word"/></del></add><add seq="3" place="above">song</add></subst></l>
+					<l>The Gods have set his lips on fire withal</l>note place="margin right" resp="acs"><del>70</del></note>
+					<pb n="03v"/>
+					<!-- confirm empty-->
+					<pb n="04r"/>
+					<fw place="top right" type="pageNum">4</fw>
 					<l>Who threatens now in all their names to bring</l>
-					<l>Ruin; but none of these, thou knowest, have I</l>
-					<l>Chid with my tongue or cursed at heart for grief,</l>
-					<l>Knowing how the soul runs reinless on sheer death</l>
-					<l>Whose grief or joy takes part against the Gods.</l>
-					<l>And what they will is more than our desire,</l>
+					<l>Ruin; but none of <del>all them</del> these, <add place="above">thou knowest,</add> have I <del>for grief</del></l>
+					<l>><subst><del seq="1">Blasphemed</del><add seq="2" place="inline">Chid</add></subst> with my tongue or cursed at heart for grief,</l>
+					<l>Knowing how the soul <subst><del seq="1"><gap extent="5 words"/></del><add seq="2" place="above"><del><unclear cert="low">by days of this</unclear> <gap extent="1 word"/></del></add><add place="below">runs reinless on sheer death</add></subst></l>
+					<l><del>runs reinless &amp; <subst><del>on</del><add place="above"><del>to</del></add></subst> ruin</del></l>
+					<l><subst><del seq="1">That glad or sad</del><add seq="2" place="above">Whose grief or joy</add></subst> takes part against the Gods.</l>
+					<l>And what they will is more than <subst><del seq="1"><unclear cert="high">we</del><add seq="2" place="above">our</add></subst> desire,</l>
 					<l>And their desire is more than what we will.</l>
-					<l>For no man's will and no desire of man's</l>
-					<l>Shall stand as doth a God's will. Yet, O fair</l>
-					<l>Mother, that seest me how I cast no word</l>
-					<l>Against them, plead no reason, crave no cause,</l>
+					<l>For no man's will &amp; no desire of man’s</l>
+					<l>Shall stand as doth a God’s will. Yet, O fair</l>
+					<l>Mother, that seest me how I cast no word</l><note place="margin right" resp="acs"><del>80</del></note>
+					<l>Against them, plead no reason,<add place="above"><del><gap extent="3 words"/></del></add> crave no cause,</l><note place="margin right" resp="acs">80</note>
+					<!-- paused. -->
 					<l>Boast me not blameless, nor beweep me wronged,</l>
 					<l>By this fair wreath of towers we have decked thee with,</l>
 					<l>This chaplet that we give thee woven of walls,</l>
-					<l>This girdle of gate and temple and citadel</l>
-					<l>Drawn round beneath thy bosom, and fast linked</l>
+					<l>This girdle of gate &amp; temple &amp; citadel</l>
+					<l>Drawn round beneath thy bosom, &amp; fast linked</l>
 					<l>As to thine heart's root—this dear crown of thine,</l>
 					<l>This present light, this city—be not thou</l>
 					<l>Slow to take heed nor slack to strengthen her,</l>
-					<l>Fare we so short-lived howsoe'er, and pay</l>
+					<l>Fare we so short-lived howsoe'er, &amp; pay</l>
 					<l>What price we may to ransom thee thy town,</l>
 					<l>Not me my life; but thou that diest not, thou,</l>
 
@@ -208,24 +223,24 @@ type="compact" ?>
 				<sp>
 					<speaker rendition="#center #small">CHORUS.</speaker>
 					<lg>
-						<l>Sun, that hast lightened and loosed by thy might</l>
-						<l>Ocean and Earth from the lordship of night,</l>
+						<l>Sun, that hast lightened &amp; loosed by thy might</l>
+						<l>Ocean &amp; Earth from the lordship of night,</l>
 						<l>Quickening with vision his eye that was veiled,</l>
 						<l>Freshening the force in her heart that had failed,</l>
-						<l>That sister fettered and blinded brother</l>
-						<l>Should have sight by thy grace and delight of each other,</l>
-						<l rendition="#ti-2">Behold now and see</l>
+						<l>That sister fettered &amp; blinded brother</l>
+						<l>Should have sight by thy grace &amp; delight of each other,</l>
+						<l rendition="#ti-2">Behold now &amp; see</l>
 						<l rendition="#ti-1">What profit is given them of thee;</l>
 						<l>What wrath has enkindled with madness of mind</l>
 						<l>Her limbs that were bounden, his face that was blind,</l>
-						<l>To be locked as in wrestle together, and lighten</l>
+						<l>To be locked as in wrestle together, &amp; lighten</l>
 						<l>With fire that shall darken thy fire in the sky,</l>
-						<l>Body to body and eye against eye</l>
+						<l>Body to body &amp; eye against eye</l>
 						<l rendition="#ti-2">In a war against kind,</l>
-						<l>Till the bloom of her fields and her high hills whiten</l>
+						<l>Till the bloom of her fields &amp; her high hills whiten</l>
 						<l rendition="#ti-1">With the foam of his waves more high.</l>
 						<l>For the sea-marks set to divide of old</l>
-						<l>The kingdoms to Ocean and Earth assigned,</l>
+						<l>The kingdoms to Ocean &amp; Earth assigned,</l>
 						<l>The hoar sea-fields from the cornfields' gold,</l>
 						<l>His wine-bright waves from her vineyards' fold,</l>
 						<l rendition="#ti-2">Frail forces we find</l>
@@ -236,31 +251,31 @@ type="compact" ?>
 						<l>Who stirs up the storm of his sons overbold</l>
 						<l>To pluck from fight what he lost of right,</l>
 
-						<l>By council and judgment of Gods that spake</l>
+						<l>By council &amp; judgment of Gods that spake</l>
 						<l>And gave great Pallas the strife's fair stake,</l>
-						<l>The lordship and love of the lovely land,</l>
+						<l>The lordship &amp; love of the lovely land,</l>
 						<l>The grace of the town that hath on it for crown</l>
 						<l rendition="#ti-2">But a headband to wear</l>
 						<l rendition="#ti-1">Of violets one-hued with her hair:</l>
-						<l>For the vales and the green high places of earth</l>
+						<l>For the vales &amp; the green high places of earth</l>
 						<l rendition="#ti-2">Hold nothing so fair,</l>
 						<l>And the depths of the sea bear no such birth</l>
 						<l rendition="#ti-1">Of the manifold births they bear.</l>
 						<l>Too well, too well was the great stake worth</l>
 						<l>A strife divine for the Gods to judge,</l>
 						<l>A crowned God's triumph, a foiled God's grudge,</l>
-						<l>Though the loser be strong and the victress wise</l>
+						<l>Though the loser be strong &amp; the victress wise</l>
 						<l>Who played long since for so large a prize,</l>
 						<l>The fruitful immortal anointed adored</l>
 						<l>Dear city of men without master or lord,</l>
-						<l>Fair fortress and fostress of sons born free,</l>
-						<l>Who stand in her sight and in thine, O sun,</l>
+						<l>Fair fortress &amp; fostress of sons born free,</l>
+						<l>Who stand in her sight &amp; in thine, O sun,</l>
 						<l>Slaves of no man, subjects of none;</l>
-						<l>A wonder enthroned on the hills and sea,</l>
+						<l>A wonder enthroned on the hills &amp; sea,</l>
 						<l>A maiden crowned with a fourfold glory</l>
 						<l>That none from the pride of her head may rend,</l>
-						<l>Violet and olive-leaf purple and hoary,</l>
-						<l>Song-wreath and story the fairest of fame,</l>
+						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
+						<l>Song-wreath &amp; story the fairest of fame,</l>
 						<l>Flowers that the winter can blast not or bend;</l>
 						<l>A light upon earth as the sun's own flame,</l>
 						<l rendition="#ti-2">A name as his name,</l>
@@ -278,13 +293,13 @@ type="compact" ?>
 						<l>Strange hunters are hard on us, hearts without pity;</l>
 						<l>They have staked their nets round the fair young city,</l>
 
-						<l rendition="#ti-1">That the sons of her strength and her virgin
+						<l rendition="#ti-1">That the sons of her strength &amp; her virgin
 							daughters</l>
 						<l rendition="#ti-2">Should find not whither alive to flee.</l>
 						<l rendition="#ti-1">And we know not yet of the word unwritten, <label
 								rendition="#n">[<hi rendition="#i">Ant.</hi> 1.</label></l>
 						<l rendition="#ti-2">The doom of the Pythian we have not heard;</l>
-						<l rendition="#ti-1">From the navel of earth and the veiled mid altar</l>
+						<l rendition="#ti-1">From the navel of earth &amp; the veiled mid altar</l>
 						<l rendition="#ti-1">We wait for a token with hopes that falter,</l>
 						<l rendition="#ti-1">With fears that hang on our hearts thought-smitten</l>
 						<l rendition="#ti-2">Lest her tongue be kindled with no good word.</l>
@@ -309,18 +324,18 @@ type="compact" ?>
 						<l rendition="#ti-2">O earth, O sun, turn back <label rendition="#n">[<hi
 									rendition="#i">Str.</hi> 3</label></l>
 						<l rendition="#ti-2">Full on his deadly track</l>
-						<l>Death, that would smite you black and mar your creatures,</l>
+						<l>Death, that would smite you black &amp; mar your creatures,</l>
 						<l rendition="#ti-2">And with one hand disroot</l>
-						<l rendition="#ti-2">All tender flower and fruit,</l>
-						<l>With one strike blind and mute the heaven's fair features,</l>
+						<l rendition="#ti-2">All tender flower &amp; fruit,</l>
+						<l>With one strike blind &amp; mute the heaven's fair features,</l>
 
-						<l rendition="#ti-2">Pluck out the eyes of morn, and make</l>
-						<l>Silence in the east and blackness whence the bright songs break.</l>
+						<l rendition="#ti-2">Pluck out the eyes of morn, &amp; make</l>
+						<l>Silence in the east &amp; blackness whence the bright songs break.</l>
 						<l rendition="#ti-2">Help, earth, help, heaven, that hear <label
 								rendition="#n">[<hi rendition="#i">Ant.</hi> 3</label></l>
 						<l rendition="#ti-2">The song-notes of our fear,</l>
-						<l>Shrewd notes and shrill, not clear or joyful-sounding;</l>
-						<l rendition="#ti-2">Hear, highest of Gods, and stay</l>
+						<l>Shrewd notes &amp; shrill, not clear or joyful-sounding;</l>
+						<l rendition="#ti-2">Hear, highest of Gods, &amp; stay</l>
 						<l rendition="#ti-2">Death on his hunter's way,</l>
 						<l>Full on his forceless prey his beagles hounding;</l>
 						<l rendition="#ti-2">Break thou his bow, make short his hand,</l>
