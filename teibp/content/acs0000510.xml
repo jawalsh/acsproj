@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="swinburne.rnc"
+<?oxygen RNGSchema="../../data/swinburne.rnc"
 type="compact" ?>
+<?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
 	<teiHeader>
 		<fileDesc>
@@ -14,7 +15,7 @@ type="compact" ?>
 				</editor>
 			</titleStmt>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-				href="includes/publicationStmt.xml"/>
+				href="../../data/includes/publicationStmt.xml"/>
 			<seriesStmt>
 				<title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
 					Swinburne</title>
@@ -39,7 +40,7 @@ type="compact" ?>
 					<p xml:id="quotation_format">single</p>
 				</quotation>
 			</editorialDecl>
-			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../data/includes/tagsDecl.xml"/>
 		</encodingDesc>
 		<revisionDesc>
 			<change when="2008-10-12">Updated XInclude links to reflect to ID scheme.</change>
