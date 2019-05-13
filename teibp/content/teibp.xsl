@@ -22,7 +22,7 @@
 	</xd:doc>
 	<xsl:include href="xml-to-string.xsl"/>
 
-	<xsl:output encoding="UTF-8" method="xml" omit-xml-declaration="yes"/>
+	<xsl:output encoding="UTF-8" method="xml" omit-xml-declaration="no"/>
 	
 	<xsl:param name="teibpHome" select="'http://dcl.slis.indiana.edu/teibp/'"/>
 	<xsl:param name="inlineCSS" select="true()"/>
@@ -74,7 +74,7 @@
 					<xsl:apply-templates/>
 				</div>
 				<xsl:copy-of select="$htmlFooter"/>
-				<script type="text/javascript" src="{$teibpJS}"></script>
+				<script type="text/javascript" src="{$teibpJS}"><xsl:comment>Gimme some comment!</xsl:comment></script>
 			</body>
 		</html>
 	</xsl:template>
@@ -110,11 +110,19 @@
 			<xd:p>A hack because JavaScript was doing weird things with &lt;title>, probably due to confusion with HTML title. There is no TEI namespace in the TEI Boilerplate output because JavaScript, or at least JQuery, cannot manipulate the TEI elements/attributes if they are in the TEI namespace, so the TEI namespace is stripped from the output. As far as I know, &lt;title> elsewhere does not cause any problems, but we may need to extend this to other occurrences of &lt;title> outside the Header.</xd:p>
 		</xd:desc>
 	</xd:doc>
-	<xsl:template match="tei:teiHeader//tei:title">
+	<xsl:template match="tei:teiHeader//tei:title|tei:title">
 		<tei-title>
 			<xsl:call-template name="addID"/>
 			<xsl:apply-templates select="@*|node()"/>
 		</tei-title>
+	</xsl:template>
+	
+	<xsl:template match="tei:pb">
+		<pb>
+			<xsl:call-template name="addID"/>
+			<xsl:apply-templates select="@*|node()"/>
+			<xsl:comment>Gimme some comment!</xsl:comment>
+		</pb>
 	</xsl:template>
 
 	<xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
@@ -300,13 +308,13 @@
 		<head>
 			<meta charset="UTF-8"/>
 
-			<script src="{$lessJS}"></script>
+			<script src="{$lessJS}"><xsl:comment>Gimme some comment!</xsl:comment></script>
 			<link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
 			<link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
 
 			<xsl:call-template name="tagUsage2style"/>
 			<xsl:call-template name="rendition2style"/>
-			<title><!-- don't leave empty. --></title>
+			<title><xsl:comment>Gimme some comment!</xsl:comment></title>
 			<xsl:if test="$includeAnalytics = true()">
 				<xsl:call-template name="analytics"/>
 			</xsl:if>
