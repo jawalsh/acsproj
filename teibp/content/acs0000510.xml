@@ -208,24 +208,31 @@ type="compact" ?>
 					<l>This chaplet that we give thee woven of walls,</l>
 					<l>This girdle of gate &amp; temple &amp; citadel</l>
 					<l>Drawn round beneath thy bosom, &amp; fast linked</l>
-					<!-- paused. -->
-					<l>As to thine heart’s root—this dear crown of thine,</l>
+					<l><subst><del seq="1">With glittering <unclear cert="medium">portals</unclear><!-- carot underneath portals --></del><add seq="2" place="above"><subst><del seq="1"><gap extent="2 words" unit="chars" atLeast="8"/></del><add seq="2" place="above">As to</add></subst> thine heart’s root</add></subst>—this dear crown of thine,</l>
 					<l>This present light, this city—be not thou</l>
 					<l>Slow to take heed nor slack to strengthen her,</l>
-					<l>Fare we so short-lived howsoe'er, &amp; pay</l>
-					<l>What price we may to ransom thee thy town,</l>
-					<l>Not me my life; but thou that diest not, thou,</l>
+					<l>Fare we <del>howsoe’er</del> <subst><del seq="1"><unclear cert="low">she</unclear></del><add place="above" seq="2">so</add></subst> short-lived howsoe'er, &amp; pay</l><note resp="acs" place="margin right"><del>90</del></note>
+					<l>What price we may to ransom thee thy town,</l><note resp="acs" place="margin right">20</note>
+					<l>Not me <del><unclear cert="low">thy</unclear></del> my life; but thou that diest not, thou,</l>
 
-					<l>Though all our house die for this people’s sake,</l>
+					<l>Though all our <del><gap extent="1 word" unit="chars" atLeast="3"/></del> house die for this people’s sake,</l>
+					<l><del>Make <subst><del seq="1">this <gap extent="1 word" unit="chars" atLeast="3"/><del><add place="above" ="2"><del><gap extent="2 words" unit="chars" atLeast="6"/><!-- life hers / like hers --></del></add></subst> lovelier for us all that <unclear>died</died>.</del></l>
+					<l><subst><del seq="1">Make</del><add place="above" seq="2"><del><gap extent="1 word" unit="chars" atLeast="4"/></del></add></subst> <del><gap extent="1 word" unit="chars" atLeast="5"/> <unclear cert="high">live the lovelier that we died.</unclear></del></l>
+					<pb n="04v"/>
+					<note resp="jawalsh">Text on this page is written upside down toward bottom of page.</note>
+					<l><del>A slip of Thrace in Eleusinian earth</del></l>
+					<l><del>Set</del> <subst><del seq="1"><gap extent="3 words"/> kindly</del><add seq="2" place="above"><del>for no comfort</del></add></subst> <del>to the kindly land</del></l>
+					<pb n="05r" />
+					
 					<l>Keep thou for ours thy crown our city, guard</l>
 					<l>And give it life the lovelier that we died.</l>
 				</lg>
 			</sp>
-
 			<div xml:id="ff9823" type="parode"
 				n="[Parode: Sun, that has lightened and loosed  by thy might...]">
 				<sp>
-					<speaker rendition="#center #small">CHORUS.</speaker>
+					<speaker rendition="#center">Chorus.</speaker>
+					<!-- paused. -->
 					<lg>
 						<l>Sun, that hast lightened &amp; loosed by thy might</l>
 						<l>Ocean &amp; Earth from the lordship of night,</l>
