@@ -236,7 +236,7 @@ type="compact" ?>
 					<pb n="02v"/>
 					<!-- confirm empty -->
 					<pb n="03r"/>
-					<fw place="top right" type="pageNum">3</fw>
+					z
 					<l>Break its broad strength of billowy-beating war</l>
 					<l>Here, &amp; upon it <del><gap extent="1 word"/></del> as a <subst>
 							<del seq="1"><unclear cert="low">wind</unclear></del>
@@ -397,6 +397,8 @@ type="compact" ?>
 						</subst>
 						<del>to the kindly land</del></l>
 					<pb n="05r"/>
+					<fw place="top right" type="pageNum">5</fw>
+					<fw place="top right" type="pageNum" hand="#unknown">5</fw>
 					<l>Keep thou for ours thy crown our city, guard</l>
 					<l>And give it life the lovelier that we died.</l>
 				</lg>
@@ -457,22 +459,24 @@ type="compact" ?>
 							</subst><!-- revisit sequence, etc. of what's going on in this line. --></l>
 						<!-- paused. -->
 						<l>That sister fettered &amp; blinded brother</l>
-						<l>Should have sight by thy grace &amp; delight of each other,</l>
+						<l>Should have sight by thy grace &amp; delight of each other,</l><note place="margin right">100</note>
 						<l rendition="#ti-2">Behold now &amp; see</l>
 						<l rendition="#ti-1">What profit is given them of thee;</l>
 						<l>What wrath has enkindled with madness of mind</l>
-						<l>Her limbs that were bounden, his face that was blind,</l>
-						<l>To be locked as in wrestle together, &amp; lighten</l>
+						<l>Her limbs that were bounden, his <subst><del seq="1">eyes</del><add seq="2" place="above">face</add></subst> that <subst><del seq="2">were</del><add seq="2" place="above">was</add></subst> blind,</l>
+						<l>To be locked <subst><del seq="1">&amp; to lighten <gap extent="1 word" unit="chars" atLeast="2"/></del><add seq="2" place="above">as in wrestle</add></subst> together<!-- faded/erased-->, &amp; lighten</l>
 						<l>With fire that shall darken thy fire in the sky,</l>
 						<l>Body to body &amp; eye against eye</l>
 						<l rendition="#ti-2">In a war against kind,</l>
-						<l>Till the bloom of her fields &amp; her high hills whiten</l>
-						<l rendition="#ti-1">With the foam of his waves more high.</l>
-						<l>For the sea-marks set to divide of old</l>
+						<!-- paused. -->
+						<l>Till the <subst><del seq="1">heights of her <gap extent="1 word" unit="chars" atLeast="3"/></del><add seq="2" place="above">bloom of her fields</add></subst> &amp; her high hills whiten</l>
+						<l rendition="#ti-1">With the foam of his waves more high.</l><note place="margin right">110</note>
+						<l>For the sea-marks set to divide <add place="above"><del><gap extent="1 word" unit="chars" atLeast="7"/> to <gap extent="1 word" unit="chars" atLeast="4"/> </del> of old</l>
 						<l>The kingdoms to Ocean &amp; Earth assigned,</l>
-						<l>The hoar sea-fields from the cornfields' gold,</l>
-						<l>His wine-bright waves from her vineyards' fold,</l>
-						<l rendition="#ti-2">Frail forces we find</l>
+						<l>The hoar sea-fields from the cornfields’ gold,</l>
+						<l>His winebright waves from her vineyards’ fold,</l>
+						<l rendition="#ti-2"><subts><del seq="1"><unclear cert="low">What boundaries</unclear></del><add seq="2" place="above">Frail forces</add></subst> we find</l>
+						<!-- paused. -->
 						<l>To bridle the spirit of Gods or bind</l>
 						<l rendition="#ti-1">Till the heat of their hearts wax cold.</l>
 						<l>But the peace that was stablished between them to stand</l>
