@@ -565,14 +565,20 @@ type="compact" ?>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
 						<l>Song-wreath &amp; story the fairest of fame,</l>
 						<l>Flowers that the winter can blast not or bend;</l><note place="right margin" resp="acs">&lt;</note>
-						<l>Who stand in her sight &amp; in thine, O sun,</l>
+						<pb n="07r"/>
+						<l>Who stand in her sight &amp; in thine, O sun,</l><note resp="acs" place="margin right">140</note> 
 						<l>Slaves of no man, subjects of none;</l>
 						<l>A wonder enthroned on the hills &amp; sea,</l>
 						<l>A maiden crowned with a fourfold glory</l>
-						<l>That none from the pride of her head may rend,</l>
-						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
-						<l>Song-wreath &amp; story the fairest of fame,</l>
+						<addSpan spanTo="#endSpan01"/>
+						<delSpan spanTo="#endSpan01"/>
 						<l>Flowers that the winter can blast not or bend;</l>
+						<note resp="acs"><gap extent="1 character" unit="chars" atLeast="1" atMost="1"/>3 <!-- deleted char before 3. --></note>
+						<l>Song-wreath &amp; story,<lb/> the fairest of fame,</l>
+						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
+						<l xml:id="endSpan01">That none from <subst><del seq="1">her</del> <add seq="2" place="inline">the</add></subst><lb/> pride of her head may rend,</l>
+						<!-- paused. -->
+						
 						<l>A light upon earth as the sun’s own flame,</l>
 						<l rendition="#ti-2">A name as his name,</l>
 						<l rendition="#ti-1">Athens, a praise without end.</l>
