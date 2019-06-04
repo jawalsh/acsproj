@@ -494,7 +494,6 @@ type="compact" ?>
 								<del seq="1"><unclear cert="low">What boundaries</unclear></del>
 								<add seq="2" place="above">Frail forces</add>
 							</subst> we find</l>
-						<!-- paused. -->
 						<l><subst>
 								<del seq="1">To bridle their <subst>
 										<del seq="1"><gap extent="1 word" unit="chars" atLeast="5"
@@ -543,7 +542,6 @@ type="compact" ?>
 							</subst></l>
 						<l>The lordship &amp; love of the lovely land,</l>
 						<l>The <subst><del seq="1"><gap extent="1 word" unit="chars" atLeast="5"/></del><add place="above" seq="2">grace</add></subst> of the town that <subst><del seq="1">hath <gap extent="1 word" unit="chars" atLeast="5"/> for</del><add place="below" seq="2">hath on it for</add></subst> crown</l>
-						<!-- paused. -->
 						<l rendition="#ti-2"><del>A <gap extent="1 word" unit="chars" atLeast="4"/> Violets that spring</del> <del>A</del> But a headband to wear</l>
 						<l rendition="#ti-1">Of violets one-hued with her hair:</l>
 						<l>For the vales &amp; the green high places of earth</l>
@@ -559,12 +557,14 @@ type="compact" ?>
 						<l>Dear city of men without master or lord,</l>
 						<l>Fair fortress &amp; fostress of sons born free,</l>
 						<pb n="06v"/>
-						<note resp="jawalsh">Four lines, preceded by a mark resembling a closing angle bracket, appear on this page. There is a matching mark on 7 recto indicating that these four lines should be inserted at the point of the mark. The lines appear thus in the the published text.</note>
+						<note resp="jawalsh">Four lines, preceded by a mark resembling a closing angle bracket, appear on this page. There is a matching mark on 7 recto indicating that these four lines should be inserted at the point of the mark. The lines are transcribed below <emph>and</emph> again on 7 recto S.’s notes indicated they should appear and where they appear in the published text.</note>
 						<note resp="acs" place="left margin">></note>
 						<l>That none from the pride of her head may rend,</l>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
 						<l>Song-wreath &amp; story the fairest of fame,</l>
-						<l>Flowers that the winter can blast not or bend;</l><note place="right margin" resp="acs">&lt;</note>
+						<l>Flowers that the winter can blast not or bend;</l>
+						<l>A light upon earth as the sun’s own flame,</l>
+						<note place="right margin" resp="acs">&lt;</note>
 						<pb n="07r"/>
 						<l>Who stand in her sight &amp; in thine, O sun,</l><note resp="acs" place="margin right">140</note> 
 						<l>Slaves of no man, subjects of none;</l>
@@ -577,11 +577,15 @@ type="compact" ?>
 						<l>Song-wreath &amp; story,<lb/> the fairest of fame,</l>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
 						<l xml:id="endSpan01">That none from <subst><del seq="1">her</del> <add seq="2" place="inline">the</add></subst><lb/> pride of her head may rend,</l>
-						<!-- paused. -->
-						
+						<note resp="acs" place="left margin">></note>
+						<l>That none from the pride of her head may rend,</l>
+						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
+						<l>Song-wreath &amp; story the fairest of fame,</l>
+						<l>Flowers that the winter can blast not or bend;</l>
+						<l><del><gap extent="1 word" unit="chars" atLeast="4"/> &amp; <gap extent="1 word" unit="chars" atLeast="5" /> song-<subst><del seq="1">wreath</del><add seq="2" place="above">flower</add></subst> &amp; story,<add place="below"><del><unclear cert="low">in</unclear> <gap extent="1 word" unit="chars" atLeast="6" /> <unclear cert="low">in thy</unclear></del></add></del></l> 
 						<l>A light upon earth as the sun’s own flame,</l>
-						<l rendition="#ti-2">A name as his name,</l>
-						<l rendition="#ti-1">Athens, a praise without end.</l>
+						<l rendition="#ti-2">A name as his<add place="above"><del>thy</del></add> name,</l><note resp="acs" place="margin right"><del>150</del></note> 
+						<l rendition="#ti-1">Athens, a praise without end.</l><note resp="acs" place="margin right">150<note resp="jawalsh">To the right of the 150 line number are two columns of deleted numbers that appear to be S’s calculations of the current line number.</note></note>
 					</lg>
 				</sp>
 			</div>
@@ -589,17 +593,14 @@ type="compact" ?>
 				n="[Stasimon 1: A noise is arisen against us       of waters...]">
 				<sp>
 					<lg>
-						<l>A noise is arisen against us of waters, <label rendition="#n">[<hi
-									rendition="#i">Str.</hi> 1</label></l>
+						<l>A noise is arisen against us of waters,</l> <note resp="acs" place="margin right">str. 1.</note> 
 						<l rendition="#ti-1">A sound as of battle come up from the sea.</l>
 						<l>Strange hunters are hard on us, hearts without pity;</l>
 						<l>They have staked their nets round the fair young city,</l>
-
 						<l rendition="#ti-1">That the sons of her strength &amp; her virgin
 							daughters</l>
 						<l rendition="#ti-2">Should find not whither alive to flee.</l>
-						<l rendition="#ti-1">And we know not yet of the word unwritten, <label
-								rendition="#n">[<hi rendition="#i">Ant.</hi> 1.</label></l>
+						<l rendition="#ti-1">And we know not yet of the word unwritten, <note resp="acs">ant. 1.</note></l><!-- paused. -->
 						<l rendition="#ti-2">The doom of the Pythian we have not heard;</l>
 						<l rendition="#ti-1">From the navel of earth &amp; the veiled mid altar</l>
 						<l rendition="#ti-1">We wait for a token with hopes that falter,</l>
