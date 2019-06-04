@@ -175,7 +175,7 @@ type="compact" ?>
 					<l>I see the world’s wheel of the circling sun</l>
 					<l>Roll up rejoicing to regard on earth</l>
 					<l>This one thing goodliest, fair as heaven or he,</l>
-					<l>Worth a God’s gaze <del>to</del> or <subst>
+					<l>Worth a god’s gaze <del>to</del> or <subst>
 							<del seq="1"><unclear cert="medium">guerdon</unclear>;</del>
 							<add seq="2" place="above">strife of gods;</add>
 						</subst> but <subst>
@@ -326,7 +326,7 @@ type="compact" ?>
 						</subst> desire,</l>
 					<l>And their desire is more than what we will.</l>
 					<l>For no man’s will &amp; no desire of man’s</l>
-					<l>Shall stand as doth a God’s will. Yet, O fair</l>
+					<l>Shall stand as doth a god’s will. Yet, O fair</l>
 					<l>Mother, that seest me how I cast no word</l>
 					<note place="margin right" resp="acs"><del>80</del></note>
 					<l>Against them, plead no reason,<add place="above"><del><gap extent="3 words"
@@ -582,7 +582,7 @@ type="compact" ?>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
 						<l>Song-wreath &amp; story the fairest of fame,</l>
 						<l>Flowers that the winter can blast not or bend;</l>
-						<l><del><gap extent="1 word" unit="chars" atLeast="4"/> &amp; <gap extent="1 word" unit="chars" atLeast="5" /> song-<subst><del seq="1">wreath</del><add seq="2" place="above">flower</add></subst> &amp; story,<add place="below"><del><unclear cert="low">in</unclear> <gap extent="1 word" unit="chars" atLeast="6" /> <unclear cert="low">in thy</unclear></del></add></del></l> 
+						<l><del><unclear cert="medium">Olive</unclear> &amp; <unclear cert="medium">violet</unclear> &amp; song-<subst><del seq="1">wreath</del><add seq="2" place="above">flower</add></subst> &amp; story,<add place="below"><del><unclear cert="low">in</unclear> <gap extent="1 word" unit="chars" atLeast="6" /> <unclear cert="low">in thy</unclear></del></add></del></l> 
 						<l>A light upon earth as the sun’s own flame,</l>
 						<l rendition="#ti-2">A name as his<add place="above"><del>thy</del></add> name,</l><note resp="acs" place="margin right"><del>150</del></note> 
 						<l rendition="#ti-1">Athens, a praise without end.</l><note resp="acs" place="margin right">150<note resp="jawalsh">To the right of the 150 line number are two columns of deleted numbers that appear to be S’s calculations of the current line number.</note></note>
@@ -592,8 +592,9 @@ type="compact" ?>
 			<div xml:id="ff7761" type="stasimon"
 				n="[Stasimon 1: A noise is arisen against us       of waters...]">
 				<sp>
+				<!-- From this point on, started putting line number and strophe/antestrophe notes inside line tags. -->
 					<lg>
-						<l>A noise is arisen against us of waters,</l> <note resp="acs" place="margin right">str. 1.</note> 
+						<l>A noise is arisen against us of waters, <note resp="acs" place="margin right">str. 1.</note></l>  
 						<l rendition="#ti-1">A sound as of battle come up from the sea.</l>
 						<l>Strange hunters are hard on us, hearts without pity;</l>
 						<l>They have staked their nets round the fair young city,</l>
@@ -601,24 +602,24 @@ type="compact" ?>
 							daughters</l>
 						<l rendition="#ti-2">Should find not whither alive to flee.</l>
 						<l rendition="#ti-1">And we know not yet of the word unwritten, <note resp="acs">ant. 1.</note></l><!-- paused. -->
-						<l rendition="#ti-2">The doom of the Pythian we have not heard;</l>
+						<l rendition="#ti-2">The <subst><del seq ="1"><!-- not clear if this is deleted-->doom</del><add place="above" seq="2"><!-- not clear if this is NOT deleted --><del seq="3"><gap extent="1 word" unit="chars" atLeast="5" /><!-- dirge?--></del></add></subst>of the <subst><del seq="1"><gap extent="1 word" unit="chars" atLeast="6" /></del><add place="above" seq="2">Pythian</add></subst> we have not heard;</l>
 						<l rendition="#ti-1">From the navel of earth &amp; the veiled mid altar</l>
-						<l rendition="#ti-1">We wait for a token with hopes that falter,</l>
+						<l rendition="#ti-1">We wait for a token with hopes that falter, <note resp="acs" place="margin right">160</note></l>
 						<l rendition="#ti-1">With fears that hang on our hearts thought-smitten</l>
 						<l rendition="#ti-2">Lest her tongue be kindled with no good word.</l>
-						<l rendition="#ti-1">O thou not born of the womb, nor bred <label
-								rendition="#n">[<hi rendition="#i">Str.</hi> 2</label></l>
-						<l rendition="#ti-1">In the bride-night’s warmth of a changed God’s bed,</l>
-						<l>But thy life as a lightning was flashed from the light of thy father’s
-							head,</l>
-						<l rendition="#ti-1">O chief God’s child by a motherless birth,</l>
+						<l rendition="#ti-1">O thou not born of the womb, nor bred <note resp="acs">str. 2.</note></l>
+						<l rendition="#ti-1">In the bride-night’s warmth of a changed god’s bed,</l>
+						<l>But thy life as a lightning was flashed from the light of thy father’s head,</l>
+						<l rendition="#ti-1">O chief god’s child by a motherless birth,</l>
 						<l rendition="#ti-1">If aught in thy sight we indeed be worth,</l>
-						<l>Keep death from us thou, that art none of the Gods of the dead under
+						<l>Keep death from us thou, that art none of the gods of the dead under
 							earth.</l>
-						<l rendition="#ti-1">Thou that hast power on us, save, if thou wilt; <label
-								rendition="#n">[<hi rendition="#i">Ant.</hi> 2</label></l>
-						<l rendition="#ti-1">Let the blind wave breach not thy wall scarce
-							built;</l>
+						<pb n="07v"/>
+						<pb n="08r"/>
+						<fw place="top right">8 <del>10</del></fw>
+						<fw place="top right">8</fw>
+						<l rendition="#ti-1">Thou that hast power on us, save, if thou wilt; <note resp="acs">ant. 2.</note></l>
+						<l rendition="#ti-1">Let the blind wave breach not thy wall scarce built; <note resp="acs" place="margin right">170</note></l><!-- paused. -->
 						<l>But bless us not so as by bloodshed, impute not for grace to us
 							guilt,</l>
 						<l rendition="#ti-1">Nor by price of pollution of blood set us free;</l>
@@ -661,7 +662,7 @@ type="compact" ?>
 						<l rendition="#ti-2">Her green soft virginal shoot</l>
 						<l rendition="#ti-3">Was plucked from the stream-side cover</l>
 						<l rendition="#ti-4">By the grasp of a love like death.</l>
-						<l rendition="#ti-1">For a God’s was the mouth that kissed her <label
+						<l rendition="#ti-1">For a god’s was the mouth that kissed her <label
 								rendition="#n">[<hi rendition="#i">Str.</hi> 5</label></l>
 						<l rendition="#ti-2">Who speaks, and the leaves lie dead,</l>
 						<l rendition="#ti-3">When winter awakes as at warning</l>
@@ -768,7 +769,7 @@ type="compact" ?>
 					<speaker rendition="#center #small">ERECHTHEUS</speaker>
 					<lg>
 						<l>O sun that seest, what saying was this of thine,</l>
-						<l>God, that thy power has breathed into my lips?</l>
+						<l>god, that thy power has breathed into my lips?</l>
 						<l>For from no sunlit shrine darkling it came.</l>
 					</lg>
 				</sp>
@@ -932,7 +933,7 @@ type="compact" ?>
 						<l>O woman, thou hast shamed my heart with thine,</l>
 						<l>To show so strong a patience; take then all;</l>
 						<l>For all shall break not nor bring down thy soul.</l>
-						<l>The word that journeying to the bright God’s shrine</l>
+						<l>The word that journeying to the bright god’s shrine</l>
 						<l>Who speaks askance and darkling, but his name</l>
 						<l>Hath in it slaying and ruin broad writ out,</l>
 						<l>I heard, hear thou: thus saith he; There shall die</l>
@@ -1040,13 +1041,13 @@ type="compact" ?>
 				<sp>
 					<speaker rendition="#center #small">CHTHONIA</speaker>
 					<lg>
-						<l>That sight some God keep from me though I die.</l>
+						<l>That sight some god keep from me though I die.</l>
 					</lg>
 				</sp>
 				<sp>
 					<speaker rendition="#center #small">PRAXITHEA</speaker>
 					<lg>
-						<l>A God from thee shall keep it; fear not this.</l>
+						<l>A god from thee shall keep it; fear not this.</l>
 					</lg>
 				</sp>
 				<sp>
@@ -1161,7 +1162,7 @@ type="compact" ?>
 						<l>Queen of these towers and fostress of their king,</l>
 						<l>Pallas, and thou my father’s holiest head,</l>
 						<l>A living well of life nor stanched nor stained,</l>
-						<l>O God Cephisus, thee too charge I next,</l>
+						<l>O god Cephisus, thee too charge I next,</l>
 						<l>Be to me judge and witness; nor thine ear</l>
 						<l>Shall now my tongue invoke not, thou to me</l>
 						<l>Most hateful of things holy, mournfullest</l>
@@ -1169,7 +1170,7 @@ type="compact" ?>
 						<l>Ilissus, on whose marge at flowery play</l>
 						<l>A whirlwind-footed bridegroom found my child</l>
 						<l>And rapt her northward where mine elder-born</l>
-						<l>Keeps now the Thracian bride-bed of a God</l>
+						<l>Keeps now the Thracian bride-bed of a god</l>
 						<l>Intolerable to seamen, but this land</l>
 						<l>Finds him in hope for her sake favourable,</l>
 						<l>A gracious son by wedlock; hear me then</l>
@@ -1179,7 +1180,7 @@ type="compact" ?>
 						<l>Or speak and die not. Ere thy limbs were made</l>
 
 						<l>Or thine eyes lightened, strife, thou knowest, my child,</l>
-						<l>’Twixt God and God had risen, which heavenlier name</l>
+						<l>’Twixt god and god had risen, which heavenlier name</l>
 						<l>Should here stand hallowed, whose more liberal grace</l>
 						<l>Should win this city’s worship, and our land</l>
 						<l>To which of these do reverence; first the lord</l>
@@ -1209,7 +1210,7 @@ type="compact" ?>
 						<l>Who snatch a sanguine life out of the sea,</l>
 
 						<l>Thieves keen to pluck their bloody fruit of spoil</l>
-						<l>From the grey fruitless waters, has their God</l>
+						<l>From the grey fruitless waters, has their god</l>
 						<l>Furrowed our shores to waste them, as the fields</l>
 						<l>Were landward harried from the north with swords</l>
 						<l>Aonian, sickles of man-slaughtering edge</l>
@@ -1290,7 +1291,7 @@ type="compact" ?>
 						<l>Will help thee to this better gift than mine</l>
 						<l>And lead thee by this little living hand</l>
 						<l>That death shall make so strong, to that great end</l>
-						<l>Whence it shall lighten like a God’s, and strike</l>
+						<l>Whence it shall lighten like a god’s, and strike</l>
 						<l>Dead the strong heart of battle that would break</l>
 						<l>Athens; but ye, pray for this land, old men,</l>
 						<l>That it may bring forth never child on earth</l>
@@ -1316,7 +1317,7 @@ type="compact" ?>
 						<l rendition="#ti-1">That has girded on the girdle of war—</l>
 						<l rendition="#ti-1">With hands that lightened the skies in sunder</l>
 						<l rendition="#ti-1">And feet whose fall was followed of thunder,</l>
-						<l rendition="#ti-2">A God, a great God strange of name,</l>
+						<l rendition="#ti-2">A god, a great god strange of name,</l>
 						<l rendition="#ti-2">With horse-yoke fleeter-hoofed than flame,</l>
 						<l rendition="#ti-1">To the mountain bed of a maiden came,</l>
 						<l rendition="#ti-1">Oreithyia, the bride mismated,</l>
@@ -1329,7 +1330,7 @@ type="compact" ?>
 						<l rendition="#ti-1">Given over for a spoil unto the strong.</l>
 						<l rendition="#ti-1">From lips how pale so keen a wail <label rendition="#n"
 									>[<hi rendition="#i">Ant.</hi> 1</label></l>
-						<l rendition="#ti-2">At the grasp of a God’s hand on her she gave,</l>
+						<l rendition="#ti-2">At the grasp of a god’s hand on her she gave,</l>
 						<l rendition="#ti-1">When his breath that darkens air made a havoc of her
 							hair,</l>
 						<l rendition="#ti-2">It rang from the mountain even to the wave;</l>
@@ -1357,7 +1358,7 @@ type="compact" ?>
 						<l rendition="#ti-1">In a storm of amorous godhead filled with fire,</l>
 						<l>From the height of the heaven that was rent with the roar of his coming
 							in sunder,</l>
-						<l rendition="#ti-1">Sprang the strong God on the spoil of his desire.</l>
+						<l rendition="#ti-1">Sprang the strong god on the spoil of his desire.</l>
 
 						<l rendition="#ti-1">And the pines of the hills were as green reeds
 							shattered,</l>
@@ -1380,7 +1381,7 @@ type="compact" ?>
 								2</label></l>
 						<l rendition="#ti-1">When her locks as leaves were shed before his
 							breath,</l>
-						<l>And she heard not for terror his prayer, though the cry was a God’s that
+						<l>And she heard not for terror his prayer, though the cry was a god’s that
 							besought her,</l>
 						<l rendition="#ti-1">Blown from lips that strew the world-wide seas with
 							death.</l>
@@ -1390,7 +1391,7 @@ type="compact" ?>
 						<l rendition="#ti-1">And the soft new bloom of the green earth’s
 							daughter</l>
 						<l rendition="#ti-2">Wind-wasted as blossom of a tree;</l>
-						<l rendition="#ti-1">As the wild God rapt her from earth’s breast
+						<l rendition="#ti-1">As the wild god rapt her from earth’s breast
 							lifted,</l>
 						<l rendition="#ti-1">On the strength of the stream of his dark breath
 							drifted,</l>
@@ -1475,7 +1476,7 @@ type="compact" ?>
 				<sp>
 					<speaker rendition="#center #small">CHORUS</speaker>
 					<lg>
-						<l>That lot shall no God give who fights for thee.</l>
+						<l>That lot shall no god give who fights for thee.</l>
 					</lg>
 				</sp>
 				<sp>
@@ -1605,7 +1606,7 @@ type="compact" ?>
 					<speaker rendition="#center #small">ERECHTHEUS</speaker>
 					<lg>
 						<l>To fight then be it; for if to die or live,</l>
-						<l>No man but only a God knows this much yet</l>
+						<l>No man but only a god knows this much yet</l>
 						<l>Seeing us fare forth, who bear but in our hands</l>
 						<l>The weapons not the fortunes of our fight;</l>
 						<l>For these now rest as lots that yet undrawn</l>
@@ -1675,7 +1676,7 @@ type="compact" ?>
 						<l rendition="#ti-3">Shall they steer into shipwreck out of sight,</l>
 						<l rendition="#ti-2">And with oars that break and shrouds that strain</l>
 						<l rendition="#ti-2">Shall they drive whence no ship steers again.</l>
-						<l>Bitter and strange is the word of the God most high, <label
+						<l>Bitter and strange is the word of the god most high, <label
 								rendition="#n">[<hi rendition="#i">Str.</hi> 2</label></l>
 						<l rendition="#ti-3">And steep the strait of his way.</l>
 						<l>Through a pass rock-rimmed and narrow the light that gleams</l>
@@ -1738,7 +1739,7 @@ type="compact" ?>
 							from her hair,</l>
 						<l>And her head by what altar made humble be left of them naked and
 							bare?</l>
-						<l>At a shrine unbeloved of a God unbeholden a gift shall be given for the
+						<l>At a shrine unbeloved of a god unbeholden a gift shall be given for the
 							land, <label rendition="#n">[<hi rendition="#i">Str.</hi> 6</label></l>
 						<l>That its ramparts though shaken with clamour and horror of manifold
 							waters may stand:</l>
@@ -1974,7 +1975,7 @@ type="compact" ?>
 						<l>Who is called of men by my name, being of Gods</l>
 						<l>Charged only and chosen to bring men under earth,</l>
 						<l>And now must lead and stay me with his staff</l>
-						<l>A silent soul led of a silent God,</l>
+						<l>A silent soul led of a silent god,</l>
 						<l>Toward sightless things led sightless; and on earth</l>
 						<l>I see now but the shadow of mine end,</l>
 						<l>And this last light of all for me in heaven.</l>
@@ -2111,7 +2112,7 @@ type="compact" ?>
 						<l>The Gods have dealt to no man, that on none</l>
 						<l>Have laid so heavy sorrow. From this day</l>
 						<l>Live thou assured of godhead in thy blood,</l>
-						<l>And in thy fate no lowlier than a God</l>
+						<l>And in thy fate no lowlier than a god</l>
 						<l>In all good things and evil; such a name</l>
 						<l>Shall be thy child this city’s, and thine own</l>
 						<l>Next hers that called it Athens. Go now forth</l>
@@ -2436,7 +2437,7 @@ type="compact" ?>
 						<l>
 							<q rendition="#i #nq">Take me, dear Gods</q>; and as some form had
 							shone</l>
-						<l>From the deep hollow shadow, some God’s tongue</l>
+						<l>From the deep hollow shadow, some god’s tongue</l>
 						<l>Answered, <q rendition="#i #nq">I bless you that your guardian grace</q>
 						</l>
 						<l>
@@ -2584,14 +2585,14 @@ type="compact" ?>
 								<label rendition="#n">[<hi rendition="#i">Ant.</hi> 4</label></l>
 						<l rendition="#ti-1">O Earth, fair mother, O sweet live Earth,</l>
 						<l>Hide us again in thy womb from the waves of it, help us or hide.</l>
-						<l rendition="#ti-1">As a sword is the heart of the God thy brother,</l>
+						<l rendition="#ti-1">As a sword is the heart of the god thy brother,</l>
 						<l rendition="#ti-1">But thine as the heart of a new-made mother,</l>
 						<l>To deliver thy sons from his ravin, and rage of his tide.</l>
 						<l rendition="#ti-1">O strong north wind, the pilot of cloud and rain,
 								<label rendition="#n">[<hi rendition="#i">Str.</hi> 5</label></l>
 						<l rendition="#ti-1">For the gift we gave thee what gift hast thou given us
 							again?</l>
-						<l>O God dark-winged, deep-throated, a terror to forth-faring ships by
+						<l>O god dark-winged, deep-throated, a terror to forth-faring ships by
 							night,</l>
 						<l rendition="#ti-1">What bride-song is this that is blown on the blast of
 							thy breath?</l>
@@ -2612,7 +2613,7 @@ type="compact" ?>
 							of thy lips,</l>
 						<l>Till their corpses have covered and clothed as with raiment the face of
 							the sword-ploughed field.</l>
-						<l rendition="#ti-1">O son of the rose-red morning, O God twin-born with the
+						<l rendition="#ti-1">O son of the rose-red morning, O god twin-born with the
 							day, <label rendition="#n">[<hi rendition="#i">Str.</hi> 6</label></l>
 						<l rendition="#ti-1">O wind with the young sun waking, and winged for the
 							same wide way,</l>
@@ -2734,7 +2735,7 @@ type="compact" ?>
 							bared?</l>
 						<l>Be the name of thy conqueror set forth, and the might of thy master
 							declared.</l>
-						<l rendition="#ti-1">O God, fair God of the morning, O glory of day,</l>
+						<l rendition="#ti-1">O god, fair god of the morning, O glory of day,</l>
 						<l rendition="#ti-1">What ails thee to cast from thy forehead its garland
 							away?</l>
 						<l rendition="#ti-1">To pluck from thy temples their chaplet enwreathed of
@@ -2795,7 +2796,7 @@ type="compact" ?>
 						<l rendition="#ti-1">May arise as the spring out of tempest and snow,</l>
 						<l rendition="#ti-1">With the flower-feasted month in her hands rose-red</l>
 						<l rendition="#ti-1">Borne soft as a babe from the bearing-bed.</l>
-						<l rendition="#ti-1">Yet it knows not indeed if a God be friend,</l>
+						<l rendition="#ti-1">Yet it knows not indeed if a god be friend,</l>
 						<l rendition="#ti-1">If rescue may be from the rage of the sea,</l>
 						<l rendition="#ti-2">Or the wrath of its lord have end.</l>
 						<l rendition="#ti-1">For the season is full now of death or of birth,</l>
@@ -3023,7 +3024,7 @@ type="compact" ?>
 						<l>Flew the fleet lightnings, held in chase through heaven</l>
 						<l>By headlong heat of thunders on their trail</l>
 						<l>Loosed as on quest of quarry; that our host</l>
-						<l>Smit with sick presage of some wrathful God</l>
+						<l>Smit with sick presage of some wrathful god</l>
 
 						<l>Quailed, but the foe as from one iron throat</l>
 						<l>With one great sheer sole thousand-throated cry</l>
@@ -3064,7 +3065,7 @@ type="compact" ?>
 						<l>Thereat was fired, and kindling filled the plain</l>
 						<l>Full of that fierce and trumpet-quenching breath</l>
 						<l>That spake the clarions silent; no glad song</l>
-						<l>For folk to hear that wist how dire a God</l>
+						<l>For folk to hear that wist how dire a god</l>
 						<l>Begat this peril to them, what strong race</l>
 						<l>Fathered the sea-born tongue that sang them death,</l>
 						<l>Threatening; so raged through the red foam of fight</l>
@@ -3074,10 +3075,10 @@ type="compact" ?>
 						<l>As a stream thwarted by the wind and sea</l>
 						<l>That meet it midway mouth to mouth, and beat</l>
 						<l>The flood back of its issue; but the king</l>
-						<l>Shouted against them, crying, <q rendition="#i #nq">O Father-God,</q>
+						<l>Shouted against them, crying, <q rendition="#i #nq">O Father-god,</q>
 						</l>
 						<l>
-							<q rendition="#i #nq">Source of the God my father, from thine hand</q>
+							<q rendition="#i #nq">Source of the god my father, from thine hand</q>
 						</l>
 						<l>
 							<q rendition="#i #nq">Send me what end seems good now in thy sight,</q>
@@ -3125,7 +3126,7 @@ type="compact" ?>
 						<l>They bring thee back by war-forsaken ways</l>
 						<l>The strength called once thy husband, the great guard</l>
 						<l>That was of all men, stay of all men’s lives,</l>
-						<l>They bear him slain of no man but a God,</l>
+						<l>They bear him slain of no man but a god,</l>
 						<l>Godlike; and toward him dead the city’s gates</l>
 						<l>Fling their arms open mother-like, through him</l>
 						<l>Saved; and the whole clear land is purged of war</l>
@@ -3148,7 +3149,7 @@ type="compact" ?>
 						<l>And thee too from no godless heart or tongue</l>
 
 						<l>Reproachful, thee too by thy living name,</l>
-						<l>Father divine, merciful God, I call,</l>
+						<l>Father divine, merciful god, I call,</l>
 						<l>Spring of my life-springs, fountain of my stream,</l>
 						<l>Pure and poured forth to one great end with thine,</l>
 						<l>Sweet head sublime of triumph and these tears,</l>
@@ -3156,14 +3157,14 @@ type="compact" ?>
 						<l>Thy blood in mine as thine own waves are given</l>
 						<l>To do this great land good, to give for love</l>
 						<l>The same lips drink and comfort the same hearts,</l>
-						<l>Do thou then, O my father, white-souled God,</l>
+						<l>Do thou then, O my father, white-souled god,</l>
 						<l>To thy most pure earth-hallowing heart eterne</l>
 						<l>Take what thou gavest to be given for these,</l>
 						<l>Take thy child to thee; for her time is full,</l>
 						<l>For all she hath borne she hath given, seen all she had</l>
 						<l>Flow from her, from her eyes and breasts and hands</l>
 						<l>Flow forth to feed this people; but be thou,</l>
-						<l>Dear God and gracious to all souls alive,</l>
+						<l>Dear god and gracious to all souls alive,</l>
 						<l>Good to thine own seed also; let me sleep,</l>
 						<l>Father; my sleepless darkling day is done,</l>
 						<l>My day of life like night, but slumberless:</l>
@@ -3232,7 +3233,7 @@ type="compact" ?>
 						<l>Child of a maiden, by a maid redeemed,</l>
 						<l>Blood-guiltless, though bought back with innocent blood,</l>
 						<l>City mine own; I Pallas bring thee word,</l>
-						<l>I virgin daughter of the most high God</l>
+						<l>I virgin daughter of the most high god</l>
 						<l>Give all you charge and lay command on all</l>
 						<l>The word I bring be wasted not; for this</l>
 						<l>The Gods have stablished and his soul hath sworn,</l>
@@ -3246,7 +3247,7 @@ type="compact" ?>
 						<l>Shall be to her fame as a shadow in sleep</l>
 						<l>To this wide noon at waking; men most praised</l>
 						<l>In lands most happy for their children found</l>
-						<l>Shall hold as highest of honours given of God</l>
+						<l>Shall hold as highest of honours given of god</l>
 						<l>To be but likened to the least of thine,</l>
 						<l>Thy least of all, my city; thine shall be</l>
 						<l>The crown of all songs sung, of all deeds done</l>
@@ -3291,7 +3292,7 @@ type="compact" ?>
 						<l>Shalt thou call royal, take none else or less</l>
 
 						<l>To hold of men in honour; but with me</l>
-						<l>Shall these be worshipped as one God, and mix</l>
+						<l>Shall these be worshipped as one god, and mix</l>
 						<l>With mine the might of their mysterious names</l>
 						<l>In one same shrine served singly, thence to keep</l>
 						<l>Perpetual guard on Athens; time and change,</l>
@@ -3311,7 +3312,7 @@ type="compact" ?>
 						<l>And laid him low that planted, give thee back</l>
 						<l>In sign of sweet land reconciled with sea</l>
 						<l>And heavenlike earth with heaven; such promise-pledge</l>
-						<l>I daughter without mother born of God</l>
+						<l>I daughter without mother born of god</l>
 						<l>To the most woful mother born of man</l>
 						<l>Plight for continual comfort. Hail, and live</l>
 						<l>Beyond all human hap of mortal doom</l>
@@ -3332,7 +3333,7 @@ type="compact" ?>
 						<l>The circling crown of heaven. There is no grief</l>
 						<l>Great as the joy to be made one in will</l>
 						<l>With him that is the heart and rule of life</l>
-						<l>And thee, God born of God; thy name is ours, <ptr type="note"
+						<l>And thee, god born of god; thy name is ours, <ptr type="note"
 								target="#note_07"/></l>
 						<l>And thy large grace more great than our desire.</l>
 					</lg>
@@ -3433,7 +3434,7 @@ type="compact" ?>
 				</note>
 				<note resp="#acs" xml:id="note_07" rendition="#block">
 					<label rendition="#n">v. 1749.</label>
-					<hi rendition="#i">'God born of God.'</hi>
+					<hi rendition="#i">'god born of god.'</hi>
 					<cit>
 						<bibl>Soph. <title rendition="#i">Ant.</title> 834.</bibl>
 						<quote rendition="#nq">
