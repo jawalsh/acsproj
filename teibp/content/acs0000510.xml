@@ -197,9 +197,9 @@ type="compact" ?>
 							<del seq="1">Shall</del>
 							<add seq="2" place="above">Would</add>
 						</subst> this day’s ebb of their spent wave of strife</l>
-					<l>Sweep it to sea, wash it on wreck, and leave</l>
-					<l>A costless thing contemned; and in our stead,</l>
-					<l>Where these walls were and sounding streets of men,</l>
+					<l>Sweep it to sea, wash it on wreck, &amp; leave</l>
+					<l>A costless thing contemned; &amp; in our stead,</l>
+					<l>Where these walls were &amp; sounding streets of men,</l>
 					<l>Sweep it to sea, <subst>
 							<del seq="1"><gap extent="1-2 words" reason="illegible" unit="chars"
 									atLeast="5" atMost="6"/> adrift</del>
@@ -213,7 +213,7 @@ type="compact" ?>
 					<l>Should men say, Here was Athens. This shalt thou</l>
 					<note resp="acs" place="margin right">40</note>
 					<l>Sustain not, nor thy son endure to see,</l>
-					<l>Nor thou to live and look on; for the womb</l>
+					<l>Nor thou to live &amp; look on; for the womb</l>
 					<l>Bare me not base that bare me miserable,</l>
 					<l>To <subst>
 							<del seq="1"><unclear cert="low">us</unclear></del>
@@ -619,7 +619,7 @@ type="compact" ?>
 						<fw place="top right">8 <del>10</del></fw>
 						<fw place="top right">8</fw>
 						<l rendition="#ti-1">Thou that hast power on us, save, if thou wilt; <note resp="acs">ant. 2.</note></l>
-						<l rendition="#ti-1">Let the blind wave breach not thy wall scarce built; <note resp="acs" place="margin right">170</note></l><!-- paused. -->
+						<l rendition="#ti-1">Let the blind wave breach not thy wall scarce built; <note resp="acs" place="margin right">170</note></l>
 						<l>But bless us not so as by bloodshed, impute not for grace to us
 							guilt,</l>
 						<l rendition="#ti-1">Nor by price of pollution of blood set us free;</l>
@@ -688,12 +688,13 @@ type="compact" ?>
 						<l rendition="#ti-2">By the grey keen waves, him too,</l>
 						<l rendition="#ti-3">Thine hand from the white-browed headland</l>
 						<l rendition="#ti-4">Flung down for a spoil to the sea. <label type="line">230</label></l>
-						<!-- paused. -->
-						<l rendition="#ti-1">But enough now of griefs grey-growing <label type= "antistrophe ">ant. 6</label></l>
+						<fw>10</fw>
+						<fw>10</fw>
+						<l rendition="#ti-1">But enough now of griefs grey-growing <label type= "antistrophe ">ant. 6.</label></l>
 						<l rendition="#ti-2">Have darkened the house divine,</l>
-						<l rendition="#ti-3">Have flowered on its boughs and faded,</l>
+						<l rendition="#ti-3">Have flowered on its boughs &amp; faded,</l>
 						<l rendition="#ti-4">And green is the brave stock yet.</l>
-						<l rendition="#ti-1">O father all seeing and all knowing,</l>
+						<l rendition="#ti-1">O father all seeing &amp; all knowing,</l>
 						<l rendition="#ti-2">Let the last fruit fall not of thine</l>
 						<l rendition="#ti-3">From the tree with whose boughs we are shaded,</l>
 						<l rendition="#ti-4">From the stock that thy son’s hand set.</l>
@@ -702,13 +703,18 @@ type="compact" ?>
 			</div>
 			<div xml:id="df3445" type="episode" n="[Episode 1: Erechtheus, Praxithea, and Chorus.]">
 				<sp>
-					<speaker rendition="#center #small">ERECHTHEUS</speaker>
+					<speaker rendition="#center">Erechtheus.</speaker>
+					<lg>
+						<l>O daughter of Cephisus, &amp;c.</l>
+			<fw><del>11</del></fw>
+			<fw>11</fw>
+						<speaker rendition="#center">Erechtheus.</speaker>
 					<lg>
 						<l>O daughter of Cephisus, from all time</l>
-						<l>Wise have I found thee, wife and queen, of heart</l>
+						<l>Wise have I found thee, wife &amp; queen, of heart</l>
 						<l>Perfect; nor in the days that knew not wind</l>
-						<l>Nor days when storm blew death upon our peace</l>
-
+						<l>Nor days when storm blew death <subst><del seq="1">on</del> <add place="inline" seq="2">upon</add></subst> our peace</l>
+						<!-- paused. -->
 						<l>Was thine heart swoln with seed of pride, or bowed</l>
 						<l>With blasts of bitter fear that break men’s souls</l>
 						<l>Who lift too high their minds toward heaven, in thought</l>
