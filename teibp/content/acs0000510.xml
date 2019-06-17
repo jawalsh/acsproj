@@ -73,8 +73,8 @@ type="compact" ?>
 					<l>Me for a sword &amp; <del>flame to</del> beacon-<subst>
 							<del seq="1">f</del>
 							<del seq="2">blaze to <gap extent="1 word" unit="chars" atLeast="4"
-									atMost="4"/></del>
-							<add place="above" seq="3"><del seq="4"><unclear>light</unclear> of
+									atMost="4"/><!-- looks like "true" but "true" doesn't make sense. --></del>
+							<add place="above" seq="3"><del seq="4">light of
 									life</del></add>
 							<add seq="5" place="above">fire on thee</add>
 						</subst>,</l>
@@ -88,9 +88,7 @@ type="compact" ?>
 								<gap extent="1 word" unit="chars" atLeast="3" atMost="4"
 									reason="illegible"/> &amp; <gap extent="1 word" unit="chars"
 									atLeast="3" atMost="5" reason="illegible"/></del>
-							<add seq="2" place="above"><del seq="3"><gap extent="1 word"
-										unit="chars" atLeast="6" atMost="8" reason="illegible"
-									/></del></add>
+							<add seq="2" place="above"><del seq="3"><unclear cert="medium">strange</unclear></del></add>
 							<add seq="4" place="above">the bridled strength of steeds</add>
 						</subst></l>
 					<l><del>The strength of steeds</del><subst>
@@ -104,9 +102,9 @@ type="compact" ?>
 								birth, &amp; bear</add>
 						</subst></l>
 					<l>Clasp of <subst>
-							<del seq="1">his</del>
+							<del seq="1">his ⁁</del>
 							<add seq="2" place="above">man’s</add>
-						</subst><note resp="jawalsh">Insertion caret under <emph>his</emph>.</note>
+						</subst>
 						knees &amp; steerage of his hand,</l>
 					<l>Or fourfold <subst>
 							<del seq="1"><unclear cert="low">pace</unclear> beneath</del>
@@ -129,10 +127,9 @@ type="compact" ?>
 					<note place="margin right">20</note>
 					<l>What have we done? what word mistimed or work</l>
 					<l>Hath <subst>
-							<del seq="1"><unclear cert="medium">given</unclear></del>
+							<del seq="1">given</del>
 							<add place="above" seq="2">winged</add>
-						</subst> the <add place="above">wild</add><note resp="jawalsh">Insertion
-							caret between <emph>thee</emph> and <emph>feet</emph>.</note> feet
+						</subst> the ⁁ <add place="above">wild</add> feet
 							<del>wings</del> of this <subst>
 							<del seq="1">age</del>
 							<add seq="2" place="above">time</add>
@@ -142,17 +139,14 @@ type="compact" ?>
 					<pb n="02r"/>
 					<fw place="top right" type="pageNum">2</fw>
 					<l>To fall as fire upon us? Lo, I stand</l>
-					<l>Here on this <note resp="jawalsh">Insertion caret after
-							<emph>this</emph>.</note>
+					<l>Here on this ⁁
 						<add place="above"><subst>
-								<del><gap reason="illegible" extent="1 word" unit="chars"
-										atLeast="5" atMost="6"/></del>
+								<del>hill’s</del>
 								<add>brow’s</add>
-							</subst></add>brow’s crown<del><gap extent="1 or 2 characters"
-								reason="illegible" unit="chars" atLeast="1" atMost="2"/></del><subst>
+							</subst></add> crown<del>ed <subst>
 							<del seq="1"><unclear cert="high">head</unclear></del>
 							<add><del>girth</del></add>
-						</subst> of the city’s <subst>
+						</subst></del> of the city’s <subst>
 							<del seq="1">girth</del>
 							<add seq="2" place="above"><del>height</del></add>
 						</subst> head</l>
@@ -724,7 +718,6 @@ type="compact" ?>
 						<l><label><del>10</del></label>And glad in ill <subst><del seq="1">time</del><add seq="2" place="above">days</add></subst> of the good that were.</l>
 						<l>Nor now too would I fear thee, now misdoubt</l>
 						<l>Lest fate <choice><abbr>shd</abbr><expan>should</expan></choice> find thee lesser than thy doom,</l>
-						<!-- paused. -->
 						<l><subst><del seq="1">And <gap extent="1 word" unit="chars" atLeast="6" /> <unclear cert="low">than the</unclear></del><add seq="2" place="above"><del>Too</del> Chosen <subst><del seq="1"><gap extent="1 word" unit="chars" atLeast="2"/></del><add seq="2" place="above">if</add></subst>thou</add></subst> <subst><del seq="1">art</del><add seq="2" place="above">be</add></subst> to bear &amp; to be great</l>
 						<l>Haply beyond all women; &amp; the word</l>
 						<l>Speaks thee divine,⁁ <add place="above">dear queen,</add> that speaks thee dead,</l>
@@ -732,7 +725,6 @@ type="compact" ?>
 						<l>Shall not men call thee living? yet I fear</l>
 						<l>To <subst><del seq="1">kill</del><add seq="2" place="above">slay</add></subst> thee ⁁ <add place="above">timeless</add> with my proper tongue,</l>
 						<l>With <del><gap extent="1 word" unit="chars" atLeast="4" /></del> lips, <del><gap extent="1 word" unit="chars" atLeast="1" /></del>thou knowest, that love thee; &amp; such work</l>
-						<!-- paused. -->
 						<l><label><del>2
 						0</del></label>Was never laid of Gods on men, such word</l>
 						<l>No mouth of man learnt ever, as from mine</l>
@@ -741,13 +733,14 @@ type="compact" ?>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#center #small">Praxithea.</speaker>
 					<lg>
-						<l>That word there is not in all speech of man,</l>
-						<l>King, that being spoken of the Gods and thee</l>
+						<note resp="jawalsh">Unknown marginalia to left of line.</note><l><subst><del seq="1"><unclear cert="low">Than</unclear> is not in man’s speech</del><add seq="2" place="inline">That word there is not in all speech</add></subst> of man,</l>
+						<l>King, that being spoken of the gods &amp; thee</l>
 						<l>I have not heart to honour, or dare hold</l>
-						<l>More than I hold thee or the Gods in hate</l>
-						<l>Hearing; but if my heart abhor it heard</l>
+						<l>More than I hold thee or the gods in hate</l>
+						<l>Hearing; <del><gap extent="1 word" unit="chars" atLeast="3" /> <gap extent="1 word" unit="chars" atLeast="7" /></del> but if my heart abhor it heard</l>
+						<!-- paused. -->
 						<l>Being insubmissive, hold me not thy wife</l>
 						<l>But use me like a stranger, whom thine hand</l>
 						<l>Hath fed by chance and finding thence no thanks</l>
