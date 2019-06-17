@@ -148,8 +148,7 @@ type="compact" ?>
 							<add><del>girth</del></add>
 						</subst></del> of the city’s <subst>
 							<del seq="1">girth</del>
-							<add seq="2" place="above"><del>height</del></add>
-						</subst> head</l>
+							<add seq="2" place="above"><del>height</del></add> <add place="inline">head</add></subst></l>
 					<l>That crowns its lovely body, till death’s <subst>
 							<del><unclear cert="high">hand</unclear></del>
 							<add place="inline">hour</add>
@@ -173,31 +172,24 @@ type="compact" ?>
 							<del seq="1"><unclear cert="medium">guerdon</unclear>;</del>
 							<add seq="2" place="above">strife of gods;</add>
 						</subst> but <subst>
-							<del seq="1"><gap extent="2-3 words" unit="chars" atLeast="12"
-									atMost="14" reason="illegible"/></del>
+							<del seq="1">one day more,</del>
 							<add seq="2" place="above">now</add>
 						</subst></l>
-					<l><del>But one day more of strife &amp; <unclear>countering</unclear>
+					<l><del>But one day more of strife &amp; <unclear cert="medium">countering</unclear>
 							gods,</del></l>
 					<l><subst>
-							<del>And what shall</del>
-							<add place="below">And <gap extent="3-5 words" unit="chars" atLeast="14"
-									atMost="17" reason="illegible"/></add>
+							<del seq="1">And what shall</del>
+							<add seq="2" place="above">And <unclear cert="high">nought is left</unclear> </add><add seq="2" place="inline">here for strife to lose or win</add>
 						</subst>
-						<del>here for strife to lose or win</del></l>
-					<l><del><gap extent="1 word" reason="illegible" unit="chars" atLeast="3"
-								atMost="5"/> death for godless geurdon</del></l>
+						</l>
+					<l><del>Save death for godless geurdon;</del></l>
 					<l><subst>
 							<del seq="1">Shall</del>
 							<add seq="2" place="above">Would</add>
 						</subst> this day’s ebb of their spent wave of strife</l>
-					<l>Sweep it to sea, wash it on wreck, &amp; leave</l>
-					<l>A costless thing contemned; &amp; in our stead,</l>
-					<l>Where these walls were &amp; sounding streets of men,</l>
 					<l>Sweep it to sea, <subst>
-							<del seq="1"><gap extent="1-2 words" reason="illegible" unit="chars"
-									atLeast="5" atMost="6"/> adrift</del>
-							<add seq="2" place="above">wash it on <del seq="3">wreck</del></add>
+							<del seq="1">a waif adrift on</del>
+							<add seq="2" place="above">wash <note resp="jawalsh">I have some suspicion that <emph>wash</emph> should be (and is in the MS.) <emph>waste</emph></note>it on <del seq="3">waste</del></add>
 						</subst> wreck, &amp; leave</l>
 					<l>A costless thing contemned; &amp; in our stead,</l>
 					<l>Where these walls were &amp; sounding streets of men,</l>
@@ -210,22 +202,19 @@ type="compact" ?>
 					<l>Nor thou to live &amp; look on; for the womb</l>
 					<l>Bare me not base that bare me miserable,</l>
 					<l>To <subst>
-							<del seq="1"><unclear cert="low">us</unclear></del>
+							<del seq="1"><unclear cert="low">see</unclear></del>
 							<add seq="2">hear</add>
-						</subst> hear this loud brood of the Thracian foam</l>
+						</subst> this loud brood of the Thracian foam</l>
 					<!-- can I put <del> around line? -->
 					<l><subst>
 							<del>With this their</del>
-							<add place="above"><del>And <gap extent="1 word"/></del></add>
+							<add place="above"><del>And <unclear cert="low">one</unclear></del></add>
 						</subst>
-						<subst>
-							<del><gap extent="1 word"/></del>
-							<add place="above"><del><unclear extent="1 word"/></del></add>
-						</subst>
-						<subst>
-							<del>ungrafted on our <gap extent="1 word"/></del>
-							<add><del>natural <unclear extent="1 word"/></del></add>
-						</subst></l>
+						<del>lord</del>
+						<del>
+						<subst><del>un</del><add place="above"><unclear cert="medium">late </unclear></subst>grafted on our
+						<subst><del>land</del><add><del>natural <unclear cert="low">stem <!-- stern? --></unclear></add>
+						</subst></del></l>
 					<!-- need to look for gap[not(@unit)] -->
 					<pb n="02v"/>
 					<!-- confirm empty -->
