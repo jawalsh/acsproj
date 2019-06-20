@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02-i010"><teiHeader><fileDesc><titleStmt>
+            <title>Hertha</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt><publicationStmt xml:base="includes/publicationStmt.xml">
+    <publisher>Digital Culture Lab, <ref target="http://www.ils.indiana.edu/">Department of Information and Library Science</ref>, <ref target="http://www.soic.indiana.edu/">School of Informatics and Computing</ref>, <ref target="http://www.indiana.edu/">Indiana
+    University</ref>
+</publisher>
+    <pubPlace>Bloomington, IN</pubPlace>
+    <date when="2008"/>
+    <availability>
+    <p> Copyright © 1997-2012 John A. Walsh. </p>
+    <p>
+        <ref type="license" target="http://creativecommons.org/licenses/by/3.0/"><figure rend="border-width:0;margin:0;padding:0;">
+                <figDesc>Creative Commons License</figDesc>
+                <graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+            </figure></ref>
+        <bibl><title>The Algernon Charles Swinburne Project</title>, edited by <editor>John A.
+                Walsh</editor></bibl>, is freely licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
+            Unported License</ref>. </p>
+</availability>
+</publicationStmt><seriesStmt xml:base="includes/seriesStmt.xml">
+        <title>The Algernon Charles Swinburne Project: A Digital Collection Devoted to the Life and Work of Victorian Poet Algernon Charles Swinburne.</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName key="jawalsh">John A. Walsh</persName>
+        </respStmt>
+</seriesStmt><sourceDesc><biblStruct><analytic>
+                     <title>Hertha</title>
+                     <author>
+							                 <persName key="acs"> Swinburne, Algernon Charles </persName>
+						               </author>
+                  </analytic><monogr>
+						               <title>The Poems of Algernon Charles Swinburne</title>
+						               <imprint>
+							                 <pubPlace> London </pubPlace>
+							                 <publisher>Chatto &amp; Windus</publisher>
+							                 <date when="1904"> 1904 </date>
+							                 <biblScope type="vol"> 2 </biblScope>
+							                 <biblScope type="pp"> 72-80 </biblScope>
+						               </imprint>
+						               <extent> 6 vols. </extent>
+                  </monogr><idno type="nines">sbshrtha00</idno><relatedItem type="original_collection"><biblStruct n="original_collection">
+                  <analytic>
+                     <title>Hertha</title>
+                     <author>
+							                 <persName key="acs"> Swinburne, Algernon Charles </persName>
+						               </author>
+                  </analytic>
+                  <monogr>
+                     <title>Songs Before Sunrise</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>F. S. Ellis</publisher>
+                        <date xml:id="sort_date" when="1871"/>
+                     </imprint>
+                  </monogr>
+               </biblStruct></relatedItem></biblStruct></sourceDesc></fileDesc><encodingDesc>
+         <tagsDecl xml:base="includes/tagsDecl.xml">
+    <rendition n="mono" xml:id="mono" scheme="css">font-family: Courier, monospace</rendition>
+    <rendition n="code" xml:id="code" scheme="css">font-family: courier, monospace; </rendition>
+    <!-- font-size -->
+    <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
+    <rendition n="x-small" xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+    <rendition n="xx-small" xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+    <rendition n="large" xml:id="large" scheme="css">font-size: large;</rendition>
+    <rendition n="x-large" xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+    <rendition n="xx-large" xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+    <!-- font-style -->
+    <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+    <rendition n="normal" xml:id="n" scheme="css">font-style: normal;</rendition>
+    <!-- font-variant -->
+    <rendition n="small caps" xml:id="sc" scheme="css">font-variant: small-caps;</rendition>
+    <!-- font-weight -->
+    <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+    <!-- text-decoration -->
+    <rendition n="strike through" xml:id="strike" scheme="css">text-decoration: line-through;</rendition>
+    <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
+    <rendition n="double underline" xml:id="uu" scheme="css">text-decoration: underline;
+        border-bottom: 1px solid black;</rendition>
+    <rendition n="block" xml:id="block" scheme="css">display: block; margin: 4em;</rendition>
+    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4em;</rendition>
+    <rendition n="expanded letter spacing" xml:id="expanded" scheme="css">letter-spacing: +3pt;</rendition>
+    
+    <!-- text-transform -->
+    <rendition n="uppercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
+    <!-- text-align -->
+    <rendition n="align center" xml:id="center" scheme="css">text-align: center;</rendition>
+    <rendition n="align right" xml:id="right" scheme="css">text-align: right;</rendition>
+    <rendition n="align left" xml:id="left" scheme="css">text-align: right;</rendition>
+    
+    <!-- block alignment: centers a block of text, but doesn't affect the 
+    alignment of text withing the centered block.-->
+    
+    <rendition n="center block" xml:id="center-block" scheme="css">
+        margin-left:auto;
+        margin-right:auto;
+    </rendition>
+    
+
+    <!-- text-indent: hanging indents for verse-->
+    <rendition n="indent 1 level" xml:id="ti-1" scheme="css">text-indent: 1em;</rendition>
+    <rendition n="indent 2 levels" xml:id="ti-2" scheme="css">text-indent: 2em;</rendition>
+    <rendition n="indent 3 levels" xml:id="ti-3" scheme="css">text-indent: 3em;</rendition>
+    <rendition n="indent 4 levels" xml:id="ti-4" scheme="css">text-indent: 4em;</rendition>
+    <rendition n="indent 5 levels" xml:id="ti-5" scheme="css">text-indent: 5em;</rendition>
+    <rendition n="indent 6 levels" xml:id="ti-6" scheme="css">text-indent: 6em;</rendition>
+    <rendition n="indent 7 levels" xml:id="ti-7" scheme="css">text-indent: 7em;</rendition>
+    <rendition n="indent 8 levels" xml:id="ti-8" scheme="css">text-indent: 8em;</rendition>
+    <rendition n="indent 9 levels" xml:id="ti-9" scheme="css">text-indent: 9em;</rendition>
+    <rendition n="indent 10 levels" xml:id="ti-10" scheme="css">text-indent: 10em;</rendition>
+    <rendition n="indent 10 levels" xml:id="ti-11" scheme="css">text-indent: 11em;</rendition>
+    <rendition n="indent 12 levels" xml:id="ti-12" scheme="css">text-indent: 12em;</rendition>
+    <rendition n="indent 13 levels" xml:id="ti-13" scheme="css">text-indent: 13em;</rendition>
+    <rendition n="indent 14 levels" xml:id="ti-14" scheme="css">text-indent: 14em;</rendition>
+    <rendition n="indent 15 levels" xml:id="ti-15" scheme="css">text-indent: 15em;</rendition>
+    <rendition n="indent 16 levels" xml:id="ti-16" scheme="css">text-indent: 16em;</rendition>
+    <rendition n="indent 17 levels" xml:id="ti-17" scheme="css">text-indent: 17em;</rendition>
+    <rendition n="indent 18 levels" xml:id="ti-18" scheme="css">text-indent: 18em;</rendition>
+    <rendition n="indent 19 levels" xml:id="ti-19" scheme="css">text-indent: 19em;</rendition>
+    <rendition n="indent 20 levels" xml:id="ti-20" scheme="css">text-indent: 20em;</rendition>
+    <rendition n="indent 21 levels" xml:id="ti-21" scheme="css">text-indent: 21em;</rendition>
+    <rendition n="indent 22 levels" xml:id="ti-22" scheme="css">text-indent: 22em;</rendition>
+    
+
+    <!-- vertical-align -->
+    <rendition n="subscript" xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+    <rendition n="superscript" xml:id="super" scheme="css">vertical-align: super;</rendition>
+    
+    <rendition n="border" xml:id="border" scheme="css">border: 2px solid;</rendition>
+    
+    <!-- color -->
+    <rendition n="red" xml:id="red" scheme="css">color: red;</rendition>
+    <rendition n="blue" xml:id="blue" scheme="css">color: blue;</rendition>
+    <!-- compound CSS -->
+    <rendition n="hanging indent" xml:id="hang" scheme="css">margin-left: 2em; text-indent: -2em;
+        padding: 0;</rendition>
+    <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+    <rendition n="suppress" xml:id="suppress" scheme="css">display: none</rendition>
+    <rendition n="wide" xml:id="wide" scheme="css">width:100%</rendition>
+    
+    <!-- non-CSS styles -->
+    <rendition n="inline speaker" xml:id="inline-speaker" scheme="free">Name of speaker appears on same line as start of speech</rendition>
+    <rendition n="triple space" xml:id="tripleSpace" scheme="free">milestone indicated by blank space approximately three lines in height"</rendition>
+    <rendition n="ellipsis with 5 dots" xml:id="ellipsis_5_dot" scheme="free">. . . . .</rendition>
+    <rendition n="ellipsis with 6 dots" xml:id="ellipsis_6_dot" scheme="free">. . . . . .</rendition>
+    <rendition n="ellipsis with 7 dots" xml:id="ellipsis_7_dot" scheme="free">. . . . . . .</rendition>
+    <rendition n="ellipsis with 7 asterisks" xml:id="ellipsis_7_asterisk" scheme="free">* * * * * * *</rendition>
+    <rendition n="graphic" xml:id="graphic" scheme="free">Graphically rendered element; currently
+        used for tables that should be graphically highlighted with color.</rendition>
+    <rendition n="rtl" xml:id="rtl" scheme="free">right to left language</rendition>
+    <rendition n="erased" xml:id="erased" scheme="free">used for deleted text that is legible, not stuck out, but erased—visibly lighter than surrounding text.</rendition>
+    <rendition n="inline column" xml:id="inlineColumn" scheme="free">inline list in verticle format</rendition>
+    <rendition n="angle bracket" xml:id="bracket" scheme="free">surrounding angle brackets</rendition>
+    <rendition n="sublinear caret insertion point" xml:id="subcaret" scheme="free">insert a sublinear
+        caret, ⁁</rendition>
+    <rendition n="upside down" xml:id="upsidedown" scheme="free">text or image is upside down</rendition>
+    <rendition n="caret insertion point" xml:id="caret" scheme="free">insert a caret, ⁁</rendition>
+    <rendition n="post line, right" xml:id="postright" scheme="free">Heading, typically used in
+        Swinburne for strophes and antiphones, that appears to the right of (i.e., after or "post")
+        the first line of the strophe or antiphone.</rendition>
+
+    <rendition n="horizontal rule" xml:id="hr" scheme="free">typical horizontal
+        rule that separates notes from the rest of the page, e.g., html <gi>hr</gi>.</rendition>
+    <rendition n="note reference" xml:id="noteRef" scheme="css">verical-align: super; font-size:
+        xx-small;</rendition>
+    <rendition n="inner line group" xml:id="sublg" scheme="free">sub line group; a subdivision of a
+        line group, such as the octet and sextet of a sonnet, that is a logical group but is not set
+        off typographically.</rendition>
+    
+    <rendition n="parentheses" xml:id="parens" scheme="free">Element is surrounded by parentheses. Implemented in CSS with .parens:before {content:
+        "(";} .parens:after {content: ")";}</rendition>
+    <rendition n="chronoTableDate" xml:id="chronoTableDate" scheme="css">/* date cell in a chronology
+        table */ font-style: italic;</rendition>
+    <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
+    <rendition n="embedHeadRight" xml:id="embedHeadRight" scheme="css">head/label embedded in a block
+        element, e.g., paragraph. See Study of Ben Jonson.</rendition>
+    <rendition n="embedHeadLeft" xml:id="embedHeadLeft" scheme="free">head/label embedded in a block
+        element, e.g., paragraph. See Study of Ben Jonson.</rendition>
+    <rendition n="indent" xml:id="indent" scheme="css">.indent:before {content:
+        "\A0\A0\A0\A0\A0\A0";} /* Should be implmented as .indent {text-indent: 4em;}, but a bug in Safari causes block elements to re-indent when interrupted by another block element. */&gt;</rendition>
+    <rendition n="comic font" xml:id="comicFont" scheme="css">font-family: CCBlahBlahBlah;</rendition>
+    <rendition n="single quotes" xml:id="sq" scheme="css">
+        span.sq:before {
+        content: "\2018";
+        }
+        span.sq:after {
+        content: "\2019";
+        }
+    </rendition>
+    <rendition n="double quotes" xml:id="dq" scheme="css">
+        span.dq:before {
+        content: "\201C";
+        }
+        span.dq:after {
+        content: "\201D";
+        }
+    </rendition>
+    <rendition n="no quotes" xml:id="nq" scheme="free">Used in <att>rendition</att> of <gi>q</gi> or <gi>quote</gi> for inline quoted speech or quotations that are not marked with quotation marks.</rendition>
+    <rendition n="table of contents" xml:id="toc" scheme="other"/>
+    <rendition n="wrapped code / wrappped formatted text" xml:id="wrap">
+    overflow-x: auto;
+/* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+    white-space: pre-wrap;
+/* css-3 */
+    white-space: -moz-pre-wrap !important;
+/* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+/* Opera 4-6 */
+    white-space: -o-pre-wrap;
+/* Opera 7 */
+/* width: 99%; */
+    word-wrap: break-word;
+/* Internet Explorer 5.5+ */
+    </rendition>
+    <!-- lists -->
+    <rendition n="deprecated:noBullets" xml:id="noBullets" scheme="css">list-style-type: none; </rendition>
+    <rendition xml:id="list-style-type_none" n="list style: none">list-style-type:none;</rendition>
+    <rendition xml:id="list-style-type_circle" n="list style: circle">list-style-type:circle;</rendition>
+    <rendition xml:id="list-style-type_disc" n="list style: disc">list-style-type:disc;</rendition>
+    <rendition xml:id="list-style-type_square" n="list style: square">list-style-type:square;</rendition>
+    <rendition xml:id="list-style-type_armenian" n="list style: armenian">list-style-type:armenian;</rendition>
+    <rendition xml:id="list-style-type_decimal" n="list style: decimal">list-style-type:decimal;</rendition>
+    <rendition xml:id="list-style-type_decimal-leading-zero" n="list style: decimal-leading-zero">list-style-type:decimal-leading-zero;</rendition>
+    <rendition xml:id="list-style-type_georgian" n="list style: georgian">list-style-type:georgian;</rendition>
+    <rendition xml:id="list-style-type_lower-alpha" n="list style: lower-alpha">list-style-type:lower-alpha;</rendition>
+    <rendition xml:id="list-style-type_lower-greek" n="list style: lower-greek">list-style-type:lower-greek;</rendition>
+    <rendition xml:id="list-style-type_lower-roman" n="list style: lower-roman">list-style-type:lower-roman;</rendition>
+    <rendition xml:id="list-style-type_upper-alpha" n="list style: upper-alpha">list-style-type:upper-alpha;</rendition>
+    <rendition xml:id="list-style-type_upper-roman" n="list style: upper-roman">list-style-type:upper-roman;</rendition>
+    <rendition xml:id="list" n="list" scheme="free">Indicates a element such as <gi>castItem</gi> is rendered in list form.</rendition>
+    <rendition xml:id="braced-right" n="braced right" scheme="free">Indicates that a block in a list (e.g., a castGroup in a CastList) is marked by a brace to the right of the list block.</rendition>
+    
+    <rendition xml:id="asteriskDivider" scheme="free">
+        Typically used on <gi>milestone</gi> elements. A string of asterisks representing some sort of division in the text. May be implemented in CSS as below:
+        <eg>
+.asteriskDivider:before {
+  content: "* * * * *";
+}
+        </eg>
+    </rendition>
+    
+    <!-- 
+        none  	No marker
+        circle 	The marker is a circle
+        disc 	The marker is a filled circle. This is default
+        square 	The marker is a square
+        armenian 	The marker is traditional Armenian numbering
+        decimal 	The marker is a number
+        decimal-leading-zero 	The marker is a number padded by initial zeros (01, 02, 03, etc.)
+        georgian 	The marker is traditional Georgian numbering (an, ban, gan, etc.)
+        lower-alpha 	The marker is lower-alpha (a, b, c, d, e, etc.)
+        lower-greek 	The marker is lower-greek (alpha, beta, gamma, etc.)
+        lower-latin 	The marker is lower-latin (a, b, c, d, e, etc.)
+        lower-roman 	The marker is lower-roman (i, ii, iii, iv, v, etc.)
+        upper-alpha 	The marker is upper-alpha (A, B, C, D, E, etc.) 
+        upper-latin 	The marker is upper-latin (A, B, C, D, E, etc.)
+        upper-roman 	The marker is upper-roman (I, II, III, IV, V, etc.)
+        -->
+        
+
+</tagsDecl>
+<classDecl xml:id="collex_genres" xml:base="includes/collex_genres.xml">
+        <taxonomy>
+          <bibl><ptr target="http://linktocollexgenres/"/></bibl>
+          
+          <category xml:id="collex_genre_architecture">
+            <catDesc>Architecture</catDesc>
+          </category>
+          <category xml:id="collex_genre_artifacts">
+            <catDesc>Artifacts</catDesc>
+          </category>
+          <category xml:id="collex_genre_bibliography">
+            <catDesc>Bibliography</catDesc>
+          </category>
+          <category xml:id="collex_genre_book_history">
+            <catDesc>Book History</catDesc>
+          </category>
+          <category xml:id="collex_genre_citation">
+            <catDesc>Citation</catDesc>
+          </category>
+          <category xml:id="collex_genre_collection">
+            <catDesc>Collection</catDesc>
+          </category>
+          <category xml:id="collex_genre_criticism">
+            <catDesc>Criticism</catDesc>
+          </category>
+          <category xml:id="collex_genre_drama">
+            <catDesc>Drama</catDesc>
+          </category>
+          <category xml:id="collex_genre_education">
+            <catDesc>Education</catDesc>
+          </category>
+          <category xml:id="collex_genre_ephemera">
+            <catDesc>Ephemera</catDesc>
+          </category>
+          <category xml:id="collex_genre_family_life">
+            <catDesc>Family Life</catDesc>
+          </category>
+          <category xml:id="collex_genre_fiction">
+            <catDesc>Fiction</catDesc>
+          </category>
+          <category xml:id="collex_genre_folklore">
+            <catDesc>Folklore</catDesc>
+          </category>
+          <category xml:id="collex_genre_history">
+            <catDesc>History</catDesc>
+          </category>
+          <category xml:id="collex_genre_humor">
+            <catDesc>Humor</catDesc>
+          </category>
+          <category xml:id="collex_genre_law">
+            <catDesc>Law</catDesc>
+          </category>
+          <category xml:id="collex_genre_leisure">
+            <catDesc>Leisure</catDesc>
+          </category>
+          <category xml:id="collex_genre_letters">
+            <catDesc>Letters</catDesc>
+          </category>
+          <category xml:id="collex_genre_life_writing">
+            <catDesc>Life Writing</catDesc>
+          </category>
+          <category xml:id="collex_genre_manuscript">
+            <catDesc>Manuscript</catDesc>
+          </category>
+          <category xml:id="collex_genre_music">
+            <catDesc>Music</catDesc>
+          </category>
+          <category xml:id="collex_genre_nonfiction">
+            <catDesc>Nonfiction</catDesc>
+          </category>
+          <category xml:id="collex_genre_paratext">
+            <catDesc>Paratext</catDesc>
+          </category>
+          <category xml:id="collex_genre_periodical">
+            <catDesc>Periodical</catDesc>
+          </category>
+          <category xml:id="collex_genre_philosophy">
+            <catDesc>Philosophy</catDesc>
+          </category>
+          <category xml:id="collex_genre_photograph">
+            <catDesc>Photograph</catDesc>
+          </category>
+          <category xml:id="collex_genre_poetry">
+            <catDesc>Poetry</catDesc>
+          </category>
+          <category xml:id="collex_genre_politics">
+            <catDesc>Politics</catDesc>
+          </category>
+          <category xml:id="collex_genre_reference_works">
+            <catDesc>Reference Works</catDesc>
+          </category>
+          <category xml:id="collex_genre_religion">
+            <catDesc>Religion</catDesc>
+          </category>
+          <category xml:id="collex_genre_review">
+            <catDesc>Review</catDesc>
+          </category>
+          <category xml:id="collex_genre_science">
+            <catDesc>Science</catDesc>
+          </category>
+          <category xml:id="collex_genre_translation">
+            <catDesc>Translation</catDesc>
+          </category>
+          <category xml:id="collex_genre_travel">
+            <catDesc>Travel</catDesc>
+          </category>
+          <category xml:id="collex_genre_visual_art">
+            <catDesc>Visual Art</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+      </encodingDesc><profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_poetry"/>
+         </textClass>
+      </profileDesc></teiHeader><text xml:id="acs0000001-02-i010-content" type="poem">
+						<index indexName="text" corresp="acs0000001-02-i010-md.xml"/>
+		<body>
+			<pb n="72" facs="acs0000001-02-087"/>
+			<head rendition="#center #uc"><persName key="hertha" corresp="#unfamiliar">Hertha</persName></head>
+			<lg>
+				<l n="1" rendition="#ti-1">
+					<hi rendition="#sc"> I am </hi> that which began;</l>
+				<l n="2" rendition="#ti-2"> Out of me the years roll;</l>
+				<l n="3" rendition="#ti-1"> Out of me God and man;</l>
+				<l n="4" rendition="#ti-2"> I am equal and whole;</l>
+				<l n="5"> God changes, and man, and the form of them bodily; I am the soul.</l>
+			</lg>
+			<lg>
+				<l n="6" rendition="#ti-1"> Before ever land was,</l>
+				<l n="7" rendition="#ti-2"> Before ever the sea,</l>
+				<l n="8" rendition="#ti-1"> Or soft hair of the grass,</l>
+				<l n="9" rendition="#ti-2"> Or fair limbs of the tree,</l>
+				<l n="10"> Or the flesh-coloured fruit of my branches, I was, and thy soul was in
+					me.</l>
+			</lg>
+			<lg>
+				<l n="11" rendition="#ti-1"> First life on my sources</l>
+				<l n="12" rendition="#ti-2"> First drifted and swam;</l>
+				<l n="13" rendition="#ti-1"> Out of me are the forces</l>
+				<l n="14" rendition="#ti-2"> That save it or damn;</l>
+				<l n="15"> Out of me man and woman, and wild-beast and bird; before God was, I am.
+				</l>
+			</lg>
+			<lg>
+				<l n="16" rendition="#ti-1"> Beside or above me</l>
+				<l n="17" rendition="#ti-2"> Nought is there to go;</l>
+				<l n="18" rendition="#ti-1"> Love or unlove me,</l>
+				<l n="19" rendition="#ti-2"> Unknow me or know,</l>
+				<l n="20"> I am that which unloves me and loves; I am stricken, and I am the blow.
+				</l>
+			</lg>
+			<pb n="73" facs="acs0000001-02-088"/>
+			<lg>
+				<l n="21" rendition="#ti-1"> I the mark that is missed</l>
+				<l n="22" rendition="#ti-2"> And the arrows that miss,</l>
+				<l n="23" rendition="#ti-1"> I the mouth that is kissed</l>
+				<l n="24" rendition="#ti-2"> And the breath in the kiss,</l>
+				<l n="25"> The search, and the sought, and the seeker, the soul and the body that
+					is.</l>
+			</lg>
+			<lg>
+				<l n="26" rendition="#ti-1"> I am that thing which blesses</l>
+				<l n="27" rendition="#ti-2"> My spirit elate;</l>
+				<l n="28" rendition="#ti-1"> That which caresses</l>
+				<l n="29" rendition="#ti-2"> With hands uncreate</l>
+				<l n="30"> My limbs unbegotten that measure the length of the measure of fate.</l>
+			</lg>
+			<lg>
+				<l n="31" rendition="#ti-1"> But what thing dost thou now,</l>
+				<l n="32" rendition="#ti-2"> Looking Godward, to cry</l>
+				<l n="33" rendition="#ti-1"> “I am I, thou art thou,</l>
+				<l n="34" rendition="#ti-2"> I am low, thou art high”?</l>
+				<l n="35"> I am thou, whom thou seekest to find him; find thou but thyself, thou art
+					I.</l>
+			</lg>
+			<lg>
+				<l n="36" rendition="#ti-1"> I the grain and the furrow,</l>
+				<l n="37" rendition="#ti-2"> The plough-cloven clod</l>
+				<l n="38" rendition="#ti-1"> And the ploughshare drawn thorough,</l>
+				<l n="39" rendition="#ti-2"> The germ and the sod,</l>
+				<l n="40"> The deed and the doer, the seed and the sower, the dust which is God.
+				</l>
+			</lg>
+			<lg>
+				<l n="41" rendition="#ti-1"> Hast thou known how I fashioned thee,</l>
+				<l n="42" rendition="#ti-2"> Child, underground?</l>
+				<l n="43" rendition="#ti-1"> Fire that impassioned thee,</l>
+				<l n="44" rendition="#ti-2"> Iron that bound,</l>
+				<l n="45"> Dim changes of water, what thing of all these hast thou known of or
+					found?</l>
+			</lg>
+			<pb n="74" facs="acs0000001-02-089"/>
+			<lg>
+				<l n="46" rendition="#ti-1"> Canst thou say in thine heart</l>
+				<l n="47" rendition="#ti-2"> Thou hast seen with thine eyes</l>
+				<l n="48" rendition="#ti-1"> With what cunning of art</l>
+				<l n="49" rendition="#ti-2"> Thou wast wrought in what wise,</l>
+				<l n="50"> By what force of what stuff thou wast shapen, and shown on my breast to
+					the skies?</l>
+			</lg>
+			<lg>
+				<l n="51" rendition="#ti-1"> Who hath given, who hath sold it thee,</l>
+				<l n="52" rendition="#ti-2"> Knowledge of me?</l>
+				<l n="53" rendition="#ti-1"> Hath the wilderness told it thee?</l>
+				<l n="54" rendition="#ti-2"> Hast thou learnt of the sea?</l>
+				<l n="55"> Hast thou communed in spirit with night? have the winds taken counsel
+					with thee?</l>
+			</lg>
+			<lg>
+				<l n="56" rendition="#ti-1"> Have I set such a star</l>
+				<l n="57" rendition="#ti-2"> To show light on thy brow</l>
+				<l n="58" rendition="#ti-1"> That thou sawest from afar</l>
+				<l n="59" rendition="#ti-2"> What I show to thee now?</l>
+				<l n="60"> Have ye spoken as brethren together, the sun and the mountains and thou?
+				</l>
+			</lg>
+			<lg>
+				<l n="61" rendition="#ti-1"> What is here, dost thou know it?</l>
+				<l n="62" rendition="#ti-2"> What was, hast thou known?</l>
+				<l n="63" rendition="#ti-1"> Prophet nor poet</l>
+				<l n="64" rendition="#ti-2"> Nor tripod nor throne</l>
+				<l n="65"> Nor spirit nor flesh can make answer, but only thy mother alone.</l>
+			</lg>
+			<lg>
+				<l n="66" rendition="#ti-1"> Mother, not maker,</l>
+				<l n="67" rendition="#ti-2"> Born, and not made;</l>
+				<l n="68" rendition="#ti-1"> Though her children forsake her,</l>
+				<l n="69" rendition="#ti-2"> Allured or afraid,</l>
+				<l n="70"> Praying prayers to the God of their fashion, she stirs not for all that
+					have prayed.</l>
+			</lg>
+			<pb n="75" facs="acs0000001-02-090"/>
+			<lg>
+				<l n="71" rendition="#ti-1"> A creed is a rod,</l>
+				<l n="72" rendition="#ti-2"> And a crown is of night;</l>
+				<l n="73" rendition="#ti-1"> But this thing is God,</l>
+				<l n="74" rendition="#ti-2"> To be man with thy might,</l>
+				<l n="75"> To grow straight in the strength of thy spirit, and live out thy life as
+					the light.</l>
+			</lg>
+			<lg>
+				<l n="76" rendition="#ti-1"> I am in thee to save thee,</l>
+				<l n="77" rendition="#ti-2"> As my soul in thee saith;</l>
+				<l n="78" rendition="#ti-1"> Give thou as I gave thee,</l>
+				<l n="79" rendition="#ti-2"> Thy life-blood and breath,</l>
+				<l n="80"> Green leaves of thy labour, white flowers of thy thought, and red fruit
+					of thy death.</l>
+			</lg>
+			<lg>
+				<l n="81" rendition="#ti-1"> Be the ways of thy giving</l>
+				<l n="82" rendition="#ti-2"> As mine were to thee;</l>
+				<l n="83" rendition="#ti-1"> The free life of thy living,</l>
+				<l n="84" rendition="#ti-2"> Be the gift of it free;</l>
+				<l n="85"> Not as servant to lord, nor as master to slave, shalt thou give thee to
+					me.</l>
+			</lg>
+			<lg>
+				<l n="86" rendition="#ti-1"> O children of banishment,</l>
+				<l n="87" rendition="#ti-2"> Souls overcast,</l>
+				<l n="88" rendition="#ti-1"> Were the lights ye see vanish meant</l>
+				<l n="89" rendition="#ti-2"> Alway to last,</l>
+				<l n="90"> Ye would know not the sun overshining the shadows and stars overpast.
+				</l>
+			</lg>
+			<lg>
+				<l n="91" rendition="#ti-1"> I that saw where ye trod</l>
+				<l n="92" rendition="#ti-2"> The dim paths of the night</l>
+				<l n="93" rendition="#ti-1"> Set the shadow called God</l>
+				<l n="94" rendition="#ti-2"> In your skies to give light;</l>
+				<l n="95"> But the morning of manhood is risen, and the shadow-less soul is in
+					sight.</l>
+			</lg>
+			<pb n="76" facs="acs0000001-02-091"/>
+			<lg>
+				<l n="96" rendition="#ti-1"> The tree many-rooted</l>
+				<l n="97" rendition="#ti-2"> That swells to the sky</l>
+				<l n="98" rendition="#ti-1"> With frondage red-fruited,</l>
+				<l n="99" rendition="#ti-2"> The life-tree am I;</l>
+				<l n="100"> In the buds of your lives is the sap of my leaves: ye shall live and not
+					die.</l>
+			</lg>
+			<lg>
+				<l n="101" rendition="#ti-1"> But the Gods of your fashion</l>
+				<l n="102" rendition="#ti-2"> That take and that give,</l>
+				<l n="103" rendition="#ti-1"> In their pity and passion</l>
+				<l n="104" rendition="#ti-2"> That scourge and forgive,</l>
+				<l n="105"> They are worms that are bred in the bark that falls off; they shall die
+					and not live.</l>
+			</lg>
+			<lg>
+				<l n="106" rendition="#ti-1"> My own blood is what stanches</l>
+				<l n="107" rendition="#ti-2"> The wounds in my bark;</l>
+				<l n="108" rendition="#ti-1"> Stars caught in my branches</l>
+				<l n="109" rendition="#ti-2"> Make day of the dark,</l>
+				<l n="110"> And are worshipped as suns till the sunrise shall tread out their fires
+					as a spark.</l>
+			</lg>
+			<lg>
+				<l n="111" rendition="#ti-1"> Where dead ages hide under</l>
+				<l n="112" rendition="#ti-2"> The live roots of the tree,</l>
+				<l n="113" rendition="#ti-1"> In my darkness the thunder</l>
+				<l n="114" rendition="#ti-2"> Makes utterance of me;</l>
+				<l n="115"> In the clash of my boughs with each other ye hear the waves sound of the
+					sea.</l>
+			</lg>
+			<lg>
+				<l n="116" rendition="#ti-1"> That noise is of Time,</l>
+				<l n="117" rendition="#ti-2"> As his feathers are spread</l>
+				<l n="118" rendition="#ti-1"> And his feet set to climb</l>
+				<l n="119" rendition="#ti-2"> Through the boughs overhead,</l>
+				<l n="120"> And my foliage rings round him and rustles, and branches are bent with
+					his tread.</l>
+			</lg>
+			<pb n="77" facs="acs0000001-02-092"/>
+			<lg>
+				<l n="121" rendition="#ti-1"> The storm-winds of ages</l>
+				<l n="122" rendition="#ti-2"> Blow through me and cease,</l>
+				<l n="123" rendition="#ti-1"> The war-wind that rages,</l>
+				<l n="124" rendition="#ti-2"> The spring-wind of peace,</l>
+				<l n="125"> Ere the breath of them roughen my tresses, ere one of my blossoms
+					increase.</l>
+			</lg>
+			<lg>
+				<l n="126" rendition="#ti-1"> All sounds of all changes,</l>
+				<l n="127" rendition="#ti-2"> All shadows and lights</l>
+				<l n="128" rendition="#ti-1"> On the world's mountain-ranges</l>
+				<l n="129" rendition="#ti-2"> And stream-riven heights,</l>
+				<l n="130"> Whose tongue is the wind's tongue and language of storm-clouds on
+					earth-shaking nights;</l>
+			</lg>
+			<lg>
+				<l n="131" rendition="#ti-1"> All forms of all faces,</l>
+				<l n="132" rendition="#ti-2"> All works of all hands</l>
+				<l n="133" rendition="#ti-1"> In unsearchable places</l>
+				<l n="134" rendition="#ti-2"> Of time-stricken lands,</l>
+				<l n="135"> All death and all life, and all reigns and all ruins, drop through me as
+					sands.</l>
+			</lg>
+			<lg>
+				<l n="136" rendition="#ti-1"> Though sore be my burden</l>
+				<l n="137" rendition="#ti-2"> And more than ye know,</l>
+				<l n="138" rendition="#ti-1"> And my growth have no guerdon</l>
+				<l n="139" rendition="#ti-2"> But only to grow,</l>
+				<l n="140"> Yet I fail not of growing for lightnings above me or deathworms below.
+				</l>
+			</lg>
+			<lg>
+				<l n="141" rendition="#ti-1"> These too have their part in me,</l>
+				<l n="142" rendition="#ti-2"> As I too in these;</l>
+				<l n="143" rendition="#ti-1"> Such fire is at heart in me,</l>
+				<l n="144" rendition="#ti-2"> Such sap is this tree's,</l>
+				<l n="145"> Which hath in it all sounds and all secrets of infinite lands and of
+					seas.</l>
+			</lg>
+			<pb n="78" facs="acs0000001-02-093"/>
+			<lg>
+				<l n="146" rendition="#ti-1"> In the spring-coloured hours</l>
+				<l n="147" rendition="#ti-2"> When my mind was as May's,</l>
+				<l n="148" rendition="#ti-1"> There brake forth of me flowers</l>
+				<l n="149" rendition="#ti-2"> By centuries of days,</l>
+				<l n="150"> Strong blossoms with perfume of manhood, shot out from my spirit as
+					rays.</l>
+			</lg>
+			<lg>
+				<l n="151" rendition="#ti-1"> And the sound of them springing</l>
+				<l n="152" rendition="#ti-2"> And smell of their shoots</l>
+				<l n="153" rendition="#ti-1"> Were as warmth and sweet singing</l>
+				<l n="154" rendition="#ti-2"> And strength to my roots;</l>
+				<l n="155"> And the lives of my children made perfect with freedom of soul were my
+					fruits.</l>
+			</lg>
+			<lg>
+				<l n="156" rendition="#ti-1"> I bid you but be;</l>
+				<l n="157" rendition="#ti-2"> I have need not of prayer;</l>
+				<l n="158" rendition="#ti-1"> I have need of you free</l>
+				<l n="159" rendition="#ti-2"> As your mouths of mine air;</l>
+				<l n="160"> That my heart may be greater within me, beholding the fruits of me fair.
+				</l>
+			</lg>
+			<lg>
+				<l n="161" rendition="#ti-1"> More fair than strange fruit is</l>
+				<l n="162" rendition="#ti-2"> Of faiths ye espouse;</l>
+				<l n="163" rendition="#ti-1"> In me only the root is</l>
+				<l n="164" rendition="#ti-2"> That blooms in your boughs;</l>
+				<l n="165"> Behold now your God that ye made you, to feed him with faith of your
+					vows.</l>
+			</lg>
+			<lg>
+				<l n="166" rendition="#ti-1"> In the darkening and whitening</l>
+				<l n="167" rendition="#ti-2"> Abysses adored,</l>
+				<l n="168" rendition="#ti-1"> With dayspring and lightning</l>
+				<l n="169" rendition="#ti-2"> For lamp and for sword,</l>
+				<l n="170"> God thunders in heaven, and his angels are red with the wrath of the
+					Lord.</l>
+			</lg>
+			<pb n="79" facs="acs0000001-02-094"/>
+			<lg>
+				<l n="171" rendition="#ti-1"> O my sons, O too dutiful</l>
+				<l n="172" rendition="#ti-2"> Toward Gods not of me,</l>
+				<l n="173" rendition="#ti-1"> Was not I enough beautiful?</l>
+				<l n="174" rendition="#ti-2"> Was it hard to be free?</l>
+				<l n="175"> For behold, I am with you, am in you and of you; look forth now and see.
+				</l>
+			</lg>
+			<lg>
+				<l n="176" rendition="#ti-1"> Lo, winged with world's wonders,</l>
+				<l n="177" rendition="#ti-2"> With miracles shod,</l>
+				<l n="178" rendition="#ti-1"> With the fires of his thunders</l>
+				<l n="179" rendition="#ti-2"> For raiment and rod,</l>
+				<l n="180"> God trembles in heaven, and his angels are white with the terror of God.
+				</l>
+			</lg>
+			<lg>
+				<l n="181" rendition="#ti-1"> For his twilight is come on him,</l>
+				<l n="182" rendition="#ti-2"> His anguish is here;</l>
+				<l n="183" rendition="#ti-1"> And his spirits gaze dumb on him,</l>
+				<l n="184" rendition="#ti-2"> Grown grey from his fear;</l>
+				<l n="185"> And his hour taketh hold on him stricken, the last of his infinite year.
+				</l>
+			</lg>
+			<lg>
+				<l n="186" rendition="#ti-1"> Thought made him and breaks him,</l>
+				<l n="187" rendition="#ti-2"> Truth slays and forgives;</l>
+				<l n="188" rendition="#ti-1"> But to you, as time takes him,</l>
+				<l n="189" rendition="#ti-2"> This new thing it gives,</l>
+				<l n="190"> Even love, the beloved Republic, that feeds upon freedom and lives.</l>
+			</lg>
+			<lg>
+				<l n="191" rendition="#ti-1"> For truth only is living,</l>
+				<l n="192" rendition="#ti-2"> Truth only is whole,</l>
+				<l n="193" rendition="#ti-1"> And the love of his giving</l>
+				<l n="194" rendition="#ti-2"> Man's polestar and pole;</l>
+				<l n="195"> Man, pulse of my centre, and fruit of my body, and seed of my soul.</l>
+			</lg>
+			<pb n="80" facs="acs0000001-02-095"/>
+			<lg>
+				<l n="196" rendition="#ti-1"> One birth of my bosom;</l>
+				<l n="197" rendition="#ti-2"> One beam of mine eye;</l>
+				<l n="198" rendition="#ti-1"> One topmost blossom</l>
+				<l n="199" rendition="#ti-2"> That scales the sky;</l>
+				<l n="200"> Man, equal and one with me, man that is made of me, man that is I.</l>
+			</lg>
+		</body>
+	<back><div n="[notes]"/></back></text></TEI>

@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02-i011"><teiHeader><fileDesc><titleStmt>
+            <title>Before a Crucifix</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt><publicationStmt xml:base="includes/publicationStmt.xml">
+    <publisher>Digital Culture Lab, <ref target="http://www.ils.indiana.edu/">Department of Information and Library Science</ref>, <ref target="http://www.soic.indiana.edu/">School of Informatics and Computing</ref>, <ref target="http://www.indiana.edu/">Indiana
+    University</ref>
+</publisher>
+    <pubPlace>Bloomington, IN</pubPlace>
+    <date when="2008"/>
+    <availability>
+    <p> Copyright © 1997-2012 John A. Walsh. </p>
+    <p>
+        <ref type="license" target="http://creativecommons.org/licenses/by/3.0/"><figure rend="border-width:0;margin:0;padding:0;">
+                <figDesc>Creative Commons License</figDesc>
+                <graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+            </figure></ref>
+        <bibl><title>The Algernon Charles Swinburne Project</title>, edited by <editor>John A.
+                Walsh</editor></bibl>, is freely licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
+            Unported License</ref>. </p>
+</availability>
+</publicationStmt><seriesStmt xml:base="includes/seriesStmt.xml">
+        <title>The Algernon Charles Swinburne Project: A Digital Collection Devoted to the Life and Work of Victorian Poet Algernon Charles Swinburne.</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName key="jawalsh">John A. Walsh</persName>
+        </respStmt>
+</seriesStmt><sourceDesc><biblStruct><analytic>
+                     <title>Before a Crucifix</title>
+                     <author>
+							                 <persName key="acs"> Swinburne, Algernon Charles </persName>
+						               </author>
+                  </analytic><monogr>
+						               <title>The Poems of Algernon Charles Swinburne</title>
+						               <imprint>
+							                 <pubPlace> London </pubPlace>
+							                 <publisher>Chatto &amp; Windus</publisher>
+							                 <date when="1904"> 1904 </date>
+							                 <biblScope type="vol"> 2 </biblScope>
+							                 <biblScope type="pp"> 81-87 </biblScope>
+						               </imprint>
+						               <extent> 6 vols. </extent>
+                  </monogr><idno type="nines">sbscrcfx00</idno><relatedItem type="original_collection"><biblStruct n="original_collection">
+                  <analytic>
+                     <title>Before a Crucifix</title>
+                     <author>
+							                 <persName key="acs"> Swinburne, Algernon Charles </persName>
+						               </author>
+                  </analytic>
+                  <monogr>
+                     <title>Songs Before Sunrise</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>F. S. Ellis</publisher>
+                        <date xml:id="sort_date" when="1871"/>
+                     </imprint>
+                  </monogr>
+               </biblStruct></relatedItem></biblStruct></sourceDesc></fileDesc><encodingDesc>
+         <tagsDecl xml:base="includes/tagsDecl.xml">
+    <rendition n="mono" xml:id="mono" scheme="css">font-family: Courier, monospace</rendition>
+    <rendition n="code" xml:id="code" scheme="css">font-family: courier, monospace; </rendition>
+    <!-- font-size -->
+    <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
+    <rendition n="x-small" xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+    <rendition n="xx-small" xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+    <rendition n="large" xml:id="large" scheme="css">font-size: large;</rendition>
+    <rendition n="x-large" xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+    <rendition n="xx-large" xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+    <!-- font-style -->
+    <rendition n="italic" xml:id="i" scheme="css">font-style: italic;</rendition>
+    <rendition n="normal" xml:id="n" scheme="css">font-style: normal;</rendition>
+    <!-- font-variant -->
+    <rendition n="small caps" xml:id="sc" scheme="css">font-variant: small-caps;</rendition>
+    <!-- font-weight -->
+    <rendition n="bold" xml:id="b" scheme="css">font-weight: bold;</rendition>
+    <!-- text-decoration -->
+    <rendition n="strike through" xml:id="strike" scheme="css">text-decoration: line-through;</rendition>
+    <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
+    <rendition n="double underline" xml:id="uu" scheme="css">text-decoration: underline;
+        border-bottom: 1px solid black;</rendition>
+    <rendition n="block" xml:id="block" scheme="css">display: block; margin: 4em;</rendition>
+    <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4em;</rendition>
+    <rendition n="expanded letter spacing" xml:id="expanded" scheme="css">letter-spacing: +3pt;</rendition>
+    
+    <!-- text-transform -->
+    <rendition n="uppercase" xml:id="uc" scheme="css">text-transform: uppercase;</rendition>
+    <!-- text-align -->
+    <rendition n="align center" xml:id="center" scheme="css">text-align: center;</rendition>
+    <rendition n="align right" xml:id="right" scheme="css">text-align: right;</rendition>
+    <rendition n="align left" xml:id="left" scheme="css">text-align: right;</rendition>
+    
+    <!-- block alignment: centers a block of text, but doesn't affect the 
+    alignment of text withing the centered block.-->
+    
+    <rendition n="center block" xml:id="center-block" scheme="css">
+        margin-left:auto;
+        margin-right:auto;
+    </rendition>
+    
+
+    <!-- text-indent: hanging indents for verse-->
+    <rendition n="indent 1 level" xml:id="ti-1" scheme="css">text-indent: 1em;</rendition>
+    <rendition n="indent 2 levels" xml:id="ti-2" scheme="css">text-indent: 2em;</rendition>
+    <rendition n="indent 3 levels" xml:id="ti-3" scheme="css">text-indent: 3em;</rendition>
+    <rendition n="indent 4 levels" xml:id="ti-4" scheme="css">text-indent: 4em;</rendition>
+    <rendition n="indent 5 levels" xml:id="ti-5" scheme="css">text-indent: 5em;</rendition>
+    <rendition n="indent 6 levels" xml:id="ti-6" scheme="css">text-indent: 6em;</rendition>
+    <rendition n="indent 7 levels" xml:id="ti-7" scheme="css">text-indent: 7em;</rendition>
+    <rendition n="indent 8 levels" xml:id="ti-8" scheme="css">text-indent: 8em;</rendition>
+    <rendition n="indent 9 levels" xml:id="ti-9" scheme="css">text-indent: 9em;</rendition>
+    <rendition n="indent 10 levels" xml:id="ti-10" scheme="css">text-indent: 10em;</rendition>
+    <rendition n="indent 10 levels" xml:id="ti-11" scheme="css">text-indent: 11em;</rendition>
+    <rendition n="indent 12 levels" xml:id="ti-12" scheme="css">text-indent: 12em;</rendition>
+    <rendition n="indent 13 levels" xml:id="ti-13" scheme="css">text-indent: 13em;</rendition>
+    <rendition n="indent 14 levels" xml:id="ti-14" scheme="css">text-indent: 14em;</rendition>
+    <rendition n="indent 15 levels" xml:id="ti-15" scheme="css">text-indent: 15em;</rendition>
+    <rendition n="indent 16 levels" xml:id="ti-16" scheme="css">text-indent: 16em;</rendition>
+    <rendition n="indent 17 levels" xml:id="ti-17" scheme="css">text-indent: 17em;</rendition>
+    <rendition n="indent 18 levels" xml:id="ti-18" scheme="css">text-indent: 18em;</rendition>
+    <rendition n="indent 19 levels" xml:id="ti-19" scheme="css">text-indent: 19em;</rendition>
+    <rendition n="indent 20 levels" xml:id="ti-20" scheme="css">text-indent: 20em;</rendition>
+    <rendition n="indent 21 levels" xml:id="ti-21" scheme="css">text-indent: 21em;</rendition>
+    <rendition n="indent 22 levels" xml:id="ti-22" scheme="css">text-indent: 22em;</rendition>
+    
+
+    <!-- vertical-align -->
+    <rendition n="subscript" xml:id="sub" scheme="css">vertical-align: sub;</rendition>
+    <rendition n="superscript" xml:id="super" scheme="css">vertical-align: super;</rendition>
+    
+    <rendition n="border" xml:id="border" scheme="css">border: 2px solid;</rendition>
+    
+    <!-- color -->
+    <rendition n="red" xml:id="red" scheme="css">color: red;</rendition>
+    <rendition n="blue" xml:id="blue" scheme="css">color: blue;</rendition>
+    <!-- compound CSS -->
+    <rendition n="hanging indent" xml:id="hang" scheme="css">margin-left: 2em; text-indent: -2em;
+        padding: 0;</rendition>
+    <rendition n="inline" xml:id="inline" scheme="css">display: inline</rendition>
+    <rendition n="suppress" xml:id="suppress" scheme="css">display: none</rendition>
+    <rendition n="wide" xml:id="wide" scheme="css">width:100%</rendition>
+    
+    <!-- non-CSS styles -->
+    <rendition n="inline speaker" xml:id="inline-speaker" scheme="free">Name of speaker appears on same line as start of speech</rendition>
+    <rendition n="triple space" xml:id="tripleSpace" scheme="free">milestone indicated by blank space approximately three lines in height"</rendition>
+    <rendition n="ellipsis with 5 dots" xml:id="ellipsis_5_dot" scheme="free">. . . . .</rendition>
+    <rendition n="ellipsis with 6 dots" xml:id="ellipsis_6_dot" scheme="free">. . . . . .</rendition>
+    <rendition n="ellipsis with 7 dots" xml:id="ellipsis_7_dot" scheme="free">. . . . . . .</rendition>
+    <rendition n="ellipsis with 7 asterisks" xml:id="ellipsis_7_asterisk" scheme="free">* * * * * * *</rendition>
+    <rendition n="graphic" xml:id="graphic" scheme="free">Graphically rendered element; currently
+        used for tables that should be graphically highlighted with color.</rendition>
+    <rendition n="rtl" xml:id="rtl" scheme="free">right to left language</rendition>
+    <rendition n="erased" xml:id="erased" scheme="free">used for deleted text that is legible, not stuck out, but erased—visibly lighter than surrounding text.</rendition>
+    <rendition n="inline column" xml:id="inlineColumn" scheme="free">inline list in verticle format</rendition>
+    <rendition n="angle bracket" xml:id="bracket" scheme="free">surrounding angle brackets</rendition>
+    <rendition n="sublinear caret insertion point" xml:id="subcaret" scheme="free">insert a sublinear
+        caret, ⁁</rendition>
+    <rendition n="upside down" xml:id="upsidedown" scheme="free">text or image is upside down</rendition>
+    <rendition n="caret insertion point" xml:id="caret" scheme="free">insert a caret, ⁁</rendition>
+    <rendition n="post line, right" xml:id="postright" scheme="free">Heading, typically used in
+        Swinburne for strophes and antiphones, that appears to the right of (i.e., after or "post")
+        the first line of the strophe or antiphone.</rendition>
+
+    <rendition n="horizontal rule" xml:id="hr" scheme="free">typical horizontal
+        rule that separates notes from the rest of the page, e.g., html <gi>hr</gi>.</rendition>
+    <rendition n="note reference" xml:id="noteRef" scheme="css">verical-align: super; font-size:
+        xx-small;</rendition>
+    <rendition n="inner line group" xml:id="sublg" scheme="free">sub line group; a subdivision of a
+        line group, such as the octet and sextet of a sonnet, that is a logical group but is not set
+        off typographically.</rendition>
+    
+    <rendition n="parentheses" xml:id="parens" scheme="free">Element is surrounded by parentheses. Implemented in CSS with .parens:before {content:
+        "(";} .parens:after {content: ")";}</rendition>
+    <rendition n="chronoTableDate" xml:id="chronoTableDate" scheme="css">/* date cell in a chronology
+        table */ font-style: italic;</rendition>
+    <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
+    <rendition n="embedHeadRight" xml:id="embedHeadRight" scheme="css">head/label embedded in a block
+        element, e.g., paragraph. See Study of Ben Jonson.</rendition>
+    <rendition n="embedHeadLeft" xml:id="embedHeadLeft" scheme="free">head/label embedded in a block
+        element, e.g., paragraph. See Study of Ben Jonson.</rendition>
+    <rendition n="indent" xml:id="indent" scheme="css">.indent:before {content:
+        "\A0\A0\A0\A0\A0\A0";} /* Should be implmented as .indent {text-indent: 4em;}, but a bug in Safari causes block elements to re-indent when interrupted by another block element. */&gt;</rendition>
+    <rendition n="comic font" xml:id="comicFont" scheme="css">font-family: CCBlahBlahBlah;</rendition>
+    <rendition n="single quotes" xml:id="sq" scheme="css">
+        span.sq:before {
+        content: "\2018";
+        }
+        span.sq:after {
+        content: "\2019";
+        }
+    </rendition>
+    <rendition n="double quotes" xml:id="dq" scheme="css">
+        span.dq:before {
+        content: "\201C";
+        }
+        span.dq:after {
+        content: "\201D";
+        }
+    </rendition>
+    <rendition n="no quotes" xml:id="nq" scheme="free">Used in <att>rendition</att> of <gi>q</gi> or <gi>quote</gi> for inline quoted speech or quotations that are not marked with quotation marks.</rendition>
+    <rendition n="table of contents" xml:id="toc" scheme="other"/>
+    <rendition n="wrapped code / wrappped formatted text" xml:id="wrap">
+    overflow-x: auto;
+/* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+    white-space: pre-wrap;
+/* css-3 */
+    white-space: -moz-pre-wrap !important;
+/* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+/* Opera 4-6 */
+    white-space: -o-pre-wrap;
+/* Opera 7 */
+/* width: 99%; */
+    word-wrap: break-word;
+/* Internet Explorer 5.5+ */
+    </rendition>
+    <!-- lists -->
+    <rendition n="deprecated:noBullets" xml:id="noBullets" scheme="css">list-style-type: none; </rendition>
+    <rendition xml:id="list-style-type_none" n="list style: none">list-style-type:none;</rendition>
+    <rendition xml:id="list-style-type_circle" n="list style: circle">list-style-type:circle;</rendition>
+    <rendition xml:id="list-style-type_disc" n="list style: disc">list-style-type:disc;</rendition>
+    <rendition xml:id="list-style-type_square" n="list style: square">list-style-type:square;</rendition>
+    <rendition xml:id="list-style-type_armenian" n="list style: armenian">list-style-type:armenian;</rendition>
+    <rendition xml:id="list-style-type_decimal" n="list style: decimal">list-style-type:decimal;</rendition>
+    <rendition xml:id="list-style-type_decimal-leading-zero" n="list style: decimal-leading-zero">list-style-type:decimal-leading-zero;</rendition>
+    <rendition xml:id="list-style-type_georgian" n="list style: georgian">list-style-type:georgian;</rendition>
+    <rendition xml:id="list-style-type_lower-alpha" n="list style: lower-alpha">list-style-type:lower-alpha;</rendition>
+    <rendition xml:id="list-style-type_lower-greek" n="list style: lower-greek">list-style-type:lower-greek;</rendition>
+    <rendition xml:id="list-style-type_lower-roman" n="list style: lower-roman">list-style-type:lower-roman;</rendition>
+    <rendition xml:id="list-style-type_upper-alpha" n="list style: upper-alpha">list-style-type:upper-alpha;</rendition>
+    <rendition xml:id="list-style-type_upper-roman" n="list style: upper-roman">list-style-type:upper-roman;</rendition>
+    <rendition xml:id="list" n="list" scheme="free">Indicates a element such as <gi>castItem</gi> is rendered in list form.</rendition>
+    <rendition xml:id="braced-right" n="braced right" scheme="free">Indicates that a block in a list (e.g., a castGroup in a CastList) is marked by a brace to the right of the list block.</rendition>
+    
+    <rendition xml:id="asteriskDivider" scheme="free">
+        Typically used on <gi>milestone</gi> elements. A string of asterisks representing some sort of division in the text. May be implemented in CSS as below:
+        <eg>
+.asteriskDivider:before {
+  content: "* * * * *";
+}
+        </eg>
+    </rendition>
+    
+    <!-- 
+        none  	No marker
+        circle 	The marker is a circle
+        disc 	The marker is a filled circle. This is default
+        square 	The marker is a square
+        armenian 	The marker is traditional Armenian numbering
+        decimal 	The marker is a number
+        decimal-leading-zero 	The marker is a number padded by initial zeros (01, 02, 03, etc.)
+        georgian 	The marker is traditional Georgian numbering (an, ban, gan, etc.)
+        lower-alpha 	The marker is lower-alpha (a, b, c, d, e, etc.)
+        lower-greek 	The marker is lower-greek (alpha, beta, gamma, etc.)
+        lower-latin 	The marker is lower-latin (a, b, c, d, e, etc.)
+        lower-roman 	The marker is lower-roman (i, ii, iii, iv, v, etc.)
+        upper-alpha 	The marker is upper-alpha (A, B, C, D, E, etc.) 
+        upper-latin 	The marker is upper-latin (A, B, C, D, E, etc.)
+        upper-roman 	The marker is upper-roman (I, II, III, IV, V, etc.)
+        -->
+        
+
+</tagsDecl>
+<classDecl xml:id="collex_genres" xml:base="includes/collex_genres.xml">
+        <taxonomy>
+          <bibl><ptr target="http://linktocollexgenres/"/></bibl>
+          
+          <category xml:id="collex_genre_architecture">
+            <catDesc>Architecture</catDesc>
+          </category>
+          <category xml:id="collex_genre_artifacts">
+            <catDesc>Artifacts</catDesc>
+          </category>
+          <category xml:id="collex_genre_bibliography">
+            <catDesc>Bibliography</catDesc>
+          </category>
+          <category xml:id="collex_genre_book_history">
+            <catDesc>Book History</catDesc>
+          </category>
+          <category xml:id="collex_genre_citation">
+            <catDesc>Citation</catDesc>
+          </category>
+          <category xml:id="collex_genre_collection">
+            <catDesc>Collection</catDesc>
+          </category>
+          <category xml:id="collex_genre_criticism">
+            <catDesc>Criticism</catDesc>
+          </category>
+          <category xml:id="collex_genre_drama">
+            <catDesc>Drama</catDesc>
+          </category>
+          <category xml:id="collex_genre_education">
+            <catDesc>Education</catDesc>
+          </category>
+          <category xml:id="collex_genre_ephemera">
+            <catDesc>Ephemera</catDesc>
+          </category>
+          <category xml:id="collex_genre_family_life">
+            <catDesc>Family Life</catDesc>
+          </category>
+          <category xml:id="collex_genre_fiction">
+            <catDesc>Fiction</catDesc>
+          </category>
+          <category xml:id="collex_genre_folklore">
+            <catDesc>Folklore</catDesc>
+          </category>
+          <category xml:id="collex_genre_history">
+            <catDesc>History</catDesc>
+          </category>
+          <category xml:id="collex_genre_humor">
+            <catDesc>Humor</catDesc>
+          </category>
+          <category xml:id="collex_genre_law">
+            <catDesc>Law</catDesc>
+          </category>
+          <category xml:id="collex_genre_leisure">
+            <catDesc>Leisure</catDesc>
+          </category>
+          <category xml:id="collex_genre_letters">
+            <catDesc>Letters</catDesc>
+          </category>
+          <category xml:id="collex_genre_life_writing">
+            <catDesc>Life Writing</catDesc>
+          </category>
+          <category xml:id="collex_genre_manuscript">
+            <catDesc>Manuscript</catDesc>
+          </category>
+          <category xml:id="collex_genre_music">
+            <catDesc>Music</catDesc>
+          </category>
+          <category xml:id="collex_genre_nonfiction">
+            <catDesc>Nonfiction</catDesc>
+          </category>
+          <category xml:id="collex_genre_paratext">
+            <catDesc>Paratext</catDesc>
+          </category>
+          <category xml:id="collex_genre_periodical">
+            <catDesc>Periodical</catDesc>
+          </category>
+          <category xml:id="collex_genre_philosophy">
+            <catDesc>Philosophy</catDesc>
+          </category>
+          <category xml:id="collex_genre_photograph">
+            <catDesc>Photograph</catDesc>
+          </category>
+          <category xml:id="collex_genre_poetry">
+            <catDesc>Poetry</catDesc>
+          </category>
+          <category xml:id="collex_genre_politics">
+            <catDesc>Politics</catDesc>
+          </category>
+          <category xml:id="collex_genre_reference_works">
+            <catDesc>Reference Works</catDesc>
+          </category>
+          <category xml:id="collex_genre_religion">
+            <catDesc>Religion</catDesc>
+          </category>
+          <category xml:id="collex_genre_review">
+            <catDesc>Review</catDesc>
+          </category>
+          <category xml:id="collex_genre_science">
+            <catDesc>Science</catDesc>
+          </category>
+          <category xml:id="collex_genre_translation">
+            <catDesc>Translation</catDesc>
+          </category>
+          <category xml:id="collex_genre_travel">
+            <catDesc>Travel</catDesc>
+          </category>
+          <category xml:id="collex_genre_visual_art">
+            <catDesc>Visual Art</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+      </encodingDesc><profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_poetry"/>
+         </textClass>
+      </profileDesc></teiHeader><text xml:id="acs0000001-02-i011-content" type="poem">
+		<index indexName="text" corresp="acs0000153-md.xml"/>
+		<body>
+			<pb n="81" facs="acs0000001-02-096"/>
+			<head rendition="#center #uc">Before a Crucifix</head>
+			<lg>
+				<l n="1">
+					<hi rendition="#sc">Here</hi>, down between the dusty trees,</l>
+				<l n="2" rendition="#ti-1"> At this lank edge of haggard wood,</l>
+				<l n="3"> Women with labour-loosened knees,</l>
+				<l n="4" rendition="#ti-1"> With gaunt backs bowed by servitude,</l>
+				<l n="5"> Stop, shift their loads, and pray, and fare</l>
+				<l n="6"> Forth with souls easier for the prayer.</l>
+			</lg>
+			<lg>
+				<l n="7"> The suns have branded black, the rains</l>
+				<l n="8" rendition="#ti-1"> Striped grey this piteous God of theirs;</l>
+				<l n="9"> The face is full of prayers and pains,</l>
+				<l n="10" rendition="#ti-1"> To which they bring their pains and prayers;</l>
+				<l n="11"> Lean limbs that shew the labouring bones,</l>
+				<l n="12"> And ghastly mouth that gapes and groans.</l>
+			</lg>
+			<lg>
+				<l n="13"> God of this grievous people, wrought</l>
+				<l n="14" rendition="#ti-1"> After the likeness of their race,</l>
+				<l n="15"> By faces like thine own besought,</l>
+				<l n="16" rendition="#ti-1"> Thine own blind helpless eyeless face,</l>
+				<l n="17"> I too, that have nor tongue nor knee</l>
+				<l n="18"> For prayer, I have a word to thee.</l>
+			</lg>
+			<lg>
+				<l n="19"> It was for this then, that thy speech</l>
+				<l n="20" rendition="#ti-1"> Was blown about the world in flame</l>
+				<l n="21"> And men's souls shot up out of reach</l>
+				<l n="22" rendition="#ti-1"> Of fear or lust or thwarting shame —</l>
+				<l n="23"> That thy faith over souls should pass</l>
+				<l n="24"> As sea-winds burning the grey grass?</l>
+			</lg>
+			<pb n="82" facs="acs0000001-02-097"/>
+			<lg>
+				<l n="25"> It was for this, that prayers like these</l>
+				<l n="26" rendition="#ti-1"> Should spend themselves about thy feet,</l>
+				<l n="27"> And with hard overlaboured knees</l>
+				<l n="28" rendition="#ti-1"> Kneeling, these slaves of men should beat</l>
+				<l n="29"> Bosoms too lean to suckle sons</l>
+				<l n="30"> And fruitless as their orisons?</l>
+			</lg>
+			<lg>
+				<l n="31"> It was for this, that men should make</l>
+				<l n="32" rendition="#ti-1"> Thy name a fetter on men's necks,</l>
+				<l n="33"> Poor men's made poorer for thy sake,</l>
+				<l n="34" rendition="#ti-1"> And women's withered out of sex?</l>
+				<l n="35"> It was for this, that slaves should be,</l>
+				<l n="36"> Thy word was passed to set men free?</l>
+			</lg>
+			<lg>
+				<l n="37"> The nineteenth wave of the ages rolls</l>
+				<l n="38" rendition="#ti-1"> Now deathward since thy death and birth.</l>
+				<l n="39"> Hast thou fed full men's starved-out souls?</l>
+				<l n="40" rendition="#ti-1"> Hast thou brought freedom upon earth?</l>
+				<l n="41"> Or are there less oppressions done</l>
+				<l n="42"> In this wild world under the sun?</l>
+			</lg>
+			<lg>
+				<l n="43"> Nay, if indeed thou be not dead,</l>
+				<l n="44" rendition="#ti-1"> Before thy terrene shrine be shaken,</l>
+				<l n="45"> Look down, turn usward, bow thine head;</l>
+				<l n="46" rendition="#ti-1"> O thou that wast of God forsaken,</l>
+				<l n="47"> Look on thine household here, and see</l>
+				<l n="48"> These that have not forsaken thee.</l>
+			</lg>
+			<lg>
+				<l n="49"> Thy faith is fire upon their lips,</l>
+				<l n="50" rendition="#ti-1"> Thy kingdom golden in their hand;</l>
+				<l n="51"> They scourge us with thy words for whips,</l>
+				<l n="52" rendition="#ti-1"> They brand us with thy words for brands;</l>
+				<l n="53"> The thirst that made thy dry throat shrink</l>
+				<l n="54"> To their moist mouths commends the drink.</l>
+			</lg>
+			<pb n="83" facs="acs0000001-02-098"/>
+			<lg>
+				<l n="55"> The toothèd thorns that bit thy brows</l>
+				<l n="56" rendition="#ti-1"> Lighten the weight of gold on theirs;</l>
+				<l n="57"> Thy nakedness enrobes thy spouse</l>
+				<l n="58" rendition="#ti-1"> With the soft sanguine stuff she wears</l>
+				<l n="59"> Whose old limbs use for ointment yet</l>
+				<l n="60"> Thine agony and bloody sweat.</l>
+			</lg>
+			<lg>
+				<l n="61"> The blinding buffets on thine head</l>
+				<l n="62" rendition="#ti-1"> On their crowned heads confirm the crown;</l>
+				<l n="63"> Thy scourging dyes their raiment red,</l>
+				<l n="64" rendition="#ti-1"> And with thy bands they fasten down</l>
+				<l n="65"> For burial in the blood-bought field</l>
+				<l n="66"> The nations by thy stripes unhealed.</l>
+			</lg>
+			<lg>
+				<l n="67"> With iron for thy linen bands</l>
+				<l n="68" rendition="#ti-1"> And unclean cloths for winding-sheet</l>
+				<l n="69"> They bind the people's nail-pierced hands,</l>
+				<l n="70" rendition="#ti-1"> They hide the people's nail-pierced feet;</l>
+				<l n="71"> And what man or what angel known</l>
+				<l n="72"> Shall roll back the sepulchral stone?</l>
+			</lg>
+			<lg>
+				<l n="73"> But these have not the rich man's grave</l>
+				<l n="74" rendition="#ti-1"> To sleep in when their pain is done.</l>
+				<l n="75"> These were not fit for God to save.</l>
+				<l n="76" rendition="#ti-1"> As naked hell-fire is the sun</l>
+				<l n="77"> In their eyes living, and when dead</l>
+				<l n="78"> These have not where to lay their head.</l>
+			</lg>
+			<lg>
+				<l n="79"> They have no tomb to dig, and hide;</l>
+				<l n="80" rendition="#ti-1"> Earth is not theirs, that they should sleep.</l>
+				<l n="81"> On all these tombless crucified</l>
+				<l n="82" rendition="#ti-1"> No lovers' eyes have time to weep.</l>
+				<l n="83"> So still, for all man's tears and creeds,</l>
+				<l n="84"> The sacred body hangs and bleeds.</l>
+			</lg>
+			<pb n="84" facs="acs0000001-02-099"/>
+			<lg>
+				<l n="85"> Through the left hand a nail is driven,</l>
+				<l n="86" rendition="#ti-1"> Faith, and another through the right,</l>
+				<l n="87"> Forged in the fires of hell and heaven,</l>
+				<l n="88" rendition="#ti-1"> Fear that puts out the eye of light:</l>
+				<l n="89"> And the feet soiled and scarred and pale</l>
+				<l n="90"> Are pierced with falsehood for a nail.</l>
+			</lg>
+			<lg>
+				<l n="91"> And priests against the mouth divine</l>
+				<l n="92" rendition="#ti-1"> Push their sponge full of poison yet</l>
+				<l n="93"> And bitter blood for myrrh and wine,</l>
+				<l n="94" rendition="#ti-1"> And on the same reed is it set</l>
+				<l n="95"> Wherewith before they buffeted</l>
+				<l n="96"> The people's disanointed head.</l>
+			</lg>
+			<lg>
+				<l n="97"> O sacred head, O desecrate,</l>
+				<l n="98" rendition="#ti-1"> O labour-wounded feet and hands,</l>
+				<l n="99"> O blood poured forth in pledge to fate</l>
+				<l n="100" rendition="#ti-1"> Of nameless lives in divers lands,</l>
+				<l n="101"> O slain and spent and sacrificed</l>
+				<l n="102"> People, the grey-grown speechless Christ!</l>
+			</lg>
+			<lg>
+				<l n="103"> Is there a gospel in the red</l>
+				<l n="104" rendition="#ti-1"> Old witness of thy wide-mouthed wounds?</l>
+				<l n="105"> From thy blind stricken tongueless head</l>
+				<l n="106" rendition="#ti-1"> What desolate evangel sounds</l>
+				<l n="107"> A hopeless note of hope deferred?</l>
+				<l n="108"> What word, if there be any word?</l>
+			</lg>
+			<lg>
+				<l n="109"> O son of man, beneath man's feet</l>
+				<l n="110" rendition="#ti-1"> Cast down, O common face of man</l>
+				<l n="111"> Whereon all blows and buffets meet,</l>
+				<l n="112" rendition="#ti-1"> O royal, O republican</l>
+				<l n="113"> Face of the people bruised and dumb</l>
+				<l n="114"> And longing till thy kingdom come!</l>
+			</lg>
+			<pb n="85" facs="acs0000001-02-100"/>
+			<lg>
+				<l n="115"> The soldiers and the high priests part</l>
+				<l n="116" rendition="#ti-1"> Thy vesture: all thy days are priced,</l>
+				<l n="117"> And all the nights that eat thine heart.</l>
+				<l n="118" rendition="#ti-1"> And that one seamless coat of Christ,</l>
+				<l n="119"> The freedom of the natural soul,</l>
+				<l n="120"> They cast their lots for to keep whole.</l>
+			</lg>
+			<lg>
+				<l n="121"> No fragment of it save the name</l>
+				<l n="122" rendition="#ti-1"> They leave thee for a crown of scorns</l>
+				<l n="123"> Wherewith to mock thy naked shame</l>
+				<l n="124" rendition="#ti-1"> And forehead bitten through with thorns</l>
+				<l n="125"> And, marked with sanguine sweat and tears,</l>
+				<l n="126"> The stripes of eighteen hundred years.</l>
+			</lg>
+			<lg>
+				<l n="127"> And we seek yet if God or man</l>
+				<l n="128" rendition="#ti-1"> Can loosen thee as <persName key="lazarus" corresp="#unfamiliar">Lazarus</persName>,</l>
+				<l n="129"> Bid thee rise up republican</l>
+				<l n="130" rendition="#ti-1"> And save thyself and all of us;</l>
+				<l n="131"> But no disciple's tongue can say</l>
+				<l n="132"> When thou shalt take our sins away.</l>
+			</lg>
+			<lg>
+				<l n="133"> And mouldering now and hoar with moss</l>
+				<l n="134" rendition="#ti-1"> Between us and the sunlight swings</l>
+				<l n="135"> The phantom of a Christless cross</l>
+				<l n="136" rendition="#ti-1"> Shadowing the sheltered heads of kings</l>
+				<l n="137"> And making with its moving shade</l>
+				<l n="138"> The souls of harmless men afraid.</l>
+			</lg>
+			<lg>
+				<l n="139"> It creaks and rocks to left and right</l>
+				<l n="140" rendition="#ti-1"> Consumed of rottenness and rust,</l>
+				<l n="141"> Worm-eaten of the worms of night,</l>
+				<l n="142" rendition="#ti-1"> Dead as their spirits who put trust,</l>
+				<l n="143"> Round its base muttering as they sit,</l>
+				<l n="144"> In the time-cankered name of it.</l>
+			</lg>
+			<pb n="86" facs="acs0000001-02-101"/>
+			<lg>
+				<l n="145"> Thou, in the day that breaks thy prison,</l>
+				<l n="146" rendition="#ti-1"> People, though these men take thy name,</l>
+				<l n="147"> And hail and hymn thee rearisen,</l>
+				<l n="148" rendition="#ti-1"> Who made songs erewhile of thy shame,</l>
+				<l n="149"> Give thou not ear; for these are they</l>
+				<l n="150"> Whose good day was thine evil day.</l>
+			</lg>
+			<lg>
+				<l n="151"> Set not thine hand unto their cross.</l>
+				<l n="152" rendition="#ti-1"> Give not thy soul up sacrificed.</l>
+				<l n="153"> Change not the gold of faith for dross</l>
+				<l n="154" rendition="#ti-1"> Of Christian creeds that spit on Christ.</l>
+				<l n="155"> Let not thy tree of freedom be</l>
+				<l n="156"> Regrafted from that rotting tree.</l>
+			</lg>
+			<lg>
+				<l n="157"> This dead God here against my face</l>
+				<l n="158" rendition="#ti-1"> Hath help for no man; who hath seen</l>
+				<l n="159"> The good works of it, or such grace</l>
+				<l n="160" rendition="#ti-1"> As thy grace in it, <rs key="jesus" type="person">Nazarene</rs>,</l>
+				<l n="161"> As that from thy live lips which ran</l>
+				<l n="162"> For man's sake, O thou son of man?</l>
+			</lg>
+			<lg>
+				<l n="163"> The tree of faith ingraffed by priests</l>
+				<l n="164" rendition="#ti-1"> Puts its foul foliage out above thee,</l>
+				<l n="165"> And round it feed man-eating beasts</l>
+				<l n="166" rendition="#ti-1"> Because of whom we dare not love thee;</l>
+				<l n="167"> Though hearts reach back and memories ache,</l>
+				<l n="168"> We cannot praise thee for their sake.</l>
+			</lg>
+			<lg>
+				<l n="169"> O hidden face of man, whereover</l>
+				<l n="170" rendition="#ti-1"> The years have woven a viewless veil,</l>
+				<l n="171"> If thou wast verily man's lover,</l>
+				<l n="172" rendition="#ti-1"> What did thy love or blood avail?</l>
+				<l n="173"> Thy blood the priests make poison of,</l>
+				<l n="174"> And in gold shekels coin thy love.</l>
+			</lg>
+			<pb n="87" facs="acs0000001-02-102"/>
+			<lg>
+				<l n="175"> So when our souls look back to thee</l>
+				<l n="176" rendition="#ti-1"> They sicken, seeing against thy side,</l>
+				<l n="177"> Too foul to speak of or to see,</l>
+				<l n="178" rendition="#ti-1"> The leprous likeness of a bride,</l>
+				<l n="179"> Whose kissing lips through his lips grown</l>
+				<l n="180"> Leave their God rotten to the bone.</l>
+			</lg>
+			<lg>
+				<l n="181"> When we would see thee man, and know</l>
+				<l n="182" rendition="#ti-1"> What heart thou hadst toward men indeed,</l>
+				<l n="183"> Lo, thy blood-blackened altars; lo,</l>
+				<l n="184" rendition="#ti-1"> The lips of priests that pray and feed</l>
+				<l n="185"> While their own hell's worm curls and licks</l>
+				<l n="186"> The poison of the crucifix.</l>
+			</lg>
+			<lg>
+				<l n="187"> Thou bad'st let children come to thee;</l>
+				<l n="188" rendition="#ti-1"> What children now but curses come?</l>
+				<l n="189"> What manhood in that God can be</l>
+				<l n="190" rendition="#ti-1"> Who sees their worship, and is dumb?</l>
+				<l n="191"> No soul that lived, loved, wrought, and died,</l>
+				<l n="192"> Is this their carrion crucified.</l>
+			</lg>
+			<lg>
+				<l n="193"> Nay, if their God and thou be one,</l>
+				<l n="194" rendition="#ti-1"> If thou and this thing be the same,</l>
+				<l n="195"> Thou shouldst not look upon the sun;</l>
+				<l n="196" rendition="#ti-1"> The sun grows haggard at thy name.</l>
+				<l n="197"> Come down, be done with, cease, give o'er;</l>
+				<l n="198"> Hide thyself, strive not, be no more.</l>
+			</lg>
+		</body>
+	<back><div n="[notes]"/></back></text></TEI>
