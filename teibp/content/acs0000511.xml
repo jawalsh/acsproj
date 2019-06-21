@@ -7,7 +7,7 @@
                <persName key="jawalsh">John A. Walsh</persName>
             </editor>
          </titleStmt><publicationStmt xml:base="includes/publicationStmt.xml">
-    <publisher>Digital Culture Lab, <ref target="http://www.ils.indiana.edu/">Department of Information and Library Science</ref>, <ref target="http://www.soic.indiana.edu/">School of Informatics and Computing</ref>, <ref target="http://www.indiana.edu/">Indiana
+    <publisher>Digital Culture Lab, <ref target="http://www.ils.indiana.edu/">Department of Information &amp; Library Science</ref>, <ref target="http://www.soic.indiana.edu/">School of Informatics &amp; Computing</ref>, <ref target="http://www.indiana.edu/">Indiana
     University</ref>
 </publisher>
     <pubPlace>Bloomington, IN</pubPlace>
@@ -24,7 +24,7 @@
             Unported License</ref>. </p>
 </availability>
 </publicationStmt><seriesStmt xml:base="includes/seriesStmt.xml">
-        <title>The Algernon Charles Swinburne Project: A Digital Collection Devoted to the Life and Work of Victorian Poet Algernon Charles Swinburne.</title>
+        <title>The Algernon Charles Swinburne Project: A Digital Collection Devoted to the Life &amp; Work of Victorian Poet Algernon Charles Swinburne.</title>
         <respStmt>
             <resp>Edited by</resp>
             <persName key="jawalsh">John A. Walsh</persName>
@@ -40,7 +40,7 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1904"> 1904 </date>
-							                 <biblScope type="vol"> 2 </biblScope>
+							                 <biblScope type="vol"> </biblScope>
 							                 <biblScope type="pp"> 72-80 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
@@ -161,7 +161,7 @@
     <rendition n="upside down" xml:id="upsidedown" scheme="free">text or image is upside down</rendition>
     <rendition n="caret insertion point" xml:id="caret" scheme="free">insert a caret, ⁁</rendition>
     <rendition n="post line, right" xml:id="postright" scheme="free">Heading, typically used in
-        Swinburne for strophes and antiphones, that appears to the right of (i.e., after or "post")
+        Swinburne for strophes &amp; antiphones, that appears to the right of (i.e., after or "post")
         the first line of the strophe or antiphone.</rendition>
 
     <rendition n="horizontal rule" xml:id="hr" scheme="free">typical horizontal
@@ -169,7 +169,7 @@
     <rendition n="note reference" xml:id="noteRef" scheme="css">verical-align: super; font-size:
         xx-small;</rendition>
     <rendition n="inner line group" xml:id="sublg" scheme="free">sub line group; a subdivision of a
-        line group, such as the octet and sextet of a sonnet, that is a logical group but is not set
+        line group, such as the octet &amp; sextet of a sonnet, that is a logical group but is not set
         off typographically.</rendition>
     
     <rendition n="parentheses" xml:id="parens" scheme="free">Element is surrounded by parentheses. Implemented in CSS with .parens:before {content:
@@ -382,330 +382,362 @@
       </profileDesc></teiHeader><text xml:id="acs0000001-02-i010-content" type="poem">
 						<index indexName="text" corresp="acs0000001-02-i010-md.xml"/>
 		<body>
-			<pb n="72" facs="acs0000001-02-087"/>
-			<head rendition="#center #uc"><persName key="hertha" corresp="#unfamiliar">Hertha</persName></head>
+			<pb n="f01r"/>
+			<note resp="jawalsh">In the top left corner of each recto is written, not in Swinburne's hand, in erased pencil, at a diagonal risiing from left to right, a word or words beginning with a capital H. On 3 recto it appears to be <emph>Harris</emph> but eleswhere may be some other word(s).</note>
+			<fw rendition="block" place="top right" type="pageNum"><del type="erasure">15</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum"><del>1</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum">1</fw>
+			<head rendition="#center #u"><persName key="hertha" corresp="#unfamiliar">Hertha</persName></head>
 			<lg>
-				<l n="1" rendition="#ti-1">
-					<hi rendition="#sc"> I am </hi> that which began;</l>
-				<l n="2" rendition="#ti-2"> Out of me the years roll;</l>
-				<l n="3" rendition="#ti-1"> Out of me God and man;</l>
-				<l n="4" rendition="#ti-2"> I am equal and whole;</l>
-				<l n="5"> God changes, and man, and the form of them bodily; I am the soul.</l>
+				<l n="1" rendition="#ti-1">I am that which began;</l>
+				<l n="2" rendition="#ti-2">Out of me the years roll;</l>
+				<l n="3" rendition="#ti-1">Out of me God &amp; man;</l>
+				<l n="4" rendition="#ti-2">I am equal &amp; whole;</l>
+				<l n="5">God changes, &amp; man, &amp; the form of them bodily; I am the soul.</l>
 			</lg>
 			<lg>
-				<l n="6" rendition="#ti-1"> Before ever land was,</l>
-				<l n="7" rendition="#ti-2"> Before ever the sea,</l>
-				<l n="8" rendition="#ti-1"> Or soft hair of the grass,</l>
-				<l n="9" rendition="#ti-2"> Or fair limbs of the tree,</l>
-				<l n="10"> Or the flesh-coloured fruit of my branches, I was, and thy soul was in
+				<l n="6" rendition="#ti-1">Before ever land was,</l>
+				<l n="7" rendition="#ti-2">Before ever the sea,</l>
+				<l n="8" rendition="#ti-1">Or soft hair of the grass,</l>
+				<l n="9" rendition="#ti-2">Or fair limbs of the tree,</l>
+				<l n="10">Or the flesh-coloured fruit of my branches, I was, &amp; <subst><del seq="1">their</del><add seq="2" place="above">thy</add></subst>⁁ <note resp="jawalsh">Insertion caret appears below center of <emph>their</emph>.</note> soul was in
 					me.</l>
 			</lg>
 			<lg>
-				<l n="11" rendition="#ti-1"> First life on my sources</l>
-				<l n="12" rendition="#ti-2"> First drifted and swam;</l>
-				<l n="13" rendition="#ti-1"> Out of me are the forces</l>
-				<l n="14" rendition="#ti-2"> That save it or damn;</l>
-				<l n="15"> Out of me man and woman, and wild-beast and bird; before God was, I am.
+				<l n="11" rendition="#ti-1">First life on my sources</l>
+				<l n="12" rendition="#ti-2">First drifted &amp; swam;</l>
+				<l n="13" rendition="#ti-1">Out of me are the forces</l>
+				<l n="14" rendition="#ti-2">That save it or damn;</l>
+				<l n="15">Out of me man &amp; woman, &amp; wild-beast &amp; bird; before God was, I am.
 				</l>
 			</lg>
 			<lg>
-				<l n="16" rendition="#ti-1"> Beside or above me</l>
-				<l n="17" rendition="#ti-2"> Nought is there to go;</l>
-				<l n="18" rendition="#ti-1"> Love or unlove me,</l>
-				<l n="19" rendition="#ti-2"> Unknow me or know,</l>
-				<l n="20"> I am that which unloves me and loves; I am stricken, and I am the blow.
-				</l>
-			</lg>
-			<pb n="73" facs="acs0000001-02-088"/>
-			<lg>
-				<l n="21" rendition="#ti-1"> I the mark that is missed</l>
-				<l n="22" rendition="#ti-2"> And the arrows that miss,</l>
-				<l n="23" rendition="#ti-1"> I the mouth that is kissed</l>
-				<l n="24" rendition="#ti-2"> And the breath in the kiss,</l>
-				<l n="25"> The search, and the sought, and the seeker, the soul and the body that
-					is.</l>
-			</lg>
-			<lg>
-				<l n="26" rendition="#ti-1"> I am that thing which blesses</l>
-				<l n="27" rendition="#ti-2"> My spirit elate;</l>
-				<l n="28" rendition="#ti-1"> That which caresses</l>
-				<l n="29" rendition="#ti-2"> With hands uncreate</l>
-				<l n="30"> My limbs unbegotten that measure the length of the measure of fate.</l>
-			</lg>
-			<lg>
-				<l n="31" rendition="#ti-1"> But what thing dost thou now,</l>
-				<l n="32" rendition="#ti-2"> Looking Godward, to cry</l>
-				<l n="33" rendition="#ti-1"> “I am I, thou art thou,</l>
-				<l n="34" rendition="#ti-2"> I am low, thou art high”?</l>
-				<l n="35"> I am thou, whom thou seekest to find him; find thou but thyself, thou art
-					I.</l>
-			</lg>
-			<lg>
-				<l n="36" rendition="#ti-1"> I the grain and the furrow,</l>
-				<l n="37" rendition="#ti-2"> The plough-cloven clod</l>
-				<l n="38" rendition="#ti-1"> And the ploughshare drawn thorough,</l>
-				<l n="39" rendition="#ti-2"> The germ and the sod,</l>
-				<l n="40"> The deed and the doer, the seed and the sower, the dust which is God.
+				<l n="16" rendition="#ti-1">Beside or above me</l>
+				<l n="17" rendition="#ti-2">Nought is there to go;</l>
+				<l n="18" rendition="#ti-1">Love or unlove me,</l>
+				<l n="19" rendition="#ti-2">Unknow me or know,</l>
+				<l n="20">I am that which unloves me &amp; loves; I am stricken, &amp; I am the blow.
 				</l>
 			</lg>
 			<lg>
-				<l n="41" rendition="#ti-1"> Hast thou known how I fashioned thee,</l>
-				<l n="42" rendition="#ti-2"> Child, underground?</l>
-				<l n="43" rendition="#ti-1"> Fire that impassioned thee,</l>
-				<l n="44" rendition="#ti-2"> Iron that bound,</l>
-				<l n="45"> Dim changes of water, what thing of all these hast thou known of or
-					found?</l>
-			</lg>
-			<pb n="74" facs="acs0000001-02-089"/>
-			<lg>
-				<l n="46" rendition="#ti-1"> Canst thou say in thine heart</l>
-				<l n="47" rendition="#ti-2"> Thou hast seen with thine eyes</l>
-				<l n="48" rendition="#ti-1"> With what cunning of art</l>
-				<l n="49" rendition="#ti-2"> Thou wast wrought in what wise,</l>
-				<l n="50"> By what force of what stuff thou wast shapen, and shown on my breast to
-					the skies?</l>
+				<l n="21" rendition="#ti-1">I the mark that is missed</l>
+				<l n="22" rendition="#ti-2">And the arrows that miss,</l>
+				<l n="23" rendition="#ti-1">I the mouth that is kissed</l>
+				<l n="24" rendition="#ti-2">And the breath in the kiss,</l>
+				<l n="25">The search, &amp; the sought, &amp; the seeker, the soul &amp; the body that is.</l>
 			</lg>
 			<lg>
-				<l n="51" rendition="#ti-1"> Who hath given, who hath sold it thee,</l>
-				<l n="52" rendition="#ti-2"> Knowledge of me?</l>
-				<l n="53" rendition="#ti-1"> Hath the wilderness told it thee?</l>
-				<l n="54" rendition="#ti-2"> Hast thou learnt of the sea?</l>
-				<l n="55"> Hast thou communed in spirit with night? have the winds taken counsel
-					with thee?</l>
+				<l n="26" rendition="#ti-1">I am that thing which blesses</l>
+				<l n="27" rendition="#ti-2">My spirit elate,<note resp="jawalsh">Printed version includes semi-colon, rather than comma, after <emph>elate</emph>.</note></l>
+				<l n="28" rendition="#ti-1">That which caresses</l>
+				<l n="29" rendition="#ti-2">With hands uncreate</l>
+				<l n="30">My limbs unbegotten that measure the length of the measure of fate.</l>
+			</lg>
+			<pb n="f01v"/>
+			<pb n="f02r"/>
+			<fw rendition="block" place="top right" type="pageNum"><del type="erasure">16</del><note resp="jawalsh">The erased page numbers were written in pencil. The erased page numbers are written larger and and appear to the left of the other two page numbers written in ink.</note></fw>
+			<fw rendition="#block" place="top right" type="pageNum"><del>2</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum">2</fw>
+			<lg>
+				<l n="31" rendition="#ti-1">But what thing <subst><del seq="1">do ye</del><add seq="2" place="above">dost thou</add></subst>⁁ <note resp="jawalsh">Insertion caret appears below center of <emph>ye</emph>.</note> now,</l>
+				<l n="32" rendition="#ti-2">Looking Godward, to cry</l>
+				<l n="33" rendition="#ti-1">‘I am I, thou art thou,</l>
+				<l n="34" rendition="#ti-2">I am low, thou art high’?</l>
+				<l n="35">I am thou, whom thou seekest to find him; find thou but thyself, thou art I.</l>
 			</lg>
 			<lg>
-				<l n="56" rendition="#ti-1"> Have I set such a star</l>
-				<l n="57" rendition="#ti-2"> To show light on thy brow</l>
-				<l n="58" rendition="#ti-1"> That thou sawest from afar</l>
-				<l n="59" rendition="#ti-2"> What I show to thee now?</l>
-				<l n="60"> Have ye spoken as brethren together, the sun and the mountains and thou?
+				<l n="36" rendition="#ti-1">I the grain &amp; the furrow,</l>
+				<l n="37" rendition="#ti-2"><subst><del seq="1">And the germ &amp; the sod,</del><add seq="2" place="above">The plough-cloven clod</add></subst></l>
+				<l n="38" rendition="#ti-1">And <subst><del seq="1">I</del><add seq="2" place="inline">the</add></subst> ploughshare drawn thorough,</l>
+				<l n="39" rendition="#ti-2"><subst><del seq="1">And the plough-cloven clod,</del><add seq="2" place="above">The germ &amp; the sod,</add></subst></l>
+				<l n="40"><subst><del seq="1">And</del><add seq="2" place="inline">The</add></subst> deed &amp; the doer, <del><unclear cert="high">&amp;</del> the seed &amp; the sower, <del><unclear cert="high">&amp;</unclear></del> the dust <add place="above">worm</add> which is <add place="above">grave-worm &amp;</add> God. <note resp="jawalsh">Swinburne introduces alternate wording for this line, without deleting the original <emph>the dust which is God</emph>, which appeared in the printed version. The two alternates appear to be, <emph>the worm which is God</emph> and <emph>the grave-worm &amp; God</emph>.
 				</l>
 			</lg>
 			<lg>
-				<l n="61" rendition="#ti-1"> What is here, dost thou know it?</l>
-				<l n="62" rendition="#ti-2"> What was, hast thou known?</l>
-				<l n="63" rendition="#ti-1"> Prophet nor poet</l>
-				<l n="64" rendition="#ti-2"> Nor tripod nor throne</l>
-				<l n="65"> Nor spirit nor flesh can make answer, but only thy mother alone.</l>
+				<l n="41" rendition="#ti-1">Hast thou known how I fashioned thee,</l>
+				<l n="42" rendition="#ti-2">Child, underground?</l>
+				<l n="43" rendition="#ti-1">Fire that impassioned thee,</l>
+				<l n="44" rendition="#ti-2">Iron that bound,</l>
+				<l n="45">Dim changes of water, what thing of all these hast thou known of or found?</l>
 			</lg>
 			<lg>
-				<l n="66" rendition="#ti-1"> Mother, not maker,</l>
-				<l n="67" rendition="#ti-2"> Born, and not made;</l>
-				<l n="68" rendition="#ti-1"> Though her children forsake her,</l>
-				<l n="69" rendition="#ti-2"> Allured or afraid,</l>
-				<l n="70"> Praying prayers to the God of their fashion, she stirs not for all that
-					have prayed.</l>
-			</lg>
-			<pb n="75" facs="acs0000001-02-090"/>
-			<lg>
-				<l n="71" rendition="#ti-1"> A creed is a rod,</l>
-				<l n="72" rendition="#ti-2"> And a crown is of night;</l>
-				<l n="73" rendition="#ti-1"> But this thing is God,</l>
-				<l n="74" rendition="#ti-2"> To be man with thy might,</l>
-				<l n="75"> To grow straight in the strength of thy spirit, and live out thy life as
-					the light.</l>
+				<l n="46" rendition="#ti-1">Canst thou say in thine heart</l>
+				<l n="47" rendition="#ti-2">Thou hast <add place="above">Hast thou</add> seen with thine eyes<note resp="jawalsh">Another alternative wording. Swinburne adds <emph>Hast thou</emph> above <emph>Thou hast</emph>, but neither is deleted. The original <emph>Thouh hast/</emph> ended up in the printed version.</note></l>
+				<l n="48" rendition="#ti-1">With what cunning of art</l>
+				<l n="49" rendition="#ti-2">Thou wast wrought in what wise,</l>
+				<l n="50">By <add place="above"><del>With</del></add> what force of<add place="above"><del>from</del></add> what stuff thou wast shapen, &amp; shown on my breast to the <subst><del seq="1">skies</del><add seq="2" place="above">skies</add></subst>?<note resp="jawalsh">S. deletes <emph>skies</emph> then reinstates it above.</note></l>
 			</lg>
 			<lg>
-				<l n="76" rendition="#ti-1"> I am in thee to save thee,</l>
-				<l n="77" rendition="#ti-2"> As my soul in thee saith;</l>
-				<l n="78" rendition="#ti-1"> Give thou as I gave thee,</l>
-				<l n="79" rendition="#ti-2"> Thy life-blood and breath,</l>
-				<l n="80"> Green leaves of thy labour, white flowers of thy thought, and red fruit
+				<l n="51" rendition="#ti-1">Who hath given, who hath sold it thee,</l>
+				<l n="52" rendition="#ti-2">Knowledge of me?</l>
+				<l n="53" rendition="#ti-1">Hath the wilderness told it thee?</l>
+				<l n="54" rendition="#ti-2">Hast thou learnt of the sea?</l>
+				<l n="55">Hast thou communed in spirit with night? have the winds taken counsel
+					<lb />with thee?<note resp="jawlsh">S. can't fit entire verse on a single line, so <emph>with thee?<emph> appears below <emph>in spirit</emph>.</l>
+			</lg>
+			<lg>
+				<l n="56" rendition="#ti-1">Have I set such a star</l>
+				<l n="57" rendition="#ti-2">To show light on thy brow</l>
+				<l n="58" rendition="#ti-1">That thou sawest from afar</l>
+				<l n="59" rendition="#ti-2">What I show to thee now?</l>
+				<l n="60">Have ye spoken as brethren together, the sun &amp; the mountains &amp; thou?
+				</l>
+			</lg>
+			<pb n="f02v"/>
+			<pb n="f03r"/>
+			<fw rendition="block" place="top right" type="pageNum"><del type="erasure">17</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum"><del>3</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum">3</fw>
+			<lg>
+				<l n="61" rendition="#ti-1">What is here, dost thou know it?</l>
+				<l n="62" rendition="#ti-2">What was, hast thou known?</l>
+				<l n="63" rendition="#ti-1">Prophet nor poet</l>
+				<l n="64" rendition="#ti-2">Nor tripod nor throne</l>
+				<l n="65">Nor spirit nor flesh can make answer, but only thy mother alone.</l>
+			</lg>
+			<lg><note resp="jawalsh"><emph>Harris</emph> is written to the left of this stanza, in erased pencil. Not in S’s hand.</note>
+				<l n="66" rendition="#ti-1">Mother, not maker,</l>
+				<l n="67" rendition="#ti-2">Born, &amp; not made;</l>
+				<l n="68" rendition="#ti-1">Though her children forsake her,</l>
+				<l n="69" rendition="#ti-2">Allured or afraid,</l>
+				<l n="70">Praying prayers to the God of their fashion, she stirs not for all th<subst><del seq="1">ey</del><add seq="2" place="above">at</add><!-- they/that --></subst>at have prayed.</l>
+			</lg>
+			<lg>
+				<l n="71" rendition="#ti-1">A creed is a rod,</l>
+				<l n="72" rendition="#ti-2">And a crown is of night;</l>
+				<l n="73" rendition="#ti-1">But this thing is God,</l>
+				<l n="74" rendition="#ti-2">To be man with thy might,</l>
+				<l n="75">To grow straight in the strength of thy spirit,<add place="below">soul, &amp; live on out of life into light.</add> &amp; live out thy life as
+					the <add place="above">die out of life into</add> light.</l>
+					<note resp="jawalsh">Three alternate readings here. As printed, <emph>To grow straight in the strength of thy spirit, and live out they life as the light.</emph> Or, <emph>To grow straight in the strength of thy soul, and live on out of life into light.</emph> Or, <emph>To grow straight in the strength of thy spirit, and die out of life into light.</emph></note>
+			</lg>
+			<lg>
+				<l n="76" rendition="#ti-1">I am in thee to save thee,</l>
+				<l n="77" rendition="#ti-2"><subst><del seq="1">My</del><add seq="2" place="above">As <del>thy</del> my</add></subst> soul in thee saith;</l>
+				<l n="78" rendition="#ti-1">Give thou as I gave thee,</l>
+				<l n="79" rendition="#ti-2">Thy life-blood &amp; breath,</l>
+				<l n="80">Green leaves of thy labour, white flowers of thy thought, &amp; red fruit
 					of thy death.</l>
 			</lg>
 			<lg>
-				<l n="81" rendition="#ti-1"> Be the ways of thy giving</l>
-				<l n="82" rendition="#ti-2"> As mine were to thee;</l>
-				<l n="83" rendition="#ti-1"> The free life of thy living,</l>
-				<l n="84" rendition="#ti-2"> Be the gift of it free;</l>
-				<l n="85"> Not as servant to lord, nor as master to slave, shalt thou give thee to
+				<l n="81" rendition="#ti-1">Be the ways of thy giving</l>
+				<l n="82" rendition="#ti-2">As mine were to thee;</l>
+				<l n="83" rendition="#ti-1">The free life of thy living,</l>
+				<l n="84" rendition="#ti-2">Be the gift of it free;</l>
+				<l n="85">Not as servant to lord, nor as master to slave, shalt thou give thee to
 					me.</l>
 			</lg>
 			<lg>
-				<l n="86" rendition="#ti-1"> O children of banishment,</l>
-				<l n="87" rendition="#ti-2"> Souls overcast,</l>
-				<l n="88" rendition="#ti-1"> Were the lights ye see vanish meant</l>
-				<l n="89" rendition="#ti-2"> Alway to last,</l>
-				<l n="90"> Ye would know not the sun overshining the shadows and stars overpast.
-				</l>
+				<l n="86" rendition="#ti-1">O children of banishment,</l>
+				<l n="87" rendition="#ti-2">Souls overcast,</l>
+				<l n="88" rendition="#ti-1">Were the lights ye see vanish meant</l>
+				<l n="89" rendition="#ti-2">Alway to last,</l>
+				<l n="90">Ye would know not the sun overshining the shadows &amp; stars<lb/> overpast.<note resp="jawalsh">S. writes <emph>overpast.</emph> under <emph>the sun</emph>.</note></l>
 			</lg>
+			<pb n="f03v"/>
+			<note resp="jawalsh">A number of stanzas are written on 3 verso. The stanzas are preceded by a right-facing carat, with a corresponding carat on 4 recto indicationg where these stazas are to be inserted into the poem. They are transcribed below at the point of insertion.</note>
+			<pb n="f04r"/>
+			<fw rendition="block" place="top right" type="pageNum"><del type="erasure">18</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum"><del>4</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum">4</fw>
 			<lg>
-				<l n="91" rendition="#ti-1"> I that saw where ye trod</l>
-				<l n="92" rendition="#ti-2"> The dim paths of the night</l>
-				<l n="93" rendition="#ti-1"> Set the shadow called God</l>
-				<l n="94" rendition="#ti-2"> In your skies to give light;</l>
-				<l n="95"> But the morning of manhood is risen, and the shadow-less soul is in
-					sight.</l>
+				<l n="91" rendition="#ti-1">I that saw where ye trod</l>
+				<l n="92" rendition="#ti-2">The dim paths of the night</l>
+				<l n="93" rendition="#ti-1">Set the shadow called God</l>
+				<l n="94" rendition="#ti-2">In your skies to give light;</l>
+				<l n="95">But the morning of manhood is risen, &amp; the <subst><del seq="1">sun &amp; the</del><add place="above">shadowless</add><add place="above">soul of the sun</add></subst> soul is in
+					sight.<note resp="jawalsh">In the substition in l. 95, shadowless appears undeleted above <emph>sun &amp; the</emph> and <emph>soul of the sun</emph>, deleted, appears above <emph>shadowless</emph>. It is unclear which addition was added first. I.e., was <emph>soul of the sun</emph> added first and <emph>shadowless</emph> sandwiched in between?</l>
 			</lg>
-			<pb n="76" facs="acs0000001-02-091"/>
+			<addSpan spanTo="endSpan01" place="opposite"/>
+			<ab>></ab>
 			<lg>
-				<l n="96" rendition="#ti-1"> The tree many-rooted</l>
-				<l n="97" rendition="#ti-2"> That swells to the sky</l>
-				<l n="98" rendition="#ti-1"> With frondage red-fruited,</l>
-				<l n="99" rendition="#ti-2"> The life-tree am I;</l>
-				<l n="100"> In the buds of your lives is the sap of my leaves: ye shall live and not
+				<l n="96" rendition="#ti-1">The tree many-rooted</l>
+				<l n="97" rendition="#ti-2">That swells to the sky</l>
+				<l n="98" rendition="#ti-1">With frondage red-fruited,</l>
+				<l n="99" rendition="#ti-2">The life-tree am I;</l>
+				<l n="100">In the buds of your lives is the sap of my leaves: ye shall live &amp; not
 					die.</l>
 			</lg>
 			<lg>
-				<l n="101" rendition="#ti-1"> But the Gods of your fashion</l>
-				<l n="102" rendition="#ti-2"> That take and that give,</l>
-				<l n="103" rendition="#ti-1"> In their pity and passion</l>
-				<l n="104" rendition="#ti-2"> That scourge and forgive,</l>
-				<l n="105"> They are worms that are bred in the bark that falls off; they shall die
-					and not live.</l>
+				<l n="101" rendition="#ti-1">But the Gods of your fashion</l>
+				<l n="102" rendition="#ti-2">That take &amp; that give,</l>
+				<l n="103" rendition="#ti-1">In their pity &amp; passion</l>
+				<l n="104" rendition="#ti-2">That scourge &amp; forgive,</l>
+				<l n="105">They are worms that are bred in the bark that falls off; they shall die
+					&amp; not live.</l>
 			</lg>
 			<lg>
-				<l n="106" rendition="#ti-1"> My own blood is what stanches</l>
-				<l n="107" rendition="#ti-2"> The wounds in my bark;</l>
-				<l n="108" rendition="#ti-1"> Stars caught in my branches</l>
-				<l n="109" rendition="#ti-2"> Make day of the dark,</l>
-				<l n="110"> And are worshipped as suns till the sunrise shall tread out their fires
-					as a spark.</l>
+				<l n="106" rendition="#ti-1">Mine own blood is what stanches <note resp="jawalsh"><emph>Mine</emph> is <emph>My</emph> in printed text.</note></l>
+				<l n="107" rendition="#ti-2">The wounds in my bark;</l>
+				<l n="108" rendition="#ti-1">Stars caught in my branches</l>
+				<note resp="jawalsh">A line is vertical line is drawn to the left of <emph>Star caught</emph> that then extends horizontall over <emph>Stars</emph> and ending over the <emph>c</emph> of <emph>caught</emph>. Above this drawn line is written, in S’s hand, something that looks like <unclear cert="low">I lip 9</emph>.</note>
+				<l n="109" rendition="#ti-2">Make day of the dark,</l>
+				<l n="110">And are worshipped as suns till the sunrise shall tread out their fires as a spark.</l>
 			</lg>
 			<lg>
-				<l n="111" rendition="#ti-1"> Where dead ages hide under</l>
-				<l n="112" rendition="#ti-2"> The live roots of the tree,</l>
-				<l n="113" rendition="#ti-1"> In my darkness the thunder</l>
-				<l n="114" rendition="#ti-2"> Makes utterance of me;</l>
-				<l n="115"> In the clash of my boughs with each other ye hear the waves sound of the
-					sea.</l>
+				<l n="111" rendition="#ti-1">Where dead ages hide under</l>
+				<l n="112" rendition="#ti-2">The live roots of the tree,</l>
+				<l n="113" rendition="#ti-1">In my darkness the thunder</l>
+				<l n="114" rendition="#ti-2">Makes utterance of me;</l>
+				<l n="115">In the clash of my boughs with each other ye hear the waves sound of the sea.</l>
 			</lg>
 			<lg>
-				<l n="116" rendition="#ti-1"> That noise is of Time,</l>
-				<l n="117" rendition="#ti-2"> As his feathers are spread</l>
-				<l n="118" rendition="#ti-1"> And his feet set to climb</l>
-				<l n="119" rendition="#ti-2"> Through the boughs overhead,</l>
-				<l n="120"> And my foliage rings round him and rustles, and branches are bent with
+				<l n="116" rendition="#ti-1">That noise is of Time <note resp="jawalsh">A comma appears after <emph>Time</emph> in the printed text.</note></l>
+				<l n="117" rendition="#ti-2">As his feathers <add place="above"><unclear cert="medium">pinions</unclear><note resp="jawalsh">Neither <emph>feathers</emph> nor <emph>pinions</emph> is deleted.</note></add> are spread</l>
+				<l n="118" rendition="#ti-1">And his feet set to climb</l>
+				<l n="119" rendition="#ti-2">Through the boughs overhead,</l>
+				<l n="120">And my foliage rings round him &amp; rustles, &amp; branches are bent with
 					his tread.</l>
 			</lg>
-			<pb n="77" facs="acs0000001-02-092"/>
 			<lg>
-				<l n="121" rendition="#ti-1"> The storm-winds of ages</l>
-				<l n="122" rendition="#ti-2"> Blow through me and cease,</l>
-				<l n="123" rendition="#ti-1"> The war-wind that rages,</l>
-				<l n="124" rendition="#ti-2"> The spring-wind of peace,</l>
-				<l n="125"> Ere the breath of them roughen my tresses, ere one of my blossoms
-					increase.</l>
+				<l n="121" rendition="#ti-1">The storm-winds of ages</l>
+				<l n="122" rendition="#ti-2">Blow through me &amp; cease,</l>
+				<l n="123" rendition="#ti-1">The war-wind that rages,</l>
+				<l n="124" rendition="#ti-2">The spring-wind of peace,</l>
+				<l n="125">Ere the breath of them roughen my tresses, ere one of my blossoms increase.</l>
 			</lg>
 			<lg>
-				<l n="126" rendition="#ti-1"> All sounds of all changes,</l>
-				<l n="127" rendition="#ti-2"> All shadows and lights</l>
-				<l n="128" rendition="#ti-1"> On the world's mountain-ranges</l>
-				<l n="129" rendition="#ti-2"> And stream-riven heights,</l>
-				<l n="130"> Whose tongue is the wind's tongue and language of storm-clouds on
-					earth-shaking nights;</l>
+				<l n="126" rendition="#ti-1">All sounds of all changes,</l>
+				<l n="127" rendition="#ti-2">All shadows &amp; lights</l>
+				<l n="128" rendition="#ti-1">On the world’s mountain-ranges</l>
+				<l n="129" rendition="#ti-2">And stream-riven heights,</l>
+				<l n="130">Whose tongue is the wind’s tongue <add place="above">thunder cloud’s</add> &amp; language <add place="above">&amp; mirth as the</add>of storm-clouds on
+					earth-shaking nights<add place="above">night’s</add>;<note resp="jawalsh">The alternate wording here appears to be: <emph>Whose tongue is the thunder cloud’s language and mirth as the earth-shanking night’s</emph></note></l>
 			</lg>
 			<lg>
-				<l n="131" rendition="#ti-1"> All forms of all faces,</l>
-				<l n="132" rendition="#ti-2"> All works of all hands</l>
-				<l n="133" rendition="#ti-1"> In unsearchable places</l>
-				<l n="134" rendition="#ti-2"> Of time-stricken lands,</l>
-				<l n="135"> All death and all life, and all reigns and all ruins, drop through me as
-					sands.</l>
+				<l n="131" rendition="#ti-1">All forms of all faces,</l>
+				<l n="132" rendition="#ti-2">All works of all hands</l>
+				<l n="133" rendition="#ti-1">In unsearchable places</l>
+				<l n="134" rendition="#ti-2">Of time-stricken lands,</l>
+				<l n="135">All death &amp; all life, &amp; all reigns &amp; all ruins, drop through me as sands.</l>
 			</lg>
 			<lg>
-				<l n="136" rendition="#ti-1"> Though sore be my burden</l>
-				<l n="137" rendition="#ti-2"> And more than ye know,</l>
-				<l n="138" rendition="#ti-1"> And my growth have no guerdon</l>
-				<l n="139" rendition="#ti-2"> But only to grow,</l>
-				<l n="140"> Yet I fail not of growing for lightnings above me or deathworms below.
+				<l n="136" rendition="#ti-1">Though sore be my burden</l>
+				<l n="137" rendition="#ti-2">And more than ye know,</l>
+				<l n="138" rendition="#ti-1">And my growth have no guerdon</l>
+				<l n="139" rendition="#ti-2">But only to grow,</l>
+				<l n="140">Yet I fail not of growing for lightnings above me or deathworms below.
 				</l>
 			</lg>
 			<lg>
-				<l n="141" rendition="#ti-1"> These too have their part in me,</l>
-				<l n="142" rendition="#ti-2"> As I too in these;</l>
-				<l n="143" rendition="#ti-1"> Such fire is at heart in me,</l>
-				<l n="144" rendition="#ti-2"> Such sap is this tree's,</l>
-				<l n="145"> Which hath in it all sounds and all secrets of infinite lands and of
-					seas.</l>
+				<l n="141" rendition="#ti-1">These too have their part in me,</l>
+				<l n="142" rendition="#ti-2">As I too in these;</l>
+				<l n="143" rendition="#ti-1">Such fire is at heart in me,</l>
+				<l n="144" rendition="#ti-2">Such sap is this tree’s,</l>
+				<l n="145">Which hath in it all sounds &amp; all secrets of infinite lands &amp; of seas.</l>
 			</lg>
-			<pb n="78" facs="acs0000001-02-093"/>
+			<cb/>
 			<lg>
-				<l n="146" rendition="#ti-1"> In the spring-coloured hours</l>
-				<l n="147" rendition="#ti-2"> When my mind was as May's,</l>
-				<l n="148" rendition="#ti-1"> There brake forth of me flowers</l>
-				<l n="149" rendition="#ti-2"> By centuries of days,</l>
-				<l n="150"> Strong blossoms with perfume of manhood, shot out from my spirit as
-					rays.</l>
+				<l n="146" rendition="#ti-1">In the spring-coloured hours</l>
+				<l n="147" rendition="#ti-2">When my mind was as May's<note resp="jawalsh">In printed text, a comma appears after <emph>May’s</emph>.</note></l>
+				<l n="148" rendition="#ti-1">There brake forth of me flowers</l>
+				<l n="149" rendition="#ti-2">By centuries of days,</l>
+				<l n="150">Strong blossoms with perfume of manhood, shot out from my spirit as rays.</l>
 			</lg>
 			<lg>
-				<l n="151" rendition="#ti-1"> And the sound of them springing</l>
-				<l n="152" rendition="#ti-2"> And smell of their shoots</l>
-				<l n="153" rendition="#ti-1"> Were as warmth and sweet singing</l>
-				<l n="154" rendition="#ti-2"> And strength to my roots;</l>
-				<l n="155"> And the lives of my children made perfect with freedom of soul were my
-					fruits.</l>
+				<l n="151" rendition="#ti-1">And the sound of them springing</l>
+				<l n="152" rendition="#ti-2">And smell of their shoots</l>
+				<l n="153" rendition="#ti-1">W<subst><del seq="1">as</del><add seq="2" place="above">ere</add><!-- Was/Were --></subst>ere as <subst><del seq="1">fire</del><add seq="2" place="above">warmth</add></subst> ⁁ <note resp="jawalsh">Insertion caret appears beneath center of <emph>fire</emph>.</note> &amp; sweet singing</l>
+				<l n="154" rendition="#ti-2">And strength to my roots;</l>
+				<l n="155">And the lives of my children made perfect with freedom of soul were my
+					fruits.</l><ab>&lt;</ab><note resp="jawalsh">&lt; appears just after and below <emph>fruits.</emph></note>
 			</lg>
+			<anchor xml:id="endSpan01"/>
 			<lg>
-				<l n="156" rendition="#ti-1"> I bid you but be;</l>
-				<l n="157" rendition="#ti-2"> I have need not of prayer;</l>
-				<l n="158" rendition="#ti-1"> I have need of you free</l>
-				<l n="159" rendition="#ti-2"> As your mouths of mine air;</l>
-				<l n="160"> That my heart may be greater within me, beholding the fruits of me fair.
+				<l n="156" rendition="#ti-1">I bid you but be;</l>
+				<l n="157" rendition="#ti-2">I have need not of prayer;</l>
+				<l n="158" rendition="#ti-1">I have need of you free</l>
+				<l n="159" rendition="#ti-2">As your mouths of mine air;</l>
+				<l n="160">That my heart may be greater within me, beholding the fruits of me fair.
 				</l>
 			</lg>
 			<lg>
-				<l n="161" rendition="#ti-1"> More fair than strange fruit is</l>
-				<l n="162" rendition="#ti-2"> Of faiths ye espouse;</l>
-				<l n="163" rendition="#ti-1"> In me only the root is</l>
-				<l n="164" rendition="#ti-2"> That blooms in your boughs;</l>
-				<l n="165"> Behold now your God that ye made you, to feed him with faith of your
-					vows.</l>
+				<l n="161" rendition="#ti-1">More fair than strange fruit is</l>
+				<l n="162" rendition="#ti-2">Of faiths ye espouse;</l>
+				<l n="163" rendition="#ti-1">In me only the root is</l>
+				<l n="164" rendition="#ti-2">That blooms in your boughs;</l>
+				<l n="165">Behold now your God that ye made you, to feed him with faith of your
+					vows.<note resp="jawalsh"><emph>vows.</emph> is written <emph>(vows.</emph> above <emph>of your</emph> because S. ran out of room.</note></l>
 			</lg>
 			<lg>
-				<l n="166" rendition="#ti-1"> In the darkening and whitening</l>
-				<l n="167" rendition="#ti-2"> Abysses adored,</l>
-				<l n="168" rendition="#ti-1"> With dayspring and lightning</l>
-				<l n="169" rendition="#ti-2"> For lamp and for sword,</l>
-				<l n="170"> God thunders in heaven, and his angels are red with the wrath of the
-					Lord.</l>
+				<l n="166" rendition="#ti-1">In the darkening &amp; whitening</l>
+				<l n="167" rendition="#ti-2">Abysses adored,</l>
+				<l n="168" rendition="#ti-1">With dayspring &amp; lightning</l>
+				<l n="169" rendition="#ti-2">For lamp &amp; for sword,</l>
+				<l n="170">God thunders in heaven, &amp; his angels are red with the wrath of the Lord.</l>
 			</lg>
-			<pb n="79" facs="acs0000001-02-094"/>
 			<lg>
-				<l n="171" rendition="#ti-1"> O my sons, O too dutiful</l>
-				<l n="172" rendition="#ti-2"> Toward Gods not of me,</l>
-				<l n="173" rendition="#ti-1"> Was not I enough beautiful?</l>
-				<l n="174" rendition="#ti-2"> Was it hard to be free?</l>
-				<l n="175"> For behold, I am with you, am in you and of you; look forth now and see.
+				<l n="171" rendition="#ti-1">O my sons, O too dutiful</l>
+				<l n="172" rendition="#ti-2">Toward Gods not of me,</l>
+				<l n="173" rendition="#ti-1">Was not I enough beautiful?</l>
+				<l n="174" rendition="#ti-2">Was it hard to be free?</l>
+				<l n="175">For behold, I am with you, am in you &amp; of you; look forth now &amp; see.</l>
+			</lg>
+			<lg>
+				<l n="176" rendition="#ti-1">Lo, winged with world’s wonders,</l>
+				<l n="177" rendition="#ti-2">With miracles shod,</l>
+				<l n="178" rendition="#ti-1">With the fires of his thunders</l>
+				<l n="179" rendition="#ti-2">For raiment &amp; rod,</l>
+				<l n="180">God trembles in heaven, &amp; his angels are white with the terror of God.
 				</l>
 			</lg>
+			<pb n="f04v"/>
+			<pb n="f05r"/>
+			<fw rendition="block" place="top right" type="pageNum"><del type="erasure">19</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum"><del>5</del></fw>
+			<fw rendition="#block" place="top right" type="pageNum">5</fw>
+			<note resp="jawalsh">This recto does not appear to have the erased word written in upper left corner.</note>
 			<lg>
-				<l n="176" rendition="#ti-1"> Lo, winged with world's wonders,</l>
-				<l n="177" rendition="#ti-2"> With miracles shod,</l>
-				<l n="178" rendition="#ti-1"> With the fires of his thunders</l>
-				<l n="179" rendition="#ti-2"> For raiment and rod,</l>
-				<l n="180"> God trembles in heaven, and his angels are white with the terror of God.
-				</l>
+				<l n="181" rendition="#ti-1">For his twilight is come on him,</l>
+				<l n="182" rendition="#ti-2">His anguish is here;</l>
+				<l n="183" rendition="#ti-1">And his spirits gaze dumb on him,</l>
+				<l n="184" rendition="#ti-2">Grown grey from his fear;</l>
+				<l n="185">And his hour taketh hold on him stricken, the last of his infinite year.</l>
 			</lg>
 			<lg>
-				<l n="181" rendition="#ti-1"> For his twilight is come on him,</l>
-				<l n="182" rendition="#ti-2"> His anguish is here;</l>
-				<l n="183" rendition="#ti-1"> And his spirits gaze dumb on him,</l>
-				<l n="184" rendition="#ti-2"> Grown grey from his fear;</l>
-				<l n="185"> And his hour taketh hold on him stricken, the last of his infinite year.
-				</l>
+				<l n="186" rendition="#ti-1">T<subst><del seq="1"><unclear cert="high">ime</del><add seq="2" place="above">hought</add><!-- Time/Thought --></subst> made him &amp; breaks him,</l>
+				<l n="187" rendition="#ti-2">Truth slays &amp; forgives;</l>
+				<l n="188" rendition="#ti-1">But to you, as time takes him,</l>
+				<l n="189" rendition="#ti-2">This new thing <subst><del seq="1">he</del><add seq="2" place="above">it</add></subst> gives,</l>
+				<l n="190">Even love, the beloved Republic, that feeds upon freedom &amp; lives.</l>
 			</lg>
 			<lg>
-				<l n="186" rendition="#ti-1"> Thought made him and breaks him,</l>
-				<l n="187" rendition="#ti-2"> Truth slays and forgives;</l>
-				<l n="188" rendition="#ti-1"> But to you, as time takes him,</l>
-				<l n="189" rendition="#ti-2"> This new thing it gives,</l>
-				<l n="190"> Even love, the beloved Republic, that feeds upon freedom and lives.</l>
+				<l n="191" rendition="#ti-1">For truth only is living,</l>
+				<l n="192" rendition="#ti-2">Truth only is whole,</l>
+				<l n="193" rendition="#ti-1">And the love of <subst><del seq="1">truth’s</del><add seq="2" place="above">his</add></subst> giving</l>
+				<l n="194" rendition="#ti-2">Man’s polestar &amp; pole;</l>
+				<l n="195"><subst><del seq="1">The</del><add seq="2" place="above">Man,</add></subst> ⁁ <note resp="jawalsh">Insertion caret appears below center of <emph>The</emph></note> pulse of my centre, <subst><del seq="1">the</del><add seq="2" place="above">&amp;</add></subst> fruit of my <subst><del seq="1">womb</del><add seq="2" place="above">body</add></subst>, &amp; <del>the</del> seed of my soul.</l>
 			</lg>
 			<lg>
-				<l n="191" rendition="#ti-1"> For truth only is living,</l>
-				<l n="192" rendition="#ti-2"> Truth only is whole,</l>
-				<l n="193" rendition="#ti-1"> And the love of his giving</l>
-				<l n="194" rendition="#ti-2"> Man's polestar and pole;</l>
-				<l n="195"> Man, pulse of my centre, and fruit of my body, and seed of my soul.</l>
+				<l n="196" rendition="#ti-1">One birth of my bosom;</l>
+				<l n="197" rendition="#ti-2">One beam of mine eye;</l>
+				<l n="198" rendition="#ti-1">One topmost blossom</l>
+				<l n="199" rendition="#ti-2">That scales the sky;</l>
+				<l n="200">Man, equal &amp; one with me, man that is <subst><del seq="1">born</del><add seq="2" place="above">made</add></subst> of me, man that is I.</l>
 			</lg>
-			<pb n="80" facs="acs0000001-02-095"/>
-			<lg>
-				<l n="196" rendition="#ti-1"> One birth of my bosom;</l>
-				<l n="197" rendition="#ti-2"> One beam of mine eye;</l>
-				<l n="198" rendition="#ti-1"> One topmost blossom</l>
-				<l n="199" rendition="#ti-2"> That scales the sky;</l>
-				<l n="200"> Man, equal and one with me, man that is made of me, man that is I.</l>
-			</lg>
+			<milestone type="flourish"/>
+			<pb n="5v"/>
+			<note resp="jawalsh">Two postal markings. At top of page, upside down is an address to Swinburne, with a postmark. In the lower left quadrant of the page is a deleted address, illegible, written horizontally from top to bottom, and another postmark.</note>
+			<div type="address" rend="written upside down">
+			<ab>M.S.S. per Book Post.</ab>
+			<address>
+			<addrLine>A.C. Swinburne Esq.</addrLine>
+			<addrLine rendition="#ti-1">Holmwood</addrLine>
+			<addrLine rendition="#ti-2">Henly on Thames.</addrLine>
+			</address>
+			<ab type="postmark">
+			<note resp="jawalsh">Can make up much. Need to research Victorian postmarks. I think around the cirle I make out a MES of THAMES. And in center I read "JA 27".</note>
+			</ab>
+			</div>
+			<div type="address">
+			<ab type="postmark">
+			<note resp="jawalsh">I can make out nothing but "JA" in center.</note>
+			</ab>
+			<address>
+			<addrLine><del><gap extent="1 to 2 words"/></del></addrLine>
+			<addrLine><del><unclear cert="low">9</unclear> <gap extent="2 words"/></del></addrLine>
+			<addrLine><del><unclear cert="medium">Regents Park</unclear></del></addrLine>
+			<addrLine><del><unclear cert="low">London</unclear> <gap extent="1 word"/><del></addrLine>
+			<addrLine><del><gap extent="1 word"/></gap></del></addrLine>
 		</body>
-	<back><div n="[notes]"/></back></text></TEI>
+	</TEI>
