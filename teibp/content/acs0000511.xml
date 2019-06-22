@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02-i010"><teiHeader><fileDesc><titleStmt>
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact" ?>
+<?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02-i010"><teiHeader><fileDesc><titleStmt>
             <title>Hertha</title>
             <author>
                <persName key="acs">Algernon Charles Swinburne</persName>
@@ -450,7 +452,7 @@
 				<l n="37" rendition="#ti-2"><subst><del seq="1">And the germ &amp; the sod,</del><add seq="2" place="above">The plough-cloven clod</add></subst></l>
 				<l n="38" rendition="#ti-1">And <subst><del seq="1">I</del><add seq="2" place="inline">the</add></subst> ploughshare drawn thorough,</l>
 				<l n="39" rendition="#ti-2"><subst><del seq="1">And the plough-cloven clod,</del><add seq="2" place="above">The germ &amp; the sod,</add></subst></l>
-				<l n="40"><subst><del seq="1">And</del><add seq="2" place="inline">The</add></subst> deed &amp; the doer, <del><unclear cert="high">&amp;</del> the seed &amp; the sower, <del><unclear cert="high">&amp;</unclear></del> the dust <add place="above">worm</add> which is <add place="above">grave-worm &amp;</add> God. <note resp="jawalsh">Swinburne introduces alternate wording for this line, without deleting the original <emph>the dust which is God</emph>, which appeared in the printed version. The two alternates appear to be, <emph>the worm which is God</emph> and <emph>the grave-worm &amp; God</emph>.
+				<l n="40"><subst><del seq="1">And</del><add seq="2" place="inline">The</add></subst> deed &amp; the doer, <del><unclear cert="high">&amp;</unclear></del> the seed &amp; the sower, <del><unclear cert="high">&amp;</unclear></del> the dust <add place="above">worm</add> which is <add place="above">grave-worm &amp;</add> God. <note resp="jawalsh">Swinburne introduces alternate wording for this line, without deleting the original <emph>the dust which is God</emph>, which appeared in the printed version. The two alternates appear to be, <emph>the worm which is God</emph> and <emph>the grave-worm &amp; God</emph>.</note>
 				</l>
 			</lg>
 			<lg>
@@ -473,7 +475,7 @@
 				<l n="53" rendition="#ti-1">Hath the wilderness told it thee?</l>
 				<l n="54" rendition="#ti-2">Hast thou learnt of the sea?</l>
 				<l n="55">Hast thou communed in spirit with night? have the winds taken counsel
-					<lb />with thee?<note resp="jawlsh">S. can't fit entire verse on a single line, so <emph>with thee?<emph> appears below <emph>in spirit</emph>.</l>
+					<lb />with thee?<note resp="jawlsh">S. can't fit entire verse on a single line, so <emph>with thee?</emph> appears below <emph>in spirit</emph>.</note></l>
 			</lg>
 			<lg>
 				<l n="56" rendition="#ti-1">Have I set such a star</l>
@@ -546,7 +548,7 @@
 				<l n="93" rendition="#ti-1">Set the shadow called God</l>
 				<l n="94" rendition="#ti-2">In your skies to give light;</l>
 				<l n="95">But the morning of manhood is risen, &amp; the <subst><del seq="1">sun &amp; the</del><add place="above">shadowless</add><add place="above">soul of the sun</add></subst> soul is in
-					sight.<note resp="jawalsh">In the substition in l. 95, shadowless appears undeleted above <emph>sun &amp; the</emph> and <emph>soul of the sun</emph>, deleted, appears above <emph>shadowless</emph>. It is unclear which addition was added first. I.e., was <emph>soul of the sun</emph> added first and <emph>shadowless</emph> sandwiched in between?</l>
+					sight.<note resp="jawalsh">In the substition in l. 95, shadowless appears undeleted above <emph>sun &amp; the</emph> and <emph>soul of the sun</emph>, deleted, appears above <emph>shadowless</emph>. It is unclear which addition was added first. I.e., was <emph>soul of the sun</emph> added first and <emph>shadowless</emph> sandwiched in between?</note></l>
 			</lg>
 			<addSpan spanTo="endSpan01" place="opposite"/>
 			<ab>></ab>
@@ -570,7 +572,7 @@
 				<l n="106" rendition="#ti-1">Mine own blood is what stanches <note resp="jawalsh"><emph>Mine</emph> is <emph>My</emph> in printed text.</note></l>
 				<l n="107" rendition="#ti-2">The wounds in my bark;</l>
 				<l n="108" rendition="#ti-1">Stars caught in my branches</l>
-				<note resp="jawalsh">A line is vertical line is drawn to the left of <emph>Star caught</emph> that then extends horizontall over <emph>Stars</emph> and ending over the <emph>c</emph> of <emph>caught</emph>. Above this drawn line is written, in S’s hand, something that looks like <unclear cert="low">I lip 9</emph>.</note>
+				<note resp="jawalsh">A line is vertical line is drawn to the left of <emph>Star caught</emph> that then extends horizontall over <emph>Stars</emph> and ending over the <emph>c</emph> of <emph>caught</emph>. Above this drawn line is written, in S’s hand, something that looks like <unclear cert="low">I lip 9</unclear>.</note>
 				<l n="109" rendition="#ti-2">Make day of the dark,</l>
 				<l n="110">And are worshipped as suns till the sunrise shall tread out their fires as a spark.</l>
 			</lg>
@@ -695,7 +697,7 @@
 				<l n="185">And his hour taketh hold on him stricken, the last of his infinite year.</l>
 			</lg>
 			<lg>
-				<l n="186" rendition="#ti-1">T<subst><del seq="1"><unclear cert="high">ime</del><add seq="2" place="above">hought</add><!-- Time/Thought --></subst> made him &amp; breaks him,</l>
+				<l n="186" rendition="#ti-1">T<subst><del seq="1"><unclear cert="high">ime</unclear></del><add seq="2" place="above">hought</add><!-- Time/Thought --></subst> made him &amp; breaks him,</l>
 				<l n="187" rendition="#ti-2">Truth slays &amp; forgives;</l>
 				<l n="188" rendition="#ti-1">But to you, as time takes him,</l>
 				<l n="189" rendition="#ti-2">This new thing <subst><del seq="1">he</del><add seq="2" place="above">it</add></subst> gives,</l>
@@ -737,7 +739,10 @@
 			<addrLine><del><gap extent="1 to 2 words"/></del></addrLine>
 			<addrLine><del><unclear cert="low">9</unclear> <gap extent="2 words"/></del></addrLine>
 			<addrLine><del><unclear cert="medium">Regents Park</unclear></del></addrLine>
-			<addrLine><del><unclear cert="low">London</unclear> <gap extent="1 word"/><del></addrLine>
-			<addrLine><del><gap extent="1 word"/></gap></del></addrLine>
+			<addrLine><del><unclear cert="low">London</unclear> <gap extent="1 word"/></del></addrLine>
+			<addrLine><del><gap extent="1 word"/></del></addrLine>
+			</address>
+			</div>
 		</body>
+</text>
 	</TEI>
