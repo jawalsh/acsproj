@@ -383,14 +383,14 @@
 		<index indexName="text" corresp="acs0000153-md.xml"/>
 		<body>
 			<pb n="81" facs="acs0000001-02-096"/>
-			<head rendition="#center #uc">Before a Crucifix</head>
+			<head rendition="#center #u">Before a Crucifix.</head>
 			<lg>
-				<l n="1">
-					<hi rendition="#sc">Here</hi>, down between the dusty trees,</l>
-				<l n="2" rendition="#ti-1"> At this lank edge of haggard wood,</l>
-				<l n="3"> Women with labour-loosened knees,</l>
-				<l n="4" rendition="#ti-1"> With gaunt backs bowed by servitude,</l>
-				<l n="5"> Stop, shift their loads, and pray, and fare</l>
+				<l n="1">Here, <subst><del seq="1"><unclear cert="low">wasted</unclear></del><add seq="2" place="above">down</add></subst> between the dusty trees,</l>
+				<l n="2" rendition="#ti-1"><subst><del seq="1">Over the <gap extent="1 word" unit="chars" atLeast="7" /> broken</del><add seq="1" place="above">At this guant <del><gap extent="1-2 words" unit="chars" atLeast="4"/> <unclear cert="medium">wood’s haggard</unclear> <gap extent="1 word" unit="chars" atLeast="2"/></del></add> <add place="above">edge</add> of haggard wood,</l>
+				<l n="3"><subst><del seq="1"><unclear cert="low">Loved</unclear> by</del><add seq="2" place="above"><del>Prayed to by</del></add><add seq="3" place="inline"><del>The women</del></add><add seq="4" place="above">Women</add></subst> with labour-loosened knees,</l>
+				<l n="4" rendition="#ti-1"><subst><del seq="1">Find thee &amp; kneel &amp;</del><add seq="2" place="above">With gaunt backs bowed by servitude,</add></subst></l>
+				<l n="5"> Stop, shift their loads, &amp; <subst><del seq="1"><gap extent="1 word" unit="chars" atLeast="4" />, <unclear cert="low">&amp;</unclear> <gap extent="1 word" unit="chars" atLeast="4" /></del><add seq="2" place="above"><unclear cert="low">have <!-- hum? --> their</unclear> prayer</add><add place="below" seq="3">pary, &amp; <del><unclear cert="low">pass</unclear> fare</l>
+				<!-- paused. -->
 				<l n="6"> Forth with souls easier for the prayer.</l>
 			</lg>
 			<lg>

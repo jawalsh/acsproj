@@ -153,7 +153,7 @@ type="compact" ?>
 							<del><unclear cert="high">hand</unclear></del>
 							<add place="inline">hour</add>
 						</subst><note resp="jawalsh">In expressing confidence in the unclear reading
-							of the deleted <emph>hand</emph>, I note that Swinburne used the phrase
+							of the deleted <hi rendition="#i">hand</hi>, I note that Swinburne used the phrase
 							“death’s hand” in <title rendition="#i">Erectheus</title> l. 342 &amp;
 							elsewhere in his poetry. See for instance “Phaedra” l. 20; “Concord” l.
 							1. The two words appear in close proximity throughout his
@@ -189,7 +189,7 @@ type="compact" ?>
 						</subst> this day’s ebb of their spent wave of strife</l>
 					<l>Sweep it to sea, <subst>
 							<del seq="1">a waif adrift on</del>
-							<add seq="2" place="above">wash <note resp="jawalsh">I have some suspicion that <emph>wash</emph> should be (&amp; is in the MS.) <emph>waste</emph></note>it on <del seq="3">waste</del></add>
+							<add seq="2" place="above">wash <note resp="jawalsh">I have some suspicion that <hi rendition="#i">wash</hi> should be (&amp; is in the MS.) <hi rendition="#i">waste</hi></note>it on <del seq="3">waste</del></add>
 						</subst> wreck, &amp; leave</l>
 					<l>A costless thing contemned; &amp; in our stead,</l>
 					<l>Where these walls were &amp; sounding streets of men,</l>
@@ -514,7 +514,7 @@ type="compact" ?>
 						<l>Dear city of men without master or lord,</l>
 						<l>Fair fortress &amp; fostress of sons born free,</l>
 						<pb n="06v"/>
-						<note resp="jawalsh">Four lines, preceded by a mark resembling a closing angle bracket, appear on this page. There is a matching mark on 7 recto indicating that these four lines should be inserted at the point of the mark. The lines are transcribed below <emph>&amp;</emph> again on 7 recto where S.’s markings indicate they should appear.</note>
+						<note resp="jawalsh">Four lines, preceded by a mark resembling a closing angle bracket, appear on this page. There is a matching mark on 7 recto indicating that these four lines should be inserted at the point of the mark. The lines are transcribed below <hi rendition="#i">&amp;</hi> again on 7 recto where S.’s markings indicate they should appear.</note>
 						<note resp="acs" place="left margin">></note>
 						<l>That none from the pride of her head may rend,</l>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
@@ -559,7 +559,7 @@ type="compact" ?>
 							daughters</l>
 						<l rendition="#ti-2">Should find not whither alive to flee.</l>
 						<l rendition="#ti-1">And we know not yet of the word unwritten, <note resp="acs">ant. 1.</note></l>
-						<l rendition="#ti-2">The <subst><del seq ="1">doom<note resp="jawalsh"><emph>doom</emph> is canceled with a lighter, fainter ink.</note></del><add place="above" seq="2"><del><unclear cert="low">charge</unclear><note resp="jawalsh"><emph>charge</emph> is possibly canceled, but is more likely smudged ink. The canceled <emph>doom</emph>, rather than <emph>charge</emph>, appears in the printed text.</note></del></add></subst>of the <subst><del seq="1"><unclear cert="medium">priestess</unclear></del><add place="above" seq="2">Pythian</add></subst> we have not heard;</l>
+						<l rendition="#ti-2">The <subst><del seq ="1">doom<note resp="jawalsh"><hi rendition="#i">doom</hi> is canceled with a lighter, fainter ink.</note></del><add place="above" seq="2"><del><unclear cert="low">charge</unclear><note resp="jawalsh"><hi rendition="#i">charge</hi> is possibly canceled, but is more likely smudged ink. The canceled <hi rendition="#i">doom</hi>, rather than <hi rendition="#i">charge</hi>, appears in the printed text.</note></del></add></subst>of the <subst><del seq="1"><unclear cert="medium">priestess</unclear></del><add place="above" seq="2">Pythian</add></subst> we have not heard;</l>
 						<l rendition="#ti-1">From the navel of earth &amp; the veiled mid altar</l>
 						<l rendition="#ti-1">We wait for a token with hopes that falter, <note resp="acs" place="margin right">160</note></l>
 						<l rendition="#ti-1">With fears that hang on our hearts thought-smitten</l>
@@ -841,7 +841,7 @@ type="compact" ?>
 						<l>What stain is on them for thy tears to cleanse?</l>
 					</lg>
 				</sp>
-				<note>A line is drawn under <emph>cleanse</emph> extending in to the right margin. Under this line is written <emph>C17</emph>.</note>
+				<note>A line is drawn under <hi rendition="#i">cleanse</hi> extending in to the right margin. Under this line is written <hi rendition="#i">C17</hi>.</note>
 				<sp>
 					<speaker rendition="#left #inline">E.</speaker>
 					<lg>
@@ -935,35 +935,32 @@ type="compact" ?>
 			<div xml:id="df7999" type="stasimon"
 				n="[Stasimon 2: He hath uttered too surely his wrath not obscurely...]">
 				<sp>
-					<speaker rendition="#center #small">CHORUS</speaker>
-					<lg>
-						<l>He hath uttered too surely his wrath not obscurely, nor wrapt as in mists
-							of his breath, <label rendition="#n">[<hi rendition="#i"
-								>Str.</hi></label></l>
+				
+					<label><unclear cert="low">San</unclear></label><note resp="jawalsh">I do not know what this label is. In printed text, this is a spoken by the Chorus. The label is in a similar position as the other marginal speaker identifiers. I don't know what San. would be, and it doesn't make sense as a speaker label since the next stanza is labeled the same.</note><lg>
+						<l>He hath uttered too surely his wrath not obscurely, nor wrapt as in <subst><del seq="1">cloud</del></lb/><add seq="2" place="inline">mists</add></subst>
+							of his breath,</l>
 						<l>The master that lightens not hearts he enlightens, but gives them
-							foreknowledge of death.</l>
+							foreknowledge of death.<label>350</label><note resp="jawalsh">Running out of room on the page, S. writes <hi rendition="#i">of death.</hi> above <hi rendition="#i">foreknowledge</hi> with a preceding open parentheses: <hi rendition="#i">(of death</hi>. Similarly, the line number <hi rendition="#i">350</hi> is written below <hi rendition="#i">foreknowledge</hi>.</note></l>
 						<l rendition="#ti-1">As a bolt from the cloud hath he sent it aloud &amp;
 							proclaimed it afar,</l>
 						<l rendition="#ti-1">From the darkness &amp; height of the horror of night
-							hath he shown us a star.</l>
-						<l rendition="#ti-2">Star may I name it &amp; err not, or flame shall I
+							hath he shown us a star.<note resp="jawalsh">Final full stop looks more like a comma in Ms. but I defer to the printed text for this reading.</note></l>
+						<l rendition="#ti-2">Star <subst><del seq="1">shall we</del><add seq="2" place="above">may I</add></subst> name it <hi rendition="#sub">⁁</hi> <add place="above">&amp; err not</add>, or flame shall I
 							say,</l>
-						<l rendition="#ti-2">Born of the womb that was born for the tomb of the
-							day?</l>
-
+						<l rendition="#ti-2"><subst><del seq="1">Shown</del><add seq="2" place="above">Born</add></subst> of <subst><del seq="1"><unclear cert="medium">the</unclear> gloom over</del><add seq="2" place="below">a gloom more dark</add><add place="above" seq="3"><subst><del seq="1">a</del><add seq="2" place="inline">the</add></subst> womb that <subst><del seq="1">is</del><add seq="2" place="inline">was</add></subst></add></subst></subst> born for the tomb of the day?</l>
+						</lg>
+						<label><unclear cert="low">San</unclear></label><label><unclear cert="low">San</unclear></label><note resp="jawalsh">I do not know what this label is. In printed text, this is a spoken by the Chorus. The label is in a similar position as the other marginal speaker identifiers. I don't know what San. would be, and it doesn't make sense as a speaker label since the previous stanza is labeled the same.</note><lg>
 						<l>
-							<milestone rendition="#i" n="Ant." unit="antistrophe"/>O Night, whom
-							other but thee for mother, &amp; Death for the father, Night,</l>
-						<l>Shall we dream to discover, save thee &amp; thy lover, to bring such a
-							sorrow to sight?</l>
-						<l rendition="#ti-1">From the slumberless bed for thy bedfellow spread &amp;
-							his bride under earth</l>
-						<l rendition="#ti-1">Hast thou brought forth a wild &amp; insatiable child, an
-							unbearable birth.</l>
-						<l rendition="#ti-2">Fierce are the fangs of his wrath, &amp; the pangs that
-							they give;</l>
-						<l rendition="#ti-2">None is there, none that may bear them, not one that
-							would live.</l>
+							<milestone rendition="#i" n="Ant." unit="antistrophe"/>O Night, <del><unclear cert="low">h</uncear></del> whom
+							other but thee for mother, <subst><del seq="1">to bear <unclear cert="high">as</unclear> thy</del><add seq="2" place="above"><subst><del seq="1">&amp; death</del><add seq="2" place="above">&amp; death</add><add seq="3" place="below">death</add></subst> for <subst><del seq="1">the</del><add seq="2" place="above">the</add></subst></add></subst> father, <subst><del seq="1">but</del><add seq="2" place="above">Night,</add></subst></l>
+						<l>Shall we dream to discover, <subst><del seq="1">but</del><add seq="2" place="above">save</add></subst> thee &amp; thy lover, to bring such a
+							<subst><del seq="1">birth</del><add seq="2" place="above">sorrow</add></subst><lb/> <subst><del seq="1">in</del><add seq="2" place="inline">to</add></subst> <subst><del seq="1">s</del><add seq="2" place="inplace">l</add></subst>ight?<!-- in sight / to light --></l>
+						<l rendition="#ti-1">From the <subst><del seq="1">bride-</del><add seq="2" place="above">slumberless </add></subst>bed <subst><del seq="1">from eternity spread for <subst><del seq="1">the</del><add seq="3" place="below">your</add></subst> bedfellows</del><add seq="2" place="above">for <subst><del seq="1">such</del><add seq="2" place="above">thy</add></subst> bedfellows <del><gap extent="1 word" unit="chars" atLeast="4"/> &amp; thine own</del></add><add seq="3" place="below">spread &amp;
+							his bride under earth</add></subst></l>
+						<label><del>120</del></label><l rendition="#ti-1">Hast thou brought forth a <subst><del seq="1">child</del><add seq="2" place="inline">wild</add></subst> &amp; insatiable child, an unbearable <lb/>birth.</l>
+						<l rendition="#ti-2">Fierce <subst><del seq="1">is</del><add seq="2" place="above">are</add></subst> the fangs of his wrath, &amp; the pangs <subst><del seq="1">when</del><add seq="2" place="above">that</add></subst>
+							they <subst><del seq="1">smite</del><add seq="2" place="above">give</add></subst>;</l>
+						<l rendition="#ti-2">None is there, none that <hi rendition="#sub">⁁</hi> <add place="above">may</add> bear them, not one that <subst><del seq="1">may</del><add seq="2" place="above"><choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></add></subst> live.</l>
 					</lg>
 				</sp>
 			</div>
