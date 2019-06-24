@@ -4,7 +4,7 @@ type="compact" ?>
 <?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
 <!DOCTYPE TEI [
 <!ENTITY wd_ '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
-<!ENTITY shd '<choice><abbr>shd<expan>should</expan></choice>'>
+<!ENTITY shd '<choice><abbr>shd</abbr><expan>should</expan></choice>'>
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
 	<teiHeader>
@@ -1015,14 +1015,15 @@ type="compact" ?>
 						<l>Thou hast no skill, my maiden, &amp; no sense</l>
 						<l>To take such knowledge; sweet is all thy lore,</l>
 						<l>And all this bitter; yet I <subst><del seq="1">bid</del><add seq="2" place="above">charge</add></subst> thee learn<del>,</del></l>
-						<l><subst><del seq="1">And</del><add seq="2" place="above"><del><unclear cert="medium">Keep close</del> &amp; <note resp="jawalsh">The ampersand is not deleted in the ms. but is ommitted in the printed text. Inclusion of the ampersand would give the line a full ten syllables.</note></add><add seq="3" place="below">I charge thee</add><add seq="4" place="above">And love</add></subst> lay this up within thine heart,</l>
+						<l><subst><del seq="1">And</del><add seq="2" place="above"><del><unclear cert="medium">Keep</unclear> close</del> &amp; <note resp="jawalsh">The ampersand is not deleted in the ms. but is ommitted in the printed text. Inclusion of the ampersand would give the line a full ten syllables.</note></add><add seq="3" place="below">I charge thee</add><add seq="4" place="above">And love</add></subst> lay this up within thine heart,</l>
 						<note resp="acs">
 						<note resp="jawalsh">Written vertically in right margin, begining at midpoint of page and extending to about two inches from top.</note>
 						(<sp><speaker rendition="inline">Athena.</speaker> 
 						<lg>
 						<l>For this of yours &amp; this of mine shall be</l>
 						<l><subst><del seq="1">The whole world’s</del><hi rendition="sub">⁁</hi><add seq="2" place="above">Man’s <del>chief</del> chosen chief <note resp="jawalsh">vertical line, somewhat resembling a close parentheses mark, following <hi rendition="#i">chief</hi>.</note></add></subst> country, <subst><del seq="1">the</del><hi rendition="sub">⁁</hi><add seq="2" place="above">&amp; earth’s</add></subst> one crown of all,<del>’)</del></l>
-						<l><subst><del seq="1">All good men’s</del><add seq="2" place="precedinginline"><unclear cert="high">Athens’</unclear></add></subst>
+						<l><subst><del seq="1">All good men’s</del><add seq="2" place="precedinginline"><unclear cert="high">Athens’</unclear></add></subst></l>
+</lg></sp>
 						</note>
 						<pb n="14r"/>
 						<fw><del>14</del></fw>
