@@ -2,6 +2,9 @@
 <?oxygen RNGSchema="../../data/swinburne.rnc"
 type="compact" ?>
 <?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
+<!DOCTYPE TEI [
+<!ENTITY wd_ '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
+]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
 	<teiHeader>
 		<fileDesc>
