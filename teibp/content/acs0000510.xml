@@ -4,6 +4,7 @@ type="compact" ?>
 <?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
 <!DOCTYPE TEI [
 <!ENTITY wd_ '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
+<!ENTITY shd '<choice><abbr>shd<expan>should</expan></choice>'>
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
 	<teiHeader>
@@ -983,45 +984,57 @@ type="compact" ?>
 						<l>I know not till thy will be to lift up</l><label>370</label>
 						<l><add place="below">Toward mine</add><subst><del seq="1"><unclear cert="high">Soft</unclear></del><add seq="2" place="above"><subst><del seq="1">T</del><add seq="2" place="above">t</add></subst>hy</add></subst> sorrow-muffled <del>sightless</del> eyes &amp; speak;</l>
 						<!-- paused. -->
-						<l>And till thy will be would I know this not.</l>
+						<pb n="13v"/>
+						<l>And till thy will be &wd_; I know this not.</l>
 					</lg>
 				</sp>
 				<sp>
 					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>Old men &amp; childless, or if sons ye have seen</l>
-						<l>And daughters, elder-born were these than mine,</l>
+						<l>Old men &amp; childless, or if sons ye have <subst><del seq="1">borne</del><add seq="2" place="above">seen</add></subst></l>
+						<l>And daughters, elder-born <subst><del seq="1">are</del><add seq="2" place="above">were</add></subst> these than mine,</l>
 						<l>Look on this child, how young of years, how sweet,</l>
 						<l>How scant of time &amp; green of age her life</l>
-						<l>Puts forth its flower of girlhood; &amp; her gait</l>
-						<l>How virginal, how soft her speech, her eyes</l>
-
-						<l>How seemly smiling; wise should all ye be,</l>
-						<l>All honourable &amp; kindly men of age;</l>
+						<l><subst><del seq="1">Blooms</del><add seq="2" place="above">Puts</add></subst> forth its flower of girlhood; &amp; her gait</l>
+						<label><del>160</del></label><l>How virginal, how soft her speech, her eyes</l>
+						<l>How seemly smiling; wise <del>ye</del> should <del>be</del> all ye be,</l>
+						<l>All honourable &amp; kindly men of <subst><del seq="1"><unclear cert="high">heart</unclear></del><add seq="2" place="above">age</add></subst>;</l><label>380</label>
 						<l>Now give me counsel &amp; one word to say</l>
 						<l>That I may bear to speak, &amp; hold my peace</l>
 						<l>Henceforth for all time even as all ye now.</l>
-						<l>Dumb are ye all, bowed eyes &amp; tongueless mouths,</l>
+						<l>Dumb are ye all, <subst><del seq="1">shut mouths &amp; profitless</del><add seq="2" place="above">bowed eyes &amp; tongueless mouths,</add></subst></l>
 						<l>Unprofitable; if this were wind that speaks,</l>
-						<l>As much its breath might move you. Thou then, child,</l>
+						<l>As much its breath <subst><del seq="1">&shd;</del><add seq="2" place="above">might</add></subst> move you. Thou then, child,</l>
 						<l>Set thy sweet eyes on mine; look through them well;</l>
-						<l>Take note of all the writing of my face</l>
+						<label><del>170</del></label><l>Take note of all the writing of my face</l>
 						<l>As of a tablet or a tomb inscribed</l>
-						<l>That bears me record; lifeless now, my life</l>
-						<l>Thereon that was think written; brief to read,</l>
-						<l>Yet shall the scripture sear thine eyes as fire</l>
+						<l><add place="inline"><del>Being dead </del></add><subst><del seq="1">T</del><add seq="2" place="above">h</add></subst>hat <add place="above"><del>lifeless</del></add> bears me record; lifeless now, my life</l>
+						<l>Thereon <hi rendition="#sub">⁁</hi> <add place="above">that was</add> think written; brief <subst><del seq="1">&amp; <unclear cert="high">harsh</unclear></del><add seq="2" place="above">to read,</add></subst></l>
+						<l><subst><del seq="1">The</del><add seq="2" place="above">Yet shall</add></subst> the scripture sear thine eyes as fire</l>
 						<l>And leave them dark as dead men’s. Nay, dear child,</l>
 						<l>Thou hast no skill, my maiden, &amp; no sense</l>
 						<l>To take such knowledge; sweet is all thy lore,</l>
-						<l>And all this bitter; yet I charge thee learn</l>
-						<l>And love &amp; lay this up within thine heart,</l>
+						<l>And all this bitter; yet I <subst><del seq="1">bid</del><add seq="2" place="above">charge</add></subst> thee learn<del>,</del></l>
+						<l><subst><del seq="1">And</del><add seq="2" place="above"><del><unclear cert="medium">Keep close</del> &amp; <note resp="jawalsh">The ampersand is not deleted in the ms. but is ommitted in the printed text. Inclusion of the ampersand would give the line a full ten syllables.</note></add><add seq="3" place="below">I charge thee</add><add seq="4" place="above">And love</add></subst> lay this up within thine heart,</l>
+						<note resp="acs">
+						<note resp="jawalsh">Written vertically in right margin, begining at midpoint of page and extending to about two inches from top.</note>
+						(<sp><speaker rendition="inline">Athena.</speaker> 
+						<lg>
+						<l>For this of yours &amp; this of mine shall be</l>
+						<l><subst><del seq="1">The whole world’s</del><hi rendition="sub">⁁</hi><add seq="2" place="above">Man’s <del>chief</del> chosen chief <note resp="jawalsh">vertical line, somewhat resembling a close parentheses mark, following <hi rendition="#i">chief</hi>.</note></add></subst> country, <subst><del seq="1">the</del><hi rendition="sub">⁁</hi><add seq="2" place="above">&amp; earth’s</add></subst> one crown of all,<del>’)</del></l>
+						<l><subst><del seq="1">All good men’s</del><add seq="2" place="precedinginline"><unclear cert="high">Athens’</unclear></add></subst>
+						</note>
+						<pb n="14r"/>
+						<fw><del>14</del></fw>
+						<fw>14</fw>
 						<l>Even this my word; less ill it were to die</l>
-						<l>Than live &amp; look upon thy mother dead,</l>
-						<l>Thy mother-land that bare thee; no man slain</l>
-						<l>But him who hath seen it shall men count unblest,</l>
-						<l>None blest as him who hath died &amp; seen it not.</l>
+						<l>Than live &amp; look upon th<subst><del seq="1">at</del><add seq="2" place="inplace">y</add><!-- that/thy --></subst> mother dead,</l>
+						<l>Thy motherland <note resp="jawalsh">Printed text reads <hi rendition="#i">mother-land</hi>.</note> that bare thee; no man <subst><del seq="1">born</del><add seq="2" place="above">slain</add></subst></l><label>400</label>
+						<l>But him <subst><del seq="1">that</del><add seq="2" place="above">who hath</add></subst> seen it <hi rendition="#sub">⁁</hi> <add place="above">shall</add> men count unblest,</l>
+						<l>None blest as <subst><del seq="1">he is</del><add seq="2" place="above">him</add></subst> who <subst><del seq="1">dies &amp; sees</del><add seq="2" place="above">hath died &amp; seen</add></subst> it not.</l>
 					</lg>
 				</sp>
+				<!-- paused. -->
 				<sp>
 					<speaker rendition="#center #small">CHTHONIA</speaker>
 					<lg>
