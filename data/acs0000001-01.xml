@@ -1128,7 +1128,7 @@
                 <l n="4">
                     <s xml:id="s0004" part="F" prev="s0003">A lady clothed like summer with sweet
                         hours.</s>
-                    <join result="s" targets="s0001 s0002 s0003 s0004" scope="root"/>
+                    <join result="s" target="s0001 s0002 s0003 s0004" scope="root"/>
                </l>
                 <l n="5">
                     <s xml:id="s0005" next="s0006" part="I">Her beauty, fervent as a fiery moon,</s>
@@ -1139,7 +1139,7 @@
                </l>
                 <l n="7" rendition="#ti-2">
                     <s xml:id="s0007" part="F" prev="s0006">Like a flame rained upon.</s>
-                    <join result="s" targets="s0005 s0006 s0007" scope="root"/>
+                    <join result="s" target="s0005 s0006 s0007" scope="root"/>
                </l>
                 <l n="8">
                     <s xml:id="s0008" next="s0009" part="I">Sorrow had filled her shaken eyelids’
@@ -1151,7 +1151,7 @@
                </l>
                 <l n="10" rendition="#ti-2">
                     <s xml:id="s0010" part="F" prev="s0009">Seemed sad with glad things gone.</s>
-                    <join result="s" targets="s0008 s0009 s0010" scope="root"/>
+                    <join result="s" target="s0008 s0009 s0010" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -1170,7 +1170,7 @@
                 <l n="14">
                     <s xml:id="s0014" part="F" prev="s0013">That in dead years had done delicious
                         things.</s>
-                    <join result="s" targets="s0011 s0012 s0013 s0014" scope="root"/>
+                    <join result="s" target="s0011 s0012 s0013 s0014" scope="root"/>
                </l>
                 <l n="15">
                     <s xml:id="s0015" next="s0016" part="I">The seven strings were named
@@ -1193,7 +1193,7 @@
                </l>
                 <l n="20" rendition="#ti-2">
                     <s xml:id="s0020" part="F" prev="s0019">And is most pitiless.</s>
-                    <join result="s" targets="s0015 s0016 s0017 s0018 s0019 s0020" scope="root"/>
+                    <join result="s" target="s0015 s0016 s0017 s0018 s0019 s0020" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -1224,7 +1224,7 @@
                </l>
                 <l n="27" rendition="#ti-2">
                     <s xml:id="s0027" part="F" prev="s0026">Pale stains of dust and rust.</s>
-                    <join result="s" targets="s0021 s0022 s0023 s0024 s0026 s0027" scope="root"/>
+                    <join result="s" target="s0021 s0022 s0023 s0024 s0026 s0027" scope="root"/>
                </l>
                 <l n="28">
                     <s xml:id="s0028" next="s0029" part="I">A riven hood was pulled across his
@@ -1236,7 +1236,7 @@
                </l>
                 <l n="30" rendition="#ti-2">
                     <s xml:id="s0030" part="F" prev="s0029">Made for a sign of Lust.</s>
-                    <join targets="s0028 s0029 s0030" scope="root"/>
+                    <join target="s0028 s0029 s0030" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -1247,14 +1247,14 @@
                 <l n="32" rendition="#ti-1">
                     <s xml:id="s0032" part="F" prev="s0031">Coloured like green wood when flame
                         kindles it.</s>
-                    <join targets="s0031 s0032" scope="root"/>
+                    <join target="s0031 s0032" scope="root"/>
                </l>
                 <l n="33" rendition="#ti-1">
                     <s xml:id="s0033" next="s0034" part="I">He hath such feeble feet</s>
                </l>
                 <l n="34">
                     <s xml:id="s0034" part="F" prev="s0033">They may not well endure in any place.</s>
-                    <join result="s" targets="s0033 s0034" scope="root"/>
+                    <join result="s" target="s0033 s0034" scope="root"/>
                </l>
                 <l n="35">
                     <s xml:id="s0035" next="s0036" part="I">His face was full of grey old
@@ -1277,7 +1277,7 @@
                </l>
                 <l n="40" rendition="#ti-2">
                     <s xml:id="s0040" part="F" prev="s0039">Fear answers him again.</s>
-                    <join result="s" targets="s0038 s0039 s0040" scope="root"/>
+                    <join result="s" target="s0038 s0039 s0040" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -1295,7 +1295,7 @@
                </l>
                 <l n="44">
                     <s xml:id="s0044" part="F" prev="s0043">If sin and she be kin or amorous.</s>
-                    <join result="s" targets="s0041 s0042 s0043 s0044" scope="root"/>
+                    <join result="s" target="s0041 s0042 s0043 s0044" scope="root"/>
                </l>
                 <l n="45">
                     <s xml:id="s0045" next="s0046" part="I">And seeing where maidens served her on
@@ -1307,7 +1307,7 @@
                </l>
                 <l n="47" rendition="#ti-2">
                     <s xml:id="s0047" part="F" prev="s0046">To know the cause thereof.</s>
-                    <join result="s" targets="s0045 s0046 s0047" scope="root"/>
+                    <join result="s" target="s0045 s0046 s0047" scope="root"/>
                </l>
                 <l n="48">
                     <s xml:id="s0048">Then Fear said: I am Pity that was dead.</s>
@@ -1343,7 +1343,7 @@
                </l>
                 <l n="56" rendition="#ti-1">
                     <s xml:id="s0056" part="F" prev="s0055">With extreme sad delight.</s>
-                    <join result="s" targets="s0051 s0052 s0053 s0054 s0055 s0056" scope="root"/>
+                    <join result="s" target="s0051 s0052 s0053 s0054 s0055 s0056" scope="root"/>
                </l>
                 <l n="57" rendition="#ti-2">
                     <s xml:id="s0057" next="s0058" part="I">But those three following men</s>
@@ -1358,7 +1358,7 @@
                </l>
                 <l n="60" rendition="#ti-2">
                     <s xml:id="s0060" part="F" prev="s0059">With child’s blood come again.</s>
-                    <join result="s" targets="s0057 s0058 s0059 s0060" scope="root"/>
+                    <join result="s" target="s0057 s0058 s0059 s0060" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -1387,7 +1387,7 @@
                </l>
                 <l n="67" rendition="#ti-2">
                     <s xml:id="s0067" part="F" prev="s0066">And bosom carved to kiss.</s>
-                    <join result="s" targets="s0061 s0062 s0063 s0064 s0065 s0066 s0067" scope="root"/>
+                    <join result="s" target="s0061 s0062 s0063 s0064 s0065 s0066 s0067" scope="root"/>
                </l>
                 <l n="68">
                     <s xml:id="s0068" next="s0069" part="I">Now therefore, if her pity further
@@ -1399,7 +1399,7 @@
                </l>
                 <l n="70" rendition="#ti-2">
                     <s xml:id="s0070" part="F" prev="s0069">As righteous as she is.</s>
-                    <join result="s" targets="s0068 s0069 s0070" scope="root"/>
+                    <join result="s" target="s0068 s0069 s0070" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -1437,7 +1437,7 @@
                </l>
                 <l n="79" rendition="#ti-2">
                     <s xml:id="s0079" part="F" prev="s0078">Kiss me so many times.</s>
-                    <join result="s" targets="s0071 s0072 s0073 s0074 s0075 s0076 s0077 s0078 s0079" scope="root"/>
+                    <join result="s" target="s0071 s0072 s0073 s0074 s0075 s0076 s0077 s0078 s0079" scope="root"/>
                </l>
                 <l n="80">
                     <s xml:id="s0080" next="s0081" part="I">Then it may be, seeing how sweet she
@@ -1457,7 +1457,7 @@
                </l>
                 <l n="84" rendition="#ti-2">
                     <s xml:id="s0084" part="F" prev="s0083">Ballad, and on thy mouth.</s>
-                    <join result="s" targets="s0080 s0081 s0082 s0083 s0084" scope="root"/>
+                    <join result="s" target="s0080 s0081 s0082 s0083 s0084" scope="root"/>
                </l>
             </lg>
         </body>
@@ -1507,7 +1507,7 @@
                 <l n="10">
                     <s xml:id="acs0000090-01-s0010" part="F" prev="#acs0000090-01-s0009">For armlet and for gorget and for
                         sleeve.</s>
-                    <join result="s" targets="#acs0000090-01-s0001 #acs0000090-01-s0002 #acs0000090-01-s0003 #acs0000090-01-s0004 #acs0000090-01-s0005 #acs0000090-01-s0006 #acs0000090-01-s0007 #acs0000090-01-s0008 #acs0000090-01-s0009 #acs0000090-01-s0010" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0001 #acs0000090-01-s0002 #acs0000090-01-s0003 #acs0000090-01-s0004 #acs0000090-01-s0005 #acs0000090-01-s0006 #acs0000090-01-s0007 #acs0000090-01-s0008 #acs0000090-01-s0009 #acs0000090-01-s0010" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1541,7 +1541,7 @@
                </l>
                 <l n="18">
                     <s xml:id="acs0000090-01-s0018" part="F" prev="#acs0000090-01-s0017">Abide a little for our lady’s love.</s>
-                    <join result="s" targets="#acs0000090-01-s0011 #acs0000090-01-s0012 #acs0000090-01-s0013 #acs0000090-01-s0014 #acs0000090-01-s0015 #acs0000090-01-s0016 #acs0000090-01-s0017 #acs0000090-01-s0018" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0011 #acs0000090-01-s0012 #acs0000090-01-s0013 #acs0000090-01-s0014 #acs0000090-01-s0015 #acs0000090-01-s0016 #acs0000090-01-s0017 #acs0000090-01-s0018" scope="branches"/>
                </l>
                 <l n="19">
                     <s xml:id="acs0000090-01-s0019" next="#acs0000090-01-s0020" part="I">The kisses of her mouth were more than
@@ -1550,7 +1550,7 @@
                 <l n="20">
                     <s xml:id="acs0000090-01-s0020" part="F" prev="#acs0000090-01-s0019">And more than peace the passage of her
                         days.</s>
-                    <join result="s" targets="#acs0000090-01-s0019 #acs0000090-01-s0020" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0019 #acs0000090-01-s0020" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1572,7 +1572,7 @@
                 <pb n="5" facs="acs0000001-01-048"/>
                 <l n="25">
                     <s xml:id="acs0000090-01-s0025" part="F" prev="#acs0000090-01-s0024">Another woman fashioned like as this.</s>
-                    <join result="s" targets="#acs0000090-01-s0022 #acs0000090-01-s0023 #acs0000090-01-s0024 #acs0000090-01-s0025" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0022 #acs0000090-01-s0023 #acs0000090-01-s0024 #acs0000090-01-s0025" scope="branches"/>
                </l>
                 <l n="26">
                     <s xml:id="acs0000090-01-s0026" next="#acs0000090-01-s0027" part="I">O Sin, thou knowest that all thy shame
@@ -1593,7 +1593,7 @@
                 <l n="30">
                     <s xml:id="acs0000090-01-s0030" part="F" prev="#acs0000090-01-s0029">Than lips of amorous roses in late
                         spring.</s>
-                    <join result="s" targets="#acs0000090-01-s0026 #acs0000090-01-s0027 #acs0000090-01-s0028 #acs0000090-01-s0029 #acs0000090-01-s0030" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0026 #acs0000090-01-s0027 #acs0000090-01-s0028 #acs0000090-01-s0029 #acs0000090-01-s0030" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1616,7 +1616,7 @@
                 <l n="35">
                     <s xml:id="acs0000090-01-s0035" part="F" prev="#acs0000090-01-s0034">And temples drained of purple and full
                         of death.</s>
-                    <join result="s" targets="#acs0000090-01-s0031 #acs0000090-01-s0032 #acs0000090-01-s0033 #acs0000090-01-s0034 #acs0000090-01-s0035" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0031 #acs0000090-01-s0032 #acs0000090-01-s0033 #acs0000090-01-s0034 #acs0000090-01-s0035" scope="branches"/>
                </l>
                 <l n="36">
                     <s xml:id="acs0000090-01-s0036" next="#acs0000090-01-s0037" part="I">Her curled <choice><corr>hair</corr><sic>air</sic></choice> had the wave of
@@ -1624,7 +1624,7 @@
                </l>
                 <l n="37">
                     <s xml:id="acs0000090-01-s0037" part="F" prev="#acs0000090-01-s0036">And the sea’s gold in it.</s>
-                    <join result="s" targets="#acs0000090-01-s0036 #acs0000090-01-s0037" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0036 #acs0000090-01-s0037" scope="branches"/>
                </l>
                 <l n="38">
                     <s xml:id="acs0000090-01-s0038">Her eyes were as a dove’s that sickeneth.</s>
@@ -1636,7 +1636,7 @@
                 <l n="40">
                     <s xml:id="acs0000090-01-s0040" part="F" prev="#acs0000090-01-s0039">And pearl and purple and amber on her
                         feet.</s>
-                    <join result="s" targets="#acs0000090-01-s0039 #acs0000090-01-s0040" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0039 #acs0000090-01-s0040" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1678,7 +1678,7 @@
                 <l n="50">
                     <s xml:id="acs0000090-01-s0050" part="F" prev="#acs0000090-01-s0049">With heat of lips and hair shed out like
                         flame.</s>
-                    <join result="s" targets="#acs0000090-01-s0041 #acs0000090-01-s0042 #acs0000090-01-s0043 #acs0000090-01-s0044 #acs0000090-01-s0045 #acs0000090-01-s0046 #acs0000090-01-s0047 #acs0000090-01-s0048 #acs0000090-01-s0049 #acs0000090-01-s0050" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0041 #acs0000090-01-s0042 #acs0000090-01-s0043 #acs0000090-01-s0044 #acs0000090-01-s0045 #acs0000090-01-s0046 #acs0000090-01-s0047 #acs0000090-01-s0048 #acs0000090-01-s0049 #acs0000090-01-s0050" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1764,7 +1764,7 @@
                 <l n="70">
                     <s xml:id="acs0000090-01-s0070" part="F" prev="#acs0000090-01-s0069">Whose eyelids as sweet savour issuing
                         thence.</s>
-                    <join result="s" targets="#acs0000090-01-s0051 #acs0000090-01-s0052 #acs0000090-01-s0053 #acs0000090-01-s0054 #acs0000090-01-s0055 #acs0000090-01-s0056 #acs0000090-01-s0057 #acs0000090-01-s0058 #acs0000090-01-s0059 #acs0000090-01-s0060 #acs0000090-01-s0061 #acs0000090-01-s0062 #acs0000090-01-s0063 #acs0000090-01-s0064 #acs0000090-01-s0065 #acs0000090-01-s0066 #acs0000090-01-s0067 #acs0000090-01-s0068 #acs0000090-01-s0069 #acs0000090-01-s0070" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0051 #acs0000090-01-s0052 #acs0000090-01-s0053 #acs0000090-01-s0054 #acs0000090-01-s0055 #acs0000090-01-s0056 #acs0000090-01-s0057 #acs0000090-01-s0058 #acs0000090-01-s0059 #acs0000090-01-s0060 #acs0000090-01-s0061 #acs0000090-01-s0062 #acs0000090-01-s0063 #acs0000090-01-s0064 #acs0000090-01-s0065 #acs0000090-01-s0066 #acs0000090-01-s0067 #acs0000090-01-s0068 #acs0000090-01-s0069 #acs0000090-01-s0070" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1775,7 +1775,7 @@
                 <l n="72">
                     <s xml:id="acs0000090-01-s0072" part="F" prev="#acs0000090-01-s0071">My lady’s likeness crowned and robed and
                         dead.</s>
-                    <join result="s" targets="#acs0000090-01-s0071 #acs0000090-01-s0072" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0071 #acs0000090-01-s0072" scope="branches"/>
                </l>
                 <l n="73">
                     <s xml:id="acs0000090-01-s0073" next="#acs0000090-01-s0074" part="I">Sweet still, but now not red,</s>
@@ -1783,7 +1783,7 @@
                 <l n="74">
                     <s xml:id="acs0000090-01-s0074" part="F" prev="#acs0000090-01-s0073">Was the shut mouth whereby men lived and
                         died.</s>
-                    <join result="s" targets="#acs0000090-01-s0073 #acs0000090-01-s0074" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0073 #acs0000090-01-s0074" scope="branches"/>
                </l>
                 <l n="75">
                     <s xml:id="acs0000090-01-s0075" next="#acs0000090-01-s0076" part="I">And sweet, but emptied of the blood’s
@@ -1792,7 +1792,7 @@
                 <l n="76">
                     <s xml:id="acs0000090-01-s0076" part="F" prev="#acs0000090-01-s0075">The great curled eyelids that withheld
                         her eyes.</s>
-                    <join result="s" targets="#acs0000090-01-s0075 #acs0000090-01-s0076" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0075 #acs0000090-01-s0076" scope="branches"/>
                </l>
                 <l n="77">
                     <s xml:id="acs0000090-01-s0077" next="#acs0000090-01-s0078" part="I">And sweet, but like spoilt gold,</s>
@@ -1800,7 +1800,7 @@
                 <l n="78">
                     <s xml:id="acs0000090-01-s0078" part="F" prev="#acs0000090-01-s0077">The weight of colour in her tresses
                         weighed.</s>
-                    <join result="s" targets="#acs0000090-01-s0077 #acs0000090-01-s0078" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0077 #acs0000090-01-s0078" scope="branches"/>
                </l>
                 <l n="79">
                     <s xml:id="acs0000090-01-s0079" next="#acs0000090-01-s0080" part="I">And sweet, but as a vesture with new
@@ -1809,7 +1809,7 @@
                 <l n="80">
                     <s xml:id="acs0000090-01-s0080" part="F" prev="#acs0000090-01-s0079">The body that was clothed with love of
                         old.</s>
-                    <join result="s" targets="#acs0000090-01-s0079 #acs0000090-01-s0080" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0079 #acs0000090-01-s0080" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1837,7 +1837,7 @@
                 <l n="86">
                     <s xml:id="acs0000090-01-s0086" part="F" prev="#acs0000090-01-s0085">Even where they are cloven apart — who
                         knows not this?</s>
-                    <join result="s" targets="#acs0000090-01-s0081 #acs0000090-01-s0082 #acs0000090-01-s0083 #acs0000090-01-s0084 #acs0000090-01-s0085 #acs0000090-01-s0086" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0081 #acs0000090-01-s0082 #acs0000090-01-s0083 #acs0000090-01-s0084 #acs0000090-01-s0085 #acs0000090-01-s0086" scope="branches"/>
                </l>
                 <l n="87">
                     <s xml:id="acs0000090-01-s0087" next="#acs0000090-01-s0088" part="I">Ah! the flowers cleave apart</s>
@@ -1853,7 +1853,7 @@
                 <l n="90">
                     <s xml:id="acs0000090-01-s0090" part="F" prev="#acs0000090-01-s0089">Ere their fine gold was tarnished at the
                         heart.</s>
-                    <join result="s" targets="#acs0000090-01-s0087 #acs0000090-01-s0088 #acs0000090-01-s0089 #acs0000090-01-s0090" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0087 #acs0000090-01-s0088 #acs0000090-01-s0089 #acs0000090-01-s0090" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1894,7 +1894,7 @@
                </l>
                 <l n="100">
                     <s xml:id="acs0000090-01-s0100" part="F" prev="#acs0000090-01-s0099">Than souls of women fashioned otherwise.</s>
-                    <join result="s" targets="#acs0000090-01-s0091 #acs0000090-01-s0092 #acs0000090-01-s0093 #acs0000090-01-s0094 #acs0000090-01-s0095 #acs0000090-01-s0096 #acs0000090-01-s0097 #acs0000090-01-s0098 #acs0000090-01-s0099 #acs0000090-01-s0100" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0091 #acs0000090-01-s0092 #acs0000090-01-s0093 #acs0000090-01-s0094 #acs0000090-01-s0095 #acs0000090-01-s0096 #acs0000090-01-s0097 #acs0000090-01-s0098 #acs0000090-01-s0099 #acs0000090-01-s0100" scope="branches"/>
                </l>
             </lg>
             <lg>
@@ -1932,7 +1932,7 @@
                </l>
                 <l n="109">
                     <s xml:id="acs0000090-01-s0109" part="F" prev="#acs0000090-01-s0108">Is become thrall to Death.”</s>
-                    <join result="s" targets="#acs0000090-01-s0101 #acs0000090-01-s0102 #acs0000090-01-s0103 #acs0000090-01-s0104 #acs0000090-01-s0105 #acs0000090-01-s0106 #acs0000090-01-s0107 #acs0000090-01-s0108 #acs0000090-01-s0109" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0101 #acs0000090-01-s0102 #acs0000090-01-s0103 #acs0000090-01-s0104 #acs0000090-01-s0105 #acs0000090-01-s0106 #acs0000090-01-s0107 #acs0000090-01-s0108 #acs0000090-01-s0109" scope="branches"/>
                </l>
                 <l n="110">
                     <s xml:id="acs0000090-01-s0110" next="#acs0000090-01-s0111" part="I">Bow down before him, ballad, sigh and
@@ -1951,7 +1951,7 @@
                </l>
                 <l n="114">
                     <s xml:id="acs0000090-01-s0114" part="F" prev="#acs0000090-01-s0113">Death shall come in with thee.</s>
-                    <join result="s" targets="#acs0000090-01-s0110 #acs0000090-01-s0111 #acs0000090-01-s0112 #acs0000090-01-s0113 #acs0000090-01-s0114" scope="branches"/>
+                    <join result="s" target="#acs0000090-01-s0110 #acs0000090-01-s0111 #acs0000090-01-s0112 #acs0000090-01-s0113 #acs0000090-01-s0114" scope="branches"/>
                </l>
             </lg>
             <pb n="[8]" facs="acs0000001-01-051"/>
@@ -2025,7 +2025,7 @@
                 <l n="4">
                     <s xml:id="acs_pb1_t003_s0014" part="F" prev="acs_pb1_t003_s0013">Soft, and
                         stung softly — fairer for a fleck.</s>
-                    <join result="s" targets="acs_pb1_t003_s0011 acs_pb1_t003_s0012 acs_pb1_t003_s0013 acs_pb1_t003_s0014" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0011 acs_pb1_t003_s0012 acs_pb1_t003_s0013 acs_pb1_t003_s0014" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2042,7 +2042,7 @@
                 <l n="8">
                     <s xml:id="acs_pb1_t003_s0018" part="F" prev="acs_pb1_t003_s0017">Deep sleep has
                         warmed her blood through all its ways.</s>
-                    <join result="s" targets="acs_pb1_t003_s0015 acs_pb1_t003_s0016 acs_pb1_t003_s0017 acs_pb1_t003_s0018" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0015 acs_pb1_t003_s0016 acs_pb1_t003_s0017 acs_pb1_t003_s0018" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2059,7 +2059,7 @@
                 <l n="12">
                     <s xml:id="acs_pb1_t003_s0022" part="F" prev="acs_pb1_t003_s0021">Were the twain
                         seasons of the day and night.</s>
-                    <join result="s" targets="acs_pb1_t003_s0019 acs_pb1_t003_s0020 acs_pb1_t003_s0021 acs_pb1_t003_s0022" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0019 acs_pb1_t003_s0020 acs_pb1_t003_s0021 acs_pb1_t003_s0022" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2078,7 +2078,7 @@
                 <l n="16">
                     <s xml:id="acs_pb1_t003_s0026" part="F" prev="acs_pb1_t003_s0025">The feet and
                         hands whereat our souls were priced.</s>
-                    <join result="s" targets="acs_pb1_t003_s0023 acs_pb1_t003_s0024 acs_pb1_t003_s0025 acs_pb1_t003_s0026" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0023 acs_pb1_t003_s0024 acs_pb1_t003_s0025 acs_pb1_t003_s0026" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2095,7 +2095,7 @@
                 <l n="20">
                     <s xml:id="acs_pb1_t003_s0030" part="F" prev="acs_pb1_t003_s0029">But see now,
                         Lord; her mouth is lovelier.</s>
-                    <join result="s" targets="acs_pb1_t003_s0029 acs_pb1_t003_s0030" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0029 acs_pb1_t003_s0030" scope="root"/>
                </l>
             </lg>
             <pb n="12" facs="acs0000001-01-055"/>
@@ -2111,7 +2111,7 @@
                 <l n="23" rendition="#ti-1">
                     <s xml:id="acs_pb1_t003_s0033" part="F" prev="acs_pb1_t003_s0032">Had now thy
                         mother such a lip — like this?</s>
-                    <join result="s" targets="acs_pb1_t003_s0032 acs_pb1_t003_s0033" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0032 acs_pb1_t003_s0033" scope="root"/>
                </l>
                 <l n="24">
                     <s xml:id="acs_pb1_t003_s0034">Thou knowest how sweet a thing it is to me.</s>
@@ -2131,7 +2131,7 @@
                 <l n="28">
                     <s xml:id="acs_pb1_t003_s0038" part="F" prev="acs_pb1_t003_s0037">And my heart
                         chokes me till I hear it not.</s>
-                    <join result="s" targets="acs_pb1_t003_s0035 acs_pb1_t003_s0036 acs_pb1_t003_s0037 acs_pb1_t003_s0038" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0035 acs_pb1_t003_s0036 acs_pb1_t003_s0037 acs_pb1_t003_s0038" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2148,7 +2148,7 @@
                 <l n="32">
                     <s xml:id="acs_pb1_t003_s0042" part="F" prev="acs_pb1_t003_s0041">And shed
                         between her eyelids through her eyes.</s>
-                    <join result="s" targets="acs_pb1_t003_s0039 acs_pb1_t003_s0040 acs_pb1_t003_s0041 acs_pb1_t003_s0042" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0039 acs_pb1_t003_s0040 acs_pb1_t003_s0041 acs_pb1_t003_s0042" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2182,7 +2182,7 @@
                 <l n="40">
                     <s xml:id="acs_pb1_t003_s0050" part="F" prev="acs_pb1_t003_s0049">There stands
                         he, like one labouring at a loom.</s>
-                    <join result="s" targets="acs_pb1_t003_s0043 acs_pb1_t003_s0044 acs_pb1_t003_s0045 acs_pb1_t003_s0046 acs_pb1_t003_s0047 acs_pb1_t003_s0048 acs_pb1_t003_s0049 acs_pb1_t003_s0050" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0043 acs_pb1_t003_s0044 acs_pb1_t003_s0045 acs_pb1_t003_s0046 acs_pb1_t003_s0047 acs_pb1_t003_s0048 acs_pb1_t003_s0049 acs_pb1_t003_s0050" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2200,7 +2200,7 @@
                 <l n="44">
                     <s xml:id="acs_pb1_t003_s0054" part="F" prev="acs_pb1_t003_s0053">Weaves with
                         the hair of many a ruined head.</s>
-                    <join result="s" targets="acs_pb1_t003_s0051 acs_pb1_t003_s0052 acs_pb1_t003_s0053 acs_pb1_t003_s0054" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0051 acs_pb1_t003_s0052 acs_pb1_t003_s0053 acs_pb1_t003_s0054" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2217,7 +2217,7 @@
                 <l n="48">
                     <s xml:id="acs_pb1_t003_s0058" part="F" prev="acs_pb1_t003_s0057">His web,
                         reeled off, curls and goes out like steam.</s>
-                    <join result="s" targets="acs_pb1_t003_s0055 acs_pb1_t003_s0056 acs_pb1_t003_s0057 acs_pb1_t003_s0058" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0055 acs_pb1_t003_s0056 acs_pb1_t003_s0057 acs_pb1_t003_s0058" scope="root"/>
                </l>
             </lg>
             <pb n="13" facs="acs0000001-01-056"/>
@@ -2236,7 +2236,7 @@
                 <l n="52">
                     <s xml:id="acs_pb1_t003_s0062" part="F" prev="acs_pb1_t003_s0061">That sleep not
                         neither weep they as they go.</s>
-                    <join result="s" targets="acs_pb1_t003_s0059 acs_pb1_t003_s0060 acs_pb1_t003_s0061 acs_pb1_t003_s0062" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0059 acs_pb1_t003_s0060 acs_pb1_t003_s0061 acs_pb1_t003_s0062" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2254,7 +2254,7 @@
                 <l n="56">
                     <s xml:id="acs_pb1_t003_s0066" part="F" prev="acs_pb1_t003_s0065">Or where the
                         wind’s feet shine along the sea.</s>
-                    <join result="s" targets="acs_pb1_t003_s0063 acs_pb1_t003_s0064 acs_pb1_t003_s0065 acs_pb1_t003_s0066" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0063 acs_pb1_t003_s0064 acs_pb1_t003_s0065 acs_pb1_t003_s0066" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2271,7 +2271,7 @@
                 <l n="60">
                     <s xml:id="acs_pb1_t003_s0070" part="F" prev="acs_pb1_t003_s0069">And I were as
                         the least of all his dead.</s>
-                    <join result="s" targets="acs_pb1_t003_s0067 acs_pb1_t003_s0068 acs_pb1_t003_s0069 acs_pb1_t003_s0070" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0067 acs_pb1_t003_s0068 acs_pb1_t003_s0069 acs_pb1_t003_s0070" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2289,7 +2289,7 @@
                 <l n="64">
                     <s xml:id="acs_pb1_t003_s0074" part="F" prev="acs_pb1_t003_s0073">And my mouth
                         stricken ere it saith Alas!</s>
-                    <join result="s" targets="acs_pb1_t003_s0071 acs_pb1_t003_s0072 acs_pb1_t003_s0073 acs_pb1_t003_s0074" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0071 acs_pb1_t003_s0072 acs_pb1_t003_s0073 acs_pb1_t003_s0074" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2306,7 +2306,7 @@
                 <l n="68">
                     <s xml:id="acs_pb1_t003_s0078" part="F" prev="acs_pb1_t003_s0077">That these
                         things were not one thing and the same!</s>
-                    <join result="s" targets="acs_pb1_t003_s0075 acs_pb1_t003_s0076 acs_pb1_t003_s0077 acs_pb1_t003_s0078" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0075 acs_pb1_t003_s0076 acs_pb1_t003_s0077 acs_pb1_t003_s0078" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2324,7 +2324,7 @@
                 <l n="72">
                     <s xml:id="acs_pb1_t003_s0082" part="F" prev="acs_pb1_t003_s0081">A little day,
                         a little way of breath.</s>
-                    <join result="s" targets="acs_pb1_t003_s0079 acs_pb1_t003_s0080 acs_pb1_t003_s0081 acs_pb1_t003_s0082" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0079 acs_pb1_t003_s0080 acs_pb1_t003_s0081 acs_pb1_t003_s0082" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2342,7 +2342,7 @@
                 <l n="76">
                     <s xml:id="acs_pb1_t003_s0086" part="F" prev="acs_pb1_t003_s0075">He is not, and
                         none knoweth of such an one.</s>
-                    <join result="s" targets="acs_pb1_t003_s0083 acs_pb1_t003_s0084 acs_pb1_t003_s0085 acs_pb1_t003_s0086" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0083 acs_pb1_t003_s0084 acs_pb1_t003_s0085 acs_pb1_t003_s0086" scope="root"/>
                </l>
             </lg>
             <pb n="14" facs="acs0000001-01-057"/>
@@ -2361,7 +2361,7 @@
                 <l n="80">
                     <s xml:id="acs_pb1_t003_s0090" part="F" prev="acs_pb1_t003_s0089">As bones of
                         men under the deep sharp sea.</s>
-                    <join result="s" targets="acs_pb1_t003_s0087 acs_pb1_t003_s0088 acs_pb1_t003_s0089 acs_pb1_t003_s0090" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0087 acs_pb1_t003_s0088 acs_pb1_t003_s0089 acs_pb1_t003_s0090" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2378,7 +2378,7 @@
                 <l n="84">
                     <s xml:id="acs_pb1_t003_s0094" part="F" prev="acs_pb1_t003_s0093">The wind’s wet
                         wings and fingers drip with rain.</s>
-                    <join result="s" targets="acs_pb1_t003_s0091 acs_pb1_t003_s0092 acs_pb1_t003_s0093 acs_pb1_t003_s0094" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0091 acs_pb1_t003_s0092 acs_pb1_t003_s0093 acs_pb1_t003_s0094" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2396,7 +2396,7 @@
                 <l n="88">
                     <s xml:id="acs_pb1_t003_s0098" part="F" prev="acs_pb1_t003_s0097">Until Christ’s
                         birthnight, lily-like, arow.</s>
-                    <join result="s" targets="acs_pb1_t003_s0095 acs_pb1_t003_s0096 acs_pb1_t003_s0097 acs_pb1_t003_s0098" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0095 acs_pb1_t003_s0096 acs_pb1_t003_s0097 acs_pb1_t003_s0098" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2412,7 +2412,7 @@
                </l>
                 <l n="92">
                     <s xml:id="acs_pb1_t003_s0102" next="acs_pb1_t003_s0103" part="F" prev="acs_pb1_t003_s0101">And sleep beholds me from afar awake.</s>
-                    <join result="s" targets="acs_pb1_t003_s0099 acs_pb1_t003_s0100 acs_pb1_t003_s0101 acs_pb1_t003_s0102" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0099 acs_pb1_t003_s0100 acs_pb1_t003_s0101 acs_pb1_t003_s0102" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2431,7 +2431,7 @@
                 <l n="96">
                     <s xml:id="acs_pb1_t003_s0106" prev="acs_pb1_t003_s0105" part="F">And on death’s
                         face the scattered hair of sleep.</s>
-                    <join result="s" targets="acs_pb1_t003_s0103 acs_pb1_t003_s0104 acs_pb1_t003_s0105 acs_pb1_t003_s0106" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0103 acs_pb1_t003_s0104 acs_pb1_t003_s0105 acs_pb1_t003_s0106" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2450,7 +2450,7 @@
                 <l n="100">
                     <s xml:id="acs_pb1_t003_s0110" prev="acs_pb1_t003_s0109" part="F">And in my
                         mouth no fruit of theirs is sweet.</s>
-                    <join result="s" targets="acs_pb1_t003_s0107 acs_pb1_t003_s0108 acs_pb1_t003_s0109 acs_pb1_t003_s0110" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0107 acs_pb1_t003_s0108 acs_pb1_t003_s0109 acs_pb1_t003_s0110" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2469,7 +2469,7 @@
                 <l n="104">
                     <s xml:id="acs_pb1_t003_s0114" prev="acs_pb1_t003_s0113" part="F">Mine eyelids
                         on mine eyes like fire on fire.</s>
-                    <join result="s" targets="acs_pb1_t003_s0111 acs_pb1_t003_s0112 acs_pb1_t003_s0113 acs_pb1_t003_s0114" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0111 acs_pb1_t003_s0112 acs_pb1_t003_s0113 acs_pb1_t003_s0114" scope="root"/>
                </l>
             </lg>
             <pb n="15" facs="acs0000001-01-058"/>
@@ -2489,7 +2489,7 @@
                 <l n="108">
                     <s xml:id="acs_pb1_t003_s0118" prev="acs_pb1_t003_s0117" part="F">Laughs low for
                         love’s sake and the words he saith.</s>
-                    <join result="s" targets="acs_pb1_t003_s0115 acs_pb1_t003_s0116 acs_pb1_t003_s0117 acs_pb1_t003_s0118" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0115 acs_pb1_t003_s0116 acs_pb1_t003_s0117 acs_pb1_t003_s0118" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2507,7 +2507,7 @@
                 <l n="112">
                     <s xml:id="acs_pb1_t003_s0122" prev="acs_pb1_t003_s0121" part="F">And the sweet
                         tears are tender with her eyes.</s>
-                    <join result="s" targets="acs_pb1_t003_s0119 acs_pb1_t003_s0120 acs_pb1_t003_s0121 acs_pb1_t003_s0122" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0119 acs_pb1_t003_s0120 acs_pb1_t003_s0121 acs_pb1_t003_s0122" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2525,7 +2525,7 @@
                 <l n="116">
                     <s xml:id="acs_pb1_t003_s0126" prev="acs_pb1_t003_s0125" part="F">Heard sudden
                         serpents hiss across her hair.</s>
-                    <join result="s" targets="acs_pb1_t003_s0123 acs_pb1_t003_s0124 acs_pb1_t003_s0125 acs_pb1_t003_s0126" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0123 acs_pb1_t003_s0124 acs_pb1_t003_s0125 acs_pb1_t003_s0126" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2544,7 +2544,7 @@
                 <l n="120">
                     <s xml:id="acs_pb1_t003_s0130" prev="acs_pb1_t003_s0129" part="F">Exceeding
                         pleasure out of extreme pain.</s>
-                    <join result="s" targets="acs_pb1_t003_s0127 acs_pb1_t003_s0128 acs_pb1_t003_s0129 acs_pb1_t003_s0130" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0127 acs_pb1_t003_s0128 acs_pb1_t003_s0129 acs_pb1_t003_s0130" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2563,7 +2563,7 @@
                 <l n="124">
                     <s xml:id="acs_pb1_t003_s0134" prev="acs_pb1_t003_s0133" part="F">She tramples
                         all that winepress of the dead.</s>
-                    <join result="s" targets="acs_pb1_t003_s0131 acs_pb1_t003_s0132 acs_pb1_t003_s0133 acs_pb1_t003_s0134" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0131 acs_pb1_t003_s0132 acs_pb1_t003_s0133 acs_pb1_t003_s0134" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2581,7 +2581,7 @@
                </l>
                 <l n="128">
                     <s xml:id="acs_pb1_t003_s0138" prev="acs_pb1_t003_s0137" next="acs_pb1_t003_s0139" part="F">The languor in her ears of many lyres.</s>
-                    <join result="s" targets="acs_pb1_t003_s0135 acs_pb1_t003_s0136 acs_pb1_t003_s0137 acs_pb1_t003_s0138" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0135 acs_pb1_t003_s0136 acs_pb1_t003_s0137 acs_pb1_t003_s0138" scope="root"/>
                </l>
             </lg>
             <lg>
@@ -2600,7 +2600,7 @@
                 <l n="132">
                     <s xml:id="acs_pb1_t003_s0142" prev="acs_pb1_t003_s0141" part="F">With tears
                         whereby strong souls of men are bound.</s>
-                    <join result="s" targets="acs_pb1_t003_s0139 acs_pb1_t003_s0140 acs_pb1_t003_s0141 acs_pb1_t003_s0142" scope="root"/>
+                    <join result="s" target="acs_pb1_t003_s0139 acs_pb1_t003_s0140 acs_pb1_t003_s0141 acs_pb1_t003_s0142" scope="root"/>
                </l>
             </lg>
             <pb n="16" facs="acs0000001-01-059"/>
