@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/jawalsh/development/acsproj/data/swinburne.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="includes/publicationStmt.xml"/>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            <orgName>Sotheby, Wilkinson &amp; Hodge</orgName>
+                        </author>
+                        <title>Catalogue of the Library of Algernon Charles Swinburne, Esq.</title>
+                    </analytic>
+                    <monogr>
+                        <editor>Woolford, John</editor>
+                        <title>Sale Catalogues of LIbraries of Eminent Persons</title>
+                        <title>Poets and Men of Letters</title>
+                        <imprint>
+                            <pubPlace> London </pubPlace>
+                            <publisher>Mansell</publisher>
+                            <date when="1972" xml:id="sort_date"/>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="page">253-337</biblScope>
+                        </imprint>
+                        <extent>5 vols.</extent>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        <!-- Day 1 -->
+  <div type="day" n="1">
+    <div type="size" n="octavo">
+        <listBibl type="lot" xml:id="sb1">
+        <bibl xml:id="sb1.1">
+            <author>Agresti, A.                    
+               </author>
+            <title xml:lang="it">La Filosofia nella Letteratura Moderna</title> <!-- use lang -->
+            <pubPlace>Torino</pubPlace>
+            <date>1904</date>
+            <note type="description">uncut, presentation copy to Swinburne with inscription on fly-leaf</note>
+            <note type="inscription">To Algernon Charles Swinburne, with reverence from one of the land highly glorified by the Poet in his verses, A. Agresti, London, October, 1904</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb2">
+        <bibl xml:id="sb2.1">
+           <author>Agresti, O. Rossetti</author>
+            <title>Giovanni Costa, his Life, Work and Times</title>
+            <date>1904</date>
+            <note type="description">portrait and etchings, buckram, uncut, t.e.g. roy. 8vo</note>
+        </bibl>
+        <bibl xml:id="sb2.2">
+            <author>Rossetti, Wm.</author>
+            <title>Rossetti Papers, 1862 to 1870</title>
+            <note type="descripton">uncut</note>
+            <date>1903</date>
+        </bibl>
+        <bibl xml:id="sb2.3">
+            <author>Rossetti, Christina G.</author>
+            <title>Time Flies, a Reading Diary</title>
+            <date>1885</date>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb3">
+        <bibl xml:id="sb3.1">
+            <author>Ainslie, Douglas</author>
+            <title>Escarlamonde, and other Poems</title>
+            <date>1893</date>
+            <note type="description">presentation copy with inscription</note>
+            <note type="inscription">A.C. Swinburne, Esq. a tribute of admiration from the Author</note>
+        </bibl>
+        <bibl xml:id="sb3.2">
+            <author>Dixon, R.W.</author>
+            <title>Odes and Eclogues</title>
+            <pubPlace>Oxford</pubPlace>
+            <publisher>Herny Daniel</publisher>
+            <date>1884</date>
+            <note type="description">one of 100 copies, uncut</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb4">
+        <bibl xml:id="sb4.1">
+            <author>Ainsworth, W.H.</author>
+            <title>Jack Shepherd, Tower of London, Windsor Castle, Guy Fawkes, Rookwood and the Miser's Daughter</title>
+            <extent>6 vol.</extent>
+            <date>n.d.</date>
+            <note type="description">illustrations by G. Cruikshank and Tony Johannot, red cloth</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb5">
+         <bibl xml:id="sb5.1">
+            <author>Alabaster, Gul.</author>
+            <title>Roxana Tragœdia</title>
+            <edition>First Edition</edition>
+            <date>1632</date>
+        </bibl>
+         <bibl xml:id="sb5.2"> <!-- may be additional biblios in this lot. Unclear how relates to 5.2 though -->
+            <author>Hausted,P.</author>
+            <title>Senile Odium, Comœdia</title>
+            <extent>First Edition</extent>
+            <note type="description">cantab.</note> <!--may refer to Cantabrigian (from Cambridge). Put in pubPlace instead? -->
+            <date>1633</date>           
+      </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb6">
+        <bibl xml:id="sb6.1">
+            <author>Alfieri, V.</author>
+            <title>Tragedie</title>
+            <extent>6 vol.</extent>
+            <pubPlace>Parigi</pubPlace><!--use LCNA -->
+            <date>1788-1789</date>
+            <note type="description">vellum</note>
+       </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb7">
+        <bibl xml:id="sb7.1">
+            <author>Allot, Robert</author>
+            <title>England's Parnassus; or the Choycest Flowers of our Moderne Poets with their poeticall comparisons</title>
+            <date>1600</date>
+            <note type="description">old calf, broken, some leaves cut into</note>
+        </bibl>
+        </listBibl> 
+        <listBibl type="lot" xml:id="sb8">
+        <bibl xml:id="sb8.1">
+            <author>Andrews, E.A.</author>
+            <title>Latin-English Lexicon</title> <!-- autograph letter of M.H. Speilmann to A.C. Swinburne inserted -->
+            <date>1867</date>
+            <note type="description">autograph letter of M.H. Spielmann to A.C. Swinburne inserted, imp. 8vo</note>
+        </bibl>
+        <bibl xml:id="sb8.2">
+            <author>Galt, J.</author>
+            <title>Tragedies of Maddalen Agammemnon, Lady Macbeth, Antonia and Clytemnestra</title>
+            <edition>First Edition</edition>
+            <date>1812</date>
+            <note type="description">frontispiece, uncut, imp. 8vo</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb9">
+        <bibl xml:id="sb9.1">
+            <author>Anthropological Society of London</author> 
+            <title>Memoirs read before the Society, Vol. I-III</title> <!--3 volume set -->
+            <extent>3 vol.</extent>
+            <date>1865-70</date>
+            <note type="description">illustrations</note>
+       </bibl>
+       <bibl xml:id="sb9.2">
+            <author>Blumenbach, J.F</author>
+            <title>Anthropological Treatises, with his Life</title> <!--add translation info? -->
+            <respStmt>
+                <resp>Translated by</resp>
+                <name>T. Bendyshe</name>
+           </respStmt> 
+           <date>1865</date>
+           <note type="description">plates</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb10">
+       <bibl xml:id="sb10.1">
+           <author>Apuleius</author>
+           <title>The Golden Ass</title> 
+           <respStmt>                       
+               <resp>Translated by</resp>
+               <name>F.D. Byrne</name>
+           </respStmt>
+           <date>n.d.</date>
+           <note type="description">illustrations, half vellum, uncut</note>
+      </bibl>
+        <bibl xml:id="sb10.2">
+            <author>Petronius</author>
+            <title>Satyricon</title> 
+            <respStmt>                       
+                <resp>Translated by</resp>
+                <name>Nilson</name>           
+            </respStmt>
+            <date>1899</date>
+            <note type="description">frontispiece, uncut</note>
+        </bibl>
+        <bibl xml:id="sb10.3">
+            <author>Paley, F.A.</author>
+            <title>Euripedes, with English Commentary</title>
+            <extent>3 vol.</extent>
+            <date>1857</date>
+        </bibl>
+        </listBibl> 
+        <listBibl type="lot" xml:id="sb11">
+        <bibl xml:id="sb11.1">
+            <author>unk</author> 
+            <title>Book of the Thousand Nights and a Night, with the Supplemental Nights</title>
+            <extent>16 vol.</extent>
+            <respStmt>
+                <resp>translated by</resp>
+                <name>Richard F. Burton</name>
+            </respStmt>
+            <pubPlace>Benares</pubPlace>
+            <publisher>Kamashastra Society</publisher>
+            <date>1885</date>
+            <note type="description">black cloth, roy. 8vo.</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb12">
+        <bibl xml:id="sb12.1">
+            <author>Arber, E.</author>
+            <title>An English Garner, vol. VIII</title>
+            <date>1896</date>
+            <note type="description">presentation copy with autograph inscription</note>
+       </bibl>
+       <bibl xml:id="sb12.2">
+           <author>Clark, John</author>
+           <title>Hannibal, a Drama</title>
+           <date>1908</date>
+           <note type="descripton">presentation copy from the author to Swinburne</note>
+       </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb13">
+       <bibl xml:id="sb13.1">
+           <author>Shakespeare, William</author> <!-- no author listed in catalog, but now attributed to Shakespeare -->
+           <title>The lamentable and true Tragedie of M. Arden of Feversham in Kent, with Preface</title>
+           <date>1720</date>
+           <note type="description">calf</note>
+       </bibl>
+        <bibl xml:id="sb13.2">
+            <author>Orsini, F.</author> 
+            <title>Memoirs and Adventures</title>
+            <respStmt>
+                <resp>Translated by</resp>
+                <name>G. Carbonnel</name>
+            </respStmt>
+            <date>1857</date>
+            <note type="description">portrait, presentation copy to Swinburne with inscription</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb14">
+        <bibl xml:id="sb14.1">
+            <author>Aretino, Pietro</author>
+            <title xml:lang="it">Lettere, Libri VI</title>
+            <extent>3 vol.</extent>
+            <pubPlace>Paris</pubPlace>
+            <date>1609</date>
+            <note type="description">vellum</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb15">
+        <bibl xml:id="sb15.1">
+            <author>Ariosto, Lodovico</author>
+            <title xml:lang="it">Il Negromante Comedia</title>
+            <pubPlace>Venice</pubPlace> 
+            <publisher>Delande Pere</publisher>
+            <date>1535</date>
+            <note type="description">portrait on title, old red levant morocco, inside gilt borders, g.e.</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb16">
+        <bibl xml:id="sb16.1">
+            <author>Ariosto, Lodovico</author>
+            <title xml:lang="it">Sopposite Comediea</title>
+            <pubPlace>Venice</pubPlace>
+            <publisher>F. Bindoni and M. Pasini</publisher>
+            <date>1537</date>
+            <note type="description">woodcut portrait on title and woodcuts at end, old red morocco, gilt borders, inside gilt borders, g.e.</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb17">
+        <bibl xml:id="sb17.1">
+            <author>Ariosto, Lodovico.</author>
+            <title xml:lang="it">Orlando Furioso</title> 
+            <extent>8 vol. in 4</extent>
+            <pubPlace>Florence</pubPlace> <!--use getty place names -->
+            <date>1823</date>
+            <note type="description">portrait, half vellum</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb18">
+        <bibl xml:id="sb18.1">
+            <author>Armstrong, E.J.</author>
+            <title>Poetical Works</title>
+            <date>1877</date>
+            <note type="description">portrait, presentation copy to Swinburne with autograph inscription</note>
+        </bibl>      
+        <bibl xml:id="sb18.2">
+            <author>Armstrong, E.J.</author> <!--use LC names -->
+            <title>Essays and Sketches</title>
+            <date>1877</date>
+            <note type="description">presentation copy to Swinburne with autograph inscription</note>
+        </bibl>
+         <bibl xml:id="sb18.3">
+            <author>Armstrong, E.J.</author>
+            <title>A Garland from Greece</title>
+            <date>1882</date>
+             <note type="description">presentation copy to Swinburne with autograph inscription</note>
+        </bibl>
+        <bibl xml:id="sb18.4">
+            <author>Armstrong, E.J.</author>
+            <title>Stories of Wicklow</title>
+            <date>1886</date>
+            <note type="description">presentation copy to Swinburne with autograph inscription</note>
+        </bibl>
+        <bibl xml:id="sb18.5">
+            <author>Armstrong, E.J.</author>
+            <title>Life and Letters</title>
+            <respStmt>
+                <resp>edited by</resp>  
+                <name>G.F. Armstrong</name>
+            </respStmt>
+            <date>1877</date>
+            <note type="description">presentation copy to Swinburne with autograph inscription</note>
+        </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb19">
+         <bibl xml:id="sb19.1">
+             <author>Arnold, Edwin</author>
+             <title>The Poets of Greece</title>
+             <edition>First Edition</edition>
+             <date>1869</date>
+         </bibl>   
+         <bibl xml:id="sb19.1">
+             <author>Tabley, Lord de</author>
+             <title>Collected Poems</title>
+             <date>1903</date>
+             <note type="description">portrait, vellum, uncut, t.e.g.</note>
+         </bibl>
+         <bibl xml:id="sb19.2">
+             <author>Skipsey, Joseph</author>
+             <title>Songs and Lyrics</title>
+             <date>1892</date>
+             <note type="description">uncut</note>
+         </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb20">
+          <bibl xml:id="sb20.1">
+              <author>Arnold, Sir. E</author>
+              <title>The Epic Hades</title>
+              <date>1876</date>
+              <note type="description">presentation copy, with inscription</note>
+              <note type="inscription">For the Author of 'Hertha' from the Writer Feb. 10th, '76</note>
+          </bibl>
+            <bibl xml:id="sb20.2">
+                <author>Wagner, Richard</author>
+                <title>Tristan and Isolde</title>
+                <respStmt>
+                    <resp>translated by</resp>
+                    <name>F. Jameson</name>
+                </respStmt>
+                <date>1886</date>
+            </bibl>
+            <bibl xml:id="sb20.3">
+                <author>Pollack, Sir F.</author>
+                <title>Leading Cases done into English</title>
+                <date>1892</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb21">
+            <bibl xml:id="sb21.1">
+                <author>Arnold, Matthew</author>
+                <title>Poems</title>
+                <date>1853</date>
+                <note type="description">crimson morocco extra, richly gilt sides, g.e.</note>
+            </bibl>
+            <bibl xml:id="sb21.2">
+                <author>Arnold, Matthew</author>
+                <title>Note Books, with Preface by the Hon. Mrs. Wodehouse</title>
+                <date>1902</date>
+                <note type="description">portrait</note>
+            </bibl>
+            <bibl xml:id="sb21.3">
+                <author>Arnold, Matthew</author>
+                <title>Friendship's Garland</title>
+                <date>1871</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb22">
+            <bibl xml:id="sb22.1">
+                <author>Arnold, Matthew</author>
+                <title>Merope, a Tragedy</title>
+                <edition>First edition</edition>
+                <date>1858</date>
+            </bibl>
+            <bibl xml:id="sb22.2">
+                <author>Arnold, Matthew</author>
+                <title>Merope, a Tragedy</title>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>J. Churton Collins</name>
+               </respStmt>
+                <pubPlace>Oxford</pubPlace>
+                <date>1906</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb23">
+            <bibl xml:id="sb23.1">
+                <author>Arnold, Matthew</author>
+                <title>Popular Education in France</title>
+                <edition>First edition</edition>
+                <date>1861</date>
+            </bibl>
+            <bibl xml:id="sb23.2">
+                <author>Arnold, Matthew</author>
+                <title>On the Study of Celtic Literature</title>
+                <edition>First edition</edition>
+                <date>1867</date>
+            </bibl>
+            <bibl xml:id="sb23.3">
+                <author>Arnold, Matthew</author>
+                <title>Higher Schools and Universities in Germany</title>
+                <edition>First edition</edition>
+                <date>1874</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb24">
+            <bibl xml:id="sb24.1">
+                <author>Arnold, Matthew</author>
+                <title>Essays in Criticism</title>
+                <edition>First edition</edition>
+                <date>1865</date>
+            </bibl>
+            <bibl xml:id="sb24.2">
+                <author>Arnold, Matthew</author>
+                <title>New Poems</title>
+                <edition>First edition</edition>
+                <date>1867</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb25">
+            <bibl xml:id="sb25.1">
+                <author>Arnold, Matthew</author>
+                <title>Great Prophecy of Israel's Restoration</title>
+                <date>1872</date>
+                <note type="description">presentation copy from the author, with inscription</note>
+                <note type="inscription">With Mr. Arnold's Compliments</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb26">
+            <bibl xml:id="sb26.1">
+                <author>Arnold, Matthew</author>
+                <title>Isaiah XL-LXVI</title>
+                <edition>First Edition</edition>
+                <date>1875</date>
+                <note type="description">presentation copy with inscription</note>
+                <note type="inscription">With very kind regards M.A.</note>
+            </bibl>
+            <bibl xml:id="sb26.2">
+                <author>Arnold, Matthew</author>
+                <title>Last Essays on Church and Religion</title>
+                <date>1877</date>
+            </bibl>
+            <bibl xml:id="sb26.3">
+                <author>Arnold, Matthew</author>
+                <title>St. Paul and Protestantism</title>
+                <date>1875</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb27">
+            <bibl xml:id="sb27.1">
+                <author>Arnold, Mattew</author>
+                <title>Literature and Dogma</title>
+                <edition>First Edition</edition>
+                <date>1876</date>
+            </bibl>
+            <bibl xml:id="sb27.2">
+                <author>Arnold, Mattew</author>
+                <title>Irish Essays and others</title>
+                <edition>First Edition</edition>
+                <date>1882</date>
+            </bibl>
+            <bibl xml:id="sb27.3">
+                <author>Arnold, Mattew</author>
+                <title>Culture and Anarchy</title>
+                <edition>First Edition</edition>
+                <date>1875</date>
+            </bibl>
+            <bibl xml:id="sb27.4">
+                <author>Arnold, Mattew</author>
+                <title>God and the Bible</title>
+                <edition>First Edition</edition>
+                <date>1875</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb28">
+            <bibl xml:id="sb28.1">
+                <author>Asburton, Robert O. Lord Houghton</author>
+                <title>Gleanings from Beranger</title>
+                <date>1889</date>
+                <note type="description">one of 200 copies, vellum, uncut, t.e.g. privately printed</note>
+            </bibl>
+            <bibl xml:id="sb28.2">
+                <author>Woodberry, G.E.</author>
+                <title>The North Shore Watch and other Poems</title>
+                <date>1890</date>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb29">
+            <bibl xml:id="sb29.1">
+                <author>Gellius, Aulus</author>
+                <title>Attic Nights</title>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>Giovanni Battista Egnazio</name>
+                </respStmt>
+                <pubPlace>Venice</pubPlace>
+                <publisher xml:lang="la">in aedibus Aldi et Andreae Soceri</publisher>
+                <date>1515</date>
+                <note type="description">old morocca extra, richly gilt sides, g.e. joints cracked</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb30">
+            <bibl xml:id="sb30.1">
+                <author>Austen, Jane</author>
+                <title>Novels, with Memoir</title>
+                <edition>Steventon Edition</edition>
+                <extent>6 vol.</extent>
+                <date>1882</date>
+                <note type="description">portrait and frontispieces, white cloth</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb31">
+            <bibl xml:id="sb31.1">
+                <author>Austen, Jane</author>
+                <title>Novels</title>
+                <edition>Winchester Edition</edition>
+                <extent>10 vol.</extent>
+                <date>1898</date>
+                <note type="description">portrait, green cloth, uncut, t.e.g.</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb32">
+            <bibl xml:id="sb32.1">
+                <author>Austin, Alfred</author>
+                <title>Savonarola, a Tragedy</title>
+                <edition>First Edition</edition>
+                <date>1881</date>
+                <note type="description">uncut, presentation copy to Swinburne from the author, with authograph inscription</note>
+                <note type="inscription">To Algernon C. Swinburne from Alfred Austin Octr. 24th 1881</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb33">
+            <bibl xml:id="sb33.1">
+                <author>Bacchylides</author>
+                <title>Poems</title>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>Fred. G. Kenyon</name>
+                </respStmt>
+                <date>1897</date>
+                <note type="description">brown cloth</note>
+          </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb34">
+            <bibl xml:id="sb34.1">
+                <author>Bailliere, P.</author>
+                <title xml:lang="fr">Poetes Allemands et Poetes Anglais</title>
+                <pubPlace>Paris</pubPlace>
+                <date>1907</date>
+                <note type="description">uncut, presentation copy from the author to Swinburne, with autograph inscription</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb35">
+            <bibl xml:id="sb35.1">
+                <author>Balzac, M. de</author>
+                <title xml:lang="fr">Etudes Philosophiques</title>
+                <extent>4 vol.</extent>
+                <date>1836</date>
+                <note type="description">half morocco</note>
+            </bibl>
+            <bibl xml:id="sb35.2">
+                <author>Balzac, M. de</author>
+                <title xml:lang="fr">Les Cent Contes Drolatiques</title>
+                <extent>3 vol.</extent>
+                <date>1837</date>
+                <note type="description">half morocco</note>
+            </bibl>
+            <bibl xml:id="sb35.3">
+                <author>Balzac, M. de</author>
+                <title xml:lang="fr">Les Cousine Bette</title>
+                <extent>3 vol.</extent>
+                <date>1847</date>
+                <note type="description">half morocco, La Haye</note>
+            </bibl>
+        </listBibl>
+        <listBibl type="lot" xml:id="sb36">
+            <bibl xml:id="sb36.1">
+                <author>Banim, J.</author>
+                <title>Tales by the O'Hara Family</title>
+                <edition>First Edition</edition>
+                <extent>3 vol.</extent>
+                <date>1826</date>
+                <note type="description">calf</note>
+            </bibl>
+            <bibl xml:id="sb36.2">
+                <author>Famlet, C.</author>
+                <title>Fair in the Fearless Old Fashion</title>
+                <extent>2 vol.</extent>
+                <date>1875</date>
+                <note type="description">calf gilt</note>
+            </bibl>
+        </listBibl>
+</div> 
+</div>
+    
+
+        </body>
+    </text>
+</TEI>
+<!--<body>
+         <div type="day" n="1">
+            <div type="size" n="octavo">
+               <listBibl type="lot" xml:id="sb1">
+                  <bibl xml:id="sb1.1"/>
+                  <bibl xml:id="sb1.2"/>
+               </listBibl>
+               <listBibl type="lot" xml:id="sb2">
+                  <bibl/>
+                  <bibl/>
+                  </listBibl>
+            </div>
+         </div>
+      </body>-->
+ 
+ 
+<!--<author>
+    <name ref="Agresti, A. (Antonio), 1866-1927" ref="http://id.loc.gov/authorities/names/n85316535">Agresti, A.                    
+    </name> -->
+    
