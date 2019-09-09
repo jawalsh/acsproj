@@ -46,7 +46,7 @@
          <div xml:id="commentary">
             <head>Commentary</head>
             <div xml:id="notes">
-               <note rendition="#suppress" resp="#jawalsh" corresp="acs0000001-03-i103.xml#acs0000001-03-i103.de1753" xml:id="a001">See <bibl><title rendition="n">John</title> <biblScope type="chap">14</biblScope>:<biblScope type="verses">31</biblScope>.</bibl></note>
+               <note rendition="#suppress" resp="#jawalsh" corresp="acs0000001-03-i103.xml#acs0000001-03-i103.de1753" xml:id="a001">See <bibl><title rendition="n">John</title> <biblScope unit="chapter">14</biblScope>:<biblScope unit="verse">31</biblScope>.</bibl></note>
             </div>
          </div>
          <div xml:id="texts">
@@ -58,6 +58,7 @@
                      <author>
                             <persName key="acs">Algernon Charles Swinburne</persName>
                         </author>
+                        <idno type="nines">sosbrthd00</idno>
                   </analytic>
                   <monogr>
                         <title>The Poems of Algernon Charles Swinburne</title>
@@ -69,8 +70,7 @@
                             <biblScope unit="page">341-361</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
-                  </monogr>
-                  <idno type="nines">sosbrthd00</idno> 
+                  </monogr> 
                </biblStruct>
                <biblStruct n="original_collection">
                   <analytic>

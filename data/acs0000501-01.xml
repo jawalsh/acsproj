@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- $Id --><?oxygen RNGSchema="swinburne.rnc"
 type="compact" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000501-01">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>A Swinburne Bibliography</title>
@@ -44,7 +44,7 @@ type="compact" ?>
                         <idno type="bookends-rec-number">92844</idno>
                         <imprint>
                             <biblScope unit="volume">19</biblScope>
-                            <biblScope type="issue">4</biblScope>
+                            <biblScope unit="issue">4</biblScope>
                             <biblScope unit="page">381-395</biblScope>
                             <date when="1981"/>
                         </imprint>
@@ -829,9 +829,10 @@ type="compact" ?>
                 <biblStruct xml:id="Swinburne2005">
                     <monogr>
                         <title>Uncollected Letters of Algernon Charles Swinburne</title>
+                        <idno type="bookends-rec-number">3757</idno>
                         <author><persName><surname>Swinburne</surname>, Algernon Charles</persName></author>
                         <editor><persName><surname>Meyers</surname>, Terry L.</persName></editor>
-                        <idno type="bookends-rec-number">3757</idno>
+                        
                         <imprint>
                             <publisher>Pickering &amp; Chatto</publisher>
                             <pubPlace>London</pubPlace>
@@ -1102,8 +1103,9 @@ type="compact" ?>
                 <biblStruct xml:id="Rooksby1997">
                     <monogr>
                         <title>A. C. Swinburne: A Poet's Life</title>
-                        <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
                         <idno type="bookends-rec-number">74725</idno>
+                        <author><persName><surname>Rooksby</surname>, Rikky</persName></author>
+                        
                         <imprint>
                             <publisher>Scolar Press</publisher>
                             <pubPlace>Brookfield, VT</pubPlace>
