@@ -70,8 +70,8 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1904"> 1904 </date>
-							                 <biblScope type="vol"> 2 </biblScope>
-							                 <biblScope type="pp"> 160-170 </biblScope>
+							                 <biblScope unit="volume"> 2 </biblScope>
+							                 <biblScope unit="page"> 160-170 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
                   </monogr>
@@ -104,7 +104,7 @@
                      <title>Lippincott's Magazine of Literature, Science, and Education</title>
                      <imprint>
                         <date when="1868-05"/>
-                        <biblScope type="pp">622-629</biblScope>
+                        <biblScope unit="page">622-629</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

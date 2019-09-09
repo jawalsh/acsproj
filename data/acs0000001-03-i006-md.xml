@@ -63,8 +63,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">34-35</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">34-35</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -96,7 +96,7 @@
                      <title>Once a Week</title>
                      <imprint>
                         <date when="1872-01-06"/>
-                        <biblScope type="pp">1</biblScope>
+                        <biblScope unit="page">1</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

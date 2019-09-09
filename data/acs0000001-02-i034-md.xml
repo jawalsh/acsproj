@@ -63,8 +63,8 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1904"> 1904 </date>
-							                 <biblScope type="vol"> 2 </biblScope>
-							                 <biblScope type="pp"> 211-214 </biblScope>
+							                 <biblScope unit="volume"> 2 </biblScope>
+							                 <biblScope unit="page"> 211-214 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
                   </monogr>
@@ -102,7 +102,7 @@
                   <note>According two Wise in his <title>Bibliography</title>, <title level="a">&title;</title> appeared simultaneously in <title>The Morning Star</title> and as a broadside:
                      <cit>
                         <quote>The broadside here described was printed at the office of <title>The Morning Star</title>, and was published simultaneously with the appearance of the poem in the columns of that paper.</quote>
-                        <bibl><biblScope type="pp">1:166</biblScope></bibl>
+                        <bibl><biblScope unit="page">1:166</biblScope></bibl>
                      </cit>
                   </note>
                </biblStruct>

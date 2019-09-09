@@ -2,7 +2,7 @@
 type="compact" ?>-->
 <?oxygen RNGSchema="swinburne.rnc"  type="compact" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-01">
-        <teiHeader type="text">
+        <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
@@ -39,7 +39,7 @@ type="compact" ?>-->
                                 <pubPlace>London</pubPlace>
                                 <publisher>Chatto</publisher>
                                 <date when="1904">1904</date>
-                                <biblScope type="volume">6</biblScope>
+                                <biblScope unit="volume">6</biblScope>
                             </imprint>
                             <extent>6 vols.</extent>
                         </monogr>
@@ -3480,7 +3480,7 @@ type="compact" ?>-->
                 <l n="37">Mocked and reviled by men of poisonous breath,</l>
                 <l n="38" rendition="#ti-1">A great man dies: but one thing worst was spared;</l>
                 <l n="39" rendition="#ti-1">Not all his heart by their base hands lay bared.</l>
-                <note resp="#acs" rendition="#ti-7 #x-small" xml:id="d1e78f0388" n="1"><ref rendition="#super">1</ref><bibl><title>Titus Andronicus</title>, <biblScope type="act">Act iv.</biblScope>, <biblScope type="scene">Scene 2.</biblScope></bibl></note>
+                <note resp="#acs" rendition="#ti-7 #x-small" xml:id="d1e78f0388" n="1"><ref rendition="#super">1</ref><bibl><title>Titus Andronicus</title>, <biblScope unit="act">Act iv.</biblScope>, <biblScope unit="scene">Scene 2.</biblScope></bibl></note>
                 <pb n="87" facs="acs0000001-06-104"/><l n="40">One comes to crown with praise the dust of death;</l>
                 <l n="41" rendition="#ti-1">And lo, through him this worst is brought to pass.</l>
                 <l n="42" rendition="#ti-1">Now, what a thing it is to be an ass!</l>
@@ -9536,7 +9536,7 @@ type="compact" ?>-->
                     <l>κύριον μένει τέλος.</l>
                 </lg>
                     </quote>
-                	<bibl rendition="#ti-12 #small"><author rendition="#sc"><choice><orig>Æsch.</orig><reg>Aeschylus</reg></choice></author> <title>Eum.</title> <biblScope type="pp">538-544</biblScope></bibl>
+                	<bibl rendition="#ti-12 #small"><author rendition="#sc"><choice><orig>Æsch.</orig><reg>Aeschylus</reg></choice></author> <title>Eum.</title> <biblScope unit="page">538-544</biblScope></bibl>
                 </cit>
             </epigraph>
         	<epigraph rend="margin-left: 4em;">
@@ -9546,7 +9546,7 @@ type="compact" ?>-->
         					<l rendition="#ti-5">πάρα τὸ φῶς ἰδεῖν.</l>
         				</lg>
         			</quote>
-        			<bibl rendition="#ti-12 #small"><author rendition="#sc"><choice><orig>Æsch.</orig><reg>Aeschylus</reg></choice></author> <title>Cho.</title> <biblScope type="pp">972</biblScope>
+        			<bibl rendition="#ti-12 #small"><author rendition="#sc"><choice><orig>Æsch.</orig><reg>Aeschylus</reg></choice></author> <title>Cho.</title> <biblScope unit="page">972</biblScope>
         			</bibl>
         		</cit>
         	</epigraph>

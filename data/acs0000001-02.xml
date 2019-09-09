@@ -38,7 +38,7 @@
 							<pubPlace> London </pubPlace>
 							<publisher> Chatto </publisher>
 							<date when="1904"> 1904 </date>
-							<biblScope type="vol">2</biblScope>
+							<biblScope unit="volume">2</biblScope>
 						</imprint>
 						<extent> 6 vols. </extent>
 					</monogr>
@@ -2818,7 +2818,7 @@
 
 											<title xml:id="title_0001"><choice><abbr>Supp.</abbr><expan>Suppliants</expan></choice></title>
 
-										<biblScope type="ll">890</biblScope>.
+										<biblScope unit="line">890</biblScope>.
 									</bibl>
 				</cit>
 			</epigraph>
@@ -8929,7 +8929,7 @@
 						<note resp="#acs" xml:id="acs0000001-02-i013-note01">
 							<label rendition="#center">P. 94</label>
 							<label rendition="#center #i">Was it Love brake forth flower-fashion, a bird with gold on his wings?</label>
-							<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aristophanes"><choice><abbr>Ar.</abbr><expan>Aristophanes</expan></choice></persName></author><title key="birds" rendition="#n"><choice><abbr>Av.</abbr><expan>Aves<!-- The Birds--></expan></choice></title> <biblScope type="ll">696</biblScope>.</bibl>
+							<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aristophanes"><choice><abbr>Ar.</abbr><expan>Aristophanes</expan></choice></persName></author><title key="birds" rendition="#n"><choice><abbr>Av.</abbr><expan>Aves<!-- The Birds--></expan></choice></title> <biblScope unit="line">696</biblScope>.</bibl>
 						</note>
 						<note resp="#acs" xml:id="acs0000001-02-i024-note01">
 							<label rendition="#center">P. 161</label>
@@ -8970,7 +8970,7 @@
 							<label rendition="#center">P. 179</label>
 							<label rendition="#center #i">Mother, that by that <rs key="pegasus">Pegasean spring</rs>.</label>
 							<bibl rend="text-indent: 10em;" rendition="#block">
-								<author><persName key="callimachus"><choice><abbr>Call.</abbr><expan>Callimachus</expan></choice></persName></author> <title key="lavacrum_palladis" rendition="#n"><choice><abbr>Lav. Pall.</abbr><expan>Lavacrum Palladis</expan></choice></title> <biblScope type="ll">105-112</biblScope>.</bibl>
+								<author><persName key="callimachus"><choice><abbr>Call.</abbr><expan>Callimachus</expan></choice></persName></author> <title key="lavacrum_palladis" rendition="#n"><choice><abbr>Lav. Pall.</abbr><expan>Lavacrum Palladis</expan></choice></title> <biblScope unit="line">105-112</biblScope>.</bibl>
 						</note>
 						<note resp="#acs" xml:id="acs0000001-02-i039-note01">
 							<label rendition="#center">P. 229</label>
@@ -8979,7 +8979,7 @@
 								<quote xml:lang="gr">
 									<l>κἀξ ὀμμάτων στάζουσιν αἶμα δυσφιλὲς.</l>
 								</quote>
-								<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aeschylus"><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus.</expan></choice></persName></author> <title key="choephori" rendition="#n"><choice><abbr>Cho.</abbr><expan>Choephoroe</expan></choice></title> <biblScope type="ll">1058</biblScope>.</bibl></cit></note>
+								<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aeschylus"><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus.</expan></choice></persName></author> <title key="choephori" rendition="#n"><choice><abbr>Cho.</abbr><expan>Choephoroe</expan></choice></title> <biblScope unit="line">1058</biblScope>.</bibl></cit></note>
             		</div>
 				</back>
 			</text>

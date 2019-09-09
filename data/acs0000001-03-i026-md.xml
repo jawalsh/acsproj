@@ -63,8 +63,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">93-93</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">93-93</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -96,7 +96,7 @@
                      <title>Examiner</title>
                      <imprint>
                         <date when="1874-12-26"/>
-                        <biblScope type="pp">1420</biblScope>
+                        <biblScope unit="page">1420</biblScope>
                      </imprint>
                   </monogr>
                   <note>Pubished with an unsigned review of a production of Shakespeare's <title>The Merry Wives of Windsor</title> at the <orgName>Gaiety Theatre</orgName>.</note>

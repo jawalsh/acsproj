@@ -68,8 +68,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">113-128</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">113-128</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -102,7 +102,7 @@
                         <title>Fortnightly</title>
                         <imprint>
                            <date when="1867-01"/>
-                           <biblScope type="pp">19-26</biblScope>
+                           <biblScope unit="page">19-26</biblScope>
                         </imprint>
                      </monogr>
                   </biblStruct>

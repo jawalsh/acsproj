@@ -36,7 +36,7 @@ type="compact" ?>
 							<pubPlace> London </pubPlace>
 							<publisher> Chatto </publisher>
 							<date when="1904"> 1904 </date>
-							<biblScope type="vol">4</biblScope>
+							<biblScope unit="volume">4</biblScope>
 						</imprint>
 						<extent> 6 vols. </extent>
 					</monogr>
@@ -8759,7 +8759,7 @@ type="compact" ?>
                     </quote>
                     <bibl rendition="#ti-12">
                         <author rendition="#sc"><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></author>
-                        <title>Cho.</title> <biblScope type="ll">602-612</biblScope>.</bibl>
+                        <title>Cho.</title> <biblScope unit="line">602-612</biblScope>.</bibl>
                 </cit>
             </div>
         </front>
@@ -10777,7 +10777,7 @@ type="compact" ?>
                        </l>
                         <l n="1252">
                             <persName xml:id="ps003" key="amphiaraus" prev="ps002">Amphiaraus</persName>
-                            <join result="persName" targets="ps001 ps002 ps003" scope="root"/>; and
+                            <join result="persName" target="ps001 ps002 ps003" scope="root"/>; and
                             a four-fold strength,</l>
                     	<pb n="292" facs="acs0000001-04-303"/>
                         <l n="1253">Thine, even thy <rs key="eurythemis">mother's</rs>and thy <rs key="leda">sister's</rs>
@@ -10798,7 +10798,7 @@ type="compact" ?>
                             <persName xml:id="ps006" key="dryas" prev="ps005">
                                 <addName full="yes">Shining</addName>
                            </persName>
-                            <join result="persName" targets="ps004 ps005 ps006" scope="root"/>; and
+                            <join result="persName" target="ps004 ps005 ps006" scope="root"/>; and
                                 <persName key="idas">Idas</persName>, and the keenest eye</l>
                         <l n="1258">Of <persName key="lynceus">Lynceus</persName>, and <persName key="admetus">Admetus <addName full="yes">twice-espoused</addName></persName>,</l>
                         <l n="1259">And <persName key="hippasus">Hippasus</persName> and <persName key="hyleus">Hyleus, <addName full="yes">great in heart</addName></persName>.</l>
@@ -10862,7 +10862,7 @@ type="compact" ?>
                            </persName>
                        </l>
                         <l n="1306">
-                            <persName xml:id="ps008" key="amphiaraus" prev="ps008">Amphiaraus</persName><join result="persName" targets="ps007 ps008" scope="root"/>; for his
+                            <persName xml:id="ps008" key="amphiaraus" prev="ps008">Amphiaraus</persName><join result="persName" target="ps007 ps008" scope="root"/>; for his
                             sacred shaft</l>
                         <l n="1307">Pierced the red circlet of one ravening eye</l>
                         <l n="1308">Beneath the brute brows of the sanguine boar,</l>

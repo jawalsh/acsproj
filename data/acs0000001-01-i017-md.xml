@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
-        ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-01-i017-md">
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-01-i017-md">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,7 +12,7 @@
                <persName key="jawalsh">John A. Walsh</persName>
             </editor>
          </titleStmt>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/> 
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="includes/seriesStmt.xml"/>
          <sourceDesc>
             <p>This TEI/XML document is the original source.</p>
@@ -19,7 +20,8 @@
       </fileDesc>
       <encodingDesc>
          <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
-<include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml"
+            xpointer="element(collex_genres)"/>
       </encodingDesc>
       <profileDesc>
          <textClass>
@@ -27,17 +29,12 @@
          </textClass>
       </profileDesc>
       <profileDesc>
-                                    <langUsage>
-                                                <language ident="el">Greek</language>
-                                    </langUsage>
-                        </profileDesc>
+         <langUsage>
+            <language ident="el">Greek</language>
+         </langUsage>
+      </profileDesc>
       <revisionDesc>
-         <change n="svninfo">
-                        $Id$
-                        $Rev$
-                        $Date$
-                        $Author$
-                    </change>
+         <change n="svninfo"> $Id$ $Rev$ $Date$ $Author$ </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,38 +53,31 @@
                   <analytic>
                      <title>A Litany</title>
                      <author>
-                                                  <persName key="acs">Algernon
-                                                  Charles
-                                                  Swinburne</persName>
-                                                  </author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
+                     <idno type="nines">pb1litny00</idno>
                   </analytic>
                   <monogr>
-                                                  <title>The Poems of Algernon
-                                                  Charles
-                                                  Swinburne</title>
-                                                  <imprint>
-                                                  <pubPlace>London</pubPlace>
-                                                  <publisher>Chatto &amp; Windus</publisher>
-                                                  <date when="1904"/>
-                                                  <biblScope type="vol">1</biblScope>
-                                                  <biblScope type="pp">89-94</biblScope>
-                                                  </imprint>
-                                                  <extent>6 vols.</extent>
-                                                  </monogr>
-               <idno type="nines">pb1litny00</idno></biblStruct>
+                     <title>The Poems of Algernon Charles Swinburne</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Chatto &amp; Windus</publisher>
+                        <date when="1904"/>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="page">89-94</biblScope>
+                     </imprint>
+                     <extent>6 vols.</extent>
+                  </monogr>
+               </biblStruct>
                <biblStruct n="original_collection">
                   <analytic>
                      <title>A Litany</title>
                      <author>
-                                                  <persName key="acs">Algernon
-                                                  Charles
-                                                  Swinburne</persName>
-                                                  </author>
+                        <persName key="acs">Algernon Charles Swinburne</persName>
+                     </author>
                   </analytic>
                   <monogr>
-                     <title>Poems and
-                                                  Ballads, First
-                                                  Series</title>
+                     <title>Poems and Ballads, First Series</title>
                      <imprint>
                         <pubPlace>London</pubPlace>
                         <publisher>Moxon</publisher>

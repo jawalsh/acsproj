@@ -64,8 +64,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">72-73</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">72-73</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -97,7 +97,7 @@
                      <title>The Athenaeum</title>
                      <imprint>
                         <date when="1876-06-10"/>
-                        <biblScope type="pp">794</biblScope>
+                        <biblScope unit="page">794</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

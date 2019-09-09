@@ -70,8 +70,8 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1904"> 1904 </date>
-							                 <biblScope type="vol"> 1 </biblScope>
-							                 <biblScope type="pp"> 279-281 </biblScope>
+							                 <biblScope unit="volume"> 1 </biblScope>
+							                 <biblScope unit="page"> 279-281 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
 					             </monogr>
@@ -103,7 +103,7 @@
                      <title>The Spectator</title>
                      <imprint>
                         <date when="1862-05-24"/>
-                        <biblScope type="pp">578-579</biblScope>
+                        <biblScope unit="page">578-579</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

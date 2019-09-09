@@ -64,8 +64,8 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1905"> 1905 </date>
-							                 <biblScope type="vol"> 1 </biblScope>
-							                 <biblScope type="pp"> [3]-9 </biblScope>
+							                 <biblScope unit="volume"> 1 </biblScope>
+							                 <biblScope unit="page"> [3]-9 </biblScope>
 						               </imprint>
 						               <extent> 5 vols. </extent>
                   </monogr>
@@ -80,7 +80,7 @@
                         <pubPlace>London</pubPlace>
                         <publisher>Basil Montagu Pickering</publisher>
                         <date xml:id="sort_date" when="1860"/>
-                        <biblScope type="pp">161-217</biblScope>
+                        <biblScope unit="page">161-217</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

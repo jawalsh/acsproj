@@ -63,8 +63,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">67-68</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">67-68</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -96,7 +96,7 @@
                      <title>The Pall Mall Gazette</title>
                      <imprint>
                         <date when="1874-10-20"/>
-                        <biblScope type="pp">11</biblScope>
+                        <biblScope unit="page">11</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

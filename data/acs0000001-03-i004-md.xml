@@ -63,8 +63,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">26-28</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">26-28</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -96,7 +96,7 @@
                      <title>The Fortnightly Review</title>
                      <imprint>
                         <date when="1873-05"/>
-                        <biblScope type="pp">564-566</biblScope>
+                        <biblScope unit="page">564-566</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -111,7 +111,7 @@
                      <title>The Athenaeum</title>
                      <imprint>
                         <date when="1876-06-22"/>
-                        <biblScope type="pp">112</biblScope>
+                        <biblScope unit="page">112</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

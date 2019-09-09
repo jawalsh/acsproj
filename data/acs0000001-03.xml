@@ -35,7 +35,7 @@ type="compact" ?>
 							<pubPlace> London </pubPlace>
 							<publisher> Chatto </publisher>
 							<date when="1904"> 1904 </date>
-							<biblScope type="vol"> 3 </biblScope>
+							<biblScope unit="volume"> 3 </biblScope>
 						</imprint>
 						<extent> 6 vols. </extent>
 					</monogr>
@@ -20599,7 +20599,7 @@ type="compact" ?>
                             </quote>
                             <bibl rendition="#block #ti-10"><author><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus</expan></choice></author>
                                 <title><choice><abbr>Agam.</abbr><expan>Agamemnon</expan></choice></title>
-                                <biblScope type="lines">104-8</biblScope>.</bibl>
+                                <biblScope unit="line">104-8</biblScope>.</bibl>
                         </cit>
                     </p>
                 </note>

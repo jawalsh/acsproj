@@ -44,7 +44,7 @@
             </list>
          </div>
          <div xml:id="notes">
-            <note type="annotation" resp="#jawalsh" corresp="acs0000001-05.xml#acs0000001-05-i127.00001" xml:id="acs0000001-05-i127-a1"><bibl><author>Shakespeare</author>. <title>All's Well That Ends Well</title> <biblScope type="vol">1</biblScope>.<biblScope type="scene">1</biblScope>.<biblScope type="ll">90-91</biblScope>.</bibl></note>
+            <note type="annotation" resp="#jawalsh" corresp="acs0000001-05.xml#acs0000001-05-i127.00001" xml:id="acs0000001-05-i127-a1"><bibl><author>Shakespeare</author>. <title>All's Well That Ends Well</title> <biblScope unit="volume">1</biblScope>.<biblScope type="scene">1</biblScope>.<biblScope unit="line">90-91</biblScope>.</bibl></note>
          </div>
          <div xml:id="texts">
             <head>texts</head>
@@ -62,8 +62,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">5</biblScope>
-                            <biblScope type="pp">319-367</biblScope>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">319-367</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>

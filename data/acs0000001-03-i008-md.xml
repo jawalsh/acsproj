@@ -63,8 +63,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">39-41</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">39-41</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -96,7 +96,7 @@
                      <title>The Fortnightly Review</title>
                      <imprint>
                         <date when="1867-12"/>
-                        <biblScope type="pp">671-672</biblScope>
+                        <biblScope unit="page">671-672</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>

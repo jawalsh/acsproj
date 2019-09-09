@@ -63,8 +63,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">29-33</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">29-33</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                     </monogr>
@@ -96,7 +96,7 @@
                      <title>The Dark blue</title>
                      <imprint>
                         <date when="1871-04"/>
-                        <biblScope type="pp">218-20</biblScope>
+                        <biblScope unit="page">218-20</biblScope>
                      </imprint>
                   </monogr>
                   <note resp="#jawalsh">Published with an drawing of two lovers, also titled <title level="a">The End of a Month,</title> by Simeon Solomon (printed in the text as <q>S. Salaman</q>).</note>

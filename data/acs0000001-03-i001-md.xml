@@ -68,8 +68,8 @@
                             <pubPlace>London</pubPlace>
                             <publisher>Chatto &amp; Windus</publisher>
                             <date when="1904"/>
-                            <biblScope type="vol">3</biblScope>
-                            <biblScope type="pp">5-10</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">5-10</biblScope>
                         </imprint>
                         <extent>6 vols.</extent>
                   </monogr>
@@ -102,7 +102,7 @@
                      <title>Belgravia: A London Magazine</title>
                      <imprint>
                         <date when="1876-05"/>
-                        <biblScope type="pp">329-332</biblScope>
+                        <biblScope unit="page">329-332</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>
