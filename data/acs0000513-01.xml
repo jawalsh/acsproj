@@ -338,7 +338,7 @@ Notes on some Pictures of 1868
             <pb n="[1]"/>
             <div type="essay">
                 <head rendition="#uc #i #center">Victor Hugo: <title xml:lang="fr">L’Homme Qui Rit</title>.</head>
-                <p><hi rendition="#sc">Once</hi> only in my life 1 have seen the likeness of Victor 
+<p><hi rendition="#sc">Once</hi> only in my life 1 have seen the likeness of Victor 
 Hugo's genius. Crossing over when a boy from Ostend, 
 I had the fortune to be caught in midchannel by a 
 thunderstorm strong enough to delay the packet some 
@@ -896,12 +896,12 @@ at the. hands of the supreme singer now living among us
 the beautiful and lofty life of one loving the race of men 
 he serves, and of them in all time to be beloved. </p>
 
-<date when="1869">1869.</date> <!-- Format: empty element or not? -->
+<date when="1869">1869</date>. <!-- Format: empty element or not? -->
 </div>
 
 <div type="essay">
 <pb n="17"/> <!-- Should this be inside or outside the div? -->
-<fw type="pageNum">17</fw> <!-- This page number is in the center of the page. --> 
+<fw type="pageNum" rendition="#center">17</fw> <!-- This page number is in the center of the page. --> 
 <head rendition="#uc #i #center">Victor Hugo: <title xml:lang="fr">L'année <!-- Letter with accent. --> 
     Terrible.</title>.</head>
 
@@ -931,7 +931,7 @@ purchased by the bitter occasion which evoked it Yet
 it cannot but be with delight that we receive so great a 
 gift as this from the chief poet of an age, and of an age 
 
-c <!-- Another mysterious letter. -->
+c <!-- Another mysterious character. -->
 
 <pb n="18"/>
 <fw type="pageNum">18</fw> <fw type="header">VICTOR HUGO:</fw> 
@@ -953,7 +953,7 @@ eat it ; and it was in my mouth as honey for sweetness.</quote> </p>
 It would be well that all students of this book should 
 read together with it, as complement at once and commentary, the memorable collection, 
 <title xml:lang="fr">"Actes et Paroles, 
-<date from="1870" to="1872">1870 — 1871 — 1872</date>."</title> 
+<date from="1870" to="1872">1870 — 1871 — 1872</date>."</title> <!-- Individual years or grouped? -->
 By the light of that precious record, 
 and by this light alone, can it be properly read. There 
 all who will may see by what right even beyond the right 
@@ -972,7 +972,7 @@ which was quenched on the other hand in blood : to cast
 from him the obloquy of men who refused to hear his 
 
 <pb n="19"/>
-<fw type="header" xml:lang="fr">L'ANNÈE TERRIBLE.</fw> <fw type="pageNum">19</fw> 
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">19</fw> 
 
 defence of Garibaldi for the oflfence of coming to their 
 aid, and to pass at once from the clamour of the 
@@ -988,7 +988,7 @@ nobler pity ; the verse which sets a crown on the head
 of the people and a brand on the face of the mob is such 
 as it is given but to one man in an age to write, and that 
 by no means in every age. Then, for the first and fatal 
-month of August 1870, we have a poem terrible as the 
+month of <date when="1870-08">August 1870</date>, we have a poem terrible as the 
 occasion which called it forth, fit alike to serve as 
 prologue to the poems of the months which follow or as an 
 epilogue to the <title>" Chitiments "</title> which went before. That 
@@ -1049,7 +1049,7 @@ calls me Atheist,"</quote> satire is dissolved in aspiration, and
 the keenest edge of scorn is molten in the highest ardour 
 
 <pb n="21"/>
-<fw type="header" xml:lang="fr">L'ANNÈE TERRIBLE.</fw> <fw type="pageNum">21</fw> 
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">21</fw> 
 
 of worship. The necessity of perfect disbelief in the 
 incredible and ignoble for every soul that would attain 
@@ -1135,7 +1135,7 @@ foreigner can wholly share. </p>
 Side by side with the ardent denunciations of German 
 
 <pb n="23"/>
-<fw type="header" xml:lang="fr">L'ANNÈE TERRIBLE.</fw> <fw type="pageNum">23</fw> 
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">23</fw> 
 
 rapine and spoliation, of the hands found equally ready 
 to seize a province or a purse, the purblind and devout 
@@ -1189,7 +1189,7 @@ are the sweetest, and no poet of the idyllic or elegiac
 kind can rival even on his own peculiar ground, for 
 tender grace and delicacy of beauty, the most potent 
 poets of a higher order, sovereigns of lyric and of tragic 
-song. It is iEschylus, and not Euripides, who fills the 
+song. It is iEschylus <!-- Special character -->, and not Euripides, who fills the 
 bitter air of the Sc3rthian ravine with music of wings and 
 words more sweet than sleep to the weary, with notes of 
 heavenly pity and love unsubduable by fear ; who shows 
@@ -1204,10 +1204,10 @@ slept. What Euripidean overflow of tears and words can
 be matched for its own special and much vaunted quality 
 of tender and pathetic sweetness against such instances 
 as these of the awfiil sweetness and intensity of the pathos 
-of iEschylus ? what wailing outcry <quote>" in the measures of 
+of iEschylus <!-- Special character -->? what wailing outcry <quote>" in the measures of 
 
 <pb n="25"/>
-<fw type="header" xml:lang="fr">L'ANNÈE TERRIBLE.</fw> <fw type="pageNum">25</fw> 
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">25</fw> 
 
 a hired Cissian mourner"</quote> can be likened to these brief 
 words that sting like tears of fire ? what milder note of 
@@ -1284,7 +1284,7 @@ head the horrible efflorescence of the bursting Shell.
 <quote>"Here his soul flew forth singing; here before his 
 
 <pb n="27"/>
-<fw type="header" xml:lang="fr">L'ANNÈE TERRIBLE.</fw> <fw type="pageNum">27</fw> 
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">27</fw> 
 
 dreamy eyes sprang flowers that seemed everlasting. 
 Here life was one thing with light; here, under the 
@@ -1320,12 +1320,12 @@ In vain he reclaimed for Paris, in the face of Versailles,
 the right of municipal self-government by her own 
 council ; in vain rebuked the untimely and inopportune 
 haste of Paris to revindicate this right for herself in a 
-season of such unexampled calamity and peril. <date when="04-23">On the 
+season of such unexampled calamity and peril. On the 
 
 <pb n="28"/>
 <fw type="pageNum">28</fw> <fw type="header">VICTOR HUGO:</fw> 
 
-23rd of April</date> he wrote from Brussels, where the care of 
+<date when="04-23">23rd of April</date> he wrote from Brussels, where the care of 
 his fatherless grandchildren for the time detained him, a 
 letter to the Rappel^ <!-- This word/name/title is italicized. --> suppressed in their deaf and bliiid 
 insanity by men who would not hear and could not see ; 
@@ -1357,9 +1357,8 @@ in the sight of Europe their own evil works with the
 noble dreams and deeds of better men, and sullied with 
 the frimes of blood and fire the once sublime and stainless 
 
-
-<!-- Start here. -->
-VANNEE TERRIBLE. 29 
+<pb num="29"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">29</fw> 
 
 name of "commune" — this same voice was heard to 
 intercede for the outcasts of that party, to offer a refuge 
@@ -1370,11 +1369,12 @@ criminal with paving-stones and levers and threats of
 instant death. The year before, in answer to his appeal 
 against invasion, certain bloodhounds of the press in 
 Germany had raised such another yell as these curs in 
-Belgium, bidding " hang the poet at the mast-head ; " 
-this time the cry was ** A la lanierru 1 " Never was the 
-sanguinary frenzy of the men of revolution, as exemplified 
+Belgium, bidding <quote>" hang the poet at the mast-head ; "</quote>
+this time the cry was <quote xml:lang="fr">" À la lanierru ! "</quote> <!-- Also italicized. -->
+Never was the sanguinary frenzy of the men of revolution, as exemplified 
 in Victor Hugo, set off in stronger relief by the mild 
-wisdom and moderation of the men of order, as exemplified in his assailants. Moved by this consideration, 
+wisdom and moderation of the men of order, as exemplified
+in his assailants. Moved by this consideration, 
 the Belgian government naturally proceeded to expel the 
 offender ; but with a remarkable want of logic omitted to 
 offer the slightest reward to the brave men who had 
@@ -1386,19 +1386,21 @@ later the son of a minister, who had taken a leading part
 in this heroic work, was condemned to a fine of not less 
 than four pounds sterling. Considering that once at 
 least he or another of the crew did very nearly succeed 
-in beating out the brains of the child in arms with a wellaimed flint, it is simply inexplicable that no mark of 
+in beating out the brains of the child in arms with a wellaimed 
+flint, it is simply inexplicable that no mark of 
 honour should have been conferred by royal or national 
 gratitude on so daring a champion of law, so devoted a 
 defender of social order against the horrors of imminent 
 
-
-
-so VICTOR HUGO: 
+<pb num="30"/>
+<fw type="pageNum">30</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 anarchy. In a case of this pressing danger, this mortal 
 peril, it is not every man who would have put himself 
-forward at such risk to protect against a force so formidable the threatened safety of society ; not even the native 
-land of these lion-hearted men can hope always to reproduce a breed of patriots ready to incur such hazards 
+forward at such risk to protect against a force so formidable 
+the threatened safety of society ; not even the native 
+land of these lion-hearted men can hope always to reproduce a 
+breed of patriots ready to incur such hazards 
 and undertake such feats as this in the sacred cause of 
 their country. France has her Bayards and her Dantons, 
 England her Sidneys and her Nelsons ; these are but 
@@ -1415,9 +1417,9 @@ It is hard to imagine those heroes of other countries
 inspired with the courage requisite to make war upon 
 5uch enemies and under such conditions as could not 
 suffice to daunt or divert from their purpose the heroes 
-of Brussels. 
+of Brussels. </p>
 
-Thus, as once before from Jersey, was Victor Hugo 
+<p>Thus, as once before from Jersey, was Victor Hugo 
 now driven from Belgium by a government which in the 
 year of general shame contrived to attain the supreme 
 crown of disgrace, to gather the final flower of ignominy ; 
@@ -1426,9 +1428,8 @@ the infamous race; but theft and murder, under their
 magnified and multiplied forms of national robbery and 
 civic massacre, are too common among a certain sort of 
 
-
-
-LANNME terrible. 31 
+<pb num="31"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">31</fw> 
 
 conquerors to be marked out for such especial notice as an 
 act of this singular and admirable baseness. From all 
@@ -1440,31 +1441,32 @@ of justice and of mercy, were not a madman, he would
 be a ruffian ; but the punctilious equity of episcopal 
 journals gave him the benefit of the doubt Yet for all 
 this, as the poet found on leaving Brussels, it is not 
-everybody who can impose the doom of exile ; to expulsion the foreigner may condemn you, to exile he 
+everybody who can impose the doom of exile ; to expulsion 
+the foreigner may condemn you, to exile he 
 cannot Exile is from the fatherland alone; a man's 
 own country is the only one terrible to him who is cast out 
 from it In words full of the beauty of a divine sorrow 
-the exile of many years has set down the difference. 
+the exile of many years has set down the difference.</p>
 
-From Vianden as from Brussels he continued to 
+<p>From Vianden as from Brussels he continued to 
 fulfil the duty of intercessor ; to plead for the incendiary 
 who could not read, for the terrible and pitiable woman 
 dragged in triumph through the laughing and raging 
-throngs of Versailles, dumb and bleeding, with foamflecked lips fast locked in bitterness of silence, in savage 
+throngs of Versailles, dumb and bleeding, with foamflecked 
+lips fast locked in bitterness of silence, in savage 
 deafriess that nothing can move or shake, with the look 
-as of one " aweary of the sun," with a kind of fierce 
+as of one <quote>" aweary of the sun,"</quote> with a kind of fierce 
 affright in her eyes. For all such his appeal is made to 
-their slayers on the old sacred plea, " Forgive them ; for 
-they know not what they do." Their wretchedness and 
+their slayers on the old sacred plea, <quote>" Forgive them ; for 
+they know not what they do."</quote> Their wretchedness and 
 their ignorance, their great want and their litde knowledge, 
 left them conscious of all that they suffered, unconscious 
-of all that they did. 
+of all that they did.</p>
 
-Out of the darkness of these most tragic poems of all. 
+<p>Out of the darkness of these most tragic poems of all. 
 
-
-
-32 , VICTOR HUGO: 
+<pb num"32"/> <!-- Pages missing from PDF until 38; mostly guessing until then. -->
+<fw typw="pageNum">32</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 one stands up with the light of a great deed on it, relieved 
 against the rest in a glory as of sunrise. It is the poem 
@@ -1472,7 +1474,8 @@ which places on everlasting record the heroism of a child
 of twelve, condemned to be shot after all his companions, 
 who asked leave to go first and take his watch home to 
 his mother, promising to come back in time to die in his 
-turn. They let him go, laughmg at the infantine shallowness of the pretence ; the little blackguard was afraid ; 
+turn. They let him go, laughmg at the infantine shallowness 
+of the pretence ; the little blackguard was afraid ; 
 off with you ! He went, and returned. Even the 
 soldiers of Thiers and Galifet could not slaughter that 
 boy ; the officer in command gave him his life, and the 
@@ -1480,10 +1483,10 @@ master-poet of his nation has given him immortality.
 The verses in which the greater of these two gifts is 
 bestowed come like a draught of wine to the lips of one 
 sick and faint amid all the pitiful and fearful record of 
-evil .inflicted and endured; they refresh, rekindle, reilluminate the sunken spirit with a flush and thrill of 
-high delight 
+evil .inflicted and endured; they refresh, rekindle, reilluminate 
+the sunken spirit with a flush and thrill of high delight</p>
 
-But it is possible to meet death with another kind of 
+<p>But it is possible to meet death with another kind of 
 fearlessness than this, a quality which is not of the light 
 but of the darkness ; not with divine defiance as a heh), 
 but with desperate indifference as a slave : nor is any 
@@ -1497,9 +1500,8 @@ long since ready dug in their heart ; upon all to whom
 we have refused the right of the body to its meat and the 
 right of the spirit to its food, to whom we have given 
 
-
-
-LANN£E terrible. 33 
+<pb num="33"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRBILE.</fw> <fw type="pageNum">33</fw> 
 
 neither bread nor light, corporeal nurture nor intellectual; 
 upon the slaughtered and the banished, the hideous pits 
@@ -1527,31 +1529,32 @@ by chance instead of choice. With the intense and
 subtle beauty of this Jime landscape, where the witness 
 could see no sympathy with the human trouble of the 
 time, we may compare that former picture of the grim 
-glory of a November sky after sunset, seen from the 
+glory of a November <!-- Month --> sky after sunset, seen from the 
 invested walls of Paris, when heaven did seem in harmony 
 with the time, and the watcher saw there a reflection of 
 war and mourning, from the west as white as a shroud 
 to the east as black as a pall and alon the line of 
 
-D 
+D <!-- Mystery character --> 
 
-
-
-34 VICTOR HUGO: 
+<pb num="34"/>
+<fw type="pageNum">34</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 horizon the likeness of a blood-red sword let fall from the 
 hand of a god after some battle with a giant of equal 
-stature. 
+stature.</p>
 
 For all this, notwithstanding, the watchword of the 
-poem is hope, and not despair. '' All this horror has 
+poem is hope, and not despair. <quote>'' All this horror has 
 hope in it ; the ice-cold morning chills the sky-line as 
 with fear ; at times the day begins with such a shudder 
 that the rising sun seems a masked attack. — The coming 
-wave of the unknown has but a dull and livid transparence, into which the light comes but by degrees; 
-what it shows us, seems to float and drift in folds immeasurable. The expansion of form and number appals 
+wave of the unknown has but a dull and livid transparence, 
+into which the light comes but by degrees; 
+what it shows us, seems to float and drift in folds 
+immeasurable. The expansion of form and number appals 
 us, and it is horrible to see to-day in the darkness^ what 
-ought only to be seen to-morrow.'' By the parable of the 
+ought only to be seen to-morrow.''</quote> By the parable of the 
 robin's nest found in the hollow of the brazen mouth of 
 the Waterloo lion, we are bidden see and hear the future 
 in the womb of the present, hope in the jaws of despair, 
@@ -1570,13 +1573,13 @@ the second ; that Right in the rough is merely the ore
 from which in its crude state we have to extract the pure 
 gold of Law j that too much light is as sure to blind you 
 
-
-
-VANNM terrible. 35 
+<pb num="35"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">35</fw> 
 
 a3 too much darkness, and if necessary you should not 
 open the shutter more than halfway ; that war and the 
-scaffold axe detestable in theory, and practically serviceable : that the shop must be set up against the temple, 
+scaffold axe detestable in theory, and practically serviceable : 
+that the shop must be set up against the temple, 
 though the money-changers were once on a time driven 
 out of it — for the fault of Jesus was to be something too 
 much a God ; that in all things wisdom is moderation, 
@@ -1597,31 +1600,29 @@ when the devil is civil ; it would have been better to say,
 man ; he is not wicked, and he is not good \ by no means 
 white as snow, but by no means black as coal ; black atid 
 white, piebald, striped, dubious, sceptical Seeing that 
-men are small and their conscience dwarfish, the statesman takes their measure before he ventures anything : he 
+men are small and their conscience dwarfish, the statesman 
+takes their measure before he ventures anything : he 
 astonishes them, but without any thunderclaps of genius or 
 daring which might make their heads giddy; he gets 
 them up prodigies proportioned to their size. The voice 
 of wisdom then proceeds to recapitulate all the troubles 
 which a contrary line of conduct has brought on the 
 
-D 2 
+D 2 <!-- Mystery character and num. -->
 
-
-
-\ 
-
-
-
-36 VICTOR HUGO: 
+<pb num="36"/>
+<fw type="pageNum">36</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 scomer who still turns a deaf ear to her counsel : he has 
 got himself stoned out of Brussels ; the rattlesnakes of 
-the press shake their rattles at him, the clerical and imperial gazettes have brought to light all his secret sins, 
+the press shake their rattles at him, the clerical and 
+imperial gazettes have brought to light all his secret sins, 
 drunkenness, . theft, avarice, inhospitality, the bad wine 
 and lenten fare set before his guests, and so forth ; M. 
 Veuillot is so witty as to call him pumpkin-head ; it is all 
 his own fault ; to resist evil is doubtless a good thing, but 
-it is a bad thing to stand alone ; to rate and rebuke success, to be rough with those who have the upper hand, is 
+it is a bad thing to stand alone ; to rate and rebuke success, 
+to be rough with those who have the upper hand, is 
 really a blockhead's trick ; all conquerors are in the right, 
 and all that glitters is gold : the god of the winds is God, 
 and the weathercock is the symbol of his worship. — And 
@@ -1640,12 +1641,12 @@ sound advice we see too plainly that the hearer on whom
 it is wasted prefers the dictation of the voice which speaks 
 in answer, admitting that this low sort of light may have 
 its partisans, may be found excellent and may really be 
-useful to avoid a shock, ward off a projectile, walk wellnigh straight by in the dark cross-roads, and find your 
+useful to avoid a shock, ward off a projectile, walk 
+wellnigh straight by in the dark cross-roads, and find your 
 whereabouts among small duties ; it serves publicans very 
 
-
-
-LANNEE TERRIBLE. 37 
+<pb num="37"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">37</fw> 
 
 well as a lamp for their counters; it has on its side, very 
 naturally, the purblind, the clever, the cunning, the 
@@ -1661,7 +1662,8 @@ that they shine, and some man's voice be raised in every
 age to reassure his brothers by such cry of testimony 
 uttered across the night ; for nothing would be so terrible 
 as an ultimate equality of good and evil, of light and 
-darkness, in the sight of the supreme and infinite unknown world ; nothing would bring so heavy an indictment against God as the mad and senseless waste of 
+darkness, in the sight of the supreme and infinite unknown world ; 
+nothing would bring so heavy an indictment against God as the mad and senseless waste of 
 light unprofitably lost and scattered about the hollow deep 
 of heaven without the direction of a will. This absence 
 of will, this want of conscience in the world, the prophet 
@@ -1670,15 +1672,15 @@ of the book he rejects the conception of evil as triumphant
 in the end, of nature as a cheat so ghastly and so base 
 that God ought to hide himself for shame, of a heaven 
 which shelters from sight a divine malefector, of some one 
-hiding behind the starry veil of the abyss who premeditates a crime, of man as having given all, the days 
+hiding behind the starry veil of the abyss who premeditates 
+a crime, of man as having given all, the days 
 of his life, the tears of his eyes, the blood of his heart, 
 only to be made the august plaything of treacherous 
 omnipotence : it would not be worth while for the winds 
 to stir the stormy tide of our lives, for the morning to 
 
-
-
-38 VICTOR HUGO: 
+<pb num="38">
+<fw type="pageNum">38</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 come forth of the sea and dazzle the blinded flowers with 
 broadcast seed of diamond, for the bird to sing, or for 
@@ -1691,11 +1693,12 @@ end but a frightful arrival nowhither ; then might man,
 nothing as he is, rise up in judgment against God and 
 take to witness the skies and stars on his behalf. But it 
 is not so ; whence morning rises, the future shall surely 
-rise ; the dawn is a plighted word of everlasting engagement ; the visible firmament is as it were a divine 
+rise ; the dawn is a plighted word of everlasting engagement
+ ; the visible firmament is as it were a divine 
 promise to pay ; and the eternal and infinite God is not 
-bankrupt 
+bankrupt </p>
 
-In the strength of this faith a man may well despise 
+<p>In the strength of this faith a man may well despise 
 all insult and all falsehood thrown up at him, all railing 
 and mockery of his country or his creed from the unclean 
 lips of church pamphleteers and other such creatures of 
@@ -1708,18 +1711,20 @@ it are to the marble giant, august in its mutilation — to the
 colossal Sphinx of rose-tinged granite, grim and great, 
 that sits with hands on knees all through the night wherein 
 the shaken palm-trees shiver, waiting for its moment to 
-speak to the sunrise, and unconscious if any reptile beslaver its base. The god has never known that a toad 
+speak to the sunrise, and unconscious if any reptile 
+beslaver its base. The god has never known that a toad 
 was stirring ; while a worm slides over him, he keeps in 
 
-
-
-L'ANNAE terrible. 39 
+<pb num="39"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">39</fw> 
 
 sflence his awful mystery of hidden sound and utterance 
-withheld ; and the swarming of centipedes without number cannot take from Memnon, suddenly struck radiant, 
+withheld ; and the swarming of centipedes without number 
+cannot take from Memnon, suddenly struck radiant, 
 the great and terrible voice that makes answer to the 
-sun. Those minute and multitudinous creatures who revile and defame the great — and thereby, says Blake, 
-" blaspheme God, for there is no other God " — have no 
+sun. Those minute and multitudinous creatures who revile 
+and defame the great — and thereby, says Blake, 
+<quote>" blaspheme God, for there is no other God "</quote> — have no 
 more power to disturb the man defamed than the judges 
 who try the Revolution at their bar and give sentence 
 against it have power to undo its work ; their wrath and 
@@ -1732,21 +1737,22 @@ the beasts that used to go out hunting in the evening at
 the time when little birds go to sleep are at their last 
 gasp ; the desolation of the wolves fills the woods full of 
 howling ; the persecuted spectres know not what to do ; 
-if this goes on, if this light persists in dazzling and dismaying the night-hawk and the raven, the vampire will 
+if this goes on, if this light persists in dazzling and 
+dismaying the night-hawk and the raven, the vampire will 
 die of hunger in the grave ; the pitiless sunbeam catches 
 and consumes the dark. — It is to judge the crimes of the 
-sunrise tha^ these judges sit in session. 
+sunrise tha^ these judges sit in session.</p>
 
-Meantime, amid all the alternations of troubled hope 
+<p>Meantime, amid all the alternations of troubled hope 
 with horror and the travail of an age in labour that has 
 not strength to bring forth, there are present things of 
-comfort and reassurance. "The children we have always with us ; " they are no more troubled about what we 
+comfort and reassurance. <quote>"The children we have always 
+with us ;"</quote> they are no more troubled about what we 
 do than the bird that twitters beneath the hornbeam, or 
 the star that breaks into flower of light on the black sky- 
 
-
-
-40 VICTOR HUGO: 
+<pb num="40"/>
+<fw type="pageNum">40</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 line j they ask God for nothing but his sun ; it is enough 
 for little Jeanne that the sky should be blue. Over his 
@@ -1758,49 +1764,37 @@ heavenly ignorance that is theirs now, of the sad great
 knowledge that must be one day theirs. With the last 
 and loftiest notes of that high soft music in our ears, we 
 will leave off our labour of citation and exposition. 
-" They will live to know," he says, " how man must live 
+<quote>" They will live to know,"</quote> he says, <quote>" how man must live 
 with his fate at the mercy of chance, in such fashion that 
 he may find hereafter the truth of things conform to his 
-vision of them here.'* 
+vision of them here."</quote>
 
-■ 
+<!-- Poem with stanzas, lines, etc. Need to check. -->
+<quote xml:lang="fr">" 
+    <lg type="stanza">
+        <l>Moi-m8me un jour, apr^s la mort, je connattrai<caesura/>Mon destin que j'ignore,</l>
+        <l>£t je me pencherai sur vous, tout pen^tr^<caesura/>De myst^re et d*aurore.</l>
+    </lg>
+    <lg type="stanza">
+        <l>Je saurai le secret de Pexil, du linceul,<caesura/>Jet^ sur votre en£uice,</l>
+        <l>£t pourquoi la justice et la douceur d'un seul<caesura/>Semble k tous une offense.</l>
+    </lg>
+    <lg type="stanza">
+        <l>Je comprendrai pourquoi, tandis que vous chantiez,<caesura/>Dans mes branches fun^bres,</l>
+        <l>Moi qui pour tous les maux veux toutes les piti^,<caesura/>'avais tant de tdn^bres.</l>
+    </lg>
+    <lg type="stanza">
+        <l>Je saurai pourquoi Fombre implacable est sur moi,<caesura/>Pourquoi tant d'h^catombes,</l>
+        <l>Pourquoi Phiver sans fin m'enveloppe, pourquoi<caesura/>Je m'accrots sur des tombes ;</l>
+    </lg>
+    <lg type="stanza">
+        <l>Pourquoi tant de combats, de krmes, de regrets,<caesura/>Et tant de tristes choses ;</l> 
+        <l>Et pourquoi Dieu voulut que je fusse un cypres<caesure/>Quand vous ^tiez des roses.</l>
+    </lg>
+"</quote>
 
-" Moi-m8me un jour, apr^s la mort, je connattrai 
-Mon destin que j'ignore, 
-£t je me pencherai sur vous, tout pen^tr^ 
-De myst^re et d*aurore. 
-
-Je saurai le secret de Pexil, du linceul 
-
-Jet^ sur votre en£uice, 
-£t pourquoi la justice et la douceur d'un seul 
-
-Semble k tous une offense. 
-
-Je comprendrai pourquoi, tandis que vous chantiez, 
-
-Dans mes branches fun^bres, 
-Moi qui pour tous les maux veux toutes les piti^, 
-
-J'avais tant de tdn^bres. 
-
-Je saurai pourquoi Fombre implacable est sur moi, 
-
-Pourquoi tant d'h^catombes, 
-Pourquoi Phiver sans fin m'enveloppe, pourquoi 
-
-Je m'accrots sur des tombes ; 
-
-Pourquoi tant de combats, de krmes, de regrets, 
-
-Et tant de tristes choses ; 
-Et pourquoi Dieu voulut que je fusse un cypres 
-
-Quand vous ^tiez des roses." 
-
-
-
-rANNEE TERRIBLE. 41 
+<pb num="41"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">41</fw> 
 
 A poem having in it any element of greatjiess is likely 
 to arouse many questions with regard to the poetic art 
@@ -1812,12 +1806,14 @@ poetry and politics are irreconcilable ot not ; the second,
 whether art should prefer to deal with things immediate 
 or with things remote. Upon both sides of either question 
 it seems to me that even wise men have ere now been 
-led from errors of theory to errors of decision. The wellknown formula of art for art's sake, opposed as it has 
+led from errors of theory to errors of decision. The 
+wellknown formula of art for art's sake, opposed as it has 
 ever been to the practice of the poet who was so long 
 credited with its authorship, has like other doctrines a 
 true side to it and an untrue. Taken as an affirmative, 
 it is a precious and everlasting truth. No work of art 
-has any worth or life in it that is not done on the absolute terms of art ; that is not before all things and above 
+has any worth or life in it that is not done on the absolute 
+terms of art ; that is not before all things and above 
 all things a work of positive excellence as judged by the 
 laws of the special art to whose laws it is amenable. If 
 the rules and conditions of that art be not observed, or 
@@ -1826,14 +1822,14 @@ among its triumphs, the poem, picture, statue, is a failure
 irredeemable and inexcusable by any show or any proof 
 of high purpose and noble meaning. The rule of art is 
 not the rule of morals ; in morals the action is judged by 
-the intention, the doer is applauded, excused, or condemned, according to the motive which induced his deed ; 
+the intention, the doer is applauded, excused, or condemned, 
+according to the motive which induced his deed ; 
 in art, the one question is not what you mean but what 
 you do. Therefore, as I have said elsewhere, the one 
-primary requisite of art is artistic worth ; " art for* art's 
+primary requisite of art is artistic worth ; <quote>" art for* art's 
 
-
-
-42 VICTOR HUGO: 
+<pb num="42"/>
+<fw type="pageNum">42</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 sake first, and then all things shall be added to her — or 
 if not, it is a matter of quite secondary importance ; but 
@@ -1842,9 +1838,9 @@ the artist, shall be taken away even that which he has ;
 whatever merit of aspiration, sentiment, sincerity, he may 
 naturally possess, admirable and serviceable as in other 
 lines of work it might have been and yet may be, is here 
-unprofitable and unpraiseworthy." Thus far we are at 
-one with the preachers of "art for art;** we prefer for 
-example Goethe to Korner and Sappho to Tyrtaeus ; we 
+unprofitable and unpraiseworthy."</quote> Thus far we are at 
+one with the preachers of <quote>"art for art;"</quote> we prefer for 
+example Goethe to Korner <!-- Umlaut on the "o" --> and Sappho to Tyrtaeus <!-- Special chatacter --> ; we 
 would give many patriots for one artist, considering that 
 civic virtue is more easily to be had than lyric genius, 
 and that the hoarse monotony of verse lowered to the 
@@ -1856,30 +1852,31 @@ thought in the Lesbian music which spends itself upon
 the record of fleshly fever and amorous malady. We 
 admit then that the worth of a poem has properly nothing 
 to do with its moral meaning or design ; that the praise 
-of a Caesar as sung by Virgil, of a Stuart as sung by 
+of a Caesar <!-- Special character --> as sung by Virgil, of a Stuart as sung by 
 Dryden, is preferable to the most magnanimous invective 
 against tyranny which love of country and of liberty 
 could wring from a Bavius or a Settie ; but on the other 
 hand we refuse to admit that art of the highest kind may 
 not ally itself with moral or religious passion, with the 
 ethics or the politics of a nation or an age. It does not 
-detract from the poetic supremacy of .^^chylus and of 
+detract from the poetic supremacy of .^^chylus <!-- Special character --> and of 
 Dante, of Milton and of Shelley, that they should have 
-been^leased to put their art to such use ; nor does it de- 
+been pleased to put their art to such use ; nor does it de- 
 
-
-
-LANNM terrible, 43 
+<ob num="43"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">43</fw> 
 
 tract from the sovereign greatness of other poets that they 
 should have had no note of song for any such theme. In 
 a woid, the doctrine of art for art is true in the positive 
-sense, false in the negative ; sound as an affirmation, unsound as a prohibition. If it be not true that the only 
+sense, false in the negative ; sound as an affirmation, 
+unsound as a prohibition. If it be not true that the only 
 absolute duty of art is the duty she owes to herself, then 
 must art be dependent on the alien conditions of subject 
 and of aim ; whereas she is dependei^t on herself alone, 
 and on nothing above her or beneath ; by her own law 
-she must stand or fall, and to that alone she is responsible ; by no other law can any work of art be condemned, 
+she must stand or fall, and to that alone she is responsible ; 
+by no other law can any work of art be condemned, 
 by no other plea can it be saved. But while we refuse 
 to any artist on any plea the license to infringe in the 
 least article the letter of this law, to overlook or overpass 
@@ -1887,29 +1884,29 @@ it in the pursuit of any foreign purpose, we do not refuse
 to him the liberty of bringing within the range of it any 
 subject that under these conditions may. be so brought 
 and included within his proper scope of work. This 
-liberty the men who take "art for art" as their motto, 
+liberty the men who take <quote>"art for art"</quote> as their motto, 
 using the words in an exclusive sense, would refuse to 
 concede; they see with perfect clearness and accuracy 
-that art can never be a " handmaid " of any " lord," as 
+that art can never be a " handmaid " of any " lord," as <!-- Probably a special way to mark these two. -->
 the moralist, pietist, or politician would fain have her be ; 
 and therefore they will not allow that she can properly be 
 even so much as an ally of anything else. So on the one 
 side we have the judges who judge of art by her capacity 
 to serve some other good end than the production of 
-good work ; these would leave us for instance King John, 
-but would assuredly deprive us of As You Like It ; the 
-national devotion and patriotic fire of King Henry V. 
+good work ; these would leave us for instance <title>King John</title>, 
+but would assuredly deprive us of <title>As You Like It</title>; the 
+national devotion and patriotic fire of <title>King Henry V</title>. 
 would suffice in their estimation to set it far above the 
 
+<pb num="44"/>
+<fw type="pageNum">44</fw> <fw type="header">VICTOR HUGO:</fw> 
 
-
-44 VICTOR HUGO: 
-
-sceptic and inconclusive meditations of Hamlet, the pointless and aimless beauty of A Midsummer Night's Dream. 
+sceptic and inconclusive meditations of <title>Hamlet</title>, 
+the pointless and aimless beauty of <title>A Midsummer Night's Dream</title>. 
 On the other side we have the judges who would ostracise 
 every artist found guilty of a moral sense, of the political 
 faith or the religious emotion of patriots and heroes; 
-whose theory would raze the Persse from the scroll of 
+whose theory would raze the Persse <!-- Special character --> from the scroll of 
 -^schylus, and leave us nothing of Dante but the Vita 
 Nuova, of Milton but the Allegro and Penseroso, of 
 Shelley but the Skylark and the Cloud. In consistency 
@@ -1926,7 +1923,8 @@ the Divina Commedia in the name of Faust, the Sonnet
 on the Massacres in Piedmont in the name of the Ode 
 on a Grecian Urn, or the Ode to Liberty in the name of 
 Kubla Khan. I know nothing stranger in the history of 
-criticism than the perversity even of eminent and exquisite critics in persistent condemnation of one great 
+criticism than the perversity even of eminent and exquisite 
+critics in persistent condemnation of one great 
 artist for his deficiency in the qualities of another. It is 
 not that critics of the higher kind expect to gather grapes 
 of thorns or figs of thisties ; but they are too frequentiy 
@@ -1935,9 +1933,8 @@ a fig-tree or figs on a vine. M. Auguste Vacquerie has
 remarked before me on this unreasonable expectation and 
 consequent irritation of the critical mind, with his usual 
 
-
-
-L'ANN&E TERRIBLE. 45 
+<pb num="45"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">45</fw> 
 
 bright and swift sense of the truth — a quality which 
 we are sure to find when a good artist has occasion to 
@@ -1955,13 +1952,14 @@ the most praiseworthy purpose imaginable will not suffice
 to put life or worth into the work so done. Art knows 
 nothing of choice between the two kinds or preference of 
 the one to the other ; she asks only that the artist shall 
-" follow his star " with the faith and the fervoiu: of Dante, 
+<quote>" follow his star "</quote> with the faith and the fervoiu: of Dante, 
 whether it lead him on a path like or unlike the way of 
 Dante's work ; the ministers of either tribe, the savours 
-of either sacrifice, are equally excellent in her sight 
+of either sacrifice, are equally excellent in her sight. </p>
 
-The question whether past or present afford the 
-highest matter for high poetry and offer the noblest reward to the noble workman has been as loudly and as 
+<p>The question whether past or present afford the 
+highest matter for high poetry and offer the noblest 
+reward to the noble workman has been as loudly and as 
 long debated, but is really less debateable on any rational 
 ground than the question of the end and aim of art It 
 is but lost labour that the champions on one side summon 
@@ -1971,12 +1969,12 @@ the past ; it is but waste of breath for the champions of
 the other party to bid us break the yoke and cast off the 
 bondage of that past, leave the dead to bury their dead, 
 
-
-
-46 VICTOR HUGO: 
+<pb num="46"/>
+<fw type="pageNum">46</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 and turn from the dust and rottenness of old-world themes, 
-epic or romantic, classical or feudal, to face the age wherein we live and move and have our being, to send forth 
+epic or romantic, classical or feudal, to face the age 
+wherein we live and move and have our being, to send forth 
 our souls and songs in search of the wonderful and 
 doubtful future. Art knows nothing of time; for her 
 there is but one tense, and all ages in her sight are alike 
@@ -2002,12 +2000,12 @@ romance, be lifeless and worthless, it is not because the
 subject or the form was ancient, but because the poet 
 was inadequate to his task, incompetent to do better than 
 a flat and feeble imitation ; had he been able to fill the 
-old types of art with new blood and breath, the remoteness of subject and the antiquity of form would in no 
+old types of art with new blood and breath, the remoteness 
+of subject and the antiquity of form would in no 
 wise have impaired the worth and reality of his work ; he 
 
-
-
-LANNEE TERRIBLE. 47 
+<pb num="47">
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">47</fw> 
 
 would have brought close to us the far-off loveliness and 
 renewed for us the ancient life of his models, not by 
@@ -2015,11 +2013,11 @@ mechanical and servile transcript as of a copying clerk,
 but by loving and reverent emulation as of an original 
 fellow-craftsman. No form is obsolete, no subject out of 
 date, if the right man be there to rehandle it To the 
-question "Can these bones live?" there is but one 
+question <quote>"Can these bones live?"</quote> there is but one 
 answer ; if the spirit and breath of art be breathed upon 
 them indeed, and the voice prophesying upon them be 
 indeed the voice of a prophet, then assuredly will the 
-bones " come together, bone to his bone ; " and the 
+bones <quote>"come together, bone to his bone;"</quote> and the 
 sinews and the flesh will come up upon them, and the 
 skin cover them above, and the breath come into them, 
 and they will live. For art is very life itself, and knows 
@@ -2028,45 +2026,46 @@ care of fact ; she sees that Achilles and Ulysses are even
 now more actual by far than Wellington and Talleyrand ; 
 not merely more noble and more interesting as types and 
 figures, but more positive and real ; and thus it is (as 
-Victor Hugo has himself so finely instanced it) " that 
-Trimalchio is alive, while the late M. Romieu is dead." 
+Victor Hugo has himself so finely instanced it) <quote>" that 
+Trimalchio is alive, while the late M. Romieu is dead."</quote>
 Vain as is the warning of certain critics to beware of the 
 present and abstain from its immediate vulgarities and 
 realities, not less vain, however nobly meant or nobly 
 worded, is the counter admonition to " mistrust the poet" 
-who " trundles back his soul " some centuries to sing of 
-chiefe and ladies " as dead as must be, for the greater 
-part, the poems made on their heroic bones ; " for if he 
+who <quote>"trundles back his soul"</quote> some centuries to sing of 
+chiefe and ladies <quote>"as dead as must be, for the greater 
+part, the poems made on their heroic bones ; "</quote> for if he 
 be a poet indeed, these will at once be reclothed with 
-instant flesh and reinspired with immediate breath, as present and as true, as palpable and as precious, as any- 
+instant flesh and reinspired with immediate breath, as 
+present and as true, as palpable and as precious, as any- 
 
-
-
-48 VICTOR HUGO: 
+<pb nume="48"/>
+<fw type="pageNum">48</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 thing most near and real ; and if the heroic bones be still 
 fleshless and the heroic poems .lifeless, the fault is not in 
 the bones but in the poems, not in the theme but in the 
 singer. As vain it is, not indeed to invite the muse to 
 new spheres and fresher fields whither also she will surely 
-and gladly come, but to bid her " migrate from Greece 
+and gladly come, but to bid her <quote>" migrate from Greece 
 and Ionia, cross out those immensely overpaid accounts, 
-that matter of Troy, and Achilles' wrath, and ^Eneas', 
-Odysseus* wanderings ; " forsake her temples and casdes 
+that matter of Troy, and Achilles' wrath, and ^Eneas'<!-- Special character -->, 
+Odysseus* wanderings ; "</quote> forsake her temples and casdes 
 of old for the new quarters which doubdess also suit hCT 
 well and make her welcome ; for neither epic nor romance 
 of chivalrous quest or classic war is obsolete yet, or ever 
 can be ; there is nothing in the past extinct ; no scroll is 
-"closed for ever," no legend or vision of Hellenic or 
-feudal faith "dissolved utterly like an exhalation:" all 
+<quote>"closed for ever,"</quote> no legend or vision of Hellenic or 
+feudal faith <quote>"dissolved utterly like an exhalation:"</quote> all 
 that ever had life in it has life in it for ever ; those themes 
-only are dead which never were other than dead. " She 
-has left them all, and is here ; " so the prophet of the new 
+only are dead which never were other than dead. <quote>" She 
+has left them all, and is here ; "</quote> so the prophet of the new 
 world vaunts himself in vain ; she is there indeed, as he 
-says, " by thud of machinery and shrill steam-whisde undismayed — smiling and pleased, with palpable intent to 
-stay ; " but she has not needed for that to leave her old 
+says, <quote>" by thud of machinery and shrill steam-whisde 
+undismayed — smiling and pleased, with palpable intent to 
+stay ; "</quote> but she has not needed for that to leave her old 
 abodes ; she is not a dependent creature of time or place, 
-" servile to all the skiey influences ; " she need not climb 
+<quote>" servile to all the skiey influences ; "</quote> she need not climb 
 mountains or cross seas to bestow on all nations at once 
 the light of her countenance ; she is omnipresent and 
 eternal, and forsakes neither Athens nor Jerus^em, 
@@ -2075,21 +2074,21 @@ she does widi equal good-will among modem appliances
 in London and New York. All times and all places are 
 one to her ; the stuff she deals with is eternal, and eter- 
 
-
-
-LANNEE TERRIBLE, 49 
+<pb num="49"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">49</fw> 
 
 nally the same; no time or theme is inapt for her, no 
-past or present preferable. . 
+past or present preferable.</p>
 
-We do not therefore rate this present book higher or 
+<p>We do not therefore rate this present book higher or 
 lower because it deals with actual politics and matter of 
 the immediate day. It is true that to all who put their 
 faith and hope in the republican principle it must bring 
 comfort and encouragement, a sense of strength and a 
 specialty of pleasure, quite apart from the delight in its 
 beauty and power; but it is not on this ground tliat 
-we would base its i^im to the reverent study and thankful admiration of men. The first and last thirig to be 
+we would base its i^im to the reverent study and thankful 
+admiration of men. The first and last thirig to be 
 noted in it is the fact of its artistic price and poetic 
 greatness. Those who share the faith and the devotion 
 of the writer have of course good reason to rejoice that 
@@ -2111,11 +2110,10 @@ days of darkness, after so many stages of terror and pity,
 can any lover of France be inclined to cavil at the utmost 
 e^^ession of loyalty, the utmost passion of worship, 
 
-E 
+E <!-- Mystery character -->
 
-
-
-50 VICTOR HUGO: 
+<pb num="50"/>
+<fw type="pageNum">50</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 which the first of her sons may offer in the time of her 
 sore need. All men's mouths were opened against the 
@@ -2138,7 +2136,8 @@ the chief criminal alone, but from all accomplices who
 stood silent by to watch with folded hands the violation 
 of all international conscience and the consummation of 
 all international treason, has time exacted the full price 
-of blood in blood and gold and shame. For the commission by France and the condonation by Europe of 
+of blood in blood and gold and shame. For the commission 
+by France and the condonation by Europe of 
 the crime which reinthralled a people and reinstalled a 
 priesthood, even the infliction of the second empire was 
 not found too costly an atonement to be exacted by the 
@@ -2146,16 +2145,16 @@ terrible equity of fate. But that the scourge fell first and
 heaviest on those Frenchmen who had protested and 
 struggled with all the strength of their conscience and 
 their soul against the sin and the shame of their country, 
-men might have watched almost " with a bitter and severe 
+men might have watched almost <quote>" with a bitter and severe 
 
+<pb num="51"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">51</fw> 
 
-
-nANNEE TERRIBLE. 51 
-
-delight " the assassination in its turn of republican France 
+delight "</quote> the assassination in its turn of republican France 
 while yet red-handed from the blood of republican Rome. 
 But it was not for the greatest of those among her sons 
-who had resisted that execrable wrong, and being innocent of bloodguiltiness had suffered in expiation of it for 
+who had resisted that execrable wrong, and being innocent of 
+bloodguiltiness had suffered in expiation of it for 
 nineteen years of exile— it was not for Hugo, and it is 
 not for us, to cast in her teeth the reproach of her sin 
 now that it has been atoned for by a heroic agony. Yet 
@@ -2168,7 +2167,8 @@ light of the world, would have added weight and force to
 the expression of a patriotism which in default of it may 
 be open to the enemy's charge of vulgar and uncandid 
 partisanship, of blind and one-sided provinciality. From 
-these as from all other charges of narrowness or shallowness, want of culture, of judgment, and of temperance, 
+these as from all other charges of narrowness or shallowness,
+want of culture, of judgment, and of temperance, 
 we would &in see the noble ardour and loving passion of 
 his fiiith as demonstrably clear in all men's eyes as in the 
 main it is at bottom to those who can read it aright To 
@@ -2176,16 +2176,16 @@ have admitted that the empire was not simply a crime
 and a shame imposed on France as though by accident, 
 but an inevitable indenmity demanded for her sin against 
 her own high mission and honour, for the indulgence of 
-greed and envy, of the lust after mean renown and unrighteous power which is the deformed and vicious 
+greed and envy, of the lust after mean renown and 
+unrighteous power which is the deformed and vicious 
 parody of that virtue of patriotism whose name it takes 
 in vain to make it hateful, of the arrogant and rancorous 
 jadousy which impelled her baser politicians to play the 
 
-E2 
+E2 <!-- Mystery character -->
 
-
-
-Sa VICTOR HUGO: 
+<pb num="52"/>
+<fw type="pageNum">52</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 game of the Catholic faction and let loose upon free Italy 
 the soldiers of the Republic as the bloodhounds of the 
@@ -2199,7 +2199,8 @@ imputation of men who are now led to confound them
 with the common cries and conceits of that national 
 egotism which has led to destruction the purblind and 
 rapacious policy of sword-play and tongue-play. As it 
-is, if ever tempted to find fault with the violence of devotion which insists on exalting above all names the name 
+is, if ever tempted to find fault with the violence of 
+devotion which insists on exalting above all names the name 
 of Paris — Paris entire, and Paris alone — without alloy or 
 reserve of blame or regret for its follies and fidsities, 
 its windy vanities and rootless resdess mobility of mind, 
@@ -2208,22 +2209,24 @@ the light, we may do well to consider that this hymn of
 worship is raised rather to the ideal city, the archetypal 
 nation, the symbolic people, of which he has prophesied 
 in that noble dithyrambic poem in prose prefixed 
-originally to the book called " Paris Guide." Whether or 
+originally to the book called <tilte>" Paris Guide."</title> Whether or
 not that prophecy be accepted as a prediction, the 
 speaker cannot fairly be accused of making his voice the 
-mere echo of the blatant ignorance and strident selfassertion of the platform. Not but that some sharper 
+mere echo of the blatant ignorance and strident selfassertion 
+of the platform. Not but that some sharper 
 word of warning or even of rebuke might perhaps have 
-profitably tempered the warmth of his loyal and filial acclamation. With this, and with some implied admission 
+profitably tempered the warmth of his loyal and filial acclamation. 
+With this, and with some implied admission 
 of those good as well as evil elements in the composition 
 
-
-
-LANNEE TERRIBLE. 53 
+<pb num="53">
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">53</fw> 
 
 of the German empire and army which gave his enemie;3 
 their strength, the intellectual and historical aspect of the 
 poem would be complete and unassailable. From all 
-other points of view it stands out in perfect unity of relief, as an absolute type of what poetry can do with a 
+other points of view it stands out in perfect unity of relief, 
+as an absolute type of what poetry can do with a 
 tragic or epic subject of the poet's own time. For a 
 continuous epic or tragedy he gives us in appearance a 
 series of lyric episodes which once completed and 
@@ -2231,28 +2234,29 @@ harmonized are seen to fulfil the conditions and compose
 the structure of a great and single work of art Thus 
 only can such a work be done in simple and sensible 
 accordance with that unwritten law of right wliich is to 
-the artist as a natural and physical instinct 
+the artist as a natural and physical instinct.</p>
 
-We accept then without reserve this great gift, for 
+<p>We accept then without reserve this great gift, for 
 which the student can pay but thanks to the master 
 whose payment from the world is the liatred of base men 
 and the love of noble. In the mighty roll of his works 
 we recognise at once that it must hold a high place for 
 ever. That intense moral passion which may elsewhere 
-have overflowed the bounds and " o'er-informed the 
-tenement " of drama or romance has here a full vent in 
-its proper sphere. This sovereign quality of the prophet is a glorious and dangerous quality for a poet. The 
+have overflowed the bounds and <quote>" o'er-informed the 
+tenement "</quote> of drama or romance has here a full vent in 
+its proper sphere. This sovereign quality of the prophet 
+is a glorious and dangerous quality for a poet. The 
 burning impulse and masterful attraction of the soul 
 towards ideas of justice and ^ mercy, which make a man 
 dedicate his genius to the immediate ofhce of consolation 
 and the immediate service of right, must be liable at times 
-to divert the course of his work and impair the process of his art To those who accused him of not 
+to divert the course of his work and impair the process 
+of his art To those who accused him of not 
 imitating in his plays the method of that supreme 
 dramatist in whom he professed his faith, Victor Hugo 
 
-
-
-54 VICTOR HUGO: 
+<pb num="54">
+<fw type="pageNum">54</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 has well answered that it was not his part to imitate 
 Shakespeare or any man ; that the proof of vitality and 
@@ -2262,11 +2266,15 @@ notice, with all reverence for the glorious dramatic work
 and fame of the first poet of our age, that on one point 
 he might in some men's judgment have done well to 
 follow as far as was possible to his own proper genius the 
-method of Shakespeare. The ideal dramatist, an archetype once incarnate and made actual in the greatest of 
+method of Shakespeare. The ideal dramatist, an archetype 
+once incarnate and made actual in the greatest of 
 all poets, has no visible preferences ; in his capacity of 
-artist he is incapable of personal indignation or predilection ; as Keats with subtle truth and sovereign 
-insight has remarked, he '* has as much delight in conceiving an lago as an Imogen." * For the time being, 
-throughout the limits of his design, he maintains in awful 
+artist he is incapable of personal indignation or predilection ; 
+as Keats with subtle truth and sovereign 
+insight has remarked, he <quote> " has as much delight in 
+conceiving an lago as an Imogen."</quote> 
+<note><bibl><title>Life and Letters of John Keats</title>, <biblScope unit="volume" from="i">vol. i.</biblScope> <biblScope unit="page" from="221">p. 221</biblScope>, ed. <date when="1848">1848</date>.</bibl></note>
+For the time being, throughout the limits of his design, he maintains in awful 
 equanimity of apparent abstraction the high indifference 
 of nature or of God. Evil and good, and things and men, 
 are in his hands as day in the potter's, and he moulds 
@@ -2282,17 +2290,10 @@ against lago or lachimo, with Arthur or Cordelia against
 Goneril or King John ; he is for all men, inasmuch as 
 all are creatures and parcels of himself as artist, and of 
 
-> Ufc and Letters of John Keats^ vol. i. p. 221, ed. 1S48. 
+<pb num="55"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">55</fw> 
 
-
-
--*^ -^-— • rrx- 
-
-
-
-LANN&E TERRIBLE. 55 
-
-that art which "itself is nature;" he is not more for 
+that art which <quote>"itself is nature;"</quote> he is not more for 
 Brutus than for Antony, for Portia or Volumnia than for 
 Cleopatra. This supreme office, it is evident, can 
 scarcely b« fulfilled by a poet of whom it is possible for 
@@ -2305,7 +2306,8 @@ and disinherited of the world. It is the general presence
 and predominance of this predetertninate and prepense 
 design which has exposed his marvellous work to the 
 charge of too deliberate and mechanical preparation, too 
-studious premeditation of eflfect, too careful preoccupation of result This in fact is the sum and sense of those 
+studious premeditation of eflfect, too careful preoccupation 
+of result This in fact is the sum and sense of those 
 imputations of calculated extravagance or preconcerted 
 patlios and puppetry of passion done to order, outer heat 
 of artificial fire with inner frost of spiritual cold, cast 
@@ -2321,11 +2323,11 @@ extol in his place the names of such other Frenchmen as
 no countryman of their own outside their private social 
 set or literary party could hear cited as his rivals without 
 a smile. If &ult be found in our hearing by any critic 
-of general note and repute with some alleged shortcoming in the genius or defect in the workmanship of 
+of general note and repute with some alleged shortcoming 
+in the genius or defect in the workmanship of 
 
-
-
-56 VICTOR HUGO: 
+<pb num="56"/>
+<fw type="pageNum">56</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 Shakespeare, of Michel Angelo, or of Handel, the force 
 of the objection will be somewhat taken off when we find 
@@ -2334,13 +2336,16 @@ stead as preferable objects of worship the works of
 Racine, of Guido, or of Rossini ; and in like manner we 
 are constrained to think less of the objections taken to 
 Hugo by the Jupiter of Weimar and the Aristophanes of 
-Germany, when we find that Goethe offers us as a substitute for his Titanic sculptures the exquisite jewellery and 
-faultless carvings of Prosper M^rim^ ; as though . one 
-should offer to supplant the statuary ''in that small 
-chapel of the dim St. Laurence," not by that of the Panathenaic series, but by the white marble shrine of Orcagna 
+Germany, when we find that Goethe offers us as a substitute 
+for his Titanic sculptures the exquisite jewellery and 
+faultless carvings of <text xml:lang="fr">Prosper Mérimée</text> <!-- Best guess. -->
+; as though . one should offer to supplant the statuary ''in that small 
+chapel of the dim St. Laurence," not by that of the 
+Panathenaic series, but by the white marble shrine of Orcagna 
 in which the whole legend of the life of Mary is so 
 tenderly and wonderfully wrought in little ; while Heine 
-would give us, for the sim of that most active and passionate genius, its solar strength and heat, its lightning 
+would give us, for the sim of that most active and passionate 
+genius, its solar strength and heat, its lightning 
 and its light, the intermittent twinkle of a planet now 
 fiery as a shooting star, now watery as a waning moon — 
 sweet indeed and bright for the space of its hour, and 
@@ -2349,17 +2354,16 @@ bog ; woxild leave to France, in lieu of the divine and
 human harmony and glory of Hugo's mighty line, the 
 fantastic tenderness and ardent languor, the vacuous 
 monotonous desire and discontent, the fitfid and febrile 
-beauty of Alfred de Musset 
+beauty of Alfred de Musset.</p> 
 
-But whether or not there be reason in the objection 
-that even such great works as " Marion de Lorme " and 
-" Ruy Bias " are comparatively discoloured by this moral 
+<p>But whether or not there be reason in the objection 
+that even such great works as <title xml:lang="fr">" Marion de Lorme "</title> and 
+<title xml:lang="fr">" Ruy Bias "</title> are comparatively discoloured by this moral 
 earnestness and strenuous preference of good to evil, or 
 that besides this alleged distortion and diversion of art 
 
-
-
-nANNEE TERRIBLE. 57 
+<pb num="57"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="pageNum">57</fw> 
 
 from its proper line of work, too much has been sacrificed 
 or at least subordinated to the study of stage surprises 
@@ -2375,45 +2379,49 @@ which is the imperfection of a play is the perfection of a
 war-song or other national lyric, be it of lamentation, of 
 exhortation, or of triumph. This book of song takes its 
 place beyond question beside the greatest on that lyric 
-list which reaches from the " Odes et Ballades " to the 
-" Chansons des Rues et des Bois ; " such a list of labours 
+list which reaches from the <title xml:lang="fr">" Odes et Ballades "</fw> to the
+<title xml:lang="fr">" Chansons des Rues et des Bois ; "</title> such a list of labours 
 and triumphs as what other lyrist can show ? First come 
 the clear boyish notes of prelude, songs of earliest faith 
 and fency, royalist and romantic ; then the brilliant vivid 
-ballads, fiill already of supple harmonies and potent masteries of music, of passion and sentiment, force and grace ; 
+ballads, fiill already of supple harmonies and potent masteries 
+of music, of passion and sentiment, force and grace ; 
 then the auroral resonance and radiance of the luminous 
-** Orientales," the high and tender cadences of the 
-" Feuilles d'Automne," the floating and changing melodies 
-of the " Chants du Cr^puscule," the fervent and intimate 
-echoes of the " Voix Int^rieures," the ardent and subtle 
-refractions of " Les Rayons et les Ombres ; " each in espedal of these two latter books of song crowned by one 
-of the most perfect lyrics in all the world of art for sweetness and sublimity — the former by those stanzas on the 
+<title xml:lang="fr">" Orientales,"</title> the high and tender cadences of the 
+<title xml:lang="fr">" Feuilles d'Automne,"</title> the floating and changing melodies 
+of the <title xml:lang="fr">" Chants du Cr^puscule,"</title> the fervent and intimate 
+echoes of the <title xml:lang="fr">" Voix Int^rieures,"</title> the ardent and subtle 
+refractions of <title xml:lang="fr">" Les Rayons et les Ombres ; "</title> each in espedal 
+of these two latter books of song crowned by one 
+of the most perfect lyrics in all the world of art for 
+sweetness and sublimity — the former by those stanzas on the 
 sound of the unseen sea by night, which have in them 
 
-
-
-58 VICTOR HUGO: 
+<pb num="58"/>
+<fw type="pageNum">58</fw> <fw type="header">VICTOR HUGO:</fw> 
 
 the very heart and mystery of darkness, the very music 
-and the very passion of wave and wind \ the other by 
+and the very passion of wave and wind ; the other by 
 diat most wonderful and adorable poem in which all the 
-sweet and bitter madness of love strong as death is distilled into deathless speech, the little lyric tragedy of 
+sweet and bitter madness of love strong as death is distilled 
+into deathless speech, the little lyric tragedy of 
 Gastibelza : next, after many silent or at least songless 
 years, the pealing thunders and blasting simbeams of the 
-" Chitiments : " then a work yet wider and higher and 
-deeper than all these, the marvellous roll of the " Contemplations,'' having in it all the stored and secret 
+<title xm;:lang="fr">" Chitiments : "</title> <!-- Special character--> then a work yet wider and higher and 
+deeper than all these, the marvellous roll of the 
+<title>" Contemplations,"</title> having in it all the stored and secret 
 treasures of youth and age, of thought and faith, of love 
 and sorrow, of life and death ; with the mystery of the 
 stars and the sepulchres above them and beneath : then 
 the terrible and splendid chronicle of human evil and 
-good, the epic and lyric " L^gende des Sifecles," with its 
+good, the epic and lyric <title xml:lang="fr">" Légende des Siècles,"</title> with its 
 infinite variety of action and passion infernal and divine : 
 then the subtle and full-throated carols of vigorous and 
 various fancy built up in symmetrical modulation of 
 elaborate symphonies by vision or by memory among the 
 woods and streets : and now the sorrowful and stormy 
 notes of the giant oigan whose keys are the months of 
-this " Annde Terrible." And all these make up but one 
+this <title xml:lang="fr">" Année Terrible."</title> And all these make up but one 
 division of the work of one man's life : and we know that 
 in the yet unsounded depth of his fathomless genius, as 
 in the simless treasure-houses of the sea, there are still 
@@ -2424,19 +2432,20 @@ There are few delights in any life so high and rare as the
 subtle and strong delight of sovereign art and poetry ; 
 there are none more pure and more sublime. To have 
 
+<pb num="59"/>
+<fw type="header" xml:lang="fr">L'ANNÉE TERRIBLE.</fw> <fw type="header">59</fw> 
 
-
-LANNEE TERRIBLE. 59 
-
-read the greatest works of any great poet, to have beheld or heard the greatest works of any great painter or 
+read the greatest works of any great poet, to have beheld 
+or heard the greatest works of any great painter or 
 musician, is a possession added to the best things of life. 
 As we pity ourselves for the loss of poems and pictures 
 which have perished, and left of Sappho but a fragment 
 and of Zeuxis but a name, so are we inclined to pity the 
 dead who died too soon to enjoy the great works that we 
-have enjoyed At each new glory that " swims into our 
-ken " we siurely feel that it is something to have lived to 
-see this too rise. Those who might have had such an addition to the good things of their life, and were defrauded 
+have enjoyed At each new glory that <quote>" swims into our 
+ken "</quote> we siurely feel that it is something to have lived to 
+see this too rise. Those who might have had such an addition 
+to the good things of their life, and were defrauded 
 of it by delay, have reason to utter from the shades their 
 ghostly complaint and reproach against the giver who 
 withheld his gift from the world till they had passed out 
@@ -2450,25 +2459,22 @@ consummation. Let us not have to wait longer than must
 needs be for the gift of our promised treasiures ; for the 
 completion of that social and historic trilogy which has 
 yet two parts to accomplish ; for the plays whose names 
-are now to us as the names of the lost plays of iEschylus, 
+are now to us as the names of the lost plays of iEschylus, <!-- Special character -->
 for the poems which are as the lost poems of Pindar ; 
 for the light and sustenance, the glory and the joy, which 
 the world has yet to expect at the hands of Victor 
 Hugo. 
 
-1872. 
+<date when="1872">1872</date>. 
 
 </div>
 
-6o 
+<div type="essay">
+<pb n="60"/> <!-- Should this be inside or outside the div? -->
+<fw type="pageNum" rendition="#center">17</fw> 
+<head rendition="#uc #i #center">The Poems of Dante Gabriel Rossetti.</title>.</head>
 
-
-
-THE POEMS OF DANTE GABRIEL 
-
-ROSSETTL 
-
-When fate has allowed to any man more than one great 
+<p><hi rendition="#sc">When</hi> fate has allowed to any man more than one great 
 gift, accident or necessity seems usually to contrive that 
 one shall encumber and impede the other. It has been 
 thought, rightly or wrongly, that even the work done by 
@@ -2476,13 +2482,14 @@ such supreme men as Michel Angelo and Leonardo was
 impaired on this hand or on that by the various and eager 
 impatience of genius which impelled them alternately 
 along diverging lines of life and labour. Be that as it 
-may, there is no room to doubt that such a doublenatured genius as was theirs lies open to a double kind 
+may, there is no room to doubt that such a doublenatured 
+genius as was theirs lies open to a double kind 
 of attack from the rancorous tribe of weaklings and 
 dullards. The haters of either light or of any may say 
 that there cannot be sunlight and moonlight in the same 
 sky ; that a double-gifted nature must be powerless to 
 beget as to bear, sterile by excess of organs as by defect, 
-" like that sweet marble monster of both sexes " beloved 
+<quote>" like that sweet marble monster of both sexes "</quote> beloved 
 of Shelley as of Gautier : that the time and ardour of 
 spirit and of hand spent on this way of work must be so 
 much lost to that other way ; that on neither course can 
@@ -2492,8 +2499,8 @@ torch to a runner with, a single aim. Candid envy and
 judicious ignorance will mutually concede something; 
 
 
-
-DANTE GABRIEL ROSSETTL 6i 
+<pb num="61"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">61</fw> 
 
 the one, that he might have won the foot-race had he let 
 the horse-race be ; the other, that he might have ridden 
@@ -2508,14 +2515,15 @@ have now and then to bear it as they may : though some
 take side with them who should know better, having won 
 each a single crown in his own field, and being loth to 
 admit that in that field at least they can be distanced by 
-the best man in another. 
+the best man in another.</p>
 
-In every generation that takes any heed of the art, 
-the phrase of "greatest living poet " or (with a difference 
-of reservation) " first of his age and country " is flung 
+<p>In every generation that takes any heed of the art, 
+the phrase of <quote>"greatest living poet "</quote> or (with a difference 
+of reservation) <quote>" first of his age and country "</quote> is flung 
 about freely and foolishly enough : but if more than mere 
 caprice — be it caprice of culture or caprice of ignorance — 
-is to go to the making up of the definition, we must decide what qualities are of first necessity for the best poet, 
+is to go to the making up of the definition, we must decide 
+what qualities are of first necessity for the best poet, 
 and proceed to try how far the claynant can be surely 
 said to possess them. Variety is a rare and high quality, 
 but poets of the first order have had little or none of it ; 
@@ -2523,83 +2531,48 @@ witness Keats and Coleridge ; men otherwise greater than
 these have had much, and yet have fallen far short of the 
 final place among poets held by these ; witness Byron 
 4nd Scott But in all great poets there must be an ardent 
-iiaimony, a heat of spiritual life guiding without constraining the bodily grace of motion, which shall give 
+iiaimony, a heat of spiritual life guiding without constraining 
+the bodily grace of motion, which shall give 
 charm and power to their least work; sweetness that 
 
+<pb num="62"/>
+<fw type="pageNum">62</fw> <fw type="header">THE POEMS OF</fw> 
 
-
-/62 THE POEkS OF 
-
-f 
 cannot be weak and force that will not be rough. TTiere 
-
 roust be an instinct and a resolution of excellence which 
-
 will allow no shortcoming or malformation of thought or 
-
 word : there must also be so natural a sense of right as to 
-
 make any such deformity or defect impossible, and leave 
-
 upon the work done no trace of any effort to avoid or to 
-
 achieve. It must be serious, simple, perfect ; and it 
-
 must be thus by evident and native impuke. The mark 
-
 of painstaking as surely lowers the level of style as any 
-
 sign of negligence ; in the best work there must be no 
+^trace of a laborious or a languid hand.</p>
 
-^trace of a laborious or a languid hand. 
-
-In all these points the style of Mr. Rossetti excels 
-
+<p>In all these points the style of Mr. Rossetti excels 
 that of any English poet of oiur day. It has the fiiUest 
-
 fervour and fluency of impulse, and the impulse is alwa3rs 
-
 towards harmony and perfection. It has the inimitable 
-
 note of iogtinct, and the instinct is always high and right 
-
 It carries weight enough to overbear the style of a weaker 
-
 man, but no weight of thought can break it, no subtlety 
-
 of emotion attenuate, no ardour of passion deface. It 
-
 can breathe unvexed in the finest air and pass unsinged 
-
 through the keenest fire ; it has all the grace of perfect 
-
 force and all the force of perfect grace. It is sinuous as 
-
 water or as light, flexible and penetrative, delicate and 
-
 rapid ; it works on its way without halt or jar or collapse. 
-
 And in plain strength and weight of sense and sound these 
-
 faultless verses exceed those of faultier workmen who 
-
 earn their effects by their defects ; who attain at times and 
-
 by fits to some memorable impression of thought upon 
-
 speech and speech upon memory, at the cost generally 
-
 of inharmonious and insufficient work. No such coarse 
-
 or cheap stuff is here used as a ground to set off the rich 
 
-
-
-.^^ 
-
-
-
-DANTE GABRIEL ROSSETTL 63 
+<pb num="63"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">63</fw> 
 
 surprises of casual ornament and intermittent embroidery. 
 The woof t)f each poem is perfect, and the flowers that 
@@ -2607,7 +2580,7 @@ flash out from this side or from that seem not so much
 interwoven with the thread of it or set in the soil, as ^ 
 grQwn_dmLspnmg: by mere nature from the ground, under \ 
 inevitable rains and sunbeams of the atmosphere which 
-bred them. 
+bred them.</p>
 
 It is said sometimes that a man may have a strong ./ 
 and perfect style who has nothing to convey worth con- y 
@@ -2618,7 +2591,8 @@ express by grunts and chokes the inexpressible eloquence
 which is not in them, and would fain seem to labour in 
 miscarriage of ideas which they have never conceived. 
 But it remains for them to prove as well as assert that 
-beauty and power of expression can accord with emptiness or sterijity of matter, or that impotence of articulation 
+beauty and power of expression can accord with emptiness 
+or sterijity of matter, or that impotence of articulation 
 must imply depth and wealth of thought, l^s flattering 
 unction the very foolishest of malignants will hardly in 
 this case be able to lay upon the corrosive sore which he 
@@ -2626,28 +2600,16 @@ calls his soul : the ulcer of lU-will must rot unrelieved .
 by the rancid ointment of such Action. Hardly could a 
 fool here or a knave there fail to see or hope to deny the 
 fullness of living diought and subtle strength of nature 
-underlying this veil of radiant and harmonious words. 
+underlying this veil of radiant and harmonious words.</p> 
 
-It is on the other side that attack might be looked 
+<p>It is on the other side that attack might be looked 
 for from the more ingenious enemies of good work : and 
 of these there was never any lack. Much of Mr. Rossetti's 
-work is so intense in aim, so delicate and deep in significance, so exuberant in offshoot and undeigrowth of 
+work is so intense in aim, so delicate and deep in significance, 
+so exuberant in offshoot and undeigrowth of 
 
-
-
-_ V 
-
-
-
-> 
-
-
-
-r 1 ' 
-
-
-
-64 THE POEMS OF 
+<pb num="64"/>
+<fw type="pageNum">64</fw> <fw type="header">THE POEMS OF</fw> 
 
 sentiment and thought, that even the sweet lucidity and 
 steady current of his style may not sufl5ce to ipive it from 
@@ -2659,10 +2621,11 @@ be even where the sun is strongest and the water brightest
 In its furthest depth there is nothing of weed or of mud ; 
 whatever of haze may seem to quiver there is a weft of 
 the sun's spinning, a web not of woven darkness but of 
-molten light But such work as this can be neither unwoven nor recast by any process of analysis. The infinite 
+molten light But such work as this can be neither unwoven 
+nor recast by any process of analysis. The infinite 
 depth and wealth of life which breathes and plays among 
 these songs and sonnets cannot be parcelled and portioned 
-out for praise or comment This " House of Life *' has 
+out for praise or comment This <title>" House of Life "</title> has 
 in it so many mansions, so many halls of state and bowers 
 of music, chapels for worship and chambers for festival, 
 that no guest can declare on a first entrance the secret of 
@@ -2679,20 +2642,22 @@ song hands on the torch to song ; and each in turn (as
 another poet has said of the lark's note falling from the 
 height of dawn) 
 
-<' Ritgs like a golden jewel down a golden stair." 
+<quote>"Rings like a golden jewel down a golden stair."</quote> <!-- Block quote, meaning centered and smaller font. --> 
 
-
-
-DANTE GABRIEL ROSSETTL 65 
+<pb num="65"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">65</fw> 
 
 There are no poems of the class in English — I doubt if 
 there be ^y even in Dante's Italian — so rich at once 
-and pure. Their golden affluence of images and jewelcoloured words never once disguises the firm outline, the 
+and pure. Their golden affluence of images and jewelcoloured 
+words never once disguises the firm outline, the 
 justice and chastity of form. No nakedness could be 
-more harmonious, more consimimate in its fleshly sculpture, than the imperial array and ornament of this august 
+more harmonious, more consimimate in its fleshly sculpture, 
+than the imperial array and ornament of this august 
 poetry. Mailed in gold as of the morning and girdled / 
 with gems of strange water, the beautiful body as of a 
-carven goddess gleams through them tangible and taintless, without spot or default There is not a jewel here 
+carven goddess gleams through them tangible and taintless, 
+without spot or default There is not a jewel here 
 but it fits, not a beauty but it subserves an end. There 
 seems no story in this sequence of sonnets, yet they hold 
 in them all the action and passion of a spiritual history 
@@ -2714,12 +2679,10 @@ and dear, however intense and fine in remote and delicate
 intricacy of spiritual stuff. There is nothing here which 
 may not be felt by any student who can grasp the Subtle 
 
-F 
+F <!-- Mystery character. -->
 
-
-
-
-66 THE POEMS OF 
+<pb num="66"/>
+<fw type="pageNum">66</fw> <fw type="header">THE POEMS OF</fw>
 
 sense of it in full, as a just thing and admirable, fit for 
 the fellowship of men's feelings ; if men indeed have in 
@@ -2731,7 +2694,8 @@ who would follow the radiant track of this verse through
 brakes of flowers and solitudes of sunlight, past fountains 
 hidden under green bloom of leaves, beneath roof-work 
 of moving boughs where song and silence are one musia 
-All passion and regret and strenuous hope and fiery contemplation, all beauty and glory of thought and vision, 
+All passion and regret and strenuous hope and fiery contemplation, 
+all beauty and glory of thought and vision, 
 are built into this golden house where the lifethat reigns 
 is love; the very face of sorrow is not cold or withered, 
 but has the breath of heaven between its fresh live lips 
@@ -2739,21 +2703,21 @@ and the light of pure sweet blood in its cheeks ; there is
 a glow of summer on the red leaves of its regrets and the 
 starry fi-ost-flakes of its tears. Resignation and firuition, 
 forethought and afterthought, have one voice to sing with 
-in many keys of spirit A more bitter sweetness of sincerity was never pressed into verse than beats and bums 
+in many keys of spirit A more bitter sweetness of sincerity
+ was never pressed into verse than beats and bums 
 here under the veil and girdle of glorious words; there 
 are no poems anywhere of more passionate meditation or 
-vision more intense than those on " Lost Days," " Vain 
-Virtues," "The Sun's Shame;" none of more godlike 
-grace and sovereign charm than those headed " New-bom 
-Death," " A Superscription," " A Dark Day," " Known 
-in Vain," " The One Hope." And of all splendid and 
+vision more intense than those on <title>" Lost Days,"</title> <title>" Vain 
+Virtues,"</title> <title>"The Sun's Shame;"</title> none of more godlike 
+grace and sovereign charm than those headed <title>" New-bom 
+Death,"</title> <title>" A Superscription,"</title> <title>" A Dark Day,"</title> <title>" Known 
+in Vain,"</title> <title>" The One Hope."</title> And of all splendid and 
 profound love-poetry, what is there more luminous or 
 more deep in sense and spirit than the marvellous opening 
 cycle of twenty-^ight sonnets, which embrace and express 
 
-
-
-DANTE GABRIEL ROSSETTL 67 
+<pb num="67"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">67</fw> 
 
 all sorrow and all joy of passion in union, of outer love 
 and inner, triumphant or dejected or piteous or at peace? 
@@ -2780,42 +2744,43 @@ of his penance, the wood of desolation made beautifiil and
 bitter by the same remembrance, haunted by shadows of 
 the same hours for sorrow and for solace, and beyond all 
 the light of the unaccomplished hour which missed its 
-chance in one life to meet it in another where the sundered spirits revive into reunion ; all these things are here 
+chance in one life to meet it in another where the 
+sundered spirits revive into reunion ; all these things are here 
 done into words and sung into hearing of men as they 
 never were till no^ With a most noble and tender power 
 all forms and colours of the world without are touched 
 and drawn into service of the spirit; and this with no 
 
-P2 
+F2 <!-- Mysterious character. --> 
 
-
-
-68 THE POEMS OF 
+<pb num="68"/>
+<fw type="pageNum">68</fw> <fw type="header">THE POEMS OF</fw> 
 
 ingenious abuse of imagery or misuse of figures, but with 
 such gracious force of imagination that they seem to offer 
 voluntary service. What interlude more radiant than that 
-of the "Portrait," more gracious and joyous than the 
-" Love-Letter," more tender than the remembered " Birth- 
-Bond," more fervent than the memorial " Day of Love," 
-more delicate than the significance of " Love's Baubles," 
-more deep and full than the bitter-sweet " Life-in-Love," 
-more soft in spiritual shade of changeful colour than " The 
-Love-Moon," more subtly solemn in tragic and triumphant 
-foresight than "The Morrow's Message," more ardent 
+of the <title>"Portrait,"</title> more gracious and joyous than the 
+<title>" Love-Letter,"</title> more tender than the remembered <title>" Birth- 
+Bond,"</title> more fervent than the memorial <title>" Day of Love,"</title> 
+more delicate than the significance of <title>" Love's Baubles,"</title> 
+more deep and full than the bitter-sweet <title>" Life-in-Love,"</title> 
+more soft in spiritual shade of changeful colour than <title>" The 
+Love-Moon,"</title> more subtly solemn in tragic and triumphant 
+foresight than <title>"The Morrow's Message,"</title> more ardent 
 with finer fires and more tremulous with keener senses 
-than the sonnets of parting, than " Broken Music " or 
-" Death-in-Love," ever varied the high delight of verse, 
+than the sonnets of parting, than <title>" Broken Music "</title> or 
+<title>" Death-in-Love,"</title> ever varied the high delight of verse, 
 the sublime sustention of choral poetry through the length 
-of an imperial work? In the sonnet called "Love- 
-Sweetness " there is the very honey of pure passion, the 
-expression and essence of its highest thought and wisdom ; and in that called " He and I," the whole pain and 
+of an imperial work? In the sonnet called <title>"Love- 
+Sweetness "</title> there is the very honey of pure passion, the 
+expression and essence of its highest thought and wisdom ; 
+and in that called <title>" He and I,"</title> the whole pain and 
 mystery of growing change. Even Shelley never expressed 
 / the inmost sense and mighty heart of music as this poet 
-has done in " The Monochord." There are no lyrics in 
+has done in <title>" The Monochord."</title> There are no lyrics in 
 our lyrical English tongue of sweeter power than the least 
-of these which follow the sonnets. The " Song of the 
-m Bower " is sublime by sheer force of mere beauty ; the 
+of these which follow the sonnets. The <title>" Song of the 
+m Bower "</title> is sublime by sheer force of mere beauty ; the 
 T sonorous fluctuation of its measiure, a fiill tide under a 
 full moon, of passion lit and led by memory to and fro 
 beneath fiery and showery skies of past and future, has 
@@ -2823,21 +2788,16 @@ such depth and weight in its moving music that the echo
 of it is as a sea-shell in the mind's ear for ever. Observe 
 the glorious change of note from the delicate colour of 
 
-
-
-! 
-
-
-
-DANTE GABRIEL ROSSETTL 69 
+<pb num="69"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">69</fw> 
 
 the second stanza to the passionate colour of the third ; 
 the passage from soft bright symbols to the actual fire of 
 vision and burning remembrance; from the shelter of 
 soul under soul and the mirror of tears whereia heart 
-sees heart, to the grasp and glow of i^ 
+sees heart, to the grasp and glow of if 
 
-** Large lovely arms and a neck like a tower " 
+<quote>" Large lovely arms and a neck like a tower "</quote>
 
 growing incarnate upon the sight of memory ; and again 
 to the deep dim witness and warning, the foresight and 
@@ -2854,64 +2814,59 @@ its aftertaste than the joy resigned, with a murmur beyond
 music in its speech. The perfect pity of the two last lines 
 has Uie touch on it of plain truth and patience ; 
 
-** I'll tell thee when the end is come 
-How we may best forget" 
+<quote>" I'll tell thee when the end is come 
+How we may best forget"</quote> <!-- This is definitely two lines/one line w/ caesura of a poem. -->
 
-In " Plighted Promise " and " Love- Lily " the white flame 
+In <title>" Plighted Promise "</title> and <title>" Love- Lily "</title> the white flame 
 of delight breathes and trembles in a subder air, with a 
 sure and fauldp ss charm of motion. I like the first stanza 
-of "Sudden Light" better than the second and third, 
+of <title>"Sudden Light"</title> better than the second and third, 
 admirably as they are fEishioned and set to the music of 
 the thought : they have less seeming effusion of an instant 
 insuppressible sense of memory; and the touches of colour 
 and odour and sound in it are almost too fine in their 
 
-
-
-70 THE POEMS OF 
+<pb num="70"/>
+<fw type="pageNum">70</fw> <fw type="header">THE POEMS OF</fw> 
 
 harmony to be matched with any later. There is not a 
 more delicate note of magic nature in these poems. The 
-tremulous ardour of " Penumbra " is another witness to 
+tremulous ardour of <title>" Penumbra "</title> is another witness to 
 the artist's mastery of hand ; the finest nerves of life are 
 finely touched ; the quiver and ache of soul and senses 
 to which all things are kindled and discoloured by half 
 morbid lights of emotion give a burning pulse of melody 
 to the verses. The same fear or doubt which here is 
 attired in fancies of feverish beauty finds gentler utterance, 
-again outside this circle, in " A New Year's Burden ; " the 
+again outside this circle, in <title>" A New Year's Burden ; "</title> the 
 tone and colour have alwa3rs a fresh and suie harmony. 
-Four poems in a different key firom such songs are " The 
-Sea-Limits," " A Young Fir- Wood," " The HoneysucUe," 
-" The Woodspurge \ " not songs, but studies of spirit and 
+Four poems in a different key firom such songs are <title>" The 
+Sea-Limits,"</title> <title>" A Young Fir- Wood,"</title> <title>" The HoneysucUe,"</title> 
+<title>" The Woodspurge \ "</title> not songs, but studies of spirit and 
 thought, concrete and perfect The first of these has the 
 solemn weight and depth in it of living water, and a 
 sound like the speech of the sea when the wind is silent. 
 The very note of that world-old harmony is caught and 
 cast into words. 
 
-** Consider the sea's listless chime : 
+<quote>" Consider the sea's listless chime : 
 Time's self it is, made audible : 
-The murmur of the earth's own shell." 
+The murmur of the earth's own shell."</quote> 
 
 This little verse also has the 
 
-" Secret continuance sublime" 
+<quote>" Secret continuance sublime" </quote>
 
-which " is the sea's end ; " it too is a living thing with an 
+which <quote>" is the sea's end ; "</quote> it too is a living thing with an 
 echo beyond reach of the sense, its chord of sound one 
 part of the multiform unity of mutual inclusion in which 
 all things rest and mix ; like the sigh of the shaken shell, 
-it utters " the same desire and mystery " as earth through 
+it utters <quote>" the same desire and mystery "</quote> as earth through 
 its woods, and water through its waves, and man through 
 his multitudes ; it too has in it a breath of the life im- 
 
-
-
-
-
-
-DANTE GABRIEL ROSSETTL 71 
+<pb num="71"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">71</fw> 
 
 measurable and imperishable. The other three of these 
 studies have something of the same air and flavoiu: : 
@@ -2919,16 +2874,16 @@ their keen truthfiilit^ss and subtle sincerity touch the
 same springs and kindle the same pulses of thought. 
 The passionate accuracy of sense half blunted and 
 half whetted by obsession and possession of pain is given 
-in "The Woodspurge" with a bitterly beautiful exactitude. 
+in <title>"The Woodspurge"</title> with a bitterly beautiful exactitude.</p>
 
-In all the glorious poem built up of all these poems 
+<p>In all the glorious poem built up of all these poems 
 there is no great quality more notable than the sweet and 
 sovereign unity of perfect spirit and sense, of fleshly form 
 and intellectual fire. This Muse is as the woman praised 
 in the divine words of the poet himself, 
 
-*• Whose speech Truth knows not from her thought 
-Nor Love her body from her souL" 
+<quote>" Whose speech Truth knows not from her thought 
+Nor Love her body from her souL" </quote>
 
 And if not love, how then should judgment? for love and 
 judgment must be one in those who would look into such 
@@ -2938,28 +2893,24 @@ beauty of the poem, the very and visible soul from the
 dazzling veil and vesture of fair limbs and features. 
 There has been no work of the same pitch attempted 
 since Dante sealed up his youth in the sacred leaves of 
-the '* Vita Nuova ; " and this poem of his namechild and 
+the <title>" Vita Nuova ; "</title> and this poem of his namechild and 
 translator is a more various and mature work of kindred 
-genius and spirit 
+genius and spirit </p>
 
-Other parts of his work done here have upon them 
+<p>Other parts of his work done here have upon them 
 the more instant sign of that sponsor and master of his 
 mind ; there is a special and delicate savour of personal 
-interest in the sonnet on the '^ darkness" of Dante, 
+interest in the sonnet on the <quote>" darkness"</quote> of Dante, 
 
-
-
-C ' 
-
-
-
-72 THE POEMS OF 
+<pb num="72"/>
+<fw type="pageNum">72</fw> <fw type="header">THE POEMS OF</fw> 
 
 sacred to the fame of a father made again illustrious in 
 his children, which will be cherished with a warm 
 reverence by all heedful students. The poem of " Dante 
 at Verona '' stands apart among the rest with a crown on 
-it of the like consecration, as perhaps the loftiest monument of all raised by the devotion of a race of genius for 
+it of the like consecration, as perhaps the loftiest monument 
+of all raised by the devotion of a race of genius for 
 two generations of noble work and love. All incidents 
 and traditions of the great poet's exile are welded together 
 in fusion of ardent verse to forge a memorial as of carven 
@@ -2972,31 +2923,31 @@ return — ^words matchless among all that ever a poet found
 to speak for himself, except only by those few supreme 
 words in which Milton replied to the mockers of his 
 blindness — even these are worthily recast in the mould 
-of English verse by the might and cimning of this workman's hand. Witness the original set against his 
-version. 
+of English verse by the might and cimning of this workman's 
+hand. Witness the original set against his 
+version. </p>
 
-" Non est haec via redeandi ad patriam, Pater mi ; sed si alia 
+<quote xml:lang="la">" Non est haec via redeandi ad patriam, Pater mi ; sed si alia 
 per vos aut deinde per alios invenietur, qi0| famae Dantis atque 
 honori non deroget, illam non lentis passibus acceptabo. Quod si 
 per nollam talem Florentia introitur, nunquam Florentiam introibo. 
 Quidni ? nonne solis astrommque specula ubique conspidam ? 
 Nonne duldssimas veritates potero speculari ubique sub coelo, ni 
 priiis inglorium, immo ignominiosum, populo Florentinseque civitati 
-me reddam ? — Quippe nee panis deficiet." 
+me reddam ? — Quippe nee panis deficiet." </quote>
 
-So wrote Dante in 1316 ; now partly rendered into 
+<p>So wrote Dante in <date when="1316">1316</date> ; now partly rendered into 
 English to this effect : — 
 
+<pb nu="73"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">73</fw> 
 
-
-DANTE GABRIEL ROSSETTL 73 
-
-•* That since no gate led, by God's will. 
+<quote>" That since no gate led, by God's will. 
 To Florence, but the one whereat 
 The priests and money-changers sat, 
 He still would wander : for that still, 
 Even through the body's prison-bars, 
-His soul possessed the sun and stars." 
+His soul possessed the sun and stars."</quote>
 
 These and the majestic lines which follow them as 
 comment have the heart of that letter in them ; the letter 
@@ -3005,12 +2956,14 @@ double bitterness and sweetness in its sacred speech, so
 lamentably and so gloriously applicable to the loftiest 
 heir of Dante's faith and place ; of his faith as patriot, of 
 his place as exile. It seems that the same price is still 
-fixed for them to pay who have to buy with it the inheritance of sun and stars and the sweetest truths, and all 
+fixed for them to pay who have to buy with it the inheritance 
+of sun and stars and the sweetest truths, and all 
 generations of time, and the love and thanks and ' 
-passionate remembrance of all faithful men for ever. 
+passionate remembrance of all faithful men for ever. </p>
 
-This poem is sustained throughout at the fit height 
-with the due dignity; nothing feeble or jarring disturbs its equality of exultation. The few verses of bitter 
+<p>This poem is sustained throughout at the fit height 
+with the due dignity; nothing feeble or jarring disturbs 
+its equality of exultation. The few verses of bitter 
 ardour which brand as a prostitute the conunonweal 
 which has become a common wrong, the common 
 goddess deformed into a common harlot, show a 
@@ -3021,28 +2974,27 @@ women and rhymesters, jester and priests, have a living
 outline and colour ; and the last words have the weight 
 in them of time's own sentence. 
 
-*' Eat and wash hands, Can Grande ; — scarce 
+<quote>" Eat and wash hands, Can Grande ; — scarce 
 We know their deeds now : hands which fed 
 Our Dante with that bitter bread ; 
 
-
-
-74 THE POEMS OF 
+<pb num="74"/>
+<fw type="pageNum">74</fw> <fw type="header">THE POEMS OF</fw>
 
 And thou the watch-dog of those stairs 
 Which, of all paths his feet knew well. 
-Were steeper found than Heaven or HelL" 
+Were steeper found than Heaven or HelL"</quote></p>
 
-No words could more fitly wind up the perfect weft 
+<p>No words could more fitly wind up the perfect weft 
 of a poem throughout which the golden thread of 
 Dante's own thought, the hidden light of his solitude at 
 intervals between coiurt-play and justice-work, gleams 
 now and again at each turn of the warp till we feel as 
 though a new remnant of that great spirit's leaving had 
-been vouchsafed us. 
+been vouchsafed us. </p>
 
-Another poem bearing the national mark upon it may 
-be properly named with this ; the " Last Confession." Its 
+<p>Another poem bearing the national mark upon it may 
+be properly named with this ; the <title>" Last Confession."</title> Its 
 tragic hold of truth and grasp of passion make it worthy 
 to bear witness to the writer's inheritance of patriotic 
 blood and spirit. Its literal dramatic power of detail and 
@@ -3063,13 +3015,13 @@ culture of this quality such a poem as We now have in
 sight could not have been attempted. The plain heroism 
 of noble naked nature and coherent life is manifest firom 
 
-
-
-DANTE GABRIEL ROSSETTL 75 
+<pb num="75"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">75</fw> 
 
 the first delicate detail to the last The simple agony of 
 memory inflames every line with native colour. A boyish 
-patriot in hiding from the government finds a child forsaken in time of famine by her parents, saves and 
+patriot in hiding from the government finds a child 
+forsaken in time of famine by her parents, saves and 
 supports her, sets his heart towards hers more and more 
 with the growth of years, to find at last the taint upon 
 her of a dawning shame, of indifference and impurity — 
@@ -3082,54 +3034,54 @@ djring of wounds taken in a last fight for Italy, is haunted
 by the lovely &ce and unlovely laugh of the girl he had 
 put out of reach of shame. But the tender truth and 
 grace, the living heat and movement of the tragedy 
-through every detail, the noble choice and use of incident, make out of this plain story a poem beyond price. 
+through every detail, the noble choice and use of incident, 
+make out of this plain story a poem beyond price. 
 Upon each line of drawing there has been laid the strong 
 and loving hand of a great artist — and specially a supreme ^ 
-
 painter of fa ir women. In the study of the growing gi3 C-T ^ 
-
 the glories of sculpture and painting are melted into one, 
 and every touch d^es divine service ; 
 
-" The underlip 
-Sucked in as if it strove to kiss itself;" 
+<quote>" The underlip 
+Sucked in as if it strove to kiss itself;"</quote>
 
-the face, pale "as when one stoops over wan water;" 
-the "deep-serried locks," the roimded clinging fingertips, and great eyes faint with passion or quivering with 
-hidden springs of mirth, * 
+the face, pale <quote>"as when one stoops over wan water;"</quote>
+the <quote>"deep-serried locks,"</quote> the roimded clinging fingertips, 
+and great eyes faint with passion or quivering with 
+hidden springs of mirth,
 
+<pb num="76"/>
+<fw type="pageNum">76</fw> <fw type="header">THE POEMS OF</fw>
 
-
-76 THE POEMS OF 
-
-** As when a bird flies low 
+<quote>" As when a bird flies low 
 Between the water and the willow-leaves, 
-And the shade quivers till he wins the light.** 
+And the shade quivers till he wins the light. "</quote></p> 
 
-In what poet's work shall we find a touch of more 
+<p>In what poet's work shall we find a touch of more 
 heavenly beauty, a nobler union of truth and chann? 
 and in what painter's a statelier and sweeter mastery of 
 nature than here ? 
 
-** Her body bore her neck as the tree's stei§ 
+<quote>" Her body bore her neck as the tree's stei§ 
 Bears the top branch : and as the branch sustains 
 The flower of the year's pride, her high neck bore 
-Her face made wonderful vrith night and day." 
+Her face made wonderful vrith night and day."</quote></p>
 
-The purest pathos of all is in the little episode of the 
-broken figure cjf Love, given to the child by her preserver, and the wound of its dart on her hand ; nothing 
+<p>The purest pathos of all is in the little episode of the 
+broken figure cjf Love, given to the child by her preserver, 
+and the wound of its dart on her hand ; nothing 
 in conception or in application could be tenderer or 
 truer ; nothing more glorious in its horror than the fancy 
 of heaven changing at its height before the very face of a 
 spirit in paradise, with no reflection of him left on it : 
 
-*' Like a pool that once gave back 
+<quote>" Like a pool that once gave back 
 Your image, but now drowns it and is clear 
 Again, — or like a sun bewitched, that bums 
-Your shadow from you, and still shines in sight." 
+Your shadow from you, and still shines in sight."</quote></p>
 
-Admirable as it is throughout for natural and moral 
-coloiu", the poem is completed and crowned for eternity 
+<p>Admirable as it is throughout for natural and moral 
+colour, the poem is completed and crowned for eternity 
 by the song set on the firont of it as a wreath on a bride's 
 hair, of which I can hardly say whether tlie Italian or the 
 English form be the more divine. The miraculous faculty 
@@ -3139,18 +3091,19 @@ spilling was never before given to man. All Mr.
 Rossetti's translations bear the same evidence of a power 
 not merely beyond reach but beyond attempt of other 
 
-
-
-DANTE GABRIEL ROSSETTL 77 
+<pb num="77"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">77</fw> 
 
 artists in language. Wonderful as is the proof of it shown 
 by his versions of Dante and his fellows, of Villon's and 
-other ballad-songs of old France, the capacity of recasting in £J3glish an Italian poem of his own seems to me 
+other ballad-songs of old France, the capacity of 
+recasting in £J3glish an Italian poem of his own seems to me 
 more wonderful ; and what a rare and subtle piece of 
 work has been done here they only can appreciate who 
 have tried carefully and failed utterly to refashion in one 
 language a sonf thrown off in another. This is the kind 
-of test which stamps the supremacy of an artist, answering in poetry to the subtlest successes of the same hand 
+of test which stamps the supremacy of an artist, answering 
+in poetry to the subtlest successes of the same hand 
 in painting. Whether or not there be now living a 
 ma^er in colours who can match the peculiar triumphs 
 of its touch, there is assuredly no master fh words. The 
@@ -3162,11 +3115,11 @@ even though the poet had not left upon us the natural
 charm of that hope which comes in with death, that the 
 woman grown hard and bad was indeed no less a lie, an 
 error, a spectral show, than the laughing ghost of her 
-forged by bodily pain and recollection. 
+forged by bodily pain and recollection.</p>
 
-By this poem we may set for contrast, in witness of 
+<p>By this poem we may set for contrast, in witness of 
 the artist's clear wide scope of work and power, the i 
-** Burden of Nineveh ; " a study of pure thought and high j 
+<title>" Burden of Nineveh ; "</title> a study of pure thought and high j 
 meditation, perhaps for sovereignty of language and strong j 
 grasp of spirit the greatest of his poems. The contem- ' 
 plation that brings forth such fruit should be a cherub / 
@@ -3174,50 +3127,49 @@ indeed, having wings and eyes as an eagle's. The solemn
 and splendid metre, if I mistake not, is a new instrument 
 of music for English hands. In those of its fashioner it 
 
-
-
-78 THE POEMS OF 
+<pb num="78"/>
+<fw type="pageNum">78</fw> <fw type="header">THE POEMS OF</fw>
 
 makes harmonies majestic as any note of the heights or 
 depths of natural sound. No highest verse can excel the 
-mighty flow and chiming force of its continuous modulation, bearing on foamless waves of profound song its 
+mighty flow and chiming force of its continuous modulation, 
+bearing on foamless waves of profound song its 
 flock of winged thoughts and embodied visions. We hear 
 in it as it were for once the sound of time's soundless 
 feet, feel for once the beat of his unfelt wings in their 
 passage through unknown places, and ctnturies without 
 form and void. Echoes and gleams come with it fix)m 
-'^ the dark backward and abysm " of dateless days ; a 
+<quote>" the dark backward and abysm "</quote> of dateless days ; a 
 sighing sound from the graves of gods, a wind through 
 the doors of death which opened on the early world. The 
 surviving shadbw of the Bull-God is as the shadow of 
-death on .past and passing ages, visible and recognisable by the afterlight of thought Of the harmonious 
+death on .past and passing ages, visible and recognisable 
+by the afterlight of thought Of the harmonious 
 might and majesty of imagination which sustains the 
-" speculative and active instrument " of song, we might 
+<quote>" speculative and active instrument "</quote> of song, we might 
 take as separate samples the verses on its old days of 
 worship from kmgs and queens, of light from lamps of 
-prayer or fires of ruin ; on the elder and later gods confused with its confusion, " all relics here together ;" on the 
+prayer or fires of ruin ; on the elder and later gods confused 
+with its confusion, <quote>" all relics here together ;"</quote> on the 
 cities that rose and fell before the city of its worshippers ; 
 of their desolation and its own in, the days of Christ The 
 stanza on the vision of the temptation has a glory on it as 
-of Milton's work, 
+of Milton's work. 
 
-" The day when he, Pride's lord and man's, 
+<quote>" The day when he, Pride's lord and man's, 
 Shewed all earth's kingdoms at a glance 
 To Him before whose countenance 
 The years recede, the years advance, 
-
-And said, * Fall down and worship me : *— 
+And said, 'Fall down and worship me :' *— 
 'Mid all the pomp beneath his look 
 Then stirred there, haply, some rebuke 
 
+<pb num="79"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">79</fw> 
 
-
-DANTE GABRIEL ROSSETTL 79 
-
-« Where to the wind the salt pools shook, 
-
+Where to the wind the salt pools shook, 
 And in those tracts, of life foisook. 
-That knew thee not, O Nineveh ! " 
+That knew thee not, O Nineveh ! " </quote>
 
 An4 what more august and strenuous passion of thought 
 was ever clothed in purple of more imperial speech than 
@@ -3234,28 +3186,32 @@ brow-bound with a royal sign, of oppression only and
 contraction ; firm of foot, but resting the weight of its 
 trust on clay : — 
 
-" O Nineveh, was this thy God, 
-Thine also, mighty Nineveh ?" 
+<quote>" O Nineveh, was this thy God, 
+Thine also, mighty Nineveh ?" </quote>
 
 A certain section of Mr. Rossetti's work as poet and as 
 painter may be classed under the head of sacred art : and 
 this section comprises much of his most exquisite and 
-especial work. Its religious quality is singular and personal in kind; we cannot properly bracket it with any 
+especial work. Its religious quality is singular and 
+personal in kind; we cannot properly bracket it with any 
 other workman's. The fire of feeling and imagination 
 which feeds it is essentially Christian, and is therefore 
-formally and spiritually Catholic It has nothii^ of rebellious Protestant personality, nothing of the popular 
+formally and spiritually Catholic It has nothii^ of 
+rebellious Protestant personality, nothing of the popular 
 compromise of sentiment which in the hybrid jargon of 
 a school of hybrids we may call liberalized Christianism. 
 The influence which plainly has passed over the writer's 
 
+<pb num="80"/>
+<fw type="pageNum">80</fw> <fw type="header">THE POEMS OF</fw>
 
-
-8o THE POEMS OF 
-
-mind, attracting it as by charm of sound or vision, byspell of colour or of dream, towards the Christian foims 
-and images, is in the main an influence from the mythologic side of the creed. It is from the sandbanks of 
+mind, attracting it as by charm of sound or vision, 
+byspell of colour or of dream, towards the Christian foims 
+and images, is in the main an influence from the 
+mythologic side of the creed. It is from the sandbanks of 
 tradition and poetry that the sacred sirens have sung to 
-this seafarer. This divides him at once from the passionate evangelists of positive belief and from the artists upon 
+this seafarer. This divides him at once from the passionate 
+evangelists of positive belief and from the artists upon 
 whom no such influence has fallen in any comparable 
 degree. There are two Hving and leading writers of high 
 and diverse genius whom any student of their work — 
@@ -3267,9 +3223,9 @@ to doubt the actual and positive adherence to Christian
 doctrine of the Protestant thinker as of the Catholic 
 priest; to doubt that faith in Christ as God — a tough, 
 hard, vital faith which can bear at need hard stress of 
-weather and hard thought — dictated "A Death in the 
-Desert " or " Christmas Eve and Easter Day," as to doubt 
-that it dictated the "Apologia" or " Dream of Gerontius : " 
+weather and hard thought — dictated <title>"A Death in the 
+Desert "</title> or <title>" Christmas Eve and Easter Day,"</title> as to doubt 
+that it dictated the <title>"Apologia"</title> or <title>" Dream of Gerontius : "</title> 
 though neither in the personal creed set forth by Mr. 
 Browning nor in the clerical creed delivered by Dr. 
 Newman do we find apparent or flagrant — however they 
@@ -3278,20 +3234,22 @@ of either man's theories— the viler forms and more
 hideous outcomes of Christianity, its more brutal aspects 
 and deadlier consequences ; a happy default due rather 
 to nobility of in^inct than to ingenuity of evasion. Now 
-the sacred art of Mr. Rossetti, for all its Christian colouring, has actually no more in common with the spirit of 
+the sacred art of Mr. Rossetti, for all its Christian colouring, 
+has actually no more in common with the spirit of 
 
+<pb num="81">
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">81</fw>
 
-
-DANTE GABRIEL ROSSETTL 8i 
-
-either than it has with the semi-Christianity of " In 
-Metioriam*' or the demi-semi-Christianity of "Dipsychus." 
+either than it has with the semi-Christianity of <title>" In 
+Metioriam"</title> or the demi-semi-Christianity of <title>"Dipsychus."</title> 
 It has no trace, on the other hand, of the fretful and 
 fruitless prurience of soul which would fain grasp and 
-embrace and enjoy a creed beyond its power of possession ; no letch after Gods dead or unborn, such as vexes 
+embrace and enjoy a creed beyond its power of possession ; 
+no letch after Gods dead or unborn, such as vexes 
 the weaker nerves of barren brains, and makes pathetic 
-the vocal lips of sorrowing scepticism and " doubt that 
-deserves to believe." As little can it be likened to another form- of bastard belief, anotfier cross-breed between 
+the vocal lips of sorrowing scepticism and <quote>" doubt that 
+deserves to believe."</quote> As little can it be likened to another form- 
+of bastard belief, anotfier cross-breed between 
 faith and unfaith, which has been fostered in ages of 
 doi4)t ; a ghost raised rather by fear than love ; by fear 
 of a dead God as judge, than by love of a dead God as 
@@ -3300,7 +3258,8 @@ fearful retrospect towards the unburied corpses of old
 creeds which, as we need not Shelley's evidence to know, 
 infected the spiritual life and disturbed the intellectual 
 force of Byron, is a mirage withotit attraction for this 
-traveller ; that spiritual calenture of Christianity is a sickness unknown to his soul ; nor has he ever suffered from 
+traveller ; that spiritual calenture of Christianity is a 
+sickness unknown to his soul ; nor has he ever suffered from 
 the distemper of minds fretted and worried by gnatstings 
 and fleabites of belief and unbelief till the whole lifeblood 
 of the intellect is enfeebled and inflamed. In a later poet, 
@@ -3313,18 +3272,24 @@ repulsion from the philanthropic optimism of sciolists in
 whose eyes the whole aim or mission of things is to make 
 the human spirit finally comfortable. Contempt of such 
 
-G 
+G <!-- Myster character. -->
 
-
-
-82 THE POEMS OF 
+<pb num="82"/>
+<fw type="pageNum">82</fw> <fw type="header">THE POEMS OF</fw>
 
 facile free-thinking, still more easy than free, took in him 
 at times the form of apparent reversion to cast creeds ; 
 as though the spirit should seek a fiery refuge in the good 
 old hell of the faithful from the watery new paradise of 
-liberal theosophy and ultimate amiability of all things.' 
-Alone among the higher <utists of his age, Mr. Rossetti 
+liberal theosophy and ultimate amiability of all things.
+<note num="1"> It is remarkable that Baudelaire always kept in mind that 
+Christianity, like other religions which have a broad principle of 
+popular life in them, was not and could not be a creature of 
+philanthropy or philotheism, but of church and creed ; and this gives its 
+peculiar savour and significance to the Christian infusion in some of 
+his poems ; for such recollection is too rare in an age and country 
+where semi-Christian sentiment runs loose and babbles aloud. </note> 
+Alone among the higher atists of his age, Mr. Rossetti 
 has felt and given the mere physical charm of Christianity, 
 with no admixture of doctrine or of doubt. Here as in 
 other things he belongs, if to any school at all, to that of 
@@ -3338,33 +3303,25 @@ into goddess be Mary or Ariadne : but his instinct is too
 masterly for any confusion or discord of colours; and 
 hence comes the spiritual charm and satisfaction of his 
 sacred art In this class of his poems the first place and 
-the fairest palm belong to the " Blessed DamozeL" This 
-paradisal poem, " sweeter than honey or the honeycomb," 
+the fairest palm belong to the <title>" Blessed DamozeL"</title> This 
+paradisal poem, <quote>" sweeter than honey or the honeycomb,"</quote> 
 has found a somewhat further echo than any of its early 
 fellows, and is perhaps known where little else is known 
 of its author's. The sweet intense impression of it must 
 rest for life upon all spirits that ever once received it 
 
-* It is remarkable that Baudelaire always kept in mind that 
-Christianity, like other religions which have a broad principle of 
-popular life in them, was not and could not be a creature of philanthropy or philotheism, but of church and creed ; and this gives its 
-peculiar savour and significance to the Christian infusion in some of 
-his poems ; for such recollection is too rare in an age and country 
-where semi-Christian sentiment runs loose and babbles aloud. 
-
-
-
-DANTE GABRIEL ROSSETTL 83 
+<pb num="83"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">83</fw> 
 
 into their depths, and hold it yet as a thing too dear and 
 fair for praise or price. Itself the flower of a splendid 
 youth, it has the special charm for youth of fresh first 
-work and opening love ; " the dew of its birth is of the 
-womb of the morning ;" it has the odour and colour of 
+work and opening love ; <quote>" the dew of its birth is of the 
+womb of the morning ;"</quote> it has the odour and colour of 
 cloudless air, the splendour of an hour without spot. 
 The divine admixtures of earth which humanize its 
 heavenly passion have the flavour and bloom upon thfem 
-of a maiden beauty, the fine force of a pure' first sunrise. 
+of a maiden beauty, the fine force of a pure first sunrise. 
 No poem shows more plainly #ie strength and wealth of 
 the workman's lavish yet studious hand. One sample in 
 witness of this wealth, and in evidence of the power of 
@@ -3375,24 +3332,25 @@ The two final lines of the stanza describing the secret
 shrine of God have been reformed ; and the form first 
 given to the world is too fair to be wholly forgotten : — 
 
-•* Whose lamps tremble continually 
+<quote>" Whose lamps tremble continually 
 With prayer sent up to God, 
 And where each need^ revealed, expects 
-Its patient period:^ 
+Its patient period: "</quote></p>
 
-Wonderful though the beauty may be of the new imagination, that the spirits standing there at length will see 
-their " old prayers, granted, melt each like a little cloud," 
+<p>Wonderful though the beauty may be of the new imagination, 
+that the spirits standing there at length will see 
+their <quote>" old prayers, granted, melt each like a little cloud,"</quote> 
 there is so sweet a force in the canoelled phrase that some 
 students might grudge the loss, and feel that, though a 
 diamond may have supplanted it, a ruby has been plucked 
 out of the golden ring. Nevertheless, the complete 
-circlet shines now witli a more solid and flawless excellence of jewels and of setting. The sweetness and pathos 
+circlet shines now witli a more solid and flawless 
+excellence of jewels and of setting. The sweetness and pathos 
 
-G 2 
+G2 <!-- Mystery character. --> 
 
-
-
-84 THE POEMS OF 
+<pb num="84"/>
+<fw type="pageNum">84</fw> <fw type="header">THE POEMS OF</fw>
 
 and gracious radiance of the poem have been praised by 
 those who have not known or noted all the noble care 
@@ -3402,17 +3360,20 @@ sublimity which ennoble its brightness and beauty of
 fancies are yet worthier of note than these. What higher 
 imagination can be found in modem verse than this ? 
 
-** From the fixed place of heaven she saw 
+<quote>"From the fixed place of heaven she saw 
 Time like ajndse shake fierce 
-Through all the worlds,'''^ 
+Through all the worlds,"</quote></p>
 
-This grandeur of scale and sweep of spirit give greatness of style to poetry, as well as sweetness and brightness. These qualities, together with the charm of fluent 
+<p>This grandeur of scale and sweep of spirit give greatness 
+of style to poetry, as well as sweetness and brightness.
+ These qualities, together with the charm of fluent 
 force and facile power, are apparent in all Mr. Rossetti's 
 work j but its height of pitch and width of scope give 
 them weight and price beyond their own. 
 
-Another poem, based like this on the Christian sentiment of woman- worship, is worthy of a place next it In 
-the hymn headed " Ave " the finest passage is that on the 
+<p>Another poem, based like this on the Christian sentiment 
+of woman- worship, is worthy of a place next it In 
+the hymn headed <title>" Ave "</title> the finest passage is that on the 
 life of the Virgin after the death of Christ ; a subject 
 handled by the painter as well as by the poet Indeed, 
 of the two versions, that in colour is even the lovelier and 
@@ -3425,14 +3386,13 @@ the cross fills with pale coloured shadows the still small
 chamber where she sits at work for her Son's poor. The 
 soft fervour and faultless keeping of the poem give it that 
 
-
-
-DANTE GABRIEL ROSSETTI. 85 
+<pb num="85"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">85</fw> 
 
 final grace of a complete unity of spirit and style which 
-is the seal of sacred art at its highest 
+is the seal of sacred art at its highest.</p>
 
-No choicer sample of Mr. Rossetti's delicate mastery 
+<p>No choicer sample of Mr. Rossetti's delicate mastery
 of language — of his exquisite manner of speech, subtle 
 and powerful and pliant to all necessities of thought — 
 can be found than the verses invoking Love as the god 
@@ -3444,17 +3404,17 @@ several lines and turns of phrase in this brief space of
 which any least one would suffice to decide the rank of a 
 poet : and the fine piuity of its passion gives just colour 
 enough to the clouds and music enough to the murmurs 
-of the deep dreamland in which it moves. 
+of the deep dreamland in which it moves.</p>
 
-With this poem we may class one sadder and as 
-sweet, "The Stream's Secret ; " the thread of thought is 
+<p>With this poem we may class one sadder and as 
+sweet, <title>"The Stream's Secret ; "</title> the thread of thought is 
 so fine, yet woven into so full a web of golden fancies 
 and glowing dreams, that few will follow it at first sight ; 
 but when once unwound and rewoven by the reader's 
 study of it, he will see the whole force and beauty of all 
-its many byway beauties and forces. 
+its many byway beauties and forces.</p>
 
-The highest form of ballad requires from a poet ar 
+<p>The highest form of ballad requires from a poet ar 
 once narrative power, lyrical, and dramatfc ; it must hold 
 in fiision these three faculties at once, or fail of its mark: , 
 it must condense the large loose fluency of romantic tale- , 
@@ -3464,17 +3424,16 @@ without the exhibition of their gradual change and growth
 which a romance of the older type or the newer must lay 
 open to us in order ; it must be swifter of step and 
 
+<pb num="86"/>
+<fw type="pageNum">86</fw> <fw type="header">THE POEMS OF</fw>
 
-
-86 THE POEMS OF 
-
-sharper of stroke than any other form of poetr}\ The 
+sharper of stroke than any other form of poetry. The 
 wTiter of a first-rate tragic ballad must be yet more select 
 in his matter and terse in his treatment of what he selects 
-from the heap of possible incident, than Chaucer in the 
-compilation of his " Knight's Tale " from the epic romance 
+from the heap of possible incident, than Chaucer in the <!-- Referencing author and title: <bibl>? -->
+compilation of his <title>" Knight's Tale "</title> from the epic romance 
 of Boccaccio, or Morris in the sculpture of his noble 
-master-poem, " The Lovers of Gudrun," from the unhewn 
+master-poem, <title>" The Lovers of Gudrun,"</title> from the unhewn 
 rock of a half-formed history or a half-grown legend. 
 Ballads have been cut out of such poems as these, even 
 as they were carven out of shapeless chronicles. There 
@@ -3484,58 +3443,61 @@ a word or a minute in the course of its rapid and fiery
 motion. Even in our affluent ballad literature there is 
 no more triumphant sample of the greatness that may be 
 won by a poem on these conditions than we find in the 
-ballad of " Sister Helen." The tragic music of its measure, 
+ballad of <title>" Sister Helen."</title> The tragic music of its measure, 
 the swift yet solemn harmonies of dialogue, and burden, 
 hold in extract the very heart of a tragedy, the burning 
-essence distilled from ** Hate bom of Love, and blind as 
-he." Higher effect was never wrought out of the old 
+essence distilled from <quote>" Hate born of Love, and blind as 
+he."</quote> Higher effect was never wrought out of the old 
 traditions of witchcraft ; though the manner of sorcery 
-here treated be one so well known as the form of destroying a man by melting a waxen effigy of him before a 
+here treated be one so well known as the form of destroying 
+a man by melting a waxen effigy of him before a 
 continuous flame for the space of three days and nights, 
 after which the dissolution of the fleshly body keeps time 
 to a minute with that of the waxen. A girl forsaken by 
-her high-bom lover turns to sorcery for help in her revenge on him ; and with the end of the third day come 
-three suppliants, the father and the brothers of the betrayer, to whom he has shown the secret of his wasting 
+her high-bom lover turns to sorcery for help in her revenge 
+on him ; and with the end of the third day come 
+three suppliants, the father and the brothers of the betrayer, 
+to whom he has shown the secret of his wasting 
 
-
-
-DANTE GABRIEL ROSSETTL 87 
+<pb num="87"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">87</fw> 
 
 agony, if haply they may bring him back not life but 
 forgiveness at her hands. Dying herself of anguish with 
 him and with the molten figure of her making, she will 
 remit nothing of her great revenge ; body and soul of both 
 shall perish in one fourfold death : and her answers pass, 
-ever more and more bitter and ardent, through tlie harmless mouthpiece of a child. How the tragic effect is enforced and thrown out into fiery relief by this intervention 
+ever more and more bitter and ardent, through tlie harmless 
+mouthpiece of a child. How the tragic effect is enforced 
+and thrown out into fiery relief by this intervention 
 of the boy-biDther it needs no words, where none would be 
 adequate, to say. I account this one of the artist's very 
 highest reaches of triumphant poetry ; he has but once in 
 this book matched it for pathos, and but once for passion : 
-for pathos in " Jenny," for passion in " Eden Bower." It 
+for pathos in <title>" Jenny,"</title> for passion in <title>" Eden Bower."</title> It 
 is out of all sight or thought of comparison the greatest 
 ballad in nK)dem English ; and perhaps not very far 
 below it, and certainly in a high place among the attempts 
 in that way of living Englishmen, we might class Mr. 
 George Meredith's pathetic and splendid poem of 
-" Margaret's Bridal-Eve." 
+<title>" Margaret's Bridal-Eve."</title> </p>
 
-There is exquisite grace of colour and sweetness in 
-" The Staflf and Scrip," with passaged that search and 
+<p>There is exquisite grace of colour and sweetness in 
+<title>" The Staflf and Scrip,"</title> with passaged that search and 
 sound pure depths of sentiment, and with interludes of 
 perfect drawing'; witness the sweet short study of the 
 Queen sitting by her loom : but the air of the poem is 
-too remote and refined for any passionate interest 
+too remote and refined for any passionate interest.</p> 
 
-The landscape of " Stratton Water " is as vivid and 
+<p>The landscape of <title>" Stratton Water "</title> is as vivid and 
 thorough as any ballad can show ; but some may wish 
 it had been more or less of a compromise in style between 
 old and new : it is now a study after the old manner too 
 dose to be no closer. It is not meant for a perfect and 
 absolute piece of work in the old Border fashion, such as 
 
-
-
-88 THE POEMS OF 
+<pb num="88"/>
+<fw type="pageNum">88</fw> <fw type="header">THE POEMS OF</fw>
 
 were those glorious rescripts, full of the fiery ease which is 
 the life of such poetry, which Surtees of Mainsforth passed 
@@ -3544,20 +3506,21 @@ copy that it seems hardly well to have gone so far and no
 further. On this ground Mr. Morris has a firmer tread 
 than the great artist by the light of whose genius and 
 kindly guidance he put forth the firstfruits of his work, as 
-I did afterwards. In his first book the ballad of " Welland 
-River," the Christmas carol in "The Land East of the 
-Sun and West of the Moon," and that other, his most 
+I did afterwards. In his first book the ballad of <title>" Welland 
+River,"<title> the Christmas carol in <title>"The Land East of the 
+Sun and West of the Moon,"</title> and that other, his most 
 beautiful carol, printed with music in a volume of sacred 
 verse, are examples of flawless work in the pure early 
 manner. Any less absolute and decisive revival of 
 mediaeval form by inspiration of returning lifeblood and 
 measured breath of life into the exact type and mould of 
-ancient art rouses some sense of failure by excess or default of resemblance. This positive note of the past is 
+ancient art rouses some sense of failure by excess or default
+ of resemblance. This positive note of the past is 
 not quite caught here, and the note struck is too like it to 
-take its place without discord. 
+take its place without discord.</p>
 
-There is a singular force and weight of impression in 
-the " Card-Dealer " which give it a distinct and eminent 
+<p>There is a singular force and weight of impression in 
+the <title>" Card-Dealer "</title> which give it a distinct and eminent 
 place among these lesser poems. The sharpness of 
 symbol and solidity of incarnation with which the idea 
 is invested bring it so dose to us that the mere type itself 
@@ -3569,14 +3532,14 @@ fortune or passion or ambition, pleasure or feme or any
 desire of man's, we see her mistress of the game in that 
 world of shadows and echoes which is hers if ours. 
 
-
-
-DANTE GABRIEL ROSSETTL 89 
+<pb num="89"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">89</fw> 
 
 Without the date appended, we might have guessed that 
-the little cabinet poem called " My Sister's Sleep " was an 
+the little cabinet poem called <title>" My Sister's Sleep "</title> was an 
 early study. It has the freshness and clearness of first 
-youth, with something of the hardness of growing outlines ; the bodily form of verse has not yet learnt to melt ' 
+youth, with something of the hardness of growing outlines ; 
+the bodily form of verse has not yet learnt to melt ' 
 and flow by instinct into the right way ; yet with this 
 slight sharpness and crudity there is a grace of keen 
 sincerity and direct force which gives proof of no student's 
@@ -3588,14 +3551,15 @@ have an instant weight of pathos and clear accuracy of
 beauty, full of prophecy and promises. In the same 
 short-lived magazine into which the first flowerage of 
 many eminent men's work was cast with such liberal and 
-fiiiitful hands, there was another early poem of this their 
+fruitful hands, there was another early poem of this their 
 leader's and best man which he might as well have 
 gathered into his harvest ; a delicate and subtle study of 
 religious passion, with the colour and perfume in it of the 
 choral air of a cathedral, lit with latticed glories of saints, 
 and tremulous with low music of burning prayers ; the 
 mystery of sense and ardour Of soul in an hour made 
-drunken with the ^dne of worship were wrought into expression of bright and sensitive words, full of the fiery 
+drunken with the ^dne of worship were wrought into 
+expression of bright and sensitive words, full of the fiery 
 peace of prayer and sightless vision of faith. This little 
 sacred picture of the Father Hilary should have been 
 here reframed, if only for the fine touches of outer things 
@@ -3603,13 +3567,8 @@ passing by as a wind upon the fervent spirit in its dream.
 Besides, it has its place and significance among the 
 author's studies in the Christian style, near some of those 
 
-
-
-y 
-
-
-
-90 THE POEMS OF 
+<ob num="90"/>
+<fw type="pageNum">90</fw> <fw type="header">THE POEMS OF</fw>
 
 earlier works, so full of his special grace and spiritual 
 charm, which belong to the same period, if not beside the 
@@ -3624,43 +3583,45 @@ delightful to me is that on Giorgione's divine and trans-
 ^ cendant pastoral in the Louvre : which actually attains 
 to the transfusion of a spirit that seemed incommunicable 
 from one master's hand even to another's. In the verse 
-as on the canvass there is the breathless breath of overmuch delight, the passion of overrunning pleasure which 
+as on the canvass there is the breathless breath of 
+overmuch delight, the passion of overrunning pleasure which 
 quivers and aches on the very edge of heavenly tears — 
-"tears of perfect moan" for excess of unfathomable 
+<quote>"tears of perfect moan"</quote> for excess of unfathomable 
 pleasure and burden of inexpressible things only to be 
-borne by Gods in heaven ; the sweet and sovereign oppression of absolute beauty and the nakedness of burning 
+borne by Gods in heaven ; the sweet and sovereign 
+oppression of absolute beauty and the nakedness of burning 
 life ; the supreme pause of soul and sense at the climax 
 of their consummate noon and high tide of being; glad 
 and sad and sacred, unsearchable and natural and strange. 
 Of the sonnets on the writer's own pictures and designs 
-I think that on Pandora to be the most perfect and exalted, as the design is among his mistiest in its godlike 
+I think that on Pandora to be the most perfect and exalted, 
+as the design is among his mistiest in its godlike 
 terror and imperial trouble of beauty, shadowed by the 
 smoke and fiery vapour of winged and fleshless passions 
 crowding from the casket in spires of flame-lit and curling 
 cloud round her fatal face and mourning veil of hair. The 
 sonnets on Cassandra translate with apt and passionate 
 
-
-
-DANTE GABRIEL ROSSETTL 91 
+<pb num="91"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">91</fw> 
 
 choice of words the scheme of his greatest tragic design, 
 his fullest and most various in vital incident and high 
-truth of heroic life. The grand sonnet " on refusal of 
-aid between nations " shows yet a fresh side and a most 
+truth of heroic life. The grand sonnet <title>" on refusal of 
+aid between nations "</title> shows yet a fresh side and a most 
 noble aspect of his great and manifold genius ; its severe 
 emotion and grave loveliness of ardent anger set a mark 
-on it as of Dante's justice and judgment "Autumn 
-Idleness " is a splendid study of landscape, for breadth of 
+on it as of Dante's justice and judgment <title>"Autumn 
+Idleness "</title> is a splendid study of landscape, for breadth of 
 colour and solemn brightness of vision worthy to stand 
-by those great symbolic landscapes seen in the " House 
-of Life," such as "Barren Spring" and "The Hill 
-Summit ; " and in " Beauty and the Bird " we have a 
+by those great symbolic landscapes seen in the <title>" House 
+of Life,"</title> such as <title>"Barren Spring"</title> and <title>"The Hill 
+Summit ; "</title> and in <title>" Beauty and the Bird "</title> we have a 
 sample of the painter's gladdest colour and sweetest tone 
 of light His full command of that lyric sentiment and 
 power which give to mediaeval poetry its clear particular 
-charm is plain alike from the ending given to the " old 
-song " of Ophelia and from the marvellous versions of 
+charm is plain alike from the ending given to the <quote>" old 
+song "</quote> of Ophelia and from the marvellous versions of 
 Villon's and other French songs. The three sweetest of 
 that great poet's who was th? third singer of the Middle 
 Ages and first vocal tongue of the dumb painful people 
@@ -3668,7 +3629,7 @@ in its agony and mirth and shame and strength of heart,
 are here recast in English gold of equal weight The 
 very cadence of Villon's matcljless ballad of the ladies of 
 old time is caught and returned. The same exquisite 
-exactitude of translation is notable in " John of Tours " — 
+exactitude of translation is notable in <title>" John of Tours "</title> — 
 the old provincial song long passed from mouth to mouth 
 and at last^ preserved with all its breaks and lapses of 
 sweet rough metre by Gerard de Nerval His version of 
@@ -3676,13 +3637,8 @@ Dante's divinest episode, that of Francesca, I take to be
 the supreme triumph of translation possible ; fcr what, 
 after so many failures, — ^Byron's the dismallest £iilure of 
 
-
-
-■r I 
-
-
-
-92 THE POEMS OF 
+<pb num="92"/>
+<fw type="pageNum">92</fw> <fw type="header">THE POEMS OF</fw>
 
 all, and worst imaginable instance of perversion — could 
 be hoped of any new attempt ? But here the divine verse 
@@ -3702,12 +3658,13 @@ heaven itself, that dignity of divinity which informs the
 , most passionate and piteous notes of the unapproachable 
 poetess with such grandeur as would seem impossible to 
 such passion. Here is a delicious and living music, but 
-here is not — ^what can nowhere be — the echo of that imimaginable song, with its pauses and redoubled notes and 
+here is not — ^what can nowhere be — the echo of that 
+imimaginable song, with its pauses and redoubled notes and 
 returns and falls of sound, as of honey dropping firom 
 heaven — ^as of tears, and fire, and seed of life — ^which 
 though but run over and repeated in thought pervades 
-the spirit with " a sweet possessive pang." That apple 
-" atop on the topmost twig *' of the tree of life and song 
+the spirit with <quote>" a sweet possessive pang."</quote> That apple 
+<quote>" atop on the topmost twig "</quote> of the tree of life and song 
 remains unreachable by any second hand, untastable 
 by any later lip for ever ; never out of sigjit of men's 
 memory, never within grasp of man's desire ; the apple 
@@ -3715,19 +3672,18 @@ which not Paris but Apollo gave to her whose glory has
 outlived her goddess, and whose name has been set above 
 hers: — 
 
+<pb num="93"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">93</fw> 
 
-
-DANTE GABRIEL ROSSETTL 93 
-
-" La mile Sapho, Tamante et le poete, 
+<quote xml:lang="fr"> "La mile Sapho, Tamante et le poete, 
 Plus belle que V^nus par ses momes p&leurs, — 
-Plus belle que V^nus se dressant sur le monde ! " 
+Plus belle que V^nus se dressant sur le monde ! " </quote></p>
 
-Among the lesser poems of this volume "The Portrait" 
+<p>Among the lesser poems of this volume <title>"The Portrait"</title>
 holds a place of honour in right of its earnest beauty of 
 thought and rich simplicity of noble images. Above them 
 all in reach and scope of power stands the poem of 
-" Jenny ;" great among the few greatest works of the artist 
+<title>" Jenny ;"</title> great among the few greatest works of the artist 
 Its plain truth and masculine tenderness are invested with 
 a natural array of thought and imagination which doubles 
 their worth and force. Without a taint on it of anything 
@@ -3742,22 +3698,18 @@ beauty beyond reach of any rivalry. A divine pity fills
 it, or a pity something better than divine ; the more just 
 and deeper compassion of human fellowship and fleshly 
 brotherhood. Here is nothing of sickly fiction or 
-theatrical violence of tone. No spiritual station of command is assumed, no vantage-ground of outlook from 
+theatrical violence of tone. No spiritual station of 
+command is assumed, no vantage-ground of outlook from 
 hills of holiness or heights of moral indifference or 
 barriers of hard contempt; no unction of facile tears is 
 poured out upon this fallen golden head of a common 
 woman ; no loose-tongued effusion of slippery sympathy, 
 to wash out shame with sentiment And therefore is 
-" the pity of it " a noble pity, and worth the paying ; a 
+<quote>" the pity of it "</quote> a noble pity, and worth the paying ; a 
 genuine sin-offering for intercession, pleading with fate 
 
-
-
-r 
-
-
-
-94 THE POEMS OF 
+<pb num="94"/>
+<fw type="pageNum">94</fw> <fw type="header">THE POEMS OF</fw>
 
 for mercy without thought or purpose of pleading. The 
 man whose thought is thus gloriously done into words is 
@@ -3765,7 +3717,8 @@ as other men are, only with a better brain and heart than
 the common, with more of mind and compassion, with 
 better eye to see and quicker pulse to beat, with a more 
 generous intellect and a finer taste of things; and his 
-chance companion of a night is no ruined angel or selfinamolated sacrifice, but a girl who plies her trade like 
+chance companion of a night is no ruined angel or 
+selfinamolated sacrifice, but a girl who plies her trade like 
 any other trade, without show or sense of reluctance or 
 repulsion ; there is no hint that she was first made to fit 
 better into a smoother groove of life, to run more easily 
@@ -3774,27 +3727,27 @@ or retrospect rebukes or recalls her fancy into any fairer
 field than she may reach by her present road. All the 
 open soiurces of pathetic effusion to which a common 
 shepherd of souls would have led the flock of his readers 
-to drink and weep and be refreshed, and leave the medicinal wellspring of sentiment warmer and fuller from 
+to drink and weep and be refreshed, and leave the medicinal 
+wellspring of sentiment warmer and fuller from 
 their easy tears, are here dried up. This poor hireling of 
 the streets and casinos is professionally pitiable; the 
 world's contempt of her fellow tradeswomen is not in 
 itself groundless or unrighteous ; there is no need to raise 
 any mirage about her as of a fallen star, a glorious wreck ; 
-but not in that bitterest cry of Othello's own agony — " a 
-suflferance panging as soul and body's severing" — was 
+but not in that bitterest cry of Othello's own agony — <quote>" a 
+suflferance panging as soul and body's severing"</quote> — was 
 there a more divine heat of burning compassion than the 
 high heart of a man may naturally lavish, as in this poem, 
 upon such an one as she is. lago indeed could not 
 share it, nor Roderigo ; the naked understanding cannot 
 feel this, nor the mere fool of flesh apprehend it ; . but 
 only in one or the other of these can all sense be dead of 
-*' the pity of it" 
+<quote>" the pity of it." </quote></p>
 
+<pb num="95"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">95</fw> 
 
-
-DANTE GABRIEL ROSSETTL 95 
-
-Every touch of real detail and minute colour in the 
+<p>Every touch of real detail and minute colour in the 
 study serves to heighten and complete the finished picture 
 which remams burnt in upon the eyes of our memory 
 when the work is done. The clock ticking, the bird 
@@ -3808,7 +3761,7 @@ of handiwork and simple sovereignty of manner which
 make it so triumphant a witness of what English speech 
 can do, this one excerpt may stand in evidence : — 
 
-" Except when'there may rise unsought 
+<quote>" Except when'there may rise unsought 
 Haply at times a passii^ thought 
 Of the old days which seem to be 
 Much older than any history 
@@ -3819,22 +3772,21 @@ And wonder where the city was,
 Far out of sight, whose broil and bale 
 They told her then for a child's tale. 
 
-** Jenny, you know the city now. 
+" Jenny, you know the city now. 
 A child can tell the tale there, how 
 Some things, which are not yet enrolled 
 In market -lists, are bought and sold 
 Even till the early Sunday light. 
 When Saturday night is market -night 
 Everywhere, be it dry or wet. 
-And market-night in the Haymarket." 
+And market-night in the Haymarket."</quote></p>
 
-The simple sudden soimd of that plain line is as great 
+<p>The simple sudden soimd of that plain line is as great 
 and rare a thing in the way of verse, as final and superb 
 a proof of absolute poetic power upon words, as any 
 
-
-
-96 THE POEMS OF 
+<pb num="96"/>
+<fw type="pageNum">96</fw> <fw type="header">THE POEMS OF</fw>
 
 man's work can show. As an imaginarive instance of 
 positive and perfect nature, the whole train of thought 
@@ -3855,10 +3807,11 @@ aloof, immortal, immovable, outside of death in the dark
 of things everlasting ; self-secluded in absorption of its 
 own desire, and walled up from love or light as a toad 
 in its stone wrapping ; and last, with the grey penetration 
-of London dawn, the awakening of mind into live daylight of work, and farewell taken of the night and its 
-follies, not without pity or thought of them. 
+of London dawn, the awakening of mind into live daylight 
+of work, and farewell taken of the night and its 
+follies, not without pity or thought of them.</p>
 
-The whole work is worthy to fill its place for ever as 
+<p>The whole work is worthy to fill its place for ever as 
 one of the most perfect and memorable poems of an age 
 or generation. It deals with deep and common things ; 
 with the present hoiu:, and with all time ; with that which 
@@ -3868,9 +3821,8 @@ matter of the day, and with the inner and immutable
 ground of human nature. Its plainness of speech and 
 subject gives it power to touch the heights and sound the 
 
-
-
-DANTE GABRIEL ROSSETTL 97 
+<pb num="97"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">97</fw> 
 
 dq)ths of tragic thought without losing the force of its 
 hold and grasp upon the palpable truths which men often 
@@ -3889,23 +3841,25 @@ life-blood of an equal interest into Hebrew forms or
 Greek, mediaeval or modem, yesterday or yesterage. 
 Thus there is here just the same life-blood and breath of 
 poetic interest in this episode of a London street and 
-lodging as in the song of " Troy Town " and the song of 
-"Eden Bower; " just as much, and no jot more. These 
+lodging as in the song of <title>" Troy Town "</title> and the song of 
+<title>"Eden Bower; "</title> just as much, and no jot more. These 
 two songs are the masterpieces of Mr. Rossetti's magni- - 
-ficent lyric faculty. Full of fire and music smd movement, delicate as moonlight and passionate as sunlight, 
+ficent lyric faculty. Full of fire and music smd movement, 
+delicate as moonlight and passionate as sunlight, 
 fresh as dawn and fine as air, sonorous as the motion of 
 deep waters, the infallible verse bears up the spirit safe 
 and joyous on its wide clearway. There is- a strength 
-and breadth of style about these poems also which ennobles their sweetness and brightness, giving them a perfume that savours of no hotbed, but of hill-flowers that 
+and breadth of style about these poems also which ennobles 
+their sweetness and brightness, giving them a perfume that 
+savours of no hotbed, but of hill-flowers that 
 face the sea and the sunrise \ a colour that grows in no 
 greenhouse, but such as comes with morning upon the 
 mountains. They are good certainly, but they are also 
 
-H 
+H <!-- Mystery character. -->
 
-
-
-98 THE POEMS OF 
+<ob num="98"/>
+<fw type="pageNum">98</fw> <fw type="header">THE POEMS OF</fw>
 
 great; great as no other man's work of the same age and 
 country. Out of the beautiful old tradition of Helen, 
@@ -3915,7 +3869,8 @@ carved a graven image of song as tangible and lovely as
 the oblation itself; and this cup he has filled with the 
 wine of love and fire of destmction, so that in the Spartan 
 . temple we feel a forecast of light and heat fix)m the fiiture 
-' Trojan flame. These two poems have the fiery concentration and condensation of the ballad ; but they have a 
+' Trojan flame. These two poems have the fiery 
+concentration and condensation of the ballad ; but they have a 
 higher rapture of imagination, a more ardent affluence of 
 coloiu: and strenuous dilation of spirit, than a ballad can 
 properly contain ; their wings of words beat and bum at 
@@ -3938,61 +3893,59 @@ wrath and brilliance of blood and fragrance of breath in
 it, that we feel face to fiice the very vision of the old tale, 
 and no symbol or shadow, but a bodily shape and a 
 
-
-
-sa^ 
-
-
-
-DANTE GABRIEL ROSSETTL 99 
+<pb num="99"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">99</fw> 
 
 fleshly charm, dominant in ear and eye. The tragic 
 might of the myth, its fierce and keen significance, strikes 
 through us sharpest at the end, as with the supreme 
 sting of triumph and final fang of the transfigured 
-serpent 
+serpent.</p>
 
-Had I time and room and skill, to whom all these 
+<p>Had I time and room and skill, to whom all these 
 are wanting, I would here at length try to say some 
 passing word illustrative of the more obvious and the 
 more intimate relations of this artist's work in verse and 
-his work in painting ; between the poem of " Jenny " 
-and the design called " Found," where at early dawn the 
+his work in painting ; between the poem of <title>" Jenny "</title> 
+and the design called <title>" Found,"</title> where at early dawn the 
 driver of a country cart finds crouching in London streets 
 the figure of a girl once his betrothed, and stoops to lift 
 with tender strength of love, and surprise of simple pity 
 startled into fi-eshness of pain, the shuddering abased 
 head with the golden ruin of its rich soiled hair, which 
 cowers against a graveyard wall away from the light that 
-rises beyond the paling lamps on bridge and river ; between the song of "Troy Town" and the picture of 
+rises beyond the paling lamps on bridge and river ; 
+between the song of <title>"Troy Town"</title> and the picture of 
 Helen, with Parian lace and mouth of ardent blossom, a 
-keen red flower-bud of fire, fiiamed in broad gold of widespread locks, the sweet sharp smile of power set fast on 
+keen red flower-bud of fire, fiiamed in broad gold of 
+widespread locks, the sweet sharp smile of power set fast on 
 her clear curved lips, and far behind her the dull flame of 
 burning towers and light fi*om reddened heaven on dark 
 sails of lurid ships ; between the early sacred poems and 
 the early sacred designs of the author's Christian era, as 
-for instance the " Ave " and the " Girlhood of the Virgin," 
+for instance the <title>" Ave "</title> and the <title>" Girlhood of the Virgin,"</title> 
 with its young grace and sincere splendour of spirit, the 
-" Staff and Scrip " and the design of " Fra Pace," the 
-•* Blessed Damozel " and the " Dream of Dante," all 
+<title>" Staff and Scrip "</title> and the design of <title>" Fra Pace,"</title> the <!-- xml:lang -->
+<title>" Blessed Damozel "</title> and the <title>" Dream of Dante,"</title> all 
 clothed in colours of heaven, with raiment dyed and 
 
-H 2 
+H2 <!-- Myster character. --> 
 
-
-
-loo THE POEMS OF 
+<pb num="100"/>
+<fw type="pageNum">100</fw> <fw type="header">THE POEMS OF</fw>
 
 spun in the paradise of trust and thought ; between the 
 romantic poems and the romantic designs, as for example 
-"Sister Helen" and the "Tune of 'Seven Towers/" 
+<title>"Sister Helen"</title> and the <title>"Tune of 'Seven Towers/"</title> 
 which have the same tone and tj'pe of tragic romance in 
 their mediaeval touches and notes of passionate fancy ; 
 between the poems of richer thought and the designs of 
-riper form, works of larger insight and more strong decision, fruits of the mind at its fullest and the hand at its 
-mightiest, as the "Burden of Nineveh" and the "Sybil" 
-or "Pandora." The passage from a heaven of mere 
-angels and virgins to the stronger vision of Venus Verticordia, of Helen cAcVroXir, of Lilith and Cassandra, is a 
+riper form, works of larger insight and more strong decision, 
+fruits of the mind at its fullest and the hand at its 
+mightiest, as the <title>"Burden of Nineveh"</title> and the <title>"Sybil"</title> 
+or <title>"Pandora."</title> The passage from a heaven of mere 
+angels and virgins to the stronger vision of Venus Verticordia, 
+of Helen cAcVroXir, <!-- Greek --> of Lilith and Cassandra, is a 
 type of the growth of mind and hand to the perfect pow^r 
 of mastery over the truth and depth of nature, the large 
 laws of spirit and body, the mysteries and the majesties 
@@ -4005,27 +3958,28 @@ above earth is but a little part of a great world, as every
 fancy of man's faith is a segment bf the truth of his nature, 
 a splintered fragment of imiversal life and spuit of thought 
 everlasting ; since what can he conceive or believe but 
-it must have this of truth in it, that it is a veritable product of his own brain and outcome for the time of his 
+it must have this of truth in it, that it is a veritable 
+product of his own brain and outcome for the time of his 
 actual being, with a place and a reason of its own for 
 root and support to it through its due periods of life and 
 change and death ? But to trace the passage from light 
 into light and strength into strength, the march firom work 
 on to work and triumph on to triumph, of a genius so full 
 
+<pb num="101"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">101</fw>
 
-
-DANTE GABRIEL ROSSETTL loi 
-
-of life and growth and harmonious exuberance of expansion, so loyal to rule of instinct and that natural order of 
+of life and growth and harmonious exuberance of expansion, 
+so loyal to rule of instinct and that natural order of 
 art and thought whose service is perfect freedom ; to lay 
 out a chart of its progress and mark down the lines of 
 its advance ; this, high as the office would be and worthy 
 die ambition, is not a possible task for criticism ; though 
 what manner of rank a man may hold and what manner 
 of work he may have to do in that rank, it is the business 
-of criticism to see and say. 
+of criticism to see and say.</p>
 
-In every age there is some question raised as to its 
+<p>In every age there is some question raised as to its 
 wants and powers, its strength and weakness, its great or 
 small worth and work ; and in every age that question is 
 waste of time and speech — of thought usually there is no 
@@ -4039,7 +3993,7 @@ own time nothing but dwarfishness and emasculation.
 That the world has ever seen spirits of another sort, the 
 poor heart of such creatures would fain deny and dares 
 not ; but to allow that the world does now is insufferable ; 
-at least they can "swagger themselves out of their own eyes " 
+at least they can <quote>"swagger themselves out of their own eyes "</quote>
 into the fond belief that they are but samples of their 
 puny time, overtopped in spiritual stature by the spirits 
 of times past alone. But not by blustering denial or 
@@ -4048,9 +4002,8 @@ be decided whether the age be great or not Each century
 has seemed to some of its children an epoch of decadence 
 and decline in national life and spiritual, in moral or 
 
-
-
-I02 THE POEMS OF 
+<pb num="102"/>
+<fw type="pageNum">102</fw> <fw type="header">THE POEMS OF</fw>
 
 material glory \ each alike has heard the cry of degeneracy 
 raised against it, the wail of emulous impotence set up 
@@ -4061,14 +4014,18 @@ there as here no great man was to be seen, no great
 work was to be done, no great cry was to be heard, no 
 great impulse was to be felt, by those who could feel 
 nothing, hear nothing, do nothing, and see nothing. To 
-them the poor present has always been pitiable or danmable, the past which bore it divine. And other men than 
-these have swelled the common cry of curs : BjTon, himself in his better moments a witness against his own 
+them the poor present has always been pitiable or danmable, 
+the past which bore it divine. And other men than 
+these have swelled the common cry of curs : BjTon, 
+himself in his better moments a witness against his own 
 words^ helped the fools of his hour to decry their betters 
 and his own, by a pretence of wailing over the Augustan 
-age of Anne, when " it was all Horace with us ; it is all 
-Claudian now." His now has become our then^ and the 
-same whine is raised in its honour ; for the cant of irritation and insincerity, hungry vanity and starving spite, can 
-always be caught up and inherited by those who can inherit nothing of a strong man's but his weakness, of a 
+age of Anne, when <quote>" it was all Horace with us ; it is all 
+Claudian now."</quote> His now <!-- Italicized --> has become our then <!-- Italicized --> and the 
+same whine is raised in its honour ; for the cant of 
+irritation and insincerity, hungry vanity and starving spite, can 
+always be caught up and inherited by those who can inherit 
+nothing of a strong man's but his weakness, of a 
 wise man's but his folly 3 who can gather at a great man's 
 board no sustenance from the meats and wines, but are 
 proud to pilfer the soiled napkins and cracked platters 
@@ -4080,13 +4037,8 @@ worth heeding on any age and give sentence that shaU
 last on any generation, a man must himself be great ; and 
 if no man on earth be great in our day, who on earth can 
 
-
-
-m ^^^™b^ 
-
-
-
-DANTE GABRIEL ROSSETTL 103 
+<pb num="103"/>
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw> <fw type="pageNum">103</fw> 
 
 be great enough to know and let us know it on better 
 authority than a pigmy's ? Such champions as please may 
@@ -4096,7 +4048,7 @@ to assume, and am not careful to dispute in defence of
 the assumption, that the qu^ities which make men great 
 and the work of men famous are now what they were, and 
 will be what they are : that there is no progress and no 
-degeneracy traceable from -^schylus to Shakespeare, from 
+degeneracy traceable from -^schylus <!-- Special character --> to Shakespeare, from 
 Athenian sculptors to Venetian painters ; that the gifts of 
 genius are diverse, but the quality is one \ and — though 
 this be a paradox — that this quality does not wait till a 
@@ -4108,19 +4060,22 @@ extinction. If this paradox be not utterly untenable, it
 follows that dead men of genius had genius even when 
 yet alive, and did not begin to be great men by ceasing 
 to be men at all ; and that so far we have no cause to 
-distrust the evidence of reason which proves us the greatness of men past when it proves to us by the same process of testimony the greatness of men present 
+distrust the evidence of reason which proves us the 
+greatness of men past when it proves to us by the same
+ process of testimony the greatness of men present.</p>
 
-Here for example in the work of Mr. Rossetti, 
-besides that particular colour and flavour which distinguishes each master's work from that of all other masters, 
+<p>Here for example in the work of Mr. Rossetti, 
+besides that particular colour and flavour which distinguishes 
+each master's work from that of all other masters, 
 and by want of which you may tell merely good work 
 from wholly great work, the general qualities of all great 
 poetry are separately visible and divisible ; strength, 
 sweetness, affluence, simplicity, depth, light, harmony, ^ 
 variety, bodily grace and range of mind and force of soul 
 
-
-
-I04 THE POEMS OF 
+<pb num="104"/>
+<fw type="pageNum">104</fw> <fw type="header">THE POEMS OF</fw>
+<!-- START HERE -->
 
 \ and ease of flight, the scope and sweep of wing to impel 
 the might and weight of thought through the air and light 
@@ -4159,7 +4114,7 @@ T
 
 
 
-DANTE GABRIEL ROSSETTI. 105 
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw>105 
 
 each line of labour which his spirit may strike into he will 
 make his mark, and set his stamp on any metal he may 
@@ -4194,7 +4149,7 @@ him on either hand and taintless of jealousy or misconceit
 
 
 
-loiS THE POEMS OF 
+loiS <fw type="header">THE POEMS OF</fw>
 
 could say ivith authority worth a hearing ; and such a 
 judge he is not likely to find. But wliat is his relative 
@@ -4227,7 +4182,7 @@ lution; that since the songs of Gretchen in "Faust"
 
 
 
-DANTE GABRIEL ROSSETTL 107 
+<fw type="header">DANTE GABRIEL ROSSETTI.</fw>107 
 
 and Beatrice in the " Cenci," there have been no such 
 songs heard among men as the least of these first four 
@@ -4261,7 +4216,7 @@ that smooth speed of gracious strength which touched its
 
 
 
-io8 THE POEMS OF 
+io8 <fw type="header">THE POEMS OF</fw>
 
 Grecian goal in ** Thyrsis " and the " Harp-player ; " none 
 can light as with fires or lull as with flutes of magic the 
@@ -4312,7 +4267,7 @@ that ever may be bom shall have power upon thest
 ever. 
 
 187a 
-
+</div>
 
 
 no 
