@@ -32,6 +32,20 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <textDesc>
+            <!-- <taxonomy>
+                <category xml:id="#uncut">
+                    <catDesc>An item which has the word uncut listed in its description,
+                    even if the cutting is listed as partial.</catDesc>
+                </category>
+                <category xml:id="#presentation">
+                    <catDesc>Any presentation copy.</catDesc>
+                </category>
+                <cateogry xml:id="etc">
+                    <catDesc></catDesc>
+                </category>
+            </taxonomy> -->
+        </textDesc>
     </teiHeader>
     <text>
         <body>
@@ -42,11 +56,17 @@
         <listBibl type="lot" xml:id="sb001">
             <biblStruct xml:id="sb001.1">
                 <monogr>
-                    <title xml:lang="it">La Filosofia nella Letteratura Moderna</title> <!-- use lang --><!-- Title level? -->
+                    <title xml:lang="it">La Filosofia nella Letteratura Moderna</title> <!-- Title level? -->
                     <author>Agresti, A.</author>
-                    <note type="description">uncut, presentation copy to Swinburne with inscription on fly-leaf</note>
-                    <note type="inscription">To Algernon Charles Swinburne, with reverence from one of the land 
-                    highly glorified by the Poet in his verses, A. Agresti, London, <date when="1904-10">October, 1904</date></note>
+                    <respStmt> <!-- Trying this out. -->
+                        <resp>transcriber</resp>
+                        <persName>A. Agresti</persName>
+                        <note type="inscription">To Algernon Charles Swinburne, with reverence from one of the land 
+                        highly glorified by the Poet in his verses</note> 
+                        <note type="place">London</note>
+                        <note type="date"><date when="1904-10">October, 1904</date></note>
+                    </respStmt>
+                    <note type="description" xml:id="#uncut" xml:id="#presentation">uncut, presentation copy to Swinburne with inscription on fly-leaf</note>    
                     <imprint>
                         <pubPlace>Torino</pubPlace>
                         <date when="1904"/>
@@ -57,47 +77,48 @@
         <listBibl type="lot" xml:id="sb002">
             <biblStruct xml:id="sb002.1">
                 <monogr>
-                    <title level="m" type="main">Giovanni Costa</title> <!-- Main and subtitles? -->
+                    <title type="main">Giovanni Costa</title>
                     <title type="sub">his Life, Work and Times</title>
                     <author>Agresti, O. Rossetti</author>
-                    <note type="description">portrait and etchings, buckram, 
-                    uncut, t.e.g. roy. 8vo</note> <!-- Added biblScope below. -->
+                    <note type="description" xml:id="#uncut">portrait and etchings, buckram, 
+                    uncut, t.e.g. roy.</note>
                     <imprint>
                         <date when="1904"/>
                     </imprint>
-                    <biblScope unit="volume" from="1" to="8"/>
                 </monogr>
             </biblStruct>
             <biblStruct xml:id="sb002.2">
                 <monogr>
-                    <title>Rossetti Papers</title>
+                    <title>Rossetti Papers, 1862 to 1870</title>
                     <author>Rossetti, Wm.</author>
-                    <note type="descripton">uncut</note>
+                    <note type="descripton" desc="#uncut">uncut</note>
                     <imprint>
                         <date when="1903"/>
                     </imprint>
-                    <biblScope  unit="part" from="1862" to="1870"/> <!-- Put back in title? -->
                 </monogr>
             </biblStruct>
             <biblStruct xml:id="sb002.3">
                 <monogr>
-                    <title type="main">Time Flies</title> <!-- Main and subtitles? -->
-                    <title type="sub">a Reading Diary</title>
+                    <title>Time Flies, a Reading Diary</title>
                     <author>Rossetti, Christina G.</author>
+                    <note type="etc"><num value="5"/></note>
                     <imprint>
                         <date when="1885"/>
                     </imprint>
                 </monogr>
-                <relatedItem>etc.</relatedItem> <!-- Place for the "etc" -->
             </biblStruct>
         </listBibl>
         <listBibl type="lot" xml:id="sb003">
             <biblStruct xml:id="sb003.1">
                 <monogr>
-                    <title>Escarlamonde, and other Poems</title>
+                    <title><foreign xml:lang="fr">Escarlamonde</foreign>, and other Poems</title>
                     <author>Ainslie, Douglas</author>
-                    <note type="description">presentation copy with inscription</note>
-                    <note type="inscription">A.C. Swinburne, Esq. a tribute of admiration from the Author</note>
+                    <note type="description" xml:id="#presentation">presentation copy with inscription</note>
+                    <respStmt>
+                        <resp>transcriber</resp>
+                        <persName>Ainslie, Douglas</persName>
+                        <note type="inscription">A.C. Swinburne, Esq. a tribute of admiration from the Author</note>
+                    </respStmt>
                     <imprint>
                         <date when="1893"/>
                     </imprint>
@@ -106,8 +127,9 @@
             <biblStruct xml:id="sb003.2">
                 <monogr>
                     <title>Odes and Eclogues</title>
-                    <author>Dixon, R.W.</author>
-                    <note type="description">one of 100 copies, uncut</note>
+                    <author>Dixon, R. W.</author>
+                    <note type="description" xml:id="#uncut">one of 100 copies, uncut</note>
+                    <note type="description etc">presentation copies to Swinburne with inscriptions<num value="6"/></note>
                     <imprint>
                         <pubPlace>Oxford</pubPlace>
                         <publisher>Herny Daniel</publisher>
@@ -145,22 +167,36 @@
                 <monogr> 
                     <title>Senile Odium, Comœdia</title> <!-- Special character; other lanuage also? -->
                     <author>Hausted,P.</author>
-                    <note type="description">cantab.</note> <!--may refer to Cantabrigian (from Cambridge). Put in pubPlace instead? -->       
+                    <note type="description">Cantab.</note> <!--may refer to Cantabrigian (from Cambridge). Put in pubPlace instead? -->       
+                    <note type="description">in 1 vol, frontispiece, russia, g.e. <date from="1632" to="1633"/></note> <!-- Unsure what the date and vol are reffering to. -->
                     <edition>First Edition</edition>
                     <imprint>
-                        <date when="1633"/>
+                        <date when="1632"/>
                     </imprint>
-                </monogr>   
+                    <biblScope unit="volume">1</biblScope>
+                </monogr>
             </biblStruct>
+            <biblStruct xml:id="sb005.3">
+                <monogr>
+                    <author>Alabaster</author>
+                    <note type="description">another copy, vellum</note>
+                    <note type="etc"><num value="2"></note>
+                    <imprint>
+                        <date when="1632"/>
+                    </imprint>
+                </monogr>
+            </biblStruct>           
         </listBibl>
         <listBibl type="lot" xml:id="sb006">
             <biblStruct xml:id="sb006.1">
                 <monogr>
-                    <title>Tragedie</title>
+                    <title xml:lang="it">Tragedie</title>
                     <author>Alfieri, V.</author>
                     <note type="description">vellum</note>
+                    <note xml:lang="it">riveduta dall'autore e accresciuta</note>
+                    <edition xml:lang="it">seconda edizione</edition>
                     <imprint>
-                        <pubPlace>Parigi</pubPlace> <!--use LCNA -->
+                        <pubPlace xml:lang="it">Parigi</pubPlace> <!--use LCNA (Library of Congress Name Authorities?) -->
                         <date from="1788" to="1789"/>
                     </imprint>
                     <biblScope unit="volume" from="1" to="6"/>
@@ -170,9 +206,9 @@
         <listBibl type="lot" xml:id="sb007">
             <biblStruct xml:id="sb007.1">
                 <monogr> 
-                    <title>England's Parnassus; <title type="alt">or the Choycest Flowers of our Moderne Poets with their poeticall comparisons</title></title>
+                    <title>England's Parnassus; <title type="alt">or the Choycest Flowers of our Moderne Poets with their poeticall comparisons</title></title> <!-- Probably okay. Need to check. I'm inclined to leave it because of the semicolon. -->
                     <author>Allot, Robert</author>
-                    <note type="description">old calf, broken, some leaves cut into</note>
+                    <note type="description" xml:id="#uncut">old calf, broken, some leaves cut into</note> 
                     <imprint>
                         <date when="1600"/>
                     </imprint>
@@ -182,13 +218,12 @@
         <listBibl type="lot" xml:id="sb008">
             <biblStruct xml:id="sb008.1">
                 <monogr>
-                    <title>Latin-English Lexicon</title> <!-- autograph letter of M.H. Speilmann to A.C. Swinburne inserted -->
+                    <title>Latin-English Lexicon</title>
                     <author>Andrews, E.A.</author>
                     <note type="description">autograph letter of M.H. Spielmann to A.C. Swinburne inserted, imp. 8vo</note>
                     <imprint>
                         <date when="1867"/>
                     </imprint>
-                    <biblScope unit="volume" from="1" to="8"/>
                 </monogr>           
             </biblStruct>
             <biblStruct xml:id="sb008.2">
@@ -196,37 +231,36 @@
                     <title>Tragedies of Maddalen Agammemnon, Lady Macbeth, Antonia and Clytemnestra</title>
                     <author>Galt, J.</author>
                     <edition>First Edition</edition>
-                    <note type="description">frontispiece, uncut, imp. 8vo</note>
+                    <note type="description" xml:id="#uncut">frontispiece, uncut, imp. 8vo</note>
+                    <note type="etc"><num value="3"/></note>
                     <imprint>
                         <date when="1812"/>
                     </imprint>
-                    <biblScope unit="volume" from="1" to="8"/>
                 </monogr>
             </biblStruct>
         </listBibl>
         <listBibl type="lot" xml:id="sb009">
             <biblStruct xml:id="sb009.1">
                 <monogr>
-                    <title>Memoirs read before the Society, Vol. I-III</title> <!-- 3 volume set -->
+                    <title>Memoirs read before the Society, vol. I-III</title>
                     <author>Anthropological Society of London</author> <!-- Author good enough? -->
                     <note type="description">illustrations</note>
                     <imprint>
                         <date from="1865" to="1870"/>
                     </imprint>
+                    <biblScope unit="volume" from="1" to="3"/>
                 </monogr>
-                <series>
-                    <biblScope unit="volume" from="I" to="III"/> <!-- Used series b/c written "Vol. I-III, 3 vol" -->
-                </series>
             </biblStruct>
             <biblStruct xml:id="sb009.2">
                 <monogr>
-                    <title>Anthropological Treatises, with his Life</title> <!--add translation info? -->
+                    <title>Anthropological Treatises, with his Life</title>
                     <author>Blumenbach, J.F</author>
-                    <respStmt> <!-- Best way to handle translator? -->
+                    <respStmt>
                         <resp>Translated by</resp>
-                        <name>T. Bendyshe</name>
+                        <persName>T. Bendyshe</persName>
                     </respStmt> 
                     <note type="description">plates</note>
+                    <note type="etc"><num value="5"/></note>
                     <imprint>
                         <date when="1865"/>
                     </imprint>
@@ -236,13 +270,13 @@
         <listBibl type="lot" xml:id="sb010">
             <biblStruct xml:id="sb010.1">
                 <monogr>
-                    <title>The Golden Ass</title>
+                    <title>The Golden Ass, translated with Introduction and Notes by F.D. Byrne</title>
                     <author>Apuleius</author>
                     <respStmt>                       
                         <resp>Translated by</resp>
                         <name>F.D. Byrne</name>
                     </respStmt>
-                    <note type="description">illustrations, half vellum, uncut</note>
+                    <note type="description" xml:id="#uncut">illustrations, half vellum, uncut</note>
                     <imprint>
                         <date>n.d.</date>
                     </imprint>
@@ -250,13 +284,13 @@
             </biblStruct>
             <biblStruct xml:id="sb010.2">
                 <monogr>
-                    <title>Satyricon</title> <!-- If the work was translated, does this need a lang? -->
-                    <author>Petronius</author>
-                    <respStmt>                       
+                    <title xml:lang="la">Satyricon</title>
+                    <author xml:lang="la">Petronius</author>
+                    <respStmt>                  
                         <resp>Translated by</resp>
-                        <name>Nilson</name>           
+                        <name>Nilson</name>         
                     </respStmt>
-                    <note type="description">frontispiece, uncut</note>
+                    <note type="description" xml:id="#uncut">frontispiece, uncut</note>
                     <imprint>
                         <date when="1899"/>
                     </imprint>
@@ -264,8 +298,9 @@
             </biblStruct>
             <biblStruct xml:id="sb010.3">
                 <monogr>
-                    <title>Euripedes, with English Commentary</title>
+                    <title><foreign xml:id="el">Euripedes</forgein>, with English Commentary</title>
                     <author>Paley, F.A.</author>
+                    <note type="etc"><num value="12"/></note>
                     <imprint>
                         <date when="1857"/>
                     </imprint>
@@ -276,8 +311,8 @@
         <listBibl type="lot" xml:id="sb011">
             <biblStruct xml:id="sb011.1"> 
                 <monogr>
-                    <title>Book of the Thousand Nights and a Night, with the Supplemental Nights</title>
-                    <author>unk</author>
+                    <title>Arabian Nights</title>
+                    <title type="alt">Book of the Thousand Nights and a Night, with the Supplemental Nights</title>
                     <respStmt>
                         <resp>translated by</resp>
                         <name>Richard F. Burton</name>
@@ -288,7 +323,7 @@
                         <publisher>Kamashastra Society</publisher>
                         <date when="1885"/>
                     </imprint>
-                    <extent>16 vol.</extent> <!-- Above says "8vo." So num 8 of 16 volumes? -->
+                    <biblScope unit="volume" from="1" to="16"/>
                 </monogr>
             </biblStruct>
         </listBibl>
@@ -297,7 +332,7 @@
                 <monogr>
                     <title>An English Garner, vol. VIII</title>
                     <author>Arber, E.</author>
-                    <note type="description">presentation copy with autograph inscription</note>
+                    <note type="description" xml:id="#presentation">presentation copy with autograph inscription</note>
                     <imprint>
                         <date when="1896"/>
                     </imprint>
@@ -307,7 +342,8 @@
                 <monogr>
                     <title>Hannibal, a Drama</title> <!-- Genre of books matter? -->
                     <author>Clark, John</author>
-                    <note type="descripton">presentation copy from the author to Swinburne</note>
+                    <note type="descripton" xml:id="#presentation">presentation copy from the author to Swinburne</note>
+                    <note type="etc"><num value="5"/></note>
                     <imprint>
                         <date when="1908"/>
                     </imprint>
@@ -320,6 +356,7 @@
                     <title>The lamentable and true Tragedie of M. Arden of Feversham in Kent, with Preface</title>
                     <author>Shakespeare, William</author> <!-- no author listed in catalog, but now attributed to Shakespeare -->
                     <note type="description">calf</note>
+                    <note type="etc">etc.</note>
                     <imprint>
                         <date when="1720"/>
                     </imprint>
@@ -333,7 +370,8 @@
                         <resp>Translated by</resp>
                         <name>G. Carbonnel</name>
                     </respStmt>
-                    <note type="description">portrait, presentation copy to Swinburne with inscription</note>
+                    <note type="description" xml:id="#presentation">portrait, presentation copy to Swinburne with inscription</note>
+                    <note type="etc"><num value="10"/></note>
                     <imprint>
                         <date when="1857"/>
                     </imprint>
@@ -347,7 +385,7 @@
                     <author>Aretino, Pietro</author>
                     <note type="description">vellum</note>
                     <imprint>
-                        <pubPlace>Paris</pubPlace> <!-- Add country? -->
+                        <pubPlace xml:lang="it">Parigi</pubPlace>
                         <date when="1609"/>
                     </imprint>
                     <biblScope unit="volume" from="1" to="3"/>
@@ -360,7 +398,7 @@
                     <author>Ariosto, Lodovico</author>
                     <note type="description">portrait on title, old red levant morocco, inside gilt borders, g.e.</note>
                     <imprint>
-                        <pubPlace>Venice</pubPlace> <!-- Country? -->
+                        <pubPlace xml:lang="it">Vinegia</pubPlace>
                         <publisher>Delande Pere</publisher>
                         <date when="1535"/>   
                     </imprint>             
@@ -374,7 +412,7 @@
                     <author>Ariosto, Lodovico</author>
                     <note type="description">woodcut portrait on title and woodcuts at end, old red morocco, gilt borders, inside gilt borders, g.e.</note>
                     <imprint>
-                        <pubPlace>Venice</pubPlace> <!-- Country? -->
+                        <pubPlace xml:lang="it">Vinegia</pubPlace>
                         <publisher>F. Bindoni and M. Pasini</publisher>
                         <date when="1537"/>
                     </imprint>
@@ -388,10 +426,10 @@
                     <author>Ariosto, Lodovico.</author>
                     <note type="description">portrait, half vellum</note>
                     <imprint>
-                        <pubPlace>Florence</pubPlace> <!--use getty place names -->
+                        <pubPlace xml:lang="it">Firenze</pubPlace> <!--use getty place names -->
                         <date>1823</date>
                     </imprint>
-                    <extent>8 vol. in 4</extent> <!-- Not sure about this one. -->
+                    <biblScope unit="volume" from="1" to="8"/>
                 </monogr>
             </biblStruct>
         </listBibl>
@@ -400,7 +438,6 @@
                 <monogr>
                     <title>Poetical Works</title>
                     <author>Armstrong, E.J.</author>
-                    <note type="description">portrait, presentation copy to Swinburne with autograph inscription</note>
                     <imprint>
                         <date when="1877"/>
                     </imprint>
@@ -410,7 +447,6 @@
                 <monogr>
                     <title>Essays and Sketches</title>
                     <author>Armstrong, E.J.</author> <!--use LC names -->
-                    <note type="description">presentation copy to Swinburne with autograph inscription</note>
                     <imprint>
                         <date when="1877"/>
                     </imprint>
@@ -420,7 +456,6 @@
                 <monogr>
                     <title>A Garland from Greece</title>
                     <author>Armstrong, E.J.</author>
-                    <note type="description">presentation copy to Swinburne with autograph inscription</note>
                     <imprint>
                         <date when="1882"/>
                     </imprint>
@@ -430,7 +465,6 @@
                 <monogr>
                     <title>Stories of Wicklow</title>
                     <author>Armstrong, E.J.</author>
-                    <note type="description">presentation copy to Swinburne with autograph inscription</note>
                     <imprint>
                         <date when="1886"/>
                     </imprint>
@@ -444,14 +478,14 @@
                         <resp>edited by</resp>  
                         <name>G.F. Armstrong</name>
                     </respStmt>
-                    <note type="description">presentation copy to Swinburne with autograph inscription</note>
+                    <note type="etc">some presentation copies to Swinburne with inscriptions<num value="5"/></note>
                     <imprint>
                         <date when="1877"/>
                     </imprint>
                 </monogr>
             </biblStruct>
         </listBibl>
-        <listBibl type="lot" xml:id="sb019">
+        <listBibl type="lot" xml:id="sb019"> <!-- This lot's etc num is the same as the items in the lot. Use etc still? Occurs more than once following. -->
             <biblStruct xml:id="sb019.1">
                 <monogr>
                     <title>The Poets of Greece</title>
@@ -466,7 +500,7 @@
                 <monogr>
                     <title>Collected Poems</title>
                     <author>Tabley, Lord de</author>
-                    <note type="description">portrait, vellum, uncut, t.e.g.</note>
+                    <note type="description" xml:id="#uncut">portrait, vellum, uncut, t.e.g.</note>
                     <imprint>
                         <date when="1903"/>
                     </imprint>
@@ -476,7 +510,8 @@
                 <monogr>
                     <title>Songs and Lyrics</title>
                     <author>Skipsey, Joseph</author>
-                    <note type="description">uncut</note>
+                    <note type="description" xml:id="#uncut">uncut</note>
+                    <note type="etc"><num value="5"/></note>
                     <imprint>
                         <date when="1892"/>
                     </imprint>
@@ -488,7 +523,7 @@
                 <monogr>
                     <title>The Epic Hades</title>
                     <author>Arnold, Sir. E</author>
-                    <note type="description">presentation copy, with inscription</note>
+                    <note type="description" xml:id="#presentation">presentation copy, with inscription</note>
                     <note type="inscription">For the Author of 'Hertha' from the Writer <date when="1876-02-10">Feb. 10th, '76</date></note>
                     <imprint>
                         <date when="1876"/>
@@ -503,6 +538,7 @@
                         <resp>translated by</resp>
                         <name>F. Jameson</name>
                     </respStmt>
+                    <note type="description">privately printed</note>
                     <imprint>
                         <date when="1886"/>
                     </imprint>
@@ -512,6 +548,8 @@
                 <monogr>
                     <title>Leading Cases done into English</title>
                     <author>Pollack, Sir F.</author>
+                    <note type="etc">etc</note>
+                    <note type="etc">and others, some presentation copes to Swinburne with inscriptions<num value="30"></note>
                     <imprint>
                         <date when="1892"/>
                     </imprint>
@@ -531,7 +569,7 @@
             </biblStruct>
             <biblStruct xml:id="sb021.2">
                 <monogr>
-                    <title>Note Books, with Preface by the Hon. Mrs. Wodehouse</title> <!-- Comment here about preface? -->
+                    <title>Note Books, with Preface by the Hon. Mrs. Wodehouse</title>
                     <author>Arnold, Matthew</author>
                     <note type="description">portrait</note>
                     <imprint>
@@ -543,6 +581,7 @@
                 <monogr>
                     <title>Friendship's Garland</title>
                     <author>Arnold, Matthew</author>
+                    <note type="etc"><num value="3"/></note>
                     <imprint>
                         <date when="1871"/>
                     </imprint>
@@ -568,6 +607,8 @@
                         <resp>edited by</resp>
                         <name>J. Churton Collins</name>
                     </respStmt>
+                    <note type="description">Another edition</note>
+                    <note type="etc"><num value="2"/></note>
                     <imprint>
                         <pubPlace>Oxford</pubPlace>
                         <date when="1906"/>
@@ -601,6 +642,7 @@
                     <title>Higher Schools and Universities in Germany</title>
                     <author>Arnold, Matthew</author>
                     <edition>First edition</edition>
+                    <note type="etc"><num value="3"/></note>
                     <imprint>
                         <date when="1874"/>
                     </imprint>
@@ -623,6 +665,7 @@
                     <title>New Poems</title>
                     <author>Arnold, Matthew</author>
                     <edition>First edition</edition>
+                    <note type="etc"><num value="2"/></note>
                     <imprint>
                         <date when="1867"/>
                     </imprint>
@@ -634,7 +677,7 @@
                 <monogr>
                     <title>Great Prophecy of Israel's Restoration</title>
                     <author>Arnold, Matthew</author>
-                    <note type="description">presentation copy from the author, with inscription</note>
+                    <note type="description" xml:id="#presentation">presentation copy from the author, with inscription</note>
                     <note type="inscription">With Mr. Arnold's Compliments</note>
                     <imprint>
                         <date when="1872"/>
@@ -645,9 +688,9 @@
         <listBibl type="lot" xml:id="sb026">
             <biblStruct xml:id="sb026.1">
                 <monogr>
-                    <title>Isaiah XL-LXVI</title>
+                    <title>Isaiah XL-LXVI, editded with Notes</title>
                     <author>Arnold, Matthew</author>
-                    <note type="description">presentation copy with inscription</note>
+                    <note type="description" xml:id="#presentation">presentation copy</note>
                     <note type="inscription">With very kind regards M.A.</note>
                     <edition>First Edition</edition>
                     <imprint>
@@ -668,6 +711,7 @@
                 <monogr>
                     <title>St. Paul and Protestantism</title>
                     <author>Arnold, Matthew</author>
+                    <note type="etc"><num value="3"/></note>
                     <imprint>
                         <date when="1875"/>
                     </imprint>
@@ -710,6 +754,7 @@
                     <title>God and the Bible</title>
                     <author>Arnold, Mattew</author>
                     <edition>First Edition</edition>
+                    <note type="etc"><num value="4"/></note>
                     <imprint>
                         <date when="1875"/>
                     </imprint>
@@ -719,9 +764,9 @@
         <listBibl type="lot" xml:id="sb028">
             <biblStruct xml:id="sb028.1">
                 <monogr>
-                    <author>Asburton, Robert O. Lord Houghton</author>
                     <title>Gleanings from Beranger</title>
-                    <note type="description">one of 200 copies, vellum, uncut, t.e.g. privately printed</note>
+                    <author>Asburton, Robert O. Lord Houghton</author>
+                    <note type="description" xml:id="#uncut">one of 200 copies, vellum, uncut, t.e.g. privately printed</note>
                     <imprint>
                         <date when="1889"/>
                     </imprint>
@@ -731,6 +776,7 @@
                 <monogr>
                     <title>The North Shore Watch and other Poems</title>
                     <author>Woodberry, G.E.</author>
+                    <note type="etc">and others, some presentation copies to Swinburne with inscriptions<num value="12"/></note>
                     <imprint>
                         <date when="1890"/>
                     </imprint>
@@ -740,7 +786,7 @@
         <listBibl type="lot" xml:id="sb029">
             <biblStruct xml:id="sb029.1">
                 <monogr>
-                    <title>Attic Nights</title>
+                    <title xml:lang="la">Noctium Atticarum libri undeviginti (ex recens Joan. Bapt. Egnatii)</title>
                     <author>Gellius, Aulus</author>
                     <respStmt>
                         <resp>edited by</resp>
@@ -748,8 +794,8 @@
                     </respStmt>
                     <note type="description">old morocca extra, richly gilt sides, g.e. joints cracked</note>
                     <imprint>
-                        <pubPlace>Venice</pubPlace>
-                        <publisher xml:lang="la">in aedibus Aldi et Andreae Soceri</publisher>
+                        <pubPlace>Venet.</pubPlace> <!-- Lang? -->
+                        <publisher xml:lang="la">in ædibus Aldi et And. Soceri</publisher>
                         <date when="1515"/>
                     </imprint>
                 </monogr>
@@ -765,7 +811,7 @@
                     <imprint>
                         <date>1882</date>
                     </imprint>
-                    <extent>6 vol.</extent>
+                    <biblScope unit="volume" from="1" to="6"/>
                 </monogr>
             </biblStruct>
         </listBibl>
@@ -774,12 +820,12 @@
                 <monogr>
                     <title>Novels</title>
                     <author>Austen, Jane</author>
-                    <note type="description">portrait, green cloth, uncut, t.e.g.</note>
+                    <note type="description" xml:id="#uncut">portrait, green cloth, uncut, t.e.g.</note>
                     <edition>Winchester Edition</edition>
                     <imprint>
                         <date when="1898"/>
                     </imprint>
-                    <extent>10 vol.</extent>
+                    <biblScope unit="volume" from="1" to="10"/>
                 </monogr>
             </biblStruct>
         </listBibl>
@@ -788,7 +834,7 @@
                 <monogr>
                     <title>Savonarola, a Tragedy</title>
                     <author>Austin, Alfred</author>
-                    <note type="description">uncut, presentation copy to Swinburne from the author, with authograph inscription</note>
+                    <note type="description" xml:id="#uncut #presentation">uncut, presentation copy to Swinburne from the author, with authograph inscription</note>
                     <note type="inscription">To Algernon C. Swinburne from Alfred Austin <date when="1881-10-24">Octr. 24th 1881</date></note>
                     <edition>First Edition</edition>
                     <imprint>
@@ -800,7 +846,7 @@
         <listBibl type="lot" xml:id="sb033">
             <biblStruct xml:id="sb033.1">
                 <monogr>
-                    <title>Poems</title>
+                    <title>Poems from a Papyrus in the British Museum</title>
                     <author>Bacchylides</author>
                     <respStmt>
                         <resp>edited by</resp>
@@ -808,6 +854,7 @@
                     </respStmt>
                     <note type="description">brown cloth</note>
                     <imprint>
+                        <publisher>Order of the Trustees</publisher>
                         <date when="1897"/>
                     </imprint>
                 </monogr>
@@ -816,9 +863,9 @@
         <listBibl type="lot" xml:id="sb034">
             <biblStruct xml:id="sb034.1">
                 <monogr>
-                    <title xml:lang="fr">Poetes Allemands et Poetes Anglais</title>
+                    <title xml:lang="fr">Poètes Allemands et Poètes Anglais, avec une Preface de Gaston Deschamps</title>
                     <author>Bailliere, P.</author>
-                    <note type="description">uncut, presentation copy from the author to Swinburne, with autograph inscription</note>
+                    <note type="description" xml:id="#uncut #presentation">uncut, presentation copy from the author to Swinburne, with autograph inscription</note>
                     <imprint>
                         <pubPlace>Paris</pubPlace>
                         <date when="1907"/>
@@ -829,13 +876,13 @@
         <listBibl type="lot" xml:id="sb035">
             <biblStruct xml:id="sb035.1">
                 <monogr>
-                    <title xml:lang="fr">Etudes Philosophiques</title>
+                    <title xml:lang="fr">Études Philosophiques</title>
                     <author>Balzac, M. de</author>
                     <note type="description">half morocco</note>
                     <imprint>
                         <date when="1836"/>
                     </imprint>
-                    <extent>4 vol.</extent>
+                    <biblScope unit="volume" from="1" to="4"/>
                 </monogr>
             </biblStruct>
             <biblStruct xml:id="sb035.2">
@@ -846,32 +893,33 @@
                     <imprint>
                         <date when="1837"/>
                     </imprint>
-                    <extent>3 vol.</extent>
+                    <biblScope unit="volume" from="1" to="3"/>
                 </monogr>
             </biblStruct>
             <biblStruct xml:id="sb035.3">
                 <monogr>
-                    <title xml:lang="fr">Les Cousine Bette</title>
+                    <title xml:lang="fr">La Cousine Bette</title>
                     <author>Balzac, M. de</author>
                     <note type="description">half morocco, La Haye</note>
+                    <note type="etc">and others by the same author<num value="42"/></note>
                     <imprint>
                         <date when="1847"/>
                     </imprint>
-                    <extent>3 vol.</extent>
+                    <biblScope unit="volume" from="1" to="3"/>
                 </monogr>
             </biblStruct>
         </listBibl>
         <listBibl type="lot" xml:id="sb036">
             <biblStruct xml:id="sb36.1">
                 <monogr>
-                    <title>Tales by the O'Hara Family</title>
+                    <title>Tales by the O'Hara Family, Second Series</title>
                     <author>Banim, J.</author>
                     <note type="description">calf</note>
                     <edition>First Edition</edition>
                     <imprint>
                         <date when="1826"/>
                     </imprint>
-                    <extent>3 vol.</extent>
+                    <biblScope unit="volume" from="1" to="3"/>
                 </monogr>
             </biblStruct>
             <biblStruct xml:id="sb036.2">
@@ -879,13 +927,178 @@
                     <title>Fair in the Fearless Old Fashion</title>
                     <author>Famlet, C.</author>
                     <note type="description">calf gilt</note>
+                    <note type="etc"><num value="10"/></note>
                     <imprint>
                         <date when="1875"/>
                     </imprint>
-                    <extent>2 vol.</extent>
+                    <biblScope unit="volume" from="1" to="2"/>
                 </monogr>
+                <relatedItem>etc.</relatedItem>
             </biblStruct>
         </listBibl>
+        <listBibl type="lot" xml:id="sb037">
+                <biblStruct xml:id="sb037.1">
+                    <monogr>
+                        <title>Ingolddby Legends, or Mirth and Marvels</title> <!-- Alternate title. -->
+                        <author>Barham, R. H.</author>
+                        <imprint>
+                            <date when="1875"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3"/>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb037.2">
+                    <monogr>
+                        <title>Comments of Plays of Beaumont and Fletcher, with Appendix</title>
+                        <author>Mason, J. Monck</author>
+                        <note type="description">half russia, pencil note in Swinburne's writing</note>
+                        <imprint>
+                            <date when="1798"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb037.3">
+                    <monogr>
+                        <title>Poems, with Notes by O. Gilchrist</title> <!-- Subtitle? -->
+                        <author>Corbet, Rich.</author>
+                        <note type="description">half calf gilt</note>
+                        <note type="etc"><num value="8"></note>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <date when="1807"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb038">
+                <biblStruct xml:id="sb038.1">
+                    <monogr>
+                        <title>Ingoldsby Legends</title>
+                        <author>Barham, R. H.</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>E. A. Bond</name>
+                        </respStmt>
+                        <note type="description" xml:id="#uncut">illustrations by Leech, Cruikshank, etc. original cloth, uncut</note>
+                        <imprint>
+                            <date when="1894"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb039">
+                <biblStruct xml:id="sb039.1">
+                    <monogr>
+                        <title>Tragedy of Cæsars</title>
+                        <author>Baring-Gould, S.</author>
+                        <note type="description">illustrations, roy. 8vo</note>
+                        <imprint>
+                            <date when="1892"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="2">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb039.2">
+                    <monogr>
+                        <title>Yorkshire Oddities</title>
+                        <author>Baring-Gould, S.</author>
+                        <note type="description" xml:id="#uncut">uncut</note>
+                        <note type="etc"><num value="5"/></note>
+                        <imprint>
+                            <date when="1890"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb040">
+                <biblStruct xml:id="sb040.1">
+                    <monogr>
+                        <title xml:lang="fr">Richard Wagner et Tannhauser à Paris</title>
+                        <author>Baudelaire, Chas.</author>
+                        <note type="description"> morocco, g. e. presentation copy to Swinburne, with inscription in pencil</note>
+                        <note type="inscription" xml:lang="fr">Mr. Algernon C. Swinburne Bon souvenir et mille Remerciments, C.B.</note>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date when="1861"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb040.2">
+                    <monogr>
+                        <title xml:lang="fr">Idée sur les Romans publiée avec Notes, etc. par O. Uzanne</title>
+                        <author>De Sade, A. F.</author>
+                        <note type="description" xml:id="#uncut">uncut, ib.</note>
+                        <note type="etc"><num value="9"/></note>
+                        <imprint>
+                            <date when="1878"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb041">
+                <biblStruct xml:id="sb041.1">
+                    <monogr>
+                        <title xml:lang="fr">Les Fleurs du Mal</title>
+                        <author>Baudelaire, C.</author>
+                        <note type="description" xml:id="#presentation">half morocco gilt, g. e. presentation copy from W. M. Rossetti, with autograph inscription</note>
+                        <note type="inscription">W. M. Rossetti, <date when="1864">1864</date>, to Algernon C. Swinburne</note>
+                        <edition>First edition</edition>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date when="1857"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb042">
+                <biblStruct xml:id="sb042.1">
+                    <monogr>
+                        <title xml:lang="fr">Les Paradis Arteficiels Opium at Hashisch</title>
+                        <author>Baudelaire, C.</author>
+                        <note type="description">half calf</note>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date when="1860"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb042.2">
+                    <monogr>
+                        <title xml:lang="fr">Baudelaire, sa Vie et son Œuvre</title>
+                        <author>Assenlineau, C.</author>
+                        <note type="description">protraits, etc. calf gilt, m. e. ib.</note>
+                        <imprint>
+                            <date when="1869"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb042.3">
+                    <monogr>
+                        <title xml:lang="fr">Tizelière at Decaux: Charles Baudelaire</title>
+                        <respStmt>
+                        <note type="description">half calf, m. e. ib</note>
+                        <note type="etc"><num value="3"/></note>
+                        <imprint>
+                            <date when="1868"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb043">
+                <biblStruct xml:id="sb043.1">
+                    <monogr>
+                        <title>Œuvres Completes, précédées d'une Notice par T. Gautier</title>
+                        <author>Baudelaire, C.</author>
+                        <note type="description">portrait, morocco, g. e.</note>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="4">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
 </div> 
 </div>
     
@@ -894,19 +1107,31 @@
     </text>
 </TEI>
 <!--<body>
-         <div type="day" n="1">
-            <div type="size" n="octavo">
-               <listBibl type="lot" xml:id="sb1">
-                  <biblStruct xml:id="sb1.1"/>
-                  <biblStruct xml:id="sb1.2"/>
-               </listBibl>
-               <listBibl type="lot" xml:id="sb2">
-                  <bibl/>
-                  <bibl/>
-                  </listBibl>
-            </div>
-         </div>
-      </body>-->
+    <div type="day" n="1">
+        <div type="size" n="octavo">
+            <listBibl type="lot" xml:id="sb000">
+                <biblStruct xml:id="sb000.0">
+                    <monogr>
+                        <title></title>
+                        <author></author>
+                        <respStmt>
+                            <resp></resp>
+                            <name></name>
+                        </respStmt>
+                        <note type="description"></note>
+                        <edition></edition>
+                        <imprint>
+                            <publisher></publisher>
+                            <pubPlace></pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="" to="">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+        </div>
+    </div>
+</body>-->
  
  
 <!--<author>
