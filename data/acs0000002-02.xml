@@ -93,49 +93,44 @@
       </titlePage>
       
         
-      <div type="contents" n="[contents]"><!-- check contents? toc? --> <!-- jawalsh: paused here. -->
+      <div type="toc" rendition="#toc">
         <pb n="[unnumbered]" facs="acs0000002-02-012"/>
         <space dim="vertical" unit="lines" quantity="18"/>
-        <ab rendition="#uc #large #center">
-          Affectionately Inscribed
-        </ab>
-        <space dim="vertical" unit="lines" quantity="1"/>
-        <ab rendition="#center #uc">To</ab>
-        <space dim="vertical" unit="lines" quantity="1"/>
-        <ab rendition="#center #uc #large">Dante Gabriel Rossetti</ab>
-        <pb n="[unnumbered]" facs="acs0000002-02-013"/>
-      </div>
-      
-      <div type="toc">
-        <pb n="[unnumbered]" facs="acs0000002-02-014"/>
-        <space dim="vertical" unit="lines" quantity="16"/>
         <table n="toc" rendition="#toc">
           <row>
             <cell role="tocItem"><title rendition="#center #uc #xx-large">Contents</title>
             </cell>
           </row>
-        <space dim="vertical" unit="lines" quantity="2"/>
-            <row role="tocPageHead">
-              <cell rendition="#xx-small #sc" role="tocPageHead">Page</cell>
-            </row>
-            <row>
-              <cell role="tocItem"><title rendition="#uc #large #ellipsis_7_dot">The Queen-Mother</title></cell>
-              <cell role="tocNumber">1</cell>
-            </row>
-        
+          <space dim="vertical" unit="lines" quantity="2"/>
+          <row role="tocPageHead">
+            <cell rendition="#xx-small #sc" role="tocPageHead">Page</cell>
+          </row>
+          <row>
+            <cell role="tocItem"><title rendition="#uc #large #ellipsis_10_dot">Chastelard</title></cell>
+            <cell role="tocNumber">1</cell>
+          </row>
+          
           <space dim="vertical" unit="lines" quantity="1"/>
-            <row>
-              <cell role="tocItem"><title rendition="#uc #large #ellipsis_9_dot">Rosamond</title></cell>
-              <cell role="tocNumber">227</cell>
-            </row>
+          <row>
+            <cell role="tocItem"><title rendition="#uc #large">Bothwell:</title></cell>
+          </row>
+          <row>
+            <cell role="tocItem"><hi rendition="#uc #large #ellipsis_7_dot">Act I.—David Rizzio</hi></cell>
+            <cell role="tocNumber">161</cell>
+          </row>
+          <row>
+            <cell role="tocItem"><hi rendition="#uc #large #ellipsis_7_dot">Act II.—Bothwell</hi></cell>
+            <cell role="tocNumber">161</cell>
+          </row>
         </table>
-        <pb n="[unnumbered]" facs="acs0000002-02-015"/>
+        <pb n="[unnumbered]" facs="acs0000002-02-013"/>
       </div>
+
     </front>
     <group>
-      <text xml:id="acs0000002-02-i001" n="The Queen-Mother">
+      <text xml:id="acs0000002-02-i001" n="Chastelard">
       <index indexName="text" corresp="acs0000002-02-i001-md.xml"/>
-        <!-- Queen Mother -->
+        <!-- jawalsh paused here. -->
         <front>
           <titlePage type="half-title">
             <pb n="[unnumbered]" facs="acs0000002-02-016"/>

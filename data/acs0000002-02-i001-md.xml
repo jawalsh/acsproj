@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
-        ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000002-01-i001-md">
+        ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000002-02-i001-md">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Queen-Mother</title>
+            <title>Chastelard</title>
             <author>
                <persName key="acs">Algernon Charles Swinburne</persName>
             </author>
@@ -33,7 +33,7 @@
                         $Rev$
                         $Date$
                         $Author$
-                    </change>
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,9 +47,9 @@
          <div xml:id="texts">
             <head>texts</head>
             <listBibl>
-               <biblStruct xml:id="acs0000002-01-i001-bibl" n="readingtext">
+               <biblStruct xml:id="acs0000002-02-i001-bibl" n="readingtext">
                   <analytic>
-                     <title>The Queen-Mother</title>
+                     <title>Chastelard</title>
                      <author>
 							                 <persName key="acs">Swinburne, Algernon Charles</persName>
 						               </author>
@@ -60,23 +60,19 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1905">1905</date>
-							                 <biblScope unit="volume">1</biblScope>
-							                 <biblScope unit="page">1-226</biblScope>
+							                 <biblScope unit="volume">2</biblScope>
+							                 <biblScope unit="page">1-153</biblScope>
 						               </imprint>
 						               <extent>5 vols.</extent>
                   </monogr>
                </biblStruct>
                <biblStruct n="original_collection">
-                 <analytic>
-                   <title>The Queen-Mother</title>
-                 </analytic>
                   <monogr>
-                     <title>The Queen-Mother. Rosamond.: Two Plays</title>
+                     <title>Chastelard</title>
                      <imprint>
                         <pubPlace>London</pubPlace>
-                        <publisher>Basil Montagu Pickering</publisher>
-                        <date xml:id="sort_date" when="1860"/>
-                        <biblScope unit="page">[unnumbered]-160</biblScope>
+                        <publisher>Moxon</publisher>
+                        <date xml:id="sort_date" when="1865"/>
                      </imprint>
                   </monogr>
                </biblStruct>
