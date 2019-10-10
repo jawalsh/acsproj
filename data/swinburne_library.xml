@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Users/jawalsh/development/acsproj/data/swinburne.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="file:/Users/canurk/desktop/acsproj/data/swinburne.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -33,7 +33,7 @@
             </sourceDesc>
         </fileDesc>
         <textDesc>
-            <!-- <taxonomy>
+            <taxonomy>
                 <category xml:id="#uncut">
                     <catDesc>An item which has the word uncut listed in its description,
                     even if the cutting is listed as partial.</catDesc>
@@ -44,7 +44,7 @@
                 <cateogry xml:id="etc">
                     <catDesc></catDesc>
                 </category>
-            </taxonomy> -->
+            </taxonomy>
         </textDesc>
     </teiHeader>
     <text>
@@ -2073,20 +2073,26 @@
                 </biblStruct>
                 <biblStruct xml:id="sb086.3">
                     <monogr>
-                        <title>Carabas Series: Fables of Æsop</title>
+                        <title>Fables of Æsop</title>
                         <imprint>
                             <date when="1889"/>
                         </imprint>
                     </monogr>
+                    <series>
+                        <title>Carabas Series</title>
+                    </series>
                 </biblStruct>
                 <biblStruct xml:id="sb086.4">
                     <monogr>
-                        <title>Carabas series: Fables of Bidpai</title>
+                        <title>Fables of Bidpai</title>
                         <note type="etc"><num value="9"/></note>
                         <imprint>
                             <date when="1888"/>
                         </imprint>
                     </monogr>
+                    <series>
+                        <title>Carabas Series</title>
+                    </series>
                 </biblStruct>
             </listBibl>
             <listBibl type="lot" xml:id="sb087">
@@ -2812,7 +2818,206 @@
                     </monogr>
                 </biblStruct>
             </listBibl>
-        <!-- This is a test. -->
+            <listBibl type="lot" xml:id="sb121">
+                <biblStruct xml:id="sb121.1">
+                    <monogr>
+                        <title>Poetical Works, with Life by J. Mitford</title>
+                        <author>Butler, Saml.</author>
+                        <note type="description">2 vol. portrait, morocco, g. e.</note>
+                        <edition>Aldine Edition</edition>
+                        <imprint>
+                            <publisher>Pickering</publisher>
+                            <date when="1835"/>
+                        </imprint>
+                        <biblScope unit="vol" from="1" to="2"/>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb121.2">
+                    <monogr>
+                        <title>The Seasons</title>
+                        <author>Thomson, J.</author>
+                        <note type="description">morocco, g. e.</note>
+                        <edition>Aldine Edition</edition>
+                        <imprint>
+                            <publisher>Pickering</publisher>
+                            <date when="1845"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb121.3">
+                    <monogr>
+                        <title>Poetical Works</title>
+                        <author>Collins, W.</author>
+                        <note type="description">portrait, morroco, g. e.</note>
+                        <edition>Aldine Edition</edition>
+                        <imprint>
+                            <publisher>Pickering</publisher>
+                            <date when="1830"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb121.4">
+                    <monogr>
+                        <title>Poetical Works</title>
+                        <author>Goldsmith, O.</author>
+                        <note type="description">portait, morocco, g. e.</note>
+                        <note type="etc"><num value="5"/></note>
+                        <edition>Aldine Edition</edition>
+                        <imprint>
+                            <publisher>Pickering</publisher>
+                            <date when="1839"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb122">
+                <biblStruct xml:id="sb122.1">
+                    <monogr>
+                        <title>Conversations with the Countess of Blessington</title>
+                        <author>Byron, Lord</author>
+                        <note type="description" xml:id="#uncut">portrait, uncut</note>
+                        <imprint>
+                            <date when="1834"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb122.2">
+                    <monogr>
+                        <title>Prose Works</title>
+                        <author>Cowley, A.</author>
+                        <imprint>
+                            <publisher>Pickering</publisher>
+                            <date when="1826"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb122.3">
+                    <monogr>
+                        <title>Poems</title>
+                        <author>Herbert, Lord, of Cherbury</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>J. Churton Collins</name>
+                        </respStmt>
+                        <note type="description" xml:id="#uncut">vellum, uncut</note>
+                        <imprint>
+                            <date when="1881"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb122.4">
+                    <monogr>
+                        <title>Recollections</title>
+                        <author>Rogers, S.</author>
+                        <note type="etc"><num value="10"/></note>
+                        <edition></edition>
+                        <imprint>
+                            <date when="1859"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb123">
+                <biblStruct xml:id="sb123.1">
+                    <monogr>
+                        <title>Poetical and Prose Works</title>
+                        <author>Byron, Lord</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>E. H. Coleridge</name>
+                            <name>R. E. Prothero</name>
+                        </respStmt>
+                        <note type="description" xml:id="#uncut">13 vol. illustrations, blue cloth, uncut, t. e. g.</note>
+                        <imprint>
+                            <date from="1898" to="1901"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="13">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb124">
+                <biblStruct xml:id="sb124.1">
+                    <monogr>
+                        <title>The Christian</title>
+                        <author>Caine, Hall</author>
+                        <imprint>
+                            <date when="1897"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb124.2">
+                    <monogr>
+                        <title>"Quo Vadis"</title> <!-- xml:lang is Latvian? -->
+                        <author>Sienkiewiez, H.</author>
+                        <respStmt>
+                            <resp>translated by</resp>
+                            <name>J. Curtin</name>
+                        </respStmt>
+                        <imprint>
+                            <date when="1897"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb124.3">
+                    <monogr>
+                        <title>The World went very well then</title>
+                        <author>Besant, W.</author>
+                        <note type="description">illustrations</note>
+                        <imprint>
+                            <date when="1887"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb124.4">
+                    <monogr>
+                        <title>The Well-Beloved</title>
+                        <author>Hardy, Thos.</author>
+                        <note type="description">etching and map</note>
+                        <note type="etc">and other Novels<num value="20"/></note>
+                        <imprint>
+                            <date when="1897"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb125">
+                <biblStruct xml:id="sb125.1">
+                    <monogr>
+                        <title>Lusiads, translated into English</title>
+                        <author>Camoens</author>
+                        <respStmt>
+                            <resp>translated by</resp>
+                            <name>J. J. Aubertin</name>
+                        </respStmt>
+                        <note type="description">2 vol. portrait, with inscription</note>
+                        <edition></edition>
+                        <imprint>
+                            <publisher></publisher>
+                            <pubPlace></pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="" to="">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb125.2">
+                    <monogr>
+                        <title></title>
+                        <author></author>
+                        <respStmt>
+                            <resp></resp>
+                            <name></name>
+                        </respStmt>
+                        <note type="description"></note>
+                        <edition></edition>
+                        <imprint>
+                            <publisher></publisher>
+                            <pubPlace></pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="" to="">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
 </div> 
 </div>
     
