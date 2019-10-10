@@ -41,7 +41,7 @@
                 <category xml:id="#presentation">
                     <catDesc>Any presentation copy.</catDesc>
                 </category>
-                <cateogry xml:id="etc">
+                <category xml:id="etc">
                     <catDesc></catDesc>
                 </category>
             </taxonomy>
@@ -3000,6 +3000,91 @@
                     </monogr>
                 </biblStruct>
                 <biblStruct xml:id="sb125.2">
+                    <monogr>
+                        <title>Seventy Sonnets of Camoens, Portuguese Text and Translation, with Original Poems by J. J. Aubertin</title>
+                        <author>Camoens</author>
+                        <respStmt>
+                            <resp>translated by</resp>
+                            <name>J. J. Aubertin</name>
+                        </respStmt>
+                        <note type="description" xml:id="#presentation">presentation copy with autograph lettr from the translator to Swinburne</note>
+                        <imprint>  
+                            <date when="1881"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb126">
+                <biblStruct xml:id="sb126.1">
+                    <monogr>
+                        <title xml:lang="pt">Os Lusidas</title>
+                        <title type="alt">The Lusiads</title>
+                        <author>Camoens</author>
+                        <respStmt>
+                            <resp>Englished by</resp>
+                            <name>R. F. Burton</name>
+                        </respStmt>
+                        <note type="description" xml:id="#uncut" xml:id="#presentation">edited by his wife, 5 vol. in 6, green cloth, uncut, presentation copy with inscription</note> <!-- An odd editor that I'm not sure how to handle. Could use <editor> but "his wife" isn't descriptive enough. -->
+                        <note type="inscription">To my dear Swinburne with joint love from Frances &amp; Richard F. Burton</note> <!-- Wife's name found here for <editor> -->
+                        <imprint>
+                            <date from="1880" to="1884"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="6"> <!-- see 5 vol. in 6 above -->
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb127">
+                <biblStruct xml:id="sb127.1">
+                    <monogr>
+                        <title xml:lang="it">Vita di Benvenuto Cellini Orefice e Scultore Fiorentino</title>
+                        <author>Campani, G. P.</author>
+                        <note type="description">3 vol. portrait calf gilt</note>
+                        <imprint>
+                            <pubPlace>Milano</pubPlace>
+                            <date when="1806"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb128">
+                <biblStruct xml:id="sb128.1">
+                    <monogr>
+                        <title></title>
+                        <author></author>
+                        <respStmt>
+                            <resp></resp>
+                            <name></name>
+                        </respStmt>
+                        <note type="description"></note>
+                        <edition></edition>
+                        <imprint>
+                            <publisher></publisher>
+                            <pubPlace></pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="" to="">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb128.2">
+                    <monogr>
+                        <title></title>
+                        <author></author>
+                        <respStmt>
+                            <resp></resp>
+                            <name></name>
+                        </respStmt>
+                        <note type="description"></note>
+                        <edition></edition>
+                        <imprint>
+                            <publisher></publisher>
+                            <pubPlace></pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="" to="">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb128.3">
                     <monogr>
                         <title></title>
                         <author></author>
