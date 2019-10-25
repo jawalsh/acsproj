@@ -41,7 +41,7 @@
                 <category xml:id="#presentation">
                     <catDesc>Any presentation copy.</catDesc>
                 </category>
-                <cateogry xml:id="etc">
+                <category xml:id="etc">
                     <catDesc></catDesc>
                 </category>
             </taxonomy>
@@ -2983,13 +2983,29 @@
             <listBibl type="lot" xml:id="sb125">
                 <biblStruct xml:id="sb125.1">
                     <monogr>
-                        <title>Lusiads, translated into English</title>
+                        <title>Lusiads, translated into English Verse</title>
                         <author>Camoens</author>
                         <respStmt>
                             <resp>translated by</resp>
                             <name>J. J. Aubertin</name>
                         </respStmt>
                         <note type="description">2 vol. portrait, with inscription</note>
+                        <note type="inscription">Algernon Charls Swinburne, Esqre with J. J. Aubertin's kind regards</note>
+                        <imprint>
+                            <date when="1878"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb125.2">
+                    <monogr>
+                        <title>Seventy Sonnets of Camoens, Portuguese Text and Translation, with Original Poems by J. J. Aubertin</title>
+                        <author>Camoens</author>
+                        <author>J. J. Aubertin</author>
+                        <respStmt>
+                            <resp>translated by</resp>
+                            <name>J. J. Aubertin</name>
+                        </respStmt>
+                        <note type="description" xml:id="#presentation">presentation copy with autograph</note>
                         <edition></edition>
                         <imprint>
                             <publisher></publisher>
@@ -2999,10 +3015,498 @@
                         <biblScope unit="volume" from="" to="">
                     </monogr>
                 </biblStruct>
-                <biblStruct xml:id="sb125.2">
+            </listBibl>
+            <listBibl type="lot" xml:id="sb126">
+                <biblStruct xml:id="sb126.1">
+                    <monogr>
+                        <title xml:lang="pt">Os Lusiadas (The Lusiads)</title>
+                        <author>Camoeus</author>
+                        <respStmt>
+                            <resp>Englished by</resp>
+                            <name>R. F. Burton</name>
+                            <resp>edited by</resp>
+                            <name>his wife</name> <<!-- Frances Burton? -->
+                        </respStmt>
+                        <note type="description" xml:id="#uncut" xml:id="#presentation">5 vol. in 6, green cloth, uncut, presentation copy with inscription</note>
+                        <note type="inscriptoin">To my dear Swinburne with joint love from Frances &amp; Richard F. Burton</note>
+                        <imprint>
+                            <date from="1880" to="1884"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="6">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb127">
+                <biblStruct xml:id="sb127.1">
+                    <monogr>
+                        <title xml:lang="it">Vita di Benvenuto Cellini Orefice e Scultore Fiorentino</title>
+                        <author>Campani, G. P.</author>
+                        <note type="description">portrait, calf gilt</note>
+                        <imprint>
+                            <pubPlace>Milano</pubPlace>
+                            <date when="1806"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb128">
+                <biblStruct xml:id="sb128.1">
+                    <monogr>
+                        <title>Poetical Works</title>
+                        <author>Campbell, Thos.</author>
+                        <note type="description">portrait and illustrations after Turner, morocco, g. e.</note>
+                        <imprint>
+                            <date when="1837"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb128.2">
+                    <monogr>
+                        <title>Poetical Works, English and Latin</title>
+                        <author>Gray, T.</author>
+                        <note type="description">frontspiece and plates, morocco gilt, g. e. Eton</note>
+                        <imprint>
+                            <date when="1853"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb128.3">
+                    <monogr>
+                        <title>Poetical Works, with Memoir by W. B. Scott</title>
+                        <author>Byron, Lord</author>
+                        <note type="description">portait, half morocco gilt</note>
+                        <note type="etc"><num value="5"/></note>
+                        <imprint>
+                            <date>n. d.</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb129">
+                <biblStruct xml:id="sb129.1">
+                    <monogr>
+                        <title>Works</title>
+                        <author>Campion, Thos.</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>A. H. Bullen</name>
+                        </respStmt>
+                        <note type="description" xml:id="#uncut">one of 400 copies, uncut, privately printed</note>
+                        <imprint>
+                            <publisher>Chiswick Press</publisher>
+                            <date when="1889"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb130">
+                <biblStruct xml:id="sb130.1">
+                    <monogr>
+                        <title>Life of Friedrich Schiller, comprehending an Examination of his Works</title>
+                        <author>Carlyle, Thos.</author>
+                        <note type="description">portait, calf gilt</note>
+                        <edition>First Edition</edition>
+                        <imprint>
+                            <date when="1825"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb130.2">
+                    <monogr>
+                        <title>The French Revolution, a History</title>
+                        <author>Carlyle, Thos.</author>
+                        <note type="description"></note>
+                        <imprint>
+                            <date when="1848"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb130.3">
+                    <monogr>
+                        <title>Latter Day Pamphlets</title>
+                        <author>Carlyle, Thos.</author>
+                        <note type="etc"><num value="12"/></note>
+                        <imprint>
+                            <date when="1855"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb131">
+                <biblStruct xml:id="sb131.1">
+                    <monogr>
+                        <title>History of Friedrich II of Prussia called Fredrick the Great</title>
+                        <author>Carlyle, T.</author>
+                        <note type="description"></note>
+                        <edition>Library Edition</edition>
+                        <imprint>
+                            <date from="1858" to="1865"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="6">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb132">
+                <biblStruct xml:id="sb132.1">
+                    <monogr>
+                        <title>Life of John Sterling</title>
+                        <author>Carlyle, T.</author>
+                        <imprint>
+                            <date when="1852"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb132.2">
+                    <monogr>
+                        <title>Life of J. M. Turner</title>
+                        <author>Hamerton, P. G.</author>
+                        <note type="description">illustrations</note>
+                        <imprint>
+                            <date when="1895"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb132.3">
+                    <monogr>
+                        <title>Life of Lord Chancellor Eldon</title>
+                        <author>Twiss, H.</author>
+                        <note type="description">portrait and plates</note>
+                        <note type="etc"><num value="10"/></note>
+                        <imprint>
+                            <date when="1944"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb133">
+                <biblStruct xml:id="sb133.1">
+                    <monogr>
+                        <title>Memoirs of his Life and Writings</title>
+                        <author>Carlyle, T.</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>R. H. Shepherd</name>
+                        </respStmt>
+                        <note type="description">portait and illustrations</note>
+                        <imprint>
+                            <date when="1881"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="2">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb133.2">
+                    <monogr>
+                        <title>Thomas Carlyle, the Man and his Books</title>
+                        <author>Wylie, W. H.</author>
+                        <note type="description">portrait</note>
+                        <note type="etc"><num value="9"/></note>
+                        <imprint>
+                            <date when="1881"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb134">
+                <biblStruct xml:id="sb134.1">
+                    <monogr>
+                        <title>Second Series collected and arranged by Orby Shipley</title>
+                        <author>Carmina Mariana</author>
+                        <imprint>
+                            <date when="1902"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb134.2">
+                    <monogr>
+                        <title>Comedies</title>
+                        <author>Aristophanes</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <resp>translated by</resp>
+                            <name>B. B. Rogers</name>
+                        </respStmt>
+                        <imprint>
+                            <date when="1902"/>
+                        </imprint>
+                        <biblScope unit="volume">V</biblScope>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb134.3">
+                    <monogr>
+                        <title>The Seven Plays in English Verse</title>
+                        <author>Æschylus</author>
+                        <respStmt>
+                            <resp>by</resp>
+                            <name>Lewis Campbell</name>
+                        </respStmt>
+                        <note type="etc"><num value="4"/></note>
+                        <imprint>
+                            <date when="1890"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb135">
+                <biblStruct xml:id="sb135.1">
+                    <monogr>
+                        <title>Tristan and Iseult, a Drama in four Acts</title>
+                        <author>Carr, J. Comyus</author>
+                        <note type="description" xml:id="#presentation">presentation copy with inscription</note>
+                        <note type="inscription">To A. C. Swinburne from J. Comyus Carr</note>
+                        <imprint>
+                            <date when="1906"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb135.2">
+                    <monogr>
+                        <title>David and Bathshua, a Drama in five Acts</title>
+                        <author>Wynne, C. W.</author>
+                        <note type="description" xml:id="#presentation">presentation copy with inscription</note>
+                        <note type="etc"><num value="2"/></note>
+                        <imprint>
+                            <date when="1903"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb136">
+                <biblStruct xml:id="sb136.1">
+                    <monogr>
+                        <title>Carmina, now first completely Englished into Verse and Prose</title>
+                        <author>Catullus</author>
+                        <respStmt>
+                            <resp>Englished by</resp>
+                            <name>Sir R. F. Burton</name>
+                            <name>Leonard C. Smithers</name>
+                        </respStmt>
+                        <note type="description" xml:id="#uncut">frontspiece, half parchment, uncut, privately printed</note>
+                        <imprint>
+                            <date when="1894"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb137">
+                <biblStruct xml:id="sb137.1">
+                    <monogr>
+                        <title xml:lang="it">Il Corredo Comedia</title>
+                        <author>Cecchi, Gianmaria</author>
+                        <note type="description">old blue morocco gilt, inside gilt borders, g. e. by H. Duru</note>
+                        <imprint>
+                            <publisher xml:lang="it">appresso Bernardo Giunti</publisher>
+                            <pubPlace xml:lang="it">In Venetia</pubPlace>
+                            <date when="1585"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb138">
+                <biblStruct xml:id="sb138.1">
+                    <monogr>
+                        <title>Dramatic Works, with a new Account of her Life</title>
+                        <author>Centlivre, Mrs.</author>
+                        <note type="description" xml:id="#uncut">protrait, uncut</note>
+                        <imprint>
+                            <publisher>Pearson</publisher>
+                            <date when="1872"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb139">
+                <biblStruct xml:id="sb139.1">
+                    <monogr>
+                        <title>Thealma and Clearchus, a Pastoral History in smooth and easie Verse</title>
+                        <author>Chalkhill, John <note>an aquaintance and friend of Edmund Spenser</note></author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>Izaak Walton</name>
+                        </respStmt>
+                        <note type="description">calf, a little stained</note>
+                        <edition>First Edition</edition>
+                        <imprint>
+                            <date when="1683"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb140">
+                <biblStruct xml:id="sb140.1">
+                    <monogr>
+                        <title xml:lang="fr">Œuvres nouvellement imprimées reueues et corrigées oultre les précédentes impressions</title>
+                        <author>Charlier, Alain</author>
+                        <note type="description">woodcuts, ruled in red, red morocco gilt, g. e. by C. Smith, 2 leaves in neat fascimile, autograph of P. Scarron on title, and an ex-libris of Hom. P. Ashburnham</note>
+                        <note type="inscription">Algernon C. Swinburne from his affect. uncle, P. A.</note>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date when="1529"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb141">
+                <biblStruct xml:id="sb141.1">
+                    <monogr>
+                        <title xml:lang="fr">Un Français, un Vieux de la Vieille à ses compatriotes de 1870</title>
+                        <author>Chatelain, Chev. de</author>
+                        <note type="description" xml:id="#presentation">presentation copy to Swinburne with author's inscription</note>
+                        <imprint>
+                            <date when="1870"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb141.2">
+                    <monogr>
+                        <title>A Village Tragedy</title>
+                        <author>Woods, Margaret L.</author>
+                        <note type="description" xml:id="#presentation">presentation copy to Swinburne with author's inscription</note>
+                        <note type="etc" xml:id="#presentation">and others, all presentation copies to Swinburne with insriptions<num value="13"/></note>
+                        <imprint>
+                            <date when="1887"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb142">
+                <biblStruct xml:id="sb142.1">
+                    <monogr>
+                        <title>Poems, Modernized</title>
+                        <author>Chaucer, Geoffrey</author>
+                        <note type="description" xml:id="#uncut">uncut</note>
+                        <imprint>
+                            <date when="1841"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb142.2">
+                    <monogr>
+                        <title>State Trials Political and Social</title>
+                        <respStmt>
+                            <resp>selecetd by</resp>
+                            <resp>edited by</resp>
+                            <name>H. L. Stephen</name>
+                        </respStmt>
+                        <note type="description">portait</note>
+                        <imprint>
+                            <date when="1899"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="2">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb142.3">
+                    <monogr>
+                        <title>Life and Adventures of Peter Wilkins</title>
+                        <author>Potlock, Robt.</author>
+                        <respStmt>
+                            <resp>preface by</resp> <!-- Check for consistency with other items. -->
+                            <name>A. H. Bullen</name>
+                        </respStmt>
+                        <note type="etc">some presentation copies to Swinburne with inscriptions<num value="12"/></note>
+                        <imprint>
+                            <date when="1884"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="2">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb143">
+                <biblStruct xml:id="sb143.1">
+                    <monogr>
+                        <title>Poetical Works, with Memoir by Sir Harris Nicolas</title>
+                        <author>Chaucer, G.</author>
+                        <note type="description">portrait, morocco, g. e.</note>
+                        <edition>Pickering's Aldine Edition</edition>
+                        <imprint>
+                            <date when="1845"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="6">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb144">
+                <biblStruct xml:id="sb144.1">
+                    <monogr>
+                        <title>Poetical Works, with Memoir by Sir H. Nicolas</title>
+                        <author>Chaucer, G.</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>Rich. Morris</name>
+                        </respStmt>
+                        <note type="description">wanting vol. I</note>
+                        <imprint>
+                            <date when="1891"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="6">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb144.2">
+                    <monogr>
+                        <title>Poetical Works, with Essay by W. W. Skeat</title>
+                        <author>Chatterton, T.</author>
+                        <imprint>
+                            <date when="1890"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="2">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb144.3">
+                    <monogr>
+                        <title>Poetical Works, with a Memoir by Edward Ell</title>
+                        <author>Rogers, S.</author>
+                        <note type="description">portrait</note>
+                        <note type="etc"><num value="8"/></note>
+                        <imprint>
+                            <date when="1871"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb145">
+                <biblStruct xml:id="sb145.1">
+                    <monogr>
+                        <title>Complete Works, with Supplement and cancelled sheets</title>
+                        <author>Chaucer, G.</author>
+                        <respStmt>
+                            <resp>edited by</resp>
+                            <name>W. W. Skeat</name>
+                        </respStmt>
+                        <note type="description">portrait, buckram</note>
+                        <imprint>
+                            <pubPlace>Oxford</pubPlace>
+                            <date from="1894" to="1897"/>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="7">
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            <listBibl type="lot" xml:id="sb146">
+                <biblStruct xml:id="sb146.1">
                     <monogr>
                         <title></title>
-                        <author></author>
+                        <author>Chaucer Society</author>
+                        <respStmt>
+                            <resp></resp>
+                            <name></name>
+                        </respStmt>
+                        <note type="description"></note>
+                        <edition></edition>
+                        <imprint>
+                            <publisher></publisher>
+                            <pubPlace></pubPlace>
+                            <date when=""/>
+                        </imprint>
+                        <biblScope unit="volume" from="" to="">
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="sb146.2">
+                    <monogr>
+                        <title></title>
+                        <author>Chaucer Society</author>
                         <respStmt>
                             <resp></resp>
                             <name></name>
@@ -3018,6 +3522,7 @@
                     </monogr>
                 </biblStruct>
             </listBibl>
+        
 </div> 
 </div>
     
