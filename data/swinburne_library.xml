@@ -36,11 +36,11 @@
             <classDecl>
                 <taxonomy xml:id="biblFeatures" >
                     <bibl><title>Bibliographic Features</title></bibl>
-                    <category corresp="uncut">
+                    <category xml:id="uncut">
                         <catDesc>uncut pages</catDesc>
                     </category>
                     <category xml:id="presentation">
-                        <catDesc>presenation copy</catDesc>
+                        <catDesc>presentation copy</catDesc>
                     </category>
                 </taxonomy> 
             </classDecl>
@@ -147,7 +147,7 @@
                              <imprint>
                                  <date>n.d.</date>
                              </imprint>
-                             <biblScope  unit="volume" from="1" to="6"/> 
+                             <extent><measure unit="volumes" quantity="6"/></extent> 
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -172,7 +172,7 @@
                              <imprint>
                                  <date when="1632"/>
                              </imprint>
-                             <biblScope unit="volume">1</biblScope>
+                             <extent><measure unit="volumes" quantity="1"/></extent>
                          </monogr>
                      </biblStruct>
                      <biblStruct xml:id="sb005.3">
@@ -199,7 +199,7 @@
                                  <pubPlace xml:lang="it">Parigi</pubPlace> <!--use LCNA (Library of Congress Name Authorities?) -->
                                  <date from="1788" to="1789"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="6"/>
+                             <extent><measure unit="volumes" quantity="6"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -248,7 +248,7 @@
                              <imprint>
                                  <date from="1865" to="1870"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="3"/>
+                             <extent><measure unit="volumes" quantity="3"/></extent>
                          </monogr>
                      </biblStruct>
                      <biblStruct xml:id="sb009.2">
@@ -298,13 +298,13 @@
                      </biblStruct>
                      <biblStruct xml:id="sb010.3">
                          <monogr>
-                             <title><foreign xml:id="el">Euripedes<!-- check spelling of Euripides. --></foreign>, with English Commentary</title>
+                             <title><foreign xml:id="el">Euripides</foreign>, with English Commentary</title>
                              <author>Paley, F.A.</author>
                              <note type="etc"><num value="12"/></note>
                              <imprint>
                                  <date when="1857"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="3"/>
+                             <extent><measure unit="volumes" quantity="3"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl> 
@@ -323,7 +323,7 @@
                                  <publisher>Kamashastra Society</publisher>
                                  <date when="1885"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="16"/>
+                             <extent><measure unit="volumes" quantity="16"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -388,7 +388,7 @@
                                  <pubPlace xml:lang="it">Parigi</pubPlace>
                                  <date when="1609"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="3"/>
+                             <extent><measure unit="volumes" quantity="3"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -430,7 +430,7 @@
                                  <pubPlace xml:lang="it">Firenze</pubPlace> <!--use getty place names -->
                                  <date>1823</date>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="8"/>
+                             <extent><measure unit="volumes" quantity="8"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -812,7 +812,7 @@
                              <imprint>
                                  <date>1882</date>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="6"/>
+                             <extent><measure unit="volumes" quantity="6"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -826,7 +826,7 @@
                              <imprint>
                                  <date when="1898"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="10"/>
+                             <extent><measure unit="volumes" quantity="10"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -883,7 +883,7 @@
                              <imprint>
                                  <date when="1836"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="4"/>
+                             <extent><measure unit="volumes" quantity="4"/></extent>
                          </monogr>
                      </biblStruct>
                      <biblStruct xml:id="sb035.2">
@@ -894,7 +894,7 @@
                              <imprint>
                                  <date when="1837"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="3"/>
+                             <extent><measure unit="volumes" quantity="3"/></extent>
                          </monogr>
                      </biblStruct>
                      <biblStruct xml:id="sb035.3">
@@ -906,7 +906,7 @@
                              <imprint>
                                  <date when="1847"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="3"/>
+                             <extent><measure unit="volumes" quantity="3"/></extent>
                          </monogr>
                      </biblStruct>
                  </listBibl>
@@ -920,7 +920,7 @@
                              <imprint>
                                  <date when="1826"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="3"/>
+                             <extent><measure unit="volumes" quantity="3"/></extent>
                          </monogr>
                      </biblStruct>
                      <biblStruct xml:id="sb036.2">
@@ -932,10 +932,9 @@
                              <imprint>
                                  <date when="1875"/>
                              </imprint>
-                             <biblScope unit="volume" from="1" to="2"/>
+                             <extent><measure unit="volumes" quantity="2"/></extent>
                              
                          </monogr>
-                         <!--<relatedItem>etc.</relatedItem>-->
                      </biblStruct>
                  </listBibl>
                  <listBibl type="lot" xml:id="sb037">
@@ -946,7 +945,7 @@
                                  <imprint>
                                      <date when="1875"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb037.2">
@@ -985,7 +984,7 @@
                                  <imprint>
                                      <date when="1894"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -998,7 +997,7 @@
                                  <imprint>
                                      <date when="1892"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb039.2">
@@ -1096,7 +1095,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="2019"/><!-- fix.-->
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1169,7 +1168,7 @@
                                  <imprint>
                                      <date>n. d.</date>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb046.2">
@@ -1179,13 +1178,12 @@
                                      <resp>edited by</resp>
                                      <name>Leslie Stephen</name>
                                  </respStmt>
-                                 <note type="description">vol. I-III and XV, 3 vol., roy. 8vo</note>
+                                 <note type="description">vol. I-II and XV, 3 vol., roy. 8vo</note>
                                  <note type="etc"><num value="5"/></note>
                                  <imprint>
                                      <date from="1885" to="1888"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="I" to="III"/>
-                                 <biblScope unit="volume">XV</biblScope>
+                                 <extent><measure unit="volumes" quantity="3">vol. I-II and XV.</measure></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1212,7 +1210,7 @@
                                      <pubPlace>Moxon</pubPlace>
                                      <date when="1843"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="11"/>
+                                 <extent><measure unit="volumes" quantity="11"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1285,7 +1283,7 @@
                                  <imprint>
                                      <date>n. d.</date>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1298,7 +1296,7 @@
                                  <imprint>
                                      <date from="1806" to="1807"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1330,7 +1328,7 @@
                                      <publisher>Minerva Press</publisher>
                                      <date when="1808"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1519,7 +1517,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1854"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="10"/>
+                                 <extent><measure unit="volumes" quantity="10"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb061.2">
@@ -1529,7 +1527,7 @@
                                  <imprint>
                                      <date when="1855"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb061.3">
@@ -1563,7 +1561,7 @@
                                  <imprint>
                                      <date when="1888"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb062.3">
@@ -1574,7 +1572,7 @@
                                  <imprint>
                                      <date when="1883"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1692,7 +1690,7 @@
                                  <imprint>
                                      <date when="1893"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1734,7 +1732,7 @@
                                  <imprint>
                                      <date when="1906"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb069.2">
@@ -1833,7 +1831,7 @@
                                      <pubPlace>Pickering</pubPlace>
                                      <date when="1825"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb075.2">
@@ -1866,7 +1864,7 @@
                                      <pubPlace>privately printed</pubPlace>
                                      <date when="1886"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1892,7 +1890,7 @@
                                      <pubPlace>Venesia</pubPlace>
                                      <date when="1491"/>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -1919,21 +1917,20 @@
                                      <pubPlace>Pickering</pubPlace>
                                      <date from="1830" to="1834"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="9"/>
+                                 <extent><measure unit="volumes" quantity="9"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb081">
-                         <biblStruct xml:id="sb081.1">
-                             <monogr>
+                         <bibl xml:id="sb081.1">
+                             
                                  <title>Books of Characters, Jests, Drolleries, Pennt Histories, Garlands and Chap-Books</title>
                                  <note type="description">in 1 vol. half morocco v. y.</note>
                                  <note type="etc"><num value="16"/></note>
-                                 <imprint>
-                                    <biblScope unit="volume">1</biblScope>
-                                 </imprint>
-                             </monogr>
-                         </biblStruct>
+                                 
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
+                             
+                         </bibl>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb082">
                          <biblStruct xml:id="sb082.1">
@@ -1948,7 +1945,7 @@
                                  <imprint>
                                      <date when="1884"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2032,7 +2029,7 @@
                                  <imprint>
                                      <date when="1898"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb085.2">
@@ -2303,17 +2300,15 @@
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb097">
-                         <biblStruct xml:id="sb097.1">
-                             <monogr>
+                         <bibl xml:id="sb097.1">
+                             
                                  <title>Earlier Poems <date from="1826" to="1833">1826-1833</date></title>
                                  <author>Browning, E. B.</author>
                                  <note type="description" corresp="#uncut #presentation">uncut, presentation copy, with inscription</note>
                                  <note type="inscription">A. C. Swinburne, with kind and grateful rememberances from R. H. Shepherd, 5, Hereford Square, Brompton, <date when="1897-10-30">Oct. 30, 1897</date></note>
-                                 <imprint>
-                                     <date/>
-                                 </imprint>
-                             </monogr>
-                         </biblStruct>
+                                 
+                             
+                         </bibl>
                          <biblStruct xml:id="sb097.2">
                              <monogr>
                                  <title>Prometheus Bound and other Poems</title>
@@ -2366,7 +2361,7 @@
                                  <imprint>
                                      <date when="1877"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2379,7 +2374,7 @@
                                  <imprint>
                                      <date when="1886"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb100.2">
@@ -2466,7 +2461,7 @@
                                  <imprint>
                                      <date from="1896" to="1897"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2481,7 +2476,7 @@
                                  <imprint>
                                      <date from="1868" to="1869"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2495,7 +2490,7 @@
                                  <imprint>
                                      <date when="1869"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2573,7 +2568,7 @@
                                  <imprint>
                                      <date from="1879" to="1880"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb109.2">
@@ -2628,7 +2623,7 @@
                                  <imprint>
                                      <date when="1886"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2642,7 +2637,7 @@
                                  <imprint>
                                      <date when="1899"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb112.2">
@@ -2681,7 +2676,7 @@
                                  <imprint>
                                      <date when="1830"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb113.2">
@@ -2695,7 +2690,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1829"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2727,7 +2722,7 @@
                                  <imprint>
                                      <date>n. d.</date>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2741,7 +2736,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1883"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2754,7 +2749,7 @@
                                  <imprint>
                                      <date when="1904"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb117.2">
@@ -2808,7 +2803,7 @@
                                  <imprint>
                                      <date when="1875"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -2938,7 +2933,7 @@
                                  <imprint>
                                      <date from="1898" to="1901"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="13"/>
+                                 <extent><measure unit="volumes" quantity="13"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3003,8 +2998,8 @@
                                  </imprint>
                              </monogr>
                          </biblStruct>
-                         <biblStruct xml:id="sb125.2">
-                             <monogr>
+                         <bibl xml:id="sb125.2">
+                             
                                  <title>Seventy Sonnets of Camoens, Portuguese Text and Translation, with Original Poems by J. J. Aubertin</title>
                                  <author>Camoens</author>
                                  <author>J. J. Aubertin</author>
@@ -3014,14 +3009,8 @@
                                  </respStmt>
                                  <note type="description" corresp="#presentation">presentation copy with autograph</note>
                                  <edition></edition>
-                                 <imprint>
-                                     <publisher></publisher>
-                                     <pubPlace></pubPlace>
-                                     <date/>
-                                 </imprint>
-                                 <!--<biblScope unit="volume" from="" to=""/>-->
-                             </monogr>
-                         </biblStruct>
+                             
+                         </bibl>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb126">
                          <biblStruct xml:id="sb126.1">
@@ -3041,7 +3030,7 @@
                                  <imprint>
                                      <date from="1880" to="1884"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3055,7 +3044,7 @@
                                      <pubPlace>Milano</pubPlace>
                                      <date when="1806"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3129,7 +3118,7 @@
                                  <imprint>
                                      <date when="1848"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb130.3">
@@ -3153,7 +3142,7 @@
                                  <imprint>
                                      <date from="1858" to="1865"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3186,7 +3175,7 @@
                                  <imprint>
                                      <date when="1944"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3203,7 +3192,7 @@
                                  <imprint>
                                      <date when="1881"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb133.2">
@@ -3323,7 +3312,7 @@
                                      <publisher>Pearson</publisher>
                                      <date when="1872"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3404,7 +3393,7 @@
                                  <imprint>
                                      <date when="1899"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb142.3">
@@ -3419,7 +3408,7 @@
                                  <imprint>
                                      <date when="1884"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3433,7 +3422,7 @@
                                  <imprint>
                                      <date when="1845"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3450,7 +3439,7 @@
                                  <imprint>
                                      <date when="1891"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb144.2">
@@ -3460,7 +3449,7 @@
                                  <imprint>
                                      <date when="1890"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb144.3">
@@ -3489,7 +3478,7 @@
                                      <pubPlace>Oxford</pubPlace>
                                      <date from="1894" to="1897"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="7"/>
+                                 <extent><measure unit="volumes" quantity="7"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3558,7 +3547,7 @@
                                  <imprint>
                                      <date when="1810"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3583,7 +3572,7 @@
                                  <imprint>
                                      <date when="1820"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3597,7 +3586,7 @@
                                      <pubPlace>Amst.</pubPlace>
                                      <date when="1782"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb149.2">
@@ -3620,7 +3609,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1681"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3717,7 +3706,7 @@
                                  <imprint>
                                      <date when="1884"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3784,7 +3773,7 @@
                                      <pubPlace>Oxford</pubPlace>
                                      <date when="1907"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3801,7 +3790,7 @@
                                  <imprint>
                                      <date when="1835"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb158.2">
@@ -3813,7 +3802,7 @@
                                  <imprint>
                                      <date when="1849"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3855,7 +3844,7 @@
                                  <imprint>
                                      <date when="1820"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -3907,7 +3896,7 @@
                                  <imprint>
                                      <date when="1876"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb163.3">
@@ -3968,7 +3957,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1821"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="12"/>
+                                 <extent><measure unit="volumes" quantity="12"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4015,23 +4004,21 @@
                                  <imprint>
                                      <date when="1830"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb169">
-                         <biblStruct xml:id="sb169.1a">
-                             <monogr>
+                         <bibl xml:id="sb169.1a">
+                             
                                  <title>Poetical Works, with his Letters, Journals and Life, by his Son</title>
                                  <author>Crabbe, Geo.</author>
                                  <note type="description" corresp="#uncut #presentation">frontispieces and rignettes, uncut, presentation copy, with autograph inscription</note>
                                  <note type="inscription">Algernon Charles Swinburne, from Theodore Watts Dunton, <date when="1898-04-05">Ap. 5/98</date></note>
-                                 <imprint>
-                                     <date/>
-                                 </imprint>
-                                 <biblScope unit="volume" from="1" to="8"/>
-                             </monogr>
-                         </biblStruct>
+                                 
+                                 <extent><measure unit="volumes" quantity="8"/></extent>
+                             
+                         </bibl>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb170">
                          <biblStruct xml:id="sb170.1">
@@ -4087,7 +4074,7 @@
                                  <imprint>
                                      <date from="1699" to="1704"/>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb172.3">
@@ -4171,7 +4158,7 @@
                                  <respStmt>
                                      <resp>selected by</resp>
                                      <resp>edited by</resp>
-                                     <name>A. Beatty</name>
+                                     <name>A. Beatty</name>    
                                  </respStmt>
                                  <note type="description">portrait, limp morocco, t. e. g. ib. presentation copies to Swinburne, with autograph incriptions</note>
                                  <imprint>
@@ -4230,7 +4217,7 @@
                                  <imprint>
                                      <date when="1876"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb179.2">
@@ -4259,7 +4246,7 @@
                                      <publisher>Pickering</publisher> <!-- Could be place? -->
                                      <date when="1826"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4276,7 +4263,7 @@
                                  <imprint>
                                      <date when="1890"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4350,7 +4337,7 @@
                                      <publisher>Pearson</publisher>
                                      <date when="1873"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4402,7 +4389,7 @@
                                  <imprint>
                                      <date when="1887"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4435,7 +4422,7 @@
                                  <imprint>
                                      <date when="1826"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4449,7 +4436,7 @@
                                  <imprint>
                                      <date from="1902" to="1903"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="19"/>
+                                 <extent><measure unit="volumes" quantity="19"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4534,7 +4521,7 @@
                                  <imprint>
                                      <date when="1875"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4579,7 +4566,7 @@
                                  <imprint>
                                      <date from="1874" to="1876"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="15"/>
+                                 <extent><measure unit="volumes" quantity="15"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4619,7 +4606,7 @@
                                      <publisher>Basil. Oporinus</publisher> <!-- Unsure. -->
                                      <date when="1547"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4637,7 +4624,7 @@
                                      <pubPlace>Edinb.</pubPlace>
                                      <date from="1873" to="1879"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="14"/>
+                                 <extent><measure unit="volumes" quantity="14"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4650,7 +4637,7 @@
                                  <imprint>
                                      <date when="1876"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb200.2">
@@ -4661,7 +4648,7 @@
                                  <imprint>
                                      <date when="1830"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb200.3">
@@ -4679,7 +4666,7 @@
                                      <publisher>Bohn</publisher> <!-- Unsure. -->
                                      <date when="1863"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4692,7 +4679,7 @@
                                  <imprint>
                                      <date when="1800"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4706,7 +4693,7 @@
                                      <pubPlace>Edinb.</pubPlace>
                                      <date from="1882" to="1893"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="18"/>
+                                 <extent><measure unit="volumes" quantity="18"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4721,7 +4708,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1894"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4736,7 +4723,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1894"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4751,7 +4738,7 @@
                                      <pubPlace>Bruxelles</pubPlace>
                                      <date when="1852"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="26"/>
+                                 <extent><measure unit="volumes" quantity="26"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4763,7 +4750,7 @@
                                  <imprint>
                                      <date when="1869"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb206.2">
@@ -4785,7 +4772,7 @@
                                  <imprint>
                                      <date when="1890"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4799,7 +4786,7 @@
                                  <imprint>
                                      <date from="1719" to="1720">n. d.</date>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4849,7 +4836,7 @@
                                  <imprint>
                                      <date from="1905" to="1908"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="12"/>
+                                 <extent><measure unit="volumes" quantity="12"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4913,7 +4900,7 @@
                                  <imprint>
                                      <date when="1893"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="10"/>
+                                 <extent><measure unit="volumes" quantity="10"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb212.2">
@@ -4924,7 +4911,7 @@
                                  <imprint>
                                      <date when="1867"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -4936,7 +4923,7 @@
                                  <imprint>
                                      <date>n. d.</date>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb213.2">
@@ -4947,7 +4934,7 @@
                                  <imprint>
                                      <date>n. d.</date>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb213.3">
@@ -4962,7 +4949,7 @@
                                  <imprint>
                                      <date when="1880"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5067,7 +5054,7 @@
                                  <imprint>
                                      <date from="1879" to="1882"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="10"/>
+                                 <extent><measure unit="volumes" quantity="10"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5080,7 +5067,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1864"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb218.2">
@@ -5289,7 +5276,7 @@
                                  <imprint>
                                      <date when="1749"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="6"/>
+                                 <extent><measure unit="volumes" quantity="6"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5303,7 +5290,7 @@
                                  <imprint>
                                      <date when="1752"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5317,7 +5304,7 @@
                                  <imprint>
                                      <date when="1882"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="10"/>
+                                 <extent><measure unit="volumes" quantity="10"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5355,7 +5342,7 @@
                                  <imprint>
                                      <date when="1830"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb232.2">
@@ -5367,7 +5354,7 @@
                                  <imprint>
                                      <date when="1812"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb232.3">
@@ -5422,7 +5409,7 @@
                                  <imprint>
                                      <date when="1827"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5439,7 +5426,7 @@
                                  <imprint>
                                      <date when="1895"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5452,7 +5439,7 @@
                                  <imprint>
                                      <date when="1871"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5507,7 +5494,7 @@
                                  <imprint>
                                      <date when="1891"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb238.2">
@@ -5519,7 +5506,7 @@
                                  <imprint>
                                      <date when="1847"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5601,7 +5588,7 @@
                                      
                                      <date when="1899"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb243.2">
@@ -5690,7 +5677,7 @@
                                  <imprint>
                                      <date when="1906"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="8"/>
+                                 <extent><measure unit="volumes" quantity="8"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5768,8 +5755,8 @@
                                  <title>The Thames from its Rise to the Nore</title>
                                  <author>Armstrong, Walter</author>
                                  <note type="description">2 vol. in 1, illustrations, half morocco, g. e.</note>
-                                 <imprint><date>n. d.</date></imprint>  
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <imprint><date>n.d.</date></imprint>  
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -5838,7 +5825,7 @@
                                      <pubPlace>Florent.</pubPlace>
                                      <date when="1574"/>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb254.3">
@@ -6063,7 +6050,7 @@
                                      <pubPlace>Edinb.</pubPlace>
                                      <date when="1874"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6316,7 +6303,7 @@
                                  <imprint>
                                      <date when="1879"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6497,7 +6484,7 @@
                                  <imprint>
                                      <date when="1878"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="4"/>
+                                 <extent><measure unit="volumes" quantity="4"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6515,7 +6502,7 @@
                                      <publisher>Spenser Society</publisher>
                                      <date from="1885" to="1896"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6528,7 +6515,7 @@
                                  <imprint>
                                      <date from="1885" to="1896"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6667,7 +6654,7 @@
                                  <imprint>
                                      <date when="1872"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6722,7 +6709,7 @@
                                  <imprint>
                                      <date when="1692"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6738,7 +6725,7 @@
                                      <publisher xml:lang="it">Pisa dalla Typografia della Società Letteraria</publisher>
                                      <date when="1809"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6761,7 +6748,7 @@
                                      <date when="1620"/>
                                      <date from="1629" to="1629"/>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6835,7 +6822,7 @@
                                      <pubPlace>Venet.</pubPlace>
                                      <date when="1525"/>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6850,7 +6837,7 @@
                                      <publisher>Cam. J. Field</publisher> <!-- Check -->
                                      <date when="1660"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6891,19 +6878,19 @@
                                      <publisher>Argent. G. Husner</publisher>
                                      <date when="1479">c. 1479</date>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb309.2">
                              <monogr>
                                  <title>De Casibus Virorum illustrium</title>
                                  <author>Boccaccio, Giov.</author>
-                                 <note type="description">149 leaves, lit. goth, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, g. e. last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque notæ</foreign></note>
+                                 <note type="description">149 leaves, lit. goth, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, g. e. last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque <choice><orig>notæ</orig><reg>notae</reg></choice></foreign></note>
                                  <imprint>
                                      <publisher>Argent. G. Husner</publisher>
                                      <date when="1479">c. 1479</date>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -6947,7 +6934,7 @@
                                      <pubPlace>Paris</pubPlace>
                                      <date from="1858" to="1867"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="10"/>
+                                 <extent><measure unit="volumes" quantity="10"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb312.2">
@@ -6959,7 +6946,7 @@
                                  <imprint>
                                      <date when="1820"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="5"/>
+                                 <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -7116,7 +7103,7 @@
                                      <pubPlace></pubPlace>
                                      <date/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -7172,7 +7159,7 @@
                                      <pubPlace></pubPlace>
                                      <date from="1544" to="1551"/>
                                  </imprint>
-                                 <biblScope unit="volume">1</biblScope>
+                                 <extent><measure unit="volumes" quantity="1"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
@@ -7192,7 +7179,7 @@
                                      <pubPlace></pubPlace>
                                      <date when="1874"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="2"/>
+                                 <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
                          </biblStruct>
                          <biblStruct xml:id="sb319.2">
@@ -7249,7 +7236,7 @@
                                      <pubPlace></pubPlace>
                                      <date when="1857"/>
                                  </imprint>
-                                 <biblScope unit="volume" from="1" to="3"/>
+                                 <extent><measure unit="volumes" quantity="3"/></extent>
                              </monogr>
                          </biblStruct>
                      </listBibl>
