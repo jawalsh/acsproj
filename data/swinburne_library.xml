@@ -33,23 +33,21 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <tagsDecl>
-                <namespace name="uncut" xml:id="uncut">
-                    <tagUsage gi="uncut">An item which has the word uncut listed in its description,
-                    even if the cutting is listed as partial.</tagUsage>
-                </namespace>
-                <namespace name="presentation" xml:id="presentation">
-                    <tagUsage gi="presentation">Any presentation copy.</tagUsage>
-                </namespace>
-                <namespace name="etc" xml:id="etc">
-                    <tagUsage gi="etc"></tagUsage>
-                </namespace>
-            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="biblFeatures" >
+                    <bibl><title>Bibliographic Features</title></bibl>
+                    <category xml:id="uncut">
+                        <catDesc>uncut pages</catDesc>
+                    </category>
+                    <category xml:id="presentation">
+                        <catDesc>presenation copy</catDesc>
+                    </category>
+                </taxonomy> 
+            </classDecl>
         </encodingDesc>
     </teiHeader>
     <text>
         <body>
-            
            <!-- Day 1 -->      
            <div type="day" n="1">
              <div type="size" n="octavo">
@@ -7473,7 +7471,7 @@
                     <monogr>
                         <title></title>
                         <author></author>
-                        <respStmt>
+                        <respStmt>-=
                             <resp></resp>
                             <name></name>
                         </respStmt>

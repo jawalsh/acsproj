@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
-?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000002-01-md">
+?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000002-02-md">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +47,7 @@
          <div xml:id="texts">
             <head>texts</head>
             <listBibl>
-               <biblStruct n="original_collection" xml:id="acs0000002-01-bibl">
+               <biblStruct n="original_collection" xml:id="acs0000002-02-bibl">
                      <analytic>
                         <author>
                            <persName key="acs">Swinburne, Algernon Charles</persName>
@@ -59,7 +59,7 @@
                            <pubPlace> London </pubPlace>
                            <publisher>Chatto &amp; Windus</publisher>
                            <date when="1905" xml:id="sort_date"/>
-                           <biblScope unit="volume">1</biblScope>
+                           <biblScope unit="volume">2</biblScope>
                         </imprint>
                         <extent>5 vols.</extent>
                      </monogr>
