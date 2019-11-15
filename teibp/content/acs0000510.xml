@@ -5,6 +5,7 @@ type="compact" ?>
 <!DOCTYPE TEI [
 <!ENTITY wd_ '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
 <!ENTITY shd '<choice><abbr>shd</abbr><expan>should</expan></choice>'>
+<!ENTITY Shd '<choice><abbr>Shd</abbr><expan>Should</expan></choice>'>
 <!ENTITY title 'Ashley MS 5263: Erechtheus'>
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
@@ -1070,7 +1071,7 @@ type="compact" ?>
 						<l>Brief be my life, <subst><del seq="1">but</del><add seq="2" place="above">yet so</add></subst> long<del><unclear cert="high">er</unclear></del> live my thanks.</l>
 					</lg>
 				</sp>
-				<sp>
+				<note place="left" resp="#acs"><del>190</del></note><sp>
 					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>So long? so little; how ⁁ <add place="above">long</add> shall they live <del><unclear cert="low">love</unclear></del>?</l>
@@ -1130,11 +1131,11 @@ type="compact" ?>
 				<sp>
 					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l>Well, but not more than all things, love I life.</l>
+						<l><subst><del seq="1">Fain &wd; I live, &amp; fain not fear</del><add seq="2" place="above"><add place="above">Well, but</add> <subst><del seq="1">N</del><add seq="2" place="above">n</add></subst>ot more than all things, love I life.</add></subst></l>
 					</lg>
 				</sp>
 
-				<sp>
+				<note place="left" resp="#acs"><del>200</del></note><sp>
 					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>And fain wouldst keep it as thine age allows?</l>
@@ -1143,50 +1144,50 @@ type="compact" ?>
 				<sp>
 					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l>Fain would I live, &amp; fain not fear to die.</l>
+						<l>Fain would I <del><unclear cert="medium">lif</unclear></del> live, &amp; fain <subst><del seq="1">&wd;</del><add seq="2" place="above">not</add></subst> fear <subst><del seq="1">not death</del><add seq="2" place="above">to die</add></subst>.</l>
 					</lg>
 				</sp>
 				<sp>
 					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>That I might bid thee die not! Peace; no more.</l>
+						<l>That I might bid thee <del>live <gap extent="1-2 characters" unit="chars" atLeast="1" atMost="2"/><note resp="#jawalsh">There appears to be one or more charactesr after <q>live</q>.</note></del> die not! Peace; no more.</l><label>420</label>
 					</lg>
 				</sp>
 				<sp>
 					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
 						<l>A godlike race of grief the Gods have set</l>
-						<l>For these to run matched equal, heart with heart.</l>
+						<l>For these to run matched <del>heart</del> equal, heart with heart.</l>
 					</lg>
 				</sp>
 				<sp>
 					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>Child of the chief of Gods, &amp; maiden crowned,</l>
+						<l>Child of the chief of Gods, a<add place="below">nd</add> maiden crowned,</l>
 						<l>Queen of these towers &amp; fostress of their king,</l>
 						<l>Pallas, &amp; thou my father’s holiest head,</l>
-						<l>A living well of life nor stanched nor stained,</l>
-						<l>O god Cephisus, thee too charge I next,</l>
+						<l>A living well of life <del><unclear cert="low">to</unclear> <gap extent="1-2 words" unit="chars" atLeast="11"/></del><note resp="#jawalsh">Unclear word looks like <emph>unwearable</emph>, but that doesn't make sense and isn't used elswhere in S.</note><add place="above"><del>unstauchned not</del> nor stanched nor stained,</add></l>
+						<l>O god Cephisus, th<subst><del seq="1">ou</del><add seq="2" place="overwritten">ee</add></subst> ⁁ <add place="above">too <del><unclear cert="low">must</unclear></del></add> <del>&amp; I</del> charge I <subst><del seq="1">as <unclear cert="medium">her</unclear></del><add seq="2" place="above">next</add></subst></l>
 						<l>Be to me judge &amp; witness; nor thine ear</l>
 						<l>Shall now my tongue invoke not, thou to me</l>
-						<l>Most hateful of things holy, mournfullest</l>
-						<l>Of all old sacred streams that wash the world,</l>
+						<l>Most hateful of things holy, mournfullest</l><label>430</label>
+						<l>Of all <subst><del seq="1"><unclear cert="low">our</unclear></del><add seq="2" place="above">old</add></subst> sacred streams that wash the world,</l>
 						<l>Ilissus, on whose marge at flowery play</l>
 						<l>A whirlwind-footed bridegroom found my child</l>
 						<l>And rapt her northward where mine elder-born</l>
-						<l>Keeps now the Thracian bride-bed of a god</l>
-						<l>Intolerable to seamen, but this land</l>
+						<l><subst><del seq="1">Fills</del><add seq="2" place="above">Keeps</add></subst> now the Thracian bride-bed of a god</l>
+						<l>Intolerable to seamen, <subst><del seq="1">yet</del><add seq="2" place="above">but</add></subst> this land</l>
 						<l>Finds him in hope for her sake favourable,</l>
 						<l>A gracious son by wedlock; hear me then</l>
 						<l>Thou likewise, if with no faint heart or false</l>
-						<l>The word I say be said, the gift be given,</l>
-						<l>Which might I choose I had rather die than give</l>
-						<l>Or speak &amp; die not. Ere thy limbs were made</l>
+						<l>The word I <subst><del seq="1">speak</del><add seq="2" place="above">say</add></subst> be said, the gift be given,</l><label>440</label>
+						<l>Which might I choose I had rather ⁁ <add place="above">die</add> than give</l>
+						<l>Or speak &amp; die not<subst><del seq="1">straight.</del><add seq="2" place="above">.</add></subst> Ere thy limbs were made</l>
 
 						<l>Or thine eyes lightened, strife, thou knowest, my child,</l>
 						<l>’Twixt god &amp; god had risen, which heavenlier name</l>
-						<l>Should here stand hallowed, whose more liberal grace</l>
-						<l>Should win this city’s worship, &amp; our land</l>
+						<l>&Shd; here stand hallowed, <del>&amp;</del> whose <del>mi</del> more liberal grace</l>
+						<l><subst><del seq="1"><unclear cert="medium">Th</del><add seq="2" place="above">&Shd;</add></subst> win this <gap reason="cancelled" extent="1-2 characters" unit="chars" atLeast="1" atMost="2"/> city’s worship, &amp; our land.<!-- paused. Finish line. --></l>
 						<l>To which of these do reverence; first the lord</l>
 						<l>Whose wheels make lightnings of the foam-flowered sea</l>
 						<l>Here on this rock, whose height brow-bound with dawn</l>
