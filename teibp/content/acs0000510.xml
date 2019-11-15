@@ -3,7 +3,7 @@
 type="compact" ?>
 <?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
 <!DOCTYPE TEI [
-<!ENTITY wd_ '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
+<!ENTITY wd '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
 <!ENTITY shd '<choice><abbr>shd</abbr><expan>should</expan></choice>'>
 <!ENTITY Shd '<choice><abbr>Shd</abbr><expan>Should</expan></choice>'>
 <!ENTITY title 'Ashley MS 5263: Erechtheus'>
@@ -336,7 +336,7 @@ type="compact" ?>
 					<l><subst>
 							<del seq="1">With glittering <unclear cert="medium"
 								>portals</unclear><!-- carot underneath portals --></del>
-							<add seq="2" place="above"><subst>⁁
+						<add seq="2" place="above">⁁<subst>
 									<del seq="1"><gap extent="2 words" unit="chars" atLeast="8"
 										/></del>
 									<add seq="2" place="above">As to</add>
@@ -680,7 +680,7 @@ type="compact" ?>
 						<label><del>E.</del></label><l>O daughter of Cephisus, from all time</l>
 						<l>Wise have I found thee, wife &amp; queen, of heart</l>
 						<l>Perfect; nor in the days that knew not wind</l>
-						<l>Nor days when storm blew death <subst><del seq="1">on</del> <add place="inline" seq="2">upon</add></subst> our peace</l>/
+						<l>Nor days when storm blew death <subst><del seq="1">on</del> <add place="inline" seq="2">upon</add></subst> our peace</l>
 						<l>Was thine heart <subst><del seq="1">great or swoln</del><add seq="2" place="above">swoln</add></subst> with ⁁ <add place="above"><subst><del seq="1">child</del><add seq="2" place="above">seed</add></subst> of</add> pride, <subst><del seq="1">thy <unclear cert="high">mind</unclear></del><add seq="2" place="above">or bowed</add></subst></l>
 						<l><subst><del seq="1">Exalt</del><add seq="2" place="above">With</add></subst> blasts of ⁁ <add place="above">bitter</add> fear that break men’s souls</l>
 						<l>Who lift too high their <subst><del seq="1">thoughts</del><add seq="2" place="above"><del seq="3">heads</del></add><add seq="4" place="below">minds</add></subst> toward heaven, <subst><del seq="1">in</del><add seq="2" place="above"><del seq="3">or</del></add><add seq="4" place="above">in</add></subst> thought</l>
@@ -842,7 +842,7 @@ type="compact" ?>
 					</lg>
 				</sp>
 				<sp>
-					<label><del>60</del></label><speaker rendition="#left #inline">P.</speaker>
+					<note resp="#acs"><del>60</del></note><speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>What stain is on them for thy tears to cleanse?</l>
 					</lg>
@@ -924,10 +924,10 @@ type="compact" ?>
 						<l>One soul for all this people; from thy womb</l><label>340</label>
 						<l>Came forth the seed that here on dry bare ground</l>
 						<l>Death’s hand must sow untimely, to bring forth</l>
-						<l>Nor blade nor <del><gap unit="char" atLeat="1" atMost="1"/></del> shoot <subst><del seq="1"><unclear cert="low">for</unclear></del><add seq="2" place="inline">in</add></subst>in season, being by name</l>
+						<l>Nor blade nor <del><gap unit="char" atLeast="1" atMost="1"/></del> shoot <subst><del seq="1"><unclear cert="low">for</unclear></del><add seq="2" place="inline">in</add></subst>in season, being by name</l>
 						<l>To the under gods made holy, who require</l>
 						<l>For this land’s life her death &amp; maiden blood</l>
-						<l>To save a maiden city. Thus I heard,</l>leave thee
+						<l>To save a maiden city. Thus I heard,</l>
 						<l>And <del>saying</del> thus <add place='above'>with</add> all <subst><del seq="1"><unclear cert="medium">is sai</unclear></del><add seq="2" place="above">said</add></subst> <del><unclear cert="low">pass</unclear></del> leave thee; <subst><del seq="1"><unclear cert="low">word</unclear> as <unclear cert="low">I</unclear></del><add seq="2" place="above">for <del>of all</del></add><add seq="3"><del>of all</del></add></subst>for <subst><del seq="1">no word</del><add seq="2" place="above">save this</add></subst></l>
 						<pb n="13r"/>
 						<fw><del>13</del></fw>
@@ -942,7 +942,7 @@ type="compact" ?>
 				n="[Stasimon 2: He hath uttered too surely his wrath not obscurely...]">
 				<sp>
 				
-					<label><unclear cert="low">San</unclear></label><note resp="jawalsh">I do not know what this label is. In printed text, this is a spoken by the Chorus. The label is in a similar position as the other marginal speaker identifiers. I don't know what San. would be, and it doesn't make sense as a speaker label since the next stanza is labeled the same.</note><lg>
+					<speaker><unclear cert="low">San</unclear></speaker><note resp="jawalsh">I do not know what this label is. In printed text, this is a spoken by the Chorus. The label is in a similar position as the other marginal speaker identifiers. I don't know what San. would be, and it doesn't make sense as a speaker label since the next stanza is labeled the same.</note><lg>
 						<l>He hath uttered too surely his wrath not obscurely, nor wrapt as in <subst><del seq="1">cloud</del><lb/><add seq="2" place="inline">mists</add></subst>
 							of his breath,</l>
 						<l>The master that lightens not hearts he enlightens, but gives them
@@ -955,7 +955,7 @@ type="compact" ?>
 							say,</l>
 						<l rendition="#ti-2"><subst><del seq="1">Shown</del><add seq="2" place="above">Born</add></subst> of <subst><del seq="1"><unclear cert="medium">the</unclear> gloom over</del><add seq="2" place="below">a gloom more dark</add><add place="above" seq="3"><subst><del seq="1">a</del><add seq="2" place="inline">the</add></subst> womb that <subst><del seq="1">is</del><add seq="2" place="inline">was</add></subst></add></subst> born for the tomb of the day?</l>
 						</lg>
-						<label><unclear cert="low">San</unclear></label><label><unclear cert="low">San</unclear></label><note resp="jawalsh">I do not know what this label is. In printed text, this is a spoken by the Chorus. The label is in a similar position as the other marginal speaker identifiers. I don't know what San. would be, and it doesn't make sense as a speaker label since the previous stanza is labeled the same.</note><lg>
+						<note><unclear cert="low">San</unclear></note><note><unclear cert="low">San</unclear></note><note resp="jawalsh">I do not know what this label is. In printed text, this is a spoken by the Chorus. The label is in a similar position as the other marginal speaker identifiers. I don't know what San. would be, and it doesn't make sense as a speaker label since the previous stanza is labeled the same.</note><lg>
 						<l>
 							<milestone rendition="#i" n="Ant." unit="antistrophe"/>O Night, <del><unclear cert="low">h</unclear></del> whom
 							other but thee for mother, <subst><del seq="1">to bear <unclear cert="high">as</unclear> thy</del><add seq="2" place="above"><subst><del seq="1">&amp; death</del><add seq="2" place="above">&amp; death</add><add seq="3" place="below">death</add></subst> for <subst><del seq="1">the</del><add seq="2" place="above">the</add></subst></add></subst> father, <subst><del seq="1">but</del><add seq="2" place="above">Night,</add></subst></l>
@@ -987,7 +987,7 @@ type="compact" ?>
 						<l><add place="below">Toward mine</add><subst><del seq="1"><unclear cert="high">Soft</unclear></del><add seq="2" place="above"><subst><del seq="1">T</del><add seq="2" place="above">t</add></subst>hy</add></subst> sorrow-muffled <del>sightless</del> eyes &amp; speak;</l>
 						<!-- paused. -->
 						<pb n="13v"/>
-						<l>And till thy will be &wd_; I know this not.</l>
+						<l>And till thy will be &wd; I know this not.</l>
 					</lg>
 				</sp>
 				<sp>
@@ -1023,7 +1023,7 @@ type="compact" ?>
 						(<sp><speaker rendition="inline">Athena.</speaker> 
 						<lg>
 						<l>For this of yours &amp; this of mine shall be</l>
-						<l><subst><del seq="1">The whole world’s</del><hi rendition="sub">⁁</hi><add seq="2" place="above">Man’s <del>chief</del> chosen chief <note resp="jawalsh">vertical line, somewhat resembling a close parentheses mark, following <hi rendition="#i">chief</hi>.</note></add></subst> country, <subst><del seq="1">the</del><hi rendition="sub">⁁</hi><add seq="2" place="above">&amp; earth’s</add></subst> one crown of all,<del>’)</del></l>
+							<l><subst><del seq="1">The whole world’s</del><add seq="2" place="above"><hi rendition="#sub">⁁</hi>Man’s <del>chief</del> chosen chief <note resp="jawalsh">vertical line, somewhat resembling a close parentheses mark, following <hi rendition="#i">chief</hi>.</note></add></subst> country, <subst><del seq="1">the</del><add seq="2" place="above"><hi rendition="#sub">⁁</hi>&amp; earth’s</add></subst> one crown of all,<del>’)</del></l>
 						<l><subst><del seq="1">All good men’s</del><add seq="2" place="precedinginline"><unclear cert="high">Athens’</unclear></add></subst></l>
 </lg></sp>
 						</note>
@@ -1052,7 +1052,7 @@ type="compact" ?>
 				</sp>
 				<sp>
 					<speaker rendition="#left #inline">C.</speaker>
-					<lg><delSpan target="#anch001"/>
+					<lg><delSpan spanTo="#anch001"/>
 						<l>Praised be his goodwill toward me all</l>
 						<l>Great thank from me be toward <del>him</del></l><anchor xml:id="anch001"/>
 						<l>Thanks all my life long shall he <subst><del seq="1">have</del><add seq="2" place="above">gain</add></subst> of mine.</l>
@@ -1107,7 +1107,7 @@ type="compact" ?>
 						<l>Nay, for me well, if thou shalt live, not I.</l>
 					</lg>
 				</sp>
-				<addSpan target="#anch002" place="margin"/>
+				<addSpan spanTo="#anch002" place="margin"/>
 				<note resp="#jawalsh">Two lines added in right margin, bounded on left and right by open angle-bracket insertion marks.</note> 
 				<sp>
 					<speaker rendition="#left #inline">P.</speaker>
@@ -1131,7 +1131,7 @@ type="compact" ?>
 				<sp>
 					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l><subst><del seq="1">Fain &wd; I live, &amp; fain not fear</del><add seq="2" place="above"><add place="above">Well, but</add> <subst><del seq="1">N</del><add seq="2" place="above">n</add></subst>ot more than all things, love I life.</add></subst></l>
+<l><subst><del seq="1">Fain &wd; I live, &amp; fain not fear</del><add seq="2" place="above"><add place="above">Well, but</add> <subst><del seq="1">N</del><add seq="2" place="above">n</add></subst>ot more than all things, love I life.</add></subst></l>
 					</lg>
 				</sp>
 
@@ -1187,7 +1187,7 @@ type="compact" ?>
 						<l>Or thine eyes lightened, strife, thou knowest, my child,</l>
 						<l>’Twixt god &amp; god had risen, which heavenlier name</l>
 						<l>&Shd; here stand hallowed, <del>&amp;</del> whose <del>mi</del> more liberal grace</l>
-						<l><subst><del seq="1"><unclear cert="medium">Th</del><add seq="2" place="above">&Shd;</add></subst> win this <gap reason="cancelled" extent="1-2 characters" unit="chars" atLeast="1" atMost="2"/> city’s worship, &amp; our land.<!-- paused. Finish line. --></l>
+						<l><subst><del seq="1"><unclear cert="medium">Th</unclear></del><add seq="2" place="above">&Shd;</add></subst> win this <gap reason="cancelled" extent="1-2 characters" unit="chars" atLeast="1" atMost="2"/> city’s worship, &amp; our land.<!-- paused. Finish line. --></l>
 						<l>To which of these do reverence; first the lord</l>
 						<l>Whose wheels make lightnings of the foam-flowered sea</l>
 						<l>Here on this rock, whose height brow-bound with dawn</l>
