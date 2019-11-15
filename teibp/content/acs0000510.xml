@@ -5,12 +5,13 @@ type="compact" ?>
 <!DOCTYPE TEI [
 <!ENTITY wd_ '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
 <!ENTITY shd '<choice><abbr>shd</abbr><expan>should</expan></choice>'>
+<!ENTITY title 'Ashley MS 5263: Erechtheus'>
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Erechtheus: Ashley MS 5263</title>
+				<title>&title;</title>
 				<author>
 					<persName key="acs" xml:id="acs">Swinburne, Algernon Charles</persName>
 				</author>
@@ -1037,124 +1038,129 @@ type="compact" ?>
 				</sp>
 				<!-- paused. -->
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">Chth.</speaker>
 					<lg>
-						<l>That sight some god keep from me though I die.</l>
+						<l>That sight <subst><del seq="1">the</del><add seq="2" place="above">some</add></subst> god<del>s</del> keep from me <subst><del seq="1">quick or <unclear cert="medium">dea</unclear></del><add seq="2" place="above">tho’ I die.</add></subst></l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>A god from thee shall keep it; fear not this.</l>
+						<l>A god <add place="above">from thee</add> shall keep it; fear not this.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
-					<lg>
-						<l>Thanks all my life long shall he gain of mine.</l>
+					<speaker rendition="#left #inline">C.</speaker>
+					<lg><delSpan target="#anch001"/>
+						<l>Praised be his goodwill toward me all</l>
+						<l>Great thank from me be toward <del>him</del></l><anchor xml:id="anch001"/>
+						<l>Thanks all my life long shall he <subst><del seq="1">have</del><add seq="2" place="above">gain</add></del> of mine.</l>
 					</lg>
 				</sp>
 
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>Short gain of all yet shall he get of thee.</l>
+						<l>Short gain of all <subst><del seq="1">&amp; <gap extent="1 word" unit="chars" atLeast="4" atMost="5" reason="illegible"/> thy <gap extent="1 word" unit="chars" atLeast="4" atMost="6" reason="illegible"/> shall</del><add seq="2" place="above"><del seq="3">&amp; profitless for thee</del></add><add seq="4" place="below">yet shall <del>thy</del> he get of thee.</add></subst></l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l>Brief be my life, yet so long live my thanks.</l>
+						<l>Brief be my life, <subst><del seq="1">but</del><add seq="2" place="above">yet so</add></subst> long<del><unclear cert="high">er</unclear></del> live my thanks.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>So long? so little; how long shall they live?</l>
+						<l>So long? so little; how ⁁ <add place="above">long</add> shall they live <del><unclear cert="low">love</unclear></del>?</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l>Even while I see the sunlight &amp; thine eyes.</l>
+						<l>Even while I see the sun<subst><del seq="1">shine</del><add seq="2" place="above">light</add></subst> &amp; th<subst><del seq="1">y</del><add seq="2" place="below">ine</add></subst> <subst><del seq="1"><unclear cert="medium">face</unclear>.</del><add seq="2" place="below">eyes.</add></subst></l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>Would mine might shut ere thine upon the sun.</l>
+						<l>Would mine <del><unclear cert="high">ere thine</unclear></del>might shut ere thine <subst><del seq="1">against</del><add seq="2" place="above">upon</add></subst> the sun.</l><label>410</label>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l>For me thou prayest unkindly; change that prayer.</l>
+						<l>For me<add place="above"><del>Not well</del></add> thou prayest unkindly; change that prayer.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>Not well for me thou sayest, &amp; ill for thee.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
 						<l>Nay, for me well, if thou shalt live, not I.</l>
 					</lg>
 				</sp>
+				<addSpan target="#anch002" place="margin"/>
+				<note resp="#jawalsh">Two lines added in right margin, bounded on left and right by open angle-bracket insertion marks.</note> 
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
-						<l>How live, &amp; lose these loving looks of thine?</l>
+						<l>How live, &amp; lose these loving <lb/><subst><del seq="1">eyes</del><add seq="2" place="below">looks</add></subst> of thine?</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
-						<l>It seems I too, thus praying, then, love thee not.</l>
+						<l><gap reason="cancelled" unit="chars" atLeast="1" atMost="2"/>It seems I too thus <lb/>praying, then, <lb/>love thee not.</l>
+					</lg>
+				</sp>
+				<anchor xml:id="anch002"/>
+				<sp>
+					<speaker rendition="#left #inline">P.</speaker>
+					<lg>
+						<l><subst><del seq="1">How live, &amp; look <subst><del seq="1">not in the</del><add seq="2">on no</add></subst> child’s eyes alive?</del><add seq="2" place="above">Lov’st thou not life? what wouldst thou do to die?</add></subst></l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
-					<lg>
-						<l>Lov’st thou not life? what wouldst thou do to die?</l>
-					</lg>
-				</sp>
-				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
 						<l>Well, but not more than all things, love I life.</l>
 					</lg>
 				</sp>
 
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>And fain wouldst keep it as thine age allows?</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHTHONIA</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
 						<l>Fain would I live, &amp; fain not fear to die.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>That I might bid thee die not! Peace; no more.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">CHORUS</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
 						<l>A godlike race of grief the Gods have set</l>
 						<l>For these to run matched equal, heart with heart.</l>
 					</lg>
 				</sp>
 				<sp>
-					<speaker rendition="#center #small">PRAXITHEA</speaker>
+					<speaker rendition="#left #inline">P.</speaker>
 					<lg>
 						<l>Child of the chief of Gods, &amp; maiden crowned,</l>
 						<l>Queen of these towers &amp; fostress of their king,</l>
@@ -1300,7 +1306,7 @@ type="compact" ?>
 			<div xml:id="df0974" type="stasimon"
 				n="[Stasimon 3: Out of the north wind grief came forth...]">
 				<sp>
-					<speaker rendition="#center #small">CHORUS</speaker>
+					<speaker rendition="#left #inline">C.</speaker>
 					<lg>
 						<l rendition="#ti-1">Out of the north wind grief came forth, <label type= "strophe ">str. 1</label></l>
 						<l rendition="#ti-2">And the shining of a sword out of the sea.</l>
