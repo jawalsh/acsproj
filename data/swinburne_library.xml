@@ -479,7 +479,7 @@
                                  <resp>edited by</resp>  
                                  <name>G.F. Armstrong</name>
                              </respStmt>
-                             <note type="etc">some presentation copies to Swinburne with inscriptions<num value="5"/></note>
+                             <note type="etc" corresp="#presentation">some presentation copies to Swinburne with inscriptions<num value="5"/></note>
                              <imprint>
                                  <date when="1877"/>
                              </imprint>
@@ -549,8 +549,7 @@
                          <monogr>
                              <title>Leading Cases done into English</title>
                              <author>Pollack, Sir F.</author>
-                             <note type="etc">etc</note>
-                             <note type="etc">and others, some presentation copes to Swinburne with inscriptions<num value="30"/></note>
+                             <note type="etc" corresp="#presentation">and others, some presentation copes to Swinburne with inscriptions<num value="30"/></note>
                              <imprint>
                                  <date when="1892"/>
                              </imprint>
@@ -777,7 +776,7 @@
                          <monogr>
                              <title>The North Shore Watch and other Poems</title>
                              <author>Woodberry, G.E.</author>
-                             <note type="etc">and others, some presentation copies to Swinburne with inscriptions<num value="12"/></note>
+                             <note type="etc" corresp="#presentation">and others, some presentation copies to Swinburne with inscriptions<num value="12"/></note>
                              <imprint>
                                  <date when="1890"/>
                              </imprint>
@@ -3404,7 +3403,7 @@
                                      <resp>preface by</resp> <!-- Check for consistency with other items. -->
                                      <name>A. H. Bullen</name>
                                  </respStmt>
-                                 <note type="etc">some presentation copies to Swinburne with inscriptions<num value="12"/></note>
+                                 <note type="etc" corresp="#presentation">some presentation copies to Swinburne with inscriptions<num value="12"/></note>
                                  <imprint>
                                      <date when="1884"/>
                                  </imprint>
@@ -5097,7 +5096,7 @@
                              <monogr>
                                  <title>A Novelist's Note Book</title>
                                  <author>Murray, D. C.</author>
-                                 <note type="description">some presentation copies to Swinburne</note>
+                                 <note type="description" corresp="#presentation">some presentation copies to Swinburne</note>
                                  <note type="etc"><num value="9"/></note>
                                  <imprint>
                                      <date when="1887"/>
@@ -9364,7 +9363,7 @@
                                      <resp>edited by</resp>
                                      <name>J. Haslewood</name>
                                  </respStmt>
-                                 <note type="etc">and others, some presentation copies to Swinburne, with inscriptions <num value="12"/></note>
+                                 <note type="etc" corresp="#presentation">and others, some presentation copies to Swinburne, with inscriptions <num value="12"/></note>
                                  <imprint>
                                      <publisher>Private Press of Lee Priory</publisher>
                                      <pubPlace>Kent</pubPlace>
@@ -9693,6 +9692,1618 @@
                                  </imprint>
                              </monogr>
                          </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb444">
+                         <biblStruct xml:id="sb444.1">
+                             <monogr>
+                                 <title>Andrea of Hungary, and Giovanna of Naples</title>
+                                 <author>Landor, W. S.</author>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1839"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb444.2">
+                             <monogr>
+                                 <title>Heroic Idylls, with Additional Poems</title>
+                                 <author>Landor, W. S.</author>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1863"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb444.3">
+                             <monogr>
+                                 <title>Portraits</title>
+                                 <author>Webster, Augusta</author>
+                                 <note type="etc"><num value="4"/></note>
+                                 <imprint>
+                                     <date when="1893"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb445">
+                         <biblStruct xml:id="sb445.1">
+                             <monogr>
+                                 <title>Dry Sticks Fagoted</title>
+                                 <author>Landor, W. S.</author>
+                                 <note type="description">original cloth</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <pubPlace>Edinb.</pubPlace>
+                                     <date when="1858"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb445.2">
+                             <monogr>
+                                 <title>In the Garden of Dreams</title>
+                                 <author>Moulton, L. Chandler</author>
+                                 <note type="description" corresp="#presentation">presentation copy, with inscription</note>
+                                 <note type="inscription">To Algernon Charles Swinburne wit hthe admiring regards of Louise Chandler Moulton, <date when="1889-12">December, 1889</date></note>
+                                 <imprint>
+                                     <pubPlace>Boston</pubPlace>
+                                     <date when="1890"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb446">
+                         <biblStruct xml:id="sb446.1">
+                             <monogr>
+                                 <title>Pericles and Aspasia</title>
+                                 <author>Landor, W. S.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>C. G. Crump</name>
+                                 </respStmt>
+                                 <note type="description" corresp="#uncut">etchings by H. Railton, uncut, t.e.g.</note>
+                                 <imprint>
+                                     <date when="1890"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb446.2">
+                             <monogr>
+                                 <title>Letters and other Unpublished Writings</title>
+                                 <author>Landor, W. S.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>S. Wheeler</name>
+                                 </respStmt>
+                                 <note type="description">portraits</note>
+                                 <imprint>
+                                     <date when="1897"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb446.3">
+                             <monogr>
+                                 <title>Crotchet Castle</title>
+                                 <author>Peacock, T.</author>
+                                 <note type="etc"><num value="9"/></note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1831"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb447">
+                         <biblStruct xml:id="sb447.1">
+                             <monogr>
+                                 <title>Letters, Private and Public</title>
+                                 <author>Landor, W. S.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>Stephen Wheeler</name>
+                                 </respStmt>
+                                 <note type="description" corresp="#uncut">portrait, uncut, 2 copies</note>
+                                 <imprint>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb447.2">
+                             <monogr>
+                                 <title>Imaginary Conversations of Greeks and Romans</title>
+                                 <author>Landor, W. S.</author>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1853"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb447.3">
+                             <monogr>
+                                 <title>Letters and Recollections of Sir Walter Scott</title>
+                                 <author>Hughes, Mrs.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>H. G. Hutchinson</name>
+                                 </respStmt>
+                                 <note type="description">portrait</note>
+                                 <note type="etc"><num value="4"/></note>
+                                 <imprint>
+                                     <date when="1904"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb448">
+                         <biblStruct xml:id="sb448.1">
+                             <monogr>
+                                 <title>Old Friends, Essays in Epistolary PArody</title>
+                                 <author>Lang, A.</author>
+                                 <note type="description">frontispiece</note>
+                                 <imprint>
+                                     <date when="1890"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <bibl xml:id="sb448.2">
+                             <title>Letters on Literature</title>
+                             <author>Lang, A.</author>
+                             <date when="1892"/>
+                         </bibl>
+                         <biblStruct xml:id="sb448.3">
+                             <monogr>
+                                 <title>Homeric Hymns</title>
+                                 <author>Lang, A.</author>
+                                 <note type="description">illustrations</note>
+                                 <note type="etc" corresp="#presentation">some presentation copies to Swinburne<num value="6"/></note>
+                                 <imprint>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb449">
+                         <biblStruct xml:id="sb449.1">
+                             <monogr>
+                                 <title xml:lang="fr">Nos Vieux Proverbes</title>
+                                 <author>Larchey, L.</author>
+                                 <note type="description">illustrations, half morocco gilt, t.e.g.</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1886"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb449.2">
+                             <monogr>
+                                 <title xml:lang="fr">Balzac, sa Vie et ses OEuvres</title>
+                                 <author>Surville, L.</author>
+                                 <note type="description">half calf, m.e. ib.</note>
+                                 <imprint>
+                                     <date when="1858"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb449.3">
+                             <monogr>
+                                 <title xml:lang="fr">Théâtre avec Notes et Commemtaires</title>
+                                 <author>Corneille, P. et T.</author>
+                                 <note type="description">portrait, calf, m.e. ib.</note>
+                                 <note type="etc"><num value="14"/></note>
+                                 <imprint>
+                                     <date when="1853"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb450">
+                         <biblStruct xml:id="sb450.1">
+                             <monogr>
+                                 <title>Classical Dictionary of Proper Names</title>
+                                 <author>Lemprière</author>
+                                 <respStmt>
+                                     <resp>enlarged by</resp>
+                                     <name>Anthon and Barker</name>
+                                 </respStmt>
+                                 <note type="description">calf; This is evidently the copy used by Swinburne in his youth, and has his autograph signature on the fly-leaf</note>
+                                 <note type="inscription">Algernon C. Swinburne, <date when="1849-10-13">October 13th, 1849</date></note>
+                                 <imprint>
+                                     <date when="1843"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb451">
+                         <biblStruct xml:id="sb451.1">
+                             <monogr>
+                                 <title>Adventures of Gil Blas</title>
+                                 <author>Lesage, A. R.</author>
+                                 <respStmt>
+                                     <resp>translated by</resp>
+                                     <name>Martin Smart</name>
+                                 </respStmt>
+                                 <note type="description">portrait and plates, calf, signature on fly-leaf</note>
+                                 <note type="inscription">A. C. Swinburne, <date when="1883">1883</date></note>
+                                 <imprint>
+                                     <date when="1807"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="4"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb452">
+                         <biblStruct xml:id="sb452.1"> <!-- Check langs this lot. -->
+                             <monogr>
+                                 <title>Lettere di XIII Huomini Illustri, allequali oltra tutte l'altre fin qui stampate di nuovo ne sono state aggiunte molte da Tomaso Porcacchi</title>
+                                 <note type="description">old vellum</note>
+                                 <imprint>
+                                     <pubPlace>in Venetia</pubPlace>
+                                     <date when="1571"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb452.2">
+                             <monogr>
+                                 <title>Caluthi Raptno Helenae recensuit ad fidem Codicum MSS. ac variantes lectiones et Notes adject J. Dan. a Lennep</title>
+                                 <note type="description">vellum</note>
+                                 <note type="etc"><num value="3"/></note>
+                                 <imprint>
+                                     <pubPlace>Leorard.</pubPlace>
+                                     <date when="1747"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb453">
+                         <biblStruct xml:id="sb453.1">
+                             <monogr>
+                                 <title>Nuts and Nutcrackers</title>
+                                 <author>Lever, C.</author>
+                                 <note type="description">illustrations by "Phiz"</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <bibl xml:id="sb453.2">
+                                 <title>Mowhawks, a Novel</title>
+                                 <author>Braddon, Miss</author>
+                                 <date>n.d.</date>
+                         </bibl>
+                         <biblStruct xml:id="sb453.3">
+                             <monogr>
+                                 <title>Alone on a Wide Wide Sea</title>
+                                 <author>Russel, W. Clark</author>
+                                 <note type="etc">and other Novels<num value="52"/></note>
+                                 <imprint>
+                                     <date when="1893"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb454">
+                         <biblStruct xml:id="sb454.1">
+                             <monogr>
+                                 <title>The Monk, a Romance</title>
+                                 <author>Lewis, M. G.</author>
+                                 <note type="description">portrait and etchings by R. C. Armour</note>
+                                 <imprint>
+                                     <date when="1906"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb454.2">
+                             <monogr>
+                                 <title>Modern Painters, with Index</title>
+                                 <author>Ruskin, J.</author>
+                                 <note type="description">wanting vol. IV</note>
+                                 <note type="etc"><num value="20"/></note>
+                                 <imprint>
+                                     <date when="1906"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="6"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb455">
+                         <biblStruct xml:id="sb455.1">
+                             <monogr>
+                                 <title>Dramatic Works, with Notes and Account of his Life and Writings by F. W. Fairholt</title>
+                                 <author>Lilly, John</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <imprint>
+                                     <date when="1858"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb455.2">
+                             <monogr>
+                                 <title>Ancient and Modern Scottish Songs and Heroic Ballads, etc.</title>
+                                 <author>Herd, D.</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <note type="etc"><num value="8"/></note>
+                                 <imprint>
+                                     <pubPlace>Glasgow</pubPlace>
+                                     <date when="1869"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb456">
+                         <biblStruct xml:id="sb456.1">
+                             <monogr>
+                                 <title>Short Introduction to Grammar, with Rules Construed</title>
+                                 <author>Lilly, Wm.</author>
+                                 <note type="description">engraved titles and woodcut, old sheep</note>
+                                 <imprint>
+                                     <date when="1721"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb456.2">
+                             <monogr>
+                                 <title>London Vocabulary, English and Latin</title>
+                                 <author>Greenwood, Jas.</author>
+                                 <note type="description">woodcuts</note>
+                                 <note type="etc"><num value="5"/></note>
+                                 <imprint>
+                                     <date when="1785"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb457">
+                         <biblStruct xml:id="sb457.1">
+                             <monogr>
+                                 <title>Lyrics and other Poems</title>
+                                 <author>Lindsay, Lady</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <imprint>
+                                     <date when="1890"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <bibl xml:id="sb457.2">
+                             <title>Quest, a Fantastic Poem</title>
+                             <author>Lindsay, Lady</author>
+                             <date when="1905"/>
+                         </bibl>
+                         <biblStruct xml:id="sb457.3">
+                             <monogr>
+                                 <title>Miscellanies</title>
+                                 <author>Fitzgerald, E.</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <imprint>
+                                     <date when="1900"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb457.4">
+                             <monogr>
+                                 <title>Poems, with Memoir by Robert Bridges</title>
+                                 <author>Dixon, R. W.</author>
+                                 <note type="description">portrait</note>
+                                 <note type="etc" corresp="#presentation">some presentation copies to Swinburne<num value="12"/></note>
+                                 <imprint>
+                                     <date when="1909"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb458">
+                         <biblStruct xml:id="sb458.1">
+                             <monogr>
+                                 <title>The Lake Country</title>
+                                 <author>Linton, E. Lynn</author>
+                                 <note type="description">illustrations by W. J. Linton, cloth gilt, g.e.</note>
+                                 <imprint>
+                                     <date when="1864"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb458.2">
+                             <monogr>
+                                 <title>Highways and Byways in Yorkshire</title>
+                                 <author>Norway, A. H.</author>
+                                 <note type="description">illustrations</note>
+                                 <imprint>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb458.3">
+                             <monogr>
+                                 <title>Old Yorkshire</title>
+                                 <author>Smith, W.</author>
+                                 <note type="description">illustrations</note>
+                                 <imprint>
+                                     <date when="1882"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb459">
+                         <biblStruct xml:id="sb459.1">
+                             <monogr>
+                                 <title>Encyclopaedie Dictionary</title>
+                                 <author>Llyod, E.</author>
+                                 <note type="description">numerous illustrations, cloth gilt, roy. 8vo.</note>
+                                 <imprint>
+                                     <date when="1895"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb460">
+                         <biblStruct xml:id="sb460.1">
+                             <monogr>
+                                 <title>Christianity in the Cartoons, referred to Artistic Treatment and Historic Fact</title>
+                                 <author>Llyod, W. Watkiss</author>
+                                 <note type="description" corresp="#presentation">portrait and illustrations, presentation copy with inscription</note>
+                                 <note type="inscription">To A. C. Swinburne, W. Watkiss Llyod</note>
+                                 <imprint>
+                                     <date when="1863"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb461">
+                         <biblStruct xml:id="sb461.1">
+                             <monogr>
+                                 <title>Poems</title>
+                                 <author>Locker, Fred</author>
+                                 <note type="description" corresp="#uncut">one of 100 copies, "Not Published," frontispiece by G. Craikchank, half morocco, uncut, t.e.g.</note>
+                                 <imprint>
+                                     <date when="1868"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb462">
+                         <biblStruct xml:id="sb462.1">
+                             <monogr>
+                                 <title>Memoirs of Sir Walter Scott</title>
+                                 <author>Lockhart, J. G.</author>
+                                 <note type="description">frontispiece, half morocco, uncut, m.e. in case</note>
+                                 <imprint>
+                                     <pubPlace>Edinb.</pubPlace>
+                                     <date when="1882"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="10"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb463">
+                         <biblStruct xml:id="sb463.1">
+                             <monogr>
+                                 <title>Glaucus and Silla, with other Lyrical and Pastoral Poems</title>
+                                 <author>Lodge, Thos.</author>
+                                 <note type="description">half morocco, t.e.g.</note>
+                                 <imprint>
+                                     <pubPlace>Chiswick</pubPlace>
+                                     <date when="1819"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <bibl xml:id="sb463.2">
+                             <title>Hymns of Homer</title> <!-- Odd lot. Check -->
+                         </bibl>
+                         <biblStruct xml:id="sb463.3">
+                             <monogr>
+                                 <title>The Batrachomyomachia and two Original Poetical Hymns by George Chapman, with Introductory Preface by S. W. Singer</title>
+                                 <note type="description">portrait, morocco, t.e.g. ib.</note>
+                                 <note type="etc"><num value="8"/></note>
+                                 <imprint>
+                                     <date when="1818"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb464">
+                         <biblStruct xml:id="sb464.1">
+                             <monogr>
+                                 <title>The Biglow Papers, with Notes, etc., Both Series</title>
+                                 <author>Lowell, J. R.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>H. Wilbur</name>
+                                 </respStmt>
+                                 <note type="description">portraits</note>
+                                 <imprint>
+                                     <date from="1854" to="1867"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb464.2">
+                             <monogr>
+                                 <title>Mr. Punch's Pocket Ibsen</title>
+                                 <author>Austey, F.</author>
+                                 <note type="description">illustrations</note>
+                                 <imprint>
+                                     <date when="1893"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb464.3">
+                             <monogr>
+                                 <title>"Mr. Punch's" Prize Novels</title>
+                                 <author>Lehmann, R. C.</author>
+                                 <note type="description">illustrations</note>
+                                 <note type="etc"><num value="7"/></note>
+                                 <imprint>
+                                     <date when="1892"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb465">
+                         <biblStruct xml:id="sb465.1">
+                             <monogr>
+                                 <title>Memoirs of Eton and Etonians</title>
+                                 <author>Lubbock, Alfred</author>
+                                 <note type="description">portraits and illustrations</note>
+                                 <imprint>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb465.2">
+                             <monogr>
+                                 <title>Eton in the Forties</title>
+                                 <author>Coleridge, A. D.</author>
+                                 <note type="description">illustrations</note>
+                                 <imprint>
+                                     <date when="1898"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb465.3">
+                             <monogr>
+                                 <title>Annals of the Westminster School</title>
+                                 <author>Sargeaunt, John</author>
+                                 <note type="description">illustrations</note>
+                                 <note type="etc"><num value="7"/></note>
+                                 <imprint>
+                                     <date when="1898"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb466">
+                         <biblStruct xml:id="sb466.1">
+                             <monogr>
+                                 <title>Life of Charles Lamb</title>
+                                 <author>Lucas, E. V.</author>
+                                 <note type="description">50 illustrations</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb466.2">
+                             <monogr>
+                                 <title>Life of Sir Richard Burton</title>
+                                 <author>Wright, Thos.</author>
+                                 <note type="description">64 plates</note>
+                                 <imprint>
+                                     <date when="1906"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb466.3">
+                             <monogr>
+                                 <title>The Real Blake, a Portrait Biography</title>
+                                 <author>Ellis, Edwin J.</author>
+                                 <note type="description">13 illustrations</note>
+                                 <note type="etc"><num value="6"/></note>
+                                 <imprint>
+                                     <date when="1907"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb467">
+                         <biblStruct xml:id="sb467.1">
+                             <monogr>
+                                 <title>The Friendly Town, a Little Book for the Urbane</title>
+                                 <author>Lucas, E. V.</author>
+                                 <note type="description" corresp="#presentation">illustrations on fly-leaves, red cloth, t.e.g. presentation copy with inscription</note>
+                                 <note type="inscription">To A. C. Swinburne, with compliments, E. V. Lucas</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb467.2">
+                             <monogr>
+                                 <title>Songs from a Studio</title>
+                                 <author>Woodward, A. T.</author>
+                                 <note type="description" corresp="#uncut">uncut, presented to A. C. Swinburne by the Author, with original Sonnet, etc. in his handwriting, Melbourne</note> <!-- Presentation copy also? Check -->
+                                 <imprint>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb468">
+                         <biblStruct xml:id="sb468.1">
+                             <monogr>
+                                 <title><foreign xml:lang="la">De Rerum Natura Libiri Sex</foreign>, with Notes and a Translation by H. A. J. Mnro</title>
+                                 <author>Lucretius</author>
+                                 <imprint>
+                                     <pubPlace>Cambridge</pubPlace>
+                                     <date when="1866"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb468.2">
+                             <monogr>
+                                 <title>Commentary on Catullus</title>
+                                 <author>Ellis, R.</author>
+                                 <note type="etc"><num value="7"/></note>
+                                 <imprint>
+                                     <pubPlace>Oxford</pubPlace>
+                                     <date when="1876"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb469">
+                         <biblStruct xml:id="sb469.1">
+                             <monogr>
+                                 <title xml:lang="it">La Natura Libri VI di T. Lucrezio Caro tradotti da Mario Rapisardi</title>
+                                 <author>Lucretius</author>
+                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne with inscription</note>
+                                 <imprint>
+                                     <pubPlace>Torino</pubPlace>
+                                     <date when="1882"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb469.2">
+                             <monogr>
+                                 <title>Lucifero, Poema</title>
+                                 <author>Rapisardi, M.</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <imprint>
+                                     <pubPlace>Milano</pubPlace>
+                                     <date when="1877"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb469.3">
+                             <monogr>
+                                 <title xml:lang="fr">Le Lit Amoureux</title>
+                                 <author>Bourdel, L.</author>
+                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne with autograph inscription</note>
+                                 <note type="etc"><num value="10"/></note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1903"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb470">
+                         <biblStruct xml:id="sb470.1">
+                             <monogr>
+                                 <title>Lyrics from the Dramatists of the Elizabethan Age</title>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>A. H. Bullen</name>
+                                 </respStmt>
+                                 <note type="description" corresp="#uncut #presentation">large paper, one of 260 copies, half calf, uncut, t.e.g. presentation copy with autograph inscription</note>
+                                 <note type="inscription">A. C. Swinburne with the Editor's sincere regards, <date when="1889-05-11">5-11-89</date></note>
+                                 <imprint>
+                                     <date when="1889"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb471">
+                         <biblStruct xml:id="sb471.1">
+                             <monogr>
+                                 <title>Lyrics from the Song-Books of the Elizabethan Age</title>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>A. H. Bullen</name>
+                                 </respStmt>
+                                 <note type="description">large paper, one of 250 copies, half calf, unsut, t.e.g. presentation copy with autograph inscription</note>
+                                 <note type="inscription">A. C. Swinburne, Esq. with A. H. Bullen's Compliments, <date when="1887-09-02">9.2.87</date></note>
+                                 <imprint>
+                                     <date when="1887"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb472">
+                         <bibl xml:id="sb472.1">
+                             <title>Poems of the Unknown Way</title>
+                             <author>Lysaght, S. R.</author>
+                             <date when="1894"/>
+                         </bibl>
+                         <bibl xml:id="sb472.2">
+                             <title>Poems</title>
+                             <author>Barlow, Thos.</author>
+                             <date when="1894"/>
+                         </bibl>
+                         <biblStruct xml:id="sb472.3">
+                             <monogr>
+                                 <title>The Way of Perfect Love</title>
+                                 <author>King, G. Goddard</author>
+                                 <imprint>
+                                     <pubPlace>New York</pubPlace>
+                                     <date when="1908"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb472.4">
+                             <monogr>
+                                 <title>Poems and Ballads</title>
+                                 <author>Sanders, Johanna M.</author>
+                                 <note type="etc" corresp="#presentation">and Other Poetical Works, some presentation copies to Swinburne with inscriptions<num value="40"/></note>
+                                 <imprint>
+                                     <pubPlace>San Francisco</pubPlace>
+                                     <date when="1890"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb473">
+                         <biblStruct xml:id="sb473.1">
+                             <monogr>
+                                 <title>History of Eton College (1440-1898)</title>
+                                 <author>Lyte, Sir H. C. Maxwell</author>
+                                 <note type="description" corresp="#uncut">illustrations, blue cloth, uncut</note>
+                                 <imprint>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb473.2">
+                             <monogr>
+                                 <title>Fasti Etonenses, a Biographical History of Eton</title>
+                                 <author>Benson, A. C.</author>
+                                 <note type="description" corresp="#uncut">portraits and illustrations, uncut, t.e.g.</note>
+                                 <imprint>
+                                     <pubPlace>Eton</pubPlace>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb474">
+                         <biblStruct xml:id="sb474.1">
+                             <monogr>
+                                 <title>Guernsey Folk Lore, Collection of Popular Superstitions, Legendary Tales, Proverbs, etc. of the People of that Island</title>
+                                 <author>MacCulloch, Sir Edgar</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>Edith F. Carey</name>
+                                 </respStmt>
+                                 <note type="description">illustrations, green cloth, t.e.g.</note>
+                                 <imprint>
+                                     <date when="1903"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb475">
+                         <biblStruct xml:id="sb475.1">
+                             <monogr>
+                                 <title>Jean Jacques Rousscan, a New Criticism</title>
+                                 <author>Macdonald, F.</author>
+                                 <note type="description">portraits and fascimiles, buckram, t.e.g.</note>
+                                 <imprint>
+                                     <date when="1906"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb475.2">
+                             <monogr>
+                                 <title>Correspondence of Thomas Carlyle and Ralph Waldo Emerson</title>
+                                 <note type="description">two portraits</note>
+                                 <imprint>
+                                     <date when="1883"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb475.3">
+                             <monogr>
+                                 <title>Autobiography</title>
+                                 <author>Besant, Sir W.</author>
+                                 <note type="description">portrait</note>
+                                 <note type="etc"><num value="12"/></note>
+                                 <imprint>
+                                     <date when="1902"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb476">
+                         <biblStruct xml:id="sb476.1">
+                             <monogr>
+                                 <title>Literary Life and Correspondence of the Contess of Blessington</title>
+                                 <author>Madden, R. R.</author>
+                                 <imprint>
+                                     <date when="1855"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb476.2">
+                             <monogr>
+                                 <title>Johnny Gibb of Gushetneuk in the Parish of Pyketillim</title>
+                                 <author>Alexander, Wm.</author>
+                                 <note type="description">portrait and illustrations</note>
+                                 <note type="etc"><num value="9"/></note>
+                                 <imprint>
+                                     <pubPlace>Edinb.</pubPlace>
+                                     <date when="1881"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb477">
+                         <biblStruct xml:id="sb477.1">
+                             <monogr>
+                                 <title xml:lang="fr">publié par Charpentier</title>
+                                 <author>Magasin de Librairie, Le</author>
+                                 <note type="description">half morocco, m.e.</note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1859"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3">vol. II-IV</measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb477.2">
+                             <monogr>
+                                 <title>OEuvres</title>
+                                 <author>Voltaire</author>
+                                 <note type="description" corresp="#uncut">wanting vol. VIII, half vellum, uncut; roy. 8vo.</note>
+                                 <note type="etc"><num value="11"/></note>
+                                 <imprint>
+                                     <date when="1784"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="8">Vol. I-IX</measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb478">
+                         <biblStruct xml:id="sb478.1">
+                             <monogr>
+                                 <title>Grettir Saga, the Story of Grettir the Strong, translated from the Icelandic</title>
+                                 <author>Magnússon and Morris</author>
+                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne from E. Magnússon, with autograph inscription</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1869"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb479">
+                         <biblStruct xml:id="sb479.1">
+                             <monogr>
+                                 <title>Don Juan, a Play in Four Acts</title>
+                                 <author>Mansfield, Rich.</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <imprint>
+                                     <pubPlace>York</pubPlace>
+                                     <date when="1891"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb479.2">
+                             <monogr>
+                                 <title>The Aims of Art</title>
+                                 <author>Morris, Wm.</author>
+                                 <note type="etc">some presentation copies to Swinburne with inscriptions<num value="10"/></note>
+                                 <imprint>
+                                     <date when="1887"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb480">
+                         <biblStruct xml:id="sb480.1">
+                             <monogr>
+                                 <title xml:lang="fr">Les Chainesde l'Esclavage</title>
+                                 <author>Marat, J. P. <foreign xml:lang="fr">l'ami du Peuple</foreign></author>
+                                 <note type="description">half calf gilt, m.e.</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <publisher xml:lang="fr">de l'imprimerie de Marat</publisher>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1792"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb481">
+                         <biblStruct xml:id="sb481.1">
+                             <monogr>
+                                 <title>Hippolyta</title>
+                                 <author>Marieton, P.</author>
+                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne, with inscription, ib.</note>
+                                 <imprint>
+                                     <date when="1898"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb481.2">
+                             <monogr>
+                                 <title>Struensée, Drame</title> <!-- Danish? Check -->
+                                 <author>Meurice, P.</author>
+                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne, with inscription, ib.</note>
+                                 <note type="etc" corresp="#presentation">and others, some presentation copies to Swinbunrne, with inscriptions<num value="12"/></note>
+                                 <imprint>
+                                     <date when="1898"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb482">
+                         <biblStruct xml:id="sb482.1">
+                             <monogr>
+                                 <title>OEuvres Complettes</title>
+                                 <author>Marivaux, M. de</author>
+                                 <note type="description">old French calf gilt, m.e.</note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1781"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="12"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb483">
+                         <biblStruct xml:id="sb483.1">
+                             <monogr>
+                                 <title xml:lang="fr">Théâtre Choisi, publicé par F. de Marescot et D. Jouaust, avec une Préface par F. Sarcey</title>
+                                 <author>Marivaux</author>
+                                 <note type="description" corresp="#uncut">portrait, uncut</note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1881"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb483.2">
+                             <monogr>
+                                 <title xml:lang="fr">César Borgia, sa Vie, sa Captitié, sa Mort</title>
+                                 <author>Yriate, C.</author>
+                                 <note type="description" corresp="#uncut">portraits, illustrations, etc. uncut, ib.</note>
+                                 <imprint>
+                                     <date when="1889"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb483.3">
+                             <monogr>
+                                 <title>Madame Potiphar</title>
+                                 <author>Borel, P.</author>
+                                 <note type="description" corresp="#uncut">frontispiece, etc. uncut, ib.</note>
+                                 <note type="etc"><num value="6"/></note>
+                                 <imprint>
+                                     <date when="1877"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb484">
+                         <biblStruct xml:id="sb484.1">
+                             <monogr>
+                                 <title>Dramatic Works, with Prefactory Notice</title>
+                                 <author>Marlowe, Chris.</author>
+                                 <respStmt>
+                                     <resp>selected by</resp>
+                                     <name>Percy E. Pinkerton</name>
+                                 </respStmt>
+                                 <note type="description">morocco, g.e.</note>
+                                 <imprint>
+                                     <date when="1885"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb484.2">
+                             <monogr>
+                                 <title>Essays</title>
+                                 <author>Bacon, Lord</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>B. Montagu</name>
+                                 </respStmt>
+                                 <note type="description">morocco, g.e.</note>
+                                 <imprint>
+                                     <publisher>Pickering</publisher> <!-- Check -->
+                                     <date when="1845"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb484.3">
+                             <monogr>
+                                 <title>Poetical Works of Thomas Little</title>
+                                 <author>Moore, T.</author>
+                                 <note type="description" corresp="#presentation">calf, presentation copy to Swinburne, with inscription</note>
+                                 <note type="etc"><num value="14"/></note>
+                                 <imprint>
+                                     <date when="1808"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb485">
+                         <biblStruct xml:id="sb485.1">
+                             <monogr>
+                                 <title>Works, with Notes and some Account of his Life and Writings, by Alex. Dyce</title>
+                                 <author>Marlowe, C.</author>
+                                 <note type="description" corresp="#uncut">uncut</note>
+                                 <imprint>
+                                     <publisher>Pickering</publisher>
+                                     <date when="1850"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb486">
+                         <biblStruct xml:id="sb486.1">
+                             <monogr>
+                                 <title>Works, with an Introduction by J. A. Symonds</title>
+                                 <author>Marlowe, C.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>Havelock Ellis</name>
+                                 </respStmt>
+                                 <note type="description" corresp="#uncut">colored portrait and plate, buckram, uncut, t.e.g.</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb487">
+                         <biblStruct xml:id="sb487.1">
+                             <monogr>
+                                 <title>Works</title>
+                                 <author>Marston, John</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>A. H. Bullen</name>
+                                 </respStmt>
+                                 <note type="description" corresp="#uncut">green cloth, uncut</note>
+                                 <edition>Limited Edition</edition>
+                                 <imprint>
+                                     <date when="1887"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb488">
+                         <biblStruct xml:id="sb488.1">
+                             <monogr>
+                                 <title>All in All, Poems and Sonnets</title>
+                                 <author>Marston, Philip B.</author>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1875"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb488.2">
+                             <monogr>
+                                 <title>Wind Voices</title>
+                                 <author>Marston, Philip B.</author>
+                                 <note type="description" corresp="#presentation">presentation copy, with inscription</note>
+                                 <note type="inscription">Algernon C. Swinburne, from his friend P. B. Marston</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb488.3">
+                             <monogr>
+                                 <title>A Last Harvest</title>
+                                 <author>Marston, Philip B.</author>
+                                 <note type="description" corresp="#presentation">presentation copy to A. C. Swinburne, with inscription</note>
+                                 <imprint>
+                                     <date when="1891"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb489">
+                         <biblStruct xml:id="sb489.1">
+                             <monogr>
+                                 <title>Collected Poems, with Biography Sketch by Louise C. Moulton</title>
+                                 <author>Marston, P. B.</author>
+                                 <note type="description" corresp="#presentation">portrait, presentation copy with inscription</note>
+                                 <note type="inscription">To Algernon C. Swinburne, the Poems by one who had the honour to be his friend, with admiring regards of Louise Chandler Moulton, <date when="1892-11-18">November 18, 1892</date></note>
+                                 <imprint>
+                                     <pubPlace>Boston</pubPlace>
+                                     <date when="1892"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb490">
+                         <biblStruct xml:id="sb490.1">
+                             <monogr>
+                                 <title>For a Song's Sake, and other Stories, with Memoir by W. Sharp</title>
+                                 <author>Marston, P. B.</author>
+                                 <note type="description">portrait</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb490.2">
+                             <monogr>
+                                 <title>Book of Christmas Verse</title>
+                                 <respStmt>
+                                     <resp>selected by</resp>
+                                     <name>H. C. Beeching</name>
+                                 </respStmt>
+                                 <note type="description">10 designs by W. Crane</note>
+                                 <imprint>
+                                     <date when="1895"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb490.3">
+                             <monogr>
+                                 <title>A Christmas Posy</title>
+                                 <author>Molesworth, Mrs.</author>
+                                 <note type="description">illustrations by W. Crane</note>
+                                 <note type="etc"><num value="9"/></note>
+                                 <imprint>
+                                     <date when="1888"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb491">
+                         <biblStruct xml:id="sb491.1">
+                             <monogr>
+                                 <title>Epigrammata</title>
+                                 <author>Martial</author>
+                                 <note type="description">half calf, Swinburne's copy, with autograph signature</note>
+                                 <note type="inscription">Algernon C. Swinburne, <date when="1850-01-30">Janry. 30th, 1850</date></note>
+                                 <imprint>
+                                     <pubPlace>Lips.</pubPlace>
+                                     <date when="1829"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb492">
+                         <biblStruct xml:id="sb492.1">
+                             <monogr>
+                                 <title>Autobiography, with Memorials by Maria WEston Chapman</title>
+                                 <author>Martineau, Harriet</author>
+                                 <note type="description">portraits and illustrations</note>
+                                 <imprint>
+                                     <date when="1877"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb492.2">
+                             <monogr>
+                                 <title>Select Collection of Novels</title>
+                                 <note type="description">frontispieces, calf</note>
+                                 <note type="etc"><num value="30"/></note>
+                                 <imprint>
+                                     <date when="1722"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="5">vol. I-V</measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb493">
+                         <biblStruct xml:id="sb493.1">
+                             <monogr>
+                                 <title>Complete Works in Verse and Prose, with Memorial Introduction and Notes</title>
+                                 <author>Marvell, Andrew</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>A. B. Grosart</name>
+                                 </respStmt>
+                                 <note type="description" corresp="#uncut">large paper, one of 106 copies, uncut, plates missing; Printed for private circulation</note>
+                                 <imprint>
+                                     <date when="1872"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="4"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb494">
+                         <biblStruct xml:id="sb494.1">
+                             <monogr>
+                                 <title>Plays, with Notes Critical and Explanatory</title>
+                                 <author>Massinger, Philip</author>
+                                 <note type="description">large paper, calf gilt, g.e. binding of vol. I broken</note>
+                                 <imprint>
+                                     <date when="1813"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="4"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb495">
+                         <biblStruct xml:id="sb495.1">
+                             <monogr>
+                                 <title>Dramatic Works, with Introduction by H. Coleridge</title>
+                                 <author>Massinger and Ford</author>
+                                 <note type="description">portrait, etc. russia, g.e. on fly-leaf, roy. 8vo.</note>
+                                 <note type="inscription">Algernon Charles Swinburne, <date when="1850-09-21">Sept 21st, 1850</date></note>
+                                 <imprint>
+                                     <date when="1840"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb496">
+                         <biblStruct xml:id="sb496.1">
+                             <monogr>
+                                 <title>Image of his Father</title>
+                                 <author>Mayhew, Bros.</author>
+                                 <note type="description">illustrations by "Phiz"</note>
+                                 <imprint>
+                                     <date when="1859"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb496.2">
+                             <monogr>
+                                 <title>The Wax-Taper</title>
+                                 <author>Elliott, Mary</author>
+                                 <note type="description">plates, W. Darton</note>
+                                 <note type="etc"><num value="4"/></note>
+                                 <imprint>
+                                     <date when="1819"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb497">
+                         <biblStruct xml:id="sb497.1">
+                             <monogr>
+                                 <title xml:lang="it">Seritti Editi e Inediti</title>
+                                 <author>Mazzini, Giu.</author>
+                                 <note type="description" corresp="#presentation">calf gilt, g.e. presentation copy, with inscription</note>
+                                 <note type="inscription" xml:lang="it">Ad Alg. C. Swinburne con affeteo Guis. Mazzini</note>
+                                 <imprint>
+                                     <pubPlace>Milano</pubPlace>
+                                     <date when="1861"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb498">
+                         <biblStruct xml:id="sb498.1">
+                             <monogr>
+                                 <title>History of Our Own Time</title>
+                                 <author>McCarthy, J.</author>
+                                 <imprint>
+                                     <date when="1879"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2">vol. I-II</measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb498.2">
+                             <monogr>
+                                 <title>Romance of the English Stage</title>
+                                 <author>Fitzgerald, P.</author>
+                                 <imprint>
+                                     <date when="1874"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb498.3">
+                             <monogr>
+                                 <title>System of Logic</title>
+                                 <author>Mill, J. S.</author>
+                                 <note type="etc" corresp="#presentation">some presentation copies to Swinburne with inscriptions<num value="12"/></note>
+                                 <imprint>
+                                     <date when="1856"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb499">
+                         <biblStruct xml:id="sb499.1">
+                             <monogr>
+                                 <title>Four-in-Hand, a Group of Short Stories</title>
+                                 <author>McCormick, Frank J.</author>
+                                 <note type="description" corresp="#uncut #presentation">tinted illustrations, green cloth, uncut, t.e.g. presentation copy to Swinburne from the author, with autograph letter inserted</note>
+                                 <imprint>
+                                     <date when="1906"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb500">
+                         <biblStruct xml:id="sb500.1">
+                             <monogr>
+                                 <title xml:lang="fr">Notre Ami le Chat, Préface de François Coppée</title>
+                                 <author>Meguin, P.</author>
+                                 <note type="description">illustrations</note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1899"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb500.2">
+                             <monogr>
+                                 <title>Handbook to the Carnivora, Cats, Civets and Mongooses</title>
+                                 <author>Lydekker, R.</author>
+                                 <note type="description">coloured plates</note>
+                                 <imprint>
+                                     <date>n.d.</date>
+                                 </imprint>
+                                 <extent><measure unit="part" quantity="1">part I</measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb500.3">
+                             <monogr>
+                                 <title>The Aerial World</title>
+                                 <author>Hartwig, G.</author>
+                                 <note type="description">plates, map and woodcuts</note>
+                                 <note type="etc"><num value="6"/></note>
+                                 <imprint>
+                                     <date when="1886"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb501">
+                         <biblStruct xml:id="sb501.1">
+                             <monogr>
+                                 <title xml:lang="la">Enchiridion Elementorum Puerilium</title>
+                                 <author>Melanethon</author>
+                                 <note type="description">title within woodcut border, woodcut engraving at the wned, worm-holed</note>
+                                 <imprint>
+                                     <pubPlace>Wittemburg</pubPlace>
+                                     <date>15--</date>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb502">
+                         <biblStruct xml:id="sb502.1">
+                             <monogr>
+                                 <title xml:lang="fr">Poésies, première série</title>
+                                 <author>Mendès, Catulle</author>
+                                 <note type="description" corresp="#uncut">one of 65 copies, uncut, imp. 8vo.</note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1876"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb502.2">
+                             <monogr>
+                                 <title xml:lang="fr">Poésie Religiose</title>
+                                 <author>Rapisardi, M.</author>
+                                 <note type="description" corresp="#presentation">presentation copy to Swinburne with inscription</note>
+                                 <imprint>
+                                     <pubPlace>Catania</pubPlace>
+                                     <date when="1887"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb503">
+                         <biblStruct xml:id="sb503.1">
+                             <monogr>
+                                 <title>Modern Love, and Poems of the English Roadside, with Poems and Ballads</title>
+                                 <author>Meredith, George</author>
+                                 <note type="description" corresp="#presentation">original green cloth; Presentation copy from the author to Swinburne, with autograph inscription on the title</note>
+                                 <note type="inscription">A. C. Swinburne, from his friend George Meredith</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date when="1862"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb504">
+                         <biblStruct xml:id="sb504.1">
+                             <monogr>
+                                 <title>Best Plays of the Old Dramatists</title>
+                                 <note type="description">portraits, etc.</note>
+                                 <imprint>
+                                     <date when="1888"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="13"></measure></extent>
+                             </monogr>
+                             <series>
+                                 <title>Mermaid Series</title>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>H. Ellis</name>
+                                 </respStmt>
+                             </series>
+                         </biblStruct>
+                         <biblStruct xml:id="sb504.2">
+                             <monogr>
+                                 <title>English Men of Letters</title>
+                                 <note type="etc"><num value="20"/></note>
+                                 <imprint>
+                                     <date when="1904"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="7"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb505">
+                         <biblStruct xml:id="sb505.1">
+                             <monogr>
+                                 <title>Metrical Romances, published from Ancient Manuscripts, with notes, etc. by Henry Weber</title>
+                                 <note type="description">half bound</note>
+                                 <imprint>
+                                     <pubPlace>Edinb.</pubPlace>
+                                     <date when="1810"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb505.2">
+                             <monogr>
+                                 <title>Introduction to the Literature of Europe</title>
+                                 <author>Hallam, H.</author>
+                                 <note type="description" corresp="#presentation">calf gilt, m.e. prize presented to Swinburne at Eton 1853</note>
+                                 <imprint>
+                                     <date when="1847"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="3"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb505.3">
+                             <monogr>
+                                 <title>On Viol and Flute</title>
+                                 <author>Gosse, E. W.</author>
+                                 <note type="description" corresp="#presentation">presentation copy, with inscription</note>
+                                 <note type="inscription">A. C. Swinburne, Esq. with the Author's Compliments, British Museum</note>
+                                 <note type="etc"><num value="10"/></note>
+                                 <imprint>
+                                     <date when="1873"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb506">
+                         <biblStruct xml:id="sb506.1">
+                             <monogr>
+                                 <title>A Tragi-Coomodie called The Witch</title>
+                                 <author>Middleton, Thos.</author>
+                                 <note type="description">half russia, autograph signature on title, and note; on fly-leaf is a pencil note in Swinburne's writing</note>
+                                 <note type="inscription">Alex. Pope, Esq. from the Editor</note>
+                                 <note type="inscription">Given me by my worthy &amp; excellent friend Isaac Reed, who had one hunderd of them printed for the gratification of his friends, from the manuscript copy in the possession of Mr. Steevens---Alexx. Popes, <date when="1798-11-28">Nov. 28th, 1798</date></note>
+                                 <imprint>
+                                     <publisher>J. Nichols</publisher>
+                                     <date when="1778"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb507">
+                         <biblStruct xml:id="sb507.1">
+                             <monogr>
+                                 <title>Works, now first collected, with some Account of the Author, and notes by Alex. Dyce</title>
+                                 <author>Middleton, T.</author>
+                                 <note type="description">portrait, calf gilt, m.e.</note>
+                                 <imprint>
+                                     <date when="1840"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="5"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb508">
+                         <biblStruct xml:id="sb508.1">
+                             <monogr>
+                                 <title>Works</title>
+                                 <author>Middleton, T.</author>
+                                 <respStmt>
+                                     <resp>edited by</resp>
+                                     <name>A. H. Bullen</name>
+                                 </respStmt>
+                                 <note type="description">portrait, green cloth, m.e.</note>
+                                 <imprint>
+                                     <date when="1885"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="8"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb509">
+                         <biblStruct xml:id="sb509.1">
+                             <monogr>
+                                 <title xml:lang="fr">Histoire de la Révelution Française</title>
+                                 <author>Mignet, F.</author>
+                                 <note type="description">portrait and engravings, calf gilt, m.e.</note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1836"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb509.2">
+                             <monogr>
+                                 <title xml:lang="it">La Gerusalemme Liberata Poema</title>
+                                 <author>Tasso, Torq.</author>
+                                 <note type="description">frontispiece, calf, back of vol. I injured</note>
+                                 <imprint>
+                                     <pubPlace>Firenze</pubPlace>
+                                     <date when="1818"/>
+                                 </imprint>
+                                 <extent><measure unit="volumes" quantity="2"></measure></extent>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb509.3">
+                             <monogr>
+                                 <title xml:lang="fr">Lois Inédits des XII et XIII Siècles</title>
+                                 <author>Michel, F.</author>
+                                 <note type="description">half morocco, uncut</note>
+                                 <note type="etc"><num value="14"/></note>
+                                 <imprint>
+                                     <pubPlace>Paris</pubPlace>
+                                     <date when="1836"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                     </listBibl>
+                     <listBibl type="lot" xml:id="sb510">
+                         <biblStruct xml:id="sb510.1">
+                             <monogr>
+                                 <title>On Liberty</title>
+                                 <author>Mill, J. S.</author>
+                                 <note type="description">signature and pencil note in Swinburne's writing on fly-leaf</note>
+                                 <note type="inscription">A. C. Swinburne, Ball. Coll. 1859</note>
+                                 <imprint>
+                                     <date when="1859"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <biblStruct xml:id="sb510.2">
+                             <monogr>
+                                 <title>Psalms in Metre</title>
+                                 <author>Cayley, C. B.</author>
+                                 <note type="description">signature on fly-leaf</note>
+                                 <note type="inscription">W. M. Rossetti</note>
+                                 <imprint>
+                                     <date when="1860"/>
+                                 </imprint>
+                             </monogr>
+                         </biblStruct>
+                         <bibl xml:id="sb510.3">
+                             <title>Nemesis of Faith</title>
+                             <author>Fourde, J. A.</author>
+                             <date when="1849"/>
+                         </bibl>
                      </listBibl>
                      
                      
