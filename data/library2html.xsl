@@ -137,7 +137,7 @@
     
     <xsl:template match="relatedItem" priority="10">
         <li>
-            <b>full-text (<xsl:value-of select="@type"/>): </b>
+            <b>full-text <xsl:if test="@n">vol. <xsl:value-of select="concat(@n,' ')"/></xsl:if>(<xsl:value-of select="@type"/>): </b>
             <a href="{@target}"><xsl:value-of select="@target"/></a>
             
         </li>
