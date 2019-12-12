@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- example entry -->
+    <!--
+    <biblStruct xml:id="sb393.1">
+        <monogr>
+            <title>Men, Women and Books</title>
+            <author>Hunt, L.</author>
+            <note type="description">portrait, original cloth</note>
+            <edition>First Edition</edition>
+            <imprint>
+                <date when="1847"/>
+            </imprint>
+            <extent><measure unit="volumes" quantity="2"/></extent>
+        </monogr>
+        <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044082496506"/>
+        <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044019887306"/>
+        <note type="fulltext">HT copy is a different printing/year.</note>
+    </biblStruct>
+    -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8716,6 +8734,7 @@
                              </monogr>
                              <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044082496506"/>
                              <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044019887306"/>
+                             
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb394">
