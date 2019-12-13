@@ -129,7 +129,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
-                        </biblStruct>
+                            <note type="fulltext">The title is a multi-volume anthology of ninetheenth-century poets. The full work is more than 8 volumes, according to HT, so it's unclear whether the "etc." note refers to multple volumes of this work, or 8 separate titles. For now, we will not include full text, not knowing the details.</note>                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb629">
                         <biblStruct xml:id="sb629.1">
@@ -148,16 +148,19 @@
                             <title>The She Gallants, a Comedy</title>
                             <author>Landsdown, Geo. Granville, Lord</author>
                             <date>n.d.</date>
+                            <relatedItem type="ia" target="ark:/13960/t9868zb8s"/> 
                         </bibl>
                         <bibl xml:id="sb630.2">
                             <title>The Committee, a Comedy</title>
                             <author>Howard, Sir R.</author>
                             <date>n.d.</date>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/pst.000006518295"/> 
                         </bibl>
                         <bibl xml:id="sb630.3">
                             <title>Sir Courtly Nice and it Cannot be, a Comedy</title>
                             <author>Crown, John</author>
                             <date>n.d.</date>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/osu.32435017925306"/> 
                         </bibl>
                         <biblStruct xml:id="sb630.4">
                             <monogr>
@@ -169,6 +172,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/njp.32101037602263"/> 
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb631">
@@ -193,7 +197,7 @@
                     <listBibl type="lot" xml:id="sb632">
                         <biblStruct xml:id="sb632.1">
                             <monogr>
-                                <title xml:lang="fr">OEuvres Choisies, traduction nouvelle par W. L. Hughes</title>
+                                <title xml:lang="fr">Oeuvres Choisies, traduction nouvelle par W. L. Hughes</title>
                                 <author>Poe E.</author>
                                 <note type="description" corresp="#uncut">portrait, uncut</note>
                                 <imprint>
