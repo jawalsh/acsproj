@@ -192,6 +192,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uva.x000177937"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb632">
@@ -218,7 +219,7 @@
                         </biblStruct>
                         <biblStruct xml:id="sb632.3">
                             <monogr>
-                                <title xml:lang="fr">Les Poëmes de l"amour et de la Mort</title>
+                                <title xml:lang="fr">Les Poëmes de l’amour et de la Mort</title>
                                 <author>Lebey, A.</author>
                                 <note type="description" corresp="#uncut">uncut, ib.</note>
                                 <note type="etc" corresp="#presentation">and others, some presentation copies to Swinburne, with inscriptions<num value="14"/></note>
@@ -239,17 +240,21 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1-2" type="ht" target="https://hdl.handle.net/2027/osu.32435028102754"/>
+                            <note type="fulltext">HT copy is a different printing/year.</note>                     
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb634">
                         <bibl xml:id="sb634.1">
-                            <title>Poet's Praise (The) from Homer to Swinburne, collected and arranged, with notes, by E. Davenport Adams</title>
+                            <title>Poet’s Praise (The) from Homer to Swinburne, collected and arranged, with notes, by E. Davenport Adams</title>
                             <date when="1894"/>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc1.$b27458"/>
                         </bibl>
                         <bibl xml:id="sb634.2">
                             <title>Sea Song and river Rhyme from Chaucer to Tennyson, selected and edited by E. Davenport Adams, with a Poem by A. C. Swinburne</title>
                             <note type="description">12 etchings</note>
                             <date when="1890"/>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/inu.30000092244171"/>
                         </bibl>
                         <biblStruct xml:id="sb634.3">
                             <monogr>
@@ -261,6 +266,7 @@
                                     <date when="1875"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t7tm79f6g"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb635">
@@ -277,7 +283,9 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <note type="fulltext">Have found one volume with simpler title, "Political Verse." Can't find 3-volume work.</note>
                         </biblStruct>
+                        <!-- paused> -->
                         <biblStruct xml:id="sb635.2">
                             <monogr>
                                 <title>Adventures of Ferdinand, Count Fathom</title>
