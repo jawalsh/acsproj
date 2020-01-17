@@ -19,6 +19,10 @@
         <note type="fulltext">HT copy is a different printing/year.</note>
     </biblStruct>
     -->
+    <!-- ideas:
+       Write XSLT or Schematron to test if number of relatedItems matches number of volumes
+       -->
+       
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -87,8 +91,8 @@
                             <relatedItem n="5" type="ia" target="ark:/13960/t9f52j18q"/>
                             <relatedItem n="6" type="ia" target="ark:/13960/t4xh49z26"/>
                             <relatedItem n="7" type="ia" target="ark:/13960/t4hn01k7h"/>
-                            <relatedItem type="ia" n="8" target="ark:/13960/t10p5vw0v"/>
-                            <relatedItem type="ia" n="9" target="ark:/13960/t4tj3cg76"/>
+                            <relatedItem n="8" type="ia" target="ark:/13960/t10p5vw0v"/>
+                            <relatedItem n="9" type="ia" target="ark:/13960/t4tj3cg76"/>
                             <relatedItem n="10" type="ia" target="ark:/13960/t6wx26p8w"/>
                         </biblStruct>
                     </listBibl>
@@ -307,6 +311,7 @@
                                     <date when="1851"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/loc.ark:/13960/t12n6dx7z"/> 
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb636">
@@ -319,6 +324,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9r213444"/> 
                         </biblStruct>
                         <biblStruct xml:id="sb636.2">
                             <monogr>
@@ -329,6 +335,7 @@
                                     <date from="1898" to="1899"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/ien.35556036702348"/> 
                         </biblStruct>
                         <biblStruct xml:id="sb636.3">
                             <monogr>
@@ -340,6 +347,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t4fn1rf37"/> 
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb637">
