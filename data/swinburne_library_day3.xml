@@ -353,19 +353,25 @@
                     <listBibl type="lot" xml:id="sb637">
                         <biblStruct xml:id="sb637.1">
                             <monogr>
-                                <title>Popish Plot, a Study in the History of the Reign of Charles H.</title>
+                                <title>Popish Plot, a Study in the History of the Reign of Charles II.</title>
                                 <author>Pollock, J.</author>
                                 <note type="description">roy. 8vo.</note>
                                 <imprint>
                                     <date when="1903"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t2f76b907"/> 
                         </biblStruct>
-                        <bibl xml:id="sb637.2">
-                            <title>Napoleon, the Last Phase</title>
-                            <author>Rosebery, Lord</author>
-                            <date when="1900"/>
-                        </bibl>
+                        <biblStruct xml:id="sb637.2">
+                            <monogr>
+                                <title>Napoleon, the Last Phase</title>
+                                <author>Rosebery, Lord</author>
+                                <imprint>
+                                    <date when="1900"/>
+                                </imprint>
+                            </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t6ww7bh4x"/> 
+                        </biblStruct>
                         <biblStruct xml:id="sb637.3">
                             <monogr>
                                 <title>Life of Louis XI</title>
@@ -376,6 +382,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t3126051m"/> 
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb638">
@@ -388,9 +395,13 @@
                                     <date when="1677"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240965908%3Faccountid%3D11620."/> 
+                            <relatedItem type="ota" target="https://ota.bodleian.ox.ac.uk/repository/xmlui/bitstream/handle/20.500.12024/A55357/A55357.xml?sequence=6&amp;isAllowed=n"/>
+                            <note type="fulltext">ota is an earlier (1657) edition.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb639">
+                        <!-- jawalsh: check catalog. See https://www.biblio.com/book/alexander-pope-works-20-volumes-alexander/d/1249942326 . -->
                         <bibl xml:id="sb639.1">
                             <title>Works, with Commentary and Notes of Warburton</title>
                             <author>Pope, Alex.</author>
