@@ -129,7 +129,8 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
-                            <note type="fulltext">The title is a multi-volume anthology of ninetheenth-century poets. The full work is more than 8 volumes, according to HT, so it's unclear whether the "etc." note refers to multple volumes of this work, or 8 separate titles. For now, we will not include full text, not knowing the details.</note>                         </biblStruct>
+                            <note type="fulltext">The title is a multi-volume anthology of ninetheenth-century poets. The full work is more than 8 volumes, according to HT, so it's unclear whether the "etc." note refers to multple volumes of this work, or 8 separate titles. For now, we will not include full text, not knowing the details.</note>
+                        </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb629">
                         <biblStruct xml:id="sb629.1">
@@ -206,6 +207,7 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb632.2">
                             <monogr>
@@ -216,6 +218,7 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb632.3">
                             <monogr>
@@ -227,6 +230,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb633">
@@ -401,6 +405,8 @@
                         <bibl xml:id="sb639.1">
                             <title>Works, with Commentary and Notes of Warburton</title>
                             <author>Pope, Alex.</author>
+                            <relatedItem n="1" type="ht" target=""/>
+                            <note type="fulltext">7 results from HT; most are 9 vol with one 3 vol.</note>
                         </bibl>
                         <biblStruct xml:id="sb639.2">
                             <monogr>
@@ -412,6 +418,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="20"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
+                            <note type="fulltext">HT has seperate catalog records for the Illiad and the Odyssey for this year. Odyssey has only 1 of five vol and Illiad has 6 of 6 vol.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb640">
@@ -425,6 +433,16 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="10"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo.31924016650842"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044020295820"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/coo.31924016650867"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo.31924016650875"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/coo.31924016650966"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/hvd.32044090300872"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/hvd.32044090301284"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/hvd.32044090300898"/>
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/coo.31924016650990"/>
+                            <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/coo.31924016650933"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb641">
