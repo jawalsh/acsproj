@@ -285,7 +285,6 @@
                             </monogr>
                             <note type="fulltext">Have found one volume with simpler title, "Political Verse." Can't find 3-volume work.</note>
                         </biblStruct>
-                        <!-- paused> -->
                         <biblStruct xml:id="sb635.2">
                             <monogr>
                                 <title>Adventures of Ferdinand, Count Fathom</title>
@@ -296,6 +295,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uva.x002650012"/>
+                            <note type="fulltext">HT copy is a different printing/year.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb635.3">
                             <monogr>
@@ -307,6 +308,7 @@
                                     <date when="1851"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/loc.ark:/13960/t12n6dx7z"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb636">
@@ -319,7 +321,9 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9r213444"/>
                         </biblStruct>
+                        <!-- paused. -->
                         <biblStruct xml:id="sb636.2">
                             <monogr>
                                 <title>Forgotten Children's Books</title>
