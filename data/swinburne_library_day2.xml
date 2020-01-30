@@ -6677,7 +6677,7 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="1">vol. III</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="help" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb581">
@@ -6768,7 +6768,7 @@
                                      <date when="1518"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="ia" target="https://archive.org/details/nicolaileonicen00leon/page/n4/mode/2up"/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb586">
@@ -6781,7 +6781,7 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="1">in 1 vol.</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="help" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb587">
@@ -6819,7 +6819,7 @@
                                      <date when="1899"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="none" target=""/>
                          </biblStruct>
                          <biblStruct xml:id="sb588.3">
                              <monogr>
@@ -6831,7 +6831,7 @@
                                      <date when="1889"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="try_ia" target="https://archive.org/details/lesangdesfleurs00font/page/n6/mode/2up"/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb589">
@@ -6887,10 +6887,10 @@
                                  <note type="description">calf</note>
                                  <imprint>
                                      <pubPlace>Leipzig</pubPlace>
-                                     <date when="1736"/> <!-- Date is correct from the sales catalog, though HT has a 1763 copy with same pubPlace. -->
+                                     <date when="1736"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="ia" target="https://archive.org/details/dictionaryenglis00ludwuoft/page/n4/mode/2up"/>
                          </biblStruct>
                          <biblStruct xml:id="sb591.2">
                              <monogr>
@@ -7201,7 +7201,7 @@
                                      <date when="1899"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="ia" target="https://archive.org/details/choiseofvalentin00nashuoft/page/n8/mode/2up"/>
                          </biblStruct>
                          <biblStruct xml:id="sb609.2">
                              <monogr>
@@ -7217,7 +7217,7 @@
                                      <date when="1897"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="ia" target="https://archive.org/details/satirycalldialog00goddrich/page/n12/mode/2up"/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb610">
@@ -7253,7 +7253,7 @@
                                      <date when="1630"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="none" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb611">
@@ -7267,7 +7267,7 @@
                                      <date when="1585"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="none" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb612">
@@ -7382,21 +7382,22 @@
                                      <date when="1893"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="none" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb618">
                          <biblStruct xml:id="sb618.1">
                              <monogr>
                                  <title xml:lang="fr">Les Délices de l'Esprit Dialogues dediez aux beaux Esprits du Monde</title>
-                                 <author>Desarests, I.</author>
+                                 <author>Desmarests, I.</author>
                                  <note type="description">engravings, old calf gilt</note>
                                  <imprint>
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1661"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="ia" target="https://archive.org/details/bub_gb_bJWv_Vk8qvMC/page/n1/mode/2up"/>
+                             <note type="fulltext">IA copy from 1659, published in Paris, engravings, etc.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb619">
@@ -7411,7 +7412,8 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="1">2 vol. in 1</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="try_ia" target=""/>
+                             <relatedItem n="1" type="ia" target="https://archive.org/details/bub_gb_UasGhQZwWKcC/mode/2up"/>
+                             <note type="fulltext">IA copy from 1541, published in Paris.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb620">
