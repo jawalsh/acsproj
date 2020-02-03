@@ -448,20 +448,21 @@
                     <listBibl type="lot" xml:id="sb641">
                         <biblStruct xml:id="sb641.1">
                             <monogr>
-                                <title>Magiae Naturalis Libri XX</title>
+                                <title xml:lang="la">Magiae Naturalis Libri XX</title>
                                 <author>Porta, Joh. Bapt.</author>
                                 <note type="description">engraved title and woodcuts, vellum</note>
                                 <imprint>
-                                    <publisher>Lugd. Bat.</publisher> <!-- Check -->
+                                    <publisher>Lugd. Bat.</publisher>
                                     <date when="1650"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb642">
                         <biblStruct xml:id="sb642.1">
                             <monogr>
-                                <title>An Autobiographical Fragement and Biographical Notes</title>
+                                <title>An Autobiographical Fragment and Biographical Notes</title>
                                 <author>Proctor, Bryan Waller Barry Cornwall</author>
                                 <note type="description" corresp="#presentation">portrait, presentation copy, with inscription</note>
                                 <note type="inscription">A. C. Swinburne, Esq. with Anne B. Proctor's grateful regards</note>
@@ -469,10 +470,11 @@
                                     <date when="1877"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.$b111281"/>
                         </biblStruct>
                         <biblStruct xml:id="sb642.2">
                             <monogr>
-                                <title>Samuel Taylor Colerdige, a Narrative of the eVents of his Life</title>
+                                <title>Samuel Taylor Coleridge, a Narrative of the Events of his Life</title>
                                 <author>Campbell, J. Dykes</author>
                                 <note type="description">portrait, with inscription</note>
                                 <note type="inscription">Mr. Algernon C. Swinburne, with the Author's kind regards</note>
@@ -480,12 +482,13 @@
                                     <date when="1894"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4713387"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb643">
                         <biblStruct xml:id="sb643.1">
                             <monogr>
-                                <title>Death of Ezikiel's Wife</title>
+                                <title>Death of Ezekiel's Wife</title>
                                 <author>Purchas, John</author>
                                 <note type="description" corresp="#presentation">presentation copy, with inscription</note>
                                 <note type="inscription">Algernon Charles Swinburne, Esq. from ye Author J. P. <date when="1866-08-17"> Augst. 17, 1866</date></note>
@@ -493,6 +496,7 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/deathezekielswi00purcgoog/page/n4/mode/2up"/>
                         </biblStruct>
                         <biblStruct xml:id="sb643.2">
                             <monogr>
@@ -502,7 +506,7 @@
                                 <imprint>
                                     <date when="1866"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb644">
@@ -516,6 +520,8 @@
                                     <date when="1615"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">EEBO has a version translated into English from 1597.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb645">
@@ -523,32 +529,36 @@
                             <title>Old Fires and Profitable Ghosts</title>
                             <author>Quiller-Couch, A. T.</author>
                             <date when="1900"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwk5tk"/>
                         </bibl>
                         <bibl xml:id="sb645.2">
                             <title>Laird's Luck, etc.</title>
                             <author>Quiller-Couch, A. T.</author>
                             <date when="1901"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t8w957k0k"/>
                         </bibl>
                         <bibl xml:id="sb645.3">
-                            <title>John Fletcher's MAdonna</title>
+                            <title>John Fletcher's Madonna</title>
                             <author>Carr, Mrs. C.</author>
                             <date when="1905"/>
+                            <relatedItem n="1" type="none" target=""/>
                         </bibl>
                         <biblStruct xml:id="sb645.4">
                             <monogr>
-                                <title>The Doings of Raffles HAw</title>
+                                <title>The Doings of Raffles Haw</title>
                                 <author>Doyle, A. Conan</author>
                                 <note type="etc" corresp="#presentation">and others, some presentation copies<num value="20"/></note>
                                 <imprint>
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/pst.000001249002"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb646">
                         <biblStruct xml:id="sb646.1">
                             <monogr>
-                                <title xml:lang="fr">OEuvres Complètes, avec les Notes de tous les Commentateurs, publiés par L. Aimé-Martin, avec des additions</title>
+                                <title xml:lang="fr">Oeuvres Complètes, avec les Notes de tous les Commentateurs, publiés par L. Aimé-Martin, avec des additions</title>
                                 <author>Racine, J.</author>
                                 <note type="description">portrait and plates, calf gilt, m.e.</note>
                                 <imprint>
@@ -557,6 +567,12 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/umn.319510019988460"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/umn.31951d00640833e"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/umn.31951001998848w"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/umn.31951001998849u"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/umn.31951d005411710"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/umn.31951d00541172y"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb647">
@@ -569,11 +585,13 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.$b161110"/>
                         </biblStruct>
                         <bibl xml:id="sb647.2">
                             <title>Notes on the Life of John Payne Collier, with List of his Works</title>
                             <author>Wheatley, H. B.</author>
                             <date when="1884"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044050817758"/>
                         </bibl>
                         <biblStruct xml:id="sb647.3">
                             <monogr>
@@ -585,6 +603,7 @@
                                     <date when="1878"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044034524249"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb648">
@@ -596,7 +615,7 @@
                                 <imprint>
                                     <date when="1664"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248559910%3Faccountid%3D11620"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb649">
@@ -609,7 +628,7 @@
                                     <pubPlace>Catania</pubPlace>
                                     <date when="1883"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="ia" target="https://archive.org/details/giustiziaversi00rapiuoft/page/n10/mode/2up"/>
                         </biblStruct>
                         <biblStruct xml:id="sb649.2">
                             <monogr>
@@ -620,19 +639,20 @@
                                     <pubPlace>Palermo</pubPlace>
                                     <date when="1892"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb650">
                         <biblStruct xml:id="sb650.1">
                             <monogr>
-                                <title>Peg Woflington, with Introduction by Autsin Dobson</title>
+                                <title>Peg Woffington, with Introduction by Autsin Dobson</title>
                                 <author>Reade, Chas.</author>
                                 <note type="description" corresp="#uncut">large paper, one of 200 copies, illustrations by Hugh Thomson, buckram gilt, uncut, roy. 8vo.</note>
                                 <imprint>
                                     <date when="1899"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hw9in1"/>
+                            <note type="fulltext">Cannot tell if the HT copy is one of 200 copies, but all other details look correct.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb651">
@@ -644,12 +664,13 @@
                                 <imprint>
                                     <date when="1899"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb651.2">
                             <title>News from Nowhere</title>
                             <author>Morris, W.</author>
                             <date when="1891"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b5615849"/>
                         </bibl>
                         <biblStruct xml:id="sb651.3">
                             <monogr>
@@ -660,6 +681,7 @@
                                     <date when="1875"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044034541169"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb652">
@@ -671,7 +693,7 @@
                                 <imprint>
                                     <date when="1907"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb652.2">
                             <monogr>
@@ -685,6 +707,7 @@
                             <series>
                                 <title>Spirit of the Age Series, no. 1</title>
                             </series>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/msu.31293005878826"/>
                         </biblStruct>
                         <biblStruct xml:id="sb652.3">
                             <monogr>
@@ -697,6 +720,7 @@
                                     <date when="1903"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb653">
@@ -710,6 +734,7 @@
                                     <date when="1906"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb653.2">
                             <monogr>
@@ -721,6 +746,8 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hnx8dw"/>
+                            <note type="fulltext">HT record says author is "Mariéton, Paul" and I doubled checked the spelling in the sales cat., which is as it is in author</note>
                         </biblStruct>
                         <biblStruct xml:id="sb653.3">
                             <monogr>
@@ -732,6 +759,7 @@
                                     <date when="1896"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hnu9q7"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb654">
@@ -743,11 +771,11 @@
                                     <name>F. S. Ellis</name>
                                 </respStmt>
                                 <note type="description">illustrations by W. Crane</note>
-                                <edition></edition>
                                 <imprint>
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4740120"/>
                         </biblStruct>
                         <biblStruct xml:id="sb654.2">
                             <monogr>
@@ -757,6 +785,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb654.3">
                             <monogr>
@@ -767,7 +796,7 @@
                                 <imprint>
                                     <date when="1893"/>
                                 </imprint>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b3579131"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb655">
@@ -783,11 +812,14 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/>vol. I and III</extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/ucm.5325084359"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/ucm.5325084377"/>
                         </biblStruct>
                         <bibl xml:id="sb655.2">
                             <title>Catalogue of the Loan Collection of Pictures and Drawings by J. M. W. Turner, etc. with Notes by A. G. Temple</title>
                             <note type="etc"><num value="5"/></note>
                             <date when="1899"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044033979956"/>
                         </bibl>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb656">
@@ -801,7 +833,7 @@
                                     <date when="1791"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
-                            </monogr>
+                            </monogr><relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb656.2">
                             <monogr>
@@ -815,6 +847,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb657">
@@ -829,6 +862,7 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb657.2">
                             <monogr>
@@ -840,6 +874,7 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/inu.30000112943984"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb658">
@@ -852,6 +887,7 @@
                                     <date when="1851"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hw37nv"/>
                         </biblStruct>
                         <biblStruct xml:id="sb658.2">
                             <monogr>
@@ -864,6 +900,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044024186231"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb659">
@@ -878,6 +915,8 @@
                                     <date when="1892"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t7sn0r34s"/>
+                            <note type="fulltext">HT only had copies where London was the publisher.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb659.2">
                             <monogr>
@@ -888,6 +927,7 @@
                                     <date when="1874"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t75t3vm7g"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb660">
@@ -900,6 +940,7 @@
                                     <date when="1790"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/inu.39000005835280"/>
                         </biblStruct>
                         <biblStruct xml:id="sb660.2">
                             <monogr>
@@ -911,6 +952,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t0wq0hq35"/>
                         </biblStruct>
                         <biblStruct xml:id="sb660.3">
                             <monogr>
@@ -920,6 +962,7 @@
                                     <date when="1827"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015030841590"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb661">
@@ -933,18 +976,21 @@
                                     <date when="1894"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/dul1.ark:/13960/t72v7j82s"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb662">
                         <biblStruct xml:id="sb662.1">
                             <monogr>
-                                <title>La Lanterne, 54 nos.</title> <!-- 54 nos.? Could be measure? Check -->
+                                <title>La Lanterne, 54 nos.</title>
                                 <author>Rochefort, H.</author>
                                 <note type="description">various</note>
                                 <imprint>
                                     <date from="1868" to="1876"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
+                            <note type="fulltext">HT has this item available, but the "54 nos." in the title is throwing me for a loop.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb662.2">
                             <monogr>
@@ -957,6 +1003,7 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/chi.18716475"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb663">
@@ -970,6 +1017,8 @@
                                     <date when="1903"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.$b775226"/>
+                            <note type="fulltext">HT copy from 1905, but same pubPlace, etc.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb664">
@@ -983,6 +1032,7 @@
                                     <date when="1834"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwpwya"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb665">
@@ -998,6 +1048,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t7tm7fb6s"/>
+                            <note type="fulltext">HT copy from 1849, same pubPlace; could not locate a 1845 copy.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb666">
@@ -1010,6 +1062,7 @@
                                     <date when="1870"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiug.30112069485214"/>
                         </biblStruct>
                         <biblStruct xml:id="sb666.2">
                             <monogr>
@@ -1024,6 +1077,7 @@
                                     <date when="1896"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t42r40v57"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb667">
@@ -1037,6 +1091,8 @@
                                     <date when="1872"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/iau.31858007680196"/>
+                            <note type="fulltext">HT copy from 1893 is closest available, as the "New and Enlarged Edition".</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb668">
@@ -1049,6 +1105,7 @@
                                     <date when="1904"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/osu.32435006524482"/>
                         </biblStruct>
                         <biblStruct xml:id="sb668.2">
                             <monogr>
@@ -1060,6 +1117,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/umn.31951002284794o"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb669">
@@ -1077,6 +1135,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044022660021"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb670">
@@ -1091,6 +1150,8 @@
                                     <date when="1870"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nc01.ark:/13960/t71v6k88d"/>
+                            <note type="fulltext">HT copy says "Author's Edition".</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb671">
@@ -1105,6 +1166,7 @@
                                     <date when="1873"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/umn.31951002025092t"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb672">
@@ -1119,6 +1181,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/wu.89001853910"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/wu.89001422427"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb673">
@@ -1133,6 +1197,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b3556176"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b3556177"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb674">
@@ -1145,6 +1211,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t3tt4q011"/>
                         </biblStruct>
                         <biblStruct xml:id="sb674.2">
                             <monogr>
@@ -1156,6 +1223,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015033581847"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb675">
@@ -1169,12 +1237,13 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwp8rz"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb676">
                         <biblStruct xml:id="sb676.1">
                             <monogr>
-                                <title>Fine Art, cheifly Contemporary Notices reprinted with Revisions</title>
+                                <title>Fine Art, chiefly Contemporary Notices reprinted with Revisions</title>
                                 <author>Rossetti, W. M.</author>
                                 <note type="description" corresp="#presentation">presentation copy with inscription</note>
                                 <note type="inscription">From the author</note>
@@ -1183,6 +1252,7 @@
                                     <date when="1867"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044108411414"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb677">
@@ -1196,6 +1266,7 @@
                                     <date when="1878"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t3kw5zm69"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb678">
@@ -1209,6 +1280,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4107782"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b4107783"/>
                         </biblStruct>
                         <biblStruct xml:id="sb678.2">
                             <monogr>
@@ -1221,6 +1294,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwp475"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hwp476"/>
                         </biblStruct>
                         <biblStruct xml:id="sb678.3">
                             <monogr>
@@ -1232,6 +1307,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015030711181"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015030711173"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb679">
@@ -1245,6 +1322,9 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044080260227"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044080260235"/>
+                            <note type="fulltext">HT copies both. n1 is the catalogue from 1886, and n2 is the appendix dfrom 1900.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb680">
@@ -1258,20 +1338,33 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="10"/>XV-XXIII</extent>
                             </monogr>
+                            <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/hvd.hw295u"/>
+                            <relatedItem n="16" type="ht" target="https://hdl.handle.net/2027/hvd.hw295v"/>
+                            <relatedItem n="17" type="ht" target="https://hdl.handle.net/2027/hvd.hw295w"/>
+                            <relatedItem n="18" type="ht" target="https://hdl.handle.net/2027/hvd.hw2979"/>
+                            <relatedItem n="19" type="ht" target="https://hdl.handle.net/2027/hvd.hw297a"/>
+                            <relatedItem n="20" type="ht" target="https://hdl.handle.net/2027/hvd.hw297b"/>
+                            <relatedItem n="21" type="ht" target="https://hdl.handle.net/2027/hvd.hw297c"/>
+                            <relatedItem n="22" type="ht" target="https://hdl.handle.net/2027/mdp.39015062926749"/>
+                            <relatedItem n="23" type="ht" target="https://hdl.handle.net/2027/hvd.hw297e"/>
+                            <note type="fulltext">HT volumes cover the date range specified in date.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb681">
                         <biblStruct xml:id="sb681.1">
                             <monogr>
-                                <title>Rump: or Exact Collection of the choycest Poems and Songs realting to the Late Times</title>
+                                <title>Rump: or Exact Collection of the choycest Poems and Songs relating to the Late Times</title>
                                 <note type="description" corresp="#uncut">uncut</note>
                                
                                 <imprint>
                                     <date when="1662"/>
-                                    <date>rep n.d.</date><!-- Reprint has no date. -->
+                                    <date>rep n.d.</date>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044009599184"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044009599176"/>
+                            <note type="fulltext">HT copies look like they are reprints of the 1662 version, reprinted in 1874.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb681.2">
                             <monogr>
@@ -1284,6 +1377,9 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.32106019477451"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.32106019477469"/>
+                            <note type="fulltext">HT copies from 1817; author listed as "Mennes" but cat. says "Mennis".</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb682">
@@ -1298,6 +1394,8 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044086814142"/>
+                            <note type="fulltext">HT copy published in New York; can't tell if it's first edition.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb683">
@@ -1311,6 +1409,13 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="7">6 vol. in 7</measure></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.c086580009"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b000603355"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.b000603356"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc1.c086288701"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/uc1.b000603358"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uc1.b000603359"/>
+                            <note type="fulltext">HT copies are from 1897, closest to date listed that has 6 vol. The final vol. is the index.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb683.2">
                             <monogr>
@@ -1322,6 +1427,10 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/msu.31293104598085"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/msu.31293104598077"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/msu.31293106167822"/>
+                            <note type="fulltext">HT copies from 1894.</note>
                         </biblStruct><biblStruct xml:id="sb683.3">
                             <monogr>
                                 <title>Notes on Pictures</title>
@@ -1333,6 +1442,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.fl37h5"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.fl37h4"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb684">
@@ -1346,6 +1457,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015002748922"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb685">
@@ -1361,6 +1473,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
+                            <note type="fulltext">HT has copies, but it's 14 vol in 7 or the like, not 4 vol.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb686">
@@ -1373,6 +1487,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb686.2">
                             <monogr>
@@ -1383,6 +1498,7 @@
                                     <date when="1843"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/loc.ark:/13960/t7sn1gw07"/>
                         </biblStruct>
                         <biblStruct xml:id="sb686.3">
                             <monogr>
@@ -1393,6 +1509,8 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hnylld"/>
+                            <note type="fulltext">HT copy from 1901.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb687">
@@ -1406,6 +1524,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb687.2">
                             <monogr>
@@ -1417,6 +1536,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb688">
@@ -1430,6 +1550,7 @@
                                     <date when="1846"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb688.2">
                             <title>Poems</title>
@@ -1446,6 +1567,7 @@
                                     <date when="1867"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb689">
@@ -1463,6 +1585,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb690">
@@ -1477,6 +1600,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb690.2">
                             <monogr>
@@ -1488,6 +1612,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/>vol. XI, XVI, and XVII</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb691">
@@ -1503,6 +1628,7 @@
                                     <date when="1853"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb692">
@@ -1517,6 +1643,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="12"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb693">
@@ -1531,6 +1658,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="48"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb694">
@@ -1546,6 +1674,7 @@
                                     <date from="1901" to="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb695">
@@ -1557,6 +1686,7 @@
                                     <date when="1804"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb695.2">
                             <monogr>
@@ -1567,6 +1697,7 @@
                                     <date when="1832"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb695.3">
                             <monogr>
@@ -1578,6 +1709,7 @@
                                     <date when="1809"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb696">
@@ -1590,6 +1722,7 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb696.2">
                             <monogr>
@@ -1601,6 +1734,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb696.3">
                             <monogr>
@@ -1611,6 +1745,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb696.4">
                             <monogr>
@@ -1622,6 +1757,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb697">
@@ -1638,6 +1774,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb698">
@@ -1651,6 +1788,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb699">
@@ -1664,6 +1802,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb700">
@@ -1677,6 +1816,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb700.2">
                             <monogr>
@@ -1688,6 +1828,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb700.3">
                             <monogr>
@@ -1700,6 +1841,7 @@
                                     <date when="1787"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb701">
@@ -1718,6 +1860,7 @@
                                     <date when="1874"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb702">
@@ -1731,6 +1874,7 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb703">
@@ -1749,6 +1893,7 @@
                                     <date when="1888"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb704">
@@ -1767,6 +1912,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb705">
@@ -1785,6 +1931,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb706">
@@ -1798,6 +1945,7 @@
                                     <date when="1825"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb706.2">
                             <monogr>
@@ -1812,6 +1960,7 @@
                                     <date when="1830"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb706.3">
                             <monogr>
@@ -1823,6 +1972,7 @@
                                     <date when="1819"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb707">
@@ -1842,6 +1992,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb708">
@@ -1856,6 +2007,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="37"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb709">
@@ -1870,6 +2022,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="8"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb710">
@@ -1883,6 +2036,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="9"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb711">
@@ -1895,6 +2049,7 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb711.2">
                             <monogr>
@@ -1905,6 +2060,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb711.3">
                             <monogr>
@@ -1916,6 +2072,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb712">
@@ -1932,6 +2089,7 @@
                                     <date when="1883"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb712.2">
                             <monogr>
@@ -1946,6 +2104,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb712.3">
                             <monogr>
@@ -1957,6 +2116,7 @@
                                     <date when="1848"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb713">
@@ -1971,6 +2131,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb714">
@@ -1985,6 +2146,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="18"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb714.2">
                             <title xml:lang="fr">Lettres à M. Panizzi, 1850-1870, publiées par Louis Fagan</title>
@@ -2014,6 +2176,7 @@
                                     <date when="1880"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb716.2">
                             <monogr>
@@ -2024,6 +2187,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb717">
@@ -2036,6 +2200,7 @@
                                     <date when="1826"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb717.2">
                             <monogr>
@@ -2046,6 +2211,7 @@
                                     <date when="1833"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb718">
@@ -2065,6 +2231,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb719">
@@ -2078,6 +2245,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb719.2">
                             <monogr>
@@ -2091,6 +2259,7 @@
                                     <date when="1859"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb719.3">
                             <monogr>
@@ -2101,6 +2270,7 @@
                                     <date when="1862"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb720">
@@ -2118,6 +2288,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="8"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb721">
@@ -2137,6 +2308,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb722">
@@ -2154,6 +2326,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb722.2">
                             <monogr>
@@ -2169,6 +2342,7 @@
                                     <date when="1892"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb723">
@@ -2186,6 +2360,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb723.2">
                             <monogr>
@@ -2197,6 +2372,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb724">
@@ -2210,6 +2386,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb725">
@@ -2223,6 +2400,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb726">
@@ -2235,6 +2413,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb726.2">
                             <monogr>
@@ -2249,6 +2428,7 @@
                                     <date when="1900"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb727">
@@ -2265,6 +2445,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb727.2">
                             <monogr>
@@ -2275,6 +2456,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb727.3">
                             <monogr>
@@ -2285,6 +2467,7 @@
                                     <date when="1858"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb728">
@@ -2313,6 +2496,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb729">
@@ -2326,6 +2510,7 @@
                                     <date when="1883"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb729.2">
                             <monogr>
@@ -2338,6 +2523,7 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb730">
@@ -2351,6 +2537,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb731">
@@ -2363,6 +2550,7 @@
                                     <date when="1892"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb732">
@@ -2375,6 +2563,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb732.2">
                             <title>History of Elizabethan Literature</title>
@@ -2390,6 +2579,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb733">
@@ -2403,6 +2593,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb734">
@@ -2429,6 +2620,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb735">
@@ -2445,6 +2637,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb736">
@@ -2461,6 +2654,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb737">
@@ -2474,6 +2668,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb738">
@@ -2487,6 +2682,7 @@
                                     <date when="1896"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb739">
@@ -2500,6 +2696,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb740">
@@ -2513,6 +2710,7 @@
                                     <date when="1878"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb741">
@@ -2530,6 +2728,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb741.3">
                             <monogr>
@@ -2541,6 +2740,7 @@
                                     <date when="1876"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb742">
@@ -2555,6 +2755,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb743">
@@ -2568,6 +2769,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb743.2">
                             <monogr>
@@ -2584,6 +2786,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb744">
@@ -2598,6 +2801,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb745">
@@ -2610,6 +2814,7 @@
                                     <date when="1858"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb745.2">
                             <monogr>
@@ -2621,6 +2826,7 @@
                                     <date when="1840"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb745.3">
                             <monogr>
@@ -2637,6 +2843,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb746">
@@ -2649,6 +2856,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb746.2">
                             <monogr>
@@ -2660,6 +2868,7 @@
                                     <date when="1894"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb747">
@@ -2673,6 +2882,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb747.2">
                             <monogr>
@@ -2687,6 +2897,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb748">
@@ -2700,6 +2911,7 @@
                                     <date when="1727"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb748.2">
                             <monogr>
@@ -2710,6 +2922,7 @@
                                     <date when="1736"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb749">
@@ -2723,6 +2936,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb749.2">
                             <monogr>
@@ -2735,6 +2949,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb750">
@@ -2752,6 +2967,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb751">
@@ -2764,6 +2980,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb751.2">
                             <monogr>
@@ -2778,6 +2995,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb752">
@@ -2792,6 +3010,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="5"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb753">
@@ -2804,6 +3023,7 @@
                                     <date when="1894"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb753.2">
                             <monogr>
@@ -2815,6 +3035,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb754">
@@ -2828,6 +3049,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb754.2">
                             <monogr>
@@ -2838,6 +3060,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb754.3">
                             <monogr>
@@ -2849,6 +3072,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb755">
@@ -2863,6 +3087,7 @@
                                     <date when="1873"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb755.2">
                             <monogr>
@@ -2874,6 +3099,7 @@
                                     <date when="1874"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb756">
@@ -2886,6 +3112,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb756.2">
                             <title>The Yeoman of the Guard and Utopia, Two Operas</title>
@@ -2901,6 +3128,7 @@
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb757">
@@ -2914,6 +3142,7 @@
                                     <date when="1839"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb758">
@@ -2927,6 +3156,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb759">
@@ -2940,6 +3170,7 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb759.2">
                             <monogr>
@@ -2951,6 +3182,7 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb760">
@@ -2964,6 +3196,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb760.2">
                             <monogr>
@@ -2974,6 +3207,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb761">
@@ -2987,6 +3221,7 @@
                                     <date when="1860"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb761.2">
                             <monogr>
@@ -2997,6 +3232,7 @@
                                     <date when="1881"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb761.3">
                             <monogr>
@@ -3008,6 +3244,7 @@
                                     <date when="1879"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb762">
@@ -3022,6 +3259,7 @@
                                     <date when="1871"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb762.2">
                             <monogr>
@@ -3034,6 +3272,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb763">
@@ -3045,6 +3284,7 @@
                                     <date when="1906"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb764">
@@ -3065,6 +3305,7 @@
                                     <date when="1586"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb766">
@@ -3078,6 +3319,7 @@
                                     <date when="1513"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb767">
@@ -3093,6 +3335,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb767.2">
                             <monogr>
@@ -3106,6 +3349,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb767.3">
                             <monogr>
@@ -3117,6 +3361,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb768">
@@ -3129,6 +3374,7 @@
                                     <date when="1836"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb769">
@@ -3143,6 +3389,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb769.2">
                             <monogr>
@@ -3154,6 +3401,7 @@
                                     <date when="1855"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb769.3">
                             <monogr>
@@ -3166,6 +3414,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>3 vol. in 1</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb770">
@@ -3179,6 +3428,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb771">
@@ -3192,6 +3442,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="5"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb772">
@@ -3207,6 +3458,7 @@
                                     <date>n.d. [c. 1866]</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb773">
@@ -3218,6 +3470,7 @@
                                     <date when="1865"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb773.2">
                             <monogr>
@@ -3228,6 +3481,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb773.3">
                             <monogr>
@@ -3243,6 +3497,7 @@
                                     <date when="1876"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb774">
@@ -3258,6 +3513,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb775">
@@ -3275,6 +3531,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb775.2">
                             <monogr>
@@ -3286,6 +3543,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb776">
@@ -3299,6 +3557,7 @@
                                     <date when="1868"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb777">
@@ -3314,6 +3573,7 @@
                                     <date when="1871"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb778">
@@ -3326,6 +3586,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb779">
@@ -3339,6 +3600,7 @@
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb780">
@@ -3367,6 +3629,7 @@
                                     <date when="1894"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb782.2">
                             <title>Essays and Studies</title>
@@ -3382,6 +3645,7 @@
                                     <date when="1866"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb782.4">
                             <monogr>
@@ -3392,6 +3656,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb783">
@@ -3406,6 +3671,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>II</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb784">
@@ -3419,6 +3685,7 @@
                                 </imprint>
                                 <extent><measure unit="pages" quantity="16"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb785">
@@ -3437,6 +3704,7 @@
                                     <date when="1882"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb786">
@@ -3454,6 +3722,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb786.2">
                             <monogr>
@@ -3468,6 +3737,7 @@
                                     <date when="1883"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb786.3">
                             <monogr>
@@ -3480,6 +3750,7 @@
                                     <date when="1659"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb787">
@@ -3493,6 +3764,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb787.2">
                             <monogr>
@@ -3503,6 +3775,7 @@
                                     <date when="1900"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb787.3">
                             <monogr>
@@ -3513,6 +3786,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb787.4">
                             <monogr>
@@ -3524,6 +3798,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb788">
@@ -3541,6 +3816,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb788.2">
                             <monogr>
@@ -3555,6 +3831,7 @@
                                     <date when="1909"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb788.3">
                             <monogr>
@@ -3569,6 +3846,7 @@
                                     <date when="1883"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb789">
@@ -3582,6 +3860,7 @@
                                     <date when="1909"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb790">
@@ -3594,6 +3873,7 @@
                                     <date when="1882"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb790.2">
                             <monogr>
@@ -3604,6 +3884,7 @@
                                     <date when="1838"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb790.3">
                             <monogr>
@@ -3615,6 +3896,7 @@
                                     <date when="1854"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb791">
@@ -3628,6 +3910,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb792">
@@ -3642,6 +3925,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb793">
@@ -3656,6 +3940,7 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb794">
@@ -3669,6 +3954,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb795">
@@ -3681,6 +3967,7 @@
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb795.2">
                             <monogr>
@@ -3692,6 +3979,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb796">
@@ -3706,6 +3994,7 @@
                                     <date when="1906"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb798">
@@ -3719,6 +4008,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="5"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb799">
@@ -3732,6 +4022,7 @@
                                     <date when="1855"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb799.2">
                             <title>Poems by Two Brothers</title>
@@ -3747,6 +4038,7 @@
                                     <date when="1877"/>
                                 </imprint>  
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb800">
@@ -3760,6 +4052,7 @@
                                     <date when="1875"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb801">
@@ -3772,6 +4065,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb801.2">
                             <title>Alfred Tennyson</title>
@@ -3788,6 +4082,7 @@
                                     <date when="1892"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb802">
@@ -3806,6 +4101,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb803">
@@ -3820,6 +4116,7 @@
                                     <date when="1772"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb803.2">
                             <monogr>
@@ -3831,6 +4128,7 @@
                                     <date when="1554"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb804">
@@ -3843,6 +4141,7 @@
                                     <date when="1848"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb805">
@@ -3855,6 +4154,7 @@
                                     <date when="1849"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb805.2">
                             <monogr>
@@ -3865,6 +4165,7 @@
                                     <date when="1843"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb806">
@@ -3879,6 +4180,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb806.2">
                             <monogr>
@@ -3892,6 +4194,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb807">
@@ -3905,6 +4208,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb807.2">
                             <monogr>
@@ -3916,6 +4220,7 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb808">
@@ -3928,6 +4233,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb808.2">
                             <monogr>
@@ -3939,6 +4245,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb809">
@@ -3951,6 +4258,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb810">
@@ -3974,6 +4282,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb811">
@@ -3989,6 +4298,7 @@
                                     <date when="1906"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb811.2">
                             <monogr>
@@ -3999,6 +4309,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb811.3">
                             <monogr>
@@ -4013,6 +4324,7 @@
                                     <date when="1875"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb812">
@@ -4026,6 +4338,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="12"/>24 vol. (wanting 12 vol.)</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb813">
@@ -4040,6 +4353,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="13"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb814">
@@ -4053,6 +4367,7 @@
                                     <date when="1880"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb815">
@@ -4066,6 +4381,7 @@
                                     <date when="1825"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb816">
@@ -4083,6 +4399,7 @@
                                     <date when="1824"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb816.3">
                             <monogr>
@@ -4093,6 +4410,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb817">
@@ -4109,6 +4427,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb817.2">
                             <monogr>
@@ -4125,6 +4444,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb818">
@@ -4143,6 +4463,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb819">
@@ -4157,6 +4478,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb820">
@@ -4169,6 +4491,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb820.2">
                             <monogr>
@@ -4179,6 +4502,7 @@
                                     <date when="1904"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb820.3">
                             <monogr>
@@ -4191,6 +4515,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb821">
@@ -4203,6 +4528,7 @@
                                     <date when="1869"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb821.2">
                             <monogr>
@@ -4213,6 +4539,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb821.3">
                             <monogr>
@@ -4224,6 +4551,7 @@
                                     <date when="1900"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb822">
@@ -4238,6 +4566,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb823">
@@ -4252,6 +4581,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb823.2">
                             <monogr>
@@ -4265,6 +4595,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb824">
@@ -4278,6 +4609,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="8"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb825">
@@ -4294,6 +4626,7 @@
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb825.2">
                             <monogr>
@@ -4304,6 +4637,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb825.3">
                             <monogr>
@@ -4314,6 +4648,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb826">
@@ -4330,6 +4665,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="13"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb827">
@@ -4343,6 +4679,7 @@
                                     <date when="1872"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb827.2">
                             <monogr>
@@ -4353,6 +4690,7 @@
                                     <date when="1873"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb827.3">
                             <monogr>
@@ -4368,6 +4706,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb828">
@@ -4381,6 +4720,7 @@
                                     <date when="1875"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb828.2">
                             <monogr>
@@ -4391,6 +4731,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb828.3">
                             <monogr>
@@ -4402,6 +4743,7 @@
                                     <date when="1881"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb829">
@@ -4415,6 +4757,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb830">
@@ -4431,6 +4774,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb831">
@@ -4444,6 +4788,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb832">
@@ -4457,6 +4802,7 @@
                                     <date when="1886"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb833">
@@ -4471,6 +4817,7 @@
                                     <date when="1900"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb834">
@@ -4484,6 +4831,7 @@
                                     <date when="1900"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb835">
@@ -4497,6 +4845,7 @@
                                     <date when="1541"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb836">
@@ -4510,6 +4859,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb836.2">
                             <monogr>
@@ -4521,6 +4871,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb836.3">
                             <title>Lucani Pharsalia</title>
@@ -4537,6 +4888,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb837">
@@ -4549,6 +4901,7 @@
                                     <date when="1843"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb837.2">
                             <monogr>
@@ -4561,6 +4914,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb838">
@@ -4575,6 +4929,7 @@
                                     <date when="1903"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb838.2">
                             <monogr>
@@ -4584,6 +4939,7 @@
                                     <date when="1872"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb839">
@@ -4598,6 +4954,7 @@
                                     <date when="1734"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb839.2">
                             <monogr>
@@ -4608,6 +4965,7 @@
                                     <date when="1727"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb839.3">
                             <monogr>
@@ -4618,6 +4976,7 @@
                                     <date when="1731"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb839.4">
                             <monogr>
@@ -4629,6 +4988,7 @@
                                     <date when="1733"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb840">
@@ -4642,6 +5002,7 @@
                                     <date when="1786"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb840.2">
                             <monogr>
@@ -4652,6 +5013,7 @@
                                     <date when="1717"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb840.3">
                             <monogr>
@@ -4662,6 +5024,7 @@
                                     <date when="1807"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb841">
@@ -4676,6 +5039,7 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb842">
@@ -4691,6 +5055,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb843">
@@ -4703,6 +5068,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb843.2">
                             <monogr>
@@ -4713,6 +5079,7 @@
                                     <date when="1899"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb843.3">
                             <title>Isles of Sunset</title>
@@ -4729,6 +5096,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb844">
@@ -4742,6 +5110,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb845">
@@ -4759,6 +5128,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb845.2">
                             <monogr>
@@ -4771,6 +5141,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb846">
@@ -4784,6 +5155,7 @@
                                     <date when="1847"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb847">
@@ -4799,6 +5171,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>in 1 vol.</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb849">
@@ -4812,6 +5185,7 @@
                                     <date when="1868"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb850">
@@ -4826,6 +5200,7 @@
                                     <date when="1871"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb851">
@@ -4841,6 +5216,7 @@
                                     <date when="1871"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb852">
@@ -4854,6 +5230,7 @@
                                     <date when="1871"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb853">
@@ -4868,6 +5245,7 @@
                                     <date from="1881" to="1882"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb854">
@@ -4881,6 +5259,7 @@
                                     <date when="1872"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb855">
@@ -4899,6 +5278,7 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb856">
@@ -4912,6 +5292,7 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb857">
@@ -4926,6 +5307,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb858">
@@ -4940,6 +5322,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb859">
@@ -4953,6 +5336,7 @@
                                     <date when="1894"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb860">
@@ -4967,6 +5351,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>2 in 1 vol.</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <bibl xml:id="sb860.2">
                             <title>The Recluse</title>
@@ -4985,6 +5370,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb861.2">
                             <monogr>
@@ -4996,6 +5382,7 @@
                                     <date when="1847"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb862">
@@ -5008,6 +5395,7 @@
                                     <date when="1850"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb862.2">
                             <monogr>
@@ -5018,6 +5406,7 @@
                                     <date when="1852"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb862.3">
                             <monogr>
@@ -5032,6 +5421,7 @@
                                     <date when="1843"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb863">
@@ -5044,6 +5434,7 @@
                                     <date when="1853"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb863.2">
                             <monogr>
@@ -5054,6 +5445,7 @@
                                     <date when="1844"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb864">
@@ -5066,6 +5458,7 @@
                                     <date when="1840"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb864.2">
                             <monogr>
@@ -5076,6 +5469,7 @@
                                     <date when="1828"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb865">
@@ -5088,6 +5482,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb865.2">
                             <monogr>
@@ -5098,6 +5493,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb865.3">
                             <monogr>
@@ -5110,6 +5506,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb866">
@@ -5135,6 +5532,7 @@
                                     <date when="1805"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb867">
@@ -5147,6 +5545,7 @@
                                     <date when="1909"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb867.2">
                             <monogr>
@@ -5158,6 +5557,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb868">
@@ -5175,6 +5575,7 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb868.2">
                             <monogr>
@@ -5189,6 +5590,7 @@
                                     <date when="1882"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb869">
@@ -5202,6 +5604,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb869.2">
                             <monogr>
@@ -5212,6 +5615,7 @@
                                     <date when="1828"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                 </div> <!-- End of Octavo -->
@@ -5226,6 +5630,7 @@
                                     <date when="1897"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb870.2">
                             <monogr>
@@ -5237,6 +5642,7 @@
                                     <date when="1904"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb871">
@@ -5249,6 +5655,7 @@
                                     <date when="1603"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb872">
@@ -5261,6 +5668,7 @@
                                     <date when="1654"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb872.2">
                             <monogr>
@@ -5271,6 +5679,7 @@
                                     <date when="1722"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb873">
@@ -5288,6 +5697,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb874">
@@ -5301,6 +5711,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb875">
@@ -5313,6 +5724,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/>I, II, IV</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb876">
@@ -5329,6 +5741,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb876.2">
                             <monogr>
@@ -5339,6 +5752,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb877">
@@ -5357,6 +5771,7 @@
                                     <date when="1890"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb879">
@@ -5369,6 +5784,7 @@
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb880">
@@ -5382,6 +5798,7 @@
                                     <date when="1623"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb881">
@@ -5395,6 +5812,7 @@
                                     <date when="1632"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb882">
@@ -5409,6 +5827,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb883">
@@ -5422,6 +5841,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb883.2">
                             <monogr>
@@ -5434,6 +5854,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb884">
@@ -5447,6 +5868,7 @@
                                     <date when="1877"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb884.2">
                             <monogr>
@@ -5458,6 +5880,7 @@
                                     <date when="1888"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb885">
@@ -5471,6 +5894,7 @@
                                     <date from="1884" to="1885"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb886">
@@ -5488,6 +5912,7 @@
                                     <date when="1637"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb887">
@@ -5502,6 +5927,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb888">
@@ -5515,6 +5941,7 @@
                                     <date when="1838"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb889">
@@ -5528,6 +5955,7 @@
                                     <date when="1876"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb889.2">
                             <monogr>
@@ -5538,6 +5966,7 @@
                                     <date when="1877"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb890">
@@ -5555,6 +5984,7 @@
                                 </imprint>
                                 <extent><measure unit="parts" quantity="15"/>1-13, 15 and 18</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb890.2">
                             <monogr>
@@ -5569,6 +5999,7 @@
                                 </imprint>
                                 <extent><measure unit="parts" quantity="28"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb891">
@@ -5582,6 +6013,7 @@
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb891.2">
                             <monogr>
@@ -5593,6 +6025,7 @@
                                     <date when="1871"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb892">
@@ -5609,6 +6042,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb893">
@@ -5622,6 +6056,7 @@
                                     <date when="1901"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb893.2">
                             <monogr>
@@ -5632,6 +6067,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb894">
@@ -5649,6 +6085,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb895">
@@ -5665,6 +6102,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb896">
@@ -5681,6 +6119,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb897">
@@ -5697,6 +6136,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb898">
@@ -5713,6 +6153,7 @@
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb899">
@@ -5727,6 +6168,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb900">
@@ -5740,6 +6182,7 @@
                                     <date when="1903"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb901">
@@ -5752,6 +6195,7 @@
                                     <date when="1631"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb902">
@@ -5770,6 +6214,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb903">
@@ -5783,6 +6228,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb904">
@@ -5795,6 +6241,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb905">
@@ -5811,6 +6258,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb906">
@@ -5823,6 +6271,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb906.2">
                             <monogr>
@@ -5834,6 +6283,7 @@
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb907">
@@ -5847,6 +6297,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb908">
@@ -5861,6 +6312,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb909">
@@ -5876,6 +6328,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb910">
@@ -5889,6 +6342,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="9"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb911">
@@ -5902,6 +6356,7 @@
                                     <date when="1534"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb912">
@@ -5916,6 +6371,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb913">
@@ -5929,6 +6385,7 @@
                                     <date when="1796"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb913.2">
                             <monogr>
@@ -5939,6 +6396,7 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb914">
@@ -5953,6 +6411,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb915">
@@ -5966,6 +6425,7 @@
                                     <date when="1876"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb915.2">
                             <monogr>
@@ -5977,6 +6437,7 @@
                                     <date when="1900"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb916">
@@ -5989,6 +6450,7 @@
                                     <date when="1750"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb917">
@@ -6001,6 +6463,7 @@
                                     <date when="1672"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb918">
@@ -6023,6 +6486,7 @@
                                     <date when="1815"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb919">
@@ -6036,6 +6500,7 @@
                                     <date when="1665"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb920">
@@ -6049,6 +6514,7 @@
                                     <date when="1736"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb920.2">
                             <monogr>
@@ -6060,6 +6526,7 @@
                                     <date when="1778"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb921">
@@ -6075,6 +6542,7 @@
                                     <date when="1893"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb922">
@@ -6087,6 +6555,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb922.2">
                             <monogr>
@@ -6097,6 +6566,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl> 
                 </div> <!-- End of Quarto -->
@@ -6112,6 +6582,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb923.2">
                             <monogr>
@@ -6124,6 +6595,7 @@
                                 </imprint>
                                 <extent><measure unit="parts" quantity="10"/>in 10 parts as issued</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb924">
@@ -6136,6 +6608,7 @@
                                     <date when="1640"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb925">
@@ -6148,6 +6621,7 @@
                                     <date when="1904"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb925.2">
                             <monogr>
@@ -6160,6 +6634,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>II</extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb926">
@@ -6174,6 +6649,7 @@
                                     <date when="1876"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb927">
@@ -6187,6 +6663,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb927.2">
                             <monogr>
@@ -6198,6 +6675,7 @@
                                     <date when="1887"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb928">
@@ -6211,6 +6689,7 @@
                                     <date when="1595"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb929">
@@ -6225,6 +6704,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb929.2">
                             <monogr>
@@ -6237,6 +6717,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb930">
@@ -6249,6 +6730,7 @@
                                     <date when="1904"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb931">
@@ -6261,6 +6743,7 @@
                                     <date when="1566"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb932">
@@ -6273,6 +6756,7 @@
                                     <date>18--</date> <!-- Date is illegible in lot. Check -->
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb932.2">
                             <monogr>
@@ -6284,6 +6768,7 @@
                                     <date when="1861"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb933">
@@ -6297,6 +6782,7 @@
                                     <date when="1534"/> <!-- Date is hard to read. Check -->
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb934">
@@ -6310,6 +6796,7 @@
                                     <date>reprint n.d.</date>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb935">
@@ -6323,6 +6810,7 @@
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb936">
@@ -6336,6 +6824,7 @@
                                     <date when="1658"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb936.2">
                             <monogr>
@@ -6347,6 +6836,7 @@
                                     <date when="1684"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb937">
@@ -6362,6 +6852,7 @@
                                     <date when="1539"/> <!-- Hard to read. Check -->
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb938">
@@ -6377,6 +6868,7 @@
                                     <date when="1850"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb938.2">
                             <monogr>
@@ -6387,6 +6879,7 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
+<relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                 </div> <!-- End of Folio -->
@@ -6417,6 +6910,7 @@
                         </imprint>
                         <extent><measure unit="volumes" quantity=""/></extent>
                     </monogr>
+                    <relatedItem n="1" type="ht" target=""/>
                 </biblStruct>
             </listBibl>
             
