@@ -603,6 +603,8 @@
                                     <date when="1876"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">There is a work by this title and close in year, but the author is different. Additionally, Sir Edwin Arnold does have works around this same time, but none have this title.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb020.2">
                             <monogr>
@@ -628,6 +630,7 @@
                                     <date when="1892"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9x063d7x"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb021">
@@ -640,6 +643,7 @@
                                     <date when="1853"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/poems04unkngoog/page/n7/mode/2up"/>
                         </biblStruct>
                         <biblStruct xml:id="sb021.2">
                             <monogr>
@@ -691,6 +695,7 @@
                                     <date when="1906"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015019802209"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb023">
@@ -703,6 +708,7 @@
                                     <date when="1861"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/populareducation00arnorich/page/n8/mode/2up"/>
                         </biblStruct>
                         <biblStruct xml:id="sb023.2">
                             <monogr>
@@ -725,6 +731,7 @@
                                     <date when="1874"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015008433776"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb024">
@@ -763,6 +770,7 @@
                                     <date when="1872"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31175029158675"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb026">
@@ -787,6 +795,7 @@
                                     <date when="1877"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/yale.39002008252752"/>
                         </biblStruct>
                         <biblStruct xml:id="sb026.3">
                             <monogr>
@@ -844,6 +853,7 @@
                                     <date when="1875"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9377dw1c"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb028">
@@ -881,11 +891,12 @@
                                 </respStmt>
                                 <note type="description">old morocca extra, richly gilt sides, g.e. joints cracked</note>
                                 <imprint>
-                                    <pubPlace>Venet.</pubPlace> <!-- Lang? -->
-                                    <publisher xml:lang="la">in ædibus Aldi et And. Soceri</publisher>
+                                    <pubPlace>Venet.</pubPlace>
+                                    <publisher xml:lang="la">in aedibus Aldi et And. Soceri</publisher>
                                     <date when="1515"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/auligelliinoctiu00gell/page/n3/mode/2up"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb030">
@@ -896,10 +907,16 @@
                                 <note type="description">portrait and frontispieces, white cloth</note>
                                 <edition>Steventon Edition</edition>
                                 <imprint>
-                                    <date>1882</date>
+                                    <date when="1882"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nyp.33433075801922"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/nyp.33433076093404"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/nyp.33433076093396"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/nyp.33433076093420"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/nyp.33433076093412"/>
+                            <note type="fulltext">These are the "Steventon Edition" of 6 of Jane Austen's novels, though vol 2 is not available. In HT, they are collectively called "Jane Austen's Works." Vol 1 is Sense and Sensibility, vol 3 is Mansfield Park, vol 4 is Emma,  vol 5 is Northanger Abbey and Persuasion, and vol 6 is Lady Susan.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb031">
@@ -914,6 +931,16 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="10"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4712795"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b4712796"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.b4712797"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc1.b4101469"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/uc1.b4712798"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uc1.b4712799"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uc1.c041213373"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/uc1.b4712800"/>
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/uc1.b4712801"/>
+                            <note type="fulltext">HT does not have vol 10.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb032">
@@ -960,6 +987,7 @@
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/iau.31858024243473"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb035">
@@ -973,6 +1001,10 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/tudesphilosoph03balz/page/n10/mode/2up"/>
+                            <relatedItem n="2" type="ia" target="https://archive.org/details/tudesphilosoph02balz/page/n10/mode/2up"/>
+                            <relatedItem n="3" type="ia" target="https://archive.org/details/tudesphilosoph01balz/page/n6/mode/2up"/>
+                            <note type="fulltext">IA has 1831 3-volume set, part of "Oeuvres Complètes", vol XV, XVI, and XVII.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb035.2">
                             <monogr>
@@ -984,6 +1016,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nyp.33433075808166"/>
+                            <note type="fulltext">HT notes title as "Les cent contes droslaticques"; unable to locate a 3-vol version from this year.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb035.3">
                             <monogr>
@@ -996,6 +1030,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/histoiredesparen00balz/page/86/mode/2up"/>
+                            <note type="fulltext">IA does not have 3-volume version, but this is the correct year.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb036">
@@ -1017,27 +1053,31 @@
                         <biblStruct xml:id="sb036.2">
                             <monogr>
                                 <title>Fair in the Fearless Old Fashion</title>
-                                <author>Famlet, C.</author>
+                                <author>Farmlet, C.</author>
                                 <note type="description">calf gilt</note>
                                 <note type="etc"><num value="10"/></note>
                                 <imprint>
                                     <date when="1875"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
-                                
                             </monogr>
+                            <relatedItem n="2" type="ia" target="https://archive.org/details/fairinfearlesso00farmgoog/page/n4/mode/2up"/>
+                            <note type="fulltext">Only vol available.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb037">
                             <biblStruct xml:id="sb037.1">
                                 <monogr>
-                                    <title>Ingolddby Legends, or Mirth and Marvels</title> <!-- Alternate title. -->
+                                    <title>Ingoldsby Legends, or Mirth and Marvels</title>
                                     <author>Barham, R. H.</author>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hn3euv"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hn3euu"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uiug.30112041002921"/>
                             </biblStruct>
                             <biblStruct xml:id="sb037.2">
                                 <monogr>
@@ -1052,7 +1092,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb037.3">
                                 <monogr>
-                                    <title>Poems, with Notes by O. Gilchrist</title> <!-- Subtitle? -->
+                                    <title>Poems, with Notes by O. Gilchrist</title>
                                     <author>Corbet, Rich.</author>
                                     <note type="description">half calf gilt</note>
                                     <note type="etc"><num value="8"/></note>
@@ -1061,6 +1101,7 @@
                                         <date when="1807"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/umn.319510020033915"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb038">
@@ -1086,7 +1127,7 @@
                         <listBibl type="lot" xml:id="sb039">
                             <biblStruct xml:id="sb039.1">
                                 <monogr>
-                                    <title>Tragedy of Cæsars</title>
+                                    <title>Tragedy of Caesars</title>
                                     <author>Baring-Gould, S.</author>
                                     <note type="description">illustrations, roy. 8vo</note>
                                     <imprint>
@@ -1121,6 +1162,7 @@
                                         <date when="1861"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb040.2">
                                 <monogr>
@@ -1132,6 +1174,7 @@
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044021118914"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb041">
@@ -1147,12 +1190,13 @@
                                         <date when="1857"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/lesfleursdum00baud/page/n6/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb042">
                             <biblStruct xml:id="sb042.1">
                                 <monogr>
-                                    <title xml:lang="fr">Les Paradis Arteficiels Opium at Hashisch</title>
+                                    <title xml:lang="fr">Les Paradis Artificiels Opium et Haschisch</title>
                                     <author>Baudelaire, C.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
@@ -1160,10 +1204,11 @@
                                         <date when="1860"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/lesparadisartif00quingoog/page/n8/mode/2up"/>
                             </biblStruct>
                             <biblStruct xml:id="sb042.2">
                                 <monogr>
-                                    <title xml:lang="fr">Baudelaire, sa Vie et son Œuvre</title>
+                                    <title xml:lang="fr">Baudelaire, sa Vie et son Oeuvre</title>
                                     <author>Assenlineau, C.</author>
                                     <note type="description">protraits, etc. calf gilt, m. e. ib.</note>
                                     <imprint>
@@ -1174,33 +1219,42 @@
                             </biblStruct>
                             <biblStruct xml:id="sb042.3">
                                 <monogr>
-                                    <title xml:lang="fr">Tizelière at Decaux: Charles Baudelaire</title>
+                                    <title xml:lang="fr">Tizelière et Decaux: Charles Baudelaire</title>
                                     <note type="description">half calf, m. e. ib</note>
                                     <note type="etc"><num value="3"/></note>
                                     <imprint>
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb043">
                             <biblStruct xml:id="sb043.1">
                                 <monogr>
-                                    <title>Œuvres Completes, précédées d'une Notice par T. Gautier</title>
+                                    <title>Oeuvres Completes, précédées d'une Notice par T. Gautier</title>
                                     <author>Baudelaire, C.</author>
                                     <note type="description">portrait, morocco, g. e.</note>
                                     <imprint>
                                         <pubPlace>Paris</pubPlace>
-                                        <date when="2019"/><!-- fix.-->
+                                        <date when="1868"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="4"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiug.30112001940318"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uiug.30112046442627"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uiug.30112077306832"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uiug.30112077306923"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/uiug.30112077306907"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uiug.30112077306865"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uiug.30112077306873"/>
+                                <note type="fulltext">HT has only 7-volume sets.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb044">
                             <biblStruct xml:id="sb044.1">
                                 <monogr>
-                                    <title xml:lang="fr">Œuvres Posthumes et Correspondances inédites</title>
+                                    <title xml:lang="fr">Oeuvres Posthumes et Correspondances inédites</title>
                                     <author>Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut">protrait and facsimile, uncut</note>
                                     <imprint>
@@ -1237,7 +1291,7 @@
                         <listBibl type="lot" xml:id="sb045">
                             <biblStruct xml:id="sb045.1">
                                 <monogr>
-                                    <title xml:lang="fr">Œuvres Posthumes</title>
+                                    <title xml:lang="fr">Oeuvres Posthumes</title>
                                     <author>Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut, pencil note in handwriting of Swinburne on fly-leaf</note>
                                     <imprint>
@@ -1289,6 +1343,9 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3">vol. I-II and XV.</measure></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015011402297"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015011402321"/>
+                                <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/mdp.39015011403311"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb047">
@@ -1318,6 +1375,17 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="11"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015063976750"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015012970144"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015016737697"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015013495398"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/mdp.39015016737689"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/mdp.39015016737671"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/mdp.39015011336842"/>
+                                <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/mdp.39015016737663"/>
+                                <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/mdp.39015016737655"/>
+                                <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/mdp.39015016737648"/>
+                                <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/mdp.39015013132272"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb049">
@@ -1332,6 +1400,7 @@
                                     </imprint>
                                     <biblScope unit="volume" from="I" to="III"/>
                                 </monogr>
+                                
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb050">
@@ -1542,7 +1611,7 @@
                         <listBibl type="lot" xml:id="sb058">
                             <biblStruct xml:id="sb058.1">
                                 <monogr>
-                                    <title>Fables of Æsop and others</title>
+                                    <title>Fables of Aesop and others</title>
                                     <author>Bewick, Thos.</author>
                                     <note type="description">woodcuts by Bewick, calf gilt, m. e.</note>
                                     <imprint>
@@ -1638,7 +1707,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb061.2">
                                 <monogr>
-                                    <title xml:lang="fr">Saint-Amant: Œuvres Complètes, accompaguée des Notes par Ch. L. Livet</title>
+                                    <title xml:lang="fr">Saint-Amant: Oeuvres Complètes, accompaguée des Notes par Ch. L. Livet</title>
                                     <note type="description">ib.</note>
                                     <imprint>
                                         <date when="1855"/>
@@ -2221,7 +2290,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb086.3">
                                 <monogr>
-                                    <title>Fables of Æsop</title>
+                                    <title>Fables of Aesop</title>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -2840,7 +2909,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb112.3">
                                 <monogr>
-                                    <title>Anima Poetæ</title>
+                                    <title>Anima Poetae</title>
                                     <author>Coleridge, S. T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -3475,7 +3544,7 @@
                             <biblStruct xml:id="sb134.3">
                                 <monogr>
                                     <title>The Seven Plays in English Verse</title>
-                                    <author>Æschylus</author>
+                                    <author>Aeschylus</author>
                                     <respStmt>
                                         <resp>by</resp>
                                         <name>Lewis Campbell</name>
@@ -3582,7 +3651,7 @@
                         <listBibl type="lot" xml:id="sb140">
                             <biblStruct xml:id="sb140.1">
                                 <monogr>
-                                    <title xml:lang="fr">Œuvres nouvellement imprimées reueues et corrigées oultre les précédentes impressions</title>
+                                    <title xml:lang="fr">Oeuvres nouvellement imprimées reueues et corrigées oultre les précédentes impressions</title>
                                     <author>Charlier, Alain</author>
                                     <note type="description">woodcuts, ruled in red, red morocco gilt, g. e. by C. Smith, 2 leaves in neat fascimile, autograph of P. Scarron on title, and an ex-libris of Hom. P. Ashburnham</note>
                                     <note type="inscription">Algernon C. Swinburne from his affect. uncle, P. A.</note>
@@ -3884,7 +3953,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb149.3">
                                 <monogr>
-                                    <title xml:lang="fr">Œuvres Diverses</title>
+                                    <title xml:lang="fr">Oeuvres Diverses</title>
                                     <author>Bergerac, C.</author>
                                     <note type="description">portrait, binding broken</note>
                                     <note type="etc"><num value="12"/></note>
@@ -3987,7 +4056,7 @@
                         <listBibl type="lot" xml:id="sb154">
                             <biblStruct xml:id="sb154.1">
                                 <monogr>
-                                    <title>Mediæval Military Architecture in England</title>
+                                    <title>Mediaeval Military Architecture in England</title>
                                     <author>Clark, Geo. T.</author>
                                     <note type="description">illustrations, red cloth gilt</note>
                                     <imprint>
@@ -4121,7 +4190,7 @@
                         <listBibl type="lot" xml:id="sb160">
                             <biblStruct xml:id="sb160.1">
                                 <monogr>
-                                    <title>Anima Poetæ, from the Unpublished Note-Book of Samuel Taylor Coleridge</title>
+                                    <title>Anima Poetae, from the Unpublished Note-Book of Samuel Taylor Coleridge</title>
                                     <author>Coleridge</author>
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -4180,7 +4249,7 @@
                         <listBibl type="lot" xml:id="sb163">
                             <biblStruct xml:id="sb163.1">
                                 <monogr>
-                                    <title>History of Johnny Quæ Genus</title>
+                                    <title>History of Johnny Quae Genus</title>
                                     <author>Combe, W.</author>
                                     <note type="description">24 coloured illustrations by Rowlandson</note>
                                     <imprint>
@@ -4223,7 +4292,7 @@
                         <listBibl type="lot" xml:id="sb164">
                             <biblStruct xml:id="sb164.1">
                                 <monogr>
-                                    <title xml:lang="la">Comicorum Graecorum Sententiæ Latinis versibus ad Henr. Stephano redditæ</title>
+                                    <title xml:lang="la">Comicorum Graecorum Sententiae Latinis versibus ad Henr. Stephano redditae</title>
                                     <author>Steph. H.</author>
                                     <note type="description">old red morocco, vellum sides, gilt and gauffred edges</note>
                                     <imprint>
@@ -4261,7 +4330,7 @@
                         <listBibl type="lot" xml:id="sb166">
                             <biblStruct xml:id="sb166.1">
                                 <monogr>
-                                    <title>Œuvres avec le Commentaire de Voltaire et les Jugements de la Harpe</title>
+                                    <title>Oeuvres avec le Commentaire de Voltaire et les Jugements de la Harpe</title>
                                     <author>Coureille, P.</author>
                                     <note type="description">portrait, binding broken, m. e.</note>
                                     <imprint>
@@ -5563,7 +5632,7 @@
                         <listBibl type="lot" xml:id="sb220">
                             <biblStruct xml:id="sb220.1">
                                 <monogr>
-                                    <title xml:lang="la">Poesis Philosophica, vel saltem Reliquiæ Poesis Philosophicæ, Empedocilis, Xenophonis, Timonis, Parmenidis, Cleanthis, Epicharmi</title>
+                                    <title xml:lang="la">Poesis Philosophica, vel saltem Reliquiae Poesis Philosophicae, Empedocilis, Xenophonis, Timonis, Parmenidis, Cleanthis, Epicharmi</title>
                                     <author>Estinne, H.</author>
                                     <note type="description">calf, arms of Herbery Norman Evans, M. D. on sides, m. e.</note>
                                     <imprint>
@@ -5832,7 +5901,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb232.2">
                                 <monogr>
-                                    <title>Omniana, or Horæ Olisiores</title>
+                                    <title>Omniana, or Horae Olisiores</title>
                                     <author>Southey, Robert</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition>First Edition</edition>
@@ -6325,7 +6394,7 @@
                         <listBibl type="lot" xml:id="sb254">
                             <biblStruct xml:id="sb254.1">
                                 <monogr>
-                                    <title xml:lang="la">Oratio in Obitum Ser. Cosmi Medicis Magni Hetrutuæ Ducis</title>
+                                    <title xml:lang="la">Oratio in Obitum Ser. Cosmi Medicis Magni Hetrutuae Ducis</title>
                                     <author>Baudinius, O.</author>
                                     <imprint>
                                         <date when="1574"/>
@@ -6334,7 +6403,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb254.2">
                                 <monogr>
-                                    <title xml:lang="la">Oratio Petri Victorii habita in Funere Cosmi Medicis Magni Ducis Etriariæ</title>
+                                    <title xml:lang="la">Oratio Petri Victorii habita in Funere Cosmi Medicis Magni Ducis Etriariae</title>
                                     <author>Baudinius, O.</author>
                                     <note type="description" corresp="#uncut">in 1 vol. uncut</note>
                                     <imprint>
@@ -6395,7 +6464,7 @@
                         <listBibl type="lot" xml:id="sb257">
                             <biblStruct xml:id="sb257.1">
                                 <monogr>
-                                    <title xml:lang="la">De Laudibus Vitæ Rusticæ Commentarius in secundam Oratii Odem a libro epodon</title>
+                                    <title xml:lang="la">De Laudibus Vitae Rusticae Commentarius in secundam Oratii Odem a libro epodon</title>
                                     <author>Bernard, B.</author>
                                     <note type="description">vellum, Ben Johnson's copy, with his signature on title; also an Autograph Letter from Sidney C. Cockerell addressed to Mr. Swinburne.</note>
                                     <imprint>
@@ -7447,7 +7516,7 @@
                                 <monogr>
                                     <title>De Casibus Virorum illustrium</title>
                                     <author>Boccaccio, Giov.</author>
-                                    <note type="description">149 leaves, lit. goth, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, g. e. last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque <choice><orig>notæ</orig><reg>notae</reg></choice></foreign></note>
+                                    <note type="description">149 leaves, lit. goth, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, g. e. last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque <choice><orig>notae</orig><reg>notae</reg></choice></foreign></note>
                                     <imprint>
                                         <publisher>Argent. G. Husner</publisher>
                                         <date when="1479">c. 1479</date>
