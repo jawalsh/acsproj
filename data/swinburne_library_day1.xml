@@ -71,23 +71,16 @@
                     <listBibl type="lot" xml:id="sb001">
                         <biblStruct xml:id="sb001.1">
                             <monogr>
-                                <title xml:lang="it">La Filosofia nella Letteratura Moderna</title> <!-- Title level? -->
+                                <title xml:lang="it">La Filosofia nella Letteratura Moderna</title>
                                 <author>Agresti, A.</author>
-                                <respStmt> <!-- Trying this out. -->
-                                    <resp>transcriber</resp>
-                                    <persName>A. Agresti</persName>
-                                    <note type="inscription">To Algernon Charles Swinburne, with reverence from one of the land 
-                                    highly glorified by the Poet in his verses</note> 
-                                    <note type="place">London</note>
-                                    <note type="date"><date when="1904-10">October, 1904</date></note>
-                                    <!-- jawalsh: are above notes part of inscription? -->
-                                </respStmt>
                                 <note type="description" corresp="#uncut">uncut, presentation copy to Swinburne with inscription on fly-leaf</note>    
+                                <note type="inscription">To Algernon Charles Swinburne, with reverence from one of the land highly glorified by the Poet in his verses, A. Agresti, London, <date when="1904-10">October, 1904</date></note> 
                                 <imprint>
                                     <pubPlace>Torino</pubPlace>
                                     <date when="1904"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hx3c5w"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb002">
@@ -113,6 +106,7 @@
                                     <date when="1903"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044086850989"/>
                         </biblStruct>
                         <biblStruct xml:id="sb002.3">
                             <monogr>
@@ -123,19 +117,16 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/osu.32435050973205"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb003">
                         <biblStruct xml:id="sb003.1">
                             <monogr>
-                                <title><foreign xml:lang="fr">Escarlamonde</foreign>, and other Poems</title>
+                                <title>Escarlamonde, and other Poems</title>
                                 <author>Ainslie, Douglas</author>
-                                <respStmt>
-                                    <resp>transcriber</resp>
-                                    <persName>Ainslie, Douglas</persName>
-                                    <note type="inscription">A.C. Swinburne, Esq. a tribute of admiration from the Author</note>
-                                </respStmt>
                                 <note type="description" corresp="#presentation">presentation copy with inscription</note>
+                                <note type="inscription">A.C. Swinburne, Esq. a tribute of admiration from the Author</note>
                                 <imprint>
                                     <date when="1893"/>
                                 </imprint>
@@ -147,8 +138,7 @@
                                 <title>Odes and Eclogues</title>
                                 <author>Dixon, R. W.</author>
                                 <note type="description" corresp="#uncut">one of 100 copies, uncut</note>
-                                <note type="description">presentation copies to Swinburne with inscriptions</note>
-                                <note type="etc"><num value="6"/></note>
+                                <note type="etc">presentation copies to Swinburne with inscriptions<num value="6"/></note>
                                 <imprint>
                                     <pubPlace>Oxford</pubPlace>
                                     <publisher>Herny Daniel</publisher>
@@ -161,7 +151,7 @@
                         <biblStruct xml:id="sb004.1">
                             <monogr>
                                 <title>Jack Shepherd, Tower of London, Windsor Castle, 
-                                Guy Fawkes, Rookwood and the Miser's Daughter</title>
+                                Guy Fawkes, Rookwood and the Miser's Daughter</title> <!-- These could be individual works. -->
                                 <author>Ainsworth, W.H.</author>
                                 <note type="description">illustrations by G. Cruikshank and Tony Johannot, red cloth</note>
                                 <imprint>
@@ -169,31 +159,34 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent> 
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb005">
                         <biblStruct xml:id="sb005.1">
                             <monogr>
-                                <title>Roxana Tragœdia</title>
+                                <title>Roxana Tragoedia</title>
                                 <author>Alabaster, Gul.</author>
                                 <edition>First Edition</edition>
                                 <imprint>
                                     <date when="1632"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
-                        <biblStruct xml:id="sb005.2"> <!-- may be additional biblios in this lot. Unclear how relates to 5.2 though -->
+                        <biblStruct xml:id="sb005.2">
                             <monogr> 
-                                <title>Senile Odium, Comœdia</title> <!-- Special character; other lanuage also? -->
+                                <title>Senile Odium, Comoedia</title>
                                 <author>Hausted,P.</author>
-                                <note type="description">Cantab.</note> <!--may refer to Cantabrigian (from Cambridge). Put in pubPlace instead? -->       
-                                <note type="description">in 1 vol, frontispiece, russia, g.e. <date from="1632" to="1633"/></note> <!-- Unsure what the date and vol are reffering to. -->
+                                <note type="description">Cantab.</note>     
+                                <note type="description">in 1 vol, frontispiece, russia, g.e. <date from="1632" to="1633"/></note> 
                                 <edition>First Edition</edition>
                                 <imprint>
                                     <date when="1632"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240918607%3Faccountid%3D11620"/>
                         </biblStruct>
                         <biblStruct xml:id="sb005.3">
                             <monogr>
@@ -205,6 +198,7 @@
                                     <date when="1632"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>           
                     </listBibl>
                     <listBibl type="lot" xml:id="sb006">
@@ -216,11 +210,13 @@
                                 <note xml:lang="it">riveduta dall'autore e accresciuta</note>
                                 <edition xml:lang="it">seconda edizione</edition>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Parigi</pubPlace> <!--use LCNA (Library of Congress Name Authorities?) -->
+                                    <pubPlace xml:lang="it">Parigi</pubPlace>
                                     <date from="1788" to="1789"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">The 1700s copies are not available, but there are later versions, though not the 6 vol.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb007">
@@ -232,7 +228,8 @@
                                 <imprint>
                                     <date when="1600"/>
                                 </imprint>
-                            </monogr>            
+                            </monogr>
+                            <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240885478%3Faccountid%3D11620"/>
                         </biblStruct>
                     </listBibl> 
                     <listBibl type="lot" xml:id="sb008">
@@ -266,7 +263,7 @@
                         <biblStruct xml:id="sb009.1">
                             <monogr>
                                 <title>Memoirs read before the Society, vol. I-III</title>
-                                <author>Anthropological Society of London</author> <!-- Author good enough? -->
+                                <author>Anthropological Society of London</author>
                                 <note type="description">illustrations</note>
                                 <imprint>
                                     <date from="1865" to="1870"/>
@@ -291,6 +288,7 @@
                                     <date when="1865"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ia" target="https://archive.org/details/anthropologicalt00blumuoft/page/n12/mode/2up"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb010">
@@ -307,6 +305,8 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiuo.ark:/13960/t7kq39003"/>
+                            <note type="fulltext">There's a good chance this is the correct copy since the date is not seen in the scanned pages. Record says date is 1904.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb010.2">
                             <monogr>
@@ -325,7 +325,7 @@
                         </biblStruct>
                         <biblStruct xml:id="sb010.3">
                             <monogr>
-                                <title><foreign xml:id="el">Euripides</foreign>, with English Commentary</title>
+                                <title>Euripides, with English Commentary</title>
                                 <author>Paley, F.A.</author>
                                 <note type="etc"><num value="12"/></note>
                                 <imprint>
@@ -333,6 +333,9 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hx5pym"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044021076880"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hx5pyp"/>
                         </biblStruct>
                     </listBibl> 
                     <listBibl type="lot" xml:id="sb011">
@@ -375,17 +378,19 @@
                     <listBibl type="lot" xml:id="sb012">
                         <biblStruct xml:id="sb012.1">
                             <monogr>
-                                <title>An English Garner, vol. VIII</title>
+                                <title>An English Garner</title>
                                 <author>Arber, E.</author>
                                 <note type="description" corresp="#presentation">presentation copy with autograph inscription</note>
                                 <imprint>
                                     <date when="1896"/>
                                 </imprint>
+                                <extent><measure unit="volumes" quantity="1">vol. VIII</measure></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015059380629"/>
                         </biblStruct>
                         <biblStruct xml:id="sb012.2">
                             <monogr>
-                                <title>Hannibal, a Drama</title> <!-- Genre of books matter? -->
+                                <title>Hannibal, a Drama</title>
                                 <author>Clark, John</author>
                                 <note type="descripton" corresp="#presentation">presentation copy from the author to Swinburne</note>
                                 <note type="etc"><num value="5"/></note>
@@ -407,6 +412,8 @@
                                     <date when="1720"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ecco" target="CW3311751465"/>
+                            <note type="fulltext">Closest available is 1770 from ECCO.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb013.2">
                             <monogr> 
@@ -437,6 +444,8 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">There appears to be other collections of the author's letters from this year, but only books one and two.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb015">
@@ -466,6 +475,7 @@
                                     <date when="1537"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb017">
