@@ -10,6 +10,36 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../comics_prozines/processed.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>prozineStats</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../comics_prozines/prozine_data.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>processSameAs</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../../Dropbox/Documents/prozine_xml_data/prozine_data.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -179,7 +209,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/jawalsh/Dropbox/Documents/prozine_xml_data/processSameAs.xsl</String>
+                                    <String>file:/Users/jawalsh/development/comics_prozines/processSameAs.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -262,7 +292,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/jawalsh/Dropbox/Documents/prozine_xml_data/prozineStats.xsl</String>
+                                    <String>file:/Users/jawalsh/development/comics_prozines/prozineStats.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
