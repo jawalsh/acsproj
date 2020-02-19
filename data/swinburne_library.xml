@@ -1581,13 +1581,13 @@
                             <biblStruct xml:id="sb057.1"> 
                                 <monogr>
                                     <title>Looking-Glass for the Mind</title>
-                                    <author>Bewick</author>
+                                    <author>Bewick, John</author>
                                     <note type="description">woodcuts by J. Bewick, half calf, m. e.</note>
                                     <imprint>
                                         <date when="1814"/>
                                     </imprint>
                                 </monogr>
-                                
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/lookingglassform00inberq/page/n3/mode/2up"/>
                             </biblStruct>
                             <biblStruct xml:id="sb057.2">
                                 <monogr>
@@ -1598,16 +1598,20 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwx2xz"/>
+                                <note type="fulltext">HT copy dated 1892, no illustrations upon quick scan, and title is "The Spanish story of the Armada and other essays" by James Anthony Froude.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb057.3">
                                 <monogr>
                                     <title>'Tis Merry when Gossips Meet</title>
-                                    <author>Rowland, T.</author>
+                                    <author>Rowland, S.</author>
                                     <note type="description" corresp="#uncut">uncut, <date when="1609">1609</date>, reprint</note>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/pst.000006525774"/>
+                                <note type="fulltext">Sales catolog incorrectly lists author as "Rowland, T." when author is "Rowland, S." HT copy dated 1609, though a note in the metadata says that it's an 1818 reprint; EEBO has other versions.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb057.4">
                                 <monogr>
@@ -1646,6 +1650,7 @@
                                         <date when="1862"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8z89sc5q"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb059">
@@ -1659,6 +1664,7 @@
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015028777251"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb060">
@@ -1694,6 +1700,7 @@
                                         <date when="1864"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/nilebasinpartish00burt/page/n10/mode/2up"/>
                             </biblStruct>
                             <biblStruct xml:id="sb060.4">
                                 <monogr>
@@ -1711,7 +1718,7 @@
                         <listBibl type="lot" xml:id="sb061">
                             <biblStruct xml:id="sb061.1">
                                 <monogr>
-                                    <title xml:lang="fr">Bibliothèque Elzevirien: Aneien Théatre Francois publié avec des Notes par M. Viollet le Due</title>
+                                    <title xml:lang="fr">Bibliothèque Elzevirien: Ancien Théatre Francois publié avec des Notes par M. Viollet le Due</title>
                                     <note type="description">10 vol.</note>
                                     <imprint>
                                         <pubPlace>Paris</pubPlace>
@@ -1719,6 +1726,16 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="10"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015008437819"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015014610003"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015014610078"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015067485055"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/mdp.39015067485048"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/mdp.39015067485030"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/mdp.39015067485022"/>
+                                <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/mdp.39015067485014"/>
+                                <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/mdp.39015067485006"/>
+                                <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/mdp.39015067484991"/>
                             </biblStruct>
                             <biblStruct xml:id="sb061.2">
                                 <monogr>
@@ -1729,6 +1746,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015010458720"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015010458670"/>
                             </biblStruct>
                             <biblStruct xml:id="sb061.3">
                                 <monogr>
@@ -1738,8 +1757,8 @@
                                     <imprint>
                                         <date when="1856"/>
                                     </imprint>
-                                    <!--<biblScope unit="volume" from="" to=""/>-->
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015011553370"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb062">
@@ -1833,6 +1852,7 @@
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044086781945"/>
                             </biblStruct>
                             <biblStruct xml:id="sb064.2">
                                 <monogr>
@@ -1856,12 +1876,13 @@
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb065">
                             <biblStruct xml:id="sb065.1">
                                 <monogr>
-                                    <title>Poetical Works with Perfactory Memoir</title>
+                                    <title>Poetical Works with Prefatory Memoir</title>
                                     <author>Blake, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -1873,6 +1894,7 @@
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb066">
@@ -1887,6 +1909,8 @@
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/loc.ark:/13960/t0ns1nf15"/>
+                                <note type="fulltext">HT copy dated 1875, pubPlace Boston.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb067">
@@ -1905,6 +1929,9 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31822043026632"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.31822043032861"/>
+                                <note type="fulltext">HT only has vol 1 and 2.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb068">
@@ -1949,6 +1976,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044018690677"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044090336165"/>
                             </biblStruct>
                             <biblStruct xml:id="sb069.2">
                                 <monogr>
@@ -1959,6 +1988,7 @@
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.49015000992835"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb070">
@@ -1971,6 +2001,8 @@
                                         <date when="1863"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.fl18x7"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.fl1g7t"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb071">
@@ -1988,6 +2020,8 @@
                                         <date>n.d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015005413169"/>
+                                <note type="fulltext">HT copy dated 1906, pubPlace London.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb072">
@@ -2002,6 +2036,7 @@
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t2s46jf8f"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb073">
