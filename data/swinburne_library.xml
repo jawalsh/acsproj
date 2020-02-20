@@ -2068,8 +2068,9 @@
                                         <pubPlace>Amst.</pubPlace>
                                         <date when="1665"/>
                                     </imprint>
-                                    <!--<biblScope unit="volume" from="" to=""/>-->
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/bub_gb_Yt6_213yvRsC/page/n9/mode/2up"/>
+                                <note type="fulltext">IA has "Il Decameron di messer Giovanni Boccaccio..." dated 1665 published in Amst. Nothing with "a la Sphere" has come up in any of the search engines.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb075">
@@ -2084,6 +2085,9 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.$b15287"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.$b15288"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.$b15289"/>
                             </biblStruct>
                             <biblStruct xml:id="sb075.2">
                                 <monogr>
@@ -2096,7 +2100,6 @@
                                         <pubPlace>Paris</pubPlace>
                                         <date>n. d.</date>
                                     </imprint>
-                                    <!--<biblScope unit="volume" from="" to=""/>-->
                                 </monogr>
                                 <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwavry"/>
                                 <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hwavrx"/>
@@ -2121,18 +2124,23 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/wu.89038367900"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/wu.89038364576"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/wu.89035420413"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb077">
                             <biblStruct xml:id="sb077.1">
                                 <monogr>
-                                    <title xml:lang="it">Labrerinto D'Amore con una Epistola Confortatiore a messer Pino di Rossi</title>
+                                    <title xml:lang="it">Laberinto D'Amore con una Epistola Confortatiore a messer Pino di Rossi</title>
                                     <author>Boccaccio, G.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/bub_gb_KZ3hRqhDY-YC/page/n3/mode/2up"/>
+                                <note type="fulltext">IA copy dated 1529, earliest available.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb078">
@@ -2147,6 +2155,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb079">
@@ -2175,17 +2184,27 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="9"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/orlandoinnamorat01boia/page/n7/mode/2up"/>
+                                <relatedItem n="2" type="ia" target="https://archive.org/details/orlandoinnamorat02boia/page/n5/mode/2up"/>
+                                <relatedItem n="3" type="ia" target="https://archive.org/details/orlandoinnamorat03boia/page/n7/mode/2up"/>
+                                <relatedItem n="4" type="ia" target="https://archive.org/details/orlandoinnamora06ariogoog/page/n5/mode/2up"/>
+                                <relatedItem n="5" type="ia" target="https://archive.org/details/orlandoinnamora00ariogoog/page/n6/mode/2up"/>
+                                <relatedItem n="6" type="ia" target="https://archive.org/details/orlandoinnamora12ariogoog/page/n9/mode/2up"/>
+                                <relatedItem n="7" type="ia" target="https://archive.org/details/orlandoinnamora07ariogoog/page/n7/mode/2up"/>
+                                <relatedItem n="8" type="ia" target="https://archive.org/details/orlandoinnamora13ariogoog/page/n8/mode/2up"/>
+                                <relatedItem n="9" type="ia" target="https://archive.org/details/orlandoinnamora10ariogoog/page/n12/mode/2up"/>
+                                <note type="fulltext">IA title reads "Orlando innamorato di Bojardo: Orlando furioso di Ariosto" with the "Essays on Romantic..." included on the texts themselves.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb081">
                             <bibl xml:id="sb081.1">
-                                
-                                    <title>Books of Characters, Jests, Drolleries, Pennt Histories, Garlands and Chap-Books</title>
-                                    <note type="description">in 1 vol. half morocco v. y.</note>
-                                    <note type="etc"><num value="16"/></note>
-                                    
-                                    <extent><measure unit="volumes" quantity="1"/></extent>
-                                
+                                <title>Books of Characters, Jests, Drolleries, Penny Histories, Garlands and Chap-Books</title>
+                                <note type="description">in 1 vol. half morocco</note>
+                                <note type="etc"><num value="16"/></note>
+                                <date>v. y.</date>
+                                <extent><measure unit="volumes" quantity="1"/></extent>
+                                <relatedItem n="1" type="none" target=""/>
+                                <note type="fulltext">Looks like this is several different chapbooks rolled into one item, but I was unable to locate anything remotely like it.</note>
                             </bibl>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb082">
@@ -2203,6 +2222,11 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="5"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/wu.89089197859"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/wu.89089197883"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/wu.89089197917"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/wu.89089197974"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/wu.89089197941"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb083">
@@ -2225,6 +2249,10 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiuo.ark:/13960/t8v98pc5h"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uiuo.ark:/13960/t4gm8r25w"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uiuo.ark:/13960/t9x06n58w"/>
+                                <note type="fulltext">HT copy dated 1871, pubPlace London, 3 vol.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb083.3">
                                 <monogr>
@@ -2234,6 +2262,8 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nc01.ark:/13960/t23b9cj39"/>
+                                <note type="fulltext">HT copy date 1888, "...and other stories", Stereotyped edition, pubPlace London.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb083.4">
                                 <monogr>
@@ -2304,6 +2334,8 @@
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hnawqr"/>
+                                <note type="fulltexgt">HT has 1903 is the closest year; IA has 1900, but preference ot HT.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb085.3">
                                 <monogr>
@@ -2337,6 +2369,7 @@
                                         <date when="1857"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t9089248x"/>
                             </biblStruct>
                             <biblStruct xml:id="sb086.3">
                                 <monogr>
@@ -2348,6 +2381,8 @@
                                 <series>
                                     <title>Carabas Series</title>
                                 </series>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo.31924096263144"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/coo.31924096263151"/>
                             </biblStruct>
                             <biblStruct xml:id="sb086.4">
                                 <monogr>
@@ -2360,6 +2395,8 @@
                                 <series>
                                     <title>Carabas Series</title>
                                 </series>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.c005609027"/>
+                                <note type="fulltext">HT copy from 1888; can't tell if it is the Carabas Series.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb087">
@@ -2375,34 +2412,49 @@
                                     <imprint>
                                         <date when="1901"/>
                                     </imprint>
-                                    <biblScope unit="volume" from="I" to="IX"/>
+                                    <extent><measure unit="volumes" quantity="8"/>I-IX, missing vol V</extent> <!-- Check formatting. -->
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b3310827"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b3310828"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.b3310829"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc1.b3310830"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uc1.b3310832"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uc1.b3310833"/>
+                                <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/uc1.b3310834"/>
+                                <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/uc1.b3310835"/>
+                                <note type="fulltext">HT has all vol available, but only acquired specified vol.</note> <!-- Check -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb088">
                             <biblStruct xml:id="sb088.1">
                                 <monogr>
                                     <title>Five New Playes</title>
-                                    <author>Browne, Richard</author>
+                                    <author>Brome, Richard</author>
                                     <note type="description">calf (broken), ex libris of J. T. Brockett and Thomas Bell</note>
                                     <edition>First Edition</edition>
                                     <imprint>
                                         <date when="1653"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248525978%3Faccountid%3D11620"/>
+                                <note type="fulltext">Catalog says "Browne" but correct name is "Brome"; title and year are the same.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb089">
                             <biblStruct xml:id="sb0089.1">
                                 <monogr>
                                     <title>Dramatic Works, containing Fifteen Comedies now first Collected</title>
-                                    <author>Browne, R.</author>
+                                    <author>Brome, R.</author>
                                     <note type="description" corresp="#uncut">3 vol. portrait, uncut (3 covers missing)</note>
                                     <imprint>
-                                        <publisher>Pearson</publisher> <!-- "Pearson" place or publisher? -->
+                                        <publisher>Pearson</publisher>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044051099372"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044005032917"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.32044051099356"/>
+                                <note type="fulltext">Catalog says "Browne" but correct name is "Brome".</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb090">
@@ -2411,12 +2463,13 @@
                                     <title>Jane Eyre: an Autobiography, with Introduction by Clement K. Shorter</title>
                                     <author>Brontë, Charlotte</author>
                                     <note type="description" corresp="#presentation">presentation copy with inscription</note>
-                                    <note type="inscription">To A. C. Swinburne, Esq. whose critical insight has done much for the due recognition of Charlotte Brontë's genius, with profound thanks, C. K. S. <date when="1889-10-19">19/10/89</date><!-- Guessing on year here. --></note>
+                                    <note type="inscription">To A. C. Swinburne, Esq. whose critical insight has done much for the due recognition of Charlotte Brontë's genius, with profound thanks, C. K. S. <date when="1889-10-19">19/10/89</date></note>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
-                                    <!--<biblScope unit="volume" from="" to=""/>-->
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015036663766"/>
+                                <note type="fulltext">HT copy dated 1899, pubPlace London.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb091">
@@ -2430,6 +2483,7 @@
                                         <date when="1857"/>
                                     </imprint>
                                 </monogr>
+                                
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb092">
