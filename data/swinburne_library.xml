@@ -3440,19 +3440,20 @@
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/njp.32101013774482"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/njp.32101013774490"/>
                             </biblStruct>
                             <bibl xml:id="sb125.2">
-                                
-                                    <title>Seventy Sonnets of Camoens, Portuguese Text and Translation, with Original Poems by J. J. Aubertin</title>
-                                    <author>Camoens</author>
-                                    <author>J. J. Aubertin</author>
-                                    <respStmt>
-                                        <resp>translated by</resp>
-                                        <name>J. J. Aubertin</name>
-                                    </respStmt>
-                                    <note type="description" corresp="#presentation">presentation copy with autograph</note>
-                                    <edition></edition>
-                                
+                                <title>Seventy Sonnets of Camoens, Portuguese Text and Translation, with Original Poems by J. J. Aubertin</title>
+                                <author>Camoens</author>
+                                <author>J. J. Aubertin</author>
+                                <respStmt>
+                                    <resp>translated by</resp>
+                                    <name>J. J. Aubertin</name>
+                                </respStmt>
+                                <note type="description" corresp="#presentation">presentation copy with autograph</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044020619839"/>
+                                <note type="fulltext">HT copy dated 1881.</note>
                             </bibl>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb126">
@@ -3484,7 +3485,7 @@
                             <biblStruct xml:id="sb127.1">
                                 <monogr>
                                     <title xml:lang="it">Vita di Benvenuto Cellini Orefice e Scultore Fiorentino</title>
-                                    <author>Campani, G. P.</author>
+                                    <author>Campani, G. P.</author> <!-- Check speling. -->
                                     <note type="description">portrait, calf gilt</note>
                                     <imprint>
                                         <pubPlace>Milano</pubPlace>
@@ -3492,6 +3493,9 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t4nk7041k"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t9575208t"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t0003rs1t"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb128">
@@ -3527,6 +3531,10 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hn27wm"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hn27wn"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hn27wp"/>
+                                <note type="fulltext">HT copies dated 1886, 3 vol set from "Routledge's Large-type Three-volume Classics"; best guess.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb129">
@@ -3583,6 +3591,7 @@
                                         <date when="1855"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/pst.000006730192"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb131">
@@ -3739,6 +3748,7 @@
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015063735446"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb136">
@@ -3806,13 +3816,14 @@
                                         <date when="1683"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248524883%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb140">
                             <biblStruct xml:id="sb140.1">
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres nouvellement imprimées reueues et corrigées oultre les précédentes impressions</title>
-                                    <author>Charlier, Alain</author>
+                                    <author>Charlier, Alain</author> <!-- Check spelling. -->
                                     <note type="description">woodcuts, ruled in red, red morocco gilt, g. e. by C. Smith, 2 leaves in neat fascimile, autograph of P. Scarron on title, and an ex-libris of Hom. P. Ashburnham</note>
                                     <note type="inscription">Algernon C. Swinburne from his affect. uncle, P. A.</note>
                                     <imprint>
@@ -3820,6 +3831,8 @@
                                         <date when="1529"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/LesOeuvresFeuMaistreAlainChartier1529/page/n12/mode/2up"/>
+                                <note type="fulltext">IA copy title reads "Les oeuvres feu maistre Alain Chartier en son vivant secretaire du feu roy Charles septiesme du non. Nouvellement imprimees reveues et corrigiees oultre les precedentes impressions".</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb141">
@@ -3832,6 +3845,7 @@
                                         <date when="1870"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb141.2">
                                 <monogr>
@@ -3951,7 +3965,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb144.3">
                                 <monogr>
-                                    <title>Poetical Works, with a Memoir by Edward Ell</title>
+                                    <title>Poetical Works, with a Memoir by Edward Ell</title> <!-- Check spelling. -->
                                     <author>Rogers, S.</author>
                                     <note type="description">portrait</note>
                                     <note type="etc"><num value="8"/></note>
@@ -3959,6 +3973,8 @@
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044074364209"/>
+                                <note type="fulltext">HT copy dated 1891, closest available.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb145">
@@ -4004,6 +4020,8 @@
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044011553393"/>
+                                <note type="fulltext">HT copy appears to be correct; difference in title: "Animaduersions vppon the annotacions and corrections of some imperfections of impressiones of Chaucers workes (sett downe before tyme, and nowe) reprinted in the yere of oure lorde 1598.."</note>
                             </biblStruct>
                             <biblStruct xml:id="sb146.2">
                                 <monogr>
@@ -4044,6 +4062,8 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/workssirgeorgee00ethegoog/page/n6/mode/2up"/>
+                                <note type="fulltext">Nearest I could find is this 1888 copy from IA; without more information about the work, it's difficult to tell. Title here is "The works of Sir George Etheredge: plays and poems".</note>
                             </biblStruct>
                             <biblStruct xml:id="sb147.3">
                                 <monogr>
@@ -4071,6 +4091,7 @@
                                         <date when="1750"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ecco" target="CW3311064784"/>
                             </biblStruct>
                             <biblStruct xml:id="sb148.2">
                                 <monogr>
@@ -4100,6 +4121,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/lesliaisonsdang01laclgoog/page/n9/mode/2up"/>
+                                <note type="fulltext">IA was the only source that had a copy published in Amsterdam; this is only the "Premiere Partie" out of two.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb149.2">
                                 <monogr>
@@ -4110,6 +4133,7 @@
                                         <date when="1716"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb149.3">
                                 <monogr>
@@ -4123,12 +4147,14 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/osu.32435015864184"/>
+                                <note type="fulltext">HT copy was closest item I could find, dated 1846, one vol. This 1681 copy is a mystery.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb150">
                             <biblStruct xml:id="sb150.1">
                                 <monogr>
-                                    <title>Architecture and History, and WEstminster Abbey</title>
+                                    <title>Architecture and History, and Westminster Abbey</title>
                                     <author>Morris, Wm.</author>
                                     <note type="description" corresp="#uncut">reprinted with the Golden type designed by William Morris for the Kelmscott Press, original boards, uncut</note>
                                     <imprint>
@@ -4176,6 +4202,7 @@
                                         <date when="1742"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ecco" target="CW3305934559"/>
                             </biblStruct>
                             <biblStruct xml:id="sb152.2">
                                 <monogr>
