@@ -5127,7 +5127,7 @@
                             <biblStruct xml:id="sb190.1">
                                 <monogr>
                                     <title xml:lang="fr">Le Neveu de Rameau, publié et précédé d'une Introduction par H. Motheau</title>
-                                    <author>Diderot</author> <!-- Name/Word then period in lot. -->
+                                    <author>Diderot</author>
                                     <note type="description">uncut, insterted is a very interesting Autograph Letter addressed to Swinburne from John Morley, date <date when="1876-02-12">Feb. 12, 1876</date>, and relating to the work</note>
                                     <imprint>
                                         <pubPlace>Paris</pubPlace>
@@ -5140,14 +5140,14 @@
                         <listBibl type="lot" xml:id="sb191">
                             <biblStruct xml:id="sb191.1">
                                 <monogr>
-                                    <title>Book of the Spritual Life, with Memoir by Sir C. W. Dilke</title>
+                                    <title>Book of the Spiritual Life, with Memoir by Sir C. W. Dilke</title>
                                     <author>Dilke, Lady</author>
                                     <note type="description" corresp="#uncut">portraits and illustrations, uncut</note>
                                     <imprint>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
-                                
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t3610zp0c"/>
                             </biblStruct>
                             <biblStruct xml:id="sb191.2">
                                 <monogr>
@@ -5199,6 +5199,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo.31924013453950"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/inu.32000005687589"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb193">
@@ -5291,15 +5293,16 @@
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31822038204608"/>
                             </biblStruct>
                         </listBibl>
-                        <listBibl type="lot" xml:id="sb197a">
-                            <biblStruct xml:id="sb197.1a">
+                        <listBibl type="lot" xml:id="sb198">
+                            <biblStruct xml:id="sb198.1">
                                 <monogr>
-                                    <title xml:lang="la">Dramata Sacra ex Veteri Testamento desumpta</title>
+                                    <title xml:lang="la">Dramata Sacra ex Veteri Testamento desumpta</title> <!-- Come back. EEBO strugglin’ -->
                                     <note type="description">old calf, r. e. bidning broken</note>
                                     <imprint>
-                                        <publisher>Basil. Oporinus</publisher> <!-- Unsure. -->
+                                        <publisher>Basil. Oporinus</publisher>
                                         <date when="1547"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -5379,11 +5382,14 @@
                                     <note type="description">portrait</note>
                                     <note type="etc"><num value="7"/></note>
                                     <imprint>
-                                        <publisher>Bohn</publisher> <!-- Unsure. -->
+                                        <publisher>Bohn</publisher>
                                         <date when="1863"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hn3pdu"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hn3pdv"/>
+                                <note type="fulltext">HT copies dated 1864, but all other details are the same.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb201">
@@ -5416,6 +5422,24 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="18"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t3tt5640h"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t17m0v76t"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t6f19j039"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo.31924014921666"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/coo.31924014921591"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t9x06p32h"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t43r1f82q"/>
+                                <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8z89t304"/>
+                                <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t16m3tb6k"/>
+                                <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t9z03q00s"/>
+                                <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/coo.31924063781789"/>
+                                <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t1hh73c8k"/>
+                                <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/coo.31924014921674"/>
+                                <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t4fn1r62m"/>
+                                <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/coo.31924014921690"/>
+                                <relatedItem n="16" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t4sj2243c"/>
+                                <relatedItem n="17" type="ht" target="https://hdl.handle.net/2027/coo.31924014921716"/>
+                                <relatedItem n="18" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8nc6j19c"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb203">
@@ -5465,6 +5489,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="26"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb206">
@@ -5547,6 +5572,7 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb208.3">
                                 <monogr>
@@ -5559,12 +5585,13 @@
                                         <date when="1879"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb209">
                             <biblStruct xml:id="sb209.1">
                                 <monogr>
-                                    <title>Early English Dramatacists</title>
+                                    <title>Early English Dramatists</title>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name>John S. Farmer</name>
@@ -5575,6 +5602,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="12"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb210">
@@ -5627,6 +5655,7 @@
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiug.30112010688098"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb212">
@@ -5685,7 +5714,7 @@
                                 <monogr>
                                     <title>Middlemarch</title>
                                     <author>Eliot, Geo.</author>
-                                    <note type="description">etc. 8 vol.</note> <!-- Unclear entry. -->
+                                    <note type="description">etc. 8 vol.</note> <!-- Could be an etc. -->
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
@@ -5709,6 +5738,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4056637"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b4056639"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb214">
@@ -5725,10 +5756,12 @@
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044019419704"/>
+                                <note type="fulltext">HT title differs "Letters of Princess Elizabeth of England : daughter of King George III. and Langravine of Hesse Homburg, written for the most part to Miss Louisa Swinburne. Edited, with notes and an introductory chapter by Philip Ch. Yorke."</note>
                             </biblStruct>
                             <biblStruct xml:id="sb214.2">
                                 <monogr>
-                                    <title><foreign xml:lang="fr">Voiage</foreign> and <foreign xml:lang="fr">Travayle</foreign></title>
+                                    <title>Voiage and Travayle</title>
                                     <author>Maundeville, Sir J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -5740,6 +5773,7 @@
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t8x923p7t"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb215">
@@ -5848,6 +5882,7 @@
                                         <date when="1844"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/ucm.5325049624"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb219">
@@ -5873,6 +5908,7 @@
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb220">
@@ -5907,7 +5943,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb221.2">
                                 <monogr>
-                                    <title>Letters to Elizabeth Hitchner, with Introduction and Notes</title>
+                                    <title>Letters to Elizabeth Hitchener, with Introduction and Notes</title>
                                     <author>Shelley, P. B.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc"><num value="9"/></note>
@@ -5915,12 +5951,13 @@
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t18k7vk20"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb222">
                             <biblStruct xml:id="sb222.1">
                                 <monogr>
-                                    <title xml:lang="co">L'Historie d'Eutropio de le Vite et fatti de tutti gl'Imperatori Romani unovamente tradotte di Latino in lengua Italiana</title> <!-- Google Translate detected Corsican. -->
+                                    <title xml:lang="co">L'Historie d'Eutropio de le Vite et fatti de tutti gl'Imperatori Romani unovamente tradotte di Latino in lengua Italiana</title> <!-- Google Translate detected Corsican.-->
                                     <author>Eutropius</author>
                                     <note type="description">old Venetian morocco binding, gilt borders and ornaments on sides, g. e. tooled in Arabic interlaced design</note>
                                     <imprint>
@@ -5928,6 +5965,7 @@
                                         <date when="1544"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb223">
@@ -5958,6 +5996,7 @@
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b000911183"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb224">
@@ -5990,23 +6029,28 @@
                                 <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044086858248"/>
                             </biblStruct>
                             <bibl xml:id="sb225.2">
-                                    <title>The Father's Tragedy</title>
-                                    <author>Field, Michael</author>
+                                <title>The Father's Tragedy</title>
+                                <author>Field, Michael</author>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
+                                <note type="fulltext">225.2, .3, and .4 are three works in one record. HT copy dated 1884.</note>
                             </bibl>
                             <bibl xml:id="sb225.3">
-                                    <title>William Rufus</title>
-                                    <author>Field, Michael</author>
+                                <title>William Rufus</title>
+                                <author>Field, Michael</author>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
+                                <note type="fulltext">225.2, .3, and .4 are three works in one record. HT copy dated 1884.</note>
                             </bibl>
                             <biblStruct xml:id="sb225.4">
                                 <monogr>
-                                    <title>Loyalty or Love</title> <!-- Strange character next to title. Question mark in parenthesis, perhaps? -->
+                                    <title>Loyalty or Love</title>
                                     <author>Field, Michael</author>
                                     <note type="description">parchment</note>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015039379931"/>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
+                                <note type="fulltext">225.2, .3, and .4 are three works in one record. HT copy dated 1884.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb225.5">
                                 <monogr>
@@ -6080,6 +6124,10 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="4"/></extent>
                                 </monogr>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc1.31822043036094"/>
+                                <note type="fulltext">HT only has vol 4.</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/chi.20492548"/>
+                                <note type="fulltext">This is a four in one vol copy dated 1780.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb229">
@@ -6143,7 +6191,10 @@
                                         <date when="1830"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
-                                </monogr>                           
+                                </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/workssamuelfoot01badcgoog/page/n4/mode/2up"/>
+                                <relatedItem n="3" type="ia" target="https://archive.org/details/workssamuelfoot00badcgoog/page/n8/mode/2up"/>
+                                <note type="fulltext">Vol 2 not available.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb232.2">
                                 <monogr>
@@ -6169,6 +6220,7 @@
                                         <date when="1822"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwkzvm"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb233">
@@ -6259,43 +6311,47 @@
                             <biblStruct xml:id="sb237.1">
                                 <monogr>
                                     <title xml:lang="de">Die Feuerprobe der Liebe Angioletta</title>
-                                    <author>Friedman, Alfred</author>
+                                    <author>Friedmann, Alfred</author>
                                     <imprint>
                                         <pubPlace>Wien</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb237.2">
                                 <monogr>
                                     <title>Merlin, Orpheus</title>
-                                    <author>Friedman, Alfred</author>
+                                    <author>Friedmann, Alfred</author>
                                     <note type="description">ib.</note>
                                     <imprint>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/njp.32101066394048"/>
                             </biblStruct>
                             <biblStruct xml:id="sb237.3">
                                 <monogr>
                                     <title xml:lang="de">Aus Hellas</title>
-                                    <author>Friedman, Alfred</author>
+                                    <author>Friedmann, Alfred</author>
                                     <note type="description">ib.</note>
                                     <imprint>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb237.4">
                                 <monogr>
                                     <title>Savilia</title>
-                                    <author>Friedman, Alfred</author>
+                                    <author>Friedmann, Alfred</author>
                                     <note type="description">ib.</note>
                                     <note type="etc" corresp="#presentation">and another, all presentation copies to Swinburne, with author's inscriptions<num value="5"/></note>
                                     <imprint>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb238">
@@ -6325,6 +6381,9 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hw37nj"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hw37nk"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hw37nl"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb239">
@@ -6339,6 +6398,7 @@
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb240">
@@ -6377,7 +6437,7 @@
                                     <note type="description" corresp="#presentation">illustrations by H. Railton, presentation copy to Swinburne, with autograph inscription</note>
                                     <note type="inscription">To Algernon Chalres Swinburne, Esq. with homage and gratitued from Richard le Gallienne, <date when="1900-08">August, 1900</date></note>
                                     <imprint>
-                                        <date when="1900"/> <!-- Assuming date based on inscription, as none is given elsewhere. -->
+                                        <date when="1900"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9h41pf56"/>
@@ -6396,6 +6456,7 @@
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044015183387"/>
                             </biblStruct>
                         </listBibl> 
                         <listBibl type="lot" xml:id="sb243">
@@ -6421,6 +6482,7 @@
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.$b116793"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb244">
@@ -6480,6 +6542,8 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uva.x004349293"/>
+                                <note type="fulltext">HT copy dated 1882.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb245.3">
                                 <monogr>
