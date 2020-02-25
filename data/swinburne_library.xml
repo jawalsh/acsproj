@@ -4909,7 +4909,7 @@
                                         <date when="1775"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back to this one; ECCO is being slow. -->
+                                <relatedItem n="1" type="ecco" target="CW3309694027"/>
                             </biblStruct>
                             <biblStruct xml:id="sb182.2">
                                 <monogr>
@@ -4925,7 +4925,7 @@
                                         <date when="1663"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/>
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248551890%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb183">
@@ -4951,6 +4951,8 @@
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uva.x030808426"/>
+                                <note type="fulltext">This appears to be the correct copy, but I can't find information on who wrote the biographical introduction; pubPlace is London.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb183.3">
                                 <monogr>
@@ -5020,6 +5022,7 @@
                                         <date when="1865"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwp565"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb186">
@@ -5088,6 +5091,23 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="19"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183904"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183912"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183920"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183946"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183953"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183961"/>
+                                <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183979"/>
+                                <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183987"/>
+                                <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001183995"/>
+                                <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001210392"/>
+                                <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001182732"/>
+                                <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001182740"/>
+                                <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001182757"/>
+                                <relatedItem n="16" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001182765"/>
+                                <relatedItem n="17" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001182773"/>
+                                <relatedItem n="18" type="ht" target="https://hdl.handle.net/2027/uc1.ax0001182781"/>
+                                <note type="fulltext">HT does not have vol 4, 11, or 19.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb189">
@@ -5100,6 +5120,7 @@
                                         <date when="1748"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/bub_gb_g0rxaXXQwXAC/page/n8/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb190">
@@ -5126,6 +5147,7 @@
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
+                                
                             </biblStruct>
                             <biblStruct xml:id="sb191.2">
                                 <monogr>
