@@ -6569,6 +6569,14 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="8"/></extent>
                                 </monogr>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/coo.31924064975216"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/coo.31924064975224"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo.31924064975232"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/coo.31924064975240"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/coo.31924064975257"/>
+                                <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/coo.31924097556017"/>
+                                <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/coo.31924064975273"/>
+                                <note type="fulltext">HT does not have vol 1.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb247">
@@ -6597,12 +6605,14 @@
                             </biblStruct>
                             <biblStruct xml:id="sb247.3">
                                 <monogr>
-                                    <title xml:lang="fr">Parnesse de la Jeune Belgique</title>
+                                    <title xml:lang="fr">Parnasse de la Jeune Belgique</title>
                                     <note type="description">presentation copies to Swinburne, with autograph inscriptions, roy. 8vo.</note>
                                     <imprint>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015030083664"/>
+                                <note type="fulltext">Catalog incorrectly says "Parnesse" in title.</note>
                             </biblStruct>
                         </listBibl>
                     </div>
@@ -6618,6 +6628,7 @@
                                         <date when="1838"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/arthourmerlinmet00abbo/page/n12/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb249">
@@ -6630,15 +6641,14 @@
                                         <name>J. Payne Colleir</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
-                                    <edition></edition>
                                     <imprint>
-                                        <publisher></publisher>
-                                        <pubPlace></pubPlace>
                                         <date when="1600"/>
                                         <date>rep. n. d.</date>
                                     </imprint>
                                     <biblScope unit="parts" from="1" to="5"/>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t6154kd2c"/>
+                                <note type="fulltext">I see no indication of parts; HT copy dated 1867</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb250">
@@ -6650,6 +6660,7 @@
                                     <imprint><date>n.d.</date></imprint>  
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb251">
@@ -6662,6 +6673,8 @@
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hnyuck"/>
+                                <note type="fulltext">HT copy is not the correct publisher, but best candidate.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb252">
@@ -6710,6 +6723,7 @@
                                         <date when="1574"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- EEBO is being slow. Come back. -->
                             </biblStruct>
                             <biblStruct xml:id="sb254.2">
                                 <monogr>
@@ -6722,10 +6736,11 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
                             </biblStruct>
                             <biblStruct xml:id="sb254.3">
                                 <monogr>
-                                    <title>Agripanda Tragedia</title> <!-- Lang? -->
+                                    <title>Agripanda Tragedia</title>
                                     <author>Decis da Herte, Ant.</author>
                                     <note type="description">vellum</note>
                                     <note type="etc"><num value="2"/></note>
@@ -6734,6 +6749,7 @@
                                         <date when="1592"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- Come backl. -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb255">
@@ -6747,6 +6763,7 @@
                                         <date when="1651"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb256">
@@ -6760,6 +6777,7 @@
                                         <date when="1682"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
                             </biblStruct>
                             <biblStruct xml:id="sb256.2">
                                 <monogr>
@@ -6769,6 +6787,7 @@
                                         <date when="1669"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb257">
@@ -6782,6 +6801,7 @@
                                         <date when="1613"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb258">
@@ -6794,6 +6814,7 @@
                                         <date when="1815"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/dli.bengal.10689.16940/page/n3/mode/2up"/>
                             </biblStruct>
                             <biblStruct xml:id="sb258.2">
                                 <monogr>
@@ -6804,6 +6825,7 @@
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044029016169"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb259">
@@ -6866,7 +6888,7 @@
                         <listBibl type="lot" xml:id="sb262">
                             <biblStruct xml:id="sb262.1">
                                 <monogr>
-                                    <title>Jersulem, reproduced facsimilie</title>
+                                    <title>Jerusalem, reproduced facsimilie</title>
                                     <author>Blake, W.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne</note>
                                     <imprint>
@@ -6874,6 +6896,7 @@
                                         <date>rep. n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb263">
@@ -6886,6 +6909,7 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb264">
@@ -6902,6 +6926,7 @@
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
+                                
                             </biblStruct>
                             <biblStruct xml:id="sb264.2">
                                 <monogr>
