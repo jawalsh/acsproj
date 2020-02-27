@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact" ?>
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="../../data/swinburne.rnc" type="compact" ?>
 <?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02-i010"><teiHeader><fileDesc><titleStmt>
             <title>Hertha</title>
@@ -25,6 +25,7 @@
                 Walsh</editor></bibl>, is freely licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
             Unported License</ref>. </p>
 </availability>
+         	<idno type="nines">sbshrtha00</idno>
 </publicationStmt><seriesStmt xml:base="includes/seriesStmt.xml">
         <title>The Algernon Charles Swinburne Project: A Digital Collection Devoted to the Life &amp; Work of Victorian Poet Algernon Charles Swinburne.</title>
         <respStmt>
@@ -42,11 +43,11 @@
 							                 <pubPlace> London </pubPlace>
 							                 <publisher>Chatto &amp; Windus</publisher>
 							                 <date when="1904"> 1904 </date>
-							                 <biblScope type="vol"> </biblScope>
-							                 <biblScope type="pp"> 72-80 </biblScope>
+							                 <biblScope unit="vol"> </biblScope>
+							                 <biblScope unit="pp"> 72-80 </biblScope>
 						               </imprint>
 						               <extent> 6 vols. </extent>
-                  </monogr><idno type="nines">sbshrtha00</idno><relatedItem type="original_collection"><biblStruct n="original_collection">
+                  </monogr><relatedItem type="original_collection"><biblStruct n="original_collection">
                   <analytic>
                      <title>Hertha</title>
                      <author>
@@ -642,7 +643,7 @@
 				<l n="153" rendition="#ti-1">W<subst><del seq="1">as</del><add seq="2" place="above">ere</add><!-- Was/Were --></subst>ere as <subst><del seq="1">fire</del><add seq="2" place="above">warmth</add></subst> ⁁ <note resp="jawalsh">Insertion caret appears beneath center of <emph>fire</emph>.</note> &amp; sweet singing</l>
 				<l n="154" rendition="#ti-2">And strength to my roots;</l>
 				<l n="155">And the lives of my children made perfect with freedom of soul were my
-					fruits.</l><ab>&lt;</ab><note resp="jawalsh">&lt; appears just after and below <emph>fruits.</emph></note>
+					fruits.&lt;</l><note resp="jawalsh">&lt; appears just after and below <emph>fruits.</emph></note>
 			</lg>
 			<anchor xml:id="endSpan01"/>
 			<lg>
@@ -717,16 +718,18 @@
 				<l n="199" rendition="#ti-2">That scales the sky;</l>
 				<l n="200">Man, equal &amp; one with me, man that is <subst><del seq="1">born</del><add seq="2" place="above">made</add></subst> of me, man that is I.</l>
 			</lg>
-			<milestone type="flourish"/>
+			<milestone unit="unknown" type="flourish"/>
 			<pb n="5v"/>
 			<note resp="jawalsh">Two postal markings. At top of page, upside down is an address to Swinburne, with a postmark. In the lower left quadrant of the page is a deleted address, illegible, written horizontally from top to bottom, and another postmark.</note>
 			<div type="address" rend="written upside down">
 			<ab>M.S.S. per Book Post.</ab>
+			<ab>
 			<address>
 			<addrLine>A.C. Swinburne Esq.</addrLine>
 			<addrLine rendition="#ti-1">Holmwood</addrLine>
 			<addrLine rendition="#ti-2">Henly on Thames.</addrLine>
 			</address>
+			</ab>
 			<ab type="postmark">
 			<note resp="jawalsh">Can make up much. Need to research Victorian postmarks. I think around the cirle I make out a MES of THAMES. And in center I read "JA 27".</note>
 			</ab>
@@ -735,6 +738,7 @@
 			<ab type="postmark">
 			<note resp="jawalsh">I can make out nothing but "JA" in center.</note>
 			</ab>
+			<ab>
 			<address>
 			<addrLine><del><gap extent="1 to 2 words"/></del></addrLine>
 			<addrLine><del><unclear cert="low">9</unclear> <gap extent="2 words"/></del></addrLine>
@@ -742,6 +746,7 @@
 			<addrLine><del><unclear cert="low">London</unclear> <gap extent="1 word"/></del></addrLine>
 			<addrLine><del><gap extent="1 word"/></del></addrLine>
 			</address>
+				</ab>
 			</div>
 		</body>
 </text>
