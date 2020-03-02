@@ -145,6 +145,7 @@
                                     <date when="1884"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb004">
@@ -5299,7 +5300,7 @@
                         <listBibl type="lot" xml:id="sb198">
                             <biblStruct xml:id="sb198.1">
                                 <monogr>
-                                    <title xml:lang="la">Dramata Sacra ex Veteri Testamento desumpta</title> <!-- Come back. EEBO strugglin’ -->
+                                    <title xml:lang="la">Dramata Sacra ex Veteri Testamento desumpta</title>
                                     <note type="description">old calf, r. e. bidning broken</note>
                                     <imprint>
                                         <publisher>Basil. Oporinus</publisher>
@@ -5307,6 +5308,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb199">
@@ -6723,7 +6725,7 @@
                                         <date when="1574"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- EEBO is being slow. Come back. -->
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb254.2">
                                 <monogr>
@@ -6736,7 +6738,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/ucm.531794992x"/>
+                                <note type="fulltext">HT copy dated 1550; not much luck on EEBO; title listed as "Petri Victorii Oratio habita ad Iulium III, initio pontificatus ipsius ..." and there's no sign of "Baudinius, O." as the author. HT author listed as "Vettori, Pietro"</note>
                             </biblStruct>
                             <biblStruct xml:id="sb254.3">
                                 <monogr>
@@ -6749,7 +6752,7 @@
                                         <date when="1592"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come backl. -->
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb255">
@@ -6763,7 +6766,7 @@
                                         <date when="1651"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240953075%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb256">
@@ -6777,7 +6780,7 @@
                                         <date when="1682"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240939290%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb256.2">
                                 <monogr>
@@ -6787,7 +6790,7 @@
                                         <date when="1669"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240849364%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb257">
@@ -6801,7 +6804,7 @@
                                         <date when="1613"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31175029678219"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb258">
@@ -6839,6 +6842,7 @@
                                         <date when="1712"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                                 <note type="fulltext">There is no exact year/publication in HT to Swinburne library -- should one be chosen regardless?</note>
                             </biblStruct>
                             <biblStruct xml:id="sb259.2">
@@ -6851,6 +6855,7 @@
                                         <date when="1613"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                                 <note type="fulltext">Same note as note above.</note>
                             </biblStruct>
                         </listBibl>
@@ -7032,7 +7037,7 @@
                                         <date when="1483"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. EEBO slow. -->
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb270">
@@ -7045,7 +7050,7 @@
                                         <date when="1548"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. EEBO slow. -->
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb271">
@@ -7092,7 +7097,8 @@
                                         <date when="1612"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240904569%3Faccountid%3D11620"/>
+                                <note type="fulltext">EEBO copy dated 1613.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb274">
@@ -7105,7 +7111,7 @@
                                         <date when="1612"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240852060%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb275">
@@ -7118,7 +7124,7 @@
                                         <date when="1641"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264191220%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb275.2">
                                 <monogr>
@@ -7131,7 +7137,7 @@
                                         <date when="1639"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240902835%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb276">
@@ -7273,7 +7279,8 @@
                                         <date when="1543"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="none" target=""/>
+                                <note type="fulltext">EEBO has some copies dated 1517ish, but the author is different.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb282.2">
                                 <monogr>
@@ -7284,7 +7291,7 @@
                                         <date when="1623"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb283">
@@ -7344,7 +7351,7 @@
                                         <date when="1616"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240872418%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb285">
@@ -7504,14 +7511,14 @@
                         <listBibl type="lot" xml:id="sb293">
                             <biblStruct xml:id="sb293.1">
                                 <monogr>
-                                    <title>The City-Night-Cap, or <foreign xml:lang="la">Crede quod habes &amp; habes</foreign>, a Tragi-Comedy</title>
+                                    <title>The City-Night-Cap, or Crede quod habes &amp; habes, a Tragi-Comedy</title>
                                     <author>Davenport, Robt.</author>
                                     <edition>First Edition</edition>
                                     <imprint>
-                                        <date when="1636"/>
+                                        <date when="1661"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240907257%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb293.2">
                                 <monogr>
@@ -7522,7 +7529,7 @@
                                         <date when="1636"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240866510%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb293.3">
                                 <monogr>
@@ -7532,7 +7539,7 @@
                                         <date when="1667"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240880423%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb293.4">
                                 <monogr>
@@ -7542,7 +7549,7 @@
                                         <date when="1631"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240866640%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb293.5">
                                 <monogr>
@@ -7552,7 +7559,7 @@
                                         <date when="1608"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240906491%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb293.6">
                                 <monogr>
@@ -7563,7 +7570,8 @@
                                         <date when="1634"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264199571%3Faccountid%3D11620"/>
+                                <note type="fulltext">EEBO copy dated 1668.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.7">
                                 <monogr>
@@ -7572,10 +7580,11 @@
                                     <note type="description">in 1 vol. old calf, one title slightly defective and some leaves stained and torn; sold not subject to return</note>
                                     <imprint>
                                         <date when="1630"/>
-                                        <date from="1608" to="1667"/>
+                                        <date from="1608" to="1667"/> <!-- This refers to all the works in the lot, I believe. -->
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240910532%3Faccountid%3D11620"/>
+                                <note type="fulltext">EEBO copy title is "Technogamia: or The marriages of the arts A comedie vvritten by Barten Holiday, Master of Arts, and student of Christ-Church in Oxford, and acted by the students of the same house before the Vniuersitie, at Shroue-tide."</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb294">
@@ -7631,7 +7640,7 @@
                                         <date when="1683"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240856610%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb297">
@@ -7664,19 +7673,19 @@
                                         <date when="1675"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240969359%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb299">
                             <biblStruct xml:id="sb299.1">
                                 <monogr>
-                                    <title>The Spansh Rogue, as it was acted by his Majesties Servants</title>
+                                    <title>The Spanish Rogue, as it was acted by his Majesties Servants</title>
                                     <author>Dufett, Tho.</author>
                                     <imprint>
                                         <date when="1674"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240971959%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb299.2">
                                 <monogr>
@@ -7688,7 +7697,7 @@
                                         <date when="1687"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240946838%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb299.3">
                                 <monogr>
@@ -7698,7 +7707,7 @@
                                         <date when="1681"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264216099%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb299.4">
                                 <monogr>
@@ -7710,7 +7719,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240935678%3Faccountid%3D11620"/>
+                                <note type="fulltext">Not sure about the two volumes. I don't see any evidence of two volumes.</note>
                             </biblStruct>
                         </listBibl>
                     </div>
@@ -7740,10 +7750,10 @@
                                     <title>Historie of the Reigne of King Henry the Seventh</title>
                                     <author>Bacon, Sir F.</author>
                                     <imprint>
-                                        <date when="1620"/>
+                                        <date when="1629"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240870377%3Faccountid%3D11620"/>
                             </biblStruct>
                             <biblStruct xml:id="sb301.2">
                                 <monogr>
@@ -7751,11 +7761,12 @@
                                     <author>Daniel, S.</author>
                                     <note type="description">half calf, pencil note on fly-leaf in handwriting of Swinburne</note>
                                     <imprint>
-                                        <date when="1620"/>
-                                        <date from="1629" to="1629"/>
+                                        <date when="1626"/>
+                                        <date from="1626" to="1629"/> <!-- Refers to total years covered by the lot. -->
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240888523%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb302">
@@ -7787,12 +7798,13 @@
                         <listBibl type="lot" xml:id="sb303">
                             <biblStruct xml:id="sb303.1">
                                 <monogr>
-                                    <title>Another copy</title> <!-- see above lot? -->
+                                    <title>Another copy</title>
                                     <author>Baring-Gould, S.</author>
                                     <imprint>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="help" target=""/>
                                 <note type="fulltext">Not sure exaclty which item this refers to, but best guess is lot 302.1, "Life of Napoleon".</note>
                             </biblStruct>
                             <biblStruct xml:id="sb303.2">
@@ -7819,7 +7831,7 @@
                                         <date when="1679"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2254537734%3Faccountid%3D11620"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb305">
@@ -7834,7 +7846,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/bub_gb_nt17gBFSCjoC/page/n4/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb306">
@@ -7851,7 +7863,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="help" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb307">
@@ -7896,6 +7908,7 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                             <biblStruct xml:id="sb309.2">
                                 <monogr>
@@ -7908,7 +7921,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="help" target=""/>
+                                <note type="fulltext">IA has a copy of something with no preview from 1474.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb310">
@@ -7922,7 +7936,7 @@
                                         <date when="1497"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="ht" target=""/> <!-- Come back. -->
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb311">
@@ -7970,7 +7984,7 @@
                          <biblStruct xml:id="sb312.2">
                              <monogr>
                                  <title>OEuvres</title>
-                                 <author>Rotron, Jean</author>
+                                 <author>Rotrou, Jean</author>
                                  <note type="description">half morocco, m. e. ib.</note>
                                  <note type="etc"><num value="15"/></note>
                                  <imprint>
@@ -7978,6 +7992,12 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="5"/></extent>
                              </monogr>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015005143113"/>
+                             <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015019982159"/>
+                             <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015028545963"/>
+                             <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015013539146"/>
+                             <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/mdp.39015046409580"/>
+                             <note type="fulltext">Catalog incorrectly has author as "Rotron"; </note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb313">
@@ -9754,6 +9774,7 @@
                              <title>Imagination and Fancy</title>
                              <author>Hunt, Leigh</author>
                              <date when="1846"/>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/umn.319510024000388"/>
                          </bibl>
                          <biblStruct xml:id="sb387.3">
                              <monogr>
@@ -10056,7 +10077,6 @@
                              <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc1.b4110387"/>
                              <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t24b3nw0p"/>
                              <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t4cn7pt30"/>
-                             <relatedItem n="7" type="ht" target=""/> <!-- Volume VII missing -->
                              <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t5p84vr58"/>
                              <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t2x35cd7z"/>
                              <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t9c54669f"/>
@@ -10065,7 +10085,7 @@
                              <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t5gb2pd0c"/>
                              <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t18k7wj5d"/>
                              <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t6rx9vb2s"/>
-                             <note type="fulltext">Volume 4 is from Univ. of Calif. and is different than the Cornell versions, but no Cornell version is available.</note>
+                             <note type="fulltext">Volume 4 is from Univ. of Calif. and is different than the Cornell versions, but no Cornell version is available. HT does not have vol 7.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb400">
@@ -12837,7 +12857,7 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="8"/></extent>
                              </monogr>
-                             <relatedItem n="1https://hdl.handle.net/2027/coo1.ark:/13960/t3hx1wt5w" type="ht" target=""/>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t3hx1wt5w"/>
                              <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8pc3kb6j"/>
                              <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t3hx1xg9r"/>
                              <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t6f19jd26"/>
@@ -15396,8 +15416,8 @@
                                      <date when="1610"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="ht" target=""/>
-                             <note type="fulltext">EEBO copy has alternate title: "Iliad. Chapman." It is also a 1611 copy. This copy was not printed for Samuel Macham.</note>
+                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248573906%3Faccountid%3D11620"/>
+                             <note type="fulltext">EEBO copy dated 1609; printed for Samuel Macham.</note>
                          </biblStruct>
                      </listBibl>
                  </div> <!-- End of Folio -->
@@ -15465,6 +15485,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
                             <note type="fulltext">The title is a multi-volume anthology of ninetheenth-century poets. The full work is more than 8 volumes, according to HT, so it's unclear whether the "etc." note refers to multple volumes of this work, or 8 separate titles. For now, we will not include full text, not knowing the details.</note>
                         </biblStruct>
                     </listBibl>
@@ -15474,13 +15495,14 @@
                                 <title>Plays. Collection of about One Hundred Comedies, Tragedies, etc. by well-known Authors</title>
                                 <note type="description">frontispiece, calf</note>
                                 <imprint>
-                                    <date from="1753" to="1736"/>
+                                    <date from="1735" to="1736"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="27"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="help" target=""/>
                         </biblStruct>
                     </listBibl>
-                    <listBibl type="lot" xml:id="sb630"> <!-- This lot is all plays -->
+                    <listBibl type="lot" xml:id="sb630"> 
                         <bibl xml:id="sb630.1">
                             <title>The She Gallants, a Comedy</title>
                             <author>Landsdown, Geo. Granville, Lord</author>
@@ -15536,7 +15558,7 @@
                         <biblStruct xml:id="sb632.1">
                             <monogr>
                                 <title xml:lang="fr">Oeuvres Choisies, traduction nouvelle par W. L. Hughes</title>
-                                <author>Poe E.</author>
+                                <author>Poe, E.</author>
                                 <note type="description" corresp="#uncut">portrait, uncut</note>
                                 <imprint>
                                     <pubPlace>Paris</pubPlace>
@@ -15623,6 +15645,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
                             <note type="fulltext">Have found one volume with simpler title, "Political Verse." Can't find 3-volume work.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb635.2">
@@ -15673,6 +15696,7 @@
                                     <date from="1898" to="1899"/>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                         <biblStruct xml:id="sb636.3">
                             <monogr>
@@ -15684,6 +15708,7 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
+                            <relatedItem n="1" type="ht" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb637">
@@ -16892,6 +16917,7 @@
                             <title>Poems</title>
                             <author>Scott, Wm. Bell</author>
                             <date when="1854"/>
+                            <relatedItem n="1" type="ht" target=""/>
                         </bibl>
                         <biblStruct xml:id="sb688.3">
                             <monogr>
