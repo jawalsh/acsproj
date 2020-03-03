@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <?xml-stylesheet type="text/xsl" href="desktop/swinburne_library_handleCollector.xsl"?>
     <!-- example entry -->
     <!--
     <biblStruct xml:id="sb393.1">
@@ -15565,7 +15566,8 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">HT has the English version from this year but not the translation.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb632.2">
                             <monogr>
@@ -15576,7 +15578,8 @@
                                     <date when="1895"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">Other works by this author, but not this one.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb632.3">
                             <monogr>
@@ -15588,7 +15591,7 @@
                                     <date when="1898"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="none" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb633">
@@ -15645,8 +15648,10 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
-                            <note type="fulltext">Have found one volume with simpler title, "Political Verse." Can't find 3-volume work.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t6154hm27"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hwpnte"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/nyp.33433074834320"/>
+                            <note type="fulltext">HT has individual copies ranging the date range; n1 is "Political Verse", n2 is "Political Pamphlets", and n3 is "Seventeenth Centurey Lyrics".</note>
                         </biblStruct>
                         <biblStruct xml:id="sb635.2">
                             <monogr>
@@ -15686,7 +15691,6 @@
                             </monogr>
                             <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9r213444"/>
                         </biblStruct>
-                        <!-- paused. -->
                         <biblStruct xml:id="sb636.2">
                             <monogr>
                                 <title>Forgotten Children's Books</title>
@@ -15696,7 +15700,9 @@
                                     <date from="1898" to="1899"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="ht" target="Forgotten Children's Books"/>
+                            <note type="fulltext">HT title for item listed as "Pages and pictures from forgotten children's books,
+                                brought together and introduced to the reader by Andrew W. Tuer".</note>
                         </biblStruct>
                         <biblStruct xml:id="sb636.3">
                             <monogr>
@@ -15708,7 +15714,9 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t4fn1rf37"/>
+                            <note type="fulltext">HT copy dated 1891 and title listed as "The child and his book :
+                                some account of the history and progress of children's literature in England".</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb637">
@@ -15766,7 +15774,7 @@
                         <bibl xml:id="sb639.1">
                             <title>Works, with Commentary and Notes of Warburton</title>
                             <author>Pope, Alex.</author>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="help" target=""/>
                             <note type="fulltext">7 results from HT; most are 9 vol with one 3 vol.</note>
                         </bibl>
                         <biblStruct xml:id="sb639.2">
@@ -15779,8 +15787,23 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="20"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
-                            <note type="fulltext">HT has seperate catalog records for the Illiad and the Odyssey for this year. Odyssey has only 1 of five vol and Illiad has 6 of 6 vol.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nyp.33433074375209"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/nyp.33433074375381"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/nyp.33433074375399"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/nyp.33433074375407"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/nyp.33433074375415"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/nyp.33433074375423"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/hvd.hw3q26"/>
+                            <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086747"/>
+                            <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086754"/>
+                            <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086762"/>
+                            <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086770"/>
+                            <relatedItem n="16" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086788"/>
+                            <relatedItem n="17" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086796"/>
+                            <relatedItem n="18" type="ht" target="https://hdl.handle.net/2027/chi.12355167"/>
+                            <relatedItem n="19" type="ht" target="https://hdl.handle.net/2027/nyp.33433076086804"/>
+                            <relatedItem n="20" type="ht" target="https://hdl.handle.net/2027/chi.12355181"/>
+                            <note type="fulltext">Illiad is n1-6 dated 1760, Odyssey is n7 (only vol 1 available of five) dated 1760, and "Works of Alexander Pope" make up the last 9 vol from n12-20 dated 1797.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb640">
@@ -16917,7 +16940,7 @@
                             <title>Poems</title>
                             <author>Scott, Wm. Bell</author>
                             <date when="1854"/>
-                            <relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/njp.32101065762401"/>
                         </bibl>
                         <biblStruct xml:id="sb688.3">
                             <monogr>
@@ -17082,15 +17105,15 @@
                         <biblStruct xml:id="sb695.3">
                             <monogr>
                                 <title>Essay on Sepulchres</title>
-                                <author>Goodwin, Wm.</author>
+                                <author>Godwin, Wm.</author>
                                 <note type="description">frontispiece</note>
                                 <note type="etc"><num value="10"/></note>
                                 <imprint>
                                     <date when="1809"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="ht" target=""/>
-                            <note type="fulltext">The New York Public Library has a digital copy.</note>
+                            <relatedItem n="1" type="none" target=""/>
+                            <note type="fulltext">The New York Public Library has a digital copy.</note> <!-- I left this note here, but I can't find what I'm talking about.-->
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb696">
@@ -17255,7 +17278,7 @@
                     <listBibl type="lot" xml:id="sb702">
                         <biblStruct xml:id="sb702.1">
                             <monogr>
-                                <title>Titus Androniues, facsimile of First Quarto by C. Praetorius, with Introduction by Arthur Symons</title> <!-- Check spelling on the title. -->
+                                <title>Titus Andronicus, facsimile of First Quarto by C. Praetorius, with Introduction by Arthur Symons</title>
                                 <author>Shakespeare, W.</author>
                                 <note type="description" corresp="#presentation">half roan, presentation copy to Swinburne, with autograph inscription</note>
                                 <note type="inscription">To A. C. Swinburne as a slight acknowledgement of personal indebtedness tothe ‘poete dexenu critque,’ who in his ‘Study of Shakespeare’ has laid all students of the poet under an obligation, Arthur Symons, <date when="1885-11-30">Nov. 30th, 1885</date></note>
@@ -17263,7 +17286,8 @@
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
-<relatedItem n="1" type="ht" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31175034921646"/>
+                            <note type="fulltext">HT copy dated 1886.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb703">
