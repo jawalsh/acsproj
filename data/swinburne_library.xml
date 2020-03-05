@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <?xml-stylesheet type="text/xsl" href="desktop/swinburne_library_handleCollector.xsl"?>
     <!-- example entry -->
     <!--
     <biblStruct xml:id="sb393.1">
@@ -37,7 +36,7 @@
                     </analytic>
                     <monogr>
                         <editor>Woolford, John</editor>
-                        <title>Sale Catalogues of LIbraries of Eminent Persons</title>
+                        <title>Sale Catalogues of Libraries of Eminent Persons</title>
                         <title>Poets and Men of Letters</title>
                         <imprint>
                             <pubPlace> London </pubPlace>
@@ -87,8 +86,7 @@
                     <listBibl type="lot" xml:id="sb002">
                         <biblStruct xml:id="sb002.1">
                             <monogr>
-                                <title type="main">Giovanni Costa</title>
-                                <title type="sub">his Life, Work and Times</title>
+                                <title>Giovanni Costa, his Life, Work and Times</title>
                                 <author>Agresti, O. Rossetti</author>
                                 <note type="description" corresp="#uncut">portrait and etchings, buckram, 
                                 uncut, t.e.g. roy.</note>
