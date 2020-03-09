@@ -10,9 +10,8 @@
     <xsl:template match="teiHeader"/>
     
     <xsl:template match="relatedItem">
-
-                    <xsl:value-of select="substring-before(substring-after(@target, 'https://archive.org/details/'),'/page')"/> <!-- Still need to figure out how to dismiss the '/page' to end. -->
-                    <xsl:value-of select="'&#x000A;'"/>
+        <xsl:value-of select="substring-before(substring-after(@target, 'https://archive.org/details/'),'/page')"/>
+        <xsl:value-of select="'&#x000A;'"/>
     </xsl:template>
     
 </xsl:stylesheet>
