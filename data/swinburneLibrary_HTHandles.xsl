@@ -10,7 +10,7 @@
     <xsl:template match="teiHeader"/>
     
     <xsl:template match="relatedItem">
-        <xsl:value-of select="@target"/>
+        <xsl:value-of select="substring-after(@target, 'https://hdl.handle.net/2027/')"/>
         <xsl:value-of select="'&#x000A;'"/>
     </xsl:template>
     
