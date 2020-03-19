@@ -26,7 +26,6 @@
 	<property name="dir.glossary" value="${dir.data}"/>
 	
 	<property name="dir.to_xtf" value="${dir.output}/to_xtf"/>
-	<property name="dir.tmp" value="${dir.output}/tmp"/>
 	<property name="dir.xtf_home" value="/Applications/swinburne-xtf"/>
 	<property name="dir.xtf_data" value="${dir.xtf_home}/data/swinburne"/>
 	<property name="dir.xtf_data_templates" value="${dir.xtf_home}/data/templates/swinburne"/>
@@ -65,7 +64,6 @@
 	<property name="xslt.swinburne2rdf" value="${dir.xslt}/swinburne2rdf.xsl"/>
 	<property name="xslt.acsComponents" value="${dir.xslt}/acsComponents.xsl"/>
 	<property name="xslt.mets" value="${dir.xslt}/tei2mets.xsl"/>
-	<property name="xslt.tmp" value="/Users/jawalsh/Dropbox/Development/utilities/xml/tmp.xsl"/>
 	
 	<!-- schemas -->
 	
@@ -217,11 +215,6 @@
 		</jing>
 	</target>
 	
-	<target name="xslttmp">
-		<delete dir="${dir.tmp}"/>
-		<mkdir dir="${dir.tmp}"/>
-		<saxon-xslt basedir="${dir.data}" includes="*-md.xml" destdir="${dir.tmp}" force="true" extension=".xml" style="${xslt.tmp}"/>
-	</target>
 	<target name="xtf_clean">
 			<delete dir="${dir.xtf_data}"/>
 			<delete dir="${dir.xtf_index}"/>
