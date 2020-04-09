@@ -1,0 +1,3690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topicMap id="arthurianLegend-tm" xmlns="http://www.topicmaps.org/xtm/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<mergeMap xlink:href="dc.xtmm" />
+<!-- metadata: start -->
+<!-- reification of topic map, i.e., a topic for the topic map. -->
+	<topic id="arthurianLegend-tm-topic">
+		<subjectIdentity>
+			<subjectIndicatorRef xlink:href="#arthurianLegend-tm" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Arthurian Legend Topic Map 
+			</baseNameString>
+		</baseName>
+	</topic>
+	<topic id="english">
+		<subjectIdentity>
+			<subjectIndicatorRef xlink:href="lang.xtm#english" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				English 
+			</baseNameString>
+		</baseName>
+	</topic>
+<!-- subject headings for topic map -->
+	<topic id="arthurianCharactersAndThemes">
+		<subjectIdentity>
+			<subjectIndicatorRef xlink:href="http://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?RefCodes=1&amp;ref=1&amp;hd=1,2&amp;SEQ=20050609183551&amp;Search_Arg=arthurian&amp;Search_Code=SHED_&amp;PID=21816&amp;CNT=25&amp;SID=2" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Arthurian characters and themes
+			</baseNameString>
+		</baseName>
+	</topic>
+<!-- .................... DUBLIN CORE METADATA ................... -->
+<!-- Merge DC ontology and related controlled vocabulary -->
+<!-- Another topic that reifies the topic map. This will be merged with the 
+	 topic whose ID is "myTopicMap-topic" because they have the same subject 
+	 indicator. -->
+	<topic id="tm-topic">
+		<subjectIdentity>
+			<subjectIndicatorRef xlink:href="#arthurianLegend-tm" />
+		</subjectIdentity>
+<!-- dc:Rights modelled as occurrence -->
+		<occurrence>
+			<instanceOf>
+				<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/rights" />
+			</instanceOf>
+			<resourceData>
+				© Copyright 2005 John A. Walsh 
+			</resourceData>
+		</occurrence>
+<!-- dc:Date modelled as occurrence -->
+		<occurrence>
+			<instanceOf>
+				<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/date" />
+			</instanceOf>
+			<resourceData>
+				2005-06-09 
+			</resourceData>
+		</occurrence>
+<!-- dc:Description modelled as occurrence -->
+		<occurrence>
+			<instanceOf>
+				<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/description" />
+			</instanceOf>
+			<resourceData>
+				Topic map on Arthurian legend, including legendary figures, places, and events. 
+			</resourceData>
+		</occurrence>
+	</topic>
+<!-- dc:Creator modelled as an association -->
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/creator" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#resource" />
+			</roleSpec>
+			<topicRef xlink:href="#tm-topic" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#value" />
+			</roleSpec>
+			<topicRef xlink:href="#jawalsh" />
+		</member>
+	</association>
+<!-- add topic for value of dc:Creator -->
+	
+<!-- dc:Publisher modelled as an association -->
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/publisher" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#resource" />
+			</roleSpec>
+			<topicRef xlink:href="#tm-topic" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#value" />
+			</roleSpec>
+			<topicRef xlink:href="#jawalsh" />
+		</member>
+	</association>
+<!-- dc:Subject modelled as an association -->
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/subject" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#resource" />
+			</roleSpec>
+			<topicRef xlink:href="#tm-topic" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#value" />
+			</roleSpec>
+			<topicRef xlink:href="#arthurianCharactersAndThemes" />
+		</member>
+	</association>
+<!-- dc:Type modelled as an association -->
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/type" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#resource" />
+			</roleSpec>
+			<topicRef xlink:href="#tm-topic" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#value" />
+			</roleSpec>
+			<topicRef xlink:href="dc.xtmm#topicmap-type" />
+		</member>
+	</association>
+<!-- dc:Format modelled as an association -->
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/format" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#resource" />
+			</roleSpec>
+			<topicRef xlink:href="#tm-topic" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#value" />
+			</roleSpec>
+			<topicRef xlink:href="dc.xtmm#XTM-format" />
+		</member>
+	</association>
+<!-- dc:Language modelled as an association -->
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://purl.org/dc/elements/1.1/language" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#resource" />
+			</roleSpec>
+			<topicRef xlink:href="#tm-topic" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="dc.xtmm#value" />
+			</roleSpec>
+			<topicRef xlink:href="lang.xtm#english" />
+		</member>
+	</association>
+<!-- metadata: end -->
+<!-- utility topics -->
+	<topic id="legendaryFigure">
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#legendaryFigure" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				lengendary figure 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="tmUtilities.xtm#definition" />
+			</instanceOf>
+			<resourceData>
+				A figure from the various legends and folklore of the world, including Arthurian legend. 
+			</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="geographicFeature">
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#geographicFeature" />
+		</subjectIdentity>
+<!-- single (universal) base name in unconstrained scope -->
+		<baseName>
+			<baseNameString>
+				geographic feature 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+<!-- occurrence typed by a PubSubj TC published subject -->
+				<subjectIndicatorRef xlink:href="tmUtilities.xtm#description" />
+			</instanceOf>
+			<scope>
+<!-- scope by language English -->
+				<subjectIndicatorRef xlink:href="#english" />
+			</scope>
+			<resourceData>
+				A geographic feature, such as the Ohio River, the North Sea, or Mont Blanc. 
+			</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="place">
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#place" />
+		</subjectIdentity>
+<!-- single (universal) base name in unconstrained scope -->
+		<baseName>
+			<baseNameString>
+				place 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+<!-- occurrence typed by a PubSubj TC published subject -->
+				<subjectIndicatorRef xlink:href="tmUtilities.xtm#description" />
+			</instanceOf>
+			<scope>
+<!-- scope by language English -->
+				<subjectIndicatorRef xlink:href="#english" />
+			</scope>
+			<resourceData>
+				A place, location. 
+			</resourceData>
+		</occurrence>
+	</topic>
+	<topic id="arthurianFigure">
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#arthurianFigure" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Arthurian figure 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="tmUtilities.xtm#definition" />
+			</instanceOf>
+			<resourceData>
+				A figure from Arthurian legend. 
+			</resourceData>
+		</occurrence>
+	</topic>
+	<association>
+		<instanceOf>
+			<subjectIndicatorRef xlink:href="http://www.topicmaps.org/xtm/1.0/core.xtm#superclass-subclass" />
+		</instanceOf>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="http://www.topicmaps.org/xtm/1.0/core.xtm#superclass" />
+			</roleSpec>
+			<topicRef xlink:href="#legendaryFigure" />
+		</member>
+		<member>
+			<roleSpec>
+				<subjectIndicatorRef xlink:href="http://www.topicmaps.org/xtm/1.0/core.xtm#subclass" />
+			</roleSpec>
+			<topicRef xlink:href="#arthurianFigure" />
+		</member>
+	</association>
+	<topic id="encyclopediaMythica">
+		<instanceOf>
+			<topicRef xlink:href="occurrenceTypes.xtm#digitalReferenceResource" />
+		</instanceOf>
+		<baseName>
+			<baseNameString>
+				Encyclopedia Mythica 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#citation" />
+			</instanceOf>
+			<resourceData>
+				Lindemans, Micha, ed. Encyclopedia Mythica. 17 August 2004. Encycopedia Mythica. 27 August 2004. &lt;http://www.pantheon.org/&gt;. 
+			</resourceData>
+		</occurrence>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#digitalReferenceResource" />
+			</instanceOf>
+			<resourceRef xlink:href="http://www.pantheon.org/" />
+		</occurrence>
+	</topic>
+	<topic id="accolon">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#accolon" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Accolon 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org//articles/a/accolon.html" />
+		</occurrence>
+	</topic>
+	<topic id="agned">
+		<instanceOf>
+			<topicRef xlink:href="#geographicFeature" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#agned" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Agned 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="tmUtilities.xtm#definition" />
+			</instanceOf>
+			<resourceData>
+				A mountain, the site of Arthur's eleventh victory over the Saxons. 
+			</resourceData>
+		</occurrence>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/agned.html" />
+		</occurrence>
+	</topic>
+	<topic id="agravain">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#agravain" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Agravain 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/agravain.html" />
+		</occurrence>
+	</topic>
+	<topic id="agrestes">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#agrestes" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Agrestes 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/agrestes.html" />
+		</occurrence>
+	</topic>
+	<topic id="alain">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#alain" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Alain 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/alain.html" />
+		</occurrence>
+	</topic>
+	<topic id="ambrosiusAurelianus">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ambrosiusAurelianus" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ambrosius Aurelianus 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/ambrosius_aurelianus.html" />
+		</occurrence>
+	</topic>
+	<topic id="amesbury">
+		<instanceOf>
+			<topicRef xlink:href="#place" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#amesbury" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Amesbury 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/amesbury.html" />
+		</occurrence>
+	</topic>
+	<topic id="amr">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#amr" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Amr 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/amr.html" />
+		</occurrence>
+	</topic>
+	<topic id="andret">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#andret" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Andret 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/andret.html" />
+		</occurrence>
+	</topic>
+	<topic id="aneirin">
+		<instanceOf>
+			<topicRef xlink:href="people.xtm#poet" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#aneirin" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Aneirin 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="tmUtilities.xtm#definition" />
+			</instanceOf>
+			<resourceData>
+				Early Welsh poet who mentions Arthur in his work. 
+			</resourceData>
+		</occurrence>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/aneirin.html" />
+		</occurrence>
+	</topic>
+	<topic id="anfortas">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#anfortas" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Anfortas 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/anfortas.html" />
+		</occurrence>
+	</topic>
+	<topic id="anguish">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#anguish" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Anguish 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/anguish.html" />
+		</occurrence>
+	</topic>
+	<topic id="anna">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#anna" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Anna 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/anna2.html" />
+		</occurrence>
+	</topic>
+	<topic id="annalesCambriae">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#annalesCambriae" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Annales Cambriae 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/annales_cambriae.html" />
+		</occurrence>
+	</topic>
+	<topic id="argante">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#argante" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Argante 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/argante.html" />
+		</occurrence>
+	</topic>
+	<topic id="aries">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#aries" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Aries 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/aries.html" />
+		</occurrence>
+	</topic>
+	<topic id="arondight">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#arondight" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Arondight 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/arondight.html" />
+		</occurrence>
+	</topic>
+	<topic id="arthur">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#arthur" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Arthur 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/arthur.html" />
+		</occurrence>
+	</topic>
+	<topic id="aureliusAmbrosius">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#aureliusAmbrosius" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Aurelius Ambrosius 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/aurelius_ambrosius.html" />
+		</occurrence>
+	</topic>
+	<topic id="avalon">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#avalon" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Avalon 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/a/avalon.html" />
+		</occurrence>
+	</topic>
+	<topic id="badon">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#badon" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Badon 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/badon.html" />
+		</occurrence>
+	</topic>
+	<topic id="balan">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#balan" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Balan 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/balan_2.html" />
+		</occurrence>
+	</topic>
+	<topic id="balin">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#balin" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Balin 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/balin_2.html" />
+		</occurrence>
+	</topic>
+	<topic id="banKing">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#banKing" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ban, King 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/ban.html" />
+		</occurrence>
+	</topic>
+	<topic id="baraton">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#baraton" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Baraton 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/baraton.html" />
+		</occurrence>
+	</topic>
+	<topic id="bassas">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bassas" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bassas 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bassas.html" />
+		</occurrence>
+	</topic>
+	<topic id="bedivereSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bedivereSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bedivere, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bedivere.html" />
+		</occurrence>
+	</topic>
+	<topic id="bercilak">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bercilak" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bercilak 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bercilak.html" />
+		</occurrence>
+	</topic>
+	<topic id="besteGlatissant">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#besteGlatissant" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Beste Glatissant 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/beste_glatissant.html" />
+		</occurrence>
+	</topic>
+	<topic id="blaise">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#blaise" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Blaise 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/blaise.html" />
+		</occurrence>
+	</topic>
+	<topic id="bleedingLance">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bleedingLance" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bleeding Lance 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bleeding_lance.html" />
+		</occurrence>
+	</topic>
+	<topic id="bors">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bors" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bors 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bors.html" />
+		</occurrence>
+	</topic>
+	<topic id="bran">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bran" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bran 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bran2.html" />
+		</occurrence>
+	</topic>
+	<topic id="brangaene">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#brangaene" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Brangaene 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/brangaene.html" />
+		</occurrence>
+	</topic>
+	<topic id="broéliande">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#broéliande" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Broéliande 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/broceliande.html" />
+		</occurrence>
+	</topic>
+	<topic id="bron">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#bron" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Bron 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/bron.html" />
+		</occurrence>
+	</topic>
+	<topic id="brutus">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#brutus" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Brutus 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/brutus.html" />
+		</occurrence>
+	</topic>
+	<topic id="buelt">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#buelt" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Buelt 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/b/buelt.html" />
+		</occurrence>
+	</topic>
+	<topic id="cabal">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#cabal" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Cabal 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/cabal.html" />
+		</occurrence>
+	</topic>
+	<topic id="cadbury">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#cadbury" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Cadbury 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/cadbury.html" />
+		</occurrence>
+	</topic>
+	<topic id="cadoc">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#cadoc" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Cadoc 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/cadoc.html" />
+		</occurrence>
+	</topic>
+	<topic id="cadwy">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#cadwy" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Cadwy 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/cadwy.html" />
+		</occurrence>
+	</topic>
+	<topic id="caerleon">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#caerleon" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Caerleon 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/caerleon.html" />
+		</occurrence>
+	</topic>
+	<topic id="caledonianWood">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#caledonianWood" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Caledonian Wood 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/caledonian_wood.html" />
+		</occurrence>
+	</topic>
+	<topic id="caliburn">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#caliburn" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Caliburn 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/caliburn.html" />
+		</occurrence>
+	</topic>
+	<topic id="camel">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#camel" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Camel 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/camel.html" />
+		</occurrence>
+	</topic>
+	<topic id="camelot">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#camelot" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Camelot 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/camelot.html" />
+		</occurrence>
+	</topic>
+	<topic id="camlann">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#camlann" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Camlann 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/camlann.html" />
+		</occurrence>
+	</topic>
+	<topic id="caradoc">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#caradoc" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Caradoc 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/caradoc.html" />
+		</occurrence>
+	</topic>
+	<topic id="carduel">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#carduel" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Carduel 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/carduel.html" />
+		</occurrence>
+	</topic>
+	<topic id="carlisle">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#carlisle" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Carlisle 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/carlisle.html" />
+		</occurrence>
+	</topic>
+	<topic id="carmarthen">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#carmarthen" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Carmarthen 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/carmarthen.html" />
+		</occurrence>
+	</topic>
+	<topic id="carranog">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#carranog" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Carranog 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/carranog.html" />
+		</occurrence>
+	</topic>
+	<topic id="castleOfMaidens">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#castleOfMaidens" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Castle of Maidens 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/castle_of_maidens.html" />
+		</occurrence>
+	</topic>
+	<topic id="castleTerabil">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#castleTerabil" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Castle Terabil 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/castle_terabil.html" />
+		</occurrence>
+	</topic>
+	<topic id="celidon">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#celidon" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Celidon 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/celidon.html" />
+		</occurrence>
+	</topic>
+	<topic id="chester">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#chester" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Chester 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/chester.html" />
+		</occurrence>
+	</topic>
+	<topic id="cityOfTheLegion">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#cityOfTheLegion" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				City of the Legion 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/city_of_the_legion.html" />
+		</occurrence>
+	</topic>
+	<topic id="clarissant">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#clarissant" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Clarissant 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/clarissant.html" />
+		</occurrence>
+	</topic>
+	<topic id="claudas">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#claudas" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Claudas 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/claudas.html" />
+		</occurrence>
+	</topic>
+	<topic id="cligés">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#cligés" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Cligés 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/cliges.html" />
+		</occurrence>
+	</topic>
+	<topic id="corbenic">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#corbenic" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Corbenic 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/corbenic.html" />
+		</occurrence>
+	</topic>
+	<topic id="culhwch">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#culhwch" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Culhwch 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/c/culhwch.html" />
+		</occurrence>
+	</topic>
+	<topic id="dagonetSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#dagonetSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Dagonet, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/dagonet.html" />
+		</occurrence>
+	</topic>
+	<topic id="damas">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#damas" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Damas 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/damas.html" />
+		</occurrence>
+	</topic>
+	<topic id="daniel">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#daniel" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Daniel 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/daniel.html" />
+		</occurrence>
+	</topic>
+	<topic id="dinadan">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#dinadan" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Dinadan 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/dinadan.html" />
+		</occurrence>
+	</topic>
+	<topic id="dioneta">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#dioneta" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Dioneta 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/dioneta.html" />
+		</occurrence>
+	</topic>
+	<topic id="dolorousGard">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#dolorousGard" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Dolorous Gard 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/dolorous_gard.html" />
+		</occurrence>
+	</topic>
+	<topic id="dolorousStroke">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#dolorousStroke" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Dolorous Stroke 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/dolorous_stroke.html" />
+		</occurrence>
+	</topic>
+	<topic id="douglas">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#douglas" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Douglas 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/d/douglas.html" />
+		</occurrence>
+	</topic>
+	<topic id="ectorSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ectorSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ector, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/ector.html" />
+		</occurrence>
+	</topic>
+	<topic id="ehangwen">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ehangwen" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ehangwen 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/ehangwen.html" />
+		</occurrence>
+	</topic>
+	<topic id="elergia">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#elergia" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Elergia 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/elergia.html" />
+		</occurrence>
+	</topic>
+	<topic id="elyzabel">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#elyzabel" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Elyzabel 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/elyzabel.html" />
+		</occurrence>
+	</topic>
+	<topic id="emmeline">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#emmeline" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Emmeline 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/emmeline.html" />
+		</occurrence>
+	</topic>
+	<topic id="ermeleus">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ermeleus" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ermeleus 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/ermeleus.html" />
+		</occurrence>
+	</topic>
+	<topic id="escol">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#escol" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Escol 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/escol.html" />
+		</occurrence>
+	</topic>
+	<topic id="eustace">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#eustace" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Eustace 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/eustace.html" />
+		</occurrence>
+	</topic>
+	<topic id="evalac">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#evalac" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Evalac 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/evalac.html" />
+		</occurrence>
+	</topic>
+	<topic id="excalibur">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#excalibur" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Excalibur 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/e/excalibur.html" />
+		</occurrence>
+	</topic>
+	<topic id="fergus">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#fergus" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Fergus 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/f/fergus2.html" />
+		</occurrence>
+	</topic>
+	<topic id="fish-Knight">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#fish-Knight" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Fish-Knight 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/f/fish-knight.html" />
+		</occurrence>
+	</topic>
+	<topic id="fisherKing">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#fisherKing" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Fisher King 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/f/fisher_king.html" />
+		</occurrence>
+	</topic>
+	<topic id="gaheris">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#gaheris" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Gaheris 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/gaheris.html" />
+		</occurrence>
+	</topic>
+	<topic id="galahad">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#galahad" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Galahad 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/galahad.html" />
+		</occurrence>
+	</topic>
+	<topic id="galehaut">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#galehaut" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Galehaut 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/galahaut.html" />
+		</occurrence>
+	</topic>
+	<topic id="ganieda">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ganieda" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ganieda 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/ganieda.html" />
+		</occurrence>
+	</topic>
+	
+	<topic id="gawain">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#gawain" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Gawain 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/gawain.html" />
+		</occurrence>
+	</topic>
+	<topic id="geneir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#geneir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Geneir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/geneir.html" />
+		</occurrence>
+	</topic>
+	<topic id="geoffreyOfMonmouth">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#geoffreyOfMonmouth" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Geoffrey of Monmouth 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/geoffrey_of_monmouth.html" />
+		</occurrence>
+	</topic>
+	<topic id="geraint">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#geraint" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Geraint 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/geraint.html" />
+		</occurrence>
+	</topic>
+	<topic id="gereth">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#gereth" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Gereth 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/gereth.html" />
+		</occurrence>
+	</topic>
+	<topic id="gildas">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#gildas" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Gildas 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/gildas.html" />
+		</occurrence>
+	</topic>
+	<topic id="girflet">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#girflet" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Girflet 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/girflet.html" />
+		</occurrence>
+	</topic>
+	<topic id="gorlois">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#gorlois" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Gorlois 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/gorlois.html" />
+		</occurrence>
+	</topic>
+	<topic id="grail">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#grail" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Grail 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/grail.html" />
+		</occurrence>
+	</topic>
+	<topic id="greenKnight">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#greenKnight" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Green Knight, The 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/green_knight.html" />
+		</occurrence>
+	</topic>
+	<topic id="guinevere">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#guinevere" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Guinevere 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/guinevere.html" />
+		</occurrence>
+	</topic>
+	<topic id="gwalchmei">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#gwalchmei" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Gwalchmei 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/g/gwalchmei.html" />
+		</occurrence>
+	</topic>
+	<topic id="harleyBrut">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#harleyBrut" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Harley Brut 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/h/harley_brut.html" />
+		</occurrence>
+	</topic>
+	<topic id="hectorSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#hectorSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Hector, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/h/hector2.html" />
+		</occurrence>
+	</topic>
+	<topic id="igraine">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#igraine" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Igraine 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/i/igraine.html" />
+		</occurrence>
+	</topic>
+	<topic id="isolde">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#isolde" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Isolde 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/i/isolde.html" />
+		</occurrence>
+	</topic>
+	<topic id="isolde">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#isolde" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Isolde 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/i/isolde2.html" />
+		</occurrence>
+	</topic>
+	<topic id="josephOfArimathea">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#josephOfArimathea" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Joseph of Arimathea 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/j/joseph_of_arimathea.html" />
+		</occurrence>
+	</topic>
+	<topic id="joyousGard">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#joyousGard" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Joyous Gard 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/j/joyous_gard.html" />
+		</occurrence>
+	</topic>
+	<topic id="kaySir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#kaySir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Kay, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/k/kay.html" />
+		</occurrence>
+	</topic>
+	<topic id="knightsOfTheRoundTable">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#knightsOfTheRoundTable" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Knights of the Round Table 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/k/knights_of_the_round_table.html" />
+		</occurrence>
+	</topic>
+	<topic id="ladyOfTheLake">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ladyOfTheLake" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Lady of the Lake 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/lady_of_the_lake.html" />
+		</occurrence>
+	</topic>
+	<topic id="lamorakDeGalis">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#lamorakDeGalis" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Lamorak de Galis 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/lamorak_de_galis.html" />
+		</occurrence>
+	</topic>
+	<topic id="lancelot">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#lancelot" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Lancelot 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/lancelot.html" />
+		</occurrence>
+	</topic>
+	<topic id="launfalSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#launfalSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Launfal, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/launfal.html" />
+		</occurrence>
+	</topic>
+	<topic id="leodegrance">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#leodegrance" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Leodegrance 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/leodegrance.html" />
+		</occurrence>
+	</topic>
+	<topic id="logres">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#logres" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Logres 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/logres.html" />
+		</occurrence>
+	</topic>
+	<topic id="lohengrin">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#lohengrin" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Lohengrin 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/lohengrin.html" />
+		</occurrence>
+	</topic>
+	<topic id="lothian">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#lothian" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Lothian 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/l/lothian.html" />
+		</occurrence>
+	</topic>
+	<topic id="merlin">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#merlin" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Merlin 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/m/merlin.html" />
+		</occurrence>
+	</topic>
+	<topic id="mordred">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#mordred" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Mordred 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/m/mordred.html" />
+		</occurrence>
+	</topic>
+	<topic id="morganLeFay">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#morganLeFay" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Morgan le Fay 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/m/morgan_le_fay.html" />
+		</occurrence>
+	</topic>
+	<topic id="morgause">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#morgause" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Morgause 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/m/morgause.html" />
+		</occurrence>
+	</topic>
+	<topic id="morgueLeFaye">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#morgueLeFaye" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Morgue le Faye 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/m/morgue_le_faye.html" />
+		</occurrence>
+	</topic>
+	<topic id="nennius">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#nennius" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Nennius 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/n/nennius.html" />
+		</occurrence>
+	</topic>
+	<topic id="nimue">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#nimue" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Nimue 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/n/nimue.html" />
+		</occurrence>
+	</topic>
+	<topic id="owain">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#owain" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Owain 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/o/owain.html" />
+		</occurrence>
+	</topic>
+	<topic id="pellam">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#pellam" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Pellam 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/p/pellam.html" />
+		</occurrence>
+	</topic>
+	<topic id="pelleasSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#pelleasSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Pelleas, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/p/pelleas.html" />
+		</occurrence>
+	</topic>
+	<topic id="pelles">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#pelles" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Pelles 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/p/pelles.html" />
+		</occurrence>
+	</topic>
+	<topic id="pellinore">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#pellinore" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Pellinore 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/p/pellinore.html" />
+		</occurrence>
+	</topic>
+	<topic id="percivalSir">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#percivalSir" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Percival, Sir 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/p/percival.html" />
+		</occurrence>
+	</topic>
+	<topic id="pharamond">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#pharamond" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Pharamond 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/p/pharamond.html" />
+		</occurrence>
+	</topic>
+	<topic id="questingBeast">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#questingBeast" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Questing Beast 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/q/questing_beast.html" />
+		</occurrence>
+	</topic>
+	<topic id="roundTable">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#roundTable" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Round Table, The 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/r/round_table.html" />
+		</occurrence>
+	</topic>
+	<topic id="ryons">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ryons" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Ryons 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/r/ryons.html" />
+		</occurrence>
+	</topic>
+	<topic id="sagremor">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#sagremor" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Sagremor 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/s/sagremor.html" />
+		</occurrence>
+	</topic>
+	<topic id="sarras">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#sarras" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Sarras 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/s/sarras.html" />
+		</occurrence>
+	</topic>
+	<topic id="ladyOfShalott">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#ladyOfShalott" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Shalott, The Lady of 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/s/shalott.html" />
+		</occurrence>
+	</topic>
+	<topic id="siegePerilous">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#siegePerilous" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Siege Perilous 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/s/siege_perilous.html" />
+		</occurrence>
+	</topic>
+	<topic id="spoilsOfAnnwfn">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#spoilsOfAnnwfn" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Spoils of Annwfn 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/s/spoils_of_annwfn.html" />
+		</occurrence>
+	</topic>
+	<topic id="tintagel">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#tintagel" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Tintagel 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/t/tintagel.html" />
+		</occurrence>
+	</topic>
+	<topic id="tomThumb">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#tomThumb" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Tom Thumb 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/t/tom_thumb.html" />
+		</occurrence>
+	</topic>
+	<topic id="tristan">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#tristan" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Tristan 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/t/tristan.html" />
+		</occurrence>
+	</topic>
+	<topic id="utherPendragon">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#utherPendragon" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Uther Pendragon 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/u/uther_pendragon.html" />
+		</occurrence>
+	</topic>
+	<topic id="valSansRetour">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#valSansRetour" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Val Sans Retour 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/v/val_sans_retour.html" />
+		</occurrence>
+	</topic>
+	<topic id="waleweinEndeKeye">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#waleweinEndeKeye" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Walewein ende Keye 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/w/walewein_ende_keye.html" />
+		</occurrence>
+	</topic>
+	<topic id="yvain">
+		<instanceOf>
+			<topicRef xlink:href="#arthurianFigure" />
+		</instanceOf>
+		<subjectIdentity>
+<!-- self referential subject identity -->
+			<subjectIndicatorRef xlink:href="#yvain" />
+		</subjectIdentity>
+		<baseName>
+			<baseNameString>
+				Yvain 
+			</baseNameString>
+		</baseName>
+		<occurrence>
+			<instanceOf>
+				<topicRef xlink:href="occurrenceTypes.xtm#article" />
+			</instanceOf>
+			<scope>
+				<topicRef xlink:href="#encyclopediaMythica" />
+			</scope>
+			<resourceRef xlink:href="http://www.pantheon.org/articles/y/yvain.html" />
+		</occurrence>
+	</topic>
+</topicMap>
