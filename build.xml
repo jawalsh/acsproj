@@ -191,7 +191,7 @@
 		</for>
 	</target>
 	
-	<target name="txt">
+	<target name="txt" depends="combo">
 <!--		<saxon-xslt basedir="${dir.delivery}" includes="*.xml" destdir="${dir.txt}" force="true" extension=".txt" style="${xslt.swinburne2txt}" /> -->
 		<saxon-xslt basedir="${dir.to_xtf}" includes="*.xml" destdir="${dir.txt}" force="true" extension=".txt" style="${xslt.swinburne2txt}" />
 		<!--
