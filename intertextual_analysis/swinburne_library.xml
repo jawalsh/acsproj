@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../data/swinburne.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!-- example entry -->
     <!--
@@ -25,7 +25,7 @@
                 <title>Swinburne's Library: Day 1</title>
             </titleStmt>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="../../includes/publicationStmt.xml"/>
+                href="../data/includes/publicationStmt.xml"/>
             <sourceDesc>
                 <biblStruct>
                     <analytic>
@@ -177,7 +177,7 @@
                         <biblStruct xml:id="sb005.2">
                             <monogr> 
                                 <title>Senile Odium, Comoedia</title>
-                                <author>Hausted,P.</author>
+                                <author>Hausted, P.</author>
                                 <note type="description">Cantab.</note>     
                                 <note type="description">in 1 vol, frontispiece, russia, g.e. <date from="1632" to="1633"/></note> 
                                 <edition>First Edition</edition>
@@ -2434,11 +2434,13 @@
                                     <author>Brome, Richard</author>
                                     <note type="description">calf (broken), ex libris of J. T. Brockett and Thomas Bell</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A77567</idno>
                                     <imprint>
                                         <date when="1653"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248525978%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="https://quod.lib.umich.edu/e/eebo/A77567.0001.001"/>
                                 <note type="fulltext">Catalog says "Browne" but correct name is "Brome"; title and year are the same.</note>
                                 <note>Proquest Document ID: 2248525978</note>
                             </biblStruct>
@@ -3816,11 +3818,13 @@
                                     </respStmt>
                                     <note type="description">calf, a little stained</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A31552</idno>
                                     <imprint>
                                         <date when="1683"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248524883%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="https://quod.lib.umich.edu/e/eebo/A31552.0001.001?c=eebo;c=eebo2;g=eebogroup;rgn=works;view=toc;xc=1;rgn1=title;q1=thealma+and+Clearchus"/>
                                 <note>Proquest Document ID: 2248524883</note>
                             </biblStruct>
                         </listBibl>
@@ -4511,11 +4515,13 @@
                                     <author>[Congreve, Wm.]</author>
                                     <note type="description" corresp="#uncut">half morocco, uncut, t. e. g.</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A34297</idno>
                                     <imprint>
                                         <date when="1698"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240874012%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="https://quod.lib.umich.edu/e/eebo/A34297.0001.001"/>
                                 <note>Proquest Document ID: 2240874012</note>
                             </biblStruct>
                             <biblStruct xml:id="sb165.2">
@@ -4656,7 +4662,9 @@
                         <listBibl type="lot" xml:id="sb171">
                             <biblStruct xml:id="sb171.1">
                                 <monogr>
+                                    <idno type="tcp">A34931</idno>
                                     <title>Steps to the Temple, The Delights of the Muses, and Carmen Deo Nostro</title>
+                                    
                                     <author>Crashaw, Ric.</author>
                                     <note type="description">old calf gilt</note>
                                     <imprint>
@@ -4664,6 +4672,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240876324%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="https://quod.lib.umich.edu/e/eebo/A34931.0001.001"/>
                                 <note>Proquest Document ID: 2240876324</note>
                             </biblStruct>
                         </listBibl>
@@ -7607,7 +7616,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240910532%3Faccountid%3D11620"/>
-                                <realtedItem type="ota" target="http://hdl.handle.net/20.500.12024/A03496"/>
+                                <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A03496"/>
                                 <note type="fulltext">EEBO titled "Technogamia: or The marriages of the arts A comedie vvritten by Barten Holiday, Master of Arts, and student of Christ-Church in Oxford, and acted by the students of the same house before the Vniuersitie, at Shroue-tide."; Proquest Document ID: 2240910532; EEBO fulltext NA; OTA published 1618 with same title as EEBO.</note>
                             </biblStruct>
                         </listBibl>
@@ -14983,7 +14992,7 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240849309%3Faccountid%3D11620"/>
-                             <realtedItem type="ota" target="http://hdl.handle.net/20.500.12024/A50910"/>
+                             <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A50910"/>
                              <note type="fulltext">Proquest Document ID: 2240849309; EEBO fulltext NA; OTA is English, not Latin.</note>
                          </biblStruct>
                      </listBibl>
@@ -21413,7 +21422,7 @@
                             <note type="description">black letters, old russia, broken, imperfect</note>
                             <date>n.d.</date>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264207226%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" targer="http://hdl.handle.net/20.500.12024/A16779"/>
+                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A16779"/>
                             <note type="fulltext">EEBO copy from 1685, author "Breton, Nicholas"; Proquest Document ID: 2264207226; EEBO fulltext NA; OTA published 1602 and titled "A poste vvith a madde packet of letters."</note>
                         </bibl>
                     </listBibl>
@@ -21562,7 +21571,7 @@
                             <author>Rochester, Earl of</author>
                             <date when="1685"/>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240901105%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" targer="http://hdl.handle.net/20.500.12024/A39812"/>
+                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A39812"/>
                             <note type="fulltext">EEBO says author is John Fletcher, but the copy from this year's title reads, "Valentinian a tragedy : as 'tis altere'd by the late Earl of Rochester . . ."; Proquest Document ID: 2240901105; EEBO fulltext NA; OTA published 1685 and titled "Valentinian, a tragedy as 'tis alter'd by the Earl of Rochester, and acted at the Theatre-Royal : together with a preface concerning the author and his writings, by one of his friends.."</note>
                         </bibl>
                         <biblStruct xml:id="sb886.2">
@@ -21858,7 +21867,7 @@
                             <monogr>
                                 <title>The Fleire, as it hath beene often Played in the Blacke-Fryers by the Children of the Revels</title>
                                 <author>Sharpham, E.</author>
-                                <note type="description">half bound, title soiled and mended, some leaves stained and some headlines cut into, with autograph signature of John Genest, and players’ names in his writing</note
+                                <note type="description">half bound, title soiled and mended, some leaves stained and some headlines cut into, with autograph signature of John Genest, and players’ names in his writing</note>
                                 <imprint>
                                     <date when="1631"/>
                                 </imprint>
