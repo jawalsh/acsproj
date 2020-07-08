@@ -181,13 +181,15 @@
                                 <note type="description">Cantab.</note>     
                                 <note type="description">in 1 vol, frontispiece, russia, g.e. <date from="1632" to="1633"/></note> 
                                 <edition>First Edition</edition>
+                                <idno type="tcp">A72254</idno>
                                 <imprint>
                                     <date when="1632"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240918607%3Faccountid%3D11620"/>
-                            <note>Proquest Document ID: 2240918607</note>
+                            <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A72254.0001.001"/>
+                            <note>Proquest Document ID: 2240918607; TCP not sure if this is the right item but the year is the same.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb005.3">
                             <monogr>
@@ -224,13 +226,16 @@
                         <biblStruct xml:id="sb007.1">
                             <monogr> 
                                 <title>England's Parnassus; or the Choycest Flowers of our Moderne Poets with their poeticall comparisons</title>
+                                <idno type="tcp">A16884</idno>
                                 <author>Allot, Robert</author>
                                 <note type="description" corresp="#uncut">old calf, broken, some leaves cut into</note> 
+                                
                                 <imprint>
                                     <date when="1600"/>
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240885478%3Faccountid%3D11620"/>
+                            <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A16884.0001.001"/>
                             <note>Proquest Document ID: 2240885478</note>
                         </biblStruct>
                     </listBibl> 
@@ -2441,8 +2446,7 @@
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248525978%3Faccountid%3D11620"/>
                                 <relatedItem n="2" type="tcp" target="https://quod.lib.umich.edu/e/eebo/A77567.0001.001"/>
-                                <note type="fulltext">Catalog says "Browne" but correct name is "Brome"; title and year are the same.</note>
-                                <note>Proquest Document ID: 2248525978</note>
+                                <note type="fulltext">Catalog says "Browne" but correct name is "Brome"; title and year are the same. Proquest Document ID: 2248525978</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb089">
@@ -3824,7 +3828,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248524883%3Faccountid%3D11620"/>
-                                <relatedItem n="2" type="tcp" target="https://quod.lib.umich.edu/e/eebo/A31552.0001.001?c=eebo;c=eebo2;g=eebogroup;rgn=works;view=toc;xc=1;rgn1=title;q1=thealma+and+Clearchus"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A31552.0001.001"/>
                                 <note>Proquest Document ID: 2248524883</note>
                             </biblStruct>
                         </listBibl>
@@ -4929,6 +4933,7 @@
                             <biblStruct xml:id="sb182.2">
                                 <monogr>
                                     <title>Discourses upon the First Decade of T. Livius, with his Prince</title>
+                                    <idno type="tcp">A50322</idno>
                                     <author>Machiavel</author>
                                     <respStmt>
                                         <resp>translated by</resp>
@@ -4941,7 +4946,8 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248551890%3Faccountid%3D11620"/>
-                                <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A50322"/>
+                                <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A50322"/>
+                                <relatedItem n="3" type="tcp" target="http://name.umdl.umich.edu/A50322.0001.001"/>
                                 <note type="fulltext">Proquest Document ID: 2248551890, EEBO fulltext NA;</note>
                             </biblStruct>
                         </listBibl>
@@ -6778,11 +6784,13 @@
                                     <author>Beaumont and Fletcher</author>
                                     <note type="description">corrected and amended, half bound, headlines of two leaves slightly cut into</note>
                                     <edition>Second Edition</edition>
+                                    <idno type="tcp">A00960</idno>
                                     <imprint>
                                         <date when="1651"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240953075%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A00960.0001.001"/>
                                 <note>Proquest Document ID: 2240953075; EEBO fulltext NA; OTA unable to locate.</note>
                             </biblStruct>
                         </listBibl>
@@ -6793,11 +6801,13 @@
                                     <author>Beaumont and Fletcher</author>
                                     <note type="description">corrected and altered by a Person of Honour (George Villers Duke of Buckingham), title cut and mounted, half bound</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A39799</idno>
                                     <imprint>
                                         <date when="1682"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240939290%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A39799.0001.001"/>
                                 <note>Proquest Document ID: 2240939290</note>
                             </biblStruct>
                             <biblStruct xml:id="sb256.2">
@@ -6809,7 +6819,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240849364%3Faccountid%3D11620"/>
-                                <note type="fulltext">Proquest Document ID: 2240939290; EEBO fulltext NA</note>
+                                <note type="fulltext">Proquest Document ID: 2240939290; EEBO fulltext NA; TCP not found</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb257">
@@ -7014,11 +7024,13 @@
                                     <author>Brome, R.</author>
                                     <note type="description">half bound, title and last leaf mended, Swinburne's copy, with pencil note on fly-leaf in his writing</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A29637</idno>
                                     <imprint>
                                         <date when="1652"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248504208%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A29637.0001.001"/>
                                 <note>Proquest Document ID: 2248504208</note>
                             </biblStruct>
                         </listBibl>
@@ -7109,15 +7121,17 @@
                         <listBibl type="lot" xml:id="sb273">
                             <biblStruct xml:id="sb273.1">
                                 <monogr>
-                                    <title>An Epicede, or Runerall Song, on the nost disastrous Death of High-borne Prince of Men, Henry Prince of Wales</title>
+                                    <title>An Epicede, or Runerall Song, on the most disastrous Death of High-borne Prince of Men, Henry Prince of Wales</title>
                                     <author>Chapman, Geo.</author>
                                     <note type="description">but wanting the plate, half bound, rare. Printed by T. S. for John Budge, and are to be sould at his Shop at the great south dore of Paules, and at Brittaines Bursse</note>
                                     <edition>Original Edition</edition>
+                                    <idno type="tcp">A18410</idno>
                                     <imprint>
                                         <date when="1612"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240904569%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A18410.0001.001"/>
                                 <note type="fulltext">EEBO copy dated 1613.</note>
                                 <note>Proquest Document ID: 2240904569</note>
                             </biblStruct>
@@ -7126,6 +7140,7 @@
                             <biblStruct xml:id="sb274.1">
                                 <monogr>
                                     <title>The Widdowes Teares, a Comedie</title>
+                                    <idno type="tcp">A18426</idno>
                                     <author>Chapman, G.</author>
                                     <note type="description" corresp="#uncut">(2 copies), uncut, very imperfect</note>
                                     <imprint>
@@ -7133,6 +7148,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240852060%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A18426.0001.001"/>
                                 <note>Proquest Document ID: 2240852060</note>
                             </biblStruct>
                         </listBibl>
@@ -7140,6 +7156,7 @@
                             <biblStruct xml:id="sb275.1">
                                 <monogr>
                                     <title>Bussy D'Ambois, a Tragedie, as it hath been often Acted with great Applause</title>
+                                    <idno type="tcp">A18403</idno>
                                     <author>Chapman, G.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
@@ -7147,8 +7164,9 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264191220%3Faccountid%3D11620"/>
-                                <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A18403"/>
-                                <note type="fulltext">Proquest Document ID: 2264191220; EEBO fulltext NA; OTA published 1607.</note>
+                                <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A18403"/>
+                                <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A18403.0001.001"/>
+                                <note type="fulltext">Proquest Document ID: 2264191220; EEBO fulltext NA; OTA published 1607l; TCP published 1607.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb275.2">
                                 <monogr>
@@ -7162,7 +7180,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240902835%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2240902835</note>
+                                <note>Proquest Document ID: 2240902835; TCP not found.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb276">
@@ -7368,6 +7386,7 @@
                             <biblStruct xml:id="sb284.1">
                                 <monogr>
                                     <title>Traueller for the English Wits</title>
+                                    <idno type="tcp">A19384</idno>
                                     <author>Coriate, Thos.</author>
                                     <note type="description">woodcuts, old calf, broken</note>
                                     <edition>First Edition</edition>
@@ -7377,6 +7396,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240872418%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A19384.0001.001"/>
                                 <note>Proquest Document ID: 2240872418</note>
                             </biblStruct>
                         </listBibl>
@@ -7540,11 +7560,13 @@
                                     <title>The City-Night-Cap, or Crede quod habes &amp; habes, a Tragi-Comedy</title>
                                     <author>Davenport, Robt.</author>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A37210</idno>
                                     <imprint>
                                         <date when="1661"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240907257%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A37210.0001.001"/>
                                 <note>Proquest Document ID: 2240907257</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.2">
@@ -7557,44 +7579,51 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240866510%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2240866510</note>
+                                <note>Proquest Document ID: 2240866510; TCP not found</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.3">
                                 <monogr>
                                     <title>Love Tricks, or the School of Complements</title>
+                                    <idno type="tcp">A12152</idno>
                                     <author>Shirley, J.</author>
                                     <imprint>
                                         <date when="1667"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240880423%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2240880423</note>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A12152.0001.001"/>
+                                <note>Proquest Document ID: 2240880423; TCP published 1631, unsure if it is same work as listed.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.4">
                                 <monogr>
                                     <title>Life of the Dutches of Suffolke, as it hath beene divers and sundry times acted with good applause</title>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A20866</idno>
                                     <imprint>
                                         <date when="1631"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240866640%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A20866.0001.001"/>
                                 <note>Proquest Document ID: 2240866640</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.5">
                                 <monogr>
                                     <title>Tragedie of Charles Duke of Byron</title>
+                                    <idno type="tcp">A18404</idno>
                                     <author>Chapman, Geo.</author>
                                     <imprint>
                                         <date when="1608"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240906491%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A18404.0001.001"/>
                                 <note>Proquest Document ID: 2240866640</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.6">
                                 <monogr>
                                     <title>Albumazar, a Comedy presented before the King's Maiesty at Cambridge</title>
+                                    <idno type="tcp">A13802</idno>
                                     <author>Tomkis, T.</author>
                                     <note type="description">(wanting the Eplilogue)</note>
                                     <imprint>
@@ -7602,12 +7631,14 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264199571%3Faccountid%3D11620"/>
-                                <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A13802"/>
-                                <note type="fulltext">EEBO copy dated 1668; Proquest Document ID: 2264199571; EEBO fulltext NA; OTA published 1615 and titled "Albumazar A comedy presented before the Kings Maiestie at Cambridge, the ninth of March. 1614. By the Gentlemen of Trinitie Colledge."</note>
+                                <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A13802"/>
+                                <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A13802.0001.001"/>
+                                <note type="fulltext">EEBO copy dated 1668; Proquest Document ID: 2264199571; EEBO fulltext NA; OTA published 1615 and titled "Albumazar A comedy presented before the Kings Maiestie at Cambridge, the ninth of March. 1614. By the Gentlemen of Trinitie Colledge."; TCP is the same as OTA.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb293.7">
                                 <monogr>
                                     <title>Texnogamia, or the Marriages of the Arts, a Comedie, etc.</title>
+                                    <idno type="tcp">A03496</idno>
                                     <author>Holiday, Barten</author>
                                     <note type="description">in 1 vol. old calf, one title slightly defective and some leaves stained and torn; sold not subject to return</note>
                                     <imprint>
@@ -7617,7 +7648,7 @@
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240910532%3Faccountid%3D11620"/>
                                 <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A03496"/>
-                                <note type="fulltext">EEBO titled "Technogamia: or The marriages of the arts A comedie vvritten by Barten Holiday, Master of Arts, and student of Christ-Church in Oxford, and acted by the students of the same house before the Vniuersitie, at Shroue-tide."; Proquest Document ID: 2240910532; EEBO fulltext NA; OTA published 1618 with same title as EEBO.</note>
+                                <note type="fulltext">EEBO titled "Technogamia: or The marriages of the arts A comedie vvritten by Barten Holiday, Master of Arts, and student of Christ-Church in Oxford, and acted by the students of the same house before the Vniuersitie, at Shroue-tide."; Proquest Document ID: 2240910532; EEBO fulltext NA; OTA published 1618 with same title as EEBO; TCP not found online but the xml document is in the Oxford_P5 folder under A03.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb294">
@@ -7669,11 +7700,13 @@
                                     <author>Dixon, R.</author>
                                     <note type="description">calf, manuscript notes in a contemporary hand</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A36182</idno>
                                     <imprint>
                                         <date when="1683"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240856610%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A36182.0001.001"/>
                                 <note>Proquest Document ID: 2240856610</note>
                             </biblStruct>
                         </listBibl>
@@ -7700,14 +7733,16 @@
                             <biblStruct xml:id="sb298.1">
                                 <monogr>
                                     <title>The Mistaken Husband, a Comadie as it is acted by His Majesties Servants at the Theatre-Royall</title>
-                                    <author>Dryden</author>
+                                    <author>Dryden, J.</author>
                                     <note type="description">binding broken</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A36653</idno>
                                     <imprint>
                                         <date when="1675"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240969359%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A36653.0001.001"/>
                                 <note>Proquest Document ID: 2240969359</note>
                             </biblStruct>
                         </listBibl>
@@ -7721,7 +7756,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240971959%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2240971959</note>
+                                <note type="fulltext">Proquest Document ID: 2240971959; TCP not found.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb299.2">
                                 <monogr>
@@ -7729,27 +7764,32 @@
                                     <author>Sedley, Sir Chas.</author>
                                     <note type="description">last leaf defective and mended and filled in by Swinburne in pencil</note>
                                     <edition>First Edition</edition>
+                                    <idno type="tcp">A59053</idno>
                                     <imprint>
                                         <date when="1687"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240946838%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A59053.0001.001"/>
                                 <note>Proquest Document ID: 2240946838</note>
                             </biblStruct>
                             <biblStruct xml:id="sb299.3">
                                 <monogr>
                                     <title>History of King Richard the Second</title>
+                                    <idno type="tcp">A59496</idno>
                                     <author>Tate, N.</author>
                                     <imprint>
                                         <date when="1681"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264216099%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A59496.0001.001"/>
                                 <note>Proquest Document ID: 2240946838</note>
                             </biblStruct>
                             <biblStruct xml:id="sb299.4">
                                 <monogr>
                                     <title>The Chances, a Comedy, etc.</title>
+                                    <idno type="tcp">A39799</idno>
                                     <author>Buckingham, Duke of</author>
                                     <note type="description">half bound, some head-lines cut into</note>
                                     <imprint>
@@ -7758,8 +7798,9 @@
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240935678%3Faccountid%3D11620"/>
-                                <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A39799"/>
-                                <note type="fulltext">Not sure about the two volumes. I don't see any evidence of two volumes; Proquest Document ID: 2240935678; EEBO fulltext NA; OTA published 1682 and titled "The chances a comedy, as it was acted at the Theater Royal / corrected and altered by a person of honour."</note>
+                                <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A39799"/>
+                                <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A39799.0001.001"/>
+                                <note type="fulltext">Not sure about the two volumes. I don't see any evidence of two volumes; Proquest Document ID: 2240935678; EEBO fulltext NA; OTA published 1682 and titled "The chances a comedy, as it was acted at the Theater Royal / corrected and altered by a person of honour."; TCP same as OTA.</note>
                             </biblStruct>
                         </listBibl>
                     </div>
@@ -7787,17 +7828,20 @@
                             <biblStruct xml:id="sb301.1">
                                 <monogr>
                                     <title>Historie of the Reigne of King Henry the Seventh</title>
+                                    <idno type="tcp">A01483</idno>
                                     <author>Bacon, Sir F.</author>
                                     <imprint>
                                         <date when="1629"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240870377%3Faccountid%3D11620"/>
+                                <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A01483.0001.001"/>
                                 <note>Proquest Document ID: 2240870377</note>
                             </biblStruct>
                             <biblStruct xml:id="sb301.2">
                                 <monogr>
                                     <title>Collection of the History of England</title>
+                                    <idno type="tcp">A19824</idno>
                                     <author>Daniel, S.</author>
                                     <note type="description">half calf, pencil note on fly-leaf in handwriting of Swinburne</note>
                                     <imprint>
@@ -7807,8 +7851,9 @@
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240888523%3Faccountid%3D11620"/>
-                                <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A19824."/>
-                                <note>Proquest Document ID: 2240888523; EEBO fulltext NA; OTA published 1618.</note>
+                                <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A19824."/>
+                                <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A19824.0001.001"/>
+                                <note>Proquest Document ID: 2240888523; EEBO fulltext NA; OTA published 1618; TCP same as OTA.</note>  
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb302">
@@ -7866,7 +7911,7 @@
                         <listBibl type="lot" xml:id="sb304">
                             <biblStruct xml:id="sb304.1">
                                 <monogr>
-                                    <title>Fifty Copies and Tragedies, published by the Author's Original Copies, the Songs to each Play being added</title>
+                                    <title>Fifty Comedies and Tragedies, published by the Author's Original Copies, the Songs to each Play being added</title>
                                     <author>Beaumont and Fletcher</author>
                                     <note type="description">old calf, title and last leaf mended, no portrait; sold not subject to return</note>
                                     <imprint>
@@ -7874,7 +7919,7 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2254537734%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2254537734</note>
+                                <note>Proquest Document ID: 2254537734; TCP not found.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb305">
@@ -8926,7 +8971,7 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240907728%3Faccountid%3D11620"/>
-                             <note type="fulltext">EEBO copy from 1637 with same author and engraver; Proquest Document ID: 2240907728; EEBO fulltext NA; OTA unable to locate.</note>
+                             <note type="fulltext">EEBO copy from 1637 with same author and engraver; Proquest Document ID: 2240907728; EEBO fulltext NA; OTA unable to locate, TCP not found.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb349">
@@ -9190,13 +9235,14 @@
                                  <author>Heywood, Thos.</author>
                                  <note type="description">old morocco, title repaired and some head-lines cut into</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A03241</idno>
                                  <imprint>
                                      <date when="1637"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248565741%3Faccountid%3D11620"/>
-                             <note type="fulltext">HT has a 1903 copy, but the date is so far away, I want to see if Internet Archive has a closer copy</note>
-                             <note>Proquest Document ID: 2248565741</note>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A03241.0001.001"/>
+                             <note type="fulltext">HT has a 1903 copy, but the date is so far away, I want to see if Internet Archive has a closer copy; Proquest Document ID: 2248565741</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb362">
@@ -13146,12 +13192,14 @@
                                  <author>More, Henry</author>
                                  <note type="description">half morocco, m.e. come headlines cut into</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A51312</idno>
                                  <imprint>
                                      <pubPlace>Cambridge</pubPlace>
                                      <date when="1642"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240935641%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A51312.0001.001"/>
                              <note>Proquest Document ID: 2240935641</note>
                          </biblStruct>
                      </listBibl>
@@ -13641,6 +13689,7 @@
                          <biblStruct xml:id="sb536.1">
                              <monogr>
                                  <title>Works, together with his Remains</title>
+                                 <idno type="tcp">A53278</idno>
                                  <author>Oldham, John</author>
                                  <note type="description">calf</note>
                                  <imprint>
@@ -13648,6 +13697,7 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240926494%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A53278.0001.001"/>
                              <note>Proquest Document ID: 2240926494</note>
                          </biblStruct>
                          <biblStruct xml:id="sb536.2">
@@ -14412,11 +14462,13 @@
                                  <author>Ford, John</author>
                                  <note type="description">title mended, some leaves stained</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A01057</idno>
                                  <imprint>
                                      <date when="1633"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240926252%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A01057.0001.001"/>
                              <note>Proquest Document ID: 2240926252</note>
                          </biblStruct>
                          <biblStruct xml:id="sb568.2">
@@ -14430,7 +14482,7 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240927118%3Faccountid%3D11620"/>
-                             <note>Proquest Document ID: 2240927118</note>
+                             <note type="fulltext">Proquest Document ID: 2240927118; TCP not found.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb569">
@@ -14454,11 +14506,13 @@
                                  <author>Glanvill, Jos.</author>
                                  <note type="description">old sheep</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A42813</idno>
                                  <imprint>
                                      <date when="1676"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240955165%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A42813.0001.001"/>
                              <note>Proquest Document ID: 2240955165</note>
                          </biblStruct>
                          <biblStruct xml:id="sb570.2">
@@ -14544,11 +14598,13 @@
                                  <author>Greene, Robert</author>
                                  <note type="description">black letter, old calf, ornament on sides, title in facsimile and a leaf mended</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A02080</idno>
                                  <imprint>
                                      <date when="1589"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240882000%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A02080.0001.001"/>
                              <note>Proquest Document ID: 2240882000</note>
                          </biblStruct>
                      </listBibl>
@@ -14556,6 +14612,7 @@
                          <biblStruct xml:id="sb576.1">
                              <monogr>
                                  <title>A Pleasant Comedie called A Woman will haue her Will, as it hath been diverse time acted with great applause</title>
+                                 <idno type="tcp">A02800</idno>
                                  <author>Houghton, William</author>
                                  <note type="description">half bound, interlaced, some leaves stained and a few headlines cut into</note>
                                  <imprint>
@@ -14563,8 +14620,9 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248592512%3Faccountid%3D11620"/>
-                             <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A02800"/>
-                             <note type="fulltext">Proquest Document ID: 2248592512; EEBO fulltext NA; OTA published 1616 and titled "English-men for my money: or, A pleasant comedy, called, A woman will haue her will"</note>
+                             <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A02800"/>
+                             <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A02800.0001.001"/>
+                             <note type="fulltext">Proquest Document ID: 2248592512; EEBO fulltext NA; OTA published 1616 and titled "English-men for my money: or, A pleasant comedy, called, A woman will haue her will"; TCP published 1616.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb577">
@@ -14574,11 +14632,13 @@
                                  <author>Heywood, T.</author>
                                  <note type="description">portraits (one mounted), calf, some leaves stained</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A03196</idno>
                                  <imprint>
                                      <date when="1640"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240874896%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A03196.0001.001"/>
                              <note type="fulltext">EEBO says this is the 2nd ed but pulication date is correct.</note>
                              <note>Proquest Document ID: 2240874896</note>
                          </biblStruct>
@@ -14587,6 +14647,7 @@
                          <biblStruct xml:id="sb578.1">
                              <monogr>
                                  <title>Life of Merlin surnamed Ambrosius, his Prophecies and Predictions interpreted and their truth made good by our English Annalls</title>
+                                 <idno type="tcp">A43598</idno>
                                  <author>Heywood, T.</author>
                                  <note type="description">frontispiece, calf</note>
                                  <imprint>
@@ -14594,8 +14655,9 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248515943%3Faccountid%3D11620"/>
-                             <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A43598"/>
-                             <note>Proquest Document ID: 2248515943, EEBO fulltext NA; OTA titled "The life of Merlin, sirnamed Ambrosius his prophesies and predictions interpreted, and their truth made good by our English Annalls : being a chronographicall history of all the kings, and memorable passages of this kingdome, from Brute to the reigne of our royall soveraigne King Charles ..."</note>
+                             <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A43598"/>
+                             <relatedItem n="3" type="tcp" target="http://name.umdl.umich.edu/A43598.0001.001"/>
+                             <note type="fulltext">Proquest Document ID: 2248515943, EEBO fulltext NA; OTA titled "The life of Merlin, sirnamed Ambrosius his prophesies and predictions interpreted, and their truth made good by our English Annalls : being a chronographicall history of all the kings, and memorable passages of this kingdome, from Brute to the reigne of our royall soveraigne King Charles ..."; TCP published 1641</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb579">
@@ -14686,12 +14748,14 @@
                                  <note type="description" corresp="#presentation">old boards, imprinted for Edward White. Presentation copy to Swinburne with inscription on fly-leaf</note>
                                  <note type="inscription">An additon to Mr. Swinburne's Elizabethan shelf made by his permission by Richard le Gallienne</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A12578</idno>
                                  <imprint>
                                      <date when="1599"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240882944%3Faccountid%3D11620"/>
-                             <note>Proquest Document ID: 2240882944; EEBO fulltext NA; OTA unable to locate.</note>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A12578.0001.001"/>
+                             <note type="fulltext">Proquest Document ID: 2240882944; EEBO fulltext NA; OTA unable to locate; TCP titled "The tragedye of Solyman and Perseda Wherein is laide open, loues constancy, fortunes inconstancy, and deaths triumphs."</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb584">
@@ -14705,8 +14769,9 @@
                              </imprint>
                          </monogr>
                          <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248507347%3Faccountid%3D11620"/>
-                         <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A05143"/>
-                         <note>Proquest Document ID: 2248507347; EEBO fulltext NA; OTA published 1562, titled "27 sermons preached by the ryght Reuerende father in God and constant matir [sic] of Iesus Christe, Maister Hugh Latimer, as well such as in tymes past haue bene printed, as certayne other commyng to our handes of late, whych were yet neuer set forth in print. Faithfully perused [and] allowed accordying to the order appoynted in the Quenes Maiesties iniunctions...", and most likely contains the the work specified in this biblStruct.</note>
+                         <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A05143"/>
+                         <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A05143.0001.001"/>
+                         <note>Proquest Document ID: 2248507347; EEBO fulltext NA; OTA published 1562, titled "27 sermons preached by the ryght Reuerende father in God and constant matir [sic] of Iesus Christe, Maister Hugh Latimer, as well such as in tymes past haue bene printed, as certayne other commyng to our handes of late, whych were yet neuer set forth in print. Faithfully perused [and] allowed accordying to the order appoynted in the Quenes Maiesties iniunctions...", and most likely contains the the work specified in this biblStruct; TCP not found and close as can get but not exact while EEBO is correct item.</note>
                      </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb585">
@@ -14863,6 +14928,7 @@
                          <biblStruct xml:id="sb592.1">
                              <monogr>
                                  <title>A Thousand Notable Things of sundry sortes, whereof some are wonderfull, some strange, some pleasant, diuers necessary, a great sort profitable and many verye precious</title>
+                                 <idno type="tcp">A68420</idno>
                                  <author>Lupton, Thos.</author>
                                  <note type="description">black letter, calf, g.e. two last leaves slightly defectice, printed for Edward White</note>
                                  <imprint>
@@ -14871,7 +14937,8 @@
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240919066%3Faccountid%3D11620"/>
                              <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A68420"/>
-                         <note type="fulltext">EEBO copy from 1590, closest available. "Imprinted for Edward White."; Proquest Document ID: 2240919066; EEBO fulltext NA; OTA published 1579.</note>
+                             <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A68420.0001.001"/>
+                         <note type="fulltext">EEBO copy from 1590, closest available. "Imprinted for Edward White."; Proquest Document ID: 2240919066; EEBO fulltext NA; OTA published 1579; TCP same as OTA.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb593">
@@ -14910,11 +14977,13 @@
                                  <author>Markham, Gervase and Wm. Sampson</author> <!-- Two authors. Check -->
                                  <note type="description">half bound, Swinburne's copy, with five lines of writing in pencil by him, printed by G. Eld. for Mathew Rhodes</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A06982</idno>
                                  <imprint>
                                      <date when="1622"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240904696%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A06982.0001.001"/>
                              <note>Proquest Document ID: 2240904696</note>
                          </biblStruct>
                      </listBibl>
@@ -14930,18 +14999,21 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248525973%3Faccountid%3D11620"/>
-                             <note>Proquest Document ID: 2248525973</note>
+                             <note type="fulltext">Proquest Document ID: 2248525973; TCP not found.</note>
                          </biblStruct>
                          <bibl xml:id="sb595.2">
                              <title>The Slighted Maid, a Comedy</title>
+                             <idno type="tcp">A61309</idno>
                              <author>Stapylton, Sir R.</author>
                              <date when="1663"/>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240875211%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A61309.0001.001"/>
                              <note>Proquest Document ID: 2240875211</note>
                          </bibl>
                          <biblStruct xml:id="sb595.3">
                              <monogr>
                                  <title>The Stepmother, a Tragi-Comedy</title>
+                                 <idno type="tcp">A61310</idno>
                                  <author>Stapylton, Sir R.</author>
                                  <note type="description">in 1 vol. half russia, some leaves stained</note>
                                  <imprint>
@@ -14949,7 +15021,8 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240888829%3Faccountid%3D11620"/>
-                             <note>Proquest Document ID: 2240888829</note>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A61310.0001.001"/>
+                             <note type="fulltext">Proquest Document ID: 2240888829; TCP titled with "step-mother".</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb596">
@@ -14987,13 +15060,14 @@
                                  <author>Milton. J.</author>
                                  <note type="description">old calf</note>
                                  <edition>Edition</edition> <!-- "First" is crossed out in the lot. Check -->
+                                 <idno type="tcp">A50893</idno>
                                  <imprint>
                                      <date when="1651"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240849309%3Faccountid%3D11620"/>
-                             <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A50910"/>
-                             <note type="fulltext">Proquest Document ID: 2240849309; EEBO fulltext NA; OTA is English, not Latin.</note>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A50893.0001.001"/>
+                             <note type="fulltext">Proquest Document ID: 2240849309; EEBO fulltext NA; OTA not found; TCP is English version published 1692 and titled "A defence of the people of England by John Milton ; in answer to Salmasius's Defence of the king."</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb599">
@@ -15138,12 +15212,14 @@
                                  <author>Nabbes, Thos.</author>
                                  <note type="description">fore-edge of title slightly cut into, printed by Richard Oulton for Charles Greene</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A07978</idno>
                                  <imprint>
                                      <pubPlace>London</pubPlace>
                                      <date when="1638"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248553723%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A07978.0001.001"/>
                              <note>Proquest Document ID: 2248553723</note>
                          </biblStruct>
                      </listBibl>
@@ -15184,19 +15260,22 @@
                          <biblStruct xml:id="sb610.1">
                              <monogr>
                                  <title>The Tragedy of Nero</title>
-                                 <author>Nero</author>
+                                 <author>Lee, Nathaniel</author>
                                  <note type="description">head-lines cut into</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A49952</idno>
                                  <imprint>
                                      <date when="1624"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248535486%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A49952.0001.001"/>
                              <note>Proquest Document ID: 2248535486</note>
                          </biblStruct>
                          <biblStruct xml:id="sb610.2">
                              <monogr>
                                  <title>The Ile of Gulls, as it hath been often Acted in the Black Fryers, by the Children of the Revels</title>
+                                 <idno type="tcp">A69188</idno>
                                  <author>Day, John</author>
                                  <note type="description">head-lines cut into</note>
                                  <imprint>
@@ -15204,6 +15283,7 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240909191%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A69188.0001.001"></relatedItem>
                              <note>Proquest Document ID: 2240909191</note>
                          </biblStruct>
                          <biblStruct xml:id="sb610.3">
@@ -15319,7 +15399,7 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240914636%3Faccountid%3D11620"/>
-                             <note>Proquest Document ID: 2240914636</note>
+                             <note>Proquest Document ID: 2240914636; TCP not found.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb616">
@@ -15423,11 +15503,13 @@
                                  <author>Heywood, Thos.</author>
                                  <note type="description">engraved title by Cecill, old calf</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A03207</idno>
                                  <imprint>
                                      <date when="1635"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248523987%3Faccountid%3D11620"/>
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A03207.0001.001"/>
                              <note>Proquest Document ID: 2248523987</note>
                          </biblStruct>
                      </listBibl>
@@ -15461,6 +15543,7 @@
                          <biblStruct xml:id="sb625.1">
                              <monogr>
                                  <title>Historie of Scotlande from the originall therof unto the yeare 1571</title>
+                                 <idno type="tcp">A03448</idno>
                                  <author>Holinshed, R.</author>
                                  <note type="description">black letter, engraved title and woodcuts, half calf, r.e.</note>
                                  <imprint>
@@ -15468,7 +15551,8 @@
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264221591%3Faccountid%3D11620"/>
-                             <note type="fulltext">This appears to tbe a two vol set with England, Scotland, and Ireland's histories.</note> <!-- This item may be the same for the previous lot. Check. -->
+                             <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A03448.0001.001"/>
+                             <note type="fulltext">This appears to tbe a two vol set with England, Scotland, and Ireland's histories; TCP titled "The firste [laste] volume of the chronicles of England, Scotlande, and Irelande conteyning the description and chronicles of England, from the first inhabiting vnto the conquest : the description and chronicles of Scotland, from the first original of the Scottes nation till the yeare of our Lorde 1571 : the description and chronicles of Yrelande, likewise from the first originall of that nation untill the yeare 1571 / faithfully gathered and set forth by Raphaell Holinshed."</note>
                              <note>Proquest Document ID: 2264221591</note>
                          </biblStruct>
                      </listBibl>
@@ -15483,13 +15567,15 @@
                                  </respStmt>
                                  <note type="description">engraved title by Hole, vellum. Printed for Samuel Macham, c.</note>
                                  <edition>First Edition</edition>
+                                 <idno type="tcp">A03512</idno>
                                  <imprint>
                                      <date when="1610"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248573906%3Faccountid%3D11620"/>
-                             <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A03512"/>
-                             <note type="fulltext">EEBO copy dated 1609; printed for Samuel Macham; Proquest Document ID: 2248573906; EEBO fulltext NA; OTA published 1611 and titled "The Iliads of Homer prince of poets· Neuer before in any languag truely translated. With a co[m]ment vppon some of his chiefe places; donne according to the Greeke by Geo: Chapman."</note>
+                             <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A03512"/>
+                             <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A03512.0001.001"/>
+                             <note type="fulltext">EEBO copy dated 1609; printed for Samuel Macham; Proquest Document ID: 2248573906; EEBO fulltext NA; OTA published 1611 and titled "The Iliads of Homer prince of poets· Neuer before in any languag truely translated. With a co[m]ment vppon some of his chiefe places; donne according to the Greeke by Geo: Chapman."; TCP same as OTA.</note>
                          </biblStruct>
                      </listBibl>
                  </div> <!-- End of Folio -->
@@ -15838,7 +15924,7 @@
                             </monogr>
                             <relatedItem type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240965908%3Faccountid%3D11620."/> 
                             <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A55357"/>
-                            <note type="fulltext">Proquest Document ID: 2240965908; EEBO fulltext NA; OTA published 1657.</note>
+                            <note type="fulltext">Proquest Document ID: 2240965908; EEBO fulltext NA; OTA published 1657; TCP not found, despite OTA available (Phase 2).</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb639">
@@ -16066,14 +16152,16 @@
                         <biblStruct xml:id="sb648.1">
                             <monogr>
                                 <title>Poems, with the Muses Looking-Glass and Amyntas, whereunto is added the Jealous Lovers</title>
+                                <idno type="tcp">A10411</idno>
                                 <author>Randolph, Tho.</author>
                                 <note type="description">frontispiece, old binding</note>
                                 <imprint>
                                     <date when="1664"/>
                                 </imprint>
                             </monogr><relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248559910%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A10411"/>
-                            <note>Proquest Document ID: 2248559910; EEBO fulltext NA; OTA published 1638 and titled "Poems with the Muses looking-glasse: and Amyntas· By Thomas Randolph Master of Arts, and late fellow of Trinity Colledge in Cambridge."</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A10411"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A10411.0001.001"/>
+                            <note>Proquest Document ID: 2248559910; EEBO fulltext NA; OTA published 1638 and titled "Poems with the Muses looking-glasse: and Amyntas· By Thomas Randolph Master of Arts, and late fellow of Trinity Colledge in Cambridge."; TCP published 1638, so it is unlikely that "the Jealous Lovers" is added.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb649">
@@ -21307,6 +21395,7 @@
                         <biblStruct xml:id="sb872.1">
                             <monogr>
                                 <title>Heresiography, or a Description of the Heretickes and Sectaries sprung up in these later times</title>
+                                <idno type="tcp">A54528</idno>
                                 <author>Pagitt, E.</author>
                                 <note type="description">half calf</note>
                                 <imprint>
@@ -21314,8 +21403,9 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248584855%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A54528"/>
-                            <note type="fulltext">Proquest Document ID: 2248584855; EEBO fulltext NA; OTA published 1645 and titled "Heresiography, or, A discription of the hereticks and sectaries of these latter times."</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A54528"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A54528.0001.001"/>
+                            <note type="fulltext">Proquest Document ID: 2248584855; EEBO fulltext NA; OTA published 1645 and titled "Heresiography, or, A discription of the hereticks and sectaries of these latter times."; TCP same as OTA.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb872.2">
                             <monogr>
@@ -21419,11 +21509,13 @@
                     <listBibl type="lot" xml:id="sb877">
                         <bibl xml:id="sb877.1">
                             <title>Poast with a Pacquet of Letters</title>
+                            <idno type="tcp">A16779</idno>
                             <note type="description">black letters, old russia, broken, imperfect</note>
                             <date>n.d.</date>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264207226%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A16779"/>
-                            <note type="fulltext">EEBO copy from 1685, author "Breton, Nicholas"; Proquest Document ID: 2264207226; EEBO fulltext NA; OTA published 1602 and titled "A poste vvith a madde packet of letters."</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A16779"/>
+                            <relatedItem n="3" type="tcp" target="http://name.umdl.umich.edu/A16779.0001.001"/>
+                            <note type="fulltext">EEBO copy from 1685, author "Breton, Nicholas"; Proquest Document ID: 2264207226; EEBO fulltext NA; OTA published 1602 and titled "A poste vvith a madde packet of letters."; TCP same as OTA.</note>
                         </bibl>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb878">
@@ -21472,13 +21564,15 @@
                                 <author>Quarles, Francis</author>
                                 <note type="description">old boards</note>
                                 <edition>First Edition</edition>
+                                <idno type="tcp">A10251</idno>
                                 <imprint>
                                     <date when="1632"/>
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240857121%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A10251"/>
-                            <note type="fulltext">Proquest Document ID: 2240857121; EEBO fulltext NA; OTA published 1633.</note>
+                            <relatedItem n="3" type="ota" target="http://hdl.handle.net/20.500.12024/A10251"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A10251.0001.001"/>
+                            <note type="fulltext">Proquest Document ID: 2240857121; EEBO fulltext NA; OTA published 1633; TCP same as OTA.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb882">
@@ -21568,15 +21662,18 @@
                     <listBibl type="lot" xml:id="sb886">
                         <bibl xml:id="sb886.1">
                             <title>Valentinian, a Tragedy</title>
+                            <idno type="tcp">A39812</idno>
                             <author>Rochester, Earl of</author>
                             <date when="1685"/>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240901105%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A39812"/>
-                            <note type="fulltext">EEBO says author is John Fletcher, but the copy from this year's title reads, "Valentinian a tragedy : as 'tis altere'd by the late Earl of Rochester . . ."; Proquest Document ID: 2240901105; EEBO fulltext NA; OTA published 1685 and titled "Valentinian, a tragedy as 'tis alter'd by the Earl of Rochester, and acted at the Theatre-Royal : together with a preface concerning the author and his writings, by one of his friends.."</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A39812"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A39812.0001.001"/>
+                            <note type="fulltext">EEBO says author is John Fletcher, but the copy from this year's title reads, "Valentinian a tragedy : as 'tis altere'd by the late Earl of Rochester . . ."; Proquest Document ID: 2240901105; EEBO fulltext NA; OTA published 1685 and titled "Valentinian, a tragedy as 'tis alter'd by the Earl of Rochester, and acted at the Theatre-Royal : together with a preface concerning the author and his writings, by one of his friends."; TCP same as OTA.</note>
                         </bibl>
                         <biblStruct xml:id="sb886.2">
                             <monogr>
                                 <title>The Sacrifice, a Tragedy</title>
+                                <idno type="tcp">A40875</idno>
                                 <author>Fane, Sir Francis</author>
                                 <note type="etc"><num value="8"/></note>
                                 <imprint>
@@ -21584,8 +21681,9 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240940104%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A40875"/>
-                            <note type="fulltext">Earliest copy is 1686 from EEBO; Proquest Document ID: 2240940104; EEBO fulltext NA; OTA published 1687.</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A40875"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A40875.0001.001"/>
+                            <note type="fulltext">Earliest copy is 1686 from EEBO; Proquest Document ID: 2240940104; EEBO fulltext NA; OTA published 1687; TCP published 1685.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb887">
@@ -21866,6 +21964,7 @@
                         <biblStruct xml:id="sb901.1">
                             <monogr>
                                 <title>The Fleire, as it hath beene often Played in the Blacke-Fryers by the Children of the Revels</title>
+                                <idno type="tcp">A12078</idno>
                                 <author>Sharpham, E.</author>
                                 <note type="description">half bound, title soiled and mended, some leaves stained and some headlines cut into, with autograph signature of John Genest, and players’ names in his writing</note>
                                 <imprint>
@@ -21873,8 +21972,9 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240919057%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A12078"/>
-                            <note>Proquest Document ID: 2240919057; EEBO fulltext NA; OTA published 1607.</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A12078"/>
+                            <relatedItem n="3" type="tcp" target="http://name.umdl.umich.edu/A12078.0001.001"/>
+                            <note>Proquest Document ID: 2240919057; EEBO fulltext NA; OTA published 1607; TCP same as OTA.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb902">
@@ -21998,12 +22098,15 @@
                     <listBibl type="lot" xml:id="sb909">
                         <bibl xml:id="sb909.1">
                             <title>Speeches and Passages of this Great and Happy Parliment from the third of November, 1640, to this instant June, 1641</title>
+                            <idno type="tcp">A83496</idno>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240940759%3Faccountid%3D11620"/>
-                            <note>Proquest Document ID: </note>
+                            <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A83496.0001.001"/>
+                            <note>Proquest Document ID: 2240940759; </note>
                         </bibl>
                         <biblStruct xml:id="sb909.2">
                             <monogr>
                                 <title>Argument of Law concerning the Bill of Attainder of High Treason of Thomas Earle of Strafford</title>
+                                <idno type="tcp">A70881</idno>
                                 <note type="description">old calf</note>
                                 <imprint>
                                     <date when="1641"/>
@@ -22011,6 +22114,7 @@
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240888781%3Faccountid%3D11620"/>
+                            <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A70881.0001.001"/>
                             <note>Proquest Document ID: 2240888781; EEBO fulltext NA;</note>
                         </biblStruct>
                     </listBibl>
@@ -22096,6 +22200,7 @@
                         <biblStruct xml:id="sb914.1">
                             <monogr>
                                 <title>The Old, Old, Very Old Man, or Age and Long Life of Thomas Par, etc.</title>
+                                <idno type="tcp">A13482</idno>
                                 <author>Taylor, John</author>
                                 <note type="description">woodcuts, half calf</note>
                                 <imprint>
@@ -22105,6 +22210,7 @@
                                 <extent><measure unit="volumes" quantity="1"/></extent>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240902507%3Faccountid%3D11620"/>
+                            <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A13482.0001.001"/>
                             <note>Proquest Document ID: </note>
                         </biblStruct>
                     </listBibl>
@@ -22151,6 +22257,7 @@
                         <biblStruct xml:id="sb917.1">
                             <monogr>
                                 <title>Five Hundred Points of Good Husbandry</title>
+                                <idno type="tcp">A14064</idno>
                                 <author>Tusser, Thos.</author>
                                 <note type="description">black letter, half calf</note>
                                 <imprint>
@@ -22158,16 +22265,19 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248548017%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A14064"/>
-                            <note type="fulltext">Proquest Document ID: 2248548017; EEBO fulltext NA; OTA published 1573.</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A14064"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A14064.0001.001"/>
+                            <note type="fulltext">Proquest Document ID: 2248548017; EEBO fulltext NA; OTA published 1573; TCP same as OTA.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb918">
                         <bibl xml:id="sb918.1">
                             <title>Three Poems upon the Death of his late Highness Oliver Lord Protector of England, Scotland and Ireland</title>
-                            <author>Waller, Dryden and Sprat</author>
+                            <idno type="tcp">A36664</idno>
+                            <author>Waller, Dryden and Sprat</author> <!-- TCP says this is John Dryden -->
                             <date when="1659"/>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248541191%3Faccountid%3D11620"/>
+                            <relatedItem n="2" type="tcp" target="	http://name.umdl.umich.edu/A36664.0001.001"/>
                             <note>Proquest Document ID: </note>
                         </bibl>
                         <biblStruct xml:id="sb918.2">
@@ -22191,6 +22301,7 @@
                         <biblStruct xml:id="sb919.1">
                             <monogr>
                                 <title>The White Devil, or Vittoria Corombona, a Lady of Venice, a Tragedy</title>
+                                <idno type="tcp">A14875</idno>
                                 <author>Webster, John</author>
                                 <note type="description">russia, for John Playfere</note>
                                 <imprint>
@@ -22199,7 +22310,8 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240921010%3Faccountid%3D11620"/>
-                            <note>Proquest Document ID: </note>
+                            <relatedItem n="2" type="tcp" target="http://name.umdl.umich.edu/A14875.0001.001"/>
+                            <note>Proquest Document ID: 2240921010; TCP published 1612.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb920">
@@ -22304,6 +22416,7 @@
                         <biblStruct xml:id="sb924.1">
                             <monogr>
                                 <title>Workes, with Epigrammes, Masques, etc.</title>
+                                <idno type="tcp">A04632</idno>
                                 <author>Jonson, Ben</author>
                                 <note type="description">engraved title by Hole, but no portrait, old calf</note>
                                 <imprint>
@@ -22311,8 +22424,9 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248523354%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A04632"/>
-                            <note type="fulltext">EEBO copy does have a portrait, but all other aspects are the same; Proquest Document ID: 2248523354; EEBO fulltext NA; OTA published 1616.</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A04632"/>
+                            <relatedItem n="3" type="tcp" target="http://name.umdl.umich.edu/A04632.0001.001"/>
+                            <note type="fulltext">EEBO copy does have a portrait, but all other aspects are the same; Proquest Document ID: 2248523354; EEBO fulltext NA; OTA published 1616; TCP same as OTA.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb925">
@@ -22393,16 +22507,18 @@
                         <biblStruct xml:id="sb928.1">
                             <monogr>
                                 <title>Lives of the Noble Grecians and Romanes, translated into French bu J. Amiot, and into English by Thos. North</title>
+                                <idno type="tcp">A09802</idno>
                                 <author>Plutarch</author>
-                                <note type="description" corresp="#presentation">woodcut portraits, old russia broken. Presentation copy from William MOrris to A. C. Swinburne, with autograph inscription</note>
+                                <note type="description" corresp="#presentation">woodcut portraits, old russia broken. Presentation copy from William Morris to A. C. Swinburne, with autograph inscription</note>
                                 <imprint>
                                     <publisher>Imprinted by Richard Field</publisher>
                                     <date when="1595"/>
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264190720%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A09802"/>
-                            <note type="fulltext">Proquest Document ID: 2264190720; EEBO fulltext NA; OTA published 1579.</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A09802"/>
+                            <relatedItem n="3" type="tcp" target="http://name.umdl.umich.edu/A09802.0001.001"/>
+                            <note type="fulltext">Proquest Document ID: 2264190720; EEBO fulltext NA; OTA published 1579; TCP same as OTA.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb929">
@@ -22539,11 +22655,12 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240856835%3Faccountid%3D11620"/>
-                            <note>Proquest Document ID: 2240856835</note>
+                            <note>Proquest Document ID: 2240856835; TCP not found.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb936.2">
                             <monogr>
                                 <title>Chronicle of the Kings of England</title>
+                                <idno type="tcp">A29737</idno>
                                 <author>Baker, R.</author>
                                 <note type="description">engraved title, old calf</note>
                                 <note type="etc"><num value="5"/></note>
@@ -22552,8 +22669,9 @@
                                 </imprint>
                             </monogr>
                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240872936%3Faccountid%3D11620"/>
-                            <relatedItem type="ota" target="http://hdl.handle.net/20.500.12024/A29737"/>
-                            <note>Proquest Document ID: 2240872936; EEBO fulltext NA; OTA published 1643.</note>
+                            <relatedItem n="2" type="ota" target="http://hdl.handle.net/20.500.12024/A29737"/>
+                            <relatedItem n="3" type="tcp" target="	http://name.umdl.umich.edu/A29737.0001.001"/>
+                            <note>Proquest Document ID: 2240872936; EEBO fulltext NA; OTA published 1643; TCP is the same, and the material ends at King Charles, unlike the '84 version that ends at King James.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb937">
