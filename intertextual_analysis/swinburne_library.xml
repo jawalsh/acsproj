@@ -151,7 +151,7 @@
                         <biblStruct xml:id="sb004.1">
                             <monogr>
                                 <title>Jack Shepherd, Tower of London, Windsor Castle, 
-                                Guy Fawkes, Rookwood and the Miser's Daughter</title> <!-- These could be individual works. -->
+                                Guy Fawkes, Rookwood and the Miser's Daughter</title>
                                 <author>Ainsworth, W.H.</author>
                                 <note type="description">illustrations by G. Cruikshank and Tony Johannot, red cloth</note>
                                 <imprint>
@@ -159,8 +159,13 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent> 
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="help_response">Yes, these are separate novels. We should try to find a copy of each. It's probably a 6-volume collected set.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/dul1.ark:/13960/t9n30pf1s"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t06w9c40c"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t8w955z6k"/> 
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/dul1.ark:/13960/t09w18m85"/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/osu.32435079477022"/> 
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t7pn93q0j"/>
+                            <note type="fulltext">This is not a 6-volume set, but all the works are here in order: Jack Shepherd, 1898; Tower of London, 1840; Windsor Castle, 1843; Guy Fawkes, 1841; Rookwood, 1836; Miser's Daughter, 1848</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb005">
@@ -493,7 +498,7 @@
                                 <author>Ariosto, Lodovico.</author>
                                 <note type="description">portrait, half vellum</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Firenze</pubPlace> <!--use getty place names -->
+                                    <pubPlace xml:lang="it">Firenze</pubPlace> <!-- use getty place names -->
                                     <date>1823</date>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="8"/></extent>
@@ -519,7 +524,7 @@
                         <biblStruct xml:id="sb018.2">
                             <monogr>
                                 <title>Essays and Sketches</title>
-                                <author>Armstrong, E.J.</author> <!--use LC names -->
+                                <author>Armstrong, E.J.</author> <!-- use LC names -->
                                 <imprint>
                                     <date when="1877"/>
                                 </imprint>
@@ -3271,8 +3276,7 @@
                                         <date when="1845"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
-                                <note type="fulltext">HT has copies, but none are Pickering or correct year.</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/wu.89001909704"/>
                             </biblStruct>
                             <biblStruct xml:id="sb121.3">
                                 <monogr>
@@ -5514,7 +5518,13 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="26"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
+                                <note type="fulltext">"The translator has, in the main, followed the edition published at Brussels in 1852-56, in the preface to which the publishers state that they have printed from 'le manuscrit autographe' of the author." This set of 6 volumes appears to be the English translation of the 13 vol. set specified here.</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t99604h2g"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t3611mn24"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t0xp7kp73"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8bg38g90"/>
+                                <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t71v63j7q"/>
+                                <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t2h710s03"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb206">
@@ -5627,7 +5637,11 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="12"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
+                                <note type="fulltext">Each of these four volumes comes from each year between the date range, and they are in "series," meaning "first, second" etc. in the titles.</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t8x928842"/>
+                                <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uiug.30112117745775"/>
+                                <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015004026806"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t9w09492d"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb210">
@@ -6872,8 +6886,8 @@
                                         <date when="1712"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
-                                <note type="fulltext">There is no exact year/publication in HT to Swinburne library -- should one be chosen regardless?</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nyp.33433004952614"/>
+                                <note type="fulltext">Published in Oxford, 1715; starts with Book of Common Prayer, includes Apocrypha.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb259.2">
                                 <monogr>
@@ -6885,8 +6899,8 @@
                                         <date when="1613"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
-                                <note type="fulltext">Same note as note above.</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31822043008101"/>
+                                <note type="fulltext">Published 1630 by Barker.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb260">
@@ -6931,7 +6945,8 @@
                                         <date>rep. n. d.</date>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t3xs6vx14"/>
+                                <note type="fulltext">Published 1877, fascimile edition; OCR is poor quality.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb263">
@@ -6944,7 +6959,7 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
+                                <relatedItem n="1" type="none" target=""/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb264">
@@ -7892,8 +7907,7 @@
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
-                                <note type="fulltext">Not sure exaclty which item this refers to, but best guess is lot 302.1, "Life of Napoleon".</note>
+                                <note type="fulltext">See sb302.1</note>
                             </biblStruct>
                             <biblStruct xml:id="sb303.2">
                                 <monogr>
@@ -7905,8 +7919,8 @@
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
-                                <note type="fulltext">This copy has no date and this is a famous work; help needed narrowing search parameters.</note>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t9w09mx9n"/>
+                                <note type="fulltext">Published 1895; illustrations are not colored.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb304">
@@ -7952,7 +7966,8 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="help" target=""/>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/ucm.5325317643"/>
+                                <note type="fulltext">Published in London, 1660; it is not published by Field, but the author is "Church of England." Only 1 vol.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb307">
