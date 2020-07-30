@@ -13651,13 +13651,15 @@
                          <biblStruct xml:id="sb533.3">
                              <monogr>
                                  <title>Manon Lescaut</title>
+                                 <!-- jawalsh: "author" below looks like  series. Figure out how to encode that as a series. -->
                                  <author>Nouvelle Collection Jannet</author>
                                  <note type="description">ib.</note>
-                                 <imprint>
+                                 <imprint>                                     
                                      <date when="1867"/>
                                  </imprint>
                              </monogr>
                              <relatedItem n="1" type="help" target=""/>
+                             <!-- https://hdl.handle.net/2027/mdp.39015023473203 -->
                          </biblStruct>
                          <biblStruct xml:id="sb533.4">
                              <monogr>
@@ -14305,7 +14307,7 @@
                                      <date when="1815"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="help" target=""/><!-- https://hdl.handle.net/2027/mdp.39015031235057 -->
                          </biblStruct>
                          <biblStruct xml:id="sb558.4">
                              <monogr>
