@@ -13658,8 +13658,8 @@
                                      <date when="1867"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
-                             <!-- https://hdl.handle.net/2027/mdp.39015023473203 -->
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015023473203"/>
+                             <note type="fulltext">published 1874, with Pierre Jannet</note>
                          </biblStruct>
                          <biblStruct xml:id="sb533.4">
                              <monogr>
@@ -13689,7 +13689,7 @@
                          </biblStruct>
                          <biblStruct xml:id="sb533.6">
                              <monogr>
-                                 <title>La Comtesse de Charny</title>
+                                     <title>La Comtesse de Charny</title>
                                  <author>Dumas, A.</author>
                                  <note type="description">half calf gilt, some titles missing</note>
                                  <imprint>
@@ -13698,7 +13698,13 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="7">14 vol. in 7</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/> 
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015016886098"/>
+                             <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015015354213"/>
+                             <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015015354221"/>
+                             <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015015354239"/>
+                             <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/mdp.39015016905849"/>
+                             <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/mdp.39015016905856"/>
+                             <note type="fulltext">6 vol. published 1868-73 in French.</note>
                          </biblStruct>
                          <biblStruct xml:id="sb533.7">
                              <monogr>
@@ -13711,7 +13717,10 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="3">6 vol. in 3</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/umn.31951002310273z"/>
+                             <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/umn.31951002310274x"/>
+                             <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/umn.31951002310275v"/>
+                             <note type="fulltext">3 vol. published 1850 in French</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb534">
@@ -14148,7 +14157,7 @@
                      <listBibl type="lot" xml:id="sb553">
                          <biblStruct xml:id="sb553.1">
                              <monogr>
-                                 <title>Headlong Hall, Gryll Grange, Nightmare Abbey, Maid Marian, etc.</title> <!-- Each of these is a separate work, so I will grab the four that are listed here. Should they be separated into their own items? Check. -->
+                                 <title>Headlong Hall, Gryll Grange, Nightmare Abbey, Maid Marian, etc.</title>
                                  <author>Peacock, T. Love</author>
                                  <respStmt>
                                      <resp>edited by Richard Garnett</resp>
@@ -14160,7 +14169,17 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="18"/></extent>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hn24cy"/> <!-- Headlong Hall -->
+                             <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hwkzzf"/> <!-- Gryll Grange, vol 1 -->
+                             <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hn1czt"/> <!-- Gryll Grange, vol 2 -->
+                             <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t1jh43q49"/> <!-- Nightmare Abbey -->
+                             <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/hvd.hwl113"/> <!-- Maid Marian -->
+                             <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/hvd.hwkzy9"/> <!-- Crotchet Castle -->
+                             <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/hvd.32044086806114"/> <!-- Calidore and miscellanea -->
+                             <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/hvd.32044051100287"/> <!-- Melincourt, vol 1 -->
+                             <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/hvd.32044051100329"/> <!-- Melincourt, vol 2 -->
+                             <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/hvd.hwl111"/> <!-- The misfortunes of Elphin -->
+                             <note type="fulltext">After a little research, there only 7 novels total, but some may be in multiple parts. Volumes part of a collection edited by Richard Garnett published in 1891, and each listed as a relatedItem in order: Headlong Hall, Gryll Grange (vols 1 and 2), Nightmare Abbey, Maid Marian, Crotchet Castle, Calidore and miscellanea, Melincourt (vols 1 and 2), and The misfortunes of Elphin</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb554">
@@ -14307,7 +14326,8 @@
                                      <date when="1815"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/><!-- https://hdl.handle.net/2027/mdp.39015031235057 -->
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015031235057"/>
+                             <note type="fulltext">Published 1845 by Percy Society</note>
                          </biblStruct>
                          <biblStruct xml:id="sb558.4">
                              <monogr>
@@ -14586,7 +14606,8 @@
                                      <date>n.d.</date>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.31158005436786"/>
+                             <note type="fulltext">"The English version of Bagster's Polyglot Bible, containing the Old and New Testaments;" and also includes Greek; published 184-?</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb571">
@@ -14751,7 +14772,7 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="1">vol. III</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="ht" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb581">
@@ -14857,11 +14878,15 @@
                                  <title>Letters of Ridley, Hooper, Philpot, Bradford, etc.</title>
                                  <note type="description">black letter, old vellum, imperfect</note>
                                  <imprint>
-                                     <date>15--</date>
+                                     <date>15--</date> <!-- sic -->
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="1">in 1 vol.</measure></extent>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/wu.89085241164"/> <!-- Ridley, Nicholas -->
+                             <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t2w38bb60"/> <!-- Hooper, John -->
+                             <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.32044081770448"/> <!-- Philpot, John -->
+                             <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t0xp7kf31"/> <!-- Bradford, John -->
+                             <note type="fulltext">Unable to locate one vol work containing specified items; here collected the four authors listed, all from The Religious Tract Society in 1830 except Philpot by The Parker Society in 1842. In order of title.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb587">
@@ -14874,7 +14899,8 @@
                                      <date>n.d.</date>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/> <!--  There's a million (meaning 19) copies of this book on HT. I'll need help making a decision. Check. -->
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hn4el6"/>
+                             <note type="fulltext">Published 1820, printed for the booksellers, 3 vol. in 1.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb588">
@@ -15113,7 +15139,7 @@
                                      <date when="1649"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/>
+                             <relatedItem n="1" type="jawalsh" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb598">
@@ -15122,7 +15148,7 @@
                                  <title xml:lang="la">Pro Populo Anglicano Defensio contra Claudii Anonymi alias Salmasii</title>
                                  <author>Milton. J.</author>
                                  <note type="description">old calf</note>
-                                 <edition>Edition</edition> <!-- "First" is crossed out in the lot. Check -->
+                                 <edition>Edition</edition>
                                  <idno type="tcp">A50893</idno>
                                  <imprint>
                                      <date when="1651"/>
@@ -15417,7 +15443,14 @@
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="41"/></extent>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/> <!-- Not sure how to deal with this one. Check. -->
+                             <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/msu.31293008425930"/>
+                             <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/msu.31293005834852"/>
+                             <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/msu.31293005834860"/>
+                             <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/msu.31293000688568"/>
+                             <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/msu.31293028073686"/>
+                             <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/msu.31293107744629"/>
+                             <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/msu.31293018691976"/>
+                             <note type="fulltext">35 v. in 17, published 1875-1881, only vols available are 4, 6, 7, 8, 11, 13, and 15.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb614">
@@ -15475,7 +15508,7 @@
                                      <date when="1633"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/> <!-- See above copy. Repeat URL? Check. -->
+                             <relatedItem n="1" type="eebo" target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240914636%3Faccountid%3D11620"/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb617">
@@ -15586,7 +15619,8 @@
                                      <date>n.d.</date>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/> <!-- I'll need help with this one. Check. -->
+                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/ucbk.ark:/28722/h2br8v"/>
+                             <note type="fulltext">Published 1833, London.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb624">
@@ -15599,7 +15633,7 @@
                                      <date when="1577"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="help" target=""/> <!-- See following lot. -->
+                             <relatedItem n="1" type="none" target=""/>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb625">
@@ -15706,8 +15740,17 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">The title is a multi-volume anthology of ninetheenth-century poets. The full work is more than 8 volumes, according to HT, so it's unclear whether the "etc." note refers to multple volumes of this work, or 8 separate titles. For now, we will not include full text, not knowing the details.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669998"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669980"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669865"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669907"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669899"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669881"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669873"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669972"/>
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/mdp.39015033669964"/>
+                            <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/mdp.39015033668917"/>
+                            <note type="fulltext">10 vols published 1892-97, London.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb629">
@@ -15720,7 +15763,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="27"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="jawalsh" target=""/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb630"> 
@@ -15991,16 +16034,9 @@
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb639">
-                        <!-- jawalsh: check catalog. See https://www.biblio.com/book/alexander-pope-works-20-volumes-alexander/d/1249942326 . -->
-                        <bibl xml:id="sb639.1">
-                            <title>Works, with Commentary and Notes of Warburton</title>
-                            <author>Pope, Alex.</author>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">7 results from HT; most are 9 vol with one 3 vol.</note>
-                        </bibl>
-                        <biblStruct xml:id="sb639.2">
+                        <biblStruct xml:id="sb639.1">
                             <monogr>
-                                <title>Translation of Homer's Illiad and Odyssey</title>
+                                <title>Works, with Commentary and Notes of Warburton; Translation of Homer's Illiad and Odyssey</title>
                                 <author>Pope, Alex.</author>
                                 <note type="description">together, portrait and plates, old calf gilt, ex-libris of R. H. Alexan. Bennett in each vol.</note>
                                 <imprint>
@@ -16061,7 +16097,8 @@
                                     <date when="1650"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="ht" target=""/>
+                            <note type="fulltext">This copy is in Latin. Title: "Io. Baptistæ Portæ Neapolitani Magiae naturalis libri viginti. Ab ipso quidem authore adaucti, nunc vero ab infinitus, quibus editio illa scatebat mendis, optime repurgati: in quibus scientiarum naturalium divitiae and deliciae demonstrantur ." Publisher: Rothomagi, Sumptibus Ioannis Berthelin</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb642">
@@ -16394,7 +16431,8 @@
                                     <date>n.d.</date>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="ht" target=""/>
+                            <note type="fulltext">Title: "Secret history of the court of England, from the accession of George the Third to the death of George the Fourth : including, among other important matters, full particulars of the mysterious death of the Princess Charlotte / By the Right Honourable Lady Anne Hamilton." Published 1832, London. Author: Stevenson, W. H.. Edited: Hamiltion, Anne Lady.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb654.3">
                             <monogr>
@@ -16598,8 +16636,15 @@
                                     <date from="1868" to="1876"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">HT has this item available, but the "54 nos." in the title is throwing me for a loop.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/mdp.39015023119137"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015023118667"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/mdp.39015023118824"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015023118980"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/mdp.39015023119145"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/mdp.39015023118675"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/mdp.39015023118816"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/mdp.39015023118972"/>
+                            <note type="fulltext">While the journal was published until 1876, HT only has records up to 1869. This is an 8 vol set covering nos. 1-64</note>
                         </biblStruct>
                         <biblStruct xml:id="sb662.2">
                             <monogr>
@@ -17082,8 +17127,21 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">HT has copies, but it's 14 vol in 7 or the like, not 4 vol.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b3050762"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b3050763"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.b3050764"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uc1.b3050765"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/uc1.b3050766"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uc1.b3050767"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uc1.b3050768"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/uc1.b3050769"/>
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/uc1.b3050770"/>
+                            <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/uc1.b3050771"/>
+                            <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/uc1.b3050772"/>
+                            <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/uc1.b3050773"/>
+                            <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/uc1.b3050774"/>
+                            <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/uc1.b3050775"/>
+                            <note type="fulltext">14 vol, and "Pubblicati per cura del municipio di Forli."</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb686">
@@ -17284,8 +17342,53 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="48"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">Princeton has all 48 copies from 1877; This volume looks like it's a (near) exact match, but only one volume: <ptr target="https://hdl.handle.net/2027/hvd.32044020407318"/>.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qmw"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qmx"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qmy"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qmz"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn1"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn2"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn3"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn4"/>
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn5"/>
+                            <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn6"/>
+                            <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn7"/>
+                            <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn8"/>
+                            <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qn9"/>
+                            <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qna"/>
+                            <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnb"/>
+                            <relatedItem n="16" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnc"/>
+                            <relatedItem n="17" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnd"/>
+                            <relatedItem n="18" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qne"/>
+                            <relatedItem n="19" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnf"/>
+                            <relatedItem n="20" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qng"/>
+                            <relatedItem n="21" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnh"/>
+                            <relatedItem n="22" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qni"/>
+                            <relatedItem n="23" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnj"/>
+                            <relatedItem n="24" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnk"/>
+                            <relatedItem n="25" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnl"/>
+                            <relatedItem n="26" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnm"/>
+                            <relatedItem n="27" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnn"/>
+                            <relatedItem n="28" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnp"/>
+                            <relatedItem n="29" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnq"/>
+                            <relatedItem n="30" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnr"/>
+                            <relatedItem n="31" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qns"/>
+                            <relatedItem n="32" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnt"/>
+                            <relatedItem n="33" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnu"/>
+                            <relatedItem n="34" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnv"/>
+                            <relatedItem n="35" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnw"/>
+                            <relatedItem n="36" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnx"/>
+                            <relatedItem n="37" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qny"/>
+                            <relatedItem n="38" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qnz"/>
+                            <relatedItem n="39" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qp1"/>
+                            <relatedItem n="40" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qp2"/>
+                            <relatedItem n="41" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qp3"/>
+                            <relatedItem n="42" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qp4"/>
+                            <relatedItem n="45" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qp7"/>
+                            <relatedItem n="46" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qp8"/>
+                            <relatedItem n="47" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qpb"/>
+                            <relatedItem n="48" type="ht" target="https://hdl.handle.net/2027/hvd.hn4qpa"/>
+                            <note type="fulltext">Missing vols 43 and 44.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb694">
@@ -17803,7 +17906,25 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="18"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006329"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006378"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006386"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006360"/>
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006352"/>
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006345"/>
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006337"/>
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006311"/>
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006303"/>
+                            <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006295"/>
+                            <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006287"/>
+                            <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006279"/>
+                            <relatedItem n="13" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006261"/>
+                            <relatedItem n="14" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006253"/>
+                            <relatedItem n="15" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006246"/>
+                            <relatedItem n="16" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006238"/>
+                            <relatedItem n="17" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006220"/>
+                            <relatedItem n="18" type="ht" target="https://hdl.handle.net/2027/uiug.30112099006212"/>
+                            <note type="fulltext">18 vols in French published in Paris, 1859-66</note>
                         </biblStruct>
                         <bibl xml:id="sb714.2">
                             <title xml:lang="fr">Lettres à M. Panizzi, 1850-1870, publiées par Louis Fagan</title>
