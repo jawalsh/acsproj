@@ -15139,7 +15139,7 @@
                                      <date when="1649"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem n="1" type="jawalsh" target=""/>
+                             <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: need help with the Greek title (will need sales catalogue). -->
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb598">
@@ -15763,7 +15763,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="27"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="jawalsh" target=""/>
+                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: Not enough information in title. -->
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb630"> 
@@ -17940,7 +17940,7 @@
                                 <author>Shakespeare Society Publications</author>
                             <date>v.y.</date>
                             <extent><measure unit="volumes" quantity="39"/>various</extent>
-                            <relatedItem n="1" type="jawalsh" target="https://hdl.handle.net/2027/chi.22618680"/>
+                            <relatedItem n="1" type="jawalsh" target="https://hdl.handle.net/2027/chi.22618680"/> <!-- canurk: This is one item just to link back to a particular catalogue. Use it? -->
                         </bibl>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb716">
@@ -18276,7 +18276,7 @@
                             <title>Poetical Works, Second Series</title>
                             <author>Shelley, P. B.</author>
                             <date>n.d.</date>
-                            <relatedItem n="1" type="jawalsh" target=""/>
+                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: "Second Series" is unclear. -->
                         </bibl>
                         <bibl xml:id="sb728.3">
                             <title>Poems from Shelley, selected and arranged by Stopford A. Brooke</title>
@@ -19135,6 +19135,7 @@
                             <relatedItem n="1" type="jawalsh" target="https://hdl.handle.net/2027/nyp.33433088430602"/> <!-- Strand Magazine -->
                             <relatedItem n="2" type="jawalsh" target="https://hdl.handle.net/2027/coo.31924015133139"/> <!-- Temple Bar -->
                             <relatedItem n="3" type="jawalsh" target="https://hdl.handle.net/2027/uc1.$b676986"/> <!-- Macmillan's Magazine -->
+                            <!-- canurk: Linking to certain works to see it they should be used, and how many, in this case. -->
                         </bibl>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb765">
@@ -20705,8 +20706,9 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">IA has the most copies, but the earliest copy is in the 1700s.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t09w1jx33"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t0ms4tz7p"/>
+                            <note type="fulltext">3 parts, but only 1 and 3 available</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb831">
@@ -20782,7 +20784,7 @@
                                     <date when="1541"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/> <!-- I'm not sure exactly what I'm looking for on this one. -->
+                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: Title is vague. -->
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb836">
@@ -21121,7 +21123,9 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>in 1 vol.</extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uiug.30112005689754"/> <!-- Leaves of Grass -->
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t3pv6bv7f"/> <!-- Drum Taps -->
+                            <note type="fulltext">"Leaves of grass from 1860, no title page; "Drum Taps" correct year</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb849">
@@ -21243,8 +21247,8 @@
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">Most likely, this is the same item as 855.1</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044015183387"/>
+                            <note type="fulltext">Same item as sbl855.1</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb857">
@@ -21734,7 +21738,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: Title is vague. -->
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb877">
@@ -21988,7 +21992,9 @@
                                 </imprint>
                                 <extent><measure unit="parts" quantity="15"/>1-13, 15 and 18</extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/inu.30000100861784"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/inu.32000006998258"/>
+                            <note type="fulltext">2 vols total, published 1893, London</note>
                         </biblStruct>
                         <biblStruct xml:id="sb890.2">
                             <monogr>
@@ -22003,7 +22009,19 @@
                                 </imprint>
                                 <extent><measure unit="parts" quantity="28"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4109158"/> <!-- Quarles, vol 1 -->
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b4109159"/> <!-- Quarles, vol 2 -->
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.b4109160"/> <!-- Quarles, vol 3 -->
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/nyp.33433076080500"/> <!-- Breton, vol 1 -->
+                            <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/nyp.33433076080492"/> <!-- Breton, vol 2 -->
+                            <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/uc1.b3550557"/> <!-- Beaumont, vol 1 -->
+                            <relatedItem n="7" type="ht" target="https://hdl.handle.net/2027/uc1.b3550558"/> <!-- Beaumont, vol 2 -->
+                            <relatedItem n="8" type="ht" target="https://hdl.handle.net/2027/uc1.b3550561"/> <!-- Cowley, vol 1 -->
+                            <relatedItem n="9" type="ht" target="https://hdl.handle.net/2027/uc1.b3550562"/> <!-- Cowley, vol 2 -->
+                            <relatedItem n="10" type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t3nv9kf69"/> <!-- More -->
+                            <relatedItem n="11" type="ht" target="https://hdl.handle.net/2027/hvd.32044009640996"/> <!-- Davies, vol 1 -->
+                            <relatedItem n="12" type="ht" target="https://hdl.handle.net/2027/hvd.32044009641002"/> <!-- Davies, vol 2 -->
+                            <note type="fulltext">"Chertsey Worthies’ Library" is, apprently, made up of works from Nicholas Breton, Francis Quarles, Dr. Joseph Beaumont, Abraham Cowley, Henry More, and John Davies of Hereford; all between 1878-1881</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb891">
@@ -22323,7 +22341,7 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
+                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: It's clear the title is "Opera Omnia [omnibus?] Greek and Latin with notes from Brunck" but I am having trouble locating the right material. -->
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb909">
@@ -22856,8 +22874,8 @@
                                     <date>reprint n.d.</date>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="help" target=""/>
-                            <note type="fulltext">HT has a fascimile reproduction of the 1685 edition, but I can't find anything else that matches 1623 yet.</note>
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/ucm.532723377x"/>
+                            <note type="fulltext">Reprint of first folio from 1623, published London, 1866</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb935">
