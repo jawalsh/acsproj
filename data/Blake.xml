@@ -7,390 +7,329 @@
 
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000501-01">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>William Blake, a critical essay</title>
-<author>
-<persName key="acs">Algernon Charles Swinburne</persName>
-</author>
-<editor role="editor">
-<persName xml:id="jawalsh" key="jawalsh">John A. Walsh</persName>
-</editor>
-<respStmt>
-<resp>Encoded by</resp>
-<persName ref="#jawalsh">John A. Walsh</persName>
-</respStmt>
-</titleStmt>
-<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-href="includes/publicationStmt.xml"/>
-<seriesStmt>
-<title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
-Swinburne</title>
-<respStmt>
-<resp>Edited by</resp>
-<name>John A. Walsh</name>
-</respStmt>
-</seriesStmt>
-<sourceDesc>
-<biblStruct>
-<analytic>
-<title level="a">William Blake, a critical essay</title>
-<author>
-<persName key="acs">Algernon Charles Swinburne</persName>
-</author>
-</analytic>
-<monogr>
-<title>William Blake, a critical essay</title>
-<imprint>
-<pubPlace>London</pubPlace>
-<publisher>John Camden Hotten, Piccadilly</publisher>
-<date when="1868">1868</date>
-</imprint>
-</monogr>
-</biblStruct>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<editorialDecl>
-<quotation>
-<p xml:id="quotation_format">single</p>
-</quotation>
-</editorialDecl>
-<!-- include below points to library of <rendition> styles. -->
-<include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
-<include xmlns="http://www.w3.org/2001/XInclude" href="includes/unfamiliar.xml"/>
-<p><note n="true" xml:id="hasPageImages"/></p>
-</encodingDesc>
-<revisionDesc>
-<change n="svninfo"
-> $Id: acs0000499-01.xml 1054 2009-11-22 12:18:07Z jawalsh $ $Rev:
-687 $ $Date: 2009-11-22 07:18:07 -0500 (Sun, 22 Nov 2009) $ $Author: jawalsh $
-</change>
-</revisionDesc>
-</teiHeader>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>William Blake, a critical essay</title>
+                <author>
+                    <persName key="acs">Algernon Charles Swinburne</persName>
+                </author>
+                <editor role="editor">
+                    <persName xml:id="jawalsh" key="jawalsh">John A. Walsh</persName>
+                </editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName ref="#jawalsh">John A. Walsh</persName>
+                </respStmt>
+            </titleStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/>
+            <seriesStmt>
+                <title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles Swinburne</title>
+                    <respStmt>
+                         <resp>Edited by</resp>
+                         <name>John A. Walsh</name>
+                    </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">William Blake, a critical essay</title>
+                        <author>
+                            <persName key="acs">Algernon Charles Swinburne</persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title>William Blake, a critical essay</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>John Camden Hotten, Piccadilly</publisher>
+                            <date when="1868">1868</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p xml:id="quotation_format">single</p>
+                </quotation>
+            </editorialDecl>
+            <!-- include below points to library of <rendition> styles. -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="includes/unfamiliar.xml"/>
+            <p><note n="true" xml:id="hasPageImages"/></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change n="svninfo"> $Id: acs0000499-01.xml 1054 2009-11-22 12:18:07Z jawalsh $ $Rev: 687 $ $Date: 2009-11-22 07:18:07 -0500 (Sun, 22 Nov 2009) $ $Author: jawalsh $</change>
+        </revisionDesc>
+    </teiHeader>
 
-<text xml:id="XXXXXXXXX">
-<front>
-<pb n="[i]"/>
-<div type="frontispiece">
-<figure>
-<head>Blake, Jerusalem. The Emanation of the Giant Albion. </head>
-<lg type="verse">
-<l>
-His bosom wide &amp; shoulders huge overspreading wondrous
-</l>
-<l>
-Bear Three strong sinewy Necks &amp; Three awful &amp; terrible Heads
-</l>
-<l>
-Three Brains in contradictory council brooding incessantly,
-</l>
-<l>
-Neither daring to put in act its councils, fearing each-other.
-</l>
-<l>
-Therefore rejecting Ideas as nothing &amp; holding all Wisdom
-</l>
-<l>
-To consist, in the agreements &amp; disagreents of Ideas.
-</l>
-<l>
-Plotting to devour Albions Body of Humanity &amp; Love.
-</l>
-</lg>
-<lg type="verse">
-<l>
-Such Form the aggregate of the Twelve Sons of Albion took; &amp; such
-</l>
-<l>
-Their appearance when combind: but often by birth-pangs &amp; loud groans
-</l>
-<l>
-They divide to Twelve; the key-bones &amp; the chest dividing in pain
-</l>
-<l>
-Disclose a hideous orifice; thence issuing the Giant-brood
-</l>
-<l>
-Arise as the smoke of the furnace, shaking the rocks from sea to sea,
-</l>
-<l>
-And there they combine into Three Forms. named Bacon &amp; Newton &amp; Locke,
-</l>
-<l>
-In the Oak Groves of Albion which overspread all the Earth,
-</l>
-</lg>
-<!-- <graphic url="plate 70.png"/> -->
-<lg>
-<lg type="verse">
-<l>
-Imputing Sin. &amp; Righteousness to Individuals; Rahab
-</l>
-<l>
-Sat deep within him hid; his Feminine Power ureveal'd
-</l>
-<l>
-Brooding Abstract Philosophy. to destroy Imagination, the Divine-
-</l>
-<l>
--Humanity A Three-fold Wonder: feminine: most beautiful; Three-fold
-</l>
-<l>
-Each within other. On her white marble &amp; even Neck, her Heart
-</l>
-<l>
-Inorb'd and bonified; with locks of shadowing modesty, shining
-</l>
-<l>
-Over her beautiful Female features. soft flourishing in beauty
-</l>
-<l>
-Beams mild. all love and all perfection, that when the lips
-</l>
-<l>
-Recieve a kiss from Gods or Men. a threefold kiss returns
-</l>
-<l>
-From the pressd loveliness; so her whole immortal form three-fold
-</l>
-<l>
-Three-fold embrace returns: consuming lives of Gods &amp; Men
-</l>
-<l>
-In fires of beauty melting them as gold &amp; silver in the furnace
-</l>
-<l>
-Her Brain enlabyrinths the whole heaven of her bosom &amp; loins
-</l>
-<l>
-To put in act what her Heart wills; O who can withstand her power
-</l>
-<l>
-Her name is Vala in Eternity: in Time her name is Rahab
-</l>
-</lg>
-</lg>
-</figure>
-</div>
-    <titlePage>
-        <pb n="[ii]"/>
-        <docTitle>
-            <titlePart type="main"><hi rendition="#center #uc">William Blake</hi><lb/></titlePart>
-            <space dim="vertical" unit="lines" quantity="2"/>
-            <titlePart type="sub"><hi rendition="#center #uc #small">A Critical Essay</hi></titlePart><lb/>
-        </docTitle>
-        <space dim="vertical" unit="lines" quantity="2"/>
-        <hi rendition="#center #uc #small">BY</hi><lb/>
-        <space dim="vertical" unit="lines" quantity="1"/>
-        <docAuthor><hi rendition="#center #large #uc">Algernon Charles Swinburne</hi></docAuthor><lb/>
-        <space dim="vertical" unit="lines" quantity="2"/>
-        <figure><!-- unknown image--></figure><lb/>
-        <hi rendition="#center #uc #small">"Going to and fro in the Earth."</hi><lb/>
-        <space dim="vertical" unit="lines" quantity="2"/>
-        <hi rendition="#center #large #uc"><note> With illustrations from Blake's designs in facismile, coloured and plain.</note></hi><lb/>
-        <space dim="vertical" unit="lines" quantity="4"/>
-        <hi rendition="#center #uc">London<lb/></hi><lb/>
-        <hi rendition="#center #uc #large">John Camden Hotten, Piccadilly.<lb/></hi><lb/>
-        <docDate><hi rendition="#center">1868</hi></docDate><lb/>
-        <hi rendition="#center #large #uc"><note> [All rights reserved.]</note></hi><lb/>
-        <pb n="[vi]"/>
-        <graphic>Illustrated Title</graphic>
-        <lg type="title">
-            <l>WILLIAM</l><lb/>
-            <l>BLAKE</l><lb/>
-            <l>A</l><lb/>
-            <l>CRITICAL</l><lb/>
-            <l>ESSAY</l><lb/>
-        </lg>
-    </titlePage>
-<div type="dedication">
-<pb n="iii"/>
-<head rendition="#center #large">DEDICATION</head>
-<space dim="vertical" unit="lines" quantity="2"/>
-<ab rendition="#large #center">
-To WILLIAM MICHAEL ROSSETTI
-</ab>
-<p><hi rendition="#sc">THERE</hi> are many reasons which should make me glad to inscribe your name upon the forefront of this book. To you, among other debts, I owe this one—that it is not even more inadequate to the matter undertaken; and to you I need not say that it is not designed to supplant or to compete with the excellent biography of Blake already existing. Rather it was intended to serve as complement or supplement to this. How it grew, idly and gradually, out of a mere review into its present shape and volume, you know. To me at least the subject before long seemed too expansive for an article ; and in the leisure of months, and in the intervals of my natural work, the first slight study became little by little an elaborate essay. I found so much unsaid, so much unseen, that a question soon rose before me of simple alternatives : to do nothing, or to do much. I chose the latter; and you, who have done more than I to serve and to exalt the memory of Blake, must know better how much remains undone.</p>
-<p> Friendship needs no cement of reciprocal praise ; and this <pb n="iv"/><fw type="pageNum" place="top-left">iv</fw><head rendition="#uc #i #center"><title>DEDICATION</title>.</head> book, dedicated to you from the first, and owing to your guidance as much as to my goodwill whatever it may have of worth, wants no extraneous allusion to explain why it should rather be inscribed with your name than with another. Nevertheless, I will say that now of all times it gives me pleasure to offer you such a token of friendship as I have at hand to give. I can but bring you brass for the gold you send me; but between equals and friends there can be no question of barter. Like Diomed, I take what I am given and offer what I have. Such as it is, I know you will accept it with more allowance than it deserves; but one thing you will not overrate-the affectionate admiration, the grateful remembrance, which needs no public expression on ,the part of your friend</p>
-<signed>A. C. SWINBURNE.</signed>
-<date>November, 1866</date></p>
-</div>
-
-<pb n="v"/><div type="toc"> 
-<head rendition="#center #large">CONTENTS</head>
-<space dim="vertical" unit="line" quantity="1"/>
-<div>
-<table n="toc" rendition="#toc">
-<row role="tocPageHead">
-<cell rendition="#xx-small" role="tocPageHead">PAGE</cell>
-</row>
-<row>
-<cell role="tocItem"><title rendition="#sc">I. — Life and Designs</title>
-</cell>
-<cell role="tocNumber">1</cell>
-</row>
-<row>
-<cell role="tocItem"><title rendition="#sc">II. — Lyrical Poems</title>
-</cell>
-<cell role="tocNumber">85</cell>
-</row>
-<row>
-<cell role="tocItem"><title rendition="#sc">III. — The Prophetic Books</title>
-</cell>
-<cell role="tocNumber">185</cell>
-</row>
-</table>
-</div>
-<pb n="vii"/><div type="list"> 
-<head rendition="#center #large">LIST OF ILLUSTRATIONS.</head>
-<space dim="vertical" unit="line" quantity="1"/>
-<note><p>[IN justice to the fac-similist who has so faithfully copied the following designs from Blake's works, the publisher would state they were made under somewhat difficult circumstances, the British Museum authorities not permitting tracing from the copies in their possession. In every case the exact peculiarities of the originals have been preserved. The colouring has been done by hand from the designs, tinted by the artist, and the three illustrations from "Jerusalem" have been reduced from the original in folio to octavo. The paper on which the facsimiles are given has been expressly made to resemble that used by Blake.]</p></note>
-<space dim="vertical" unit="line" quantity="1"/>
-<div>
-<table n="list" rendition="#toc">
-<row>
-<cell role="listNumber">Frontispiece.</cell>
-<cell role="description"><title rendition="#sc"> Gateway with eclipse. A reduction of plate 70; from "<title>JERUSALEM</title>."</cell> 
-</row>
-<row>
-<cell role="listNumber">Title-Page.</cell>
-<cell role="description"><title rendition="#sc">A design of borders, selected from those in "<title>JERUSALEM</title>" (plates 5, 19, &amp;c.), with minor details from <title>MARRIAGE OF HEAVEN AND HELL</title>," and "<title>BOOK OF THEL</title>."</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 200.</cell>
-<cell role="description"><title rendition="#sc">Title from "<title>THE BOOK OF THEL</title>."</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 204.</cell>
-<cell role="description"><title rendition="#sc">Title from "<title>MARRIAGE OF HEAVEN AND HELL</title>."</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 208.</cell>
-<cell role="description"><title rendition="#sc">Plate 8, from the SAME (selected to show the artist's peculiar method of blending text with minute design).</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 224.</cell>
-<cell role="description"><title rendition="#sc">The Leviathan. From "<title>MARRIAGE OF HEAVEN AND HELL</title>"</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 258.</cell>
-<cell role="description">From "<title>MILTON</title>." Male figures; one in flames.</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 276.</cell>
-<cell role="description"><title rendition="#sc">Female figures. A reduction of Plate 81 from</cell> 
-</row>
-<row>
-<cell role="listNumber">P. 282.</cell>
-<cell role="description"><title rendition="#sc">Design with hat-like figure. A reduction of Plate 33 from "<title>JERUSALEM</title>."</cell> 
-</row>
-</div>
-<pb n="v"/><div type="listBibl"> 
-<listBibl>
-<head rendition="#center #large">LIST OF AUTHORITIES</head>
-<table>
-<row>
-<cell role="listNumber">1.</cell>
-<cell role="authorityTitle"><title rendition="#sc">LIFE OF WILLIAM BLAKE.</title></cell>
-<cell role="authorName">By <persName>Alexander Gilchrist.</persName></cell>
-<cell role="dateYear"><date>1863</date></cell>
-</row>
-<row>
-<cell role="listNumber">2.</cell>
-<cell role="authorityTitle"><title rendition="#sc">POETICAL SKETCHES. </title></cell>
-<cell role="authorName">By <persName>By W. B.</persName></cell>
-<cell role="dateYear"><date>1783.</date></cell>
-</row>
-<row>
-<cell role="listNumber">3.</cell>
-<cell role="authorityTitle"><title rendition="#sc">SONGS OF INNOCENCE. </title></cell>
-   <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1789.</date></cell>
-</row>
-<row>
-<cell role="listNumber">4.</cell>
-<cell role="authorityTitle"><title rendition="#sc">THE BOOK OF THEL.</title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1789.</date></cell>
-</row>
-<row>
-<cell role="listNumber">5.</cell>
-<cell role="authorityTitle"><title rendition="#sc">THE MARRIAGE OF HEAVEN AND HELL.</title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1790.</date></cell>
-</row>
-<row>
-<cell role="listNumber">6.</cell>
-<cell role="authorityTitle"><title rendition="#sc">VISIONS OF THE DAUGHTERS OF ALBION. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1793.</date></cell>
-</row>
-<row>
-<cell role="listNumber">7.</cell>
-<cell role="authorityTitle"><title rendition="#sc">AMERICA: A PROPHECY. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1793.</date></cell>
-</row>
-<row>
-<cell role="listNumber">8.</cell>
-<cell role="authorityTitle"><title rendition="#sc">SONGS OF EXPERIENCE. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1794.</date></cell>
-</row>
-<row>
-<cell role="listNumber">9.</cell>
-<cell role="authorityTitle"><title rendition="#sc">EUROPE: A PROPHECY. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1794.</date></cell>
-</row>
-<row>
-<cell role="listNumber">10.</cell>
-<cell role="authorityTitle"><title rendition="#sc">THE FIRST BOOK OF URIZEN. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1794.</date></cell>
-</row>
-<row>
-<cell role="listNumber">11.</cell>
-<cell role="authorityTitle"><title rendition="#sc">THE BOOK OF AHANIA. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1795.</date></cell>
-</row>
-<row>
-<cell role="listNumber">12.</cell>
-<cell role="authorityTitle"><title rendition="#sc">THE SONG OF LOS. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1795.</date></cell>
-</row>
-<row>
-<cell role="listNumber">13.</cell>
-<cell role="authorityTitle"><title rendition="#sc">MILTON: A POEM IN TWO BOOKS. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1804.</date></cell>
-</row>
-<row>
-<cell role="listNumber">14.</cell>
-<cell role="authorityTitle"><title rendition="#sc">JERUSALEM, AN EMANATION OF THE GIANT ALBION. </title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<cell role="dateYear"><date>1804.</date></cell>
-</row>
-<row>
-<cell role="listNumber">15.</cell>
-<cell role="authorityTitle"><title rendition="#sc">IDEAS OF GOOD AND EVIL. (MS.)</title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<!-- commenting out as no date in pdf <cell role="dateYear"><date></date></cell> -->
-</row>
-<row>
-<cell role="listNumber">16.</cell>
-<cell role="authorityTitle"><title rendition="#sc">TIRIEL. (MS.)</title></cell>
-<!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
-<!-- commenting out as no date in pdf <cell role="dateYear"><date></date></cell> -->
-</row>
-</table>
-</listBibl>
-</div>
-</front> 
+    <text xml:id="XXXXXXXXX">
+        <front>
+            <pb n="[i]"/>
+            <div type="frontispiece">
+                <figure>
+                    <head>Blake, Jerusalem. The Emanation of the Giant Albion. </head>
+                        <lg type="verse">
+                            <l>His bosom wide &amp; shoulders huge overspreading wondrous</l>
+                            <l>Bear Three strong sinewy Necks &amp; Three awful &amp; terrible Heads</l>
+                            <l>Three Brains in contradictory council brooding incessantly,</l>
+                            <l>Neither daring to put in act its councils, fearing each-other.</l>
+                            <l>Therefore rejecting Ideas as nothing &amp; holding all Wisdom</l>
+                            <l>To consist, in the agreements &amp; disagreents of Ideas.</l>
+                            <l>Plotting to devour Albions Body of Humanity &amp; Love.</l>
+                        </lg>
+                        <lg type="verse">
+                            <l>Such Form the aggregate of the Twelve Sons of Albion took; &amp; such</l>
+                            <l>Their appearance when combind: but often by birth-pangs &amp; loud groans</l>
+                            <l>They divide to Twelve; the key-bones &amp; the chest dividing in pain</l>
+                            <l>Disclose a hideous orifice; thence issuing the Giant-brood</l>
+                            <l>Arise as the smoke of the furnace, shaking the rocks from sea to sea,</l>
+                            <l>And there they combine into Three Forms. named Bacon &amp; Newton &amp; Locke,</l>
+                            <l>In the Oak Groves of Albion which overspread all the Earth,</l>
+                        </lg>
+                        <!-- <graphic url="plate 70.png"/> -->
+                        <lg>
+                            <lg type="verse">
+                                <l>Imputing Sin. &amp; Righteousness to Individuals; Rahab</l>
+                                <l>Sat deep within him hid; his Feminine Power ureveal'd</l>
+                                <l>Brooding Abstract Philosophy. to destroy Imagination, the Divine-</l>
+                                <l>-Humanity A Three-fold Wonder: feminine: most beautiful; Three-fold</l>
+                                <l>Each within other. On her white marble &amp; even Neck, her Heart</l>
+                                <l>Inorb'd and bonified; with locks of shadowing modesty, shining</l>
+                                <l>Over her beautiful Female features. soft flourishing in beauty</l>
+                                <l>Beams mild. all love and all perfection, that when the lips</l>
+                                <l>Recieve a kiss from Gods or Men. a threefold kiss returns</l>
+                                <l>From the pressd loveliness; so her whole immortal form three-fold</l>
+                                <l>Three-fold embrace returns: consuming lives of Gods &amp; Men</l>
+                                <l>In fires of beauty melting them as gold &amp; silver in the furnace</l>
+                                <l>Her Brain enlabyrinths the whole heaven of her bosom &amp; loins</l>
+                                <l>To put in act what her Heart wills; O who can withstand her power</l>
+                                <l>Her name is Vala in Eternity: in Time her name is Rahab</l>
+                             </lg>
+                        </lg>
+                    </figure>
+                </div>
+                <titlePage>
+                    <pb n="[ii]"/>
+                    <docTitle>
+                        <titlePart type="main"><hi rendition="#center #uc">William Blake</hi><lb/></titlePart>
+                        <space dim="vertical" unit="lines" quantity="2"/>
+                        <titlePart type="sub"><hi rendition="#center #uc #small">A Critical Essay</hi></titlePart><lb/>
+                    </docTitle>
+                    <space dim="vertical" unit="lines" quantity="2"/>
+                    <byline>
+                        <hi rendition="#center #uc #small">BY</hi><lb/>
+                        <space dim="vertical" unit="lines" quantity="1"/>
+                        <docAuthor><hi rendition="#center #large #uc">Algernon Charles Swinburne</hi></docAuthor>
+                    </byline><lb/>
+                    <space dim="vertical" unit="lines" quantity="2"/>
+                    <figure><!-- unknown image--></figure><lb/>
+                     <hi rendition="#center #uc #small">"Going to and fro in the Earth."</hi><lb/>
+                    <space dim="vertical" unit="lines" quantity="2"/>
+                    <hi rendition="#center #large #uc"><note> With illustrations from Blake's designs in facismile, coloured and plain.</note></hi><lb/>
+                    <space dim="vertical" unit="lines" quantity="4"/>
+                    <hi rendition="#center #uc">London<lb/></hi><lb/>
+                    <hi rendition="#center #uc #large">John Camden Hotten, Piccadilly.<lb/></hi><lb/>
+                    <docDate><hi rendition="#center">1868</hi></docDate><lb/>
+                    <hi rendition="#center #large #uc"><note> [All rights reserved.]</note></hi><lb/>
+                    <pb n="[vi]"/>
+                    <graphic>Illustrated Title</graphic>
+                    <lg type="title">
+                        <l>WILLIAM</l><lb/>
+                        <l>BLAKE</l><lb/>
+                        <l>A</l><lb/>
+                        <l>CRITICAL</l><lb/>
+                        <l>ESSAY</l><lb/>
+                    </lg>
+                </titlePage>
+                <div type="dedication">
+                    <pb n="iii"/>
+                    <head rendition="#center #large">DEDICATION</head>
+                    <space dim="vertical" unit="lines" quantity="2"/>
+                    <ab rendition="#large #center">To WILLIAM MICHAEL ROSSETTI</ab>
+                    <p><hi rendition="#sc">THERE</hi> are many reasons which should make me glad to inscribe your name upon the forefront of this book. To you, among other debts, I owe this one—that it is not even more inadequate to the matter undertaken; and to you I need not say that it is not designed to supplant or to compete with the excellent biography of Blake already existing. Rather it was intended to serve as complement or supplement to this. How it grew, idly and gradually, out of a mere review into its present shape and volume, you know. To me at least the subject before long seemed too expansive for an article ; and in the leisure of months, and in the intervals of my natural work, the first slight study became little by little an elaborate essay. I found so much unsaid, so much unseen, that a question soon rose before me of simple alternatives : to do nothing, or to do much. I chose the latter; and you, who have done more than I to serve and to exalt the memory of Blake, must know better how much remains undone.</p>
+                    <p> Friendship needs no cement of reciprocal praise ; and this 
+                    <pb n="iv"/><fw type="pageNum" place="top-left">iv</fw>
+                    <head rendition="#uc #i #center"><title>DEDICATION</title>.</head> book, dedicated to you from the first, and owing to your guidance as much as to my goodwill whatever it may have of worth, wants no extraneous allusion to explain why it should rather be inscribed with your name than with another. Nevertheless, I will say that now of all times it gives me pleasure to offer you such a token of friendship as I have at hand to give. I can but bring you brass for the gold you send me; but between equals and friends there can be no question of barter. Like Diomed, I take what I am given and offer what I have. Such as it is, I know you will accept it with more allowance than it deserves; but one thing you will not overrate-the affectionate admiration, the grateful remembrance, which needs no public expression on ,the part of your friend</p>
+                    <signed>A. C. SWINBURNE.</signed>
+                    <date>November, 1866</date>
+                </div>
+                <pb n="v"/>
+                <div type="toc"> 
+                    <head rendition="#center #large">CONTENTS</head>
+                    <space dim="vertical" unit="line" quantity="1"/>
+                    <div>
+                        <table n="toc" rendition="#toc">
+                            <row role="tocPageHead">
+                                <cell rendition="#xx-small" role="tocPageHead">PAGE</cell>
+                            </row>
+                            <row>
+                                <cell role="tocItem"><title rendition="#sc">I. — Life and Designs</title></cell>
+                                <cell role="tocNumber">1</cell>
+                            </row>
+                            <row>
+                                <cell role="tocItem"><title rendition="#sc">II. — Lyrical Poems</title></cell>
+                                <cell role="tocNumber">85</cell>
+                            </row>
+                            <row>
+                                <cell role="tocItem"><title rendition="#sc">III. — The Prophetic Books</title></cell>
+                                <cell role="tocNumber">185</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <pb n="vii"/>
+                    <div type="list"> 
+                        <head rendition="#center #large">LIST OF ILLUSTRATIONS.</head>
+                        <space dim="vertical" unit="line" quantity="1"/>
+                        <space dim="vertical" unit="line" quantity="1"/>
+                    </div>
+                    <div>
+                        <table n="list" rendition="#toc">
+                            <row>
+                                <cell role="listNumber">Frontispiece.</cell>
+                                <cell role="description"><title rendition="#sc"> Gateway with eclipse. A reduction of plate 70; from "<title>JERUSALEM</title>."</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">Title-Page.</cell>
+                                <cell role="description"><title rendition="#sc">A design of borders, selected from those in "<title>JERUSALEM</title>" (plates 5, 19, &amp;c.), with minor details from <title>MARRIAGE OF HEAVEN AND HELL</title>," and "<title>BOOK OF THEL</title>."</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 200.</cell>
+                                <cell role="description"><title rendition="#sc">Title from "<title>THE BOOK OF THEL</title>."</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 204.</cell>
+                                <cell role="description"><title rendition="#sc">Title from "<title>MARRIAGE OF HEAVEN AND HELL</title>."</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 208.</cell>
+                                <cell role="description"><title rendition="#sc">Plate 8, from the SAME (selected to show the artist's peculiar method of blending text with minute design).</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 224.</cell>
+                                <cell role="description"><title rendition="#sc">The Leviathan. From "<title>MARRIAGE OF HEAVEN AND HELL</title>"</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 258.</cell>
+                                <cell role="description">From "<title>MILTON</title>." Male figures; one in flames.</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 276.</cell>
+                                <cell role="description"><title rendition="#sc">Female figures. A reduction of Plate 81 from</cell> 
+                            </row>
+                            <row>
+                                <cell role="listNumber">P. 282.</cell>
+                                <cell role="description"><title rendition="#sc">Design with hat-like figure. A reduction of Plate 33 from "<title>JERUSALEM</title>."</cell> 
+                            </row>
+                        </table>
+                    </div>
+                    <pb n="v"/>
+                    <div type="listBibl">
+                        <listBibl>
+                            <head rendition="#center #large">LIST OF AUTHORITIES</head>
+                            <table>
+                                <row>
+                                    <cell role="listNumber">1.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">LIFE OF WILLIAM BLAKE.</title></cell>
+                                    <cell role="authorName">By <persName>Alexander Gilchrist.</persName></cell>
+                                    <cell role="dateYear"><date>1863</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">2.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">POETICAL SKETCHES. </title></cell>
+                                    <cell role="authorName">By <persName>By W. B.</persName></cell>
+                                    <cell role="dateYear"><date>1783.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">3.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">SONGS OF INNOCENCE. </title></cell>
+                                       <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1789.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">4.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">THE BOOK OF THEL.</title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1789.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">5.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">THE MARRIAGE OF HEAVEN AND HELL.</title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1790.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">6.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">VISIONS OF THE DAUGHTERS OF ALBION. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1793.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">7.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">AMERICA: A PROPHECY. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1793.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">8.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">SONGS OF EXPERIENCE. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1794.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">9.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">EUROPE: A PROPHECY. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1794.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">10.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">THE FIRST BOOK OF URIZEN. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1794.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">11.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">THE BOOK OF AHANIA. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1795.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">12.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">THE SONG OF LOS. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1795.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">13.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">MILTON: A POEM IN TWO BOOKS. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1804.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">14.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">JERUSALEM, AN EMANATION OF THE GIANT ALBION. </title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <cell role="dateYear"><date>1804.</date></cell>
+                                </row>
+                                <row>
+                                    <cell role="listNumber">15.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">IDEAS OF GOOD AND EVIL. (MS.)</title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <!-- commenting out as no date in pdf <cell role="dateYear"><date></date></cell> -->
+                                </row>
+                                <row>
+                                    <cell role="listNumber">16.</cell>
+                                    <cell role="authorityTitle"><title rendition="#sc">TIRIEL. (MS.)</title></cell>
+                                    <!-- commenting this line out as Blake is not listed in the actual pdf <cell role="authorName">By <persName>William Blake</persName></cell> -->
+                                    <!-- commenting out as no date in pdf <cell role="dateYear"><date></date></cell> -->
+                                </row>
+                            </table>
+                        </listBibl>
+                    </div>
+                </front> 
 <body>
     <div type="body"> 
         <pb n="[1]"/> 
