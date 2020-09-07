@@ -364,6 +364,9 @@
 
 
     <topic id="pope_gregory_xi">
+    	<instanceOf>
+    		<topicRef href="#person"/>
+    	</instanceOf>
         <name>
             <value>Gregory XI, Pope</value>
         </name>
@@ -2213,7 +2216,10 @@
     </topic>
 
     <topic id="moses">
-        <name>
+    	<instanceOf>
+    		<topicRef href="#person"/>
+    	</instanceOf>
+    	<name>
             <value>Moses</value>
         </name>
         <occurrence>
@@ -3762,6 +3768,9 @@
     <topic id="deity"/>
 
     <topic id="God">
+    	<instanceOf>
+    		<topicRef href="#person"/>
+    	</instanceOf>
         <name>
             <value>God</value>
         </name>
@@ -4603,6 +4612,9 @@
     </topic>
 
     <topic id="de">
+    	<instanceOf>
+    		<topicRef href="#place"/>
+    	</instanceOf>
         <name>
             <value>Germany</value>
         </name>
