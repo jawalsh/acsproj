@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <!DOCTYPE topicMap SYSTEM "file:/usr/local/share/xml/xtm/xtm1.dtd"> -->
 <topicMap xmlns="http://www.topicmaps.org/xtm/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink">
-  
+    <topic id="arthurianFigure">
+        <subjectIdentity>
+            <!-- self referential subject identity -->
+            <subjectIndicatorRef xlink:href="#arthurianFigure" />
+        </subjectIdentity>
+        <baseName>
+            <baseNameString>
+                Arthurian figure 
+            </baseNameString>
+        </baseName>
+        <occurrence>
+            <instanceOf>
+                <topicRef xlink:href="tmUtilities.xtm#definition" />
+            </instanceOf>
+            <resourceData>
+                A figure from Arthurian legend. 
+            </resourceData>
+        </occurrence>
+    </topic>
   <topic id="agravaine">
       <subjectIdentity>
-          <subjectIndicatorRef xlink:href="arthurian.xtm#agravaine"/>
+          <subjectIndicatorRef xlink:href="arthurian.xtm#agravain"/>
       </subjectIdentity>
       <baseName>
           <baseNameString>Agravaine</baseNameString>
@@ -18,6 +36,9 @@
   </topic>  
 
   <topic id="angelica">
+      <instanceOf>
+          <topicRef xlink:href="#arthurianFigure" />
+      </instanceOf>
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#angelica"/>
       </subjectIdentity>
@@ -72,6 +93,9 @@
   
   
   <topic id="balen">
+      <instanceOf>
+          <topicRef xlink:href="#arthurianFigure" />
+      </instanceOf>
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#balen"/>
       </subjectIdentity>
@@ -88,6 +112,9 @@
 
 
   <topic id="brangwain">
+      <instanceOf>
+          <topicRef xlink:href="#arthurianFigure" />
+      </instanceOf>
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#brangwain"/>
       </subjectIdentity>
@@ -112,6 +139,9 @@
   
 
   <topic id="broceliande">
+      <instanceOf>
+          <topicRef xlink:href="#place" />
+      </instanceOf>
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#broceliande"/>
       </subjectIdentity>
@@ -130,6 +160,9 @@
   
   
   <topic id="brittany">
+      <instanceOf>
+          <topicRef xlink:href="#place" />
+      </instanceOf>
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#brittany"/>
       </subjectIdentity>
@@ -166,6 +199,9 @@
   
   
   <topic id="carlion">
+      <instanceOf>
+          <topicRef xlink:href="#place" />
+      </instanceOf>
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#carlion"/>
       </subjectIdentity>
@@ -183,10 +219,11 @@
  
 <!-- 20 -->  
   
-  <topic id="carthaginian">
-      <subjectIdentity>
-          <subjectIndicatorRef xlink:href="arthurian.xtm#carthaginian"/>
-      </subjectIdentity>
+  <topic id="carthage">
+      <instanceOf>
+          <topicRef xlink:href="#place" />
+      </instanceOf>
+      
       <baseName>
           <baseNameString>Carthaginian</baseNameString>
       </baseName>
@@ -200,9 +237,10 @@
   
   
   <topic id="cleopatra">
-      <subjectIdentity>
-          <subjectIndicatorRef xlink:href="arthurian.xtm#cleopatra"/>
-      </subjectIdentity>
+      <instanceOf>
+          <topicRef xlink:href="#person" />
+      </instanceOf>
+      
       <baseName>
           <baseNameString>Cleopatra</baseNameString>
       </baseName>
@@ -215,27 +253,14 @@
   </topic>
 
 
-  <topic id="cornish">
-      <subjectIdentity>
-          <subjectIndicatorRef xlink:href="arthurian.xtm#cornish"/>
-      </subjectIdentity>
-      <baseName>
-          <baseNameString>Cornish</baseNameString>
-      </baseName>
-      <occurrence>
-          <instanceOf>
-              <subjectIndicatorRef xlink:href="occurenceType.xtm#allusion"/>
-          </instanceOf>
-          <resourceRef xlink:href="toltrist00.xml#placeName_130"/>
-          <resourceRef xlink:href="toltrist00.xml#placeName_434"/>
-      </occurrence>
-  </topic>
+
   
 
   <topic id="cornwall">
-      <subjectIdentity>
-          <subjectIndicatorRef xlink:href="arthurian.xtm#cornwall"/>
-      </subjectIdentity>
+      <instanceOf>
+          <topicRef xlink:href="#place" />
+      </instanceOf>
+    
       <baseName>
           <baseNameString>Cornwall</baseNameString>
       </baseName>
@@ -243,6 +268,8 @@
           <instanceOf>
               <subjectIndicatorRef xlink:href="occurenceType.xtm#allusion"/>
           </instanceOf>
+          <resourceRef xlink:href="toltrist00.xml#placeName_130"/>
+          <resourceRef xlink:href="toltrist00.xml#placeName_434"/>
           <resourceRef xlink:href="toltrist00.xml#persName_140"/>
           <resourceRef xlink:href="toltrist00.xml#persName_262"/>
           <resourceRef xlink:href="toltrist00.xml#persName_278"/>
@@ -253,7 +280,7 @@
       </occurrence>
   </topic>
   
-  
+  <!-- jawalsh: paused -->
   <topic id="dante">
       <subjectIdentity>
           <subjectIndicatorRef xlink:href="arthurian.xtm#dante"/>
