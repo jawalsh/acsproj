@@ -1,4 +1,4 @@
-<tagsDecl xmlns="http://www.tei-c.org/ns/1.0">
+<tagsDecl xmlns="http://www.tei-c.org/ns/1.0" partial="true">
     <!-- elements with default renditions -->
     <namespace name="http://www.tei-c.org/ns/1.0">
         <tagUsage gi="lg" rendition="#ti-1"/><!-- TODO verify that this is, in fact, the correct default for <lg> (it's just an example) -->
