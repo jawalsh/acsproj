@@ -390,7 +390,7 @@
 <l>I mean you hurt, I smite you? by God’s head</l>
 <l>I’d give you half my blood to wash your feet.</l> 
 </sp>
-  <stage type="exit" rendition="ti-17">[<hi rendition="#i">They pass.</hi></stage>
+  <stage type="exit" rendition="#ti-17">[<hi rendition="#i">They pass.</hi></stage>
   <pb n="7" facs="acs0000002-01-024"/>
 <sp who="#Duchess">
                   <speaker rendition="#uc #center">Duchess</speaker>
@@ -4067,7 +4067,7 @@
             <div type="scene" n="Scene 2" xml:id="acs0000002-01-i001-s2.2">
    <index indexName="nav"/>
               <space dim="vertical" unit="lines" quantity="1"/>
-   <head rendition="center"><hi rendition="#sc">Scene II.</hi> <stage type="setting" rendition="#i #inline">The Admiral’s House</stage></head>
+   <head rendition="#center"><hi rendition="#sc">Scene II.</hi> <stage type="setting" rendition="#i #inline">The Admiral’s House</stage></head>
               <space dim="vertical" unit="lines" quantity="1"/>
               <stage type="entrance" rendition="#center #i">Enter <persName><roleName rendition="#n #sc">Coligny</roleName></persName> and <persName><roleName rendition="#n">Attendant</roleName></persName></stage>
               <space dim="vertical" unit="lines" quantity="1"/>
@@ -6624,7 +6624,7 @@
               <space dim="vertical" unit="lines" quantity="4"/>
               <div type="scene" n="Scene 3">
                 <index indexName="nav"/>
-                <head rendition="#center #sc">Scene III.<stage type="setting" rendition="#i>">The Louvre</stage></head>
+                <head rendition="#center #sc">Scene III.<stage type="setting" rendition="#i">The Louvre</stage></head>
                 <space dim="vertical" unit="lines" quantity="2"/>
                 <stage type="entrance" rendition="#center #i">Enter the <persName><roleName rendition="#n">Queen-Mother</roleName></persName>, <persName><forename rendition="#n #sc">Margaret</forename></persName>, <persName><forename rendition="#n #sc">Denise</forename></persName>, <persName><forename rendition="#n #sc">Yolande</forename></persName>, and other Ladies</stage>
                 
@@ -14077,7 +14077,7 @@
                   <speaker rendition="#uc #center">Bouchard</speaker>
                   <space dim="vertical" unit="lines" quantity="1"/>
 
-<l part="F" rendition="#8">Nay, the fool’s no harm;</l> 
+<l part="F" rendition="#ti-8">Nay, the fool’s no harm;</l> 
 <l>Let be a little; service was your word?</l> 
 <l>See now, he creeps by nodding his fool’s head,</l> 
 <l>With back and shoulders rounded for the sun;</l> 
@@ -16166,7 +16166,7 @@
                   <speaker rendition="#uc #center">Queen Eleanor</speaker>
                   <space dim="vertical" unit="lines" quantity="1"/>
 
-<l part="M" rendition="#7">Will you speak to him?</l>
+<l part="M" rendition="#ti-7">Will you speak to him?</l>
 </sp>
 
               <space dim="vertical" unit="lines" quantity="2"/>
