@@ -1,7 +1,7 @@
 <tagsDecl xmlns="http://www.tei-c.org/ns/1.0" partial="true">
     <!-- elements with default renditions -->
     <namespace name="http://www.tei-c.org/ns/1.0">
-        <tagUsage gi="lg" rendition="#ti-1"/><!-- TODO verify that this is, in fact, the correct default for <lg> (it's just an example) -->
+        <tagUsage gi="lg" rendition="#ti-0"/><!-- TODO verify that this is, in fact, the correct default for <lg> (it's just an example) -->
         <!-- TODO add more defaults -->
     </namespace>
     <rendition n="mono" xml:id="mono" scheme="css">font-family: Courier, monospace</rendition>
@@ -46,6 +46,7 @@
     
 
     <!-- text-indent: hanging indents for verse-->
+    <rendition n="indent 0 level" xml:id="ti-1" scheme="css">text-indent: -1em;</rendition>
     <rendition n="indent 1 level" xml:id="ti-1" scheme="css">text-indent: 1em;</rendition>
     <rendition n="indent 2 levels" xml:id="ti-2" scheme="css">text-indent: 2em;</rendition>
     <rendition n="indent 3 levels" xml:id="ti-3" scheme="css">text-indent: 3em;</rendition>
