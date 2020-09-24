@@ -18,7 +18,7 @@
     <!-- text-decoration -->
     
     <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
-    <rendition n="double underline" xml:id="uu" scheme="css">text-decoration: underline;
+    <rendition n="double underline" xml:id="uu" scheme="css">-webkit-text-decoration: double underline; text-decoration: double underline;
         border-bottom: 1px solid black;</rendition>
     <rendition n="block" xml:id="block" scheme="css">display: block; margin: 4em;</rendition>
     <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4em;</rendition>
