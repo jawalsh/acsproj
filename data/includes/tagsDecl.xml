@@ -104,9 +104,8 @@
     <rendition n="inner line group" xml:id="sublg" scheme="free">sub line group; a subdivision of a
         line group, such as the octet and sextet of a sonnet, that is a logical group but is not set
         off typographically.</rendition>
-    
-    <rendition n="parentheses" xml:id="parens" scheme="free">Element is surrounded by parentheses. Implemented in CSS with .parens:before {content:
-        "(";} .parens:after {content: ")";}</rendition>
+    <rendition n="parentheses" xml:id="parens-before" scope="before" scheme="css">content:"(";</rendition>
+    <rendition n="parentheses" xml:id="parens-after" scope="after" scheme="css">content: ")";</rendition>
     <rendition n="chronoTableDate" xml:id="chronoTableDate" scheme="css">/* date cell in a chronology
         table */ font-style: italic;</rendition>
     <rendition n="justify" xml:id="justify" scheme="css">text-align: justify;</rendition>
