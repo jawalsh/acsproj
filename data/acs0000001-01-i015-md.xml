@@ -82,7 +82,7 @@
                         <extent>6 vols.</extent>
                     </monogr>
                </biblStruct>
-               <msDesc xml:id="acs0000503-01-bibl">
+               <msDesc xml:id="acs0000xxx-01-bibl">
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository>British Library</repository>
@@ -106,6 +106,21 @@
                            the deleted "96" and existing "8" folio numbers.</p>
                      </handDesc>
                   </physDesc>
+               </msDesc>
+               <msDesc xml:id="acs0000003-01-i001-bibl">
+                  <msIdentifier>
+                     <country>United States</country>
+                     <institution>Syracuse University</institution>
+                     <repository>Special Collections Research Center</repository>
+                     <collection>Algernon Swinburne Collection</collection>
+                     <idno>“Rondel”</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title level="a">Rondel</title>
+                        <title type="first_line">How many years since we began to be,</title>
+                     </msItem>
+                  </msContents>
                </msDesc>
             </listBibl>
          </div>
