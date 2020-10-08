@@ -18277,6 +18277,7 @@
                             <author>Shelley, P. B.</author>
                             <date>n.d.</date>
                             <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: "Second Series" is unclear. -->
+                            <note resp="#jawalsh">This is likely to be the second volume of the Hotten/Chatto and Windus edition of Shelley's works, which is titled <title>The Poetical Works of Percy Bysshe Shelley</title> and includes the <bibl><edition>Second Series</edition></bibl> on the title pages. This edition also lacks a date on the title page.</note>
                         </bibl>
                         <bibl xml:id="sb728.3">
                             <title>Poems from Shelley, selected and arranged by Stopford A. Brooke</title>
@@ -19132,10 +19133,10 @@
                         <bibl xml:id="sb764.1">
                             <title>Strand Magazine, Temple Bar, Macmillan's Magazine, and other Magazines, in number</title>
                             <note type="description">a quantity</note>
-                            <relatedItem n="1" type="jawalsh" target="https://hdl.handle.net/2027/nyp.33433088430602"/> <!-- Strand Magazine -->
-                            <relatedItem n="2" type="jawalsh" target="https://hdl.handle.net/2027/coo.31924015133139"/> <!-- Temple Bar -->
-                            <relatedItem n="3" type="jawalsh" target="https://hdl.handle.net/2027/uc1.$b676986"/> <!-- Macmillan's Magazine -->
-                            <!-- canurk: Linking to certain works to see it they should be used, and how many, in this case. -->
+                            <!-- <relatedItem n="1" type="jawalsh" target="https://hdl.handle.net/2027/nyp.33433088430602"/>  Strand Magazine -->
+                            <!-- <relatedItem n="2" type="jawalsh" target="https://hdl.handle.net/2027/coo.31924015133139"/>  Temple Bar -->
+                            <!-- <relatedItem n="3" type="jawalsh" target="https://hdl.handle.net/2027/uc1.$b676986"/>  Macmillan's Magazine -->
+                            <note resp="#jawalsh">HathiTrust and other digital libraries include copies of these periodicals, but we have not included links because the sales catalog does not state with volumes and issues were in Swinburne’s library.</note>
                         </bibl>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb765">
@@ -20784,7 +20785,7 @@
                                     <date when="1541"/>
                                 </imprint>
                             </monogr>
-                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: Title is vague. -->
+                            <note resp="#jawalsh">This clearly refers to the 1541 Adline edition of Virgil’s works. We have not been able to find a digital copy of this edition nor the 1501 edition.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb836">
@@ -21725,20 +21726,23 @@
                                 <extent><measure unit="volumes" quantity="4"/></extent>
                             </monogr>
                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044010574523"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/mdp.39015030941549"/>
                             <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/chi.101720997"/>
                             <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/hvd.32044010574507"/>
-                            <note type="fulltext">HT only has vol 1, 3, and 4; IA does not have this work for this year.</note>
+                            <note type="fulltext">HT only has vol 1, 3, and 4; IA does not have this work for this year. Volume 2 is a 1960s reprint.</note>
                         </biblStruct>
                         <biblStruct xml:id="sb876.2">
                             <monogr>
-                                <title>New Series</title>
+                                <title>Old English plays. New Series</title>
                                 <note type="description" corresp="#uncut">one of 150 copies, half vellum, uncut</note>
                                 <imprint>
                                     <date when="1887"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: Title is vague. -->
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b3541524"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/uc1.b3541039"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/uc1.b3541040"/>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb877">
@@ -22341,7 +22345,11 @@
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
                             </monogr>
-                            <relatedItem n="1" type="jawalsh" target=""/> <!-- canurk: It's clear the title is "Opera Omnia [omnibus?] Greek and Latin with notes from Brunck" but I am having trouble locating the right material. -->
+                            <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/chi.37914755"/>
+                            <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hw2jmn"/>
+                            <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hw2jmo"/>
+                            <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/hvd.hw2jmp"/>
+                            <note resp="jawalsh">There is a discrepancy in the title and the number of volumes, but the volumes are the 1786 editon of Sophocles with notes by Brunck. Publication place also matches.</note>
                         </biblStruct>
                     </listBibl>
                     <listBibl type="lot" xml:id="sb909">
