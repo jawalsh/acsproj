@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    
+    <!-- test sb728.1 -->
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
@@ -45,7 +47,7 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="biblStruct//* | bibl//*">
+    <xsl:template match="biblStruct//note|biblStruct/monogr/title|biblStruct/monogr/author|biblStruct/monogr/imprint/date|biblStruct/monogr/imprint/publisher|biblStruct/monogr/imprint/pubPlace|bibl/title|bibl/author|bibl/date">
         <li>
             <b>
                 <xsl:value-of select="concat(local-name(), ': ')"/>
@@ -71,6 +73,14 @@
             <xsl:apply-templates/>
         </li>
     </xsl:template>
+    
+    <xsl:template match="note" priority="9">
+        <li>
+            <b>note<xsl:if test="@resp"> (<xsl:value-of select="substring-after(@resp,'#')"/>)</xsl:if>: </b>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    
 
     <xsl:template match="num" priority="10">
         <xsl:value-of select="@value"/>
@@ -131,6 +141,10 @@
             <a href="{@target}"><xsl:value-of select="@target"/></a>
             
         </li>
+    </xsl:template>
+    
+    <xsl:template match="ref">
+        <a href="{@target}"><xsl:apply-templates/></a>
     </xsl:template>
 
 
