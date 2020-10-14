@@ -68,7 +68,7 @@
          <body xml:id="home_content" rend="margin-left:0;margin-right:0;">
       <div xml:id="overview">
           <index indexName="nav"/>
-						<head rendition="#styled">Overview</head>
+						<head>Overview</head>
 						
 						<p><title>The Swinburne Project</title> aims to create and provide access to
 							high-quality texts of the wide range of literary and critical works by
@@ -81,7 +81,7 @@
 					</div>
          			<div xml:id="peer_review">
          				<index indexName="nav"/>
-         				<head rendition="#styled">Peer Review</head>
+         				<head>Peer Review</head>
          				<p><title>The Swinburne Project</title> has been peer reviewed by NINES. The NINES Web site describes the goals of the organization:</p>
          				<p>
          					<cit rendition="#blockquote">
@@ -108,7 +108,7 @@
          			</div>
 					<div xml:id="people">
 					    <index indexName="nav"/>
-						<head rendition="#styled">People</head>
+						<head>People</head>
 						<p><ref target="http://www.slis.indiana.edu/faculty/jawalsh">John A. Walsh</ref>,
 							Editor and Project Director, is an Assistant Professor of Library and
 							Information Science and an Adjunct Assistant Professor of English at
@@ -189,13 +189,13 @@
          	</div>
 					<div xml:id="standards">
 					    <index indexName="nav"/>
-						<head rendition="#styled">Standards and Methodologies</head>
+						<head>Standards and Methodologies</head>
 						<div xml:id="encoded_text">
 						    <index indexName="nav"/>
-							<head rendition="#styled">The Encoded Text</head>
+							<head>The Encoded Text</head>
 							<div xml:id="tei_xml">
 							    <index indexName="nav"/>
-								<head rendition="#styled">TEI/XML</head>
+								<head>TEI/XML</head>
 								<p>The technological, methodological, and performative foundation of
 									the
 										<title>The Swinburne Project</title> is the encoded text. The
@@ -274,7 +274,7 @@
 							</div>
 							<div xml:id="glossary">
 							    <index indexName="nav"/>
-								<head rendition="#styled">Glossary</head>
+								<head>Glossary</head>
 								<p>Vocabulary that is likely to be unfamiliar to modern readers has
 									been glossed in a separate Swinburne Glossary TEI/XML document
 									that uses the TEI's dictionaries module. Glossary entries are
@@ -289,7 +289,7 @@
 							</div>
 							<div xml:id="topic_map">
 							    <index indexName="nav"/>
-							    <head rendition="#styled">Topic Maps</head>
+							    <head>Topic Maps</head>
 								<p>Topic Maps are another encoding standard, with an XML syntax, for
 									encoding information about topics. The XML Topic Map (XTM) 1.0
 									specification defines topics, and the related concept of
@@ -328,7 +328,7 @@
 							</div>
 							<div xml:id="xslt" rend="margin-top:3em;">
 							    <index indexName="nav"/>
-							    <head rendition="#styled">eXtensible Stylesheet Language Transformations (XSLT)</head>
+							    <head>eXtensible Stylesheet Language Transformations (XSLT)</head>
 								<p>XSLT is an XML-based language for transforming XML. XSLT is
 									utilized throughout <title>The Swinburne Project</title> to
 									perform the following transformations:
@@ -356,7 +356,7 @@
 						</div>
 						<div xml:id="webapp">
 						    <index indexName="nav"/>
-							<head rendition="#styled">Web Application</head>
+							<head>Web Application</head>
 							<p><title>The Swinburne Project</title> web application is built upon the
 									<ref target="http://xtf.cdlib.org/">eXtensible Text Framework</ref>
 									(<ref target="http://xtf.cdlib.org/">XTF</ref>) from the California
@@ -390,7 +390,7 @@
          	</div>
          		<div xml:id="infrastructure">
 						    <index indexName="nav"/>
-							<head rendition="#styled">Infrastructure</head>
+							<head>Infrastructure</head>
 							<p><title>The Swinburne Project</title> is hosted on Unix and Linux
 								servers maintained and supported by the IU <ref
 									target="http://www.dlib.indiana.edu">Digital Library Program</ref>
@@ -398,7 +398,7 @@
 									Library and Information Science</ref> (SLIS). </p>
 							<div xml:id="backups">
 							    <index indexName="nav"/>
-								<head rendition="#styled">Backups</head>
+								<head>Backups</head>
 								<p>The digital documents (XML, HTML, CSS, code, etc.) are under SVN
 									version control on DLP and SLIS servers.</p>
 								<p>These documents and image files (primarily facsimile page images)
@@ -411,7 +411,7 @@
 					</div>
 					<div xml:id="sandlot">
 					    <index indexName="nav"/>
-						<head rendition="#styled"><ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref></head>
+						<head><ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref></head>
 						<p>
 							<ref target="/swinburne/study.jsp">Tools &amp; Tactics</ref> is a collection of digital research—visualizations, image and text analysis tools, and creative works—from <title>The Swinburne Project</title>. These research projects engage with and are informed by the edited and encoded text corpus of the <title>Swinburne Project</title>. 
 					</p>
@@ -425,7 +425,7 @@
 					</div>
 					<div xml:id="dedication" rend="text-align:center;">
 					    <index indexName="nav"/>
-						<head rendition="#styled">Dedication</head>
+						<head>Dedication</head>
 						<p rend="font-style:italic;text-align:center;">For my beautiful Michelle,<lb />
 						and our little ones—<lb />
 							Patrick, Olivia, Mia,<lb />
