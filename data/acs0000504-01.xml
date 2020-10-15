@@ -5,7 +5,7 @@
 <!ENTITY imgpath "/swinburne/images/swinburne/">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000504-01">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Some Notes Relating to Swinburne's Funeral</title>
@@ -48,6 +48,7 @@
         <encodingDesc>
             <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
             <include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
         </encodingDesc>
         <profileDesc>
             <textClass>
@@ -58,7 +59,7 @@
             <change n="svninfo"> $Id: acs0000499-01.xml 1090 2010-01-04 21:10:15Z jawalsh $ $Rev:
                 687 $ $Date: 2010-01-04 16:10:15 -0500 (Mon, 04 Jan 2010) $ $Author: jawalsh $
             </change>
-        </revisionDesc>
+        </revisionDesc>        
     </teiHeader>
     <text xml:id="acs0000498-01-content">
         <body>
@@ -266,17 +267,13 @@
                     <figDesc>Mary Gordon Leith funeral procession, February 23, 1926. Photgraph by relatives of Steven Palmer and Barbara Downer Palmer. Used with permission.</figDesc>
                 </figure>
                 <p>The procession here appears to be moving after the service at the church to the burial ground not far along Farriers Way:
-                  <egXML  xmlns="http://www.tei-c.org/ns/Examples" rendition="#embed">
-                      <div xmlns="http://www.w3.org/1999/xhtml" style="margin-left:auto;margin-right:auto;width:430px;margin-top:1em;">
-                          <iframe style="border:1px solid black;" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14&amp;output=embed"></iframe><br /><a href="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14" style="text-align:left;font-size:85%;font-style:italic;">View Larger Map</a>
-                      </div>
-                  </egXML>
-                    <!--
-                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
-                        <graphic url="&imgpath;acs0000504-01-013.png" rend="padding:0;display:block;margin-left:auto;margin-right:auto;"/>
-                        <note type="figurePtr"><ptr target="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14"/></note>
+                    
+                    <figure type="map">
+                        <figDesc>
+                            A map centered on the following coordinates: <location><geo decls="#WGS">50.643627 -1.354422</geo></location>.                            
+                        </figDesc>
                     </figure>
-                    -->
+                  
                     Jeremy Mitchell tells me that the land for the <soCalled>new</soCalled> cemetery where the burial took place, at a remove from the church, was donated by Leith’s mother, Lady Mary Gordon, in 1887, as the Shorwell Parish Records show.
                 </p>
                 <p>Details of the funeral are in The Times (February 20, 23, 1926):
