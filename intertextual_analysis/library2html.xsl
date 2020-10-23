@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    
+    <!-- test sb728.1 -->
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title>Swinburne’s Library</title>
-                <style type="text/css" rel="stylesheet">
-                    body{
-                        font-family: 'helvetica-neue',helvetica,sans-serif;
-                        line-height: 1.5;
-                        margin-left: 5em;
-                    }
-                </style>
+                <link rel="stylesheet" href="library.css"/>
             </head>
             <body>
                 <xsl:apply-templates/>
@@ -22,40 +18,36 @@
     <xsl:template match="teiHeader"/>
 
     <xsl:template match="div[@type = 'day']">
-        <div>
+        <div class="day">
             <h1>Day <xsl:value-of select="@n"/></h1>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
 
     <xsl:template match="div[@type = 'size']">
-        <div>
+        <div class="size">
             <h2>Size <xsl:value-of select="@n"/></h2>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
 
     <xsl:template match="listBibl[@type = 'lot']">
-        <div>
-            <h3>Lot <xsl:value-of select="@xml:id"/></h3>
+        
+                <xsl:apply-templates/>
+    </xsl:template>
+    
+
+    <xsl:template match="biblStruct | bibl">
+        <div class="bibitem">
             <ul>
+                <li><b>id: </b><xsl:value-of select="concat(@xml:id, ': ')"/></li>
+        
                 <xsl:apply-templates/>
             </ul>
         </div>
     </xsl:template>
 
-    <xsl:template match="biblStruct | bibl">
-        <li>
-            <b>
-                <xsl:value-of select="concat(@xml:id, ': ')"/>
-            </b>
-            <ul>
-                <xsl:apply-templates/>
-            </ul>
-        </li>
-    </xsl:template>
-
-    <xsl:template match="biblStruct//* | bibl//*">
+    <xsl:template match="biblStruct//note|biblStruct/monogr/title|biblStruct/monogr/author|biblStruct/monogr/imprint/date|biblStruct/monogr/imprint/publisher|biblStruct/monogr/imprint/pubPlace|bibl/title|bibl/author|bibl/date">
         <li>
             <b>
                 <xsl:value-of select="concat(local-name(), ': ')"/>
@@ -81,6 +73,14 @@
             <xsl:apply-templates/>
         </li>
     </xsl:template>
+    
+    <xsl:template match="note" priority="9">
+        <li>
+            <b>note<xsl:if test="@resp"> (<xsl:value-of select="substring-after(@resp,'#')"/>)</xsl:if>: </b>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    
 
     <xsl:template match="num" priority="10">
         <xsl:value-of select="@value"/>
@@ -141,6 +141,10 @@
             <a href="{@target}"><xsl:value-of select="@target"/></a>
             
         </li>
+    </xsl:template>
+    
+    <xsl:template match="ref">
+        <a href="{@target}"><xsl:apply-templates/></a>
     </xsl:template>
 
 

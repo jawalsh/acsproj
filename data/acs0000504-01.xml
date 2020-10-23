@@ -5,7 +5,7 @@
 <!ENTITY imgpath "/swinburne/images/swinburne/">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000504-01">
-    <teiHeader type="text">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Some Notes Relating to Swinburne's Funeral</title>
@@ -48,6 +48,7 @@
         <encodingDesc>
             <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
             <include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+            <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
         </encodingDesc>
         <profileDesc>
             <textClass>
@@ -58,7 +59,7 @@
             <change n="svninfo"> $Id: acs0000499-01.xml 1090 2010-01-04 21:10:15Z jawalsh $ $Rev:
                 687 $ $Date: 2010-01-04 16:10:15 -0500 (Mon, 04 Jan 2010) $ $Author: jawalsh $
             </change>
-        </revisionDesc>
+        </revisionDesc>        
     </teiHeader>
     <text xml:id="acs0000498-01-content">
         <body>
@@ -85,7 +86,7 @@
             <p>We don’t have Isabel’s reply, but as Roger Peattie thinks, later the same day, April 14, Watts-Dunton was again adamant, and wrote Isabel a second time that although Algernon had attended the burial of their mother in Bonchurch in 1896 (see <ptr type="figure" target="#figure7"/>) and was content to hear the burial service read over her grave, he’d behaved himself “in order not to wound the family.”  But Algernon had, Watts-Dunton assured Isabel, “up to his last moment cherished the deepest animosity against the Creed which he felt had severed him from his most beloved ties…..  If he had made a slight matter of his antagonism against Christianity… it would have been different but with him it increased with his years and at the last…  it was bitterer than ever.”</p>
                 <p>Peattie’s article makes it clear that behind Watts-Dunton’s letters to Isabel was an exchange of letters between Watts-Dunton and William Michael Rossetti in the days just after Swinburne’s death.   William Michael Rossetti was a close friend of Swinburne and a fierce free-thinker, quite different in that respect from his sister Christina Rossetti.  Peattie provides the documentation suggesting that Watts-Dunton had first acquiesced in Isabel’s plan for a conventional service and then had been reminded by Rossetti of a promise he’d made to Swinburne to not allow that.  At first even Rossetti seemed not interested in pushing the matter, though he quickly reversed himself and on April 11, he says, wrote of the matter to Watts-Dunton in “decisive terms.”  Watts-Dunton, in some clear agony, waffled in reply on April 13, saying of Swinburne that the matter of an Anglican service over his mother’s coffin in 1896  “had been threshed out by Swinburne years ago when his mother died.  He decided to accept the affair as part and parcel of the huge grotesque mummery against which the single-handed struggle seemed useless.”  Watts-Dunton here clearly seems to be giving in to Isabel and to convention, and went on to invite Rossetti to attend the funeral.  But Rossetti refused, telegraphing the same day, April 13, “No: I would have gone <emph rendition="#i">but</emph> for the service, which I think absolutely wrong.”</p>
                 <p>Rossetti’s telegram gave Watts-Dunton a troubled night and he changed his mind and determined to forbid the Anglican service.  He wrote Rossetti on April 14 that during 
-                    <quote rendition="#bockquote">the silent watches of the night there flashed upon my memory certain words of … [Swinburne’s] in which he said, ‘But with regard to myself, I should seem to be contradicting all my work if I consented to … [the burial service] being used over me.’</quote>
+                    <quote rendition="#blockquote">the silent watches of the night there flashed upon my memory certain words of … [Swinburne’s] in which he said, ‘But with regard to myself, I should seem to be contradicting all my work if I consented to … [the burial service] being used over me.’</quote>
                     With this, Watts-Dunton reported, he “started from my bed and immediately remembered that I promised him it should not be done.  And today I took measures to prevent the service being read”—these measures being his letters to Isabel Swinburne and, more dramatically in his capacity as “Sole executor under the will” of Swinburne, a telegram to the Rector of Bonchurch, the Rev. John Floyd Andrewes, forbidding the service that had already been authorized.  In a flurry of telegrams exchanged between the Rector and Watts-Dunton, a compromise was reached whereby there was to be no religious service but the Rector might be allowed, according to Watts-Dunton, to say over the grave “many kind words of him, who was simply the best and most adorable of men.”</p>
             
             <p>That wording appears to be what led to trouble and to controversy, for the Rector apparently found a license in this agreement that Rossetti at least had not anticipated.   In a letter after the funeral. Watts-Dunton professed himself satisfied.  Writing on April 28, he assured Rossetti that he “found the whole affair satisfactory,” that “all I wanted was that the ridiculous formula read over the grave of every rapscallion, about the sure hope of a resurrection under the Lord Jesus etc. should be omitted, and omitted … [those words] were.”   Rossetti was not entirely content with the behavior of the Rector.  He in the end had been unable to attend anyway, but he reported that his daughter, Helen Rossetti, who had attended, “thought the clergyman needlessly officious, and she withdrew at one moment of the performances.” </p>
@@ -247,7 +248,7 @@
                 <figDesc>Swinburne's grave. Photographed in 2005 by John Walsh.</figDesc>
             </figure>
                                                 <div>
-                                                    <head rendition="#styled">Post-Script</head>
+                                                    <head>Post-Script</head>
                                                     
                                                     
                                                     <p>Several other comments related to Swinburne’s death and funeral deserve notice.  One is simply the reply by Holman Hunt to a request that he comment on Swinburne’s passing.  He telegraphed to the <title> Daily News </title> (April 12, 1909, p. 5d) a modest tribute:  “I gladly accept the opportunity you offer by immediate telegram to tender my humble tribute to the genius of the great singer, Swinburne, whom I had the privilege to know over fifty years ago.”  In the same column is reported Watts-Dunton’s telegram regretting that “he is himself much too unwell to furnish us with an appreciation.”</p>
@@ -256,7 +257,7 @@
                                                     <p>	Finally, the Times mentioned (April 14, 1909, p. 8d) that “Mr. J. Drury, of Gunter-grove, Chelsea” had taken a cast of Swinburne’s head “with a view to a bust in marble”—the Drury here was the sculptor Alfred Briscoe Drury (1856–1944; see <title>Uncollected Letters</title>, III, 306).  Philip Waller says Watts-Dunton refused Jacob Epstein as not famous enough and “called in Drury, who made a mould.  The result was black comedy.  Drury never delivered, claiming to have lost the mould” (<title>Writers, Readers, and Reputations: Literary Life in Britain, 1870-1918</title>, [New York: Oxford University Press, 2006], p. 362).</p>
                                                 </div>
             <div>
-                <head rendition="#styled">One More Post-Script</head>
+                <head>One More Post-Script</head>
                 <p>
                     One other funeral will be of interest to Swinburneians, that of Mary Gordon Leith (July 9, 1840-February 19, 1926). The photograph below was taken as her funeral procession moved to the cemetery of St. Peter’s, Shorwell, Isle of Wight. February 23, 1926. Vic King first discovered the photograph on-line and sent it to me; I subsequently learned that the photograph was taken by relatives, professional photographers, of Barbara Downer Palmer, the wife of Steven Palmer, who contributed it to the <ref target="http://www.isle-of-wight-fhs.co.uk/photoppl.htm">Isle of Wight Family History Society</ref> site and who has granted permission to include it here.  
                 </p>
@@ -266,17 +267,13 @@
                     <figDesc>Mary Gordon Leith funeral procession, February 23, 1926. Photgraph by relatives of Steven Palmer and Barbara Downer Palmer. Used with permission.</figDesc>
                 </figure>
                 <p>The procession here appears to be moving after the service at the church to the burial ground not far along Farriers Way:
-                  <egXML  xmlns="http://www.tei-c.org/ns/Examples" rendition="#embed">
-                      <div xmlns="http://www.w3.org/1999/xhtml" style="margin-left:auto;margin-right:auto;width:430px;margin-top:1em;">
-                          <iframe style="border:1px solid black;" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14&amp;output=embed"></iframe><br /><a href="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14" style="text-align:left;font-size:85%;font-style:italic;">View Larger Map</a>
-                      </div>
-                  </egXML>
-                    <!--
-                    <figure rend="margin-left:auto; margin-right:auto;margin-top:2em">
-                        <graphic url="&imgpath;acs0000504-01-013.png" rend="padding:0;display:block;margin-left:auto;margin-right:auto;"/>
-                        <note type="figurePtr"><ptr target="http://maps.google.com/maps?q=50.643627,-1.354422&amp;num=1&amp;t=h&amp;vpsrc=6&amp;hl=en&amp;ie=UTF8&amp;source=embed&amp;ll=50.643627,-1.354422&amp;spn=0.001534,0.001124&amp;z=14"/></note>
+                    
+                    <figure type="map">
+                        <figDesc>
+                            A map centered on the following coordinates: <location><geo decls="#WGS">50.643627 -1.354422</geo></location>.                            
+                        </figDesc>
                     </figure>
-                    -->
+                  
                     Jeremy Mitchell tells me that the land for the <soCalled>new</soCalled> cemetery where the burial took place, at a remove from the church, was donated by Leith’s mother, Lady Mary Gordon, in 1887, as the Shorwell Parish Records show.
                 </p>
                 <p>Details of the funeral are in The Times (February 20, 23, 1926):

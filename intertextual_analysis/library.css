@@ -1,0 +1,13 @@
+body {
+    font-family: 'helvetica-neue', helvetica, sans-serif;
+    line-height: 1.5;
+    margin-left: 5em;
+}
+
+div.size > div:nth-of-type(odd) {
+    background: #e8e8e8;
+}
+
+div.bibitem {
+    padding:.5em;
+}
