@@ -16,6 +16,8 @@
     </xsl:template>
 
     <xsl:template match="teiHeader"/>
+    
+    
 
     <xsl:template match="div[@type = 'day']">
         <div class="day">
@@ -40,7 +42,7 @@
     <xsl:template match="biblStruct | bibl">
         <div class="bibitem">
             <ul>
-                <li><b>id: </b><xsl:value-of select="concat(@xml:id, ': ')"/></li>
+                <li><b>id: </b><xsl:value-of select="@xml:id"/></li>
         
                 <xsl:apply-templates/>
             </ul>
@@ -70,6 +72,20 @@
     <xsl:template match="note[@type = 'inscription']" priority="10">
         <li>
             <b>inscription: </b>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    
+    <xsl:template match="edition" priority="10">
+        <li>
+            <b>edition: </b>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    
+    <xsl:template match="idno" priority="10">
+        <li>
+            <b>alternate id (<xsl:value-of select="@type"/>): </b>
             <xsl:apply-templates/>
         </li>
     </xsl:template>
