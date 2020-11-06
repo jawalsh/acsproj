@@ -14,8 +14,16 @@ All available digital copies of each of the texts listed in the cataloge were ad
 
 Some bibliographic entries have `note`s, which have a few different types, but the most common one is `@type="fulltext"`. This refers to a note we made about the item mentioned in the bibliographic entry, such as a slightly different title or a different, closest year we could find. The other main type of `note` is `@type="description"` which are the notes made in the catalogue itself. This note type also includes information regrading whether or not the item was "uncut" or a "presentation copy."
 
-One feature of note found in the catalogue is the "etc" which, as far as we know, represents a count of items that were also sold in each lot but were not listed in the sales catalogue. These "etc"s were tracked in order to have as accurate a count of the total number of items in Swinburne's library as possible, though this particular data was not necessarily relevant to the research. They are listed as a `@type` in `note`s and contain `@value` that holds the number if "etc"s. 
+One feature of note found in the catalogue is the "etc" which, as far as we know, represents a count of items that were also sold in each lot but were not listed in the sales catalogue. These "etc"s were tracked in order to have as accurate a count of the total number of items in Swinburne's library as possible, though this particular data was not necessarily relevant to the research. They are listed as a `@type` in `note`s and contain `@value` that holds the number if "etc"s.
+
+## n
+
+The `n` attribute in a `relatedItem` indicated the number of volumes collected for a work. This most commonly, if not exclusively, occurs for the HathiTrust items due to the way HT is structured. Some bibliographic entries only called for a specific range of volumes (i.e. volumes I, II, and IX). Several non-HT sources list multiple items for the same work, meaning that the same item can be found at several sources, such as EEBO, TCP, or OTA. These items do not have the `n` attribute because each `relatedItem` refers to the same item.
 
 ## XSL Files and Identifiers
 
 XSL files have been written to collect each of the identifiers for each online resource (i.e. ht or tcp) and can be found in this same directory. The purpose of these XSL files is to simplify the ability to keep the text files as up to date as possible by making it easy to bulk download items in the corpus. Each of these files is prefixed with "swinburneLibrary" and then the type of identifiers it gathers from the library. For detailed descriptions of how to conduct bulk downloads from each resource, see the [github wiki](https://github.com/jawalsh/acsproj/wiki). 
+
+## 0365-swinburne_shared
+
+An online drive contains the text files and code for cleaning those files. The main body of the data is contained in the "swinburne-clean-volumes.tar" folder, and this contains the volumes from the HathiTrust. These volumes were retrieved via rsync from HathiTrust and cleaned using Python in the form of a Jupyter Notebook, "HTRC-Tools-RunningHeaders-Python". Also found in the drive are TCP files, both xml and txt, and Internet Archive files of final clean txt files. The IA text files were derived from xml files. Additionally, there are texts from EEBO, but these were replaced with the more easily accessible TCP files (which are the same as OTA).
