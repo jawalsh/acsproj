@@ -5,7 +5,7 @@
 ]>
 
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000501-01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000513-01">
 
 <!-- 
         
@@ -135,7 +135,7 @@ UNRESOLVED:
                     To My Father.
                 </ab>
             </div>
-            <div type="preface">
+            <div type="preface" xml:id="acs0000513-01-i000">
                 <pb n="[vi]"/>
                 <head>Preface</head>
                 <p>These Essays, written at intervals during a space of seven years, are now reissued with no change beyond the correction of an occasional error, the addition of an occasional note, and the excision or modification of an occasional phrase or passage. To omit or to rewrite any part would be to forfeit the one daim which I should care to put up on their behalf; that they give frank and full expression to what were, at the time of writing, my sincere and deliberate opinions. Only where I have detected a positive error or suspected a possible injustice have I changed or cancelled a syllable. As I see no reason to suppress what I have no desire to recant, I have not allowed myself to strike out the rare allusions, which might otherwise have been erased, to such obscure and ephemeral names or matters as may be thought unworthy even of so slight a record as the notice here conferred on them. The one object which gives to this book whatever it may have of unity is the study of art in its imaginative aspects. I have desired above all things to avoid narrowness and dogmatism, and to say simply what I think or perceive to be <pb n="viii"/> <fw type="pageNum" place="top-left">vii</fw> <fw type="head" place="top-centre">Preface.</fw> the truth on such matters, and on such only, as I can claim at least to have studied with the devotion of years to the utmost of what ability was in me. The convictions expressed are in any case my own, and due to the inspiration of no party, no stranger, and no friend. My judgement has been guided wholly by my sense of the service or the disservice done to art by the works or the opinions on which I have taken occasion to remark. I have spoken but once or twice at the outside either of bad work or bad criticism, of folly or of falsehood, of ineptitude or of malignity ; my chief aim, as my chief pleasure, in all such studies as these has been rather to acknowledge and applaud what I found noble and precious than to scrutinize or to stigmatize what I might perceive to be worthless and base. It is not indeed always possible to show cause for our admiration of great men and their great work, and not seem in passing to stigmatize by implication the base work or the baser comments on other men's work of those who hate and covet the greatness which they can neither injure nor attain, the glory which they can neither diminish nor endure ; to praise what is good in any kind is to dispraise what is bad, and every honour done to men worthy of honour is an insult to men who are powerless to confer it and hopeless to receive. 
@@ -220,7 +220,8 @@ UNRESOLVED:
         <group>
         
             <pb n="[1]"/>
-            <text type="essay">
+            <text type="essay" xml:id="acs0000513-01-i001">
+                <index indexName="text" corresp="acs0000513-01-i001-md.xml"/>
                 <body>
                 <head rendition="#uc #i #center">VICTOR HUGO:<title xml:lang="fr">L'HOMME QUI RIT</title>.</head>
                 <p><hi rendition="#sc">Once</hi> only in my life I have seen the likeness of Victor Hugo's genius. Crossing over when a boy from Ostend, I had the fortune to be caught in midchannel by a thunderstorm strong enough to delay the packet some three good hours over the due time. About midnight the thundercloud was right overhead, fall of incessant sound and fire, lightening and darkening so rapidly that it seemed to have life, and a delight in its life. At the same hour the sky was clear to the west, and all along the sea-line there sprang and sank as to music a restless dance or chase of summer lightnings across the lower sky : a race and riot of lights, beautiful and rapid as a course of shining <placeName corresp="#unfamiliar">Oceanides</placeName> along the tremulous floor of the sea. Eastward at the same moment the space of clear sky was higher and wider, a splendid semicircle of too intense purity to be called blue ; it was of no colour nameable by man ; and midway in it between the storm and the sea hung the motionless full moon ; Artemis watching with a serene splendour of scorn the <!--B--> <pb n="2"/><fw type="pageNum">2</fw> <fw type="header">VICTOR HUGO:</fw> battle of Titans and the revel of nymphs, from her stainless and Olympian summit of divine indifferent light Underneath and about us the sea was paved with flame ; the whole water trembled and hissed with phosphoric fire; even through the wind and thunder I could hear the  crackling and sputtering of the water-sparks. In the same heaven and in the same hour there shone at once the three contrasted glories, golden and fiery and white, of moonlight ^d of the double lightnings, forked and sheet ; and under all this miraculous heaven lay a flaming floor of water. </p>
