@@ -27,3 +27,5 @@ XSL files have been written to collect each of the identifiers for each online r
 ## 0365-swinburne_shared
 
 An online drive contains the text files and code for cleaning those files. The main body of the data is contained in the "swinburne-clean-volumes.tar" folder, and this contains the volumes from the HathiTrust. These volumes were retrieved via rsync from HathiTrust and cleaned using Python in the form of a Jupyter Notebook, "HTRC-Tools-RunningHeaders-Python". Also found in the drive are TCP files, both xml and txt, and Internet Archive files of final clean txt files. The IA text files were derived from xml files. Additionally, there are texts from EEBO, but these were replaced with the more easily accessible TCP files (which are the same as OTA).
+
+### [more detail on how the HathiTrust vols were cleaned and their current status]
