@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-01-i002-md"> <!-- Check this. -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Essays and Studies</title>
+            <author>
+               <persName key="acs">Algernon Charles Swinburne</persName>
+            </author>
+            <editor role="editor">
+               <persName key="jawalsh">John A. Walsh</persName>
+            </editor>
+         </titleStmt>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/publicationStmt.xml"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/seriesStmt.xml"/>
+         <sourceDesc>
+            <p>This TEI/XML document is the original source.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+<include xmlns="http://www.w3.org/2001/XInclude" href="includes/collex_genres.xml" xpointer="element(collex_genres)"/>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#collex_genre_poetry"/> <!-- Change -->
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="svninfo">
+                        $Id$
+                        $Rev$
+                        $Date$
+                        $Author$
+                    </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="form">
+            <head>Form</head>
+            <list>
+               <item n="genre-main">collection</item> <!-- Check -->
+               <item n="genre=main">essay</item>
+            </list>
+         </div>
+         <div xml:id="texts">
+            <head>texts</head>
+            <listBibl>
+               <biblStruct xml:id="acs0000001-01-i001-bibl" n="readingtext">
+                     <analytic>
+                        <title>Essays and Studies</title>
+                        <author>
+                           <persName key="acs">Swinburne, Algernon Charles</persName>
+                        </author>
+                     </analytic>
+                     <monogr>
+                        <title>Essays and Studies</title>
+                        <imprint>
+                           <pubPlace> London </pubPlace>
+                           <publisher>Chatto and Windus, Piccadilly</publisher>
+                           <date when="1875">1875</date>
+                           <biblScope unit="page">i-380</biblScope>
+                        </imprint>
+                     </monogr>
+               </biblStruct>
+               <biblStruct n="original_collection"> <!-- Was there an original publication like this for Essays and Studies? -->
+                  <monogr>
+                     <title>Essays and Studies</title>
+                     <author>
+                        <persName key="acs">Swinburne, Algernon Charles</persName>
+                     </author>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Moxon</publisher>
+                        <date when="1866" xml:id="sort_date"/>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
