@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"
-?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04-i000-md">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="swinburne.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000513-01-i001-md">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tristram of Lyonesse</title>
+            <title>Essays and Studies</title>
             <author>
                <persName key="acs">Algernon Charles Swinburne</persName>
             </author>
@@ -23,7 +23,7 @@
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <catRef target="#collex_genre_poetry"/>
+            <catRef target="#collex_genre_criticism"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
@@ -40,44 +40,43 @@
          <div xml:id="form">
             <head>Form</head>
             <list>
-               <item n="genre-main">poetry</item>
+               <item n="genre=main">essay</item>
             </list>
          </div>
          <div xml:id="texts">
             <head>texts</head>
             <listBibl>
-               <biblStruct xml:id="acs0000001-04-i000-bibl" n="readingtext">
-                  <analytic>
-                     <title level="m">Tristram of Lyonesse</title>
-                     <idno type="nines">toltrist00</idno> 
-                     <author><persName key="acs">Algernon Charles Swinburne</persName></author>
-                  </analytic>
-                  <monogr>
-						               <title>The Poems of Algernon Charles Swinburne</title>
-						               <imprint>
-							                 <pubPlace> London </pubPlace>
-							                 <publisher>Chatto &amp; Windus</publisher>
-							                 <date when="1904"/>
-							                 <biblScope unit="volume"> 4 </biblScope>
-							                 <biblScope unit="page">vii-151</biblScope>
-						               </imprint>
-						               <extent> 6 vols. </extent>
-                  </monogr>
+               <biblStruct xml:id="acs0000513-01-i001-bibl" n="readingtext">
+                     <analytic>
+                        <title>Victor Hugo: L’Homme Qui Rit</title>
+                        <author>
+                           <persName key="acs">Swinburne, Algernon Charles</persName>
+                        </author>
+                     </analytic>
+                     <monogr>
+                        <title>Essays and Studies</title>
+                        <imprint>
+                           <pubPlace> London </pubPlace>
+                           <publisher>Chatto and Windus, Piccadilly</publisher>
+                           <date when="1875"/>
+                           <biblScope unit="page">1-16</biblScope>
+                        </imprint>
+                     </monogr>
                </biblStruct>
-               <biblStruct n="original_collection">
+               <biblStruct n="original_collection"> 
                   <analytic>
-                     <title level="m">Tristram of Lyonesse</title>
+                     <title>Victor Hugo: “L’Homme Qui Rit”</title>
                      <author>
-                        <persName key="acs">Algernon Charles Swinburne</persName>
+                        <persName key="acs">Swinburne, Algernon Charles</persName>
                      </author>
                   </analytic>
                   <monogr>
-                     <author><persName key="acs">Algernon Charles Swinburne</persName></author>
-                     <title>Tristram of Lyonesse and Other Poems</title>
+                     <title>The Fortnightly Review</title>
                      <imprint>
-                        <pubPlace> London </pubPlace>
-                        <publisher>Chatto &amp; Windus</publisher>
-                        <date xml:id="sort_date" when="1882"/>
+                        <date when="1869-07" xml:id="sort_date"/>
+                        <biblScope unit="volume">6</biblScope>
+                        <biblScope unit="issue">31</biblScope>
+                        <biblScope unit="page">73-81</biblScope>
                      </imprint>
                   </monogr>
                </biblStruct>
