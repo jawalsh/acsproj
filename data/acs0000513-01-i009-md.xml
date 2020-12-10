@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Essays and Studies</title>
+                <title>John Ford</title>
                 <author>
                     <persName key="acs">Algernon Charles Swinburne</persName>
                 </author>
@@ -26,21 +26,13 @@
                 <catRef target="#collex_genre_criticism"/>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change n="svninfo">
-                $Id$
-                $Rev$
-                $Date$
-                $Author$
-            </change>
-        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div xml:id="form">
                 <head>Form</head>
                 <list>
-                    <item n="genre=main">essay</item>
+                    <item n="genre-main">criticism</item>
                 </list>
             </div>
             <div xml:id="texts">
