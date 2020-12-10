@@ -130,6 +130,14 @@
         content: "\201D";
         }
     </rendition>
+    <rendition n="open-quote" xml:id="open-quote" scheme="css" scope="before">
+        quotes: '“' '”' '‘' '’';
+        content:open-quote;
+    </rendition>
+    <rendition n="close-quote" xml:id="close-quote" scheme="css" scope="after">
+        quotes: '“' '”' '‘' '’';
+        content:close-quote;
+    </rendition>
     <rendition n="no quotes" xml:id="nq" scheme="free">Used in <att>rendition</att> of <gi>q</gi> or <gi>quote</gi> for inline quoted speech or quotations that are not marked with quotation marks.</rendition>
     <rendition n="table of contents" xml:id="toc" scheme="other"/>
     

@@ -166,7 +166,7 @@
      impersonation or <pb n="viii" facs="acs0000001-01-013"/> imaginary emotion. The writer of
       <title rendition="#sq #n">Songs before Sunrise,</title> from the first line to the last, wrote
         simply in submissive obedience to <persName key="sidney">Sir Philip Sidney</persName>’s precept —
-      <quote>Look in thine heart, and write.</quote> The dedication of these poems, and the fact
+      <quote rendition="#open-quote #close-quote">Look in thine heart, and write.</quote> The dedication of these poems, and the fact
      that dedication was accepted, must be sufficient evidence of this. They do not pretend and they
      were never intended to be merely the metrical echoes, or translations into lyric verse, of
      another man’s doctrine. <persName key="mazzini">Mazzini</persName> was no more a <name>Pope</name> or a
@@ -1966,11 +1966,11 @@
                     <titlePart type="main">Laus Veneris</titlePart>
                 </docTitle>
             </titlePage>
-            <epigraph xml:lang="fr" rendition="#small">
+            <epigraph xml:lang="fr">
                <pb n="[10]" facs="acs0000001-01-053"/>
-                <cit rendition="#block" rend="width:30em;">
+                <cit rendition="#block">
                     <quote rendition="#block">
-                        <p rendition="#indent #justify">
+                        <p rendition="#justify">
                                 Lors dit en plourant; Hélas trop
                                     malheureux homme et mauldict pescheur, oncques ne verrai-je
                                     clémence et miséricorde de Dieu.
