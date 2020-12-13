@@ -114,7 +114,7 @@ type="compact" ?>
 		    <pb facs="acs0000001-03-004"/>
 			<div>
 				<head>
-					<title rendition="#center #sc">SWINBURNE'S POEMS<lb></lb> Vol. III</title>
+					<title rendition="#center #sc">SWINBURNE'S POEMS<lb/> Vol. III</title>
 				</head>
 			</div>
 		    <pb facs="acs0000001-03-005"/><!-- Text missing for this page. -->
@@ -122,43 +122,43 @@ type="compact" ?>
 			    <pb facs="acs0000001-03-006"/>
 				<docTitle rendition="#center">
 					<titlePart type="main">
-						<hi rendition="#x-large">The Poems</hi>
-						<lb></lb>
+						<hi>The Poems</hi>
+						<lb/>
 						<space dim="vertical" quantity="1" unit="line"></space>
-						<hi rendition="#small">of</hi>
-						<lb></lb>
+						of
+						<lb/>
 						<space dim="vertical" quantity="1" unit="line"></space>
-						<hi rendition="#red #xx-large">Algernon Charles Swinburne</hi>
-						<lb></lb>
+						<hi rendition="#red">Algernon Charles Swinburne</hi>
+						<lb/>
 						<space dim="vertical" quantity="3" unit="line"></space>
-						<hi rendition="#large">in six volumes</hi>
-						<space dim="vertical" quantity="4" unit="line"></space><lb></lb>
+						<hi >in six volumes</hi>
+						<space dim="vertical" quantity="4" unit="line"></space><lb/>
 						Volume III
 					</titlePart>
-					<lb></lb><space dim="vertical" quantity="1" unit="line"></space>
+					<lb/><space dim="vertical" quantity="1" unit="line"></space>
 					<titlePart type="contents">
-						<title rendition="#n"><hi rendition="#red #x-large #uc">Poems and Ballads</hi><lb></lb>
+						<title rendition="#n"><hi rendition="#red #uc">Poems and Ballads</hi><lb/>
 							<space dim="vertical" quantity="1" unit="line"></space>
-						<hi rendition="#uc">Second and Third Series</hi></title><lb></lb>
+						<hi rendition="#uc">Second and Third Series</hi></title><lb/>
 						<space dim="vertical" quantity="1" unit="line"></space>
-						<hi rendition="#uc #small">and</hi>
-						<lb></lb>
+						<hi rendition="#uc">and</hi>
+						<lb/>
 						<space dim="vertical" quantity="1" unit="line"></space>
-					    <title rendition="#red #x-large #uc">Songs of the Springtides</title><lb></lb>
+					    <title rendition="#red #uc">Songs of the Springtides</title><lb/>
 					</titlePart>
 				</docTitle>
 				<space dim="vertical" quantity="4" unit="line"></space>
 				<docImprint rendition="#center #uc">
 					<pubPlace>London</pubPlace>
-					<lb></lb>
+					<lb/>
 					<publisher rendition="#red #expanded">Chatto &amp; Windus</publisher>
-					<lb></lb>
-					<docDate rendition="#small" when="1904">1904</docDate>
+					<lb/>
+					<docDate when="1904">1904</docDate>
 				</docImprint>
 			</titlePage>
 		    <pb n="iv" facs="acs0000001-03-007"/>
 			<note rendition="#center">Copyright, 1904, by <hi rendition="#sc">Harper &amp; Brothers</hi> for
-				the<lb></lb> United States of America.</note>
+				the<lb/> United States of America.</note>
 
 		    <pb n="v" facs="acs0000001-03-008"/>
 
@@ -537,7 +537,7 @@ type="compact" ?>
 						<row>
 							<cell>
 								<title rendition="#sc">The Dispute of the
-									Heart and Body of Franç<lb></lb>
+									Heart and Body of Franç<lb/>
 									   Villon</title>
 							</cell>
 							<cell>148</cell>
@@ -603,7 +603,7 @@ type="compact" ?>
 
 				<div>
 					<head rendition="#center">POEMS AND BALLADS </head>
-					<lb></lb>
+					<lb/>
 					<head rendition="#sc">Third Series</head>
 					<table>
 						<row>
@@ -879,21 +879,22 @@ type="compact" ?>
 				<front>
 					<titlePage>
 					    <pb n="[1]" facs="acs0000001-03-012"/>
-						<docTitle rendition="#center #uc"><titlePart>Poems and Ballads</titlePart><lb></lb>
-							<titlePart rendition="#small">Second Series</titlePart>
+						<docTitle rendition="#center #uc"><titlePart>Poems and Ballads</titlePart><lb/>
+							<titlePart>Second Series</titlePart>
 						</docTitle>
 					</titlePage>
 				    <pb n="[2]" facs="acs0000001-03-013"/>
 					<div rendition="#center #uc" type="dedication">
 					    <pb n="[3]" facs="acs0000001-03-014"/>
 						<p>
-						Inscribed<lb></lb>
-						<hi rendition="#x-small">to</hi><lb></lb>
-						<persName rendition="#large">Richard F. Burton</persName>
-						<lb></lb>
-						<hi rendition="#x-small">In redemption of an old pledge and<lb></lb>
-							in recognition of a friendship which I must always count<lb></lb>
-							among the highest honours of my life</hi>
+						Inscribed<lb/>
+						to<lb/>
+						<persName>Richard F. Burton</persName>
+						</p>
+						<p>
+						In redemption of an old pledge and<lb/>
+						in recognition of a friendship which I must always count<lb/>
+						among the highest honours of my life
 						</p>
 					</div>
 				    <pb n="[4]" facs="acs0000001-03-015"/>
@@ -904,7 +905,7 @@ type="compact" ?>
         <body>
             <pb n="[5]" facs="acs0000001-03-016"/>
             <head rendition="#center #uc">The Last Oracle</head>
-            <head rendition="#center #x-small">(A.D. 361)</head>
+            <head rendition="#center">(A.D. 361)</head>
             <epigraph rendition="#center-block" rend="width:30em;" xml:lang="gr">
                 <lg>
                     <l>εἴπατε τῷ βασιλῆϊ, χαμαὶ πέσε δαίδαλος αὐλά·</l>
@@ -2201,8 +2202,8 @@ type="compact" ?>
         <body>
             <pb n="42" facs="acs0000001-03-053"/>
             <head rendition="#center #uc">The Complaint of Lisa</head>
-            <head rendition="#center #x-small #i" rend="margin-bottom:2em;">(Double Sestina)</head>
-            <note rendition="#center #sc #small" resp="#acs">Decameron, x. 7</note>
+            <head rendition="#center #i" rend="margin-bottom:2em;">(Double Sestina)</head>
+            <note rendition="#center #sc" resp="#acs">Decameron, x. 7</note>
             <lg>
                 <l n="1"><hi rendition="#sc">There</hi> is no woman living that draws breath</l>
                 <l n="2">So sad as I, though all things sadden her.</l>
@@ -2393,7 +2394,7 @@ type="compact" ?>
         <body>
             <pb n="48" facs="acs0000001-03-059"/>
             <head rendition="#center #uc">For the Feast of Giordano Bruno,</head>
-            <head rendition="#center #x-small #uc">Philosopher and Martyr</head>
+            <head rendition="#center #uc">Philosopher and Martyr</head>
             <lg n="I">
                 <head rendition="#center">I</head>
                 <l n="1"><hi rendition="#sc">Son</hi> of the lightning and the light that glows</l>
@@ -2438,8 +2439,8 @@ type="compact" ?>
         <body>
             <pb n="50" facs="acs0000001-03-061"/>
             <head rendition="#center #uc">Ave Atque Vale</head>
-            <head rendition="#center #x-small #uc">In Memory of Charles Baudelaire</head>
-            <epigraph rendition="#ti-4 #small" xml:lang="fr">
+            <head rendition="#center #uc">In Memory of Charles Baudelaire</head>
+            <epigraph rendition="#ti-4" xml:lang="fr">
                 <cit  rendition="#block">
                     <quote>
                 <l>
@@ -2716,7 +2717,7 @@ type="compact" ?>
         <body>
             <pb n="58" facs="acs0000001-03-069"/>
             <head rendition="#center #uc"><hi rendition="#block" rend="margin-bottom:1em;">Memorial Verses</hi>
-            <hi rendition="#xx-small #uc #block">on the Death of Théophile Gautier</hi></head>
+            <hi rendition="#uc #block">on the Death of Théophile Gautier</hi></head>
             <lg>
                 <l n="1"><hi rendition="#sc">Death</hi>, what hast thou to do with me? So saith</l>
                 <l n="2">Love, with eyes set against the face of Death;</l>
@@ -2999,9 +3000,9 @@ type="compact" ?>
                 <l n="183" rendition="#ti-1">And all the grief whereof he dreams and grieves,</l>
                 <l n="184">And all sweet roots fed on his light and dew;</l>
             </lg>
-                <ab rendition="#small #center" type="notes">
+                <ab rendition="#center" type="notes">
                     <note resp="#acs" rendition="#inline" xml:id="de5430"><ref rendition="#super">1</ref><title xml:lang="fr">La
-                        Morte Amoureuse.</title></note><lb></lb> <note resp="#acs" rendition="#inline" type="auth" xml:id="de5431"><ref rendition="#super">2</ref><title xml:lang="fr">Une
+                        Morte Amoureuse.</title></note><lb/> <note resp="#acs" rendition="#inline" type="auth" xml:id="de5431"><ref rendition="#super">2</ref><title xml:lang="fr">Une
                             Nuit de Cléopâtre.</title></note> <note resp="#acs" rendition="#inline" type="auth" xml:id="de5432"><ref rendition="#super">3</ref><title xml:lang="fr">Mademoiselle de Maupin.</title></note>
                 </ab>
             <pb n="65" facs="acs0000001-03-076"/>
@@ -3033,8 +3034,8 @@ type="compact" ?>
 				        
         <body>
             <pb n="66" facs="acs0000001-03-077"/>
-            <head rendition="#center"><hi rendition="#uc">Sonnet</hi><lb></lb>
-            <hi rendition="#x-small">(<hi rendition="#sc">with a copy of</hi> <title rendition="#i">Mademoiselle de Maupin</title>)</hi></head>
+            <head rendition="#center #uc">Sonnet</head>
+            <head>(<hi rendition="#sc">with a copy of</hi> <title rendition="#i">Mademoiselle de Maupin</title>)</head>
             <lg>
                 <l n="1"><hi rendition="#sc">This</hi> is the golden book of spirit and sense,</l>
                 <l n="2" rendition="#ti-2">The holy writ of beauty; he that wrought</l>
@@ -3059,8 +3060,8 @@ type="compact" ?>
 				        
         <body>
             <pb n="67" facs="acs0000001-03-078"/>
-            <head rendition="#center #uc">Age and Song<lb></lb>
-            <hi rendition="#x-small #uc">(To Barry Cornwall)</hi></head>
+            <head rendition="#center #uc">Age and Song</head>
+            <head rendition="#uc">(To Barry Cornwall)</head>
             <lg n="I">
                 <head rendition="#center">I</head>
                 <l n="1"><hi rendition="#sc">In</hi> vain men tell us time can alter</l>
@@ -3107,7 +3108,7 @@ type="compact" ?>
         <body>
             <pb n="69" facs="acs0000001-03-080"/>
             <head rendition="#center #uc">In Memory of Barry Cornwall</head>
-            <head rendition="#center #x-small #uc">(<date when="1874-10-04">October 4, 1874</date>)</head>
+            <head rendition="#center #uc">(<date when="1874-10-04">October 4, 1874</date>)</head>
             <lg>
                 <head rendition="#center">I</head>
                 <l n="1"><hi rendition="#sc">In</hi> the garden of death, where the singers whose names are
@@ -3166,7 +3167,7 @@ type="compact" ?>
                 <l n="35">For with us shall the music and perfume that die not dwell,</l>
                 <l n="36">Though the dead to our dead bid welcome, and we farewell.</l>
             </lg>
-            <note xml:id="acs0000001-03-i016-note01" resp="#acs" rendition="#center #small #block"><ref rendition="#super">1</ref>Sydney Dobell died August 22, 1874. </note>
+            <note xml:id="acs0000001-03-i016-note01" resp="#acs" rendition="#center #block"><ref rendition="#super">1</ref>Sydney Dobell died August 22, 1874. </note>
         </body>
 
     </text>
@@ -3176,7 +3177,7 @@ type="compact" ?>
         <body>
             <pb n="72" facs="acs0000001-03-083"/>
             <head rendition="#center #uc">Epicede</head>
-            <head rendition="#center #x-small">(James Lorimer Graham died at Florence, <date when="1876-04-30">April 30, 1876</date>)</head>
+            <head rendition="#center">(James Lorimer Graham died at Florence, <date when="1876-04-30">April 30, 1876</date>)</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Life</hi> may give for love to death</l>
                 <l n="2" rendition="#ti-1">Little; what are life's gifts worth</l>
@@ -3248,7 +3249,7 @@ type="compact" ?>
                 <l n="13">Shall be for thee one spirit and thy son</l>
                 <l n="14" rendition="#ti-1">And thy soul's child the soul of man to be?  </l>
             </lg>
-            <signed rendition="#ti-4 #i #small"><date when="1876-01-03">January <hi rendition="#n">3, 1876</hi></date>.</signed>
+            <signed rendition="#ti-4 #i"><date when="1876-01-03">January <hi rendition="#n">3, 1876</hi></date>.</signed>
         </body>
 
     </text>
@@ -3295,7 +3296,7 @@ type="compact" ?>
                 <l n="23">Not I, that know not; father, not thy son,</l>
                 <l n="24" rendition="#ti-1">For all the darkness of the night and sea.</l>
             </lg>
-            <signed rendition="#i #small"><date when="1877-03-05">March <hi rendition="#n">5, 1877.</hi></date></signed>
+            <signed rendition="#i"><date when="1877-03-05">March <hi rendition="#n">5, 1877.</hi></date></signed>
         </body>
 
     </text>
@@ -3305,7 +3306,7 @@ type="compact" ?>
         <body>
             <pb n="77" facs="acs0000001-03-088"/>
             <head rendition="#center #uc">A Birth-Song</head>
-            <head rendition="#center #x-small">(For Olivia Frances Madox Rossetti, born September 20, 1875)</head>
+            <head rendition="#center">(For Olivia Frances Madox Rossetti, born September 20, 1875)</head>
             <lg>
                 <l n="1" rendition="#ti-3"><hi rendition="#sc">Out</hi> of the dark sweet sleep</l>
                 <l n="2" rendition="#ti-3">Where no dreams laugh or weep</l>
@@ -3367,7 +3368,7 @@ type="compact" ?>
                 <l n="49" rendition="#ti-3">Filled thine with life and smiled,</l>
                 <l n="50">But then wept blood for half their own withdrawn. <ptr type="note" target="#de4320"/></l>
             </lg>
-                <note n="1" rendition="#small" resp="#acs" xml:id="de4320"><ref rendition="#super">1</ref>Oliver
+                <note n="1" resp="#acs" xml:id="de4320"><ref rendition="#super">1</ref>Oliver
                     Madox Brown died <date when="1874-11-05">November 5, 1874</date>, in his twentieth year.</note>
             <pb n="79" facs="acs0000001-03-090"/>
             <lg>
@@ -3431,7 +3432,7 @@ type="compact" ?>
                 <l n="99" rendition="#ti-3">Twice crowned, with love and fame,</l>
                 <l n="100">Guard and be gracious to the fair-named flower.</l>
             </lg>
-            <signed rendition="#i #small #ti-1"><date when="1875-10-19">October <hi rendition="#n">19, 1875</hi></date>.</signed>
+            <signed rendition="#i #ti-1"><date when="1875-10-19">October <hi rendition="#n">19, 1875</hi></date>.</signed>
         </body>
         
         
@@ -3639,7 +3640,7 @@ type="compact" ?>
                 <l n="24">Only the song of a secret bird.</l>
             </lg>
             <lg type="envoi">
-                <head rendition="#uc #center #small">Envoi</head>
+                <head rendition="#uc #center">Envoi</head>
                 <l n="25">In the world of dreams I have chosen my part,</l>
                 <l n="26" rendition="#ti-1">To sleep for a season and hear no word</l>
                 <l n="27">Of true love's truth or of light love's art,</l>
@@ -3679,7 +3680,7 @@ type="compact" ?>
         <body>
             <pb n="88" facs="acs0000001-03-099"/>
             <head rendition="#center #uc">A Ballad of François Villon</head>
-            <head rendition="#center #x-small #uc">Prince of All Ballad-Makers</head>
+            <head rendition="#center #uc">Prince of All Ballad-Makers</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Bird</hi> of the bitter bright grey golden morn</l>
                 <l n="2" rendition="#ti-1">Scarce risen upon the dusk of dolorous years,</l>
@@ -3718,7 +3719,7 @@ type="compact" ?>
                 <l n="30" rendition="#ti-1">Villon, our sad bad glad mad brother's name? </l>
             </lg>
             <lg type="envoi">
-                <head rendition="#center #uc #small">Envoi</head>
+                <head rendition="#center #uc">Envoi</head>
                 <l n="31">Prince of sweet songs made out of tears and fire,</l>
                 <l n="32">A harlot was thy nurse, a God thy sire;</l>
                 <l n="33" rendition="#ti-1">Shame soiled thy song, and song assoiled thy shame.</l>
@@ -4257,7 +4258,7 @@ type="compact" ?>
                 <pb n="[274]"/> -->
             <pb n="107" facs="acs0000001-03-118"/>
             <head rendition="#center #uc">Two Leaders</head>
-            <epigraph rendition="#small #ti-4">
+            <epigraph rendition="#ti-4">
                 <l>βᾶτε δόμον, μεγάλοι φιλοτίμοι</l>
                 <l>Νυκτὸς παῖδες ἄπαιδες, ὑπ’ εὔφρονι πομπᾷ.</l>
             </epigraph>
@@ -4305,7 +4306,7 @@ type="compact" ?>
         <body>
             <pb n="109" facs="acs0000001-03-120"/>
             <head rendition="#center #uc">Victor Hugo in 1877</head>
-            <epigraph rendition="#center #small"><cit><quote>Dazzle mine eyes, or do I see three suns?</quote></cit></epigraph>
+            <epigraph rendition="#center"><cit><quote>Dazzle mine eyes, or do I see three suns?</quote></cit></epigraph>
             <lg>
                 <l n="1"><hi rendition="#sc">Above</hi> the spring-tide sundawn of the year,</l>
                 <l n="2" rendition="#ti-2">A sunlike star, not born of day or night,</l>
@@ -4443,7 +4444,7 @@ type="compact" ?>
             <div xml:id="acs0000001-03-i036">
                 <index indexName="nav"/>
             <head rendition="#center">I</head>
-            <head rendition="#center #small #uc">Winter in Northumberland</head>
+            <head rendition="#center #uc">Winter in Northumberland</head>
             <lg n="I">
                 <head rendition="#center">I</head>
                 <l n="1" rendition="#ti-3"><hi rendition="#sc">Outside</hi> the garden</l>
@@ -4745,7 +4746,7 @@ type="compact" ?>
                 <index indexName="nav"/>
                 <pb n="122" facs="acs0000001-03-133"/>
             <head rendition="#center">II</head>
-            <head rendition="#center #small #uc">Spring in Tuscany</head>
+            <head rendition="#center #uc">Spring in Tuscany</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Rose-red</hi> lilies that bloom on the banner;</l>
                 <l n="2" rendition="#ti-1">Rose-cheeked gardens that revel in spring;</l>
@@ -4833,7 +4834,7 @@ type="compact" ?>
                 <pb n="125" facs="acs0000001-03-136"/>
                 <index indexName="nav"/>
             <head rendition="#center">III</head>
-            <head rendition="#center #small #uc">Summer in Auvergne</head>
+            <head rendition="#center #uc">Summer in Auvergne</head>
             <lg>
                 <l n="1"><hi rendition="#sc">The</hi> sundawn fills the land</l>
                 <l n="2">Full as a feaster's hand</l>
@@ -4901,7 +4902,7 @@ type="compact" ?>
                 <index indexName="nav"/>
             <pb n="127" facs="acs0000001-03-138"/>
             <head rendition="#center">IV</head>
-            <head rendition="#center #small #uc">Autumn in Cornwall</head>
+            <head rendition="#center #uc">Autumn in Cornwall</head>
             <lg>
                 <l n="1"><hi rendition="#sc">The</hi> year lies fallen and faded</l>
                 <l n="2">On cliffs by clouds invaded,</l>
@@ -4976,7 +4977,7 @@ type="compact" ?>
             <pb n="129" facs="acs0000001-03-140"/>
             <head rendition="#center #uc">The White Czar</head>
             <note resp="#acs">
-                <p rendition="#indent #x-small #justify" rend="width:30em;">
+                <p rendition="#indent #justify" rend="width:30em;">
                 [In an English magazine of 1877 there appeared a version of some insolent lines
                 addressed by <q>A Russian Poet to the Empress of India.</q> To these the first of the two
                 following sonnets was designed to serve by way of counterblast. The writer will scarcely
@@ -5056,7 +5057,7 @@ type="compact" ?>
         <body>
             <pb n="132" facs="acs0000001-03-143"/>
             <head rendition="#center #uc">To Louis Kossuth</head>
-            <head rendition="#center #x-small">1877</head>
+            <head rendition="#center">1877</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Light</hi> of our fathers' eyes, and in our own</l>
                 <l n="2" rendition="#ti-1">Star of the unsetting sunset! for thy name,</l>
@@ -5088,7 +5089,7 @@ type="compact" ?>
                 <index corresp="acs0000001-03-i044-md.xml" indexName="nav"/>
                 
         <body>
-            <head rendition="#center #uc #small">The Complaint of the Fair Amouress</head>
+            <head rendition="#center #uc">The Complaint of the Fair Amouress</head>
             <div n="I">
                 <head rendition="#center #n">I</head>
             <lg n="I" xml:id="d1e6">
@@ -5242,7 +5243,7 @@ type="compact" ?>
                 
         <body>
             <pb n="137" facs="acs0000001-03-148"/>
-            <head rendition="#center #uc #small">A Double Ballad of Good Counsel</head>
+            <head rendition="#center #uc">A Double Ballad of Good Counsel</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Now</hi> take your fill of love and glee,</l>
                 <l n="2" rendition="#ti-2">And after balls and banquets hie;</l>
@@ -5312,7 +5313,7 @@ type="compact" ?>
                 
         <body>
             <pb n="139" facs="acs0000001-03-150"/>
-            <head rendition="#center #uc #small">Fragment on Death</head>
+            <head rendition="#center #uc">Fragment on Death</head>
             <lg>
                 <l n="1"><hi rendition="#sc">And</hi> Paris be it or Helen dying,</l>
                 <l n="2" rendition="#ti-1">Who dies soever, dies with pain.</l>
@@ -5334,7 +5335,7 @@ type="compact" ?>
                 <l n="16">Yes; or pass quick into the skies.</l>
             </lg>
             <note resp="#acs">
-                <p rendition="#indent #x-small #justify" rend="width:29em;">[In the original here follows
+                <p rendition="#indent #justify" rend="width:29em;">[In the original here follows
                 Villon's masterpiece, the matchless <title>Ballad of the Ladies of Old Time</title>, so
                 incomparably rendered in the marvellous version of D. G. Rossetti; followed in its turn
                 by the succeeding poem, as inferior to its companion as is my attempt at translation of
@@ -5347,8 +5348,8 @@ type="compact" ?>
                 
         <body>
             <pb n="140" facs="acs0000001-03-151"/>
-            <head rendition="#center #uc #small">Ballad of the Lords of Old Time</head>
-            <head rendition="#center #small #uc">(After the Former Argument)</head>
+            <head rendition="#center #uc">Ballad of the Lords of Old Time</head>
+            <head rendition="#center #uc">(After the Former Argument)</head>
             <lg>
                 <l n="1"><hi rendition="#sc">What</hi> more? Where is the third Calixt,</l>
                 <l n="2" rendition="#ti-2">Last of that name now dead and gone,</l>
@@ -5394,7 +5395,7 @@ type="compact" ?>
                 
         <body>
             <pb n="142" facs="acs0000001-03-153"/>
-            <head rendition="#center #uc #small">Ballad of the Women of Paris</head>
+            <head rendition="#center #uc">Ballad of the Women of Paris</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Albeit</hi> the Venice girls get praise</l>
                 <l n="2" rendition="#ti-1">For their sweet speech and tender air,</l>
@@ -5440,8 +5441,8 @@ type="compact" ?>
                 
         <body>
             <pb n="144" facs="acs0000001-03-155"/>
-            <head rendition="#center #small #uc">Ballad Written for a Bridegroom</head>
-            <head rendition="#center #x-small #uc">which Villon gave to a gentelman newly married to<lb></lb>send to his wife whom he had won with the sword</head>
+            <head rendition="#center #uc">Ballad Written for a Bridegroom</head>
+            <head rendition="#center #uc">which Villon gave to a gentelman newly married to<lb/>send to his wife whom he had won with the sword</head>
             <lg>
                 <l n="1"><hi rendition="#sc">At</hi> daybreak, when the falcon claps his wings,</l>
                 <l n="2" rendition="#ti-1">No whit for grief, but noble heart and high,</l>
@@ -5487,7 +5488,7 @@ type="compact" ?>
                 
         <body>
             <pb n="146" facs="acs0000001-03-157"/>
-            <head rendition="#center #uc #small">Ballad Against the Enemies of France</head>
+            <head rendition="#center #uc">Ballad Against the Enemies of France</head>
             <lg>
                 <l n="1"><hi rendition="#sc">May</hi> he fall in with beasts that scatter fire,</l>
                 <l n="2" rendition="#ti-2">Like Jason, when he sought the fleece of gold,</l>
@@ -5543,7 +5544,7 @@ type="compact" ?>
                 
         <body>
             <pb n="148" facs="acs0000001-03-159"/>
-            <head rendition="#small #center #uc">The Dispute of the Heart and Body of François Villon</head>
+            <head rendition="#center #uc">The Dispute of the Heart and Body of François Villon</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Who</hi> is this I hear? — Lo, this is I, thine heart,</l>
                 <l n="2" rendition="#ti-1">That holds on merely now by a slender string.</l>
@@ -5610,7 +5611,7 @@ type="compact" ?>
                 
         <body>
             <pb n="150" facs="acs0000001-03-161"/>
-            <head rendition="#small #center #uc">Epistle in Form of a Ballad to his Friends</head>
+            <head rendition="#center #uc">Epistle in Form of a Ballad to his Friends</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Have</hi> pity, pity, friends, have pity on me,</l>
                 <l n="2" rendition="#ti-1">Thus much at least, may it please you, of your grace!</l>
@@ -5664,8 +5665,8 @@ type="compact" ?>
                 
         <body>
             <pb n="152" facs="acs0000001-03-163"/>
-            <head rendition="#small #center #uc">The Epitaph in Form of a Ballad</head>
-            <head rendition="#center #x-small #uc">which Villon made for himself and his comrades,<lb></lb> 
+            <head rendition="#center #uc">The Epitaph in Form of a Ballad</head>
+            <head rendition="#center #uc">which Villon made for himself and his comrades,<lb/> 
             expecting to be hanged along with them</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Men</hi>, brother men, that after us yet live,</l>
@@ -5818,7 +5819,7 @@ type="compact" ?>
             <l n="36">La douleur monte et baisse comme une onde.</l>
             </lg>
             <lg>
-            <head rendition="#small #center #uc">Envoi</head>
+            <head rendition="#center #uc">Envoi</head>
             <l n="37">Fille de l'onde et mère de l'amour,</l>
             <l n="38">Du haut séjour plein de ta paix profonde</l>
             <l n="39">Sur ce bas monde épands un peu de jour.</l>
@@ -5866,7 +5867,7 @@ type="compact" ?>
         <body>
             <pb n="158" facs="acs0000001-03-169"/>
             <head rendition="#center #uc">Ode</head>
-            <head rendition="#center #x-small #uc">(Le Tombeau de Théophile Gautier)</head>
+            <head rendition="#center #uc">(Le Tombeau de Théophile Gautier)</head>
             <!-- add encoded transcription below -->
             <lg>
                 <l n="1"><hi rendition="#sc">Quelle</hi> fleur, ô Mort, quel joyau, quel chant,</l>
@@ -6001,7 +6002,7 @@ type="compact" ?>
         <body>
             <pb n="162" facs="acs0000001-03-173"/>
             <head rendition="#center #uc">Dedication</head>
-            <head rendition="#center #x-small">1878</head>
+            <head rendition="#center">1878</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Some</hi> nine years gone, as we dwelt together</l>
                 <l n="2">In the sweet hushed heat of the south French weather</l>
@@ -6051,15 +6052,15 @@ type="compact" ?>
 				    <pb n="[165]" facs="acs0000001-03-176"/>
 					<titlePage>
 						<docTitle rendition="#center #uc">
-						<titlePart rendition="#large">Poems and Ballads</titlePart><lb></lb>
-						<titlePart rendition="#small">Third Series</titlePart>
+						<titlePart>Poems and Ballads</titlePart><lb/>
+						<titlePart>Third Series</titlePart>
 						</docTitle>
 					</titlePage>
 				    <pb n="[166]" facs="acs0000001-03-177"/>
 				    <div type="dedication" rendition="#center #uc">
 				        <pb n="[167]" facs="acs0000001-03-178"/>
 				        <p>To <lb/>
-			            <hi rendition="#large">William Bell Scott</hi> <lb/>
+			            William Bell Scott <lb/>
 				        poet and painter <lb/>
 				        I dedicate these poems <lb/>
 				        in memory of many years.
@@ -6075,7 +6076,7 @@ type="compact" ?>
             <!-- Pages 166, 167 and 168 missing. -->
             <pb n="169" facs="acs0000001-03-180"/>
             <head rendition="#center #uc">March: An Ode</head>
-            <head rendition="#center #x-small">1887</head>
+            <head rendition="#center">1887</head>
             <lg>
                 <head rendition="#center">I</head>
                 <l n="1">
@@ -6210,7 +6211,7 @@ type="compact" ?>
         <body>
             <pb n="174" facs="acs0000001-03-185"/>
             <head rendition="#center #uc">The Commonweal</head>
-            <head rendition="#center #x-small">1887</head>
+            <head rendition="#center">1887</head>
 
             <lg>
                 <head rendition="#center">I</head>
@@ -6633,7 +6634,7 @@ type="compact" ?>
         <body>
             <pb n="187" facs="acs0000001-03-198"/>
             <head rendition="#center #uc">The Armada</head>
-            <head rendition="#center #small" xml:id="d1ecd6">1588: 1888</head>
+            <head rendition="#center" xml:id="d1ecd6">1588: 1888</head>
             <div n="I">
                 <head rendition="#center" xml:id="d1e441"> I </head>
                 <div n="I">
@@ -7769,7 +7770,7 @@ type="compact" ?>
                 <l n="119">Ah, well were I for ever,</l>
                 <l n="120" rendition="#ti-1">Wouldst thou change lives with me.</l>
             </lg>
-            <signed rendition="#i #small">
+            <signed rendition="#i">
                 <geogName>Beachy Head</geogName>: <date when="1886-09">September <hi rendition="#n">1886</hi></date>.
             </signed>
         </body>
@@ -7780,9 +7781,9 @@ type="compact" ?>
         <body>
             <pb n="215" facs="acs0000001-03-226"/>
             <head rendition="#center #uc">Pan and Thalassius</head>
-            <head rendition="#center #x-small #uc">A Lyrical Idyl</head>
+            <head rendition="#center #uc">A Lyrical Idyl</head>
             <sp rend="margin-top:4em;">
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
 
@@ -7792,7 +7793,7 @@ type="compact" ?>
 
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Pan
                     </speaker>
                 <lg>
@@ -7853,7 +7854,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
                 <lg>
@@ -7918,7 +7919,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Pan
                     </speaker>
                 <lg>
@@ -7931,7 +7932,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
                 <lg>
@@ -7944,7 +7945,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Pan
                     </speaker>
                 <lg>
@@ -7958,7 +7959,7 @@ type="compact" ?>
             </sp>
             <pb n="219" facs="acs0000001-03-230"/>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
                 <lg>
@@ -7971,7 +7972,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Pan
                     </speaker>
                 <lg>
@@ -7984,7 +7985,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
                 <lg>
@@ -7997,7 +7998,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Pan
                     </speaker>
                 <lg>
@@ -8011,7 +8012,7 @@ type="compact" ?>
             </sp>
             <pb n="220" facs="acs0000001-03-231"/>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
                 <lg>
@@ -8032,7 +8033,7 @@ type="compact" ?>
                 </lg>
             </sp>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Pan
                     </speaker>
                 <lg>
@@ -8054,7 +8055,7 @@ type="compact" ?>
             </sp>
             <pb n="221" facs="acs0000001-03-232"/>
             <sp>
-                <speaker rendition="#small #uc #center">
+                <speaker rendition="#uc #center">
                         Thalassius
                     </speaker>
                 <lg>
@@ -8711,8 +8712,11 @@ type="compact" ?>
             <pb n="[243]" facs="acs0000001-03-254"/>
             <head rendition="#center #uc" rend="margin-bottom:2em;">Night</head>
             <div n="I">
-                <head rendition="#center #small #uc">
-                    I<lb></lb> From the Italian of Giovanni Strozzi
+                <head rendition="#center #uc">
+                    I
+                </head>
+                <head rendition="#center #uc">
+                    From the Italian of Giovanni Strozzi
                 </head>
                 <lg>
                 <l n="1">
@@ -8723,8 +8727,11 @@ type="compact" ?>
                 </lg>
             </div>
             <div n="II">
-                <head rendition="#center #small #uc">
-                    II <lb></lb>From the Italian of Michelangelo Buonarroti
+                <head rendition="#center #uc">
+                    II
+                </head>
+                <head rendition="#center #uc">
+                    From the Italian of Michelangelo Buonarroti
                 </head>
                 <lg>
                 <l n="5">Sleep likes me well, and better yet to know</l>
@@ -8759,7 +8766,7 @@ type="compact" ?>
                 <l n="10">Its echoes, while the stars remain,</l>
                 <l n="11" rendition="#ti-1">Return.</l>
             </lg>
-            <signed rendition="#i #small">
+            <signed rendition="#i">
                 <date when="1885-05">May <hi rendition="#n">1885</hi>.</date>
             </signed>
         </body>
@@ -8873,7 +8880,7 @@ type="compact" ?>
                     <l n="48" rendition="#ti-1">Their glory.</l>
                 </lg>
                 </div>
-                <signed rendition="#i #small">
+                <signed rendition="#i">
                     <date when="1885-07-16">July <hi rendition="#n">16, 1885.</hi></date>
                 </signed>
         </body>
@@ -9268,7 +9275,7 @@ type="compact" ?>
                 <l n="13" rendition="#ti-1">Of hearts that hope and fear not, make thy span</l>
                 <l n="14" rendition="#ti-2">Bright with such light as history bids thee give.</l>
             </lg>
-            <signed rendition="#i #small">
+            <signed rendition="#i">
                 <date when="1880-01-01">Jan. <hi rendition="#n">1, 1889</hi>.</date>
             </signed>
         </body>
@@ -9280,7 +9287,7 @@ type="compact" ?>
 
             <pb n="258" facs="acs0000001-03-269"/>
             <head rendition="#center #uc">To Sir Richard F. Burton</head>
-            <head rendition="#center #x-small #uc">(On his Translation of "The Arabian
+            <head rendition="#center #uc">(On his Translation of "The Arabian
                 Nights")</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Westward</hi> the sun sinks, grave and glad; but
@@ -9339,7 +9346,7 @@ type="compact" ?>
         <body>
             <pb n="260" facs="acs0000001-03-271"/>
             <head rendition="#center #uc">Caliban on Ariel</head>
-            <epigraph rendition="#i #center #small">
+            <epigraph rendition="#i #center">
                 <quote>His backward voice is to utter foul speeches and to detract</quote>
             </epigraph>
             <lg>
@@ -10248,7 +10255,7 @@ type="compact" ?>
 
             <pb n="281" facs="acs0000001-03-292"/>
             <head rendition="#center #uc">A Jacobite's Farewell</head>
-            <head rendition="#center #small">1716</head>
+            <head rendition="#center">1716</head>
             <lg>
                 
                 <l n="1">
@@ -10285,7 +10292,7 @@ type="compact" ?>
         <body>
             <pb n="282" facs="acs0000001-03-293"/>
             <head rendition="#center #uc">A Jacobite's Exile</head>
-            <head rendition="#center #x-small">1746</head>
+            <head rendition="#center">1746</head>
             <lg>
                 <l n="1"><hi rendition="#sc">The</hi> weary day rins down and dies,</l>
                 <l n="2" rendition="#ti-1">The weary night wears through:</l>
@@ -10592,7 +10599,7 @@ type="compact" ?>
 					<titlePage>
 					    <pb n="[291]" facs="acs0000001-03-302"/>
 					    <docTitle>
-						<titlePart rendition="#center #uc #large">Songs of the Springtides</titlePart>
+						<titlePart rendition="#center #uc">Songs of the Springtides</titlePart>
 					    </docTitle>
 					</titlePage>
 				    <pb n="[292]" facs="acs0000001-03-303"/>
@@ -10602,7 +10609,7 @@ type="compact" ?>
 				            <head rendition="#center #uc">
 				                <w lemma="dedication">Dedication</w>
 				            </head>
-				            <head rendition="#center #x-small #uc">
+				            <head rendition="#center #uc">
 				                <w lemma="to">TO</w>
 				                <persName key="trelawny">
 				                    <w lemma="edward">Edward</w>
@@ -19471,12 +19478,12 @@ type="compact" ?>
         <body>
             <pb n="341" facs="acs0000001-03-352"/>
             <head rendition="#center #uc">Birthday Ode</head>
-            <head rendition="#center #x-small #uc">For the
+            <head rendition="#center #uc">For the
                 <seg corresp="#kw-time" type="keyword" xml:id="d1e497">Anniversary</seg> Festival of
                     <persName>Victor Hugo</persName>, <lb/><date when="1880-02-26">February 26,
                 1880</date></head>
             <lg>
-                <head n="strophe 1" rendition="#suppress">[<hi rendition="#i #x-small">Strophe</hi>
+                <head n="strophe 1" rendition="#suppress">[<hi rendition="#i">Strophe</hi>
                     1.</head>
                 <l n="1" rendition="#ti-1"><seg corresp="#kw-time" type="keyword" xml:id="dde427"><hi rendition="#sc">Spring</hi></seg>,
                     born in <seg corresp="#kw-heavens" type="keyword" xml:id="d1e422">heaven</seg>
@@ -20505,7 +20512,7 @@ type="compact" ?>
                     <floatingText type="poem">
                         <body>
                             <head rendition="#center #i">On the proposed desecration of Westminster
-                                Abbey<lb></lb> by the erection of a monument to<lb></lb> the son of Napoleon
+                                Abbey<lb/> by the erection of a monument to<lb/> the son of Napoleon
                                 III</head>
                             <lg>
                                 <l n="1" rendition="#ti-1" xml:id="acs0000001-03-i103.de1753">“Let us go hence.”<ptr target="acs0000001-03-i103-md.xml#a001" type="annotation"/> From the inmost shrine of grace</l>
