@@ -35,7 +35,7 @@
 							<pubPlace>London</pubPlace>
 							<publisher>Chatto</publisher>
 							<date when="1904">1904</date>
-							<biblScope type="volume">5</biblScope>
+							<biblScope unit="volume">5</biblScope>
 						</imprint>
 						<extent>6 vols.</extent>
 					</monogr>
@@ -73,12 +73,12 @@
         	<pb n="[unnumbered]"  facs="acs0000001-05-005"/>
                 <titlePage type="half-title">
                 	<pb n="[unnumbered]"  facs="acs0000001-05-006"/>
-                <docTitle rendition="#center #x-large #n">
-                    <titlePart>SWINBURNE'S POEMS <lb/>
-                        <hi rendition="#sc #small">Vol. V</hi></titlePart>
+                <docTitle rendition="#center #n">
+                    <titlePart rendition="#uc">Swinburne’s Poems</titlePart>
+                    <titlePart rendition="#sc">Vol. V</titlePart>
                 </docTitle>
                 	<pb n="[unnumbered]" facs="acs0000001-05-007"/>
-                <imprimatur rendition="#small #uc #center">
+                <imprimatur rendition="#uc #center">
                     Printed by<lb/>
                     Spotiswoode and Co. Ltd., New Street Square<lb/>
                     London
@@ -88,30 +88,30 @@
             	<pb facs="acs0000001-05-008"/>
                 <docTitle rendition="#center">
                     <titlePart type="main">
-                        <hi rendition="#x-large">The Poems</hi>
+                        The Poems
                         <lb/>
                         <space dim="vertical" unit="line" quantity="1"/>
-                        <hi rendition="#small">of</hi>
+                        of
                         <lb/>
                         <space dim="vertical" unit="line" quantity="1"/>
-                        <hi rendition="#red #xx-large">Algernon Charles Swinburne</hi>
+                        <hi rendition="#red">Algernon Charles Swinburne</hi>
                         <lb/>
                         <space dim="vertical" unit="line" quantity="3"/>
-                        <hi rendition="#large">in six volumes</hi>
+                        in six volumes
                         <space dim="vertical" unit="line" quantity="4"/><lb/>
                         Volume V
                     </titlePart>
                     <lb/><space dim="vertical" unit="line" quantity="1"/>
                     <titlePart type="contents">
-                        <title rendition="#n #red #x-large #uc">Studies in Song</title><lb/>
+                        <title rendition="#n #red #uc">Studies in Song</title><lb/>
                             <space dim="vertical" unit="line" quantity="1"/>
-                        <title rendition="#n #red #x-large #uc">A Century of Roundels</title><lb/>
+                        <title rendition="#n #red #uc">A Century of Roundels</title><lb/>
                         <space dim="vertical" unit="line" quantity="1"/>
-                        <title rendition="#n #red #x-large #uc">Sonnets on English Dramatic Poets</title><lb/>
+                        <title rendition="#n #red #uc">Sonnets on English Dramatic Poets</title><lb/>
                         <space dim="vertical" unit="line" quantity="1"/>
-                        <title rendition="#n #red #x-large #uc">The Heptalogia</title><lb/>
+                        <title rendition="#n #red #uc">The Heptalogia</title><lb/>
                         <space dim="vertical" unit="line" quantity="1"/>
-                        <hi rendition="#uc #red #x-large #uc">etc.</hi>
+                        <hi rendition="#uc #red #uc">etc.</hi>
                     </titlePart>
                 </docTitle>
                 <space dim="vertical" unit="line" quantity="4"/>
@@ -120,12 +120,12 @@
                     <lb/>
                     <publisher rendition="#red #expanded">Chatto &amp; Windus</publisher>
                     <lb/>
-                    <docDate rendition="#small" when="1904">1904</docDate>
+                    <docDate when="1904">1904</docDate>
                 </docImprint>
             </titlePage>
             <titlePage>
             	<pb n="[iv]" facs="acs0000001-05-009"/>
-                <imprimatur rendition="#center #small">Copyright, 1904, by <hi rendition="#sc">Harper &amp; Brothers</hi> for
+                <imprimatur rendition="#center">Copyright, 1904, by <hi rendition="#sc">Harper &amp; Brothers</hi> for
                     the <lb/> United States of America.</imprimatur>
             </titlePage>
             <div type="toc">
@@ -1021,8 +1021,8 @@
 			<titlePage type="full">
 				<pb n="3" facs="acs0000001-05-018"/>
 				<docTitle rendition="#center">
-					<titlePart rendition="#center #sc" type="main" rend="line-height:2;"> SONG FOR THE CENTENARY <lb/> <hi rendition="#xx-small">of</hi> <lb/>
-						WALTER SAVAGE LANDOR </titlePart>
+				    <titlePart rendition="#center #sc" type="main" rend="line-height:2;">Song for the Centenary<lb/> of<lb/>
+				        Walter Savage Landor</titlePart>
 					<lb/>
 					<titlePart rendition="#center #sc" type="sub" rend="line-height:2;">
 						<date from="1775-01-30" to="1864-09-17">Born <date when="1775-01-30">January 30th, 1775</date>
@@ -1043,7 +1043,7 @@
 								<l> And see the praised far off him, far above. </l>
 							</lg>
 						</quote>
-						<bibl rendition="#sc #small #ti-20">
+						<bibl rendition="#sc #ti-20">
 							Landor.
 						</bibl>
 					</cit>
@@ -1051,7 +1051,8 @@
 			</div>
 			<div xml:id="id333266001" type="dedication">
 				<pb n="5" facs="acs0000001-05-020"/>
-				<head rendition="#center #uc" rend="line-height:3em;">Dedication<lb/> <hi rendition="#x-small">to Mrs. Lynn Linton</hi></head>
+				<head rendition="#center #uc" rend="line-height:3em;">Dedication</head>
+			    <head rendition="#center #uc">To Mrs. Lynn Linton</head>
 				<lg rendition="#i">
 					<l n="1">
 						<hi rendition="#sc"> Daughter </hi> in spirit elect and consecrate </l>
@@ -1946,7 +1947,7 @@
 				<l n="659"> Flame round the bent brows of Semiramis </l>
 				<l n="660" rendition="#ti-1"> Re-risen, and mightier, from the Assyrian dead,</l>
 				<note xml:id="note_25f2e" resp="#acs">
-					<cit rendition="#small #block">
+					<cit rendition="#block">
 						<quote>
 							<lg rend="margin-bottom:0;">
 								<l><ref rendition="#super" >1</ref>Thy lifelong works, Napoleon, who shall write? </l>
@@ -2143,7 +2144,7 @@
 				<head rendition="#center #uc">Notes</head>
 				<table>
 					<row role="data">
-						<cell rend="white-space:nowrap;" cols="1" rendition="#n #x-small" role="label" rows="1"> STANZA </cell>
+						<cell rend="white-space:nowrap;" cols="1" rendition="#n #uc" role="label" rows="1">Stanza </cell>
 						<cell cols="1" role="data" rows="1"/>
 					</row>
 					<row role="data">
@@ -2387,15 +2388,15 @@
       <titlePage type="full">
       	<pb n="41" facs="acs0000001-05-056"/>
         <docTitle>
-          <titlePart rendition="#center #uc" type="main">Grand Chorus of Birds <lb/><hi rendition="#small">from</hi>
+          <titlePart rendition="#center #uc" type="main">Grand Chorus of Birds <lb/>from
             <lb/><persName key="aristophanes">Aristophanes</persName></titlePart>
           <lb/>
-          <titlePart rendition="#center #small #i" type="sub">Attempted in English verse after the original
+          <titlePart rendition="#center #i" type="sub">Attempted in English verse after the original
             metre</titlePart>
         </docTitle>
       </titlePage>
     	<pb n="42" facs="acs0000001-05-057"/>
-      <div xml:id="preface002" rendition="#small #justify" rend="width:30em;" type="preface">
+      <div xml:id="preface002" rendition="#justify" rend="width:30em;" type="preface">
         <p> I <hi rendition="#sc">was</hi> allured into the audacity of this experiment by
           consideration of a fact which hitherto does not seem to have been taken into consideration
           by any translator of the half divine humourist in whose incomparable genius the highest
@@ -2432,7 +2433,7 @@
     <body>
       <head rendition="#center">THE BIRDS
         <lb/>
-        <cit rendition="#small">
+        <cit>
           <bibl><biblScope unit="line">(685-723)</biblScope></bibl>
         </cit>
       </head>
@@ -2516,7 +2517,7 @@
         <l n="38">That we <hi rendition="#sc">are</hi> to you all as the manifest godhead that speaks in prophetic
           <persName key="apollo">Apollo</persName>?</l>
       </lg>
-      <signed rendition="#indent #small #i">
+      <signed rendition="#indent #i">
         <date when="1880-10-19">October <hi rendition="#n">19, 1880</hi>.</date>
       </signed>
     </body>
@@ -3193,8 +3194,8 @@
 		<body>
 			<pb n="68" facs="acs0000001-05-083"/>
 			<head rendition="#center #uc">The Emperor's Progress</head>
-			<note place="inline" rendition="#center #uc #x-small">A Study in Three Stages</note>
-			<note place="inline" rendition="#center #x-small" rend="margin-top:1em;"> (On the Busts of <persName key="nero">Nero</persName> in the <orgName key="uffizi"><choice><sic>Uffizj</sic><corr resp="#jawalsh">Uffizi</corr></choice></orgName>.) </note>
+			<head rendition="#center #uc">A Study in Three Stages</head>
+			<head rendition="#center">(On the Busts of <persName key="nero">Nero</persName> in the <orgName key="uffizi"><choice><sic>Uffizj</sic><corr resp="#jawalsh">Uffizi</corr></choice></orgName>.) </head>
 			<lg n="I" type="sonnet">
 				<head rendition="#center">I</head>
 				<l n="1">A <hi rendition="#sc">child</hi> of brighter than the morning's birth</l>
@@ -3628,9 +3629,9 @@
 					<titlePart type="main">By the North Sea </titlePart>
 				</docTitle>
 			</titlePage>
-			<div xml:id="div00013" type="dedication" rendition="#x-small">
+			<div xml:id="div00013" type="dedication">
 				<pb n="84" facs="acs0000001-05-099"/>
-				<head rendition="#center">TO WALTER THEODORE WATTS</head>
+			    <head rendition="#center #uc">To Walter Theodore Watts</head>
 				<epigraph>
 					<cit rendition="#center">
 						<quote><l rendition="#inline">“We are what suns and winds and waters make us.”</l></quote><bibl rendition="#sc">—Landor.</bibl>
@@ -4476,7 +4477,7 @@
                 		
                     <pb n="113" facs="acs0000001-05-128"/>
             <head rendition="#center #uc">Dedication</head>
-            <head rendition="#x-small #center #uc">to</head>
+            <head rendition="#center #uc">to</head>
             <head rendition="#center #uc">Christina G. Rossetti</head>
             <lg>
                 <l n="1"><hi rendition="#sc">Songs</hi> light as these may sound, though deep and strong</l>
@@ -6326,7 +6327,7 @@
                 		<body>
                 			<pb n="174" facs="acs0000001-05-189"/>
                 			<head rendition="#center #uc">On an Old Roundel</head>
-                			<head rendition="#center #small">Translated by D. G. Rossetti from the French of Villon.</head>
+                			<head rendition="#center">Translated by D. G. Rossetti from the French of Villon.</head>
                 			<div n="I">
                 				<head rendition="#center">I</head>
                 				<lg>
@@ -6681,7 +6682,7 @@
                 		<body>
                 			<pb n="188" facs="acs0000001-05-203"/>
                 			<head rendition="#center #uc">In Guernsey</head>
-                			<head rendition="#center #uc #x-small">To Theodore Watts</head>
+                			<head rendition="#center #uc">To Theodore Watts</head>
                 			<div n="I">
                 				<head rendition="#center">I</head>
                 				<lg>
@@ -6890,7 +6891,7 @@
             <titlePage>
                 <!-- Page break for page 194 missing. -->
             	<pb n="[195]" facs="acs0000001-05-210"/>
-            	<docTitle rendition="#large #uc #center"><titlePart>Athens: An Ode</titlePart></docTitle>
+            	<docTitle rendition="#uc #center"><titlePart>Athens: An Ode</titlePart></docTitle>
             </titlePage>
         	<pb n="[196]" facs="acs0000001-05-211"/>
         </front>
@@ -6898,7 +6899,7 @@
 
         	<pb n="197" facs="acs0000001-05-212"/>
             <head rendition="#center #uc">Athens</head>
-            <head rendition="#center #x-small #uc">An Ode</head>
+            <head rendition="#center #uc">An Ode</head>
             <lg>
 
 
@@ -7288,7 +7289,7 @@
 <l n="299">Blest are they whom song has crowned and clothed with blessing: these as we,</l>
 <l n="300">These alone have part in spirit with the sun that crowns the sea.</l>
 </lg>
-<signed rendition="#i #small #indent">
+<signed rendition="#i #indent">
 	<date when="1881-04">April <hi rendition="#n">1881.</hi></date>
 </signed>
         </body>
@@ -7441,10 +7442,10 @@
                 <l n="75">While men's labour, vain as wind or water turning</l>
                 <l rendition="#ti-1" n="76">Wheels and sails of dreams, makes life a leafless
                     bough,</l>
-            	<note xml:id="de15f0068" xml:lang="fr" n="1" rendition="#block #x-small" rend="margin-left:5em;">
+            	<note xml:id="de15f0068" xml:lang="fr" n="1" rendition="#block" rend="margin-left:5em;">
             		<ref rendition="#super">1</ref><title>La
             		Pitié Suprême</title>. 1879. </note>
-            	<note xml:id="d1ef20068" xml:lang="fr" n="2" rendition="#block #x-small" rend="margin-left:5em;">
+            	<note xml:id="d1ef20068" xml:lang="fr" n="2" rendition="#block" rend="margin-left:5em;">
             		<ref rendition="#super">2</ref><title>Religions et Religion</title>.
             		1880. </note>
             	<pb n="219" facs="acs0000001-05-234"/>
@@ -7480,9 +7481,9 @@
                     praise,</l>
                 <l n="91">March of warrior songs in Pythian mood or Pyrrhic,</l>
                 <l rendition="#ti-1" n="92">Though the blast were blown by lips of ancient days,</l>
-            	<note xml:id="d1ef07068" xml:lang="fr" n="1" rendition="#block #x-small" rend="margin-left:5em;"><ref rendition="#super">1</ref>
+            	<note xml:id="d1ef07068" xml:lang="fr" n="1" rendition="#block" rend="margin-left:5em;"><ref rendition="#super">1</ref>
             		<title>L'Ane</title>. 1880. </note>
-            	<note xml:id="de17f3068" xml:lang="fr" n="2" rendition="#block #x-small" rend="margin-left:5em; width:30em;"><ref rendition="#super">2</ref>
+            	<note xml:id="de17f3068" xml:lang="fr" n="2" rendition="#block" rend="margin-left:5em; width:30em;"><ref rendition="#super">2</ref>
             		<title>Les Quatre Vents de l'Esprit</title>. I. <title>Le Livre
             			satirique</title>. II. <title>Le Livre dramatique</title>. III. <title>Le
             				Livre lyrique</title>. IV. <title>Le Livre épique</title>. 1881. </note>
@@ -7523,7 +7524,7 @@
                 <l rendition="#ti-1" n="112">On the lip that scorn was wont for shame to curl.<ref target="#d1eff0068" rendition="#super">1</ref></l>
             </lg>
         	</div>
-        	<note xml:id="d1eff0068" xml:lang="fr" n="1" rendition="#block #x-small" rend="margin-left:5em; width:30em;"><ref rendition="#super">1</ref>
+        	<note xml:id="d1eff0068" xml:lang="fr" n="1" rendition="#block" rend="margin-left:5em; width:30em;"><ref rendition="#super">1</ref>
         		<title>Les Deux Trouvailles de Gallus</title>. I. <title>Margarita,
         			comédie</title>. II. <title>Esca, drame</title>. </note>
         	<pb n="221" facs="acs0000001-05-236"/>
@@ -7606,7 +7607,7 @@
                     roar.</l>
             </lg>
         	</div>
-        	<note xml:id="d1ec21068" xml:lang="fr" n="1" rendition="#block #x-small" rend="margin-left:5em;">
+        	<note xml:id="d1ec21068" xml:lang="fr" n="1" rendition="#block" rend="margin-left:5em;">
         		<cit rendition="#block">
         			<quote>
         				<l><ref rendition="#super">1</ref>Je suis une hirondelle étrange, car j'émigre</l>
@@ -7751,7 +7752,7 @@
     			<body>
     				<pb n="228" facs="acs0000001-05-243"/>
     				<head rendition="#center #uc">After Sunset</head>
-    				<epigraph xml:lang="la" rendition="#center #small">
+    				<epigraph xml:lang="la" rendition="#center">
     					<quote rendition="#sq">Si quis piorum Manibus locus.</quote>
     				</epigraph>
     				<lg>
@@ -7859,7 +7860,7 @@
     					<l rendition="#ti-1" n="13">Some happier island in the Elysian sea</l>
     					<l rendition="#ti-1" n="14">Where Rab may lick the hand of Marjorie.</l>
     				</lg>
-    				<signed rendition="#i #indent #small"><date when="1882-03">March <hi rendition="#n">1882</hi>.</date></signed>
+    				<signed rendition="#i #indent"><date when="1882-03">March <hi rendition="#n">1882</hi>.</date></signed>
     			</body>
     			
     		</text>
@@ -7885,7 +7886,7 @@
     					<l n="13">Now seventy strenuous years have crowned my friend,</l>
     					<l rendition="#ti-1" n="14">Shines no less bright his full-sheaved harvest-home.</l>
     				</lg>
-    				<signed rendition="#i #indent #small"><date when="1882-04-20">April 20, <hi rendition="#n">1882</hi></date>.</signed>
+    				<signed rendition="#i #indent"><date when="1882-04-20">April 20, <hi rendition="#n">1882</hi></date>.</signed>
     			</body>
     		</text>
     		<text xml:id="acs0000001-05-i075" type="poem">
@@ -7910,7 +7911,7 @@
     					<l rendition="#ti-1" n="13">Requickened to regenerate resurrection</l>
     					<l rendition="#ti-2" n="14">Out of the likeness of the shadow of death.</l>
     				</lg>
-    				<signed rendition="#i #indent #small">
+    				<signed rendition="#i #indent">
     					<date when="1882-04">April <hi rendition="#n">1882</hi></date>.
     				</signed>
     			</body>
@@ -8121,7 +8122,7 @@
     					<l rendition="#ti-1" n="27">And made the now more hallowed name of Luke</l>
     					<l rendition="#ti-2" n="28">Memorial to us of morning left behind.</l>
     				</lg>
-    				<signed rendition="#i #indent #small">
+    				<signed rendition="#i #indent">
     					<date when="1881-05">May <hi rendition="#n">1881</hi>.</date>
     				</signed>
     			</body>
@@ -8133,7 +8134,7 @@
     			<body>
     				<pb n="243" facs="acs0000001-05-258"/>
     				<head rendition="#center #uc">Dysthanatos</head>
-    				<epigraph rend="padding-left: 4em;" rendition="#i #small" xml:lang="la">
+    				<epigraph rend="padding-left: 4em;" rendition="#i" xml:lang="la">
     					<l>Ad generem Cereris sine cœde et vulnere pauci</l>
     					<l rendition="#ti-1">Descendunt reges, aut siccâ morte tyranni.</l>
     				</epigraph>
@@ -8154,7 +8155,7 @@
     						<q next="#e14f1082">In bloodless pangs few kings yield up their breath,</q></l>
     					<l rendition="#ti-1" n="14"><q prev="#e14f0082">Few tyrants perish by no violent death.</q></l>
     				</lg>
-    				<signed rendition="#small #indent">
+    				<signed rendition="#indent">
     					<date when="1881-03-14"><hi rendition="#i">March</hi> 14, 1881.</date>
     				</signed>
     			</body>
@@ -8183,7 +8184,7 @@
     				<l n="12">Blind murder cowers before it, knowing that here</l>
     				<l rendition="#ti-1" n="13">No braver soul drew bright and queenly breath</l>
     				<l rendition="#ti-1" n="14">Since England wept upon Elizabeth.</l>
-    				<signed rendition="#small" rend="margin-top:1em;">
+    				<signed rend="margin-top:1em;">
     					<date when="1882-03-08"><hi rendition="#i">March</hi> 8, 1882</date>.
     				</signed>            
     			</body>
@@ -8210,7 +8211,7 @@
     					<l n="13">Say, was not this thy Passion, to foreknow</l>
     					<l rendition="#ti-1" n="14">In death's worst hour the works of Christian men?</l>
     				</lg>
-    				<signed rendition="#small #indent">
+    				<signed rendition="#indent">
     					<date when="1882-01-23"><hi rendition="#i">January</hi> 23, 1882.</date>
     				</signed>
     			</body>
@@ -8237,7 +8238,7 @@
     					<l n="12">And more intolerably humiliated,</l>
     					<l rendition="#ti-1" n="13">The neck submissive of the prosperous foe,</l>
     					<l rendition="#ti-1" n="14">Than his whom scorn saw shuddering in the snow!</l>
-    					<signed rendition="#small" rend="margin-top:1em;">
+    					<signed rend="margin-top:1em;">
     						<date when="1881-12-31"><hi rendition="#i">December</hi> 31, 1881</date>.
     					</signed>
     				</lg>
@@ -8285,7 +8286,7 @@
     						<l n="27">For thy sake downward? What art thou, to think</l>
     						<l rendition="#ti-1" n="28">Thy God shall give thee back for birthright Rome?</l>
     					</lg>
-    					<signed rendition="#small" rend="margin-top:1em;">
+    					<signed rend="margin-top:1em;">
     						<date when="1882-01"><hi rendition="#i">January</hi> 1882</date>.
     					</signed>
     				</lg>
@@ -8314,7 +8315,7 @@
     					<l n="12">But union only of trust and loving heart</l>
     					<l rendition="#ti-1" n="13">And perfect faith in freedom strong to abide</l>
     					<l rendition="#ti-1" n="14">And spirit at one with spirit on either side.</l>
-    					<signed rendition="#small" rend="margin-top:1em;">
+    					<signed rend="margin-top:1em;">
     						<date when="1882-04-03"><hi rendition="#i">April</hi> 3, 1882.</date>
     					</signed>
     				</lg>
@@ -8456,7 +8457,7 @@
     					<l rendition="#ti-1" n="62">Toward souls by none confined,</l>
     					<l n="63">Could Death's self quench or blind, Love's self were dead.</l>
     				</lg>
-    				<signed rendition="#indent #small"><date when="1881-02-04"><hi rendition="#i">February</hi> 4, 1881.</date></signed>
+    				<signed rendition="#indent"><date when="1881-02-04"><hi rendition="#i">February</hi> 4, 1881.</date></signed>
     			</body>
     		</text>
         	<text xml:id="acs0000001-05-i090" type="poem">
@@ -8891,7 +8892,7 @@
     			<body>
     				<pb n="267" facs="acs0000001-05-282"/>
     				<head rendition="#center #uc">Twins</head>
-    				<div type="dedication" rendition="#sc #center #small">
+    				<div type="dedication" rendition="#sc #center">
     					<p>
     						Affectionately inscribed to W. M. R. and L. R.
     					</p>
@@ -9056,7 +9057,7 @@
     						<l rendition="#ti-1" n="120">Now seems too divine.</l>
     					</lg>
     				</div>
-    				<signed rendition="#indent #small">
+    				<signed rendition="#indent">
     					<date when="1881-04-28"><hi rendition="#i">April</hi> 28, 1881.</date>
     				</signed>
     			</body>
@@ -9273,7 +9274,7 @@
     					<l n="63">Whose hand is as the hand of May</l>
     					<l rendition="#ti-1" n="64">To bring us flowers from eight full years.</l>
     				</lg>
-    				<signed rendition="#indent #small">
+    				<signed rendition="#indent">
     					<date when="1882-02-04"><hi rendition="#i">February</hi> 4, 1882.</date>
     				</signed>
     			</body>
@@ -9565,7 +9566,7 @@
     				
     				<pb n="287" facs="acs0000001-05-302"/>
     				<head rendition="#center #uc">A Child's Battles</head>
-    				<epigraph rendition="#small #center">
+    				<epigraph>
     					<cit><quote rendition="#nq" xml:lang="gr">πὺξ ἀπετὰν εὑρών.</quote><bibl>—<author rendition="#sc">Pindar</author>.</bibl></cit>
     				</epigraph>
     				<lg>
@@ -10120,7 +10121,7 @@
     				</lg>
     			</body>
     			<back>
-    				<div type="notes" rendition="#small" rend="margin-left: 4em;">
+    				<div type="notes" rend="margin-left: 4em;">
     					<note xml:id="de1230116" rendition="#block" resp="#acs" n="1"><ref rendition="#super">1</ref>Author of <title>The Hog hath lost his Pearl</title>.</note>
     					<note xml:id="de1231116" rendition="#block" resp="#acs" n="2"><ref rendition="#super">2</ref>Author of <title>Fuimus Troes, or the True Trojans</title>.</note>
     					<note xml:id="de1232116" rendition="#block" resp="#acs" n="3"><ref rendition="#super">3</ref>Author of <title>Two Tragedies in One</title>.</note>
@@ -10278,7 +10279,7 @@
     				</lg>
     			</body>
     			<back>
-    				<div type="notes" rendition="#small">
+    				<div type="notes">
     					<note xml:id="de1001122" n="1" rendition="#inline" resp="#acs"><ref rendition="#super">1</ref><title>Doctor Dodypol</title>.</note>
     					<note xml:id="de1002122" n="2" rendition="#inline #indent" resp="#acs"><ref rendition="#super">2</ref><title>Nobody and Somebody</title>.</note>
     				</div>
@@ -10318,7 +10319,7 @@
     				</lg>
     			</body>
     			<back>
-    				<div type="notes" rendition="#small" rend="margin-left: 4em;">
+    				<div type="notes" rend="margin-left: 4em;">
     					<note rendition="#block" xml:id="e17f1123" n="1" resp="#acs">
     						<ref rendition="#super">1</ref><title>A Warning for Fair Women</title>.
     					</note>
@@ -10344,7 +10345,7 @@
     			<body>
     				<pb n="315" facs="acs0000001-05-330"/>
     				<head rendition="#center #uc">XIX<lb/>The Many</head>
-    				<head rendition="#center #small">I</head>
+    				<head rendition="#center">I</head>
     				<lg>
     					<l n="1"><hi rendition="#sc">Greene</hi>, garlanded with February's few flowers,</l>
     					<l rendition="#ti-1" n="2">Ere March came in with Marlowe's rapturous rage:</l>
@@ -10369,7 +10370,7 @@
     			<body>
     				<pb n="316" facs="acs0000001-05-331"/>
     				<head rendition="#center #uc">XX<lb/>The Many</head>
-    				<head rendition="#center #small">II</head>
+    				<head rendition="#center">II</head>
     				<lg>
     					<l n="1"><hi rendition="#sc">Haughton</hi>, whose mirth gave woman all her will:</l>
     					<l rendition="#ti-1" n="2">Field, bright and loud with laughing flower and bird</l>
@@ -10424,7 +10425,7 @@
         	<head rendition="#center #uc">A Dark Month</head>
         	<epigraph>
         		<pb n="[320]" facs="acs0000001-05-335"/>
-        		<cit rendition="#center #x-small">
+        		<cit rendition="#center">
         			<quote>La maison sans enfants!</quote><bibl>—<author rendition="#sc">Victor Hugo</author>.</bibl></cit>
         	</epigraph>
         	
@@ -11607,7 +11608,7 @@
         	<pb n="358" facs="acs0000001-05-373"/>
             <div>
                 <head rendition="#center">XXVI</head>
-                <epigraph rendition="#x-small">
+                <epigraph>
                     <l>
                         <q next="#e1fd4127">In his bright radiance and collateral
                             light</q>
@@ -12070,7 +12071,7 @@
             <head xml:id="d1e440131" rendition="#center #uc">I<lb xml:id="d1e442131"/>At the
                 Piano</head>
             <lg xml:id="d1e445131">
-                <head xml:id="d1e447131" rendition="#center #small">I</head>
+                <head xml:id="d1e447131" rendition="#center">I</head>
                 <l xml:id="d1e450131" n="1"><hi xml:id="d1e451131" rendition="#sc">Love</hi> me and leave me; what love bids retrieve
                         me? can June's fist grasp May?</l>
 
@@ -12080,7 +12081,7 @@
                         storm's play!</l>
             </lg>
             <lg xml:id="d1e462131">
-                <head xml:id="d1e464131" rendition="#center #small">II</head>
+                <head xml:id="d1e464131" rendition="#center">II</head>
                 <l xml:id="d1e467131" n="4">Nay, say Decay's self be but last May's elf, wing shifted, eye
                         sheathed— </l>
                 <l xml:id="d1e470131" n="5">Changeling in April's crib rocked, who lets 'scape rills locked fast
@@ -12089,7 +12090,7 @@
                         frost bequeathed?</l>
             </lg>
             <lg xml:id="d1e477131">
-                <head xml:id="d1e479131" rendition="#center #small">III</head>
+                <head xml:id="d1e479131" rendition="#center">III</head>
                 <l xml:id="d1e482131" n="7">Ah, how can fear sit and hear as love hears it grief's heart's cracked
                         grate's screech?</l>
                 <l xml:id="d1e485131" n="8">Chance lets the gate sway that opens on hate's way and shews on shame's
@@ -12099,7 +12100,7 @@
             </lg>
             <pb n="376" facs="acs0000001-05-391"/>
             <lg xml:id="d1e495131">
-                <head xml:id="d1e497131" rendition="#center #small">IV</head>
+                <head xml:id="d1e497131" rendition="#center">IV</head>
                 <l xml:id="d1e500131" n="10">Time feels his tooth slip on husks wet from Truth's lip, which drops
                         them and grins— </l>
                 <l xml:id="d1e503131" n="11">Shells where no throb stirs of life left in lobsters since joy
@@ -12108,7 +12109,7 @@
                         sins!</l>
             </lg>
             <lg xml:id="d1e510131">
-                <head xml:id="d1e512131" rendition="#center #small">V</head>
+                <head xml:id="d1e512131" rendition="#center">V</head>
                 <l xml:id="d1e515131" n="13">Years blind and deaf use the soul's joys as refuse, heart's peace as
                         manure,</l>
                 <l xml:id="d1e518131" n="14">Reared whence, next June's rose shall bloom where our moons rose last
@@ -12117,7 +12118,7 @@
                         stink's cure.</l>
             </lg>
             <lg xml:id="d1e525131">
-                <head xml:id="d1e527131" rendition="#center #small">VI</head>
+                <head xml:id="d1e527131" rendition="#center">VI</head>
                 <l xml:id="d1e530131" n="16">Leaves love last year smelt now feel dead love's tears melt—flies
                         caught in time's mesh!</l>
                 <l xml:id="d1e533131" n="17">Salt are the dews in which new time breeds new sin, brews blood and
@@ -12126,7 +12127,7 @@
                         afresh.</l>
             </lg>
             <lg xml:id="d1e540131">
-                <head xml:id="d1e542131" rendition="#center #small">VII</head>
+                <head xml:id="d1e542131" rendition="#center">VII</head>
                 <l xml:id="d1e545131" n="19">Old times left perish, there's new time to cherish; life just shifts
                         its tune;</l>
                 <l xml:id="d1e548131" n="20">As, when the day dies, earth, half afraid, eyes the growth of the
@@ -12139,7 +12140,7 @@
             <head xml:id="d1e560131" rendition="#center #uc">II<lb xml:id="d1e562131"/>By the
                 Cliff</head>
             <lg xml:id="d1e565131">
-                <head xml:id="d1e566131" rendition="#center #small">I</head>
+                <head xml:id="d1e566131" rendition="#center">I</head>
                 <l xml:id="d1e569131" n="22">Is it daytime (guess),</l>
                 <l xml:id="d1e572131" rendition="#ti-1" n="23">You that feed my soul</l>
                 <l xml:id="d1e575131" rendition="#ti-2" n="24">To excess</l>
@@ -12149,7 +12150,7 @@
                 <l xml:id="d1e588131" rendition="#ti-2" n="28">No or yes?</l>
             </lg>
             <lg xml:id="d1e592131">
-                <head xml:id="d1e593131" rendition="#center #small">II</head>
+                <head xml:id="d1e593131" rendition="#center">II</head>
                 <l xml:id="d1e596131" n="29">Oh, the end, I'd say!</l>
                 <l xml:id="d1e599131" rendition="#ti-1" n="30">Such a foolish thing</l>
                 <l xml:id="d1e602131" rendition="#ti-2" n="31">
@@ -12162,7 +12163,7 @@
                 <l xml:id="d1e615131" rendition="#ti-2" n="35">Not to-day.</l>
             </lg>
             <lg xml:id="d1e619131">
-                <head xml:id="d1e620131" rendition="#center #small">III</head>
+                <head xml:id="d1e620131" rendition="#center">III</head>
                 <l xml:id="d1e623131" n="36">Look, the whole sand crawls,</l>
                 <l xml:id="d1e626131" rendition="#ti-1" n="37">Hums, a heaving hive,</l>
                 <l xml:id="d1e629131" rendition="#ti-2" n="38">Scrapes and scrawls—
@@ -12175,7 +12176,7 @@
                 <l xml:id="d1e644131" rendition="#ti-2" n="42">But life palls.</l>
             </lg>
             <lg xml:id="d1e648131">
-                <head xml:id="d1e649131" rendition="#center #small">IV</head>
+                <head xml:id="d1e649131" rendition="#center">IV</head>
                 <l xml:id="d1e652131" n="43">Yes, my heart, I know,</l>
                 <l xml:id="d1e655131" rendition="#ti-1" n="44">Just my heart's stone dead—
 		</l>
@@ -12187,7 +12188,7 @@
                 <l xml:id="d1e671131" rendition="#ti-2" n="49">Let them go.</l>
             </lg>
             <lg xml:id="d1e676131">
-                <head xml:id="d1e677131" rendition="#center #small">V</head>
+                <head xml:id="d1e677131" rendition="#center">V</head>
                 <l xml:id="d1e680131" n="50">Yes, but you now, look,</l>
                 <l xml:id="d1e683131" rendition="#ti-1" n="51">You, the rouged stage female</l>
                 <l xml:id="d1e686131" rendition="#ti-2" n="52">With a crook,</l>
@@ -12203,7 +12204,7 @@
             <head xml:id="d1e709131" rendition="#center #uc">III<lb xml:id="d1e711131"/>On the
                 Sands</head>
             <lg xml:id="d1e714131">
-                <head xml:id="d1e715131" rendition="#center #small">I</head>
+                <head xml:id="d1e715131" rendition="#center">I</head>
                 <l xml:id="d1e718131" n="57">
 			<hi xml:id="d1e720131" rendition="#sc">
 				There
@@ -12218,7 +12219,7 @@
                 <l xml:id="d1e733131" n="61">When the boat's hauled up—<q xml:id="d1e735131" rendition="#dq">by your leave!</q></l>
             </lg>
             <lg xml:id="d1e739131">
-                <head xml:id="d1e740131" rendition="#center #small">II</head>
+                <head xml:id="d1e740131" rendition="#center">II</head>
                 <l xml:id="d1e743131" n="62">So—well! How that crab writhes—leg after leg</l>
                 <l xml:id="d1e746131" rendition="#ti-1" n="63">Drawn, as a worm draws ring upon ring</l>
                 <l xml:id="d1e749131" n="64">Gradually, not gladly! Chicken or egg,</l>
@@ -12227,7 +12228,7 @@
 			(Take my meaning at least) that I beg?</l>
             </lg>
             <lg xml:id="d1e759131">
-                <head xml:id="d1e760131" rendition="#center #small">III</head>
+                <head xml:id="d1e760131" rendition="#center">III</head>
                 <l xml:id="d1e763131" n="67">Not so! You were ready to learn, I think,</l>
                 <l xml:id="d1e766131" rendition="#ti-1" n="68">What the world said! <q next="#d1e773131" xml:id="d1e768131" rendition="#dq">He loves you too well (suppose)</q>
 		</l>
@@ -12239,7 +12240,7 @@
             </lg>
             <pb n="380" facs="acs0000001-05-395"/>
             <lg xml:id="d1e790131">
-                <head xml:id="d1e791131" rendition="#center #small">IV</head>
+                <head xml:id="d1e791131" rendition="#center">IV</head>
                 <l xml:id="d1e794131" n="72">
                 	<q prev="#d1e783131" next="#d1e800131" xml:id="d1e796131" rendition="#dq">Ah, the instance! A curl of a blossomless vine</q></l>
                 <l xml:id="d1e799131" rendition="#ti-1" n="73"><q next="#d1e804131" prev="#d1e796131" xml:id="d1e800131" rendition="#dq">The vinedresser passing it sickens to see</q></l>
@@ -12249,7 +12250,7 @@
 		</l>
             </lg>
             <lg xml:id="d1e821131">
-                <head xml:id="d1e822131" rendition="#center #small">V</head>
+                <head xml:id="d1e822131" rendition="#center">V</head>
                 <l xml:id="d1e825131" n="77">
 			<q prev="#d1e815131" next="#d1e832131" xml:id="d1e827131" rendition="#dq"><q prev="#d1e816131" next="#d1e833131" xml:id="d1e828131" rendition="#sq">His wine that should glorify (saith He) the cup</q></q></l>
                 <l xml:id="d1e831131" rendition="#ti-1" n="78"><q next="#d1e838131" prev="#d1e827131" xml:id="d1e832131" rendition="#dq"><q xml:id="d1e833131" next="#d1e839131" prev="#d1e828131" rendition="#sq">That a man beholding (not tasting) might say</q></q></l>
@@ -12260,7 +12261,7 @@
                 <l xml:id="d1e850131" n="81"><q next="#d1e863131" prev="#d1e844131" xml:id="d1e851131" rendition="#dq"><q xml:id="d1e852131" prev="#d1e845131" next="#d1e864131" rendition="#sq"><q xml:id="d1e853131" rendition="#dq" prev="#d1e846131">Save the bitch, and be hanged to the pup!</q></q></q></l>
             </lg>
             <lg xml:id="d1e857131">
-                <head xml:id="d1e858131" rendition="#center #small">VI</head>
+                <head xml:id="d1e858131" rendition="#center">VI</head>
                 <l xml:id="d1e861131" n="82"><q prev="#d1e851131" next="#d1e869131" xml:id="d1e863131" rendition="#dq"><q xml:id="d1e864131" rendition="#sq" prev="#d1e852131">Let it rot then!</q> which saying, he leaves it—we'll guess,</q></l>
                 <l xml:id="d1e868131" rendition="#ti-1" n="83"><q prev="#d1e863131" next="#d1e85f131" xml:id="d1e869131" rendition="#dq">Feels (if the sap move at all) thus much—</q></l>
                 <l xml:id="d1e872131" n="84"><q xml:id="d1e85f131" prev="#d1e869131" next="#d1e876131">Yearns, and would blossom, would quicken no less,</q></l>
@@ -12268,7 +12269,7 @@
                 <l xml:id="d1e879131" n="86"><q next="#d1e894131" prev="#d1e876131" xml:id="d1e880131" rendition="#dq"><q xml:id="d1e881131" rendition="#sq">Die, perhaps, would you not, for her?</q>—<q xml:id="d1e884131" rendition="#sq">Yes!</q></q></l>
             </lg>
             <lg xml:id="d1e888131">
-                <head xml:id="d1e889131" rendition="#center #small">VII</head>
+                <head xml:id="d1e889131" rendition="#center">VII</head>
                 <l xml:id="d1e892131" n="87">
 			<q next="#d1e898131" prev="#d1e880131" xml:id="d1e894131" rendition="#dq">Note the hitch there! That's piteous—so much being done,</q></l>
                 <l xml:id="d1e897131" rendition="#ti-1" n="88"><q next="#d1e902131" prev="#d1e894131" xml:id="d1e898131" rendition="#dq">(He'll think some day, your lover) so little to do!</q></l>
@@ -12278,7 +12279,7 @@
             </lg>
             <pb n="381" facs="acs0000001-05-396"/>
             <lg xml:id="d1e916131">
-                <head xml:id="d1e917131" rendition="#center #small">VIII</head>
+                <head xml:id="d1e917131" rendition="#center">VIII</head>
                 <l xml:id="d1e920131" n="92">Oh, no doubt they had said so, your friends—been profuse</l>
                 <l xml:id="d1e923131" rendition="#ti-1" n="93">Of good counsel, wise hints—<q next="#d1e929131" xml:id="d1e925131" rendition="#dq">where the trap lurks, walk warily—</q></l>
                 <l xml:id="d1e928131" n="94"><q next="#d1e933131" prev="#d1e925131" xml:id="d1e929131" rendition="#dq">Squeeze the fruit to the core ere you count on the juice!</q></l>
@@ -12286,7 +12287,7 @@
                 <l xml:id="d1e936131" n="96">You were cautious, God knows—to what use?</l>
             </lg>
             <lg xml:id="d1e941131">
-                <head xml:id="d1e942131" rendition="#center #small">IX</head>
+                <head xml:id="d1e942131" rendition="#center">IX</head>
                 <l xml:id="d1e945131" n="97">This crab's wiser, it strikes me—no twist but implies life—
 		</l>
                 <l xml:id="d1e948131" rendition="#ti-1" n="98">Not a curl but's so fit you could find none fitter—
@@ -12297,7 +12298,7 @@
                 <l xml:id="d1e957131" n="101">Laughing lightly,—my crab's life's the wise life!</l>
             </lg>
             <lg xml:id="d1e961131">
-                <head xml:id="d1e962131" rendition="#center #small">X</head>
+                <head xml:id="d1e962131" rendition="#center">X</head>
                 <l xml:id="d1e965131" n="102">Those who've read S. T. Coleridge remember how Sammy sighs</l>
                 <l xml:id="d1e968131" rendition="#ti-1" n="103">To his pensive (I think he says) Sara—<q xml:id="d1e970131" rendition="#dq">most soothing-sweet</q>—
 		</l>
@@ -12307,7 +12308,7 @@
             </lg>
             <pb n="382" facs="acs0000001-05-397"/>
             <lg xml:id="d1e986131">
-                <head xml:id="d1e987131" rendition="#center #small">XI</head>
+                <head xml:id="d1e987131" rendition="#center">XI</head>
                 <l xml:id="d1e990131" n="107">Crab's content with crab's provender: crab's love, if soothing,</l>
                 <l xml:id="d1e993131" rendition="#ti-1" n="108">Is no sweeter than pincers are soft—and a new sickle</l>
                 <l xml:id="d1e996131" n="109">Cuts no sharper than crab's claws nip, keen as boar's toothing!</l>
@@ -12317,7 +12318,7 @@
 			'Tis a new thing I'd lilt—but a true thing.</l>
             </lg>
             <lg xml:id="d1e1006131">
-                <head xml:id="d1e1007131" rendition="#center #small">XII</head>
+                <head xml:id="d1e1007131" rendition="#center">XII</head>
                 <l xml:id="d1e1010131" n="112">Old songs tell us, of all drinks for Englishmen fighting, ale's</l>
                 <l xml:id="d1e1013131" rendition="#ti-1" n="113">Out and out best: salt water contents crab, it seems to me,</l>
                 <l xml:id="d1e1016131" n="114">Though pugnacious as sailors, and skilled to steer right in gales</l>
@@ -12325,7 +12326,7 @@
                 <l xml:id="d1e1024131" n="116">In such love-strains as mine—or a nightingale's.</l>
             </lg>
             <lg xml:id="d1e1028131">
-                <head xml:id="d1e1029131" rendition="#center #small">XIII</head>
+                <head xml:id="d1e1029131" rendition="#center">XIII</head>
                 <l xml:id="d1e1032131" n="117">Ah, now, look you—tail foremost, the beast sets seaward—
 		</l>
                 <l xml:id="d1e1035131" rendition="#ti-1" n="118">The sea draws it, sand sucks it—he's wise, my crab!</l>
@@ -12335,7 +12336,7 @@
             </lg>
             <pb n="383" facs="acs0000001-05-398"/>
             <lg xml:id="d1e1051131">
-                <head xml:id="d1e1052131" rendition="#center #small">XIV</head>
+                <head xml:id="d1e1052131" rendition="#center">XIV</head>
                 <l xml:id="d1e1055131" n="122">Trust me? Hardly! I bid you not lean (remark)
 		</l>
                 <l xml:id="d1e1058131" rendition="#ti-1" n="123">On my spirit, your spirit—my flesh, your flesh—
@@ -12346,7 +12347,7 @@
                 <l xml:id="d1e1067131" n="126">With some blast of new bellows the spark!</l>
             </lg>
             <lg xml:id="d1e1071131">
-                <head xml:id="d1e1072131" rendition="#center #small">XV</head>
+                <head xml:id="d1e1072131" rendition="#center">XV</head>
                 <l xml:id="d1e1075131" n="127">By no means! This were easy (men tell me) to say—
 		</l>
                 <l xml:id="d1e1078131" rendition="#ti-1" n="128">
@@ -12358,7 +12359,7 @@
                 <l xml:id="d1e1091131" n="131">So let heaven do the worst now he may!</l>
             </lg>
             <lg xml:id="d1e1095131">
-                <head xml:id="d1e1096131" rendition="#center #small">XVI</head>
+                <head xml:id="d1e1096131" rendition="#center">XVI</head>
                 <l xml:id="d1e1099131" n="132">What they bid me? Well, this, nothing more—<q next="#d1e1107131" xml:id="d1e1101131" rendition="#dq">Tell her this—</q>
 		</l>
                 <l xml:id="d1e1105131" rendition="#ti-1" n="133">
@@ -12371,7 +12372,7 @@
             </lg>
             <pb n="384" facs="acs0000001-05-399"/>
             <lg xml:id="d1e1130131">
-                <head xml:id="d1e1131131" rendition="#center #small">XVII</head>
+                <head xml:id="d1e1131131" rendition="#center">XVII</head>
                 <l xml:id="d1e1134131" n="137">
 			<q next="#d1e1141131" prev="#d1e1123131" xml:id="d1e1136131" rendition="#dq">Then she breaks, she drops down, she lies flat at your feet—</q>
 		</l>
@@ -12381,7 +12382,7 @@
                 <l xml:id="d1e1151131" n="141">Oh, if contraries could but once meet!</l>
             </lg>
             <lg xml:id="d1e1156131">
-                <head xml:id="d1e1157131" rendition="#center #small">XVIII</head>
+                <head xml:id="d1e1157131" rendition="#center">XVIII</head>
                 <l xml:id="d1e1160131" n="142">Love you call it? Some twitch in the moon's face (observe),</l>
                 <l xml:id="d1e1163131" rendition="#ti-1" n="143">Wet blink of her eyelid, tear dropt about dewfall,</l>
                 <l xml:id="d1e1166131" n="144">Cheek flushed or obscured—does it make the sky swerve?</l>
@@ -12390,7 +12391,7 @@
                 <l xml:id="d1e1172131" n="146">Find what souls want and bodies deserve!</l>
             </lg>
             <lg xml:id="d1e1176131">
-                <head xml:id="d1e1177131" rendition="#center #small">XIX</head>
+                <head xml:id="d1e1177131" rendition="#center">XIX</head>
                 <l xml:id="d1e1180131" n="147">Ah, we know you! Your soul works to infinite ends,</l>
                 <l xml:id="d1e1183131" rendition="#ti-1" n="148">Frets, uses life up for death's sake, takes pains,</l>
                 <l xml:id="d1e1186131" n="149">Flings down love's self—<q next="#d1e1192131" xml:id="d1e1188131" rendition="#dq">but you, bear me witness, my friends!</q></l>
@@ -12399,7 +12400,7 @@
             </lg>
             <pb n="385" facs="acs0000001-05-400"/>
             <lg xml:id="d1e1202131">
-                <head xml:id="d1e1203131" rendition="#center #small">XX</head>
+                <head xml:id="d1e1203131" rendition="#center">XX</head>
                 <l xml:id="d1e1206131" n="152">What, you'd say—<q next="#d1e1212131" xml:id="d1e1208131" rendition="#dq">Mark how God works! Years crowd, time wears thin,</q></l>
                 <l xml:id="d1e1211131" rendition="#ti-1" n="153"><q next="#d1e1216131" prev="#d1e1208131" xml:id="d1e1212131" rendition="#dq">Earth keeps good yet, the sun goes on, stars hold their own,</q></l>
                 <l xml:id="d1e1215131" n="154"><q next="#d1e1220131" prev="#d1e1212131" xml:id="d1e1216131" rendition="#dq">And you'll change, climb past sight of the world, shift your skin,</q></l>
@@ -12408,7 +12409,7 @@
             </lg>
             <!-- stopped quotes here -->
             <lg xml:id="d1e1230131">
-                <head xml:id="d1e1231131" rendition="#center #small">XXI</head>
+                <head xml:id="d1e1231131" rendition="#center">XXI</head>
                 <l xml:id="d1e1234131" n="157"><q prev="#d1e1226131" xml:id="d1e1235131" rendition="#dq">Pleads with time still—<q xml:id="d1e1237131" rendition="#sq">what good if I lose this? but see—</q></q></l>
                 <l xml:id="d1e1240131" rendition="#ti-1" n="158">
 			(There's the crab gone!)<q xml:id="d1e1242131" rendition="#dq"><q xml:id="d1e1243131" rendition="#sq">I said, <q xml:id="d1e1245131" rendition="#dq">Though earth sinks,</q></q></q>(you perceive?</l>
@@ -12417,7 +12418,7 @@
                 <l xml:id="d1e1262131" n="161"><q next="#d1e1280131" prev="#d1e1257131" xml:id="d1e1263131" rendition="#dq"><q next="#d1e1281131" prev="#d1e1258131" xml:id="d1e1264131" rendition="#sq"><q next="#d1e1282131" prev="#d1e1259131" xml:id="d1e1265131" rendition="#dq">Through the life-springs where <soCalled xml:id="d1e1267131" rendition="#dq">you</soCalled> melts in <soCalled xml:id="d1e1270131" rendition="#dq">me</soCalled>)—</q></q></q></l>
             </lg>
             <lg xml:id="d1e1275131">
-                <head xml:id="d1e1276131" rendition="#center #small">XXII</head>
+                <head xml:id="d1e1276131" rendition="#center">XXII</head>
                 <l xml:id="d1e1279131" n="162"><q prev="#d1e1263131" next="#d1e1286131" xml:id="d1e1280131" rendition="#dq"><q next="#d1e1287131" prev="#d1e1264131" xml:id="d1e1281131" rendition="#sq"><q prev="#d1e1265131" next="#d1e1288131" xml:id="d1e1282131" rendition="#dq">Some true vein of the absolute soul, which survives</q></q></q></l>
                 <l xml:id="d1e1285131" rendition="#ti-1" n="163"><q next="#d1e1293131" prev="#d1e1280131" xml:id="d1e1286131" rendition="#dq"><q prev="#d1e1281131" next="#d1e1294131" xml:id="d1e1287131" rendition="#sq"><q prev="#d1e1282131" xml:id="d1e1288131" rendition="#dq">All that flesh runs to waste through</q>—and lo, this fails!</q></q></l>
                 <l xml:id="d1e1292131" n="164"><q next="#d1e1298131" prev="#d1e1286131" xml:id="d1e1293131" rendition="#dq"><q next="#d1e1299131" prev="#d1e1287131" xml:id="d1e1294131" rendition="#sq">Here's death close on us! One life? a million of lives!</q></q></l>
@@ -12426,7 +12427,7 @@
             </lg>
             <pb n="386" facs="acs0000001-05-401"/>
             <lg xml:id="d1e1311131">
-                <head xml:id="d1e1312131" rendition="#center #small">XXIII</head>
+                <head xml:id="d1e1312131" rendition="#center">XXIII</head>
                 <l xml:id="d1e1315131" n="167"><q prev="#d1e1303131" next="#d1e1322131" xml:id="d1e1316131" rendition="#dq"><q xml:id="d1e1317131" rendition="#sq">Stop life's ball then!</q> Such folly! melt earth down for that,</q></l>
                 <l xml:id="d1e1321131" rendition="#ti-1" n="168"><q next="#d1e1332131" prev="#d1e1316131" xml:id="d1e1322131" rendition="#dq">Till the pure ore eludes you and leaves you raw <choice xml:id="d1e1324131"><orig xml:id="d1e1325131">scoriæ</orig><reg xml:id="d1e1327131">scoriae</reg></choice>?</q></l>
                 <l xml:id="d1e1331131" n="169"><q prev="#d1e1322131" xml:id="d1e1332131" rendition="#dq">Pish, the vein's wrong!</q> But you, friends—come, what were you at</l>
@@ -12434,7 +12435,7 @@
                 <l xml:id="d1e1339131" n="171">Cut short thus, the growth He laid flat?</l>
             </lg>
             <lg xml:id="d1e1343131">
-                <head xml:id="d1e1344131" rendition="#center #small">XXIV</head>
+                <head xml:id="d1e1344131" rendition="#center">XXIV</head>
                 <l xml:id="d1e1347131" n="172">Wait! the crab's twice alive, mark! Oh, worthy, your soul,</l>
                 <l xml:id="d1e1350131" rendition="#ti-1" n="173">Of strange ends, great results, novel labours! Take note,</l>
                 <l xml:id="d1e1353131" n="174">I reject this for one! (ay, now, straight to the hole!</l>
@@ -12443,7 +12444,7 @@
                 <l xml:id="d1e1359131" n="176">I, shirk drinking through flaws in the bowl?</l>
             </lg>
             <lg xml:id="d1e1363131">
-                <head xml:id="d1e1364131" rendition="#center #small">XXV</head>
+                <head xml:id="d1e1364131" rendition="#center">XXV</head>
                 <l xml:id="d1e1367131" n="177">Or suppose now that rock's cleft—grim, scored to the quick,</l>
                 <l xml:id="d1e1370131" rendition="#ti-1" n="178">As a man's face kept fighting all life through gets scored,</l>
                 <l xml:id="d1e1373131" n="179">Mossed and marked with grey purulent leprosies, sick,</l>
@@ -12454,7 +12455,7 @@
             </lg>
             <pb n="387" facs="acs0000001-05-402"/>
             <lg xml:id="d1e1385131">
-                <head xml:id="d1e1386131" rendition="#center #small">XXVI</head>
+                <head xml:id="d1e1386131" rendition="#center">XXVI</head>
                 <l xml:id="d1e1389131" n="182">
 			—Say it let the rock's heart out, its meaning, the thing</l>
                 <l xml:id="d1e1392131" rendition="#ti-1" n="183">All was made for, devised, ruled out gradually, planned—
@@ -12466,7 +12467,7 @@
 		</l>
             </lg>
             <lg xml:id="d1e1406131">
-                <head xml:id="d1e1407131" rendition="#center #small">XXVII</head>
+                <head xml:id="d1e1407131" rendition="#center">XXVII</head>
                 <l xml:id="d1e1410131" n="187">Blame the cleft then? Praise rather! So—just a chance gone!</l>
                 <l xml:id="d1e1413131" rendition="#ti-1" n="188">Had you said—<q xml:id="d1e1415131" rendition="#dq">Save the seed and secure souls in flower</q>—
 		</l>
@@ -12480,7 +12481,7 @@
             <head xml:id="d1e1438131" rendition="#center #uc">IV<lb xml:id="d1e1440131"/>Up the
                 Spout</head>
             <lg xml:id="d1e1443131">
-                <head xml:id="d1e1444131" rendition="#center #small">I</head>
+                <head xml:id="d1e1444131" rendition="#center">I</head>
                 <l xml:id="d1e1447131" n="192">
 			<hi xml:id="d1e1449131" rendition="#sc">Hi!</hi> Just you drop that! Stop, I say!</l>
                 <l xml:id="d1e1453131" rendition="#ti-1" n="193">Shirk work, think slink off, twist friend's wrist?</l>
@@ -12491,7 +12492,7 @@
                 <l xml:id="d1e1462131" n="196">Promising—not to pay?</l>
             </lg>
             <lg xml:id="d1e1466131">
-                <head xml:id="d1e1467131" rendition="#center #small">II</head>
+                <head xml:id="d1e1467131" rendition="#center">II</head>
                 <l xml:id="d1e1470131" n="197">For the sea's debt leaves wet the sand;</l>
                 <l xml:id="d1e1473131" rendition="#ti-1" n="198">Burst worst fate's weights in one burst gun?</l>
                 <l xml:id="d1e1476131" n="199">A man's own yacht, blown—What? off land?</l>
@@ -12499,7 +12500,7 @@
                 <l xml:id="d1e1482131" n="201">Reef points, though—understand?</l>
             </lg>
             <lg xml:id="d1e1486131">
-                <head xml:id="d1e1487131" rendition="#center #small">III</head>
+                <head xml:id="d1e1487131" rendition="#center">III</head>
                 <l xml:id="d1e1490131" n="202">I'm blest if I do. Sigh? be blowed!</l>
                 <l xml:id="d1e1493131" rendition="#ti-1" n="203">Love's doves make break life's ropes, eh? Tropes!</l>
                 <l xml:id="d1e1496131" n="204">Faith's brig, baulked, sides caulked, rides at road;</l>
@@ -12509,7 +12510,7 @@
             </lg>
             <pb n="389" facs="acs0000001-05-404"/>
             <lg xml:id="d1e1509131">
-                <head xml:id="d1e1510131" rendition="#center #small">IV</head>
+                <head xml:id="d1e1510131" rendition="#center">IV</head>
                 <l xml:id="d1e1513131" n="207">Stowed, by Jove, right and tight, away!</l>
                 <l xml:id="d1e1516131" rendition="#ti-1" n="208">No show now how best plough sea's brow,</l>
                 <l xml:id="d1e1519131" n="209">Wrinkling—breeze quick, tease thick, ere day,</l>
@@ -12517,7 +12518,7 @@
                 <l xml:id="d1e1525131" n="211">With twinkling wrinkles—eh?</l>
             </lg>
             <lg xml:id="d1e1529131">
-                <head xml:id="d1e1530131" rendition="#center #small">V</head>
+                <head xml:id="d1e1530131" rendition="#center">V</head>
                 <l xml:id="d1e1533131" n="212">Sea sprinkles winkles, tinkles light</l>
                 <l xml:id="d1e1536131" rendition="#ti-1" n="213">Shell's bells—boy's joys that hap to snap!</l>
                 <l xml:id="d1e1539131" n="214">It's just sea's fun, breeze done, to spite</l>
@@ -12526,7 +12527,7 @@
                 <l xml:id="d1e1545131" n="216">Not proper, is it—quite?</l>
             </lg>
             <lg xml:id="d1e1549131">
-                <head xml:id="d1e1550131" rendition="#center #small">VI</head>
+                <head xml:id="d1e1550131" rendition="#center">VI</head>
                 <l xml:id="d1e1553131" n="217">See, fore and aft, life's craft undone!</l>
                 <l xml:id="d1e1556131" rendition="#ti-1" n="218">Crank plank, split spritsail—mark, sea's lark!</l>
                 <l xml:id="d1e1559131" n="219">That grey cold sea's old sprees, begun</l>
@@ -12534,7 +12535,7 @@
                 <l xml:id="d1e1565131" n="221">All water—just God's fun!</l>
             </lg>
             <lg xml:id="d1e1569131">
-                <head xml:id="d1e1570131" rendition="#center #small">VII</head>
+                <head xml:id="d1e1570131" rendition="#center">VII</head>
                 <l xml:id="d1e1573131" n="222">Not bright, at best, his jest to these</l>
                 <l xml:id="d1e1576131" rendition="#ti-1" n="223">Seemed—screamed, shrieked, wreaked on kin for sin!</l>
                 <l xml:id="d1e1579131" n="224">When for mirth's yell earth's knell seemed please</l>
@@ -12543,7 +12544,7 @@
             </lg>
             <pb n="390" facs="acs0000001-05-405"/>
             <lg xml:id="d1e1591131">
-                <head xml:id="d1e1592131" rendition="#center #small">VIII</head>
+                <head xml:id="d1e1592131" rendition="#center">VIII</head>
                 <l xml:id="d1e1595131" n="227">Could God's rods bruise God's Jews? Their jowls</l>
                 <l xml:id="d1e1598131" rendition="#ti-1" n="228">Bobbed, sobbed, gaped, aped the plaice in face:</l>
                 <l xml:id="d1e1601131" n="229">None heard, 'tis odds, his—God's—folk's howls.</l>
@@ -12551,7 +12552,7 @@
                 <l xml:id="d1e1607131" n="231">This hookiest-beaked of owls?</l>
             </lg>
             <lg xml:id="d1e1612131">
-                <head xml:id="d1e1613131" rendition="#center #small">IX</head>
+                <head xml:id="d1e1613131" rendition="#center">IX</head>
                 <l xml:id="d1e1616131" n="232">Well, I suppose God knows—I don't.</l>
                 <l xml:id="d1e1619131" rendition="#ti-1" n="233">Time's crimes mark dark men's types, in stripes</l>
                 <l xml:id="d1e1622131" n="234">Broad as fen's lands men's hands were wont</l>
@@ -12559,7 +12560,7 @@
                 <l xml:id="d1e1628131" n="236">With birds' words—No! he won't!</l>
             </lg>
             <lg xml:id="d1e1632131">
-                <head xml:id="d1e1633131" rendition="#center #small">X</head>
+                <head xml:id="d1e1633131" rendition="#center">X</head>
                 <l xml:id="d1e1636131" n="237">One never should think good impossible.</l>
                 <l xml:id="d1e1639131" rendition="#ti-1" n="238">Eh? say I'd hide this Jew's oil's cruse—
 		</l>
@@ -12568,7 +12569,7 @@
                 <l xml:id="d1e1648131" n="241">To wave the heath-flower's glossy bell!</l>
             </lg>
             <lg xml:id="d1e1652131">
-                <head xml:id="d1e1653131" rendition="#center #small">XI</head>
+                <head xml:id="d1e1653131" rendition="#center">XI</head>
                 <l xml:id="d1e1656131" n="242">But gold bells chime in time there, coined—
 		</l>
                 <l xml:id="d1e1659131" rendition="#ti-1" n="243">Gold! Old Sphinx winks there—<q xml:id="d1e1661131" rendition="#dq">Read my screed!</q></l>
@@ -12580,7 +12581,7 @@
             </lg>
             <pb n="391" facs="acs0000001-05-406"/>
             <lg xml:id="d1e1676131">
-                <head xml:id="d1e1677131" rendition="#center #small">XII</head>
+                <head xml:id="d1e1677131" rendition="#center">XII</head>
                 <l xml:id="d1e1680131" n="247">I rose with dawn, to pawn, no doubt,</l>
                 <l xml:id="d1e1683131" rendition="#ti-1" n="248">
 			(Miss this chance, glance untried aside?)
@@ -12590,7 +12591,7 @@
                 <l xml:id="d1e1692131" n="251">And not a soul about?</l>
             </lg>
             <lg xml:id="d1e1696131">
-                <head xml:id="d1e1697131" rendition="#center #small">XIII</head>
+                <head xml:id="d1e1697131" rendition="#center">XIII</head>
                 <l xml:id="d1e1700131" n="252">Such men lay traps, perhaps—and I'm</l>
                 <l xml:id="d1e1703131" rendition="#ti-1" n="253">Weak—meek—mild—child of woe, you know!</l>
                 <l xml:id="d1e1706131" n="254">But theft, I doubt, my lout calls crime.</l>
@@ -12603,7 +12604,7 @@
             <head xml:id="d1e1721131" rendition="#center #uc">V<lb xml:id="d1e1723131"/>Off the
                 Pier</head>
             <lg xml:id="d1e1726131">
-                <head xml:id="d1e1727131" rendition="#center #small">I</head>
+                <head xml:id="d1e1727131" rendition="#center">I</head>
                 <l xml:id="d1e1730131" n="257"><hi xml:id="d1e1731131" rendition="#sc">One</hi>	last glance at these sands and stones!</l>
                 <l xml:id="d1e1735131" rendition="#ti-1" n="258">Time goes past men, and lives to his liking,</l>
                 <l xml:id="d1e1738131" n="259">Steals, and ruins, and sometimes atones.</l>
@@ -12611,7 +12612,7 @@
                 <l xml:id="d1e1744131" n="261">There now, that wind, like a swarm of sick drones!</l>
             </lg>
             <lg xml:id="d1e1748131">
-                <head xml:id="d1e1749131" rendition="#center #small">II</head>
+                <head xml:id="d1e1749131" rendition="#center">II</head>
                 <l xml:id="d1e1752131" n="262">Is it heaven or mere earth (come!) that moves so and moans?</l>
                 <l xml:id="d1e1755131" rendition="#ti-1" n="263">Oh, I knew, when you loved me, my soul was in flowerage—
 		</l>
@@ -12621,7 +12622,7 @@
             </lg>
             <pb n="393" facs="acs0000001-05-408"/>
             <lg xml:id="d1e1770131">
-                <head xml:id="d1e1771131" rendition="#center #small">III</head>
+                <head xml:id="d1e1771131" rendition="#center">III</head>
                 <l xml:id="d1e1774131" n="267">All that youth once denied and made mouths at, age owns.</l>
                 <l xml:id="d1e1777131" rendition="#ti-1" n="268">Facts put fangs out and bite us; life stings and grows viperous;</l>
                 <l xml:id="d1e1780131" n="269">And time's fugues are a hubbub of meaningless tones.</l>
@@ -12629,7 +12630,7 @@
                 <l xml:id="d1e1786131" n="271">Love, grown grey, plays mere solos; we want antiphones.</l>
             </lg>
             <lg xml:id="d1e1791131">
-                <head xml:id="d1e1792131" rendition="#center #small">IV</head>
+                <head xml:id="d1e1792131" rendition="#center">IV</head>
                 <l xml:id="d1e1795131" n="272">And we sharpen our wits up with passions for hones,</l>
                 <l xml:id="d1e1798131" rendition="#ti-1" n="273">Melt down loadstars for magnets, use women for whetstones,</l>
                 <l xml:id="d1e1801131" n="274">Learn to bear with dead calms by remembering cyclones,</l>
@@ -12637,7 +12638,7 @@
                 <l xml:id="d1e1807131" n="276">Burn our souls out, shift spirits, turn skins and change zones;</l>
             </lg>
             <lg xml:id="d1e1811131">
-                <head xml:id="d1e1812131" rendition="#center #small">V</head>
+                <head xml:id="d1e1812131" rendition="#center">V</head>
                 <l xml:id="d1e1815131" n="277">Then the heart, when all's done with, wakes, whimpers, intones</l>
                 <l xml:id="d1e1818131" rendition="#ti-1" n="278">Some lost fragment of tune it thought sweet ere it grew sick;</l>
                 <l xml:id="d1e1821131" n="279">
@@ -12648,7 +12649,7 @@
             </lg>
             <pb n="394" facs="acs0000001-05-409"/>
             <lg xml:id="d1e1833131">
-                <head xml:id="d1e1834131" rendition="#center #small">VI</head>
+                <head xml:id="d1e1834131" rendition="#center">VI</head>
                 <l xml:id="d1e1837131" n="282">In the darkness (right Dickens) of Tom-All-Alone's</l>
                 <l xml:id="d1e1840131" rendition="#ti-1" n="283">Or the Morgue out in Paris, where tragedy centuples</l>
                 <l xml:id="d1e1843131" n="284">Life's effects by Death's algebra, Shakespeare (Malone's)
@@ -12657,7 +12658,7 @@
                 <l xml:id="d1e1849131" n="286">To purge text of him! Bread? give me—Scotticè—scones!</l>
             </lg>
             <lg xml:id="d1e1853131">
-                <head xml:id="d1e1854131" rendition="#center #small">VII</head>
+                <head xml:id="d1e1854131" rendition="#center">VII</head>
                 <l xml:id="d1e1857131" n="287">Think, what use, when youth's saddle galls bay's back or roan's,</l>
                 <l xml:id="d1e1860131" rendition="#ti-1" n="288">To seek chords on love's keys to strike, other than his chords?</l>
                 <l xml:id="d1e1863131" n="289">There's an error joy winks at and grief half condones,</l>
@@ -12667,19 +12668,19 @@
 			'Tis man's choice 'twixt sluts rose-crowned and queens age dethrones.</l>
             </lg>
             <lg xml:id="d1e1873131">
-                <head xml:id="d1e1874131" rendition="#center #small">VIII</head>
+                <head xml:id="d1e1874131" rendition="#center">VIII</head>
                 <l xml:id="d1e1877131" n="292">I for instance might groan as a bag-pipe groans,</l>
                 <l xml:id="d1e1880131" rendition="#ti-1" n="293">Give the flesh of my heart for sharp sorrows to flagellate,</l>
                 <l xml:id="d1e1883131" n="294">Grief might grind my cheeks down, age make sticks of my bones,</l>
                 <l xml:id="d1e1886131" rendition="#ti-1" n="295">(Though a queen drowned in tears must be worth more than Madge elate)<ref rendition="#super" target="#d1e1888131">1</ref></l>
                 <l xml:id="d1e1892131" n="296">Rose might turn burdock, and pine-apples cones;</l>
             </lg>
-        	<note xml:id="d1e1888131" resp="#acs" n="1" rendition="#x-small #indent">
+        	<note xml:id="d1e1888131" resp="#acs" n="1" rendition="#indent">
         		<ref rendition="#super">1</ref>First edition:—<lb/>And my face bear his brand—mine, that once bore Love's badge elate!
         	</note>
             <pb n="395" facs="acs0000001-05-410"/>
             <lg xml:id="d1e1899131">
-                <head xml:id="d1e1900131" rendition="#center #small">IX</head>
+                <head xml:id="d1e1900131" rendition="#center">IX</head>
                 <l xml:id="d1e1903131" n="297">My skin might change to a pitiful crone's,</l>
                 <l xml:id="d1e1906131" rendition="#ti-1" n="298">My lips to a lizard's, my hair to weed,</l>
                 <l xml:id="d1e1909131" n="299">My features, in fact, to a series of loans;</l>
@@ -12790,10 +12791,10 @@
         			<pb n="400" facs="acs0000001-05-415"/>
         			<head rendition="#center #uc">The Person of the House</head>
         			<div>
-        				<head rendition="#center #small #uc">Idyl CCCLXVI</head>
+        				<head rendition="#center #uc">Idyl CCCLXVI</head>
         				<div type="contents">
-        					<list rendition="#small" rend="margin-left: 4em;" type="ordered">
-        						<head rendition="#center #uc #small">The Accompaniments</head>
+        					<list rend="margin-left: 4em;" type="ordered">
+        						<head rendition="#center #uc">The Accompaniments</head>
         						<item rendition="#sc" rend="margin-left:6em;">The Monthly Nurse</item>
         						<item rendition="#sc" rend="margin-left:6em;">The Caudle</item>
         						<item rendition="#sc" rend="margin-left:6em;">The Sentences</item>
@@ -12884,7 +12885,7 @@
         			</div>
         			<pb n="403" facs="acs0000001-05-418"/>
         			<div>
-        				<head rendition="#center #small #uc">Idyl CCCLXVI<lb/>The Kid</head>
+        				<head rendition="#center #uc">Idyl CCCLXVI<lb/>The Kid</head>
         				<lg>
         					<l n="57"><hi rendition="#sc">My</hi> spirit, in the doorway's pause,</l>
         					<l rendition="#ti-1" n="58">Fluttered with fancies in my breast;</l>
