@@ -105,12 +105,12 @@
 			<div xml:id="acs0000001-01-i000" n="Dedicatory Epistle">
 		    <index corresp="acs0000001-01-i000-md.xml" indexName="text"/>
     <pb n="[iii]" facs="acs0000001-01-008"/>
-    <head rendition="#center #n #uc">To <lb/><space dim="vertical" unit="line" quantity="1"/><persName key="watts">Theodore Watts-Dunton</persName></head>
+    <head rendition="#center #n #uc">To <lb/><persName key="watts">Theodore Watts-Dunton</persName></head>
     <pb n="[iv]" facs="acs0000001-01-009"/>
     <pb facs="acs0000001-01-010" n="[v]"/>
     <head rendition="#center #n #uc">Dedicatory Epistle</head>
     <p>To my best and dearest friend I dedicate the first collected edition
-     of my poems, and to him I address what I have to say on the occasion. <space dim="vertical" unit="line" quantity="1"/></p>
+     of my poems, and to him I address what I have to say on the occasion.</p>
     <milestone unit="minor-division"/>
     <p> You will agree with me that it is impossible for any man to undertake the task of
      commentary, however brief and succinct, on anything he has done or tried to do, without
@@ -3067,8 +3067,7 @@
                 <castItem rendition="#inline #uc" xml:id="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>;</castItem>
                 <castItem rendition="#inline #uc" xml:id="chorus_of_troezenian_women">Chorus of <choice><orig>Trœzenian</orig><reg>Trœzenian</reg></choice><lb/> Women</castItem>
             </castList>
-           <space dim="vertical" unit="lines" quantity="2"/>
-            <sp who="#hippolytus">
+			<sp who="#hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="1">
