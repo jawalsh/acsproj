@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?> -->
+<?xml-model href="swinburne.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-02">
 	<teiHeader>
 		<fileDesc>
@@ -81,46 +81,46 @@
 			<pb facs="acs0000001-02-005"/>
 			<div>
 				<pb n="[i]" facs="acs0000001-02-006"/>
-				<head rendition="#center #x-large #n #uc">Swinburne's Poems<lb/>
-					<hi rendition="#sc #small">Vol. II</hi></head>
+				<head rendition="#center #uc">Swinburne's Poems<lb/>
+					<hi rendition="#sc">Vol. II</hi></head>
 				<pb n="[ii]" facs="acs0000001-02-007"/>
 			</div>
 			<titlePage>
 				<pb n="[iii]" facs="acs0000001-02-008"/>
 				<docTitle rendition="#center">
 					<titlePart>
-						<hi rendition="#x-large #uc">The Poems</hi>
+						<hi rendition="#uc">The Poems</hi>
 						<lb/>
 						<space dim="vertical" quantity="1" unit="line"></space>
-						<hi rendition="#small #uc">of</hi>
+						<hi rendition="#uc">of</hi>
 						<lb/>
 						<space dim="vertical" quantity="1" unit="line"></space>
-						<hi rendition="#red #xx-large #uc">Algernon Charles Swinburne</hi>
+						<hi rendition="#red #uc">Algernon Charles Swinburne</hi>
 						<lb/>
 						<space dim="vertical" quantity="3" unit="line"></space>
-						<hi rendition="#large #uc">in six volumes</hi>
+						<hi rendition="#uc">in six volumes</hi>
 						<space dim="vertical" quantity="4" unit="line"></space>
 					</titlePart>
 					<lb/>
 					<titlePart> VOLUME II.<lb/><space dim="vertical" quantity="1" unit="line"></space>
-						<title rendition="#red #x-large #uc">Songs Before Sunrise</title><lb/>
-						<space dim="vertical" quantity="1" unit="line"></space><hi rendition="#uc #small">and</hi><lb/><space dim="vertical" quantity="1" unit="line"></space> <title rendition="#red #x-large #uc">Songs of Two Nations</title><space dim="vertical" quantity="5" unit="line"></space></titlePart>
+						<title rendition="#red #uc">Songs Before Sunrise</title><lb/>
+						<space dim="vertical" quantity="1" unit="line"></space><hi rendition="#uc">and</hi><lb/><space dim="vertical" quantity="1" unit="line"></space> <title rendition="#red #uc">Songs of Two Nations</title><space dim="vertical" quantity="5" unit="line"></space></titlePart>
 				</docTitle>
 				<docImprint rendition="#center">
 					<pubPlace rendition="#uc">London</pubPlace>
 					<lb/>
 					<publisher rendition="#red #expanded #uc">Chatto &amp; Windus</publisher>
 					<lb/>
-					<docDate rendition="#small" when="1904">1904</docDate>
+					<docDate when="1904">1904</docDate>
 				</docImprint>
 				<pb n="[iv]" facs="acs0000001-02-009"/>
-				<imprimatur rendition="#center #x-small"><bibl>Copyright, <date when="1904">1904</date>, by <publisher rendition="#sc">Harper &amp; Brothers</publisher> for
+				<imprimatur rendition="#center"><bibl>Copyright, <date when="1904">1904</date>, by <publisher rendition="#sc">Harper &amp; Brothers</publisher> for
 				the<lb/> <pubPlace>United States of America</pubPlace>.</bibl></imprimatur>
 			</titlePage>
 			<div type="dedication" xml:id="acs0000001-02-i000">
 				<index corresp="acs0000001-02-i000-md.xml" indexName="text"/>
 				<pb n="[v]" facs="acs0000001-02-010"/>
-			<head rendition="#center #uc">Dedication<lb/> <hi rendition="#small #block" rend="margin-top:2em;">to</hi><lb/> <persName key="mazzini" corresp="#unfamiliar" rendition="#block" rend="margin-top:0;">Joseph Mazzini</persName></head>
+			<head rendition="#center #uc">Dedication<lb/> <hi rendition="#block" rend="margin-top:2em;">to</hi><lb/> <persName key="mazzini" corresp="#unfamiliar" rendition="#block" rend="margin-top:0;">Joseph Mazzini</persName></head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc"> Take</hi>, since you bade it should bear,</l>
@@ -194,7 +194,7 @@
 				<div>
 					<table n="toc" rendition="#toc">
 						<row role="tocPageHead">
-							<cell rendition="#xx-small" role="tocPageHead">PAGE</cell>
+							<cell  role="tocPageHead">PAGE</cell>
 						</row>
 						<row>
 							<cell role="tocItem"><title rendition="#sc">Prelude</title>
@@ -299,7 +299,7 @@
 
 						<pb n="viii" facs="acs0000001-02-013"/>
 						<row role="tocPageHead">
-							<cell rendition="#xx-small" role="tocPageHead">PAGE</cell>
+							<cell  role="tocPageHead">PAGE</cell>
 						</row>
 						<row>
 							<cell role="tocItem"><title rendition="#sc">Mater Triumphalis</title>
@@ -445,7 +445,7 @@
 						</row>
 						<pb n="ix" facs="acs0000001-02-014"/>
 						<row role="tocPageHead">
-							<cell rendition="#xx-small" role="tocPageHead">PAGE</cell>
+							<cell  role="tocPageHead">PAGE</cell>
 						</row>
 
 						<row>
@@ -2801,7 +2801,7 @@
 		<body>
 			<pb n="64" facs="acs0000001-02-079"/>
 			<head rendition="#center #uc">The Litany of Nations </head>
-			<epigraph rendition="#center-block #small" rend="width:15em; margin-bottom:2em;">
+			<epigraph rendition="#center-block" rend="width:15em; margin-bottom:2em;">
 				<cit rendition="#block">
 					<quote rendition="#block" xml:lang="gr">
 						<l>
@@ -2823,7 +2823,7 @@
 				</cit>
 			</epigraph>
 			<sp>
-				<speaker rendition="#center #uc #x-small">Chorus</speaker>
+				<speaker rendition="#center #uc">Chorus</speaker>
 				<l n="1">
 					<hi rendition="#sc"> If </hi> with voice of words or prayers thy sons may reach thee,</l>
 				<l n="2" rendition="#ti-1"> We thy latter sons, the men thine after-birth,</l>
@@ -2870,7 +2870,7 @@
 			</sp>
 			<pb n="66" facs="acs0000001-02-081"/>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName><country key="gr">Greece</country></placeName>
 				</speaker>
 				<l n="41"> I am she that made thee lovely with my beauty</l>
@@ -2889,7 +2889,7 @@
 				<l n="52" rendition="#ti-4">Hear us, O mother.</l>
 			</sp>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName><country key="it">Italy</country></placeName>
 				</speaker>
 				<l n="53"> I am she that was the light of thee enkindled</l>
@@ -2910,7 +2910,7 @@
 			</sp>
 			<pb n="67" facs="acs0000001-02-082"/>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName>
 						<country key="es">Spain</country>
 					</placeName>
@@ -2933,7 +2933,7 @@
 				<l n="76" rendition="#ti-4"> Hear us, O mother.</l>
 			</sp>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName>
 						<country key="fr" xml:id="country_0068">France</country>
 					</placeName>
@@ -2956,7 +2956,7 @@
 			</sp>
 			<pb n="68" facs="acs0000001-02-083"/>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName>
 						<country key="ru">Russia</country>
 					</placeName>
@@ -2978,7 +2978,7 @@
 				<l n="100" rendition="#ti-4"> Hear us, O mother.</l>
 			</sp>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName>
 						<country key="ch">Switzerland</country>
 					</placeName>
@@ -3003,7 +3003,7 @@
 			</sp>
 			<pb n="69" facs="acs0000001-02-084"/>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName>
 						<country key="de">Germany</country>
 					</placeName>
@@ -3025,7 +3025,7 @@
 				<l n="124" rendition="#ti-4"> Hear us, O mother.</l>
 			</sp>
 			<sp>
-				<speaker rendition="#center #uc #x-small">
+				<speaker rendition="#center #uc">
 					<placeName><country key="gb-eng">England</country></placeName>
 				</speaker>
 				<l n="125"> I am she that was and was not of thy chosen,</l>
@@ -3048,7 +3048,7 @@
 			</sp>
 			<pb n="70" facs="acs0000001-02-085"/>
 			<sp>
-				<speaker rendition="#center #uc #x-small">Chorus</speaker>
+				<speaker rendition="#center #uc">Chorus</speaker>
 				<l n="137"> Turn away from us the cross-blown blasts of error,</l>
 				<l n="138" rendition="#ti-4"> That drown each other;</l>
 				<l n="139"> Turn away the fearful cry, the loud-tongued terror,</l>
@@ -4832,7 +4832,7 @@
 			<pb n="126" facs="acs0000001-02-141"/>
 			<head rendition="#center #uc"> Christmas Antiphones </head>
 			<div xml:id="id333050">
-				<head rendition="#center"><hi rendition="#block" rend="margin-bottom:1em;">I</hi> <hi rendition="#block #uc #x-small">In Church</hi></head>
+				<head rendition="#center">I<lb/>In Church</head>
 				<lg>
 					<l n="1">
 						<hi rendition="#sc"> Thou </hi> whose birth on earth</l>
@@ -4979,7 +4979,7 @@
 				</lg>
 			</div>
 			<div xml:id="id334482">
-				<head rendition="#center"> <hi rendition="#block" rend="margin-bottom:1em;">II</hi> <hi rendition="#block #uc #x-small">Outside Church</hi></head>
+				<head rendition="#center">II<lb/>Outside Church</head>
 				<lg>
 					<l n="101">
 						<hi rendition="#sc"> We </hi> whose days and ways</l>
@@ -5127,7 +5127,7 @@
 				</lg>
 			</div>
 			<div xml:id="id335941">
-				<head rendition="#center"><hi rendition="#block" rend="margin-bottom:1em;">III</hi><hi rendition="#block #uc #x-small">Beyond Church</hi></head>
+				<head rendition="#center">III<lb/>Beyond Church</head>
 				<lg>
 					<l n="201">
 						<hi rendition="#sc"> Ye </hi> that weep in sleep,</l>
@@ -5280,9 +5280,9 @@
 		<body>
 			<pb n="137" facs="acs0000001-02-152"/>
 			<head rendition="#center #uc" type="main"> A New Year's Message </head>
-			<head type="sub" rendition="#center #small"> To <persName key="mazzini" corresp="#unfamiliar">Joseph Mazzini</persName>
+			<head type="sub" rendition="#center">To <persName key="mazzini" corresp="#unfamiliar">Joseph Mazzini</persName>
 			</head>
-			<epigraph rendition="#center-block #x-small" rend="margin-top:2em; margin-bottom:2em; width:20em;">
+			<epigraph rendition="#center-block" rend="margin-top:2em; margin-bottom:2em; width:20em;">
 				<cit rendition="#block">
 					<quote rendition="#block">Send the stars light, but send not love to me.</quote>
 					<bibl rendition="#block" rend="margin-left:18em;">
@@ -5389,7 +5389,7 @@
 		<body>
 			<pb n="140" facs="acs0000001-02-155"/>
 			<head rendition="#uc #center" xml:lang="la"> Mater Dolorosa </head>
-			<epigraph xml:id="epigraph_0001" xml:lang="fr" rendition="#center-block #x-small" rend="width:28em;">
+			<epigraph xml:id="epigraph_0001" xml:lang="fr" rendition="#center-block" rend="width:28em;">
 				<cit rendition="#block">
 					<quote rendition="#block">Citoyen, lui dit Enjolras, ma mère, c'est la République.</quote>
 					<bibl rendition="#block" rend="margin-left:18em;">
@@ -7858,7 +7858,7 @@
 				<l n="246">We call thee and we charge thee that all these be free.</l>
 			</div>
 			<closer>
-				<dateline rendition="#x-small" rend="margin-top:1em;">
+				<dateline rend="margin-top:1em;">
 					<date when="1867-01"><hi rendition="#i">Jan.</hi> 1867.</date>
 				</dateline>
 			</closer>
@@ -7895,7 +7895,7 @@
 		<body>
 			<pb n="210" facs="acs0000001-02-225"/>
 			<head type="main" rendition="#center #uc"><persName key="eurydice">Eurydice</persName></head>
-			<head type="sub" rendition="#center #uc #x-small">To <persName key="hugo">Victor Hugo</persName>
+			<head type="sub" rendition="#center #uc">To <persName key="hugo">Victor Hugo</persName>
 			</head>
 			<lg>
 				<l n="1">
@@ -8962,7 +8962,7 @@
 										<l>I nostri padri antichi.</l>
 									</lg>
 								</quote>
-								<bibl rend="text-indent: 10em;" rendition="#block"><author rendition="#uc #small"><persName key="leopardi">Leopardi</persName></author>.</bibl>
+								<bibl rend="text-indent: 10em;" rendition="#block"><author rendition="#uc"><persName key="leopardi">Leopardi</persName></author>.</bibl>
 							</cit>
 						</note>
 						<pb n="239" facs="acs0000001-02-254"/>
@@ -8990,7 +8990,7 @@
 					<titlePage>
 						<pb n="[241]" facs="acs0000001-02-256"/>
 						<docTitle>
-							<titlePart rendition="#center #large #uc" type="main">Songs of Two Nations</titlePart>
+							<titlePart rendition="#center #uc" type="main">Songs of Two Nations</titlePart>
 							<titlePart rend="padding: 8em;" type="contents">
 								<table>
 									<row><cell rendition="#right">I.</cell><cell><title rendition="#uc">A Song of Italy</title></cell></row>
@@ -9035,9 +9035,9 @@
 				<pb n="[247]" facs="acs0000001-02-262"/>
 				<p rendition="#center" xml:id="d1e404">
 					<hi rendition="#uc" xml:id="d1e408">Inscribed</hi><lb xml:id="d1e410"></lb>
-					<hi rendition="#uc #small" xml:id="d1e413">with all devotion and reverence<lb xml:id="d1e415"></lb>
+					<hi rendition="#uc" xml:id="d1e413">with all devotion and reverence<lb xml:id="d1e415"></lb>
 					to</hi><lb xml:id="d1e417"></lb>
-					<hi rendition="#uc #large" xml:id="d1e419">Joseph Mazzini</hi></p>
+					<hi rendition="#uc" xml:id="d1e419">Joseph Mazzini</hi></p>
 				<dateline xml:id="d1e407"> 1867 </dateline>
 			</div>
 			<pb n="[248]" facs="acs0000001-02-263"/>
@@ -10118,7 +10118,7 @@
 				<l n="839" xml:id="d1e3333"> All winds that blow through time, all waves that foam,</l>
 				<l n="840" rendition="#ti-1" xml:id="d1e3336"> Our Capitolian Rome.</l>
 			</lg>
-			<signed xml:id="d1e3340" rendition="#ti-1"><date when="1867" rendition="#x-small">1867</date>.</signed>
+			<signed xml:id="d1e3340" rendition="#ti-1"><date when="1867">1867</date>.</signed>
 		</body>
 
 	</text>
@@ -10128,16 +10128,12 @@
             <titlePage>
             	<pb n="[275]" facs="acs0000001-02-290"/>
                 <docTitle rendition="#center" rend="line-height:2em; margin-bottom:3em;">
-                    <titlePart>
-                        <hi rendition="#x-large #uc">Ode</hi>
-                        <lb/>
-                        <hi rendition="#x-small #uc">on the</hi>
-                        <lb/>
-                        <hi rendition="#large #uc">Proclamation</hi>
-                        <lb/>
-                        <hi rendition="#x-small #uc">of the</hi>
-                        <lb/>
-                        <hi rendition="#x-large #uc">French Republic</hi>
+                    <titlePart rendition="#uc">
+                        Ode<lb/>
+                        on the<lb/>
+                        Proclamation<lb/>
+                        of the<lb/>
+                        French Republic
                     </titlePart>
                 </docTitle>
                 <docDate rendition="#sc #center">
@@ -10545,13 +10541,13 @@
                 </docTitle>
             </titlePage>
         	<pb n="[292]" facs="acs0000001-02-307"/>
-            <epigraph rendition="#center-block #x-small" rend="width:12em;">
+            <epigraph rendition="#center-block" rend="width:12em;">
                 <cit rendition="#block">
                     <quote rendition="#block">Guai a voi, anime prave.</quote>
                     <bibl><author rendition="#block #sc" rend="margin-left:9em;">Dante.</author></bibl>
                 </cit>
             </epigraph>
-            <epigraph rendition="#center-block #x-small" rend="width:24em;">
+            <epigraph rendition="#center-block" rend="width:24em;">
                 <cit rendition="#block">
                     <quote rendition="#block">
                         <lg rend="margin-bottom:0;">
@@ -10570,7 +10566,7 @@
         	<pb n="293" facs="acs0000001-02-308"/>
             <head rendition="#center">I</head>
             <head rendition="#center #uc">A Dead King</head>
-            <note rendition="#i #small #center" resp="#acs">[Ferdinand II. entered Malebolge <date when="1859-05-22">May <hi rendition="#n">22</hi>nd, <hi rendition="#n">1859</hi></date>.]</note>
+            <note rendition="#i #center" resp="#acs">[Ferdinand II. entered Malebolge <date when="1859-05-22">May <hi rendition="#n">22</hi>nd, <hi rendition="#n">1859</hi></date>.]</note>
             
             <l n="1">
                 <hi rendition="#sc">
@@ -10652,7 +10648,7 @@
         	<pb n="[296]" facs="acs0000001-02-311"/>
             <head rendition="#center #uc">IV</head>
             <head rendition="#center #uc">Papal Allocution</head>
-            <epigraph rendition="#center #x-small" xml:lang="la">
+            <epigraph rendition="#center" xml:lang="la">
                 <l><q>Popule mi, quid tibi feci?</q></l>
             </epigraph>
             <lg>
@@ -10672,7 +10668,7 @@
             <l n="13" rendition="#ti-1">Where Boniface out of the filth and flame</l>
             	<l n="14" rendition="#ti-2">Barks for his advent in the clefts of hell.<ptr type="note" target="#note_de1074"/></l>                    
             </lg>
-        	<note resp="#acs" rendition="#center #x-small" xml:id="note_de1074"><ref rendition="#super">1</ref> <bibl><author>Dante</author>, <title rendition="#dq">Inferno,</title> xix. 53.</bibl>
+        	<note resp="#acs" rendition="#center" xml:id="note_de1074"><ref rendition="#super">1</ref> <bibl><author>Dante</author>, <title rendition="#dq">Inferno,</title> xix. 53.</bibl>
         	</note>
         </body>
     </text>
@@ -10684,7 +10680,7 @@
                 <pb n="[274]"/> -->
         	<pb n="[297]" facs="acs0000001-02-312"/>
             <head rendition="#center #uc">The Burden of Austria<note type="text" resp="#jawalsh" rendition="#suppress">The omission of the Roman numeral V appears to be an error.  The Roman numeral is present in all other poems of <title level="a">Dirae,</title> and is present for <title level="a">Burden of Austria</title> in the first edition of <title>Songs of Two Nations</title>.</note></head>
-            <head rendition="#center #small">1866</head>
+            <head rendition="#center">1866</head>
             <!-- add encoded transcription below -->
             <lg>
                 <l n="1">
@@ -10705,7 +10701,7 @@
                </l>
                 <l n="14">Is it not thou that now art but a name?<ptr type="note" target="#note_de2989"/></l>
             </lg>
-                    <note resp="#acs" rendition="#center #x-small" xml:id="note_de2989"><ref rendition="#super">1</ref> <quote>A geographical expression.</quote>—Metternich of Italy.
+                    <note resp="#acs" rendition="#center" xml:id="note_de2989"><ref rendition="#super">1</ref> <quote>A geographical expression.</quote>—Metternich of Italy.
                     </note>
         </body>
     </text>
@@ -10850,7 +10846,7 @@
                 <l n="13" rendition="#ti-1">But let the worm Napoleon crawl untrod,</l>
                 <l n="14" rendition="#ti-1">Nor grant Mastai the gallows of his God.</l>
                 <signed rend="margin-top:1em;">
-                    <date when="1869" rendition="#x-small">1869</date>.
+                    <date when="1869">1869</date>.
                 </signed>
 
             </lg>
@@ -10863,7 +10859,7 @@
         	<pb n="303" facs="acs0000001-02-318"/>
             <head rendition="#center">XI</head>
             <head rendition="#center #uc">The Moderates</head>
-            <epigraph rendition="#i #center #small" xml:lang="la">
+            <epigraph rendition="#i #center" xml:lang="la">
                 <l>Virtutem videant intabescantque relictâ</l>
             </epigraph>
             <lg>
@@ -10883,7 +10879,7 @@
             <l n="12">With one inevitable and tearless look,</l>
             <l n="13">That they might see her face whom they forsook;</l>
             <l n="14" rendition="#ti-1">And they beheld what they had left, and died.</l></lg>
-            <signed rendition="#i #small">
+            <signed rendition="#i">
                 <date when="1870-02">February <hi rendition="#n">1870</hi></date>.
             </signed>
         </body>
@@ -10894,7 +10890,7 @@
         	<pb n="304" facs="acs0000001-02-319"/>
             <head rendition="#center">XII</head>
             <head rendition="#center #uc">Intercession</head>
-            <epigraph rendition="#i #center #small" xml:lang="la">
+            <epigraph rendition="#i #center" xml:lang="la">
                 <p>Ave <choice><orig>Cæsar</orig><reg>Caesar</reg></choice> Imperator, moriturum te saluto.</p>
             </epigraph>
             <lg>
@@ -10973,7 +10969,7 @@
                 <l n="55" rendition="#ti-1">From sight of France and freedom and broad day,</l>
                 <l n="56" rendition="#ti-2">He may see these and wither and be dead.</l>
             </lg>
-            <signed rendition="#small">
+            <signed>
                 <placeName rendition="#sc">Paris</placeName>: <date rendition="#i" when="1869-09">September <hi rendition="#n">1869</hi></date>.
             </signed>
         </body>
@@ -11022,7 +11018,7 @@
                 <l n="27" rendition="#ti-1">In sight of all time, but while heaven has flame</l>
                 <l n="28">Shalt find no resurrection from hell-fire.</l>
             </lg>
-            <signed rendition="#i #small">
+            <signed rendition="#i">
                 December <date rendition="#n" when="1869">1869</date>.
             </signed>
         </body>
@@ -11033,7 +11029,7 @@
         	<pb n="310" facs="acs0000001-02-325"/>
             <head rendition="#center">XIV</head>
             <head rendition="#center #uc">Mentana: Second Anniversary</head>
-            <epigraph rendition="#small #center-block" rend="width:26em;" xml:lang="fr">
+            <epigraph rendition="#center-block" rend="width:26em;" xml:lang="fr">
                 <cit rendition="#block">
                     <quote rendition="#block">
                     	<lg rend="margin-bottom:0;">
@@ -11086,7 +11082,7 @@
                     <q next="#de9805" xml:id="de9804">Cancel his bond of life, dear God, I pray,</q></l>
                 <l n="28" rendition="#ti-1"><q prev="#de9804" xml:id="de9805">That I may live to say, The dog is dead!</q></l>
             </lg>
-            <signed rendition="#small">
+            <signed>
                 <date when="1869">1869</date>.
             </signed>
         </body>
@@ -11136,7 +11132,7 @@
                 <l n="28">Satiate the immitigable hours in hell?
                </l>
             </lg>
-            <signed rendition="#small">
+            <signed>
                 <date when="1870">1870</date>.
             </signed>
         </body>
@@ -11147,7 +11143,7 @@
         	<pb n="314" facs="acs0000001-02-329"/>
             <head rendition="#center">XVI</head>
             <head rendition="#center #uc">The Descent into Hell</head>
-            <note resp="#acs" rendition="#i #center #small"><date when="1873-01-09">January 9th, <hi rendition="#n">1873</hi></date></note>
+            <note resp="#acs" rendition="#i #center"><date when="1873-01-09">January 9th, <hi rendition="#n">1873</hi></date></note>
             <lg>
                 <head rendition="#center">I</head>
                 <l n="1"><hi rendition="#sc">O night</hi> and death, to whom we grudged him then,</l>

@@ -62,30 +62,30 @@
 			</div>
 			<div>
 				<pb n="[unnumbered]" facs="acs0000001-01-004"/>
-			    <head rendition="#center #x-large #n #uc">Swinburne’s Poems<lb/>
-					<hi rendition="#sc #small">Vol. I</hi></head>
+			    <head rendition="#center #n #uc">Swinburne’s Poems<lb/>
+					<hi rendition="#sc">Vol. I</hi></head>
 				<pb n="[unnumbered]" facs="acs0000001-01-005"/>
 			</div>
 			<titlePage>
 				<pb n="[i]" facs="acs0000001-01-006"/>
 				<docTitle rendition="#center #uc">
 					<titlePart>
-					    <hi rendition="#x-large #uc">The Poems</hi>
+					    <hi rendition="#uc">The Poems</hi>
 						<lb/>
 						<space dim="vertical" unit="line" quantity="1"/>
-						<hi rendition="#small #uc">of</hi>
+						<hi rendition="#uc">of</hi>
 						<lb/>
 						<space dim="vertical" unit="line" quantity="1"/>
-					    <hi rendition="#red #xx-large #uc">Algernon Charles Swinburne</hi>
+					    <hi rendition="#red #uc">Algernon Charles Swinburne</hi>
 						<lb/>
 						<space dim="vertical" unit="line" quantity="3"/>
-					    <hi rendition="#large #uc">in six volumes</hi>
+					    <hi rendition="#uc">in six volumes</hi>
 						<space dim="vertical" unit="line" quantity="4"/>
 					</titlePart>
 					<lb/>
 
 				    <titlePart rendition="#uc">Volume I.<lb/><space dim="vertical" unit="line" quantity="1"/>
-				        <hi rendition="#red #x-large">Poems and Ballads</hi><lb/>
+				        <hi rendition="#red">Poems and Ballads</hi><lb/>
 				        <space dim="vertical" unit="line" quantity="1"/>First Series
 				        <space dim="vertical" unit="line" quantity="5"/>
 				    </titlePart>
@@ -96,7 +96,7 @@
 					<lb/>
 				    <publisher rendition="#red #expanded">Chatto &amp; Windus</publisher>
 					<lb/>
-					<docDate when="1904" rendition="#small">1904</docDate>
+					<docDate when="1904">1904</docDate>
 				</docImprint>
 				<pb n="[ii]" facs="acs0000001-01-007"/>
 			</titlePage>
@@ -105,12 +105,12 @@
 			<div xml:id="acs0000001-01-i000" n="Dedicatory Epistle">
 		    <index corresp="acs0000001-01-i000-md.xml" indexName="text"/>
     <pb n="[iii]" facs="acs0000001-01-008"/>
-    <head rendition="#center #n #uc">To <lb/><space dim="vertical" unit="line" quantity="1"/><hi rendition="#x-large"><persName key="watts">Theodore Watts-Dunton</persName></hi></head>
+    <head rendition="#center #n #uc">To <lb/><persName key="watts">Theodore Watts-Dunton</persName></head>
     <pb n="[iv]" facs="acs0000001-01-009"/>
     <pb facs="acs0000001-01-010" n="[v]"/>
-    <head rendition="#center #x-large #n #uc">Dedicatory Epistle</head>
+    <head rendition="#center #n #uc">Dedicatory Epistle</head>
     <p>To my best and dearest friend I dedicate the first collected edition
-     of my poems, and to him I address what I have to say on the occasion. <space dim="vertical" unit="line" quantity="1"/></p>
+     of my poems, and to him I address what I have to say on the occasion.</p>
     <milestone unit="minor-division"/>
     <p> You will agree with me that it is impossible for any man to undertake the task of
      commentary, however brief and succinct, on anything he has done or tried to do, without
@@ -265,7 +265,7 @@
 
     <p> The third part of this trilogy , as far as I know or remember, found favour only with the
      only man in <placeName><country key="gb-eng">England</country></placeName> who could speak on the subject of historic drama
-     with the authority of an expert and a master. The generally ungracious reception of <title rendition="#sq #n" key="mary_stuart">Mary Stuart</title> gave me neither surprise nor disappointment: the
+     with the authority of an expert and a master. The generally ungracious reception of <title rendition="#open-quote #close-quote #n" key="mary_stuart">Mary Stuart</title> gave me neither surprise nor disappointment: the
      cordial approbation or rather the generous applause of <persName key="taylor">Sir Henry Taylor</persName>
      gave me all and more than all the satisfaction I could ever have looked for in recompense of as
      much painstaking and <choice n="eol">
@@ -714,7 +714,7 @@
 						<div>
 							<table n="toc" rendition="#toc">
 								<row role="tocPageHead">
-									<cell role="tocPageHead" rendition="#xx-small #uc">Page</cell>
+									<cell role="tocPageHead" rendition="#uc">Page</cell>
 								</row>
 								<row>
 									<cell role="tocItem">
@@ -839,7 +839,7 @@
 								<pb n="xxxvi" facs="acs0000001-01-041"/>
 								<row role="tocPageHead">
 
-									<cell role="tocPageHead" rendition="#xx-small #uc">Page</cell>
+									<cell role="tocPageHead" rendition="#uc">Page</cell>
 								</row>
 								<row>
 									<cell role="tocItem">
@@ -1024,7 +1024,7 @@
 								<pb n="xxxvii" facs="acs0000001-01-042"/>
 								<row role="tocPageHead">
 
-									<cell role="tocPageHead" rendition="#xx-small #uc">Page</cell>
+									<cell role="tocPageHead" rendition="#uc">Page</cell>
 								</row>
 								<row>
 									<cell role="tocItem">
@@ -3052,7 +3052,7 @@
                 <l n="423" rendition="#ti-1">Until God loosen over sea and land</l>
                 <l n="424">The thunder of the trumpets of the night.</l>
             </lg>
-            <p rendition="#ti-15 #small #uc">
+            <p rendition="#ti-15 #uc">
                 <foreign xml:lang="la">Explicit Laus Veneris.</foreign>
             </p>
         </body>
@@ -3062,13 +3062,12 @@
         <body>
             <pb n="27" facs="acs0000001-01-070"/>
             <head rendition="#center #n #uc"><persName key="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice></persName></head>
-            <castList rendition="#center #x-small">
+            <castList rendition="#center">
                 <castItem rendition="#inline #uc" xml:id="hippolytus"><persName key="hippolytus">Hippolytus</persName>;</castItem>
                 <castItem rendition="#inline #uc" xml:id="phaedra"><choice><orig>Phædra</orig><reg>Phaedra</reg></choice>;</castItem>
                 <castItem rendition="#inline #uc" xml:id="chorus_of_troezenian_women">Chorus of <choice><orig>Trœzenian</orig><reg>Trœzenian</reg></choice><lb/> Women</castItem>
             </castList>
-           <space dim="vertical" unit="lines" quantity="2"/>
-            <sp who="#hippolytus">
+			<sp who="#hippolytus">
                 <speaker rendition="#center #uc">Hippolytus.</speaker>
                 <lg>
                     <l n="1">
@@ -3114,7 +3113,7 @@
                     <l n="23">Yea, if mine own blood ran upon my mouth, </l>
                     <l n="24">I would drink that. Nay, but be swift with me; </l>
                     <l n="25">Set thy sword here between the girdle and breast, </l>
-                    <l n="26">For I shall grow a poison if I live<supplied>.</supplied><note xml:id="d71fe438" rendition="#small" resp="#jawalsh" type="textual">Full stop is missing at the end of the line in the 1904 edition, but appears in other editions of <title>Poems and Ballads, First Series</title> and subsequent editions of the collected <title>Poems</title>.</note></l>
+                    <l n="26">For I shall grow a poison if I live<supplied>.</supplied><note xml:id="d71fe438" resp="#jawalsh" type="textual">Full stop is missing at the end of the line in the 1904 edition, but appears in other editions of <title>Poems and Ballads, First Series</title> and subsequent editions of the collected <title>Poems</title>.</note></l>
                     <l n="27">Are not my cheeks as grass, my body pale, </l>
                     <l n="28">And my breath like a dying poisoned man’s? </l>
                     <l n="29">O whatsoever of godlike names thou be, </l>
@@ -3229,7 +3228,7 @@
                     <l n="100">He will have nought of altar and altar-song,</l>
                     <l n="101">And from him only of all the lords in heaven</l>
                     <l n="102">Persuasion turns a sweet averted mouth.</l>
-                    <note xml:id="acs0000001-01-i005-note01" resp="#acs" rendition="#block #small" rend="margin-left:3em;"><ref rendition="#super">1</ref>
+                    <note xml:id="acs0000001-01-i005-note01" resp="#acs" rendition="#block" rend="margin-left:3em;"><ref rendition="#super">1</ref>
                             <cit>
                                 <bibl>                                
                                  <persName key="aeschylus">Æsch.</persName> Fr.
@@ -4507,7 +4506,7 @@
         <body>
             <pb n="67" facs="acs0000001-01-110"/>
             <head rendition="#center #n #uc">Hymn to <persName key="proserpine">Proserpine</persName></head>
-            <head rendition="#center #n #x-small #uc">(After the proclamation in Rome of the Christian faith)</head>
+            <head rendition="#center #n #uc">(After the proclamation in Rome of the Christian faith)</head>
             <epigraph rendition="#center #i">
                 <p>Vicisti, <rs type="person" key="jesus"><choice><orig>Galilæe</orig><reg>Galilaee</reg></choice></rs>.</p>
             </epigraph>
@@ -4651,7 +4650,7 @@
                 <l n="109">So long I endure, no longer; and laugh not again, neither weep.</l>
                 <l n="110">For there is no God found stronger than death; and death is a sleep.</l>
             </lg>
-            <note rendition="#small" xml:id="acs0000001-01-i011-note01" resp="#acs" rend="margin-left:4em;"><cit><quote rendition="#block #nq" xml:lang="gr"><ref rendition="#super">1</ref> ψυχάριον εἶ βαστάζον νεκρόν.</quote>
+            <note xml:id="acs0000001-01-i011-note01" resp="#acs" rend="margin-left:4em;"><cit><quote rendition="#block #nq" xml:lang="gr"><ref rendition="#super">1</ref> ψυχάριον εἶ βαστάζον νεκρόν.</quote>
                             <bibl rendition="#ti-8"><author><persName rendition="#sc">Epictetus</persName></author></bibl>
                         </cit>
                 </note>
@@ -5218,7 +5217,7 @@
                         <body>
                                     <pb n="89" facs="acs0000001-01-132"/>
                                     <head rendition="#center #n #uc">A Litany</head>
-                                    <epigraph rendition="#small #center-block" rend="width:28em; margin-bottom:2em;">
+                                    <epigraph rendition="#center-block" rend="width:28em; margin-bottom:2em;">
                                                 <cit>
                                                   <quote xml:lang="gr" rendition="#block">
                                                   <lg rend="margin-bottom:0;">
@@ -5770,7 +5769,7 @@
         <body>
             <pb n="102" facs="acs0000001-01-145"/>
             <head rendition="#center #n #uc">In the Orchard</head>
-            <head rendition="#center #n #x-small #uc">(Provençal Burden)</head>
+            <head rendition="#center #n #uc">(Provençal Burden)</head>
             <lg>
                 <l n="1">
                     <hi rendition="#sc">Leave</hi> go my hands, let me catch breath and see;</l>
@@ -6207,7 +6206,7 @@
 		<body>
            <pb n="114" facs="acs0000001-01-157"/>
             <head rendition="#center #n #uc">Song Before Death</head>
-		    <head rendition="#center #n #x-small #uc">(From the French)</head>
+		    <head rendition="#center #n #uc">(From the French)</head>
             <head rendition="#center #n">1795</head>
             <lg>
                 <l n="1">
@@ -6709,7 +6708,7 @@
             </lg>
               
             <lg>
-                <head rendition="#center #n #x-small #sc">L’Envoy</head>
+                <head rendition="#center #n #sc">L’Envoy</head>
                 <l n="73">Princes, and ye whom pleasure quickeneth,</l>
                 <l n="74" rendition="#ti-1">Heed well this rhyme before your pleasure tire;</l>
                 <l n="75">For life is sweet, but after life is death.</l>
@@ -6746,8 +6745,8 @@
         <body>
             <pb n="129" facs="acs0000001-01-172"/>
             <head rendition="#center #n #uc" rend="margin-bottom:18pt;">Before the Mirror</head>
-            <head rendition="#center #n #x-small #uc" rend="margin-bottom:18pt;">(Verses Written Under a Picture)</head>
-            <head rendition="#center #n #xx-small #uc" rend="margin-bottom:18pt;">Inscribed to <persName key="whistler">J. A. Whistler</persName></head>
+            <head rendition="#center #n #uc" rend="margin-bottom:18pt;">(Verses Written Under a Picture)</head>
+            <head rendition="#center #n #uc" rend="margin-bottom:18pt;">Inscribed to <persName key="whistler">J. A. Whistler</persName></head>
             <div n="I" xml:id="id333026">
                 <head rendition="#center #n">I</head>
                 <lg>
@@ -7582,7 +7581,7 @@
                 <body>
                         <pb n="154" facs="acs0000001-01-197"/>
                         <head rendition="#center #n #uc">Dolores</head>
-                    <head rendition="#center #n #x-small">(Notre-Dame des Sept Douleurs)</head>
+                    <head rendition="#center #n">(Notre-Dame des Sept Douleurs)</head>
                         <lg rendition="#ti-2">
                                 <l n="1">Cold eyelids that hide like a jewel</l>
                                 <l n="2" rendition="#ti-1">Hard eyes that grow soft for an hour;</l>
@@ -8012,7 +8011,7 @@
                                 <l n="330" rendition="#ti-1">Cry out; for the <rs type="place" key="phrygia">Phrygian</rs> is priest,</l>
                                 <l n="331">And rears not the bountiful token</l>
                                 <l n="332" rendition="#ti-1">And spreads not the fatherly feast.</l>
-                            <note xml:id="acs0000001-01-i037-note01" resp="#acs" rendition="#small">
+                            <note xml:id="acs0000001-01-i037-note01" resp="#acs">
                                 <cit>
                                     <quote rendition="#block #nq" xml:lang="la">
                                         <lg rendition="#ti-2">
@@ -8522,8 +8521,8 @@
         <body>
             <pb n="181" facs="acs0000001-01-224"/>
             <head rendition="#center #n #uc">April</head>
-            <head rendition="#center #n #x-small #uc">From the French of the Vidame de Chartes</head>
-            <head rendition="#center #n #x-small">12—?</head>
+            <head rendition="#center #n #uc">From the French of the Vidame de Chartes</head>
+            <head rendition="#center #n">12—?</head>
               <lg rendition="#ti-2">
                 <l n="1">
                     <hi rendition="#sc">When</hi> the <choice><sic>field</sic><corr>fields</corr></choice> catch flower</l>
@@ -9827,7 +9826,7 @@
 				<l n="17" rendition="#ti-4">Mary that all good may,</l>
 				<l n="18" rendition="#ti-4">Bring us to thy Son’s way.</l>
 			</lg>
-		    <note rendition="#small" xml:id="acs0000001-01-i050-note01" n="1" resp="#acs">
+		    <note xml:id="acs0000001-01-i050-note01" n="1" resp="#acs">
 		        <ref rendition="#super #n">1</ref>Suggested by a drawing of Mr. D. G. Rossetti’s. </note>
 			<pb n="219" facs="acs0000001-01-262"/>
 			<lg>
@@ -9910,10 +9909,10 @@
 		<body>
 			<pb n="221" facs="acs0000001-01-264"/>
 			<head rendition="#center #n #uc" rend="margin-bottom:1em;">The Masque of Queen Bersabe</head>
-			<head rendition="#center #n #uc #x-small" rend="margin-bottom:3em;">A Miracle-Play</head>
+			<head rendition="#center #n #uc" rend="margin-bottom:3em;">A Miracle-Play</head>
 			<milestone unit="space"/>
 			<sp>
-				<speaker rendition="#center #x-small #uc">King David</speaker>
+				<speaker rendition="#center #uc">King David</speaker>
 				<lg>
 					<l n="1">
 						<hi rendition="#sc">Knights</hi> mine, all that be in hall,</l>
@@ -9937,7 +9936,7 @@
 			</sp>
 			<pb n="222" facs="acs0000001-01-265"/>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Primus Miles</speaker>
+				<speaker rendition="#center #uc">Primus Miles</speaker>
 				<lg>
 					<l n="18">Sir, note this that I will say;</l>
 					<l n="19">That Lord who maketh corn with hay</l>
@@ -9946,7 +9945,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small"><hi rendition="#uc">Secundus Miles</hi> <foreign xml:lang="la" rendition="#i">(Paganus quidam)</foreign>
+				<speaker rendition="#center"><hi rendition="#uc">Secundus Miles</hi> <foreign xml:lang="la" rendition="#i">(Paganus quidam)</foreign>
 				</speaker>
 				<lg>
 					<l n="22">By Satan I hold no such thing;</l>
@@ -9957,7 +9956,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Queen Bersabe</speaker>
+				<speaker rendition="#center #uc">Queen Bersabe</speaker>
 				<lg>
 					<l n="27">Peace now, lords, for Godis head,</l>
 					<l n="28">Ye chirk as starlings that be fed</l>
@@ -9967,7 +9966,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Secundus Miles</speaker>
+				<speaker rendition="#center #uc">Secundus Miles</speaker>
 				<lg>
 					<l n="32">By Mahound, lords, I have good will</l>
 					<l n="33">This devil’s bird to wring and spill;</l>
@@ -9976,7 +9975,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Tertius Miles</speaker>
+				<speaker rendition="#center #uc">Tertius Miles</speaker>
 				<lg>
 					<l n="36">Lo, sirs, this word is there said,</l>
 					<l n="37">That Urias the knight is dead</l>
@@ -9988,7 +9987,7 @@
 			</sp>
 			<pb n="223" facs="acs0000001-01-266"/>
 		    <sp rend="margin-bottom:0;">
-				<speaker rendition="#center #x-small #uc">King David</speaker>
+				<speaker rendition="#center #uc">King David</speaker>
 				<lg rend="margin-bottom:0;">
 					<l n="42">Yea, my good knave, and is it said</l>
 					<l n="43">That I can raise men from the dead?</l>
@@ -9999,7 +9998,7 @@
 			</sp>
 			<stage xml:lang="la" rendition="#i" rend="margin-left: 1em; margin-top:0; margin-bottom:1em;">Et percutiat eum in capite.</stage>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Queen Bersabe</speaker>
+				<speaker rendition="#center #uc">Queen Bersabe</speaker>
 				<lg>
 					<l n="47">I wis men shall spit at me,</l>
 					<l n="48">And say, it were but right for thee</l>
@@ -10010,7 +10009,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">King David</speaker>
+				<speaker rendition="#center #uc">King David</speaker>
 				<lg>
 					<l n="53">I rede you have no fear of this,</l>
 					<l n="54">For, as ye wot, the first good kiss</l>
@@ -10021,7 +10020,7 @@
 				</lg>
 			</sp>
 			<sp>
-			    <speaker rendition="#center #x-small #uc">Primus Miles</speaker>
+			    <speaker rendition="#center #uc">Primus Miles</speaker>
 				<lg>
 					<l n="59">I bid you make good cheer to be</l>
 					<l n="60">So fair a queen as all men see.</l>
@@ -10032,7 +10031,7 @@
 			</sp>
 			<pb n="224" facs="acs0000001-01-267"/>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Secundus Miles</speaker>
+				<speaker rendition="#center #uc">Secundus Miles</speaker>
 				<lg>
 					<l n="64">I would that he were hanged and dead</l>
 					<l n="65">Who hath no joy to see your head</l>
@@ -10042,7 +10041,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small">
+				<speaker rendition="#center">
 					<foreign xml:lang="la" rendition="#i">Tunc dicat</foreign>
 					<hi rendition="#sc">Nathan</hi>
 					<foreign xml:lang="la" rendition="#i">propheta</foreign>
@@ -10092,7 +10091,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Secundus Miles</speaker>
+				<speaker rendition="#center #uc">Secundus Miles</speaker>
 				<lg rend="margin-bottom:0;">
 					<l n="109">How! old thief, thy wits are lame;</l>
 					<l n="110">To clip such it is no shame;</l>
@@ -10114,7 +10113,7 @@
 			</sp>
 			<pb n="226" facs="acs0000001-01-269"/>
 			<sp>
-				<speaker rendition="#center #x-small #uc">King David</speaker>
+				<speaker rendition="#center #uc">King David</speaker>
 				<lg>
 					<l n="122">Certes his mouth is wried and black,</l>
 					<l n="123">Full little pence be in his sack;</l>
@@ -10123,7 +10122,7 @@
 				</lg>
 			</sp>
 			<sp rend="margin-bottom:.5em;">
-				<speaker rendition="#center #x-small #uc">Nathan</speaker>
+				<speaker rendition="#center #uc">Nathan</speaker>
 				<lg rend="margin-bottom:.5em;">
 					<l n="126">Sitteth now still and learn of me;</l>
 					<l n="127">A little while and ye shall see</l>
@@ -10135,7 +10134,7 @@
 			</sp>
 			<stage xml:lang="la" rendition="#i" rend="margin-top:0; margin-left:2em; margin-bottom:1.5em;">Et hìc omnes cantabunt.</stage>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Herodias</speaker>
+				<speaker rendition="#center #uc">Herodias</speaker>
 				<lg>
 					<l n="132">I am the queen Herodias.</l>
 					<l n="133">This headband of my temples was</l>
@@ -10149,7 +10148,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Aholibah</speaker>
+				<speaker rendition="#center #uc">Aholibah</speaker>
 				<lg>
 					<l n="141">I am the queen Aholibah.</l>
 					<l n="142">My lips kissed dumb the word of <hi rendition="#i">Ah</hi>
@@ -10165,7 +10164,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Cleopatra</speaker>
+				<speaker rendition="#center #uc">Cleopatra</speaker>
 				<lg>
 					<l n="150">I am the queen of Ethiope.</l>
 					<l n="151">Love bade my kissing eyelids ope</l>
@@ -10179,7 +10178,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Abihail</speaker>
+				<speaker rendition="#center #uc">Abihail</speaker>
 				<lg>
 					<l n="159">I am the queen of Tyrians.</l>
 					<l n="160">My hair was glorious for twelve spans,</l>
@@ -10193,7 +10192,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Azubah</speaker>
+				<speaker rendition="#center #uc">Azubah</speaker>
 				<lg>
 					<l n="168">I am the queen of Amorites.</l>
 					<l n="169">My face was like a place of lights</l>
@@ -10208,7 +10207,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Aholah</speaker>
+				<speaker rendition="#center #uc">Aholah</speaker>
 				<lg>
 					<l n="177">I am the queen of Amalek.</l>
 					<l n="178">There was no tender touch or fleck</l>
@@ -10222,7 +10221,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Ahinoam</speaker>
+				<speaker rendition="#center #uc">Ahinoam</speaker>
 				<lg>
 					<l n="186">I am the queen Ahinoam.</l>
 					<l n="187">Like the throat of a soft slain lamb</l>
@@ -10236,7 +10235,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Atarah</speaker>
+				<speaker rendition="#center #uc">Atarah</speaker>
 				<lg>
 					<l n="195">I am the queen Sidonian.</l>
 					<l n="196">My face made faint the face of man,</l>
@@ -10251,7 +10250,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Semiramis</speaker>
+				<speaker rendition="#center #uc">Semiramis</speaker>
 				<lg>
 					<l n="204">I am the queen Semiramis.</l>
 					<l n="205">The whole world and the sea that is</l>
@@ -10265,7 +10264,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Hesione</speaker>
+				<speaker rendition="#center #uc">Hesione</speaker>
 				<lg>
 					<l n="213">I am the queen Hesione.</l>
 					<l n="214">The seasons that increased in me</l>
@@ -10279,7 +10278,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Chrysothemis</speaker>
+				<speaker rendition="#center #uc">Chrysothemis</speaker>
 				<lg>
 					<l n="222">I am the queen of Samothrace.</l>
 					<l n="223">God, making roses, made my face</l>
@@ -10294,7 +10293,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Thomyris</speaker>
+				<speaker rendition="#center #uc">Thomyris</speaker>
 				<lg>
 					<l n="231">I am the queen of Scythians.</l>
 					<l n="232">My strength was like no strength of man’s,</l>
@@ -10308,7 +10307,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Harhas</speaker>
+				<speaker rendition="#center #uc">Harhas</speaker>
 				<lg>
 					<l n="240">I am the queen of Anakim.</l>
 					<l n="241">In the spent years whose speech is dim,</l>
@@ -10322,7 +10321,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Myrrha</speaker>
+				<speaker rendition="#center #uc">Myrrha</speaker>
 				<lg>
 					<l n="249">I am the queen Arabian.</l>
 					<l n="250">The tears wherewith mine eyelids ran</l>
@@ -10337,7 +10336,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Papiphae</speaker>
+				<speaker rendition="#center #uc">Papiphae</speaker>
 				<lg>
 					<l n="258">I am the queen Pasiphae.</l>
 					<l n="259">Not all the pure clean-coloured sea</l>
@@ -10351,7 +10350,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Sappho</speaker>
+				<speaker rendition="#center #uc">Sappho</speaker>
 				<lg>
 					<l n="267">I am the queen of Lesbians.</l>
 					<l n="268">My love, that had no part in man’s,</l>
@@ -10365,7 +10364,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Messalina</speaker>
+				<speaker rendition="#center #uc">Messalina</speaker>
 				<lg>
 					<l n="276">I am the queen of Italy.</l>
 					<l n="277">These were the signs God set on me;</l>
@@ -10380,7 +10379,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Amestris</speaker>
+				<speaker rendition="#center #uc">Amestris</speaker>
 				<lg>
 					<l n="285">I am the queen of Persians.</l>
 					<l n="286">My breasts were lordlier than bright swans,</l>
@@ -10394,7 +10393,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Ephrath</speaker>
+				<speaker rendition="#center #uc">Ephrath</speaker>
 				<lg>
 					<l n="294">I am the queen of Rephaim.</l>
 					<l n="295">God, that some while refraineth him,</l>
@@ -10408,7 +10407,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Pasithea</speaker>
+				<speaker rendition="#center #uc">Pasithea</speaker>
 				<lg>
 					<l n="303">I am the queen of Cypriotes.</l>
 					<l n="304">Mine oarsmen, labouring with brown throats,</l>
@@ -10423,7 +10422,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Alaciel</speaker>
+				<speaker rendition="#center #uc">Alaciel</speaker>
 				<lg>
 					<l n="312">I am the queen Alaciel.</l>
 					<l n="313">My mouth was like that moist gold cell</l>
@@ -10437,7 +10436,7 @@
 				</lg>
 			</sp>
 			<sp rend="margin-bottom:.5em;">
-				<speaker rendition="#center #x-small #uc">Erigone</speaker>
+				<speaker rendition="#center #uc">Erigone</speaker>
 				<lg rend="margin-bottom:.5em;">
 					<l n="321">I am the queen Erigone.</l>
 					<l n="322">The wild wine shed as blood on me</l>
@@ -10467,7 +10466,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">King David</speaker>
+				<speaker rendition="#center #uc">King David</speaker>
 				<lg>
 					<l n="342">Lord God, alas, what shall I sain?</l>
 					<l n="343">Lo, thou art as an hundred men</l>
@@ -10553,7 +10552,7 @@
 				</lg>
 			</sp>
 			<sp>
-				<speaker rendition="#center #x-small #uc">Nathan</speaker>
+				<speaker rendition="#center #uc">Nathan</speaker>
 				<lg>
 					<l n="421">Now, sir, be merry anon,</l>
 					<l n="422">For ye shall have a full wise son,</l>
@@ -11127,7 +11126,7 @@
 		<body>
 			<pb n="252" facs="acs0000001-01-295"/>
 			<head rendition="#center #uc">The Two Dreams</head>
-			<head rendition="#center #x-small #uc">(From <persName key="boccaccio">Boccaccio</persName>)</head>
+			<head rendition="#center #uc">(From <persName key="boccaccio">Boccaccio</persName>)</head>
 			<lg type="verseParagraph" rend="margin-bottom:0;">
 				<l n="1">
 					<hi rendition="#sc">I will</hi> that if I say a heavy thing</l>
@@ -12193,7 +12192,7 @@
 		<body>
 			<pb n="282" facs="acs0000001-01-325"/>
 			<head rendition="#center #uc">May Janet</head>
-		    <head rendition="#center #x-small #uc">(Breton)</head>
+		    <head rendition="#center #uc">(Breton)</head>
 			<lg>
 				<l n="1">"Stand up, stand up, thou May Janet,</l>
 				<l n="2" rendition="#ti-1">And go to the wars with me."</l>
@@ -12262,7 +12261,7 @@
 		<body>
 			<pb n="284" facs="acs0000001-01-327"/>
 			<head rendition="#center #uc">The Bloody Son</head>
-		    <head rendition="#center #x-small #uc">(Finnish)</head>
+		    <head rendition="#center #uc">(Finnish)</head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc">"O where </hi>have ye been the morn sae late,</l>
