@@ -120,7 +120,7 @@
 			<div type="dedication" xml:id="acs0000001-02-i000">
 				<index corresp="acs0000001-02-i000-md.xml" indexName="text"/>
 				<pb n="[v]" facs="acs0000001-02-010"/>
-			<head rendition="#center #uc">Dedication<lb/> <hi rendition="#block" rend="margin-top:2em;">to</hi><lb/> <persName key="mazzini" corresp="#unfamiliar" rendition="#block" rend="margin-top:0;">Joseph Mazzini</persName></head>
+			<head rendition="#center #uc">Dedication<lb/> <hi rendition="#block">to</hi><lb/> <persName key="mazzini" corresp="#unfamiliar" rendition="#block">Joseph Mazzini</persName></head>
 			<lg>
 				<l n="1">
 					<hi rendition="#sc"> Take</hi>, since you bade it should bear,</l>
@@ -2801,7 +2801,7 @@
 		<body>
 			<pb n="64" facs="acs0000001-02-079"/>
 			<head rendition="#center #uc">The Litany of Nations </head>
-			<epigraph rendition="#center-block" rend="width:15em; margin-bottom:2em;">
+			<epigraph rendition="#center-block">
 				<cit rendition="#block">
 					<quote rendition="#block" xml:lang="gr">
 						<l>
@@ -2811,7 +2811,7 @@
 							φοβερὸν ἀπότρεπε.
 						</l>
 					</quote>
-					<bibl rendition="#block" rend="margin-left:7em;">
+					<bibl rendition="#block">
 										<author rendition="#sc">
 										<persName key="aeschylus"><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></persName>
 										</author>
@@ -2885,7 +2885,7 @@
 				<l n="50" rendition="#ti-4"> Where none sees other;</l>
 				<l n="51"> By my dead that loved and living men that love him;</l>
 			</sp>
-			<sp><speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+			<sp><speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="52" rendition="#ti-4">Hear us, O mother.</l>
 			</sp>
 			<sp>
@@ -2905,7 +2905,7 @@
 				<l n="63"> By that hope and this remembrance reunited;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker>
+				<speaker rendition="#i #inline">(Cho.)</speaker>
 				<l n="64" rendition="#ti-4"> O mother, hear us.</l>
 			</sp>
 			<pb n="67" facs="acs0000001-02-082"/>
@@ -2929,7 +2929,7 @@
 				<l n="75"> Now my blood would buy remission of my sentence;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+				<speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="76" rendition="#ti-4"> Hear us, O mother.</l>
 			</sp>
 			<sp>
@@ -2951,7 +2951,7 @@
 				<l n="87"> By the hopes that hang around thee, and the terrors;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+				<speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="88" rendition="#ti-4"> O mother, hear us.</l>
 			</sp>
 			<pb n="68" facs="acs0000001-02-083"/>
@@ -2974,7 +2974,7 @@
 				<l n="99"> By the stains and by the chains on me thy daughter;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+				<speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="100" rendition="#ti-4"> Hear us, O mother.</l>
 			</sp>
 			<sp>
@@ -2998,7 +2998,7 @@
 				<l n="111"> Light of those to these responsive and redoubled;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+				<speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="112" rendition="#ti-4"> O mother, hear us.</l>
 			</sp>
 			<pb n="69" facs="acs0000001-02-084"/>
@@ -3021,7 +3021,7 @@
 				<l n="123"> By the single eye of sun-compelling vision;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+				<speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="124" rendition="#ti-4"> Hear us, O mother.</l>
 			</sp>
 			<sp>
@@ -3043,7 +3043,7 @@
 				<l n="135"> By the beacon-bright Republic far-off sighted;</l>
 			</sp>
 			<sp>
-				<speaker rendition="#i #inline" rend="float:left; margin-left:1em; margin-right:-4em;">(Cho.)</speaker> 
+				<speaker rendition="#i #inline">(Cho.)</speaker> 
 				<l n="136" rendition="#ti-4"> O mother, hear us.</l>
 			</sp>
 			<pb n="70" facs="acs0000001-02-085"/>
@@ -5282,10 +5282,10 @@
 			<head rendition="#center #uc" type="main"> A New Year's Message </head>
 			<head type="sub" rendition="#center">To <persName key="mazzini" corresp="#unfamiliar">Joseph Mazzini</persName>
 			</head>
-			<epigraph rendition="#center-block" rend="margin-top:2em; margin-bottom:2em; width:20em;">
+			<epigraph rendition="#center-block">
 				<cit rendition="#block">
 					<quote rendition="#block">Send the stars light, but send not love to me.</quote>
-					<bibl rendition="#block" rend="margin-left:18em;">
+					<bibl rendition="#block">
 						<author rendition="#i"><persName key="shelley">Shelley</persName>.</author>
 					</bibl>
 				</cit>
@@ -5389,10 +5389,10 @@
 		<body>
 			<pb n="140" facs="acs0000001-02-155"/>
 			<head rendition="#uc #center" xml:lang="la"> Mater Dolorosa </head>
-			<epigraph xml:id="epigraph_0001" xml:lang="fr" rendition="#center-block" rend="width:28em;">
+			<epigraph xml:id="epigraph_0001" xml:lang="fr" rendition="#center-block">
 				<cit rendition="#block">
 					<quote rendition="#block">Citoyen, lui dit Enjolras, ma mère, c'est la République.</quote>
-					<bibl rendition="#block" rend="margin-left:18em;">
+					<bibl rendition="#block">
 						<title key="miserables" rendition="#i">Les Misérables.</title>
 					</bibl>
 				</cit>
@@ -7537,7 +7537,7 @@
 			<pb n="200" facs="acs0000001-02-215"/>
 			<head rendition="#center #uc">Ode on the <name key="insurrection_candia" type="event">Insurrection in Candia</name></head>
 			<div xml:id="id333052">
-				<head rendition="#sc #center" rend="margin-top:2em;"> Str. 1 </head>
+				<head rendition="#sc #center"> Str. 1 </head>
 				<l n="1" rendition="#ti-4">
 					<hi rendition="#sc">I laid </hi> my laurel-leaf</l>
 				<l n="2" rendition="#ti-4">At the white feet of grief,</l>
@@ -7549,7 +7549,7 @@
 				<l n="8">And bleeding from base wounds, and vexed with alien air.</l>
 			</div>
 			<div xml:id="id333164">
-				<head rendition="#sc #center" rend="margin-top:1em;"> Str. 2 </head>
+				<head rendition="#sc #center"> Str. 2 </head>
 				<l n="9">Who was it, who, put poison to thy mouth,</l>
 				<l n="10" rendition="#ti-1">Who lulled with craft or chant thy vigilant eyes,</l>
 				<l n="11">O light of all men, lamp to north and south,</l>
@@ -7613,7 +7613,7 @@
 				</lg>
 			</div>
 			<div xml:id="id333777">
-				<head rendition="#sc #center" rend="margin-top:3em;"> Str. 4 </head>
+				<head rendition="#sc #center"> Str. 4 </head>
 				<lg>
 					<l n="57" rendition="#ti-3">Had I words of fire,</l>
 					<l n="58" rendition="#ti-4">Whose words are weak as snow;</l>
@@ -7649,7 +7649,7 @@
 				</lg>
 			</div>
 			<div xml:id="id334126">
-				<head rendition="#sc #center" rend="margin-top:3em;"> Str. 5 </head>
+				<head rendition="#sc #center"> Str. 5 </head>
 				<l n="81">O that these my days had been</l>
 				<l n="82">Ere white peace and shame were wed</l>
 				<l n="83">Without torch or dancers' din</l>
@@ -7667,7 +7667,7 @@
 				<l n="95">With the welfare of the world.</l>
 			</div>
 			<div xml:id="id334301">
-				<head rendition="#sc #center" rend="margin-top:3em;"> Ant. 1 </head>
+				<head rendition="#sc #center"> Ant. 1 </head>
 				<l n="96" rendition="#ti-3">But now, close-clad with peace,</l>
 				<l n="97" rendition="#ti-3">While war lays hand on <placeName><country key="gr">Greece</country></placeName>,</l>
 				<l n="98">The kingdoms and their kings stand by to see;</l>
@@ -7679,7 +7679,7 @@
 				<l n="103">But ye lie dead and naked, dying for a name.”</l>
 			</div>
 			<div xml:id="id334430">
-				<head rendition="#sc #center" rend="margin-top:2em;"> Ant. 2 </head>
+				<head rendition="#sc #center"> Ant. 2 </head>
 				<l n="104">O kings and queens and nations miserable,</l>
 				<l n="105" rendition="#ti-1">O fools and blind, and full of sins and fears,</l>
 				<l n="106">With these it is, with you it is not well;</l>
@@ -7694,7 +7694,7 @@
 				<l n="115">The heaven of their high memories shall nor wax nor wane.</l>
 			</div>
 			<div xml:id="id334578">
-				<head rendition="#sc #center" rend="margin-top:2em;"> Ant. 3 </head>
+				<head rendition="#sc #center"> Ant. 3 </head>
 				<lg>
 					<l n="116">As the soul on the lips of the dead</l>
 					<l n="117" rendition="#ti-1">Stands poising her wings for flight,</l>
@@ -7742,7 +7742,7 @@
 				</lg>
 			</div>
 			<div xml:id="id335033">
-				<head rendition="#sc #center" rend="margin-top:3em;"> Ant. 4 </head>
+				<head rendition="#sc #center"> Ant. 4 </head>
 				<lg>
 					<l n="152" rendition="#ti-3">Ah, but would that men,</l>
 					<l n="153" rendition="#ti-4">With eyelids purged by tears,</l>
@@ -7778,7 +7778,7 @@
 				</lg>
 			</div>
 			<div xml:id="id335359">
-				<head rendition="#sc #center" rend="margin-top:2em;"> Ant. 5 </head>
+				<head rendition="#sc #center"> Ant. 5 </head>
 				<l n="176">Hear, thou earth, the heavy-hearted</l>
 				<l n="177">Weary nurse of waning races;</l>
 				<l n="178">From the dust of years departed,</l>
@@ -7797,7 +7797,7 @@
 				<l n="190">And a worship from of old.</l>
 			</div>
 			<div xml:id="id335543">
-				<head rendition="#sc #center" rend="margin-top:1em;"> Epode </head>
+				<head rendition="#sc #center"> Epode </head>
 				<l n="191">O sombre heart of earth and swoln with grief,</l>
 				<l n="192" rendition="#ti-1">That in thy time wast as a bird for mirth,</l>
 				<l n="193">Dim womb of life and many a seed and sheaf,</l>
@@ -7858,7 +7858,7 @@
 				<l n="246">We call thee and we charge thee that all these be free.</l>
 			</div>
 			<closer>
-				<dateline rend="margin-top:1em;">
+				<dateline>
 					<date when="1867-01"><hi rendition="#i">Jan.</hi> 1867.</date>
 				</dateline>
 			</closer>
@@ -8923,13 +8923,13 @@
 								<quote>
 									<foreign xml:lang="gr">Σεμνὰ Κότυς ἐν τοῖς Ἠδωνοῖς.</foreign>
 								</quote>
-								<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aeschylus"><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus.</expan></choice></persName></author> Fr. 54 (<foreign xml:lang="gr">Ἠδωνοὶ</foreign>).</bibl>
+								<bibl rendition="#block"><author><persName key="aeschylus"><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus.</expan></choice></persName></author> Fr. 54 (<foreign xml:lang="gr">Ἠδωνοὶ</foreign>).</bibl>
 							</cit>
 						</note>
 						<note resp="#acs" xml:id="acs0000001-02-i013-note01">
 							<label rendition="#center">P. 94</label>
 							<label rendition="#center #i">Was it Love brake forth flower-fashion, a bird with gold on his wings?</label>
-							<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aristophanes"><choice><abbr>Ar.</abbr><expan>Aristophanes</expan></choice></persName></author><title key="birds" rendition="#n"><choice><abbr>Av.</abbr><expan>Aves<!-- The Birds--></expan></choice></title> <biblScope unit="line">696</biblScope>.</bibl>
+							<bibl rendition="#block"><author><persName key="aristophanes"><choice><abbr>Ar.</abbr><expan>Aristophanes</expan></choice></persName></author><title key="birds" rendition="#n"><choice><abbr>Av.</abbr><expan>Aves<!-- The Birds--></expan></choice></title> <biblScope unit="line">696</biblScope>.</bibl>
 						</note>
 						<note resp="#acs" xml:id="acs0000001-02-i024-note01">
 							<label rendition="#center">P. 161</label>
@@ -8953,7 +8953,7 @@
 							<label rendition="#center #i">Saw all <rs key="it" type="place">Italian things</rs> save one.</label>
 							<cit rendition="#block">
 								<quote xml:lang="it">
-									<lg rend="margin-left: 8em;">
+									<lg>
 										<l>O patria mia, vedo le mura e gli archi,</l>
 										<l>E le colonne e i simulacri e l'erme</l>
 										<l>Torri degli avi nostri;</l>
@@ -8962,14 +8962,14 @@
 										<l>I nostri padri antichi.</l>
 									</lg>
 								</quote>
-								<bibl rend="text-indent: 10em;" rendition="#block"><author rendition="#uc"><persName key="leopardi">Leopardi</persName></author>.</bibl>
+								<bibl rendition="#block"><author rendition="#uc"><persName key="leopardi">Leopardi</persName></author>.</bibl>
 							</cit>
 						</note>
 						<pb n="239" facs="acs0000001-02-254"/>
 						<note resp="#acs" xml:id="acs0000001-02-i027-note01">
 							<label rendition="#center">P. 179</label>
 							<label rendition="#center #i">Mother, that by that <rs key="pegasus">Pegasean spring</rs>.</label>
-							<bibl rend="text-indent: 10em;" rendition="#block">
+							<bibl rendition="#block">
 								<author><persName key="callimachus"><choice><abbr>Call.</abbr><expan>Callimachus</expan></choice></persName></author> <title key="lavacrum_palladis" rendition="#n"><choice><abbr>Lav. Pall.</abbr><expan>Lavacrum Palladis</expan></choice></title> <biblScope unit="line">105-112</biblScope>.</bibl>
 						</note>
 						<note resp="#acs" xml:id="acs0000001-02-i039-note01">
@@ -8979,7 +8979,7 @@
 								<quote xml:lang="gr">
 									<l>κἀξ ὀμμάτων στάζουσιν αἶμα δυσφιλὲς.</l>
 								</quote>
-								<bibl rend="text-indent: 10em;" rendition="#block"><author><persName key="aeschylus"><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus.</expan></choice></persName></author> <title key="choephori" rendition="#n"><choice><abbr>Cho.</abbr><expan>Choephoroe</expan></choice></title> <biblScope unit="line">1058</biblScope>.</bibl></cit></note>
+								<bibl rendition="#block"><author><persName key="aeschylus"><choice><abbr><choice><orig>Æsch.</orig><reg>Aesch.</reg></choice></abbr><expan>Aeschylus.</expan></choice></persName></author> <title key="choephori" rendition="#n"><choice><abbr>Cho.</abbr><expan>Choephoroe</expan></choice></title> <biblScope unit="line">1058</biblScope>.</bibl></cit></note>
             		</div>
 				</back>
 			</text>
@@ -8991,7 +8991,7 @@
 						<pb n="[241]" facs="acs0000001-02-256"/>
 						<docTitle>
 							<titlePart rendition="#center #uc" type="main">Songs of Two Nations</titlePart>
-							<titlePart rend="padding: 8em;" type="contents">
+							<titlePart type="contents">
 								<table>
 									<row><cell rendition="#right">I.</cell><cell><title rendition="#uc">A Song of Italy</title></cell></row>
 									<row><cell rendition="#right">II.</cell><cell><title rendition="#uc">Ode on the Proclamation of the French Republic</title></cell></row>
@@ -10127,7 +10127,7 @@
         <front>
             <titlePage>
             	<pb n="[275]" facs="acs0000001-02-290"/>
-                <docTitle rendition="#center" rend="line-height:2em; margin-bottom:3em;">
+                <docTitle rendition="#center">
                     <titlePart rendition="#uc">
                         Ode<lb/>
                         on the<lb/>
@@ -10541,21 +10541,21 @@
                 </docTitle>
             </titlePage>
         	<pb n="[292]" facs="acs0000001-02-307"/>
-            <epigraph rendition="#center-block" rend="width:12em;">
+            <epigraph rendition="#center-block">
                 <cit rendition="#block">
                     <quote rendition="#block">Guai a voi, anime prave.</quote>
-                    <bibl><author rendition="#block #sc" rend="margin-left:9em;">Dante.</author></bibl>
+                    <bibl><author rendition="#block #sc">Dante.</author></bibl>
                 </cit>
             </epigraph>
-            <epigraph rendition="#center-block" rend="width:24em;">
+            <epigraph rendition="#center-block">
                 <cit rendition="#block">
                     <quote rendition="#block">
-                        <lg rend="margin-bottom:0;">
+                        <lg>
                             <l>Soyez maudits, d'abord d'être ce que vous êtes,</l>
                             <l>Et puis soyez maudits d'obséder les poëtes!</l>
                         </lg>
                     </quote>
-                    <bibl rendition="#block" rend="margin-left:15em;"><author rendition="#sc">Victor Hugo.</author></bibl>
+                    <bibl rendition="#block"><author rendition="#sc">Victor Hugo.</author></bibl>
                 </cit>
             </epigraph>
         </front>
@@ -10845,7 +10845,7 @@
                 <l n="12">Nor set thine heel on men as on their deeds;</l>
                 <l n="13" rendition="#ti-1">But let the worm Napoleon crawl untrod,</l>
                 <l n="14" rendition="#ti-1">Nor grant Mastai the gallows of his God.</l>
-                <signed rend="margin-top:1em;">
+                <signed>
                     <date when="1869">1869</date>.
                 </signed>
 
@@ -11029,15 +11029,15 @@
         	<pb n="310" facs="acs0000001-02-325"/>
             <head rendition="#center">XIV</head>
             <head rendition="#center #uc">Mentana: Second Anniversary</head>
-            <epigraph rendition="#center-block" rend="width:26em;" xml:lang="fr">
+            <epigraph rendition="#center-block" xml:lang="fr">
                 <cit rendition="#block">
                     <quote rendition="#block">
-                    	<lg rend="margin-bottom:0;">
+                    	<lg>
 			                <l>Est-ce qu'il n'est pas temps que la foudre se prouve,</l>
         			        <l>Cieux profonds, en broyant ce chien, fils de la louve?</l>
                     	</lg>
                     </quote>
-                <bibl rendition="#i #block" rend="margin-left:10em;">
+                <bibl rendition="#i #block">
                     La Légende des Siècles:—Ratbert.
                 </bibl>
                 </cit>
