@@ -1,5 +1,10 @@
 <tagsDecl xmlns="http://www.tei-c.org/ns/1.0" partial="true">
-    
+    <!-- elements defined -->
+	<rendition selector="epigraph">
+		font-size:85%;
+		display:block;
+		max-width:90%;
+	</rendition>
     
     <!-- font-size -->
     <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
