@@ -62,6 +62,9 @@ UNRESOLVED:
                 </respStmt>
             </seriesStmt>
             <sourceDesc>
+                <include xmlns="http://www.w3.org/2001/XInclude" href="acs0000513-01-md.xml" xpointer="element(acs0000513-01-bibl)"/>
+            </sourceDesc>
+            <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <title level="a">Essays and Studies</title>
