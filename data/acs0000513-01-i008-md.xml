@@ -38,7 +38,7 @@
             <div xml:id="texts">
                 <head>texts</head>
                 <listBibl>
-                    <biblStruct xml:id="acs0000513-01-i008-bibl" n="readingtext">
+                    <biblStruct xml:id="acs0000513-01-i008-bibl" n="original_collection">
                         <analytic>
                             <title>Coleridge</title>
                             <author>
@@ -50,12 +50,12 @@
                             <imprint>
                                 <pubPlace> London </pubPlace>
                                 <publisher>Chatto and Windus, Piccadilly</publisher>
-                                <date when="1875"/>
+                                <date when="1875" xml:id="sort_date"/>
                                 <biblScope unit="page">259-275</biblScope>
                             </imprint>
                         </monogr>
                     </biblStruct>
-                    <biblStruct n="original_collection"> 
+                    <biblStruct n="first_publication"> 
                         <analytic>
                             <title>Essay on Coleridge</title>
                             <author>
@@ -72,7 +72,7 @@
                             <imprint>
                                 <publisher>Sampson Low, Son, and Marston</publisher>
                                 <pubPlace>London</pubPlace>
-                                <date when="1869" xml:id="sort_date"/>
+                                <date when="1869"/>
                                 <biblScope unit="page">v-xxiii</biblScope>
                             </imprint>
                         </monogr>

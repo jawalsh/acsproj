@@ -38,7 +38,7 @@
             <div xml:id="texts">
                 <head>texts</head>
                 <listBibl>
-                    <biblStruct xml:id="acs0000513-01-i011-bibl" n="readingtext">
+                    <biblStruct xml:id="acs0000513-01-i011-bibl" n="original_collection">
                         <analytic>
                             <title>Notes on some Pictures 1868</title>
                             <author>
@@ -50,12 +50,12 @@
                             <imprint>
                                 <pubPlace> London </pubPlace>
                                 <publisher>Chatto and Windus, Piccadilly</publisher>
-                                <date when="1875"/>
+                                <date when="1875" xml:id="sort_date"/>
                                 <biblScope unit="page">358-380</biblScope>
                             </imprint>
                         </monogr>
                     </biblStruct>
-                    <biblStruct n="original_collection"> 
+                    <biblStruct n="first_publication"> 
                         <analytic>
                             <title>Part II</title>
                             <author>
@@ -69,7 +69,7 @@
                             <imprint>
                                 <publisher>John Camden Hotten</publisher>
                                 <pubPlace>London</pubPlace>
-                                <date when="1868" xml:id="sort_date"/>
+                                <date when="1868"/>
                                 <biblScope unit="page">31-51</biblScope>
                             </imprint>
                         </monogr>

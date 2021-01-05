@@ -38,7 +38,7 @@
             <div xml:id="texts">
                 <head>texts</head>
                 <listBibl>
-                    <biblStruct xml:id="acs0000513-01-i003-bibl" n="readingtext">
+                    <biblStruct xml:id="acs0000513-01-i003-bibl" n="original_collection">
                         <analytic>
                             <title>The Poems of Dante Gabriel Rossetti</title>
                             <author>
@@ -50,12 +50,12 @@
                             <imprint>
                                 <pubPlace> London </pubPlace>
                                 <publisher>Chatto and Windus, Piccadilly</publisher>
-                                <date when="1875"/>
+                                <date when="1875" xml:id="sort_date"/>
                                 <biblScope unit="page">60-109</biblScope>
                             </imprint>
                         </monogr>
                     </biblStruct>
-                    <biblStruct n="original_collection"> 
+                    <biblStruct n="first_publication"> 
                         <analytic>
                             <title>The Poems of Dante Gabriel Rossetti</title>
                             <author>
@@ -65,7 +65,7 @@
                         <monogr>
                             <title>The Fortnightly Review</title>
                             <imprint>
-                                <date when="1870-05" xml:id="sort_date"/>
+                                <date when="1870-05"/>
                                 <biblScope unit="volume">7</biblScope>
                                 <biblScope unit="issue">41</biblScope>
                                 <biblScope unit="page">551-579</biblScope>

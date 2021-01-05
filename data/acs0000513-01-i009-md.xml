@@ -38,7 +38,7 @@
             <div xml:id="texts">
                 <head>texts</head>
                 <listBibl>
-                    <biblStruct xml:id="acs0000513-01-i009-bibl" n="readingtext">
+                    <biblStruct xml:id="acs0000513-01-i009-bibl" n="original_collection">
                         <analytic>
                             <title>John Ford</title>
                             <author>
@@ -50,12 +50,12 @@
                             <imprint>
                                 <pubPlace> London </pubPlace>
                                 <publisher>Chatto and Windus, Piccadilly</publisher>
-                                <date when="1875"/>
+                                <date when="1875" xml:id="sort_date"/>
                                 <biblScope unit="page">276-313</biblScope>
                             </imprint>
                         </monogr>
                     </biblStruct>
-                    <biblStruct n="original_collection"> 
+                    <biblStruct n="first_publication"> 
                         <analytic>
                             <title>John Ford</title>
                             <author>
@@ -65,7 +65,7 @@
                         <monogr>
                             <title>The Fortnightly Review</title>
                             <imprint>
-                                <date when="1871-07" xml:id="sort_date"/>
+                                <date when="1871-07"/>
                                 <biblScope unit="volume">10</biblScope>
                                 <biblScope unit="issue">55</biblScope>
                                 <biblScope unit="page">35-41</biblScope>
