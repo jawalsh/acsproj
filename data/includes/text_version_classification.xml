@@ -1,0 +1,18 @@
+<classDecl xmlns="http://www.tei-c.org/ns/1.0">
+	<taxonomy xml:id="text_version_classification">
+		<bibl>
+			<title>Swinburne Project Text Version Typology</title>
+			<author>John A. Walsh</author>
+			<note>Used to classify the bibliographic records for the various published versions of a given text</note>
+		</bibl>
+		<category xml:id="readingtext">
+			<catDesc>Reading text</catDesc>
+		</category>
+		<category xml:id="original_collection">
+			<catDesc>Original collection</catDesc>
+		</category>
+		<category xml:id="first_publication">
+			<catDesc>First publication</catDesc>
+		</category>
+	</taxonomy>
+</classDecl>
