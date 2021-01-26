@@ -17,6 +17,11 @@
 
     <xsl:template match="teiHeader"/>
     
+    <xsl:template match="p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
     
 
     <xsl:template match="div[@type = 'day']">

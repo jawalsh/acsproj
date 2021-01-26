@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../data/swinburne.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../data/swinburne.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="library2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!-- example entry -->
     <!--
     <biblStruct xml:id="sb393.1">
@@ -84,16 +87,11 @@
                     <head>Introduction</head>
                     <!-- start slipsum code -->
                     
-                    <p part="N">Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel semper magna. Mauris molestie tempus dui, eget pretium nunc semper eget. Nulla porttitor justo eget vulputate viverra. In ac eros enim. Duis sed venenatis turpis. Nam sem arcu, euismod vel laoreet a, lobortis id enim. Nunc aliquet dolor vel quam pulvinar, sit amet porta lectus volutpat. In hac habitasse platea dictumst.</p>
                     
-                    <p part="N">Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
+                    <p>Vestibulum ut luctus ex. Quisque in arcu sodales sapien blandit pharetra. Quisque ut laoreet mauris, id efficitur purus. Maecenas nec erat bibendum, ultrices urna id, lobortis nisl. Sed nunc leo, pellentesque ut leo at, semper viverra augue. In posuere viverra eleifend. Aliquam ac ante nec lacus aliquam posuere. Praesent eu dolor porttitor, efficitur massa id, bibendum purus. Fusce vitae diam vel mi elementum pharetra vel laoreet arcu. In quis felis sed mi sagittis euismod.</p>
                     
-                    <p part="N">My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
-                    
-                    <p part="N">Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.  </p>
-                    
-                    <p part="N">The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p>
-                    
+                    <p>Vivamus vulputate, magna quis tempor efficitur, ex orci semper augue, suscipit sagittis odio justo non velit. Aliquam luctus nibh in neque malesuada, nec pretium lacus facilisis. Donec at finibus neque. Cras lorem diam, pellentesque in justo quis, mollis auctor orci. Pellentesque magna dui, elementum sit amet justo eget, mattis pretium tortor. Sed eget massa sed sapien semper volutpat in ac nunc. Sed in libero sollicitudin, venenatis massa commodo, eleifend libero. Proin justo lacus, eleifend quis tincidunt eu, iaculis et metus. Donec consectetur tellus et leo rutrum suscipit. Aliquam arcu elit, mollis sit amet viverra sit amet, imperdiet at est. Phasellus dapibus lectus nec gravida consectetur. Donec sed molestie mi. Nulla dignissim nisi erat, non congue justo dapibus a. Cras vitae justo massa. Donec et placerat lorem, nec facilisis dui. Phasellus vestibulum justo eget tincidunt semper.</p>
                     <!-- end slipsum code -->
                 </div>
             </front>
