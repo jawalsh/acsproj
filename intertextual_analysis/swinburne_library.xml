@@ -94,6 +94,21 @@
                     <p>Vivamus vulputate, magna quis tempor efficitur, ex orci semper augue, suscipit sagittis odio justo non velit. Aliquam luctus nibh in neque malesuada, nec pretium lacus facilisis. Donec at finibus neque. Cras lorem diam, pellentesque in justo quis, mollis auctor orci. Pellentesque magna dui, elementum sit amet justo eget, mattis pretium tortor. Sed eget massa sed sapien semper volutpat in ac nunc. Sed in libero sollicitudin, venenatis massa commodo, eleifend libero. Proin justo lacus, eleifend quis tincidunt eu, iaculis et metus. Donec consectetur tellus et leo rutrum suscipit. Aliquam arcu elit, mollis sit amet viverra sit amet, imperdiet at est. Phasellus dapibus lectus nec gravida consectetur. Donec sed molestie mi. Nulla dignissim nisi erat, non congue justo dapibus a. Cras vitae justo massa. Donec et placerat lorem, nec facilisis dui. Phasellus vestibulum justo eget tincidunt semper.</p>
                     <!-- end slipsum code -->
                 </div>
+                <div n="authors">
+                    <listPerson>
+                        <head>Authors, Editors, etc.</head>
+                        <person xml:id="arnold">
+                            <persName source="http://id.loc.gov/authorities/names/n79045174">Arnold, Matthew, 1822-1888</persName>
+                        </person>
+                    </listPerson>
+                </div>
+                <div n="publishers">
+                    <list>
+                        <head>Publishers, Printers, etc.</head>
+                        <item xml:id="kelmscott"><orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott Press</orgName>                          
+                        </item>
+                    </list>
+                </div>
             </front>
             <body>
              <div type="day" n="1" part="N" org="uniform" sample="complete">
@@ -679,7 +694,7 @@
                         <biblStruct xml:id="sb021.1" default="false" status="draft">
                             <monogr>
                                 <title>Poems</title>
-                                <author>Arnold, Matthew</author>
+                                <author ref="#arnold">Arnold, Matthew</author>
                                 <note type="description" anchored="true">crimson morocco extra, richly gilt sides, g.e.</note>
                                 <imprint>
                                     <date when="1853" instant="false"/>
@@ -690,7 +705,7 @@
                         <biblStruct xml:id="sb021.2" default="false" status="draft">
                             <monogr>
                                 <title>Note Books, with Preface by the Hon. Mrs. Wodehouse</title>
-                                <author>Arnold, Matthew</author>
+                                <author ref="#arnold">Arnold, Matthew</author>
                                 <note type="description" anchored="true">portrait</note>
                                 <imprint>
                                     <date when="1902" instant="false"/>
@@ -701,7 +716,7 @@
                         <biblStruct xml:id="sb021.3" default="false" status="draft">
                             <monogr>
                                 <title>Friendship's Garland</title>
-                                <author>Arnold, Matthew</author>
+                                <author ref="#arnold">Arnold, Matthew</author>
                                 <note type="etc" anchored="true"><num value="3"/></note>
                                 <imprint>
                                     <date when="1871" instant="false"/>
@@ -2138,7 +2153,7 @@
                                     <note type="description" anchored="true">3 vol. half morocco gilt, m. e.</note>
                                     <note type="etc" anchored="true"><num value="12"/></note>
                                     <imprint>
-                                        <publisher/>
+                                        
                                         <pubPlace>Paris</pubPlace>
                                         <date instant="false">n. d.</date>
                                     </imprint>
@@ -8213,7 +8228,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace>Paris</pubPlace>
                                      <date when="1901" instant="false"/>
                                  </imprint>
@@ -8231,7 +8246,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">one of 300 copies on Holland paper, uncut, ib.</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1866" instant="false"/>
                                  </imprint>  
@@ -8250,7 +8265,7 @@
                                  <note type="etc" anchored="true"><num value="4"/></note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1875" instant="false"/>
                                  </imprint>
@@ -8271,7 +8286,7 @@
                                  <note type="description" anchored="true">The course form which Shakepseare gathered some of his plots.</note>
                                  <edition>First Edition</edition>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date instant="false"/>
                                  </imprint>
@@ -8292,7 +8307,7 @@
                                  <note type="description" anchored="true"/>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace>in Vinegia</pubPlace>
                                      <date when="1548" instant="false"/>
                                  </imprint>
@@ -8310,7 +8325,7 @@
                                  <note type="description" anchored="true">ib.</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1551" instant="false"/>
                                  </imprint>
@@ -8328,7 +8343,7 @@
                                  <note type="description" anchored="true">curious old woodcuts, old red morocco gilt, g. e.</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date from="1544" to="1551" instant="false"/>
                                  </imprint>
@@ -8349,7 +8364,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">half roan, uncut</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1874" instant="false"/>
                                  </imprint>
@@ -8369,7 +8384,7 @@
                                  <note type="description" anchored="true"/>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1889" instant="false"/>
                                  </imprint>
@@ -8388,7 +8403,7 @@
                                  <note type="etc" anchored="true"><num value="10"/></note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1895" instant="false"/>
                                  </imprint>
@@ -8408,7 +8423,7 @@
                                  <note type="description" anchored="true">crushed red morocco, g. e.</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1857" instant="false"/>
                                  </imprint>
@@ -8432,7 +8447,7 @@
                                  <note type="inscription" anchored="true">A. C. Swinburne, <date when="1849-10-20" instant="false">October 20th, 1849</date></note> <!-- I have this as an inscription even though Swinburne was the one who wrote it. -->
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1848" instant="false"/>
                                  </imprint>
@@ -8453,7 +8468,7 @@
                                  <note type="description" anchored="true"/>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1879" instant="false"/>
                                  </imprint>
@@ -8471,7 +8486,7 @@
                                  <note type="description" anchored="true"/>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1896" instant="false"/>
                                  </imprint>
@@ -8489,7 +8504,7 @@
                                  <note type="etc" corresp="#presentation" anchored="true">and others; all presentation copies to Swinburne with inscriptions<num value="7"/></note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace>Allahbad</pubPlace>
                                      <date when="1902" instant="false"/>
                                  </imprint>
@@ -8509,7 +8524,7 @@
                                  <note type="description" anchored="true">illustrations by Maxfield Parrish</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1900" instant="false"/>
                                  </imprint>
@@ -8527,7 +8542,7 @@
                                  <note type="description" anchored="true">2 copies</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1899" instant="false"/>
                                  </imprint>
@@ -8545,7 +8560,7 @@
                                  <note type="etc" anchored="true">and other Novels<num value="18"/></note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1900" instant="false"/>
                                  </imprint>
@@ -8565,7 +8580,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1898" instant="false"/>
                                  </imprint>
@@ -8583,7 +8598,7 @@
                                  <note type="description" anchored="true"/>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1891" instant="false"/>
                                  </imprint>
@@ -8601,7 +8616,7 @@
                                  <note type="description" anchored="true"/>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1899" instant="false"/>
                                  </imprint>
@@ -8619,7 +8634,7 @@
                                  <note type="etc" anchored="true"><num value="8"/></note>
                                  <edition/>
                                  <imprint>
-                                     <publisher/>
+                                     
                                      <pubPlace/>
                                      <date when="1883" instant="false"/>
                                  </imprint>
