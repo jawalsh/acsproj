@@ -5,6 +5,10 @@
 		display:block;
 		max-width:90%;
 	</rendition>
+
+    <rendition xml:id="p">
+        text-align: justify;
+    </rendition>
     
     <!-- font-size -->
     <rendition n="small" xml:id="small" scheme="css">font-size: small;</rendition>
@@ -186,6 +190,7 @@
     <!-- elements with default renditions -->
     <namespace name="http://www.tei-c.org/ns/1.0">
         <tagUsage gi="l" rendition="#ti-0"/>
+	<tagUsage gi="p" rendition="#p"/>
         <!-- TODO add more defaults -->
     </namespace>
 
