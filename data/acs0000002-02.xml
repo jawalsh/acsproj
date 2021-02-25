@@ -153,7 +153,7 @@
           </epigraph>
           <epigraph>
             <l>What need ye hech! and how! ladies?</l>
-            <l rendition="ti-1">What need ye how! for me?</l>
+            <l rendition="#ti-1">What need ye how! for me?</l>
             <l>Ye never saw grace at a graceless face;</l>
             <l rendition="ti-1">Queen Mary has nane to gie. </l>
             <bibl><author rendition="#i">The Queen’s Marie.</author></bibl>
@@ -443,7 +443,7 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <lg n="4" xml:lang="fr">
-                  <head rendition="center">4</head>
+                  <head rendition="#center">4</head>
                   <l n="119">Le navire</l>
                   <l n="120">Passe et luit,</l>
                   <l n="121">Puis chavire</l>
@@ -455,7 +455,7 @@
                 </lg>
                 
                 <lg n="5" xml:lang="fr">
-                  <head rendition="center">5</head>
+                  <head rendition="#center">5</head>
                   <l n="127">Moi, je rame,</l>
                   <l n="128">Et l'amour,</l>
                   <l n="129">C’est ma flamme,</l>
@@ -466,7 +466,7 @@
                   <l n="134">De séjour.</l>
                 </lg>
                 <lg n="6" xml:lang="fr">
-                  <head rendition="center">6</head>
+                  <head rendition="#center">6</head>
                   <l n="135">Toi, mon âme</l>
                   <l n="136">Et ma foi,</l>
                   <l n="137">Sois ma dame</l>
@@ -1973,35 +1973,35 @@
 
                 <stage rendition="#i">[Sings.</stage>
                 <lg n="1" xml:lang="fr">
-                  <head rendition="center">1</head>
+                  <head rendition="#center">1</head>
                   <l n="375">J’ai vu faner bien des choses,</l>
                   <l n="376">Mainte feuille aller au vent.</l>
                   <l n="377">En songeant aux vieilles roses,</l>
                   <l rendition="ti-1" n="378">J’ai pleuré souvent.<pb n="56"/></l>
                 </lg>
                 <lg n="2" xml:lang="fr">
-                  <head rendition="center">2</head>
+                  <head rendition="#center">2</head>
                   <l n="379">Vois-tu dans les roses mortes</l>
                   <l n="380">Amour qui sourit caché?</l>
                   <l n="381">O mon amant, à nos portes</l>
                   <l rendition="ti-1" n="382">L’as-tu vu couché?</l>
                 </lg>
                 <lg n="3" xml:lang="fr">
-                  <head rendition="center">3</head>
+                  <head rendition="#center">3</head>
                   <l n="383">As-tu vu jamais au monde</l>
                   <l n="384">Vénus en chasse courir?</l>
                   <l n="385">Fille de l’onde, avec l’onde</l>
                   <l rendition="ti-1" n="386">Doit-elle mourir?</l>
                 </lg>
                 <lg n="4" xml:lang="fr">
-                  <head rendition="center">4</head>
+                  <head rendition="#center">4</head>
                   <l n="387">Aux jours de neige et de givre</l>
                   <l n="388">L’amour s’effeuille et s’endort; </l>
                   <l n="389">Avec mai doit-il revivre,</l>
                   <l rendition="ti-1" n="390">Ou bien est-il mort?</l>
                 </lg>
                 <lg n="5" xml:lang="fr">
-                  <head rendition="center">5</head>
+                  <head rendition="#center">5</head>
                   <l n="391">Qui sait où s’en vont les roses?</l>
                   <l n="392">Qui sait où s’en va le vent?</l>
                   <l n="393">En songeant à telles choses,</l>
@@ -4157,7 +4157,7 @@
                 <l n="810">Look you, I wist not ye were merciful.</l>
               </sp>
               <sp>
-                <speaker rendition="center">MORTON.</speaker>
+                <speaker rendition="#center">MORTON.</speaker>
                 <l n="811">Madam—</l>
               </sp>
               <sp>
@@ -4166,7 +4166,7 @@
                 <l n="813">Doth it displease you such a man should live?</l>
               </sp>
               <sp>
-                <speaker rendition="center">MORTON.</speaker>
+                <speaker rendition="#center">MORTON.</speaker>
                 <l n="814">’Twere a mad mercy in your majesty</l>
                 <l n="815">To lay no hand upon his second fault</l>
                 <l n="816">And let him thrice offend you.<pb n="119"/></l>
@@ -4176,7 +4176,7 @@
                 <l n="817">Ay, my lord?</l>
               </sp>
               <sp>
-                <speaker rendition="center">MORTON.</speaker>
+                <speaker rendition="#center">MORTON.</speaker>
                 <l n="818">It were well done to muffle lewd men’s mouths</l>
                 <l n="819">By casting of his head into their laps:</l>
                 <l n="820">It were much best.</l>
@@ -4573,7 +4573,7 @@
                 <l n="93">For I should come to hate you easily; </l>
                 <l n="94">I would not have you live.</l>
               </sp>
-              <stage rendition="i">[Exit.</stage>
+              <stage rendition="#i">[Exit.</stage>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="95">She has cause enow.</l>
