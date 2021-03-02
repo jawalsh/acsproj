@@ -170,7 +170,7 @@
             </castGroup>
         </castList>
         <div type="stage">
-            <stage rendition="#sc center">Time—March 9, 1566, to May 16, 1568</stage>
+            <stage type="setting" rendition="#sc #center">Time—March 9, 1566, to May 16, 1568</stage>
         </div>
         <pb n="161"/>
             <!-- title page, ACT I and ACT II intro -->
@@ -189,11 +189,10 @@
         <div n="1" type="act">
             <head rendition="#center #uc">Act I</head>
             <head rendition="#center #uc #i">David Rizzio</head>
-            <stage rendition="#sc #center">Time, March 9, 1566</stage>
+            <stage type="setting" rendition="#sc #center">Time, March 9, 1566</stage>
             <div n="1" type="scene">
-                <head rendition="#sc #center">Scene I.</head>
-                <stage rendition="#i #center">Holyrood</stage>
-                <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Carmichael</hi>.</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene I</hi>. <stage type="location" rendition="#i">Holyrood</stage></head>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Carmichael</hi>.</stage>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
                         <l n="1">But you will not believe me though you hear;</l>
@@ -266,13 +265,13 @@
                         <l n="42">She gets good service, excellent service done,</l>
                         <l n="43">And worthy servants hath she—a liberal queen.</l>
                         <l n="44">Well, if you will.</l>
-                    <stage rendition="#ti-5"><hi rendition="#i">[Exit</hi> <hi rendition="#sc">Mary Carmichael</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5"><hi rendition="#i">[Exit</hi> <hi rendition="#sc">Mary Carmichael</hi>.</stage>
                         <l n="45" rendition="#ti-5">I would the month were out,</l>
                         <l n="46">If earth were easier by just one less knave,</l>
                         <l n="47">I might sleep well and laugh and walk at ease</l>
                     <!-- entrance moved to mid-line-->
                         <l n="48">With none to mate me.
-                            <stage rendition="center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Morton</hi>.</stage>
+                            <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Morton</hi>.</stage>
                         Ah, my good lord and friend,</l> <!-- canurk: is this considered one line or two? Values would change for all line numbers following if it's two lines. -->
                         <l n="49">I had somewhat I would say—but let words be.</l>
                         <l n="50">The man you know of—I would you had made him safe;</l>
@@ -576,14 +575,14 @@
                         <l n="256">All the thing’s carriage—and my mind to take,</l>
                         <l n="257">Which with plain heart I have made you understand.</l>
                         <l n="258">My mind is, he must die then: keep you there.</l>
-                    <stage rendition="#i ti-5"> [Exit. </stage>
+                    <stage type="exit" rendition="#i #ti-5">[<hi rendition="#i">Exit</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Morton</speaker>
                         <l n="259">Had God but plagued Egypt with fools for flies,</l>
                         <l n="260">His Jews had sped the quicker.</l>
                     <pb n="174"/>
-                    <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Mary Beaton</hi></stage>
+                    <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Mary Beaton</hi></stage>
                         <l n="261" rendition="#ti-5">Is the queen risen,</l>
                         <l n="262">Lady?</l>
                 </sp>
@@ -729,7 +728,7 @@
                         <l n="358">(Turning her wit and heart against herself)</l>
                         <l n="359">Than to be coward or witless. Fare you well;</l>
                         <l n="360">I will not doubt but she is well advised.</l>
-                    <stage rendition="#i ti-5">[Exit.</stage>
+                    <stage type="exit" rendition="#i #ti-5">[<hi rendition="#i">Exit</hi>.</stage>
                     <pb n="178"/>
                 </sp>
                 <sp>
@@ -755,7 +754,7 @@
                     <l n="379">I am half content already; and yet I would</l>
                     <l n="380">This watch were through.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen, Rizzio</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Seyton</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen, Rizzio</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Seyton</hi>.</stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="381" rendition="#ti-5">Nay, it is later, sure:</l>
@@ -1331,13 +1330,13 @@
                     <speaker rendition="#center #uc">Rizzio</speaker>
                         <l n="802">Madam, till night I take my loyal leave.</l>
                         <l n="803">God give you good of all things.</l>
-                    <stage rendition="#i ti-5">[Exit.</stage>
+                    <stage type="exit" rendition="#i #ti-5">[<hi rendition="#i">Exit</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="804" rendition="#ti-5">Doth he mock me?</l>
                         <l n="805">I care not neither; I know not. Stay with us.</l>
-                    <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Bothwell</hi>.</stage>
+                    <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Bothwell</hi>.</stage>
                         <l n="806">Good morrow, sir: we bade you, did we not?</l>
                         <l n="807">Be with us after noon, ’tis not noon near,</l>
                         <l n="808">And you are truer than your own word; and that,</l>
@@ -1374,7 +1373,7 @@
                         <l n="826">Ladies, we have somewhat with our servant here</l>
                         <l n="827">That needs no counsel and no ear of yours,</l>
                         <l n="828">So gives you leave.</l>
-                    <stage rendition="#ti-5"><hi rendition="#i">[Exeunt</hi> <hi rendition="#sc">Maries</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5"><hi rendition="#i">[<hi rendition="#i">Exeunt</hi></hi> <hi rendition="#sc">Maries</hi>.</stage>
                         <l n="829" rendition="#ti-5">I know not why they are gone;</l>
                         <l n="830">I have nothing with you secret.</l>
                 </sp>
@@ -1693,7 +1692,7 @@
                         <l n="1058">That death could turn not from it though the fire</l>
                         <l n="1059">Were quenched at heart that fed them. Nay, no more:</l>
                         <l n="1060">Let me go hence and weep not.</l>
-                    <stage rendition="#i ti-5">[Exit.</stage>
+                    <stage type="exit" rendition="#i #ti-5">[<hi rendition="#i">Exit</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Bothwell</speaker>
@@ -1713,7 +1712,7 @@
                         <l n="1073">Lit of her love to steer by, could not choose</l>
                         <l n="1074">But run to wreck.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Mary Beaton</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Mary Beaton</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Mary Beaton</speaker>
                         <l n="1075" rendition="#ti-5">Pray you, my lord, a word.</l>
@@ -1748,13 +1747,12 @@
                 <sp>
                     <speaker rendition="#center #uc">Mary Beaton</speaker>
                         <l n="1093">I think he will not hold the like alive.</l>
-                    <stage rendition="#i ti-5">[Exeunt.</stage>
+                    <stage type="exit" rendition="#i #ti-5">[<hi rendition="#i">Exeunt</hi>.</stage>
                 </sp>
             </div>
             <div n="2" type="scene">
-                <head rendition="#sc">Scene II.</head>
-                <stage rendition="#i center">The High Street</stage>
-                <stage rendition="#center"><hi rendition="#sc">Burgesses</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">People</hi>.</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene II</hi>. <stage type="location" rendition="#i">The High Street</stage></head>
+                <stage rendition="#center"><hi rendition="#sc">Burgesses</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">People</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">First Citizen</speaker>
                         <l n="1">Was it not shown long since when she came in</l>
@@ -1905,7 +1903,7 @@
                         <l n="118">Men that have God’s mark sharp upon the soul;</l>
                         <l n="119">Stout Ochiltree, and our main stay John Knox.</l>
                 </sp>
-                <stage rendition="#center"> <hi rendition="#i">Enter</hi> <hi rendition="#sc">John Knox</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Ochiltree</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">John Knox</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Ochiltree</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Ochiltree</speaker>
                         <l n="120">Have you yet hope that for his people’s sake</l>
@@ -2152,9 +2150,8 @@
                 </sp>
             </div>
             <div n="3" type="scene">
-                <head rendition="#sc">Scene III.</head>
-                <stage rendition="#i #center">Holyrood</stage>
-                <stage rendition="#center"> <hi rendition="#i">The</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Rizzio; Mary Seyton</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Carmichael</hi> <hi rendition="#i">in attendance.</hi></stage>
+                <head rendition="#center"><hi rendition="#sc">Scene III</hi>. <stage type="location" rendition="#i">Holyrood</stage></head>
+                <stage rendition="#center"><hi rendition="#i">The</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Rizzio; Mary Seyton</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Carmichael</hi> <hi rendition="#i">in attendance.</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="1">Is he so tender-tongued? it is his fear</l>
@@ -2191,7 +2188,7 @@
                         <l n="25">I have given command to ensure our privacy.</l>
                         <l n="26">Is it past noon?</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Beaton</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Mary Beaton</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
                         <l n="27">You say she hath asked for me?</l>
@@ -2555,11 +2552,11 @@
                         <l n="246" rendition="#ti-5">Why, you go:</l>
                         <l n="247">With the more speed, the less of tarriance made.</l>
                         <l n="248">Let me not hold you half-way back: farewell.</l>
-                    <stage rendition="#ti-5"><hi rendition="#i">[Exeunt</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Rizzio</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Rizzio</hi>.</stage>
                         <l n="249">I have not begun so luckily, nor set</l>
                         <l n="250">So good a face on the first half of day,</l>
                         <l n="251">Now to keep terms with mere tongue-traitors more.</l>
-                    <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">John Knox</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">John Erskine of Dun</hi>.</stage>
+                    <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">John Knox</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">John Erskine of Dun</hi>.</stage>
                         <l n="252">So once we are met again, sir, you and I.</l>
                         <l n="253">Set him before us.</l>
                 </sp>
@@ -2824,7 +2821,7 @@
                         <l n="476">To counsel in my cabinet somewhile;</l>
                         <l n="477">We will return his answer.</l>
                 </sp>
-                <stage rendition="#ti-5"><hi rendition="#i">[Exeunt</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Erskine of Dun</hi>.</stage>
+                <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Erskine of Dun</hi>.</stage>
                 <pb n="236"/>
                 <sp>
                     <speaker rendition="#center #uc">Mary Carmichael</speaker>
@@ -2953,7 +2950,7 @@
                     <speaker rendition="#center #uc">John Knox</speaker>
                         <l n="565">You talk against your habit.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Erskine of Dun</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Erskine of Dun</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Erskine of Dun</speaker>
                         <l n="566" rendition="#ti-5">Master Knox,</l>
@@ -2966,7 +2963,7 @@
                         <l n="570">It may be she will never hear me more.</l>
                         <l n="571">Farewell, fair ladies; may God look on you,</l>
                         <l n="572">And give you chiefly comfort, which is grace.</l>
-                    <stage rendition="#ti-5"><hi rendition="#i">[Exeunt</hi> <hi rendition="#sc">John Knox</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Erskine of Dun</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">John Knox</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Erskine of Dun</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Mary Seyton</speaker>
@@ -3022,9 +3019,8 @@
                 </sp>
             </div>
             <div n="4" type="scene">
-                <head rendition="#sc #center">Scene IV.</head>
-                <stage rendition="#i #center">Darnley’s Lodging</stage>
-                <stage rendition="#i #center"><hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Sir George Douglas</hi>.</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene IV</hi>. <stage type="location" rendition="#i">Darnley’s Lodging</stage></head>
+                <stage rendition="#i #center"><hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Sir George Douglas</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
                         <l n="1">I think our friend of Morton had grown slack</l>
@@ -3120,8 +3116,7 @@
                 </sp>
             </div>
             <div n="5" type="scene">
-                <head rendition="#sc #center">Scene V.</head>
-                <stage rendition="#i #center">The Queen’s Cabinet</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene V</hi>. <stage type="location" rendition="#i">The Queen’s Cabinet</stage></head>
                 <stage rendition="#center"><hi rendition="#i">The</hi> <hi rendition="#sc">Queen, Rizzio, Countess of Argyle, Lord Robert Stuart, Arthur Erskine</hi>, <hi rendition="#i">in attendance.</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
@@ -3249,7 +3244,7 @@
                         <l n="86">A light song lightly brings ill thoughts asleep.</l>
                 </sp>
                 <sp>
-                    <speaker rendition="#uc">Rizzio</speaker><stage rendition="#center">(<hi rendition="#i">sings</hi>).</stage>
+                    <speaker rendition="#uc #center">Rizzio</speaker><stage type="delivery" rendition="#center">(<hi rendition="#i">sings</hi>).</stage>
                     <lg>
                         <l n="87">Lord Love went Maying</l>
                         <l n="88">Where Time was playing,</l>
@@ -3318,7 +3313,7 @@
                         <l n="125" rendition="#ti-5">Nay, I heard.</l>
                 </sp>
                 <sp>
-                    <speaker rendition="#uc">Rizzio</speaker><stage>(<hi rendition="#i">sings</hi>)</stage>
+                    <speaker rendition="#uc #center">Rizzio</speaker><stage type="delivery" rendition="#center">(<hi rendition="#i">sings</hi>)</stage>
                         <lg>
                             <l n="126">By Love’s side flying</l>
                             <l n="127">As Time went crying</l>
@@ -3375,14 +3370,14 @@
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="164" rendition="#ti-5">Do you hear noises still?</l>
-                    <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi>.</stage>
+                    <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi></stage>
                         <l n="165">Who sent you to us?</l>
                     <pb n="251"/>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
                         <l n="166" rendition="#ti-5">My love to my sweet lady.</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Kisses her</hi>.</stage>
+                    <stage type="business" rendition="#ti-5">[<hi rendition="#i">Kisses her</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
@@ -3396,7 +3391,7 @@
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="169" rendition="#ti-5">I should know—</l>
                         <l n="170">Judas!</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Seeing</hi> <hi rendition="#sc">Ruthven</hi> <hi rendition="#i">in thedoorway.</hi></stage>
+                    <stage type="entrance business" rendition="#ti-5">[<hi rendition="#i">Seeing</hi> <hi rendition="#sc">Ruthven</hi> <hi rendition="#i">in thedoorway.</hi></stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
@@ -3451,11 +3446,11 @@
                 <sp>
                     <speaker rendition="#center #uc">Ruthven</speaker>
                         <l n="199" rendition="#ti-5">Lay no hands on me;</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Draws</hi>.</stage>
+                    <stage type="business" rendition="#ti-5">[<hi rendition="#i">Draws</hi>.</stage>
                         <l n="200">Stand; I will not be handled.</l>
                     <pb n="253"/>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Fauldonside</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Sir George Douglas</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Fauldonside</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Sir George Douglas</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="201" rendition="#ti-5">Out with him!</l>
@@ -3472,7 +3467,7 @@
                 <sp>
                     <speaker rendition="#center #uc">Fauldonside</speaker>
                         <l n="205" rendition="#ti-5">Nay, then, thus.</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Putting a pistol to her breast</hi>.</stage>
+                    <stage type="business" rendition="#ti-5">[<hi rendition="#i">Putting a pistol to her breast</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
@@ -3521,7 +3516,7 @@
                     <speaker rendition="#center #uc">Rizzio</speaker>
                         <l n="218" rendition="#ti-5">Help!</l>
                 </sp>
-                <stage rendition="#ti-5">[<hi rendition="#i">They force him out</hi>.</stage>
+                <stage type="business" rendition="#ti-5">[<hi rendition="#i">They force him out</hi>.</stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="219">Why does that sheath sit empty on your side?</l>
@@ -3597,7 +3592,7 @@
                         <l n="263">Be reasonably and timely reconciled</l>
                         <l n="264">To your wed lord; and with him take advice</l>
                         <l n="265">Of such good friends as love you. Give me leave:</l>
-                        <l n="266">I am faint, and cannot stand to plead with you.<stage>[<hi rendition="#i">Sits</hi>.</stage></l>
+                        <l n="266">I am faint, and cannot stand to plead with you.<stage type="business">[<hi rendition="#i">Sits</hi>.</stage></l>
                         <l n="267">Bring me to drink, for God’s sake.</l>
                 </sp>
                 <sp>
@@ -3674,7 +3669,7 @@
                         <l n="314">God give me grace to give you thanks! be sure</l>
                         <l n="315">Ye shall not lack my memory to it, nor will</l>
                         <l n="316">To make me worthy of you. What, no more?</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Ruthven</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Ruthven</hi>.</stage>
                         <l n="317">I thought his wrath was large enough for me</l>
                         <l n="318">To find a murderous part in where to die</l>
                         <l n="319">And share it with my servant. Must I live?</l>
@@ -3690,7 +3685,7 @@
                     <speaker rendition="#center #uc">Darnley</speaker>
                         <l n="326">Why, I bade him look to those your friends</l>
                         <l n="327">That might have risen upon us; hear you that?</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Noise outside</hi>.</stage>
+                    <stage type="business" rendition="#ti-5">[<hi rendition="#i">Noise outside</hi>.</stage>
                         <l n="328">There is a clamour of them in the courts,</l>
                         <l n="329">But nought to help or hurt now. He is gone</l>
                         <l n="330">To read our will out in the general ear,</l>
@@ -3725,7 +3720,7 @@
                         <l n="352">We were your fools, and heartless?</l>
                 </sp>
                 <sp>          
-                    <speaker rendition="#center #uc">Queen</speaker> <stage>(<hi rendition="#i">at the window)</hi>.</stage>
+                    <speaker rendition="#center #uc">Queen</speaker><stage type="business">(<hi rendition="#i">at the window)</hi>.</stage>
                         <l n="353" rendition="#ti-5">Help, all friends!</l>
                         <l n="354">All good men help your queen here! Ho, my lord,</l>
                         <l n="355">My lord the Provost!</l>
@@ -3760,7 +3755,7 @@
                         <l n="365" rendition="#ti-5">O, your love!</l>
                         <l n="366">It shows now kindly in you.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Ruthven</hi>.</stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Ruthven</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Ruthven</speaker>
                         <l n="367" rendition="#ti-5">All is sped;</l>
@@ -3823,11 +3818,10 @@
         </div>
         <div n="2" type="act">
             <head rendition="#uc #center">Act II</head>
-            <head rendition="#uc #center #i">BOTHWELL</head>
-            <stage rendition="#sc #center">Time, from March 10, 1566, to February 9, 1567.</stage>
+            <head rendition="#uc #center #i">Bothwell</head>
+            <stage type="setting" rendition="#sc #center">Time, from March 10, 1566, to February 9, 1567.</stage>
             <div n="1" type="scene">
-                <head rendition="#sc #center">Scene I</head>
-                <stage rendition="#i #center">The Queen’s Chamber</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene I</hi>. <stage type="location" rendition="#i">The Queen’s Chamber</stage></head>
                 <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Arthur Erskine</hi>, <hi rendition="#i">severally</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
@@ -3856,7 +3850,7 @@
                         <l n="13">And his blood balm: if these be healthful things,</l>
                         <l n="14">You have given her weakness physic.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="15" rendition="#ti-5">Ah, our lord!</l>
@@ -3891,7 +3885,7 @@
                     <pb n="265"/>
                         <l n="32">No hope but of such pity as dead men gain</l>
                         <l n="33">Who living found no grace in the great world.</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Arthur Erskine</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Arthur Erskine</hi>.</stage>
                         <l n="34">Now, what death, sir?</l>
                 </sp>
                 <sp>
@@ -4523,13 +4517,13 @@
                         <l n="465">Think how my faith and hope and love in you</l>
                         <l n="466">Find all their rest and stronghold, and on them</l>
                         <l n="467">Set up your trust and standard of your strength.</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Darnley</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Darnley</hi>.</stage>
                         <l n="468">So much is done; go thou then first to death;</l>
                         <l n="469">For from this hour I have thee. Heart, lie still,</l>
                         <l n="470">Till I may make those mightier traitors mine</l>
                         <l n="471">That shall be swords for me to smite him with,</l>
                         <l n="472">And then be free as fire.</l>
-                    <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Mary Beaton</hi>.</stage>
+                    <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Mary Beaton</hi></stage>
                         <l n="473" rendition="#ti-5">Hast thou no news?</l>
                 </sp>
                 <sp>
@@ -4567,13 +4561,13 @@
                         <l n="500">Royally ruined; wherefore if I may</l>
                         <l n="501">I will steal forth with subtle help of words,</l>
                         <l n="502">Not break their bonds with violence; in which hope</l>
-                        <l n="503">Bid him watch close.</l> <stage rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Mary Beaton</hi>.</stage>
+                        <l n="503">Bid him watch close.</l><stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exit</hi> <hi rendition="#sc">Mary Beaton</hi>.</stage>
                         <l n="504" rendition="#ti-5">And when his watch is done</l>
                         <l n="505">It will be morning, and the sun shall break</l>
                         <l n="506">As fire for them that had their hour by night</l>
                         <l n="507">And light for wrath to see them and to slay.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Arthur Erskine</hi>, <hi rendition="#i">introducing</hi> <hi rendition="#sc">Murray</hi></stage>
+                <stage type="entrance delivery" rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Arthur Erskine</hi>, <hi rendition="#i">introducing</hi> <hi rendition="#sc">Murray</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Arthur Erskine</speaker>
                         <l n="508">Madam, my lord of Murray.</l>
@@ -4698,7 +4692,7 @@
                         <l n="599">And love reclaimed wait on you loyally</l>
                         <l n="600">Through all your land’s length. See, the lords are come.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley, Morton</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Ruthven</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley, Morton</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Ruthven</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="601">Good morrow, sirs; ye gave me no good night,</l>
@@ -4909,13 +4903,13 @@
                         <l n="758" rendition="#ti-5">Sirs, farewell.</l>
                         <l n="759">I will not pray you do but what ye will,</l>
                         <l n="760">Which shall seem wisely to me. Let me have</l>
-                    <l n="761">Word of their instant sentence.</l><stage rendition="#ti-5">[<hi rendition="#i">Aside to</hi> <hi rendition="#sc">Darnley</hi>.</stage>
+                    <l n="761">Word of their instant sentence.</l><stage type="delivery" rendition="#ti-5">[<hi rendition="#i">Aside to</hi> <hi rendition="#sc">Darnley</hi>.</stage>
                 </sp>
                 <sp>
-                    <speaker rendition="#center #uc">Darnley</speaker><stage>(<hi rendition="#i">aside</hi>)</stage>
+                    <speaker rendition="#center #uc">Darnley</speaker><stage type="delivery">(<hi rendition="#i">aside</hi>)</stage>
                         <l n="762" rendition="#ti-5">With all speed.</l>
                 </sp>
-                <stage rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">Darnley, Murray, Morton</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Ruthven</hi>.</stage>
+                <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">Darnley, Murray, Morton</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Ruthven</hi>.</stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="763">Where are my servants Standen and Traquair?</l>
@@ -4943,7 +4937,7 @@
                     <speaker rendition="#center #uc">Arthur Erskine</speaker>
                         <l n="776" rendition="#ti-5">Think them here</l>
                         <l n="777">And your will done already.</l>
-                    <stage rendition="#ti-5">[<hi rendition="#i">Exit</hi>.</stage>
+                    <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exit</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
@@ -4961,7 +4955,7 @@
                         <l n="789">To strengthen and bright wine to quicken me</l>
                         <l n="790">And lift my heart up higher than my need,</l>
                         <l n="791">Though that be high upon me.</l>
-                    <stage rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Erskine</hi> <hi rendition="#i">with</hi> <hi rendition="#sc">Traquair</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Standen</hi></stage>
+                    <stage type="entrance" rendition="#center"><hi rendition="#i">Re-enter</hi> <hi rendition="#sc">Erskine</hi> <hi rendition="#i">with</hi> <hi rendition="#sc">Traquair</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Standen</hi></stage>
                         <l n="792" rendition="#ti-5">Now, my friends,</l>
                         <l n="793">Ye come unlike to courtiers, come to serve</l>
                         <l n="794">Me most unlike a queen: shall I think yet</l>
@@ -5071,8 +5065,7 @@
                 </sp>
             </div>
             <div n="2" type="scene">
-                <head rendition="#sc #center">Scene II.</head>
-                <stage rendition="#i #center">Ruins of the Abbey of Holyrood</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene II</hi>. <stage type="location" rendition="#i #center">Ruins of the Abbey of Holyrood</stage></head>
                 <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Arthur Erskine, Traquair</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Standen</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Standen</speaker>
@@ -5139,7 +5132,7 @@
                         <l n="41">And her bright fiery heart the traveller's lamp</l>
                         <l n="42">That makes all shadow clear as its own light.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter from the vaults the</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Darnley</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter from the vaults the</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Darnley</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="43">Here come the wind and stars at once on us;</l>
@@ -5191,8 +5184,7 @@
                 </sp>
             </div>
             <div n="3" type="scene">
-                <head rendition="#sc #center">Scene III.</head>
-                <stage rendition="#i #center">Murray’s Lodging in Holyrood</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene III</hi>. <stage type="location" rendition="#i">Murray’s Lodging in Holyrood</stage></head>
                 <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Murray, Morton</hi>, <hi rendition="#i">and</hi> <hi rendition="#sc">Ruthven</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Morton</speaker>
@@ -5308,8 +5300,7 @@
                 </sp>
             </div>
             <div n="4" type="scene">
-                <head rendition="#sc #center">Scene IV.</head>
-                <stage rendition="#i #center">Holyrood</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene IV</hi>. <stage type="location" rendition="#i">Holyrood</stage></head>
                 <stage rendition="#center"><hi rendition="#i">The</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Sir James Melville</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
@@ -5364,7 +5355,7 @@
                         <l n="41">My foot is on its head, that even to-day</l>
                         <l n="42">Shall yield its last poor power of poison up,</l>
                         <l n="43">And live to no man’s danger till it die.</l>
-                <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Murray</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Darnley</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Murray</hi></stage>
                         <l n="44">Welcome, dear brother and my worthy lord,</l>
                         <l n="45">Who shall this day by your own word be clear</l>
                         <l n="46">In all men’s eyes that had ill thoughts of you.</l>
@@ -5445,7 +5436,7 @@
                         <l n="83" rendition="#ti-5">No, but much more than time.</l>
                         <l n="84">Come with me, brother.</l>
                 </sp>
-                <stage rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Murray</hi>.</stage>
+                <stage type="exit" rendition="#ti-5">[<hi rendition="#i">Exeunt</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Murray</hi>.</stage>
                 <sp>
                     <speaker rendition="#center #uc">Melville</speaker>
                         <l n="85" rendition="#ti-5">I am sorry for your grace.</l>
@@ -5501,13 +5492,12 @@
                         <l n="119">Were I once clear of her as now of these,</l>
                         <l n="120">Please God, to make mine own strength by myself,</l>
                         <l n="121">Being both ways free; I know not well yet how,</l>
-                        <l n="122">But I will take mine own part yet or die.</l><stage>[<hi rendition="#i">Exeunt</hi>.</stage>
+                        <l n="122">But I will take mine own part yet or die.</l><stage type="exit">[<hi rendition="#i">Exeunt</hi>.</stage>
                 </sp>
             </div>
             <pb n="310"/>
             <div n="5" type="scene">
-                <head rendition="#sc">Scene V.</head>
-                <stage rendition="#i #center">A Street</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene V</hi>. <stage type="location" rendition="#i">A Street</stage></head>
                 <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Two Burgesses</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">First Burgess</speaker>
@@ -5639,8 +5629,7 @@
                 </sp>
             </div>
             <div n="6" type="scene">
-                <head rendition="#sc #center">Scene VI.</head>
-                <stage rendition="#center #i">Castle of Alloa</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene VI</hi>. <stage type="location" rendition="#i">Castle of Alloa</stage></head>
                 <stage rendition="#center"><hi rendition="#sc">Murray</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Darnley</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Darnley</speaker>
@@ -5744,7 +5733,7 @@
                         <l n="77">To save myself and to revenge I live,</l>
                         <l n="78">And will not die for all you.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Bothwell</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Bothwell</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="79" rendition="#ti-5">What is this</l>
@@ -5833,7 +5822,7 @@
                     <pb n="319"/>
                         <l n="121">That has all power to bid me to and fro,</l>
                         <l n="122">Who yet was called your lord once of the priest,</l>
-                    <l n="123">And am no lord but servant.</l><stage>[<hi rendition="#i">Exit</hi>.</stage>
+                    <l n="123">And am no lord but servant.</l><stage type="exit">[<hi rendition="#i">Exit</hi>.</stage>
                 </sp>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
@@ -6008,7 +5997,7 @@
                         <l n="243">Nor of more peaceful promise. I will go</l>
                         <l n="244">To bid my friends together of the lords</l>
                         <l n="245">Who will be counselled of me, and to show</l>
-                    <l n="246">Your purpose righteous: so I take my leave.</l> <stage>[<hi rendition="#i">Exit</hi>.</stage>
+                    <l n="246">Your purpose righteous: so I take my leave.</l><stage type="exit">[<hi rendition="#i">Exit</hi>.</stage>
                     <pb n="324"/>
                 </sp>
                 <sp>
@@ -6087,9 +6076,8 @@
                 </sp>
             </div>
             <div n="7" type="scene">
-                <head rendition="#sc #center">Scene VII.</head>
-                <stage rendition="#i #center">Edinburgh. The Parliament-House</stage>
-                <stage rendition="#ti-5"><hi rendition="#i">The</hi> <hi rendition="#i">Queen</hi> <hi rendition="#i">seated in state; near her</hi> <hi rendition="#i">Du Croc</hi> <hi rendition="#i">and</hi> <hi rendition="#i">Murray</hi>; <hi rendition="#i">Darnley</hi> <hi rendition="#i">in front, as at his arraignment; on the one side the Lords of the Congregation; on the other those of the Queen's party,</hi> <hi rendition="#sc">Bothwell, Huntley, Caithness, Athol</hi>, <hi rendition="#i">and the</hi> <hi rendition="#sc">Archbishop</hi> <hi rendition="#i">of</hi> <hi rendition="#sc">St. Andrew’s</hi></stage>
+                <head rendition="#center"><hi rendition="#sc">Scene VII</hi>. <stage rendition="#i">Edinburgh. The Parliament-House</stage></head>
+                <stage rendition="#center"><hi rendition="#i">The</hi> <hi rendition="#i">Queen</hi> <hi rendition="#i">seated in state; near her</hi> <hi rendition="#i">Du Croc</hi> <hi rendition="#i">and</hi> <hi rendition="#i">Murray</hi>; <hi rendition="#i">Darnley</hi> <hi rendition="#i">in front, as at his arraignment; on the one side the Lords of the Congregation; on the other those of the Queen's party,</hi> <hi rendition="#sc">Bothwell, Huntley, Caithness, Athol</hi>, <hi rendition="#i">and the</hi> <hi rendition="#sc">Archbishop</hi> <hi rendition="#i">of</hi> <hi rendition="#sc">St. Andrew’s</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="1">My lords, ye hear by his own word of hand</l>
@@ -6163,7 +6151,7 @@
                         <l n="55">Enough said is said well.</l>
                 </sp>
                 <sp>
-                    <speaker rendition="#center #uc">Bothwell</speaker><stage>(<hi rendition="#i">aside to the Queen</hi>)</stage>
+                    <speaker rendition="#center #uc">Bothwell</speaker><stage type="delivery">(<hi rendition="#i">aside to the Queen</hi>)</stage>
                         <l n="56" rendition="#ti-5">I never saw</l>
                         <l n="57">Such heart yet in the fool. Madam, speak now;</l>
                         <l n="58">I wot he hath made a beard or two of them</l>
@@ -6221,8 +6209,7 @@
                 </sp>
             </div>
             <div n="8" type="scene">
-                <head rendition="#sc #center">Scene VIII.</head>
-                <stage rendition="#i #center">Hermitage Castle</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene VIII</hi>. <stage rendition="#i">Hermitage Castle</stage></head>
                 <stage rendition="#center"><hi rendition="#i">The</hi> <hi rendition="#sc">Queen</hi> <hi rendition="#i">and</hi> <hi rendition="#sc">Bothwell</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Bothwell</speaker>
@@ -6447,8 +6434,7 @@
                 </sp>
             </div>
             <div n="9" type="scene">
-                <head rendition="#sc #center">Scene IX.</head>
-                <stage rendition="#i #center">The Queen’s Lodging at Jedburgh</stage>
+                <head rendition="#center"><hi rendition="#sc">Scene IX</hi>. <stage rendition="#i">The Queen’s Lodging at Jedburgh</stage></head>
                 <stage rendition="#center"><hi rendition="#i">The three</hi> <hi rendition="#sc">Maries</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Mary Carmichael</speaker>
@@ -6517,7 +6503,7 @@
                         <l n="38">Look, she is risen.</l>
                     <pb n="338"/>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen</hi>, <hi rendition="#i">supported by attendants</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Queen</hi>, <hi rendition="#i">supported by attendants</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="39" rendition="#ti-5">What word was in your lips?</l>
@@ -6557,7 +6543,7 @@
                         <l n="66">Before the things that breed them.</l>
                 </sp>
                 <sp>
-                    <speaker rendition="#center #uc">Mary Seyton</speaker><stage>(<hi rendition="#i">aside</hi>)</stage>
+                    <speaker rendition="#center #uc">Mary Seyton</speaker><stage type="delivery">(<hi rendition="#i">aside</hi>)</stage>
                         <l n="67" rendition="#ti-5">She roams yet.</l>
                 </sp>
                 <sp>
@@ -6606,7 +6592,7 @@
                         <l n="102" rendition="#ti-5">It is my lord of Ross</l>
                         <l n="103">The queen would see? my lord is at her hand.</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Bishop of Ross</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter the</hi> <hi rendition="#sc">Bishop of Ross</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Queen</speaker>
                         <l n="104">Most reverend father, my soul’s friend, you see</l>
@@ -6734,7 +6720,7 @@
                         <l n="204">While I am lady of all you. Who is this?</l>
                         <l n="205">Message? what message? whence?</l>
                 </sp>
-                <stage rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Murray</hi></stage>
+                <stage type="entrance" rendition="#center"><hi rendition="#i">Enter</hi> <hi rendition="#sc">Murray</hi></stage>
                 <sp>
                     <speaker rendition="#center #uc">Murray</speaker>
                         <l n="206" rendition="#ti-5">From Edinburgh,</l>
