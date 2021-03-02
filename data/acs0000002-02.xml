@@ -153,9 +153,9 @@
           </epigraph>
           <epigraph>
             <l>What need ye hech! and how! ladies?</l>
-            <l rendition="ti-1">What need ye how! for me?</l>
+            <l rendition="#ti-1">What need ye how! for me?</l>
             <l>Ye never saw grace at a graceless face;</l>
-            <l rendition="ti-1">Queen Mary has nane to gie. </l>
+            <l rendition="#ti-1">Queen Mary has nane to gie. </l>
             <bibl><author rendition="#i">The Queen’s Marie.</author></bibl>
           </epigraph>
           <!-- <sp type="dedication">I DEDICATE THIS PLAY, AS A PARTIAL EXPRESSION OF REVERENCE AND GRATITUDE, TO THE CHIEF OF LIVING POETS; TO THE FIRST DRAMATIST OF HIS AGE; TO THE GREATEST EXILE, AND THEREFORE TO THE GREATEST MAN OF FRANCE; TO VICTOR HUGO.</sp>-->
@@ -199,18 +199,19 @@
             <castItem rendition="#sc">Morton</castItem>
             <castItem rendition="#sc">Lindsay</castItem>
             <castItem rendition="#sc">Father Black</castItem>
-            <castItem rendition="#i">Guards, Burgesses, a Preacher, Citizens, &amp;c.<pb n="6"/></castItem>
+            <castItem rendition="#i">Guards, Burgesses, a Preacher, Citizens, &amp;c.</castItem>
           </castList>
+          <pb n="6"/>
           <epigraph>
             <p>Another Yle is there toward the Northe, in the See Occean, where that ben fulle
               cruele and ful evele Wommen of Nature: and thei han precious Stones in hire Eyen; and
               thei ben of that kynde, that zif they beholden ony man, thei slen him anon with the
               beholdynge, as dothe the Basilisk.</p>
             <bibl><!-- check --><author rendition="#uc">Maundevile’s</author>
-              <title rendition="#i">Voiage and Travaile</title>, <biblScope>Ch. xxviii.</biblScope></bibl>
-            <pb n="7"/>
+              <title rendition="#i">Voiage and Travaile</title>, <biblScope>Ch. xxviii.</biblScope></bibl>    
           </epigraph>
         </front>
+        <pb n="7"/>
         <body>
           <div type="act" n="1">
             <!-- check: div or lg or sp? -->
@@ -238,7 +239,8 @@
                   <l n="9">Dans l’espace</l>
                   <l n="10">Du grand air</l>
                   <l n="11">Le vent passe</l>
-                  <l n="12">Comme un fer;<pb n="8"/></l>
+                  <l n="12">Comme un fer;</l>
+                  <pb n="8"/>
                   <l n="13">Siffle et sonne,</l>
                   <l n="14">Tombe et tonne,</l>
                   <l n="15">Prend et donne</l>
@@ -273,8 +275,8 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
-                <l n="31">Prithee, what? what?<pb n="9"/></l>
-              </sp>
+                <l n="31">Prithee, what? what?</l>
+              </sp><pb n="9"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="32">Why, since we came from France,</l>
@@ -308,8 +310,8 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
-                <l n="45">Lord Darnley’s is a mere maid’s yellow.<pb n="10"/></l>
-              </sp>
+                <l n="45">Lord Darnley’s is a mere maid’s yellow.</l>
+              </sp><pb n="10"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Hamilton</speaker>
                 <l n="46">No; </l>
@@ -346,8 +348,8 @@
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="60">This will not sadden you to sing; your song</l>
                 <l n="61">Tastes sharp of sea and the sea’s bitterness,</l>
-                <l n="62">But small pain sticks on it.<pb n="11"/></l>
-              </sp>
+                <l n="62">But small pain sticks on it.</l>
+              </sp><pb n="11"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="63">Nay, it is sad; </l>
@@ -379,8 +381,8 @@
                 <l n="80">Bound up as ’twere between the brows of him</l>
                 <l n="81">Like a bad thought; their hearts beat inside his; </l>
                 <l n="82">They gather at his lips like flies in the sun,</l>
-                <l n="83">Thrust sides to catch his face.<pb n="12"/></l>
-              </sp>
+                <l n="83">Thrust sides to catch his face.</l>
+              </sp><pb n="12"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="84">Look forth; so—push</l>
@@ -414,7 +416,7 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="102">Ay, true, the queen came first and she won all; </l>
-                <l n="103">It was her bunch we took to cheat you with.<pb n="13"/></l>
+                <l n="103">It was her bunch we took to cheat you with.</l><pb n="13"/>
                 <l n="104">What, will you weep for that now? for you seem</l>
                 <l n="105">As one that means to weep. God pardon me!</l>
                 <l n="106">I think your throat is choking up with tears.</l>
@@ -443,11 +445,11 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <lg n="4" xml:lang="fr">
-                  <head rendition="center">4</head>
+                  <head rendition="#center">4</head>
                   <l n="119">Le navire</l>
                   <l n="120">Passe et luit,</l>
                   <l n="121">Puis chavire</l>
-                  <l n="122">A grand bruit;<pb n="14"/></l>
+                  <l n="122">A grand bruit;</l><pb n="14"/>
                   <l n="123">Et sur l’onde</l>
                   <l n="124">La plus blonde</l>
                   <l n="125">Tête au monde</l>
@@ -455,7 +457,7 @@
                 </lg>
                 
                 <lg n="5" xml:lang="fr">
-                  <head rendition="center">5</head>
+                  <head rendition="#center">5</head>
                   <l n="127">Moi, je rame,</l>
                   <l n="128">Et l'amour,</l>
                   <l n="129">C’est ma flamme,</l>
@@ -466,14 +468,14 @@
                   <l n="134">De séjour.</l>
                 </lg>
                 <lg n="6" xml:lang="fr">
-                  <head rendition="center">6</head>
+                  <head rendition="#center">6</head>
                   <l n="135">Toi, mon âme</l>
                   <l n="136">Et ma foi,</l>
                   <l n="137">Sois ma dame</l>
                   <l n="138">Et ma loi; </l>
                   <l n="139">Sois ma mie,</l>
                   <l n="140">Sois Marie,</l>
-                  <l n="141">Sois ma vie,</l>
+                  <l n="141">Sois ma vie,</l><pb n="15"/>
                   <l n="142">Toute à moi!</l>
                 </lg>
               </sp>
@@ -483,7 +485,7 @@
                 <l n="144">He made in coming over with the queen.</l>
                 <l n="145">How hard it rained! he played that over twice</l>
                 <l n="146">Sitting before her, singing each word soft,</l>
-                <l n="147">As if he loved the least she listened to.<pb n="15"/></l>
+                <l n="147">As if he loved the least she listened to.</l>
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Hamilton</speaker>
@@ -519,8 +521,8 @@
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="163">O, you talk emptily;</l>
                 <l n="164">She is full of grace; and marriage in good time</l>
-                <l n="165">Will wash the fool called scandal off men’s lips.<pb n="16"/></l>
-              </sp>
+                <l n="165">Will wash the fool called scandal off men’s lips.</l></sp>
+              <pb n="16"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Hamilton</speaker>
                 <l n="166">I know not that; I know how folk would gibe</l>
@@ -555,7 +557,7 @@
                 <speaker rendition="#center #uc">Mary Hamilton</speaker>
                 <l n="187">What, what!</l>
                 <l n="188">You praise her in too lover-like a wise</l>
-                <l n="189">For women that praise women; such report<pb n="17"/></l>
+                <l n="189">For women that praise women; such report</l><pb n="17"/>
                 <l n="190">Is like robes worn the rough side next the skin,</l>
                 <l n="191">Frets where it warms.</l>
               </sp>
@@ -594,8 +596,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Hamilton</speaker>
-                <l n="204">I cannot say.<pb n="18"/></l>
-              </sp>
+                <l n="204">I cannot say.</l></sp><pb n="18"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="205">Why, look you, I am broken with the queen; </l>
@@ -628,8 +629,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
-                <l n="225">You have heard no news? what news?<pb n="19"/></l>
-              </sp>
+                <l n="225">You have heard no news? what news?</l></sp><pb n="19"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="226">Nay, I have none.</l>
@@ -665,8 +665,7 @@
                 <l n="244">Nay, but sweet</l>
                 <l n="245">Enough to die. When she broke off the dance,</l>
                 <l n="246">Turning round short and soft—I never saw</l>
-                <l n="247">Such supple ways of walking as she has.<pb n="20"/></l>
-              </sp>
+                <l n="247">Such supple ways of walking as she has.</l></sp><pb n="20"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="248">Why do you praise her gracious looks to me?</l>
@@ -701,8 +700,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
-                <l n="271">Nor how she loves you back?<pb n="21"/></l>
-              </sp>
+                <l n="271">Nor how she loves you back?</l></sp><pb n="21"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="272">I know her ways of loving, all of them:</l>
@@ -736,8 +734,7 @@
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="286">Lo you, sir,</l>
                 <l n="287">How sharp he whispers, what close breath and eyes— </l>
-                <l n="288">And hers are fast upon him, do you see?<pb n="22"/></l>
-              </sp>
+                <l n="288">And hers are fast upon him, do you see?</l></sp><pb n="22"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="289">Well, which of these must take my life in hand?</l>
@@ -770,7 +767,7 @@
                 <l n="302">I have but scant breath’s time to help myself,</l>
                 <l n="303">And I must cast my heart out on a chance; </l>
                 <l n="304">So bear with me. That we twain have loved well,</l>
-                <l n="305">I have no heart nor wit to say; God wot<pb n="23"/></l>
+                <l n="305">I have no heart nor wit to say; God wot</l><pb n="23"/>
                 <l n="306">We had never made good lovers, you and I.</l>
                 <l n="307">Look you, I would not have you love me, sir,</l>
                 <l n="308">For all the love’s sake in the world. I say,</l>
@@ -803,8 +800,7 @@
                 <l n="329">I wot not what; she loves you at her heart.</l>
                 <l n="330">Let her not see that I have given you word,</l>
                 <l n="331">Lest she take shame and hate her love. Till night.</l>
-                <l n="332">Let her not see it.<pb n="24"/></l>
-              </sp>
+                <l n="332">Let her not see it.</l></sp><pb n="24"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="333">I will not thank you now,</l>
@@ -845,8 +841,7 @@
                 <l n="8">To teach our north folk all sweet ways of France</l>
                 <l n="9">But at this time we have no heart to it.</l>
                 <l n="10">Sit, sir, and talk. Look, this breast-clasp is new,</l>
-                <l n="11">The French king sent it me.<pb n="25"/></l>
-              </sp>
+                <l n="11">The French king sent it me.</l></sp><pb n="25"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="12">A goodly thing:</l>
@@ -885,8 +880,7 @@
                 <l n="31">This game of two by two; it were much better</l>
                 <l n="32">To meet between the changes and to mix</l>
                 <l n="33">Than still to keep apart and whispering</l>
-                <l n="34">Each lady out of earshot with her friend.<pb n="26"/></l>
-              </sp>
+                <l n="34">Each lady out of earshot with her friend.</l></sp><pb n="26"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="35">That’s as the lady serves her knight, I think:</l>
@@ -921,8 +915,7 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Hamilton</speaker>
                 <l n="50">’Tis your great care of her</l>
-                <l n="51">Makes you misdoubt; nought else.<pb n="27"/></l>
-              </sp>
+                <l n="51">Makes you misdoubt; nought else.</l></sp><pb n="27"/>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="52">Yea, may be so; </l>
@@ -959,7 +952,7 @@
                   <l n="71">Love turned to tears, and tears to fire,</l>
                   <l n="72">And dead delight to new desire;</l>
                   <l n="73">Love’s talk, love’s touch there seemed to be</l>
-                  <l n="74">Between the sea-sand and the sea.<pb n="28"/></l>
+                  <l n="74">Between the sea-sand and the sea.</l><pb n="28"/>
                 </lg>
                 <lg n="3">
                   <head rendition="#center">3</head>
@@ -999,7 +992,7 @@
                   <l n="94">Soyez secourable à mon âme en peine.</l>
                   <l n="95">Voyez comme Avril fait l’amour aux fleurs; </l>
                   <l n="96">Dame d’amour, dame aux belles couleurs,</l>
-                  <l n="97">Dieu vous a fait belle, Amour vous fait reine.<pb n="29"/></l>
+                  <l n="97">Dieu vous a fait belle, Amour vous fait reine.</l><pb n="29"/>
                 </lg>
                 <lg n="2" xml:lang="fr">
                   <head rendition="#center">2</head>
@@ -1039,7 +1032,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="116">Do you yet mind at landing how the quay</l>
                 <l n="117">Looked like a blind wet face in waste of wind</l>
-                <l n="118">And washing of wan waves? how the hard mist<pb n="30"/></l>
+                <l n="118">And washing of wan waves? how the hard mist</l><pb n="30"/>
                 <l n="119">Made the hills ache? your songs lied loud, my knight,</l>
                 <l n="120">They said my face would burn off cloud and rain</l>
                 <l n="121">Seen once, and fill the crannied land with fire,</l>
@@ -1073,8 +1066,7 @@
                 <speaker rendition="#center #uc">Randolph</speaker>
                 <l n="144">She is over fair</l>
                 <l n="145">To be so sweet and hurt not. A good knight;</l>
-                <l n="146">Goodly to look on.<pb n="31"/></l>
-              </sp>
+                <l n="146">Goodly to look on.</l></sp><pb n="31"/>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="147">Yea, a good sword too,</l>
@@ -1109,8 +1101,7 @@
                 <l n="166">No jest for queen’s lips to catch laughter of</l>
                 <l n="167">That would keep clean; I wot he made good mirth,</l>
                 <l n="168">But she laughed over sweetly, and in such wise— </l>
-                <l n="169">Nay, I laughed too, but lothly.—<pb n="32"/></l>
-              </sp>
+                <l n="169">Nay, I laughed too, but lothly.—</l></sp><pb n="32"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="170">How they look!</l>
@@ -1146,7 +1137,7 @@
                 <l n="188">You have a subtle riddling skill at love</l>
                 <l n="189">Which is not like a lover. For my part,</l>
                 <l n="190">I am resolved to be well done with love,</l>
-                <l n="191">Though I were fairer-faced than all the world;<pb n="33"/></l>
+                <l n="191">Though I were fairer-faced than all the world;</l><pb n="33"/>
                 <l n="192">As there be fairer. Think you, fair my knight,</l>
                 <l n="193">Love shall live after life in any man?</l>
                 <l n="194">I have given you stuff for riddles.</l>
@@ -1181,8 +1172,7 @@
                 <l n="217">With grey sweet eyes and tender touch of talk; </l>
                 <l n="218">And that, God wot, I wist not. See you, sir,</l>
                 <l n="219">Men say I needs must get wed hastily;</l>
-                <l n="220">Do none point lips at him?<pb n="34"/></l>
-              </sp>
+                <l n="220">Do none point lips at him?</l></sp><pb n="34"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="221">Yea, guessingly.</l>
@@ -1217,7 +1207,7 @@
                 <l n="7">Whichever way I am well done with it.</l>
                 <l n="8">How hard the thin sweet moon is, split and laced</l>
                 <l n="9">And latticed over, just a stray of it</l>
-                <l n="10">Catching and clinging at a strip of wall,<pb n="35"/></l>
+                <l n="10">Catching and clinging at a strip of wall,</l><pb n="35"/>
                 <l n="11">Hardly a hand’s breadth. Did she turn indeed</l>
                 <l n="12">In going out? not to catch up her gown</l>
                 <l n="13">The page let slip, but to keep sight of me?</l>
@@ -1248,8 +1238,7 @@
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="35">Yea, kill me now and do not look at me:</l>
                 <l n="36">God knows I meant to die. Sir, for God’s love</l>
-                <l n="37">Kill me now quick ere I go mad with shame.<pb n="36"/></l>
-              </sp>
+                <l n="37">Kill me now quick ere I go mad with shame.</l></sp><pb n="36"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="38">Cling not upon my wrists: let go the hilt:</l>
@@ -1285,7 +1274,7 @@
                 <l n="56">Think no base things of me:</l>
                 <l n="57">I were most base to let you go ashamed.</l>
                 <l n="58">Think my heart’s love and honour go with you:</l>
-                <l n="59">Yea, while I live, for your love’s noble sake,<pb n="37"/></l>
+                <l n="59">Yea, while I live, for your love’s noble sake,</l><pb n="37"/>
                 <l n="60">I am your servant in what wise may be,</l>
                 <l n="61">To love and serve you with right thankful heart.</l>
               </sp>
@@ -1321,8 +1310,7 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="79">I am twice undone. Fly, get some hiding, sir;</l>
-                <l n="80">They have spied upon me somehow.<pb n="38"/></l>
-              </sp>
+                <l n="80">They have spied upon me somehow.</l></sp><pb n="38"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="81">Nay, fear not;</l>
@@ -1358,8 +1346,7 @@
                 <l n="95">Shall keep the shame for his part and the lie.</l>
                 <l n="96">To them that come in honour and not in hate</l>
                 <l n="97">I will make answer. Lady, have good heart.</l>
-                <l n="98">Give me the light there: I will see you forth.<pb n="39"/></l>
-              </sp>
+                <l n="98">Give me the light there: I will see you forth.</l></sp><pb n="39"/>
             </div>
             <note>END OF THE FIRST ACT.</note>
           </div>
@@ -1397,8 +1384,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Seyton</speaker>
-                <l n="7">Indeed I saw them kiss.<pb n="40"/></l>
-              </sp>
+                <l n="7">Indeed I saw them kiss.</l></sp><pb n="40"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="8">So lovers use— </l>
@@ -1433,8 +1419,7 @@
                 <l n="25">For me, God knows I am no whit wroth; not I; </l>
                 <l n="26">But, for your fame's sake that her shame will sting,</l>
                 <l n="27">I cannot see a way to pardon her— </l>
-                <l n="28">For your fame's sake, lest that be prated of.<pb n="41"/></l>
-              </sp>
+                <l n="28">For your fame's sake, lest that be prated of.</l></sp><pb n="41"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Seyton</speaker>
                 <l n="29">Nay, if she were not chaste—I have not said</l>
@@ -1470,8 +1455,7 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Seyton</speaker>
                 <l n="43">Nay, though she bore with him, she hath no great love,</l>
-                <l n="44">I doubt me, that way.<pb n="42"/></l>
-              </sp>
+                <l n="44">I doubt me, that way.</l></sp><pb n="42"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="45">God mend all, I pray—</l>
@@ -1505,7 +1489,7 @@
                 <l n="63">(Remembering what was writ of Magdalen)</l>
                 <l n="64">I gave not grudging but with pure good heart,</l>
                 <l n="65">When lo some scurril children that lurked near,</l>
-                <l n="66">Set there by Satan for my stumbling-stone,<pb n="43"/></l>
+                <l n="66">Set there by Satan for my stumbling-stone,</l><pb n="43"/>
                 <l n="67">Fell hooting with necks thwart and eyes asquint,</l>
                 <l n="68">Screeched and made horns and shot out tongues at me,</l>
                 <l n="69">As at my Lord the Jews shot out their tongues</l>
@@ -1539,7 +1523,7 @@
                 <l n="88">Father, you see the hatefulness of these— </l>
                 <l n="89">They loathe us for our love. I am not moved:</l>
                 <l n="90">What should I do being angry? By this hand</l>
-                <l n="91">(Which is not big enough to bruise their lips),<pb n="44"/></l>
+                <l n="91">(Which is not big enough to bruise their lips),</l><pb n="44"/>
                 <l n="92">I marvel what thing should be done with me</l>
                 <l n="93">To make me wroth. We must have patience with us</l>
                 <l n="94">When we seek thank of men.</l>
@@ -1577,7 +1561,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="107">You smile as if I jested; do not men</l>
-                <l n="108">Sleep as we do? Had you fair dreams in the night?<pb n="45"/></l>
+                <l n="108">Sleep as we do? Had you fair dreams in the night?</l><pb n="45"/>
                 <l n="109">For me—but I should fret you with my dreams— </l>
                 <l n="110">I dreamed sweet things. You are good at sooth-saying:</l>
                 <l n="111">Make me a sonnet of my dream.</l>
@@ -1611,7 +1595,7 @@
                 <l n="133">And masked down to the lips, but by the chin</l>
                 <l n="134">I knew you though your lips were sewn up close</l>
                 <l n="135">With scarlet thread all dabbled wet in blood.</l>
-                <l n="136">And then I knew the dream was not for good.<pb n="46"/></l>
+                <l n="136">And then I knew the dream was not for good.</l><pb n="46"/>
                 <l n="137">And striving with sore travail to reach up</l>
                 <l n="138">And kiss you (you were taller in my dream)</l>
                 <l n="139">I missed your lips and woke.</l>
@@ -1647,7 +1631,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="158">Nay, I know not well.</l>
                 <l n="159">’Tis when the man is held fast underground</l>
-                <l n="160">They say for sooth what manner of heart he had.<pb n="47"/></l>
+                <l n="160">They say for sooth what manner of heart he had.</l><pb n="47"/>
                 <l n="161">We are alive, and cannot be well sure</l>
                 <l n="162">If we loved much or little: think you not</l>
                 <l n="163">It were convenient one of us should die?</l>
@@ -1683,8 +1667,7 @@
                 <l n="181">And life not fashioned out of lies and loves.</l>
                 <l n="182">We foolish women have such times, you know,</l>
                 <l n="183">When we are weary or afraid or sick</l>
-                <l n="184">For perfect nothing.<pb n="48"/></l>
-              </sp>
+                <l n="184">For perfect nothing.</l></sp><pb n="48"/>
               <sp> 
                 <stage rendition="#center #uc">Chastelard (<hi rendition="#i">aside</hi>).</stage>
                 <l n="185">Now would one be fain</l>
@@ -1721,8 +1704,7 @@
                 <l n="201">If I were man I should be no base man; </l>
                 <l n="202">I could have fought; yea, I could fight now too</l>
                 <l n="203">If men would shew me; I would I were the king!</l>
-                <l n="204">I should be all ways better than I am.<pb n="49"/></l>
-              </sp>
+                <l n="204">I should be all ways better than I am.</l></sp><pb n="49"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="205">Nay, would you have more honour, having this— </l>
@@ -1756,7 +1738,7 @@
                 <l n="230"><hi rendition="#i">Shout, laugh, smite straight, and flaw the riven ranks,</hi></l>
                 <l n="231"><hi rendition="#i">Move as the wind moves, and his horse’s feet</hi></l>
                 <l n="232"><hi rendition="#i">Stripe their long flags with dust</hi>. Why, if one died,</l>
-                <l n="233">To die so in the heart and heat of war<pb n="50"/></l>
+                <l n="233">To die so in the heart and heat of war</l><pb n="50"/>
                 <l n="234">Were a much goodlier thing than living soft</l>
                 <l n="235">And speaking sweet for fear of men. Woe’s me,</l>
                 <l n="236">Is there no way to pluck this body off?</l>
@@ -1791,7 +1773,7 @@
                 <l n="253">I see the fingers that I hold it with</l>
                 <l n="254">Clear in the blade, bright pink, the shell-colour,</l>
                 <l n="255">Brighter than flesh is really, curved all round.</l>
-                <l n="256">Now men would mock if I should wear it here,<pb n="51"/></l>
+                <l n="256">Now men would mock if I should wear it here,</l><pb n="51"/>
                 <l n="257">Bound under bosom with a girdle, here,</l>
                 <l n="258">And yet I have heart enough to wear it well.</l>
                 <l n="259">Speak to me like a woman, let me see</l>
@@ -1826,7 +1808,7 @@
                 <l n="276">Turns them to tears and words? Ah my sweet knight,</l>
                 <l n="277">You have the better of us that weave and weep</l>
                 <l n="278">While the blithe battle blows upon your eyes</l>
-                <l n="279">Like rain and wind; yet I remember too<pb n="52"/></l>
+                <l n="279">Like rain and wind; yet I remember too</l><pb n="52"/>
                 <l n="280">When this last year the fight at Corrichie</l>
                 <l n="281">Reddened the rushes with stained fen-water,</l>
                 <l n="282">I rode with my good men and took delight,</l>
@@ -1860,7 +1842,7 @@
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="309">Yea, when the time came, there caught hold of me</l>
-                <l n="310">Such pleasure in the head and hands and blood<pb n="53"/>/></l>
+                <l n="310">Such pleasure in the head and hands and blood</l><pb n="53"/>
                 <l n="311">As may be kindled under loving lips:</l>
                 <l n="312">Crossing the ferry once to the Clerks’ Field,</l>
                 <l n="313">I mind me how the plashing noise of Seine</l>
@@ -1899,8 +1881,7 @@
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="329">I would you had; his play was worth an eye; </l>
                 <l n="330">He made some gallant way before that pass</l>
-                <l n="331">Which made me way through him.<pb n="54"/></l>
-              </sp>
+                <l n="331">Which made me way through him.</l></sp><pb n="54"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="332">Would I saw that— </l>
@@ -1938,7 +1919,7 @@
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="350">Yea, twice or so:</l>
                 <l n="351">The first time in a little outlying field</l>
-                <l n="352">(My first field) at the sleepy grey of dawn,<pb n="55"/></l>
+                <l n="352">(My first field) at the sleepy grey of dawn,</l><pb n="55"/>
                 <l n="353">They found us drowsy, fumbling at our girths,</l>
                 <l n="354">And rode us down by heaps; I took a hurt</l>
                 <l n="355">Here in the shoulder.</l>
@@ -1973,39 +1954,39 @@
 
                 <stage rendition="#i">[Sings.</stage>
                 <lg n="1" xml:lang="fr">
-                  <head rendition="center">1</head>
+                  <head rendition="#center">1</head>
                   <l n="375">J’ai vu faner bien des choses,</l>
                   <l n="376">Mainte feuille aller au vent.</l>
                   <l n="377">En songeant aux vieilles roses,</l>
-                  <l rendition="ti-1" n="378">J’ai pleuré souvent.<pb n="56"/></l>
+                  <l rendition="#ti-1" n="378">J’ai pleuré souvent.</l><pb n="56"/>
                 </lg>
                 <lg n="2" xml:lang="fr">
-                  <head rendition="center">2</head>
+                  <head rendition="#center">2</head>
                   <l n="379">Vois-tu dans les roses mortes</l>
                   <l n="380">Amour qui sourit caché?</l>
                   <l n="381">O mon amant, à nos portes</l>
-                  <l rendition="ti-1" n="382">L’as-tu vu couché?</l>
+                  <l rendition="#ti-1" n="382">L’as-tu vu couché?</l>
                 </lg>
                 <lg n="3" xml:lang="fr">
-                  <head rendition="center">3</head>
+                  <head rendition="#center">3</head>
                   <l n="383">As-tu vu jamais au monde</l>
                   <l n="384">Vénus en chasse courir?</l>
                   <l n="385">Fille de l’onde, avec l’onde</l>
-                  <l rendition="ti-1" n="386">Doit-elle mourir?</l>
+                  <l rendition="#ti-1" n="386">Doit-elle mourir?</l>
                 </lg>
                 <lg n="4" xml:lang="fr">
-                  <head rendition="center">4</head>
+                  <head rendition="#center">4</head>
                   <l n="387">Aux jours de neige et de givre</l>
                   <l n="388">L’amour s’effeuille et s’endort; </l>
                   <l n="389">Avec mai doit-il revivre,</l>
-                  <l rendition="ti-1" n="390">Ou bien est-il mort?</l>
+                  <l rendition="#ti-1" n="390">Ou bien est-il mort?</l>
                 </lg>
                 <lg n="5" xml:lang="fr">
-                  <head rendition="center">5</head>
+                  <head rendition="#center">5</head>
                   <l n="391">Qui sait où s’en vont les roses?</l>
                   <l n="392">Qui sait où s’en va le vent?</l>
                   <l n="393">En songeant à telles choses,</l>
-                  <l rendition="ti-1" n="394">J’ai pleuré souvent.</l>
+                  <l rendition="#ti-1" n="394">J’ai pleuré souvent.</l>
                 </lg>
                 <l n="395">I never heard yet but love made good knights,</l>
                 <l n="396">But for pure faith, by Mary’s holiness,</l>
@@ -2015,7 +1996,7 @@
                 <l n="400">Faith is but dead; dig her grave deep at heart,</l>
                 <l n="401">And hide her face with cerecloths; farewell faith.</l>
                 <l n="402">Would I could tell why I talk idly. Look,</l>
-                <l n="403">Here come my riddle-readers. Welcome all;<pb n="57"/></l>
+                <l n="403">Here come my riddle-readers. Welcome all;</l><pb n="57"/>
                 <stage rendition="#i">Enter <hi rendition="#sc">Murray, Darnley, Randolph, Lindsay, Morton</hi>, and other
                     <hi rendition="#sc">Lords</hi></stage>
                 <l n="404">Sirs, be right welcome. Stand you by my side,</l>
@@ -2048,7 +2029,7 @@
                 <l n="425">Let him be weighed, and use him as he is; </l>
                 <l n="426">I am of my nature pitiful, ye know,</l>
                 <l n="427">And cannot turn my love unto a thorn</l>
-                <l n="428">In so brief space. Ye are all most virtuous;<pb n="58"/></l>
+                <l n="428">In so brief space. Ye are all most virtuous;</l><pb n="58"/>
                 <l n="429">Yea, there is goodness grafted on this land; </l>
                 <l n="430">But yet compassion is some part of God.</l>
                 <l n="431">There is much heavier business held on hand</l>
@@ -2082,7 +2063,7 @@
                 <l n="459">Even till it lit on his right wrist and sang.</l>
                 <l n="460">Lo, here I take him by the hand: fair lords,</l>
                 <l n="461">This is my kinsman, made of mine own blood,</l>
-                <l n="462">I take to halve the state and services<pb n="59"/></l>
+                <l n="462">I take to halve the state and services</l><pb n="59"/>
                 <l n="463">That bow down to me, and to be my head,</l>
                 <l n="464">My chief, my master, my sweet lord and king.</l>
                 <l n="465">Now shall I never say “sweet cousin” more</l>
@@ -2119,7 +2100,7 @@
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="483">I know.</l>
-                <l n="484">I was just thinking how such things were made<pb n="60"/></l>
+                <l n="484">I was just thinking how such things were made</l><pb n="60"/>
                 <l n="485">And were so fair as this is. Do you know</l>
                 <l n="486">She held me here and talked—the most sweet talk</l>
                 <l n="487">Men ever heard of?</l>
@@ -2157,7 +2138,7 @@
                 <l n="501">To get between and tread upon his face—</l>
                 <l n="502">Catch both her hands and bid men look at them,</l>
                 <l n="503">How pure they were—I would do none of these,</l>
-                <l n="504">Though they got wedded all the days in the year.<pb n="61"/></l>
+                <l n="504">Though they got wedded all the days in the year.</l><pb n="61"/>
                 <l n="505">We may do well yet when all’s come and gone.</l>
                 <l n="506">I pray you on this wedding night of theirs</l>
                 <l n="507">Do but one thing that I shall ask of you,</l>
@@ -2171,8 +2152,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
-                <l n="512">I thank you: let us go.<pb n="62"/></l>
-              </sp>
+                <l n="512">I thank you: let us go.</l></sp><pb n="62"/>
             </div>
             <note>END OF THE SECOND ACT.</note>
           </div>
@@ -2205,7 +2185,7 @@
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="8">Have you read never in French books the song</l>
-                <l n="9">Called the Duke’s Song, some boy made ages back,<pb n="63"/></l>
+                <l n="9">Called the Duke’s Song, some boy made ages back,</l><pb n="63"/>
                 <l n="10">A song of drag-nets hauled across thwart seas</l>
                 <l n="11">And plucked up with rent sides, and caught therein</l>
                 <l n="12">A strange-haired woman with sad singing lips,</l>
@@ -2241,7 +2221,7 @@
                 <l n="36">Would kill me if my body were past hurt</l>
                 <l n="37">Of any man’s hand; and to die thereof,</l>
                 <l n="38">I say, is sweeter than all sorts of life.</l>
-                <l n="39">I would not have her love me now, for then<pb n="64"/></l>
+                <l n="39">I would not have her love me now, for then</l><pb n="64"/>
                 <l n="40">I should die meanlier some time. I am safe,</l>
                 <l n="41">Sure of her face, my life’s end in her sight,</l>
                 <l n="42">My blood shed out about her feet—by God,</l>
@@ -2277,7 +2257,7 @@
                 <l n="65">Should be a touch kept always on my sense</l>
                 <l n="66">To make hell soft, yea, the keen pain of hell</l>
                 <l n="67">Soft as the loosening of wound arms in sleep.</l>
-                <l n="68">Ah, love is good, and the worst part of it<pb n="65"/></l>
+                <l n="68">Ah, love is good, and the worst part of it</l><pb n="65"/>
                 <l n="69">More than all things but death. She will be here</l>
                 <l n="70">In some small while, and see me face to face</l>
                 <l n="71">That am to give up life for her and go</l>
@@ -2314,7 +2294,7 @@
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="90">Eh? would you use me as a girl does fruit,</l>
-                <l n="91">Touched with her mouth and pulled away for game<pb n="66"/></l>
+                <l n="91">Touched with her mouth and pulled away for game</l><pb n="66"/>
                 <l n="92">To look thereon ere her lips feed? but see,</l>
                 <l n="93">By God, I fare the worse for you.</l>
               </sp>
@@ -2383,16 +2363,16 @@
                   <l n="133">Alys la châtelaine</l>
                   <l n="134">Voit venir de par Seine</l>
                   <l n="135">Thiébault le capitaine</l>
-                  <l rendition="ti-1" n="136">Qui parle ainsi:</l>
+                  <l rendition="#ti-1" n="136">Qui parle ainsi:</l>
                 </lg>
                 <l n="137">Was that the wind in the casement? nay, no more</l>
                 <l n="138">But the comb drawn through half my hissing hair</l>
-                <l n="139">Laid on my arms—yet my flesh moved at it.<pb n="68"/></l>
+                <l n="139">Laid on my arms—yet my flesh moved at it.</l><pb n="68"/>
                 <lg xml:lang="fr">
                   <l n="140">Dans ma camaille</l>
                   <l n="141">Plus de clou qui vaille,</l>
                   <l n="142">Dans ma cotte-maille</l>
-                  <l rendition="ti-1" n="143">Plus de fer aussi.</l>
+                  <l rendition="#ti-1" n="143">Plus de fer aussi.</l>
                 </lg>
                 <l n="144">Ah, but I wrong the ballad-verse: what’s good</l>
                 <l n="145">In such frayed fringes of old rhymes, to make</l>
@@ -2424,7 +2404,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="166">Saint Mary! what a shaken wit have I!</l>
-                <l n="167">Nay, is it you? who let you through the doors?<pb n="69"/></l>
+                <l n="167">Nay, is it you? who let you through the doors?</l><pb n="69"/>
                 <l n="168">Where be my maidens? which way got you in?</l>
                 <l n="169">Nay, but stand up, kiss not my hands so hard;</l>
                 <l n="170">By God’s fair body, if you but breathe on them</l>
@@ -2459,7 +2439,7 @@
                 <l n="190">Yea, do some while. I had a thing to say; </l>
                 <l n="191">I know not wholly what thing. O my sweet,</l>
                 <l n="192">I am come here to take farewell of love</l>
-                <l n="193">That I have served, and life that I have lived<pb n="70"/></l>
+                <l n="193">That I have served, and life that I have lived</l><pb n="70"/>
                 <l n="194">Made up of love, here in the sight of you</l>
                 <l n="195">That all my life’s time I loved more than God,</l>
                 <l n="196">Who quits me thus with bitter death for it.</l>
@@ -2494,7 +2474,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="224">Yea, best such folk were slain;</l>
-                <l n="225">Why should they live to cozen fools with lies?<pb n="71"/></l>
+                <l n="225">Why should they live to cozen fools with lies?</l><pb n="71"/>
                 <l n="226">You would swear now you have used me faithfully; </l>
                 <l n="227">Shall I not make you swear? I am ware of you:</l>
                 <l n="228">You will not do it; nay, for the fear of God</l>
@@ -2527,7 +2507,7 @@
                 <l n="252">Why, it was in my flesh, my bone and blood,</l>
                 <l n="253">Bound in my brain, to love you; yea, and writ</l>
                 <l n="254">All my heart over: if I would lie to you</l>
-                <l n="255">I doubt I could not lie. Ah, you see now,<pb n="72"/></l>
+                <l n="255">I doubt I could not lie. Ah, you see now,</l><pb n="72"/>
                 <l n="256">You know now well enough; yea, there, sweet love,</l>
                 <l n="257">Let me kiss there.</l>
               </sp>
@@ -2561,7 +2541,7 @@
                 <l n="280">But when some time God can no more refrain</l>
                 <l n="281">To lay death like a kiss across your lips,</l>
                 <l n="282">And great lords bear you clothed with funeral things,</l>
-                <l n="283">And your crown girded over deadly brows,<pb n="73"/></l>
+                <l n="283">And your crown girded over deadly brows,</l><pb n="73"/>
                 <l n="284">Then after all your happy reach of life</l>
                 <l n="285">For pity you shall touch me with your eyes,</l>
                 <l n="286">Remembering love was fellow with my flesh</l>
@@ -2597,8 +2577,7 @@
                 <l n="301">So you leave hold a little; there, for pity,</l>
                 <l n="302">Abide now, and to-morrow come to me.</l>
                 <l n="303">Nay, lest one see red kisses in my throat— </l>
-                <l n="304">Dear God! what shall I give you to be gone?<pb n="74"/></l>
-              </sp>
+                <l n="304">Dear God! what shall I give you to be gone?</l></sp><pb n="74"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="305">I will not go. Look, here’s full night grown up; </l>
@@ -2636,8 +2615,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="323">My love!</l>
                 <l n="324">If I could kiss my heart’s root out on you</l>
-                <l n="325">You would taste love hid at the core of me.<pb n="75"/></l>
-              </sp>
+                <l n="325">You would taste love hid at the core of me.</l></sp><pb n="75"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="326">Kiss me twice more. This beautiful bowed head</l>
@@ -2670,8 +2648,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
-                <l n="347">Ah, will you go yet, sweet?<pb n="76"/></l>
-              </sp>
+                <l n="347">Ah, will you go yet, sweet?</l></sp><pb n="76"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="348">No, by God’s body.</l>
@@ -2702,8 +2679,7 @@
                 <l n="370">Have seen men slain and ridden red in them; </l>
                 <l n="371">Why will you die a chamberer's death like this?</l>
                 <l n="372">What, shall no praise be written of my knight,</l>
-                <l n="373">For my fame’s sake?<pb n="77"/></l>
-              </sp>
+                <l n="373">For my fame’s sake?</l></sp><pb n="77"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="374">Nay, no great praise, I think; </l>
@@ -2736,7 +2712,7 @@
                 <l n="394">And by mine honour for my sake I swear</l>
                 <l n="395">I say but truth; for no man’s sake save mine,</l>
                 <l n="396">Lest I die shamed. Madam, I pray you say</l>
-                <l n="397">I am no liar; you know me what I am,<pb n="78"/></l>
+                <l n="397">I am no liar; you know me what I am,</l><pb n="78"/>
                 <l n="398">A sinful man and shortly to be slain,</l>
                 <l n="399">That in a simple insolence of love</l>
                 <l n="400">Have stained with a fool’s eyes your holy hours</l>
@@ -2771,7 +2747,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="422">Sweet Hamilton,</l>
-                <l n="423">Hold you my hand and help me to sit down.<pb n="79"/></l>
+                <l n="423">Hold you my hand and help me to sit down.</l><pb n="79"/>
                 <l n="424">O Henry, I am beaten from my wits— </l>
                 <l n="425">Let me have time and live; call out my people— </l>
                 <l n="426">Bring forth some armed guard to lay hold on him:</l>
@@ -2803,8 +2779,7 @@
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="439">Yea, pluck him forth, and have him hanged by dawn; </l>
                 <l n="440">He shall find bed enow to sleep. God’s love!</l>
-                <l n="441">That such a knave should be a knight like this!<pb n="80"/></l>
-              </sp>
+                <l n="441">That such a knave should be a knight like this!</l></sp><pb n="80"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="442">Sir, peace awhile; this shall be as I please; </l>
@@ -2812,8 +2787,7 @@
                 <l n="444">All be done goodly; look they wrong him not.</l>
                 <l n="445">Carmichael, you shall sleep with me to-night; </l>
                 <l n="446">I am sorely shaken, even to the heart. Fair lords,</l>
-                <l n="447">I thank you for your care. Sweet, stay by me.<pb n="81"/></l>
-              </sp>
+                <l n="447">I thank you for your care. Sweet, stay by me.</l></sp><pb n="81"/>
             </div>
             <note>END OF THE THIRD ACT.</note>
           </div>
@@ -2846,7 +2820,7 @@
                 <l n="10">And look you, what my mercy bears to fruit,</l>
                 <l n="11">Danger and deadly speech and a fresh fault</l>
                 <l n="12">Before the first was cool in people’s lips; </l>
-                <l n="13">A goodly mercy: and I wash hands of it.—<pb n="82"/></l>
+                <l n="13">A goodly mercy: and I wash hands of it.—</l><pb n="82"/>
                 <l n="14">Speak you, there; have you ever found me sharp?</l>
                 <l n="15">You weep and whisper with sloped necks and heads</l>
                 <l n="16">Like two sick birds; do you think shame of me?</l>
@@ -2881,7 +2855,7 @@
                 <l n="39">For all my wifehood maybe I weep too:</l>
                 <l n="40">Here’s a mere maiden falls to slaying at once,</l>
                 <l n="41">Small shrift for her; God keep us from such hearts!</l>
-                <l n="42">I am a queen too that would have him live,<pb n="83"/></l>
+                <l n="42">I am a queen too that would have him live,</l><pb n="83"/>
                 <l n="43">But one that has no wrong and is no queen,</l>
                 <l n="44">She would—What are you saying there, you twain?</l>
               </sp>
@@ -2915,8 +2889,7 @@
                 <l n="61">It seems I am the meekest heart on earth— </l>
                 <l n="62">Yea, the one tender woman left alive,</l>
                 <l n="63">And knew it not. I will not let him live,</l>
-                <l n="64">For all my pity of him.<pb n="84"/></l>
-              </sp>
+                <l n="64">For all my pity of him.</l></sp><pb n="84"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="65">Nay, but, madam,</l>
@@ -2955,8 +2928,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
-                <l n="89">Nothing for grief, but hold my peace and die.<pb n="85"/></l>
-              </sp>
+                <l n="89">Nothing for grief, but hold my peace and die.</l></sp><pb n="85"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="90">Why, for your sweet sake one might let him live; </l>
@@ -2990,7 +2962,7 @@
                 <l n="115">So that I care not much; for you wot well</l>
                 <l n="116">I have lost love and shame and fame and all</l>
                 <l n="117">To no good end; nor while he had his life</l>
-                <l n="118">Have I got good of him that was my love,<pb n="86"/></l>
+                <l n="118">Have I got good of him that was my love,</l><pb n="86"/>
                 <l n="119">Save that for courtesy (which may God quit)</l>
                 <l n="120">He kissed me once as one might kiss for love</l>
                 <l n="121">Out of great pity for me; saving this,</l>
@@ -3023,8 +2995,7 @@
                 <l n="143">I do believe no queen God ever made</l>
                 <l n="144">Was better holpen than I look to be.</l>
                 <l n="145">What, if two brethren love not heartily,</l>
-                <l n="146">Who shall be good to either one of them?<pb n="87"/></l>
-              </sp>
+                <l n="146">Who shall be good to either one of them?</l></sp><pb n="87"/>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="147">Madam, I have great joy of your good will.</l>
@@ -3061,8 +3032,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="171">I would I wist that well.</l>
-                <l n="172">Sir, do you love me?<pb n="88"/></l>
-              </sp>
+                <l n="172">Sir, do you love me?</l></sp><pb n="88"/>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="173">Yea, you know I do.</l>
@@ -3098,8 +3068,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
-                <l n="188">What, think you he will speak against your fame?<pb n="89"/></l>
-              </sp>
+                <l n="188">What, think you he will speak against your fame?</l></sp><pb n="89"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="189">I know not; men might feign belief of him</l>
@@ -3135,8 +3104,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
-                <l n="201">Let me not guess at you; speak certainly.<pb n="90"/></l>
-              </sp>
+                <l n="201">Let me not guess at you; speak certainly.</l></sp><pb n="90"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="202">You will not mind me: let him be removed; </l>
@@ -3172,7 +3140,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="215">God send me sufferance! I bid you, sir?</l>
                 <l n="216">Nay, do not go: what matter if I did?</l>
-                <l n="217">Nathless I never bade you; no, by God.<pb n="91"/></l>
+                <l n="217">Nathless I never bade you; no, by God.</l><pb n="91"/>
                 <l n="218">Be not so wroth; you are my brother born;</l>
                 <l n="219">Why do you dwell upon me with such eyes?</l>
                 <l n="220">For love of God you should not bear me hard.</l>
@@ -3207,8 +3175,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
-                <l n="237">Is it your pleasure such a thing were done?<pb n="92"/></l>
-              </sp>
+                <l n="237">Is it your pleasure such a thing were done?</l></sp><pb n="92"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="238">Yea, by God’s body is it, certainly.</l>
@@ -3245,7 +3212,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="252">Alas, what honour have I to give thanks?</l>
-                <l n="253">I would he had denied me: I had held my peace<pb n="93"/></l>
+                <l n="253">I would he had denied me: I had held my peace</l><pb n="93"/>
                 <l n="254">Thenceforth for ever; but he wrung out the word,</l>
                 <l n="255">Caught it before my lip, was fain of it— </l>
                 <l n="256">It was his fault to put it in my mind,</l>
@@ -3277,8 +3244,7 @@
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="273">I say I will not; </l>
                 <l n="274">I have thought thereof, and have made up my heart</l>
-                <l n="275">To have no part in this: look you to it.<pb n="94"/></l>
-              </sp>
+                <l n="275">To have no part in this: look you to it.</l></sp><pb n="94"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="276">O, for God’s sake! you will not have me shamed?</l>
@@ -3312,8 +3278,7 @@
                 <l n="292">I pray you for our dead dear father’s sake,</l>
                 <l n="293">Let not men mock at me. Nay, if he speak,</l>
                 <l n="294">I shall be sung in mine own towns. Have pity.</l>
-                <l n="295">What, will you let men stone me in the ways?<pb n="95"/></l>
-              </sp>
+                <l n="295">What, will you let men stone me in the ways?</l></sp><pb n="95"/>
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="296">Madam, I shall take pains the best I may</l>
@@ -3348,7 +3313,7 @@
                 <l n="320">Bid my lord in.—Nathless he will but chide; </l>
                 <l n="321">Nay, fleer and laugh: what should one say to him?</l>
                 <l n="322">There were some word if one could hit on it; </l>
-                <l n="323">Some way to close with him: I wot not.—Sir,<pb n="96"/></l>
+                <l n="323">Some way to close with him: I wot not.—Sir,</l><pb n="96"/>
                 <stage rendition="#i">Enter <hi rendition="#sc">Darnley</hi>.</stage>
                 <l n="324">Please it your love I have a suit to you.</l>
               </sp>
@@ -3383,7 +3348,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="337">That is well seen.</l>
                 <l n="338">Come, I will take my heart between my lips,</l>
-                <l n="339">Use it not hardly. Sir, my suit begins;<pb n="97"/></l>
+                <l n="339">Use it not hardly. Sir, my suit begins;</l><pb n="97"/>
                 <l n="340">That you would please to make me that I am,</l>
                 <l n="341">(In sooth I think I am) mistress and queen</l>
                 <l n="342">Of mine own people.</l>
@@ -3418,8 +3383,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
-                <l n="353">Is there no name a man may call him by?<pb n="98"/></l>
-              </sp>
+                <l n="353">Is there no name a man may call him by?</l></sp><pb n="98"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="354">Nay, my fair master, what fair game is this?</l>
@@ -3455,8 +3419,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="367">Give me the warrant, and sit down, my lord.</l>
                 <l n="368">Why, I will sign it; what, I understand</l>
-                <l n="369">How this must be. Should not my name stand here?<pb n="99"/></l>
-              </sp>
+                <l n="369">How this must be. Should not my name stand here?</l></sp><pb n="99"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="370">Yea, there, and here the seal.</l>
@@ -3495,7 +3458,7 @@
                 <l n="382">I chose you by no straying stroke of sight,</l>
                 <l n="383">But with my heart to love you heartily.</l>
                 <l n="384">Did I wrong then? did mine eye draw my heart?</l>
-                <l n="385">I know not; sir, it may be I did wrong:<pb n="100"/></l>
+                <l n="385">I know not; sir, it may be I did wrong:</l><pb n="100"/>
                 <l n="386">And yet to see you I should call it right</l>
                 <l n="387">Even yet to love you; and would choose again,</l>
                 <l n="388">Again to choose you.</l>
@@ -3530,7 +3493,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="407">Why, God have mercy! what way should one take</l>
-                <l n="408">To please such people? there’s some cunning way,<pb n="101"/></l>
+                <l n="408">To please such people? there’s some cunning way,</l><pb n="101"/>
                 <l n="409">Something I miss, out of my simple soul.</l>
                 <l n="410">What, must one say “Beseech you do no harm,” </l>
                 <l n="411">Or “for my love, sweet cousins, be not hard,” </l>
@@ -3561,8 +3524,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
-                <l n="430">What do you mean to cast such gibes at me?<pb n="102"/></l>
-              </sp>
+                <l n="430">What do you mean to cast such gibes at me?</l></sp><pb n="102"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="431">Woe’s me, and will you turn my tears to thorns?</l>
@@ -3594,8 +3556,7 @@
                 <l n="451">Or blurred—ay, surely so much—with one tear,</l>
                 <l n="452">One little sharp tear strayed on it by chance?</l>
                 <l n="453">Come, come, the man is deadly dangerous; </l>
-                <l n="454">Let him die presently.<pb n="103"/></l>
-              </sp>
+                <l n="454">Let him die presently.</l></sp><pb n="103"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="455">You do not love him; </l>
@@ -3630,8 +3591,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
-                <l n="472">Will you say that?<pb n="104"/></l>
-              </sp>
+                <l n="472">Will you say that?</l></sp><pb n="104"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="473">Why should he live to breed you bad reports?</l>
@@ -3669,8 +3629,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="486">It shall be what it please; and if I please</l>
-                <l n="487">It shall be anything. Give me the warrant.<pb n="105"/></l>
-              </sp>
+                <l n="487">It shall be anything. Give me the warrant.</l></sp><pb n="105"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="488">Nay, for your sake and love of you, not I,</l>
@@ -3707,8 +3666,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
-                <l n="504">Pluck not at my hands.<pb n="106"/></l>
-              </sp>
+                <l n="504">Pluck not at my hands.</l></sp><pb n="106"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="505">No, that I will not: I am brain-broken, mad; </l>
@@ -3743,8 +3701,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
-                <l n="528">Why, yet you have my love.<pb n="107"/></l>
-              </sp>
+                <l n="528">Why, yet you have my love.</l></sp><pb n="107"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="529">Alas, what shall mine enemies do to me</l>
@@ -3781,7 +3738,7 @@
                 <l n="548">I am no snake: but tell me for your love</l>
                 <l n="549">Have you no fancies how these things will end</l>
                 <l n="550">In the pit’s mouth? how all life-deeds will look</l>
-                <l n="551">At the grave’s edge that lets men into hell?<pb n="108"/></l>
+                <l n="551">At the grave’s edge that lets men into hell?</l><pb n="108"/>
                 <l n="552">For my part, who am weak and woman-eyed,</l>
                 <l n="553">It turns my soul to tears: I doubt this blood</l>
                 <l n="554">Fallen on our faces when we twain are dead</l>
@@ -3816,8 +3773,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="573">You are wise that live to threat and tell me so; </l>
-                <l n="574">Do you love life too much?<pb n="109"/></l>
-              </sp>
+                <l n="574">Do you love life too much?</l></sp><pb n="109"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="575">O, now you are sweet,</l>
@@ -3852,8 +3808,7 @@
                 <l n="595">I would have none: yet for the love I have,</l>
                 <l n="596">If I get ever a mean to show it you,</l>
                 <l n="597">I pray God put you some day in my hand</l>
-                <l n="598">That you may take that too.<pb n="110"/></l>
-              </sp>
+                <l n="598">That you may take that too.</l></sp><pb n="110"/>
               <sp>
                 <speaker rendition="#center #uc">Darnley</speaker>
                 <l n="599">Well, as he please; </l>
@@ -3888,7 +3843,7 @@
                 <l n="624">My old love slain, and never a new to help,</l>
                 <l n="625">And my wits gone, and my blithe use of life,</l>
                 <l n="626">And all the grace was with me. Love—perchance</l>
-                <l n="627">If I save love I shall well save myself.<pb n="111"/></l>
+                <l n="627">If I save love I shall well save myself.</l><pb n="111"/>
                 <l n="628">I could find heart to bid him take such fellows</l>
                 <l n="629">And kill them to my hand. I was the fool</l>
                 <l n="630">To sue to these and shame myself: God knows</l>
@@ -3921,7 +3876,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="645">What, sick or dead? I am well holpen of you:</l>
                 <l n="646">Come hither to me. What pale blood you have— </l>
-                <l n="647">Is it for fear you turn such cheeks to me?<pb n="112"/></l>
+                <l n="647">Is it for fear you turn such cheeks to me?</l><pb n="112"/>
                 <l n="648">Why, if I were so loving, by my hand,</l>
                 <l n="649">I would have set my head upon the chance,</l>
                 <l n="650">And loosed him though I died. What will you do?</l>
@@ -3956,8 +3911,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="669">I say, the name. O, Robert Erskine—yea,</l>
-                <l n="670">A fellow of some heart: what saith he?<pb n="113"/></l>
-              </sp>
+                <l n="670">A fellow of some heart: what saith he?</l></sp><pb n="113"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="671">Madam,</l>
@@ -3994,8 +3948,7 @@
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="691">Yea, by God’s mercy, madam,</l>
                 <l n="692">To your great praise and honour from all men</l>
-                <l n="693">If you should keep him living.<pb n="114"/></l>
-              </sp>
+                <l n="693">If you should keep him living.</l></sp><pb n="114"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="694">By God’s light,</l>
@@ -4031,7 +3984,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="714">Ay, in the new French wars— </l>
-                <l n="715">You wist thereof too, madam, with good leave—<pb n="115"/></l>
+                <l n="715">You wist thereof too, madam, with good leave—</l><pb n="115"/>
                 <l n="716">A goodly bait to catch mine honour with</l>
                 <l n="717">And let me wake up with my name bit through.</l>
                 <l n="718">I had been much bounden to you twain, methinks,</l>
@@ -4065,7 +4018,7 @@
                 <l n="745">To get one kiss of me. I have some strength yet,</l>
                 <l n="746">Though I lack power on men that lack men’s blood.</l>
                 <l n="747">Yea, and God wot I will be merciful; </l>
-                <l n="748">For all the foolish hardness round my heart<pb n="116"/></l>
+                <l n="748">For all the foolish hardness round my heart</l><pb n="116"/>
                 <l n="749">That tender women miss of to their praise,</l>
                 <l n="750">They shall not say but I had grace to give</l>
                 <l n="751">Even for love’s sake. Why, let them take their way:</l>
@@ -4097,7 +4050,7 @@
                   Lords.</stage>
                 <l n="769">Hear you, fair lords, I have a word to you; </l>
                 <l n="770">There is one thing I would fain understand— </l>
-                <l n="771">If I be queen or no; for by my life<pb n="117"/></l>
+                <l n="771">If I be queen or no; for by my life</l><pb n="117"/>
                 <l n="772">Methinks I am growing unqueenly. No man speak?</l>
                 <l n="773">Pray you take note, sweet lord ambassador,</l>
                 <l n="774">I am no queen: I never was born queen; </l>
@@ -4130,8 +4083,7 @@
               <sp>
                 <speaker rendition="#center #uc">Murray</speaker>
                 <l n="794">Your majesty hath power to respite men,</l>
-                <l n="795">As we well wot; no man saith otherwise.<pb n="118"/></l>
-              </sp>
+                <l n="795">As we well wot; no man saith otherwise.</l></sp><pb n="118"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="796">What, is this true? ’tis a thing wonderful— </l>
@@ -4157,7 +4109,7 @@
                 <l n="810">Look you, I wist not ye were merciful.</l>
               </sp>
               <sp>
-                <speaker rendition="center">MORTON.</speaker>
+                <speaker rendition="#center">MORTON.</speaker>
                 <l n="811">Madam—</l>
               </sp>
               <sp>
@@ -4166,17 +4118,16 @@
                 <l n="813">Doth it displease you such a man should live?</l>
               </sp>
               <sp>
-                <speaker rendition="center">MORTON.</speaker>
+                <speaker rendition="#center">MORTON.</speaker>
                 <l n="814">’Twere a mad mercy in your majesty</l>
                 <l n="815">To lay no hand upon his second fault</l>
-                <l n="816">And let him thrice offend you.<pb n="119"/></l>
-              </sp>
+                <l n="816">And let him thrice offend you.</l></sp><pb n="119"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="817">Ay, my lord?</l>
               </sp>
               <sp>
-                <speaker rendition="center">MORTON.</speaker>
+                <speaker rendition="#center">MORTON.</speaker>
                 <l n="818">It were well done to muffle lewd men’s mouths</l>
                 <l n="819">By casting of his head into their laps:</l>
                 <l n="820">It were much best.</l>
@@ -4205,15 +4156,14 @@
                 <l n="840">The chiefest of my maidens, shall bear this</l>
                 <l n="841">And give it to my prisoner for a grace; </l>
                 <l n="842">Who shall deny me? who shall do me wrong?</l>
-                <l n="843">Bear greeting to the lord of Chastelard,<pb n="120"/></l>
+                <l n="843">Bear greeting to the lord of Chastelard,</l><pb n="120"/>
                 <l n="844">And this withal for respite of his life,</l>
                 <l n="845">For by my head he shall die no such way:</l>
                 <l n="846">Nay, sweet, no words, but hence and back again. </l>
                 <stage rendition="#i">[Exit <hi rendition="#sc">Mary Beaton</hi>.</stage>
                 <l n="847">Farewell, dear lords; ye have shown grace to me,</l>
                 <l n="848">And some time I will thank you as I may; </l>
-                <l n="849">Till when think well of me and what is done.<pb n="121"/></l>
-              </sp>
+                <l n="849">Till when think well of me and what is done.</l></sp><pb n="121"/>
             </div>
             <note>END OF THE FOURTH ACT.</note>
           </div>
@@ -4248,8 +4198,7 @@
                 <speaker rendition="#center #uc">Third Citizen</speaker>
                 <l n="10">Is it sooth men say</l>
                 <l n="11">Our dame was wont to kiss him on the face</l>
-                <l n="12">In lewd folk’s sight?<pb n="122"/></l>
-              </sp>
+                <l n="12">In lewd folk’s sight?</l></sp><pb n="122"/>
               <sp>
                 <speaker rendition="#center #uc">First Citizen</speaker>
                 <l n="13">Yea, saith one, all day long</l>
@@ -4282,8 +4231,7 @@
                 <l n="28">That if priest whore’s-friend with the lewd thief’s cheek</l>
                 <l n="29">Show his foul blinking face to shame all ours,</l>
                 <l n="30">It goes back fouler; well, one day hell’s fire</l>
-                <l n="31">Will burn him black indeed.<pb n="123"/></l>
-              </sp>
+                <l n="31">Will burn him black indeed.</l></sp><pb n="123"/>
               <sp>
                 <speaker rendition="#center #uc">A Woman</speaker>
                 <l n="32">What kind of man?</l>
@@ -4320,7 +4268,7 @@
               <sp>
                 <speaker rendition="#center #uc">Third Citizen</speaker>
                 <l n="53">Nay, stolen said you, sir?</l>
-                <l n="54">See, God bade eat abominable bread,<pb n="124"/></l>
+                <l n="54">See, God bade eat abominable bread,</l><pb n="124"/>
                 <l n="55">And freely was it eaten—for a sign</l>
                 <l n="56">This, for a sign—and doubtless as did God,</l>
                 <l n="57">So may the devil; bid one eat freely and live,</l>
@@ -4353,8 +4301,7 @@
                 <l n="72">Who preached a month since from Ezekiel</l>
                 <l n="73">Concerning these twain—this our queen that is</l>
                 <l n="74">And her that was, and is not now so much</l>
-                <l n="75">As queen over hell’s worm.<pb n="125"/></l>
-              </sp>
+                <l n="75">As queen over hell’s worm.</l></sp><pb n="125"/>
               <sp>
                 <speaker rendition="#center #uc">Third Citizen</speaker>
                 <l n="76">Ay, said he not,</l>
@@ -4390,8 +4337,7 @@
                 <speaker rendition="#center #uc">First Citizen</speaker>
                 <l n="98">Yea, but now forth again.— </l>
                 <l n="99">And of the latter said he—there being two,</l>
-                <l n="100">The first Aholah, which interpreted—<pb n="126"/></l>
-              </sp>
+                <l n="100">The first Aholah, which interpreted—</l></sp><pb n="126"/>
               <sp>
                 <speaker rendition="#center #uc">Third Citizen</speaker>
                 <l n="101">But, of this latter?</l>
@@ -4425,8 +4371,7 @@
               <sp>
                 <speaker rendition="#center #uc">Fourth Citizen</speaker>
                 <l n="125">See that stir— </l>
-                <l n="126">Are not they come?<pb n="127"/></l>
-              </sp>
+                <l n="126">Are not they come?</l></sp><pb n="127"/>
               <sp>
                 <speaker rendition="#center #uc">Third Citizen</speaker>
                 <l n="127">There wants an hour of them.</l>
@@ -4463,7 +4408,7 @@
                 <l n="12">Sweet sound, sweet smell and touch of things far out</l>
                 <l n="13">Sure to come soon. I wonder will death be</l>
                 <l n="14">Even all it seems now? or the talk of hell</l>
-                <l n="15">And wretched changes of the worn-out soul<pb n="128"/></l>
+                <l n="15">And wretched changes of the worn-out soul</l><pb n="128"/>
                 <l n="16">Nailed to decaying flesh, shall that be true?</l>
                 <l n="17">Or is this like the forethought of deep sleep</l>
                 <l n="18">Felt by a tired man? Sleep were good enough— </l>
@@ -4495,8 +4440,7 @@
                 <stage rendition="#i">Enter <hi rendition="#sc">Mary Beaton</hi>.</stage>
                 <l n="44">What, is my death’s time come,</l>
                 <l n="45">And you the friend to make death kind to me?</l>
-                <l n="46">’Tis sweetly done; for I was sick for this.<pb n="129"/></l>
-              </sp>
+                <l n="46">’Tis sweetly done; for I was sick for this.</l></sp><pb n="129"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="47">Nay, but see here; nay, for you shall not die:</l>
@@ -4529,8 +4473,7 @@
                 <l n="62">See what she writes; your love; for love of you; </l>
                 <l n="63">Out of her love; a word to save your life:</l>
                 <l n="64">But I knew this too though you love me not:</l>
-                <l n="65">She is your love; I knew that: yea, by heaven.<pb n="130"/></l>
-              </sp>
+                <l n="65">She is your love; I knew that: yea, by heaven.</l></sp><pb n="130"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="66">You knew I had to live and be reprieved:</l>
@@ -4566,14 +4509,14 @@
                 <l n="86">Nor God’s hard heart. I care not if you die.</l>
                 <l n="87">These bitter madmen are not fit to live.</l>
                 <l n="88">I will not have you touch me, speak to me,</l>
-                <l n="89">Nor take farewell of you. See you die well,<pb n="131"/></l>
+                <l n="89">Nor take farewell of you. See you die well,</l><pb n="131"/>
                 <l n="90">Or death will play with shame for you, and win,</l>
                 <l n="91">And laugh you out of life. I am right glad</l>
                 <l n="92">I never am to see you any more,</l>
                 <l n="93">For I should come to hate you easily; </l>
                 <l n="94">I would not have you live.</l>
               </sp>
-              <stage rendition="i">[Exit.</stage>
+              <stage rendition="#i">[Exit.</stage>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="95">She has cause enow.</l>
@@ -4601,7 +4544,7 @@
                 <l n="117">Seeing how I have to die. Now three years since</l>
                 <l n="118">This had not seemed so good an end for me;</l>
                 <l n="119">But in some wise all things wear round betimes</l>
-                <l n="120">And wind up well. Yet doubtless she might take<pb n="132"/></l>
+                <l n="120">And wind up well. Yet doubtless she might take</l><pb n="132"/>
                 <l n="121">A will to come my way and hold my hands</l>
                 <l n="122">And kiss me some three kisses, throat, mouth, eyes,</l>
                 <l n="123">And say some soft three words to soften death:</l>
@@ -4633,8 +4576,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
-                <l n="145">Here, madam, at your hand.<pb n="133"/></l>
-              </sp>
+                <l n="145">Here, madam, at your hand.</l></sp><pb n="133"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="146">Sweet lord, what sore pain have I had for you</l>
@@ -4668,8 +4610,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="164">O lost heart!</l>
-                <l n="165">Give me some mean to die by.<pb n="134"/></l>
-              </sp>
+                <l n="165">Give me some mean to die by.</l></sp><pb n="134"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="166">Sweet, enough.</l>
@@ -4705,8 +4646,7 @@
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="185">Sweet, your hands are kind; </l>
                 <l n="186">Lay them about my neck, upon my face,</l>
-                <l n="187">And tell me not of writing.<pb n="135"/></l>
-              </sp>
+                <l n="187">And tell me not of writing.</l></sp><pb n="135"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="188">Nay, by heaven,</l>
@@ -4745,8 +4685,7 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
-                <l n="209">Well?<pb n="136"/></l>
-              </sp>
+                <l n="209">Well?</l></sp><pb n="136"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="210">Nay, I would not be denied for shame; </l>
@@ -4781,8 +4720,7 @@
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="226">Chide me not:</l>
-                <l n="227">Pity me that I cannot help my heart.<pb n="137"/></l>
-              </sp>
+                <l n="227">Pity me that I cannot help my heart.</l></sp><pb n="137"/>
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="228">Heaven mend mine eyes that took you for a man!</l>
@@ -4819,7 +4757,7 @@
                 <l n="244">And hair my face has felt on it! grave eyes</l>
                 <l n="245">And low thick lids that keep since years agone</l>
                 <l n="246">In the blue sweet of each particular vein</l>
-                <l n="247">Some special print of me! I am right glad<pb n="138"/></l>
+                <l n="247">Some special print of me! I am right glad</l><pb n="138"/>
                 <l n="248">That I must never feel a bitterer thing</l>
                 <l n="249">Than your soft curled-up shoulder and amorous arms</l>
                 <l n="250">From this time forth; nothing can hap to me</l>
@@ -4853,7 +4791,7 @@
                 <l n="278">And curled its lithe light body right and left,</l>
                 <l n="279">And quivered like a woman in act to love.</l>
                 <l n="280">Then there was some low fluttered talk i’the lips,</l>
-                <l n="281">Faint sound of soft fierce words caressing them—<pb n="139"/></l>
+                <l n="281">Faint sound of soft fierce words caressing them—</l><pb n="139"/>
                 <l n="282">Like a fair woman’s when her love gets way.</l>
                 <l n="283">Ah, your old kiss—I know the ways of it:</l>
                 <l n="284">Let the lips cling a little. Take them off,</l>
@@ -4889,7 +4827,7 @@
                 <l n="301">I read that while your marriage-feast went on.</l>
                 <l n="302">Leave me this book, I pray you: I would read</l>
                 <l n="303">The hymn of death here over ere I die; </l>
-                <l n="304">I shall know soon how much he knew of death<pb n="140"/></l>
+                <l n="304">I shall know soon how much he knew of death</l><pb n="140"/>
                 <l n="305">When that was written. One thing I know now,</l>
                 <l n="306">I shall not die with half a heart at least,</l>
                 <l n="307">Nor shift my face, nor weep my fault alive,</l>
@@ -4922,7 +4860,7 @@
                 <l n="322">No need to name the thing.</l>
                 <l n="323">Why, what can death do with me fit to fear?</l>
                 <l n="324">For if I sleep I shall not weep awake; </l>
-                <l n="325">Or if their saying be true of things to come,<pb n="141"/></l>
+                <l n="325">Or if their saying be true of things to come,</l><pb n="141"/>
                 <l n="326">Though hell be sharp, in the worst ache of it</l>
                 <l n="327">I shall be eased so God will give me back</l>
                 <l n="328">Sometimes one golden gracious sight of you— </l>
@@ -4958,8 +4896,7 @@
               <sp>
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="351">It may be man will never love me more; </l>
-                <l n="352">For I am sure I shall not love man twice.<pb n="142"/></l>
-              </sp>
+                <l n="352">For I am sure I shall not love man twice.</l></sp><pb n="142"/>
               <sp>
                 <speaker rendition="#center #uc">Chastelard</speaker>
                 <l n="353">I know not: men must love you in life’s spite; </l>
@@ -4994,7 +4931,7 @@
                 <l n="376">Mere foolishness of pity: all sweet moods</l>
                 <l n="377">Throw out such little shadows of themselves,</l>
                 <l n="378">Leave such light fears behind. You, die like me?</l>
-                <l n="379">Stretch your throat out that I may kiss all round<pb n="143"/></l>
+                <l n="379">Stretch your throat out that I may kiss all round</l><pb n="143"/>
                 <l n="380">Where mine shall be cut through: suppose my mouth</l>
                 <l n="381">The axe-edge to bite so sweet a throat in twain</l>
                 <l n="382">With bitter iron, should not it turn soft</l>
@@ -5031,7 +4968,7 @@
                 <speaker rendition="#center #uc">Queen</speaker>
                 <l n="399">Can the hour be through so soon?</l>
                 <l n="400">I bade them give me but a little hour.</l>
-                <l n="401">Ah! I do love you! such brief space for love!<pb n="144"/></l>
+                <l n="401">Ah! I do love you! such brief space for love!</l><pb n="144"/>
                 <l n="402">I am yours all through, do all your will with me;</l>
                 <l n="403">What if we lay and let them take us fast,</l>
                 <l n="404">Lips grasping lips? I dare do anything.</l>
@@ -5064,7 +5001,7 @@
                 <l n="417">Like a dead thing; considering my dead fault</l>
                 <l n="418">Worth no remembrance further than my death.</l>
                 <l n="419">This for his gentle honour and goodwill</l>
-                <l n="420">I do beseech him, doubting not to find<pb n="145"/></l>
+                <l n="420">I do beseech him, doubting not to find</l><pb n="145"/>
                 <l n="421">Such kindliness if he be nobly made</l>
                 <l n="422">And of his birth a courteous race of man.</l>
                 <l n="423">You, my lord James, if you have aught toward me— </l>
@@ -5099,7 +5036,7 @@
                 <l n="443">If ever since I came between her eyes</l>
                 <l n="444">She hath beheld me other than I am</l>
                 <l n="445">Or shown her honour other than it is,</l>
-                <l n="446">Or, save in royal faultless courtesies,<pb n="146"/></l>
+                <l n="446">Or, save in royal faultless courtesies,</l><pb n="146"/>
                 <l n="447">Used me with favour; if by speech or face,</l>
                 <l n="448">By salutation or by tender eyes,</l>
                 <l n="449">She hath made a way for my desire to live,</l>
@@ -5135,8 +5072,7 @@
                 <l n="468">And watch how things fare under. Have good cheer; </l>
                 <l n="469">You do not think now I can let him die?</l>
                 <l n="470">Nay, this were shameful madness if you did,</l>
-                <l n="471">And I should hate you.<pb n="147"/></l>
-              </sp>
+                <l n="471">And I should hate you.</l></sp><pb n="147"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="472">Pray you love me, madam,</l>
@@ -5173,14 +5109,14 @@
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="2">Nay, but swarms of men</l>
-                <l n="3">And talking women gathered in small space,<pb n="148"/></l>
+                <l n="3">And talking women gathered in small space,</l><pb n="148"/>
                 <l n="4">Flapping their gowns and gaping with fools’ eyes:</l>
                 <l n="5">And a thin ring round one that seems to speak,</l>
                 <l n="6">Holding his hands out eagerly; no more.</l>
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
-                <l n="7">Why, I hear more, I hear men shout <hi rendition="#">The queen</hi>.</l>
+                <l n="7">Why, I hear more, I hear men shout <hi rendition="#i">The queen</hi>.</l>
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
@@ -5210,8 +5146,9 @@
                 <l n="22">That does not run to mercy as ours doth:</l>
                 <l n="23">That fair face and the cursed heart in her</l>
                 <l n="24">Made keener than a knife for manslaying</l>
-                <l n="25">Can bear strange things.<pb n="149"/></l>
+                <l n="25">Can bear strange things.</l>
               </sp>
+              <pb n="149"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
                 <l n="26">Peace, for the people come.</l>
@@ -5247,8 +5184,7 @@
                 <l n="44">The youth burnt out of it. A goodly man,</l>
                 <l n="45">Thewed mightily and sunburnt to the bone; </l>
                 <l n="46">Doubtless he was away in banishment,</l>
-                <l n="47">Or kept some march far off.<pb n="150"/></l>
-              </sp>
+                <l n="47">Or kept some march far off.</l></sp><pb n="150"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="48">Still you see nothing?</l>
@@ -5282,8 +5218,7 @@
                 <l n="67">I see the laughter tightening her chin:</l>
                 <l n="68">Why do you bend your body and draw breath?</l>
                 <l n="69">They will not slay him in her sight; I am sure</l>
-                <l n="70">She will not have him slain.<pb n="151"/></l>
-              </sp>
+                <l n="70">She will not have him slain.</l></sp><pb n="151"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="71">Forth, and fear not:</l>
@@ -5318,8 +5253,7 @@
                 <l n="91">And hardly moves her head this way—I see</l>
                 <l n="92">Her chin and lifted lips. Now she stands up,</l>
                 <l n="93">Puts out her hand, and they fall muttering; </l>
-                <l n="94">Ah!<pb n="152"/></l>
-              </sp>
+                <l n="94">Ah!</l></sp><pb n="152"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="95">It is done now?</l>
@@ -5356,8 +5290,8 @@
               </sp>
               <sp>
                 <speaker rendition="#center #uc">Mary Carmichael</speaker>
-                <l n="114">For God’s love, let me go.<pb n="153"/></l>
-              </sp>
+                <l n="114">For God’s love, let me go.</l>
+              </sp><pb n="153"/>
               <sp>
                 <speaker rendition="#center #uc">Mary Beaton</speaker>
                 <l n="115">I think sometimes she must have held it so,</l>
