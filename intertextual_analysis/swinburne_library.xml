@@ -1284,7 +1284,7 @@
                                     <author>Baudelaire, C.</author>
                                     <note type="description" anchored="true">half calf</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1860" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1296,6 +1296,7 @@
                                     <author>Assenlineau, C.</author>
                                     <note type="description" anchored="true">portraits, etc. calf gilt, m. e. ib.</note>
                                     <imprint>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1869" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1354,6 +1355,7 @@
                                     <author>Vacquerie, Aug.</author>
                                     <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1894" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1366,6 +1368,7 @@
                                     <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
                                     <note type="etc" anchored="true"><num value="24"/></note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1906" instant="false"/>
                                     </imprint>
                                 </monogr>
