@@ -1493,8 +1493,9 @@
                             <biblStruct xml:id="sb051.2" default="false" status="draft">
                                 <monogr>
                                     <title xml:lang="la">Terentii De Lingua Latina</title>
-                                    <note type="description" anchored="true">vellum, Romae</note>
+                                    <note type="description" anchored="true">vellum</note>
                                     <imprint>
+                                        <pubPlace>Romae</pubPlace>
                                         <date when="1557" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1503,9 +1504,10 @@
                             <biblStruct xml:id="sb051.3" default="false" status="draft">
                                 <monogr>
                                     <title xml:lang="la">Suetonius Tranquillus cum Commentariis exhibente J. Schildis</title>
-                                    <note type="description" anchored="true">engraved title, old red morocco, g. e. Lugd. Bat.</note>
+                                    <note type="description" anchored="true">engraved title, old red morocco, g. e.</note>
                                     <note type="etc" anchored="true"><num value="3"/></note>
                                     <imprint>
+                                        <pubPlace>Lugd. Bat.</pubPlace>
                                         <date when="1651" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1533,7 +1535,7 @@
                                 <monogr>
                                     <title>Miseries of Human Life</title>
                                     <author>Beresford, Jas.</author>
-                                    <note type="description" anchored="true">coloured frontispiece and folding polate, russia, g. e. binding of vol. I injured</note>
+                                    <note type="description" anchored="true">coloured frontispiece and folding plate, russia, g. e. binding of vol. I injured</note>
                                     <imprint>
                                         <date from="1806" to="1807" instant="false"/>
                                     </imprint>
@@ -1561,9 +1563,9 @@
                         <listBibl type="lot" xml:id="sb055" default="false">
                             <biblStruct xml:id="sb055.1" default="false" status="draft">
                                 <monogr>
-                                    <title>Bertrand: or Memoirs of a Northumbrian Gentleman in the Seventeenth Cenutry, written by himself</title>
+                                    <title>Bertrand: or Memoirs of a Northumbrian Gentleman in the Seventeenth Century, written by himself</title>
                                     <author>Bertrand</author>
-                                    <note type="description" corresp="#presentation" anchored="true">3 vol. half calf, presentation copy with insctiption</note>
+                                    <note type="description" corresp="#presentation" anchored="true">3 vol. half calf, presentation copy with inscription</note>
                                     <note type="inscription" anchored="true">M. A. M. Skene, the gift of the Author</note>
                                     <note anchored="true">A MS. note states that the corrections were made by the author after publication.</note>
                                     <edition>First Edition</edition>
@@ -1668,7 +1670,7 @@
                                     </imprint>
                                 </monogr>
                                 <tei:relatedItem xmlns:tei="http://www.tei-c.org/ns/1.0" type="ht" target="https://hdl.handle.net/2027/pst.000006525774"/>
-                                <note type="fulltext" anchored="true">Sales catolog incorrectly lists author as "Rowland, T." when author is "Rowland, S." HT copy dated 1609, though a note in the metadata says that it's an 1818 reprint; EEBO has other versions.</note>
+                                <note type="fulltext" anchored="true">Sales catolog incorrectly lists author as "Rowland, T." when author is "Rowlands, S." HT copy dated 1609, though a note in the metadata says that it's an 1818 reprint; EEBO has other versions.</note>
                             </biblStruct>
                             <biblStruct xml:id="sb057.4" default="false" status="draft">
                                 <monogr>
@@ -1729,7 +1731,7 @@
                                 <monogr>
                                     <title>Last Days of Percy Bysshe Shelley, new details from unpublished Documents</title>
                                     <author>Biagi, G.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">portaits and illustrations, uncut</note>
+                                    <note type="description" corresp="#uncut" anchored="true">portraits and illustrations, uncut</note>
                                     <imprint>
                                         <date when="1898" instant="false"/>
                                     </imprint>
@@ -1873,7 +1875,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb063.2" default="false" status="draft">
                                 <monogr>
-                                    <title>IN the Roar of the Sea</title>
+                                    <title>In the Roar of the Sea</title>
                                     <author>Baring-Gould, S.</author>
                                     <imprint>
                                         <date when="1892" instant="false"/>
@@ -1945,8 +1947,8 @@
                                         <resp>edited by</resp>
                                         <name full="yes" instant="false">W. M. Rossetti</name>
                                     </respStmt>
-                                    <note type="description" corresp="#presentation" anchored="true">portrait, green cloth, presentation copy wuth autograph inscription</note>
-                                    <note type="inscription" anchored="true">To Algernon Chalrs Swinburne with gratitude for Blake's sake and my own, W. M. Rossetti, <date when="1874-10" instant="false">October 1874</date></note>
+                                    <note type="description" corresp="#presentation" anchored="true">portrait, green cloth, presentation copy with autograph inscription</note>
+                                    <note type="inscription" anchored="true">To Algernon Charles Swinburne with gratitude for Blake's sake and my own, W. M. Rossetti, <date when="1874-10" instant="false">October 1874</date></note>
                                     <imprint>
                                         <date when="1874" instant="false"/>
                                     </imprint>
@@ -2027,7 +2029,7 @@
                                         <resp>annotated by</resp>
                                         <name full="yes" instant="false">J. Ellis</name>
                                     </respStmt>
-                                    <note type="description" corresp="#uncut" anchored="true">2 vol. protrait, half bound, uncut</note>
+                                    <note type="description" corresp="#uncut" anchored="true">2 vol. portrait, half bound, uncut</note>
                                     <imprint>
                                         <date when="1906" instant="false"/>
                                     </imprint>
@@ -2175,7 +2177,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut" anchored="true">3 vol. unbound and uncut</note>
                                     <imprint>
-                                        <publisher>Villion Society</publisher>
+                                        <publisher>Villon Society</publisher>
                                         <pubPlace>privately printed</pubPlace>
                                         <date when="1886" instant="false"/>
                                     </imprint>
@@ -2273,7 +2275,7 @@
                                         <resp>edited by</resp>
                                         <name full="yes" instant="false">Alex Napier</name>
                                     </respStmt>
-                                    <note type="description" corresp="#uncut" anchored="true">numerous portraits, illustrations, fascimilies, etc. uncut</note>
+                                    <note type="description" corresp="#uncut" anchored="true">numerous portraits, illustrations, facsimilies, etc. uncut</note>
                                     <imprint>
                                         <date when="1884" instant="false"/>
                                     </imprint>
@@ -2465,7 +2467,7 @@
                                         <name full="yes" instant="false">Edward Arber</name>
                                     </respStmt>
                                     <note type="description" corresp="#presentation" anchored="true">vol. I-IX (wanting vol. V), presentation copy, with inscription</note>
-                                    <note type="inscription" anchored="true">Algernon Swinburne, Esq. with the ind regards of Professor E. Arber, <date when="1901-05-20" instant="false">20 May, 1901</date></note>
+                                    <note type="inscription" anchored="true">Algernon Swinburne, Esq. with the kind regards of Professor E. Arber, <date when="1901-05-20" instant="false">20 May, 1901</date></note>
                                     <imprint>
                                         <date when="1901" instant="false"/>
                                     </imprint>
@@ -2536,7 +2538,7 @@
                                 <monogr>
                                     <title>Life of Charlotte Brontë</title>
                                     <author>Gaskell, E. C.</author>
-                                    <note type="description" anchored="true">protrait, original cloth</note>
+                                    <note type="description" anchored="true">portrait, original cloth</note>
                                     <edition>First Edition</edition>
                                     <imprint>
                                         <date when="1857" instant="false"/>
@@ -3082,7 +3084,7 @@
                                 <monogr>
                                     <title>Letters to and from Elizabeth Barrett Browning</title>
                                     <author>Browning, R.</author>
-                                    <note type="description" anchored="true">2 vol. portraits and fascimilies</note>
+                                    <note type="description" anchored="true">2 vol. portraits and facsimilies</note>
                                     <edition/>
                                     <imprint>
                                         <date when="1899" instant="false"/>
@@ -3126,8 +3128,9 @@
                                 <monogr>
                                     <title xml:lang="">Opere, publicate da A. Wagner</title>
                                     <author>Bruno, G.</author>
-                                    <note type="description" anchored="true">2 vol. portrait, tree-calf gilt, m. e. Lips.</note>
+                                    <note type="description" anchored="true">2 vol. portrait, tree-calf gilt, m. e.</note>
                                     <imprint>
+                                        <pubPlace>Lips.</pubPlace>
                                         <date when="1830" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -3138,7 +3141,7 @@
                             <biblStruct xml:id="sb113.2" default="false" status="draft">
                                 <monogr>
                                     <title>Fragoletta, Naples et Paris en 1799</title>
-                                    <note type="description" anchored="true">2 vol. in 1, half calf, m. e. Paris</note>
+                                    <note type="description" anchored="true">2 vol. in 1, half calf, m. e.</note>
                                     <note type="etc" anchored="true"><num value="9"/></note>
                                     <edition/>
                                     <imprint>
@@ -3176,7 +3179,7 @@
                                 <monogr>
                                     <title>Whole Works, with Preface, Notes and Life by George Offor</title>
                                     <author>Bunyan, John</author>
-                                    <note type="description" anchored="true">3 vol. portait and engravings, half morocco s. e.; imp. 8vo.</note>
+                                    <note type="description" anchored="true">3 vol. portrait and engravings, half morocco s. e.; imp. 8vo.</note>
                                     <imprint>
                                         <date instant="false">n. d.</date>
                                     </imprint>
@@ -3339,7 +3342,7 @@
                                 <monogr>
                                     <title>Poetical Works</title>
                                     <author>Goldsmith, O.</author>
-                                    <note type="description" anchored="true">portait, morocco, g. e.</note>
+                                    <note type="description" anchored="true">portrait, morocco, g. e.</note>
                                     <note type="etc" anchored="true"><num value="5"/></note>
                                     <edition>Aldine Edition</edition>
                                     <imprint>
@@ -3572,8 +3575,9 @@
                                 <monogr>
                                     <title>Poetical Works, English and Latin</title>
                                     <author>Gray, T.</author>
-                                    <note type="description" anchored="true">frontspiece and plates, morocco gilt, g. e. Eton</note>
+                                    <note type="description" anchored="true">frontspiece and plates, morocco gilt, g. e.</note>
                                     <imprint>
+                                        <pubPlace>Eton</pubPlace>
                                         <date when="1853" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -3583,7 +3587,7 @@
                                 <monogr>
                                     <title>Poetical Works, with Memoir by W. B. Scott</title>
                                     <author>Byron, Lord</author>
-                                    <note type="description" anchored="true">portait, half morocco gilt</note>
+                                    <note type="description" anchored="true">portrait, half morocco gilt</note>
                                     <note type="etc" anchored="true"><num value="5"/></note>
                                     <imprint>
                                         <date instant="false">n. d.</date>
