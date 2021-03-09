@@ -94,6 +94,33 @@
                     <p>Vivamus vulputate, magna quis tempor efficitur, ex orci semper augue, suscipit sagittis odio justo non velit. Aliquam luctus nibh in neque malesuada, nec pretium lacus facilisis. Donec at finibus neque. Cras lorem diam, pellentesque in justo quis, mollis auctor orci. Pellentesque magna dui, elementum sit amet justo eget, mattis pretium tortor. Sed eget massa sed sapien semper volutpat in ac nunc. Sed in libero sollicitudin, venenatis massa commodo, eleifend libero. Proin justo lacus, eleifend quis tincidunt eu, iaculis et metus. Donec consectetur tellus et leo rutrum suscipit. Aliquam arcu elit, mollis sit amet viverra sit amet, imperdiet at est. Phasellus dapibus lectus nec gravida consectetur. Donec sed molestie mi. Nulla dignissim nisi erat, non congue justo dapibus a. Cras vitae justo massa. Donec et placerat lorem, nec facilisis dui. Phasellus vestibulum justo eget tincidunt semper.</p>
                     <!-- end slipsum code -->
                 </div>
+                <div>
+                    <head>Glossary</head>
+                    <list type="gloss">
+                        <head>Rare book terminology</head>
+                        <label>uc</label>
+                        <item>uncut pages</item>
+                    </list>
+                    <list type="gloss">
+                        <head>Place names</head>
+                        <label></label>
+                        <item></item>
+                    </list>
+                </div>
+                <div n="places">
+                    <head>Place names</head>
+                    <listPlace>
+                            <place source="link-to-getty" xml:id="lyon">
+                                <placeName type="preferred">Lyon</placeName>
+                                <placeName>Lugdunum</placeName>
+                                <placeName></placeName>
+                            </place>
+                            <place xml:id="paris" source="link-to-getty">
+                                <placeName type="preferred">Paris</placeName>
+                                <placeName>Parigi</placeName>
+                            </place>
+                    </listPlace>
+                </div>
                 <div n="authors">
                     <listPerson>
                         <head>Authors, Editors, etc.</head>
@@ -496,7 +523,7 @@
                                 <author>Aretino, Pietro</author>
                                 <note type="description" anchored="true">vellum</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Parigi</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
                                     <date when="1609" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
