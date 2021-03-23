@@ -229,6 +229,12 @@
                     <pb n="v"/>
                     <div>
                             <head rendition="#center #large">List of Authorities</head>
+                        <!-- convert to ordered list -->
+                        <!--
+                        <list>
+                            <item><bibl><title rendition="#sc">Life of William Blake.</title> By <persName>Alexander Gilchrist.</persName> <date>1863</date>.</bibl></item>
+                        </list>
+                        -->
                             <table>
                                 <row>
                                     <cell role="listNumber">1.</cell>
