@@ -379,7 +379,7 @@
                                 <note xml:lang="it" anchored="true">riveduta dall'autore e accresciuta</note>
                                 <edition xml:lang="it">seconda edizione</edition>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Parigi</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
                                     <date from="1788" to="1789" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
@@ -627,7 +627,7 @@
                                 <author>Ariosto, Lodovico</author>
                                 <note type="description" anchored="true">portrait on title, old red levant morocco, inside gilt borders, g.e.</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Vinegia</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
                                     <publisher>Delande Pere</publisher>
                                     <date when="1535" instant="false"/>   
                                 </imprint>             
@@ -642,7 +642,7 @@
                                 <author>Ariosto, Lodovico</author>
                                 <note type="description" anchored="true">woodcut portrait on title and woodcuts at end, old red morocco, gilt borders, inside gilt borders, g.e.</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Vinegia</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
                                     <publisher>F. Bindoni and M. Pasini</publisher>
                                     <date when="1537" instant="false"/>
                                 </imprint>
@@ -1601,8 +1601,10 @@
                                 <monogr>
                                     <title>Gli Asolani</title>
                                     <author>Bembo, P.</author>
-                                    <note type="description" xml:lang="it" anchored="true">in Vinegia nelle Case d'Aldo Romano</note>
+                                    <note type="description" anchored="true">old binding</note>
                                     <imprint>
+                                        <publisher xml:lang="it">nelle Case d'Aldo Romano</publisher>
+                                        <pubPlace xml:lang="it" ref="#venice">in Vinegia</pubPlace>
                                         <date when="1515" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -8431,7 +8433,7 @@
                                  <edition/>
                                  <imprint>
                                      
-                                     <pubPlace>in Vinegia</pubPlace>
+                                     <pubPlace ref="#venice">in Vinegia</pubPlace>
                                      <date when="1548" instant="false"/>
                                  </imprint>
                              </monogr>
