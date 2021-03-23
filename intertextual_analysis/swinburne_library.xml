@@ -148,28 +148,65 @@
                         <item>A book given as a gift by the author</item>
                         <label>roan</label>
                         <item>Thin skeepskin used as a cheaper alternative to morocco</item>
-                        
-                         
-                        
-                    </list>
-                    <list type="gloss">
-                        <head>Place names</head>
-                        <label></label>
-                        <item></item>
+                        <label>rules</label>
+                        <item>Lines marking the borders or margins of a page </item>
+                        <label>russia</label>
+                        <item>Cowhide leather that has been treated with birch oil, giving it a characteristic look and smell</item>
+                        <label>tooling</label>
+                        <item>Decorative impressions made by hand with metal tools</item>
+                        <label>tree-calf</label>
+                        <item>A calf hide binding that has been stained with a pattern that resembles wood grain</item>
+                        <label>uncut</label>
+                        <item>Edges of a book that have not been trimmed or cut down</item>
+                        <label>vellum</label>
+                        <item>Untanned calfskin which has been scraped, stretched, and dried; can be used in bookbinding or as a writing support</item>
+                        <label>wanting</label>
+                        <item>missing, not included</item>
+                        <label>woodcut</label>
+                        <item>A printed illustration made from a carved wood block</item>
+                        <label>worming</label>
+                        <item>Holes made by book-worms in the paper, boards, and/or leather binding of a book</item>
                     </list>
                 </div>
                 <div n="places">
                     <head>Place names</head>
                     <listPlace>
-                            <place source="link-to-getty" xml:id="lyon">
-                                <placeName type="preferred">Lyon</placeName>
-                                <placeName>Lugdunum</placeName>
-                                <placeName></placeName>
-                            </place>
-                            <place xml:id="paris" source="link-to-getty">
-                                <placeName type="preferred">Paris</placeName>
-                                <placeName>Parigi</placeName>
-                            </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7008038" xml:id="paris">
+                            <placeName type="preferred">Paris</placeName>
+                            <placeName>Parigi</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7018159" xml:id="venice">
+                            <placeName type="preferred">Venice</placeName>
+                            <placeName>Vinegia</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7000457" xml:id="florence">
+                            <placeName type="preferred">Florence</placeName>
+                            <placeName>Firenze</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
+                            <placeName type="preferred">Vārānasi</placeName>
+                            <placeName>Benares</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7006810" xml:id="hague">
+                            <placeName type="preferred">Hague, The</placeName>
+                            <placeName>La Haye</placeName>
+                        </place>  
+                        <place source="http://vocab.getty.edu/page/tgn/7006809" xml:id="leiden">
+                            <placeName type="preferred">Leiden</placeName>
+                            <placeName>Lugdunum Batavorum</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7012329" xml:id="leipzig">           
+                            <placeName type="preferred">Leipzig</placeName>
+                            <placeName>Lipsia</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7007269" xml:id="basel">
+                            <placeName type="preferred">Basel</placeName>
+                            <placeName>Basil</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7007868" xml:id="brussels">
+                            <placeName type="preferred">Brussels</placeName>
+                            <placeName>Bruxelles</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -2205,7 +2242,7 @@
                                     <author>Boccaccio, Giov.</author>
                                     <note type="description" anchored="true">old olive morocco gilt, gilt floreate borders, g. e. (Padeloup)</note>
                                     <imprint>
-                                        <pubPlace>Amst.</pubPlace>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1665" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -2306,7 +2343,7 @@
                                     <note type="description" anchored="true">old calf</note>
                                     <edition>First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Amst.</pubPlace>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1701" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -2762,7 +2799,7 @@
                                     <title>John Leech, and other Papers</title>
                                     <author>Brown, John</author>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1882" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -3211,7 +3248,7 @@
                                     <author>Bruno, G.</author>
                                     <note type="description" anchored="true">2 vol. portrait, tree-calf gilt, m. e.</note>
                                     <imprint>
-                                        <pubPlace>Lips.</pubPlace>
+                                        <pubPlace>Lipsia</pubPlace>
                                         <date when="1830" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -4263,7 +4300,7 @@
                                     <author>Choderlos</author>
                                     <note type="description" anchored="true">4 parts, old calf gilt, m. e.</note>
                                     <imprint>
-                                        <pubPlace>Amst.</pubPlace>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1782" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -5479,7 +5516,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date from="1873" to="1879" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="14"/></extent>
@@ -5576,7 +5613,7 @@
                                     <author>Dryden, John</author>
                                     <note type="description" anchored="true">portrait</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date from="1882" to="1893" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="18"/></extent>
@@ -6793,7 +6830,7 @@
                                     <author>Abbotsford Club</author>
                                     <note type="description" anchored="true">frontispiece, morocco, g. e. arms on the sides</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1838" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7154,7 +7191,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut" anchored="true">portrait and woodcuts, uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1874" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -7350,7 +7387,7 @@
                                     <author>Clark, Wm.</author>
                                     <note type="description" anchored="true">half morocco</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1663" instant="false">rep.</date>
                                     </imprint>
                                 </monogr>
@@ -7376,7 +7413,7 @@
                                     <author>Clifford, Arthur</author>
                                     <note type="description" anchored="true">frontispiece, calf, g. e.</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1813" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -11013,7 +11050,7 @@
                                  </respStmt>
                                  <note type="description" anchored="true">portraits</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date from="1846" to="1864" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="6"/></extent>
@@ -11281,7 +11318,7 @@
                                  <title>Hellenics, comprising Heroic Idylls, etc.</title>
                                  <author>Landor, W. S.</author>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1859" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11381,7 +11418,7 @@
                                  <note type="description" anchored="true">original cloth</note>
                                  <edition>First Edition</edition>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1858" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11883,7 +11920,7 @@
                                  <author>Lockhart, J. G.</author>
                                  <note type="description" anchored="true">frontispiece, half morocco, uncut, m.e. in case</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1882" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="10"/></extent>
@@ -12317,7 +12354,7 @@
                                  <note type="description" anchored="true">portrait and illustrations</note>
                                  <note type="etc" anchored="true"><num value="9"/></note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1881" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12715,7 +12752,7 @@
                                  <note type="description" anchored="true">half calf, Swinburne's copy, with autograph signature</note>
                                  <note type="inscription" anchored="true">Algernon C. Swinburne, <date when="1850-01-30" instant="false">Janry. 30th, 1850</date></note>
                                  <imprint>
-                                     <pubPlace>Lips.</pubPlace>
+                                     <pubPlace>Lipsia</pubPlace>
                                      <date when="1829" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13042,7 +13079,7 @@
                                  <title>Metrical Romances, published from Ancient Manuscripts, with notes, etc. by Henry Weber</title>
                                  <note type="description" anchored="true">half bound</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1810" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="3"/></extent>
@@ -13239,7 +13276,7 @@
                                  <author>Milton, John</author>
                                  <note type="description" anchored="true">brown morocco extra, tooled sides, g.e. by Wright</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1853" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -14884,7 +14921,7 @@
                                  </respStmt>
                                  <note type="description" anchored="true">one of 75 copies, half roan</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1822" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -14934,7 +14971,7 @@
                                  <title>Novels of Sir Walter Scott</title>
                                  <note type="description" anchored="true">portrait and illustrations by G. Cruikshank, etc.</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1871" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15941,7 +15978,7 @@
                                 <note type="description" corresp="#presentation" anchored="true">portrait, blue cloth, presentation copy to Swinburne, with inscription</note>
                                 <note type="inscription" anchored="true">To A. C. Swinburne, with the Editor's best wishes</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1874" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
@@ -16725,7 +16762,7 @@
                                 <author>Ritson, J.</author>
                                 <note type="description" corresp="#uncut" anchored="true">one of 400 copies, uncut</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -17073,7 +17110,7 @@
                                 <author>Scott, Sir W.</author>
                                 <note type="description" anchored="true">portrait</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1894" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -17394,7 +17431,7 @@
                                 <author>Scott, Sir Walter</author>
                                 <note type="description" anchored="true">half russia</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1821" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
@@ -17427,7 +17464,7 @@
                                 <note type="inscription" anchored="true">Algernon Charles Swinburne, Eton. <date instant="false">Dec. 5, 1853</date>, with the kind love and goos wishes of his friend Edward Coleridge</note>
                                 <note type="etc" anchored="true"><num value="10"/></note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1853" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -17441,7 +17478,7 @@
                                 <author>Scott, Sir W.</author>
                                 <note type="description" anchored="true">frontispiece, etc. after J. M. W. Turner, etc. polished calf gilt, m. e.</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1833" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="12"/></extent>
@@ -20643,7 +20680,7 @@
                                 <note type="description" anchored="true">portraits</note>
                                 <note type="etc" anchored="true"><num value="8"/></note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1890" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -20972,7 +21009,7 @@
                                 <title>The Visions of Tundale, together with Metrical Moralizations and other Fragments of Early Poetry, hitherto inedited</title>
                                 <note type="description" anchored="true">large paper, only 24 copies printed</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1843" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -21060,7 +21097,7 @@
                                 <author>Voltaire, M. de</author>
                                 <note type="description" anchored="true">in 1 vol. old calf, broken</note>
                                 <imprint>
-                                    <pubPlace>Amst.</pubPlace>
+                                    <pubPlace>Amsterdam</pubPlace>
                                     <date when="1733" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22021,7 +22058,7 @@
                                 <author>Ritson, Joseph</author>
                                 <note type="description" anchored="true">large paper, only 75 copies printed, green morocco gilt, t.e.g.</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date from="1884" to="1885" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22195,7 +22232,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">one of 104 copies, half morocco, uncut</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1884" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22676,7 +22713,7 @@
                                 </respStmt>
                                 <note type="description" anchored="true">one of 100 copies</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1815" instant="false"/>
                                 </imprint>
                             </monogr>
