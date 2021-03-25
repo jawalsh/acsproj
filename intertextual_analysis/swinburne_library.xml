@@ -97,28 +97,121 @@
                 <div>
                     <head>Glossary</head>
                     <list type="gloss">
-                        <head>Rare book terminology</head>
-                        <label>uc</label>
-                        <item>uncut pages</item>
-                    </list>
-                    <list type="gloss">
-                        <head>Place names</head>
-                        <label></label>
-                        <item></item>
+                        <head>Rare Book Terminology</head>
+                        <label>Aldine</label>
+                        <item>Venetian printer Aldus Manutius became famous for publishing a series of pocket editions of the Greek and Latin classics. Aldus Manutius's dolphin and anchor printing device was later used by William Pickering for his "Aldine Classics" series of English literature.</item>
+                        <label>boards</label>
+                        <item>The hard covers of a book. Both the boards themselves and their covering can be made from a variety of materials. "Original boards" refers to those boards in which a book was first bound for distribution; they are highly prized by some collectors.</item>
+                        <label>broken</label>
+                        <item>A binding that has been forced or strained, causing the book to lose its shape, or a binding that has broken completely into pieces.</item>
+                        <label>buckram</label>
+                        <item>A durable bookbinding cloth, consisting of woven linen or cotton threads coated or filled with stablizing materials.</item>
+                        <label>calf</label>
+                        <item>Leather made from calf hide, used in bookbinding.</item>
+                        <label>cancelled</label>
+                        <item>Removed from a book, usually due to a printing error. The original leaf is called the "cancelland", while the replacement leaf is called the "cancel".</item>
+                        <label>édition de luxe</label>
+                        <item>A book meant to be admired for its luxurious qualities, such as being printed on special paper.</item>
+                        <label>ex libris</label>
+                        <item>Literally "from the library of"; a bookplate</item>
+                        <label>extra</label>
+                        <item>Elegantly bound, usually with gilt edges and decorations.</item>
+                        <label>facsimile</label>
+                        <item>A copy of a leaf or a book, meant to imitate the original as closely as possible.</item>
+                        <label>first edition</label>
+                        <item>The first appearance of a work in print</item>
+                        <label>fly-leaf</label>
+                        <item>The endpaper, usually blank, that is not glued to the inside front cover of a book</item>
+                        <label>frontispiece</label>
+                        <item>An illustration that faces the title page of a book</item>
+                        <label>gauffered</label>
+                        <item>Gilt and decorated with impressed designs</item>
+                        <label>gilt</label>
+                        <item>Cut smooth and covered in a thin layer of gold</item>
+                        <label>half</label>
+                        <item>A binding in which the spine and outer corners are made of leather or vellum, while the rest of the binding is made out of paper or cloth</item>
+                        <label>headline</label>
+                        <item>A line of type at the top of a page, above the main text</item>
+                        <label>joint</label>
+                        <item>The area on the exterior of a book where the spine meets the covers </item>
+                        <label>levant morocco</label>
+                        <item>An elegant, highly polished morocco leather used in bookbinding</item>
+                        <label>loose</label>
+                        <item>A book that has been damaged/used to the point where the pages are not securely fastened to the binding</item>
+                        <label>morocco</label>
+                        <item>Leather made from goatskin, often dyed bright colors</item>
+                        <label>octavo/8vo</label>
+                        <item>A book format made from sheets of paper that have been folded three times</item>
+                        <label>plates</label>
+                        <item>Full-page illustrations, printed separately from the text</item>
+                        <label>presentation copy</label>
+                        <item>A book given as a gift by the author</item>
+                        <label>roan</label>
+                        <item>Thin skeepskin used as a cheaper alternative to morocco</item>
+                        <label>rules</label>
+                        <item>Lines marking the borders or margins of a page </item>
+                        <label>russia</label>
+                        <item>Cowhide leather that has been treated with birch oil, giving it a characteristic look and smell</item>
+                        <label>tooling</label>
+                        <item>Decorative impressions made by hand with metal tools</item>
+                        <label>tree-calf</label>
+                        <item>A calf hide binding that has been stained with a pattern that resembles wood grain</item>
+                        <label>uncut</label>
+                        <item>Edges of a book that have not been trimmed or cut down</item>
+                        <label>vellum</label>
+                        <item>Untanned calfskin which has been scraped, stretched, and dried; can be used in bookbinding or as a writing support</item>
+                        <label>wanting</label>
+                        <item>missing, not included</item>
+                        <label>woodcut</label>
+                        <item>A printed illustration made from a carved wood block</item>
+                        <label>worming</label>
+                        <item>Holes made by book-worms in the paper, boards, and/or leather binding of a book</item>
                     </list>
                 </div>
                 <div n="places">
                     <head>Place names</head>
                     <listPlace>
-                            <place source="link-to-getty" xml:id="lyon">
-                                <placeName type="preferred">Lyon</placeName>
-                                <placeName>Lugdunum</placeName>
-                                <placeName></placeName>
-                            </place>
-                            <place xml:id="paris" source="link-to-getty">
-                                <placeName type="preferred">Paris</placeName>
-                                <placeName>Parigi</placeName>
-                            </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7008038" xml:id="paris">
+                            <placeName type="preferred">Paris</placeName>
+                            <placeName>Parigi</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7018159" xml:id="venice">
+                            <placeName type="preferred">Venice</placeName>
+                            <placeName>Vinegia</placeName>
+                            <placeName>Venetia</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7000457" xml:id="florence">
+                            <placeName type="preferred">Florence</placeName>
+                            <placeName>Firenze</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
+                            <placeName type="preferred">Vārānasi</placeName>
+                            <placeName>Benares</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7006810" xml:id="hague">
+                            <placeName type="preferred">Hague, The</placeName>
+                            <placeName>La Haye</placeName>
+                        </place>  
+                        <place source="http://vocab.getty.edu/page/tgn/7006809" xml:id="leiden">
+                            <placeName type="preferred">Leiden</placeName>
+                            <placeName>Lugdunum Batavorum</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7012329" xml:id="leipzig">           
+                            <placeName type="preferred">Leipzig</placeName>
+                            <placeName>Lipsia</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7007269" xml:id="basel">
+                            <placeName type="preferred">Basel</placeName>
+                            <placeName>Basil</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7007868" xml:id="brussels">
+                            <placeName type="preferred">Brussels</placeName>
+                            <placeName>Bruxelles</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7003321" xml:id="vienna">
+                            <placeName type="preferred">Vienna</placeName>
+                            <placeName>Wien</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -291,7 +384,7 @@
                                 <note xml:lang="it" anchored="true">riveduta dall'autore e accresciuta</note>
                                 <edition xml:lang="it">seconda edizione</edition>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Parigi</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
                                     <date from="1788" to="1789" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
@@ -433,7 +526,7 @@
                                 </respStmt>
                                 <note type="description" anchored="true">black cloth, roy. 8vo.</note>
                                 <imprint>
-                                    <pubPlace>Benares</pubPlace>
+                                    <pubPlace ref="#varanasi">Benares</pubPlace>
                                     <publisher>Kamashastra Society</publisher>
                                     <date when="1885" instant="false"/>
                                 </imprint>
@@ -539,7 +632,7 @@
                                 <author>Ariosto, Lodovico</author>
                                 <note type="description" anchored="true">portrait on title, old red levant morocco, inside gilt borders, g.e.</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Vinegia</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
                                     <publisher>Delande Pere</publisher>
                                     <date when="1535" instant="false"/>   
                                 </imprint>             
@@ -554,7 +647,7 @@
                                 <author>Ariosto, Lodovico</author>
                                 <note type="description" anchored="true">woodcut portrait on title and woodcuts at end, old red morocco, gilt borders, inside gilt borders, g.e.</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Vinegia</pubPlace>
+                                    <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
                                     <publisher>F. Bindoni and M. Pasini</publisher>
                                     <date when="1537" instant="false"/>
                                 </imprint>
@@ -569,7 +662,7 @@
                                 <author>Ariosto, Lodovico.</author>
                                 <note type="description" anchored="true">portrait, half vellum</note>
                                 <imprint>
-                                    <pubPlace xml:lang="it">Firenze</pubPlace> <!-- use getty place names -->
+                                    <pubPlace xml:lang="it" ref="#florence">Firenze</pubPlace>
                                     <date instant="false">1823</date>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="8"/></extent>
@@ -1107,9 +1200,10 @@
                             <monogr>
                                 <title xml:lang="fr">La Cousine Bette</title>
                                 <author>Balzac, M. de</author>
-                                <note type="description" anchored="true">half morocco, La Haye</note>
+                                <note type="description" anchored="true">half morocco</note>
                                 <note type="etc" anchored="true">and others by the same author<num value="42"/></note>
                                 <imprint>
+                                    <pubPlace ref="#hague">La Haye</pubPlace>
                                     <date when="1847" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
@@ -1252,9 +1346,10 @@
                                 <monogr>
                                     <title xml:lang="fr">Idée sur les Romans publiée avec Notes, etc. par O. Uzanne</title>
                                     <author>De Sade, A. F.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
+                                    <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <note type="etc" anchored="true"><num value="9"/></note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1878" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1294,7 +1389,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Baudelaire, sa Vie et son Oeuvre</title>
                                     <author>Assenlineau, C.</author>
-                                    <note type="description" anchored="true">portraits, etc. calf gilt, m. e. ib.</note>
+                                    <note type="description" anchored="true">portraits, etc. calf gilt, m. e.</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1869" instant="false"/>
@@ -1305,9 +1400,10 @@
                             <biblStruct xml:id="sb042.3" default="false" status="draft">
                                 <monogr>
                                     <title xml:lang="fr">Tizelière et Decaux: Charles Baudelaire</title>
-                                    <note type="description" anchored="true">half calf, m. e. ib</note>
+                                    <note type="description" anchored="true">half calf, m. e.</note>
                                     <note type="etc" anchored="true"><num value="3"/></note>
                                     <imprint>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1868" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1353,7 +1449,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Depuis</title>
                                     <author>Vacquerie, Aug.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
+                                    <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <imprint>
                                         <pubPlace>Paris</pubPlace>
                                         <date when="1894" instant="false"/>
@@ -1365,7 +1461,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Un Poète Réalistie Anglais, George Crabbe, <date from="1754" to="1874" instant="false">1754-1874</date></title>
                                     <author>Huchon, R.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
+                                    <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <note type="etc" anchored="true"><num value="24"/></note>
                                     <imprint>
                                         <pubPlace>Paris</pubPlace>
@@ -1395,7 +1491,7 @@
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <note type="etc" anchored="true"><num value="3"/>and another</note>
                                     <imprint>
-                                        <pubPlace>Bruxelles</pubPlace>
+                                        <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                         <date when="1874" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1513,8 +1609,10 @@
                                 <monogr>
                                     <title>Gli Asolani</title>
                                     <author>Bembo, P.</author>
-                                    <note type="description" xml:lang="it" anchored="true">in Vinegia nelle Case d'Aldo Romano</note>
+                                    <note type="description" anchored="true">old binding</note>
                                     <imprint>
+                                        <publisher xml:lang="it">nelle Case d'Aldo Romano</publisher>
+                                        <pubPlace xml:lang="it" ref="#venice">in Vinegia</pubPlace>
                                         <date when="1515" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1537,7 +1635,7 @@
                                     <note type="description" anchored="true">engraved title, old red morocco, g. e.</note>
                                     <note type="etc" anchored="true"><num value="3"/></note>
                                     <imprint>
-                                        <pubPlace>Lugd. Bat.</pubPlace>
+                                        <pubPlace ref="#leiden">Lugdunum Batavorum</pubPlace>
                                         <date when="1651" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1829,8 +1927,9 @@
                             <biblStruct xml:id="sb061.2" default="false" status="draft">
                                 <monogr>
                                     <title xml:lang="fr">Saint-Amant: Oeuvres Complètes, accompaguée des Notes par Ch. L. Livet</title>
-                                    <note type="description" anchored="true">ib.</note>
+                                   
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1855" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -1841,9 +1940,10 @@
                             <biblStruct xml:id="sb061.3" default="false" status="draft">
                                 <monogr>
                                     <title xml:lang="fr">Floire et Blanceflor, avec des Notes, etc. par E. du Meril</title>
-                                    <note type="description" anchored="true">ib.</note>
+                                    
                                     <note type="etc" anchored="true"><num value="13"/></note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1856" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -2154,7 +2254,7 @@
                                     <author>Boccaccio, Giov.</author>
                                     <note type="description" anchored="true">old olive morocco gilt, gilt floreate borders, g. e. (Padeloup)</note>
                                     <imprint>
-                                        <pubPlace>Amst.</pubPlace>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1665" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -2255,7 +2355,7 @@
                                     <note type="description" anchored="true">old calf</note>
                                     <edition>First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Amst.</pubPlace>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1701" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -2711,7 +2811,7 @@
                                     <title>John Leech, and other Papers</title>
                                     <author>Brown, John</author>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1882" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -3160,7 +3260,7 @@
                                     <author>Bruno, G.</author>
                                     <note type="description" anchored="true">2 vol. portrait, tree-calf gilt, m. e.</note>
                                     <imprint>
-                                        <pubPlace>Lips.</pubPlace>
+                                        <pubPlace ref="#leipzig">Lipsia</pubPlace>
                                         <date when="1830" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -3870,7 +3970,7 @@
                                     <note type="description" anchored="true">old blue morocco gilt, inside gilt borders, g. e. by H. Duru</note>
                                     <imprint>
                                         <publisher xml:lang="it">appresso Bernardo Giunti</publisher>
-                                        <pubPlace xml:lang="it">In Venetia</pubPlace>
+                                        <pubPlace xml:lang="it" ref="#venice">In Venetia</pubPlace>
                                         <date when="1585" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4212,7 +4312,7 @@
                                     <author>Choderlos</author>
                                     <note type="description" anchored="true">4 parts, old calf gilt, m. e.</note>
                                     <imprint>
-                                        <pubPlace>Amst.</pubPlace>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1782" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -4224,8 +4324,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Amours de Catulle et de Tibulle</title>
                                     <author>Chapelle, M. de la</author>
-                                    <note type="description" anchored="true">calf, ib.</note>
+                                    <note type="description" anchored="true">calf</note>
                                     <imprint>
+                                        <pubPlace>Amsterdam</pubPlace>
                                         <date when="1716" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4333,8 +4434,9 @@
                                 <monogr>
                                     <title>Les Poésies</title>
                                     <author>Mendès, Catulle</author>
-                                    <note type="description" corresp="#uncut" anchored="true">portrait, uncut, ib.</note>
+                                    <note type="description" corresp="#uncut" anchored="true">portrait, uncut</note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1876" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4877,8 +4979,9 @@
                                         <resp>edited by</resp>
                                         <name full="yes" instant="false">A. Beatty</name>    
                                     </respStmt>
-                                    <note type="description" anchored="true">portrait, limp morocco, t. e. g. ib. presentation copies to Swinburne, with autograph incriptions</note>
+                                    <note type="description" anchored="true">portrait, limp morocco, t. e. g., presentation copies to Swinburne, with autograph incriptions</note>
                                     <imprint>
+                                        <pubPlace>New York</pubPlace>
                                         <date instant="false">n. d.</date>
                                     </imprint>
                                 </monogr>
@@ -5409,7 +5512,7 @@
                                     <note type="description" anchored="true">old calf, r. e. binding broken</note>
                                     <imprint>
                                         <publisher>Oporinus</publisher>
-                                        <pubPlace>Basil</pubPlace>
+                                        <pubPlace ref="#basel">Basil</pubPlace>
                                         <date when="1547" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -5428,7 +5531,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date from="1873" to="1879" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="14"/></extent>
@@ -5525,7 +5628,7 @@
                                     <author>Dryden, John</author>
                                     <note type="description" anchored="true">portrait</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date from="1882" to="1893" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="18"/></extent>
@@ -5592,7 +5695,7 @@
                                     <note type="description" anchored="true">26 vol. in 13 (wanting vol. XXI-XXII), half roan</note>
                                     <note type="etc" anchored="true"><num value="13"/></note>
                                     <imprint>
-                                        <pubPlace>Bruxelles</pubPlace>
+                                        <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                         <date when="1852" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="26"/></extent>
@@ -5681,8 +5784,9 @@
                                 <monogr>
                                     <title>A Vision of Sumeru, and other Poems</title>
                                     <author>Dutt, Shosbee C.</author>
-                                    <note type="description" anchored="true">portrait, ib.</note>
+                                    <note type="description" anchored="true">portrait</note>
                                     <imprint>
+                                        <pubPlace>Calcutta</pubPlace>
                                         <date instant="false">n. d.</date>
                                     </imprint>
                                 </monogr>
@@ -5994,9 +6098,10 @@
                                 <monogr>
                                     <title xml:lang="fr">Notre-Dame de Paris</title>
                                     <author>Hugo, V.</author>
-                                    <note type="description" anchored="true">plates and illustrations, calf gilt, m. e. ib., imp 8vo.</note>
+                                    <note type="description" anchored="true">plates and illustrations, calf gilt, m. e., imp 8vo.</note>
                                     <note type="etc" anchored="true"><num value="3"/></note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1844" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6079,7 +6184,7 @@
                                     <author>Eutropius</author>
                                     <note type="description" anchored="true">old Venetian morocco binding, gilt borders and ornaments on sides, g. e. tooled in Arabic interlaced design</note>
                                     <imprint>
-                                        <pubPlace>In Venetia</pubPlace>
+                                        <pubPlace ref="#venice">In Venetia</pubPlace>
                                         <date when="1544" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6431,7 +6536,7 @@
                                     <title xml:lang="de">Die Feuerprobe der Liebe Angioletta</title>
                                     <author>Friedmann, Alfred</author>
                                     <imprint>
-                                        <pubPlace>Wien</pubPlace>
+                                        <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1879" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6441,8 +6546,8 @@
                                 <monogr>
                                     <title>Merlin, Orpheus</title>
                                     <author>Friedmann, Alfred</author>
-                                    <note type="description" anchored="true">ib.</note>
                                     <imprint>
+                                        <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1874" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6452,8 +6557,9 @@
                                 <monogr>
                                     <title xml:lang="de">Aus Hellas</title>
                                     <author>Friedmann, Alfred</author>
-                                    <note type="description" anchored="true">ib.</note>
+                                    
                                     <imprint>
+                                        <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1874" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6463,9 +6569,10 @@
                                 <monogr>
                                     <title>Savilia</title>
                                     <author>Friedmann, Alfred</author>
-                                    <note type="description" anchored="true">ib.</note>
+                                    
                                     <note type="etc" corresp="#presentation" anchored="true">and another, all presentation copies to Swinburne, with author's inscriptions<num value="5"/></note>
                                     <imprint>
+                                        <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1874" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6714,8 +6821,9 @@
                                 <monogr>
                                     <title>Pensées, Introduction by Paul Marieton</title>
                                     <author>Roux, Jos.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
+                                    <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <imprint>
+                                        <pubPlace>Paris</pubPlace>
                                         <date when="1885" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6742,7 +6850,7 @@
                                     <author>Abbotsford Club</author>
                                     <note type="description" anchored="true">frontispiece, morocco, g. e. arms on the sides</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1838" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6864,7 +6972,7 @@
                                     <note type="description" anchored="true">vellum</note>
                                     <note type="etc" anchored="true"><num value="2"/></note>
                                     <imprint>
-                                        <pubPlace xml:lang="it">in Firenze</pubPlace>
+                                        <pubPlace xml:lang="it" ref="#florence">in Firenze</pubPlace>
                                         <date when="1592" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7103,7 +7211,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut" anchored="true">portrait and woodcuts, uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1874" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -7160,7 +7268,7 @@
                                     <author>Catherina da Siena</author>
                                     <note type="description" anchored="true">woodcuts, old blue morocco, g. e. two leaves slightly defective and mended</note>
                                     <imprint>
-                                        <pubPlace>in Venetia</pubPlace>
+                                        <pubPlace ref="#venice">in Venetia</pubPlace>
                                         <date when="1483" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7172,8 +7280,9 @@
                                 <monogr>
                                     <title xml:lang="la">Epistole et Orationi della Seraphica Vergine Santa Catherina da Siena</title>
                                     <author>Catherina da Siena</author>
-                                    <note type="description" anchored="true">title within ornamental border, calf, ib.</note>
+                                    <note type="description" anchored="true">title within ornamental border, calf</note>
                                     <imprint>
+                                        <pubPlace ref="#venice">in Venetia</pubPlace>
                                         <date when="1548" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7299,7 +7408,7 @@
                                     <author>Clark, Wm.</author>
                                     <note type="description" anchored="true">half morocco</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1663" instant="false">rep.</date>
                                     </imprint>
                                 </monogr>
@@ -7325,7 +7434,7 @@
                                     <author>Clifford, Arthur</author>
                                     <note type="description" anchored="true">frontispiece, calf, g. e.</note>
                                     <imprint>
-                                        <pubPlace>Edinb.</pubPlace>
+                                        <pubPlace>Edinburgh</pubPlace>
                                         <date when="1813" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7425,7 +7534,7 @@
                                     <title xml:lang="it">Rime de Michel Agnolo Buonarroti, raccolte de Michelangnolo suo Nipote</title>
                                     <note type="description" anchored="true">half bound</note>
                                     <imprint>
-                                        <pubPlace>in Firenze</pubPlace>
+                                        <pubPlace ref="#florence">in Firenze</pubPlace>
                                         <date when="1623" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7637,8 +7746,9 @@
                                 <monogr>
                                     <title>Complete Works</title>
                                     <author>Daniel, S.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">another copy, wanting vol. II, uncut, ib.</note>
+                                    <note type="description" corresp="#uncut" anchored="true">another copy, wanting vol. II, uncut</note>
                                     <imprint>
+                                        <publisher>Spenser Society</publisher>
                                         <date from="1885" to="1896" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="5"/></extent>
@@ -8168,9 +8278,10 @@
                              <monogr>
                                  <title>OEuvres</title>
                                  <author>Rotrou, Jean</author>
-                                 <note type="description" anchored="true">half morocco, m. e. ib.</note>
+                                 <note type="description" anchored="true">half morocco, m. e.</note>
                                  <note type="etc" anchored="true"><num value="15"/></note>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1820" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="5"/></extent>
@@ -8278,11 +8389,11 @@
                                      <resp/>
                                      <name full="yes" instant="false"/>
                                  </respStmt>
-                                 <note type="description" corresp="#uncut" anchored="true">one of 300 copies on Holland paper, uncut, ib.</note>
+                                 <note type="description" corresp="#uncut" anchored="true">one of 300 copies on Holland paper, uncut</note>
                                  <edition/>
                                  <imprint>
                                      
-                                     <pubPlace/>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1866" instant="false"/>
                                  </imprint>  
                              </monogr>
@@ -8296,12 +8407,12 @@
                                      <resp/>
                                      <name full="yes" instant="false"/>
                                  </respStmt>
-                                 <note type="description" corresp="#uncut" anchored="true">illustrations, uncut, ib.</note>
+                                 <note type="description" corresp="#uncut" anchored="true">illustrations, uncut</note>
                                  <note type="etc" anchored="true"><num value="4"/></note>
                                  <edition/>
                                  <imprint>
                                      
-                                     <pubPlace/>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1875" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -8343,7 +8454,7 @@
                                  <edition/>
                                  <imprint>
                                      
-                                     <pubPlace>in Vinegia</pubPlace>
+                                     <pubPlace ref="#venice">in Vinegia</pubPlace>
                                      <date when="1548" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -8357,11 +8468,11 @@
                                      <resp/>
                                      <name full="yes" instant="false"/>
                                  </respStmt>
-                                 <note type="description" anchored="true">ib.</note>
+                                 
                                  <edition/>
                                  <imprint>
                                      
-                                     <pubPlace/>
+                                     <pubPlace ref="#venice">in Vinegia</pubPlace>
                                      <date when="1551" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9367,7 +9478,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut, signature on title</note>
                                  <note type="inscription" anchored="true">A. C. Swinburne, <date when="1859-10-27" instant="false">Oct. 27th, 1859</date></note>
                                  <imprint>
-                                     <pubPlace>Bruxelles</pubPlace>
+                                     <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                      <date when="1859" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9766,9 +9877,10 @@
                              <monogr>
                                  <title xml:lang="fr">Thèâtre Complet</title>
                                  <author>Vacquerie, Aug.</author>
-                                 <note type="description" corresp="#uncut" anchored="true">uncut, ib.</note>
+                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <note type="etc" anchored="true"><num value="18"/></note>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1879" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -9796,8 +9908,9 @@
                              <monogr>
                                  <title>Salammbō</title>
                                  <author>Flaubert, G.</author>
-                                 <note type="description" anchored="true">half morocco, m.e. ib.</note>
+                                 <note type="description" anchored="true">half morocco, m.e.</note>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1863" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9808,9 +9921,10 @@
                              <monogr>
                                  <title xml:lang="fr">Les Miettes de l'Histoire</title>
                                  <author>Vacquerie, Aug.</author>
-                                 <note type="description" anchored="true">half morocco, m.e. ib.</note>
+                                 <note type="description" anchored="true">half morocco, m.e.</note>
                                  <note type="etc" anchored="true"><num value="4"/></note>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1863" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9837,9 +9951,10 @@
                              <monogr>
                                  <title xml:lang="fr">Torquemada, Drame</title>
                                  <author>Hugo, V.</author>
-                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the Author to Swinburne, with autograph inscription, ib.</note>
+                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the Author to Swinburne, with autograph inscription</note>
                                  <note type="inscription" xml:lang="fr" anchored="true">À mon cher Swinburne, Victor Hugo</note>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1882" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9851,9 +9966,10 @@
                              <monogr>
                                  <title xml:lang="fr">La Legende des Siècles, Tome cinquième et dernier</title>
                                  <author>Hugo, V.</author>
-                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the author with autograph inscription on half-title, ib.</note>
+                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the author with autograph inscription on half-title</note>
                                  <note type="inscription" xml:lang="fr" anchored="true">À Swinburne, Victor Hugo</note>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date when="1883" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9902,9 +10018,10 @@
                              <monogr>
                                  <title xml:lang="fr">OEvres Complètes</title>
                                  <author>Hugo, V.</author>
-                                 <note type="description" corresp="#uncut" anchored="true">wanting Poésie XV and XVI, uncut, ib.</note>
+                                 <note type="description" corresp="#uncut" anchored="true">wanting Poésie XV and XVI, uncut</note>
                                  <edition xml:lang="fr">Edition Definitive d'après les Manuscrits Originaux</edition>
                                  <imprint>
+                                     <pubPlace>Paris</pubPlace>
                                      <date from="1880" to="1885" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="48"/></extent>
@@ -10962,7 +11079,7 @@
                                  </respStmt>
                                  <note type="description" anchored="true">portraits</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date from="1846" to="1864" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="6"/></extent>
@@ -11230,7 +11347,7 @@
                                  <title>Hellenics, comprising Heroic Idylls, etc.</title>
                                  <author>Landor, W. S.</author>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1859" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11330,7 +11447,7 @@
                                  <note type="description" anchored="true">original cloth</note>
                                  <edition>First Edition</edition>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1858" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11558,7 +11675,7 @@
                                  <title xml:lang="it">Lettere di XIII Huomini Illustri, allequali oltra tutte l'altre fin qui stampate di nuovo ne sono state aggiunte molte da Tomaso Porcacchi</title>
                                  <note type="description" anchored="true">old vellum</note>
                                  <imprint>
-                                     <pubPlace>in Venetia</pubPlace>
+                                     <pubPlace ref="#venice">in Venetia</pubPlace>
                                      <date when="1571" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11832,7 +11949,7 @@
                                  <author>Lockhart, J. G.</author>
                                  <note type="description" anchored="true">frontispiece, half morocco, uncut, m.e. in case</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1882" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="10"/></extent>
@@ -12266,7 +12383,7 @@
                                  <note type="description" anchored="true">portrait and illustrations</note>
                                  <note type="etc" anchored="true"><num value="9"/></note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1881" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12664,7 +12781,7 @@
                                  <note type="description" anchored="true">half calf, Swinburne's copy, with autograph signature</note>
                                  <note type="inscription" anchored="true">Algernon C. Swinburne, <date when="1850-01-30" instant="false">Janry. 30th, 1850</date></note>
                                  <imprint>
-                                     <pubPlace>Lips.</pubPlace>
+                                     <pubPlace ref="#leipzig">Lipsia</pubPlace>
                                      <date when="1829" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12991,7 +13108,7 @@
                                  <title>Metrical Romances, published from Ancient Manuscripts, with notes, etc. by Henry Weber</title>
                                  <note type="description" anchored="true">half bound</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1810" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="3"/></extent>
@@ -13108,7 +13225,7 @@
                                  <author>Tasso, Torq.</author>
                                  <note type="description" anchored="true">frontispiece, calf, back of vol. I injured</note>
                                  <imprint>
-                                     <pubPlace>Firenze</pubPlace>
+                                     <pubPlace ref="#florence">Firenze</pubPlace>
                                      <date when="1818" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -13188,7 +13305,7 @@
                                  <author>Milton, John</author>
                                  <note type="description" anchored="true">brown morocco extra, tooled sides, g.e. by Wright</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1853" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13772,7 +13889,7 @@
                                  <author>Dumas, A.</author>
                                  <note type="description" anchored="true">half calf gilt, some titles missing</note>
                                  <imprint>
-                                     <pubPlace>Bruxelles</pubPlace>
+                                     <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                      <date when="1854" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="7">14 vol. in 7</measure></extent>
@@ -14833,7 +14950,7 @@
                                  </respStmt>
                                  <note type="description" anchored="true">one of 75 copies, half roan</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1822" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -14883,7 +15000,7 @@
                                  <title>Novels of Sir Walter Scott</title>
                                  <note type="description" anchored="true">portrait and illustrations by G. Cruikshank, etc.</note>
                                  <imprint>
-                                     <pubPlace>Edinb.</pubPlace>
+                                     <pubPlace>Edinburgh</pubPlace>
                                      <date when="1871" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15012,7 +15129,7 @@
                                  <author>Fontainas, A.</author>
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with inscription</note>
                                  <imprint>
-                                     <pubPlace>Bruxelles</pubPlace>
+                                     <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                      <date when="1889" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15890,7 +16007,7 @@
                                 <note type="description" corresp="#presentation" anchored="true">portrait, blue cloth, presentation copy to Swinburne, with inscription</note>
                                 <note type="inscription" anchored="true">To A. C. Swinburne, with the Editor's best wishes</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1874" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
@@ -16172,7 +16289,7 @@
                                 <author>Porta, Joh. Bapt.</author>
                                 <note type="description" anchored="true">engraved title and woodcuts, vellum</note>
                                 <imprint>
-                                    <publisher>Lugd. Bat.</publisher>
+                                    <pubPlace ref="#leiden">Lugdunum Batavorum</pubPlace>
                                     <date when="1650" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16455,7 +16572,7 @@
                                 <author>Réné, Xavier de</author>
                                 <note type="description" corresp="#uncut" anchored="true">portrait, uncut</note>
                                 <imprint>
-                                    <pubPlace>Bruxelles</pubPlace>
+                                    <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                     <date when="1906" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16568,7 +16685,7 @@
                                 <note type="description" anchored="true">half calf, Swinburne's copy, with his signature on fly-leaf</note>
                                 <note type="etc" anchored="true"><num value="7"/></note>
                                 <imprint>
-                                    <pubPlace>Bruxelles</pubPlace>
+                                    <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                     <date when="1837" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -16674,7 +16791,7 @@
                                 <author>Ritson, J.</author>
                                 <note type="description" corresp="#uncut" anchored="true">one of 400 copies, uncut</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -17022,7 +17139,7 @@
                                 <author>Scott, Sir W.</author>
                                 <note type="description" anchored="true">portrait</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1894" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -17201,7 +17318,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy with inscription</note>
                                 <note type="inscription" anchored="true">To Algernon Charles Swinburne, a token of deep sincere regard from George Saffi, San Varano, <date when="1892-07-07" instant="false">7th July, 1892</date></note>
                                 <imprint>
-                                    <pubPlace>Firenze</pubPlace>
+                                    <pubPlace ref="#florence">Firenze</pubPlace>
                                     <date when="1892" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
@@ -17343,7 +17460,7 @@
                                 <author>Scott, Sir Walter</author>
                                 <note type="description" anchored="true">half russia</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1821" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
@@ -17376,7 +17493,7 @@
                                 <note type="inscription" anchored="true">Algernon Charles Swinburne, Eton. <date instant="false">Dec. 5, 1853</date>, with the kind love and goos wishes of his friend Edward Coleridge</note>
                                 <note type="etc" anchored="true"><num value="10"/></note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1853" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -17390,7 +17507,7 @@
                                 <author>Scott, Sir W.</author>
                                 <note type="description" anchored="true">frontispiece, etc. after J. M. W. Turner, etc. polished calf gilt, m. e.</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1833" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="12"/></extent>
@@ -18398,7 +18515,7 @@
                                 <note type="description" anchored="true">half bound</note>
                                 <note type="etc" anchored="true"><num value="8"/></note>
                                 <imprint>
-                                    <pubPlace>Bruxelles</pubPlace>
+                                    <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                     <date when="1866" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19227,7 +19344,7 @@
                                 <note type="description" anchored="true">calf gilt, g.e.</note>
                                 <imprint>
                                     <publisher>appresso Domenico Caualcalupo</publisher>
-                                    <pubPlace>in Venetia</pubPlace>
+                                    <pubPlace ref="#venice">in Venetia</pubPlace>
                                     <date when="1586" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19310,7 +19427,7 @@
                                 <author>Sue, Eugine</author>
                                 <note type="description" anchored="true">woodcuts, half calf</note>
                                 <imprint>
-                                    <pubPlace>Bruxelles</pubPlace>
+                                    <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                     <date when="1845" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="4"/></extent>
@@ -19336,7 +19453,7 @@
                                 <author>Sand, G.</author>
                                 <note type="etc" anchored="true"><num value="20"/></note>
                                 <imprint>
-                                    <pubPlace>Bruxelles</pubPlace>
+                                    <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                     <date when="1845" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/>3 vol. in 1</extent>
@@ -20592,7 +20709,7 @@
                                 <note type="description" anchored="true">portraits</note>
                                 <note type="etc" anchored="true"><num value="8"/></note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1890" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -20921,7 +21038,7 @@
                                 <title>The Visions of Tundale, together with Metrical Moralizations and other Fragments of Early Poetry, hitherto inedited</title>
                                 <note type="description" anchored="true">large paper, only 24 copies printed</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1843" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -21009,7 +21126,7 @@
                                 <author>Voltaire, M. de</author>
                                 <note type="description" anchored="true">in 1 vol. old calf, broken</note>
                                 <imprint>
-                                    <pubPlace>Amst.</pubPlace>
+                                    <pubPlace>Amsterdam</pubPlace>
                                     <date when="1733" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -21970,7 +22087,7 @@
                                 <author>Ritson, Joseph</author>
                                 <note type="description" anchored="true">large paper, only 75 copies printed, green morocco gilt, t.e.g.</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date from="1884" to="1885" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22144,7 +22261,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">one of 104 copies, half morocco, uncut</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1884" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22625,7 +22742,7 @@
                                 </respStmt>
                                 <note type="description" anchored="true">one of 100 copies</note>
                                 <imprint>
-                                    <pubPlace>Edinb.</pubPlace>
+                                    <pubPlace>Edinburgh</pubPlace>
                                     <date when="1815" instant="false"/>
                                 </imprint>
                             </monogr>
