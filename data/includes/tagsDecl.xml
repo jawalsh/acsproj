@@ -29,7 +29,7 @@
     <rendition n="underline" xml:id="u" scheme="css">text-decoration: underline;</rendition>
     <rendition n="double underline" xml:id="uu" scheme="css">-webkit-text-decoration: underline double; text-decoration: underline double;
         </rendition>
-    <rendition n="block" xml:id="block" scheme="css">display: block !important; margin: 4em;</rendition>
+    <rendition n="block" xml:id="block" scheme="css">display: block !important; </rendition>
     <rendition n="blockquote" xml:id="blockquote" scheme="css">display: block; margin-left:4em;</rendition>
     <rendition n="expanded letter spacing" xml:id="expanded" scheme="css">letter-spacing: +3pt;</rendition>
     
