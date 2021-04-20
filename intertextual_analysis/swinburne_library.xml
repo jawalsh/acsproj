@@ -134,6 +134,10 @@
                         <item>A line of type at the top of a page, above the main text</item>
                         <label>imperial</label>
                         <item>Made with large and/or fine paper for an "imperial paper copy;" or made with imperial-sized paper</item>
+                        <label>India proof</label>
+                        <item>A proof (usually of an engraving) printed on thin, soft paper</item>
+                        <label>Japanese vellum</label>
+                        <item>A stiff, smooth hand-made paper used primarily for éditions de luxe</item>
                         <label>joint</label>
                         <item>The area on the exterior of a book where the spine meets the covers </item>
                         <label>levant morocco</label>
@@ -192,6 +196,7 @@
                         <place source="http://vocab.getty.edu/page/tgn/7000457" xml:id="florence">
                             <placeName type="preferred">Florence</placeName>
                             <placeName>Firenze</placeName>
+                            <placeName>Florentiae</placeName>
                         </place>
                         <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
                             <placeName type="preferred">Vārānasi</placeName>
@@ -220,6 +225,11 @@
                         <place source="http://vocab.getty.edu/page/tgn/7003321" xml:id="vienna">
                             <placeName type="preferred">Vienna</placeName>
                             <placeName>Wien</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7000874" xml:id="rome">
+                            <placeName type="preferred">Rome</placeName>
+                            <placeName>Roma</placeName>
+                            <placeName>Romae</placeName>
                         </place>
                     </listPlace>
                 </div>
@@ -1168,7 +1178,7 @@
                                 <author>Bailliere, P.</author>
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the author to Swinburne, with autograph inscription</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1907" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -1344,7 +1354,7 @@
                                     <note type="description" anchored="true"> morocco, gilt edges, presentation copy to Swinburne, with inscription in pencil</note>
                                     <note type="inscription" xml:lang="fr" anchored="true">Mr. Algernon C. Swinburne Bon souvenir et mille Remerciments, C.B.</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1861" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1357,7 +1367,7 @@
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <note type="etc" anchored="true"><num value="9"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1878" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1373,7 +1383,7 @@
                                     <note type="inscription" anchored="true">W. M. Rossetti, <date when="1864" instant="false">1864</date>, to Algernon C. Swinburne</note>
                                     <edition>First edition</edition>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1857" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1425,7 +1435,7 @@
                                     <author>Baudelaire, C.</author>
                                     <note type="description" anchored="true">portrait, morocco, gilt edges</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1868" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="4"/></extent>
@@ -1447,7 +1457,7 @@
                                     <author>Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut" anchored="true">portrait and facsimile, uncut</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1887" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1459,7 +1469,7 @@
                                     <author>Vacquerie, Aug.</author>
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1472,7 +1482,7 @@
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <note type="etc" anchored="true"><num value="24"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1906" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1486,7 +1496,7 @@
                                     <author>Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut" anchored="true">portrait, uncut, pencil note in handwriting of Swinburne on fly-leaf</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1908" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1605,7 +1615,7 @@
                                     <note type="insciprtion" xml:lang="fr" anchored="true">à Algernon C. Swinburne avec admiration et sympathie, Stéphane Mallarmé</note>
                                     <edition>l'édition Française originale</edition>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1876" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1631,7 +1641,7 @@
                                     <title xml:lang="la">Terentii De Lingua Latina</title>
                                     <note type="description" anchored="true">vellum</note>
                                     <imprint>
-                                        <pubPlace>Romae</pubPlace>
+                                        <pubPlace ref="#rome">Romae</pubPlace>
                                         <date when="1557" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1689,7 +1699,7 @@
                                     <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy with autograph inscription; royal 8vo</note>
                                     <note type="inscription" xml:lang="fr" anchored="true">à A. C. Swinburne hommage très sincère, P. Berger, <date when="1907-06-11" instant="false">11 Juin, 1907</date></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1907" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -1916,7 +1926,7 @@
                                     <title xml:lang="fr">Bibliothèque Elzevirien: Ancien Théatre Francois publié avec des Notes par M. Viollet le Due</title>
                                     <note type="description" anchored="true">10 vol.</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1854" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="10"/></extent>
@@ -1936,7 +1946,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Saint-Amant: Oeuvres Complètes, accompaguée des Notes par Ch. L. Livet</title>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1855" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -1949,7 +1959,7 @@
                                     <title xml:lang="fr">Floire et Blanceflor, avec des Notes, etc. par E. du Meril</title>
                                     <note type="etc" anchored="true"><num value="13"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1856" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -2291,7 +2301,7 @@
                                     <note type="description" anchored="true">3 vol. half morocco gilt, marbled edges</note>
                                     <note type="etc" anchored="true"><num value="12"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date instant="false">n. d.</date>
                                     </imprint>
                                 </monogr>
@@ -3280,7 +3290,7 @@
                                     <note type="etc" anchored="true"><num value="9"/></note>
                                     <edition/>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1829" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -3333,7 +3343,7 @@
                                     <author>Burchard, Joh.</author>
                                     <note type="description" anchored="true">3 vol. uncut; imperial 8vo.</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1883" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
@@ -4028,7 +4038,7 @@
                                     <note type="description" anchored="true">woodcuts, ruled in red, red morocco gilt, gilt edges, by C. Smith, 2 leaves in neat fascimile, autograph of P. Scarron on title, and an ex-libris of Hom. P. Ashburnham</note>
                                     <note type="inscription" anchored="true">Algernon C. Swinburne from his affect. uncle, P. A.</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1529" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4344,7 +4354,7 @@
                                     <note type="description" anchored="true">portrait, binding broken</note>
                                     <note type="etc" anchored="true"><num value="12"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1681" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -4428,7 +4438,7 @@
                                     <author>Cladel, Léon</author>
                                     <note type="description" corresp="#uncut" anchored="true">illustrations by R. Julian, uncut, imperial 8vo</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1879" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4441,7 +4451,7 @@
                                     <author>Mendès, Catulle</author>
                                     <note type="description" corresp="#uncut" anchored="true">portrait, uncut</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1876" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4483,7 +4493,7 @@
                                     <note type="description" anchored="true">portrait, calf gilt, marbled edges</note>
                                     <note type="etc" anchored="true">imperial 8vo.<num value="10"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1848" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -4737,7 +4747,7 @@
                                     <author>Coureille, P.</author>
                                     <note type="description" anchored="true">portrait, binding broken, marbled edges</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1821" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="12"/></extent>
@@ -5029,7 +5039,7 @@
                                     <author>Dard, Émile</author>
                                     <note type="description" corresp="#uncut" anchored="true">portrait, uncut, in case</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1905" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -5328,7 +5338,7 @@
                                     <title xml:lang="fr">Dictionnaire des Proverbes Façons de Parler Comiques, Burlesques, et Familières, etc.</title>
                                     <note type="description" anchored="true">old calf</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1748" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -5342,7 +5352,7 @@
                                     <author>Diderot</author>
                                     <note type="description" anchored="true">uncut, insterted is a very interesting Autograph Letter addressed to Swinburne from John Morley, date <date when="1876-02-12" instant="false">Feb. 12, 1876</date>, and relating to the work</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1875" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -5485,7 +5495,7 @@
                                     <author>Domenech, Abbé Em.</author>
                                     <note type="description" anchored="true">illustrations, half calf, marbled edges</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1860" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -5501,7 +5511,7 @@
                                     <note type="description" corresp="#uncut #presentation" anchored="true">portraits, uncut, presentation copy, with inscription</note>
                                     <note type="inscription" anchored="true">With the author's compliments, Alfred Douglas, <date when="1876-11" instant="false">November, 1876</date></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1896" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -5664,7 +5674,7 @@
                                     <note type="description" corresp="#uncut" anchored="true">illusrations by Maurice Leloir, uncut, imperial 8vo.</note>
                                     <edition xml:lang="fr">Édition de Grand Luxe</edition>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -5681,7 +5691,7 @@
                                     <note type="description" corresp="#uncut" anchored="true">one of 110 copies, illustrations by Julien le Blont, uncut, imperial 8vo.</note>
                                     <edition>Édition de Luxe</edition>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -5802,7 +5812,7 @@
                                     <note type="description" corresp="#presentation" anchored="true">half calf, presentation copy, with inscription</note>
                                     <note type="inscription" anchored="true">Algernon C. Swinburne, Esqre. Hommage Govin Chunder Dutt, 12 Maniklottah Street, Calcutta, <date when="1879-05-02" instant="false">2d. May, 1879</date></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1879" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -5993,7 +6003,7 @@
                                         <name full="yes" instant="false">John Ashton</name>
                                     </respStmt>
                                     <note type="description" corresp="#presentation" anchored="true">woodcuts, presentation copy, with inscription</note>
-                                    <note type="inscription" anchored="true">A. C. Swinburne, a momento of a happ time at Lancing-on-Sea, W. Theodore Watts, Lancing-on-Sea, <date when="1887-11-25" instant="false">Nov. 25/87</date></note>
+                                    <note type="inscription" anchored="true">A. C. Swinburne, a momento of a happy time at Lancing-on-Sea, W. Theodore Watts, Lancing-on-Sea, <date when="1887-11-25" instant="false">Nov. 25/87</date></note>
                                     <imprint>
                                         <date when="1887" instant="false"/>
                                     </imprint>
@@ -6089,7 +6099,7 @@
                                     <title xml:lang="la">Epidrammatum Anthologia Palatina cum Planudeis et Appendico Nova, instruxit Fred. Dübner, Gr. et Lat.</title>
                                     <note type="description" anchored="true">half morocco, marbled edges</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1864" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -6104,7 +6114,7 @@
                                     <note type="description" anchored="true">plates and illustrations, calf gilt, marbled edges, imperial 8vo.</note>
                                     <note type="etc" anchored="true"><num value="3"/></note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1844" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6199,7 +6209,7 @@
                                 <monogr>
                                     <title>Comedies, Letters, Poems, Essays, etc.</title>
                                     <author>Farquhar, Geo.</author>
-                                    <note type="description" anchored="true">plates, hald calf, yellow edges</note>
+                                    <note type="description" anchored="true">plates, half calf, yellow edges</note>
                                     <imprint>
                                         <date instant="false">n. d.</date>
                                     </imprint>
@@ -6229,7 +6239,7 @@
                             <biblStruct xml:id="sb224.1" default="false" status="draft">
                                 <monogr>
                                     <title>Songs of Doubt and Dream (Poems)</title>
-                                    <author>Fawcctt, Edgar</author> <!-- Last name [sic] -->
+                                    <author>Fawcett, Edgar</author>
                                     <note type="description" corresp="#presentation" anchored="true">presentation copy to Swinburne, with the author's inscription</note>
                                     <note type="inscription" anchored="true">To A. C. Swinburne Esq. with many kindly wishes from Edgar Faucett, New York, <date when="1891-12" instant="false">Dec. 1891</date></note> <!-- Last name [sic] -->
                                     <edition>First Edition</edition>
@@ -6487,7 +6497,7 @@
                                 <monogr>
                                     <title>Dramatic Works, with Notes Critical and Explanatory by W. Gifford</title>
                                     <author>Ford, John</author>
-                                    <note type="description" anchored="true">tree-calf gilt, marbled edges, by Clark and Bedford</note> <!-- Publisher? -->
+                                    <note type="description" anchored="true">tree-calf gilt, marbled edges, by Clark and Bedford</note> <!--Clark and Bedford are English bookbinders -AM -->
                                     <edition>Best Edition</edition>
                                     <imprint>
                                         <date when="1827" instant="false"/>
@@ -6560,7 +6570,6 @@
                                 <monogr>
                                     <title xml:lang="de">Aus Hellas</title>
                                     <author>Friedmann, Alfred</author>
-                                    
                                     <imprint>
                                         <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1874" instant="false"/>
@@ -6572,7 +6581,6 @@
                                 <monogr>
                                     <title>Savilia</title>
                                     <author>Friedmann, Alfred</author>
-                                    
                                     <note type="etc" corresp="#presentation" anchored="true">and another, all presentation copies to Swinburne, with author's inscriptions<num value="5"/></note>
                                     <imprint>
                                         <pubPlace ref="#vienna">Wien</pubPlace>
@@ -6622,7 +6630,7 @@
                                     <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with autograph inscription, and interesting autograph letter of the author inserted</note>
                                     <note type="inscription" anchored="true">To Algernon Charles Swinburne, the faithful lover of Italy, admiringly Alice Galimberti, <date when="1904-06-01" instant="false">1st June, 1904</date></note>
                                     <imprint>
-                                        <pubPlace>Roma</pubPlace>
+                                        <pubPlace ref="rome">Roma</pubPlace>
                                         <date when="1904" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6648,7 +6656,7 @@
                                 <monogr>
                                     <title>Prose Fancies</title>
                                     <author>Gallienne, R. le</author>
-                                    <note type="description" corresp="#uncut #presentation" anchored="true">portait by P. Wilson Steer, presentation copy from the author to A. C. Swinburne, with inscription, blue cloth, uncut</note>
+                                    <note type="description" corresp="#uncut #presentation" anchored="true">portrait by P. Wilson Steer, presentation copy from the author to A. C. Swinburne, with inscription, blue cloth, uncut</note>
                                     <note type="inscription" anchored="true">A. C. Swinburne, Esq. with homage from Richard le Gallienne</note>
                                     <imprint>
                                         <date when="1894" instant="false"/>
@@ -6718,7 +6726,7 @@
                                 <monogr>
                                     <title>Story of Siena and San Gimiguano</title>
                                     <author>Gardner, Edmund G.</author>
-                                    <note type="description" corresp="#uncut" anchored="true">illustrations by H. M. James, cloth gilt, uncut. top edge gilt</note>
+                                    <note type="description" corresp="#uncut" anchored="true">illustrations by H. M. James, cloth gilt, uncut, top edge gilt</note>
                                     <imprint>
                                         <date when="1902" instant="false"/>
                                     </imprint>
@@ -6738,7 +6746,7 @@
                             </biblStruct>
                             <biblStruct xml:id="sb244.3" default="false" status="draft">
                                 <monogr>
-                                    <title>Only Toys !</title>
+                                    <title>Only Toys!</title>
                                     <author>Anstey, F.</author>
                                     <note type="description" anchored="true">35 illustrations</note>
                                     <note type="etc" anchored="true"><num value="8"/></note>
@@ -6812,9 +6820,9 @@
                                 <monogr>
                                     <title>Richard Wagner</title>
                                     <author>Gasperini, A. de</author>
-                                    <note type="description" corresp="#uncut" anchored="true">portait, facsimile, etc. uncut</note>
+                                    <note type="description" corresp="#uncut" anchored="true">portrait, facsimile, etc. uncut</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1866" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6826,7 +6834,7 @@
                                     <author>Roux, Jos.</author>
                                     <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1885" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -6925,7 +6933,7 @@
                                 <monogr>
                                     <title>Memoir of Richard Busby, with some Account of Westminster School</title>
                                     <author>Barker, G. F. Russel</author>
-                                    <note type="description" anchored="true">portait and illustrations</note>
+                                    <note type="description" anchored="true">portrait and illustrations</note>
                                     <imprint>
                                         <date when="1895" instant="false"/>
                                     </imprint>
@@ -6960,7 +6968,7 @@
                                     <author>Baudinius, O.</author>
                                     <note type="description" corresp="#uncut" anchored="true">in 1 vol. uncut</note>
                                     <imprint>
-                                        <pubPlace>Florent.</pubPlace>
+                                        <pubPlace ref="#florence">Florentiae</pubPlace>
                                         <date when="1574" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
@@ -7034,7 +7042,7 @@
                                     <author>Bernard, B.</author>
                                     <note type="description" anchored="true">vellum, Ben Johnson's copy, with his signature on title; also an Autograph Letter from Sidney C. Cockerell addressed to Mr. Swinburne.</note>
                                     <imprint>
-                                        <pubPlace>Florent.</pubPlace>
+                                        <pubPlace ref="#florence">Florentiae</pubPlace>
                                         <date when="1613" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -7136,7 +7144,7 @@
                                     </imprint>
                                 </monogr>
                                 <tei:relatedItem xmlns:tei="http://www.tei-c.org/ns/1.0" type="ht" target="https://hdl.handle.net/2027/gri.ark:/13960/t3xs6vx14"/>
-                                <note type="fulltext" anchored="true">Published 1877, fascimile edition; OCR is poor quality.</note>
+                                <note type="fulltext" anchored="true">Published 1877, facsimile edition; OCR is poor quality.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb263" default="false">
@@ -7159,7 +7167,7 @@
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <resp>arranged by</resp>
-                                        <name full="yes" instant="false">Mrs. F. Harecourt Williamson</name> <!-- Spelling -->
+                                        <name full="yes" instant="false">Mrs. F. Harcourt Williamson</name>
                                     </respStmt>
                                     <note type="description" anchored="true">portraits</note>
                                     <imprint>
@@ -7525,7 +7533,7 @@
                                     <author>Contarenus, Gasp.</author>
                                     <note type="description" anchored="true">calf</note>
                                     <imprint>
-                                        <pubPlace>Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1543" instant="false"/>
                                     </imprint>
                                 </monogr>
@@ -8259,7 +8267,7 @@
                                  <author>Gautier, T.</author>
                                  <note type="description" anchored="true">half calf</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date from="1858" to="1867" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="10"/></extent>
@@ -8284,7 +8292,7 @@
                                  <note type="description" anchored="true">half morocco, marbled edges</note>
                                  <note type="etc" anchored="true"><num value="15"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1820" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="5"/></extent>
@@ -8377,8 +8385,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <edition/>
                                  <imprint>
-                                     
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1901" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -8395,8 +8402,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">one of 300 copies on Holland paper, uncut</note>
                                  <edition/>
                                  <imprint>
-                                     
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1866" instant="false"/>
                                  </imprint>  
                              </monogr>
@@ -8413,9 +8419,8 @@
                                  <note type="description" corresp="#uncut" anchored="true">illustrations, uncut</note>
                                  <note type="etc" anchored="true"><num value="4"/></note>
                                  <edition/>
-                                 <imprint>
-                                     
-                                     <pubPlace>Paris</pubPlace>
+                                 <imprint> 
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1875" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -8435,7 +8440,6 @@
                                  <note type="description" anchored="true">The course form which Shakepseare gathered some of his plots.</note>
                                  <edition>First Edition</edition>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date instant="false"/>
                                  </imprint>
@@ -8865,7 +8869,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with inscription, instered are four autograph letters, one interesting one from W. M. Rossetti</note>
                                  <note type="inscription" xml:lang="fr" anchored="true">Au grand Swinburne, Charles Guerin</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1901" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9494,7 +9498,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <note type="etc" anchored="true"><num value="6"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1886" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9615,7 +9619,7 @@
                                  <author>Homer</author>
                                  <note type="description" anchored="true">half morocco, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1871" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9625,7 +9629,7 @@
                          <bibl xml:id="sb367.2" default="false" status="draft">
                              <title xml:lang="la">Aristophanis Comoediae, Gr. et Lat. cum Indicibus</title>
                              <note type="description" anchored="true">half morocco, marbled edges</note>
-                             <pubPlace>Paris</pubPlace>
+                             <pubPlace ref="#paris">Paris</pubPlace>
                              <date when="1862" instant="false"/>
                              <tei:relatedItem xmlns:tei="http://www.tei-c.org/ns/1.0" type="ht" target="https://hdl.handle.net/2027/inu.32000000894784"/>
                              <note type="fulltext" anchored="true">HT has 1860 copy; correct title with Greek and Latin text.</note>
@@ -9634,7 +9638,7 @@
                              <title>Aeschyli et Sophoclis Tragoediae et Fragementa, Gr. et Lat. cum Indicibus</title>
                              <note type="description" anchored="true">half morocco, marbled edges, imperial 8vo.</note>
                              <note type="etc" anchored="true"><num value="4"/></note>
-                             <pubPlace>Paris</pubPlace>
+                             <pubPlace ref="#paris">Paris</pubPlace>
                              <date when="1856" instant="false"/>
                              <tei:relatedItem xmlns:tei="http://www.tei-c.org/ns/1.0" type="ht" target="https://hdl.handle.net/2027/mdp.39015028379264"/>
                              <note type="fulltext" anchored="true">HT copy from 1877; best candidate that has both Greek and Latin; title correct.</note>
@@ -9870,7 +9874,7 @@
                                  <author>Hugo, Victor</author>
                                  <note type="description" anchored="true">morocco, gilt edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1856" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -9885,7 +9889,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <note type="etc" anchored="true"><num value="18"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1879" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -9901,7 +9905,7 @@
                                  <author>Hugo, V.</author>
                                  <note type="description" anchored="true">vellum, gilt edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1859" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -9915,7 +9919,7 @@
                                  <author>Flaubert, G.</author>
                                  <note type="description" anchored="true">half morocco, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1863" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9929,7 +9933,7 @@
                                  <note type="description" anchored="true">half morocco, marbled edges</note>
                                  <note type="etc" anchored="true"><num value="4"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1863" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9944,7 +9948,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy with autograph inscription</note>
                                  <note type="inscription" anchored="true">Walter Theodore Watts from his friend Algernon Charles Swinburne</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1875" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9959,7 +9963,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the Author to Swinburne, with autograph inscription</note>
                                  <note type="inscription" xml:lang="fr" anchored="true">À mon cher Swinburne, Victor Hugo</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1882" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -9974,7 +9978,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the author with autograph inscription on half-title</note>
                                  <note type="inscription" xml:lang="fr" anchored="true">À Swinburne, Victor Hugo</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1883" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -10009,7 +10013,7 @@
                                  <author>Hugo, V.</author>
                                  <note type="description" corresp="#uncut" anchored="true">portraits, uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1875" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="10"/></extent>
@@ -10026,7 +10030,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">wanting Poésie XV and XVI, uncut</note>
                                  <edition xml:lang="fr">Edition Definitive d'après les Manuscrits Originaux</edition>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date from="1880" to="1885" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="48"/></extent>
@@ -10042,7 +10046,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the author to Swinburne</note>
                                  <note type="inscription" xml:lang="fr" anchored="true">À mon grand et cher Swinburne. Victor Hugo</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1881" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11602,7 +11606,7 @@
                                  <note type="description" anchored="true">illustrations, half morocco gilt, top edge gilt</note>
                                  <edition>First Edition</edition>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1886" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11614,7 +11618,7 @@
                                  <author>Surville, L.</author>
                                  <note type="description" anchored="true">half calf, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1858" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -11627,7 +11631,7 @@
                                  <note type="description" anchored="true">portrait, calf, marbled edges</note>
                                  <note type="etc" anchored="true"><num value="14"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1853" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -12211,7 +12215,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne with autograph inscription</note>
                                  <note type="etc" anchored="true"><num value="10"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1903" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12407,7 +12411,7 @@
                                  <author>Magasin de Librairie, Le</author>
                                  <note type="description" anchored="true">half morocco, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1859" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="3">vol. II-IV</measure></extent>
@@ -12487,7 +12491,7 @@
                                  <edition>First Edition</edition>
                                  <imprint>
                                      <publisher xml:lang="fr">de l'imprimerie de Marat</publisher>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1792" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12501,7 +12505,7 @@
                                  <author>Marieton, P.</author>
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with inscription</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1898" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12515,7 +12519,7 @@
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with inscription</note>
                                  <note type="etc" corresp="#presentation" anchored="true">and others, some presentation copies to Swinburne, with inscriptions<num value="12"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1898" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -12529,7 +12533,7 @@
                                  <author>Marivaux, M. de</author>
                                  <note type="description" anchored="true">old French calf gilt, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1781" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="12"/></extent>
@@ -12554,7 +12558,7 @@
                                  <author>Marivaux</author>
                                  <note type="description" corresp="#uncut" anchored="true">portrait, uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1881" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -12568,7 +12572,7 @@
                                  <author>Yriate, C.</author>
                                  <note type="description" corresp="#uncut" anchored="true">portraits, illustrations, etc. uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1889" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -12583,7 +12587,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">frontispiece, etc. uncut</note>
                                  <note type="etc" anchored="true"><num value="6"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1877" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -12986,7 +12990,7 @@
                                  <author>Meguin, P.</author>
                                  <note type="description" anchored="true">illustrations</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1899" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13039,7 +13043,7 @@
                                  <author>Mendès, Catulle</author>
                                  <note type="description" corresp="#uncut" anchored="true">one of 65 copies, uncut, imperial 8vo.</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1876" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13224,7 +13228,7 @@
                                  <author>Mignet, F.</author>
                                  <note type="description" anchored="true">portrait and engravings, calf gilt, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1836" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -13254,7 +13258,7 @@
                                  <note type="description" anchored="true">half morocco, uncut</note>
                                  <note type="etc" anchored="true"><num value="14"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1836" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13404,7 +13408,7 @@
                                  <author>Molière</author>
                                  <note type="description" anchored="true">portrait and plates, calf gilt, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1845" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="6"/></extent>
@@ -13640,7 +13644,7 @@
                                  <author>Musset, Alfred de</author>
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1876" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="5"/></extent>
@@ -13658,7 +13662,7 @@
                                  <author>Musset, Alfred de</author>
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1877" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13671,7 +13675,7 @@
                                  <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                  <note type="etc" anchored="true"><num value="18"/></note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1874" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13830,7 +13834,7 @@
                                  <title>Rabelais</title>
                                  <author>Nouvelle Collection Jannet</author>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1867" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="7"/></extent>
@@ -13850,7 +13854,7 @@
                                  <author>Nouvelle Collection Jannet</author>
                                  
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1868" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="4"/></extent>
@@ -13865,9 +13869,8 @@
                                  <title>Manon Lescaut</title>
                                  <!-- jawalsh: "author" below looks like  series. Figure out how to encode that as a series. -->
                                  <author>Nouvelle Collection Jannet</author>
-                                 
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>                                     
+                                     <pubPlace ref="#paris">Paris</pubPlace>                                     
                                      <date when="1867" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13880,7 +13883,7 @@
                                  <author>Nouvelle Collection Jannet</author>
                                  
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1867" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -13891,10 +13894,9 @@
                              <monogr>
                                  <title>Villon</title>
                                  <author>Nouvelle Collection Jannet</author>
-                                 
                                  <note type="etc" anchored="true">together</note> <!-- All 15 volumes of the collection are together from 1867-8? Check -->
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1867" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="15"/></extent> <!-- Or is this all the Nouvelle Collection Jannet stuff? -->
@@ -14066,7 +14068,7 @@
                                  <author>Omar</author>
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne copy to Swinburne, with autograph inscription of the translator</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1903" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -14107,7 +14109,7 @@
                                  <note type="description" anchored="true">frontispiece and vignettes by Eisen, old French calf, gilt edges</note>
                                  <imprint>
                                      <publisher>J. Barbou</publisher>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1762" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="3"/></extent>
@@ -14833,7 +14835,7 @@
                                  <author>Goncourt, E. et J. de</author>
                                  <note type="description" corresp="#uncut" anchored="true">printed within pictoral borders by Giacomelli, portraits, plates, etc. uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1878" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15126,7 +15128,7 @@
                                  <author>Lisle, Le Conte de</author>
                                  <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with inscription</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1888" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15138,7 +15140,7 @@
                                  <author>Leconte, S. C.</author>
                                  <note type="description" anchored="true">uncut</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1899" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15164,7 +15166,7 @@
                                  <author>Littré, E.</author>
                                  <note type="description" anchored="true">half morocco, marbled edges</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1873" instant="false"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="4"/></extent>
@@ -15209,7 +15211,7 @@
                                  <author>Ludwig, Chris.</author>
                                  <note type="description" anchored="true">calf</note>
                                  <imprint>
-                                     <pubPlace>Leipzig</pubPlace>
+                                     <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                      <date when="1736" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -15749,7 +15751,7 @@
                                  <author>Desmarests, I.</author>
                                  <note type="description" anchored="true">engravings, old calf gilt</note>
                                  <imprint>
-                                     <pubPlace>Paris</pubPlace>
+                                     <pubPlace ref="#paris">Paris</pubPlace>
                                      <date when="1661" instant="false"/>
                                  </imprint>
                              </monogr>
@@ -16044,7 +16046,7 @@
                                 <author>Poe, E.</author>
                                 <note type="description" corresp="#uncut" anchored="true">portrait, uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1885" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16057,7 +16059,7 @@
                                 <author>Mourey, G.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1895" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16071,7 +16073,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <note type="etc" corresp="#presentation" anchored="true">and others, some presentation copies to Swinburne, with inscriptions<num value="14"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1898" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16378,7 +16380,7 @@
                                 <author>Queen of Navarre</author>
                                 <note type="description" anchored="true">calf antique, red edges</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1615" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16424,7 +16426,7 @@
                                 <author>Racine, J.</author>
                                 <note type="description" anchored="true">portrait and plates, calf gilt, marbled edges</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1844" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
@@ -16608,7 +16610,7 @@
                                 <author>Marceton, P.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1889" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16622,7 +16624,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">one of 250 copies, uncut</note>
                                 <note type="etc" corresp="#presentation" anchored="true">and another, all presentation copies to Swinburne, with authors' inscriptions<num value="4"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1896" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16675,7 +16677,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne, with inscription</note>
                                 <note type="inscription" anchored="true">A. C. Swinburne, for T. Watts Dunton</note>
                                 <imprint>
-                                    <pubPlace>Leipzig</pubPlace>
+                                    <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                     <date when="1862" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/>vol. I and III</extent>
@@ -16697,7 +16699,7 @@
                                 <author>Richeliu</author>
                                 <note type="description" anchored="true">half bound</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1791" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
@@ -16726,7 +16728,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">uncut, with inscription</note>
                                 <note type="inscription" xml:lang="fr" anchored="true">à Ch. Algernon Swinburne qui a chanté louanges de Vienns, Lionel des Rieux</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1895" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -16874,7 +16876,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <note type="etc" corresp="#presentation" anchored="true">some presentation copies to Swinburne<num value="61"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1866" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -17037,7 +17039,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy from the author to Swinburne with autograph inscription</note>
                                 <note type="inscription" anchored="true">To Algernon Swinburne with all affection. D. G. Rossetti, <date when="1879" instant="false">1879</date></note>
                                 <imprint>
-                                    <pubPlace>Leipzig</pubPlace>
+                                    <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                     <date when="1873" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -18124,7 +18126,7 @@
                                 <author>Shakespeare, W.</author>
                                 <note type="inscription" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date instant="false">n.d.</date>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="18"/></extent>
@@ -18531,7 +18533,7 @@
                                 <author>Shelley, P. B.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut, another copy</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1883" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -18668,7 +18670,7 @@
                                 <note type="inscription" anchored="true">For A. C. Swinburne with regards and thanks of T. W. Higginson</note>
                                 <imprint>
                                     <publisher>R. Fonet</publisher>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1625" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -19108,7 +19110,7 @@
                                 <author>Stapfer, Paul</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1905" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19120,7 +19122,7 @@
                                 <author>Mendes, C.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19472,7 +19474,7 @@
                                 <author>Balzac</author>
                                 <note type="description" anchored="true">illustrations by G. Doré, vellum, red edges</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1855" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19595,7 +19597,7 @@
                                 <note type="inscription" anchored="true">To Algernon Charles Swinburne, with Homage, W. S.</note>
                                 <note type="etc" anchored="true"><num value="8"/></note>
                                 <imprint>
-                                    <pubPlace>Leipzig</pubPlace>
+                                    <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                     <date when="1901" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19613,7 +19615,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">uncut, 2 copies</note>
                                 <imprint>
-                                    <pubPlace>Leipzig</pubPlace>
+                                    <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                     <date when="1901" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19626,7 +19628,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">uncut, 6 copies</note>
                                 <note type="etc" anchored="true"><num value="9"/></note>
                                 <imprint>
-                                    <pubPlace>Leipzig</pubPlace>
+                                    <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                     <date when="1908" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19792,7 +19794,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">one of 25 copies on Japanese paper, uncut, presentation copy, with inscription, imperial 8vo.</note>
                                 <note type="inscription" xml:lang="fr" anchored="true">A l’Auteur de l’Ode a la Statue avec mes bien vives sympathies son traducteur Tola Dorian, Neuillym <date when="1882-12-15" instant="false">15 Decembre, 1882</date></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1882" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19810,7 +19812,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19826,7 +19828,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1883" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19840,7 +19842,7 @@
                                 <note type="etc" anchored="true"><num value="4"/></note>
                                 <edition/>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1659" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19854,7 +19856,7 @@
                                 <author>Swinburne, A. C.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19866,7 +19868,7 @@
                                 <author>Dolane, R.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1900" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19878,7 +19880,7 @@
                                 <author>Dorian, Tola</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date instant="false">n.d.</date>
                                 </imprint>
                             </monogr>
@@ -19891,7 +19893,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <note type="etc" corresp="#presentation" anchored="true">and others; all presentation copies to Swinburne, with inscriptions<num value="12"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1890" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19909,7 +19911,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1902" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19925,7 +19927,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1909" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19941,7 +19943,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1883" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -19955,7 +19957,7 @@
                                 <author>Swinburne, A. C.</author>
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut and unopened, presentation copy with inscription from Gabriel Mourey</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1909" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -20843,7 +20845,7 @@
                                 <author>Vacquerie, Aug.</author>
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburnem with inscription</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1872" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -20855,7 +20857,7 @@
                                 <author>Bauville, T. de</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1873" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -20872,7 +20874,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne with inscription</note>
                                 <note type="etc" anchored="true"><num value="9"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -20886,7 +20888,7 @@
                                 <author>Vacquerie, Aug.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1875" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -20898,7 +20900,7 @@
                                 <author>Hugo, V.</author>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1897" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -20912,7 +20914,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">illustrations, uncut, imperial 8vo</note>
                                 <note type="etc" corresp="#presentation" anchored="true">and others, some presentation copies to Swinburne with inscriptions<num value="9"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1881" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -21036,7 +21038,7 @@
                                 <title>Opera, edidit J. A. Amar</title>
                                 <author>Virgilius</author>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1826" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -21049,7 +21051,7 @@
                                 <author>Terentius</author>
                                 
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1823" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -21059,7 +21061,7 @@
                         </biblStruct>
                         <bibl xml:id="sb836.3" default="false" status="draft">
                             <title>Lucani Pharsalia</title>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace ref="#paris">Paris</pubPlace>
                             <date when="1822" instant="false"/>
                             <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nyp.33433081610267"/>
                             <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/nyp.33433081610275"/>
@@ -21070,7 +21072,7 @@
                                 
                                 <note type="description" anchored="true">calf gilt, marbled edges, with autograph of A. C. Swinburne dated 1850 in each vol.</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1822" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="6"/></extent>
@@ -21114,7 +21116,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy with inscription</note>
                                 <note type="inscription" anchored="true">To Swinburne who saw the Lesbian kissing across the smitten Lutes with lips more sweet than the sound of the lute string. Renée Vivien</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1903" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -21125,7 +21127,7 @@
                                 <title xml:lang="fr">Le Sage, Turcaret, Comédie en Cinq Actes, Précédée d’une Notice par F. de Marescot</title>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1872" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -21162,7 +21164,7 @@
                                 <title xml:lang="fr">Le Brutus avec un Discours sur la Tragédie</title>
                                 <author>Voltaire, M. de</author>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1731" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22067,7 +22069,7 @@
                                 <author>Rabelais, F.</author>
                                 <note type="description" corresp="#uncut" anchored="true">portrait and engravings, uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1798" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="3"/></extent>
@@ -22082,7 +22084,7 @@
                                 <title>Revue Illustrée, edit. F. G. Dumas</title>
                                 <note type="description" anchored="true">coloured plates and illustrations, half calf</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date from="1885" to="1886" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="1"/></extent>
@@ -22281,7 +22283,7 @@
                                 <author>Scott, Leader</author>
                                 <note type="description" anchored="true">illustrations, half vellum, gilt edges</note>
                                 <imprint>
-                                    <pubPlace>Florence</pubPlace>
+                                    <pubPlace ref="#florence">Florence</pubPlace>
                                     <date when="1891" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22492,7 +22494,7 @@
                                 <note type="description" corresp="#uncut #presentation" anchored="true">uncut, presentation copy to Swinburne</note>
                                 <note type="inscription" xml:lang="fr" anchored="true">A mon illustre Maitre, Ch. Algernon Swinburne mon frere en Victor Hugo tribut d’amitié et de reconnanssance. Tola Dorian</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1884" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22507,7 +22509,7 @@
                                 <note type="description" anchored="true">another copy, with inscription</note>
                                 <note type="inscription" xml:lang="fr" anchored="true">A mon tres cher et illustre Mairte, Ch. Algernon Swinburne hommage et reconnassance. Tola Dorian</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1884" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22521,7 +22523,7 @@
                                 <author>Shelley, P. B.</author>
                                 <note type="description" corresp="#uncut" anchored="true">another copy, uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1884" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22697,7 +22699,7 @@
                                 <title xml:lang="fr">Les Chansons de Bilitis, traduites di grec pour la première fois par P. L.</title>
                                 <note type="description" corresp="#uncut" anchored="true">uncut</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1895" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22856,7 +22858,7 @@
                                 <note type="inscription" anchored="true">To Algernon Charles Swinburne in sincere admiration, Oscar Wilde</note>
                                 <edition>First Edition</edition>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1893" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -22974,7 +22976,7 @@
                                 <note type="description" corresp="#presentation" anchored="true">one of 195 copies, presentation copy with book label and autograph inscription</note>
                                 <note type="inscription" xml:lang="fr" anchored="true">Au Maitre qui j’admire de lion et veux connaitre, Stephane Mallarme</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1876" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -23002,7 +23004,7 @@
                                 <note type="description" corresp="#uncut" anchored="true">coloured illustrations, etc. uncut</note>
                                 <note type="etc" anchored="true"><num value="6"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1887" instant="false"/>
                                 </imprint>
                             </monogr>
@@ -23035,7 +23037,7 @@
                                 <author>Plutarch</author>
                                 <note type="description" anchored="true">calf</note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1606" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -23049,7 +23051,7 @@
                                 <note type="description" anchored="true">old calf, title in facsimile</note>
                                 <note type="etc" anchored="true"><num value="4"/></note>
                                 <imprint>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1572" instant="false"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -23191,7 +23193,7 @@
                                 <note type="inscription" anchored="true">Charles Algernon Swinburne from his friend, William Morris, <date when="1872-03-25" instant="false">March 25th, 1872</date></note>
                                 <imprint>
                                     <publisher>J. Petit</publisher>
-                                    <pubPlace>Paris</pubPlace>
+                                    <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1539" instant="false"/> <!-- Hard to read. Looks like a "9" written in for the last digit. -->
                                 </imprint>
                             </monogr>
