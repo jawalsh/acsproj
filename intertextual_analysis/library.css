@@ -6,8 +6,15 @@ body {
 
 div.size > div:nth-of-type(odd) {
     background: #e8e8e8;
+    border: 1px solid #a0959b;
 }
 
 div.bibitem {
     padding:.5em;
+    width: 80%;
 }
+
+dt {
+    font-weight:bold;
+}
+

@@ -23,6 +23,37 @@
         </p>
     </xsl:template>
     
+    <xsl:template match="div">
+        <div>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="div[not(ancestor::div)]/head">
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="div[not(ancestor::div)]/list/head">
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
+    
+    <xsl:template match="list[@type='gloss']">
+        <dl>
+            <xsl:apply-templates/>
+        </dl>
+    </xsl:template>
+    
+    <xsl:template match="list[@type='gloss']/label">
+        <dt>
+            <xsl:apply-templates/>
+        </dt>
+    </xsl:template>
+    
+    <xsl:template match="list[@type='gloss']/item">
+        <dd>
+            <xsl:apply-templates/>
+        </dd>
+    </xsl:template>
 
     <xsl:template match="div[@type = 'day']">
         <div class="day">
@@ -39,7 +70,6 @@
     </xsl:template>
 
     <xsl:template match="listBibl[@type = 'lot']">
-        
                 <xsl:apply-templates/>
     </xsl:template>
     
@@ -100,6 +130,12 @@
             <b>note<xsl:if test="@resp"> (<xsl:value-of select="substring-after(@resp,'#')"/>)</xsl:if>: </b>
             <xsl:apply-templates/>
         </li>
+        <xsl:if test="contains(@corresp,'#uncut')">
+            <li><b>uncut pages</b></li>
+        </xsl:if>
+        <xsl:if test="contains(@corresp,'#presentation')">
+            <li><b>presentation copy</b></li>
+        </xsl:if>
     </xsl:template>
     
 
