@@ -230,6 +230,10 @@
                             <placeName type="preferred">Strasbourg</placeName>
                             <placeName>Argentum</placeName>
                         </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7010874" xml:id="cambridge">
+                            <placeName type="preferred">Cambridge</placeName>
+                            <placeName>Cantabrigia</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -8473,10 +8477,8 @@
                                      <resp/>
                                      <name full="yes"/>
                                  </respStmt>
-                                 
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace ref="#venice">in Vinegia</pubPlace>
                                      <date when="1551"/>
                                  </imprint>
@@ -8493,8 +8495,7 @@
                                  </respStmt>
                                  <note type="description">curious old woodcuts, old red morocco gilt, gilt edges</note>
                                  <edition/>
-                                 <imprint>
-                                     
+                                 <imprint> 
                                      <pubPlace/>
                                      <date from="1544" to="1551"/>
                                  </imprint>
@@ -8515,7 +8516,6 @@
                                  <note type="description" corresp="#uncut">half roan, uncut</note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1874"/>
                                  </imprint>
@@ -8535,7 +8535,6 @@
                                  <note type="description"/>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1889"/>
                                  </imprint>
@@ -8554,7 +8553,6 @@
                                  <note type="etc"><num value="10"/></note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1895"/>
                                  </imprint>
@@ -8574,7 +8572,6 @@
                                  <note type="description">crushed red morocco, gilt edges</note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1857"/>
                                  </imprint>
@@ -8598,7 +8595,6 @@
                                  <note type="inscription">A. C. Swinburne, <date when="1849-10-20">October 20th, 1849</date></note> <!-- I have this as an inscription even though Swinburne was the one who wrote it. -->
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1848"/>
                                  </imprint>
@@ -8619,7 +8615,6 @@
                                  <note type="description"/>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1879"/>
                                  </imprint>
@@ -8637,7 +8632,6 @@
                                  <note type="description"/>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1896"/>
                                  </imprint>
@@ -8655,7 +8649,6 @@
                                  <note type="etc" corresp="#presentation">and others; all presentation copies to Swinburne with inscriptions<num value="7"/></note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace>Allahbad</pubPlace>
                                      <date when="1902"/>
                                  </imprint>
@@ -8675,7 +8668,6 @@
                                  <note type="description">illustrations by Maxfield Parrish</note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1900"/>
                                  </imprint>
@@ -8693,7 +8685,6 @@
                                  <note type="description">2 copies</note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1899"/>
                                  </imprint>
@@ -8711,7 +8702,6 @@
                                  <note type="etc">and other Novels<num value="18"/></note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1900"/>
                                  </imprint>
@@ -8731,7 +8721,6 @@
                                  <note type="description" corresp="#uncut">uncut</note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1898"/>
                                  </imprint>
@@ -8749,7 +8738,6 @@
                                  <note type="description"/>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1891"/>
                                  </imprint>
@@ -8767,7 +8755,6 @@
                                  <note type="description"/>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1899"/>
                                  </imprint>
@@ -8785,7 +8772,6 @@
                                  <note type="etc"><num value="8"/></note>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace/>
                                      <date when="1883"/>
                                  </imprint>
@@ -8796,7 +8782,7 @@
                      <listBibl type="lot" xml:id="sb329">
                          <biblStruct xml:id="sb329.1">
                              <monogr>
-                                 <title>Greville Memoirs. Journal of the Reigns of King Geroge IV and King William IV</title>
+                                 <title>Greville Memoirs. Journal of the Reigns of King George IV and King William IV</title>
                                  <respStmt>
                                      <resp>edited by</resp>
                                      <name full="yes">H. Reeve</name>
@@ -8864,7 +8850,7 @@
                              <monogr>
                                  <title xml:lang="fr">Le Semeur de Cendres, <date from="1898" to="1900">1898-1900</date></title>
                                  <author>Guerin, Chas.</author>
-                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne, with inscription, instered are four autograph letters, one interesting one from W. M. Rossetti</note>
+                                 <note type="description" corresp="#uncut #presentation">uncut, presentation copy to Swinburne, with inscription, inserted are four autograph letters, one interesting one from W. M. Rossetti</note>
                                  <note type="inscription" xml:lang="fr">Au grand Swinburne, Charles Guerin</note>
                                  <imprint>
                                      <pubPlace ref="#paris">Paris</pubPlace>
@@ -8991,7 +8977,7 @@
                      <listBibl type="lot" xml:id="sb337">
                          <biblStruct xml:id="sb337.1">
                              <monogr>
-                                 <title>Outlines of the Life of Shakepseare</title>
+                                 <title>Outlines of the Life of Shakespeare</title>
                                  <author>Halliwell-Phillips, J. O.</author>
                                  <note type="description" corresp="#presentation">presentation copy with autograph inscription</note>
                                  <note type="inscription">A. C. Swinburne, Esq. with the author's kind regards, Hollinbury Copse, Brighton, <date when="1882-08">Augt. 1882</date></note>
@@ -9177,7 +9163,7 @@
                                  <author>Hawkins, Wm.</author>
                                  <note type="description">frontispiece by T. Cecil, and plate, olive levant morocco</note>
                                  <imprint>
-                                     <pubPlace>Cantab.</pubPlace>
+                                     <pubPlace ref="#cambridge">Cantabrigia</pubPlace>
                                      <date when="1634"/>
                                  </imprint>
                              </monogr>
@@ -9190,7 +9176,7 @@
                              <monogr>
                                  <title>Correspondence and Table-Talk with a Memoir by his Son</title>
                                  <author>Haydon, Benji. R.</author>
-                                 <note type="description">fascimile illustrations</note>
+                                 <note type="description">facsimile illustrations</note>
                                  <imprint>
                                      <date when="1876"/>
                                  </imprint>
