@@ -226,6 +226,10 @@
                             <placeName>Roma</placeName>
                             <placeName>Romae</placeName>
                         </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7012346" xml:id="strasbourg">
+                            <placeName type="preferred">Strasbourg</placeName>
+                            <placeName>Argentum</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -8069,7 +8073,7 @@
                         <listBibl type="lot" xml:id="sb302">
                             <biblStruct xml:id="sb302.1">
                                 <monogr>
-                                    <title>Life of Napoleon Boneparte</title>
+                                    <title>Life of Napoleon Bonaparte</title>
                                     <author>Baring-Gould, S.</author>
                                     <note type="description">plates and illustrations</note>
                                     <imprint>
@@ -8138,8 +8142,18 @@
                                     <author>Bembo, P.</author>
                                     <note type="description">old half binding</note>
                                     <imprint>
+<<<<<<< Updated upstream
                                         <pubPlace>Venet.</pubPlace>
                                         <date when="1525"/>
+=======
+<<<<<<< HEAD
+                                        <pubPlace ref="#venice">Venetia</pubPlace>
+                                        <date when="1525" instant="false"/>
+=======
+                                        <pubPlace>Venet.</pubPlace>
+                                        <date when="1525"/>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
@@ -8155,8 +8169,18 @@
                                     <note type="description">This magnificent specimen of the printing of the period was severly censured by Bp. Wetenhal for the errors of the press, amongst which, as the nost dangerous, may be noted Acts vi, 3 “Ye may appoint” instead of “We,” and 1 Tim. iv, 6 “Thy” for “the Doctrine”</note>
                                     <imprint>
                                         <publisher>J. Field</publisher>
+<<<<<<< Updated upstream
                                         <pubPlace>Camb.</pubPlace>
                                         <date when="1660"/>
+=======
+<<<<<<< HEAD
+                                        <pubPlace>Cambridge</pubPlace>
+                                        <date when="1660" instant="false"/>
+=======
+                                        <pubPlace>Camb.</pubPlace>
+                                        <date when="1660"/>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
@@ -8201,8 +8225,19 @@
                                     <author>Boccaccio, Giov.</author>
                                     <note type="description">85 leaves</note>
                                     <imprint>
+<<<<<<< Updated upstream
                                         <publisher>Argent. G. Husner</publisher>
                                         <date when="1479">c. 1479</date>
+=======
+<<<<<<< HEAD
+                                        <publisher>G. Husner</publisher>
+                                        <pubPlace ref="#strasbourg">Argentum</pubPlace>
+                                        <date when="1479" instant="false">c. 1479</date>
+=======
+                                        <publisher>Argent. G. Husner</publisher>
+                                        <date when="1479">c. 1479</date>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
@@ -8212,10 +8247,25 @@
                                 <monogr>
                                     <title>De Casibus Virorum illustrium</title>
                                     <author>Boccaccio, Giov.</author>
+<<<<<<< Updated upstream
                                     <note type="description">149 leaves, lit. goth, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, gilt edges, last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque <choice><orig>notae</orig><reg>notae</reg></choice></foreign></note>
                                     <imprint>
                                         <publisher>Argent. G. Husner</publisher>
                                         <date when="1479">c. 1479</date>
+=======
+<<<<<<< HEAD
+                                    <note type="description" anchored="true">149 leaves, gothic letter, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, gilt edges, last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque <choice><orig>notae</orig><reg instant="false">notae</reg></choice></foreign></note>
+                                    <imprint>
+                                        <publisher>G. Husner</publisher>
+                                        <pubPlace ref="#strasbourg">Argentum</pubPlace>
+                                        <date when="1479" instant="false">c. 1479</date>
+=======
+                                    <note type="description">149 leaves, lit. goth, both printed in the same type by the same printer, red initials, straight-grained red morocco gilt, gilt edges, last leaf slightly defective and one or two leaves have plain margins repaired [Pellechet 2473; Hain 3338], <foreign xml:lang="la">absque <choice><orig>notae</orig><reg>notae</reg></choice></foreign></note>
+                                    <imprint>
+                                        <publisher>Argent. G. Husner</publisher>
+                                        <date when="1479">c. 1479</date>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/></extent>
                                 </monogr>
@@ -8226,12 +8276,26 @@
                         <listBibl type="lot" xml:id="sb310">
                             <biblStruct xml:id="sb310.1">
                                 <monogr>
-                                    <title xml:lang="la">De Consolatione et De Disciplina Scholarum, lit. goth</title>
+                                    <title xml:lang="la">De Consolatione et De Disciplina Scholarum</title>
                                     <author>Boetius</author>
+<<<<<<< Updated upstream
                                     <note type="description">old vellum, Dr. Kloss's copy with his book label</note>
                                     <imprint>
                                         <pubPlace>Venet.</pubPlace>
                                         <date when="1497"/>
+=======
+<<<<<<< HEAD
+                                    <note type="description" anchored="true">gothic letter, old vellum, Dr. Kloss's copy with his book label</note>
+                                    <imprint>
+                                        <pubPlace ref="#venice">Venetia</pubPlace>
+                                        <date when="1497" instant="false"/>
+=======
+                                    <note type="description">old vellum, Dr. Kloss's copy with his book label</note>
+                                    <imprint>
+                                        <pubPlace>Venet.</pubPlace>
+                                        <date when="1497"/>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="none" target=""/>
@@ -8304,7 +8368,15 @@
                              <monogr>
                                  <title xml:lang="fr">Poésies qui ye figurerout pas dans ses OEuvres, précédées d'une Autobiographie</title>
                                  <author>Gautier, Th.</author>
+<<<<<<< Updated upstream
                                  <note type="description">protrait, polished falg gilt, gilt edges</note>
+=======
+<<<<<<< HEAD
+                                 <note type="description" anchored="true">portrait, polished calf gilt, gilt edges</note>
+=======
+                                 <note type="description">protrait, polished falg gilt, gilt edges</note>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                  <imprint>
                                      <publisher xml:lang="fr">Imprimerie Particulière</publisher>
                                      <pubPlace>France</pubPlace>
@@ -8332,9 +8404,21 @@
                          <biblStruct xml:id="sb314.2">
                              <monogr>
                                  <title>Mr. Punch's Model Music-Hall Songs and Dramas</title>
+<<<<<<< Updated upstream
                                  <author>Antsey, F.</author>
                                  <note type="description">illustrations</note>
                                  <note type="etc"><num value="8"/></note>
+=======
+<<<<<<< HEAD
+                                 <author>Anstey, F.</author>
+                                 <note type="description" anchored="true">illustrations</note>
+                                 <note type="etc" anchored="true"><num value="8"/></note>
+=======
+                                 <author>Antsey, F.</author>
+                                 <note type="description">illustrations</note>
+                                 <note type="etc"><num value="8"/></note>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                  <imprint>
                                      <date when="1892"/>
                                  </imprint>
@@ -8388,7 +8472,7 @@
                          <biblStruct xml:id="sb316.2">
                              <monogr>
                                  <title xml:lang="fr">Les Chats: Extraits de Pices Rares at Curieuses en Vers et en Prose, de tout concernant la gent feline recuillis par Jéan Gay</title>
-                                 <author/>
+                                 <author>Jéan Gay</author>
                                  <respStmt>
                                      <resp/>
                                      <name full="yes"/>
@@ -8405,7 +8489,7 @@
                          <biblStruct xml:id="sb316.3">
                              <monogr>
                                  <title xml:lang="fr">Histoire des Faïences Patriotiques sous la Revolution</title>
-                                 <author>Champfluery</author>
+                                 <author>Champfleury</author>
                                  <respStmt>
                                      <resp/>
                                      <name full="yes"/>
@@ -8430,12 +8514,29 @@
                                      <resp/>
                                      <name full="yes"/>
                                  </respStmt>
+<<<<<<< Updated upstream
                                  <note type="description">with the extra leaves, blank leaves and dedications, 2 vol. in 4, woodcut portrait, etc. russia; as the number of blank leaves vary the copy will be sold not subject to return</note>
                                  <note type="description">The course form which Shakepseare gathered some of his plots.</note>
                                  <edition>First Edition</edition>
                                  <imprint>
                                      <pubPlace/>
                                      <date/>
+=======
+<<<<<<< HEAD
+                                 <note type="description" anchored="true">with the extra leaves, blank leaves and dedications, 2 vol. in 4, woodcut portrait, etc. russia; as the number of blank leaves vary the copy will be sold not subject to return</note>
+                                 <note type="description" anchored="true">The source from which Shakespeare gathered some of his plots.</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <date instant="false"/>
+=======
+                                 <note type="description">with the extra leaves, blank leaves and dedications, 2 vol. in 4, woodcut portrait, etc. russia; as the number of blank leaves vary the copy will be sold not subject to return</note>
+                                 <note type="description">The course form which Shakepseare gathered some of his plots.</note>
+                                 <edition>First Edition</edition>
+                                 <imprint>
+                                     <pubPlace/>
+                                     <date/>
+>>>>>>> ef2ad17303d89f65e2f1fc049d7cf56f03d6f6c2
+>>>>>>> Stashed changes
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
                              </monogr>
@@ -8454,7 +8555,6 @@
                                  <note type="description"/>
                                  <edition/>
                                  <imprint>
-                                     
                                      <pubPlace ref="#venice">in Vinegia</pubPlace>
                                      <date when="1548"/>
                                  </imprint>
