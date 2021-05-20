@@ -8163,7 +8163,7 @@
                                     <note type="description">This magnificent specimen of the printing of the period was severely censured by Bp. Wetenhal for the errors of the press, amongst which, as the nost dangerous, may be noted Acts vi, 3 “Ye may appoint” instead of “We,” and 1 Tim. iv, 6 “Thy” for “the Doctrine”</note>
                                     <imprint>
                                         <publisher>J. Field</publisher>
-                                        <pubPlace>Cambridge</pubPlace>
+                                        <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1660" instant="false"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -8180,7 +8180,7 @@
                                     <note type="description">old calf, rebacked, design on the sides, gilt edges</note>
                                     <edition>Baskerville's Edition</edition>
                                     <imprint>
-                                        <pubPlace>Cambridge</pubPlace>
+                                        <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1763"/>
                                     </imprint>
                                 </monogr>
@@ -9243,11 +9243,11 @@
                              <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044020044046"/>
                              <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044020043972"/>
                          </biblStruct>
-                         <biblStruct xml:id="sb362.2">
+                         <biblStruct xml:id="sb352.2">
                              <monogr>
                                  <title>William Blake</title>
                                  <author>Symons, A.</author>
-                                 <note type="description">buckram, uncut, top edge gilt, presentation copy wit Swinburne from the author with autograph inscription</note>
+                                 <note type="description">buckram, uncut, top edge gilt, presentation copy to Swinburne from the author with autograph inscription</note>
                                  <note type="etc"><num value="3"/></note>
                                  <imprint>
                                      <date when="1907"/>
@@ -12152,7 +12152,7 @@
                                  <title><foreign xml:lang="la">De Rerum Natura Libri Sex</foreign>, with Notes and a Translation by H. A. J. Mnro</title>
                                  <author>Lucretius</author>
                                  <imprint>
-                                     <pubPlace>Cambridge</pubPlace>
+                                     <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                      <date when="1866"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="2"/></extent>
@@ -13460,7 +13460,7 @@
                                  <edition>First Edition</edition>
                                  <idno type="tcp">A51312</idno>
                                  <imprint>
-                                     <pubPlace>Cambridge</pubPlace>
+                                     <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                      <date when="1642"/>
                                  </imprint>
                              </monogr>
@@ -19986,7 +19986,7 @@
                                 <author>Kingsley, Chas.</author>
                                 <note type="etc"><num value="6"/></note>
                                 <imprint>
-                                    <pubPlace>Cambridge</pubPlace>
+                                    <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                     <date when="1854"/>
                                 </imprint>
                             </monogr>
