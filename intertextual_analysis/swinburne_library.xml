@@ -234,6 +234,10 @@
                             <placeName type="preferred">Cambridge</placeName>
                             <placeName>Cantabrigia</placeName>
                         </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7011931" xml:id="oxford">
+                            <placeName type="preferred">Oxford</placeName>
+                            <placeName>Oxonii</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -326,7 +330,7 @@
                                 <note type="description" corresp="#uncut">one of 100 copies, uncut</note>
                                 <note type="etc">presentation copies to Swinburne with inscriptions<num value="6"/></note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <publisher>Henry Daniel</publisher>
                                     <date when="1884"/>
                                 </imprint>
@@ -889,7 +893,7 @@
                                 <note type="description">Another edition</note>
                                 <note type="etc"><num value="2"/></note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1906"/>
                                 </imprint>
                             </monogr>
@@ -2068,7 +2072,7 @@
                                     <author>Blake, Wm.</author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -2149,7 +2153,7 @@
                                     <author>Blake, Wm.</author>
                                     <note type="description">facsimile</note>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -4202,7 +4206,7 @@
                                     </respStmt>
                                     <note type="description">portrait, buckram</note>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date from="1894" to="1897"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="7"/></extent>
@@ -4248,7 +4252,7 @@
                                     <note type="etc"><num value="5"/></note>
                                     <imprint>
                                         <publisher>Chaucer Society</publisher>
-                                        <pubPlace>Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                 </monogr>
@@ -4542,7 +4546,7 @@
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc"><num value="6"/></note>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -7083,7 +7087,7 @@
                                     <author>Bible</author>
                                     <note type="description">engraved title, old blue morocco gilt, ornamental tooling on the sides, gilt edges</note>
                                     <imprint>
-                                        <pubPlace>Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1712"/>
                                     </imprint>
                                 </monogr>
@@ -9146,7 +9150,7 @@
                                  <author>Hawkins, Thos.</author>
                                  <note type="description">calf</note>
                                  <imprint>
-                                     <pubPlace>Oxford</pubPlace>
+                                     <pubPlace ref="#oxford">Oxford</pubPlace>
                                      <date when="1773"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="3"/></extent>
@@ -10673,7 +10677,7 @@
                                  </respStmt>
                                  <note type="description" corresp="#uncut">frontispiece, buckram, uncut</note>
                                  <imprint>
-                                     <pubPlace>Oxford</pubPlace>
+                                     <pubPlace ref="#oxford">Oxford</pubPlace>
                                      <date when="1906"/>
                                  </imprint>
                              </monogr>
@@ -11332,7 +11336,7 @@
                                  <title>Gebir, a Poem</title>
                                  <author>Landor, W. S.</author>
                                  <imprint>
-                                     <pubPlace>Oxford</pubPlace>
+                                     <pubPlace ref="#oxford">Oxford</pubPlace>
                                      <date when="1803"/>
                                  </imprint>
                              </monogr>
@@ -11364,7 +11368,7 @@
                                  <note type="description">calf gilt, marbled edges; The only edition of the scarce work mentioned by Lowndes was printed at Pisa in 1820</note>
                                  <edition>First Edition</edition>
                                  <imprint>
-                                     <pubPlace>Oxonii</pubPlace>
+                                     <pubPlace ref="#oxford">Oxonii</pubPlace>
                                      <date when="1815"/>
                                  </imprint>
                              </monogr>
@@ -11460,7 +11464,7 @@
                                  <title>In the Garden of Dreams</title>
                                  <author>Moulton, L. Chandler</author>
                                  <note type="description" corresp="#presentation">presentation copy, with inscription</note>
-                                 <note type="inscription">To Algernon Charles Swinburne wit hthe admiring regards of Louise Chandler Moulton, <date when="1889-12">December, 1889</date></note>
+                                 <note type="inscription">To Algernon Charles Swinburne with the admiring regards of Louise Chandler Moulton, <date when="1889-12">December, 1889</date></note>
                                  <imprint>
                                      <pubPlace>Boston</pubPlace>
                                      <date when="1890"/>
@@ -12166,7 +12170,7 @@
                                  <author>Ellis, R.</author>
                                  <note type="etc"><num value="7"/></note>
                                  <imprint>
-                                     <pubPlace>Oxford</pubPlace>
+                                     <pubPlace ref="#oxford">Oxford</pubPlace>
                                      <date when="1876"/>
                                  </imprint>
                              </monogr>
@@ -14625,7 +14629,7 @@
                                  <author>Plato</author>
                                  <note type="description">brown cloth, top edge gilt</note>
                                  <imprint>
-                                     <pubPlace>Oxford</pubPlace>
+                                     <pubPlace ref="#oxford">Oxford</pubPlace>
                                      <date when="1892"/>
                                  </imprint>
                                  <extent><measure unit="volumes" quantity="5"/></extent>
@@ -15216,7 +15220,7 @@
                                  <note type="description">half morocco, marbled edges</note>
                                  <note type="etc"><num value="5"/></note>
                                  <imprint>
-                                     <pubPlace>Oxford</pubPlace>
+                                     <pubPlace ref="#oxford">Oxford</pubPlace>
                                      <date when="1864"/>
                                  </imprint>
                              </monogr>
@@ -18044,7 +18048,7 @@
                                 <author>Shakespeare, W.</author>
                                 <note type="etc"><num value="6"/></note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1908"/>
                                 </imprint>
                             </monogr>
@@ -18421,7 +18425,7 @@
                                 <title>Adonias, edited, with Introduction and Notes, by W. M. Rossetti</title>
                                 <author>Shelley, P. B.</author>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1891"/>
                                 </imprint>
                             </monogr>
@@ -18581,7 +18585,7 @@
                                 <title>The Shirburn Ballads, 1585-1616, edited from the MS. by Andrew Clark</title>
                                 <note type="description" corresp="#uncut">portrait and woodcuts, uncut</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
@@ -20242,7 +20246,7 @@
                                 <title>Testament, Greek, with English Notes by E. Burton</title>
                                 <note type="description">calf, numerous MS. notes in pencil, presumed to be in the handwriting of Swinburne</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1848"/>
                                 </imprint>
                             </monogr>
@@ -20548,7 +20552,7 @@
                                 <title>Rise of the Greek Epic</title>
                                 <author>Murray, G.</author>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
@@ -20564,7 +20568,7 @@
                                     <name full="yes">B. Jowett</name>
                                 </respStmt>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1881"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -20583,7 +20587,7 @@
                                 
                                 <note type="etc"><num value="4"/></note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1885"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -20603,7 +20607,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut">uncut, with MS. note in Swinburne’s handwriting</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1878"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -21780,7 +21784,7 @@
                                 </respStmt>
                                 <note type="description">facsimile</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1885"/>
                                 </imprint>
                             </monogr>
@@ -22348,7 +22352,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut">facsimile of the First Edition, vellum, uncut, with ties</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
@@ -22366,7 +22370,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut">facsimile of the First Edition, vellum, uncut, with ties</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
@@ -22384,7 +22388,7 @@
                                 </respStmt>
                                 <note type="description">facsimile of the First Edition, vellum, uncut, with ties</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
@@ -22402,7 +22406,7 @@
                                 </respStmt>
                                 <note type="description" corresp="#uncut">facsimile of the First Edition, vellum, uncut, with ties</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
@@ -22420,7 +22424,7 @@
                                 </respStmt>
                                 <note type="description">facsimile of the First Edition, vellum, uncut, with ties</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1905"/>
                                 </imprint>
                             </monogr>
@@ -23138,7 +23142,7 @@
                                 <author>Shakespeare, W.</author>
                                 <note type="description" corresp="#uncut">rough calf, uncut, with ties</note>
                                 <imprint>
-                                    <pubPlace>Oxford</pubPlace>
+                                    <pubPlace ref="#oxford">Oxford</pubPlace>
                                     <date when="1902"/>
                                 </imprint>
                             </monogr>
