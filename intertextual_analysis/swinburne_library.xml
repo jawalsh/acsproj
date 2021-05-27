@@ -238,6 +238,14 @@
                             <placeName type="preferred">Oxford</placeName>
                             <placeName>Oxonii</placeName>
                         </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7007006" xml:id="leeuwarden">
+                            <placeName type="preferred">Leeuwarden</placeName>
+                            <placeName>Leorardiae</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7005903" xml:id="milan">
+                            <placeName type="preferred">Milan</placeName>
+                            <placeName>Milano</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -3701,7 +3709,7 @@
                                     <author>Campani, G. P.</author> <!-- Check speling. -->
                                     <note type="description">portrait, calf gilt</note>
                                     <imprint>
-                                        <pubPlace>Milano</pubPlace>
+                                        <pubPlace ref="#milan">Milano</pubPlace>
                                         <date when="1806"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/></extent>
@@ -11691,16 +11699,16 @@
                          </biblStruct>
                          <biblStruct xml:id="sb452.2">
                              <monogr>
-                                 <title xml:lang="la">Caluthi Raptno Helenae recensuit ad fidem Codicum MSS. ac variantes lectiones et Notes adject J. Dan. a Lennep</title>
+                                 <title xml:lang="la">Caluthi Raptno Helenae recensuit ad fidem Codicum MSS. ac variantes lectiones et Nota adjecit J. Dan. a Lennep</title>
                                  <note type="description">vellum</note>
                                  <note type="etc"><num value="3"/></note>
                                  <imprint>
-                                     <pubPlace>Leorard.</pubPlace>
+                                     <pubPlace ref="#leeuwarden">Leorardiae</pubPlace>
                                      <date when="1747"/>
                                  </imprint>
                              </monogr>
-                             <relatedItem type="none" target=""/>
-                             <note type="fulltext">Cannot discern what work this is meant to be.</note>
+                             <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.hxg95t"/>
+                             <note type="fulltext">Previously unidentified, but this seems to be the correct book.</note>
                          </biblStruct>
                      </listBibl>
                      <listBibl type="lot" xml:id="sb453">
@@ -12026,7 +12034,7 @@
                          <biblStruct xml:id="sb464.2">
                              <monogr>
                                  <title>Mr. Punch's Pocket Ibsen</title>
-                                 <author>Austey, F.</author>
+                                 <author>Anstey, F.</author>
                                  <note type="description">illustrations</note>
                                  <imprint>
                                      <date when="1893"/>
@@ -12142,8 +12150,9 @@
                              <monogr>
                                  <title>Songs from a Studio</title>
                                  <author>Woodward, A. T.</author>
-                                 <note type="description" corresp="#uncut #presentation">uncut, presented to A. C. Swinburne by the Author, with original Sonnet, etc. in his handwriting, Melbourne</note> 
+                                 <note type="description" corresp="#uncut #presentation">uncut, presented to A. C. Swinburne by the Author, with original Sonnet, etc. in his handwriting</note> 
                                  <imprint>
+                                     <pubPlace>Melbourne</pubPlace>
                                      <date when="1899"/>
                                  </imprint>
                              </monogr>
@@ -12153,7 +12162,7 @@
                      <listBibl type="lot" xml:id="sb468">
                          <biblStruct xml:id="sb468.1">
                              <monogr>
-                                 <title><foreign xml:lang="la">De Rerum Natura Libri Sex</foreign>, with Notes and a Translation by H. A. J. Mnro</title>
+                                 <title><foreign xml:lang="la">De Rerum Natura Libri Sex</foreign>, with Notes and a Translation by H. A. J. Munro</title>
                                  <author>Lucretius</author>
                                  <imprint>
                                      <pubPlace ref="#cambridge">Cambridge</pubPlace>
@@ -12197,7 +12206,7 @@
                                  <author>Rapisardi, M.</author>
                                  <note type="description" corresp="#uncut">uncut</note>
                                  <imprint>
-                                     <pubPlace>Milano</pubPlace>
+                                     <pubPlace ref="#milan">Milano</pubPlace>
                                      <date when="1877"/>
                                  </imprint>
                              </monogr>
@@ -12919,7 +12928,7 @@
                                  <note type="description" corresp="#presentation">calf gilt, gilt edges, presentation copy, with inscription</note>
                                  <note type="inscription" xml:lang="it">Ad Alg. C. Swinburne con affeteo Guis. Mazzini</note>
                                  <imprint>
-                                     <pubPlace>Milano</pubPlace>
+                                     <pubPlace ref="#milan">Milano</pubPlace>
                                      <date when="1861"/>
                                  </imprint>
                              </monogr>
