@@ -246,6 +246,10 @@
                             <placeName type="preferred">Milan</placeName>
                             <placeName>Milano</placeName>
                         </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7004847" xml:id="bologna">
+                            <placeName type="preferred">Bologna</placeName>
+                            <placeName>Bononia</placeName>
+                        </place>
                     </listPlace>
                 </div>
                 <div n="authors">
@@ -6166,7 +6170,7 @@
                             <biblStruct xml:id="sb220.1">
                                 <monogr>
                                     <title xml:lang="la">Poesis Philosophica, vel saltem Reliquiae Poesis Philosophicae, Empedocilis, Xenophonis, Timonis, Parmenidis, Cleanthis, Epicharmi</title>
-                                    <author>Estinne, H.</author>
+                                    <author>Estienne, H.</author>
                                     <note type="description">calf, arms of Herbery Norman Evans, M. D. on sides, marbled edges</note>
                                     <imprint>
                                         <date when="1573"/>
@@ -14607,7 +14611,7 @@
                      <listBibl type="lot" xml:id="sb560">
                          <biblStruct xml:id="sb560.1">
                              <monogr>
-                                 <title xml:lang="la">Olympia, Pythia, Nemea, Isthmia Caerorum Octo Lyricorum Carmina</title>
+                                 <title xml:lang="la">Olympia, Pythia, Nemea, Isthmia Caetorum Octo Lyricorum Carmina</title>
                                  <author>Pindarus</author>
                                  <imprint>
                                      <date when="1539"/>
@@ -14674,7 +14678,7 @@
                              <monogr>
                                  <title>De Jure Maiestatis, or Political Treatise of Government (1628-30) and Letter Book, edited with Notes, etc. by A. B. Grossart</title>
                                  <author>Eliot, Sir John</author>
-                                 <note type="description">one of 100 copies, fascimiles, privately printed</note>
+                                 <note type="description">one of 100 copies, facsimiles, privately printed</note>
                                  <imprint>
                                      <date when="1882"/>
                                  </imprint>
@@ -14751,7 +14755,7 @@
                                      <resp>edited by</resp>
                                      <name full="yes">F. Locker-Lampson</name>
                                  </respStmt>
-                                 <note type="description" corresp="#uncut">portait, half vellum, uncut</note>
+                                 <note type="description" corresp="#uncut">portrait, half vellum, uncut</note>
                                  <imprint>
                                      <date when="1891"/>
                                  </imprint>
@@ -14834,7 +14838,7 @@
                      <listBibl type="lot" xml:id="sb571">
                          <biblStruct xml:id="sb571.1">
                              <monogr>
-                                 <title xml:lang="fr">Histoire de Maire-Antoinette</title>
+                                 <title xml:lang="fr">Histoire de Marie-Antoinette</title>
                                  <author>Goncourt, E. et J. de</author>
                                  <note type="description" corresp="#uncut">printed within pictoral borders by Giacomelli, portraits, plates, etc. uncut</note>
                                  <imprint>
@@ -15086,7 +15090,8 @@
                                  <author>Leonicennus, Nic.</author>
                                  <note type="description">old boards</note>
                                  <imprint>
-                                     <publisher>Bononia Joan. Ant. de Benedictis</publisher>
+                                     <publisher>Joan. Ant. de Benedictis</publisher>
+                                     <pubPlace ref="#bologna">Bononia</pubPlace>
                                      <date when="1518"/>
                                  </imprint>
                              </monogr>
