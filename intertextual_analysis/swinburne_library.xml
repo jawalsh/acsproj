@@ -192,6 +192,7 @@
                             <placeName type="preferred">Florence</placeName>
                             <placeName>Firenze</placeName>
                             <placeName>Florentiae</placeName>
+                            <placeName>Fiorenza</placeName>
                         </place>
                         <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
                             <placeName type="preferred">Vārānasi</placeName>
@@ -249,6 +250,10 @@
                         <place source="http://vocab.getty.edu/page/tgn/7004847" xml:id="bologna">
                             <placeName type="preferred">Bologna</placeName>
                             <placeName>Bononia</placeName>
+                        </place>
+                        <place source="http://vocab.getty.edu/page/tgn/7008772" xml:id="lyon">
+                            <placeName type="preferred">Lyon</placeName>
+                            <placeName>Lugduni</placeName>
                         </place>
                     </listPlace>
                 </div>
@@ -17825,7 +17830,7 @@
                                 <note type="description">brown cloth, royal 8vo.</note>
                                 <edition>New Variorum Edition</edition>
                                 <imprint>
-                                    <pubPlace>Philidelphia</pubPlace>
+                                    <pubPlace>Philadelphia</pubPlace>
                                     <date when="1874"/>
                                 </imprint>
                             </monogr>
@@ -17963,7 +17968,7 @@
                                 <note type="inscription">A. C. Swinburne with the admiration of Horace Howard Furness, <date when="1907-09">September, 1907</date></note>
                                 <edition>Variorum Edition</edition>
                                 <imprint>
-                                    <pubPlace>Philidelphia</pubPlace>
+                                    <pubPlace>Philadelphia</pubPlace>
                                     <date when="1907"/>
                                 </imprint>
                             </monogr>
@@ -18170,7 +18175,7 @@
                     <listBibl type="lot" xml:id="sb715">
                         <bibl xml:id="sb715.1">
                                 <author>Shakespeare Society Publications</author>
-                            <date>v.y.</date>
+                            <date>various years</date>
                             <extent><measure unit="volumes" quantity="39"/>various</extent>
                             <note resp="#jawalsh">Not possible to determine the identity of individual volumes.</note>
                         </bibl>
@@ -19398,7 +19403,7 @@
                                 <note type="description">old stamped binding</note>
                                 <imprint>
                                     <publisher>in aedibus Aldi at Soceri</publisher>
-                                    <pubPlace>Venet.</pubPlace>
+                                    <pubPlace ref="#venice">Venet.</pubPlace>
                                     <date when="1513"/>
                                 </imprint>
                             </monogr>
@@ -19526,7 +19531,7 @@
                             <monogr>
                                 <title>Tragedies</title>
                                 <author>Swinburne, A. C.</author>
-                                <note type="description" corresp="#presentation">lexant morocco gilt, inside line borders, gilt edges, by Riviere, Fine Copy. This copy was specially bound for the publishers, and presented by them to Swinburne</note>
+                                <note type="description" corresp="#presentation">levnt morocco gilt, inside line borders, gilt edges, by Riviere, Fine Copy. This copy was specially bound for the publishers, and presented by them to Swinburne</note>
                                 <imprint>
                                     <date from="1905" to="1906"/>
                                 </imprint>
@@ -20244,7 +20249,7 @@
                                 <author>Terentius</author>
                                 <note type="description">old binding, apud Seb. Gryphium</note>
                                 <imprint>
-                                    <pubPlace>Lugduni</pubPlace>
+                                    <pubPlace ref="#lyon">Lugduni</pubPlace>
                                     <date when="1554"/>
                                 </imprint>
                             </monogr>
@@ -20595,7 +20600,6 @@
                                     <resp>translated by</resp>
                                     <name full="yes">B. Jowett</name>
                                 </respStmt>
-                                
                                 <note type="etc"><num value="4"/></note>
                                 <imprint>
                                     <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -20818,7 +20822,6 @@
                             <monogr>
                                 <title>Comus a Maske</title>
                                 <author>Milton, J.</author>
-                                
                                 <imprint>
                                     <pubPlace>New York</pubPlace>
                                     <date when="1902"/>
@@ -20935,6 +20938,7 @@
                                 <author>Chatterton, T.</author>
                                 <note type="description">woodcut borders and initial letters, one of 210 copies, original boards</note>
                                 <imprint>
+                                    <publisher>Vale Press</publisher>
                                     <date when="1898"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -20952,8 +20956,8 @@
                                 <note type="description">olf calf gilt, gilt edges, binding of vol. I broken, small hole in pp. 521-522</note>
                                 <edition>Edizione Prima</edition>
                                 <imprint>
-                                    <publisher>Vale Press</publisher>
-                                    <pubPlace>Fiorenza, Torrentino</pubPlace>
+                                    <publisher>Torrentino</publisher>
+                                    <pubPlace ref="#florence">Fiorenza</pubPlace>
                                     <date when="1550"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -21032,7 +21036,8 @@
                                 <author>Virgilius</author>
                                 <note type="description">ruled in red, old English red morocco, gilt ornaments on sides, gilt edges</note>
                                 <imprint>
-                                    <pubPlace>Venet. Aldus</pubPlace>
+                                    <publisher>Aldus</publisher>
+                                    <pubPlace ref="#venice">Venet.</pubPlace>
                                     <date when="1541"/>
                                 </imprint>
                             </monogr>
@@ -21056,7 +21061,6 @@
                             <monogr>
                                 <title xml:lang="la">Comoediae Sex, cura et studio J. A. Amar</title>
                                 <author>Terentius</author>
-                                
                                 <imprint>
                                     <pubPlace ref="#paris">Paris</pubPlace>
                                     <date when="1823"/>
@@ -21076,7 +21080,6 @@
                         <biblStruct xml:id="sb836.4">
                             <monogr>
                                 <title>Lucretii de rerum Natura, edidit J. A. Amar</title>
-                                
                                 <note type="description">calf gilt, marbled edges, with autograph of A. C. Swinburne dated 1850 in each vol.</note>
                                 <imprint>
                                     <pubPlace ref="#paris">Paris</pubPlace>
@@ -21370,7 +21373,7 @@
                             <monogr>
                                 <title>Leaves of Grass; Drum Taps</title>
                                 <author>Whitman, W.</author>
-                                <note type="description" corresp="#presentation">half bound, marbled edges, presentation copy to Swinburne with autograph insciprtion</note>
+                                <note type="description" corresp="#presentation">half bound, marbled edges, presentation copy to Swinburne with autograph inscription</note>
                                 <note type="inscription">Algernon Charles Swinburne from Walt Whitman</note>
                                 <imprint>
                                     <pubPlace>New York</pubPlace>
@@ -21499,7 +21502,7 @@
                                 <author>Whitman, W.</author>
                                 <note type="description" corresp="#presentation">presentation copy to Swinburne, with autograph inscription of E. P. Gould and MS. poem sent to the dinner given in honour of Walt Whitman's seventieth birthday, oblong.</note>
                                 <imprint>
-                                    <pubPlace>Philidelphia</pubPlace>
+                                    <pubPlace>Philadelphia</pubPlace>
                                     <date when="1889"/>
                                 </imprint>
                             </monogr>
@@ -21750,7 +21753,7 @@
                                 <note type="inscription">To Algernon Charles Swinburne, I weep for Adonais—he is dead!</note>
                                 <note type="etc">some presentation copies to Swinburne with inscription<num value="12"/></note>
                                 <imprint>
-                                    <pubPlace>Roma</pubPlace>
+                                    <pubPlace ref="rome">Roma</pubPlace>
                                     <date when="1805"/>
                                 </imprint>
                             </monogr>
@@ -22464,7 +22467,7 @@
                                 <title>Unpublished Chapters of Fynes Moryson’s Itinerary, with Introductions, etc. by Charles Hughes</title>
                                 <author>Shakespeare’s Europe</author>
                                 <note type="description" corresp="#presentation">facsimile, presentation copy, with inscription</note>
-                                <note type="inscription">To Algernon Charles Swinburne the greatest living writer of English, who has sheun himself a true Englishman, from the Editor of these writings of an Elizabethan now first printed, Chas. Hughes, Kersal, Manchester, <date when="1903-03">March 1903</date></note>
+                                <note type="inscription">To Algernon Charles Swinburne the greatest living writer of English, who has shewn himself a true Englishman, from the Editor of these writings of an Elizabethan now first printed, Chas. Hughes, Kersal, Manchester, <date when="1903-03">March 1903</date></note>
                                 <imprint>
                                     <date when="1903"/>
                                 </imprint>
@@ -22601,7 +22604,7 @@
                                 <author>Sophocles</author>
                                 <note type="description">old blue morocco, gilt edges</note>
                                 <imprint>
-                                    <pubPlace>Argent.</pubPlace>
+                                    <pubPlace ref="#strasbourg">Argent.</pubPlace>
                                     <date when="1786"/>
                                 </imprint>
                                 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -23124,7 +23127,7 @@
                                 <author>Sallustius</author>
                                 <note type="description">engraved title and woodcuts, vellum</note>
                                 <imprint>
-                                    <pubPlace>Venet.</pubPlace>
+                                    <pubPlace ref="venice">Venet.</pubPlace>
                                     <date when="1534"/> <!-- Date is hard to read.-->
                                 </imprint>
                             </monogr>
