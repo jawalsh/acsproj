@@ -93,6 +93,9 @@
                     <category xml:id="annotated">
                         <catDesc>written in by Swinburne (more than just a signature)</catDesc>
                     </category>
+                    <category xml:id="corrected">
+                        <catDesc>corrected by Swinburne</catDesc>
+                    </category>
                     <category xml:id="signed">
                         <catDesc>signed by Swinburne (see "annotated" for longer notes)</catDesc>
                     </category>
@@ -100,8 +103,9 @@
                         <catDesc>presented by Swinburne to someone else</catDesc>
                     </category>
                     <category xml:id="received">
-                        <catDesc>Evidence that Swinburne was given a copy but that copy is no longer in the library</catDesc>
-                    </category>  
+                        <catDesc>Evidence that Swinburne was given a copy but that copy is no longer
+                            in the library</catDesc>
+                    </category>
                     <category xml:id="referenced">
                         <catDesc>referenced by Swinburne, but not present in library</catDesc>
                     </category>
@@ -34005,7 +34009,9 @@
                         <ref>
                             <unit type="vol" n="6"/>
                             <unit type="p" n="84"/>
-                            <quote>He [Edward Fitzgerald] and Browning both send me their damnable travesties of the Agamemnon, and I knew not how to acknowledge either.</quote>
+                            <quote>He [Edward Fitzgerald] and Browning both send me their damnable
+                                travesties of the Agamemnon, and I knew not how to acknowledge
+                                either.</quote>
                         </ref>
                     </bibl>
                     <bibl>
@@ -34111,7 +34117,7 @@
                         </ref>
                     </bibl>
                     <bibl>
-                        <author></author>
+                        <author/>
                         <title>Aldine Edition of British Poets</title>
                         <ref>
                             <unit type="vol" n="3"/>
@@ -34120,8 +34126,8 @@
                         <ref>
                             <unit type="vol" n="5"/>
                             <unit type="p" n="62"/>
-                        </ref> 
-                    </bibl> 
+                        </ref>
+                    </bibl>
                     <bibl>
                         <author>Alexander, Patrick Proctor</author>
                         <title>Carlyle Redivivus</title>
@@ -34133,7 +34139,7 @@
                             <unit type="vol" n="4"/>
                             <unit type="p" n="228"/>
                         </ref>
-                    </bibl> 
+                    </bibl>
                     <bibl>
                         <author>Alexander, Patrick Proctor</author>
                         <title>Mill and Carlyle</title>
@@ -34141,7 +34147,7 @@
                             <unit type="vol" n="4"/>
                             <unit type="p" n="211n"/>
                         </ref>
-                    </bibl> 
+                    </bibl>
                     <bibl>
                         <author>Alexander, Patrick Proctor</author>
                         <title>pamphlet on Carlyle</title>
@@ -34149,105 +34155,519 @@
                             <unit type="vol" n="4"/>
                             <unit type="p" n="228"/>
                         </ref>
-                    </bibl> 
+                    </bibl>
                     <bibl status="present">
                         <author corresp="#alfieri">Alfieri, Vittorio</author>
                         <title corresp="#sb006.1">Rosamunda</title>
                         <ref>
                             <unit type="vol" n="6"/>
                             <unit type="p" n="142"/>
-                            <quote>...the skullcup and wife's desperate revenge always fascinated me when I was quite a little fellow and read 'Rosamunda' with my mother.</quote>
+                            <quote>...the skullcup and wife's desperate revenge always fascinated me
+                                when I was quite a little fellow and read 'Rosamunda' with my
+                                mother.</quote>
                         </ref>
-                    </bibl> 
+                    </bibl>
                 </listBibl>
             </div>
             <div source="watts-dunton">
-                <listBibl type="lot" xml:id="wd236">
-                    <biblStruct xml:id="wd236.2" corresp="#annotated">
-                        <monogr>
-                            <title>Charles Dickens</title>
-                            <author>Chesterton, G.K.</author>
-                            <note type="description">2 portraits, green cloth, pencil note in Swinburne's writing on fly-leaf</note>
-                            <edition>1st, British</edition><!-- alewinga, inferred from publication date and binding description. -->
-                            <imprint>
-                                <publisher>Methuen &amp; Co.</publisher>
-                                <pubPlace>London</pubPlace>
-                                <date when="1906"/>
-                            </imprint>
-                        </monogr>
-                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.hwjm1j"/><!-- American edition. -->
-                    </biblStruct>
-                </listBibl>
-                <listBibl type="lot" xml:id="wd327">
-                    <biblStruct xml:id="wd327.1" corresp="#annotated">
-                        <monogr>
-                            <title>Miscellanies</title>
-                            <author corresp="#fitzgerald_e">Fitzgerald (E.)</author>
+                <div type="day" n="1">
+                    <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd236">
+                            <biblStruct xml:id="wd236.2" corresp="#annotated">
+                                <monogr>
+                                    <title>Charles Dickens</title>
+                                    <author>Chesterton, G.K.</author>
+                                    <note type="description">2 portraits, green cloth, pencil note
+                                        in Swinburne's writing on fly-leaf</note>
+                                    <edition>1st, British</edition>
+                                    <!-- alewinga, inferred from publication date and binding description. -->
+                                    <imprint>
+                                        <publisher>Methuen &amp; Co.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1906"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwjm1j"/>
+                                <!-- American edition. -->
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
+                <div type="day" n="2">
+                    <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd327">
+                            <biblStruct xml:id="wd327.1" corresp="#annotated">
+                                <monogr>
+                                    <title>Miscellanies</title>
+                                    <author corresp="#fitzgerald_e">Fitzgerald (E.)</author>
 
-                            <note type="description">another copy, with pencil note on title in Swinburne's writing: "93 Coleridge's baby"</note>
-                            <imprint>
-                                <publisher>Macmillan and Co.</publisher>
-                                <pubPlace>London</pubPlace>
-                                <date when="1900"/>
-                            </imprint>
-                        </monogr>
-                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044090313040"/>
-                    </biblStruct>
-                </listBibl>
-                <listBibl type="lot" xml:id="wd355">
-                    <biblStruct xml:id="wd355.1" corresp="#owned #signed">
-                        <monogr>
-                            <title>Le Roman de la Momie</title>
-                            <author corresp="#gautier">Gautier, Théophile</author>
-                            
-                            <note type="description" corresp="#uncut">pp. 1-96 only, uncut, Swinburne's copy with his autograph signature on wrapper</note>
-                            <imprint>
-                                <publisher>Librairie de L. Hachette et Companie</publisher>
-                                <pubPlace>Paris</pubPlace>
-                                <date when="1858"/>
-                            </imprint>
-                        </monogr>
-                        <relatedItem type="google" target="https://books.google.com/books?id=bIsGAAAAQAAJ"/>
-                        <relatedItem type="ht" target="https://hdl.handle.net/2027/nnc1.cu53369785"/>
-                        <note type="fulltext">HT copy is a different printing/year.</note>
-                    </biblStruct>
-                </listBibl>
-                <listBibl type="lot" xml:id="wd372">
-                    <biblStruct xml:id="wd372.1" corresp="#owned #annotated #signed">
-                        <monogr>
-                            <title>Nature in Books, some Studies in Biography</title>
-                            <author>Graham, P.A.</author>
-                            
-                            <note type="description" corresp="#uncut">uncut, Swinburne's copy, with some pencil notes in his writing and his initials A.C.S.</note>
-                            <imprint>
-                                <publisher>Methuen and Co.</publisher>
-                                <pubPlace>London</pubPlace>
-                                <date when="1891"/>
-                            </imprint>
-                        </monogr>
-                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t5z60fq2p"/>
-                    </biblStruct>
-                </listBibl>
-                <listBibl type="lot" xml:id="wd375">
-                    <biblStruct xml:id="wd375.1" corresp="#presented_by #annotated">
-                        <monogr>
-                            <title>Tragical Reign of Selimus</title>
-                            <author corresp="#greene">Greene, R.</author>
-                            <editor>Grossart, A. B.</editor>
-                            <note type="description" corresp="#presentation">frontispiece, presentation copy with inscription in Swinburne's writing: "Walter Theodore Watts-Dunton from Algernon Charles Swinburne, March 9th, 1898"</note>
-                            <imprint>
-                                <publisher>J. M. Dent and Co.</publisher>
-                                <pubPlace>London</pubPlace>
-                                <date when="1898"/>
-                            </imprint>
-                        </monogr>
-                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044018775346"/>
-                    </biblStruct>
-                </listBibl>
+                                    <note type="description">another copy, with pencil note on title
+                                        in Swinburne's writing: <q>93 Coleridge's baby</q></note>
+                                    <imprint>
+                                        <publisher>Macmillan and Co.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1900"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044090313040"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd355">
+                            <biblStruct xml:id="wd355.1" corresp="#owned #signed">
+                                <monogr>
+                                    <title>Le Roman de la Momie</title>
+                                    <author corresp="#gautier">Gautier, Théophile</author>
+
+                                    <note type="description" corresp="#uncut">pp. 1-96 only, uncut,
+                                        Swinburne's copy with his autograph signature on
+                                        wrapper</note>
+                                    <imprint>
+                                        <publisher>Librairie de L. Hachette et Companie</publisher>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1858"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="google"
+                                    target="https://books.google.com/books?id=bIsGAAAAQAAJ"/>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/nnc1.cu53369785"/>
+                                <note type="fulltext">HT copy is a different printing/year.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd372">
+                            <biblStruct xml:id="wd372.1" corresp="#owned #annotated #signed">
+                                <monogr>
+                                    <title>Nature in Books, some Studies in Biography</title>
+                                    <author>Graham, P.A.</author>
+
+                                    <note type="description" corresp="#uncut">uncut, Swinburne's
+                                        copy, with some pencil notes in his writing and his initials
+                                            <q>A.C.S.</q></note>
+                                    <imprint>
+                                        <publisher>Methuen and Co.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t5z60fq2p"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd375">
+                            <biblStruct xml:id="wd375.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Tragical Reign of Selimus</title>
+                                    <author corresp="#greene">Greene, R.</author>
+                                    <editor>Grossart, A. B.</editor>
+                                    <note type="description" corresp="#presentation">frontispiece,
+                                        presentation copy with inscription in Swinburne's writing:
+                                            <q>Walter Theodore Watts-Dunton from Algernon Charles
+                                            Swinburne, March 9th, 1898</q></note>
+                                    <imprint>
+                                        <publisher>J. M. Dent and Co.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1898"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044018775346"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd477">
+                            <biblStruct xml:id="wd477.1" corresp="#annotated #presented_by">
+                                <monogr>
+                                    <title>Every Man in his Humour</title>
+                                    <author corresp="#jonson">Jonson, Ben</author>
+                                    <editor>Macneil Dixon, W.</editor>
+                                    <note type="description" corresp="#presentation">portrait,
+                                        presentation copy, with inscription in Swinburne's writing:
+                                            <q>W.T. Watts-Dunton, from A.C.S.</q></note>
+                                    <imprint>
+                                        <publisher>J.M. Dent and Co.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1896"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015005497196"/>
+                            </biblStruct>
+                            <biblStruct xml:id="wd477.2" corresp="#annotated #presented_by">
+                                <monogr>
+                                    <title>Nelson's Words and Deeds</title>
+                                    <author>Nelson, Horatio</author>
+                                    <editor corresp="#russell">Russell, W. Clark</editor>
+
+                                    <note type="description" corresp="#presentation">presentation
+                                        copy from Swinburne, with autograph inscription on
+                                        half-title: <q>Walter Theodore Watts, from Algernon Charles
+                                            Swinburne, Nov. 13, '90</q></note>
+                                    <imprint>
+                                        <publisher>Sampson Low, Marston, Searle, &amp; Rivington,
+                                            Ltd.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1890"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t6c24vd18"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd545">
+                            <biblStruct xml:id="wd545.1" corresp="#annotated #presented_by">
+                                <monogr>
+                                    <title>Hellenics, enlarged and completed</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+
+                                    <note type="description" corresp="#presentation">original cloth,
+                                        presentation copy with inscription in Swinburne's writing:
+                                            <q>Walter Theodore Watts from his friend Algernon
+                                            Charles Swinburne</q></note>
+                                    <imprint>
+                                        <publisher>Edward Moxon</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1847"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044086805694"/>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
+                <div type="day" n="3">
+                    <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd606">
+                            <biblStruct xml:id="wd606.1" corresp="#owned #annotated">
+                                <monogr>
+                                    <title>Life and Death of the Merry Deuill of Edmonton</title>
+                                    <author>T.B.</author>
+
+                                    <note type="description">woodcut on title, Swinburne's copy,
+                                        with pencil note in his writing</note>
+                                    <imprint>
+                                        <publisher>W.R.</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <orgName>J. Nichols and Son</orgName>
+                                        </respStmt>
+                                        <pubPlace/>
+                                        <date when="1819"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hxg8u4"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd621">
+                            <biblStruct xml:id="wd621.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Lyrics from the Dramatists of the Elizabethan Age</title>
+                                    <author/>
+                                    <editor>Bullen, A.H. (Arthur Henry)</editor>
+
+                                    <note type="description" corresp="#presentation #uncut">buckram,
+                                        uncut, presentation copy with inscription in Swinburne's
+                                        writing: <q>Walter Theodore Watts, from his friend Algernon
+                                            Charles Swinburne, Jan. 28, 1890</q></note>
+                                    <imprint>
+                                        <publisher>John C. Nimmo</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1889"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwpj3d"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd638">
+                            <biblStruct xml:id="wd638.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works, with some Account of the Authors, and Notes by
+                                        Alex. Dyce</title>
+                                    <author corresp="#marlowe">Marlowe, Christopher</author>
+                                    <editor>Dyce, Alexander</editor>
+                                    <note type="description" corresp="#presentation">brown cloth,
+                                        presentation copy from Swinburne with autograph inscription
+                                        on half-title: <q>Walter Theodore Watts from his
+                                            affectionate friend Algernon Charles Swinburne</q>. This
+                                        volume is extremely interesting as containing on the
+                                        half-title a copy of the sonnet by Swinburne on Cristopher
+                                        Marlowe, commencing <q>Crowned, girdled, garbed and shod
+                                            with light and fire</q>. In Swinburne's
+                                        handwriting.</note>
+                                    <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t18k76m13"/>
+                                <note type="fulltext">Cannot tell edition without date, but 1850
+                                    edition (linked) seems most likely since no date on title
+                                    page.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd790">
+                            <biblStruct xml:id="wd790.1" corresp="#owned #annotated">
+                                <monogr>
+                                    <title>Essays towards a Critical Method</title>
+                                    <author>Robertson, John M.</author>
+
+                                    <note type="description">red cloth, Swinburne's copy, with note
+                                        in his writing on title: <q>Do let me feel this gentleman's
+                                            bumps! C.L. A.C.S.</q></note>
+                                    <imprint>
+                                        <publisher>T. Fisher Unwin</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1889"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hxcrfs"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd834">
+                            <biblStruct xml:id="wd834.1" corresp="#annotated">
+                                <monogr>
+                                    <title>Selections from the Writings of John Ruskin: 1860-1888,
+                                        second series</title>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
+
+                                    <note type="description">portrait, green cloth, some pencil
+                                        notes on fly-leaf in Swinburne's handwriting</note>
+                                    <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
+                                        <date when="1894"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015001359473"/>
+                                <note type="fulltext">HT copy appears to be a different
+                                    edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
+                        <div type="day" n="4">
+                            <div type="size" n="octavo">
+                                <listBibl type="lot" xml:id="wd926">
+                                    <biblStruct xml:id="wd926.1" corresp="#owned #signed">
+                                        <monogr>
+                                            <title>Letters, with Introductory Essay by Robert Browning</title>
+                                            <author corresp="#shelley_p">Shelley, Percy Bysshe</author>
+                                            <respStmt>
+                                                <resp>contributor</resp>
+                                                <persName corresp="#browning_r">Robert Browning</persName>
+                                            </respStmt>
+                                            <note type="description">original cloth, Swinburne's copy, with his signature on the half title, with date May 13th, 1858.</note>
+                                            <note>This book was apparently withdrawn from publication. See p. 198 of https://books.google.com/books?id=oVYFAAAAQAAJ</note>
+                                            <edition>First edition</edition>
+                                            <imprint>
+                                                <publisher/>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1852"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target=""/>
+                                    </biblStruct>
+                                </listBibl>
+                                <listBibl type="lot" xml:id="wd1029">
+                                    <biblStruct xml:id="wd1029.1" corresp="#owned #signed">
+                                        <monogr>
+                                            <title>Erechtheus, a Tragedy</title>
+                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
+                                            
+                                            <note type="description">original cloth Swinburne's copy, with his autograph signature on half-title.</note>
+                                            <edition>Second edition</edition>
+                                            <imprint>
+                                                <publisher></publisher>
+                                                <pubPlace></pubPlace>
+                                                <date when="1876"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t4zg6m42w"/>
+                                        <note type="fulltext">HT copy is the first edition.</note>
+                                    </biblStruct>
+                                </listBibl> 
+                                <listBibl type="lot" xml:id="wd1031">
+                                    <biblStruct xml:id="wd1031.1" corresp="#annotated #corrected">
+                                        <monogr>
+                                            <title>Poems and Ballads, second series</title>
+                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
+                                            
+                                            <note type="description" corresp="#uncut">original cloth uncut, containing numerous annotations and corrections in Swinburne's handwriting</note>
+                                            <edition>First edition</edition>
+                                            <imprint>
+                                                <publisher>Chatto and Windus</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1878"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t5fb55w84"/>
+                                    </biblStruct>
+                                </listBibl> 
+                                <listBibl type="lot" xml:id="wd1032">
+                                    <biblStruct xml:id="wd1032.1" corresp="#annotated">
+                                        <monogr>
+                                            <title>Studies in Song</title>
+                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
+                                            
+                                            <note type="description" corresp="#uncut">original cloth, uncut, note on half-title in Swinburne's handwriting</note>
+                                            <edition>first edition</edition>
+                                            <imprint>
+                                                <publisher>Chatto and Windus</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1880"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc1.b3741656"/>
+                                    </biblStruct>
+                                </listBibl> 
+                                <listBibl type="lot" xml:id="wd1033">
+                                    <biblStruct xml:id="wd1033.1" corresp="#owned #signed #annotated #corrected">
+                                        <monogr>
+                                            <title>A Study of Shakespeare</title>
+                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
+                                            
+                                            <note type="description">Original cloth, swinburne's copy, with his initials <q>A.C.S.</q> on half-title, and a note and some corrections in his handwriting.</note>
+                                            <edition>first edition</edition>
+                                            <imprint>
+                                                <publisher>Chatto &amp; Windus</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1880"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t6sx6vk04"/>
+                                    </biblStruct>
+                                </listBibl>
+                                <listBibl type="lot" xml:id="wd1036">
+                                    <biblStruct xml:id="wd1036.1" corresp="#annotated">
+                                        <monogr>
+                                            <title>A Midsummer Holiday, and other Poems</title>
+                                            <author corresp="#swinburne">Swinburne, Charles Algernon</author>
+                                            
+                                            <note type="description" corresp="#uncut">original cloth, uncut, note in Swinburne's writing inserted</note>
+                                            <imprint>
+                                                <publisher>Chatto and Windus</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1884"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.hwp8rv"/>
+                                    </biblStruct>
+                                </listBibl> 
+                                <listBibl type="lot" xml:id="wd1052">
+                                    <biblStruct xml:id="wd1052.1" corresp="#annotated #corrected">
+                                        <monogr>
+                                            <title>The Age of Shakespeare</title>
+                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
+                                            
+                                            <note type="description" corresp="#uncut">buckram, uncut, top edge gilt with pencil note and correction in Swinburne's handwriting.</note>
+                                            <imprint>
+                                                <publisher>Chatto and Windus</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1908"/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8pc3jb45"/>
+                                    </biblStruct>
+                                </listBibl> 
+                                <listBibl type="lot" xml:id="wd1098">
+                                    <biblStruct xml:id="wd1098.1" corresp="#annotated">
+                                        <monogr>
+                                            <title>Alfred, Lord Tennyson; a memoir by his son</title>
+                                            <author>Tennyson, Hallam</author>
+                                            
+                                            <note type="description" corresp="#uncut">portraits and illustrations, green cloth, uncut, pencil notes written on the flyleaf in Swinburne's handwriting</note>
+                                            <imprint>
+                                                <publisher>Macmillan and Co.</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date when="1897"/>
+                                            </imprint>
+                                            <extent><measure unit="volumes" quantity="2"/></extent>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.49015000846452"/>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.49015002154343"/>
+                                    </biblStruct>
+                                </listBibl>
+                                <listBibl type="lot" xml:id="wd1109">
+                                    <biblStruct xml:id="wd1109.1" corresp="#owned #annotated">
+                                        <monogr>
+                                            <title>Benjamin Jowett, Master of Balliol</title>
+                                            <author>Tollemache, L.A.</author>
+                                            
+                                            <note type="description" corresp="#uncut">uncut, Swinburne's copy, with some pencil notes in his writing</note>
+                                            <imprint>
+                                                <publisher/>
+                                                <pubPlace/>
+                                                <date/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t19k4822d"/>
+                                        <note type="fulltext">HT copy is earliest copy on HT. Edition unknown since catalogue doesn't give a date.</note>
+                                    </biblStruct>
+                                </listBibl> 
+                                <listBibl type="lot" xml:id="wd1140">
+                                    <biblStruct xml:id="wd1140.1" corresp="#presented_by #annotated">
+                                        <monogr>
+                                            <title>Works with some Account of the Author and Notes by Alex. Dyce</title>
+                                            <author corresp="#webster_j">Webster, John</author>
+                                            
+                                            <note type="description" corresp="#uncut #presentation">brown cloth, uncut, presentation copy from Swinburne, with autograph inscription on half-title: <q>Walter Theodore Watts from his affectionate friend Algernon Charles Swinburne</q>. On the half-title is given a copy of Swinburne's Sonnet on John Webster commencing: <q>Thunder the flesh quails,</q> 14 lines in Swinburne's hand-writing and signed <q>A.C.S.</q></note>
+                                            <imprint>
+                                                <publisher/>
+                                                <pubPlace/>
+                                                <date/>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/miun.aea7483.0001.001"/>
+                                        <note type="fulltext">HT copy is earliest copy on HT that would fit the criteria in the auction catalogue.</note>
+                                    </biblStruct>
+                                </listBibl>
+                                <listBibl type="lot" xml:id="wd1141">
+                                    <biblStruct xml:id="wd1141.1" corresp="#annotated">
+                                        <monogr>
+                                            <title>Works with Account of the Author and Notes by Alex. Dyce</title>
+                                            <author corresp="#webster_j">Webster, John</author>
+                                            
+                                            <note type="description" corresp="#uncut">uncut, inserted some lines in Swinburne's hand-writing: <q>True my fair queen of sorrows truly speaks</q> etc.</note>
+                                            <imprint>
+                                                <publisher>George Routledge and Sons</publisher>
+                                                <pubPlace>London</pubPlace>
+                                                <date>1877</date>
+                                            </imprint>
+                                        </monogr>
+                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044020404299"/>
+
+                                    </biblStruct>
+                                </listBibl>
+                            </div>
+                        </div>
             </div>
         </body>
     </text>
 </TEI>
+<!--                 
+    <listBibl type="lot" xml:id="wd">
+                    <biblStruct xml:id="wd" corresp="">
+                        <monogr>
+                            <title></title>
+                            <author></author>
+
+                            <note type="description"></note>
+                            <imprint>
+                                <publisher></publisher>
+                                <pubPlace></pubPlace>
+                                <date when=""/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target=""/>
+                    </biblStruct>
+                </listBibl> 
+-->
 <!--                     
     <bibl>
         <author></author>
