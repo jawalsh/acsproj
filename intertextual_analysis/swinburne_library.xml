@@ -85,6 +85,27 @@
                         <catDesc>presentation copy</catDesc>
                     </category>
                 </taxonomy>
+                <taxonomy xml:id="relatSwinburne">
+                    <bibl><title>relationship to Swinburne</title></bibl>
+                    <category xml:id="owned">
+                        <catDesc>owned by Swinburne</catDesc>
+                    </category>
+                    <category xml:id="annotated">
+                        <catDesc>written in by Swinburne (more than just a signature)</catDesc>
+                    </category>
+                    <category xml:id="signed">
+                        <catDesc>signed by Swinburne (see "annotated" for longer notes)</catDesc>
+                    </category>
+                    <category xml:id="presented_by">
+                        <catDesc>presented by Swinburne to someone else</catDesc>
+                    </category>
+                    <category xml:id="received">
+                        <catDesc>Evidence that Swinburne was given a copy but that copy is no longer in the library</catDesc>
+                    </category>  
+                    <category xml:id="referenced">
+                        <catDesc>referenced by Swinburne, but not present in library</catDesc>
+                    </category>
+                </taxonomy>
             </classDecl>
         </encodingDesc>
     </teiHeader>
@@ -9069,7 +9090,7 @@
                             <biblStruct xml:id="sb134.3">
                                 <monogr>
                                     <title>The Seven Plays in English Verse</title>
-                                    <author>Aeschylus</author>
+                                    <author corresp="#aeschylus">Aeschylus</author>
                                     <respStmt>
                                         <resp>by</resp>
                                         <name full="yes">Lewis Campbell</name>
@@ -33887,10 +33908,10 @@
             <div source="letters">
                 <!-- formatting of information from Swinburne letters index is as follows:
                     <bibl>
-                        <author></author> [optional if not present]
+                        <author></author>
                         <title></title>
-                        <editor></editor> [optional if not present]
-                        <respStmt>          [optional if not present]
+                        <editor></editor>
+                        <respStmt>
                             <resp>translator</resp>
                             <persName></persName>
                         </respStmt>
@@ -33906,7 +33927,7 @@
                     Different translations or editions should be differentiated from each other since they could link to different items in the library.
                 -->
                 <listBibl>
-                    <bibl>
+                    <bibl status="absent">
                         <author>Adams, C. Warren</author>
                         <title>Ronald Vaughan</title>
                         <ref>
@@ -33914,7 +33935,7 @@
                             <unit type="p" n="220n"/>
                         </ref>
                     </bibl>
-                    <bibl>
+                    <bibl status="absent">
                         <author>Adams, C. Warren</author>
                         <title>Queen Jane</title>
                         <ref>
@@ -33922,7 +33943,7 @@
                             <unit type="p" n="220n"/>
                         </ref>
                     </bibl>
-                    <bibl>
+                    <bibl status="absent">
                         <author>Adams, Henry</author>
                         <title>The Education of Henry Adams</title>
                         <ref type="quote">
@@ -33931,7 +33952,7 @@
                         </ref>
                     </bibl>
                     <bibl>
-                        <author>Aeschylus</author>
+                        <author corresp="#aeschylus">Aeschylus</author>
                         <title>Agamemnon</title>
                         <ref type="quote">
                             <unit type="vol" n="2"/>
@@ -33959,7 +33980,7 @@
                         </ref>
                     </bibl>
                     <bibl>
-                        <author>Aeschylus</author>
+                        <author corresp="#aeschylus">Aeschylus</author>
                         <title>Agamemnon</title>
                         <respStmt>
                             <resp>translator</resp>
@@ -33981,16 +34002,262 @@
                             <unit type="vol" n="4"/>
                             <unit type="p" n="73"/>
                         </ref>
-                        <ref><!-- alewinga, this is a fun example. This is a negative citation, and he says that Browning and E.F.G. sent him copies of their translations, but I can't find them in the auction catalog. "He [EFG] and Browning both send me their damnable travesties of the Agamemnon, and I knew not how to acknowledge either."-->
+                        <ref>
+                            <unit type="vol" n="6"/>
+                            <unit type="p" n="84"/>
+                            <quote>He [Edward Fitzgerald] and Browning both send me their damnable travesties of the Agamemnon, and I knew not how to acknowledge either.</quote>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <author corresp="#aeschylus">Aeschylus</author>
+                        <title>Agamemnon</title>
+                        <respStmt>
+                            <resp>translator</resp>
+                            <persName corresp="#fitzgerald_e">FitzGerald</persName>
+                        </respStmt>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="31"/>
+                        </ref>
+                        <ref>
                             <unit type="vol" n="6"/>
                             <unit type="p" n="84"/>
                         </ref>
+                        <ref>
+                            <unit type="vol" n="6"/>
+                            <unit type="p" n="187"/>
+                        </ref>
                     </bibl>
+                    <bibl>
+                        <author corresp="#aeschylus">Aeschylus</author>
+                        <title>Agamemnon</title>
+                        <respStmt>
+                            <resp>translator</resp>
+                            <persName>Headlam</persName>
+                            <!-- alewinga, Walter George Headlam -->
+                        </respStmt>
+                        <ref>
+                            <unit type="vol" n="6"/>
+                            <unit type="p" n="147"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <author corresp="#aeschylus">Aeschylus</author>
+                        <title>Oresteia</title>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="26"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <author corresp="#aeschylus">Aeschylus</author>
+                        <title>The Persae</title>
+                        <ref>
+                            <unit type="vol" n="5"/>
+                            <unit type="p" n="163"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="5"/>
+                            <unit type="p" n="171"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="6"/>
+                            <unit type="p" n="295"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <author>Aesop</author>
+                        <title>Aesop's Fables</title>
+                        <ref>
+                            <unit type="vol" n="5"/>
+                            <unit type="p" n="279"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <author corresp="#lamb_c">Lamb</author>
+                        <title>Poems, Plays, and Miscellaneous Essays</title>
+                        <editor>Ainger, Alfred</editor>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="298"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="5"/>
+                            <unit type="p" n="66"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="304"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="6"/>
+                            <unit type="p" n="194"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <title>Alarum for London</title>
+                        <ref>
+                            <unit type="vol" n="3"/>
+                            <unit type="p" n="161"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <editor>Aldrich, T.B.</editor>
+                        <title corresp="#sb755.2">Cameos Selected from the Works of Walter Savage
+                            Landor</title>
+                        <ref>
+                            <unit type="vol" n="2"/>
+                            <unit type="p" n="268"/>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <author></author>
+                        <title>Aldine Edition of British Poets</title>
+                        <ref>
+                            <unit type="vol" n="3"/>
+                            <unit type="p" n="189n"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="5"/>
+                            <unit type="p" n="62"/>
+                        </ref> 
+                    </bibl> 
+                    <bibl>
+                        <author>Alexander, Patrick Proctor</author>
+                        <title>Carlyle Redivivus</title>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="211"/>
+                        </ref>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="228"/>
+                        </ref>
+                    </bibl> 
+                    <bibl>
+                        <author>Alexander, Patrick Proctor</author>
+                        <title>Mill and Carlyle</title>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="211n"/>
+                        </ref>
+                    </bibl> 
+                    <bibl>
+                        <author>Alexander, Patrick Proctor</author>
+                        <title>pamphlet on Carlyle</title>
+                        <ref>
+                            <unit type="vol" n="4"/>
+                            <unit type="p" n="228"/>
+                        </ref>
+                    </bibl> 
+                    <bibl status="present">
+                        <author corresp="#alfieri">Alfieri, Vittorio</author>
+                        <title corresp="#sb006.1">Rosamunda</title>
+                        <ref>
+                            <unit type="vol" n="6"/>
+                            <unit type="p" n="142"/>
+                            <quote>...the skullcup and wife's desperate revenge always fascinated me when I was quite a little fellow and read 'Rosamunda' with my mother.</quote>
+                        </ref>
+                    </bibl> 
+                </listBibl>
+            </div>
+            <div source="watts-dunton">
+                <listBibl type="lot" xml:id="wd236">
+                    <biblStruct xml:id="wd236.2" corresp="#annotated">
+                        <monogr>
+                            <title>Charles Dickens</title>
+                            <author>Chesterton, G.K.</author>
+                            <note type="description">2 portraits, green cloth, pencil note in Swinburne's writing on fly-leaf</note>
+                            <edition>1st, British</edition><!-- alewinga, inferred from publication date and binding description. -->
+                            <imprint>
+                                <publisher>Methuen &amp; Co.</publisher>
+                                <pubPlace>London</pubPlace>
+                                <date when="1906"/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.hwjm1j"/><!-- American edition. -->
+                    </biblStruct>
+                </listBibl>
+                <listBibl type="lot" xml:id="wd327">
+                    <biblStruct xml:id="wd327.1" corresp="#annotated">
+                        <monogr>
+                            <title>Miscellanies</title>
+                            <author corresp="#fitzgerald_e">Fitzgerald (E.)</author>
+
+                            <note type="description">another copy, with pencil note on title in Swinburne's writing: "93 Coleridge's baby"</note>
+                            <imprint>
+                                <publisher>Macmillan and Co.</publisher>
+                                <pubPlace>London</pubPlace>
+                                <date when="1900"/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044090313040"/>
+                    </biblStruct>
+                </listBibl>
+                <listBibl type="lot" xml:id="wd355">
+                    <biblStruct xml:id="wd355.1" corresp="#owned #signed">
+                        <monogr>
+                            <title>Le Roman de la Momie</title>
+                            <author corresp="#gautier">Gautier, Théophile</author>
+                            
+                            <note type="description" corresp="#uncut">pp. 1-96 only, uncut, Swinburne's copy with his autograph signature on wrapper</note>
+                            <imprint>
+                                <publisher>Librairie de L. Hachette et Companie</publisher>
+                                <pubPlace>Paris</pubPlace>
+                                <date when="1858"/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="google" target="https://books.google.com/books?id=bIsGAAAAQAAJ"/>
+                        <relatedItem type="ht" target="https://hdl.handle.net/2027/nnc1.cu53369785"/>
+                        <note type="fulltext">HT copy is a different printing/year.</note>
+                    </biblStruct>
+                </listBibl>
+                <listBibl type="lot" xml:id="wd372">
+                    <biblStruct xml:id="wd372.1" corresp="#owned #annotated #signed">
+                        <monogr>
+                            <title>Nature in Books, some Studies in Biography</title>
+                            <author>Graham, P.A.</author>
+                            
+                            <note type="description" corresp="#uncut">uncut, Swinburne's copy, with some pencil notes in his writing and his initials A.C.S.</note>
+                            <imprint>
+                                <publisher>Methuen and Co.</publisher>
+                                <pubPlace>London</pubPlace>
+                                <date when="1891"/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t5z60fq2p"/>
+                    </biblStruct>
+                </listBibl>
+                <listBibl type="lot" xml:id="wd375">
+                    <biblStruct xml:id="wd375.1" corresp="#presented_by #annotated">
+                        <monogr>
+                            <title>Tragical Reign of Selimus</title>
+                            <author corresp="#greene">Greene, R.</author>
+                            <editor>Grossart, A. B.</editor>
+                            <note type="description" corresp="#presentation">frontispiece, presentation copy with inscription in Swinburne's writing: "Walter Theodore Watts-Dunton from Algernon Charles Swinburne, March 9th, 1898"</note>
+                            <imprint>
+                                <publisher>J. M. Dent and Co.</publisher>
+                                <pubPlace>London</pubPlace>
+                                <date when="1898"/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044018775346"/>
+                    </biblStruct>
                 </listBibl>
             </div>
         </body>
     </text>
 </TEI>
+<!--                     
+    <bibl>
+        <author></author>
+        <title></title>
+           <ref>
+               <unit type="vol" n=""/>
+               <unit type="p" n=""/>
+           </ref>
+    </bibl> 
+-->
 <!--<body>
     <div type="day" n="1">
         <div type="size" n="octavo">
