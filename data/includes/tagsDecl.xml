@@ -190,7 +190,8 @@
     <!-- elements with default renditions -->
     <namespace name="http://www.tei-c.org/ns/1.0">
         <tagUsage gi="l" rendition="#ti-0"/>
-	<tagUsage gi="p" rendition="#p"/>
+        <tagUsage gi="p" rendition="#p"/>
+        
         <!-- TODO add more defaults -->
     </namespace>
 
