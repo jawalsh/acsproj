@@ -15,6 +15,23 @@ In __letter_refs.csv__ we are recording references to written works that are men
     - Record "no" if the reference does _not_ have an asterisk next to the page number
 - __Notes__(optional, string): Enter an additional information about the reference in the notes field if necessary. Otherwise leave blank.
 
+## Topics to Record
+- Works with or without an author, editor, translator (Titles of works are italicized in the index)
+- Under the first level heading of "Swinburne, Algernon Charles" (begins p. 411)
+    - France?
+        - literature of (second level)
+    - Greek literature?
+    - History?
+    - ~~__Library__~~ Done
+    - Literary criticism?
+    - Newspapers and magazines
+
+## Topics _not_ to Record
+- Translations of Swinburne's own work
+    - e.g. "Albrecht, Graf von Wickenburg, tr., _Atalanta in Calydon_" 
+    - **Can use index (p. 420-429) to determine titles of Swinburne's works
+- Reviews of Swinburne's own work
+
 ## Workflow
 1. Go to the place in the General Index that you are working on
 2. Begin to scan through the first level alphabetized entries looking for the names of authors, editors, or translators that have works under them or titles of works that are themselves first level entries. 
@@ -35,7 +52,20 @@ In __letter_refs.csv__ we are recording references to written works that are men
 10. Repeat these steps, recording every reference that seems relevant.
 
 ## Example
+Taken from p. 319 of vol. 6
 "Aeschylus, ...[several second level headings]..., _Agamemnon_, II, 191\*, 302\*, IV, 122, V, 163-64, 171, 196, Browning's tr. of, IV, 26\*, 27, 31, 73, VI, 84, FitzGerald's tr. of, IV, 31 VI, 84, 187, Headlam's tr. of, VI, 147; _Oresteia_, IV, 26; _The Persae_, V, 163-64, 171; VI, 295"
+
+In this example:
+- first level = Aeschylus
+- second level headings = 
+    - Agamemnon
+    - Oresteia
+    - The Persae
+- third level headings = 
+    - Browning's tr(anslation). of (Agamemnon)
+    - FitzGerald's tr(anslation). of (Agamemnon)
+    - Headlam's tr(anslation). of (Agamemnon)
+The references would be recorded as in the following table:
 
 | First Level | Second Level | Third Level                 | Volume | Page    | Quote | Notes |
 |-------------|--------------|-----------------------------|--------|---------|-------|-------|
