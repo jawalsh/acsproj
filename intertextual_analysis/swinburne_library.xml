@@ -392,6 +392,7 @@
                     <person xml:id="allott">
                         <persName source="http://id.loc.gov/authorities/names/n50054517">Allott,
                             Robert, active 1600</persName>
+                        <floruit when="1600"/>
                     </person>
                     <person xml:id="alma-tadema">
                         <persName source="http://id.loc.gov/authorities/names/n82108884"
@@ -997,6 +998,7 @@
                     <person xml:id="cary">
                         <persName source="http://id.loc.gov/authorities/names/nr91016313">Cary,
                             Patrick, active 1651</persName>
+                        <floruit when="1651"/>
                     </person>
                     <person xml:id="castelar">
                         <persName source="http://id.loc.gov/authorities/names/n84105647">Castelar,
@@ -1047,6 +1049,7 @@
                     <person xml:id="chalkhill">
                         <persName source="http://id.loc.gov/authorities/names/n84233498">Chalkhill,
                             John, active 1600</persName>
+                        <floruit when="1600"/>
                     </person>
                     <person xml:id="chamberlayne">
                         <persName source="http://id.loc.gov/authorities/names/n83206580"
@@ -1339,6 +1342,7 @@
                     <person xml:id="davenport">
                         <persName source="http://id.loc.gov/authorities/names/n79018192">Davenport,
                             Robert, active 1623</persName>
+                        <floruit when="1623"/>
                     </person>
                     <person xml:id="davidson">
                         <persName source="http://id.loc.gov/authorities/names/n50035665">Davidson,
@@ -1593,6 +1597,7 @@
                     <person xml:id="eutropius">
                         <persName source="http://id.loc.gov/authorities/names/n85083031">Eutropius,
                             active 4th century</persName>
+                        <floruit from="0300" to="0399"/>
                     </person>
                     <person xml:id="fane_v">
                         <persName source="http://id.loc.gov/authorities/names/n82136790">Fane,
@@ -1837,6 +1842,7 @@
                     <person xml:id="goddard">
                         <persName source="http://id.loc.gov/authorities/names/no93021870">Goddard,
                             William, active 1615</persName>
+                        <floruit when="1615"/>
                     </person>
                     <person xml:id="godfrey">
                         <persName source="http://id.loc.gov/authorities/names/nr97004891">Godfrey,
@@ -1951,6 +1957,7 @@
                         <persName source="http://id.loc.gov/authorities/names/n79086812"
                             >Ḥāfiẓ<!-- Hafiz with dots under h and z, alewinga -->, active 14th
                             century</persName>
+                        <floruit from="1300" to="1399"/>
                     </person>
                     <person xml:id="hake">
                         <persName source="http://id.loc.gov/authorities/names/n83016832">Hake,
@@ -2278,6 +2285,7 @@
                     <person xml:id="jones_j">
                         <persName source="http://id.loc.gov/authorities/names/n83230192">Jones,
                             John, active 1635</persName>
+                        <floruit when="1635"/>
                     </person>
                     <person xml:id="jones_h">
                         <persName source="http://id.loc.gov/authorities/names/n50039988">Jones,
@@ -3267,6 +3275,7 @@
                     <person xml:id="poole">
                         <persName source="http://id.loc.gov/authorities/names/n85196922">Poole,
                             Josua, active 1632-1646</persName>
+                        <floruit from="1632" to="1646"/>
                     </person>
                     <person xml:id="pope">
                         <persName source="http://id.loc.gov/authorities/names/n79084387">Pope,
@@ -3319,6 +3328,7 @@
                     <person xml:id="radcliffe">
                         <persName source="http://id.loc.gov/authorities/names/n81055727">Radcliffe,
                             Alexander, active 1669-1696</persName>
+                        <floruit from="1669" to="1696"/>
                     </person>
                     <person xml:id="rajon">
                         <persName source="http://id.loc.gov/authorities/names/nb2007019869">Rajon,
@@ -4031,6 +4041,7 @@
                     <person xml:id="tomkis">
                         <persName source="http://id.loc.gov/authorities/names/n83008323">Tomkis,
                             Thomas, active 1604-1615</persName>
+                        <floruit from="1604" to="1615"/>
                     </person>
                     <person xml:id="tourneur">
                         <persName source="http://id.loc.gov/authorities/names/n50015949">Tourneur,
@@ -4351,113 +4362,116 @@
                 </listPerson>
             </div>
             <div n="publishers">
-                <list>
-                    <head>Publishers, Printers, etc.</head>
-                    <item xml:id="kelmscott">
-                        <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
-                            Press</orgName>
-                    </item>
-                    <item xml:id="kama_sastra_society"><orgName
-                            source="http://id.loc.gov/authorities/names/nb2006006446">Kama Shastra
-                            Society of London and Benares</orgName></item>
-                    <item xml:id="edward_moxon_co"><orgName
-                            source="http://id.loc.gov/authorities/names/nr00017940">Edward Moxon
-                            &amp; Co.</orgName></item>
-                    <item xml:id="villon_society"><orgName
-                            source="http://id.loc.gov/authorities/names/no2002113997">Villon
-                            Society</orgName></item>
-                    <item xml:id="chiswick_press"><orgName
-                            source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
-                            Press</orgName></item>
-                    <item xml:id="chaucer_society"><orgName
-                            source="http://id.loc.gov/authorities/names/nr98010609">Chaucer Society
-                            (London, England)</orgName></item>
-                    <item xml:id="ashendene_press"><orgName
-                            source="http://id.loc.gov/authorities/names/n81144054">Ashendene
-                            Press</orgName></item>
-                    <item xml:id="boussod_valadon_cie"><orgName
-                            source="http://id.loc.gov/authorities/names/n83317533">Boussod, Valadon
-                            &amp; Cie</orgName></item>
-                    <item xml:id="spenser_society"><orgName
-                            source="http://id.loc.gov/authorities/names/n80044799">Spenser
-                            Society</orgName></item>
-                    <item xml:id="percy_society"><orgName
-                            source="http://id.loc.gov/authorities/names/no89010528">Percy
-                            Society</orgName></item>
-                    <item xml:id="lee_priory"><orgName
-                            source="http://id.loc.gov/authorities/names/no94000403">Private Press of
-                            Lee Priory</orgName></item>
-                    <item xml:id="goupil_cie"><orgName
-                            source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
-                            Cie</orgName></item>
-                    <item xml:id="roxburghe_club"><orgName
-                            source="http://id.loc.gov/authorities/names/n50068391">Roxburghe
-                            Club</orgName></item>
-                    <item xml:id="daniel_press"><orgName
-                            source="http://id.loc.gov/authorities/names/n85046469">Daniel
-                            Press</orgName></item>
-                    <item xml:id="bindoni"><persName
+                    <head>Publishers, Printers, etc.</head>            
+                        <listOrg>
+                            <org xml:id="kelmscott">
+                                <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
+                                    Press</orgName></org>
+                            <org xml:id="kama_sastra_society"><orgName
+                                source="http://id.loc.gov/authorities/names/nb2006006446">Kama Shastra
+                                Society of London and Benares</orgName></org>
+                            <org xml:id="edward_moxon_co"><orgName
+                                source="http://id.loc.gov/authorities/names/nr00017940">Edward Moxon
+                                &amp; Co.</orgName></org>
+                            <org xml:id="villon_society"><orgName
+                                source="http://id.loc.gov/authorities/names/no2002113997">Villon
+                                Society</orgName></org>
+                            <org xml:id="chiswick_press"><orgName
+                                source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
+                                Press</orgName></org>
+                            <org xml:id="chaucer_society"><orgName
+                                source="http://id.loc.gov/authorities/names/nr98010609">Chaucer Society
+                                (London, England)</orgName></org>
+                            <org xml:id="ashendene_press"><orgName
+                                source="http://id.loc.gov/authorities/names/n81144054">Ashendene
+                                Press</orgName></org>
+                            <org xml:id="boussod_valadon_cie"><orgName
+                                source="http://id.loc.gov/authorities/names/n83317533">Boussod, Valadon
+                                &amp; Cie</orgName></org>
+                            <org xml:id="spenser_society"><orgName
+                                source="http://id.loc.gov/authorities/names/n80044799">Spenser
+                                Society</orgName></org>
+                            <org xml:id="percy_society"><orgName
+                                source="http://id.loc.gov/authorities/names/no89010528">Percy
+                                Society</orgName></org>
+                            <org xml:id="lee_priory"><orgName
+                                source="http://id.loc.gov/authorities/names/no94000403">Private Press of
+                                Lee Priory</orgName></org>
+                            <org xml:id="goupil_cie"><orgName
+                                source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
+                                Cie</orgName></org>
+                            <org xml:id="roxburghe_club"><orgName
+                                source="http://id.loc.gov/authorities/names/n50068391">Roxburghe
+                                Club</orgName></org>
+                            <org xml:id="daniel_press"><orgName
+                                source="http://id.loc.gov/authorities/names/n85046469">Daniel
+                                Press</orgName></org>
+                        </listOrg>          
+                    <listPerson>
+                    <person xml:id="bindoni"><persName
                             source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
-                            Francesco, active 1523-1553</persName></item>
-                    <item xml:id="pasini"><persName
+                            Francesco, active 1523-1553</persName></person>
+
+                    <person xml:id="pasini"><persName
                             source="http://id.loc.gov/authorities/names/no95036795">Pasini, Maffeo,
-                            active 1524-1551</persName></item>
-                    <item xml:id="manuzio"><persName
+                            active 1524-1551</persName></person>
+                    <person xml:id="manuzio"><persName
                             source="http://id.loc.gov/authorities/names/n79117173">Manuzio, Aldo,
-                            1449 or 1450-1515</persName></item>
-                    <item xml:id="torresanus"><persName
+                            1449 or 1450-1515</persName></person>
+                    <person xml:id="torresanus"><persName
                             source="http://id.loc.gov/authorities/names/no95027093">Torresanus,
-                            Andreas, de Asula, 1451-1529</persName></item>
-                    <item xml:id="pickering"><persName
+                            Andreas, de Asula, 1451-1529</persName></person>
+                    <person xml:id="pickering"><persName
                             source="http://id.loc.gov/authorities/names/no89021301">Pickering,
-                            William, 1796-1854</persName></item>
-                    <item xml:id="bohn"><persName
+                            William, 1796-1854</persName></person>
+                    <person xml:id="bohn"><persName
                             source="http://id.loc.gov/authorities/names/n50045707">Bohn, Henry G.
-                            (Henry George), 1796-1884</persName></item>
-                    <item xml:id="barker_r"><persName
+                            (Henry George), 1796-1884</persName></person>
+                    <person xml:id="barker_r"><persName
                             source="http://id.loc.gov/authorities/names/nr95013746">Barker, Robert,
-                            -1645</persName></item>
-                    <item xml:id="field_j"><persName
+                            -1645</persName></person>
+                    <person xml:id="field_j"><persName
                             source="http://id.loc.gov/authorities/names/nr93041232">Field, John,
-                            -1668</persName></item>
-                    <item xml:id="husner"><persName
+                            -1668</persName></person>
+                    <person xml:id="husner"><persName
                             source="http://id.loc.gov/authorities/names/nr95004554">Husner, Georg,
-                            -1505</persName></item>
-                    <item xml:id="huth"><persName
+                            -1505</persName></person>
+                    <person xml:id="huth"><persName
                             source="http://id.loc.gov/authorities/names/n83139105">Huth, Henry,
-                            1815-1878</persName></item>
-                    <item xml:id="nichols"><persName
+                            1815-1878</persName></person>
+                    <person xml:id="nichols"><persName
                             source="http://id.loc.gov/authorities/names/n80032806">Nichols, John,
-                            1745-1826</persName></item>
-                    <item xml:id="barbou_jg"><persName
+                            1745-1826</persName></person>
+                    <person xml:id="barbou_jg"><persName
                             source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
-                            Joseph-Gérard, 1723-1790?</persName></item>
-                    <item sameAs="#estienne"/>
-                    <item xml:id="hunt_j"><persName
+                            Joseph-Gérard, 1723-1790?</persName></person>
+                    <person sameAs="#estienne"/>
+                    <person xml:id="hunt_j"><persName
                             source="http://id.loc.gov/authorities/names/nr92008396">Hunt, John,
-                            1775-1848</persName></item>
-                    <item xml:id="dawson"><persName
+                            1775-1848</persName></person>
+                    <person xml:id="dawson"><persName
                             source="http://id.loc.gov/authorities/names/nr96000751">Dawson, Thomas,
-                            -1620</persName></item>
-                    <item xml:id="rodd_t"><persName
+                            -1620</persName></person>
+                    <person xml:id="rodd_t"><persName
                             source="http://id.loc.gov/authorities/names/n83148978">Rodd, Thomas,
-                            1763-1822</persName></item>
-                    <item xml:id="cavalcalupo"><persName
+                            1763-1822</persName></person>
+                    <person xml:id="cavalcalupo"><persName
                             source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo,
-                            Domenico</persName></item>
-                    <item xml:id="ellis_f"><persName
+                            Domenico</persName></person>
+                    <person xml:id="ellis_f"><persName
                             source="http://id.loc.gov/authorities/names/n50008884">Ellis, Frederick
-                            Startridge, 1830-1901</persName></item>
-                    <item xml:id="torrentino"><persName
+                            Startridge, 1830-1901</persName></person>
+                    <person xml:id="torrentino"><persName
                             source="http://id.loc.gov/authorities/names/n85296837">Torrentino,
-                            Lorenzo, -1563</persName></item>
-                    <item xml:id="field_r"><persName
+                            Lorenzo, -1563</persName></person>
+                    <person xml:id="field_r"><persName
                             source="http://id.loc.gov/authorities/names/nr97012172">Field, Richard,
-                            -1624</persName></item>
-                    <item xml:id="petit"><persName
+                            -1624</persName></person>
+                    <person xml:id="petit"><persName
                             source="http://id.loc.gov/authorities/names/n93042253">Petit, Jean,
-                            active 1492-1530</persName></item>
-                </list>
+                            active 1492-1530</persName></person>
+                    </listPerson>
+                
             </div>
         </front>
         <body>
@@ -33909,7 +33923,7 @@
                 </div>
                 <!-- End of Day 3 -->
             </div>
-            
+
             <div source="watts-dunton">
                 <div type="day" n="1">
                     <div type="size" n="octavo">
@@ -34192,201 +34206,249 @@
                         </listBibl>
                     </div>
                 </div>
-                        <div type="day" n="4">
-                            <div type="size" n="octavo">
-                                <listBibl type="lot" xml:id="wd926">
-                                    <biblStruct xml:id="wd926.1" corresp="#owned #signed">
-                                        <monogr>
-                                            <title>Letters, with Introductory Essay by Robert Browning</title>
-                                            <author corresp="#shelley_p">Shelley, Percy Bysshe</author>
-                                            <respStmt>
-                                                <resp>contributor</resp>
-                                                <persName corresp="#browning_r">Robert Browning</persName>
-                                            </respStmt>
-                                            <note type="description">original cloth, Swinburne's copy, with his signature on the half title, with date May 13th, 1858.</note>
-                                            <note>This book was apparently withdrawn from publication. See p. 198 of https://books.google.com/books?id=oVYFAAAAQAAJ</note>
-                                            <edition>First edition</edition>
-                                            <imprint>
-                                                <publisher/>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1852"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target=""/>
-                                    </biblStruct>
-                                </listBibl>
-                                <listBibl type="lot" xml:id="wd1029">
-                                    <biblStruct xml:id="wd1029.1" corresp="#owned #signed">
-                                        <monogr>
-                                            <title>Erechtheus, a Tragedy</title>
-                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
-                                            
-                                            <note type="description">original cloth Swinburne's copy, with his autograph signature on half-title.</note>
-                                            <edition>Second edition</edition>
-                                            <imprint>
-                                                <publisher></publisher>
-                                                <pubPlace></pubPlace>
-                                                <date when="1876"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t4zg6m42w"/>
-                                        <note type="fulltext">HT copy is the first edition.</note>
-                                    </biblStruct>
-                                </listBibl> 
-                                <listBibl type="lot" xml:id="wd1031">
-                                    <biblStruct xml:id="wd1031.1" corresp="#annotated #corrected">
-                                        <monogr>
-                                            <title>Poems and Ballads, second series</title>
-                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
-                                            
-                                            <note type="description" corresp="#uncut">original cloth uncut, containing numerous annotations and corrections in Swinburne's handwriting</note>
-                                            <edition>First edition</edition>
-                                            <imprint>
-                                                <publisher>Chatto and Windus</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1878"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t5fb55w84"/>
-                                    </biblStruct>
-                                </listBibl> 
-                                <listBibl type="lot" xml:id="wd1032">
-                                    <biblStruct xml:id="wd1032.1" corresp="#annotated">
-                                        <monogr>
-                                            <title>Studies in Song</title>
-                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
-                                            
-                                            <note type="description" corresp="#uncut">original cloth, uncut, note on half-title in Swinburne's handwriting</note>
-                                            <edition>first edition</edition>
-                                            <imprint>
-                                                <publisher>Chatto and Windus</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1880"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc1.b3741656"/>
-                                    </biblStruct>
-                                </listBibl> 
-                                <listBibl type="lot" xml:id="wd1033">
-                                    <biblStruct xml:id="wd1033.1" corresp="#owned #signed #annotated #corrected">
-                                        <monogr>
-                                            <title>A Study of Shakespeare</title>
-                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
-                                            
-                                            <note type="description">Original cloth, swinburne's copy, with his initials <q>A.C.S.</q> on half-title, and a note and some corrections in his handwriting.</note>
-                                            <edition>first edition</edition>
-                                            <imprint>
-                                                <publisher>Chatto &amp; Windus</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1880"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t6sx6vk04"/>
-                                    </biblStruct>
-                                </listBibl>
-                                <listBibl type="lot" xml:id="wd1036">
-                                    <biblStruct xml:id="wd1036.1" corresp="#annotated">
-                                        <monogr>
-                                            <title>A Midsummer Holiday, and other Poems</title>
-                                            <author corresp="#swinburne">Swinburne, Charles Algernon</author>
-                                            
-                                            <note type="description" corresp="#uncut">original cloth, uncut, note in Swinburne's writing inserted</note>
-                                            <imprint>
-                                                <publisher>Chatto and Windus</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1884"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.hwp8rv"/>
-                                    </biblStruct>
-                                </listBibl> 
-                                <listBibl type="lot" xml:id="wd1052">
-                                    <biblStruct xml:id="wd1052.1" corresp="#annotated #corrected">
-                                        <monogr>
-                                            <title>The Age of Shakespeare</title>
-                                            <author corresp="#swinburne">Swinburne, Algernon Charles</author>
-                                            
-                                            <note type="description" corresp="#uncut">buckram, uncut, top edge gilt with pencil note and correction in Swinburne's handwriting.</note>
-                                            <imprint>
-                                                <publisher>Chatto and Windus</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1908"/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/coo1.ark:/13960/t8pc3jb45"/>
-                                    </biblStruct>
-                                </listBibl> 
-                                <listBibl type="lot" xml:id="wd1098">
-                                    <biblStruct xml:id="wd1098.1" corresp="#annotated">
-                                        <monogr>
-                                            <title>Alfred, Lord Tennyson; a memoir by his son</title>
-                                            <author>Tennyson, Hallam</author>
-                                            
-                                            <note type="description" corresp="#uncut">portraits and illustrations, green cloth, uncut, pencil notes written on the flyleaf in Swinburne's handwriting</note>
-                                            <imprint>
-                                                <publisher>Macmillan and Co.</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date when="1897"/>
-                                            </imprint>
-                                            <extent><measure unit="volumes" quantity="2"/></extent>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.49015000846452"/>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.49015002154343"/>
-                                    </biblStruct>
-                                </listBibl>
-                                <listBibl type="lot" xml:id="wd1109">
-                                    <biblStruct xml:id="wd1109.1" corresp="#owned #annotated">
-                                        <monogr>
-                                            <title>Benjamin Jowett, Master of Balliol</title>
-                                            <author>Tollemache, L.A.</author>
-                                            
-                                            <note type="description" corresp="#uncut">uncut, Swinburne's copy, with some pencil notes in his writing</note>
-                                            <imprint>
-                                                <publisher/>
-                                                <pubPlace/>
-                                                <date/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t19k4822d"/>
-                                        <note type="fulltext">HT copy is earliest copy on HT. Edition unknown since catalogue doesn't give a date.</note>
-                                    </biblStruct>
-                                </listBibl> 
-                                <listBibl type="lot" xml:id="wd1140">
-                                    <biblStruct xml:id="wd1140.1" corresp="#presented_by #annotated">
-                                        <monogr>
-                                            <title>Works with some Account of the Author and Notes by Alex. Dyce</title>
-                                            <author corresp="#webster_j">Webster, John</author>
-                                            
-                                            <note type="description" corresp="#uncut #presentation">brown cloth, uncut, presentation copy from Swinburne, with autograph inscription on half-title: <q>Walter Theodore Watts from his affectionate friend Algernon Charles Swinburne</q>. On the half-title is given a copy of Swinburne's Sonnet on John Webster commencing: <q>Thunder the flesh quails,</q> 14 lines in Swinburne's hand-writing and signed <q>A.C.S.</q></note>
-                                            <imprint>
-                                                <publisher/>
-                                                <pubPlace/>
-                                                <date/>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/miun.aea7483.0001.001"/>
-                                        <note type="fulltext">HT copy is earliest copy on HT that would fit the criteria in the auction catalogue.</note>
-                                    </biblStruct>
-                                </listBibl>
-                                <listBibl type="lot" xml:id="wd1141">
-                                    <biblStruct xml:id="wd1141.1" corresp="#annotated">
-                                        <monogr>
-                                            <title>Works with Account of the Author and Notes by Alex. Dyce</title>
-                                            <author corresp="#webster_j">Webster, John</author>
-                                            
-                                            <note type="description" corresp="#uncut">uncut, inserted some lines in Swinburne's hand-writing: <q>True my fair queen of sorrows truly speaks</q> etc.</note>
-                                            <imprint>
-                                                <publisher>George Routledge and Sons</publisher>
-                                                <pubPlace>London</pubPlace>
-                                                <date>1877</date>
-                                            </imprint>
-                                        </monogr>
-                                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044020404299"/>
+                <div type="day" n="4">
+                    <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd926">
+                            <biblStruct xml:id="wd926.1" corresp="#owned #signed">
+                                <monogr>
+                                    <title>Letters, with Introductory Essay by Robert
+                                        Browning</title>
+                                    <author corresp="#shelley_p">Shelley, Percy Bysshe</author>
+                                    <respStmt>
+                                        <resp>contributor</resp>
+                                        <persName corresp="#browning_r">Robert Browning</persName>
+                                    </respStmt>
+                                    <note type="description">original cloth, Swinburne's copy, with
+                                        his signature on the half title, with date May 13th,
+                                        1858.</note>
+                                    <note>This book was apparently withdrawn from publication. See
+                                        p. 198 of
+                                        https://books.google.com/books?id=oVYFAAAAQAAJ</note>
+                                    <edition>First edition</edition>
+                                    <imprint>
+                                        <publisher/>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1852"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht" target=""/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1029">
+                            <biblStruct xml:id="wd1029.1" corresp="#owned #signed">
+                                <monogr>
+                                    <title>Erechtheus, a Tragedy</title>
+                                    <author corresp="#swinburne">Swinburne, Algernon
+                                        Charles</author>
 
-                                    </biblStruct>
-                                </listBibl>
-                            </div>
-                        </div>
+                                    <note type="description">original cloth Swinburne's copy, with
+                                        his autograph signature on half-title.</note>
+                                    <edition>Second edition</edition>
+                                    <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
+                                        <date when="1876"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t4zg6m42w"/>
+                                <note type="fulltext">HT copy is the first edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1031">
+                            <biblStruct xml:id="wd1031.1" corresp="#annotated #corrected">
+                                <monogr>
+                                    <title>Poems and Ballads, second series</title>
+                                    <author corresp="#swinburne">Swinburne, Algernon
+                                        Charles</author>
+
+                                    <note type="description" corresp="#uncut">original cloth uncut,
+                                        containing numerous annotations and corrections in
+                                        Swinburne's handwriting</note>
+                                    <edition>First edition</edition>
+                                    <imprint>
+                                        <publisher>Chatto and Windus</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1878"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t5fb55w84"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1032">
+                            <biblStruct xml:id="wd1032.1" corresp="#annotated">
+                                <monogr>
+                                    <title>Studies in Song</title>
+                                    <author corresp="#swinburne">Swinburne, Algernon
+                                        Charles</author>
+
+                                    <note type="description" corresp="#uncut">original cloth, uncut,
+                                        note on half-title in Swinburne's handwriting</note>
+                                    <edition>first edition</edition>
+                                    <imprint>
+                                        <publisher>Chatto and Windus</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1880"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.b3741656"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1033">
+                            <biblStruct xml:id="wd1033.1"
+                                corresp="#owned #signed #annotated #corrected">
+                                <monogr>
+                                    <title>A Study of Shakespeare</title>
+                                    <author corresp="#swinburne">Swinburne, Algernon
+                                        Charles</author>
+
+                                    <note type="description">Original cloth, swinburne's copy, with
+                                        his initials <q>A.C.S.</q> on half-title, and a note and
+                                        some corrections in his handwriting.</note>
+                                    <edition>first edition</edition>
+                                    <imprint>
+                                        <publisher>Chatto &amp; Windus</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1880"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/coo1.ark:/13960/t6sx6vk04"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1036">
+                            <biblStruct xml:id="wd1036.1" corresp="#annotated">
+                                <monogr>
+                                    <title>A Midsummer Holiday, and other Poems</title>
+                                    <author corresp="#swinburne">Swinburne, Charles
+                                        Algernon</author>
+
+                                    <note type="description" corresp="#uncut">original cloth, uncut,
+                                        note in Swinburne's writing inserted</note>
+                                    <imprint>
+                                        <publisher>Chatto and Windus</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1884"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwp8rv"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1052">
+                            <biblStruct xml:id="wd1052.1" corresp="#annotated #corrected">
+                                <monogr>
+                                    <title>The Age of Shakespeare</title>
+                                    <author corresp="#swinburne">Swinburne, Algernon
+                                        Charles</author>
+
+                                    <note type="description" corresp="#uncut">buckram, uncut, top
+                                        edge gilt with pencil note and correction in Swinburne's
+                                        handwriting.</note>
+                                    <imprint>
+                                        <publisher>Chatto and Windus</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1908"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/coo1.ark:/13960/t8pc3jb45"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1098">
+                            <biblStruct xml:id="wd1098.1" corresp="#annotated">
+                                <monogr>
+                                    <title>Alfred, Lord Tennyson; a memoir by his son</title>
+                                    <author>Tennyson, Hallam</author>
+
+                                    <note type="description" corresp="#uncut">portraits and
+                                        illustrations, green cloth, uncut, pencil notes written on
+                                        the flyleaf in Swinburne's handwriting</note>
+                                    <imprint>
+                                        <publisher>Macmillan and Co.</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date when="1897"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.49015000846452"/>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.49015002154343"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1109">
+                            <biblStruct xml:id="wd1109.1" corresp="#owned #annotated">
+                                <monogr>
+                                    <title>Benjamin Jowett, Master of Balliol</title>
+                                    <author>Tollemache, L.A.</author>
+
+                                    <note type="description" corresp="#uncut">uncut, Swinburne's
+                                        copy, with some pencil notes in his writing</note>
+                                    <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
+                                        <date/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t19k4822d"/>
+                                <note type="fulltext">HT copy is earliest copy on HT. Edition
+                                    unknown since catalogue doesn't give a date.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1140">
+                            <biblStruct xml:id="wd1140.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works with some Account of the Author and Notes by Alex.
+                                        Dyce</title>
+                                    <author corresp="#webster_j">Webster, John</author>
+
+                                    <note type="description" corresp="#uncut #presentation">brown
+                                        cloth, uncut, presentation copy from Swinburne, with
+                                        autograph inscription on half-title: <q>Walter Theodore
+                                            Watts from his affectionate friend Algernon Charles
+                                            Swinburne</q>. On the half-title is given a copy of
+                                        Swinburne's Sonnet on John Webster commencing: <q>Thunder
+                                            the flesh quails,</q> 14 lines in Swinburne's
+                                        hand-writing and signed <q>A.C.S.</q></note>
+                                    <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
+                                        <date/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/miun.aea7483.0001.001"/>
+                                <note type="fulltext">HT copy is earliest copy on HT that would fit
+                                    the criteria in the auction catalogue.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1141">
+                            <biblStruct xml:id="wd1141.1" corresp="#annotated">
+                                <monogr>
+                                    <title>Works with Account of the Author and Notes by Alex.
+                                        Dyce</title>
+                                    <author corresp="#webster_j">Webster, John</author>
+
+                                    <note type="description" corresp="#uncut">uncut, inserted some
+                                        lines in Swinburne's hand-writing: <q>True my fair queen of
+                                            sorrows truly speaks</q> etc.</note>
+                                    <imprint>
+                                        <publisher>George Routledge and Sons</publisher>
+                                        <pubPlace>London</pubPlace>
+                                        <date>1877</date>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044020404299"/>
+
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
             </div>
         </body>
     </text>
