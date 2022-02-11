@@ -82,12 +82,12 @@
         <xsl:choose>
             <xsl:when test="./tei:author">
                 <author>
-                    <xsl:value-of select="./tei:author"/>
+                    <xsl:apply-templates  select="./tei:author"/>
                 </author>
             </xsl:when>
             <xsl:when test="./tei:title">
                 <title>
-                    <xsl:value-of select="./tei:title"/>
+                    <xsl:apply-templates  select="./tei:title"/>
                 </title>
             </xsl:when>
             <xsl:otherwise>
@@ -95,5 +95,12 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:orig"/>
+    <xsl:template match="tei:author">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:title">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:choice//tei:orig"/>
+    <xsl:template match="tei:choice//tei:abbr"/>
 </xsl:stylesheet>
