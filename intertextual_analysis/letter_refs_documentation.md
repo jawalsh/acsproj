@@ -17,6 +17,10 @@ In __letter_refs.csv__ we are recording references to written works that are men
 
 ## Topics to Record
 - Works with or without an author, editor, translator (Titles of works are italicized in the index)
+    - Works are often an italicized first level or an italicized second-level heading under an author, editor, or translator
+    - Smaller works might be in double quotes (e.g. a single poem)
+- Person1, Person2's book on (person1)
+- A heading that seems to indicate a book, particularly if Swinburne might have read or received a copy of it.
 - Under the first level heading of "Swinburne, Algernon Charles" (begins p. 411)
     - France?
         - literature of (second level)
@@ -31,6 +35,9 @@ In __letter_refs.csv__ we are recording references to written works that are men
     - e.g. "Albrecht, Graf von Wickenburg, tr., _Atalanta in Calydon_" 
     - **Can use index (p. 420-429) to determine titles of Swinburne's works
 - Reviews of Swinburne's own work
+- Historical figures that are not the subject of a book that is listed under them (and don't record if they do have a work about them that is by Swinburne)
+    - e.g. the first level heading "Rossetti, Gabriel Arthur" which doesn't have any second level headings
+    - e.g. Alexander II, Czar of Russia...assasination of...ACS' sonnets on
 
 ## Workflow
 1. Go to the place in the General Index that you are working on
