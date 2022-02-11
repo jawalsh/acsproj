@@ -4362,116 +4362,153 @@
                 </listPerson>
             </div>
             <div n="publishers">
-                    <head>Publishers, Printers, etc.</head>            
-                        <listOrg>
-                            <org xml:id="kelmscott">
-                                <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
-                                    Press</orgName></org>
-                            <org xml:id="kama_sastra_society"><orgName
-                                source="http://id.loc.gov/authorities/names/nb2006006446">Kama Shastra
-                                Society of London and Benares</orgName></org>
-                            <org xml:id="edward_moxon_co"><orgName
-                                source="http://id.loc.gov/authorities/names/nr00017940">Edward Moxon
-                                &amp; Co.</orgName></org>
-                            <org xml:id="villon_society"><orgName
-                                source="http://id.loc.gov/authorities/names/no2002113997">Villon
-                                Society</orgName></org>
-                            <org xml:id="chiswick_press"><orgName
-                                source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
-                                Press</orgName></org>
-                            <org xml:id="chaucer_society"><orgName
-                                source="http://id.loc.gov/authorities/names/nr98010609">Chaucer Society
-                                (London, England)</orgName></org>
-                            <org xml:id="ashendene_press"><orgName
-                                source="http://id.loc.gov/authorities/names/n81144054">Ashendene
-                                Press</orgName></org>
-                            <org xml:id="boussod_valadon_cie"><orgName
-                                source="http://id.loc.gov/authorities/names/n83317533">Boussod, Valadon
-                                &amp; Cie</orgName></org>
-                            <org xml:id="spenser_society"><orgName
-                                source="http://id.loc.gov/authorities/names/n80044799">Spenser
-                                Society</orgName></org>
-                            <org xml:id="percy_society"><orgName
-                                source="http://id.loc.gov/authorities/names/no89010528">Percy
-                                Society</orgName></org>
-                            <org xml:id="lee_priory"><orgName
-                                source="http://id.loc.gov/authorities/names/no94000403">Private Press of
-                                Lee Priory</orgName></org>
-                            <org xml:id="goupil_cie"><orgName
-                                source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
-                                Cie</orgName></org>
-                            <org xml:id="roxburghe_club"><orgName
-                                source="http://id.loc.gov/authorities/names/n50068391">Roxburghe
-                                Club</orgName></org>
-                            <org xml:id="daniel_press"><orgName
-                                source="http://id.loc.gov/authorities/names/n85046469">Daniel
-                                Press</orgName></org>
-                        </listOrg>          
-                    <listPerson>
-                    <person xml:id="bindoni"><persName
-                            source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
-                            Francesco, active 1523-1553</persName></person>
+                <head>Publishers, Printers, etc.</head>
+                <listOrg>
+                    <org xml:id="kelmscott">
+                        <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
+                            Press</orgName>
+                    </org>
+                    <org xml:id="kama_sastra_society">
+                        <orgName source="http://id.loc.gov/authorities/names/nb2006006446">Kama
+                            Shastra Society of London and Benares</orgName>
+                    </org>
+                    <org xml:id="edward_moxon_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr00017940">Edward
+                            Moxon &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="villon_society">
+                        <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
+                            Society</orgName>
+                    </org>
+                    <org xml:id="chiswick_press">
+                        <orgName source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
+                            Press</orgName>
+                    </org>
+                    <org xml:id="chaucer_society">
+                        <orgName source="http://id.loc.gov/authorities/names/nr98010609">Chaucer
+                            Society (London, England)</orgName>
+                    </org>
+                    <org xml:id="ashendene_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n81144054">Ashendene
+                            Press</orgName>
+                    </org>
+                    <org xml:id="boussod_valadon_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/n83317533">Boussod,
+                            Valadon &amp; Cie</orgName>
+                    </org>
+                    <org xml:id="spenser_society">
+                        <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
+                            Society</orgName>
+                    </org>
+                    <org xml:id="percy_society">
+                        <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
+                            Society</orgName>
+                    </org>
+                    <org xml:id="lee_priory">
+                        <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
+                            Press of Lee Priory</orgName>
+                    </org>
+                    <org xml:id="goupil_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
+                            Cie</orgName>
+                    </org>
+                    <org xml:id="roxburghe_club">
+                        <orgName source="http://id.loc.gov/authorities/names/n50068391">Roxburghe
+                            Club</orgName>
+                    </org>
+                    <org xml:id="daniel_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
+                            Press</orgName>
+                    </org>
+                </listOrg>
+                <listPerson>
+                    <person xml:id="bindoni">
+                        <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
+                            Francesco, active 1523-1553</persName>
+                        <floruit from="1523" to="1553"/>
+                    </person>
 
-                    <person xml:id="pasini"><persName
-                            source="http://id.loc.gov/authorities/names/no95036795">Pasini, Maffeo,
-                            active 1524-1551</persName></person>
-                    <person xml:id="manuzio"><persName
-                            source="http://id.loc.gov/authorities/names/n79117173">Manuzio, Aldo,
-                            1449 or 1450-1515</persName></person>
-                    <person xml:id="torresanus"><persName
-                            source="http://id.loc.gov/authorities/names/no95027093">Torresanus,
-                            Andreas, de Asula, 1451-1529</persName></person>
-                    <person xml:id="pickering"><persName
-                            source="http://id.loc.gov/authorities/names/no89021301">Pickering,
-                            William, 1796-1854</persName></person>
-                    <person xml:id="bohn"><persName
-                            source="http://id.loc.gov/authorities/names/n50045707">Bohn, Henry G.
-                            (Henry George), 1796-1884</persName></person>
-                    <person xml:id="barker_r"><persName
-                            source="http://id.loc.gov/authorities/names/nr95013746">Barker, Robert,
-                            -1645</persName></person>
-                    <person xml:id="field_j"><persName
-                            source="http://id.loc.gov/authorities/names/nr93041232">Field, John,
-                            -1668</persName></person>
-                    <person xml:id="husner"><persName
-                            source="http://id.loc.gov/authorities/names/nr95004554">Husner, Georg,
-                            -1505</persName></person>
-                    <person xml:id="huth"><persName
-                            source="http://id.loc.gov/authorities/names/n83139105">Huth, Henry,
-                            1815-1878</persName></person>
-                    <person xml:id="nichols"><persName
-                            source="http://id.loc.gov/authorities/names/n80032806">Nichols, John,
-                            1745-1826</persName></person>
-                    <person xml:id="barbou_jg"><persName
-                            source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
-                            Joseph-Gérard, 1723-1790?</persName></person>
+                    <person xml:id="pasini">
+                        <persName source="http://id.loc.gov/authorities/names/no95036795">Pasini,
+                            Maffeo, active 1524-1551</persName>
+                        <floruit from="1524" to="1551"/>
+                    </person>
+                    <person xml:id="manuzio">
+                        <persName source="http://id.loc.gov/authorities/names/n79117173">Manuzio,
+                            Aldo, 1449 or 1450-1515</persName>
+                    </person>
+                    <person xml:id="torresanus">
+                        <persName source="http://id.loc.gov/authorities/names/no95027093"
+                            >Torresanus, Andreas, de Asula, 1451-1529</persName>
+                    </person>
+                    <person xml:id="pickering">
+                        <persName source="http://id.loc.gov/authorities/names/no89021301">Pickering,
+                            William, 1796-1854</persName>
+                    </person>
+                    <person xml:id="bohn">
+                        <persName source="http://id.loc.gov/authorities/names/n50045707">Bohn, Henry
+                            G. (Henry George), 1796-1884</persName>
+                    </person>
+                    <person xml:id="barker_r">
+                        <persName source="http://id.loc.gov/authorities/names/nr95013746">Barker,
+                            Robert, -1645</persName>
+                    </person>
+                    <person xml:id="field_j">
+                        <persName source="http://id.loc.gov/authorities/names/nr93041232">Field,
+                            John, -1668</persName>
+                    </person>
+                    <person xml:id="husner">
+                        <persName source="http://id.loc.gov/authorities/names/nr95004554">Husner,
+                            Georg, -1505</persName>
+                    </person>
+                    <person xml:id="huth">
+                        <persName source="http://id.loc.gov/authorities/names/n83139105">Huth,
+                            Henry, 1815-1878</persName>
+                    </person>
+                    <person xml:id="nichols">
+                        <persName source="http://id.loc.gov/authorities/names/n80032806">Nichols,
+                            John, 1745-1826</persName>
+                    </person>
+                    <person xml:id="barbou_jg">
+                        <persName source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
+                            Joseph-Gérard, 1723-1790?</persName>
+                    </person>
                     <person sameAs="#estienne"/>
-                    <person xml:id="hunt_j"><persName
-                            source="http://id.loc.gov/authorities/names/nr92008396">Hunt, John,
-                            1775-1848</persName></person>
-                    <person xml:id="dawson"><persName
-                            source="http://id.loc.gov/authorities/names/nr96000751">Dawson, Thomas,
-                            -1620</persName></person>
-                    <person xml:id="rodd_t"><persName
-                            source="http://id.loc.gov/authorities/names/n83148978">Rodd, Thomas,
-                            1763-1822</persName></person>
-                    <person xml:id="cavalcalupo"><persName
-                            source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo,
-                            Domenico</persName></person>
-                    <person xml:id="ellis_f"><persName
-                            source="http://id.loc.gov/authorities/names/n50008884">Ellis, Frederick
-                            Startridge, 1830-1901</persName></person>
-                    <person xml:id="torrentino"><persName
-                            source="http://id.loc.gov/authorities/names/n85296837">Torrentino,
-                            Lorenzo, -1563</persName></person>
-                    <person xml:id="field_r"><persName
-                            source="http://id.loc.gov/authorities/names/nr97012172">Field, Richard,
-                            -1624</persName></person>
-                    <person xml:id="petit"><persName
-                            source="http://id.loc.gov/authorities/names/n93042253">Petit, Jean,
-                            active 1492-1530</persName></person>
-                    </listPerson>
-                
+                    <person xml:id="hunt_j">
+                        <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
+                            John, 1775-1848</persName>
+                    </person>
+                    <person xml:id="dawson">
+                        <persName source="http://id.loc.gov/authorities/names/nr96000751">Dawson,
+                            Thomas, -1620</persName>
+                    </person>
+                    <person xml:id="rodd_t">
+                        <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
+                            Thomas, 1763-1822</persName>
+                    </person>
+                    <person xml:id="cavalcalupo">
+                        <persName source="http://id.loc.gov/authorities/names/no96046077"
+                            >Cavalcalupo, Domenico</persName>
+                    </person>
+                    <person xml:id="ellis_f">
+                        <persName source="http://id.loc.gov/authorities/names/n50008884">Ellis,
+                            Frederick Startridge, 1830-1901</persName>
+                    </person>
+                    <person xml:id="torrentino">
+                        <persName source="http://id.loc.gov/authorities/names/n85296837">Torrentino,
+                            Lorenzo, -1563</persName>
+                    </person>
+                    <person xml:id="field_r">
+                        <persName source="http://id.loc.gov/authorities/names/nr97012172">Field,
+                            Richard, -1624</persName>
+                    </person>
+                    <person xml:id="petit">
+                        <persName source="http://id.loc.gov/authorities/names/n93042253">Petit,
+                            Jean, active 1492-1530</persName>
+                        <floruit from="1492" to="1530"/>
+                    </person>
+                </listPerson>
+
             </div>
         </front>
         <body>
