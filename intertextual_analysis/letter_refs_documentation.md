@@ -1,6 +1,6 @@
 # Documentation for Recording Letter References
 ## Intro
-In __letter_refs.csv__ we are recording references to written works that are mentioned in the General Index to Swinburne's letters found in vol. 6 of *The Swinburne Letters* edited by Cecil Lang. Down the line, our intention is to check these references to see if they contain information about what books Swinburne owned, when or how he acquired them, and how he is using them (such as quoting them in his letters, for example).
+In __letter_refs.csv__ we are recording references to written works that are mentioned in the General Index to Swinburne's letters found in vol. 6 of *The Swinburne Letters* edited by Cecil Lang. Down the line, our intention is to check these references to see if they contain information about what books Swinburne owned, when or how he acquired them, books he might be reading, and how he is using them (such as quoting them in his letters, for example).
 
 ## Fields
 - **First Level** (req, string): the keyword that is a main entry in the index. In other words, the phrase that is alphabetized in the index. This is often an author, but it could be a work ("Aesop, Fables of"), editor ("Ainger, Alfred, ed."), or translator ("Amiot, J., translator"). All entries will have a first level
@@ -8,6 +8,7 @@ In __letter_refs.csv__ we are recording references to written works that are men
     - If there is no second level, leave it blank
 - __Third Level__(req if present, string): One more level of distinction down from the __second level__. See for example, "Aeschylus (first level), _Agamemnon_ (second level), Browning's translation (third level). Not all entries will have a third level. If they have a third level, there must be a second level.
     - If there is no third level, leave it blank
+- __Taxonomy__: [TBD]
 - __Volume__(req, integer): Number of the volume in the Lang edition that the reference appears in. Given in roman numerals in the index (II), but we record in arabic numberals (2). 
 - __Page__(req, integer, range, or integer*n*): Page numbers in the Lang edition that the reference appears on. Some pages have an "n" next to them that indicates they are footnotes. Record the "n" with the page number (e.g., 163n). 
 - __Quote__(req, yes/no): Indicates that the work is quoted by Swinburne or the editor.
@@ -20,6 +21,7 @@ In __letter_refs.csv__ we are recording references to written works that are men
     - Works are often an italicized first level or an italicized second-level heading under an author, editor, or translator
     - Smaller works might be in double quotes (e.g. a single poem)
 - Person1, Person2's book on (person1)
+- A heading that seems to indicate that he is quoting/paraphrasing from a work/author.
 - A heading that seems to indicate a book, particularly if Swinburne might have read or received a copy of it.
 - Under the first level heading of "Swinburne, Algernon Charles" (begins p. 411)
     - France?
