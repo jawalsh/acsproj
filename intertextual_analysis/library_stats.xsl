@@ -18,7 +18,7 @@
                     <li>Received by Swinburne: <xsl:value-of select="count(//tei:biblStruct[@corresp[contains(., 'received')]])"/></li>
                     <li>Referenced by Swinburne: <xsl:value-of select="count(//tei:biblStruct[@corresp[contains(., 'referenced')]])"/></li>
                     <li>Presented to Swinburne: <xsl:value-of select="count(//tei:biblStruct[.//tei:note[@corresp[contains(.,'presentation')]] and .[@corresp[contains(., 'owned')]]])"/></li> 
-                    <li><b>Total: <xsl:value-of select="count(//tei:biblStruct)"/></b></li>
+                    <li><b>Total: <xsl:value-of select="count(//tei:body//tei:biblStruct)"/></b></li>
                 </ul>
                 <ul>
                     <h2>Bibliographic features of volumes</h2>
@@ -64,8 +64,8 @@
                     </ul>
                     <li>Volume runs</li>
                     <ul>
-                        <xsl:for-each-group select="//tei:biblStruct" group-by="number(.//tei:extent/tei:measure[@unit='volumes']/@quantity)">
-                            <xsl:sort select="current-grouping-key()"/>
+                        <xsl:for-each-group select="//tei:biblStruct" group-by=".//tei:extent/tei:measure[@unit='volumes']/@quantity">
+                            <xsl:sort select="number(current-grouping-key())"/>
                             <li><xsl:value-of select="current-grouping-key()"/> volumes: <xsl:value-of select="count(current-group())"/></li>
                         </xsl:for-each-group>
                     </ul>
@@ -73,10 +73,12 @@
                 </ul>
                 <h2>Publication years</h2>
                 <ul>
-                    <xsl:for-each-group select="//tei:body//tei:biblStruct" group-by="number(substring(.//tei:imprint/tei:date/@when, 1, 4))">
-                        <xsl:sort select="current-grouping-key()"/>
+                    <xsl:for-each-group select="//tei:body//tei:biblStruct" group-by=".//tei:imprint/tei:date/@when|.//tei:imprint/tei:date/@from">
+                        <xsl:sort select="number(current-grouping-key())"/>
                         <li><xsl:value-of select="current-grouping-key()"/>: <xsl:value-of select="count(current-group())"/></li>
                     </xsl:for-each-group>
+                    <li>Total items with date: <xsl:value-of select="count(//tei:body//tei:biblStruct//tei:imprint/tei:date/@when |//tei:body//tei:biblStruct//tei:imprint/tei:date/@from)"/></li>
+                    <li>Total items without date: <xsl:value-of select="count(//tei:body//tei:biblStruct//tei:imprint/tei:date[not(@when|@from )])"/></li>
                 </ul>
             </body>
         </html>

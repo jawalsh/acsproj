@@ -5078,7 +5078,7 @@
                                     <note type="description">portrait, half vellum</note>
                                     <imprint>
                                         <pubPlace xml:lang="it" ref="#florence">Firenze</pubPlace>
-                                        <date>1823</date>
+                                        <date when="1823">1823</date>
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="8"/>
@@ -34204,6 +34204,7 @@
                                     <imprint>
                                         <publisher/>
                                         <pubPlace/>
+                                        <date/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
@@ -34488,7 +34489,7 @@
                                     <imprint>
                                         <publisher>George Routledge and Sons</publisher>
                                         <pubPlace>London</pubPlace>
-                                        <date>1877</date>
+                                        <date when="1877">1877</date>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
