@@ -3,68 +3,51 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs" version="2.0">
     <xsl:strip-space elements="*"/>
+    <!-- root template -->
     <xsl:template match="/">
         <results>
-            <listEpigraph>
-                <xsl:apply-templates select="//tei:epigraph"/>
-            </listEpigraph>
             <listCit>
                 <xsl:apply-templates select="//tei:cit"/>
             </listCit>
+            <!-- poems in honor of someone/thing -->
             <listHonor>
                 <xsl:apply-templates select="//tei:head[contains(., 'Memory')]"/>
-                <xsl:apply-templates select="//tei:head[contains(., 'For')]"/>
+                <xsl:apply-templates select="//tei:head[contains(., 'For ')]"/>
             </listHonor>
-
         </results>
     </xsl:template>
-    <xsl:template match="//tei:epigraph">
-        <epigraph>
-            <cit>
-                <xsl:choose>
-                    <xsl:when test="./tei:cit">
-                        <quote>
-                            <xsl:value-of select="./tei:cit/tei:quote"/>
-                        </quote>
-                        <bibl>
-                            <xsl:apply-templates select="./tei:cit/tei:bibl"/>
-                        </bibl>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <p>
-                            <xsl:apply-templates/>
-                        </p>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </cit>
-        </epigraph>
+
+    <!-- other templates -->
+    <xsl:template match="//tei:cit">
+        <xsl:choose>
+            <xsl:when test=".[parent::tei:epigraph]">
+                <cit vol="{substring-after(./ancestor::tei:TEI/@xml:id, 'acs0000001-0')}" type="epigraph" corresp="swinburne_library.xml#{./ancestor::tei:text[@type='poem']/@xml:id}">
+                    <xsl:apply-templates select="./tei:quote"/>                  
+                    <xsl:apply-templates select="./tei:bibl"/>
+                </cit>
+            </xsl:when>
+            <xsl:otherwise>
+                <cit vol="{substring-after(./ancestor::tei:TEI/@xml:id, 'acs0000001-0')}" corresp="swinburne_library.xml#{./ancestor::tei:text[@type='poem']/@xml:id}">
+                    <xsl:apply-templates select="./tei:quote"/>                  
+                    <xsl:apply-templates select="./tei:bibl"/>
+                </cit>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:body/tei:head">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="tei:cit[not(parent::tei:epigraph)]">
-        <cit>
-            <source type="poem">
-                <xsl:apply-templates select="./ancestor::tei:body/tei:head"/>
-            </source>
 
-            <xsl:apply-templates select="tei:quote"/>
-
-
-            <xsl:apply-templates select="./tei:bibl"/>
-
-        </cit>
-    </xsl:template>
+    <!-- For listHonor -->
     <xsl:template match="//tei:head[contains(., 'Memory')]">
-        <head>
+        <head vol="{substring-after(./ancestor::tei:TEI/@xml:id, 'acs0000001-0')}" corresp="swinburne_library.xml#{./ancestor::tei:text[@type='poem']/@xml:id}">
             <xsl:apply-templates/>
         </head>
     </xsl:template>
     <xsl:template match="//tei:head[contains(., 'For ')]">
-        <head>
+        <head vol="{substring-after(./ancestor::tei:TEI/@xml:id, 'acs0000001-0')}" corresp="swinburne_library.xml#{./ancestor::tei:text[@type='poem']/@xml:id}">
             <xsl:apply-templates/>
         </head>
     </xsl:template>
+
+    <!-- component templates -->
     <xsl:template match="//tei:head//tei:persName">
         <persName>
             <xsl:apply-templates/>
@@ -83,6 +66,7 @@
     <!-- bibl template -->
     <xsl:template match="tei:bibl">
         <bibl>
+            <!--
             <xsl:choose>
                 <xsl:when test="./tei:author">
                     <xsl:apply-templates select="./tei:author"/>
@@ -93,7 +77,8 @@
                 <xsl:otherwise>
                     <xsl:apply-templates/>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose>-->
+            <xsl:apply-templates/>
         </bibl>
     </xsl:template>
     <!-- title and author templates -->
@@ -106,6 +91,15 @@
         <title>
             <xsl:apply-templates/>
         </title>
+    </xsl:template>
+    <xsl:template match="tei:biblScope">
+        <xsl:copy-of select="."/>
+    </xsl:template>
+    <xsl:template match="tei:bibl/text()"/>
+    <xsl:template match="tei:head">
+        <head>
+        <xsl:apply-templates/>
+        </head>
     </xsl:template>
     <!-- empty templates -->
     <xsl:template match="//tei:choice//tei:orig"/>
