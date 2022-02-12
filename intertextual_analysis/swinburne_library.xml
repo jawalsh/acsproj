@@ -84,6 +84,18 @@
                     <category xml:id="presentation">
                         <catDesc>presentation copy</catDesc>
                     </category>
+                    <category xml:id="first_ed">
+                    <catDesc>first edition</catDesc>
+                    </category>
+                    <category xml:id="sec_ed">
+                        <catDesc>second edition</catDesc>
+                    </category>
+                    <category xml:id="deluxe_ed">
+                        <catDesc>deluxe edition</catDesc>
+                    </category>
+                    <category xml:id="limited_ed">
+                        <catDesc>limited edition</catDesc>
+                    </category>
                 </taxonomy>
                 <taxonomy xml:id="relatSwinburne">
                     <bibl><title>relationship to Swinburne</title></bibl>
@@ -4648,7 +4660,7 @@
                                 <monogr>
                                     <title>Roxana Tragoedia</title>
                                     <author>Alabaster, Gul.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1632"/>
                                     </imprint>
@@ -4662,7 +4674,7 @@
                                     <note type="description">Cantab.</note>
                                     <note type="description">in 1 vol, frontispiece, russia, gilt
                                         edges <date from="1632" to="1633"/></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A72254</idno>
                                     <imprint>
                                         <date when="1632"/>
@@ -4700,7 +4712,7 @@
                                     <author>Alfieri, V.</author>
                                     <note type="description">vellum</note>
                                     <note xml:lang="it">riveduta dall'autore e accresciuta</note>
-                                    <edition xml:lang="it">seconda edizione</edition>
+                                    <edition corresp="#sec_ed" xml:lang="it">seconda edizione</edition>
                                     <imprint>
                                         <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
                                         <date from="1788" to="1789"/>
@@ -4763,7 +4775,7 @@
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1812"/>
                                     </imprint>
@@ -5158,7 +5170,7 @@
                                 <monogr>
                                     <title>The Poets of Greece</title>
                                     <author>Arnold, Edwin</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1869"/>
                                     </imprint>
@@ -5293,7 +5305,7 @@
                                 <monogr>
                                     <title>Merope, a Tragedy</title>
                                     <author>Arnold, Matthew</author>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1858"/>
                                     </imprint>
@@ -5327,7 +5339,7 @@
                                 <monogr>
                                     <title>Popular Education in France</title>
                                     <author>Arnold, Matthew</author>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1861"/>
                                     </imprint>
@@ -5340,7 +5352,7 @@
                                 <monogr>
                                     <title>On the Study of Celtic Literature</title>
                                     <author>Arnold, Matthew</author>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1867"/>
                                     </imprint>
@@ -5355,7 +5367,7 @@
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1874"/>
                                     </imprint>
@@ -5369,7 +5381,7 @@
                                 <monogr>
                                     <title>Essays in Criticism</title>
                                     <author>Arnold, Matthew</author>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1865"/>
                                     </imprint>
@@ -5384,7 +5396,7 @@
                                     <note type="etc">
                                         <num value="2"/>
                                     </note>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1867"/>
                                     </imprint>
@@ -5417,7 +5429,7 @@
                                     <note type="description" corresp="#presentation">presentation
                                         copy</note>
                                     <note type="inscription">With very kind regards M.A.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -5456,7 +5468,7 @@
                                 <monogr>
                                     <title>Literature and Dogma</title>
                                     <author>Arnold, Mattew</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1876"/>
                                     </imprint>
@@ -5468,7 +5480,7 @@
                                 <monogr>
                                     <title>Irish Essays and others</title>
                                     <author>Arnold, Mattew</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1882"/>
                                     </imprint>
@@ -5480,7 +5492,7 @@
                                 <monogr>
                                     <title>Culture and Anarchy</title>
                                     <author>Arnold, Mattew</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -5495,7 +5507,7 @@
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -5635,7 +5647,7 @@
                                         authograph inscription</note>
                                     <note type="inscription">To Algernon C. Swinburne from Alfred
                                         Austin <date when="1881-10-24">Octr. 24th 1881</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1881"/>
                                     </imprint>
@@ -5748,7 +5760,7 @@
                                     <title>Tales by the O'Hara Family, Second Series</title>
                                     <author>Banim, J.</author>
                                     <note type="description">calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1826"/>
                                     </imprint>
@@ -5936,7 +5948,7 @@
                                         with autograph inscription</note>
                                     <note type="inscription">W. M. Rossetti, <date when="1864"
                                             >1864</date>, to Algernon C. Swinburne</note>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1857"/>
@@ -6238,7 +6250,7 @@
                                         inscription</note>
                                     <note type="insciprtion" xml:lang="fr">à Algernon C. Swinburne
                                         avec admiration et sympathie, Stéphane Mallarmé</note>
-                                    <edition>l'édition Française originale</edition>
+                                    <edition corresp="#first_ed">l'édition Française originale</edition>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1876"/>
@@ -6369,7 +6381,7 @@
                                         Author</note>
                                     <note>A MS. note states that the corrections were made by the
                                         author after publication.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>Minerva Press</publisher>
                                         <date when="1808"/>
@@ -7018,7 +7030,7 @@
                                         copy to Swinburne from the author, with autograph
                                         inscription</note>
                                     <note type="etc">and another<num value="2"/></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1881"/>
                                     </imprint>
@@ -7041,7 +7053,7 @@
                                     <note type="inscription">To Theodore Watts, Esq.with the kind
                                         regards of the author and the translator, Maud Mme. Paul
                                         Blouet, <date when="1894-10-17">Oct. 17/94</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1894"/>
                                     </imprint>
@@ -7185,7 +7197,7 @@
                                         et le mauvais usage des Flagellations</title>
                                     <author>Boileau, Abbé</author>
                                     <note type="description">old calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace>Amsterdam</pubPlace>
                                         <date when="1701"/>
@@ -7536,7 +7548,7 @@
                                     <author>Brome, Richard</author>
                                     <note type="description">calf (broken), ex libris of J. T.
                                         Brockett and Thomas Bell</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A77567</idno>
                                     <imprint>
                                         <date when="1653"/>
@@ -7601,7 +7613,7 @@
                                     <title>Life of Charlotte Brontë</title>
                                     <author>Gaskell, E. C.</author>
                                     <note type="description">portrait, original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1857"/>
                                     </imprint>
@@ -7960,7 +7972,7 @@
                                     <title>Strafford: an Historical Tragedy</title>
                                     <author>Browning, R.</author>
                                     <note type="description">half roan</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1837"/>
                                     </imprint>
@@ -7993,7 +8005,7 @@
                                     <title>Sordello</title>
                                     <author>Browning, R.</author>
                                     <note type="description">original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1840"/>
                                     </imprint>
@@ -8008,7 +8020,7 @@
                                     <title>Christmas Eve and Easter Day</title>
                                     <author>Browning, R.</author>
                                     <note type="description">original cloth, loose</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1850"/>
                                     </imprint>
@@ -8023,7 +8035,7 @@
                                     <title>Dramitis Personae</title>
                                     <author>Browning, R.</author>
                                     <note type="description">original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1864"/>
                                     </imprint>
@@ -8064,7 +8076,7 @@
                                     <note type="inscription">Gabriel Daniel Rosetti, from his
                                         affectionately ever R. B., <date when="1869-12-01">Dec. 1,
                                             '68</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date from="1868" to="1869"/>
                                     </imprint>
@@ -8088,7 +8100,7 @@
                                     <title>The Ring and the Book</title>
                                     <author>Browning, R.</author>
                                     <note type="description">4 vol. green cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1869"/>
                                     </imprint>
@@ -8110,7 +8122,7 @@
                                 <monogr>
                                     <title>Balaustion's Adventure</title>
                                     <author>Browning, R.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1871"/>
                                     </imprint>
@@ -8122,7 +8134,7 @@
                                 <monogr>
                                     <title>Ferishtah's Fancies</title>
                                     <author>Browning, R.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1884"/>
                                     </imprint>
@@ -8134,7 +8146,7 @@
                                 <monogr>
                                     <title>Parleyings with Certain People</title>
                                     <author>Browning, R.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
                                     </imprint>
@@ -8148,7 +8160,7 @@
                                 <monogr>
                                     <title>Fifine at the Fair</title>
                                     <author>Browning, R.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1872"/>
                                     </imprint>
@@ -8160,7 +8172,7 @@
                                 <monogr>
                                     <title>Red Cotton Nightcap Country</title>
                                     <author>Browning, R.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1873"/>
                                     </imprint>
@@ -8172,7 +8184,7 @@
                                 <monogr>
                                     <title>The Inn Album</title>
                                     <author>Browning, R.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -8187,7 +8199,7 @@
                                     <title>Dramatic Idyls</title>
                                     <author>Browning, R.</author>
                                     <note type="description">both series, 2 vol.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date from="1879" to="1880"/>
                                     </imprint>
@@ -8207,7 +8219,7 @@
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1890"/>
                                     </imprint>
@@ -8245,7 +8257,7 @@
                                     <author>Browning, R.</author>
                                     <note type="description">with autograph signature and MS. note
                                         of B. Jowett</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -8957,7 +8969,7 @@
                                         of his Works</title>
                                     <author>Carlyle, Thos.</author>
                                     <note type="description">portrait, calf gilt</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1825"/>
                                     </imprint>
@@ -9267,7 +9279,7 @@
                                         <name full="yes">Izaak Walton</name>
                                     </respStmt>
                                     <note type="description">calf, a little stained</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A31552</idno>
                                     <imprint>
                                         <date when="1683"/>
@@ -9542,7 +9554,7 @@
                                     <note type="inscription">Algernon C. Swinburne, Esq. with F. J.
                                         Furnicall's compts. <date when="1876-01-15">15 Jany.
                                             1876</date></note>
-                                    <edition>First (1598) Edition</edition>
+                                    <edition corresp="#first_ed">First (1598) Edition</edition>
                                     <imprint>
                                         <publisher>Chaucer Society</publisher>
                                         <date when="1876"/>
@@ -9892,7 +9904,7 @@
                                     <title>Poems on Various Subjects</title>
                                     <author>Coleridge, S. T.</author>
                                     <note type="description">original calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1796"/>
                                     </imprint>
@@ -9908,7 +9920,7 @@
                                     <author>Coleridge, S. T.</author>
                                     <note type="description" corresp="#uncut">original boards,
                                         uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1817"/>
                                     </imprint>
@@ -10031,7 +10043,7 @@
                                         and Poetry</title>
                                     <author>Collier, J. Payne</author>
                                     <note type="description">half russia</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1820"/>
                                     </imprint>
@@ -10159,7 +10171,7 @@
                                     <author>[Congreve, Wm.]</author>
                                     <note type="description" corresp="#uncut">half morocco, uncut,
                                         top edge gilt</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A34297</idno>
                                     <imprint>
                                         <date when="1698"/>
@@ -10418,7 +10430,7 @@
                                         Rowley, etc.</title>
                                     <author>Chatterton, T.</author>
                                     <note type="description">calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1777"/>
                                     </imprint>
@@ -10494,7 +10506,7 @@
                                     <title>Poems, with new Poems</title>
                                     <author>Johnson, R. N.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
-                                    <edition>second edition</edition>
+                                    <edition corresp="#sec_ed">second edition</edition>
                                     <imprint>
                                         <pubPlace>New York</pubPlace>
                                         <date when="1908"/>
@@ -11081,7 +11093,7 @@
                                         copy, with inscription, original cloth</note>
                                     <note type="inscription">Algernon C. Swinburne from E. W. Gosse,
                                             <date when="1877-06-01">June 1, 1877</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1877"/>
                                     </imprint>
@@ -11100,7 +11112,7 @@
                                         inscription</note>
                                     <note type="inscription">H. Kingsley, Esq. with the author's
                                         kind reagards, <date when="1869-01">Jan. 1869</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1869"/>
                                     </imprint>
@@ -11428,7 +11440,7 @@
                                     <author>Dumas, Alex.</author>
                                     <note type="description" corresp="#uncut">illusrations by
                                         Maurice Leloir, uncut, imperial 8vo.</note>
-                                    <edition xml:lang="fr">Édition de Grand Luxe</edition>
+                                    <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Grand Luxe</edition>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894"/>
@@ -11451,7 +11463,7 @@
                                     <note type="description" corresp="#uncut">one of 110 copies,
                                         illustrations by Julien le Blont, uncut, imperial
                                         8vo.</note>
-                                    <edition>Édition de Luxe</edition>
+                                    <edition corresp="#deluxe_ed">Édition de Luxe</edition>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894"/>
@@ -12083,7 +12095,7 @@
                                         <name full="yes">A. Wilson Verity</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
-                                    <edition>Limited Edition</edition>
+                                    <edition corresp="#limited_ed">Limited Edition</edition>
                                     <imprint>
                                         <date when="1888"/>
                                     </imprint>
@@ -12175,7 +12187,7 @@
                                         kindly wishes from Edgar Faucett, New York, <date
                                             when="1891-12">Dec. 1891</date></note>
                                     <!-- Last name [sic] -->
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace>New York</pubPlace>
                                         <date when="1891"/>
@@ -12254,7 +12266,7 @@
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. from Michael
                                         Field <date when="1889-05-27">May 27, 1889</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -12268,7 +12280,7 @@
                                     <author>Field, Michael</author>
                                     <note type="description" corresp="#uncut">one of 150 copies,
                                         uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -12284,7 +12296,7 @@
                                     <title>History of Tom Jones, a Foundling</title>
                                     <author>Fielding, Henry</author>
                                     <note type="description">old mottled calf gilt</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1749"/>
                                     </imprint>
@@ -12312,7 +12324,7 @@
                                     <title>Amelia</title>
                                     <author>Fielding, H.</author>
                                     <note type="description">original calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1752"/>
                                     </imprint>
@@ -12337,7 +12349,7 @@
                                     <note type="description" corresp="#uncut">portrait and
                                         illustratoins, india proofs, buckram, uncut, with the
                                         cancelled leaf, imperial 8vo.</note>
-                                    <edition xml:lang="fr">Édition de Luxe</edition>
+                                    <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Luxe</edition>
                                     <imprint>
                                         <date when="1882"/>
                                     </imprint>
@@ -12424,7 +12436,7 @@
                                     <title>Omniana, or Horae Olisiores</title>
                                     <author>Southey, Robert</author>
                                     <note type="description" corresp="#uncut">uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1812"/>
                                     </imprint>
@@ -13127,7 +13139,7 @@
                                     <author>Beaumont and Fletcher</author>
                                     <note type="description">corrected and amended, half bound,
                                         headlines of two leaves slightly cut into</note>
-                                    <edition>Second Edition</edition>
+                                    <edition corresp="#sec_ed">Second Edition</edition>
                                     <idno type="tcp">A00960</idno>
                                     <imprint>
                                         <date when="1651"/>
@@ -13149,7 +13161,7 @@
                                     <note type="description">corrected and altered by a Person of
                                         Honour (George Villers Duke of Buckingham), title cut and
                                         mounted, half bound</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A39799</idno>
                                     <imprint>
                                         <date when="1682"/>
@@ -13422,7 +13434,7 @@
                                     <note type="description">half bound, title and last leaf mended,
                                         Swinburne's copy, with pencil note on fly-leaf in his
                                         writing</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A29637</idno>
                                     <imprint>
                                         <date when="1652"/>
@@ -13543,7 +13555,7 @@
                                         rare. Printed by T. S. for John Budge, and are to be sould
                                         at his Shop at the great south dore of Paules, and at
                                         Brittaines Bursse</note>
-                                    <edition>Original Edition</edition>
+                                    <edition corresp="#first_ed">Original Edition</edition>
                                     <idno type="tcp">A18410</idno>
                                     <imprint>
                                         <date when="1612"/>
@@ -13604,7 +13616,7 @@
                                     <author>J. Sherly</author>
                                     <note type="description">half bound, some letters cut
                                         into</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1639"/>
                                     </imprint>
@@ -13742,7 +13754,7 @@
                                     <note type="description" corresp="#uncut">one of 50 copies,
                                         uncut, presentation copy to Swinburne, with autograph letter
                                         of the author written at the age of 92</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1825"/>
                                     </imprint>
@@ -13864,7 +13876,7 @@
                                     <idno type="tcp">A19384</idno>
                                     <author>Coriate, Thos.</author>
                                     <note type="description">woodcuts, old calf, broken</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>W. Jaggard</publisher>
                                         <date when="1616"/>
@@ -13963,7 +13975,7 @@
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with author's
                                         inscription</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1902"/>
                                     </imprint>
@@ -14079,7 +14091,7 @@
                                     <title>The City-Night-Cap, or Crede quod habes &amp; habes, a
                                         Tragi-Comedy</title>
                                     <author>Davenport, Robt.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A37210</idno>
                                     <imprint>
                                         <date when="1661"/>
@@ -14095,7 +14107,7 @@
                                 <monogr>
                                     <title>The Witts, a Comedie</title>
                                     <author>Davenant, Sir. Wm.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1636"/>
                                     </imprint>
@@ -14124,7 +14136,7 @@
                                 <monogr>
                                     <title>Life of the Dutches of Suffolke, as it hath beene divers
                                         and sundry times acted with good applause</title>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A20866</idno>
                                     <imprint>
                                         <date when="1631"/>
@@ -14262,7 +14274,7 @@
                                     <author>Dixon, R.</author>
                                     <note type="description">calf, manuscript notes in a
                                         contemporary hand</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A36182</idno>
                                     <imprint>
                                         <date when="1683"/>
@@ -14306,7 +14318,7 @@
                                         Majesties Servants at the Theatre-Royall</title>
                                     <author>Dryden, J.</author>
                                     <note type="description">binding broken</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A36653</idno>
                                     <imprint>
                                         <date when="1675"/>
@@ -14340,7 +14352,7 @@
                                     <author>Sedley, Sir Chas.</author>
                                     <note type="description">last leaf defective and mended and
                                         filled in by Swinburne in pencil</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A59053</idno>
                                     <imprint>
                                         <date when="1687"/>
@@ -14934,7 +14946,7 @@
                                         will be sold not subject to return</note>
                                     <note type="description" anchored="true">The source from which
                                         Shakespeare gathered some of his plots.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date instant="false"/>
                                     </imprint>
@@ -15578,7 +15590,7 @@
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         kind regards, Hollinbury Copse, Brighton, <date
                                             when="1882-08">Augt. 1882</date></note>
-                                    <edition>Second Edition</edition>
+                                    <edition corresp="#sec_ed">Second Edition</edition>
                                     <imprint>
                                         <date when="1882"/>
                                     </imprint>
@@ -15697,7 +15709,7 @@
                                         autograph inscription on half title</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with the
                                         author's regrad, <date when="1887-05">May 1887</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
                                     </imprint>
@@ -15883,7 +15895,7 @@
                                     <title>Lectures on the English Poets</title>
                                     <author>Hazlitt, Wm.</author>
                                     <note type="description">half calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1818"/>
                                     </imprint>
@@ -15959,7 +15971,7 @@
                                         presentation copy with autograph inscription on
                                         fly-leaf</note>
                                     <note type="inscription">A. C. Swinburne, from the Author</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1888"/>
                                     </imprint>
@@ -16175,7 +16187,7 @@
                                     <author>Heywood, Thos.</author>
                                     <note type="description">old morocco, title repaired and some
                                         head-lines cut into</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03241</idno>
                                     <imprint>
                                         <date when="1637"/>
@@ -16287,7 +16299,7 @@
                                         Spelling, etc.</title>
                                     <author>Walker, J.</author>
                                     <note type="description">sheep</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1775"/>
                                     </imprint>
@@ -16567,7 +16579,7 @@
                                     <author>Hook, Theodore</author>
                                     <note type="description" corresp="#uncut">illustrations by Phiz,
                                         uncut, stained</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1841"/>
                                     </imprint>
@@ -16633,7 +16645,7 @@
                                     <note type="inscription">Algernon C. Swinburne with the highest
                                         admiration and regards of R. H. Horne, London, <date
                                             when="1876-01-08">Jan. 8/76</date></note>
-                                    <edition xml:lang="fr">Édition de Luxe</edition>
+                                    <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Luxe</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -16988,7 +17000,7 @@
                                     <title>The Reflector, a Quarterly Magazine</title>
                                     <author>Hunt, Leigh</author>
                                     <note type="description">half calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1811"/>
                                     </imprint>
@@ -17038,7 +17050,7 @@
                                     <author>Hunt, L.</author>
                                     <note type="description" corresp="#uncut">original boards,
                                         uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1816"/>
                                     </imprint>
@@ -17053,7 +17065,7 @@
                                     <title>Foliage, or Poems Original and Translated</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">half calf, marbled edges</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1818"/>
                                     </imprint>
@@ -17065,7 +17077,7 @@
                                 <monogr>
                                     <title>Feast of the Poets</title>
                                     <author>Hunt, L.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1814"/>
                                     </imprint>
@@ -17098,7 +17110,7 @@
                                     <title>The Companion</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">half calf gilt</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1828"/>
                                     </imprint>
@@ -17111,7 +17123,7 @@
                                     <title>The Liberal, Verse and Prose from the South</title>
                                     <author>Hunt, L.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date from="1822" to="1823"/>
                                     </imprint>
@@ -17146,7 +17158,7 @@
                                     <title>Poetical Works</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">half calf gilt</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1832"/>
                                     </imprint>
@@ -17202,7 +17214,7 @@
                                     <title>Men, Women and Books</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">portrait, original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1847"/>
                                     </imprint>
@@ -17222,7 +17234,7 @@
                                     <title>The Town, its Memorable Characters and Events</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">45 illustrations, original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1848"/>
                                     </imprint>
@@ -17243,7 +17255,7 @@
                                         Pope and Swift</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1851"/>
                                     </imprint>
@@ -17310,7 +17322,7 @@
                                         Contemporaries</title>
                                     <author>Hunt, L.</author>
                                     <note type="description">portrait, original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1850"/>
                                     </imprint>
@@ -17996,7 +18008,7 @@
                                         William Morris, <date when="1894-10-23">Oct. 23rd,
                                             1894</date>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>Kelmscott Press</publisher>
                                         <date when="1894"/>
@@ -18604,7 +18616,7 @@
                                     <title>The Count Arezzi, a Tragedy</title>
                                     <author>Landor, Robt. E.</author>
                                     <note type="description"/>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1824"/>
                                     </imprint>
@@ -18620,7 +18632,7 @@
                                         presentation copy, with inscription</note>
                                     <note type="inscription">Rossetti, P.—R. B. To Algernon
                                         Swinburne, <date when="1866">1866</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1841"/>
                                     </imprint>
@@ -18638,7 +18650,7 @@
                                     <title>The Fawn of Sertorious</title>
                                     <author>Landor, Robt. E.</author>
                                     <note type="description">original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1846"/>
                                     </imprint>
@@ -18692,7 +18704,7 @@
                                     <note type="description">calf gilt, marbled edges; The only
                                         edition of the scarce work mentioned by Lowndes was printed
                                         at Pisa in 1820</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxonii</pubPlace>
                                         <date when="1815"/>
@@ -18737,7 +18749,7 @@
                                     <author>Landor, W. S.</author>
                                     <note type="description" corresp="#uncut">original cloth,
                                         uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1837"/>
                                     </imprint>
@@ -18751,7 +18763,7 @@
                                 <monogr>
                                     <title>Andrea of Hungary, and Giovanna of Naples</title>
                                     <author>Landor, W. S.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1839"/>
                                     </imprint>
@@ -18763,7 +18775,7 @@
                                 <monogr>
                                     <title>Heroic Idylls, with Additional Poems</title>
                                     <author>Landor, W. S.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1863"/>
                                     </imprint>
@@ -18794,7 +18806,7 @@
                                     <title>Dry Sticks Fagoted</title>
                                     <author>Landor, W. S.</author>
                                     <note type="description">original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace>Edinburgh</pubPlace>
                                         <date when="1858"/>
@@ -18867,7 +18879,7 @@
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1831"/>
                                     </imprint>
@@ -18898,7 +18910,7 @@
                                 <monogr>
                                     <title>Imaginary Conversations of Greeks and Romans</title>
                                     <author>Landor, W. S.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1853"/>
                                     </imprint>
@@ -18968,7 +18980,7 @@
                                     <author>Larchey, L.</author>
                                     <note type="description">illustrations, half morocco gilt, top
                                         edge gilt</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1886"/>
@@ -20056,7 +20068,7 @@
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne from E. Magnússon, with
                                         autograph inscription</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1869"/>
                                     </imprint>
@@ -20100,7 +20112,7 @@
                                     <author>Marat, J. P. <foreign xml:lang="fr">l'ami du
                                             Peuple</foreign></author>
                                     <note type="description">half calf gilt, marbled edges</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher xml:lang="fr">de l'imprimerie de
                                             Marat</publisher>
@@ -20354,7 +20366,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut">green cloth,
                                         uncut</note>
-                                    <edition>Limited Edition</edition>
+                                    <edition corresp="#limited_ed">Limited Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
                                     </imprint>
@@ -20375,7 +20387,7 @@
                                 <monogr>
                                     <title>All in All, Poems and Sonnets</title>
                                     <author>Marston, Philip B.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -20842,7 +20854,7 @@
                                         autograph inscription on the title</note>
                                     <note type="inscription">A. C. Swinburne, from his friend George
                                         Meredith</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1862"/>
                                     </imprint>
@@ -21395,7 +21407,7 @@
                                     <author>More, Henry</author>
                                     <note type="description">half morocco, marbled edges, some
                                         headlines cut into</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A51312</idno>
                                     <imprint>
                                         <pubPlace ref="#cambridge">Cambridge</pubPlace>
@@ -21462,7 +21474,7 @@
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, from his friend the
                                         Author</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date from="1868" to="1870"/>
                                     </imprint>
@@ -21490,7 +21502,7 @@
                                         with inscription</note>
                                     <note type="inscription">Dante Gabriel Rossetti, from his friend
                                         the Author</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1870"/>
                                     </imprint>
@@ -21532,7 +21544,7 @@
                                         autograph inscvription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, from his
                                         friend William Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1876"/>
                                     </imprint>
@@ -21551,7 +21563,7 @@
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from his
                                         friend William Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1882"/>
                                     </imprint>
@@ -21570,7 +21582,7 @@
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from
                                         William Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1888"/>
                                     </imprint>
@@ -22406,7 +22418,7 @@
                                     <note type="inscription">C. P. Old Lands, Uckfield, <date
                                             when="1868-04-17">April 17th, 1868; From the
                                             author</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1868"/>
                                     </imprint>
@@ -22454,7 +22466,7 @@
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         homage to the greatest living English Poet</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1870"/>
                                     </imprint>
@@ -22473,7 +22485,7 @@
                                         autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         compliments</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1872"/>
                                     </imprint>
@@ -22493,7 +22505,7 @@
                                         autograph inscription</note>
                                     <note type="inscription">To D. G. Rossetti with kind regards,
                                         John Payne</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1878"/>
                                     </imprint>
@@ -22799,7 +22811,7 @@
                                     <title>Poems</title>
                                     <author>Phillips, Stephen</author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1898"/>
                                     </imprint>
@@ -23047,7 +23059,7 @@
                                     <author>Ford, John</author>
                                     <note type="description">title mended, some leaves
                                         stained</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A01057</idno>
                                     <imprint>
                                         <date when="1633"/>
@@ -23102,7 +23114,7 @@
                                         Religion</title>
                                     <author>Glanvill, Jos.</author>
                                     <note type="description">old sheep</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A42813</idno>
                                     <imprint>
                                         <date when="1676"/>
@@ -23218,7 +23230,7 @@
                                     <author>Greene, Robert</author>
                                     <note type="description">black letter, old calf, ornament on
                                         sides, title in facsimile and a leaf mended</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A02080</idno>
                                     <imprint>
                                         <date when="1589"/>
@@ -23264,7 +23276,7 @@
                                     <author>Heywood, T.</author>
                                     <note type="description">portraits (one mounted), calf, some
                                         leaves stained</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03196</idno>
                                     <imprint>
                                         <date when="1640"/>
@@ -23415,7 +23427,7 @@
                                     <note type="inscription">An additon to Mr. Swinburne's
                                         Elizabethan shelf made by his permission by Richard le
                                         Gallienne</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A12578</idno>
                                     <imprint>
                                         <date when="1599"/>
@@ -23735,7 +23747,7 @@
                                     <note type="description">half bound, Swinburne's copy, with five
                                         lines of writing in pencil by him, printed by G. Eld. for
                                         Mathew Rhodes</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A06982</idno>
                                     <imprint>
                                         <date when="1622"/>
@@ -23754,7 +23766,7 @@
                                     <title>A Fine Companion</title>
                                     <author>Marmyon, Shakerley</author>
                                     <note type="description">half calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1633"/>
                                     </imprint>
@@ -23819,7 +23831,7 @@
                                     <!-- Need help with Greek. Check -->
                                     <author>Milton, John</author>
                                     <note type="description">calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1649"/>
                                     </imprint>
@@ -23862,7 +23874,7 @@
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from his
                                         friend William Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1873"/>
                                     </imprint>
@@ -23881,7 +23893,7 @@
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from his
                                         friend William Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
                                         <!-- I question this as the First Edition. There are copies as early as 1877. Perhaps this is a mistake in the library catalog? -->
@@ -23902,7 +23914,7 @@
                                         Swinburne, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne from William
                                         Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
                                     </imprint>
@@ -23927,7 +23939,7 @@
                                         inscription</note>
                                     <note type="inscription">To Algernon C. Swinburne from William
                                         Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1888"/>
                                     </imprint>
@@ -23947,7 +23959,7 @@
                                     <note type="inscription">To Algernon Charles Swinburne from
                                         William Morris, <date when="1888-12-21">Dec. 21st,
                                             1888</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -23965,7 +23977,7 @@
                                         presentation copy, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne from William
                                         Morris</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1890"/>
                                     </imprint>
@@ -24032,7 +24044,7 @@
                                     <author>Nabbes, Thos.</author>
                                     <note type="description">fore-edge of title slightly cut into,
                                         printed by Richard Oulton for Charles Greene</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A07978</idno>
                                     <imprint>
                                         <pubPlace>London</pubPlace>
@@ -24091,7 +24103,7 @@
                                     <title>The Tragedy of Nero</title>
                                     <author>Lee, Nathaniel</author>
                                     <note type="description">head-lines cut into</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A49952</idno>
                                     <imprint>
                                         <date when="1624"/>
@@ -24142,7 +24154,7 @@
                                     <author>Nicholay, Nicholas</author>
                                     <note type="description">curious old woodcuts, calf gilt, red
                                         and gilt edges</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>Imprinted by Thomas Dawson</publisher>
                                         <date when="1585"/>
@@ -24273,7 +24285,7 @@
                                         this copy commences at p. 23. It is conjectured that the
                                         absent pages consisted of "A Treatise on Religion" which was
                                         cancelled by order of Laud—Bible. Anglo- Poetica.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1633"/>
                                     </imprint>
@@ -24426,7 +24438,7 @@
                                     <author>Heywood, Thos.</author>
                                     <note type="description">engraved title by Cecill, old
                                         calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03207</idno>
                                     <imprint>
                                         <date when="1635"/>
@@ -24511,7 +24523,7 @@
                                     </respStmt>
                                     <note type="description">engraved title by Hole, vellum. Printed
                                         for Samuel Macham, c.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03512</idno>
                                     <imprint>
                                         <date when="1610"/>
@@ -24784,7 +24796,7 @@
                                     <title>Poems on Affairs of State from Oliver Cromwell to James
                                         the Second</title>
                                     <note type="description">both parts, old calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1687"/>
                                     </imprint>
@@ -25853,7 +25865,7 @@
                                     <author>Rogers, Samuel</author>
                                     <note type="description">with vignette engravings after Turner
                                         and Stothard, half morocco gilt, gilt edges</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1834"/>
                                     </imprint>
@@ -25893,7 +25905,7 @@
                                 <monogr>
                                     <title>Commonplace and other Short Stories</title>
                                     <author>Rossetti, Christina, G.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1870"/>
                                     </imprint>
@@ -26004,7 +26016,7 @@
                                     <note type="inscription">To Algernon Swinburne frmo his
                                         affectionate friend, D. G. Rossetti, <date when="1870"
                                             >1870</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1870"/>
                                     </imprint>
@@ -26138,7 +26150,7 @@
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">From the author</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1867"/>
                                     </imprint>
@@ -26335,7 +26347,7 @@
                                     <note type="inscription">A. C. Swinburne, with the old
                                         Lecturer's earnest regards, Chrstmas, <date when="1865"
                                             >1865</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1866"/>
                                     </imprint>
@@ -26909,7 +26921,7 @@
                                 <monogr>
                                     <title>Tillers of the Sand</title>
                                     <author>Seaman, Owen</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1895"/>
                                     </imprint>
@@ -26922,7 +26934,7 @@
                                     <title>Borrowed Plumes</title>
                                     <author>Seaman, Owen</author>
                                     <note type="description">2 copies</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1902"/>
                                     </imprint>
@@ -26934,7 +26946,7 @@
                                 <monogr>
                                     <title>In Cap and Bells</title>
                                     <author>Seaman, Owen</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1905"/>
                                     </imprint>
@@ -26950,7 +26962,7 @@
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1908"/>
                                     </imprint>
@@ -27361,7 +27373,7 @@
                                     <title>Sonnets never before interpreted, etc. by Gerald
                                         Massey</title>
                                     <author>Shakespeare, W.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1866"/>
                                     </imprint>
@@ -27628,7 +27640,7 @@
                                     <note type="description">portrait, green morocco gilt, tooled
                                         borders on the sides, inside gilt borders, gilt edges, by
                                         Mansell</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>Moxon</publisher>
                                         <date when="1839"/>
@@ -27745,7 +27757,7 @@
                                         <name full="yes">Mrs. Shelley</name>
                                     </respStmt>
                                     <note type="description">red cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>Moxon</publisher>
                                         <date when="1840"/>
@@ -28459,7 +28471,7 @@
                                     <title>Comic Latin Grammar</title>
                                     <author>Leigh, P.</author>
                                     <note type="description">illustrations by Leech</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1840"/>
                                     </imprint>
@@ -28571,7 +28583,7 @@
                                         etc.</title>
                                     <author>Somerville, Wm.</author>
                                     <note type="description">calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1727"/>
                                     </imprint>
@@ -28923,7 +28935,7 @@
                                     <title>The Master of Ballantrae, a Winter's Tale</title>
                                     <author>Stevenson, R. L.</author>
                                     <note type="description">red cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -28939,7 +28951,7 @@
                                     <author>Davidson, John</author>
                                     <note type="description" corresp="#uncut">frontispiece by Aubrey
                                         Beardsley, uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1895"/>
                                     </imprint>
@@ -28955,7 +28967,7 @@
                                     <author>Stevenson, R. L.</author>
                                     <note type="description" corresp="#uncut">buckram, uncut,
                                         t.e.g</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1890"/>
                                     </imprint>
@@ -29310,7 +29322,7 @@
                                         has recorded that these verses were written to illustrate a
                                         drawing by F. Sandys in which Cleopatra is represented as
                                         treading on a consecrated vestment.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>Printed by J. Andrews</publisher>
                                         <pubPlace>Clements Lane, E.C.</pubPlace>
@@ -29429,7 +29441,7 @@
                                     <author>Swinburne, A. C.</author>
                                     <note type="description">illustrations from Blake's designs,
                                         coloured and plain, blue cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1868"/>
                                     </imprint>
@@ -29448,7 +29460,7 @@
                                         only, white cloth, uncut, presentation copy</note>
                                     <note type="inscription">A. C. Swinburne, from F. S.
                                         Ellis</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <publisher>F. S. Ellis</publisher>
                                         <date when="1871"/>
@@ -29481,7 +29493,7 @@
                                     <author>Swinburne, A. C.</author>
                                     <note type="description" corresp="#uncut">only a few copies
                                         printed for private circulation, vellum, uncut, 4to.</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1893"/>
                                     </imprint>
@@ -29806,7 +29818,7 @@
                                 <monogr>
                                     <title>Anime Figura</title>
                                     <author>Symonds, J. Addington</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1882"/>
                                     </imprint>
@@ -29817,7 +29829,7 @@
                                 <monogr>
                                     <title>Sabbation, Honor Neale, and other Poems</title>
                                     <author>Trench, R. C.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1838"/>
                                     </imprint>
@@ -29850,7 +29862,7 @@
                                     <author>Symonds, J. A.</author>
                                     <note type="description" corresp="#uncut">vellum, uncut and
                                         unopened, fine clean copy</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1884"/>
                                     </imprint>
@@ -29868,7 +29880,7 @@
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         compliments</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1886"/>
                                     </imprint>
@@ -29886,7 +29898,7 @@
                                         copy, with autograph inscription</note>
                                     <note type="inscription">To A. C. Swinburne, Esq. in deepest
                                         admiration, Arthur Symons</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -29902,7 +29914,7 @@
                                     <author>Symons, Arthur</author>
                                     <note type="description" corresp="#uncut">original cloth,
                                         uncut</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1897"/>
                                     </imprint>
@@ -29994,7 +30006,7 @@
                                     <title>Maud and other Poems</title>
                                     <author>Tennyson, Alfred Lord</author>
                                     <note type="description">calf, marbled edges</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1855"/>
                                     </imprint>
@@ -30189,7 +30201,7 @@
                                     <author>Thackeray, W. M.</author>
                                     <note type="description">illustrations by R. Doyle, half bound,
                                         stained</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1854"/>
                                     </imprint>
@@ -30211,7 +30223,7 @@
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1858"/>
                                     </imprint>
@@ -30635,7 +30647,7 @@
                                     <title>Records of Shelley, Byron and the Author</title>
                                     <author>Trelawny, E. J.</author>
                                     <note type="description">portrait and illustrations</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1878"/>
                                     </imprint>
@@ -30741,7 +30753,7 @@
                                     <author>Trollope, Mrs.</author>
                                     <note type="description">original boards, with
                                         advertisements</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1851"/>
                                     </imprint>
@@ -30764,7 +30776,7 @@
                                     <author>Trollope, A.</author>
                                     <note type="description">illustrations by J. E. Millais, half
                                         calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1862"/>
                                     </imprint>
@@ -31028,7 +31040,7 @@
                                     <author>Vasari, G.</author>
                                     <note type="description">olf calf gilt, gilt edges, binding of
                                         vol. I broken, small hole in pp. 521-522</note>
-                                    <edition>Edizione Prima</edition>
+                                    <edition corresp="#first_ed">Edizione Prima</edition>
                                     <imprint>
                                         <publisher>Torrentino</publisher>
                                         <pubPlace ref="#florence">Fiorenza</pubPlace>
@@ -31283,7 +31295,7 @@
                                         sujets</title>
                                     <author>Voltaire, M. de</author>
                                     <note type="description"/>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace>Basle (Lond.)</pubPlace>
                                         <date when="1734"/>
@@ -31297,7 +31309,7 @@
                                     <title>Essay upon the Civil Wars of France and Epick Poetry of
                                         the European Nations</title>
                                     <author>Voltaire, M. de</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1727"/>
                                     </imprint>
@@ -31383,7 +31395,7 @@
                                     <note type="inscription">To A. C. Swinburne, Esq. with the kind
                                         regards of S. Waddington, <date when="1889-10-14">14th
                                             October, 1889</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1889"/>
                                     </imprint>
@@ -31402,7 +31414,7 @@
                                     <note type="inscription">To Algernon Charles Swinburne, Esq.
                                         from William Watson, <date when="1884-01-28">January 28,
                                             1884</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace>Liverpool</pubPlace>
                                         <date when="1884"/>
@@ -31582,7 +31594,7 @@
                                         Rossetti</title>
                                     <author>Whitman, W.</author>
                                     <note type="description">portrait, original cloth</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1868"/>
                                     </imprint>
@@ -31622,7 +31634,7 @@
                                         inscription</note>
                                     <note type="inscription">Alg. Chs. Swinburne, from Walt Whitman,
                                             <date when="1871-11">Nov. 1871</date></note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace>Washington, D. C.</pubPlace>
                                         <date when="1871"/>
@@ -31742,7 +31754,7 @@
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, with the
                                         author's compliments and kind regards</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1891"/>
                                     </imprint>
@@ -31802,7 +31814,7 @@
                                     <title>Poems</title>
                                     <author>Wordsworth, Wm.</author>
                                     <note type="description">old half russia, marbled edges</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1807"/>
                                     </imprint>
@@ -31860,7 +31872,7 @@
                                 <monogr>
                                     <title>The Prelude of Growth of a Poet’s Mind</title>
                                     <author>Wordsworth, Wm.</author>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1850"/>
                                     </imprint>
@@ -32428,7 +32440,7 @@
                                         Observations</title>
                                     <author>Quarles, Francis</author>
                                     <note type="description">old boards</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A10251</idno>
                                     <imprint>
                                         <date when="1632"/>
@@ -33325,7 +33337,7 @@
                                     <title>Orphan of Pimlico</title>
                                     <author>Thackeray, Wm.</author>
                                     <note type="description">illustrations</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1876"/>
                                     </imprint>
@@ -33445,7 +33457,7 @@
                                     <title>Poems on Several Occasions</title>
                                     <author>Wesley, Saml.</author>
                                     <note type="description">old calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1736"/>
                                     </imprint>
@@ -33479,7 +33491,7 @@
                                         inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne in
                                         sincere admiration, Oscar Wilde</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1893"/>
@@ -33864,7 +33876,7 @@
                                         Sentences, Allegories, etc.</title>
                                     <author>Spencer, John</author>
                                     <note type="description">calf</note>
-                                    <edition>First Edition</edition>
+                                    <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1658"/>
                                     </imprint>
@@ -33971,7 +33983,7 @@
                                     <author>Chesterton, G.K.</author>
                                     <note type="description">2 portraits, green cloth, pencil note
                                         in Swinburne's writing on fly-leaf</note>
-                                    <edition>1st, British</edition>
+                                    <edition corresp="#first_ed">1st, British</edition>
                                     <!-- alewinga, inferred from publication date and binding description. -->
                                     <imprint>
                                         <publisher>Methuen &amp; Co.</publisher>
@@ -34261,7 +34273,7 @@
                                     <note>This book was apparently withdrawn from publication. See
                                         p. 198 of
                                         https://books.google.com/books?id=oVYFAAAAQAAJ</note>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <publisher/>
                                         <pubPlace>London</pubPlace>
@@ -34280,7 +34292,7 @@
 
                                     <note type="description">original cloth Swinburne's copy, with
                                         his autograph signature on half-title.</note>
-                                    <edition>Second edition</edition>
+                                    <edition corresp="#sec_ed">Second edition</edition>
                                     <imprint>
                                         <publisher/>
                                         <pubPlace/>
@@ -34302,7 +34314,7 @@
                                     <note type="description" corresp="#uncut">original cloth uncut,
                                         containing numerous annotations and corrections in
                                         Swinburne's handwriting</note>
-                                    <edition>First edition</edition>
+                                    <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <publisher>Chatto and Windus</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34322,7 +34334,7 @@
 
                                     <note type="description" corresp="#uncut">original cloth, uncut,
                                         note on half-title in Swinburne's handwriting</note>
-                                    <edition>first edition</edition>
+                                    <edition corresp="#first_ed">first edition</edition>
                                     <imprint>
                                         <publisher>Chatto and Windus</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34344,7 +34356,7 @@
                                     <note type="description">Original cloth, swinburne's copy, with
                                         his initials <q>A.C.S.</q> on half-title, and a note and
                                         some corrections in his handwriting.</note>
-                                    <edition>first edition</edition>
+                                    <edition corresp="#first_ed">first edition</edition>
                                     <imprint>
                                         <publisher>Chatto &amp; Windus</publisher>
                                         <pubPlace>London</pubPlace>
