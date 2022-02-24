@@ -34509,6 +34509,38 @@
                 <!-- books not owned by Swinburne/listed in Sotheby's or Watts-Dunton auctions but are associated with Swinburne and his reading through his top 100 list -->
 <listBibl>
                 <!-- Epictetus -->
+    <biblStruct xml:id="epictetus_works_eng" corresp="#top100">
+        <monogr>
+            <title>The Works of Epictetus</title>
+            <author>Epictetus</author>
+            <respStmt>
+                <resp>
+                    Translator
+                </resp>
+                <persName>Elizabeth Carter</persName>
+            </respStmt>
+            <imprint>
+                <publisher>F.C. and J. Rivington</publisher>
+                <pubPlace>London</pubPlace>
+                <date when="1807"/>
+            </imprint>
+            <extent><measure unit="volumes" quantity="2"/></extent>
+        </monogr>
+        <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/msu.31293100715709"/>
+        <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/msu.31293100715691"/>
+    </biblStruct>
+    <biblStruct xml:id="epictetus_works_grc" corresp="#top100">
+        <monogr>
+            <title>Epiktētou Encheiridion</title>
+            <author>Epictetus</author>
+            <imprint>
+                <publisher>F. Didot, Pere et Fils</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1826"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/nnc1.0023551852"/>
+    </biblStruct>
                 <!-- Burns, Robert [select works of] -->
     <biblStruct xml:id="burns_jolly_beggars" corresp="#top100">
         <monogr>
@@ -34537,6 +34569,25 @@
         <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.39015096476208"/>
     </biblStruct>
                 <!-- Swift [select works of] -->
+    <!-- Swinburne Letters index has "A Longitude Discover'd" under Swift, but apparently that is an erroneous attribution. -->
+    <biblStruct xml:id="swift_miscellanies" corresp="#top100">
+        <monogr>
+            <title>Miscellanies</title>
+            <author>Swift, Jonathan</author>
+            <imprint>
+                <publisher>Benjamin Motte and Charles Bathurst</publisher>
+                <pubPlace>London</pubPlace>
+                <date when="1736"/>
+            </imprint>
+            <extent><measure unit="volumes" quantity="6"/></extent>
+        </monogr>
+        <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288062"/>
+        <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288070"/>
+        <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288088"/>
+        <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288096"/><!-- noted as the last volume, but vols 5 and 6 were added. -->
+        <relatedItem n="5" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288104"/><!-- vols 5 and 6 are most clearly titled "Miscellanies in prose and verse" -->
+        <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288112"/>
+    </biblStruct>
                 <!-- Theocritus -->
                 <!-- The Saga of Burnt Njal -->
                 <biblStruct xml:id="burnt_njal" corresp="#top100">
