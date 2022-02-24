@@ -121,6 +121,9 @@
                     <category xml:id="referenced">
                         <catDesc>referenced by Swinburne, but not present in library</catDesc>
                     </category>
+                    <category xml:id="top100">
+                        <catDesc>Author or work is listed in Swinburne's Top 100 books as submitted to the Pall Mall Gazette in 1886.</catDesc>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
@@ -7636,6 +7639,8 @@
                                     <title>Life and Works, and of her Sisters with Introductions,
                                         etc. by Mrs. Humphry Ward and Clement K. Shorter</title>
                                     <author>Brontë, C.</author>
+                                    <author>Brontë, A.</author>
+                                    <author>Brontë, E.</author>
                                     <note type="description">portraits and illustrations, green
                                         cloth, uncut, top edge gilt</note>
                                     <imprint>
@@ -7651,13 +7656,13 @@
                                     target="https://hdl.handle.net/2027/uc1.31822001272467"/>
                                 <relatedItem n="3" type="ht"
                                     target="https://hdl.handle.net/2027/uc1.31822001272475"/>
+                                <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/mdp.39015004301845"/>
                                 <relatedItem n="5" type="ht"
                                     target="https://hdl.handle.net/2027/uc1.31822001272483"/>
                                 <relatedItem n="6" type="ht"
                                     target="https://hdl.handle.net/2027/uc1.31822001272491"/>
                                 <relatedItem n="7" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044011756442"/>
-                                <note type="fulltext">Cannot locate correct vol. 4 in HT.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb093">
@@ -34499,6 +34504,178 @@
                         </listBibl>
                     </div>
                 </div>
+            </div>
+            <div source="top100">
+                <!-- books not owned by Swinburne/listed in Sotheby's or Watts-Dunton auctions but are associated with Swinburne and his reading through his top 100 list -->
+<listBibl>
+                <!-- Epictetus -->
+                <!-- Burns, Robert [select works of] -->
+    <biblStruct xml:id="burns_jolly_beggars" corresp="#top100">
+        <monogr>
+            <title>The Jolly Beggars</title>
+            <author>Burns, Robert</author>
+            <imprint>
+                <publisher>Thomas Bird Mosher</publisher>
+                <pubPlace>Portland, Maine</pubPlace>
+                <date when="1914"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/dul1.ark:/13960/t42r4tr9r"/>
+        <note type="fulltext">This is a 1914 edition which did not exist in 1886, but the two pre-1886 editions of it are facsimiles of Burns' manuscript and so OCR can't be good.</note>
+    </biblStruct>
+    
+    <biblStruct xml:id="burns_scots" corresp="#top100">
+        <monogr>
+            <title>Scots wha hae wi' Wallace bled</title>
+            <author>Burns, Robert</author>
+            <imprint>
+                <publisher>John G. Klemm</publisher>
+                <pubPlace>Philadelphia</pubPlace>
+                <date when="1825"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.39015096476208"/>
+    </biblStruct>
+                <!-- Swift [select works of] -->
+                <!-- Theocritus -->
+                <!-- The Saga of Burnt Njal -->
+                <biblStruct xml:id="burnt_njal" corresp="#top100">
+                    <monogr>
+                        <title>The Story of Burnt Njal</title>
+                        <respStmt>
+                            <resp>Translator</resp>
+                            <persName>George Webbe Dasent</persName>
+                        </respStmt>
+                        <imprint>
+                            <publisher>Edmonston and Douglas</publisher>
+                            <pubPlace>Edinburgh</pubPlace>
+                            <date when="1861"/>
+                        </imprint>
+<extent><measure unit="volumes" quantity="2"/></extent>
+                    </monogr>
+                    <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.32044010440469"/>
+                    <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.32044010624831"/>
+                </biblStruct>
+                
+                <!-- Prior, Matthew [select works of] -->
+    <biblStruct xml:id="prior_works" corresp="#top100">
+        <monogr>
+            <title>The Poetical Works of Matthew Prior</title>
+            <author>Matthew Prior</author>
+            <imprint>
+                <publisher>Houghton, Osgood, and Company</publisher>
+                <pubPlace>Boston</pubPlace>
+                <date when="1878"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/inu.30000041592746"/>
+    </biblStruct>
+                <!-- Wither, George [select works of] -->
+    <biblStruct xml:id="wither_abuses" corresp="#top100">
+        <monogr>
+            <title>Abuses stript and whipt</title>
+            <author>Wither, George</author>
+            <imprint>
+                <publisher>G. Eld, for Francis Burton</publisher>
+                <pubPlace>London</pubPlace>
+                <date when="1613"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="tcp" target="http://name.umdl.umich.edu/A15623.0001.001"/>
+    </biblStruct>
+    <biblStruct xml:id="wither_motto" corresp="#top100">
+        <monogr>
+            <title>Wither's Motto. Nec Habeo, Nec Careo, Nec Curo</title>
+            <author>Wither, George</author>
+            <imprint>
+                <publisher>T. Beilby and T. Knott</publisher>
+                <pubPlace>London</pubPlace>
+                <date when="1814"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc1.$b287641"/>
+    </biblStruct>
+    <biblStruct xml:id="wither_poems" corresp="#top100">
+        <monogr>
+            <title>Poems</title>
+            <author>Wither, George</author>
+            <imprint>
+                <publisher/>
+                <pubPlace>London</pubPlace>
+                <date when="1839"/>
+            </imprint>
+            <extent><measure unit="volumes" quantity="4"/></extent>
+        </monogr>
+        <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/hvd.hwexdw"/>
+        <relatedItem n="2" type="ht" target="https://hdl.handle.net/2027/hvd.hwexdx"/>
+        <relatedItem n="3" type="ht" target="https://hdl.handle.net/2027/hvd.hwexdy"/>
+        <relatedItem n="4" type="ht" target="https://hdl.handle.net/2027/hvd.hwexdz"/>
+    </biblStruct>
+    
+                <!-- La Fontaine [select works of] -->
+    <biblStruct xml:id="fontaine_contes" corresp="#top100">
+        <monogr>
+            <title>Contes et Nouvelles</title>
+            <author>La Fontaine</author>
+            <imprint>
+                <publisher>Adolphe Delahays</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1858"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/loc.ark:/13960/t22c09t7m"/>
+    </biblStruct>
+    <biblStruct xml:id="fontaine_fables" corresp="#top100">
+        <monogr>
+            <title>Fables</title>
+            <author>La Fontaine</author>
+            <imprint>
+                <publisher>Bernardin-Béchet</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1883"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.hnt41i"/>
+    </biblStruct>
+                <!-- Chamfort (Maxims) -->
+    <biblStruct xml:id="chamfort_maxims" corresp="#top100">
+        <monogr>
+            <title>Pensées, Maximes, Ancedotes, Dialogues, Précédés de L'Histoire de Chamfort</title>
+            <author>Nicholas Chamfort</author>
+            <imprint>
+                <publisher>Michel Lévy Freres, Editeurs</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1860"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/uva.x001175292"/>
+    </biblStruct>
+                <!-- Beaumarchais [select works of] -->
+    <biblStruct xml:id="beaumarchais_seville" corresp="#top100">
+        <monogr>
+            <title>Le Barbier de Séville</title>
+            <author>Pierre Beaumarchais</author>
+            <imprint>
+                <publisher>Alphonse Lemerre</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1671"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044019362037"/>
+    </biblStruct>
+    <biblStruct xml:id="beaumarchais_figaro" corresp="#top100">
+        <monogr>
+            <title>Le Mariage de Figaro</title>
+            <author>Pierre Beaumarchais</author>
+            <imprint>
+                <publisher>Alphonse Lemerre</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1872"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044019362045"/>
+    </biblStruct>
+</listBibl>
             </div>
         </body>
     </text>
