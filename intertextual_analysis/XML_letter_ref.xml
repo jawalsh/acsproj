@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XML version of references to works in Swinburne's letters</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>The Swinburne Letters</title>
+                  <editor>Cecil Y. Lang</editor>       
+                  <imprint>
+                     <publisher>Yale University Press</publisher>
+                     <pubPlace>New Haven</pubPlace>
+                  </imprint>
+                  <biblScope unit="volume" n="6"/>
+                  <biblScope unit="section">General Index</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div source="letters">
+            <!-- formatting of information from Swinburne letters index is as follows:
+                    <bibl>
+                        <author></author>
+                        <title></title>
+                        <editor></editor>
+                        <respStmt>
+                            <resp>translator</resp>
+                            <persName></persName>
+                        </respStmt>
+                        <ref>
+                            <unit type="vol" n=""/>
+                            <unit type="p" n=""/>
+                        </ref>
+                    </bibl>
+                    
+                    For multiple references to the same title, add additional <ref> one after the other as in the entry for Aeschylus' Agamemnon below. 
+                    If the reference has an asterisk next to it in the index to the letters, it means that Swinburne or the editor is quoting from the work mentioned. In these cases, add @type="quote" to the <ref> in question.
+                    In the case of a range of pages, just list the first page. (It appears that it's generally only a 2-page span, so trying to encode "from" and "to" feel unnecessarily complicated.)
+                    Different translations or editions should be differentiated from each other since they could link to different items in the library.
+                -->
+            <listBibl>
+               <bibl status="absent">
+                  <author>Adams, C. Warren</author>
+                  <title>Ronald Vaughan</title>
+                  <ref>
+                     <unit type="vol" n="1"/>
+                     <unit type="p" n="220n"/>
+                  </ref>
+               </bibl>
+               <bibl status="absent">
+                  <author>Adams, C. Warren</author>
+                  <title>Queen Jane</title>
+                  <ref>
+                     <unit type="vol" n="1"/>
+                     <unit type="p" n="220n"/>
+                  </ref>
+               </bibl>
+               <bibl status="absent">
+                  <author>Adams, Henry</author>
+                  <title>The Education of Henry Adams</title>
+                  <ref type="quote">
+                     <unit type="vol" n="1"/>
+                     <unit type="p" n="63n"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#aeschylus">Aeschylus</author>
+                  <title>Agamemnon</title>
+                  <ref type="quote">
+                     <unit type="vol" n="2"/>
+                     <unit type="p" n="191"/>
+                  </ref>
+                  <ref type="quote">
+                     <unit type="vol" n="2"/>
+                     <unit type="p" n="302"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="122"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="163"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="171"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="196"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#aeschylus">Aeschylus</author>
+                  <title>Agamemnon</title>
+                  <respStmt>
+                     <resp>translator</resp>
+                     <persName corresp="#browning_r">Browning</persName>
+                  </respStmt>
+                  <ref type="quote">
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="26"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="27"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="31"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="73"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="84"/>
+                     <quote>He [Edward Fitzgerald] and Browning both send me their damnable
+                        travesties of the Agamemnon, and I knew not how to acknowledge
+                        either.</quote>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#aeschylus">Aeschylus</author>
+                  <title>Agamemnon</title>
+                  <respStmt>
+                     <resp>translator</resp>
+                     <persName corresp="#fitzgerald_e">FitzGerald</persName>
+                  </respStmt>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="31"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="84"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="187"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#aeschylus">Aeschylus</author>
+                  <title>Agamemnon</title>
+                  <respStmt>
+                     <resp>translator</resp>
+                     <persName>Headlam</persName>
+                     <!-- alewinga, Walter George Headlam -->
+                  </respStmt>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="147"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#aeschylus">Aeschylus</author>
+                  <title>Oresteia</title>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="26"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#aeschylus">Aeschylus</author>
+                  <title>The Persae</title>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="163"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="171"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="295"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author>Aesop</author>
+                  <title>Aesop's Fables</title>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="279"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author corresp="#lamb_c">Lamb</author>
+                  <title>Poems, Plays, and Miscellaneous Essays</title>
+                  <editor>Ainger, Alfred</editor>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="298"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="66"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="304"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="194"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <title>Alarum for London</title>
+                  <ref>
+                     <unit type="vol" n="3"/>
+                     <unit type="p" n="161"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <editor>Aldrich, T.B.</editor>
+                  <title corresp="#sb755.2">Cameos Selected from the Works of Walter Savage
+                     Landor</title>
+                  <ref>
+                     <unit type="vol" n="2"/>
+                     <unit type="p" n="268"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author/>
+                  <title>Aldine Edition of British Poets</title>
+                  <ref>
+                     <unit type="vol" n="3"/>
+                     <unit type="p" n="189n"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="5"/>
+                     <unit type="p" n="62"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author>Alexander, Patrick Proctor</author>
+                  <title>Carlyle Redivivus</title>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="211"/>
+                  </ref>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="228"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author>Alexander, Patrick Proctor</author>
+                  <title>Mill and Carlyle</title>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="211n"/>
+                  </ref>
+               </bibl>
+               <bibl>
+                  <author>Alexander, Patrick Proctor</author>
+                  <title>pamphlet on Carlyle</title>
+                  <ref>
+                     <unit type="vol" n="4"/>
+                     <unit type="p" n="228"/>
+                  </ref>
+               </bibl>
+               <bibl status="present">
+                  <author corresp="#alfieri">Alfieri, Vittorio</author>
+                  <title corresp="#sb006.1">Rosamunda</title>
+                  <ref>
+                     <unit type="vol" n="6"/>
+                     <unit type="p" n="142"/>
+                     <quote>...the skullcup and wife's desperate revenge always fascinated me when I
+                        was quite a little fellow and read 'Rosamunda' with my mother.</quote>
+                  </ref>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
