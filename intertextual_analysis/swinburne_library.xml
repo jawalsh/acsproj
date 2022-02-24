@@ -124,6 +124,9 @@
                     <category xml:id="top100">
                         <catDesc>Author or work is listed in Swinburne's Top 100 books as submitted to the Pall Mall Gazette in 1886.</catDesc>
                     </category>
+                    <category xml:id="gift_to">
+                        <catDesc>Book given to Swinburne as a gift, but not a presentation copy from the author.</catDesc>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
@@ -4536,7 +4539,7 @@
                                     <title xml:lang="it">La Filosofia nella Letteratura
                                         Moderna</title>
                                     <author>Agresti, A.</author>
-                                    <note type="description" corresp="#uncut">uncut, presentation
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation
                                         copy to Swinburne with inscription on fly-leaf</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with
                                         reverence from one of the land highly glorified by the Poet
@@ -5817,7 +5820,7 @@
                                 <relatedItem n="3" type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112041002921"/>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb037.2">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb037.2">
                                 <monogr>
                                     <title>Comments of Plays of Beaumont and Fletcher, with
                                         Appendix</title>
@@ -5912,7 +5915,7 @@
                                     <title xml:lang="fr">Richard Wagner et Tannhauser à
                                         Paris</title>
                                     <author>Baudelaire, Chas.</author>
-                                    <note type="description"> morocco, gilt edges, presentation copy
+                                    <note type="description" corresp="#presentation"> morocco, gilt edges, presentation copy
                                         to Swinburne, with inscription in pencil</note>
                                     <note type="inscription" xml:lang="fr">Mr. Algernon C. Swinburne
                                         Bon souvenir et mille Remerciments, C.B.</note>
@@ -6088,7 +6091,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb045">
-                            <biblStruct corresp="#owned" xml:id="sb045.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb045.1">
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Posthumes</title>
                                     <author>Baudelaire, C.</author>
@@ -6164,7 +6167,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb047">
-                            <biblStruct corresp="#owned" xml:id="sb047.1">
+                            <biblStruct corresp="#owned #gift_to" xml:id="sb047.1">
                                 <monogr>
                                     <title>The Minstrel, or the Progress of Genius</title>
                                     <author>Beattie, Jas.</author>
@@ -6249,7 +6252,7 @@
                                     <title xml:lang="fr">Vathek, réprime sur l'édition Française
                                         originale avec Preface par Stépahne Mallrmé</title>
                                     <author>Beckford, W.</author>
-                                    <note type="description">one of 220 copies, vellum, uncut, with
+                                    <note type="description" corresp="#uncut">one of 220 copies, vellum, uncut, with
                                         inscription</note>
                                     <note type="insciprtion" xml:lang="fr">à Algernon C. Swinburne
                                         avec admiration et sympathie, Stéphane Mallarmé</note>
@@ -7641,7 +7644,7 @@
                                     <author>Brontë, C.</author>
                                     <author>Brontë, A.</author>
                                     <author>Brontë, E.</author>
-                                    <note type="description">portraits and illustrations, green
+                                    <note type="description" corresp="#uncut">portraits and illustrations, green
                                         cloth, uncut, top edge gilt</note>
                                     <imprint>
                                         <date from="1899" to="1900"/>
@@ -7986,7 +7989,7 @@
                                     target="https://archive.org/details/straffordanhist00browgoog/page/n10/mode/2up"
                                 />
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb101.2">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb101.2">
                                 <monogr>
                                     <title>Prose Life of Strafford, with Introduction by C. H.
                                         Firth, and Forewords by F. J. Furnivall</title>
@@ -8441,7 +8444,7 @@
                                             Commentarii</foreign> (1483-1506), avec Introduction,
                                         Notes, Appendices, etc. par L. Thuasne</title>
                                     <author>Burchard, Joh.</author>
-                                    <note type="description">3 vol. uncut; imperial 8vo.</note>
+                                    <note type="description" corresp="#uncut">3 vol. uncut; imperial 8vo.</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1883"/>
@@ -10003,7 +10006,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb159">
-                            <biblStruct corresp="#owned" xml:id="sb169.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb169.1">
                                 <monogr>
                                     <title>Poetical and Dramatic Works</title>
                                     <author>Coleridge, S. T.</author>
@@ -10022,7 +10025,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb160">
-                            <biblStruct corresp="#owned" xml:id="sb160.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb160.1">
                                 <monogr>
                                     <title>Anima Poetae, from the Unpublished Note-Book of Samuel
                                         Taylor Coleridge</title>
@@ -10031,7 +10034,7 @@
                                         <resp>edited by</resp>
                                         <name full="yes">E. H. Coleridge</name>
                                     </respStmt>
-                                    <note type="description">linen boards, uncut, with pencil notes
+                                    <note type="description" corresp="#uncut">linen boards, uncut, with pencil notes
                                         of Swinburne's writing on fly-leaf</note>
                                     <imprint>
                                         <date when="1895"/>
@@ -10445,11 +10448,11 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb173">
-                            <biblStruct corresp="#owned" xml:id="sb173.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb173.1">
                                 <monogr>
                                     <title>Cromwell's Soldier's Catechism, with Preface by Walter
                                         Begley</title>
-                                    <note type="description">uncut, some pencil notes on fly-leaf in
+                                    <note type="description" corresp="#uncut">uncut, some pencil notes on fly-leaf in
                                         the handwriting of Swinburne</note>
                                     <imprint>
                                         <date when="1900"/>
@@ -10994,7 +10997,7 @@
                                     <title xml:lang="fr">Le Neveu de Rameau, publié et précédé d'une
                                         Introduction par H. Motheau</title>
                                     <author>Diderot</author>
-                                    <note type="description">uncut, insterted is a very interesting
+                                    <note type="description" corresp="#uncut">uncut, insterted is a very interesting
                                         Autograph Letter addressed to Swinburne from John Morley,
                                         date <date when="1876-02-12">Feb. 12, 1876</date>, and
                                         relating to the work</note>
@@ -12266,7 +12269,7 @@
                                 <monogr>
                                     <title>Long Ago</title>
                                     <author>Field, Michael</author>
-                                    <note type="description" corresp="#presentation">one of 100
+                                    <note type="description" corresp="#presentation #uncut">one of 100
                                         copies, vellum, uncut, presentation copy, with
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. from Michael
@@ -12701,7 +12704,7 @@
                                         presentation copy, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. a
                                         small acknowledgement of joy in his genius from Richard le
-                                        Gallienne, <date when="1892-10-06">6 Oct. ’92</date></note>
+                                        Gallienne, <date when="1892-10-06">6 Oct. '92</date></note>
                                     <imprint>
                                         <date when="1892"/>
                                     </imprint>
@@ -12946,7 +12949,7 @@
                             <biblStruct corresp="#owned" xml:id="sb247.3">
                                 <monogr>
                                     <title xml:lang="fr">Parnasse de la Jeune Belgique</title>
-                                    <note type="description">presentation copies to Swinburne, with
+                                    <note type="description" corresp="#presentation">presentation copies to Swinburne, with
                                         autograph inscriptions, royal 8vo.</note>
                                     <imprint>
                                         <date when="1887"/>
@@ -13023,7 +13026,7 @@
                                 <monogr>
                                     <title>Rubáiyát of Omar Kháyyám of Niashapur, rendered into
                                         English Verse by Edward Fitzgerald</title>
-                                    <note type="description" corresp="#uncut">only 50 copies printed
+                                    <note type="description" corresp="#uncut #presentation">only 50 copies printed
                                         for private circulation, uncut, presentation copy to
                                         Swinburne, with inscription</note>
                                     <imprint>
@@ -13430,7 +13433,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb267">
-                            <biblStruct corresp="#owned" xml:id="sb267.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb267.1">
                                 <monogr>
                                     <title>A Joviall Crew, of The Merry Beggars, presented in
                                         Comedie at the Cock-Pit in Drury-Lane, in the year
@@ -13756,7 +13759,7 @@
                                 <monogr>
                                     <title>The Poet's Pilgrimage, an Allegorical Poem</title>
                                     <author>Collier, J. Payne</author>
-                                    <note type="description" corresp="#uncut">one of 50 copies,
+                                    <note type="description" corresp="#uncut #presentation">one of 50 copies,
                                         uncut, presentation copy to Swinburne, with autograph letter
                                         of the author written at the age of 92</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -14458,7 +14461,7 @@
                                     target="http://name.umdl.umich.edu/A01483.0001.001"/>
                                 <note>Proquest Document ID: 2240870377</note>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb301.2">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb301.2">
                                 <monogr>
                                     <title>Collection of the History of England</title>
                                     <idno type="tcp">A19824</idno>
@@ -14729,7 +14732,7 @@
                         <listBibl type="lot" xml:id="sb312">
                             <biblStruct corresp="#owned" xml:id="sb312.1">
                                 <monogr>
-                                    <title xml:lang="fr">Histoire de l’Art Dramatique en France,
+                                    <title xml:lang="fr">Histoire de l'Art Dramatique en France,
                                         etc.</title>
                                     <author>Gautier, T.</author>
                                     <note type="description">half calf</note>
@@ -15115,7 +15118,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb321">
-                            <biblStruct corresp="#owned" xml:id="sb321.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb321.1">
                                 <monogr>
                                     <title xml:lang="la">Gradus ad Parnassum</title>
                                     <author/>
@@ -15504,7 +15507,7 @@
                                 <monogr>
                                     <title>Memoirs of Eight Years</title>
                                     <author>Hake, Gordon</author>
-                                    <note type="description">presentation copy from the author, with
+                                    <note type="description" corresp="#presentation">presentation copy from the author, with
                                         inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esq. from the
                                         author, Soon the old sun of the old century dies: May your
@@ -15546,7 +15549,7 @@
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/loc.ark:/13960/t3st8bx85"/>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb335.4">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb335.4">
                                 <monogr>
                                     <title>Collection of Seventy-Nine Ballads and Broadsides with
                                         Notes</title>
@@ -15953,7 +15956,7 @@
                                 <monogr>
                                     <title>William Blake</title>
                                     <author>Symons, A.</author>
-                                    <note type="description">buckram, uncut, top edge gilt,
+                                    <note type="description" corresp="#uncut #presentation">buckram, uncut, top edge gilt,
                                         presentation copy to Swinburne from the author with
                                         autograph inscription</note>
                                     <note type="etc">
@@ -16005,7 +16008,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb355">
-                            <biblStruct corresp="#owned" xml:id="sb355.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb355.1">
                                 <monogr>
                                     <title>Expedition to the Isle of Rhe</title>
                                     <author>Herbert of Cherbury, Edward Lord</author>
@@ -16237,7 +16240,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb363">
-                            <biblStruct corresp="#owned" xml:id="sb363.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb363.1">
                                 <monogr>
                                     <title xml:lang="fr">Histoire Contemporaine. Quatre Ans à
                                         Cayenne</title>
@@ -16335,7 +16338,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb365">
-                            <biblStruct corresp="#owned" xml:id="sb365.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb365.1">
                                 <monogr>
                                     <title>Iliad, Greek text, with copious English Notes by William
                                         Trollope</title>
@@ -16981,12 +16984,12 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb386">
-                            <biblStruct corresp="#owned" xml:id="sb386.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb386.1">
                                 <monogr>
                                     <title>Translations from his Poems, by Henry Carrington, Dean of
                                         Bocking</title>
                                     <author>Hugo, V.</author>
-                                    <note type="description">portrait, vellum, uncut, presentation
+                                    <note type="description" corresp="#presentation #uncut">portrait, vellum, uncut, presentation
                                         copy from the translator, MS. note on fly-leaf in
                                         Swinburne's hand-writing</note>
                                     <note type="inscription">And deans rush in where poets fear to
@@ -17467,7 +17470,7 @@
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
                                     </respStmt>
-                                    <note type="description">one of 50 copies, grey cloth, uncut;
+                                    <note type="description" corresp="#uncut">one of 50 copies, grey cloth, uncut;
                                         printed for private circulation</note>
                                     <imprint>
                                         <publisher>Huth Library</publisher>
@@ -17570,7 +17573,7 @@
                                 <monogr>
                                     <title>Tales of a Traveller</title>
                                     <author>Irving, W.</author>
-                                    <note type="description">printed within borders, illustrations,
+                                    <note type="description" corresp="#uncut">printed within borders, illustrations,
                                         cloth gilt, uncut, top edge gilt, with outside cover</note>
                                     <edition>Buckthorne edition</edition>
                                     <imprint>
@@ -17628,7 +17631,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb406">
-                            <biblStruct corresp="#owned" xml:id="sb406.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb406.1">
                                 <monogr>
                                     <title>Lives of English Poets</title>
                                     <author>Johnson, S.</author>
@@ -17773,7 +17776,7 @@
                                     <title>Letters to Fanny Brawne, with Introduction and Notes by
                                         H. Buxton Forman</title>
                                     <author>Keats, John</author>
-                                    <note type="description">one of 50 copies, portraits and
+                                    <note type="description" corresp="#uncut">one of 50 copies, portraits and
                                         facsimile of letter, uncut. Printed for private
                                         circulation</note>
                                     <imprint>
@@ -17982,7 +17985,7 @@
                                         <resp>done into English by</resp>
                                         <name full="yes">Willaim Morris</name>
                                     </respStmt>
-                                    <note type="description">printed in red and black, with
+                                    <note type="description" corresp="#uncut #presentation">printed in red and black, with
                                         ornamental borders and initials, uncut, presentation copy to
                                         Swinburne, with autograph inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne from
@@ -18432,7 +18435,7 @@
                                     <title>Beauty and the Beast, reprinted, with Notes, etc. by R.
                                         H. Shepherd</title>
                                     <author>Lamb, C.</author>
-                                    <note type="description">only 100 copies printed, presentation
+                                    <note type="description" corresp="#presentation">only 100 copies printed, presentation
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne from his grateful
                                         friend and admirer the editor, Richard Herne Shepherd,
@@ -18633,7 +18636,7 @@
                                     <title>The Earl of Brecon, a Tragedy, Faith's Fraud, a Tragedy,
                                         and The Ferryman, a Drama</title>
                                     <author>Landor, Robt. E.</author>
-                                    <note type="description">half calf gilt, marbled edges,
+                                    <note type="description" corresp="#presentation">half calf gilt, marbled edges,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">Rossetti, P.—R. B. To Algernon
                                         Swinburne, <date when="1866">1866</date></note>
@@ -19031,7 +19034,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb450">
-                            <biblStruct corresp="#owned" xml:id="sb450.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb450.1">
                                 <monogr>
                                     <title>Classical Dictionary of Proper Names</title>
                                     <author>Lemprière</author>
@@ -19056,7 +19059,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb451">
-                            <biblStruct corresp="#owned" xml:id="sb451.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb451.1">
                                 <monogr>
                                     <title>Adventures of Gil Blas</title>
                                     <author>Lesage, A. R.</author>
@@ -19435,7 +19438,7 @@
                                 <monogr>
                                     <title>Memoirs of Sir Walter Scott</title>
                                     <author>Lockhart, J. G.</author>
-                                    <note type="description">frontispiece, half morocco, uncut,
+                                    <note type="description" corresp="#uncut">frontispiece, half morocco, uncut,
                                         marbled edges, in case</note>
                                     <imprint>
                                         <pubPlace>Edinburgh</pubPlace>
@@ -19805,7 +19808,7 @@
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
                                     </respStmt>
-                                    <note type="description">large paper, one of 250 copies, half
+                                    <note type="description" corresp="#uncut #presentation">large paper, one of 250 copies, half
                                         calf, uncut, top edge gilt, presentation copy with autograph
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with A. H.
@@ -20500,7 +20503,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb491">
-                            <biblStruct corresp="#owned" xml:id="sb491.1">
+                            <biblStruct corresp="#owned #signed" xml:id="sb491.1">
                                 <monogr>
                                     <title>Epigrammata</title>
                                     <author>Martial</author>
@@ -20988,7 +20991,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb506">
-                            <biblStruct corresp="#owned" xml:id="sb506.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb506.1">
                                 <monogr>
                                     <title>A Tragi-Coomodie called The Witch</title>
                                     <author>Middleton, Thos.</author>
@@ -21120,7 +21123,7 @@
                                     <title xml:lang="fr">Lois Inédits des XII et XIII
                                         Siècles</title>
                                     <author>Michel, F.</author>
-                                    <note type="description">half morocco, uncut</note>
+                                    <note type="description" corresp="#uncut">half morocco, uncut</note>
                                     <note type="etc">
                                         <num value="14"/>
                                     </note>
@@ -21133,7 +21136,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb510">
-                            <biblStruct corresp="#owned" xml:id="sb510.1">
+                            <biblStruct corresp="#owned #annotated #signed" xml:id="sb510.1">
                                 <monogr>
                                     <title>On Liberty</title>
                                     <author>Mill, J. S.</author>
@@ -21475,7 +21478,7 @@
                                 <monogr>
                                     <title>The Earthly Paradise, a Poem</title>
                                     <author>Morris, William</author>
-                                    <note type="description">presentation copy to Swinburne, with
+                                    <note type="description" corresp="#presentation">presentation copy to Swinburne, with
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, from his friend the
                                         Author</note>
@@ -21545,7 +21548,7 @@
                                 <monogr>
                                     <title>AEneids of Virgil, done into English Verse</title>
                                     <author>Morris, W.</author>
-                                    <note type="description">original cloth, presentation copy, with
+                                    <note type="description" corresp="#presentation">original cloth, presentation copy, with
                                         autograph inscvription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, from his
                                         friend William Morris</note>
@@ -21614,7 +21617,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb526">
-                            <biblStruct corresp="#owned" xml:id="sb526.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb526.1">
                                 <monogr>
                                     <title>Handbook for the Travellers in Durham and
                                         Northumberland</title>
@@ -21734,7 +21737,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb529">
-                            <biblStruct corresp="#owned" xml:id="sb529.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb529.1">
                                 <monogr>
                                     <title>The Sonnet in England, and other Essays</title>
                                     <author>Noble, J. Ashcroft</author>
@@ -23076,7 +23079,7 @@
                                     target="http://name.umdl.umich.edu/A01057.0001.001"/>
                                 <note>Proquest Document ID: 2240926252</note>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb568.2">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb568.2">
                                 <monogr>
                                     <title>Adrasta, or the Woman's Spleene and Love's Conquest, a
                                         Tragi-Comedie never acted</title>
@@ -23131,7 +23134,7 @@
                                     target="http://name.umdl.umich.edu/A42813.0001.001"/>
                                 <note>Proquest Document ID: 2240955165</note>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb570.2">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb570.2">
                                 <monogr>
                                     <title>Bagster's Critical New Testament, Greek and
                                         English</title>
@@ -23566,7 +23569,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Bijoux de Marguerite</title>
                                     <author>Leconte, S. C.</author>
-                                    <note type="description">uncut</note>
+                                    <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1899"/>
@@ -23743,7 +23746,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb594">
-                            <biblStruct corresp="#owned" xml:id="sb594.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb594.1">
                                 <monogr>
                                     <title>The True Tragedy of Herod and Antipater, with the Death
                                         of faire Marriam</title>
@@ -23894,7 +23897,7 @@
                                     <title>Story of Sigurd the Volsung and the Fall of the
                                         Niblungs</title>
                                     <author>Morris, Wm.</author>
-                                    <note type="description">original cloth, presentation copy with
+                                    <note type="description" corresp="#presentation">original cloth, presentation copy with
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from his
                                         friend William Morris</note>
@@ -24781,7 +24784,7 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb632.3">
                                 <monogr>
-                                    <title xml:lang="fr">Les Poëmes de l’amour et de la Mort</title>
+                                    <title xml:lang="fr">Les Poëmes de l'amour et de la Mort</title>
                                     <author>Lebey, A.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc" corresp="#presentation">and others, some
@@ -24816,7 +24819,7 @@
                         </listBibl>
                         <listBibl type="lot" xml:id="sb634">
                             <bibl xml:id="sb634.1">
-                                <title>Poet’s Praise (The) from Homer to Swinburne, collected and
+                                <title>Poet's Praise (The) from Homer to Swinburne, collected and
                                     arranged, with notes, by E. Davenport Adams</title>
                                 <date when="1894"/>
                                 <relatedItem type="ht"
@@ -25619,7 +25622,7 @@
                                 </monogr>
                                 <relatedItem type="none" target=""/>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb656.2">
+                            <biblStruct corresp="#owned #signed" xml:id="sb656.2">
                                 <monogr>
                                     <title xml:lang="fr">Historie de Napoléon et de la Grande
                                         Amrée</title>
@@ -26347,7 +26350,7 @@
                                 <monogr>
                                     <title>Ethics of the Dust</title>
                                     <author>Ruskin, John</author>
-                                    <note type="description">original cloth, presentation copy from
+                                    <note type="description" corresp="#presentation">original cloth, presentation copy from
                                         the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, with the old
                                         Lecturer's earnest regards, Chrstmas, <date when="1865"
@@ -26526,7 +26529,7 @@
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/loc.ark:/13960/t7sn1gw07"/>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb686.3">
+                            <biblStruct corresp="#owned #signed" xml:id="sb686.3">
                                 <monogr>
                                     <title>English as she is Taught</title>
                                     <note type="description">Swinburne's copy with his signature on
@@ -27130,7 +27133,7 @@
                                         inscription</note>
                                     <note type="inscription">To A. C. Swinburne as a slight
                                         acknowledgement of personal indebtedness tothe ‘poete dexenu
-                                        critque,’ who in his ‘Study of Shakespeare’ has laid all
+                                        critque,' who in his ‘Study of Shakespeare' has laid all
                                         students of the poet under an obligation, Arthur Symons,
                                             <date when="1885-11-30">Nov. 30th, 1885</date></note>
                                     <imprint>
@@ -27808,7 +27811,7 @@
                                         copies, presentation copy, with autograph inscription</note>
                                     <note type="inscription">To Algernon Chas. Swinburne, Esq. with
                                         kindly regards from Thos. J. Wise, <date when="1893-03"
-                                            >March, ’93</date></note>
+                                            >March, '93</date></note>
                                     <imprint>
                                         <publisher>Shelley Society</publisher>
                                         <date when="1892"/>
@@ -27994,9 +27997,9 @@
                                         <soCalled>series</soCalled>, so volume one has “First
                                     Series” on the title page, volume two “Second Series,” and so
                                     on. Also, the “Second Series” does not include a date on the
-                                    title page, which conforms to the catalog’s “n.d.” description.
+                                    title page, which conforms to the catalog's “n.d.” description.
                                     The 1875 date would only apply to series/volume 4, but we have
-                                    included links to all four volumes. Given Swinburne’s
+                                    included links to all four volumes. Given Swinburne's
                                     relationship with Hotten and Chatto and Windus, not to mention
                                     his love of Shelley, it is very likely that Swinburne owned the
                                     whole set.</note>
@@ -28210,7 +28213,7 @@
                         <listBibl type="lot" xml:id="sb735">
                             <biblStruct corresp="#owned" xml:id="sb735.1">
                                 <monogr>
-                                    <title xml:lang="fr">L’Areadie de la Comtesse de Pembrok
+                                    <title xml:lang="fr">L'Areadie de la Comtesse de Pembrok
                                         traduitte en nostre langue par un gentil-homme
                                         François</title>
                                     <author>Sidney, Sir Phillip</author>
@@ -28323,7 +28326,7 @@
                                         copy with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. from the author,
                                         in rememberance of Venice, Edinburgh, <date
-                                            when="1878-10-16">16 Oct. ’78</date></note>
+                                            when="1878-10-16">16 Oct. '78</date></note>
                                     <imprint>
                                         <date when="1878"/>
                                     </imprint>
@@ -28807,7 +28810,7 @@
                             <biblStruct corresp="#owned" xml:id="sb754.3">
                                 <monogr>
                                     <title>Plantation Lays, and other Poems</title>
-                                    <author>Townsend, B. O’Neall</author>
+                                    <author>Townsend, B. O'Neall</author>
                                     <note type="etc" corresp="#presentation">and others, all
                                         presentation copies to Swinburne, with inscriptions<num
                                             value="25"/></note>
@@ -28917,7 +28920,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb758">
-                            <biblStruct corresp="#owned" xml:id="sb758.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb758.1">
                                 <monogr>
                                     <title>Letters to Living Authors</title>
                                     <author>Steuart, John A.</author>
@@ -29049,7 +29052,7 @@
                                         copy with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, with the
                                         admiration of his friend R. H. Stoddard, New York, <date
-                                            when="1877-08-24">Aug. 24th, ’77</date></note>
+                                            when="1877-08-24">Aug. 24th, '77</date></note>
                                     <imprint>
                                         <pubPlace>Boston</pubPlace>
                                         <date when="1871"/>
@@ -29106,7 +29109,7 @@
                                 <note resp="#jawalsh">HathiTrust and other digital libraries include
                                     copies of these periodicals, but we have not included links
                                     because the sales catalog does not state with volumes and issues
-                                    were in Swinburne’s library.</note>
+                                    were in Swinburne's library.</note>
                             </bibl>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb765">
@@ -29622,7 +29625,7 @@
                                     <note type="description" corresp="#uncut #presentation">one of
                                         25 copies on Japanese paper, uncut, presentation copy, with
                                         inscription, imperial 8vo.</note>
-                                    <note type="inscription" xml:lang="fr">A l’Auteur de l’Ode a la
+                                    <note type="inscription" xml:lang="fr">A l'Auteur de l'Ode a la
                                         Statue avec mes bien vives sympathies son traducteur Tola
                                         Dorian, Neuillym <date when="1882-12-15">15 Decembre,
                                             1882</date></note>
@@ -29675,7 +29678,7 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb786.3">
                                 <monogr>
-                                    <title xml:lang="fr">D. Japhet d’Armenie, Comedie</title>
+                                    <title xml:lang="fr">D. Japhet d'Armenie, Comedie</title>
                                     <author>Scarron, M.</author>
                                     <note type="description">old sheep</note>
                                     <note type="etc">
@@ -29751,7 +29754,7 @@
                                     <title xml:lang="fr">Nouveaux Poëmes et Ballades</title>
                                     <author>Swinburne, A. C.</author>
                                     <respStmt>
-                                        <resp>traduction d’</resp>
+                                        <resp>traduction d'</resp>
                                         <name full="yes">Albert Savine</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
@@ -29804,7 +29807,7 @@
                         <listBibl type="lot" xml:id="sb789">
                             <biblStruct corresp="#owned" xml:id="sb789.1">
                                 <monogr>
-                                    <title>Chants d’avant l’Aube, traduits par M. Gabriel
+                                    <title>Chants d'avant l'Aube, traduits par M. Gabriel
                                         Mourey</title>
                                     <author>Swinburne, A. C.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut
@@ -29933,7 +29936,7 @@
                                 <monogr>
                                     <title>Poems, Dramatic and Lyrical</title>
                                     <author>Tabley, J. L. Warren, Lord de</author>
-                                    <note type="description">illustrations by C. S. Ricketts, green
+                                    <note type="description" corresp="#uncut">illustrations by C. S. Ricketts, green
                                         cloth gilt, uncut, top edge gilt</note>
                                     <imprint>
                                         <date when="1893"/>
@@ -30135,7 +30138,7 @@
                                     <title xml:lang="la">Comoediae</title>
                                     <author>Terentius</author>
                                     <note type="description">old red morocco, gilt edges</note>
-                                    <edition>Baskerville’s Edition</edition>
+                                    <edition>Baskerville's Edition</edition>
                                     <imprint>
                                         <pubPlace>Burmingham</pubPlace>
                                         <date when="1772"/>
@@ -30158,7 +30161,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb804">
-                            <biblStruct corresp="#owned" xml:id="sb804.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb804.1">
                                 <monogr>
                                     <title>Testament, Greek, with English Notes by E. Burton</title>
                                     <note type="description">calf, numerous MS. notes in pencil,
@@ -30307,11 +30310,11 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb809">
-                            <biblStruct corresp="#owned" xml:id="sb809.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb809.1">
                                 <monogr>
                                     <title>Luck of Barry Lyndon, a Romance</title>
                                     <author>Thackeray, W. M.</author>
-                                    <note type="description" corresp="#uncut">uncut, Swinburne’s
+                                    <note type="description" corresp="#uncut">uncut, Swinburne's
                                         copy, with pencil note in his writing on fly-leaf</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -30619,7 +30622,7 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb818">
-                            <biblStruct corresp="#owned" xml:id="sb818.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb818.1">
                                 <monogr>
                                     <title>Plays and Poems, with critical Introduction and
                                         Notes</title>
@@ -30629,7 +30632,7 @@
                                         <name full="yes">J. Churton Collins</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut, with MS. note
-                                        in Swinburne’s handwriting</note>
+                                        in Swinburne's handwriting</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1878"/>
@@ -31097,7 +31100,7 @@
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription" xml:lang="fr">À Algernon Charles
-                                        Swinburne très-indigne hommage d’un disciple Francis
+                                        Swinburne très-indigne hommage d'un disciple Francis
                                         Viele-Griffin</note>
                                     <imprint>
                                         <date when="1886"/>
@@ -31157,7 +31160,7 @@
                                     </imprint>
                                 </monogr>
                                 <note resp="#jawalsh">This clearly refers to the 1541 Adline edition
-                                    of Virgil’s works. We have not been able to find a digital copy
+                                    of Virgil's works. We have not been able to find a digital copy
                                     of this edition nor the 1501 edition.</note>
                             </biblStruct>
                         </listBibl>
@@ -31281,7 +31284,7 @@
                             <biblStruct corresp="#owned" xml:id="sb838.2">
                                 <monogr>
                                     <title xml:lang="fr">Le Sage, Turcaret, Comédie en Cinq Actes,
-                                        Précédée d’une Notice par F. de Marescot</title>
+                                        Précédée d'une Notice par F. de Marescot</title>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -31875,7 +31878,7 @@
                         <listBibl type="lot" xml:id="sb862">
                             <biblStruct corresp="#owned" xml:id="sb862.1">
                                 <monogr>
-                                    <title>The Prelude of Growth of a Poet’s Mind</title>
+                                    <title>The Prelude of Growth of a Poet's Mind</title>
                                     <author>Wordsworth, Wm.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -32009,7 +32012,7 @@
                                     <note type="description" corresp="#presentation">portrait and
                                         illustrations, presentation copy with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with
-                                        Mackenzie Bell’s kind regards, <date when="1898-09-02">2nd
+                                        Mackenzie Bell's kind regards, <date when="1898-09-02">2nd
                                             Sept. 1898</date></note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne with inscriptions<num value="12"
@@ -32138,10 +32141,10 @@
                                     <title>Poems from Victor Hugo</title>
                                     <author>Young, Sir Geo.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
-                                        presentation copy to Swinburne, with author’s inscription on
+                                        presentation copy to Swinburne, with author's inscription on
                                         title</note>
                                     <note type="inscription">Sent with good wishes for Christmas and
-                                        grateful recollections of the ‘Chalvey Round,’ to A. C.
+                                        grateful recollections of the ‘Chalvey Round,' to A. C.
                                         S.</note>
                                     <imprint>
                                         <date when="1901"/>
@@ -32149,12 +32152,12 @@
                                 </monogr>
                                 <relatedItem type="none" target=""/>
                             </biblStruct>
-                            <biblStruct corresp="#owned" xml:id="sb869.2">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb869.2">
                                 <monogr>
                                     <title>Downfall of Robert, Earl of Huntington, with Notes, etc.
                                         by J. Payne Collier</title>
                                     <author>Munday, A.</author>
-                                    <note type="description" corresp="#uncut">Swinburne’s copy, with
+                                    <note type="description" corresp="#uncut">Swinburne's copy, with
                                         pencil note in his writings, uncut</note>
                                     <imprint>
                                         <date when="1828"/>
@@ -32171,7 +32174,7 @@
                         <listBibl type="lot" xml:id="sb870">
                             <biblStruct corresp="#owned" xml:id="sb870.1">
                                 <monogr>
-                                    <title>Women Novelists of Queen Victoria’s Reign</title>
+                                    <title>Women Novelists of Queen Victoria's Reign</title>
                                     <author>Oliphant, Mrs., etc.</author>
                                     <note type="description">2 copies</note>
                                     <imprint>
@@ -32423,13 +32426,13 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb880">
-                            <biblStruct corresp="#owned" xml:id="sb880.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb880.1">
                                 <monogr>
-                                    <title xml:lang="it">Della Fisonomia dell’Huomo, tradotti di
+                                    <title xml:lang="it">Della Fisonomia dell'Huomo, tradotti di
                                         Latino in Volgare</title>
                                     <author>Porta, Gio. B.</author>
                                     <note type="description">curios old woodcuts, half bound, pencil
-                                        note in Swinburne’s writing</note>
+                                        note in Swinburne's writing</note>
                                     <imprint>
                                         <pubPlace>Padova</pubPlace>
                                         <date when="1623"/>
@@ -32620,7 +32623,7 @@
                                     <note type="description" corresp="#uncut #presentation">one of
                                         30 copies, plates on Japanese paper, vellum, uncut.
                                         Presentation copy, with inscription</note>
-                                    <note type="inscription">To Gabrial’s contemporary the greater
+                                    <note type="inscription">To Gabrial's contemporary the greater
                                         Poet of the two, who honours me with his friendship,
                                         Algernon Charles Swinburne, offered with entrie love by Wm.
                                         M. Rossetti, <date when="1905-06">June, 1905</date></note>
@@ -32641,13 +32644,13 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb888">
-                            <biblStruct corresp="#owned" xml:id="sb888.1">
+                            <biblStruct corresp="#owned #annotated" xml:id="sb888.1">
                                 <monogr>
                                     <title>Old English Versions of the Gesta Romanorum, with
                                         Introduction and Notes by Sir Fred. Madden</title>
                                     <note type="description" corresp="#uncut #presentation">half
                                         roam, uncut. Presentation copy, with inscription, pencil
-                                        note on fly-leaf in Swinburne’s writing</note>
+                                        note on fly-leaf in Swinburne's writing</note>
                                     <note type="inscription">William J. Thoms kindly given to me by
                                         Lord Powis</note>
                                     <imprint>
@@ -32677,7 +32680,7 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb889.2">
                                 <monogr>
-                                    <title>Poems from Sir Kenelm Digby’s Papers in the possession of
+                                    <title>Poems from Sir Kenelm Digby's Papers in the possession of
                                         Henry A. Bright</title>
                                     <note type="description">one of 80 copies, half morocco</note>
                                     <imprint>
@@ -32715,7 +32718,7 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb890.2">
                                 <monogr>
-                                    <title>Chertsey Worthies’ Library</title>
+                                    <title>Chertsey Worthies' Library</title>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -32764,7 +32767,7 @@
                                 <relatedItem n="12" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044009641002"/>
                                 <!-- Davies, vol 2 -->
-                                <note type="fulltext">"Chertsey Worthies’ Library" is, apprently,
+                                <note type="fulltext">"Chertsey Worthies' Library" is, apprently,
                                     made up of works from Nicholas Breton, Francis Quarles, Dr.
                                     Joseph Beaumont, Abraham Cowley, Henry More, and John Davies of
                                     Hereford; all between 1878-1881</note>
@@ -32904,7 +32907,7 @@
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
                                     </respStmt>
-                                    <note type="description">facsimile of the First Edition, vellum,
+                                    <note type="description" corresp="#uncut">facsimile of the First Edition, vellum,
                                         uncut, with ties</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -32944,7 +32947,7 @@
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
                                     </respStmt>
-                                    <note type="description">facsimile of the First Edition, vellum,
+                                    <note type="description" corresp="#uncut">facsimile of the First Edition, vellum,
                                         uncut, with ties</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -32958,7 +32961,7 @@
                         <listBibl type="lot" xml:id="sb899">
                             <biblStruct corresp="#owned" xml:id="sb899.1">
                                 <monogr>
-                                    <title>Extracts from the Registers of the Stationer’s Company,
+                                    <title>Extracts from the Registers of the Stationer's Company,
                                         with Notes and Illustrations by J. Payne Collier</title>
                                     <author>Shakespeare Society</author>
                                     <note type="description" corresp="#uncut #presentation">one of
@@ -32982,9 +32985,9 @@
                         <listBibl type="lot" xml:id="sb900">
                             <biblStruct corresp="#owned" xml:id="sb900.1">
                                 <monogr>
-                                    <title>Unpublished Chapters of Fynes Moryson’s Itinerary, with
+                                    <title>Unpublished Chapters of Fynes Moryson's Itinerary, with
                                         Introductions, etc. by Charles Hughes</title>
-                                    <author>Shakespeare’s Europe</author>
+                                    <author>Shakespeare's Europe</author>
                                     <note type="description" corresp="#presentation">facsimile,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne the
@@ -33009,7 +33012,7 @@
                                     <author>Sharpham, E.</author>
                                     <note type="description">half bound, title soiled and mended,
                                         some leaves stained and some headlines cut into, with
-                                        autograph signature of John Genest, and players’ names in
+                                        autograph signature of John Genest, and players' names in
                                         his writing</note>
                                     <imprint>
                                         <date when="1631"/>
@@ -33038,7 +33041,7 @@
                                         presentation copy to Swinburne</note>
                                     <note type="inscription" xml:lang="fr">A mon illustre Maitre,
                                         Ch. Algernon Swinburne mon frere en Victor Hugo tribut
-                                        d’amitié et de reconnanssance. Tola Dorian</note>
+                                        d'amitié et de reconnanssance. Tola Dorian</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1884"/>
@@ -33102,7 +33105,7 @@
                         <listBibl type="lot" xml:id="sb906">
                             <biblStruct corresp="#owned" xml:id="sb906.1">
                                 <monogr>
-                                    <title>Mask of Anarchy, facsimile of Shelley’s MS. with
+                                    <title>Mask of Anarchy, facsimile of Shelley's MS. with
                                         Introduction by H. Buxton Forman</title>
                                     <author>Shelley, P. B.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
@@ -33372,7 +33375,7 @@
                                 <monogr>
                                     <title xml:lang="it">Trionfi Carri Mascherate o Canti
                                         Carnascialeschi andate per Firenze tempo del magnifieo
-                                        Lorenzo de Mediei sino all’anno 1559 in questa, Seconda
+                                        Lorenzo de Mediei sino all'anno 1559 in questa, Seconda
                                         Edizione Correti (edit. Rinaldo Bracci)</title>
                                     <note type="description">engraved title and portraits, old
                                         morocco gilt, gilt edges</note>
@@ -33510,7 +33513,7 @@
                                 <monogr>
                                     <title>Queen Margot Wife of Henry of Navarre</title>
                                     <author>Williams, H. Noel</author>
-                                    <note type="description">16 illustrations, presentation copy to
+                                    <note type="description" corresp="#presentation">16 illustrations, presentation copy to
                                         Swinburne with inscription</note>
                                     <imprint>
                                         <date when="1907"/>
@@ -33642,12 +33645,12 @@
                         <listBibl type="lot" xml:id="sb926">
                             <biblStruct corresp="#owned" xml:id="sb926.1">
                                 <monogr>
-                                    <title xml:lang="fr">L’Après-Midi d’un Faune</title>
+                                    <title xml:lang="fr">L'Après-Midi d'un Faune</title>
                                     <author>Mallarmé, Steph.</author>
                                     <note type="description" corresp="#presentation">one of 195
                                         copies, presentation copy with book label and autograph
                                         inscription</note>
-                                    <note type="inscription" xml:lang="fr">Au Maitre qui j’admire de
+                                    <note type="inscription" xml:lang="fr">Au Maitre qui j'admire de
                                         lion et veux connaitre, Stephane Mallarme</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -33764,7 +33767,7 @@
                             <biblStruct corresp="#owned" xml:id="sb930.1">
                                 <monogr>
                                     <title>Poliphili Hypnerotomachia</title>
-                                    <note type="description">reprint of the edition of 1499,
+                                    <note type="description" corresp="#uncut">reprint of the edition of 1499,
                                         woodcuts, uncut</note>
                                     <imprint>
                                         <pubPlace>Methuen</pubPlace>
@@ -34012,7 +34015,8 @@
                                     <author corresp="#fitzgerald_e">Fitzgerald (E.)</author>
 
                                     <note type="description">another copy, with pencil note on title
-                                        in Swinburne's writing: <q>93 Coleridge's baby</q></note>
+                                        in Swinburne's writing: </note>
+                                    <note type="inscription">93 Coleridge's baby</note>
                                     <imprint>
                                         <publisher>Macmillan and Co.</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34053,7 +34057,8 @@
 
                                     <note type="description" corresp="#uncut">uncut, Swinburne's
                                         copy, with some pencil notes in his writing and his initials
-                                            <q>A.C.S.</q></note>
+                                            </note>
+                                    <note type="inscription">A.C.S.</note>
                                     <imprint>
                                         <publisher>Methuen and Co.</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34072,8 +34077,9 @@
                                     <editor>Grossart, A. B.</editor>
                                     <note type="description" corresp="#presentation">frontispiece,
                                         presentation copy with inscription in Swinburne's writing:
-                                            <q>Walter Theodore Watts-Dunton from Algernon Charles
-                                            Swinburne, March 9th, 1898</q></note>
+                                            </note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles
+                                        Swinburne, <date when="1898-03-02">March 9th, 1898</date></note>
                                     <imprint>
                                         <publisher>J. M. Dent and Co.</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34092,7 +34098,8 @@
                                     <editor>Macneil Dixon, W.</editor>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy, with inscription in Swinburne's writing:
-                                            <q>W.T. Watts-Dunton, from A.C.S.</q></note>
+                                           </note>
+                                    <note type="inscription">W.T. Watts-Dunton, from A.C.S.</note>
                                     <imprint>
                                         <publisher>J.M. Dent and Co.</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34110,8 +34117,9 @@
 
                                     <note type="description" corresp="#presentation">presentation
                                         copy from Swinburne, with autograph inscription on
-                                        half-title: <q>Walter Theodore Watts, from Algernon Charles
-                                            Swinburne, Nov. 13, '90</q></note>
+                                        half-title: </note>
+                                    <note type="inscription">Walter Theodore Watts, from Algernon Charles
+                                        Swinburne, <date when="1890-11-13">Nov. 13, '90</date></note>
                                     <imprint>
                                         <publisher>Sampson Low, Marston, Searle, &amp; Rivington,
                                             Ltd.</publisher>
@@ -34131,8 +34139,9 @@
 
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy with inscription in Swinburne's writing:
-                                            <q>Walter Theodore Watts from his friend Algernon
-                                            Charles Swinburne</q></note>
+                                            </note>
+                                    <note type="inscription">Walter Theodore Watts from his friend Algernon
+                                        Charles Swinburne</note>
                                     <imprint>
                                         <publisher>Edward Moxon</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34178,8 +34187,9 @@
 
                                     <note type="description" corresp="#presentation #uncut">buckram,
                                         uncut, presentation copy with inscription in Swinburne's
-                                        writing: <q>Walter Theodore Watts, from his friend Algernon
-                                            Charles Swinburne, Jan. 28, 1890</q></note>
+                                        writing: </note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend Algernon
+                                        Charles Swinburne, <date when="1890-01-28">Jan. 28, 1890</date></note>
                                     <imprint>
                                         <publisher>John C. Nimmo</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34199,13 +34209,15 @@
                                     <editor>Dyce, Alexander</editor>
                                     <note type="description" corresp="#presentation">brown cloth,
                                         presentation copy from Swinburne with autograph inscription
-                                        on half-title: <q>Walter Theodore Watts from his
-                                            affectionate friend Algernon Charles Swinburne</q>. This
+                                        on half-title. This
                                         volume is extremely interesting as containing on the
                                         half-title a copy of the sonnet by Swinburne on Cristopher
                                         Marlowe, commencing <q>Crowned, girdled, garbed and shod
                                             with light and fire</q>. In Swinburne's
                                         handwriting.</note>
+                                    <note type="inscription">Walter Theodore Watts from his
+                                        affectionate friend Algernon Charles Swinburne</note><!-- half title inscription-->
+                                    <note type="inscription">poem</note>
                                     <imprint>
                                         <publisher/>
                                         <pubPlace/>
@@ -34226,8 +34238,9 @@
                                     <author>Robertson, John M.</author>
 
                                     <note type="description">red cloth, Swinburne's copy, with note
-                                        in his writing on title: <q>Do let me feel this gentleman's
-                                            bumps! C.L. A.C.S.</q></note>
+                                        in his writing on title: </note>
+                                    <note type="inscription">Do let me feel this gentleman's
+                                        bumps! C.L. A.C.S.</note>
                                     <imprint>
                                         <publisher>T. Fisher Unwin</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34360,8 +34373,9 @@
                                         Charles</author>
 
                                     <note type="description">Original cloth, swinburne's copy, with
-                                        his initials <q>A.C.S.</q> on half-title, and a note and
+                                        his initials on half-title, and a note and
                                         some corrections in his handwriting.</note>
+                                    <note type="inscription">A.C.S.</note>
                                     <edition corresp="#first_ed">first edition</edition>
                                     <imprint>
                                         <publisher>Chatto &amp; Windus</publisher>
@@ -34463,12 +34477,15 @@
 
                                     <note type="description" corresp="#uncut #presentation">brown
                                         cloth, uncut, presentation copy from Swinburne, with
-                                        autograph inscription on half-title: <q>Walter Theodore
-                                            Watts from his affectionate friend Algernon Charles
-                                            Swinburne</q>. On the half-title is given a copy of
+                                        autograph inscription on half-title: . On the half-title is given a copy of
                                         Swinburne's Sonnet on John Webster commencing: <q>Thunder
                                             the flesh quails,</q> 14 lines in Swinburne's
-                                        hand-writing and signed <q>A.C.S.</q></note>
+                                        hand-writing and signed with his initials</note>
+                                    <note type="inscription">Walter Theodore
+                                        Watts from his affectionate friend Algernon Charles
+                                        Swinburne</note>
+                                    <note type="inscription">A.C.S.</note>
+                                    <note type="inscription">poem</note>
                                     <imprint>
                                         <publisher/>
                                         <pubPlace/>
@@ -34491,6 +34508,7 @@
                                     <note type="description" corresp="#uncut">uncut, inserted some
                                         lines in Swinburne's hand-writing: <q>True my fair queen of
                                             sorrows truly speaks</q> etc.</note>
+                                    <note type="inscription">poem</note>
                                     <imprint>
                                         <publisher>George Routledge and Sons</publisher>
                                         <pubPlace>London</pubPlace>
@@ -34589,6 +34607,34 @@
         <relatedItem n="6" type="ht" target="https://hdl.handle.net/2027/nyp.33433067288112"/>
     </biblStruct>
                 <!-- Theocritus -->
+    <biblStruct xml:id="theocritus_works_eng" corresp="#top100">
+        <monogr>
+            <title>Theocritus, translated into English verse</title>
+            <author>Theocritus</author>
+            <respStmt>
+                <resp>Translator</resp>
+                <persName>Calverly, Charles Stuart</persName>
+            </respStmt>            
+            <imprint>
+                <publisher>Deighton, Bell</publisher>
+                <pubPlace>Cambridge</pubPlace>
+                <date when="1869"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t3hx1cd4t"/>
+    </biblStruct>
+    <biblStruct xml:id="theocritus_works_grc" corresp="#top100">
+        <monogr>
+            <title>ΘΕΟΚΡΙΤΟΥΤΑ ΕΥΡΙΣΚΟΜΕΝΑ, Theocriti quae extant</title>
+            <author>Theocritus</author>
+            <imprint>
+                <publisher>J. Richardson</publisher>
+                <pubPlace>London</pubPlace>
+                <date when="1759"/>
+            </imprint>
+        </monogr>
+        <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.39015063836954"/>
+    </biblStruct>
                 <!-- The Saga of Burnt Njal -->
                 <biblStruct xml:id="burnt_njal" corresp="#top100">
                     <monogr>
