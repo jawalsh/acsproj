@@ -61,7 +61,7 @@
                         <title>Sale Catalogues of Libraries of Eminent Persons</title>
                         <title>Poets and Men of Letters</title>
                         <imprint>
-                            <pubPlace> London </pubPlace>
+                            <pubPlace ref="#london">London</pubPlace>
                             <publisher>Mansell</publisher>
                             <date when="1972" xml:id="sort_date"/>
                             <biblScope unit="volume">6</biblScope>
@@ -332,6 +332,9 @@
                         <placeName type="preferred">Lyon</placeName>
                         <placeName>Lugduni</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011781" xml:id="london">
+                        <placeName type="preferred">London</placeName>
+                     </place>
                 </listPlace>
             </div>
             <div n="authors">
@@ -7143,10 +7146,10 @@
                                         <name full="yes">John Payne</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">3 vol. unbound and
-                                        uncut</note>
+                                        uncut. Private printing.</note>
                                     <imprint>
                                         <publisher>Villon Society</publisher>
-                                        <pubPlace>privately printed</pubPlace>
+                                        <pubPlace>London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                     <extent>
@@ -20813,11 +20816,13 @@
                                     <note type="description">title within woodcut border, woodcut
                                         engraving at the end, worm-holed</note>
                                     <imprint>
-                                        <pubPlace>Wittemburg</pubPlace>
-                                        <date>15--</date>
+                                        <pubPlace>Wittenburg</pubPlace>
+                                        <publisher>Josef Klug</publisher><!-- based off of USTC. -->
+                                        <date>15--</date><!-- USTC showing dates in 1523, 1525, and 1527, alewinga -->
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
+                                <relatedItem type="google" target="https://books.google.com/books?id=GsJHqrtpDI4C"/>
+                                <note type="fulltext">Google Books copy is 1534 Leipzig ed.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb502">
@@ -24055,7 +24060,7 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A07978</idno>
                                     <imprint>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1638"/>
                                     </imprint>
                                 </monogr>
@@ -30140,7 +30145,7 @@
                                     <note type="description">old red morocco, gilt edges</note>
                                     <edition>Baskerville's Edition</edition>
                                     <imprint>
-                                        <pubPlace>Burmingham</pubPlace>
+                                        <pubPlace>Birmingham</pubPlace>
                                         <date when="1772"/>
                                     </imprint>
                                 </monogr>
@@ -31685,7 +31690,7 @@
                                     <note type="inscription">Algernon Charles Swinburne from the
                                         author with thanks and love</note>
                                     <imprint>
-                                        <pubPlace>Botson</pubPlace>
+                                        <pubPlace>Boston</pubPlace>
                                         <date from="1881" to="1882"/>
                                     </imprint>
                                 </monogr>
@@ -31725,7 +31730,7 @@
                                         compliments of Elizabeth Porter Gould, Botson,
                                         Massachusettes, U.S.A.</note>
                                     <imprint>
-                                        <pubPlace>Philidelphia</pubPlace>
+                                        <pubPlace>Philadelphia</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -33257,8 +33262,10 @@
                                     <author>Tacitus, Corn.</author>
                                     <note type="description">old russia, rebacked</note>
                                     <imprint>
-                                        <pubPlace>Venet. in aedibus Haeredum Aldi Manutii Romani et
-                                            Andreae Asulani Soceri</pubPlace>
+                                        <pubPlace ref="#venice">Venet.
+                                            </pubPlace>
+                                        <publisher>Haeredum Aldi Manutii Romani</publisher>
+                                        <publisher>Andreae Asulani Soceri</publisher>
                                         <date when="1534"/>
                                     </imprint>
                                 </monogr>
@@ -33274,7 +33281,8 @@
                                         tooled borders, ornaments and coats-of-arms on the sides,
                                         silk linings, gilt and marbled edges, by Kalthoeber</note>
                                     <imprint>
-                                        <pubPlace>Parma, Bodaniani</pubPlace>
+                                        <pubPlace>Parma</pubPlace>
+                                        <publisher>Bodoniani</publisher>
                                         <date when="1794"/>
                                     </imprint>
                                     <extent>
@@ -33995,7 +34003,7 @@
                                     <!-- alewinga, inferred from publication date and binding description. -->
                                     <imprint>
                                         <publisher>Methuen &amp; Co.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -34019,7 +34027,7 @@
                                     <note type="inscription">93 Coleridge's baby</note>
                                     <imprint>
                                         <publisher>Macmillan and Co.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -34061,7 +34069,7 @@
                                     <note type="inscription">A.C.S.</note>
                                     <imprint>
                                         <publisher>Methuen and Co.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -34082,7 +34090,7 @@
                                         Swinburne, <date when="1898-03-02">March 9th, 1898</date></note>
                                     <imprint>
                                         <publisher>J. M. Dent and Co.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -34102,7 +34110,7 @@
                                     <note type="inscription">W.T. Watts-Dunton, from A.C.S.</note>
                                     <imprint>
                                         <publisher>J.M. Dent and Co.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -34123,7 +34131,7 @@
                                     <imprint>
                                         <publisher>Sampson Low, Marston, Searle, &amp; Rivington,
                                             Ltd.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -34144,7 +34152,7 @@
                                         Charles Swinburne</note>
                                     <imprint>
                                         <publisher>Edward Moxon</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1847"/>
                                     </imprint>
                                 </monogr>
@@ -34192,7 +34200,7 @@
                                         Charles Swinburne, <date when="1890-01-28">Jan. 28, 1890</date></note>
                                     <imprint>
                                         <publisher>John C. Nimmo</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -34243,7 +34251,7 @@
                                         bumps! C.L. A.C.S.</note>
                                     <imprint>
                                         <publisher>T. Fisher Unwin</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -34295,7 +34303,7 @@
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <publisher/>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1852"/>
                                     </imprint>
                                 </monogr>
@@ -34336,7 +34344,7 @@
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <publisher>Chatto and Windus</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
@@ -34356,7 +34364,7 @@
                                     <edition corresp="#first_ed">first edition</edition>
                                     <imprint>
                                         <publisher>Chatto and Windus</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                 </monogr>
@@ -34379,7 +34387,7 @@
                                     <edition corresp="#first_ed">first edition</edition>
                                     <imprint>
                                         <publisher>Chatto &amp; Windus</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                 </monogr>
@@ -34398,7 +34406,7 @@
                                         note in Swinburne's writing inserted</note>
                                     <imprint>
                                         <publisher>Chatto and Windus</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -34418,7 +34426,7 @@
                                         handwriting.</note>
                                     <imprint>
                                         <publisher>Chatto and Windus</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -34437,7 +34445,7 @@
                                         the flyleaf in Swinburne's handwriting</note>
                                     <imprint>
                                         <publisher>Macmillan and Co.</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
@@ -34511,7 +34519,7 @@
                                     <note type="inscription">poem</note>
                                     <imprint>
                                         <publisher>George Routledge and Sons</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877">1877</date>
                                     </imprint>
                                 </monogr>
@@ -34539,7 +34547,7 @@
             </respStmt>
             <imprint>
                 <publisher>F.C. and J. Rivington</publisher>
-                <pubPlace>London</pubPlace>
+                <pubPlace ref="#london">London</pubPlace>
                 <date when="1807"/>
             </imprint>
             <extent><measure unit="volumes" quantity="2"/></extent>
@@ -34594,7 +34602,7 @@
             <author>Swift, Jonathan</author>
             <imprint>
                 <publisher>Benjamin Motte and Charles Bathurst</publisher>
-                <pubPlace>London</pubPlace>
+                <pubPlace ref="#london">London</pubPlace>
                 <date when="1736"/>
             </imprint>
             <extent><measure unit="volumes" quantity="6"/></extent>
@@ -34629,7 +34637,7 @@
             <author>Theocritus</author>
             <imprint>
                 <publisher>J. Richardson</publisher>
-                <pubPlace>London</pubPlace>
+                <pubPlace ref="#london">London</pubPlace>
                 <date when="1759"/>
             </imprint>
         </monogr>
@@ -34674,7 +34682,7 @@
             <author>Wither, George</author>
             <imprint>
                 <publisher>G. Eld, for Francis Burton</publisher>
-                <pubPlace>London</pubPlace>
+                <pubPlace ref="#london">London</pubPlace>
                 <date when="1613"/>
             </imprint>
         </monogr>
@@ -34686,7 +34694,7 @@
             <author>Wither, George</author>
             <imprint>
                 <publisher>T. Beilby and T. Knott</publisher>
-                <pubPlace>London</pubPlace>
+                <pubPlace ref="#london">London</pubPlace>
                 <date when="1814"/>
             </imprint>
         </monogr>
@@ -34698,7 +34706,7 @@
             <author>Wither, George</author>
             <imprint>
                 <publisher/>
-                <pubPlace>London</pubPlace>
+                <pubPlace ref="#london">London</pubPlace>
                 <date when="1839"/>
             </imprint>
             <extent><measure unit="volumes" quantity="4"/></extent>
