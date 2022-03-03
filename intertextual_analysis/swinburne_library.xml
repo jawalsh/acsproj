@@ -264,6 +264,7 @@
                         <placeName type="preferred">Venice</placeName>
                         <placeName>Vinegia</placeName>
                         <placeName>Venetia</placeName>
+                        <placeName>Venesia</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7000457" xml:id="florence">
                         <placeName type="preferred">Florence</placeName>
@@ -282,6 +283,7 @@
                     <place source="http://vocab.getty.edu/page/tgn/7006809" xml:id="leiden">
                         <placeName type="preferred">Leiden</placeName>
                         <placeName>Lugdunum Batavorum</placeName>
+                        <placeName>Leide</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7012329" xml:id="leipzig">
                         <placeName type="preferred">Leipzig</placeName>
@@ -334,8 +336,150 @@
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7011781" xml:id="london">
                         <placeName type="preferred">London</placeName>
+                        <placeName>Basle (Lond.)</placeName>
+                        <placeName>Clements Lane, E.C.</placeName>
+                        <placeName>Londra</placeName>
                      </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7009782" xml:id="aberdeen">
+                        <placeName type="preferred">Aberdeen</placeName>
+                        <placeName>Aberdonia</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7905233" xml:id="allahabad">
+                        <placeName type="preferred">Allāhābād</placeName>
+                        <placeName>Allahbad</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7006952" xml:id="amsterdam">
+                        <placeName type="preferred">Amsterdam</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7013352" xml:id="baltimore">
+                        <placeName type="preferred">Baltimore</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7010955" xml:id="birmingham">
+                        <placeName type="preferred">Birmingham</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7013445" xml:id="boston">
+                        <placeName type="preferred">Boston</placeName>
+                    </place>
+                    <place source="ttp://vocab.getty.edu/page/tgn/7011483" xml:id="brighton">
+                        <placeName type="preferred">Brighton</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7030776" xml:id="kolkata">
+                        <placeName type="preferred">Kolkata</placeName>
+                        <placeName>Calcutta</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7003947" xml:id="catania">
+                        <placeName type="preferred">Catania</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/1004281" xml:id="chiswick">
+                        <placeName type="preferred">Chiswick</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7013604" xml:id="cincinnati">
+                        <placeName type="preferred">Cincinnati</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7013641" xml:id="columbia">
+                        <placeName type="preferred">Columbia</placeName>
+                        <placeName>Columbia, S.C.</placeName>
+                    </place>
+                    
+                    <place source="http://vocab.getty.edu/page/tgn/7004942" xml:id="parma">
+                        <placeName type="preferred">Parma</placeName>
+                        <placeName>Crisopoli</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7001306" xml:id="dublin">
+                        <placeName type="preferred">Dublin</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7009546" xml:id="edinburgh">
+                        <placeName type="preferred">Edinburgh</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011916" xml:id="eton">
+                        <placeName type="preferred">Eton</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/1000070" xml:id="france">
+                        <placeName type="preferred">France</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7017283" xml:id="glasgow">
+                        <placeName type="preferred">Glasgow</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7008153" xml:id="kent">
+                        <placeName type="preferred">Kent</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7010597" xml:id="liverpool">
+                        <placeName type="preferred">Liverpool</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7001933" xml:id="melbourne">
+                        <placeName type="preferred">Melbourne</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7004474" xml:id="naples">
+                        <placeName type="preferred">Naples</placeName>
+                        <placeName>Napoli</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7007567" xml:id="new_york">
+                    <placeName type="preferred">New York</placeName><!-- New York without "city" is the preferred name on TGN -->
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7012026" xml:id="newcastle">
+                        <placeName type="preferred">Newcastle upon Tyne</placeName>
+                        <placeName>Newcastle</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7003085" xml:id="padua">
+                        <placeName type="preferred">Padua</placeName>
+                        <placeName>Padova</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7003928" xml:id="palermo">
+                        <placeName type="preferred">Palermo</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7014406" xml:id="philadelphia">
+                        <placeName type="preferred">Philadelphia</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7014272" xml:id="portland">
+                        <placeName type="preferred">Portland</placeName>
+                        <placeName>Portland, Maine</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011736" xml:id="reigate">
+                        <placeName type="preferred">Reigate</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7014456" xml:id="san_francisco">
+                        <placeName type="preferred">San Francisco</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7005354" xml:id="san_remo">
+                        <placeName type="preferred">San Remo</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7002591" xml:id="santiago">
+                        <placeName type="preferred">Santiago</placeName>
+                        <placeName>Santiago de Chile</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/1030796" xml:id="sunbury">
+                        <placeName type="preferred">Sunbury</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7005688" xml:id="turin">
+                        <placeName type="preferred">Turin</placeName>
+                        <placeName>Torino</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7013962" xml:id="washington">
+                        <placeName type="preferred">Washington</placeName>
+                        <placeName>Washington, D.C.</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011919" xml:id="windsor">
+                        <placeName type="preferred">Windsor</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7012349" xml:id="wittenberg">
+                        <placeName type="preferred">Wittenburg</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011995" xml:id="york">
+                        <placeName type="preferred">York</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7007302" xml:id="zurich">
+                        <placeName type="preferred">Zurich</placeName>
+                    </place>
+                    
+                    
+                    <!--<place source="" xml:id="">
+                        <placeName type="preferred"></placeName>
+                    </place>-->        
+                    
+                    
                 </listPlace>
+                
+                
             </div>
             <div n="authors">
                 <listPerson>
@@ -7079,7 +7223,7 @@
                                     <note type="description">old olive morocco gilt, gilt floreate
                                         borders, gilt edges, (Padeloup)</note>
                                     <imprint>
-                                        <pubPlace>Amsterdam</pubPlace>
+                                        <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
                                         <date when="1665"/>
                                     </imprint>
                                 </monogr>
@@ -7097,7 +7241,8 @@
                                     <author>Boccaccio, G.</author>
                                     <note type="description">3 vol. potrait (no plates)</note>
                                     <imprint>
-                                        <pubPlace>Pickering</pubPlace>
+                                        <publisher>Guglielmo Pickering</publisher>
+                                        <pubPlace>Londra</pubPlace>
                                         <date when="1825"/>
                                     </imprint>
                                     <extent>
@@ -7208,7 +7353,7 @@
                                     <note type="description">old calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Amsterdam</pubPlace>
+                                        <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
                                         <date when="1701"/>
                                     </imprint>
                                 </monogr>
@@ -7810,7 +7955,7 @@
                                     <title>John Leech, and other Papers</title>
                                     <author>Brown, John</author>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -8923,7 +9068,7 @@
                                     <note type="description">frontspiece and plates, morocco gilt,
                                         gilt edges</note>
                                     <imprint>
-                                        <pubPlace>Eton</pubPlace>
+                                        <pubPlace ref="#eton">Eton</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
@@ -9659,7 +9804,7 @@
                                     <author>Chetwood, W. R.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
-                                        <pubPlace>Dublin</pubPlace>
+                                        <pubPlace ref="#dublin">Dublin</pubPlace>
                                         <date when="1750"/>
                                     </imprint>
                                 </monogr>
@@ -9696,7 +9841,7 @@
                                     <note type="description">4 parts, old calf gilt, marbled
                                         edges</note>
                                     <imprint>
-                                        <pubPlace>Amsterdam</pubPlace>
+                                        <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
                                         <date when="1782"/>
                                     </imprint>
                                     <extent>
@@ -9715,7 +9860,7 @@
                                     <author>Chapelle, M. de la</author>
                                     <note type="description">calf</note>
                                     <imprint>
-                                        <pubPlace>Amsterdam</pubPlace>
+                                        <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
                                         <date when="1716"/>
                                     </imprint>
                                 </monogr>
@@ -11253,7 +11398,7 @@
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date from="1873" to="1879"/>
                                     </imprint>
                                     <extent>
@@ -11399,7 +11544,7 @@
                                     <author>Dryden, John</author>
                                     <note type="description">portrait</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date from="1882" to="1893"/>
                                     </imprint>
                                     <extent>
@@ -12975,7 +13120,7 @@
                                     <note type="description">frontispiece, morocco, gilt edges, arms
                                         on the sides</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1838"/>
                                     </imprint>
                                 </monogr>
@@ -13422,7 +13567,7 @@
                                     <note type="description" corresp="#uncut">portrait and woodcuts,
                                         uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                     <extent>
@@ -13663,7 +13808,7 @@
                                     <author>Clark, Wm.</author>
                                     <note type="description">half morocco</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1663">rep.</date>
                                     </imprint>
                                 </monogr>
@@ -13696,7 +13841,7 @@
                                     <author>Clifford, Arthur</author>
                                     <note type="description">frontispiece, calf, gilt edges</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1813"/>
                                     </imprint>
                                 </monogr>
@@ -14512,7 +14657,7 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -15198,7 +15343,7 @@
                                             value="7"/></note>
                                     <edition/>
                                     <imprint>
-                                        <pubPlace>Allahbad</pubPlace>
+                                        <pubPlace ref="#allahabad">Allahbad</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -15450,7 +15595,7 @@
                                     <author>Guthrie, W. N.</author>
                                     <note type="description">decorations by L. H. Meakin</note>
                                     <imprint>
-                                        <pubPlace>Cincinnati</pubPlace>
+                                        <pubPlace ref="#cincinnati">Cincinnati</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -15583,7 +15728,7 @@
                                         kinds regards, Hollingbury Copse, Brighton, <date
                                             when="1881-06">June, 1881</date></note>
                                     <imprint>
-                                        <pubPlace>Brighton</pubPlace>
+                                        <pubPlace ref="#brighton">Brighton</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -15665,7 +15810,7 @@
                                         kind regards, Hollingbury Copse, Brighton, <date
                                             when="1879-11-29">29 Nov. 1879</date></note>
                                     <imprint>
-                                        <pubPlace>Brighton</pubPlace>
+                                        <pubPlace ref="#brighton">Brighton</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                 </monogr>
@@ -15892,7 +16037,7 @@
                                         sincere regards and best wishes of his friend Paul Hamilton
                                         Hayne, <date when="1884-07-16">July 16th, 1884</date></note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -18352,7 +18497,7 @@
                                     </respStmt>
                                     <note type="description">portraits</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date from="1846" to="1864"/>
                                     </imprint>
                                     <extent>
@@ -18698,7 +18843,7 @@
                                     <title>Hellenics, comprising Heroic Idylls, etc.</title>
                                     <author>Landor, W. S.</author>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1859"/>
                                     </imprint>
                                 </monogr>
@@ -18819,7 +18964,7 @@
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
                                 </monogr>
@@ -18836,7 +18981,7 @@
                                         admiring regards of Louise Chandler Moulton, <date
                                             when="1889-12">December, 1889</date></note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -19444,7 +19589,7 @@
                                     <note type="description" corresp="#uncut">frontispiece, half morocco, uncut,
                                         marbled edges, in case</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                     <extent>
@@ -19481,7 +19626,7 @@
                                     <author>Lodge, Thos.</author>
                                     <note type="description">half morocco, top edge gilt</note>
                                     <imprint>
-                                        <pubPlace>Chiswick</pubPlace>
+                                        <pubPlace ref="#chiswick">Chiswick</pubPlace>
                                         <date when="1819"/>
                                     </imprint>
                                 </monogr>
@@ -19503,7 +19648,7 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Chiswick</pubPlace>
+                                        <pubPlace ref="#chiswick">Chiswick</pubPlace>
                                         <date when="1818"/>
                                     </imprint>
                                 </monogr>
@@ -19891,7 +20036,7 @@
                                     <note type="description" corresp="#uncut">portraits and
                                         illustrations, uncut, top edge gilt</note>
                                     <imprint>
-                                        <pubPlace>Eton</pubPlace>
+                                        <pubPlace ref="#eton">Eton</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -20002,7 +20147,7 @@
                                         <num value="9"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -20449,7 +20594,7 @@
                                         regards of Louise Chandler Moulton, <date when="1892-11-18"
                                             >November 18, 1892</date></note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -20816,7 +20961,7 @@
                                     <note type="description">title within woodcut border, woodcut
                                         engraving at the end, worm-holed</note>
                                     <imprint>
-                                        <pubPlace>Wittenburg</pubPlace>
+                                        <pubPlace>Wittenberg</pubPlace>
                                         <publisher>Josef Klug</publisher><!-- based off of USTC. -->
                                         <date>15--</date><!-- USTC showing dates in 1523, 1525, and 1527, alewinga -->
                                     </imprint>
@@ -20847,7 +20992,7 @@
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with inscription</note>
                                     <imprint>
-                                        <pubPlace>Catania</pubPlace>
+                                        <pubPlace ref="#catania">Catania</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -20941,7 +21086,7 @@
                                         with notes, etc. by Henry Weber</title>
                                     <note type="description">half bound</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1810"/>
                                     </imprint>
                                     <extent>
@@ -21214,7 +21359,7 @@
                                     <note type="description">brown morocco extra, tooled sides, gilt
                                         edges, by Wright</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
@@ -23041,7 +23186,7 @@
                                     <note type="description" corresp="#uncut">frontispeice, buckram,
                                         uncut</note>
                                     <imprint>
-                                        <pubPlace>Aberdonia</pubPlace>
+                                        <pubPlace ref="#aberdeen">Aberdonia</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -23342,7 +23487,7 @@
                                     </respStmt>
                                     <note type="description">one of 75 copies, half roan</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1822"/>
                                     </imprint>
                                 </monogr>
@@ -23403,7 +23548,7 @@
                                     <note type="description">portrait and illustrations by G.
                                         Cruikshank, etc.</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -23645,7 +23790,7 @@
                                     </note>
                                     <edition>Baskerville's Edition</edition>
                                     <imprint>
-                                        <pubPlace>Birmingham</pubPlace>
+                                        <pubPlace ref="#birmingham">Birmingham</pubPlace>
                                         <date when="1772"/>
                                     </imprint>
                                 </monogr>
@@ -24745,7 +24890,7 @@
                                     <note type="inscription">To A. C. Swinburne, with the Editor's
                                         best wishes</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                     <extent>
@@ -25358,7 +25503,7 @@
                                     <note type="description">portrait, two autograph letters of the
                                         author and one of Aurelio Safii enclosed</note>
                                     <imprint>
-                                        <pubPlace>Catania</pubPlace>
+                                        <pubPlace ref="#catania">Catania</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                 </monogr>
@@ -25765,7 +25910,7 @@
                                     <note type="description" corresp="#uncut">one of 400 copies,
                                         uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -26215,7 +26360,7 @@
                                     <author>Scott, Sir W.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                     <extent>
@@ -26656,7 +26801,7 @@
                                     <author>Scott, Sir Walter</author>
                                     <note type="description">half russia</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1821"/>
                                     </imprint>
                                     <extent>
@@ -26706,7 +26851,7 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
@@ -26722,7 +26867,7 @@
                                     <note type="description">frontispiece, etc. after J. M. W.
                                         Turner, etc. polished calf gilt, marbled edges</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1833"/>
                                     </imprint>
                                     <extent>
@@ -28820,7 +28965,7 @@
                                         presentation copies to Swinburne, with inscriptions<num
                                             value="25"/></note>
                                     <imprint>
-                                        <pubPlace>Columbia, S. C.</pubPlace>
+                                        <pubPlace ref="#columbia">Columbia, S. C.</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -28840,7 +28985,7 @@
                                         regards of his friend Edmund C. Stedman, New York, <date
                                             when="1877">1877</date></note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
@@ -28858,7 +29003,7 @@
                                         regards of Edmund C. Stedman, Xmas, <date when="1873"
                                             >1873</date></note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -29059,7 +29204,7 @@
                                         admiration of his friend R. H. Stoddard, New York, <date
                                             when="1877-08-24">Aug. 24th, '77</date></note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -30145,7 +30290,7 @@
                                     <note type="description">old red morocco, gilt edges</note>
                                     <edition>Baskerville's Edition</edition>
                                     <imprint>
-                                        <pubPlace>Birmingham</pubPlace>
+                                        <pubPlace ref="#birmingham">Birmingham</pubPlace>
                                         <date when="1772"/>
                                     </imprint>
                                 </monogr>
@@ -30814,7 +30959,7 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                     <extent>
@@ -31126,7 +31271,7 @@
                                     <note type="etc">and another, with signature of Swinburne on
                                             fly-leaf<num value="2"/></note>
                                     <imprint>
-                                        <pubPlace>Catania</pubPlace>
+                                        <pubPlace ref="#catania">Catania</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -31239,7 +31384,7 @@
                                     <note type="description">large paper, only 24 copies
                                         printed</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1843"/>
                                     </imprint>
                                 </monogr>
@@ -31348,7 +31493,7 @@
                                     <author>Voltaire, M. de</author>
                                     <note type="description">in 1 vol. old calf, broken</note>
                                     <imprint>
-                                        <pubPlace>Amsterdam</pubPlace>
+                                        <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
                                         <date when="1733"/>
                                     </imprint>
                                 </monogr>
@@ -31365,7 +31510,7 @@
                                             when="1862-11-11">11th Novr. 1862</date>” on the
                                         title</note>
                                     <imprint>
-                                        <pubPlace>Dublin</pubPlace>
+                                        <pubPlace ref="#dublin">Dublin</pubPlace>
                                         <date when="1786"/>
                                     </imprint>
                                 </monogr>
@@ -31629,7 +31774,7 @@
                                     <note type="inscription">To Alg. Chs. Swinburne from the
                                         author</note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -31690,7 +31835,7 @@
                                     <note type="inscription">Algernon Charles Swinburne from the
                                         author with thanks and love</note>
                                     <imprint>
-                                        <pubPlace>Boston</pubPlace>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date from="1881" to="1882"/>
                                     </imprint>
                                 </monogr>
@@ -32132,7 +32277,7 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Dublin</pubPlace>
+                                        <pubPlace ref="#dublin">Dublin</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -32532,7 +32677,7 @@
                                     <author>Rice, S. S.</author>
                                     <note type="description">portrait, etc.</note>
                                     <imprint>
-                                        <pubPlace>Baltimore</pubPlace>
+                                        <pubPlace ref="#baltimore">Baltimore</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -32565,7 +32710,7 @@
                                     <note type="description">large paper, only 75 copies printed,
                                         green morocco gilt, top edge gilt</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date from="1884" to="1885"/>
                                     </imprint>
                                 </monogr>
@@ -32823,7 +32968,7 @@
                                     <note type="description" corresp="#uncut">one of 104 copies,
                                         half morocco, uncut</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -33439,7 +33584,7 @@
                                     </respStmt>
                                     <note type="description">one of 100 copies</note>
                                     <imprint>
-                                        <pubPlace>Edinburgh</pubPlace>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1815"/>
                                     </imprint>
                                 </monogr>
@@ -33778,7 +33923,8 @@
                                     <note type="description" corresp="#uncut">reprint of the edition of 1499,
                                         woodcuts, uncut</note>
                                     <imprint>
-                                        <pubPlace>Methuen</pubPlace>
+                                        <pubPlace>London</pubPlace>
+                                        <publisher>Methuen &amp; Co.</publisher>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -34625,7 +34771,7 @@
             </respStmt>            
             <imprint>
                 <publisher>Deighton, Bell</publisher>
-                <pubPlace>Cambridge</pubPlace>
+                <pubPlace ref="#cambridge">Cambridge</pubPlace>
                 <date when="1869"/>
             </imprint>
         </monogr>
@@ -34653,7 +34799,7 @@
                         </respStmt>
                         <imprint>
                             <publisher>Edmonston and Douglas</publisher>
-                            <pubPlace>Edinburgh</pubPlace>
+                            <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                             <date when="1861"/>
                         </imprint>
 <extent><measure unit="volumes" quantity="2"/></extent>
@@ -34669,7 +34815,7 @@
             <author>Matthew Prior</author>
             <imprint>
                 <publisher>Houghton, Osgood, and Company</publisher>
-                <pubPlace>Boston</pubPlace>
+                <pubPlace ref="#boston">Boston</pubPlace>
                 <date when="1878"/>
             </imprint>
         </monogr>
