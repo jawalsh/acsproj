@@ -15,13 +15,27 @@
 			- "Citations" in works (epigraphs, notes, etc. / paratexts, titles)
 			- Letters 
 				- Top 100 (special letter)
-		- Sources for digital files
+		- Sources for digital files for corpus
 			- HT
 			- IA
 			- TCP
 			- eebo
 			- ecco
-
+		- summary description of corpus
 - methods for all three
+	- data
+		- navarre : spreadsheet
+		- Newton / Swinburne : TEI-based bibliographies + ss for Newton
+	- analysis methods
 		- Different methods possible for all three based on the circumstances I think is major
+		- extracted features data
+		- XML/TEI bibliography
+	- infovis methods
+	- Discuss differences
+		- Navarre - snapshot of final private library; impossible to augment with other data.
+		- What's possible or not because of the nature of each bibiography and each corpus?
+		- Swinburne comprative works vs. corpus
+		- OCR quality of 19th-century vs. early modern
+		- 
 - findings for all three
+- 
