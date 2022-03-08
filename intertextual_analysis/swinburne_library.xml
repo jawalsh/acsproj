@@ -4828,20 +4828,20 @@
                                     <note type="description">in 1 vol, frontispiece, russia, gilt
                                         edges <date from="1632" to="1633"/></note>
                                     <edition corresp="#first_ed">First Edition</edition>
-                                    <idno type="tcp">A72254</idno>
+                                    <idno type="ESTC">S103874</idno>
                                     <imprint>
                                         <date when="1632"/>
+                                        
                                     </imprint>
+                                    
                                     <extent>
                                         <measure unit="volumes" quantity="1"/>
                                     </extent>
+                                    
                                 </monogr>
                                 <relatedItem type="eebo"
-                                    target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240918607%3Faccountid%3D11620"/>
-                                <relatedItem type="tcp"
-                                    target="http://name.umdl.umich.edu/A72254.0001.001"/>
-                                <note>Proquest Document ID: 2240918607; TCP not sure if this is the
-                                    right item but the year is the same.</note>
+                                    target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240918607%3Faccountid%3D11620"/>                             
+                                <note>Proquest Document ID: 2240918607.</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb005.3">
                                 <monogr>
@@ -7705,6 +7705,10 @@
                                     <idno type="tcp">A77567</idno>
                                     <imprint>
                                         <date when="1653"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Moseley, Humphrey</publisher>
+                                        <publisher>Marriot, Richard</publisher>
+                                        <publisher>Dring, Thomas</publisher>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
@@ -7714,6 +7718,7 @@
                                 <note type="fulltext">Catalog says "Browne" but correct name is
                                     "Brome"; title and year are the same. Proquest Document ID:
                                     2248525978</note>
+                                <note type="fulltext">TCP edition is a later edition.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb089">
@@ -9442,9 +9447,11 @@
                                 </monogr>
                                 <relatedItem type="eebo"
                                     target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248524883%3Faccountid%3D11620"/>
+                                <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t46q1wc21"/>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A31552.0001.001"/>
                                 <note>Proquest Document ID: 2248524883</note>
+                                <note type="fulltext">HT edition is from 1820.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb140">
@@ -10859,7 +10866,7 @@
                                     <title>Discourses upon the First Decade of T. Livius, with his
                                         Prince</title>
                                     <idno type="tcp">A50322</idno>
-                                    <author>Machiavel</author>
+                                    <author>Machiavelli</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">E. Dacres</name>
@@ -13306,6 +13313,7 @@
                                     target="http://name.umdl.umich.edu/A00960.0001.001"/>
                                 <note>Proquest Document ID: 2240953075; EEBO fulltext NA; OTA unable
                                     to locate.</note>
+                                <note type="fulltext">TCP is the first edition, not the second.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb256">
@@ -13332,14 +13340,18 @@
                                 <monogr>
                                     <title>The Rival Ladies, a Tragi-Comedy</title>
                                     <author>Dryden, John</author>
-                                    <imprint>
+                                    
+                                    <imprint>                                       
                                         <date when="1669"/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                     </imprint>
+                                  
                                 </monogr>
                                 <relatedItem type="eebo"
                                     target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240849364%3Faccountid%3D11620"/>
+                                <relatedItem type="google" target="https://books.google.com/books?id=3eZiAAAAcAAJ"/>
                                 <note type="fulltext">Proquest Document ID: 2240939290; EEBO
-                                    fulltext NA; TCP not found</note>
+                                    fulltext NA; TCP not found; Google books is 1675 edition.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb257">
@@ -13597,9 +13609,11 @@
                                 </monogr>
                                 <relatedItem type="eebo"
                                     target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2248504208%3Faccountid%3D11620"/>
+                                <relatedItem type="google" target="https://books.google.com/books?id=sONiAAAAcAAJ"/>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A29637.0001.001"/>
                                 <note>Proquest Document ID: 2248504208</note>
+                                <note type="fulltext">TCP and Google editions are a 1652 edition.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb268">
@@ -13714,13 +13728,16 @@
                                     <idno type="tcp">A18410</idno>
                                     <imprint>
                                         <date when="1612"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Budge, John</publisher>
+                                        
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
                                     target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240904569%3Faccountid%3D11620"/>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A18410.0001.001"/>
-                                <note type="fulltext">EEBO copy dated 1613.</note>
+                                <note>EEBO copy dated 1613.</note>
                                 <note>Proquest Document ID: 2240904569</note>
                             </biblStruct>
                         </listBibl>
@@ -13734,6 +13751,12 @@
                                         very imperfect</note>
                                     <imprint>
                                         <date when="1612"/>
+                                       <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Browne, John</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Stansby, William</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
@@ -13753,6 +13776,7 @@
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date when="1641"/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
@@ -13774,11 +13798,16 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1639"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                       <publisher>Crooke, Andrew</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Cotes, Thomas</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="eebo"
-                                    target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240902835%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2240902835; TCP not found.</note>
+                                <relatedItem type="ht" target="https://hdl.handle.net/2027/loc.ark:/13960/t6834b13h"/>
+                                <note type="fulltext">Reprinted from the 1639 edition. HathiTrust is from 1906. No TCP.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb276">
@@ -14033,7 +14062,8 @@
                                     <note type="description">woodcuts, old calf, broken</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>W. Jaggard</publisher>
+                                        <publisher>W. Jaggard</publisher><publisher>Fetherston, Hentry</publisher>
+                                        <pubPlace ref="#London">London</pubPlace>
                                         <date when="1616"/>
                                     </imprint>
                                 </monogr>
@@ -14250,6 +14280,12 @@
                                     <idno type="tcp">A37210</idno>
                                     <imprint>
                                         <date when="1661"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Speed, Samuel</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Cottrel, Ja.</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
@@ -14260,16 +14296,23 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb293.2">
                                 <monogr>
-                                    <title>The Witts, a Comedie</title>
+                                    <title>The Witts, a Comedie</title><!-- The vvitts, a comedie -->
                                     <author>Davenant, Sir. Wm.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1636"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Meighen, Richard</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Mathewes, Augustine</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
                                     target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240866510%3Faccountid%3D11620"/>
-                                <note>Proquest Document ID: 2240866510; TCP not found</note>
+                                <relatedItem type="tcp" target=" 	http://name.umdl.umich.edu/A19883.0001.001"/>
+                                <note>Proquest Document ID: 2240866510</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb293.3">
                                 <monogr>
@@ -14278,14 +14321,19 @@
                                     <author>Shirley, J.</author>
                                     <imprint>
                                         <date when="1667"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Dring, Thomas</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Tomlins, R.</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
                                     target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240880423%3Faccountid%3D11620"/>
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A12152.0001.001"/>
-                                <note>Proquest Document ID: 2240880423; TCP published 1631, unsure
-                                    if it is same work as listed.</note>
+                                <note>Proquest Document ID: 2240880423; TCP published 1631, first edition.</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb293.4">
                                 <monogr>
@@ -14295,6 +14343,12 @@
                                     <idno type="tcp">A20866</idno>
                                     <imprint>
                                         <date when="1631"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Emery, Japser</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Mathewes, A.</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
@@ -14310,6 +14364,12 @@
                                     <author>Chapman, Geo.</author>
                                     <imprint>
                                         <date when="1608"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Thorppe, Thomas</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Eld, G.</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="eebo"
@@ -14327,23 +14387,22 @@
                                     <note type="description">(wanting the Epilogue)</note>
                                     <imprint>
                                         <date when="1634"/>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Okes, Nicholas</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="eebo"
-                                    target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2264199571%3Faccountid%3D11620"/>
-                                <relatedItem type="ota"
-                                    target="http://hdl.handle.net/20.500.12024/A13802"/>
+                                <relatedItem type="ia"
+                                    target="https://archive.org/details/albumazarcomedyp00tomk"/>
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A13802.0001.001"/>
-                                <note type="fulltext">EEBO copy dated 1668; Proquest Document ID:
-                                    2264199571; EEBO fulltext NA; OTA published 1615 and titled
-                                    "Albumazar A comedy presented before the Kings Maiestie at
-                                    Cambridge, the ninth of March. 1614. By the Gentlemen of
-                                    Trinitie Colledge."; TCP is the same as OTA.</note>
+                                <note type="fulltext">TCP is 1615 edition.</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb293.7">
                                 <monogr>
-                                    <title>Texnogamia, or the Marriages of the Arts, a Comedie,
+                                    <title>Technogamia, or the Marriages of the Arts, a Comedie,
                                         etc.</title>
                                     <idno type="tcp">A03496</idno>
                                     <author>Holiday, Barten</author>
@@ -14353,14 +14412,18 @@
                                     <imprint>
                                         <date when="1630"/>
                                         <date from="1608" to="1667"/>
-                                        <!-- This refers to all the works in the lot. -->
+                                        <!-- This refers to all the works in the lot. --><pubPlace ref="#london">London</pubPlace>
+                                        <publisher>Meighen, Richard</publisher>
+                                        <respStmt>
+                                            <resp>printer</resp>
+                                            <persName>Haviland, John</persName>
+                                        </respStmt>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="eebo"
-                                    target="https://proxyiub.uits.iu.edu/login?qurl=https%3A%2F%2Fsearch.proquest.com%2Fdocview%2F2240910532%3Faccountid%3D11620"/>
+                                <relatedItem type="ia" target="https://archive.org/details/b30333258"/>
                                 <relatedItem type="ota"
                                     target="http://hdl.handle.net/20.500.12024/A03496"/>
-                                <note type="fulltext">EEBO titled "Technogamia: or The marriages of
+                                <note>EEBO titled "Technogamia: or The marriages of
                                     the arts A comedie vvritten by Barten Holiday, Master of Arts,
                                     and student of Christ-Church in Oxford, and acted by the
                                     students of the same house before the Vniuersitie, at
