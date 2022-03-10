@@ -5142,11 +5142,11 @@
                                     <note type="description">calf</note>
                                     <note type="etc">etc.</note>
                                     <imprint>
-                                        <date when="1720"/>
+                                        <date when="1720"/><!-- I think this was mistakenly noted as  1720 and should be 1770. ESTC lists no edition for 1720. -->
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ecco" target="CW3311751465"/>
-                                <note type="fulltext">Closest available is 1770 from ECCO.</note>
+                                <relatedItem type="ht" target="https://hdl.handle.net/2027/njp.32101037715388"/>
+                                <note type="fulltext">Closest available is 1770 from HT.</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb013.2">
                                 <monogr>
@@ -9806,7 +9806,7 @@
                         <listBibl type="lot" xml:id="sb148">
                             <biblStruct corresp="#owned" xml:id="sb148.1">
                                 <monogr>
-                                    <title>Select Collection of Old Plays, with an Account of the
+                                    <title>A Select Collection of Old Plays,... with an Account of the
                                         Authors</title>
                                     <author>Chetwood, W. R.</author>
                                     <note type="description">half calf</note>
@@ -9815,7 +9815,7 @@
                                         <date when="1750"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ecco" target="CW3311064784"/>
+                                <relatedItem type="google" target="https://books.google.com/books?id=O2VVAAAAcAAJ"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb148.2">
                                 <monogr>
@@ -9958,7 +9958,7 @@
                                         <date when="1742"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ecco" target="CW3305934559"/>
+                                <relatedItem type="ia" target="https://archive.org/details/aletterfrommrci00popegoog/page/n3/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb152.2">
                                 <monogr>
@@ -10859,8 +10859,8 @@
                                         <date when="1775"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ecco" target="CW3309694027"/>
-                                <note>ECCO File name: K059975.000.xml (Mme. de Beleau )</note>
+                                <relatedItem type="ht" target="https://hdl.handle.net/2027/umn.31951002086732e"/>
+                                <note type="fulltext">HT copy is a 1904 edition.</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb182.2">
                                 <monogr>
@@ -31548,7 +31548,7 @@
                                         <date when="1731"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ecco" target="CW3312405925"/>
+                                <relatedItem type="google" target="https://books.google.com/books?id=PjAHAAAAQAAJ"/>
                                 <!-- Gale Document Number -->
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb839.4">
@@ -31585,10 +31585,11 @@
                                 <monogr>
                                     <title>Quarrel of the School-Boys at Athens, as lately acted at
                                         a School near Westminster</title>
-                                    <author>Voltaire</author>
+                                    <author>Defoe, Daniel</author><!-- corrected from "Voltaire", alewinga -->
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date when="1717"/>
+                                        <!-- London or Dublin -->
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ecco" target="CW3314463084"/>
@@ -32461,9 +32462,11 @@
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date when="1722"/>
+                                        <pubPlace ref="#london">Londres</pubPlace>
+                                        <publisher>Guillaume Bowyer</publisher>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ecco" target="CW3306374096"/>
+                                <relatedItem type="google" target="https://books.google.com/books?id=u0VfAAAAcAAJ"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb873">
