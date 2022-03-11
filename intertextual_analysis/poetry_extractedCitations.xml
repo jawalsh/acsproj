@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
+    <listNote>
+        <note vol="1" corresp="swinburne_library.xml#acs0000001-01-i040">Imitated
+            from Théophile Gautier. </note><!-- has Gautier -->
+        <note vol="1" corresp="swinburne_library.xml#acs0000001-01-i050">1Suggested
+            by a drawing of Mr. D. G. Rossetti’s. </note><!-- ddrawing not book -->
+        <note vol="2" corresp="swinburne_library.xml#acs0000001-02-i045 acs0000001-02-i046"
+            >[Ferdinand II. entered Malebolge <date>May 22nd, 1859</date>.]</note><!-- historical fact -->
+        <note vol="2" corresp="swinburne_library.xml#acs0000001-02-i045 acs0000001-02-i049"
+            >1<author>Dante</author><title>Inferno,</title></note><!-- has the Comedia -->
+        <note vol="2" corresp="swinburne_library.xml#acs0000001-02-i045 acs0000001-02-i050"
+            >1<quote>A geographical expression.</quote>—Metternich of Italy. </note><!-- famous quote, likely not necessary for him to have read or hard to track to a particular reading -->
+        <note vol="2" corresp="swinburne_library.xml#acs0000001-02-i045 acs0000001-02-i061">
+            <date>January 9th, 1873</date><!-- date -->
+        </note>
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i009">Decameron, x. 7</note><!-- has -->
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i012">1<title>La Morte
+            Amoureuse.</title></note><!-- unclear that this is in the library yet. Work of Gautier -->
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i012">2<title>Une Nuit de
+            Cléopâtre.</title></note><!-- another Gautier work. Doesn't appear to be in the library yet -->
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i012">3<title>Mademoiselle de
+            Maupin.</title></note><!-- another Gautier work. Doesn't appear to be in the library yet -->
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i015">1Sydney Dobell died August
+            22, 1874. </note><!-- author, in the library -->
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i019">1Oliver Madox Brown died
+            <date>November 5, 1874</date>, in his twentieth year.</note><!-- date -->
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i040"> [In an English magazine of
+            1877 there appeared a version of some insolent lines addressed by A Russian Poet to the
+            Empress of India. To these the first of the two following sonnets was designed to serve
+            by way of counterblast. The writer will scarcely be suspected of royalism or
+            imperialism; but it seemed to him that an insult levelled by Muscovite lips at the ruler
+            of England might perhaps be less unfitly than unofficially resented by an Englishman who
+            was also a republican.]</note>
+        <note vol="3" corresp="swinburne_library.xml#acs0000001-03-i043 acs0000001-03-i046">[In the
+            original here follows Villon's masterpiece, the matchless <title>Ballad of the Ladies of
+                Old Time</title>, so incomparably rendered in the marvellous version of D. G.
+            Rossetti; followed in its turn by the succeeding poem, as inferior to its companion as
+            is my attempt at translation of it to his triumph in that higher and harder field.—A. C.
+            S.]</note><!-- definitely has Villon's original I think. Rossetti's translation is in sb670.1 -->
+        <note vol="5" corresp="swinburne_library.xml#acs0000001-05-i131">1First edition:—And my face
+            bear his brand—mine, that once bore Love's badge elate! </note><!-- Noting how line was in a first edition. -->
+        <note vol="6" corresp="swinburne_library.xml#acs0000001-06-i017">1<title>Titus
+            Andronicus</title><biblScope xmlns="http://www.tei-c.org/ns/1.0" unit="act">Act
+                iv.</biblScope><biblScope xmlns="http://www.tei-c.org/ns/1.0" unit="scene">Scene
+                    2.</biblScope></note><!-- in the library (one of the collected works of Shakespeare for example) -->
+        <note vol="6" corresp="swinburne_library.xml#acs0000001-06-i086">1Refused by the party of
+            reaction and disunion in the House of Commons on the <date>17th of June,
+                1895</date>.</note><!-- history -->
+    </listNote>
     <listCit><!-- count=48 -->
         <cit vol="1" type="epigraph" corresp="swinburne_library.xml#acs0000001-01-i004">
             <quote> Lors dit en plourant; Hélas trop malheureux homme et mauldict pescheur, oncques
@@ -21,7 +69,7 @@
             <bibl>
                 <title>Livre des grandes merveilles d’amour</title>
                 <author>Maistre Antoine Gaget</author>
-                <date>1530</date>
+                <date>1530</date><!-- is this even real? -->
             </bibl>
         </cit>
         <cit vol="1" corresp="swinburne_library.xml#acs0000001-01-i005">
