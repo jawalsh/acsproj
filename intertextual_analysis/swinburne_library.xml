@@ -17141,7 +17141,7 @@
                                         uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
-                                        <date when="1875"/>
+                                        <date when="1875"/><!-- I think this is a series published by A. Lemerre. They aren't numbered 1-10. see HathiTrust -->
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="10"/>
@@ -17162,14 +17162,14 @@
                                     <edition xml:lang="fr">Edition Definitive d'après les Manuscrits
                                         Originaux</edition>
                                     <imprint>
-                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <pubPlace ref="#paris">Paris</pubPlace><!-- Edition Hetzel Quantin -->
                                         <date from="1880" to="1885"/>
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="48"/>
                                     </extent>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
+                                <relatedItem n="1" type="ht" target="https://hdl.handle.net/2027/uc1.b4065090"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb385">
@@ -18250,6 +18250,7 @@
                                             1895</date></note>
                                     <imprint>
                                         <publisher>Kelmscott Press</publisher>
+                                        <pubPlace>Hammersmith</pubPlace><!-- pubPlace identified by research. -->
                                         <date when="1895"/>
                                     </imprint>
                                     <extent>
@@ -34999,7 +35000,9 @@
             </div>
             <div source="poetry">
                 <bibl><title>Grandes Chroniques de France</title>1505.</bibl><!-- see USTC 6341. There are also 19th c. editions on HathiTrust -->
-                <bibl><author>Sappho</author></bibl>
+                <bibl><author>Sappho</author></bibl><!-- in Greek -->
+                <bibl><author>Aeschylus</author></bibl> <!-- in Greek -->
+                    <bibl><author>Giacomo Leopardi</author></bibl><!-- must include All'Italia -->
             </div>
             
         </body>

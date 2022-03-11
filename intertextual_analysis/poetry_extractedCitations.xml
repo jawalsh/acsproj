@@ -114,12 +114,12 @@
                 est-il mort de ceste mesme maladie abhominable. Cecy advint près Fontainebellant en
                 Gastinois. Et quand ouyt le roy Philippe ceste adventure moult en estoyt
                 esmerveillé. </quote>
-            <bibl><title>Grandes Chroniques de France</title>1505.</bibl>
+            <bibl><title>Grandes Chroniques de France</title>1505.</bibl><!-- This seems to be a real work. -->
         </cit>
         <cit vol="1" corresp="swinburne_library.xml#acs0000001-01-i037">
             <quote>1Nam te praecipuè in suis urbibus colit oraHellespontia, cæteris ostreosior
                 oris.</quote>
-            <bibl>Catull.<title><title>Carm</title>.</title></bibl>
+            <bibl>Catull.<title><title>Carm</title>.</title></bibl><!-- in library, sb136.1 -->
         </cit>
         <cit vol="2" type="epigraph" corresp="swinburne_library.xml#acs0000001-02-i009">
             <quote> μᾶ Γᾶ, μᾶ Γᾶ, βοὰν φοβερὸν ἀπότρεπε. </quote>
@@ -127,30 +127,30 @@
                 <author>Aesch.</author>
                 <title>Suppliants</title>
                 <biblScope xmlns="http://www.tei-c.org/ns/1.0" unit="line">890</biblScope>
-            </bibl>
+            </bibl><!-- in the library, but in English -->
         </cit>
         <cit vol="2" type="epigraph" corresp="swinburne_library.xml#acs0000001-02-i020">
             <quote>Send the stars light, but send not love to me.</quote>
             <bibl>
                 <author>Shelley.</author>
-            </bibl>
+            </bibl><!-- included in sb717.1 -->
         </cit>
         <cit vol="2" type="epigraph" corresp="swinburne_library.xml#acs0000001-02-i021">
             <quote>Citoyen, lui dit Enjolras, ma mère, c'est la République.</quote>
             <bibl>
-                <title>Les Misérables.</title>
+                <title>Les Misérables.</title><!-- should be there because of collected works. -->
             </bibl>
         </cit>
         <cit vol="2" corresp="swinburne_library.xml#">
             <quote>Σεμνὰ Κότυς ἐν τοῖς Ἠδωνοῖς.</quote>
-            <bibl><author>Aeschylus.</author>Ἠδωνοὶ</bibl>
+            <bibl><author>Aeschylus.</author> Fr. 54 Ἠδωνοὶ</bibl><!-- need Greek Aeschylus -->
         </cit>
         <cit vol="2" corresp="swinburne_library.xml#">
             <quote>O patria mia, vedo le mura e gli archi,E le colonne e i simulacri e l'ermeTorri
                 degli avi nostri;Ma la gloria non vedo,Non vedo il lauro e il ferro ond' eran
                 carchiI nostri padri antichi.</quote>
             <bibl>
-                <author>Leopardi</author>
+                <author>Leopardi</author><!-- Giacomo Leopardi, Canti (1831), All'Italia -->
             </bibl>
         </cit>
         <cit vol="2" corresp="swinburne_library.xml#">
@@ -159,26 +159,26 @@
                 <author>Aeschylus.</author>
                 <title>Choephoroe</title>
                 <biblScope xmlns="http://www.tei-c.org/ns/1.0" unit="line">1058</biblScope>
-            </bibl>
+            </bibl><!-- again, need Aeschylus in Greek -->
         </cit>
         <cit vol="2" type="epigraph" corresp="swinburne_library.xml#acs0000001-02-i045">
             <quote>Guai a voi, anime prave.</quote>
             <bibl>
-                <author>Dante.</author>
+                <author>Dante.</author><!-- Divine comedy, covered -->
             </bibl>
         </cit>
         <cit vol="2" type="epigraph" corresp="swinburne_library.xml#acs0000001-02-i045">
             <quote>Soyez maudits, d'abord d'être ce que vous êtes,Et puis soyez maudits d'obséder
                 les poëtes!</quote>
             <bibl>
-                <author>Victor Hugo.</author>
+                <author>Victor Hugo.</author><!-- have collected works. -->
             </bibl>
         </cit>
         <cit vol="2" type="epigraph"
             corresp="swinburne_library.xml#acs0000001-02-i045 acs0000001-02-i059">
             <quote>Est-ce qu'il n'est pas temps que la foudre se prouve,Cieux profonds, en broyant
                 ce chien, fils de la louve?</quote>
-            <bibl/>
+            <bibl/><!-- Hugo, La Légende des Siècles. Should have -->
         </cit>
         <cit vol="3" type="epigraph" corresp="swinburne_library.xml#acs0000001-03-i011">
             <quote> Nous devrions pourtant lui porter quelques fleurs; Les morts, les pauvres morts,
@@ -186,16 +186,16 @@
                 vent mélancolique à l'entour de leurs marbres, Certe, ils doivent trouver les
                 vivants bien ingrats.</quote>
             <bibl>
-                <title>Les Fleurs du Mal</title>
+                <title>Les Fleurs du Mal</title><!-- Baudelaire, have -->
             </bibl>
         </cit>
         <cit vol="3" type="epigraph" corresp="swinburne_library.xml#acs0000001-03-i032">
-            <quote>Dazzle mine eyes, or do I see three suns?</quote>
+            <quote>Dazzle mine eyes, or do I see three suns?</quote><!-- Shakespeare, Henry VI, should have -->
         </cit>
         <cit vol="3" type="epigraph" corresp="swinburne_library.xml#acs0000001-03-i100">
             <quote>ἱμερόφωνος ἀηδὼν.</quote>
             <bibl>
-                <author>Sappho.</author>
+                <author>Sappho.</author><!-- adding -->
             </bibl>
         </cit>
         <cit vol="3" corresp="swinburne_library.xml#acs0000001-03-i103">
@@ -205,12 +205,12 @@
                 <author>Aeschylus</author>
                 <title>Agamemnon</title>
                 <biblScope xmlns="http://www.tei-c.org/ns/1.0" unit="line">104-8</biblScope>
-            </bibl>
+            </bibl><!-- adding Aeschylus in Greek. -->
         </cit>
         <cit vol="4" type="epigraph" corresp="swinburne_library.xml#acs0000001-04-i002">
             <quote>Τοὺς ζῶντας εὖ δρᾶν· κατθανὼν δε πᾶς ἀνὴρΓῆ καὶ σκιά· τὸ μηδὲν εἰς οὐδὲν ῥέπει</quote>
             <bibl>
-                <author>Eur.</author>
+                <author>Eur.</author><!-- Euripedes, fragment -->
                 <title>Fr. Mel.</title>
             </bibl>
         </cit>
