@@ -35006,6 +35006,23 @@
                 <bibl><author>Aeschylus</author></bibl> <!-- in Greek -->
                     <bibl><author>Giacomo Leopardi</author></bibl><!-- must include All'Italia -->
             </div>
+            <div source="libraries">
+                <biblStruct xml:id="wordsworth_recluse" corresp="#owned">
+                    <monogr>
+                        <title>The Recluse</title>
+                        <author>William Wordsworth</author>
+                        
+                        <note type="description">Green cloth (likely original). Bookplate with "Algernon Charles Swinburne" on front pastedown.</note>
+                        <imprint>
+                            <publisher>Macmillan and Co.</publisher>
+                            <pubPlace ref="#london">London</pubPlace>
+                            <date when="1888"/>
+                        </imprint>
+                    </monogr>
+                    <relatedItem type="ht" target="https://hdl.handle.net/2027/mdp.39015063911559"/>
+                    <note type="provenance" target="https://iucat.iu.edu/catalog/8052552">Indiana University, Lilly Library</note>
+                </biblStruct>
+            </div>
             
         </body>
     </text>
