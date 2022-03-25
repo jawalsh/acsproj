@@ -64,7 +64,7 @@
 
 <xsl:template match="choice/reg|note[@type = 'dev']|note[@resp = 'jawalsh']"/>
 <xsl:template match="*[contains(@rendition,'#suppress')]"/>
-<xsl:template match="note[not(@place)]|note[@place='unspecified']"/>
+<!-- <xsl:template match="note[not(@place)]|note[@place='unspecified']"/> -->
 <xsl:template match="teiHeader"/>
     
 <xsl:template name="header">
