@@ -34793,7 +34793,77 @@
                     <bibl><author>Giacomo Leopardi</author></bibl><!-- must include All'Italia -->
                 <bibl><author>Euripedes</author></bibl><!-- in Greek -->
                 <bibl><author>Pindar</author></bibl><!-- in Greek -->
-                <bibl><author>Henry A. Bright</author>
+                <!-- Henry Arthur Bright -->
+                <biblStruct xml:id="bright_english_flower">
+                    <monogr>
+                        <title>The English flower garden</title>
+                        <author>Bright, Henry Arthur</author>
+                        
+                        <note type="description"></note>
+                        <imprint>
+                            <publisher>Macmillan and co.</publisher>
+                            <pubPlace ref="#london">London</pubPlace>
+                            <date when="1881"/>
+                        </imprint>
+                    </monogr>
+                    <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t06w97b3v"/>
+                </biblStruct>
+                <biblStruct xml:id="bright_year_lancashire">
+                    <monogr>
+                        <title>A year in a Lancashire garden</title>
+                        <author>Bright, Henry Arthur</author>
+                        
+                        <note type="description"></note>
+                        <imprint>
+                            <publisher>Macmillan</publisher>
+                            <pubPlace ref="#london">London</pubPlace>
+                            <date when="1891"/>
+                        </imprint>
+                    </monogr>
+                    <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t7mp4x580"/>
+                </biblStruct>
+                <biblStruct xml:id="bright_warrington_academy">
+                    <monogr>
+                        <title>A historical sketch of Warrington Academy</title>
+                        <author>Bright, Henry Arthur</author>
+                        
+                        <note type="description"></note>
+                        <imprint>
+                            <publisher>T. Brakell</publisher>
+                            <pubPlace ref="#liverpool">Liverpool</pubPlace>
+                            <date when="1859"/>
+                        </imprint>
+                    </monogr>
+                    <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044029063310"/>
+                </biblStruct>
+                    <biblStruct xml:id="bright_free">
+                        <monogr>
+                            <title>Free blacks and slaves.
+                                Would immediate abolition be a blessing?</title>
+                            <author>Bright, Henry Arthur</author>
+                            <imprint>
+                                <publisher>A.H. Virtue and Co.</publisher>
+                                <pubPlace ref="#london">London</pubPlace>
+                                <date when="1853"/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target="https://hdl.handle.net/2027/hvd.32044021216858"/>
+                </biblStruct>
+                <!--                         
+                    <biblStruct xml:id="" corresp="">
+                        <monogr>
+                            <title></title>
+                            <author></author>
+
+                            <note type="description"></note>
+                            <imprint>
+                                <publisher></publisher>
+                                <pubPlace></pubPlace>
+                                <date when=""/>
+                            </imprint>
+                        </monogr>
+                        <relatedItem type="ht" target=""/>
+                    </biblStruct> -->
             </div>
             
             <div source="libraries">
