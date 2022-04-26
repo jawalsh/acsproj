@@ -4672,8 +4672,14 @@
                             Jean, active 1492-1530</persName>
                         <floruit from="1492" to="1530"/>
                     </person>
+                    <person xml:id="daniel">
+                        <persName source="http://id.loc.gov/authorities/names/nb99012313">Daniel,
+                            C. Henry (Charles Henry), 1836-1919</persName>
+                        <birth when="1836"/>
+                        <death when="1919"/>
+                    </person>
                 </listPerson>
-
+                
             </div>
         </front>
         <body>
@@ -4685,7 +4691,7 @@
                                 <monogr>
                                     <title xml:lang="it">La Filosofia nella Letteratura
                                         Moderna</title>
-                                    <author>Agresti, A.</author>
+                                    <author corresp="#agresti_a">Agresti, A.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut, presentation
                                         copy to Swinburne with inscription on fly-leaf</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with
@@ -4705,7 +4711,7 @@
                             <biblStruct corresp="#owned" xml:id="sb002.1">
                                 <monogr>
                                     <title>Giovanni Costa, his Life, Work and Times</title>
-                                    <author>Agresti, O. Rossetti</author>
+                                    <author corresp="#agresti_o">Agresti, O. Rossetti</author>
                                     <note type="description" corresp="#uncut">portrait and etchings,
                                         buckram, uncut, top edge gilt, royal 8vo</note>
                                     <imprint>
@@ -4718,7 +4724,7 @@
                             <biblStruct corresp="#owned" xml:id="sb002.2">
                                 <monogr>
                                     <title>Rossetti Papers, 1862 to 1870</title>
-                                    <author>Rossetti, Wm.</author>
+                                    <author corresp="#rossetti">Rossetti, Wm.</author>
                                     <note type="descripton" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1903"/>
@@ -4730,7 +4736,7 @@
                             <biblStruct corresp="#owned" xml:id="sb002.3">
                                 <monogr>
                                     <title>Time Flies, a Reading Diary</title>
-                                    <author>Rossetti, Christina G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, Christina G.</author>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
@@ -4746,7 +4752,7 @@
                             <biblStruct corresp="#owned" xml:id="sb003.1">
                                 <monogr>
                                     <title>Escarlamonde, and other Poems</title>
-                                    <author>Ainslie, Douglas</author>
+                                    <author corresp="#ainslie">Ainslie, Douglas</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">A.C. Swinburne, Esq. a tribute of
@@ -4761,14 +4767,14 @@
                             <biblStruct corresp="#owned" xml:id="sb003.2">
                                 <monogr>
                                     <title>Odes and Eclogues</title>
-                                    <author>Dixon, R. W.</author>
+                                    <author corresp="#dixon_rw">Dixon, R. W.</author>
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         uncut</note>
                                     <note type="etc">presentation copies to Swinburne with
                                             inscriptions<num value="6"/></note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
-                                        <publisher>Henry Daniel</publisher>
+                                        <publisher corresp="#daniel">Henry Daniel</publisher>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -4780,7 +4786,7 @@
                                 <monogr>
                                     <title>Jack Shepherd, Tower of London, Windsor Castle, Guy
                                         Fawkes, Rookwood and the Miser's Daughter</title>
-                                    <author>Ainsworth, W.H.</author>
+                                    <author corresp="#ainsworth">Ainsworth, W.H.</author>
                                     <note type="description">illustrations by G. Cruikshank and Tony
                                         Johannot, red cloth</note>
                                     <imprint>
@@ -4812,7 +4818,7 @@
                             <biblStruct corresp="#owned" xml:id="sb005.1">
                                 <monogr>
                                     <title>Roxana Tragoedia</title>
-                                    <author>Alabaster, Gul.</author>
+                                    <author corresp="#alabaster">Alabaster, Gul.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1632"/>
@@ -4823,7 +4829,7 @@
                             <biblStruct corresp="#owned" xml:id="sb005.2">
                                 <monogr>
                                     <title>Senile Odium, Comoedia</title>
-                                    <author>Hausted, P.</author>
+                                    <author corresp="#hausted">Hausted, P.</author>
                                     <note type="description">Cantab.</note>
                                     <note type="description">in 1 vol, frontispiece, russia, gilt
                                         edges <date from="1632" to="1633"/></note>
@@ -4846,7 +4852,7 @@
                             <biblStruct corresp="#owned" xml:id="sb005.3">
                                 <monogr>
                                     <title/>
-                                    <author>Alabaster</author>
+                                    <author corresp="#alabaster">Alabaster</author>
                                     <note type="description">another copy, vellum</note>
                                     <note type="etc">
                                         <num value="2"/>
@@ -4862,7 +4868,7 @@
                             <biblStruct corresp="#owned" xml:id="sb006.1">
                                 <monogr>
                                     <title xml:lang="it">Tragedie</title>
-                                    <author>Alfieri, V.</author>
+                                    <author corresp="#alfieri">Alfieri, V.</author>
                                     <note type="description">vellum</note>
                                     <note xml:lang="it">riveduta dall'autore e accresciuta</note>
                                     <edition corresp="#sec_ed" xml:lang="it">seconda edizione</edition>
@@ -4885,7 +4891,7 @@
                                     <title>England's Parnassus; or the Choycest Flowers of our
                                         Moderne Poets with their poeticall comparisons</title>
                                     <idno type="tcp">A16884</idno>
-                                    <author>Allot, Robert</author>
+                                    <author corresp="#allott">Allot, Robert</author>
                                     <note type="description" corresp="#uncut">old calf, broken, some
                                         leaves cut into</note>
                                     <imprint>
@@ -4900,7 +4906,7 @@
                             <biblStruct corresp="#owned" xml:id="sb008.1">
                                 <monogr>
                                     <title>Latin-English Lexicon</title>
-                                    <author>Andrews, E.A.</author>
+                                    <author corresp="#andrews">Andrews, E.A.</author>
                                     <note type="description">autograph letter of M.H. Spielmann to
                                         A.C. Swinburne inserted, imperial 8vo</note>
                                     <imprint>
@@ -4919,7 +4925,7 @@
                                 <monogr>
                                     <title>Tragedies of Maddalen Agammemnon, Lady Macbeth, Antonia
                                         and Clytemnestra</title>
-                                    <author>Galt, J.</author>
+                                    <author corresp="#galt">Galt, J.</author>
                                     <note type="description" corresp="#uncut">frontispiece, uncut,
                                         imperial 8vo</note>
                                     <note type="etc">
