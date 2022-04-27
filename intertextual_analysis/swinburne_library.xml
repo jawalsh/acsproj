@@ -4963,7 +4963,7 @@
                             <biblStruct corresp="#owned" xml:id="sb009.2">
                                 <monogr>
                                     <title>Anthropological Treatises, with his Life</title>
-                                    <author>Blumenbach, J.F</author>
+                                    <author corresp="#blumenbach">Blumenbach, J.F</author>
                                     <respStmt>
                                         <resp>Translated by</resp>
                                         <persName full="yes">T. Bendyshe</persName>
@@ -4986,7 +4986,7 @@
                                 <monogr>
                                     <title>The Golden Ass, translated with Introduction and Notes by
                                         F.D. Byrne</title>
-                                    <author>Apuleius</author>
+                                    <author corresp="apuleius">Apuleius</author>
                                     <respStmt>
                                         <resp>Translated by</resp>
                                         <name full="yes">F.D. Byrne</name>
@@ -5006,7 +5006,7 @@
                             <biblStruct corresp="#owned" xml:id="sb010.2">
                                 <monogr>
                                     <title xml:lang="la">Satyricon</title>
-                                    <author xml:lang="la">Petronius</author>
+                                    <author xml:lang="la" corresp="#petronius">Petronius</author>
                                     <respStmt>
                                         <resp>Translated by</resp>
                                         <name full="yes">Nilson</name>
@@ -5023,7 +5023,7 @@
                             <biblStruct corresp="#owned" xml:id="sb010.3">
                                 <monogr>
                                     <title>Euripides, with English Commentary</title>
-                                    <author>Paley, F.A.</author>
+                                    <author corresp="#paley">Paley, F.A.</author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
@@ -5054,7 +5054,7 @@
                                     <note type="description">black cloth, royal 8vo.</note>
                                     <imprint>
                                         <pubPlace ref="#varanasi">Benares</pubPlace>
-                                        <publisher>Kamashastra Society</publisher>
+                                        <publisher corresp="#kama_sastra_society">Kamashastra Society</publisher>
                                         <date when="1885"/>
                                     </imprint>
                                     <extent>
@@ -5105,7 +5105,7 @@
                             <biblStruct corresp="#owned" xml:id="sb012.1">
                                 <monogr>
                                     <title>An English Garner</title>
-                                    <author>Arber, E.</author>
+                                    <author corresp="#arber">Arber, E.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with autograph inscription</note>
                                     <imprint>
@@ -5122,6 +5122,7 @@
                                 <monogr>
                                     <title>Hannibal, a Drama</title>
                                     <author>Clark, John</author>
+                                    <!-- Unsure of how to determine which John Clark may have authored this -->
                                     <note type="descripton" corresp="#presentation">presentation
                                         copy from the author to Swinburne</note>
                                     <note type="etc">
@@ -5140,7 +5141,7 @@
                                 <monogr>
                                     <title>The lamentable and true Tragedie of M. Arden of Feversham
                                         in Kent, with Preface</title>
-                                    <author>Shakespeare, William</author>
+                                    <author corresp="#shakespeare">Shakespeare, William</author>
                                     <!-- no author listed in catalog, but now attributed to Shakespeare -->
                                     <note type="description">calf</note>
                                     <note type="etc">etc.</note>
@@ -5154,7 +5155,7 @@
                             <biblStruct corresp="#owned" xml:id="sb013.2">
                                 <monogr>
                                     <title>Memoirs and Adventures</title>
-                                    <author>Orsini, F.</author>
+                                    <author corresp="#orsini">Orsini, F.</author>
                                     <respStmt>
                                         <resp>Translated by</resp>
                                         <name full="yes">G. Carbonnel</name>
@@ -5176,7 +5177,7 @@
                             <biblStruct corresp="#owned" xml:id="sb014.1">
                                 <monogr>
                                     <title xml:lang="it">Lettere, Libri VI</title>
-                                    <author>Aretino, Pietro</author>
+                                    <author corresp="#aretino">Aretino, Pietro</author>
                                     <note type="description">vellum</note>
                                     <imprint>
                                         <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
@@ -5196,12 +5197,13 @@
                             <biblStruct corresp="#owned" xml:id="sb015.1">
                                 <monogr>
                                     <title xml:lang="it">Il Negromante Comedia</title>
-                                    <author>Ariosto, Lodovico</author>
+                                    <author corresp="#ariosto">Ariosto, Lodovico</author>
                                     <note type="description">portrait on title, old red levant
                                         morocco, inside gilt borders, gilt edges</note>
                                     <imprint>
                                         <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
                                         <publisher>Delande Pere</publisher>
+                                        <!-- could not find LCNAF or addtl information -->
                                         <date when="1535"/>
                                     </imprint>
                                 </monogr>
@@ -5213,13 +5215,14 @@
                             <biblStruct corresp="#owned" xml:id="sb016.1">
                                 <monogr>
                                     <title xml:lang="it">Sopposite Comediea</title>
-                                    <author>Ariosto, Lodovico</author>
+                                    <author corresp="#ariosto">Ariosto, Lodovico</author>
                                     <note type="description">woodcut portrait on title and woodcuts
                                         at end, old red morocco, gilt borders, inside gilt borders,
                                         gilt edges</note>
                                     <imprint>
                                         <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
-                                        <publisher>F. Bindoni and M. Pasini</publisher>
+                                        <publisher corresp="#bindoni">F. Bindoni and M. Pasini</publisher>
+                                        <!-- Two individuals given here, not sure how to split up this entry to have two corresp values -->
                                         <date when="1537"/>
                                     </imprint>
                                 </monogr>
@@ -5231,7 +5234,7 @@
                             <biblStruct corresp="#owned" xml:id="sb017.1">
                                 <monogr>
                                     <title xml:lang="it">Orlando Furioso</title>
-                                    <author>Ariosto, Lodovico.</author>
+                                    <author corresp="#ariosto">Ariosto, Lodovico.</author>
                                     <note type="description">portrait, half vellum</note>
                                     <imprint>
                                         <pubPlace xml:lang="it" ref="#florence">Firenze</pubPlace>
@@ -5257,7 +5260,7 @@
                             <biblStruct corresp="#owned" xml:id="sb018.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Armstrong, E.J.</author>
+                                    <author corresp="#armstrong">Armstrong, E.J.</author>
                                     <imprint>
                                         <date when="1877"/>
                                     </imprint>
@@ -5268,7 +5271,7 @@
                             <biblStruct corresp="#owned" xml:id="sb018.2">
                                 <monogr>
                                     <title>Essays and Sketches</title>
-                                    <author>Armstrong, E.J.</author>
+                                    <author corresp="#armstrong">Armstrong, E.J.</author>
                                     <!-- use LC names -->
                                     <imprint>
                                         <date when="1877"/>
@@ -5280,7 +5283,7 @@
                             <biblStruct corresp="#owned" xml:id="sb018.3">
                                 <monogr>
                                     <title>A Garland from Greece</title>
-                                    <author>Armstrong, E.J.</author>
+                                    <author corresp="#armstrong">Armstrong, E.J.</author>
                                     <imprint>
                                         <date when="1882"/>
                                     </imprint>
@@ -5293,7 +5296,7 @@
                             <biblStruct corresp="#owned" xml:id="sb018.4">
                                 <monogr>
                                     <title>Stories of Wicklow</title>
-                                    <author>Armstrong, E.J.</author>
+                                    <author corresp="#armstrong">Armstrong, E.J.</author>
                                     <imprint>
                                         <date when="1886"/>
                                     </imprint>
@@ -5306,7 +5309,7 @@
                             <biblStruct corresp="#owned" xml:id="sb018.5">
                                 <monogr>
                                     <title>Life and Letters</title>
-                                    <author>Armstrong, E.J.</author>
+                                    <author corresp="#armstrong">Armstrong, E.J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">G.F. Armstrong</name>
