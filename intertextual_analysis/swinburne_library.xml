@@ -654,6 +654,7 @@
                         <birth when="1835"/>
                         <death when="1913"/>
                     </person>
+                    <!-- Should this id be changed? (it's missing an h) -->
                     <person xml:id="baccylides">
                         <persName source="http://id.loc.gov/authorities/names/n50058180"
                             >Bacchylides</persName>
@@ -4585,6 +4586,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
                             Press</orgName>
                     </org>
+                    <org xml:id="aedes_aldi">
+                        <orgName source="http://id.loc.gov/authorities/names/no2015128037">Aedes
+                            Aldi et Andreae Asulani Soceri</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -5329,7 +5334,7 @@
                             <biblStruct corresp="#owned" xml:id="sb019.1">
                                 <monogr>
                                     <title>The Poets of Greece</title>
-                                    <author>Arnold, Edwin</author>
+                                    <author corresp="#arnold_e">Arnold, Edwin</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1869"/>
@@ -5341,7 +5346,7 @@
                             <biblStruct corresp="#owned" xml:id="sb019.1a">
                                 <monogr>
                                     <title>Collected Poems</title>
-                                    <author>Tabley, Lord de</author>
+                                    <author corresp="#warren">Tabley, Lord de</author>
                                     <note type="description" corresp="#uncut">portrait, vellum,
                                         uncut, top edge gilt</note>
                                     <imprint>
@@ -5354,7 +5359,7 @@
                             <biblStruct corresp="#owned" xml:id="sb019.2">
                                 <monogr>
                                     <title>Songs and Lyrics</title>
-                                    <author>Skipsey, Joseph</author>
+                                    <author corresp="#skipsey">Skipsey, Joseph</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -5371,7 +5376,7 @@
                             <biblStruct corresp="#owned" xml:id="sb020.1">
                                 <monogr>
                                     <title>The Epic Hades</title>
-                                    <author>Arnold, Sir. E</author>
+                                    <author corresp="#arnold_e">Arnold, Sir. E</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">For the Author of 'Hertha' from the
@@ -5389,7 +5394,7 @@
                             <biblStruct corresp="#owned" xml:id="sb020.2">
                                 <monogr>
                                     <title>Tristan and Isolde</title>
-                                    <author>Wagner, Richard</author>
+                                    <author corresp="#wagner">Wagner, Richard</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">F. Jameson</name>
@@ -5405,7 +5410,7 @@
                             <biblStruct corresp="#owned" xml:id="sb020.3">
                                 <monogr>
                                     <title>Leading Cases done into English</title>
-                                    <author>Pollack, Sir F.</author>
+                                    <author corresp="#pollock_f">Pollack, Sir F.</author>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copes to Swinburne with inscriptions<num
                                             value="30"/></note>
@@ -5421,7 +5426,7 @@
                             <biblStruct corresp="#owned" xml:id="sb021.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author ref="#arnold">Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="description">crimson morocco extra, richly gilt
                                         sides, gilt edges</note>
                                     <imprint>
@@ -5436,7 +5441,7 @@
                                 <monogr>
                                     <title>Note Books, with Preface by the Hon. Mrs.
                                         Wodehouse</title>
-                                    <author ref="#arnold">Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1902"/>
@@ -5448,7 +5453,7 @@
                             <biblStruct corresp="#owned" xml:id="sb021.3">
                                 <monogr>
                                     <title>Friendship's Garland</title>
-                                    <author ref="#arnold">Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
@@ -5464,7 +5469,7 @@
                             <biblStruct corresp="#owned" xml:id="sb022.1">
                                 <monogr>
                                     <title>Merope, a Tragedy</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1858"/>
@@ -5476,7 +5481,7 @@
                             <biblStruct corresp="#owned" xml:id="sb022.2">
                                 <monogr>
                                     <title>Merope, a Tragedy</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. Churton Collins</name>
@@ -5498,7 +5503,7 @@
                             <biblStruct corresp="#owned" xml:id="sb023.1">
                                 <monogr>
                                     <title>Popular Education in France</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1861"/>
@@ -5511,7 +5516,7 @@
                             <biblStruct corresp="#owned" xml:id="sb023.2">
                                 <monogr>
                                     <title>On the Study of Celtic Literature</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1867"/>
@@ -5523,7 +5528,7 @@
                             <biblStruct corresp="#owned" xml:id="sb023.3">
                                 <monogr>
                                     <title>Higher Schools and Universities in Germany</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
@@ -5540,7 +5545,7 @@
                             <biblStruct corresp="#owned" xml:id="sb024.1">
                                 <monogr>
                                     <title>Essays in Criticism</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
                                         <date when="1865"/>
@@ -5552,7 +5557,7 @@
                             <biblStruct corresp="#owned" xml:id="sb024.2">
                                 <monogr>
                                     <title>New Poems</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="etc">
                                         <num value="2"/>
                                     </note>
@@ -5569,7 +5574,7 @@
                             <biblStruct corresp="#owned" xml:id="sb025.1">
                                 <monogr>
                                     <title>Great Prophecy of Israel's Restoration</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with inscription</note>
                                     <note type="inscription">With Mr. Arnold's Compliments</note>
@@ -5584,8 +5589,9 @@
                         <listBibl type="lot" xml:id="sb026">
                             <biblStruct corresp="#owned" xml:id="sb026.1">
                                 <monogr>
+                                    <!-- is this a typo? -->
                                     <title>Isaiah XL-LXVI, editded with Notes</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy</note>
                                     <note type="inscription">With very kind regards M.A.</note>
@@ -5600,7 +5606,7 @@
                             <biblStruct corresp="#owned" xml:id="sb026.2">
                                 <monogr>
                                     <title>Last Essays on Church and Religion</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <imprint>
                                         <date when="1877"/>
                                     </imprint>
@@ -5611,7 +5617,7 @@
                             <biblStruct corresp="#owned" xml:id="sb026.3">
                                 <monogr>
                                     <title>St. Paul and Protestantism</title>
-                                    <author>Arnold, Matthew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
@@ -5627,7 +5633,7 @@
                             <biblStruct corresp="#owned" xml:id="sb027.1">
                                 <monogr>
                                     <title>Literature and Dogma</title>
-                                    <author>Arnold, Mattew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1876"/>
@@ -5639,7 +5645,7 @@
                             <biblStruct corresp="#owned" xml:id="sb027.2">
                                 <monogr>
                                     <title>Irish Essays and others</title>
-                                    <author>Arnold, Mattew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1882"/>
@@ -5651,7 +5657,7 @@
                             <biblStruct corresp="#owned" xml:id="sb027.3">
                                 <monogr>
                                     <title>Culture and Anarchy</title>
-                                    <author>Arnold, Mattew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
@@ -5663,7 +5669,7 @@
                             <biblStruct corresp="#owned" xml:id="sb027.4">
                                 <monogr>
                                     <title>God and the Bible</title>
-                                    <author>Arnold, Mattew</author>
+                                    <author corresp="#arnold_m">Arnold, Matthew</author>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
@@ -5680,7 +5686,7 @@
                             <biblStruct corresp="#owned" xml:id="sb028.1">
                                 <monogr>
                                     <title>Gleanings from Beranger</title>
-                                    <author>Asburton, Robert O. Lord Houghton</author>
+                                    <author corresp="#crewe">Ashburton, Robert O. Lord Houghton</author>
                                     <note type="description" corresp="#uncut">one of 200 copies,
                                         vellum, uncut, top edge gilt, privately printed</note>
                                     <imprint>
@@ -5693,7 +5699,7 @@
                             <biblStruct corresp="#owned" xml:id="sb028.2">
                                 <monogr>
                                     <title>The North Shore Watch and other Poems</title>
-                                    <author>Woodberry, G.E.</author>
+                                    <author corresp="#woodberry">Woodberry, G.E.</author>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne with inscriptions<num
                                             value="12"/></note>
@@ -5710,7 +5716,7 @@
                                 <monogr>
                                     <title xml:lang="la">Noctium Atticarum libri undeviginti (ex
                                         recens Joan. Bapt. Egnatii)</title>
-                                    <author>Gellius, Aulus</author>
+                                    <author corresp="#gellius">Gellius, Aulus</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Giovanni Battista Egnazio</name>
@@ -5718,8 +5724,8 @@
                                     <note type="description">old morocco extra, richly gilt sides,
                                         gilt edges, joints cracked</note>
                                     <imprint>
-                                        <pubPlace>Venet.</pubPlace>
-                                        <publisher xml:lang="la">in aedibus Aldi et And.
+                                        <pubPlace ref="#venice">Venet.</pubPlace>
+                                        <publisher xml:lang="la" corresp="aedes_aldi">in aedibus Aldi et And.
                                             Soceri</publisher>
                                         <date when="1515"/>
                                     </imprint>
@@ -5733,7 +5739,7 @@
                             <biblStruct corresp="#owned" xml:id="sb030.1">
                                 <monogr>
                                     <title>Novels, with Memoir</title>
-                                    <author>Austen, Jane</author>
+                                    <author corresp="#austen">Austen, Jane</author>
                                     <note type="description">portrait and frontispieces, white
                                         cloth</note>
                                     <edition>Steventon Edition</edition>
@@ -5765,7 +5771,7 @@
                             <biblStruct corresp="#owned" xml:id="sb031.1">
                                 <monogr>
                                     <title>Novels</title>
-                                    <author>Austen, Jane</author>
+                                    <author corresp="#austen">Austen, Jane</author>
                                     <note type="description" corresp="#uncut">portrait, green cloth,
                                         uncut, top edge gilt</note>
                                     <edition>Winchester Edition</edition>
@@ -5801,7 +5807,7 @@
                             <biblStruct corresp="#owned" xml:id="sb032.1">
                                 <monogr>
                                     <title>Savonarola, a Tragedy</title>
-                                    <author>Austin, Alfred</author>
+                                    <author corresp="#austin">Austin, Alfred</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne from the author, with
                                         authograph inscription</note>
@@ -5820,13 +5826,14 @@
                             <biblStruct corresp="#owned" xml:id="sb033.1">
                                 <monogr>
                                     <title>Poems from a Papyrus in the British Museum</title>
-                                    <author>Bacchylides</author>
+                                    <author corresp="#baccylides">Bacchylides</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Fred. G. Kenyon</name>
                                     </respStmt>
                                     <note type="description">brown cloth</note>
                                     <imprint>
+                                        <!-- Not sure how to find this organization, no LCNAF -->
                                         <publisher>Order of the Trustees</publisher>
                                         <date when="1897"/>
                                     </imprint>
