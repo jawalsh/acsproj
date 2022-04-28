@@ -713,6 +713,12 @@
                         <birth when="1846"/>
                         <death when="1907"/>
                     </person>
+                    <person xml:id="barham">
+                        <persName source="http://id.loc.gov/authorities/names/no91012601">Barham, 
+                            R. H. Dalton (Richard Harris Dalton), 1815-1886</persName>
+                        <birth when="1815"/>
+                        <death when="1886"/>
+                    </person>
                     <person xml:id="baring-gould">
                         <persName source="http://id.loc.gov/authorities/names/n80040156"
                             >Baring-Gould, S. (Sabine), 1834-1924</persName>
@@ -4683,6 +4689,12 @@
                         <birth when="1836"/>
                         <death when="1919"/>
                     </person>
+                    <person xml:id="moxon">
+                        <persName source="http://id.loc.gov/authorities/names/no91026075">Moxon, 
+                            Edward, 1801-1858</persName>
+                        <birth when="1801"/>
+                        <death when="1858"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -5847,6 +5859,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Poètes Allemands et Poètes Anglais, avec
                                         une Preface de Gaston Deschamps</title>
+                                    <!-- No LCNAF found, appears to be Paul Balliere (1851-19XX) -->
                                     <author>Bailliere, P.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne, with
@@ -5864,7 +5877,7 @@
                             <biblStruct corresp="#owned" xml:id="sb035.1">
                                 <monogr>
                                     <title xml:lang="fr">Études Philosophiques</title>
-                                    <author>Balzac, M. de</author>
+                                    <author corresp="#balzac">Balzac, M. de</author>
                                     <note type="description">half morocco</note>
                                     <imprint>
                                         <date when="1836"/>
@@ -5885,7 +5898,7 @@
                             <biblStruct corresp="#owned" xml:id="sb035.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Cent Contes Drolatiques</title>
-                                    <author>Balzac, M. de</author>
+                                    <author corresp="#balzac">Balzac, M. de</author>
                                     <note type="description">half morocco</note>
                                     <imprint>
                                         <date when="1837"/>
@@ -5903,7 +5916,7 @@
                             <biblStruct corresp="#owned" xml:id="sb035.3">
                                 <monogr>
                                     <title xml:lang="fr">La Cousine Bette</title>
-                                    <author>Balzac, M. de</author>
+                                    <author corresp="#balzac">Balzac, M. de</author>
                                     <note type="description">half morocco</note>
                                     <note type="etc">and others by the same author<num value="42"
                                         /></note>
@@ -5925,7 +5938,7 @@
                             <biblStruct corresp="#owned" xml:id="sb36.1">
                                 <monogr>
                                     <title>Tales by the O'Hara Family, Second Series</title>
-                                    <author>Banim, J.</author>
+                                    <author corresp="#banim">Banim, J.</author>
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -5945,7 +5958,7 @@
                             <biblStruct corresp="#owned" xml:id="sb036.2">
                                 <monogr>
                                     <title>Fair in the Fearless Old Fashion</title>
-                                    <author>Farmlet, C.</author>
+                                    <author corresp="#farmlet">Farmlet, C.</author>
                                     <note type="description">calf gilt</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -5966,7 +5979,7 @@
                             <biblStruct corresp="#owned" xml:id="sb037.1">
                                 <monogr>
                                     <title>Ingoldsby Legends, or Mirth and Marvels</title>
-                                    <author>Barham, R. H.</author>
+                                    <author corresp="#barham">Barham, R. H.</author>
                                     <imprint>
                                         <date when="1875"/>
                                     </imprint>
@@ -5985,7 +5998,7 @@
                                 <monogr>
                                     <title>Comments of Plays of Beaumont and Fletcher, with
                                         Appendix</title>
-                                    <author>Mason, J. Monck</author>
+                                    <author corresp="#mason">Mason, J. Monck</author>
                                     <note type="description">half russia, pencil note in Swinburne's
                                         writing</note>
                                     <imprint>
@@ -5998,7 +6011,7 @@
                             <biblStruct corresp="#owned" xml:id="sb037.3">
                                 <monogr>
                                     <title>Poems, with Notes by O. Gilchrist</title>
-                                    <author>Corbet, Rich.</author>
+                                    <author corresp="#corbet">Corbet, Rich.</author>
                                     <note type="description">half calf gilt</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -6015,7 +6028,7 @@
                             <biblStruct corresp="#owned" xml:id="sb038.1">
                                 <monogr>
                                     <title>Ingoldsby Legends</title>
-                                    <author>Barham, R. H.</author>
+                                    <author corresp="#barham">Barham, R. H.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. A. Bond</name>
@@ -6041,7 +6054,7 @@
                             <biblStruct corresp="#owned" xml:id="sb039.1">
                                 <monogr>
                                     <title>Tragedy of Caesars</title>
-                                    <author>Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
                                     <note type="description">illustrations, royal 8vo</note>
                                     <imprint>
                                         <date when="1892"/>
@@ -6056,7 +6069,7 @@
                             <biblStruct corresp="#owned" xml:id="sb039.2">
                                 <monogr>
                                     <title>Yorkshire Oddities</title>
-                                    <author>Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -6074,7 +6087,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Richard Wagner et Tannhauser à
                                         Paris</title>
-                                    <author>Baudelaire, Chas.</author>
+                                    <author corresp="#baudelaire">Baudelaire, Chas.</author>
                                     <note type="description" corresp="#presentation"> morocco, gilt edges, presentation copy
                                         to Swinburne, with inscription in pencil</note>
                                     <note type="inscription" xml:lang="fr">Mr. Algernon C. Swinburne
@@ -6090,7 +6103,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Idée sur les Romans publiée avec Notes,
                                         etc. par O. Uzanne</title>
-                                    <author>De Sade, A. F.</author>
+                                    <author corresp="#sade">De Sade, A. F.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="9"/>
@@ -6108,7 +6121,7 @@
                             <biblStruct corresp="#owned" xml:id="sb041.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Fleurs du Mal</title>
-                                    <author>Baudelaire, C.</author>
+                                    <author corresp="#baudelaire">Baudelaire, C.</author>
                                     <note type="description" corresp="#presentation">half morocco
                                         gilt, gilt edges, presentation copy from W. M. Rossetti,
                                         with autograph inscription</note>
@@ -6130,7 +6143,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Paradis Artificiels Opium et
                                         Haschisch</title>
-                                    <author>Baudelaire, C.</author>
+                                    <author corresp="#baudelaire">Baudelaire, C.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -6144,7 +6157,7 @@
                             <biblStruct corresp="#owned" xml:id="sb042.2">
                                 <monogr>
                                     <title xml:lang="fr">Baudelaire, sa Vie et son Oeuvre</title>
-                                    <author>Assenlineau, C.</author>
+                                    <author corresp="#asselineau">Assenlineau, C.</author>
                                     <note type="description">portraits, etc. calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -6176,7 +6189,7 @@
                                 <monogr>
                                     <title>Oeuvres Completes, précédées d'une Notice par T.
                                         Gautier</title>
-                                    <author>Baudelaire, C.</author>
+                                    <author corresp="#baudelaire">Baudelaire, C.</author>
                                     <note type="description">portrait, morocco, gilt edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -6208,7 +6221,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Posthumes et Correspondances
                                         inédites</title>
-                                    <author>Baudelaire, C.</author>
+                                    <author corresp="#baudelaire">Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut">portrait and
                                         facsimile, uncut</note>
                                     <imprint>
@@ -6222,7 +6235,7 @@
                             <biblStruct corresp="#owned" xml:id="sb044.2">
                                 <monogr>
                                     <title xml:lang="fr">Depuis</title>
-                                    <author>Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -6236,7 +6249,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Un Poète Réalistie Anglais, George Crabbe,
                                             <date from="1754" to="1874">1754-1874</date></title>
-                                    <author>Huchon, R.</author>
+                                    <author corresp="#huchon">Huchon, R.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="24"/>
@@ -6254,7 +6267,7 @@
                             <biblStruct corresp="#owned #annotated" xml:id="sb045.1">
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Posthumes</title>
-                                    <author>Baudelaire, C.</author>
+                                    <author corresp="#baudelaire">Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut,
                                         pencil note in handwriting of Swinburne on fly-leaf</note>
                                     <imprint>
@@ -6268,7 +6281,7 @@
                             <biblStruct corresp="#owned" xml:id="sb045.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Epaves</title>
-                                    <author>Baudelaire, C.</author>
+                                    <author corresp="#baudelaire">Baudelaire, C.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc"><num value="3"/>and another</note>
                                     <imprint>
@@ -6284,6 +6297,7 @@
                             <biblStruct corresp="#owned" xml:id="sb046.1">
                                 <monogr>
                                     <title>Royal Illustrated History of Eastern England</title>
+                                    <!-- No LCNAF found -->
                                     <author>Bayne, A. D.</author>
                                     <note type="description">2 vol.</note>
                                     <imprint>
@@ -6330,7 +6344,7 @@
                             <biblStruct corresp="#owned #gift_to" xml:id="sb047.1">
                                 <monogr>
                                     <title>The Minstrel, or the Progress of Genius</title>
-                                    <author>Beattie, Jas.</author>
+                                    <author corresp="#beattie">Beattie, Jas.</author>
                                     <note type="description">frontispeice, green morocco, gilt
                                         edges, Swinburne's copy with inscription:</note>
                                     <note type="inscription">Algernon C. Swinburne, <date
@@ -6350,11 +6364,12 @@
                                 <monogr>
                                     <title>Works with Notes and a Biographical Memoir by Alex.
                                         Dyce</title>
-                                    <author>Beaumont and Fletcher</author>
+                                    <!-- Unsure of best practice to tag multiple authors -->
+                                    <author corresp="#beaumont">Beaumont and Fletcher</author>
                                     <note type="description">11 vol. portrait, tree-calf gilt,
                                         marbled edges, binding of some vol. broken</note>
                                     <imprint>
-                                        <publisher>Moxon</publisher>
+                                        <publisher corresp="#moxon">Moxon</publisher>
                                         <date when="1843"/>
                                     </imprint>
                                     <extent>
