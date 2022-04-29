@@ -4596,6 +4596,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2015128037">Aedes
                             Aldi et Andreae Asulani Soceri</orgName>
                     </org>
+                    <org xml:id="a_k_newman_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr91016003">A.K. 
+                            Newman &amp; Co.</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -6404,7 +6408,7 @@
                             <biblStruct corresp="#owned" xml:id="sb049.1">
                                 <monogr>
                                     <title>Works, by A. H. Bullen</title>
-                                    <author>Beaumont and Fletcher</author>
+                                    <author corresp="#beaumont">Beaumont and Fletcher</author>
                                     <note type="description" corresp="#uncut">vol. I-III, portrait,
                                         linen boards, uncut, top edge gilt</note>
                                     <edition>Variorum Edition</edition>
@@ -6426,7 +6430,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Vathek, réprime sur l'édition Française
                                         originale avec Preface par Stépahne Mallrmé</title>
-                                    <author>Beckford, W.</author>
+                                    <author corresp="#beckford">Beckford, W.</author>
                                     <note type="description" corresp="#uncut">one of 220 copies, vellum, uncut, with
                                         inscription</note>
                                     <note type="insciprtion" xml:lang="fr">à Algernon C. Swinburne
@@ -6445,10 +6449,10 @@
                             <biblStruct corresp="#owned" xml:id="sb051.1">
                                 <monogr>
                                     <title>Gli Asolani</title>
-                                    <author>Bembo, P.</author>
+                                    <author corresp="#bembo">Bembo, P.</author>
                                     <note type="description">old binding</note>
                                     <imprint>
-                                        <publisher xml:lang="it">nelle Case d'Aldo
+                                        <publisher xml:lang="it" corresp="#manuzio">nelle Case d'Aldo
                                             Romano</publisher>
                                         <pubPlace xml:lang="it" ref="#venice">in Vinegia</pubPlace>
                                         <date when="1515"/>
@@ -6493,7 +6497,7 @@
                             <biblStruct corresp="#owned" xml:id="sb052.1">
                                 <monogr>
                                     <title>John Bull and his other Island</title>
-                                    <author>Bennet, Arthur</author>
+                                    <author corresp="#bennett">Bennett, Arthur</author>
                                     <note type="description" corresp="#presentation"> presentation
                                         copy to A. C. Swinburne, with interesting autograph letter
                                         of the author inserted</note>
@@ -6514,7 +6518,7 @@
                             <biblStruct corresp="#owned" xml:id="sb053.1">
                                 <monogr>
                                     <title>Miseries of Human Life</title>
-                                    <author>Beresford, Jas.</author>
+                                    <author corresp="#beresford">Beresford, Jas.</author>
                                     <note type="description">coloured frontispiece and folding
                                         plate, russia, gilt edges, binding of vol. I injured</note>
                                     <imprint>
@@ -6534,7 +6538,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Quelques Aspects de la Foi Moderne dans les
                                         Poëms de Robert Browning</title>
-                                    <author>Berger, P.</author>
+                                    <author corresp="#berger">Berger, P.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with autograph inscription; royal
                                         8vo</note>
@@ -6555,6 +6559,7 @@
                                 <monogr>
                                     <title>Bertrand: or Memoirs of a Northumbrian Gentleman in the
                                         Seventeenth Century, written by himself</title>
+                                    <!-- Difficult to find LCNAF. Author is listed as anonymous in other sources. -->
                                     <author>Bertrand</author>
                                     <note type="description" corresp="#presentation">3 vol. half
                                         calf, presentation copy with inscription</note>
@@ -6564,7 +6569,8 @@
                                         author after publication.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>Minerva Press</publisher>
+                                        <!-- Minerva doesn't have an LCNAF, but it was renamed to A.K. Newman & Co. -->
+                                        <publisher corresp="#a_k_newman_co">Minerva Press</publisher>
                                         <date when="1808"/>
                                     </imprint>
                                     <extent>
