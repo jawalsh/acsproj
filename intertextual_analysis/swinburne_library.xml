@@ -889,6 +889,12 @@
                         <birth when="1841"/>
                         <death when="1896"/>
                     </person>
+                    <person xml:id="blouet">
+                        <persName source="http://id.loc.gov/authorities/names/no2021056557">Blouët, 
+                            P. (Paul), 1848-1903</persName>
+                        <birth when="1848"/>
+                        <death when="1903"/>
+                    </person>
                     <person xml:id="blumenbach">
                         <persName source="http://id.loc.gov/authorities/names/n84027133">Blumenbach,
                             Johann Friedrich, 1752-1840</persName>
@@ -6584,7 +6590,7 @@
                             <biblStruct corresp="#owned" xml:id="sb056.1">
                                 <monogr>
                                     <title>The Seamy Side</title>
-                                    <author>Besant and Rice</author>
+                                    <author corresp="#besant">Besant and Rice</author>
                                     <imprint>
                                         <date when="1901"/>
                                     </imprint>
@@ -6596,7 +6602,7 @@
                             <biblStruct corresp="#owned" xml:id="sb056.2">
                                 <monogr>
                                     <title>The Golden Butterfly</title>
-                                    <author>Besant and Rice</author>
+                                    <author corresp="#besant">Besant and Rice</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -6609,7 +6615,7 @@
                             <biblStruct corresp="#owned" xml:id="sb056.3">
                                 <monogr>
                                     <title>"It is Never too Late to Mend"</title>
-                                    <author>Reade, Chas.</author>
+                                    <author corresp="#reade_ch">Reade, Chas.</author>
                                     <imprint>
                                         <date when="1902"/>
                                     </imprint>
@@ -6620,7 +6626,7 @@
                             <biblStruct corresp="#owned" xml:id="sb056.4">
                                 <monogr>
                                     <title>The Jilt</title>
-                                    <author>Reade, Chas.</author>
+                                    <author corresp="#reade_ch">Reade, Chas.</author>
                                     <note type="etc">etc.</note>
                                     <imprint>
                                         <date when="1896"/>
@@ -6632,7 +6638,7 @@
                             <biblStruct corresp="#owned" xml:id="sb056.5">
                                 <monogr>
                                     <title>The Brass Bottle</title>
-                                    <author>Anstey, F.</author>
+                                    <author corresp="#anstey">Anstey, F.</author>
                                     <note type="description">frontispiece</note>
                                     <note type="etc">
                                         <num value="20"/>
@@ -6649,7 +6655,7 @@
                             <biblStruct corresp="#owned" xml:id="sb057.1">
                                 <monogr>
                                     <title>Looking-Glass for the Mind</title>
-                                    <author>Bewick, John</author>
+                                    <author corresp="#bewick_j">Bewick, John</author>
                                     <note type="description">woodcuts by J. Bewick, half calf,
                                         marbled edges</note>
                                     <imprint>
@@ -6679,7 +6685,7 @@
                             <biblStruct corresp="#owned" xml:id="sb057.3">
                                 <monogr>
                                     <title>'Tis Merry when Gossips Meet</title>
-                                    <author>Rowland, S.</author>
+                                    <author corresp="#rowlands">Rowlands, S.</author>
                                     <note type="description" corresp="#uncut">uncut, <date
                                             when="1609">1609</date>, reprint</note>
                                     <imprint>
@@ -6696,13 +6702,13 @@
                             <biblStruct corresp="#owned" xml:id="sb057.4">
                                 <monogr>
                                     <title>The School of Pantagruel</title>
-                                    <author>Shepherd, R. H.</author>
+                                    <author corresp="#shepherd">Shepherd, R. H.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Sunbury</pubPlace>
+                                        <pubPlace ref="#sunbury">Sunbury</pubPlace>
                                         <date when="1862"/>
                                     </imprint>
                                 </monogr>
@@ -6714,11 +6720,11 @@
                             <biblStruct corresp="#owned" xml:id="sb058.1">
                                 <monogr>
                                     <title>Fables of Aesop and others</title>
-                                    <author>Bewick, Thos.</author>
+                                    <author corresp="#bewick_t">Bewick, Thos.</author>
                                     <note type="description">woodcuts by Bewick, calf gilt, marbled
                                         edges</note>
                                     <imprint>
-                                        <pubPlace>Newcastle</pubPlace>
+                                        <pubPlace ref="#newcastle">Newcastle</pubPlace>
                                         <date when="1818"/>
                                     </imprint>
                                 </monogr>
@@ -6728,7 +6734,7 @@
                             <biblStruct corresp="#owned" xml:id="sb058.2">
                                 <monogr>
                                     <title>Memoir</title>
-                                    <author>Bewick, Thos.</author>
+                                    <author corresp="#bewick_t">Bewick, Thos.</author>
                                     <note type="description">woodcuts</note>
                                     <note type="etc">
                                         <num value="2"/>
@@ -6745,11 +6751,11 @@
                             <biblStruct corresp="#owned" xml:id="sb059.1">
                                 <monogr>
                                     <title>His Life and Times, by Robert Robinson</title>
-                                    <author>Bewick, T.</author>
+                                    <author corresp="#bewick_t">Bewick, T.</author>
                                     <note type="description">portrait and illustrations, half calf;
                                         imperial 8vo.</note>
                                     <imprint>
-                                        <pubPlace>Newcastle</pubPlace>
+                                        <pubPlace ref="#newcastle">Newcastle</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -6762,7 +6768,7 @@
                                 <monogr>
                                     <title>Last Days of Percy Bysshe Shelley, new details from
                                         unpublished Documents</title>
-                                    <author>Biagi, G.</author>
+                                    <author corresp="#biagi">Biagi, G.</author>
                                     <note type="description" corresp="#uncut">portraits and
                                         illustrations, uncut</note>
                                     <imprint>
@@ -6775,7 +6781,7 @@
                             <biblStruct corresp="#owned" xml:id="sb060.2">
                                 <monogr>
                                     <title>True Life of Capt. Sir Richard F. Burton</title>
-                                    <author>Stisted, G. M.</author>
+                                    <author corresp="#stisted">Stisted, G. M.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1896"/>
@@ -6787,7 +6793,7 @@
                             <biblStruct corresp="#owned" xml:id="sb060.3">
                                 <monogr>
                                     <title>The Nile Basin</title>
-                                    <author>Burton, R. F.</author>
+                                    <author corresp="#burton_r">Burton, R. F.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">etc.</note>
                                     <imprint>
@@ -6801,7 +6807,7 @@
                             <biblStruct corresp="#owned" xml:id="sb060.4">
                                 <monogr>
                                     <title>Caesar in Egypt, Costanza and other Poems</title>
-                                    <author>Ellis, Jos.</author>
+                                    <author corresp="#ellis_j">Ellis, Jos.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -6886,7 +6892,7 @@
                             <biblStruct corresp="#owned" xml:id="sb062.1">
                                 <monogr>
                                     <title>Briseis</title>
-                                    <author>Black, Wm.</author>
+                                    <author corresp="#black">Black, Wm.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">With the Author's very kind regards,
@@ -6901,7 +6907,7 @@
                             <biblStruct corresp="#owned" xml:id="sb062.2">
                                 <monogr>
                                     <title>In Far Lochaber</title>
-                                    <author>Black, Wm.</author>
+                                    <author corresp="#black">Black, Wm.</author>
                                     <imprint>
                                         <date when="1888"/>
                                     </imprint>
@@ -6919,7 +6925,7 @@
                             <biblStruct corresp="#owned" xml:id="sb062.3">
                                 <monogr>
                                     <title>Ione</title>
-                                    <author>Linton, E. Lynn</author>
+                                    <author corresp="#linton">Linton, E. Lynn</author>
                                     <note type="etc">
                                         <num value="14"/>
                                     </note>
@@ -6942,7 +6948,7 @@
                             <biblStruct corresp="#owned" xml:id="sb063.1">
                                 <monogr>
                                     <title>Lorna Doone, with Notes, etc. by H. Snowden Ward</title>
-                                    <author>Blackmore, R. D.</author>
+                                    <author corresp="#blackmore">Blackmore, R. D.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1908"/>
@@ -6954,7 +6960,7 @@
                             <biblStruct corresp="#owned" xml:id="sb063.2">
                                 <monogr>
                                     <title>In the Roar of the Sea</title>
-                                    <author>Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
                                     <imprint>
                                         <date when="1892"/>
                                     </imprint>
@@ -6969,7 +6975,7 @@
                             <biblStruct corresp="#owned" xml:id="sb063.3">
                                 <monogr>
                                     <title>Strange Survivals</title>
-                                    <author>Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="14"/>
@@ -6986,7 +6992,7 @@
                             <biblStruct corresp="#owned" xml:id="sb064.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. H. Shepherd</name>
@@ -7001,7 +7007,7 @@
                             <biblStruct corresp="#owned" xml:id="sb064.2">
                                 <monogr>
                                     <title>Lyrical Poems, with Introduction by W. Raleigh</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -7015,7 +7021,7 @@
                                 <monogr>
                                     <title>Selections from his Works, with Notes, etc. by M.
                                         Perugini</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <note type="description" corresp="#uncut">portrait, limp calf,
                                         uncut, top edge gilt</note>
                                     <note type="etc">
@@ -7032,7 +7038,7 @@
                             <biblStruct corresp="#owned" xml:id="sb065.1">
                                 <monogr>
                                     <title>Poetical Works with Prefatory Memoir</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. M. Rossetti</name>
@@ -7053,7 +7059,7 @@
                             <biblStruct corresp="#owned" xml:id="sb066.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Dante Gabriel Rossetti with William's
@@ -7073,7 +7079,7 @@
                                 <monogr>
                                     <title>Works, Poetic, Symbolic and Critical, with a Memoir,
                                         etc.</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. J. Ellis</name>
@@ -7101,7 +7107,7 @@
                                 <monogr>
                                     <title>Poetical Works, with Variorum Readings, Notes, etc. by
                                         John Sampson</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <note type="description">facsimile</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -7114,7 +7120,7 @@
                             <biblStruct corresp="#owned" xml:id="sb068.2">
                                 <monogr>
                                     <title>William Blake, a Critical Essay</title>
-                                    <author>Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">Swinburne, A. C.</author>
                                     <note type="description" corresp="#uncut">portrait, buckram,
                                         uncut</note>
                                     <note type="etc">
@@ -7132,7 +7138,7 @@
                             <biblStruct corresp="#owned" xml:id="sb069.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <resp>annotated by</resp>
@@ -7155,7 +7161,7 @@
                             <biblStruct corresp="#owned" xml:id="sb069.2">
                                 <monogr>
                                     <title>William Blake, a Critical Essay</title>
-                                    <author>Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">Swinburne, A. C.</author>
                                     <note type="description" corresp="#uncut">portrait, buckram,
                                         uncut</note>
                                     <imprint>
@@ -7171,7 +7177,7 @@
                                 <monogr>
                                     <title>Life, with Selections from his Poems and other Writings
                                         by Alex. Gilchrist</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <note type="description">2 vol. portrait and illustrations from
                                         Blake's works, cloth gilt</note>
                                     <imprint>
@@ -7189,7 +7195,7 @@
                                 <monogr>
                                     <title>Letters, with Life by Fredk. Tatham, with Notes,
                                         etc.</title>
-                                    <author>Blake, Wm.</author>
+                                    <author corresp="#blake">Blake, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. G. B. Russel</name>
@@ -7212,7 +7218,7 @@
                             <biblStruct corresp="#owned" xml:id="sb072.1">
                                 <monogr>
                                     <title>Prophecy of Saint Oran and other Poems</title>
-                                    <author>Blind, Mathilde</author>
+                                    <author corresp="#blind">Blind, Mathilde</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne from the author, with autograph
                                         inscription</note>
@@ -7230,7 +7236,7 @@
                             <biblStruct corresp="#owned" xml:id="sb073.1">
                                 <monogr>
                                     <title>John Bull and Co. by Max O'Rell</title>
-                                    <author>[Blouet, Paul]</author>
+                                    <author corresp="#blouet">[Blouet, Paul]</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Paul Blouet</name>
@@ -7253,7 +7259,7 @@
                             <biblStruct corresp="#owned" xml:id="sb074.1">
                                 <monogr>
                                     <title xml:lang="it">Il Decameron a la Sphere</title>
-                                    <author>Boccaccio, Giov.</author>
+                                    <author corresp="#boccaccio">Boccaccio, Giov.</author>
                                     <note type="description">old olive morocco gilt, gilt floreate
                                         borders, gilt edges, (Padeloup)</note>
                                     <imprint>
@@ -7272,11 +7278,11 @@
                             <biblStruct corresp="#owned" xml:id="sb075.1">
                                 <monogr>
                                     <title xml:lang="it">Decameron, con discorio da Foscolo</title>
-                                    <author>Boccaccio, G.</author>
+                                    <author corresp="#boccaccio">Boccaccio, G.</author>
                                     <note type="description">3 vol. potrait (no plates)</note>
                                     <imprint>
-                                        <publisher>Guglielmo Pickering</publisher>
-                                        <pubPlace>Londra</pubPlace>
+                                        <publisher corresp="#pickering">Guglielmo Pickering</publisher>
+                                        <pubPlace ref="#london">Londra</pubPlace>
                                         <date when="1825"/>
                                     </imprint>
                                     <extent>
@@ -7293,7 +7299,7 @@
                             <biblStruct corresp="#owned" xml:id="sb075.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Confessions</title>
-                                    <author>Rousseau, J. J.</author>
+                                    <author corresp="#rousseau">Rousseau, J. J.</author>
                                     <note type="description">3 vol. half morocco gilt, marbled
                                         edges</note>
                                     <note type="etc">
@@ -7319,7 +7325,7 @@
                                 <monogr>
                                     <title>Decameron, now first completely done into English Prose
                                         and Verse</title>
-                                    <author>Boccaccio, G.</author>
+                                    <author corresp="#boccaccio">Boccaccio, G.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">John Payne</name>
@@ -7327,8 +7333,8 @@
                                     <note type="description" corresp="#uncut">3 vol. unbound and
                                         uncut. Private printing.</note>
                                     <imprint>
-                                        <publisher>Villon Society</publisher>
-                                        <pubPlace>London</pubPlace>
+                                        <publisher corresp="#villon_society">Villon Society</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                     <extent>
@@ -7348,7 +7354,7 @@
                                 <monogr>
                                     <title xml:lang="it">Laberinto D'Amore con una Epistola
                                         Confortatiore a messer Pino di Rossi</title>
-                                    <author>Boccaccio, G.</author>
+                                    <author corresp="#boccaccio">Boccaccio, G.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -7364,11 +7370,11 @@
                                 <monogr>
                                     <title xml:lang="it">Opera Gentile et Elegante Nominata Fiametta
                                         Almorose Donne Mandata, etc.</title>
-                                    <author>Boccaccio, Joan.</author>
+                                    <author corresp="#boccaccio">Boccaccio, Joan.</author>
                                     <note type="description">in 1 vol. 2 woodcuts, old Venetian
                                         binding, tooled sides, wormed and last leaf defective</note>
                                     <imprint>
-                                        <pubPlace>Venesia</pubPlace>
+                                        <pubPlace ref="#venice">Venesia</pubPlace>
                                         <date when="1491"/>
                                     </imprint>
                                     <extent>
