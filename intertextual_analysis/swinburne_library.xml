@@ -987,6 +987,18 @@
                         <birth when="1816"/>
                         <death when="1855"/>
                     </person>
+                    <person xml:id="brontë_a">
+                        <persName source="http://id.loc.gov/authorities/names/n79034991">Brontë, 
+                            Anne, 1820-1849</persName>
+                        <birth when="1820"/>
+                        <death when="1849"/>
+                    </person>
+                    <person xml:id="brontë_e">
+                        <persName source="http://id.loc.gov/authorities/names/n79018755">Brontë, 
+                            Emily, 1818-1848</persName>
+                        <birth when="1818"/>
+                        <death when="1848"/>
+                    </person>
                     <person xml:id="brooke_s">
                         <persName source="http://id.loc.gov/authorities/names/n80026701">Brooke,
                             Stopford A. (Stopford Augustus), 1832-1916</persName>
@@ -1195,8 +1207,8 @@
                             Gaius Valerius</persName>
                     </person>
                     <person xml:id="cavalcaselle">
-                        <persName source="http://id.loc.gov/authorities/names/n79121687"
-                            >Cavalcaselle, G. B. (Giovanni Battista), 1819-1897</persName>
+                        <persName source="http://id.loc.gov/authorities/names/n79121687">Cavalcaselle, 
+                            G. B. (Giovanni Battista), 1819-1897</persName>
                         <birth when="1819"/>
                         <death when="1897"/>
                     </person>
@@ -4613,7 +4625,6 @@
                             Francesco, active 1523-1553</persName>
                         <floruit from="1523" to="1553"/>
                     </person>
-
                     <person xml:id="pasini">
                         <persName source="http://id.loc.gov/authorities/names/no95036795">Pasini,
                             Maffeo, active 1524-1551</persName>
@@ -4704,6 +4715,21 @@
                             Edward, 1801-1858</persName>
                         <birth when="1801"/>
                         <death when="1858"/>
+                    </person>
+                    <person xml:id="moseley">
+                        <persName source="http://id.loc.gov/authorities/names/no90019019">Moseley,
+                            Humphrey, -1661</persName>
+                        <death when="1661"/>
+                    </person>
+                    <person xml:id="marriot">
+                        <persName source="http://id.loc.gov/authorities/names/nr94036760">Marriot, 
+                            Richard, active 17th century</persName>
+                        <floruit from="1600" to="1699"/>
+                    </person>
+                    <person xml:id="dring">
+                        <persName source="http://id.loc.gov/authorities/names/nr94027011">Dring, 
+                            Thomas, -1695</persName>
+                        <death when="1695"/>
                     </person>
                 </listPerson>
                 
@@ -7818,7 +7844,9 @@
                             <biblStruct corresp="#owned" xml:id="sb083.2">
                                 <monogr>
                                     <title>Lovels of Arden</title>
-                                    <author>Braddon, M. E.</author>
+                                    <author corresp="#braddon">
+                                        <persName>Braddon, M. E.</persName>
+                                    </author>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
@@ -7835,7 +7863,9 @@
                             <biblStruct corresp="#owned" xml:id="sb083.3">
                                 <monogr>
                                     <title>Ralph the Bailiff</title>
-                                    <author>Braddon, M. E.</author>
+                                    <author corresp="#braddon">
+                                        <persName>Braddon, M. E.</persName>
+                                    </author>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
@@ -7848,7 +7878,9 @@
                             <biblStruct corresp="#owned" xml:id="sb083.4">
                                 <monogr>
                                     <title>Dead Love has Chains</title>
-                                    <author>Braddon, M. E.</author>
+                                    <author corresp="#braddon">
+                                        <persName>Braddon, M. E.</persName>
+                                    </author>
                                     <note type="etc">and some others by the same author<num
                                             value="12"/></note>
                                     <imprint>
@@ -7863,7 +7895,9 @@
                             <biblStruct corresp="#owned" xml:id="sb084.1">
                                 <monogr>
                                     <title>Highways and Byways in North Wales</title>
-                                    <author>Bradley, A. G.</author>
+                                    <author corresp="#bradley_a">
+                                        <persName>Bradley, A. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations by J.
                                         Pennell and Hugh Thomas, uncut</note>
                                     <imprint>
@@ -7876,7 +7910,9 @@
                             <biblStruct corresp="#owned" xml:id="sb084.2">
                                 <monogr>
                                     <title>Rodney</title>
-                                    <author>Hannay, D.</author>
+                                    <author corresp="#hannay">
+                                        <persName>Hannay, D.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1891"/>
@@ -7888,7 +7924,9 @@
                             <biblStruct corresp="#owned" xml:id="sb084.3">
                                 <monogr>
                                     <title>First Aryan Reader</title>
-                                    <author>Schrumpf, G. A.</author>
+                                    <author corresp="#schrumpf">
+                                        <persName>Schrumpf, G. A.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="18"/>
                                     </note>
@@ -7904,7 +7942,9 @@
                             <biblStruct corresp="#owned" xml:id="sb085.1">
                                 <monogr>
                                     <title>William Shakespeare: a Critical Study</title>
-                                    <author>Brandes, Geo.</author>
+                                    <author corresp="#brandes">
+                                        <persName>Brandes, Geo.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">2 vol. buckram,
                                         uncut</note>
                                     <imprint>
@@ -7922,7 +7962,9 @@
                             <biblStruct corresp="#owned" xml:id="sb085.2">
                                 <monogr>
                                     <title>Shakespeare's Predecessors in the English Drama</title>
-                                    <author>Symonds, J. A.</author>
+                                    <author corresp="#symonds">
+                                        <persName>Symonds, J. A.</persName>
+                                    </author>
                                     <imprint>
                                         <date when="1884"/>
                                     </imprint>
@@ -7935,7 +7977,9 @@
                             <biblStruct corresp="#owned" xml:id="sb085.3">
                                 <monogr>
                                     <title>The Man Shakespeare and his Tragic Life Story</title>
-                                    <author>Harris, F.</author>
+                                    <author corresp="#harris">
+                                        <persName>Harris, F.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
@@ -7952,7 +7996,9 @@
                                 <monogr>
                                     <title>A Strappado for the Diuell, with Introduction by J. W.
                                         Ebsworth</title>
-                                    <author>Brathwaite, Rich.</author>
+                                    <author corresp="#brathwaite">
+                                        <persName>Brathwaite, Rich.</persName>
+                                    </author>
                                     <imprint>
                                         <date when="1878"/>
                                     </imprint>
@@ -7963,7 +8009,12 @@
                             <biblStruct corresp="#owned" xml:id="sb086.2">
                                 <monogr>
                                     <title>Early Flemish Painters</title>
-                                    <author>Crowe and Caveleaselle</author>
+                                    <author corresp="#crowe">
+                                        <persName>Crowe</persName>
+                                    </author>
+                                    <author corresp="#cavalcaselle">
+                                        <persName>Cavelcaselle</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1857"/>
@@ -8051,7 +8102,9 @@
                             <biblStruct corresp="#owned" xml:id="sb088.1">
                                 <monogr>
                                     <title>Five New Playes</title>
-                                    <author>Brome, Richard</author>
+                                    <author corresp="#brome">
+                                        <persName>Brome, Richard</persName>
+                                    </author>
                                     <note type="description">calf (broken), ex libris of J. T.
                                         Brockett and Thomas Bell</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -8059,9 +8112,15 @@
                                     <imprint>
                                         <date when="1653"/>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Moseley, Humphrey</publisher>
-                                        <publisher>Marriot, Richard</publisher>
-                                        <publisher>Dring, Thomas</publisher>
+                                        <publisher corresp="#moseley">
+                                            <persName>Moseley, Humphrey</persName>
+                                        </publisher>
+                                        <publisher corresp="#marriot">
+                                            <persName>Marriot, Richard</persName>
+                                        </publisher>
+                                        <publisher corresp="#dring">
+                                            <persName>Dring, Thomas</persName>
+                                        </publisher>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="tcp"
@@ -8076,11 +8135,16 @@
                                 <monogr>
                                     <title>Dramatic Works, containing Fifteen Comedies now first
                                         Collected</title>
-                                    <author>Brome, R.</author>
+                                    <author corresp="#brome">
+                                        <persName>Brome, R.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">3 vol. portrait, uncut
                                         (3 covers missing)</note>
                                     <imprint>
-                                        <publisher>Pearson</publisher>
+                                        <!-- Some sources list John Pearson, no LCNAF on file -->
+                                        <publisher>
+                                            <persName>Pearson</persName>
+                                        </publisher>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
@@ -8099,7 +8163,9 @@
                                 <monogr>
                                     <title>Jane Eyre: an Autobiography, with Introduction by Clement
                                         K. Shorter</title>
-                                    <author>Brontë, Charlotte</author>
+                                    <author corresp="#brontë">
+                                        <persName>Brontë, Charlotte</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">To A. C. Swinburne, Esq. whose critical
@@ -8119,7 +8185,9 @@
                             <biblStruct corresp="#owned" xml:id="sb091.1">
                                 <monogr>
                                     <title>Life of Charlotte Brontë</title>
-                                    <author>Gaskell, E. C.</author>
+                                    <author corresp="#gaskell">
+                                        <persName>Gaskell, E. C.</persName>
+                                    </author>
                                     <note type="description">portrait, original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8143,9 +8211,15 @@
                                 <monogr>
                                     <title>Life and Works, and of her Sisters with Introductions,
                                         etc. by Mrs. Humphry Ward and Clement K. Shorter</title>
-                                    <author>Brontë, C.</author>
-                                    <author>Brontë, A.</author>
-                                    <author>Brontë, E.</author>
+                                    <author corresp="#brontë">
+                                        <persName>Brontë, C.</persName>
+                                    </author>
+                                    <author corresp="#brontë_a">
+                                        <persName>Brontë, A.</persName>
+                                    </author>
+                                    <author corresp="#brontë_e">
+                                        <persName>Brontë, E.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits and illustrations, green
                                         cloth, uncut, top edge gilt</note>
                                     <imprint>
@@ -8175,7 +8249,9 @@
                                 <monogr>
                                     <title>Works in Verse and Prose Complete, with Notes,
                                         etc.</title>
-                                    <author>Brooke, Fulke Greville, Lord</author>
+                                    <author corresp="#brooke_f">
+                                        <persName>Brooke, Fulke Greville, Lord</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -8203,7 +8279,9 @@
                             <biblStruct corresp="#owned" xml:id="sb094.1">
                                 <monogr>
                                     <title>Inaugural Address to the Shelley Society</title>
-                                    <author>Brooke, Stopford A.</author>
+                                    <author corresp="#brooke_s">
+                                        <persName>Brooke, Stopford A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 25 copies,
                                         privately printed, uncut, with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with
@@ -8222,7 +8300,10 @@
                             <biblStruct corresp="#owned" xml:id="sb094.2">
                                 <monogr>
                                     <title>The Rodiad</title>
-                                    <author>Coleman, G.</author>
+                                    <!-- George Coleman is apparently a pseudonym / literary hoax. How to associate? -->
+                                    <author>
+                                        <persName>Coleman, G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">private reprint of 200
                                         copies only, uncut</note>
                                     <imprint>
