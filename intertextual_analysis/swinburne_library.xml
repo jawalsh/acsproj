@@ -1075,6 +1075,12 @@
                         <birth when="1840"/>
                         <death when="1920"/>
                     </person>
+                    <person xml:id="burne-jones_e">
+                        <persName source="http://id.loc.gov/authorities/names/n79120945">Burne-Jones, 
+                            Edward Coley, 1833-1898</persName>
+                        <birth when="1833"/>
+                        <death when="1898"/>
+                    </person>
                     <person xml:id="burroughs">
                         <persName source="http://id.loc.gov/authorities/names/n79082230">Burroughs,
                             John, 1837-1921</persName>
@@ -1315,6 +1321,12 @@
                         <birth when="1830"/>
                         <death when="1913"/>
                     </person>
+                    <person xml:id="coleridge_s">
+                        <persName source="http://id.loc.gov/authorities/names/n78095462">Coleridge, 
+                            Samuel Taylor, 1772-1834</persName>
+                        <birth when="1772"/>
+                        <death when="1834"/>
+                    </person>
                     <person xml:id="coleridge-taylor">
                         <persName source="http://id.loc.gov/authorities/names/n81004092"
                             >Coleridge-Taylor, Samuel, 1875-1912</persName>
@@ -1338,6 +1350,12 @@
                             John Churton, 1848-1908</persName>
                         <birth when="1848"/>
                         <death when="1908"/>
+                    </person>
+                    <person xml:id="collins_w">
+                        <persName source="http://id.loc.gov/authorities/names/n50026862">Collins, 
+                            William, 1721-1759</persName>
+                        <birth when="1721"/>
+                        <death when="1759"/>
                     </person>
                     <person xml:id="colman">
                         <persName source="http://id.loc.gov/authorities/names/n50029130">Colman,
@@ -8319,7 +8337,7 @@
                                 <monogr>
                                     <title>Stray Verses, <date from="1889" to="1890"
                                             >1889-1890</date></title>
-                                    <author>Houghton, Robt. Lord</author>
+                                    <author corresp="#crewe">Houghton, Robt. Lord</author>
                                     <note type="description" corresp="#uncut">half vellum,
                                         uncut</note>
                                     <note type="etc">
@@ -8337,7 +8355,7 @@
                             <biblStruct corresp="#owned" xml:id="sb095.1">
                                 <monogr>
                                     <title>Doctor Cupid: a Novel</title>
-                                    <author>Broughton, Rhoda</author>
+                                    <author corresp="#broughton">Broughton, Rhoda</author>
                                     <imprint>
                                         <date when="1891"/>
                                     </imprint>
@@ -8348,7 +8366,7 @@
                             <biblStruct corresp="#owned" xml:id="sb095.2">
                                 <monogr>
                                     <title>"Good-Bye Sweetheart"</title>
-                                    <author>Broughton, Rhoda</author>
+                                    <author corresp="#broughton">Broughton, Rhoda</author>
                                     <imprint>
                                         <date when="1899"/>
                                     </imprint>
@@ -8360,7 +8378,7 @@
                             <biblStruct corresp="#owned" xml:id="sb095.3">
                                 <monogr>
                                     <title>Red as a Rose is She</title>
-                                    <author>Broughton, Rhoda</author>
+                                    <author corresp="#broughton">Broughton, Rhoda</author>
                                     <imprint>
                                         <date when="1899"/>
                                     </imprint>
@@ -8373,7 +8391,7 @@
                             <biblStruct corresp="#owned" xml:id="sb095.4">
                                 <monogr>
                                     <title>Not Wisely, but too Well</title>
-                                    <author>Broughton, Rhoda</author>
+                                    <author corresp="#broughton">Broughton, Rhoda</author>
                                     <note type="etc">and others by the same author<num value="9"
                                         /></note>
                                     <imprint>
@@ -8388,7 +8406,7 @@
                             <biblStruct corresp="#owned" xml:id="sb096.1">
                                 <monogr>
                                     <title>John Leech, and other Papers</title>
-                                    <author>Brown, John</author>
+                                    <author corresp="#brown_j">Brown, John</author>
                                     <imprint>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1882"/>
@@ -8400,7 +8418,7 @@
                             <biblStruct corresp="#owned" xml:id="sb096.2">
                                 <monogr>
                                     <title>Life of Edgar Allen Poe</title>
-                                    <author>Gill, W. F.</author>
+                                    <author corresp="#gill">Gill, W. F.</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy to Swinburne, with inscription</note>
                                     <imprint>
@@ -8413,7 +8431,7 @@
                             <biblStruct corresp="#owned" xml:id="sb096.3">
                                 <monogr>
                                     <title>Companions of my Solitude</title>
-                                    <author>Helps, Sir A.</author>
+                                    <author corresp="#helps">Helps, Sir A.</author>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="14"/></note>
                                     <imprint>
@@ -8428,7 +8446,7 @@
                             <bibl xml:id="sb097.1">
                                 <title>Earlier Poems <date from="1826" to="1833"
                                     >1826-1833</date></title>
-                                <author>Browning, E. B.</author>
+                                <author corresp="#browning_e">Browning, E. B.</author>
                                 <note type="description" corresp="#uncut #presentation">uncut,
                                     presentation copy, with inscription</note>
                                 <note type="inscription">A. C. Swinburne, with kind and grateful
@@ -8441,7 +8459,7 @@
                             <biblStruct corresp="#owned" xml:id="sb097.2">
                                 <monogr>
                                     <title>Prometheus Bound and other Poems</title>
-                                    <author>Browning, E. B.</author>
+                                    <author corresp="#browning_e">Browning, E. B.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="2"/>
@@ -8458,7 +8476,7 @@
                             <biblStruct corresp="#owned" xml:id="sb098.1">
                                 <monogr>
                                     <title>Letters Addressed to Richard Hengist Horne</title>
-                                    <author>Browning, E. B.</author>
+                                    <author corresp="#browning_e">Browning, E. B.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. R. Townshend Mayer</name>
@@ -8479,7 +8497,7 @@
                             <biblStruct corresp="#owned" xml:id="sb098.2">
                                 <monogr>
                                     <title>Letters and Unpublished Writings</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Stephen Wheeler</name>
@@ -8500,7 +8518,7 @@
                             <biblStruct corresp="#owned" xml:id="sb099.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Browning, E. B.</author>
+                                    <author corresp="#browning_e">Browning, E. B.</author>
                                     <note type="description">5 vol. original cloth</note>
                                     <imprint>
                                         <date when="1877"/>
@@ -8524,7 +8542,7 @@
                             <biblStruct corresp="#owned" xml:id="sb100.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Browning E. B.</author>
+                                    <author corresp="#browning_e">Browning E. B.</author>
                                     <note type="description">5 vol. (wanting vol. II), portrait,
                                         brown cloth</note>
                                     <imprint>
@@ -8542,7 +8560,7 @@
                             <biblStruct corresp="#owned" xml:id="sb100.2">
                                 <monogr>
                                     <title>Translation of the Iliad of Homer</title>
-                                    <author>Worlsey, P. S.</author>
+                                    <author corresp="#worsley">Worlsey, P. S.</author>
                                     <note type="description">vol. I, signature of D. G. Rosetti on
                                         title</note>
                                     <note type="etc">
@@ -8561,7 +8579,7 @@
                             <biblStruct corresp="#owned" xml:id="sb101.1">
                                 <monogr>
                                     <title>Strafford: an Historical Tragedy</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">half roan</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8576,7 +8594,7 @@
                                 <monogr>
                                     <title>Prose Life of Strafford, with Introduction by C. H.
                                         Firth, and Forewords by F. J. Furnivall</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">pencil note on flyleaf in handwriting
                                         of Swinburne</note>
                                     <note type="etc">
@@ -8594,7 +8612,7 @@
                             <biblStruct corresp="#owned" xml:id="sb102.1">
                                 <monogr>
                                     <title>Sordello</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8609,7 +8627,7 @@
                             <biblStruct corresp="#owned" xml:id="sb103.1">
                                 <monogr>
                                     <title>Christmas Eve and Easter Day</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">original cloth, loose</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8624,7 +8642,7 @@
                             <biblStruct corresp="#owned" xml:id="sb104.1">
                                 <monogr>
                                     <title>Dramitis Personae</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8637,7 +8655,7 @@
                             <biblStruct corresp="#owned" xml:id="sb104.2">
                                 <monogr>
                                     <title>Bells and Pomegranates, with Notes by T. J. Wise</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description" corresp="#uncut">both series, 2 vol. 2
                                         portraits, uncut</note>
                                     <note type="etc">
@@ -8660,7 +8678,7 @@
                             <biblStruct corresp="#owned" xml:id="sb105.1">
                                 <monogr>
                                     <title>The Ring and the Book</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description" corresp="#presentation">4 vol. green
                                         cloth; Presentation copy from the author, with autograph
                                         inscription</note>
@@ -8689,7 +8707,7 @@
                             <biblStruct corresp="#owned" xml:id="sb106.1">
                                 <monogr>
                                     <title>The Ring and the Book</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">4 vol. green cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8712,7 +8730,7 @@
                             <biblStruct corresp="#owned" xml:id="sb107.1">
                                 <monogr>
                                     <title>Balaustion's Adventure</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1871"/>
@@ -8724,7 +8742,7 @@
                             <biblStruct corresp="#owned" xml:id="sb107.2">
                                 <monogr>
                                     <title>Ferishtah's Fancies</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1884"/>
@@ -8736,7 +8754,7 @@
                             <biblStruct corresp="#owned" xml:id="sb107.3">
                                 <monogr>
                                     <title>Parleyings with Certain People</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
@@ -8750,7 +8768,7 @@
                             <biblStruct corresp="#owned" xml:id="sb108.1">
                                 <monogr>
                                     <title>Fifine at the Fair</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1872"/>
@@ -8762,7 +8780,7 @@
                             <biblStruct corresp="#owned" xml:id="sb108.2">
                                 <monogr>
                                     <title>Red Cotton Nightcap Country</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1873"/>
@@ -8774,7 +8792,7 @@
                             <biblStruct corresp="#owned" xml:id="sb108.3">
                                 <monogr>
                                     <title>The Inn Album</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1875"/>
@@ -8788,7 +8806,7 @@
                             <biblStruct corresp="#owned" xml:id="sb109.1">
                                 <monogr>
                                     <title>Dramatic Idyls</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">both series, 2 vol.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -8807,7 +8825,7 @@
                             <biblStruct corresp="#owned" xml:id="sb109.2">
                                 <monogr>
                                     <title>Asolando</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
@@ -8824,7 +8842,7 @@
                             <biblStruct corresp="#owned" xml:id="sb110.1">
                                 <monogr>
                                     <title>Asolando</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <imprint>
                                         <date when="1890"/>
                                     </imprint>
@@ -8835,7 +8853,7 @@
                             <biblStruct corresp="#owned" xml:id="sb110.2">
                                 <monogr>
                                     <title>Balaustion's Adventure</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <imprint>
                                         <date when="1881"/>
                                     </imprint>
@@ -8846,7 +8864,7 @@
                             <biblStruct corresp="#owned" xml:id="sb110.3">
                                 <monogr>
                                     <title>Aristophanes' Apology</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">with autograph signature and MS. note
                                         of B. Jowett</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -8863,7 +8881,7 @@
                             <biblStruct corresp="#owned" xml:id="sb111.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">6 vol. original cloth</note>
                                     <imprint>
                                         <date when="1886"/>
@@ -8882,7 +8900,7 @@
                             <biblStruct corresp="#owned" xml:id="sb112.1">
                                 <monogr>
                                     <title>Letters to and from Elizabeth Barrett Browning</title>
-                                    <author>Browning, R.</author>
+                                    <author corresp="#browning_r">Browning, R.</author>
                                     <note type="description">2 vol. portraits and facsimilies</note>
                                     <edition/>
                                     <imprint>
@@ -8901,7 +8919,7 @@
                                 <monogr>
                                     <title>Aurora Leigh, with Prefactory Note by A. C.
                                         Swinburne</title>
-                                    <author>Browning, E. B.</author>
+                                    <author corresp="#browning_e">Browning, E. B.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -8913,7 +8931,7 @@
                             <biblStruct corresp="#owned" xml:id="sb112.3">
                                 <monogr>
                                     <title>Anima Poetae</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. H. Coleridge</name>
@@ -8935,7 +8953,7 @@
                             <biblStruct corresp="#owned" xml:id="sb113.1">
                                 <monogr>
                                     <title xml:lang="">Opere</title>
-                                    <author>Bruno, G.</author>
+                                    <author corresp="#bruno">Bruno, G.</author>
                                     <editor>A. Wagner</editor>
                                     <note type="description">2 vol. portrait, tree-calf gilt,
                                         marbled edges</note>
@@ -8980,7 +8998,7 @@
                                 <monogr>
                                     <title>A Dialogue against the Feuer Pestilance, part I, the
                                         Text</title>
-                                    <author>Bullein, Wm.</author>
+                                    <author corresp="#bullein">Bullein, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">M. W. Bullen</name>
@@ -9004,7 +9022,7 @@
                                 <monogr>
                                     <title>Whole Works, with Preface, Notes and Life by George
                                         Offor</title>
-                                    <author>Bunyan, John</author>
+                                    <author corresp="#bunyan">Bunyan, John</author>
                                     <note type="description">3 vol. portrait and engravings, half
                                         morocco, sprinkled edges; imperial 8vo.</note>
                                     <imprint>
@@ -9029,7 +9047,7 @@
                                     <title><foreign xml:lang="lt">Diarium sive Rerum Urbanarum
                                             Commentarii</foreign> (1483-1506), avec Introduction,
                                         Notes, Appendices, etc. par L. Thuasne</title>
-                                    <author>Burchard, Joh.</author>
+                                    <author corresp="#burchard">Burchard, Joh.</author>
                                     <note type="description" corresp="#uncut">3 vol. uncut; imperial 8vo.</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -9051,7 +9069,7 @@
                             <biblStruct corresp="#owned" xml:id="sb117.1">
                                 <monogr>
                                     <title>Memorials, by G. B.-J.</title>
-                                    <author>Burne-Jones, Edward</author>
+                                    <author corresp="#burne-jones_e">Burne-Jones, Edward</author>
                                     <note type="description" corresp="#uncut">2 vol. portraits and
                                         woodcuts, blue cloth, uncut, top edge gilt</note>
                                     <imprint>
@@ -9069,7 +9087,7 @@
                             <biblStruct corresp="#owned" xml:id="sb117.2">
                                 <monogr>
                                     <title>Albert Dürer, his Life and Works</title>
-                                    <author>Scott, Wm. B.</author>
+                                    <author corresp="#scott_wi">Scott, Wm. B.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -9086,9 +9104,9 @@
                             <biblStruct corresp="#owned" xml:id="sb118.1">
                                 <monogr>
                                     <title>Notes on Walt Whitman as Poet and Person</title>
-                                    <author>Burroughs, John</author>
+                                    <author corresp="#burroughs">Burroughs, John</author>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -9098,7 +9116,7 @@
                             <biblStruct corresp="#owned" xml:id="sb118.2">
                                 <monogr>
                                     <title>Letters, with notes</title>
-                                    <author>Beddoes, T. L.</author>
+                                    <author corresp="#beddoes">Beddoes, T. L.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. Gosse</name>
@@ -9123,7 +9141,7 @@
                             <biblStruct corresp="#owned" xml:id="sb119.1">
                                 <monogr>
                                     <title>Inner Life of Syria, Palestine and the Holy Land</title>
-                                    <author>Burton, Isabel</author>
+                                    <author corresp="#burton_i">Burton, Isabel</author>
                                     <note type="description" corresp="#presentation">2 vol. map,
                                         photographs and colored plates, presentation copy with
                                         inscription</note>
@@ -9146,7 +9164,7 @@
                             <biblStruct corresp="#owned" xml:id="sb120.1">
                                 <monogr>
                                     <title>Arabia, Egypt, India: a Narrative of Travel</title>
-                                    <author>Burton, I.</author>
+                                    <author corresp="#burton_i">Burton, I.</author>
                                     <note type="description" corresp="#presentation">15
                                         illustrations and 2 maps, presentation copy with
                                         inscription</note>
@@ -9165,12 +9183,12 @@
                             <biblStruct corresp="#owned" xml:id="sb121.1">
                                 <monogr>
                                     <title>Poetical Works, with Life by J. Mitford</title>
-                                    <author>Butler, Saml.</author>
+                                    <author corresp="#butler">Butler, Saml.</author>
                                     <note type="description">2 vol. portrait, morocco, gilt
                                         edges</note>
                                     <edition>Aldine Edition</edition>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1835"/>
                                     </imprint>
                                     <biblScope unit="vol" from="1" to="2"/>
@@ -9183,11 +9201,11 @@
                             <biblStruct corresp="#owned" xml:id="sb121.2">
                                 <monogr>
                                     <title>The Seasons</title>
-                                    <author>Thomson, J.</author>
+                                    <author corresp="#thomson_j1700">Thomson, J.</author>
                                     <note type="description">morocco, gilt edges</note>
                                     <edition>Aldine Edition</edition>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1845"/>
                                     </imprint>
                                 </monogr>
@@ -9197,11 +9215,11 @@
                             <biblStruct corresp="#owned" xml:id="sb121.3">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Collins, W.</author>
+                                    <author corresp="#collins_w">Collins, W.</author>
                                     <note type="description">portrait, morroco, gilt edges</note>
                                     <edition>Aldine Edition</edition>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1830"/>
                                     </imprint>
                                 </monogr>
@@ -9211,14 +9229,14 @@
                             <biblStruct corresp="#owned" xml:id="sb121.4">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Goldsmith, O.</author>
+                                    <author corresp="#goldsmith">Goldsmith, O.</author>
                                     <note type="description">portrait, morocco, gilt edges</note>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
                                     <edition>Aldine Edition</edition>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1839"/>
                                     </imprint>
                                 </monogr>
@@ -9230,7 +9248,7 @@
                             <biblStruct corresp="#owned" xml:id="sb122.1">
                                 <monogr>
                                     <title>Conversations with the Countess of Blessington</title>
-                                    <author>Byron, Lord</author>
+                                    <author corresp="#byron">Byron, Lord</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <date when="1834"/>
@@ -9245,9 +9263,9 @@
                             <biblStruct corresp="#owned" xml:id="sb122.2">
                                 <monogr>
                                     <title>Prose Works</title>
-                                    <author>Cowley, A.</author>
+                                    <author corresp="#cowley">Cowley, A.</author>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1826"/>
                                     </imprint>
                                 </monogr>
@@ -9257,7 +9275,7 @@
                             <biblStruct corresp="#owned" xml:id="sb122.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Herbert, Lord, of Cherbury</author>
+                                    <author corresp="#herbert_cherbury">Herbert, Lord, of Cherbury</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. Churton Collins</name>
@@ -9273,7 +9291,7 @@
                             <biblStruct corresp="#owned" xml:id="sb122.4">
                                 <monogr>
                                     <title>Recollections</title>
-                                    <author>Rogers, S.</author>
+                                    <author corresp="#rogers">Rogers, S.</author>
                                     <note type="etc">
                                         <num value="10"/>
                                     </note>
@@ -9290,7 +9308,7 @@
                             <biblStruct corresp="#owned" xml:id="sb123.1">
                                 <monogr>
                                     <title>Poetical and Prose Works</title>
-                                    <author>Byron, Lord</author>
+                                    <author corresp="#byron">Byron, Lord</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. H. Coleridge</name>
@@ -9339,7 +9357,7 @@
                             <biblStruct corresp="#owned" xml:id="sb124.1">
                                 <monogr>
                                     <title>The Christian</title>
-                                    <author>Caine, Hall</author>
+                                    <author corresp="#caine">Caine, Hall</author>
                                     <imprint>
                                         <date when="1897"/>
                                     </imprint>
@@ -9351,7 +9369,7 @@
                                 <monogr>
                                     <title>"Quo Vadis"</title>
                                     <!-- xml:lang is Latvian? -->
-                                    <author>Sienkiewiez, H.</author>
+                                    <author corresp="#sienkiewicz">Sienkiewiez, H.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">J. Curtin</name>
@@ -9366,7 +9384,7 @@
                             <biblStruct corresp="#owned" xml:id="sb124.3">
                                 <monogr>
                                     <title>The World went very well then</title>
-                                    <author>Besant, W.</author>
+                                    <author corresp="#besant">Besant, W.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1887"/>
@@ -9378,7 +9396,7 @@
                             <biblStruct corresp="#owned" xml:id="sb124.4">
                                 <monogr>
                                     <title>The Well-Beloved</title>
-                                    <author>Hardy, Thos.</author>
+                                    <author corresp="#hardy">Hardy, Thos.</author>
                                     <note type="description">etching and map</note>
                                     <note type="etc">and other Novels<num value="20"/></note>
                                     <imprint>
@@ -9393,7 +9411,7 @@
                             <biblStruct corresp="#owned" xml:id="sb125.1">
                                 <monogr>
                                     <title>Lusiads, translated into English Verse</title>
-                                    <author>Camoens</author>
+                                    <author corresp="#camões">Camoens</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">J. J. Aubertin</name>
