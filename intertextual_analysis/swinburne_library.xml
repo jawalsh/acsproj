@@ -1173,7 +1173,6 @@
                         <birth when="1795"/>
                         <death when="1881"/>
                     </person>
-
                     <person xml:id="carr_j">
                         <persName source="http://id.loc.gov/authorities/names/n82208050">Carr, J.
                             Comyns (Joseph Comyns), 1849-1916</persName>
@@ -4748,6 +4747,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94027011">Dring, 
                             Thomas, -1695</persName>
                         <death when="1695"/>
+                    </person>
+                    <person xml:id="giunta">
+                        <persName source="http://id.loc.gov/authorities/names/nr97028549">Giunta, 
+                            Bernardo, active 1567-1627</persName>
+                        <floruit from="1567" to="1627"/>
                     </person>
                 </listPerson>
                 
@@ -9432,8 +9436,8 @@
                             <bibl xml:id="sb125.2">
                                 <title>Seventy Sonnets of Camoens, Portuguese Text and Translation,
                                     with Original Poems by J. J. Aubertin</title>
-                                <author>Camoens</author>
-                                <author>J. J. Aubertin</author>
+                                <author corresp="#camões">Camoens</author>
+                                <author corresp="#aubertin">J. J. Aubertin</author>
                                 <respStmt>
                                     <resp>translated by</resp>
                                     <name full="yes">J. J. Aubertin</name>
@@ -9449,7 +9453,7 @@
                             <biblStruct corresp="#owned" xml:id="sb126.1">
                                 <monogr>
                                     <title xml:lang="pt">Os Lusiadas (The Lusiads)</title>
-                                    <author>Camoeus</author>
+                                    <author corresp="#camões">Camoeus</author>
                                     <respStmt>
                                         <resp>Englished by</resp>
                                         <name full="yes">R. F. Burton</name>
@@ -9486,6 +9490,7 @@
                                         Scultore Fiorentino</title>
                                     <author>Campani, G. P.</author>
                                     <!-- Check speling. -->
+                                    <!-- Other sources list author as Francesco Tassi. No LCNAF found for Campani. -->
                                     <note type="description">portrait, calf gilt</note>
                                     <imprint>
                                         <pubPlace ref="#milan">Milano</pubPlace>
@@ -9507,7 +9512,7 @@
                             <biblStruct corresp="#owned" xml:id="sb128.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Campbell, Thos.</author>
+                                    <author corresp="#campbell_t">Campbell, Thos.</author>
                                     <note type="description">portrait and illustrations after
                                         Turner, morocco, gilt edges</note>
                                     <imprint>
@@ -9520,7 +9525,7 @@
                             <biblStruct corresp="#owned" xml:id="sb128.2">
                                 <monogr>
                                     <title>Poetical Works, English and Latin</title>
-                                    <author>Gray, T.</author>
+                                    <author corresp="#gray">Gray, T.</author>
                                     <note type="description">frontspiece and plates, morocco gilt,
                                         gilt edges</note>
                                     <imprint>
@@ -9534,7 +9539,7 @@
                             <biblStruct corresp="#owned" xml:id="sb128.3">
                                 <monogr>
                                     <title>Poetical Works, with Memoir by W. B. Scott</title>
-                                    <author>Byron, Lord</author>
+                                    <author corresp="#byron">Byron, Lord</author>
                                     <note type="description">portrait, half morocco gilt</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -9558,7 +9563,7 @@
                             <biblStruct corresp="#owned" xml:id="sb129.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Campion, Thos.</author>
+                                    <author corresp="#campion">Campion, Thos.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -9566,7 +9571,7 @@
                                     <note type="description" corresp="#uncut">one of 400 copies,
                                         uncut, privately printed</note>
                                     <imprint>
-                                        <publisher>Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -9579,7 +9584,7 @@
                                 <monogr>
                                     <title>Life of Friedrich Schiller, comprehending an Examination
                                         of his Works</title>
-                                    <author>Carlyle, Thos.</author>
+                                    <author corresp="#carlyle">Carlyle, Thos.</author>
                                     <note type="description">portrait, calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -9592,7 +9597,7 @@
                             <biblStruct corresp="#owned" xml:id="sb130.2">
                                 <monogr>
                                     <title>The French Revolution, a History</title>
-                                    <author>Carlyle, Thos.</author>
+                                    <author corresp="#carlyle">Carlyle, Thos.</author>
                                     <note type="description"/>
                                     <imprint>
                                         <date when="1848"/>
@@ -9611,7 +9616,7 @@
                             <biblStruct corresp="#owned" xml:id="sb130.3">
                                 <monogr>
                                     <title>Latter Day Pamphlets</title>
-                                    <author>Carlyle, Thos.</author>
+                                    <author corresp="#carlyle">Carlyle, Thos.</author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
@@ -9628,7 +9633,7 @@
                                 <monogr>
                                     <title>History of Friedrich II of Prussia called Fredrick the
                                         Great</title>
-                                    <author>Carlyle, T.</author>
+                                    <author corresp="#carlyle">Carlyle, T.</author>
                                     <note type="description"/>
                                     <edition>Library Edition</edition>
                                     <imprint>
@@ -9656,7 +9661,7 @@
                             <biblStruct corresp="#owned" xml:id="sb132.1">
                                 <monogr>
                                     <title>Life of John Sterling</title>
-                                    <author>Carlyle, T.</author>
+                                    <author corresp="#carlyle">Carlyle, T.</author>
                                     <imprint>
                                         <date when="1852"/>
                                     </imprint>
@@ -9667,7 +9672,7 @@
                             <biblStruct corresp="#owned" xml:id="sb132.2">
                                 <monogr>
                                     <title>Life of J. M. W. Turner</title>
-                                    <author>Hamerton, P. G.</author>
+                                    <author corresp="#hamerton">Hamerton, P. G.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1895"/>
@@ -9679,7 +9684,7 @@
                             <biblStruct corresp="#owned" xml:id="sb132.3">
                                 <monogr>
                                     <title>Life of Lord Chancellor Eldon</title>
-                                    <author>Twiss, H.</author>
+                                    <author corresp="#twiss">Twiss, H.</author>
                                     <note type="description">portrait and plates</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -9703,7 +9708,7 @@
                             <biblStruct corresp="#owned" xml:id="sb133.1">
                                 <monogr>
                                     <title>Memoirs of his Life and Writings</title>
-                                    <author>Carlyle, T.</author>
+                                    <author corresp="#carlyle">Carlyle, T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. H. Shepherd</name>
@@ -9724,7 +9729,7 @@
                             <biblStruct corresp="#owned" xml:id="sb133.2">
                                 <monogr>
                                     <title>Thomas Carlyle, the Man and his Books</title>
-                                    <author>Wylie, W. H.</author>
+                                    <author corresp="#wylie">Wylie, W. H.</author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="9"/>
@@ -9752,7 +9757,7 @@
                             <biblStruct corresp="#owned" xml:id="sb134.2">
                                 <monogr>
                                     <title>Comedies</title>
-                                    <author>Aristophanes</author>
+                                    <author corresp="#aristophanes">Aristophanes</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <resp>translated by</resp>
@@ -9789,7 +9794,8 @@
                             <biblStruct corresp="#owned" xml:id="sb135.1">
                                 <monogr>
                                     <title>Tristan and Iseult, a Drama in four Acts</title>
-                                    <author>Carr, J. Comyus</author>
+                                    <author corresp="#carr_j">Carr, J. Comyus</author>
+                                    <!-- Check spelling. -->
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">To A. C. Swinburne from J. Comyus
@@ -9804,7 +9810,7 @@
                             <biblStruct corresp="#owned" xml:id="sb135.2">
                                 <monogr>
                                     <title>David and Bathshua, a Drama in five Acts</title>
-                                    <author>Wynne, C. W.</author>
+                                    <author corresp="#wynne">Wynne, C. W.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="etc">
@@ -9823,7 +9829,7 @@
                                 <monogr>
                                     <title>Carmina, now first completely Englished into Verse and
                                         Prose</title>
-                                    <author>Catullus</author>
+                                    <author corresp="#catullus">Catullus</author>
                                     <respStmt>
                                         <resp>Englished by</resp>
                                         <name full="yes">Sir R. F. Burton</name>
@@ -9844,10 +9850,13 @@
                                 <monogr>
                                     <title xml:lang="it">Il Corredo Comedia</title>
                                     <author>Cecchi, Gianmaria</author>
+                                    <!-- No LCNAF found, though these links are worth examining. -->
+                                    <!-- https://id.loc.gov/resources/works/7775044.html -->
+                                    <!-- https://id.loc.gov/authorities/names/n84186682.html -->
                                     <note type="description">old blue morocco gilt, inside gilt
                                         borders, gilt edges, by H. Duru</note>
                                     <imprint>
-                                        <publisher xml:lang="it">appresso Bernardo
+                                        <publisher xml:lang="it" corresp="#giunta">appresso Bernardo
                                             Giunti</publisher>
                                         <pubPlace xml:lang="it" ref="#venice">In Venetia</pubPlace>
                                         <date when="1585"/>
@@ -9861,7 +9870,7 @@
                             <biblStruct corresp="#owned" xml:id="sb138.1">
                                 <monogr>
                                     <title>Dramatic Works, with a new Account of her Life</title>
-                                    <author>Centlivre, Mrs.</author>
+                                    <author corresp="#centlivre">Centlivre, Mrs.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <publisher>Pearson</publisher>
@@ -9884,7 +9893,7 @@
                                 <monogr>
                                     <title>Thealma and Clearchus, a Pastoral History in smooth and
                                         easie Verse</title>
-                                    <author>Chalkhill, John <note>an acquaintance and friend of
+                                    <author corresp="#chalkhill">Chalkhill, John <note>an acquaintance and friend of
                                             Edmund Spenser</note></author>
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -9911,6 +9920,7 @@
                                         corrigées oultre les précédentes impressions</title>
                                     <author>Charlier, Alain</author>
                                     <!-- Check spelling. -->
+                                    <!-- No LCNAF found. -->
                                     <note type="description">woodcuts, ruled in red, red morocco
                                         gilt, gilt edges, by C. Smith, 2 leaves in neat fascimile,
                                         autograph of P. Scarron on title, and an ex-libris of Hom.
