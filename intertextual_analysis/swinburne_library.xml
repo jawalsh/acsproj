@@ -1264,6 +1264,12 @@
                         <birth cert="unknown" when="1559"/>
                         <death when="1634"/>
                     </person>
+                    <person xml:id="chatelain">
+                        <persName source="http://id.loc.gov/authorities/names/n96061548">Chatelain, 
+                            Jean Baptiste François Ernest, chevalier de, 1801-1881</persName>
+                        <birth when="1801"/>
+                        <death when="1881"/>
+                    </person>
                     <person xml:id="chatterton">
                         <persName source="http://id.loc.gov/authorities/names/n80039722">Chatterton,
                             Thomas, 1752-1770</persName>
@@ -1517,6 +1523,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr91021798">Cust,
                             Robert H. Hobart (Robert Henry Hobart), 1861-</persName>
                         <birth when="1861"/>
+                    </person>
+                    <person xml:id="cyrano">
+                        <persName source="http://id.loc.gov/authorities/names/n50078540">Cyrano 
+                            de Bergerac, 1619-1655</persName>
+                        <birth when="1619"/>
+                        <death when="1655"/>
                     </person>
                     <person xml:id="daniel_g">
                         <persName source="http://id.loc.gov/authorities/names/no99039806">Daniel,
@@ -2556,6 +2568,10 @@
                             Thomas, 1558-1594</persName>
                         <birth when="1558"/>
                         <death when="1594"/>
+                    </person>
+                    <person xml:id="la_chapelle">
+                        <persName source="http://id.loc.gov/authorities/names/n83177817">La Chapelle, 
+                            M. de (Jean), 1655-1723</persName>
                     </person>
                     <person xml:id="laclos">
                         <persName source="http://id.loc.gov/authorities/names/n80049565 ">Laclos,
@@ -9945,7 +9961,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Un Français, un Vieux de la Vieille à ses
                                         compatriotes de 1870</title>
-                                    <author>Chatelain, Chev. de</author>
+                                    <author corresp="#chatelain">Chatelain, Chev. de</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with author's inscription</note>
                                     <imprint>
@@ -9957,7 +9973,7 @@
                             <biblStruct corresp="#owned" xml:id="sb141.2">
                                 <monogr>
                                     <title>A Village Tragedy</title>
-                                    <author>Woods, Margaret L.</author>
+                                    <author corresp="#woods">Woods, Margaret L.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with author's inscription</note>
                                     <note type="etc" corresp="#presentation">and others, all
@@ -9976,7 +9992,7 @@
                             <biblStruct corresp="#owned" xml:id="sb142.1">
                                 <monogr>
                                     <title>Poems, Modernized</title>
-                                    <author>Chaucer, Geoffrey</author>
+                                    <author corresp="#chaucer">Chaucer, Geoffrey</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1841"/>
@@ -9989,7 +10005,7 @@
                                 <monogr>
                                     <title>State Trials Political and Social</title>
                                     <respStmt>
-                                        <resp>selecetd by</resp>
+                                        <resp>selected by</resp>
                                         <resp>edited by</resp>
                                         <name full="yes">H. L. Stephen</name>
                                     </respStmt>
@@ -10009,7 +10025,7 @@
                             <biblStruct corresp="#owned" xml:id="sb142.3">
                                 <monogr>
                                     <title>Life and Adventures of Peter Wilkins</title>
-                                    <author>Potlock, Robt.</author>
+                                    <author corresp="#paltock">Paltock, Robt.</author>
                                     <respStmt>
                                         <resp>preface by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -10034,7 +10050,7 @@
                             <biblStruct corresp="#owned" xml:id="sb143.1">
                                 <monogr>
                                     <title>Poetical Works, with Memoir by Sir Harris Nicolas</title>
-                                    <author>Chaucer, G.</author>
+                                    <author corresp="#chaucer">Chaucer, G.</author>
                                     <note type="description">portrait, morocco, gilt edges</note>
                                     <edition>Pickering's Aldine Edition</edition>
                                     <imprint>
@@ -10062,7 +10078,7 @@
                             <biblStruct corresp="#owned" xml:id="sb144.1">
                                 <monogr>
                                     <title>Poetical Works, with Memoir by Sir H. Nicolas</title>
-                                    <author>Chaucer, G.</author>
+                                    <author corresp="#chaucer">Chaucer, G.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Rich. Morris</name>
@@ -10093,7 +10109,7 @@
                             <biblStruct corresp="#owned" xml:id="sb144.2">
                                 <monogr>
                                     <title>Poetical Works, with Essay by W. W. Skeat</title>
-                                    <author>Chatterton, T.</author>
+                                    <author corresp="#chatterton">Chatterton, T.</author>
                                     <imprint>
                                         <date when="1890"/>
                                     </imprint>
@@ -10110,7 +10126,7 @@
                                 <monogr>
                                     <title>Poetical Works, with a Memoir by Edward Ell</title>
                                     <!-- Check spelling. -->
-                                    <author>Rogers, S.</author>
+                                    <author corresp="#rogers">Rogers, S.</author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -10129,7 +10145,7 @@
                                 <monogr>
                                     <title>Complete Works, with Supplement and cancelled
                                         sheets</title>
-                                    <author>Chaucer, G.</author>
+                                    <author corresp="#chaucer">Chaucer, G.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. W. Skeat</name>
@@ -10166,7 +10182,7 @@
                                 <monogr>
                                     <title>Animadversions upon Speght's First (1598) Edition of
                                         Chaucer's Workes</title>
-                                    <author>Thynne, F.</author>
+                                    <author corresp="#thynne">Thynne, F.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">F. G. Furnival</name>
@@ -10178,7 +10194,7 @@
                                             1876</date></note>
                                     <edition corresp="#first_ed">First (1598) Edition</edition>
                                     <imprint>
-                                        <publisher>Chaucer Society</publisher>
+                                        <publisher corresp="#chaucer_society">Chaucer Society</publisher>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
@@ -10193,7 +10209,7 @@
                             <biblStruct corresp="#owned" xml:id="sb146.2">
                                 <monogr>
                                     <title>Pilgrimage to Parnassus</title>
-                                    <author>Thynne, F.</author>
+                                    <author corresp="#thynne">Thynne, F.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. D. Macray</name>
@@ -10202,7 +10218,7 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
-                                        <publisher>Chaucer Society</publisher>
+                                        <publisher corresp="#chaucer_society">Chaucer Society</publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
@@ -10216,7 +10232,7 @@
                                 <monogr>
                                     <title>General History of the Stage, from its Origin down to the
                                         present time</title>
-                                    <author>Chetwood, W. R.</author>
+                                    <author corresp="#chetwood">Chetwood, W. R.</author>
                                     <note type="description">half calf gilt</note>
                                     <imprint>
                                         <date when="1749"/>
@@ -10228,7 +10244,7 @@
                             <biblStruct corresp="#owned" xml:id="sb147.2">
                                 <monogr>
                                     <title>Dramatic Works</title>
-                                    <author>Etherege, Sir Geo.</author>
+                                    <author corresp="#etherege">Etherege, Sir Geo.</author>
                                     <note type="description">frontispieces, sheep</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -10244,7 +10260,7 @@
                             <biblStruct corresp="#owned" xml:id="sb147.3">
                                 <monogr>
                                     <title>Dramatic Works, with Memoirs by Thos. Davies</title>
-                                    <author>Lillo, Geo.</author>
+                                    <author corresp="#lillo">Lillo, Geo.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -10267,7 +10283,7 @@
                                 <monogr>
                                     <title>A Select Collection of Old Plays,... with an Account of the
                                         Authors</title>
-                                    <author>Chetwood, W. R.</author>
+                                    <author corresp="#chetwood">Chetwood, W. R.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <pubPlace ref="#dublin">Dublin</pubPlace>
@@ -10279,7 +10295,7 @@
                             <biblStruct corresp="#owned" xml:id="sb148.2">
                                 <monogr>
                                     <title>Pharonnida, a Heroic Poem</title>
-                                    <author>Chamerlayne, Wm.</author>
+                                    <author corresp="#chamberlayne">Chamberlayne, Wm.</author>
                                     <note type="description">calf</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -10303,7 +10319,7 @@
                             <biblStruct corresp="#owned" xml:id="sb149.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Liaisons Dangereuses</title>
-                                    <author>Choderlos</author>
+                                    <author corresp="#laclos">Choderlos</author>
                                     <note type="description">4 parts, old calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -10323,7 +10339,7 @@
                             <biblStruct corresp="#owned" xml:id="sb149.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Amours de Catulle et de Tibulle</title>
-                                    <author>Chapelle, M. de la</author>
+                                    <author corresp="#la_chapelle">Chapelle, M. de la</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
@@ -10335,7 +10351,7 @@
                             <biblStruct corresp="#owned" xml:id="sb149.3">
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Diverses</title>
-                                    <author>Bergerac, C.</author>
+                                    <author corresp="#cyrano">Bergerac, C.</author>
                                     <note type="description">portrait, binding broken</note>
                                     <note type="etc">
                                         <num value="12"/>
@@ -10358,12 +10374,12 @@
                             <biblStruct corresp="#owned" xml:id="sb150.1">
                                 <monogr>
                                     <title>Architecture and History, and Westminster Abbey</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut">reprinted with the
                                         Golden type designed by William Morris for the Kelmscott
                                         Press, original boards, uncut</note>
                                     <imprint>
-                                        <publisher>Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -10393,7 +10409,7 @@
                                 <monogr>
                                     <title>Carols from the Coal-Fields, and other Songs and
                                         Ballads</title>
-                                    <author>Skepsey, J.</author>
+                                    <author corresp="#skipsey">Skipsey, J.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -10412,7 +10428,7 @@
                                     <title>Letter to Mr. Pope inquiring into the Motives that might
                                         induce him in his Satyrical Works to be so frequently fond
                                         of Mr. Cibber's name</title>
-                                    <author>Cibber, Colley</author>
+                                    <author corresp="#cibber">Cibber, Colley</author>
                                     <imprint>
                                         <date when="1742"/>
                                     </imprint>
@@ -10423,7 +10439,7 @@
                                 <monogr>
                                     <title>True Relation of the Apparition of one Mrs. Veal the next
                                         day after her Death</title>
-                                    <author>Defoe, D.</author>
+                                    <author corresp="#defoe">Defoe, D.</author>
                                     <note type="description">calf</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -10443,7 +10459,7 @@
                             <biblStruct corresp="#owned" xml:id="sb153.1">
                                 <monogr>
                                     <title xml:lang="fr">Ompdrailles le Tombeau-des-Lutteurs</title>
-                                    <author>Cladel, Léon</author>
+                                    <author corresp="#cladel">Cladel, Léon</author>
                                     <note type="description" corresp="#uncut">illustrations by R.
                                         Julian, uncut, imperial 8vo</note>
                                     <imprint>
@@ -10458,7 +10474,7 @@
                             <biblStruct corresp="#owned" xml:id="sb153.2">
                                 <monogr>
                                     <title>Les Poésies</title>
-                                    <author>Mendès, Catulle</author>
+                                    <author corresp="#mendès">Mendès, Catulle</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -10473,7 +10489,7 @@
                             <biblStruct corresp="#owned" xml:id="sb154.1">
                                 <monogr>
                                     <title>Mediaeval Military Architecture in England</title>
-                                    <author>Clark, Geo. T.</author>
+                                    <author corresp="#clark_g">Clark, Geo. T.</author>
                                     <note type="description">illustrations, red cloth gilt</note>
                                     <imprint>
                                         <date when="1884"/>
@@ -10492,7 +10508,7 @@
                             <biblStruct corresp="#owned" xml:id="sb155.1">
                                 <monogr>
                                     <title>Complete Concordance to Shakespeare</title>
-                                    <author>Clarke, Mrs. Cowden</author>
+                                    <author corresp="#clarke">Clarke, Mrs. Cowden</author>
                                     <note type="description">russia gilt, marbled edges</note>
                                     <imprint>
                                         <date when="1847"/>
