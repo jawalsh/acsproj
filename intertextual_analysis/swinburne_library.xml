@@ -1380,7 +1380,6 @@
                         <birth when="1670"/>
                         <death when="1729"/>
                     </person>
-
                     <person xml:id="contarini">
                         <persName source="http://id.loc.gov/authorities/names/n88095633">Contarini,
                             Gasparo, 1483-1542</persName>
@@ -3306,6 +3305,12 @@
                             John, 1653-1683</persName>
                         <birth when="1653"/>
                         <death when="1683"/>
+                    </person>
+                    <person xml:id="oldmixon">
+                        <persName source="http://id.loc.gov/authorities/names/n83015617">Oldmixon, 
+                            Mr. (John), 1673-1742</persName>
+                        <birth when="1673"/>
+                        <death when="1742"/>
                     </person>
                     <person xml:id="oliphant">
                         <persName source="http://id.loc.gov/authorities/names/n50048460">Oliphant,
@@ -10522,7 +10527,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Essais avec des Notes de tous les
                                         Commentateurs</title>
-                                    <author>Montaigne, M. de</author>
+                                    <author corresp="#montaigne">Montaigne, M. de</author>
                                     <note type="description">portrait, calf gilt, marbled
                                         edges</note>
                                     <note type="etc">imperial 8vo.<num value="10"/></note>
@@ -10540,7 +10545,7 @@
                             <biblStruct corresp="#owned" xml:id="sb156.1">
                                 <monogr>
                                     <title>Poems on Various Subjects</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <note type="description">original calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -10555,7 +10560,7 @@
                             <biblStruct corresp="#owned" xml:id="sb157.1">
                                 <monogr>
                                     <title>Sibylline Leaves, A Collection of Poems</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <note type="description" corresp="#uncut">original boards,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -10569,7 +10574,7 @@
                             <biblStruct corresp="#owned" xml:id="sb157.2">
                                 <monogr>
                                     <title>Biographia Literaria</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Shaweross</name>
@@ -10596,7 +10601,7 @@
                             <biblStruct corresp="#owned" xml:id="sb158.1">
                                 <monogr>
                                     <title>Specimens of his Table Talk</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. N. Coleridge</name>
@@ -10617,7 +10622,7 @@
                             <biblStruct corresp="#owned" xml:id="sb158.2">
                                 <monogr>
                                     <title>Specimens of English Dramatic Poets</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <note type="description">morocco, gilt edges</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -10639,7 +10644,7 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb169.1">
                                 <monogr>
                                     <title>Poetical and Dramatic Works</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <note type="description">frontispiece, red morocco gilt, gilt
                                         edges, Swinburne's copy, with autograph, "Algernon Charles
                                         Swinburne, <date when="1849-07-26">July 26th, 1849</date>,
@@ -10659,7 +10664,7 @@
                                 <monogr>
                                     <title>Anima Poetae, from the Unpublished Note-Book of Samuel
                                         Taylor Coleridge</title>
-                                    <author>Coleridge</author>
+                                    <author corresp="#coleridge_s">Coleridge</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. H. Coleridge</name>
@@ -10679,7 +10684,7 @@
                                 <monogr>
                                     <title>Poetical Decameron, or Ten Conversations on English Poets
                                         and Poetry</title>
-                                    <author>Collier, J. Payne</author>
+                                    <author corresp="#collier_jp">Collier, J. Payne</author>
                                     <note type="description">half russia</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -10699,7 +10704,7 @@
                             <biblStruct corresp="#owned" xml:id="sb162.1">
                                 <monogr>
                                     <title>Bolingbroke, a Historical Study, etc.</title>
-                                    <author>Collins, John C.</author>
+                                    <author corresp="#collins">Collins, John C.</author>
                                     <note type="description" corresp="#presentation">half roan,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, from his friend J. C.
@@ -10714,7 +10719,7 @@
                             <biblStruct corresp="#owned" xml:id="sb162.2">
                                 <monogr>
                                     <title>Poems, Dramatic and Lyrical</title>
-                                    <author>Tabley, Lord de</author>
+                                    <author corresp="#warren">Tabley, Lord de</author>
                                     <note type="description" corresp="#uncut">illustrations by C. S.
                                         Ricketts, uncut</note>
                                     <note type="etc">
@@ -10732,7 +10737,7 @@
                             <biblStruct corresp="#owned" xml:id="sb163.1">
                                 <monogr>
                                     <title>History of Johnny Quae Genus</title>
-                                    <author>Combe, W.</author>
+                                    <author corresp="#combe">Combe, W.</author>
                                     <note type="description">24 coloured illustrations by
                                         Rowlandson</note>
                                     <imprint>
@@ -10745,7 +10750,9 @@
                             <biblStruct corresp="#owned" xml:id="sb163.2">
                                 <monogr>
                                     <title>The Dwale Bluth, Hebditch's Legacy, etc.</title>
-                                    <author>Madox-Brown, F.</author>
+                                    <author corresp="#brown_f">Madox-Brown, F.</author>
+                                    <!-- Sources online list author as Oliver Madox Brown (no hyphen).
+                                    For the time being, will associate with Ford (his son). -->
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. M. Rossetti</name>
@@ -10769,6 +10776,7 @@
                                     <title>"This is my Birthday," with Introduction by I.
                                         Zangwill</title>
                                     <author>Bartle, Anita</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">To the Poet Algernon Charles Swinburne,
@@ -10788,7 +10796,7 @@
                                 <monogr>
                                     <title xml:lang="la">Comicorum Graecorum Sententiae Latinis
                                         versibus ad Henr. Stephano redditae</title>
-                                    <author>Steph. H.</author>
+                                    <author corresp="#estienne">Steph. H.</author>
                                     <note type="description">old red morocco, vellum sides, gilt and
                                         gauffered edges</note>
                                     <imprint>
@@ -10806,7 +10814,7 @@
                                 <monogr>
                                     <title>Amendments of Mr. Collier's False and Imperfect
                                         Citations, etc. from the Old Batchelour, etc.</title>
-                                    <author>[Congreve, Wm.]</author>
+                                    <author corresp="#congreve">[Congreve, Wm.]</author>
                                     <note type="description" corresp="#uncut">half morocco, uncut,
                                         top edge gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -10822,7 +10830,8 @@
                                 <monogr>
                                     <title>Memoirs of the Life, Writings and Amours of William
                                         Congreve, Esq.</title>
-                                    <author>Wilson, Charles</author>
+                                    <author corresp="#oldmixon">Wilson, Charles</author>
+                                    <!-- Believed to be a pseudonym of John Oldmixon. -->
                                     <note type="description">portrait, old calf</note>
                                     <imprint>
                                         <date when="1730"/>
@@ -10837,7 +10846,7 @@
                                 <monogr>
                                     <title>Oeuvres avec le Commentaire de Voltaire et les Jugements
                                         de la Harpe</title>
-                                    <author>Coureille, P.</author>
+                                    <author corresp="#corneille_p">Corneille, P.</author>
                                     <note type="description">portrait, binding broken, marbled
                                         edges</note>
                                     <imprint>
@@ -10878,7 +10887,7 @@
                             <biblStruct corresp="#owned" xml:id="sb167.1">
                                 <monogr>
                                     <title>Wild England of To-day</title>
-                                    <author>Cornish, C. J.</author>
+                                    <author corresp="#cornish">Cornish, C. J.</author>
                                     <note type="description">illustrations, half morocco gilt, top
                                         edge gilt</note>
                                     <imprint>
@@ -10891,7 +10900,7 @@
                             <biblStruct corresp="#owned" xml:id="sb167.2">
                                 <monogr>
                                     <title>Highways and Byways in Sussex</title>
-                                    <author>Lucas, E. V.</author>
+                                    <author corresp="#lucas">Lucas, E. V.</author>
                                     <note type="description">illustrations by Griggs</note>
                                     <imprint>
                                         <date when="1904"/>
@@ -10903,7 +10912,7 @@
                             <biblStruct corresp="#owned" xml:id="sb167.3">
                                 <monogr>
                                     <title>Old Yorkshire, with Introduction by Canon Raine</title>
-                                    <author>Smith, Wm.</author>
+                                    <author corresp="#smith">Smith, Wm.</author>
                                     <note type="description">portrait and illustrations</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -10923,7 +10932,7 @@
                             <biblStruct corresp="#owned" xml:id="sb168.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Cowper, Wm.</author>
+                                    <author corresp="#cowper">Cowper, Wm.</author>
                                     <note type="description" corresp="#presentation">portrait, calf
                                         gilt, marbled edges, presentation copy to A. C. Swinburne
                                         from W. R. Lascelles, on his leaving Eton</note>
@@ -10947,7 +10956,7 @@
                             <bibl xml:id="sb169.1a">
                                 <title>Poetical Works, with his Letters, Journals and Life, by his
                                     Son</title>
-                                <author>Crabbe, Geo.</author>
+                                <author corresp="#crabbe">Crabbe, Geo.</author>
                                 <note type="description" corresp="#uncut #presentation"
                                     >frontispieces and rignettes, uncut, presentation copy, with
                                     autograph inscription</note>
@@ -10979,7 +10988,7 @@
                                 <monogr>
                                     <title>Reflections on the Origin and Destiny of Imperial
                                         Britain</title>
-                                    <author>Cramb, J. A.</author>
+                                    <author corresp="#cramb">Cramb, J. A.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph letter inserted</note>
                                     <imprint>
@@ -10992,7 +11001,7 @@
                             <biblStruct corresp="#owned" xml:id="sb170.2">
                                 <monogr>
                                     <title>Historical Tales from Shakespeare</title>
-                                    <author>Quiller-Couch, A. T.</author>
+                                    <author corresp="#quiller-couch">Quiller-Couch, A. T.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author to Swinburne, with autograph
                                         inscription</note>
@@ -11013,7 +11022,7 @@
                                     <idno type="tcp">A34931</idno>
                                     <title>Steps to the Temple, The Delights of the Muses, and
                                         Carmen Deo Nostro</title>
-                                    <author>Crashaw, Ric.</author>
+                                    <author corresp="#crashaw">Crashaw, Ric.</author>
                                     <note type="description">old calf gilt</note>
                                     <imprint>
                                         <date when="1670"/>
@@ -11029,7 +11038,7 @@
                                 <monogr>
                                     <title>Love and Madness, a Story too true, in a series of
                                         Letters (including several of Chatterton)</title>
-                                    <author>Croft, Sir H.</author>
+                                    <author corresp="#croft">Croft, Sir H.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date when="1780"/>
@@ -11042,7 +11051,7 @@
                                 <monogr>
                                     <title>Short View of Immorality and Profaneness of the English
                                         Stage, with Defence and Second Defence</title>
-                                    <author>Collier, Jer.</author>
+                                    <author corresp="#collier_j">Collier, Jer.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date from="1699" to="1704"/>
@@ -11061,7 +11070,7 @@
                                 <monogr>
                                     <title>Poems, supposed to have been written at Bristol by Thomas
                                         Rowley, etc.</title>
-                                    <author>Chatterton, T.</author>
+                                    <author corresp="#chatterton">Chatterton, T.</author>
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -11091,7 +11100,7 @@
                             <biblStruct corresp="#owned" xml:id="sb174.1">
                                 <monogr>
                                     <title>In the Himalayas and on the Indian Plains</title>
-                                    <author>Cummings, C. F. Gordon</author>
+                                    <author corresp="#gordon_cumming">Cumming, C. F. Gordon</author>
                                     <note type="description">42 illustrations</note>
                                     <imprint>
                                         <date when="1884"/>
@@ -11103,7 +11112,7 @@
                             <biblStruct corresp="#owned" xml:id="sb174.2">
                                 <monogr>
                                     <title>Icelandic Legends</title>
-                                    <author>Arnason, J.</author>
+                                    <author corresp="#arnason">Arnason, J.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">G. E. J. Powell</name>
@@ -11125,7 +11134,7 @@
                             <biblStruct corresp="#owned" xml:id="sb175.1">
                                 <monogr>
                                     <title>Aspects of George Meredith</title>
-                                    <author>Curle, Richd. H. P.</author>
+                                    <author corresp="#curle">Curle, Richd. H. P.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1908"/>
@@ -11137,11 +11146,11 @@
                             <biblStruct corresp="#owned" xml:id="sb175.2">
                                 <monogr>
                                     <title>Poems, with new Poems</title>
-                                    <author>Johnson, R. N.</author>
+                                    <author corresp="#johnson_r">Johnson, R. U.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#sec_ed">second edition</edition>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
