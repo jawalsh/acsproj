@@ -1661,6 +1661,12 @@
                         <birth when="1840"/>
                         <death when="1921"/>
                     </person>
+                    <person xml:id="dodgson">
+                        <persName source="http://id.loc.gov/authorities/names/nr96015884">Dodgson, 
+                            Charles Lutwidge, 1832-1898</persName>
+                        <birth when="1832"/>
+                        <death when="1898"/>
+                    </person>
                     <person xml:id="dodsley">
                         <persName source="http://id.loc.gov/authorities/names/n79142621">Dodsley,
                             Robert, 1704-1764</persName>
@@ -4773,6 +4779,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97028549">Giunta, 
                             Bernardo, active 1567-1627</persName>
                         <floruit from="1567" to="1627"/>
+                    </person>
+                    <person xml:id="oporinus">
+                        <persName source="http://id.loc.gov/authorities/names/no96009568">Oporinus, 
+                            Joannes, 1507-1568</persName>
+                        <birth when="1507"/>
+                        <death when="1568"/>
                     </person>
                 </listPerson>
                 
@@ -11160,7 +11172,7 @@
                             <biblStruct corresp="#owned" xml:id="sb175.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">Swinburne, A. C.</author>
                                     <respStmt>
                                         <resp>selected by</resp>
                                         <resp>edited by</resp>
@@ -11170,7 +11182,7 @@
                                         presentation copies to Swinburne, with autograph
                                         incriptions</note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
@@ -11184,7 +11196,7 @@
                                 <monogr>
                                     <title>A Defence of Ryme, against a Pamphlet entituled
                                         Observations in the Art of English Poesie</title>
-                                    <author>Daniel, S.</author>
+                                    <author corresp="#daniel_s">Daniel, S.</author>
                                     <note type="description">half calf, some headlines cut into,
                                         Printed for E. Blount</note>
                                     <imprint>
@@ -11199,7 +11211,7 @@
                                 <monogr>
                                     <title xml:lang="it">La Commedia di Dante Alighieri, illustra da
                                         Ugo Foscolo</title>
-                                    <author>Dante</author>
+                                    <author corresp="#dante">Dante</author>
                                     <note type="description">portrait and illustrations, half calf,
                                         marbled edges</note>
                                     <imprint>
@@ -11224,7 +11236,7 @@
                                     <title xml:lang="fr">La Général Choderelos de Laclos, Auteur des
                                         Liaisons Dangereuses, <date from="1741" to="1803"
                                             >1741-1803</date>, d'après des Documents inédits</title>
-                                    <author>Dard, Émile</author>
+                                    <author corresp="#dard">Dard, Émile</author>
                                     <note type="description" corresp="#uncut">portrait, uncut, in
                                         case</note>
                                     <imprint>
@@ -11240,7 +11252,7 @@
                             <biblStruct corresp="#owned" xml:id="sb179.1">
                                 <monogr>
                                     <title>Complete Poems, with Notes, etc.</title>
-                                    <author>Davies, Sir John</author>
+                                    <author corresp="#davies">Davies, Sir John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -11263,6 +11275,7 @@
                                     <title>Day Dreams, to which are added some Translations from
                                         Italian</title>
                                     <author>James, Sir J. Kingston</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut">uncut, printed for
                                         private circulation</note>
                                     <note type="etc">
@@ -11281,7 +11294,7 @@
                                 <monogr>
                                     <title>Poetical Rhapsody, with several other Pieces, with
                                         Memoirs and Notes</title>
-                                    <author>Davison, Francis</author>
+                                    <author corresp="#davison">Davison, Francis</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Nicholas H. Nicolas</name>
@@ -11289,8 +11302,7 @@
                                     <note type="description" corresp="#uncut">facsimile and
                                         pedigree, uncut</note>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
-                                        <!-- Could be place? -Most likely William Pickering, 1796-1854. -AM -->
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1826"/>
                                     </imprint>
                                     <extent>
@@ -11307,7 +11319,7 @@
                             <biblStruct corresp="#owned" xml:id="sb181.1">
                                 <monogr>
                                     <title>Poetical Rhapsody</title>
-                                    <author>Davison, F.</author>
+                                    <author corresp="#davison">Davison, F.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -11332,7 +11344,7 @@
                                 <monogr>
                                     <title>History of Mademoiselle de Beleau, or the New
                                         Roxana</title>
-                                    <author>Defoe, D.</author>
+                                    <author corresp="#defoe">Defoe, D.</author>
                                     <note type="description">portrait mended, half calf</note>
                                     <imprint>
                                         <date when="1775"/>
@@ -11346,7 +11358,7 @@
                                     <title>Discourses upon the First Decade of T. Livius, with his
                                         Prince</title>
                                     <idno type="tcp">A50322</idno>
-                                    <author>Machiavelli</author>
+                                    <author corresp="#machiavelli">Machiavelli</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">E. Dacres</name>
@@ -11371,7 +11383,7 @@
                             <biblStruct corresp="#owned" xml:id="sb183.1">
                                 <monogr>
                                     <title>Life and Surprising Adventures of Robinson Crusoe</title>
-                                    <author>Defoe, D.</author>
+                                    <author corresp="#defoe">Defoe, D.</author>
                                     <note type="description">46 engravings after Harvey</note>
                                     <imprint>
                                         <date when="1839"/>
@@ -11386,7 +11398,7 @@
                                 <monogr>
                                     <title>Life and Surprising Adventures of Robinson Crusoe, with
                                         Biographical Introduction by Henry Kingsley</title>
-                                    <author>Defoe, D.</author>
+                                    <author corresp="#defoe">Defoe, D.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition>Another Edition</edition>
                                     <imprint>
@@ -11404,6 +11416,7 @@
                                     <title>Investigation into the Language of Robinson
                                         Crusoe</title>
                                     <author>Lannert, G. L.</author>
+                                    <!-- No LCNAF found. (full name Gustaf L:son (?) Lannert) -->
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
@@ -11420,7 +11433,7 @@
                                 <monogr>
                                     <title>Dramatic Works, now first Collected, with Illustrative
                                         Notes and Menoir of the Author</title>
-                                    <author>Dekker, Thos.</author>
+                                    <author corresp="#dekker">Dekker, Thos.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <publisher>Pearson</publisher>
@@ -11444,7 +11457,7 @@
                             <biblStruct corresp="#owned" xml:id="sb185.1">
                                 <monogr>
                                     <title>Comparative Estimate of Modern English Poets</title>
-                                    <author>Devey, J.</author>
+                                    <author corresp="#devey">Devey, J.</author>
                                     <note type="description">half bound</note>
                                     <imprint>
                                         <date when="1873"/>
@@ -11479,7 +11492,7 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1865"/>
                                     </imprint>
                                 </monogr>
@@ -11491,7 +11504,7 @@
                             <biblStruct corresp="#owned" xml:id="sb186.1">
                                 <monogr>
                                     <title>Posthumous Papers of the Pickwick Club</title>
-                                    <author>Dickens, C.</author>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
                                     <note type="description" corresp="#uncut">illustrations by
                                         Seymour, "Buss," "Phiz" and Leech, green cloth, uncut</note>
                                     <imprint>
@@ -11511,7 +11524,7 @@
                             <biblStruct corresp="#owned" xml:id="sb187.1">
                                 <monogr>
                                     <title>Memoirs of Joseph Grimaldi</title>
-                                    <author>Dickens, C.</author>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
                                     <note type="description">portrait and illustrations by G.
                                         Cruikshank</note>
                                     <imprint>
@@ -11524,7 +11537,7 @@
                             <biblStruct corresp="#owned" xml:id="sb187.2">
                                 <monogr>
                                     <title>History of Jonathan Wild</title>
-                                    <author>Fielding, H.</author>
+                                    <author corresp="#fielding">Fielding, H.</author>
                                     <note type="description">illustrations by "Phiz"</note>
                                     <imprint>
                                         <date when="1843"/>
@@ -11538,7 +11551,7 @@
                             <biblStruct corresp="#owned" xml:id="sb187.3">
                                 <monogr>
                                     <title>Gaieties and Gravities</title>
-                                    <author>Smith, H.</author>
+                                    <author corresp="#smith_h">Smith, H.</author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
@@ -11561,7 +11574,7 @@
                             <biblStruct corresp="#owned" xml:id="sb188.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Dickens, C.</author>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
                                     <note type="description">illustrations by Seymour, Cruikshank,
                                         "Phiz," etc. red cloth gilt, top edge gilt</note>
                                     <edition>Biographical Edition</edition>
@@ -11628,7 +11641,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Le Neveu de Rameau, publié et précédé d'une
                                         Introduction par H. Motheau</title>
-                                    <author>Diderot</author>
+                                    <author corresp="#diderot">Diderot</author>
                                     <note type="description" corresp="#uncut">uncut, insterted is a very interesting
                                         Autograph Letter addressed to Swinburne from John Morley,
                                         date <date when="1876-02-12">Feb. 12, 1876</date>, and
@@ -11647,7 +11660,7 @@
                                 <monogr>
                                     <title>Book of the Spiritual Life, with Memoir by Sir C. W.
                                         Dilke</title>
-                                    <author>Dilke, Lady</author>
+                                    <author corresp="#dilke">Dilke, Lady</author>
                                     <note type="description" corresp="#uncut">portraits and
                                         illustrations, uncut</note>
                                     <imprint>
@@ -11660,7 +11673,7 @@
                             <biblStruct corresp="#owned" xml:id="sb191.2">
                                 <monogr>
                                     <title>Mystical Hymns</title>
-                                    <author>Orpheus</author>
+                                    <author corresp="#orpheus">Orpheus</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">T. Taylor</name>
@@ -11675,7 +11688,7 @@
                             <biblStruct corresp="#owned" xml:id="sb191.3">
                                 <monogr>
                                     <title>Literary Study of the Bible</title>
-                                    <author>Moulton, R. G.</author>
+                                    <author corresp="#moulton_r">Moulton, R. G.</author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
@@ -11694,7 +11707,7 @@
                                     <title>Thoughts on Art, Philosphy and Religion, selected from
                                         his unpublished Papers, with Introductory Note by John
                                         Nichol</title>
-                                    <author>Dobell, Sydney</author>
+                                    <author corresp="#dobell">Dobell, Sydney</author>
                                     <note type="description">portait</note>
                                     <imprint>
                                         <date when="1876"/>
@@ -11706,7 +11719,7 @@
                             <biblStruct corresp="#owned" xml:id="sb192.2">
                                 <monogr>
                                     <title>Poetical Works, with Memoir, etc. by John Nichol</title>
-                                    <author>Dobell, Sydney</author>
+                                    <author corresp="#dobell">Dobell, Sydney</author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -11728,7 +11741,7 @@
                             <biblStruct corresp="#owned" xml:id="sb193.1">
                                 <monogr>
                                     <title>Proverbs in Porcelain, and other Verses</title>
-                                    <author>Dobson, A.</author>
+                                    <author corresp="#dobson">Dobson, A.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription, original cloth</note>
                                     <note type="inscription">Algernon C. Swinburne from E. W. Gosse,
@@ -11746,7 +11759,7 @@
                             <biblStruct corresp="#owned" xml:id="sb194.1">
                                 <monogr>
                                     <title>Phantasmagoria, and other Poems, by Lewis Caroll</title>
-                                    <author>Dodgson, C. L.</author>
+                                    <author corresp="#carroll">Dodgson, C. L.</author>
                                     <note type="description" corresp="#presentation">blue cloth,
                                         gilt edges, presentation copy, with autograph
                                         inscription</note>
@@ -11768,7 +11781,7 @@
                             <biblStruct corresp="#owned" xml:id="sb195.1">
                                 <monogr>
                                     <title>Select Collection of Old English PLays</title>
-                                    <author>Dodsley, Robt.</author>
+                                    <author corresp="#dodsley">Dodsley, Robt.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Carew Hazlitt</name>
@@ -11819,7 +11832,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Manuscrit Pictographique Americain, précédé
                                         d'une Notice sur l'Idégraphie des Peaux-Rouges</title>
-                                    <author>Domenech, Abbé Em.</author>
+                                    <author corresp="#domenech">Domenech, Abbé Em.</author>
                                     <note type="description">illustrations, half calf, marbled
                                         edges</note>
                                     <imprint>
@@ -11837,7 +11850,7 @@
                             <biblStruct corresp="#owned" xml:id="sb197.1">
                                 <monogr>
                                     <title>Poems, in English and French</title>
-                                    <author>Douglas, Lord Alfred</author>
+                                    <author corresp="#douglas">Douglas, Lord Alfred</author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >portraits, uncut, presentation copy, with
                                         inscription</note>
@@ -11860,7 +11873,7 @@
                                     <note type="description">old calf, red edges, binding
                                         broken</note>
                                     <imprint>
-                                        <publisher>Oporinus</publisher>
+                                        <publisher corresp="#oporinus">Oporinus</publisher>
                                         <pubPlace ref="#basel">Basil</pubPlace>
                                         <date when="1547"/>
                                     </imprint>
@@ -11930,7 +11943,7 @@
                                 <monogr>
                                     <title>Complete Works, with Introductions and Notes by Rich.
                                         Hooper</title>
-                                    <author>Drayton, Michael</author>
+                                    <author corresp="#drayton">Drayton, Michael</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1876"/>
@@ -11949,7 +11962,7 @@
                             <biblStruct corresp="#owned" xml:id="sb200.2">
                                 <monogr>
                                     <title>Random Records</title>
-                                    <author>Colman, Geo.</author>
+                                    <author corresp="#colman">Colman, Geo.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1830"/>
@@ -11966,7 +11979,7 @@
                             <biblStruct corresp="#owned" xml:id="sb200.3">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Rabelais, F.</author>
+                                    <author corresp="#rabelais">Rabelais, F.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Urquhart</name>
@@ -11977,7 +11990,7 @@
                                         <num value="7"/>
                                     </note>
                                     <imprint>
-                                        <publisher>Bohn</publisher>
+                                        <publisher corresp="#bohn">Bohn</publisher>
                                         <date when="1863"/>
                                     </imprint>
                                     <extent>
@@ -11997,7 +12010,7 @@
                                 <monogr>
                                     <title>Critical and Miscellaneous Prose Works, with Notes,
                                         Illustrations and Life by E. Malone</title>
-                                    <author>Dryden, John</author>
+                                    <author corresp="#dryden">Dryden, John</author>
                                     <note type="description">3 vol. in 4, frontispiece of portraits,
                                         russia, marbled edges, binding broken</note>
                                     <imprint>
@@ -12025,7 +12038,7 @@
                                     <title>Works, with Notes, Historical, Critical and Explanatory,
                                         and Life of the Author by Sir Walter Scott, revised and
                                         corrected by George Saintsbury</title>
-                                    <author>Dryden, John</author>
+                                    <author corresp="#dryden">Dryden, John</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
@@ -12077,7 +12090,7 @@
                             <biblStruct corresp="#owned" xml:id="sb203.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Trois Mousquetaires</title>
-                                    <author>Dumas, Alex.</author>
+                                    <author corresp="#dumas">Dumas, Alex.</author>
                                     <note type="description" corresp="#uncut">illusrations by
                                         Maurice Leloir, uncut, imperial 8vo.</note>
                                     <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Grand Luxe</edition>
@@ -12099,7 +12112,7 @@
                             <biblStruct corresp="#owned" xml:id="sb204.1">
                                 <monogr>
                                     <title>Le Chevalier de Maison-Rouge</title>
-                                    <author>Dumas, A.</author>
+                                    <author corresp="#dumas">Dumas, A.</author>
                                     <note type="description" corresp="#uncut">one of 110 copies,
                                         illustrations by Julien le Blont, uncut, imperial
                                         8vo.</note>
@@ -12122,7 +12135,7 @@
                             <biblStruct corresp="#owned" xml:id="sb205.1">
                                 <monogr>
                                     <title>Mémoires</title>
-                                    <author>Dumas, A.</author>
+                                    <author corresp="#dumas">Dumas, A.</author>
                                     <note type="description">26 vol. in 13 (wanting vol. XXI-XXII),
                                         half roan</note>
                                     <note type="etc">
@@ -12161,7 +12174,7 @@
                                 <monogr>
                                     <title>Life, by Thomas Earl of Dundonald and H. R. Fox
                                         Bourne</title>
-                                    <author>Dundonald, Thomas Lord Cochrane, Earl of</author>
+                                    <author corresp="#dundonald">Dundonald, Thomas Lord Cochrane, Earl of</author>
                                     <imprint>
                                         <date when="1869"/>
                                     </imprint>
@@ -12177,7 +12190,7 @@
                             <biblStruct corresp="#owned" xml:id="sb206.2">
                                 <monogr>
                                     <title>Life of Nelson</title>
-                                    <author>Mahan, Capt. A. T.</author>
+                                    <author corresp="#mahan">Mahan, Capt. A. T.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -12190,7 +12203,7 @@
                                 <monogr>
                                     <title>Life, Letters and Friendships of Richard Monckton Milnes,
                                         first Lord Houghton</title>
-                                    <author>Reid, T. Wemyss</author>
+                                    <author corresp="#reid">Reid, T. Wemyss</author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -12212,7 +12225,7 @@
                             <biblStruct corresp="#owned" xml:id="sb207.1">
                                 <monogr>
                                     <title>Wit and Mirth, or Pills to Purge Melancholy</title>
-                                    <author>D'Urfey, T.</author>
+                                    <author corresp="#durfey">D'Urfey, T.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut,
                                         reprint</note>
                                     <edition/>
@@ -12242,7 +12255,7 @@
                                 <monogr>
                                     <title>Bengaliana, a Dish of Rice and Curry and other
                                         indigestible Ingredients</title>
-                                    <author>Dutt, Shosbee C.</author>
+                                    <author corresp="#dutt_s">Dutt, Shoshee C.</author>
                                     <imprint>
                                         <pubPlace>Calcutta</pubPlace>
                                         <date>n. d.</date>
