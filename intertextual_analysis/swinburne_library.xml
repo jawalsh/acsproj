@@ -1755,6 +1755,12 @@
                         <birth when="1837"/>
                         <death when="1898"/>
                     </person>
+                    <person xml:id="edgeworth">
+                        <persName source="http://id.loc.gov/authorities/names/n79061006">Edgeworth, 
+                            Maria, 1768-1849</persName>
+                        <birth when="1768"/>
+                        <death when="1849"/>
+                    </person>
                     <person xml:id="eliot_g">
                         <persName source="http://id.loc.gov/authorities/names/n79045512">Eliot,
                             George, 1819-1880</persName>
@@ -12257,7 +12263,7 @@
                                         indigestible Ingredients</title>
                                     <author corresp="#dutt_s">Dutt, Shoshee C.</author>
                                     <imprint>
-                                        <pubPlace>Calcutta</pubPlace>
+                                        <pubPlace ref="#kolkata">Calcutta</pubPlace>
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
@@ -12267,10 +12273,10 @@
                             <biblStruct corresp="#owned" xml:id="sb208.2">
                                 <monogr>
                                     <title>A Vision of Sumeru, and other Poems</title>
-                                    <author>Dutt, Shosbee C.</author>
+                                    <author corresp="#dutt_s">Dutt, Shosbee C.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
-                                        <pubPlace>Calcutta</pubPlace>
+                                        <pubPlace ref="#kolkata">Calcutta</pubPlace>
                                         <date>n. d.</date>
                                     </imprint>
                                 </monogr>
@@ -12279,7 +12285,7 @@
                             <biblStruct corresp="#owned" xml:id="sb208.3">
                                 <monogr>
                                     <title xml:lang="fr">Le Journal de Milles D'Arvers</title>
-                                    <author>Dutt, Toru</author>
+                                    <author corresp="#dutt_t">Dutt, Toru</author>
                                     <note type="description" corresp="#presentation">half calf,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esqre. Hommage
@@ -12368,7 +12374,7 @@
                             <biblStruct corresp="#owned" xml:id="sb211.2">
                                 <monogr>
                                     <title>Dialogue against the Feuer Perstilence</title>
-                                    <author>Bullien, Wm.</author>
+                                    <author corresp="#bullein">Bullein, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">M. W. Bullen</name>
@@ -12391,7 +12397,7 @@
                             <biblStruct corresp="#owned" xml:id="sb212.1">
                                 <monogr>
                                     <title>Tales and Novels</title>
-                                    <author>Edgeworth, Maria</author>
+                                    <author corresp="#edgeworth">Edgeworth, Maria</author>
                                     <note type="description">(wanting vol. V), frontispiece, green
                                         cloth, top edge gilt</note>
                                     <edition>Longford Edition</edition>
@@ -12429,7 +12435,7 @@
                             <biblStruct corresp="#owned" xml:id="sb212.2">
                                 <monogr>
                                     <title>Norwood, or Village Life in New England</title>
-                                    <author>Beecher, H. Ward</author>
+                                    <author corresp="#beecher">Beecher, H. Ward</author>
                                     <note type="etc">
                                         <num value="20"/>
                                     </note>
@@ -12452,7 +12458,7 @@
                             <biblStruct corresp="#owned" xml:id="sb213.1">
                                 <monogr>
                                     <title>Daniel Deronda</title>
-                                    <author>Eliot, Geo.</author>
+                                    <author corresp="#eliot_g">Eliot, Geo.</author>
                                     <imprint>
                                         <date>n. d.</date>
                                     </imprint>
@@ -12470,7 +12476,7 @@
                             <biblStruct corresp="#owned" xml:id="sb213.2">
                                 <monogr>
                                     <title>Middlemarch</title>
-                                    <author>Eliot, Geo.</author>
+                                    <author corresp="#eliot_g">Eliot, Geo.</author>
                                     <note type="description">etc. 8 vol.</note>
                                     <!-- Could be an etc. -->
                                     <imprint>
@@ -12490,7 +12496,7 @@
                             <biblStruct corresp="#owned" xml:id="sb213.3">
                                 <monogr>
                                     <title>The Lusiads</title>
-                                    <author>Camoeus</author>
+                                    <author corresp="#camões">Camoeus</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">R. F. Burton</name>
@@ -12515,7 +12521,7 @@
                             <biblStruct corresp="#owned" xml:id="sb214.1">
                                 <monogr>
                                     <title>Letters to Miss Louisa Swinburne, etc.</title>
-                                    <author>Elizabeth of England (Princess)</author>
+                                    <author corresp="#elizabeth">Elizabeth of England (Princess)</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">P. C. Yorke</name>
@@ -12537,6 +12543,8 @@
                                 <monogr>
                                     <title>Voiage and Travayle</title>
                                     <author>Maundeville, Sir J.</author>
+                                    <!-- Other sources list Syr John Maundeville as part of the title, likely
+                                            the principal character. John Ashton appears to be the author. -->
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John Ashton</name>
@@ -12558,7 +12566,7 @@
                             <biblStruct corresp="#owned" xml:id="sb215.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Emerson, Ralph W.</author>
+                                    <author corresp="#emerson">Emerson, Ralph W.</author>
                                     <note type="description">frontispiece, calf gilt, gilt
                                         edges</note>
                                     <imprint>
@@ -12571,7 +12579,7 @@
                             <biblStruct corresp="#owned" xml:id="sb215.2">
                                 <monogr>
                                     <title>May-Day, and other Pieces</title>
-                                    <author>Emerson, Ralph W.</author>
+                                    <author corresp="#emerson">Emerson, Ralph W.</author>
                                     <imprint>
                                         <date when="1867"/>
                                     </imprint>
@@ -12582,7 +12590,7 @@
                             <biblStruct corresp="#owned" xml:id="sb215.3">
                                 <monogr>
                                     <title>Essays, Second Series</title>
-                                    <author>Emerson, Ralph W.</author>
+                                    <author corresp="#emerson">Emerson, Ralph W.</author>
                                     <imprint>
                                         <date when="1858"/>
                                     </imprint>
@@ -12676,7 +12684,7 @@
                             <biblStruct corresp="#owned" xml:id="sb218.2">
                                 <monogr>
                                     <title xml:lang="fr">Notre-Dame de Paris</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description">plates and illustrations, calf gilt,
                                         marbled edges, imperial 8vo.</note>
                                     <note type="etc">
@@ -12695,7 +12703,7 @@
                             <biblStruct corresp="#owned" xml:id="sb219.1">
                                 <monogr>
                                     <title>In Praise of Folly, with Life of Erasmus, etc.</title>
-                                    <author>Erasmus</author>
+                                    <author corresp="#erasmus">Erasmus</author>
                                     <note type="description">illustrations by Holbein</note>
                                     <imprint>
                                         <date when="1876"/>
@@ -12708,7 +12716,7 @@
                             <biblStruct corresp="#owned" xml:id="sb219.2">
                                 <monogr>
                                     <title>A Novelist's Note Book</title>
-                                    <author>Murray, D. C.</author>
+                                    <author corresp="#murray_d">Murray, D. C.</author>
                                     <note type="description" corresp="#presentation">some
                                         presentation copies to Swinburne</note>
                                     <note type="etc">
@@ -12727,7 +12735,7 @@
                                     <title xml:lang="la">Poesis Philosophica, vel saltem Reliquiae
                                         Poesis Philosophicae, Empedocilis, Xenophonis, Timonis,
                                         Parmenidis, Cleanthis, Epicharmi</title>
-                                    <author>Estienne, H.</author>
+                                    <author corresp="#estienne">Estienne, H.</author>
                                     <note type="description">calf, arms of Herbery Norman Evans, M.
                                         D. on sides, marbled edges</note>
                                     <imprint>
@@ -12742,7 +12750,7 @@
                             <biblStruct corresp="#owned" xml:id="sb221.1">
                                 <monogr>
                                     <title>Works, Plays and Poems, with Critical Notes, etc.</title>
-                                    <author>Etheredge, Sir Geo.</author>
+                                    <author corresp="#etherege">Etherege, Sir Geo.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. Wilson Verity</name>
@@ -12760,7 +12768,7 @@
                                 <monogr>
                                     <title>Letters to Elizabeth Hitchener, with Introduction and
                                         Notes</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="9"/>
@@ -12780,7 +12788,7 @@
                                         de tutti gl'Imperatori Romani unovamente tradotte di Latino
                                         in lengua Italiana</title>
                                     <!-- Google Translate detected Corsican.-->
-                                    <author>Eutropius</author>
+                                    <author corresp="#eutropius">Eutropius</author>
                                     <note type="description">old Venetian morocco binding, gilt
                                         borders and ornaments on sides, gilt edges, tooled in Arabic
                                         interlaced design</note>
@@ -12796,7 +12804,7 @@
                             <biblStruct corresp="#owned" xml:id="sb223.1">
                                 <monogr>
                                     <title>Comedies, Letters, Poems, Essays, etc.</title>
-                                    <author>Farquhar, Geo.</author>
+                                    <author corresp="#farquhar">Farquhar, Geo.</author>
                                     <note type="description">plates, half calf, yellow edges</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -12812,7 +12820,7 @@
                             <biblStruct corresp="#owned" xml:id="sb223.2">
                                 <monogr>
                                     <title>Works, with Notes</title>
-                                    <author>Chapman, Geo.</author>
+                                    <author corresp="#chapman">Chapman, Geo.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. H. Shepherd</name>
@@ -12833,7 +12841,7 @@
                             <biblStruct corresp="#owned" xml:id="sb224.1">
                                 <monogr>
                                     <title>Songs of Doubt and Dream (Poems)</title>
-                                    <author>Fawcett, Edgar</author>
+                                    <author corresp="#fawcett">Fawcett, Edgar</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with the author's inscription</note>
                                     <note type="inscription">To A. C. Swinburne Esq. with many
@@ -12842,7 +12850,7 @@
                                     <!-- Last name [sic] -->
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -12855,6 +12863,7 @@
                                 <monogr>
                                     <title>Callirrhoë: Fair Rosamund</title>
                                     <author>Field, Michael</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">parchment, with inscription</note>
                                     <note type="inscription">A. Swinburne, Esq. from the author,
                                             <date when="1884-05">May, 1884</date></note>
@@ -12947,7 +12956,7 @@
                             <biblStruct corresp="#owned" xml:id="sb227.1">
                                 <monogr>
                                     <title>History of Tom Jones, a Foundling</title>
-                                    <author>Fielding, Henry</author>
+                                    <author corresp="#fielding">Fielding, Henry</author>
                                     <note type="description">old mottled calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -12975,7 +12984,7 @@
                             <biblStruct corresp="#owned" xml:id="sb228.1">
                                 <monogr>
                                     <title>Amelia</title>
-                                    <author>Fielding, H.</author>
+                                    <author corresp="#fielding">Fielding, H.</author>
                                     <note type="description">original calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -12998,7 +13007,7 @@
                             <biblStruct corresp="#owned" xml:id="sb229.1">
                                 <monogr>
                                     <title>Works, with Biographical Essay by Leslie Stephen</title>
-                                    <author>Fielding, H.</author>
+                                    <author corresp="#fielding">Fielding, H.</author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustratoins, india proofs, buckram, uncut, with the
                                         cancelled leaf, imperial 8vo.</note>
@@ -13037,11 +13046,11 @@
                                 <monogr>
                                     <title>Journal of a Voyage to Lisbon, with Introduction and
                                         Notes by Austin Dobson</title>
-                                    <author>Fielding, H.</author>
+                                    <author corresp="#fielding">Fielding, H.</author>
                                     <note type="description" corresp="#uncut">one of 25 copies on
                                         Japanese vellum, portrait, half vellum, uncut</note>
                                     <imprint>
-                                        <publisher>Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -13054,7 +13063,7 @@
                                 <monogr>
                                     <title>Polonius: a Collection of Wise Saws and Modern
                                         Instances</title>
-                                    <author>Fitzgerald, S.</author>
+                                    <author corresp="#fitzgerald_e">Fitzgerald, E.</author>
                                     <note type="description" corresp="#uncut">one of 450 copies,
                                         uncut</note>
                                     <imprint>
@@ -13069,7 +13078,7 @@
                             <biblStruct corresp="#owned" xml:id="sb232.1">
                                 <monogr>
                                     <title>Works with Essay on his Life by Jon Bee</title>
-                                    <author>Foote, Samuel</author>
+                                    <author corresp="#foote">Foote, Samuel</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <date when="1830"/>
@@ -13087,7 +13096,7 @@
                             <biblStruct corresp="#owned" xml:id="sb232.2">
                                 <monogr>
                                     <title>Omniana, or Horae Olisiores</title>
-                                    <author>Southey, Robert</author>
+                                    <author corresp="#southey">Southey, Robert</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -13105,7 +13114,7 @@
                             <biblStruct corresp="#owned" xml:id="sb232.3">
                                 <monogr>
                                     <title>Tales of the Drama</title>
-                                    <author>Macaulay, Mrs.</author>
+                                    <author corresp="#macauley">Macaulay, Mrs.</author>
                                     <note type="description">woodcuts</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -13122,7 +13131,7 @@
                             <biblStruct corresp="#owned" xml:id="sb233.1">
                                 <monogr>
                                     <title>Table-Talk and Bon-Mots, with Introduction Memoir</title>
-                                    <author>Foote, S.</author>
+                                    <author corresp="#foote">Foote, S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Wm. Cooke</name>
@@ -13140,7 +13149,7 @@
                             <biblStruct corresp="#owned" xml:id="sb233.2">
                                 <monogr>
                                     <title>Table-Talk, to which is added Porsoniana</title>
-                                    <author>Rogers, Samuel</author>
+                                    <author corresp="#rogers">Rogers, Samuel</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Alex Dyce</name>
@@ -13160,7 +13169,7 @@
                                 <monogr>
                                     <title>Dramatic Works, with Notes Critical and Explanatory by W.
                                         Gifford</title>
-                                    <author>Ford, John</author>
+                                    <author corresp="#ford_j">Ford, John</author>
                                     <note type="description">tree-calf gilt, marbled edges, by Clark
                                         and Bedford</note>
                                     <!--Clark and Bedford are English bookbinders -AM -->
@@ -13182,7 +13191,7 @@
                             <biblStruct corresp="#owned" xml:id="sb235.1">
                                 <monogr>
                                     <title>Works, with Additions by Alex Dyce</title>
-                                    <author>Ford, J.</author>
+                                    <author corresp="#ford_j">Ford, J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">William Gifford</name>
@@ -13207,7 +13216,7 @@
                             <biblStruct corresp="#owned" xml:id="sb236.1">
                                 <monogr>
                                     <title>Life and times of Oliver Goldsmith</title>
-                                    <author>Forster, John</author>
+                                    <author corresp="#forster">Forster, John</author>
                                     <note type="description">portrait, exrtra-illustrated with
                                         numerous portraits and engravings, some scarce, half morocco
                                         gilt, top edge gilt</note>
@@ -13229,6 +13238,7 @@
                                 <monogr>
                                     <title xml:lang="de">Die Feuerprobe der Liebe Angioletta</title>
                                     <author>Friedmann, Alfred</author>
+                                    <!-- No LCNAF found. -->
                                     <imprint>
                                         <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1879"/>
@@ -13278,7 +13288,7 @@
                             <biblStruct corresp="#owned" xml:id="sb238.1">
                                 <monogr>
                                     <title>Short Studies on Great Subjects</title>
-                                    <author>Froude, J. A.</author>
+                                    <author corresp="#froude">Froude, J. A.</author>
                                     <imprint>
                                         <date when="1891"/>
                                     </imprint>
@@ -13300,7 +13310,7 @@
                             <biblStruct corresp="#owned" xml:id="sb238.2">
                                 <monogr>
                                     <title>Reliques of Ancient English Poetry</title>
-                                    <author>Percy, Thos.</author>
+                                    <author corresp="#percy">Percy, Thos.</author>
                                     <note type="description">half morocco</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -13324,7 +13334,7 @@
                             <biblStruct corresp="#owned" xml:id="sb239.1">
                                 <monogr>
                                     <title xml:lang="it">Rassegna della Letteratura Inglese</title>
-                                    <author>Galimberti, Alice</author>
+                                    <author corresp="#galimberti_schanzer">Galimberti, Alice</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with autograph inscription,
                                         and interesting autograph letter of the author
@@ -13344,7 +13354,7 @@
                             <biblStruct corresp="#owned" xml:id="sb240.1">
                                 <monogr>
                                     <title>English Poems</title>
-                                    <author>Gallienne, Richard le</author>
+                                    <author corresp="#le_gallienne">Gallienne, Richard le</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. a
@@ -13362,7 +13372,7 @@
                             <biblStruct corresp="#owned" xml:id="sb241.1">
                                 <monogr>
                                     <title>Prose Fancies</title>
-                                    <author>Gallienne, R. le</author>
+                                    <author corresp="#le_gallienne">Gallienne, R. le</author>
                                     <note type="description" corresp="#uncut #presentation">portrait
                                         by P. Wilson Steer, presentation copy from the author to A.
                                         C. Swinburne, with inscription, blue cloth, uncut</note>
@@ -13380,7 +13390,7 @@
                             <biblStruct corresp="#owned" xml:id="sb242.1">
                                 <monogr>
                                     <title>Travels in England</title>
-                                    <author>Gallienne, R. le</author>
+                                    <author corresp="#le_gallienne">Gallienne, R. le</author>
                                     <note type="description" corresp="#presentation">illustrations
                                         by H. Railton, presentation copy to Swinburne, with
                                         autograph inscription</note>
@@ -13406,7 +13416,7 @@
                                     <note type="etc">presentation copies with inscriptions<num
                                             value="5"/></note>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
