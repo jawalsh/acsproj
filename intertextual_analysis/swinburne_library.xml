@@ -4668,6 +4668,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr91016003">A.K. 
                             Newman &amp; Co.</orgName>
                     </org>
+                    <org xml:id="abbotsford_club">
+                        <orgName source="http://id.loc.gov/authorities/names/no2016025058">Abbotsford 
+                            Club (Edinburgh, Scotland)</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -13428,7 +13432,7 @@
                             <biblStruct corresp="#owned" xml:id="sb243.1">
                                 <monogr>
                                     <title>Nelson's Friendships</title>
-                                    <author>Gamlin, Mrs. H.</author>
+                                    <author corresp="#gamlin">Gamlin, Mrs. H.</author>
                                     <note type="description">portraits and illustrations</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -13445,7 +13449,7 @@
                             <biblStruct corresp="#owned" xml:id="sb243.2">
                                 <monogr>
                                     <title>Savonarola, a Tragedy</title>
-                                    <author>Austin, Alfred</author>
+                                    <author corresp="#austin">Austin, Alfred</author>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
@@ -13461,7 +13465,7 @@
                             <biblStruct corresp="#owned" xml:id="sb244.1">
                                 <monogr>
                                     <title>Story of Siena and San Gimiguano</title>
-                                    <author>Gardner, Edmund G.</author>
+                                    <author corresp="#gardner">Gardner, Edmund G.</author>
                                     <note type="description" corresp="#uncut">illustrations by H. M.
                                         James, cloth gilt, uncut, top edge gilt</note>
                                     <imprint>
@@ -13474,7 +13478,7 @@
                             <biblStruct corresp="#owned" xml:id="sb244.2">
                                 <monogr>
                                     <title>The Golden Age</title>
-                                    <author>Grahame, K.</author>
+                                    <author corresp="#grahame">Grahame, K.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1900"/>
@@ -13486,7 +13490,7 @@
                             <biblStruct corresp="#owned" xml:id="sb244.3">
                                 <monogr>
                                     <title>Only Toys!</title>
-                                    <author>Anstey, F.</author>
+                                    <author corresp="#anstey">Anstey, F.</author>
                                     <note type="description">35 illustrations</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -13503,7 +13507,7 @@
                             <biblStruct corresp="#owned" xml:id="sb245.1">
                                 <monogr>
                                     <title>Cranford, with Preface by Anne Thackeray Ritchie</title>
-                                    <author>Gaskell, Mrs.</author>
+                                    <author corresp="#gaskell">Gaskell, Mrs.</author>
                                     <note type="description">illustrations by Hugh Thomson</note>
                                     <imprint>
                                         <date when="1891"/>
@@ -13515,7 +13519,7 @@
                             <biblStruct corresp="#owned" xml:id="sb245.2">
                                 <monogr>
                                     <title>Little Britain and the Spectre Bridgegroom, etc.</title>
-                                    <author>Irving, W.</author>
+                                    <author corresp="#irving">Irving, W.</author>
                                     <note type="description">illustrations by C. O. Murray</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -13528,7 +13532,7 @@
                             <biblStruct corresp="#owned" xml:id="sb245.3">
                                 <monogr>
                                     <title>Rip Van Winkle and the Legend of Sleepy Hollow</title>
-                                    <author>Irving, W.</author>
+                                    <author corresp="#irving">Irving, W.</author>
                                     <note type="description">53 illustrations by G. H.
                                         Boughton</note>
                                     <note type="etc">
@@ -13546,7 +13550,7 @@
                             <biblStruct corresp="#owned" xml:id="sb246.1">
                                 <monogr>
                                     <title>Works, with Introduction by A. W. Ward</title>
-                                    <author>Gaskell, Mrs.</author>
+                                    <author corresp="#gaskell">Gaskell, Mrs.</author>
                                     <note type="description">frontispieces, red cloth, top edge
                                         gilt</note>
                                     <imprint>
@@ -13577,7 +13581,7 @@
                             <biblStruct corresp="#owned" xml:id="sb247.1">
                                 <monogr>
                                     <title>Richard Wagner</title>
-                                    <author>Gasperini, A. de</author>
+                                    <author corresp="#gasperini">Gasperini, A. de</author>
                                     <note type="description" corresp="#uncut">portrait, facsimile,
                                         etc. uncut</note>
                                     <imprint>
@@ -13591,7 +13595,7 @@
                             <biblStruct corresp="#owned" xml:id="sb247.2">
                                 <monogr>
                                     <title>Pensées, Introduction by Paul Marieton</title>
-                                    <author>Roux, Jos.</author>
+                                    <author corresp="#roux">Roux, Jos.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -13623,7 +13627,7 @@
                                 <monogr>
                                     <title>Aurthour and Merlin: a Theatrical Romance, now first
                                         edited from the Auchinleek MS</title>
-                                    <author>Abbotsford Club</author>
+                                    <author corresp="#abbotsford_club">Abbotsford Club</author>
                                     <note type="description">frontispiece, morocco, gilt edges, arms
                                         on the sides</note>
                                     <imprint>
@@ -13641,7 +13645,7 @@
                                 <monogr>
                                     <title>England's Parnassus, or The Choyest Flowers of our
                                         Moderne Poets</title>
-                                    <author>Allot, R.</author>
+                                    <author corresp="#allott">Allot, R.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. Payne Colleir</name>
@@ -13664,6 +13668,7 @@
                                 <monogr>
                                     <title>The Thames from its Rise to the Nore</title>
                                     <author>Armstrong, Walter</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">2 vol. in 1, illustrations, half
                                         morocco, gilt edges</note>
                                     <imprint>
@@ -13685,7 +13690,7 @@
                                         for private circulation, uncut, presentation copy to
                                         Swinburne, with inscription</note>
                                     <imprint>
-                                        <publisher>Ashendene Press</publisher>
+                                        <publisher corresp="#ashendene_press">Ashendene Press</publisher>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -13700,7 +13705,7 @@
                                 <monogr>
                                     <title>Emma Lady Hamilton, a Biographical Essay, with Catalogue
                                         of her Published Portraits</title>
-                                    <author>Baily, J. T. Herbert</author>
+                                    <author corresp="#baily">Baily, J. T. Herbert</author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >portraits, some coloured, parchment, uncut, presentation
                                         copy with inscription</note>
@@ -13720,7 +13725,7 @@
                                 <monogr>
                                     <title>Memoir of Richard Busby, with some Account of Westminster
                                         School</title>
-                                    <author>Barker, G. F. Russel</author>
+                                    <author corresp="#barker_g">Barker, G. F. Russel</author>
                                     <note type="description">portrait and illustrations</note>
                                     <imprint>
                                         <date when="1895"/>
@@ -13750,6 +13755,7 @@
                                     <title xml:lang="la">Oratio in Obitum Ser. Cosmi Medicis Magni
                                         Hetrutuae Ducis</title>
                                     <author>Baudinius, O.</author>
+                                    <!-- No LCNAF found. -->
                                     <imprint>
                                         <date when="1574"/>
                                     </imprint>
@@ -13781,7 +13787,8 @@
                             <biblStruct corresp="#owned" xml:id="sb254.3">
                                 <monogr>
                                     <title>Agripanda Tragedia</title>
-                                    <author>Decis da Herte, Ant.</author>
+                                    <author corresp="#decio">Decis da Herte, Ant.</author>
+                                    <!-- Probably Antonio Decio, but difficult to verify. -->
                                     <note type="description">vellum</note>
                                     <note type="etc">
                                         <num value="2"/>
@@ -13799,7 +13806,12 @@
                             <biblStruct corresp="#owned" xml:id="sb255.1">
                                 <monogr>
                                     <title>The Elder Brother, a Comedie</title>
-                                    <author>Beaumont and Fletcher</author>
+                                    <author corresp="#beaumont">
+                                        <persName>Beaumont</persName>
+                                    </author>
+                                    <author corresp="#fletcher">
+                                        <persName>Fletcher</persName>
+                                    </author>
                                     <note type="description">corrected and amended, half bound,
                                         headlines of two leaves slightly cut into</note>
                                     <edition corresp="#sec_ed">Second Edition</edition>
@@ -13819,7 +13831,12 @@
                             <biblStruct corresp="#owned" xml:id="sb256.1">
                                 <monogr>
                                     <title>The Chances, a Comedy</title>
-                                    <author>Beaumont and Fletcher</author>
+                                    <author corresp="#beaumont">
+                                        <persName>Beaumont</persName>
+                                    </author>
+                                    <author corresp="#fletcher">
+                                        <persName>Fletcher</persName>
+                                    </author>
                                     <note type="description">corrected and altered by a Person of
                                         Honour (George Villers Duke of Buckingham), title cut and
                                         mounted, half bound</note>
@@ -13835,13 +13852,11 @@
                             <biblStruct corresp="#owned" xml:id="sb256.2">
                                 <monogr>
                                     <title>The Rival Ladies, a Tragi-Comedy</title>
-                                    <author>Dryden, John</author>
-                                    
+                                    <author corresp="#dryden">Dryden, John</author>
                                     <imprint>                                       
                                         <date when="1669"/>
                                         <pubPlace ref="#london">London</pubPlace>
                                     </imprint>
-                                  
                                 </monogr>
                                 <relatedItem type="google" target="https://books.google.com/books?id=3eZiAAAAcAAJ"/>
                                 <note type="fulltext">Google books is 1675 edition.</note>
@@ -13853,6 +13868,7 @@
                                     <title xml:lang="la">De Laudibus Vitae Rusticae Commentarius in
                                         secundam Oratii Odem a libro epodon</title>
                                     <author>Bernard, B.</author>
+                                    <!-- Other sources list author as Biagio Bernardi, no LCNAF found. -->
                                     <note type="description">vellum, Ben Johnson's copy, with his
                                         signature on title; also an Autograph Letter from Sidney C.
                                         Cockerell addressed to Mr. Swinburne.</note>
