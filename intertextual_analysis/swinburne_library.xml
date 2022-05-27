@@ -4826,7 +4826,28 @@
                         <persName source="http://id.loc.gov/authorities/names/nr93004260">Featherstone, 
                             Henry, -1647</persName>
                         <death when="1647"/>
-                    </person>                    
+                    </person>
+                    <person xml:id="speed">
+                        <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
+                            Samuel, -1681</persName>
+                        <death when="1681"/>
+                    </person>
+                    <person xml:id="meighen">
+                        <persName source="http://id.loc.gov/authorities/names/nr95022729">Meighen, 
+                            Richard, active 1656</persName>
+                        <floruit when="1656"/>
+                    </person>
+                    <person xml:id="emery">
+                        <persName source="http://id.loc.gov/authorities/names/nr97009915">Emery, 
+                            Jasper, active 1629-1651</persName>
+                        <floruit from="1629" to="1651"/>                        
+                    </person>
+                    <person xml:id="thorpe">
+                        <persName source="http://id.loc.gov/authorities/names/no00048827">Thorpe, 
+                            Thomas, 1570?-1635?</persName>
+                        <birth when="1570" cert="unknown"/>
+                        <death when="1635" cert="unknown"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -14654,11 +14675,11 @@
                             <biblStruct corresp="#owned" xml:id="sb287.1">
                                 <monogr>
                                     <title>Queen Elizabeth</title>
-                                    <author>Creighton, Mandell</author>
+                                    <author corresp="#creighton">Creighton, Mandell</author>
                                     <note type="description" corresp="#uncut">coloured frontispiece,
                                         portraits, etc. uncut</note>
                                     <imprint>
-                                        <publisher>Boussod, Valadon &amp; Co.</publisher>
+                                        <publisher corresp="#boussod_valadon_cie">Boussod, Valadon &amp; Co.</publisher>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -14671,6 +14692,7 @@
                                 <monogr>
                                     <title>The Garden of Francesca</title>
                                     <author>Cullimore, Henry</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription and
                                         dedicatory verse in the author's writing</note>
@@ -14684,7 +14706,7 @@
                             <biblStruct corresp="#owned" xml:id="sb288.2">
                                 <monogr>
                                     <title>Lyrics of the Dawn</title>
-                                    <author>Scollard, C.</author>
+                                    <author corresp="#scollard">Scollard, C.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with author's
                                         inscription</note>
@@ -14702,7 +14724,7 @@
                                 <monogr>
                                     <title>Giovani Antonio Bazzi, hitherto usually styled "Sodoma,"
                                         the Man and the Painter, 1477-1549</title>
-                                    <author>Cust, Robert H. H.</author>
+                                    <author corresp="#cust">Cust, Robert H. H.</author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustrations, blue cloth, uncut, top edge gilt</note>
                                     <imprint>
@@ -14717,7 +14739,7 @@
                             <biblStruct corresp="#owned" xml:id="sb290.1">
                                 <monogr>
                                     <title>Poems, with Introduction, Notes and Illustrations</title>
-                                    <author>Daniel, Geo.</author>
+                                    <author corresp="#daniel_g">Daniel, Geo.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -14746,7 +14768,7 @@
                                 <monogr>
                                     <title>Complete Works in Verse and Prose, with Notes,
                                         etc.</title>
-                                    <author>Daniel, Samuel</author>
+                                    <author corresp="#daniel_s">Daniel, Samuel</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -14754,7 +14776,7 @@
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         portrait, uncut</note>
                                     <imprint>
-                                        <publisher>Spenser Society</publisher>
+                                        <publisher corresp="#spenser_society">Spenser Society</publisher>
                                         <date from="1885" to="1896"/>
                                     </imprint>
                                     <extent>
@@ -14777,11 +14799,11 @@
                             <biblStruct corresp="#owned" xml:id="sb292.1">
                                 <monogr>
                                     <title>Complete Works</title>
-                                    <author>Daniel, S.</author>
+                                    <author corresp="#daniel_s">Daniel, S.</author>
                                     <note type="description" corresp="#uncut">another copy, wanting
                                         vol. II, uncut</note>
                                     <imprint>
-                                        <publisher>Spenser Society</publisher>
+                                        <publisher corresp="#spenser_society">Spenser Society</publisher>
                                         <date from="1885" to="1896"/>
                                     </imprint>
                                     <extent>
@@ -14803,13 +14825,13 @@
                                 <monogr>
                                     <title>The City-Night-Cap, or Crede quod habes &amp; habes, a
                                         Tragi-Comedy</title>
-                                    <author>Davenport, Robt.</author>
+                                    <author corresp="#davenport">Davenport, Robt.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A37210</idno>
                                     <imprint>
                                         <date when="1661"/>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Speed, Samuel</publisher>
+                                        <publisher corresp="#speed">Speed, Samuel</publisher>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Cottrel, Ja.</persName>
@@ -14822,12 +14844,12 @@
                             <biblStruct corresp="#owned" xml:id="sb293.2">
                                 <monogr>
                                     <title>The Witts, a Comedie</title><!-- The vvitts, a comedie -->
-                                    <author>Davenant, Sir. Wm.</author>
+                                    <author corresp="#davenant">Davenant, Sir. Wm.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1636"/>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Meighen, Richard</publisher>
+                                        <publisher corresp="#meighen">Meighen, Richard</publisher>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Mathewes, Augustine</persName>
@@ -14840,11 +14862,11 @@
                                 <monogr>
                                     <title>Love Tricks, or the School of Complements</title>
                                     <idno type="tcp">A12152</idno>
-                                    <author>Shirley, J.</author>
+                                    <author corresp="#shirley">Shirley, J.</author>
                                     <imprint>
                                         <date when="1667"/>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Dring, Thomas</publisher>
+                                        <publisher corresp="#dring">Dring, Thomas</publisher>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Tomlins, R.</persName>
@@ -14865,7 +14887,7 @@
                                     <imprint>
                                         <date when="1631"/>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Emery, Japser</publisher>
+                                        <publisher corresp="#emery">Emery, Japser</publisher>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Mathewes, A.</persName>
@@ -14879,11 +14901,11 @@
                                 <monogr>
                                     <title>Tragedie of Charles Duke of Byron</title>
                                     <idno type="tcp">A18404</idno>
-                                    <author>Chapman, Geo.</author>
+                                    <author corresp="#chapman">Chapman, Geo.</author>
                                     <imprint>
                                         <date when="1608"/>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Thorppe, Thomas</publisher>
+                                        <publisher corresp="#thorpe">Thorppe, Thomas</publisher>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Eld, G.</persName>
@@ -14898,7 +14920,7 @@
                                     <title>Albumazar, a Comedy presented before the King's Maiesty
                                         at Cambridge</title>
                                     <idno type="tcp">A13802</idno>
-                                    <author>Tomkis, T.</author>
+                                    <author corresp="#tomkis">Tomkis, T.</author>
                                     <note type="description">(wanting the Epilogue)</note>
                                     <imprint>
                                         <date when="1634"/>
@@ -14920,7 +14942,7 @@
                                     <title>Technogamia, or the Marriages of the Arts, a Comedie,
                                         etc.</title>
                                     <idno type="tcp">A03496</idno>
-                                    <author>Holiday, Barten</author>
+                                    <author corresp="#holyday">Holiday, Barten</author>
                                     <note type="description">in 1 vol. old calf, one title slightly
                                         defective and some leaves stained and torn; sold not subject
                                         to return</note>
@@ -14928,7 +14950,7 @@
                                         <date when="1630"/>
                                         <date from="1608" to="1667"/>
                                         <!-- This refers to all the works in the lot. --><pubPlace ref="#london">London</pubPlace>
-                                        <publisher>Meighen, Richard</publisher>
+                                        <publisher corresp="#meighen">Meighen, Richard</publisher>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Haviland, John</persName>
@@ -14953,11 +14975,11 @@
                                 <monogr>
                                     <title>Works, now first collected with an Introduction and Notes
                                         by A. H. Bullen</title>
-                                    <author>Day, John</author>
+                                    <author corresp="#day">Day, John</author>
                                     <note type="description" corresp="#uncut">half vellum,
                                         uncut</note>
                                     <imprint>
-                                        <publisher>Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -15004,7 +15026,7 @@
                             <biblStruct corresp="#owned" xml:id="sb296.1">
                                 <monogr>
                                     <title>Canidia of the Witches, a Rhapsody in Five Parts</title>
-                                    <author>Dixon, R.</author>
+                                    <author corresp="#dixon_r">Dixon, R.</author>
                                     <note type="description">calf, manuscript notes in a
                                         contemporary hand</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -15022,7 +15044,7 @@
                                 <monogr>
                                     <title>Complete Poems, with Preface, Essay on Life and Writings
                                         and Notes</title>
-                                    <author>Donne, John</author>
+                                    <author corresp="#donne">Donne, John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Gosart</name>
@@ -15046,7 +15068,7 @@
                                 <monogr>
                                     <title>The Mistaken Husband, a Comadie as it is acted by His
                                         Majesties Servants at the Theatre-Royall</title>
-                                    <author>Dryden, J.</author>
+                                    <author corresp="#dryden">Dryden, J.</author>
                                     <note type="description">binding broken</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A36653</idno>
@@ -15063,7 +15085,7 @@
                                 <monogr>
                                     <title>The Spanish Rogue, as it was acted by his Majesties
                                         Servants</title>
-                                    <author>Dufett, Tho.</author>
+                                    <author corresp="#duffett">Dufett, Tho.</author>
                                     <imprint>
                                         <date when="1674"/>
                                     </imprint>
@@ -15076,7 +15098,7 @@
                             <biblStruct corresp="#owned" xml:id="sb299.2">
                                 <monogr>
                                     <title>Bellamira, or the Mistress, a Comedy</title>
-                                    <author>Sedley, Sir Chas.</author>
+                                    <author corresp="#sedley">Sedley, Sir Chas.</author>
                                     <note type="description">last leaf defective and mended and
                                         filled in by Swinburne in pencil</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -15092,7 +15114,7 @@
                                 <monogr>
                                     <title>History of King Richard the Second</title>
                                     <idno type="tcp">A59496</idno>
-                                    <author>Tate, N.</author>
+                                    <author corresp="#tate">Tate, N.</author>
                                     <imprint>
                                         <date when="1681"/>
                                     </imprint>
@@ -15104,7 +15126,7 @@
                                 <monogr>
                                     <title>The Chances, a Comedy, etc.</title>
                                     <idno type="tcp">A39799</idno>
-                                    <author>Buckingham, Duke of</author>
+                                    <author corresp="#buckingham">Buckingham, Duke of</author>
                                     <note type="description">half bound, some head-lines cut
                                         into</note>
                                     <imprint>
@@ -15131,13 +15153,14 @@
                             <biblStruct corresp="#owned" xml:id="sb300.1">
                                 <monogr>
                                     <title>Orlando Furioso</title>
-                                    <author>Arisoto, Lod.</author>
+                                    <author corresp="#ariosto">Arisoto, Lod.</author>
                                     <note type="description">5 vol. in 2, portrait, old brown
                                         morocco gilt, borders and arms on the sides, inside gilt
                                         borders, silk linings, red and gilt edges, by Riviere</note>
                                     <imprint>
                                         <publisher xml:lang="it">Pisa dalla Typografia della Società
                                             Letteraria</publisher>
+                                        <!-- No LCNAF found. -->
                                         <date when="1809"/>
                                     </imprint>
                                     <extent>
@@ -15161,7 +15184,7 @@
                                 <monogr>
                                     <title>Historie of the Reigne of King Henry the Seventh</title>
                                     <idno type="tcp">A01483</idno>
-                                    <author>Bacon, Sir F.</author>
+                                    <author corresp="#bacon">Bacon, Sir F.</author>
                                     <imprint>
                                         <date when="1629"/>
                                     </imprint>
@@ -15173,7 +15196,7 @@
                                 <monogr>
                                     <title>Collection of the History of England</title>
                                     <idno type="tcp">A19824</idno>
-                                    <author>Daniel, S.</author>
+                                    <author corresp="#daniel_s">Daniel, S.</author>
                                     <note type="description">half calf, pencil note on fly-leaf in
                                         handwriting of Swinburne</note>
                                     <imprint>
@@ -15197,7 +15220,7 @@
                             <biblStruct corresp="#owned" xml:id="sb302.1">
                                 <monogr>
                                     <title>Life of Napoleon Bonaparte</title>
-                                    <author>Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
                                     <note type="description">plates and illustrations</note>
                                     <imprint>
                                         <date when="1897"/>
@@ -15209,7 +15232,7 @@
                             <biblStruct corresp="#owned" xml:id="sb302.2">
                                 <monogr>
                                     <title>The Mahogany Tree</title>
-                                    <author>Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">Thackeray, W. M.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="3"/>
@@ -15227,7 +15250,7 @@
                             <biblStruct corresp="#owned" xml:id="sb303.1">
                                 <monogr>
                                     <title>Another copy</title>
-                                    <author>Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
                                     <imprint>
                                         <date when="1897"/>
                                     </imprint>
@@ -15237,7 +15260,7 @@
                             <biblStruct corresp="#owned" xml:id="sb303.2">
                                 <monogr>
                                     <title>Romeo and Juliet</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">coloured illustrations</note>
                                     <note type="etc">
                                         <num value="3"/>
@@ -15257,7 +15280,12 @@
                                 <monogr>
                                     <title>Fifty Comedies and Tragedies, published by the Author's
                                         Original Copies, the Songs to each Play being added</title>
-                                    <author>Beaumont and Fletcher</author>
+                                    <author corresp="#beaumont">
+                                        <persName>Beaumont</persName>
+                                    </author>
+                                    <author corresp="#fletcher">
+                                        <persName>Fletcher</persName>
+                                    </author>
                                     <note type="description">old calf, title and last leaf mended,
                                         no portrait; sold not subject to return</note>
                                     <imprint>
@@ -15273,7 +15301,7 @@
                                 <monogr>
                                     <title xml:lang="la">Epistolarum Leonis Decimi Pont. Max. Nomine
                                         Scriptarum, etc.</title>
-                                    <author>Bembo, P.</author>
+                                    <author corresp="#bembo">Bembo, P.</author>
                                     <note type="description">old half binding</note>
                                     <imprint>
                                         <pubPlace ref="#venice">Venetia</pubPlace>
@@ -15303,7 +15331,7 @@
                                         dangerous, may be noted Acts vi, 3 “Ye may appoint” instead
                                         of “We,” and 1 Tim. iv, 6 “Thy” for “the Doctrine”</note>
                                     <imprint>
-                                        <publisher>J. Field</publisher>
+                                        <publisher corresp="#field_j">J. Field</publisher>
                                         <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1660" instant="false"/>
                                     </imprint>
@@ -15339,7 +15367,7 @@
                             <biblStruct corresp="#owned" xml:id="sb308.1">
                                 <monogr>
                                     <title>Illustrations of the Book of Job</title>
-                                    <author>Blake, W.</author>
+                                    <author corresp="#blake">Blake, W.</author>
                                     <note type="description">plates, half morocco, gilt edges</note>
                                     <imprint>
                                         <date when="1825"/>
@@ -15356,10 +15384,10 @@
                             <biblStruct corresp="#owned" xml:id="sb309.1">
                                 <monogr>
                                     <title>De Preclaris Mulieribus</title>
-                                    <author>Boccaccio, Giov.</author>
+                                    <author corresp="#boccaccio">Boccaccio, Giov.</author>
                                     <note type="description">85 leaves</note>
                                     <imprint>
-                                        <publisher>G. Husner</publisher>
+                                        <publisher corresp="#husner">G. Husner</publisher>
                                         <pubPlace ref="#strasbourg">Argentum</pubPlace>
                                         <date when="1479" instant="false">c. 1479</date>
                                     </imprint>
@@ -15372,7 +15400,7 @@
                             <biblStruct corresp="#owned" xml:id="sb309.2">
                                 <monogr>
                                     <title>De Casibus Virorum illustrium</title>
-                                    <author>Boccaccio, Giov.</author>
+                                    <author corresp="#boccaccio">Boccaccio, Giov.</author>
                                     <note type="description" anchored="true">149 leaves, gothic
                                         letter, both printed in the same type by the same printer,
                                         red initials, straight-grained red morocco gilt, gilt edges,
@@ -15383,7 +15411,7 @@
                                                 <reg instant="false">notae</reg>
                                             </choice></foreign></note>
                                     <imprint>
-                                        <publisher>G. Husner</publisher>
+                                        <publisher corresp="#husner">G. Husner</publisher>
                                         <pubPlace ref="#strasbourg">Argentum</pubPlace>
                                         <date when="1479" instant="false">c. 1479</date>
                                     </imprint>
@@ -15401,7 +15429,7 @@
                                 <monogr>
                                     <title xml:lang="la">De Consolatione et De Disciplina
                                         Scholarum</title>
-                                    <author>Boetius</author>
+                                    <author corresp="#boethius">Boetius</author>
                                     <note type="description" anchored="true">gothic letter, old
                                         vellum, Dr. Kloss's copy with his book label</note>
                                     <imprint>
@@ -15417,7 +15445,7 @@
                                 <monogr>
                                     <title>Drawings for Dante's Divina Commedia, facsimilies from
                                         the originals, with Introduction by F. Lippmann</title>
-                                    <author>Botticelli, S.</author>
+                                    <author corresp="#botticelli">Botticelli, S.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1896"/>
@@ -15471,7 +15499,7 @@
                             <biblStruct corresp="#owned" xml:id="sb312.2">
                                 <monogr>
                                     <title>OEuvres</title>
-                                    <author>Rotrou, Jean</author>
+                                    <author corresp="#rotrou">Rotrou, Jean</author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <note type="etc">
                                         <num value="15"/>
@@ -15503,12 +15531,12 @@
                                 <monogr>
                                     <title xml:lang="fr">Poésies qui ye figurerout pas dans ses
                                         OEuvres, précédées d'une Autobiographie</title>
-                                    <author>Gautier, Th.</author>
+                                    <author corresp="#gautier">Gautier, Th.</author>
                                     <note type="description" anchored="true">portrait, polished calf
                                         gilt, gilt edges</note>
                                     <imprint>
                                         <publisher xml:lang="fr">Imprimerie Particulière</publisher>
-                                        <pubPlace>France</pubPlace>
+                                        <pubPlace ref="#france">France</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
