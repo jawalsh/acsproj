@@ -2293,6 +2293,12 @@
                         <birth when="1786"/>
                         <death when="1846"/>
                     </person>
+                    <person xml:id="hayne">
+                        <persName source="http://id.loc.gov/authorities/names/n50034043">Hayne, 
+                            Paul Hamilton, 1830-1886</persName>
+                        <birth when="1830"/>
+                        <death when="1886"/>
+                    </person>
                     <person xml:id="hazlitt">
                         <persName source="http://id.loc.gov/authorities/names/n79125826">Hazlitt,
                             William, 1778-1830</persName>
@@ -16201,7 +16207,7 @@
                                 <monogr>
                                     <title>Poems, done into English Verse with Biographical and
                                         Critical Introduction by John Payne</title>
-                                    <author>Hafiz of Shiraz</author>
+                                    <author corresp="#hafiz">Hafiz of Shiraz</author>
                                     <note type="description" corresp="#uncut #presentation">large
                                         paper, half vellum, uncut, presentation copy with autograph
                                         note, imperial 8vo. Privately printed for the Villon
@@ -16227,7 +16233,7 @@
                             <biblStruct corresp="#owned" xml:id="sb334.1">
                                 <monogr>
                                     <title>Memoirs of Eight Years</title>
-                                    <author>Hake, Gordon</author>
+                                    <author corresp="#hake">Hake, Gordon</author>
                                     <note type="description" corresp="#presentation">presentation copy from the author, with
                                         inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esq. from the
@@ -16244,14 +16250,14 @@
                         <listBibl type="lot" xml:id="sb335">
                             <bibl xml:id="sb335.1">
                                 <title>Dictionary of Old English Plays</title>
-                                <author>Halliwell, J. O.</author>
+                                <author corresp="#halliwell-phillipps">Halliwell, J. O.</author>
                                 <date when="1860"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044100891456"/>
                             </bibl>
                             <bibl xml:id="sb335.2">
                                 <title>Essays on Fiction</title>
-                                <author>Senior, N. W.</author>
+                                <author corresp="#senior">Senior, N. W.</author>
                                 <date when="1864"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015064438677"/>
@@ -16293,7 +16299,7 @@
                             <biblStruct corresp="#owned" xml:id="sb336.1">
                                 <monogr>
                                     <title>Outlines of the Life of Shakespeare</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription, printed for
                                         the author's friends</note>
@@ -16313,7 +16319,7 @@
                             <biblStruct corresp="#owned" xml:id="sb337.1">
                                 <monogr>
                                     <title>Outlines of the Life of Shakespeare</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -16332,7 +16338,7 @@
                             <biblStruct corresp="#owned" xml:id="sb338.1">
                                 <monogr>
                                     <title>Outlines of the Life of Shakespeare</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation #uncut"
                                         >illustrations, green cloth, uncut, presentation copy from
                                         the author to A. C. Swinburne, with autograph inscription,
@@ -16353,7 +16359,7 @@
                             <biblStruct corresp="#owned" xml:id="sb339.1">
                                 <monogr>
                                     <title>Outline of the Life of Shakepseare</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         presentation copy from the author to A. C. Swinburne, with
                                         autograph inscription, imperial 8vo.</note>
@@ -16376,7 +16382,7 @@
                                 <monogr>
                                     <title>Memoranda on Alls Well that Ends Well, The Two Gentlemen
                                         of Verona, etc.</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -16395,7 +16401,7 @@
                             <biblStruct corresp="#owned" xml:id="sb341.1">
                                 <monogr>
                                     <title>Memoranda on the Tragedy of Hamlet</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -16414,7 +16420,7 @@
                                 <monogr>
                                     <title>Memoranda on Love's Labour Lost, King John, Othello,
                                         etc.</title>
-                                    <author>Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -16432,7 +16438,7 @@
                             <biblStruct corresp="#owned" xml:id="sb343.1">
                                 <monogr>
                                     <title>The Woodlanders</title>
-                                    <author>Hardy, Thos.</author>
+                                    <author corresp="#hardy">Hardy, Thos.</author>
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy from the author to Swinburne, with
                                         autograph inscription on half title</note>
@@ -16458,7 +16464,7 @@
                             <biblStruct corresp="#owned" xml:id="sb344.1">
                                 <monogr>
                                     <title>Wessex Poems and other Verses</title>
-                                    <author>Hardy, Thos.</author>
+                                    <author corresp="#hardy">Hardy, Thos.</author>
                                     <note type="description" corresp="#presentation">30
                                         illustrations by the author, presentation copy with
                                         autograph inscription</note>
@@ -16477,7 +16483,7 @@
                             <biblStruct corresp="#owned" xml:id="sb345.1">
                                 <monogr>
                                     <title>The Well-Beloved, a Sketch of a Temperament</title>
-                                    <author>Hardy, Thos.</author>
+                                    <author corresp="#hardy">Hardy, Thos.</author>
                                     <note type="description" corresp="#presentation">etching and
                                         map, original cloth, top edge gilt, presentation copy with
                                         autograph inscription</note>
@@ -16497,7 +16503,7 @@
                             <biblStruct corresp="#owned" xml:id="sb346.1">
                                 <monogr>
                                     <title>The Dynasts, a Drama</title>
-                                    <author>Hardy, Thos.</author>
+                                    <author corresp="#hardy">Hardy, Thos.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription</note>
                                     <note type="inscription">To Algernon C. Swinburne from Thomas
@@ -16518,7 +16524,7 @@
                             <biblStruct corresp="#owned" type="lot" xml:id="sb346.2">
                                 <monogr>
                                     <title>Under the Iron Flail</title>
-                                    <author>Oxenham, John</author>
+                                    <author corresp="#oxenham">Oxenham, John</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="etc">
@@ -16539,7 +16545,7 @@
                                 <monogr>
                                     <title>Origin of the English Drama, with Explanatory
                                         Notes</title>
-                                    <author>Hawkins, Thos.</author>
+                                    <author corresp="#hawkins_t">Hawkins, Thos.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -16563,7 +16569,7 @@
                                     <title xml:lang="la">Corolla Varia; Eclogae tres contexta per
                                         Guil. Hawkins Scholarum Hadleianum in Agro
                                         Suffolcienci</title>
-                                    <author>Hawkins, Wm.</author>
+                                    <author corresp="#hawkins_w">Hawkins, Wm.</author>
                                     <note type="description">frontispiece by T. Cecil, and plate,
                                         olive levant morocco</note>
                                     <imprint>
@@ -16579,7 +16585,7 @@
                                 <monogr>
                                     <title>Correspondence and Table-Talk with a Memoir by his
                                         Son</title>
-                                    <author>Haydon, Benji. R.</author>
+                                    <author corresp="#haydon">Haydon, Benji. R.</author>
                                     <note type="description">facsimile illustrations</note>
                                     <imprint>
                                         <date when="1876"/>
@@ -16598,7 +16604,7 @@
                             <biblStruct corresp="#owned" xml:id="sb350.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Hayne, P. H.</author>
+                                    <author corresp="#hayne">Hayne, P. H.</author>
                                     <note type="description" corresp="#presentation">portrait and
                                         numerous illustrations, presentation copy to Swinburne, with
                                         author's inscription</note>
@@ -16618,7 +16624,7 @@
                             <biblStruct corresp="#owned" xml:id="sb351.1">
                                 <monogr>
                                     <title>Lectures on the English Poets</title>
-                                    <author>Hazlitt, Wm.</author>
+                                    <author corresp="#hazlitt">Hazlitt, Wm.</author>
                                     <note type="description">half calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -16634,7 +16640,7 @@
                                 <monogr>
                                     <title>Characteristics of the English Poets from Chaucer to
                                         Shirley</title>
-                                    <author>Minto, Wm.</author>
+                                    <author corresp="#minto">Minto, Wm.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esq. with the
@@ -16654,7 +16660,7 @@
                             <biblStruct corresp="#owned" xml:id="sb352.1">
                                 <monogr>
                                     <title>Life, Work and Opinions, by William Stigand</title>
-                                    <author>Heine, Heinrich</author>
+                                    <author corresp="#heine">Heine, Heinrich</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy to Swinburne</note>
                                     <imprint>
@@ -16672,7 +16678,7 @@
                             <biblStruct corresp="#owned" xml:id="sb352.2">
                                 <monogr>
                                     <title>William Blake</title>
-                                    <author>Symons, A.</author>
+                                    <author corresp="#symons">Symons, A.</author>
                                     <note type="description" corresp="#uncut #presentation">buckram, uncut, top edge gilt,
                                         presentation copy to Swinburne from the author with
                                         autograph inscription</note>
@@ -16691,7 +16697,7 @@
                             <biblStruct corresp="#owned" xml:id="sb353.1">
                                 <monogr>
                                     <title>A Book of Verses</title>
-                                    <author>Henley, Wm. Ernest</author>
+                                    <author corresp="#henley">Henley, Wm. Ernest</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with autograph inscription on
                                         fly-leaf</note>
@@ -16711,7 +16717,7 @@
                             <biblStruct corresp="#owned" xml:id="sb354.1">
                                 <monogr>
                                     <title>Works, Poems, Essays, etc.</title>
-                                    <author>Henley, W. E.</author>
+                                    <author corresp="#henley">Henley, W. E.</author>
                                     <note type="description">portrait, blue cloth, top edge
                                         gilt</note>
                                     <imprint>
@@ -16728,7 +16734,7 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb355.1">
                                 <monogr>
                                     <title>Expedition to the Isle of Rhe</title>
-                                    <author>Herbert of Cherbury, Edward Lord</author>
+                                    <author corresp="#herbert_cherbury">Herbert of Cherbury, Edward Lord</author>
                                     <note type="description" corresp="#uncut">uncut, Swinburne's
                                         copy with his autograph signature on fly-leaf</note>
                                     <imprint>
@@ -16744,7 +16750,7 @@
                                 <monogr>
                                     <title>Works, with Remarks on his Writings and Life by W.
                                         Jerdan</title>
-                                    <author>Herbet, Geo.</author>
+                                    <author corresp="#herbert">Herbet, Geo.</author>
                                     <note type="description" corresp="#presentation">portrait, calf
                                         antique, red edges, presentation copy to A. C. Swinburne on
                                         his leaving Eton, from B. W. Lubbock, with
@@ -16761,7 +16767,7 @@
                             <biblStruct corresp="#owned" xml:id="sb356.2">
                                 <monogr>
                                     <title>On Viol and Flute</title>
-                                    <author>Gosse, E.</author>
+                                    <author corresp="#gosse">Gosse, E.</author>
                                     <note type="description" corresp="#uncut">frontispiece, uncut,
                                         inscription on fly-leaf</note>
                                     <note type="inscription">A. C. Swinburne from Edmund
@@ -16778,7 +16784,7 @@
                             <biblStruct corresp="#owned" xml:id="sb357.1">
                                 <monogr>
                                     <title>Complete Poems, with Notes, etc.</title>
-                                    <author>Herrick, Robt.</author>
+                                    <author corresp="#herrick">Herrick, Robt.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -16804,7 +16810,7 @@
                             <biblStruct corresp="#owned" xml:id="sb358.1">
                                 <monogr>
                                     <title>Hesperides, or Works both Humane and Divine</title>
-                                    <author>Herrick, R.</author>
+                                    <author corresp="#herrick">Herrick, R.</author>
                                     <note type="description">portrait, calf gilt, tooled borders,
                                         gilt edges</note>
                                     <edition>Pickering's Aldine Edition</edition>
@@ -16826,7 +16832,7 @@
                                 <monogr>
                                     <title>Hesperides and Noble Members, with Preface by A. C.
                                         Swinburne</title>
-                                    <author>Herrick, R.</author>
+                                    <author corresp="#herrick">Herrick, R.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Alfred Pollard</name>
@@ -16851,12 +16857,12 @@
                                 <monogr>
                                     <title>Dialogue on Wit and Folly, with Account of the Author by
                                         F. W. Fairholt</title>
-                                    <author>Heywood, J.</author>
+                                    <author corresp="#heywood_j">Heywood, J.</author>
                                     <note type="description">half roan, with inscription</note>
                                     <note type="inscription">To J. Y. Akerman, Esq. with the best
                                         respects of Fred. W. Fairholt</note>
                                     <imprint>
-                                        <publisher>Percy Society</publisher>
+                                        <publisher corresp="#percy_society">Percy Society</publisher>
                                         <date when="1846"/>
                                     </imprint>
                                 </monogr>
@@ -16866,7 +16872,7 @@
                             <biblStruct corresp="#owned" xml:id="sb360.2">
                                 <monogr>
                                     <title>Proverbs</title>
-                                    <author>Heywood, J.</author>
+                                    <author corresp="#heywood_j">Heywood, J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John S. Farmer</name>
@@ -16886,7 +16892,7 @@
                             <biblStruct corresp="#owned" xml:id="sb360.3">
                                 <monogr>
                                     <title>Old English Drama</title>
-                                    <author>Heywood, J.</author>
+                                    <author corresp="#heywood_j">Heywood, J.</author>
                                     <note type="description">calf</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -16909,7 +16915,7 @@
                                 <monogr>
                                     <title>Pleasant Dialogues and Drammas, with other
                                         Fancies</title>
-                                    <author>Heywood, Thos.</author>
+                                    <author corresp="#heywood_t">Heywood, Thos.</author>
                                     <note type="description">old morocco, title repaired and some
                                         head-lines cut into</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -16930,7 +16936,7 @@
                                 <monogr>
                                     <title>Dramtic Works, with Illustrative Notes and Memoir of the
                                         Author</title>
-                                    <author>Heywood, T.</author>
+                                    <author corresp="#heywood_t">Heywood, T.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <publisher>Pearson</publisher>
@@ -16973,7 +16979,7 @@
                             <biblStruct corresp="#owned" xml:id="sb363.2">
                                 <monogr>
                                     <title xml:lang="fr">Anciens et Modernes</title>
-                                    <author>Saint Victor, P. de</author>
+                                    <author corresp="#saint-victor">Saint Victor, P. de</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -16990,7 +16996,7 @@
                         <listBibl type="lot" xml:id="sb364">
                             <bibl xml:id="sb364.1">
                                 <title>General Dictionary of Provincialisms</title>
-                                <author>Holloway, Wm.</author>
+                                <author corresp="#holloway">Holloway, Wm.</author>
                                 <date when="1839"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwslqr"/>
@@ -16999,7 +17005,7 @@
                                 <monogr>
                                     <title>Essay on the Archaeology of Popular English Phrases and
                                         Nursery Rhymes, <date when="1834">1834</date></title>
-                                    <author>Ker, J. Bellenden</author>
+                                    <author corresp="#ker">Ker, J. Bellenden</author>
                                     <note type="description">in 1 vol. half calf</note>
                                     <imprint>
                                         <date from="1834" to="1839"/>
@@ -17020,7 +17026,7 @@
                                 <monogr>
                                     <title>Dictionary of the English Language, for Rhyming,
                                         Spelling, etc.</title>
-                                    <author>Walker, J.</author>
+                                    <author corresp="#walker">Walker, J.</author>
                                     <note type="description">sheep</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17057,7 +17063,7 @@
                                 <monogr>
                                     <title>Iliad, Greek text, with copious English Notes by William
                                         Trollope</title>
-                                    <author>Homer</author>
+                                    <author corresp="#homer">Homer</author>
                                     <note type="description">This is without doubt the copy which
                                         was used by Swinburne, probably when he was at Eton, and
                                         contains numerous pencil notes in his hand-writing.</note>
@@ -17075,7 +17081,7 @@
                             <biblStruct corresp="#owned" xml:id="sb366.1">
                                 <monogr>
                                     <title>Whole Works</title>
-                                    <author>Homer</author>
+                                    <author corresp="#homer">Homer</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">George Chapman</name>
@@ -17096,7 +17102,7 @@
                             <biblStruct corresp="#owned" xml:id="sb366.2">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Garnett, R.</author>
+                                    <author corresp="#garnett">Garnett, R.</author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
                                         <date when="1893"/>
@@ -17127,7 +17133,7 @@
                                 <monogr>
                                     <title xml:lang="la">Carmina et Cycli Epici Reliquiae, Gr. at
                                         Lat. cum Indice Nominum et Rerum</title>
-                                    <author>Homer</author>
+                                    <author corresp="#homer">Homer</author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -17170,7 +17176,7 @@
                             <biblStruct corresp="#owned" xml:id="sb368.1">
                                 <monogr>
                                     <title>Ancient Mysteries described</title>
-                                    <author>Hone, W.</author>
+                                    <author corresp="#hone">Hone, W.</author>
                                     <note type="description">plates, one coloured</note>
                                     <imprint>
                                         <date when="1823"/>
@@ -17183,7 +17189,7 @@
                                 <monogr>
                                     <title>Apocryphal New Testament, <date when="1821"
                                         >1821</date></title>
-                                    <author>Hone, W.</author>
+                                    <author corresp="#hone">Hone, W.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date from="1821" to="1823"/>
@@ -17196,7 +17202,7 @@
                             <biblStruct corresp="#owned" xml:id="sb368.3">
                                 <monogr>
                                     <title>Collection of English Miracle Plays, or Mysteries</title>
-                                    <author>Marriott, Wm.</author>
+                                    <author corresp="#marriott">Marriott, Wm.</author>
                                     <imprint>
                                         <pubPlace ref="#basel">Basel</pubPlace>
                                         <date when="1838"/>
@@ -17208,13 +17214,13 @@
                             <biblStruct corresp="#owned" xml:id="sb368.4">
                                 <monogr>
                                     <title>Story of the Stick</title>
-                                    <author>Réal, A.</author>
+                                    <author corresp="#real">Réal, A.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -17227,7 +17233,7 @@
                                 <monogr>
                                     <title>Comic Annual for 1832, '34, '35, '37, '38, and
                                         '42</title>
-                                    <author>Hood, Thos.</author>
+                                    <author corresp="#hood">Hood, Thos.</author>
                                     <note type="description">humorous illustrations</note>
                                     <imprint>
                                         <date from="1832" to="1842"/>
@@ -17255,7 +17261,7 @@
                                 <monogr>
                                     <title>Works, Comic and Serious, in Prose and Verse, with
                                         Notes</title>
-                                    <author>Hood, T.</author>
+                                    <author corresp="#hood">Hood, T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">his Son</name>
@@ -17299,7 +17305,7 @@
                             <biblStruct corresp="#owned" xml:id="sb371.1">
                                 <monogr>
                                     <title>Peter Priggins, the College Scout</title>
-                                    <author>Hook, Theodore</author>
+                                    <author corresp="#hook">Hook, Theodore</author>
                                     <note type="description" corresp="#uncut">illustrations by Phiz,
                                         uncut, stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -17322,7 +17328,7 @@
                             <biblStruct corresp="#owned" xml:id="sb372.1">
                                 <monogr>
                                     <title>Costume of the Ancients</title>
-                                    <author>Hope, Thos.</author>
+                                    <author corresp="#hope">Hope, Thos.</author>
                                     <note type="description" corresp="#uncut #presentation">plates,
                                         uncut, presentations copy with inscription, royal
                                         8vo.</note>
@@ -17344,7 +17350,7 @@
                             <biblStruct corresp="#owned" xml:id="sb373.1">
                                 <monogr>
                                     <title>Death of Marlowe, a Tragedy</title>
-                                    <author>Horne, R. H.</author>
+                                    <author corresp="#horne">Horne, R. H.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon Chas. Swinburne, with the
