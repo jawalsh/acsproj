@@ -400,6 +400,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/7017283" xml:id="glasgow">
                         <placeName type="preferred">Glasgow</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/1004602" xml:id="hammersmith">
+                        <placeName type="preferred">Hammersmith</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7008153" xml:id="kent">
                         <placeName type="preferred">Kent</placeName>
                     </place>
@@ -414,7 +417,7 @@
                         <placeName>Napoli</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7007567" xml:id="new_york">
-                    <placeName type="preferred">New York</placeName><!-- New York without "city" is the preferred name on TGN -->
+                        <placeName type="preferred">New York</placeName><!-- New York without "city" is the preferred name on TGN -->
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7012026" xml:id="newcastle">
                         <placeName type="preferred">Newcastle upon Tyne</placeName>
@@ -17367,7 +17370,7 @@
                                 <monogr>
                                     <title>Cosmo de' Medici, an Historical Tragedy, and other
                                         Poems</title>
-                                    <author>Horne, R. H.</author>
+                                    <author corresp="#horne">Horne, R. H.</author>
                                     <note type="description" corresp="#uncut #presentation">50
                                         copies only for sale, frontispiece, uncut, presentation copy
                                         with inscription</note>
@@ -17388,7 +17391,7 @@
                                 <monogr>
                                     <title>King Nihil's Round Table, or the Regicides'
                                         Symposium</title>
-                                    <author>Horne, R. H.</author>
+                                    <author corresp="#horne">Horne, R. H.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         "Private unpublished, <date when="1882-02-15">Feby.
                                             15/82.</date> R.H.H." presentation copy with
@@ -17407,7 +17410,7 @@
                             <biblStruct corresp="#owned" xml:id="sb375.1">
                                 <monogr>
                                     <title>Mary Queen of Scots and her Accusers</title>
-                                    <author>Hosack, J.</author>
+                                    <author corresp="#hosack">Hosack, J.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1870"/>
@@ -17424,7 +17427,7 @@
                             <biblStruct corresp="#owned" xml:id="sb375.2">
                                 <monogr>
                                     <title>The Girlhood of Mary Queen of Scots</title>
-                                    <author>Stoddart, Jane T.</author>
+                                    <author corresp="#stoddart_j">Stoddart, Jane T.</author>
                                     <note type="description">6 illustrations</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -17436,7 +17439,7 @@
                             <biblStruct corresp="#owned" xml:id="sb375.3">
                                 <monogr>
                                     <title>Mary Queen of Scots in Captivity</title>
-                                    <author>Leader, J. D.</author>
+                                    <author corresp="#leader">Leader, J. D.</author>
                                     <note type="description">portraits</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -17453,7 +17456,7 @@
                             <biblStruct corresp="#owned" xml:id="sb376.1">
                                 <monogr>
                                     <title>Ford Madox Brown, a Record of his Life and Work</title>
-                                    <author>Hueffer, Ford M.</author>
+                                    <author corresp="#ford_fm">Hueffer, Ford M.</author>
                                     <note type="description" corresp="#presentation">numerous
                                         illustrations, fancy cloth, top edge gilt, presentation copy
                                         with inscription</note>
@@ -17472,7 +17475,7 @@
                             <biblStruct corresp="#owned" xml:id="sb377.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Contemplations</title>
-                                    <author>Hugo, Victor</author>
+                                    <author corresp="#hugo">Hugo, Victor</author>
                                     <note type="description">morocco, gilt edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -17490,7 +17493,7 @@
                             <biblStruct corresp="#owned" xml:id="sb377.2">
                                 <monogr>
                                     <title xml:lang="fr">Thèâtre Complet</title>
-                                    <author>Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="18"/>
@@ -17513,7 +17516,7 @@
                             <biblStruct corresp="#owned" xml:id="sb378.1">
                                 <monogr>
                                     <title xml:lang="fr">La Legende des Siècles</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description">vellum, gilt edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -17531,7 +17534,7 @@
                             <biblStruct corresp="#owned" xml:id="sb378.2">
                                 <monogr>
                                     <title>Salammbō</title>
-                                    <author>Flaubert, G.</author>
+                                    <author corresp="#flaubert">Flaubert, G.</author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -17546,7 +17549,7 @@
                             <biblStruct corresp="#owned" xml:id="sb378.3">
                                 <monogr>
                                     <title xml:lang="fr">Les Miettes de l'Histoire</title>
-                                    <author>Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -17564,7 +17567,7 @@
                             <biblStruct corresp="#owned" xml:id="sb379.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Chatiments</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">Walter Theodore Watts from his friend
@@ -17582,7 +17585,7 @@
                             <biblStruct corresp="#owned" xml:id="sb380.1">
                                 <monogr>
                                     <title xml:lang="fr">Torquemada, Drame</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the Author to Swinburne, with
                                         autograph inscription</note>
@@ -17602,7 +17605,7 @@
                                 <monogr>
                                     <title xml:lang="fr">La Legende des Siècles, Tome cinquième et
                                         dernier</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author with autograph inscription
                                         on half-title</note>
@@ -17625,7 +17628,7 @@
                             <biblStruct corresp="#owned" xml:id="sb382.1">
                                 <monogr>
                                     <title>Hernani, a Drama, with Introduction</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <respStmt>
                                         <resp>translated into English Verse</resp>
                                         <name full="yes">R. Farquharson Sharp</name>
@@ -17649,7 +17652,7 @@
                             <biblStruct corresp="#owned" xml:id="sb383.1">
                                 <monogr>
                                     <title>OEvres</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#uncut">portraits,
                                         uncut</note>
                                     <imprint>
@@ -17669,7 +17672,7 @@
                             <biblStruct corresp="#owned" xml:id="sb384.1">
                                 <monogr>
                                     <title xml:lang="fr">OEvres Complètes</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#uncut">wanting Poésie XV and
                                         XVI, uncut</note>
                                     <edition xml:lang="fr">Edition Definitive d'après les Manuscrits
@@ -17689,7 +17692,7 @@
                             <biblStruct corresp="#owned" xml:id="sb385.1">
                                 <monogr>
                                     <title>OEvres, Poésie XIII</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne</note>
                                     <note type="inscription" xml:lang="fr">À mon grand et cher
@@ -17709,7 +17712,7 @@
                                 <monogr>
                                     <title>Translations from his Poems, by Henry Carrington, Dean of
                                         Bocking</title>
-                                    <author>Hugo, V.</author>
+                                    <author corresp="#hugo">Hugo, V.</author>
                                     <note type="description" corresp="#presentation #uncut">portrait, vellum, uncut, presentation
                                         copy from the translator, MS. note on fly-leaf in
                                         Swinburne's hand-writing</note>
@@ -17727,7 +17730,7 @@
                             <biblStruct corresp="#owned" xml:id="sb387.1">
                                 <monogr>
                                     <title>The Reflector, a Quarterly Magazine</title>
-                                    <author>Hunt, Leigh</author>
+                                    <author corresp="#hunt_l">Hunt, Leigh</author>
                                     <note type="description">half calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17744,7 +17747,7 @@
                             </biblStruct>
                             <bibl xml:id="sb387.2">
                                 <title>Imagination and Fancy</title>
-                                <author>Hunt, Leigh</author>
+                                <author corresp="#hunt_l">Hunt, Leigh</author>
                                 <date when="1846"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/umn.319510024000388"/>
@@ -17752,7 +17755,7 @@
                             <biblStruct corresp="#owned" xml:id="sb387.3">
                                 <monogr>
                                     <title>Book for a Corner</title>
-                                    <author>Hunt, Leigh</author>
+                                    <author corresp="#hunt_l">Hunt, Leigh</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -17776,7 +17779,7 @@
                             <biblStruct corresp="#owned" xml:id="sb388.1">
                                 <monogr>
                                     <title>The Story of Rimini, a Poem</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description" corresp="#uncut">original boards,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -17792,7 +17795,7 @@
                             <biblStruct corresp="#owned" xml:id="sb389.1">
                                 <monogr>
                                     <title>Foliage, or Poems Original and Translated</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">half calf, marbled edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17805,7 +17808,7 @@
                             <biblStruct corresp="#owned" xml:id="sb389.2">
                                 <monogr>
                                     <title>Feast of the Poets</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1814"/>
@@ -17817,7 +17820,7 @@
                             <biblStruct corresp="#owned" xml:id="sb389.3">
                                 <monogr>
                                     <title>Poems by Thomas Gent, 1820</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">in 1 vol. half calf</note>
                                     <imprint>
                                         <date from="1814" to="1820"/>
@@ -17837,7 +17840,7 @@
                             <biblStruct corresp="#owned" xml:id="sb390.1">
                                 <monogr>
                                     <title>The Companion</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">half calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17850,7 +17853,7 @@
                             <biblStruct corresp="#owned" xml:id="sb390.2">
                                 <monogr>
                                     <title>The Liberal, Verse and Prose from the South</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17868,7 +17871,7 @@
                             <biblStruct corresp="#owned" xml:id="sb390.3">
                                 <monogr>
                                     <title>The Indicator</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -17885,7 +17888,7 @@
                             <biblStruct corresp="#owned" xml:id="sb391.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">half calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17898,7 +17901,7 @@
                             <biblStruct corresp="#owned" xml:id="sb391.2">
                                 <monogr>
                                     <title>Correspondence</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">his eldest Son</name>
@@ -17924,7 +17927,7 @@
                             <biblStruct corresp="#owned" xml:id="sb392.1">
                                 <monogr>
                                     <title>Wit and Humour, selected from the English Poets</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description" corresp="#presentation">cloth gilt,
                                         presentation copy with autograph insciprtion</note>
                                     <note type="inscription">To Edmund Peel from his friend Leigh
@@ -17941,7 +17944,7 @@
                             <biblStruct corresp="#owned" xml:id="sb393.1">
                                 <monogr>
                                     <title>Men, Women and Books</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">portrait, original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17962,7 +17965,7 @@
                             <biblStruct corresp="#owned" xml:id="sb394.1">
                                 <monogr>
                                     <title>The Town, its Memorable Characters and Events</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">45 illustrations, original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17983,7 +17986,7 @@
                                 <monogr>
                                     <title>Table-Talk, to which are added Imaginary Conversations of
                                         Pope and Swift</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -17996,7 +17999,7 @@
                             <biblStruct corresp="#owned" xml:id="sb395.2">
                                 <monogr>
                                     <title>Sir Ralph Esher</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">frontispiece</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -18015,7 +18018,7 @@
                             <biblStruct corresp="#owned" xml:id="sb396.1">
                                 <monogr>
                                     <title>Essays</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <respStmt>
                                         <resp>selected and edited by</resp>
                                         <name full="yes">A. Brimley Johnson</name>
@@ -18032,10 +18035,10 @@
                             <biblStruct corresp="#owned" xml:id="sb396.2">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Coleridge, S. T.</author>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
                                     <note type="description">red morocco, gilt edges</note>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1848"/>
                                     </imprint>
                                 </monogr>
@@ -18050,7 +18053,7 @@
                                 <monogr>
                                     <title>Autobiography, with Reminiscences of Friends and
                                         Contemporaries</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <note type="description">portrait, original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -18072,7 +18075,7 @@
                             <biblStruct corresp="#owned" xml:id="sb398.1">
                                 <monogr>
                                     <title>The Foster-Brother, a Tale of the War of Chiozza</title>
-                                    <author>Hunt, L.</author>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Leigh Hunt</name>
@@ -18099,7 +18102,7 @@
                                 <monogr>
                                     <title>Life and Complete Works, in Prose and Verse, with Note
                                         and Illustrations</title>
-                                    <author>Greene, Robt.</author>
+                                    <author corresp="#greene">Greene, Robt.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -18108,7 +18111,7 @@
                                         facsimile, etc. green cloth, uncut; printed for private
                                         circulation</note>
                                     <imprint>
-                                        <publisher>Huth Library</publisher>
+                                        <publisher corresp="#huth">Huth Library</publisher>
                                         <date from="1881" to="1886"/>
                                     </imprint>
                                     <extent>
@@ -18152,7 +18155,7 @@
                             <biblStruct corresp="#owned" xml:id="sb400.1">
                                 <monogr>
                                     <title>Complete Works, with Notes and Illustrations</title>
-                                    <author>Nashe, Thos.</author>
+                                    <author corresp="#nash">Nashe, Thos.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -18160,7 +18163,7 @@
                                     <note type="description" corresp="#uncut">one of 50 copies, blue
                                         cloth, uncut; printed for private circulation</note>
                                     <imprint>
-                                        <publisher>Huth Library</publisher>
+                                        <publisher corresp="#huth">Huth Library</publisher>
                                         <date from="1883" to="1886"/>
                                     </imprint>
                                     <extent>
@@ -18187,7 +18190,7 @@
                             <biblStruct corresp="#owned" xml:id="sb401.1">
                                 <monogr>
                                     <title>Non-Dramatic Works, with Notes and Illustrations</title>
-                                    <author>Dekker, Thos.</author>
+                                    <author corresp="#dekker">Dekker, Thos.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -18195,7 +18198,7 @@
                                     <note type="description" corresp="#uncut">one of 50 copies, grey cloth, uncut;
                                         printed for private circulation</note>
                                     <imprint>
-                                        <publisher>Huth Library</publisher>
+                                        <publisher corresp="#huth">Huth Library</publisher>
                                         <date from="1884" to="1886"/>
                                     </imprint>
                                     <extent>
@@ -18218,7 +18221,7 @@
                             <biblStruct corresp="#owned" xml:id="sb402.1">
                                 <monogr>
                                     <title>Works, with Notes and Illustrations</title>
-                                    <author>Harvey, Gabriel</author>
+                                    <author corresp="#harvey">Harvey, Gabriel</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -18226,7 +18229,7 @@
                                     <note type="description" corresp="#uncut">one of 50 copies,
                                         brown cloth, uncut; printed for private circulation</note>
                                     <imprint>
-                                        <publisher>Huth Library</publisher>
+                                        <publisher corresp="#huth">Huth Library</publisher>
                                         <date from="1884" to="1885"/>
                                     </imprint>
                                     <extent>
@@ -18245,7 +18248,7 @@
                             <biblStruct corresp="#owned" xml:id="sb403.1">
                                 <monogr>
                                     <title>Christopher Marlow and his Associates</title>
-                                    <author>Ingram, J. H.</author>
+                                    <author corresp="#ingram">Ingram, J. H.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1904"/>
@@ -18256,7 +18259,7 @@
                             </biblStruct>
                             <bibl xml:id="sb403.2">
                                 <title>Studies and Childhood</title>
-                                <author>Sully, J.</author>
+                                <author corresp="#sully">Sully, J.</author>
                                 <date when="1895"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/coo1.ark:/13960/t3mw30p3q"/>
@@ -18266,7 +18269,7 @@
                             <biblStruct corresp="#owned" xml:id="sb403.3">
                                 <monogr>
                                     <title>Critical and Historical Essays</title>
-                                    <author>Macaulay, Lord</author>
+                                    <author corresp="#macaulay">Macaulay, Lord</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">F. C. Montague</name>
@@ -18294,7 +18297,7 @@
                             <biblStruct corresp="#owned" xml:id="sb404.1">
                                 <monogr>
                                     <title>Tales of a Traveller</title>
-                                    <author>Irving, W.</author>
+                                    <author corresp="#irving">Irving, W.</author>
                                     <note type="description" corresp="#uncut">printed within borders, illustrations,
                                         cloth gilt, uncut, top edge gilt, with outside cover</note>
                                     <edition>Buckthorne edition</edition>
@@ -18315,7 +18318,7 @@
                             <biblStruct corresp="#owned" xml:id="sb405.1">
                                 <monogr>
                                     <title>Wood and Garden</title>
-                                    <author>Jekyll, G.</author>
+                                    <author corresp="#jekyll">Jekyll, G.</author>
                                     <note type="description">71 illustrations</note>
                                     <imprint>
                                         <date when="1900"/>
@@ -18327,7 +18330,7 @@
                             <biblStruct corresp="#owned" xml:id="sb405.2">
                                 <monogr>
                                     <title>Home and Garden</title>
-                                    <author>Jekyll, G.</author>
+                                    <author corresp="#jekyll">Jekyll, G.</author>
                                     <note type="description">53 illustrations</note>
                                     <imprint>
                                         <date when="1900"/>
@@ -18339,7 +18342,7 @@
                             <biblStruct corresp="#owned" xml:id="sb405.3">
                                 <monogr>
                                     <title>Praise of Gardens</title>
-                                    <author>Sieveking, A. F.</author>
+                                    <author corresp="#sieveking">Sieveking, A. F.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -18356,7 +18359,7 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb406.1">
                                 <monogr>
                                     <title>Lives of English Poets</title>
-                                    <author>Johnson, S.</author>
+                                    <author corresp="#johnson_s">Johnson, S.</author>
                                     <note type="description">woodcut portraits, calf, gilt edges,
                                         Swinburne's copy, with his signature on fly-leaf</note>
                                     <note type="inscription">Algernon C. Swinburne, <date
@@ -18373,7 +18376,7 @@
                             <biblStruct corresp="#owned" xml:id="sb407.1">
                                 <monogr>
                                     <title>Lives of the most Eminent English Poets</title>
-                                    <author>Johnson, S.</author>
+                                    <author corresp="#johnson_s">Johnson, S.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <date when="1896"/>
@@ -18392,7 +18395,7 @@
                             <biblStruct corresp="#owned" xml:id="sb407.2">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Sterne, L.</author>
+                                    <author corresp="#sterne">Sterne, L.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Geo. Saintsbury</name>
@@ -18427,7 +18430,7 @@
                             <biblStruct corresp="#owned" xml:id="sb408.1">
                                 <monogr>
                                     <title>Works, with Biographical Memoir by Wm. Gifford</title>
-                                    <author>Jonson, Ben</author>
+                                    <author corresp="#jonson">Jonson, Ben</author>
                                     <note type="description">portrait, russia, marbled edges</note>
                                     <imprint>
                                         <date when="1846"/>
@@ -18441,7 +18444,7 @@
                             <biblStruct corresp="#owned" xml:id="sb408.2">
                                 <monogr>
                                     <title>Life of Johnson</title>
-                                    <author>Boswell, J.</author>
+                                    <author corresp="#boswell">Boswell, J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. W. Croker</name>
@@ -18462,7 +18465,7 @@
                                     <title>Works, with Notes, Critical and Explanatory, and
                                         Biographical Memoir by W. Gifford, and Introduction and
                                         Appendecies by Lt.-Col F. Cunningham</title>
-                                    <author>Jonson, Ben</author>
+                                    <author corresp="#jonson">Jonson, Ben</author>
                                     <note type="description" corresp="#uncut">portrait, red cloth,
                                         uncut</note>
                                     <imprint>
@@ -18497,7 +18500,7 @@
                                 <monogr>
                                     <title>Letters to Fanny Brawne, with Introduction and Notes by
                                         H. Buxton Forman</title>
-                                    <author>Keats, John</author>
+                                    <author corresp="#keats">Keats, John</author>
                                     <note type="description" corresp="#uncut">one of 50 copies, portraits and
                                         facsimile of letter, uncut. Printed for private
                                         circulation</note>
@@ -18516,7 +18519,7 @@
                                 <monogr>
                                     <title>Poetical Works, with Introduction and Textual
                                         Notes</title>
-                                    <author>Keats, John</author>
+                                    <author corresp="#keats">Keats, John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. Buxton Forman</name>
@@ -18539,7 +18542,7 @@
                             <biblStruct corresp="#owned" xml:id="sb412.1">
                                 <monogr>
                                     <title>The Defence of Guenevere</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut #presentation">printed
                                         in black and red, ornamental border and initials, vellum,
                                         uncut, presentation copy from the author, with the autograph
@@ -18548,7 +18551,7 @@
                                         William Morris, <date when="1892-05-29">May 29th,
                                             1892</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -18563,7 +18566,7 @@
                                 <monogr>
                                     <title>Life of Thomas Wolsey, Cardinal Archbishop of
                                         York</title>
-                                    <author>Cavendish, Geo.</author>
+                                    <author corresp="#cavendish">Cavendish, Geo.</author>
                                     <respStmt>
                                         <resp>transcribed by</resp>
                                         <name full="yes">F. S. Ellis</name>
@@ -18572,7 +18575,7 @@
                                         >ornamental initials, vellum, uncut, with ties, presentation
                                         copy to Swinburne from the editor; 4to.</note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -18603,7 +18606,7 @@
                                         remembrances of the editor, F. S. Ellis, <date
                                             when="1892-10-17">Oct. 17th, 1892</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1892"/>
                                     </imprint>
                                     <extent>
@@ -18633,7 +18636,7 @@
                             <biblStruct corresp="#owned" xml:id="sb415.1">
                                 <monogr>
                                     <title>Sidonia the Sorceress</title>
-                                    <author>Meinhold, Wm.</author>
+                                    <author corresp="#meinhold">Meinhold, Wm.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Lady Wilde</name>
@@ -18646,7 +18649,7 @@
                                         William Morris, <date when="1893-11-27">Nov. 27th,
                                             1893</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -18670,7 +18673,7 @@
                                         William Morris, <date when="1894-01-22">January 22nd,
                                             1894</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -18690,7 +18693,7 @@
                                         in red and black, with ornamental border and initials,
                                         uncut, presentation copy, with autograph inscription</note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -18714,7 +18717,7 @@
                                         William Morris, <date when="1894-10-24">Oct. 24th,
                                             1894</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -18728,7 +18731,7 @@
                             <biblStruct corresp="#owned" xml:id="sb419.1">
                                 <monogr>
                                     <title>The Wood beyond the World</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut #presentation">350
                                         copies printed in red and black, with full-page woodcut by
                                         Sir E. Burne-Jones, ornamental border and initials, vellum,
@@ -18740,7 +18743,7 @@
                                     </note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -18753,7 +18756,7 @@
                             <biblStruct corresp="#owned" xml:id="sb420.1">
                                 <monogr>
                                     <title>Poetical Works, overseen by F. S. Ellis</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description" corresp="#uncut #presentation">printed
                                         in black and red, woodcut borders and initials, vellum,
                                         uncut, with ties, presentation copy from W. Morris to
@@ -18763,8 +18766,8 @@
                                         William Morris, <date when="1895-12-12">Dec. 12th,
                                             1895</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
-                                        <pubPlace>Hammersmith</pubPlace><!-- pubPlace identified by research. -->
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
+                                        <pubPlace ref="#hammersmith">Hammersmith</pubPlace><!-- pubPlace identified by research. -->
                                         <date when="1895"/>
                                     </imprint>
                                     <extent>
@@ -18794,7 +18797,7 @@
                                         William Morris, <date when="1895-05-20">May 20th,
                                             1895</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -18805,7 +18808,7 @@
                             <biblStruct corresp="#owned" xml:id="sb422.1">
                                 <monogr>
                                     <title>Life and Death of Jason, a Poem</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut #presentation">printed
                                         in black and red, 2 full-page woodcuts by Sir E.
                                         Burne-Jones, woodcut borders and intiails, vellum, uncut,
@@ -18815,7 +18818,7 @@
                                         William Morris, <date when="1895-07-13">July 13th,
                                             1895</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -18838,7 +18841,7 @@
                                         folio. Presentation copy from William Morris to A. C.
                                         Swinburne, with autograph inscription</note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -18865,7 +18868,7 @@
                                         transcriber, <date when="1897-01-08">Jan. 8th,
                                         1897</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -18876,7 +18879,7 @@
                             <biblStruct corresp="#owned" xml:id="sb425.1">
                                 <monogr>
                                     <title>The Well at the World's End</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut #presentation">one of
                                         350 copies, printed in black and red, with four woodcuts by
                                         Sir E. Burne-Jones, ornamental borders and intials, vellum,
@@ -18886,7 +18889,7 @@
                                         William Morris, <date when="1896-06-09">June 9th,
                                             1896</date></note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -18900,7 +18903,7 @@
                             <biblStruct corresp="#owned" xml:id="sb426.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Chaucer, Geoffrey</author>
+                                    <author corresp="#chaucer">Chaucer, Geoffrey</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">F. S. Ellis</name>
@@ -18913,7 +18916,7 @@
                                         Morris and Edward Burne-Jones, <date when="1896-07-12">July
                                             12th, 1896</date>; royal folio.</note>
                                     <imprint>
-                                        <publisher>Kelmscott Press</publisher>
+                                        <publisher corresp="#kelmscott">Kelmscott Press</publisher>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -18931,7 +18934,7 @@
                                 <monogr>
                                     <title>Record of a Girlhood</title>
                                     <!-- Check spelling. -->
-                                    <author>Kemble, Frances A.</author>
+                                    <author corresp="#kemble">Kemble, Frances A.</author>
                                     <imprint>
                                         <date when="1879"/>
                                     </imprint>
@@ -18949,7 +18952,7 @@
                                 <monogr>
                                     <title>Records of Later Life</title>
                                     <!-- Check spelling. -->
-                                    <author>Kemble, Frances A.</author>
+                                    <author corresp="#kemble">Kemble, Frances A.</author>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
@@ -18991,7 +18994,7 @@
                                 <monogr>
                                     <title>Fame's Memorial, an Elegy upon the Earl of
                                         Devonshire</title>
-                                    <author>Ford, John</author>
+                                    <author corresp="#ford_j">Ford, John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. Haslewood</name>
@@ -19000,8 +19003,8 @@
                                         presentation copies to Swinburne, with inscriptions <num
                                             value="12"/></note>
                                     <imprint>
-                                        <publisher>Private Press of Lee Priory</publisher>
-                                        <pubPlace>Kent</pubPlace>
+                                        <publisher corresp="#lee_priory">Private Press of Lee Priory</publisher>
+                                        <pubPlace ref="#kent">Kent</pubPlace>
                                         <date when="1819"/>
                                     </imprint>
                                 </monogr>
@@ -19012,7 +19015,7 @@
                             <biblStruct corresp="#owned" xml:id="sb429.1">
                                 <monogr>
                                     <title>His Letters, and Memories of his Life</title>
-                                    <author>Kingsley, Chas.</author>
+                                    <author corresp="#kingsley">Kingsley, Chas.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">his Wife</name>
@@ -19035,7 +19038,7 @@
                             </biblStruct>
                             <bibl xml:id="sb429.2">
                                 <title>Wagner as I knew him</title>
-                                <author>Praeger, F.</author>
+                                <author corresp="#praeger">Praeger, F.</author>
                                 <date when="1892"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.ml1fj9"/>
@@ -19066,7 +19069,7 @@
                             <biblStruct corresp="#owned" xml:id="sb430.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Knox, John</author>
+                                    <author corresp="#knox_j">Knox, John</author>
                                     <respStmt>
                                         <resp>collected and edited by</resp>
                                         <name full="yes">David Laing</name>
@@ -19096,7 +19099,7 @@
                             <biblStruct corresp="#owned" xml:id="sb430.2">
                                 <monogr>
                                     <title>A Later Pepys, with Notes, etc.</title>
-                                    <author>Gaussen, Alice C. G.</author>
+                                    <author corresp="#gaussen">Gaussen, Alice C. G.</author>
                                     <note type="description">portraits and illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
@@ -19118,7 +19121,7 @@
                             <biblStruct corresp="#owned" xml:id="sb431.1">
                                 <monogr>
                                     <title>Complete Works in Prose and Verse</title>
-                                    <author>Lamb, Charles</author>
+                                    <author corresp="#lamb_c">Lamb, Charles</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. H. Shepherd</name>
