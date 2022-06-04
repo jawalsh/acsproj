@@ -19136,7 +19136,7 @@
                             </biblStruct>
                             <bibl type="lot" xml:id="sb431.2">
                                 <title>Essays of Elia</title>
-                                <author>Lamb, Charles</author>
+                                <author corresp="#lamb_c">Lamb, Charles</author>
                                 <date when="1849"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/coo.31924105428894"/>
@@ -19144,7 +19144,7 @@
                             <biblStruct corresp="#owned" xml:id="sb431.3">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Cooper, T.</author>
+                                    <author corresp="#cooper_t">Cooper, T.</author>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
@@ -19161,7 +19161,7 @@
                                 <monogr>
                                     <title>Beauty and the Beast, reprinted, with Notes, etc. by R.
                                         H. Shepherd</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <note type="description" corresp="#presentation">only 100 copies printed, presentation
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne from his grateful
@@ -19180,7 +19180,7 @@
                             <biblStruct corresp="#owned" xml:id="sb433.1">
                                 <monogr>
                                     <title>Specimens of English Dramatic Poets</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">I. Gollanez</name>
@@ -19202,7 +19202,7 @@
                             <biblStruct corresp="#owned" xml:id="sb433.2">
                                 <monogr>
                                     <title>Charles Lamb and the Lloyds</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. V. Lucas</name>
@@ -19219,7 +19219,7 @@
                                 <monogr>
                                     <title>Poems, Plays and Miscellaneous Essays, with Notes, etc.
                                         by Alfred Ainger</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
@@ -19236,10 +19236,10 @@
                                 <monogr>
                                     <title>Works, with Sketch of his Life by Sir T. N.
                                         Talfourd</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <note type="description">portrait, calf gilt, gilt edges</note>
                                     <imprint>
-                                        <publisher>Moxon</publisher>
+                                        <publisher corresp="#moxon">Moxon</publisher>
                                         <date when="1850"/>
                                     </imprint>
                                     <extent>
@@ -19261,7 +19261,7 @@
                                 <monogr>
                                     <title>Life, Letters and Writings, with Notes and
                                         Illustrations</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Percy Fitzgerald</name>
@@ -19293,7 +19293,12 @@
                             <biblStruct corresp="#owned" xml:id="sb436.1">
                                 <monogr>
                                     <title>Poetry for Children</title>
-                                    <author>Lamb, C. and Mary</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C. </persName>
+                                    </author>
+                                    <author corresp="#lamb_m">
+                                        <persName>Mary</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">mottled calf, inside
                                         gilt borders, uncut, top edge gilt, by Zachnsdorf</note>
                                     <edition>reprint of the First Edition</edition>
@@ -19314,7 +19319,12 @@
                             <biblStruct corresp="#owned" xml:id="sb437.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Lamb, C. and Mary</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C. </persName>
+                                    </author>
+                                    <author corresp="#lamb_m">
+                                        <persName>Mary</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. V. Lucas</name>
@@ -19349,7 +19359,7 @@
                             <biblStruct corresp="#owned" xml:id="sb438.1">
                                 <monogr>
                                     <title>The Count Arezzi, a Tragedy</title>
-                                    <author>Landor, Robt. E.</author>
+                                    <author corresp="#landor_r">Landor, Robt. E.</author>
                                     <note type="description"/>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -19362,7 +19372,7 @@
                                 <monogr>
                                     <title>The Earl of Brecon, a Tragedy, Faith's Fraud, a Tragedy,
                                         and The Ferryman, a Drama</title>
-                                    <author>Landor, Robt. E.</author>
+                                    <author corresp="#landor_r">Landor, Robt. E.</author>
                                     <note type="description" corresp="#presentation">half calf gilt, marbled edges,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">Rossetti, P.—R. B. To Algernon
@@ -19383,7 +19393,7 @@
                             <biblStruct corresp="#owned" xml:id="sb439.1">
                                 <monogr>
                                     <title>The Fawn of Sertorious</title>
-                                    <author>Landor, Robt. E.</author>
+                                    <author corresp="#landor_r">Landor, Robt. E.</author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -19403,7 +19413,7 @@
                             <biblStruct corresp="#owned" xml:id="sb440.1">
                                 <monogr>
                                     <title>Gebir, a Poem</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1803"/>
@@ -19413,14 +19423,14 @@
                             </biblStruct>
                             <bibl xml:id="sb440.2">
                                 <title>Anthony and Octavius</title>
-                                <author>Landor, W. S.</author>
+                                <author corresp="#landor_w">Landor, W. S.</author>
                                 <date when="1858"/>
                                 <relatedItem type="none" target=""/>
                             </bibl>
                             <biblStruct corresp="#owned" xml:id="sb440.3">
                                 <monogr>
                                     <title>Hellenics, comprising Heroic Idylls, etc.</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <imprint>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1859"/>
@@ -19435,7 +19445,7 @@
                                 <monogr>
                                     <title xml:lang="la">Idyllia nova quinque Heroum atque Heroidum,
                                         etc.</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <note type="description">calf gilt, marbled edges; The only
                                         edition of the scarce work mentioned by Lowndes was printed
                                         at Pisa in 1820</note>
@@ -19453,7 +19463,7 @@
                                 <monogr>
                                     <title>Imaginary Conversations of Literary Men and Statesmen,
                                         Both Series</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition/>
                                     <imprint>
@@ -19481,7 +19491,7 @@
                             <biblStruct corresp="#owned" xml:id="sb443.1">
                                 <monogr>
                                     <title>The Pentameron and Pentalogia</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <note type="description" corresp="#uncut">original cloth,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -19497,7 +19507,7 @@
                             <biblStruct corresp="#owned" xml:id="sb444.1">
                                 <monogr>
                                     <title>Andrea of Hungary, and Giovanna of Naples</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1839"/>
@@ -19509,7 +19519,7 @@
                             <biblStruct corresp="#owned" xml:id="sb444.2">
                                 <monogr>
                                     <title>Heroic Idylls, with Additional Poems</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1863"/>
@@ -19521,7 +19531,7 @@
                             <biblStruct corresp="#owned" xml:id="sb444.3">
                                 <monogr>
                                     <title>Portraits</title>
-                                    <author>Webster, Augusta</author>
+                                    <author corresp="#webster_a">Webster, Augusta</author>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
@@ -19539,7 +19549,7 @@
                             <biblStruct corresp="#owned" xml:id="sb445.1">
                                 <monogr>
                                     <title>Dry Sticks Fagoted</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -19553,7 +19563,7 @@
                             <biblStruct corresp="#owned" xml:id="sb445.2">
                                 <monogr>
                                     <title>In the Garden of Dreams</title>
-                                    <author>Moulton, L. Chandler</author>
+                                    <author corresp="#moulton_l">Moulton, L. Chandler</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne with the
@@ -19572,7 +19582,7 @@
                             <biblStruct corresp="#owned" xml:id="sb446.1">
                                 <monogr>
                                     <title>Pericles and Aspasia</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">C. G. Crump</name>
@@ -19594,7 +19604,7 @@
                             <biblStruct corresp="#owned" xml:id="sb446.2">
                                 <monogr>
                                     <title>Letters and other Unpublished Writings</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Wheeler</name>
@@ -19610,7 +19620,7 @@
                             <biblStruct corresp="#owned" xml:id="sb446.3">
                                 <monogr>
                                     <title>Crotchet Castle</title>
-                                    <author>Peacock, T.</author>
+                                    <author corresp="#peacock">Peacock, T.</author>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
@@ -19627,7 +19637,7 @@
                             <biblStruct corresp="#owned" xml:id="sb447.1">
                                 <monogr>
                                     <title>Letters, Private and Public</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Stephen Wheeler</name>
@@ -19644,7 +19654,7 @@
                             <biblStruct corresp="#owned" xml:id="sb447.2">
                                 <monogr>
                                     <title>Imaginary Conversations of Greeks and Romans</title>
-                                    <author>Landor, W. S.</author>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1853"/>
@@ -19656,7 +19666,7 @@
                             <biblStruct corresp="#owned" xml:id="sb447.3">
                                 <monogr>
                                     <title>Letters and Recollections of Sir Walter Scott</title>
-                                    <author>Hughes, Mrs.</author>
+                                    <author corresp="#hughes">Hughes, Mrs.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. G. Hutchinson</name>
@@ -19677,7 +19687,7 @@
                             <biblStruct corresp="#owned" xml:id="sb448.1">
                                 <monogr>
                                     <title>Old Friends, Essays in Epistolary Parody</title>
-                                    <author>Lang, A.</author>
+                                    <author corresp="#lang">Lang, A.</author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
                                         <date when="1890"/>
@@ -19688,7 +19698,7 @@
                             </biblStruct>
                             <bibl xml:id="sb448.2">
                                 <title>Letters on Literature</title>
-                                <author>Lang, A.</author>
+                                <author corresp="#lang">Lang, A.</author>
                                 <date when="1892"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/osu.32435078326238"/>
@@ -19696,7 +19706,7 @@
                             <biblStruct corresp="#owned" xml:id="sb448.3">
                                 <monogr>
                                     <title>Homeric Hymns</title>
-                                    <author>Lang, A.</author>
+                                    <author corresp="#lang">Lang, A.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="6"/></note>
@@ -19712,7 +19722,7 @@
                             <biblStruct corresp="#owned" xml:id="sb449.1">
                                 <monogr>
                                     <title xml:lang="fr">Nos Vieux Proverbes</title>
-                                    <author>Larchey, L.</author>
+                                    <author corresp="#larchey">Larchey, L.</author>
                                     <note type="description">illustrations, half morocco gilt, top
                                         edge gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -19727,7 +19737,7 @@
                             <biblStruct corresp="#owned" xml:id="sb449.2">
                                 <monogr>
                                     <title xml:lang="fr">Balzac, sa Vie et ses OEuvres</title>
-                                    <author>Surville, L.</author>
+                                    <author corresp="#surville">Surville, L.</author>
                                     <note type="description">half calf, marbled edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -19740,7 +19750,12 @@
                             <biblStruct corresp="#owned" xml:id="sb449.3">
                                 <monogr>
                                     <title xml:lang="fr">Théâtre avec Notes et Commemtaires</title>
-                                    <author>Corneille, P. et T.</author>
+                                    <author corresp="#corneille_p">
+                                        <persName>Corneille, P.</persName>
+                                    </author>
+                                    <author corresp="#corneille_t">
+                                        <persName>Corneille, T.</persName>
+                                    </author>
                                     <note type="description">portrait, calf, marbled edges</note>
                                     <note type="etc">
                                         <num value="14"/>
@@ -19764,7 +19779,7 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb450.1">
                                 <monogr>
                                     <title>Classical Dictionary of Proper Names</title>
-                                    <author>Lemprière</author>
+                                    <author corresp="#lemprière">Lemprière</author>
                                     <respStmt>
                                         <resp>enlarged by</resp>
                                         <name full="yes">Anthon and Barker</name>
@@ -19789,7 +19804,7 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb451.1">
                                 <monogr>
                                     <title>Adventures of Gil Blas</title>
-                                    <author>Lesage, A. R.</author>
+                                    <author corresp="#le_sage">Lesage, A. R.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Martin Smart</name>
@@ -19853,7 +19868,7 @@
                             <biblStruct corresp="#owned" xml:id="sb453.1">
                                 <monogr>
                                     <title>Nuts and Nutcrackers</title>
-                                    <author>Lever, C.</author>
+                                    <author corresp="#lever">Lever, C.</author>
                                     <note type="description">illustrations by "Phiz"</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -19864,7 +19879,7 @@
                             </biblStruct>
                             <bibl xml:id="sb453.2">
                                 <title>Mowhawks, a Novel</title>
-                                <author>Braddon, Miss</author>
+                                <author corresp="#braddon">Braddon, Miss</author>
                                 <date>n.d.</date>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112041509362"/>
@@ -19875,7 +19890,7 @@
                             <biblStruct corresp="#owned" xml:id="sb453.3">
                                 <monogr>
                                     <title>Alone on a Wide Wide Sea</title>
-                                    <author>Russel, W. Clark</author>
+                                    <author corresp="#russell">Russel, W. Clark</author>
                                     <note type="etc">and other Novels<num value="52"/></note>
                                     <imprint>
                                         <date when="1893"/>
@@ -19895,7 +19910,7 @@
                             <biblStruct corresp="#owned" xml:id="sb454.1">
                                 <monogr>
                                     <title>The Monk, a Romance</title>
-                                    <author>Lewis, M. G.</author>
+                                    <author corresp="#lewis">Lewis, M. G.</author>
                                     <note type="description">portrait and etchings by R. C.
                                         Armour</note>
                                     <imprint>
@@ -19915,7 +19930,7 @@
                             <biblStruct corresp="#owned" xml:id="sb454.2">
                                 <monogr>
                                     <title>Modern Painters, with Index</title>
-                                    <author>Ruskin, J.</author>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
                                     <note type="description">wanting vol. IV</note>
                                     <note type="etc">
                                         <num value="20"/>
@@ -19946,7 +19961,7 @@
                                 <monogr>
                                     <title>Dramatic Works, with Notes and Account of his Life and
                                         Writings by F. W. Fairholt</title>
-                                    <author>Lilly, John</author>
+                                    <author corresp="#lyly">Lilly, John</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1858"/>
@@ -19964,13 +19979,13 @@
                                 <monogr>
                                     <title>Ancient and Modern Scottish Songs and Heroic Ballads,
                                         etc.</title>
-                                    <author>Herd, D.</author>
+                                    <author corresp="#herd">Herd, D.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Glasgow</pubPlace>
+                                        <pubPlace ref="#glasgow">Glasgow</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                     <extent>
@@ -19988,7 +20003,7 @@
                                 <monogr>
                                     <title>Short Introduction to Grammar, with Rules
                                         Construed</title>
-                                    <author>Lilly, Wm.</author>
+                                    <author corresp="#lily">Lilly, Wm.</author>
                                     <note type="description">engraved titles and woodcut, old
                                         sheep</note>
                                     <imprint>
@@ -20003,7 +20018,7 @@
                             <biblStruct corresp="#owned" xml:id="sb456.2">
                                 <monogr>
                                     <title>London Vocabulary, English and Latin</title>
-                                    <author>Greenwood, Jas.</author>
+                                    <author corresp="#greenwood">Greenwood, Jas.</author>
                                     <note type="description">woodcuts</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -20021,7 +20036,7 @@
                             <biblStruct corresp="#owned" xml:id="sb457.1">
                                 <monogr>
                                     <title>Lyrics and other Poems</title>
-                                    <author>Lindsay, Lady</author>
+                                    <author corresp="#lindsay">Lindsay, Lady</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1890"/>
@@ -20032,7 +20047,7 @@
                             </biblStruct>
                             <bibl xml:id="sb457.2">
                                 <title>Quest, a Fantastic Poem</title>
-                                <author>Lindsay, Lady</author>
+                                <author corresp="#lindsay">Lindsay, Lady</author>
                                 <date when="1905"/>
                                 <relatedItem type="ia"
                                     target="https://archive.org/details/godfreysquestaf00lindgoog/page/n11/mode/2up"/>
@@ -20042,7 +20057,7 @@
                             <biblStruct corresp="#owned" xml:id="sb457.3">
                                 <monogr>
                                     <title>Miscellanies</title>
-                                    <author>Fitzgerald, E.</author>
+                                    <author corresp="#fitzgerald_e">Fitzgerald, E.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1900"/>
@@ -20054,7 +20069,7 @@
                             <biblStruct corresp="#owned" xml:id="sb457.4">
                                 <monogr>
                                     <title>Poems, with Memoir by Robert Bridges</title>
-                                    <author>Dixon, R. W.</author>
+                                    <author corresp="#dixon_rw">Dixon, R. W.</author>
                                     <note type="description">portrait</note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="12"/></note>
@@ -20070,7 +20085,7 @@
                             <biblStruct corresp="#owned" xml:id="sb458.1">
                                 <monogr>
                                     <title>The Lake Country</title>
-                                    <author>Linton, E. Lynn</author>
+                                    <author corresp="#linton">Linton, E. Lynn</author>
                                     <note type="description">illustrations by W. J. Linton, cloth
                                         gilt, gilt edges</note>
                                     <imprint>
@@ -20083,7 +20098,7 @@
                             <biblStruct corresp="#owned" xml:id="sb458.2">
                                 <monogr>
                                     <title>Highways and Byways in Yorkshire</title>
-                                    <author>Norway, A. H.</author>
+                                    <author corresp="#norway">Norway, A. H.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -20095,7 +20110,7 @@
                             <biblStruct corresp="#owned" xml:id="sb458.3">
                                 <monogr>
                                     <title>Old Yorkshire</title>
-                                    <author>Smith, W.</author>
+                                    <author corresp="#smith">Smith, W.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1882"/>
@@ -20116,6 +20131,7 @@
                                 <monogr>
                                     <title>Encyclopaedie Dictionary</title>
                                     <author>Lloyd, E.</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">numerous illustrations, cloth gilt,
                                         royal 8vo.</note>
                                     <imprint>
@@ -20130,7 +20146,7 @@
                                 <monogr>
                                     <title>Christianity in the Cartoons, referred to Artistic
                                         Treatment and Historic Fact</title>
-                                    <author>Llyod, W. Watkiss</author>
+                                    <author corresp="#lloyd">Lloyd, W. Watkiss</author>
                                     <note type="description" corresp="#presentation">portrait and
                                         illustrations, presentation copy with inscription</note>
                                     <note type="inscription">To A. C. Swinburne, W. Watkiss
@@ -20148,7 +20164,7 @@
                             <biblStruct corresp="#owned" xml:id="sb461.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Locker, Fred</author>
+                                    <author corresp="#locker-lampson">Locker, Fred</author>
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         "Not Published," frontispiece by G. Cruikshank, half
                                         morocco, uncut, top edge gilt</note>
@@ -20164,7 +20180,7 @@
                             <biblStruct corresp="#owned" xml:id="sb462.1">
                                 <monogr>
                                     <title>Memoirs of Sir Walter Scott</title>
-                                    <author>Lockhart, J. G.</author>
+                                    <author corresp="#lockhart">Lockhart, J. G.</author>
                                     <note type="description" corresp="#uncut">frontispiece, half morocco, uncut,
                                         marbled edges, in case</note>
                                     <imprint>
@@ -20202,7 +20218,7 @@
                                 <monogr>
                                     <title>Glaucus and Silla, with other Lyrical and Pastoral
                                         Poems</title>
-                                    <author>Lodge, Thos.</author>
+                                    <author corresp="#lodge">Lodge, Thos.</author>
                                     <note type="description">half morocco, top edge gilt</note>
                                     <imprint>
                                         <pubPlace ref="#chiswick">Chiswick</pubPlace>
@@ -20239,7 +20255,7 @@
                             <biblStruct corresp="#owned" xml:id="sb464.1">
                                 <monogr>
                                     <title>The Biglow Papers, with Notes, etc., Both Series</title>
-                                    <author>Lowell, J. R.</author>
+                                    <author corresp="#lowell">Lowell, J. R.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. Wilbur</name>
@@ -20262,7 +20278,7 @@
                             <biblStruct corresp="#owned" xml:id="sb464.2">
                                 <monogr>
                                     <title>Mr. Punch's Pocket Ibsen</title>
-                                    <author>Anstey, F.</author>
+                                    <author corresp="#anstey">Anstey, F.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1893"/>
@@ -20274,7 +20290,7 @@
                             <biblStruct corresp="#owned" xml:id="sb464.3">
                                 <monogr>
                                     <title>"Mr. Punch's" Prize Novels</title>
-                                    <author>Lehmann, R. C.</author>
+                                    <author corresp="#lehmann">Lehmann, R. C.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -20291,7 +20307,7 @@
                             <biblStruct corresp="#owned" xml:id="sb465.1">
                                 <monogr>
                                     <title>Memoirs of Eton and Etonians</title>
-                                    <author>Lubbock, Alfred</author>
+                                    <author corresp="#lubbock">Lubbock, Alfred</author>
                                     <note type="description">portraits and illustrations</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -20303,7 +20319,7 @@
                             <biblStruct corresp="#owned" xml:id="sb465.2">
                                 <monogr>
                                     <title>Eton in the Forties</title>
-                                    <author>Coleridge, A. D.</author>
+                                    <author corresp="#coleridge">Coleridge, A. D.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -20315,7 +20331,7 @@
                             <biblStruct corresp="#owned" xml:id="sb465.3">
                                 <monogr>
                                     <title>Annals of the Westminster School</title>
-                                    <author>Sargeaunt, John</author>
+                                    <author corresp="#sargeaunt">Sargeaunt, John</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -20332,7 +20348,7 @@
                             <biblStruct corresp="#owned" xml:id="sb466.1">
                                 <monogr>
                                     <title>Life of Charles Lamb</title>
-                                    <author>Lucas, E. V.</author>
+                                    <author corresp="#lucas">Lucas, E. V.</author>
                                     <note type="description">50 illustrations</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -20353,7 +20369,7 @@
                             <biblStruct corresp="#owned" xml:id="sb466.2">
                                 <monogr>
                                     <title>Life of Sir Richard Burton</title>
-                                    <author>Wright, Thos.</author>
+                                    <author corresp="#wright_t">Wright, Thos.</author>
                                     <note type="description">64 plates</note>
                                     <imprint>
                                         <date when="1906"/>
@@ -20370,7 +20386,7 @@
                             <biblStruct corresp="#owned" xml:id="sb466.3">
                                 <monogr>
                                     <title>The Real Blake, a Portrait Biography</title>
-                                    <author>Ellis, Edwin J.</author>
+                                    <author corresp="#ellis_e">Ellis, Edwin J.</author>
                                     <note type="description">13 illustrations</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -20387,7 +20403,7 @@
                             <biblStruct corresp="#owned" xml:id="sb467.1">
                                 <monogr>
                                     <title>The Friendly Town, a Little Book for the Urbane</title>
-                                    <author>Lucas, E. V.</author>
+                                    <author corresp="#lucas">Lucas, E. V.</author>
                                     <note type="description" corresp="#presentation">illustrations
                                         on fly-leaves, red cloth, top edge gilt, presentation copy
                                         with inscription</note>
