@@ -4857,6 +4857,11 @@
                         <birth when="1570" cert="unknown"/>
                         <death when="1635" cert="unknown"/>
                     </person>
+                    <person xml:id="klug">
+                        <persName source="http://id.loc.gov/authorities/names/no97038923">Klug, 
+                            Joseph, active 1523-1552</persName>
+                        <floruit from="1523" to="1552"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -21175,7 +21180,7 @@
                             <biblStruct corresp="#owned" xml:id="sb488.3">
                                 <monogr>
                                     <title>A Last Harvest</title>
-                                    <author>Marston, Philip B.</author>
+                                    <author corresp="#marston_p">Marston, Philip B.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to A. C. Swinburne, with inscription</note>
                                     <imprint>
@@ -21191,7 +21196,7 @@
                                 <monogr>
                                     <title>Collected Poems, with Biography Sketch by Louise C.
                                         Moulton</title>
-                                    <author>Marston, P. B.</author>
+                                    <author corresp="#marston_p">Marston, P. B.</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy with inscription</note>
                                     <note type="inscription">To Algernon C. Swinburne, the Poems by
@@ -21212,7 +21217,7 @@
                                 <monogr>
                                     <title>For a Song's Sake, and other Stories, with Memoir by W.
                                         Sharp</title>
-                                    <author>Marston, P. B.</author>
+                                    <author corresp="#marston_p">Marston, P. B.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -21240,7 +21245,7 @@
                             <biblStruct corresp="#owned" xml:id="sb490.3">
                                 <monogr>
                                     <title>A Christmas Posy</title>
-                                    <author>Molesworth, Mrs.</author>
+                                    <author corresp="#molesworth">Molesworth, Mrs.</author>
                                     <note type="description">illustrations by W. Crane</note>
                                     <note type="etc">
                                         <num value="9"/>
@@ -21259,7 +21264,7 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb491.1">
                                 <monogr>
                                     <title>Epigrammata</title>
-                                    <author>Martial</author>
+                                    <author corresp="#martial">Martial</author>
                                     <note type="description">half calf, Swinburne's copy, with
                                         autograph signature</note>
                                     <note type="inscription">Algernon C. Swinburne, <date
@@ -21278,7 +21283,7 @@
                                 <monogr>
                                     <title>Autobiography, with Memorials by Maria Weston
                                         Chapman</title>
-                                    <author>Martineau, Harriet</author>
+                                    <author corresp="#martineau">Martineau, Harriet</author>
                                     <note type="description">portraits and illustrations</note>
                                     <imprint>
                                         <date when="1877"/>
@@ -21328,7 +21333,7 @@
                                 <monogr>
                                     <title>Complete Works in Verse and Prose, with Memorial
                                         Introduction and Notes</title>
-                                    <author>Marvell, Andrew</author>
+                                    <author corresp="#marvell">Marvell, Andrew</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -21357,7 +21362,7 @@
                             <biblStruct corresp="#owned" xml:id="sb494.1">
                                 <monogr>
                                     <title>Plays, with Notes Critical and Explanatory</title>
-                                    <author>Massinger, Philip</author>
+                                    <author corresp="#massinger">Massinger, Philip</author>
                                     <note type="description">large paper, calf gilt, gilt edges,
                                         binding of vol. I broken</note>
                                     <imprint>
@@ -21381,7 +21386,12 @@
                             <biblStruct corresp="#owned" xml:id="sb495.1">
                                 <monogr>
                                     <title>Dramatic Works, with Introduction by H. Coleridge</title>
-                                    <author>Massinger and Ford</author>
+                                    <author corresp="#massinger">
+                                        <persName>Massinger</persName>
+                                    </author>
+                                    <author corresp="#ford_j">
+                                        <persName>Ford</persName>
+                                    </author>
                                     <note type="description">portrait, etc. russia, gilt edges on
                                         fly-leaf, royal 8vo.</note>
                                     <note type="inscription">Algernon Charles Swinburne, <date
@@ -21398,7 +21408,12 @@
                             <biblStruct corresp="#owned" xml:id="sb496.1">
                                 <monogr>
                                     <title>Image of his Father</title>
-                                    <author>Mayhew, Bros.</author>
+                                    <author corresp="#mayhew_a">
+                                        <persName>Mayhew, A.</persName>
+                                    </author>
+                                    <author corresp="#mayhew_h">
+                                        <persName>Mayhew, H.</persName>
+                                    </author>
                                     <note type="description">illustrations by "Phiz"</note>
                                     <imprint>
                                         <date when="1859"/>
@@ -21410,7 +21425,7 @@
                             <biblStruct corresp="#owned" xml:id="sb496.2">
                                 <monogr>
                                     <title>The Wax-Taper</title>
-                                    <author>Elliott, Mary</author>
+                                    <author corresp="#elliott">Elliott, Mary</author>
                                     <note type="description">plates, W. Darton</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -21426,7 +21441,7 @@
                             <biblStruct corresp="#owned" xml:id="sb497.1">
                                 <monogr>
                                     <title xml:lang="it">Scritti Editi e Inediti</title>
-                                    <author>Mazzini, Giu.</author>
+                                    <author corresp="#mazzini">Mazzini, Giu.</author>
                                     <note type="description" corresp="#presentation">calf gilt, gilt
                                         edges, presentation copy, with inscription</note>
                                     <note type="inscription" xml:lang="it">Ad Alg. C. Swinburne con
@@ -21446,7 +21461,7 @@
                             <biblStruct corresp="#owned" xml:id="sb498.1">
                                 <monogr>
                                     <title>History of Our Own Time</title>
-                                    <author>McCarthy, J.</author>
+                                    <author corresp="#mccarthy">McCarthy, J.</author>
                                     <imprint>
                                         <date when="1879"/>
                                     </imprint>
@@ -21459,7 +21474,7 @@
                             <biblStruct corresp="#owned" xml:id="sb498.2">
                                 <monogr>
                                     <title>Romance of the English Stage</title>
-                                    <author>Fitzgerald, P.</author>
+                                    <author corresp="#fitzgerald_p">Fitzgerald, P.</author>
                                     <imprint>
                                         <date when="1874"/>
                                     </imprint>
@@ -21475,7 +21490,7 @@
                             <biblStruct corresp="#owned" xml:id="sb498.3">
                                 <monogr>
                                     <title>System of Logic</title>
-                                    <author>Mill, J. S.</author>
+                                    <author corresp="#mill">Mill, J. S.</author>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne with inscriptions<num value="12"
                                         /></note>
@@ -21498,7 +21513,7 @@
                             <biblStruct corresp="#owned" xml:id="sb499.1">
                                 <monogr>
                                     <title>Four-in-Hand, a Group of Short Stories</title>
-                                    <author>McCormick, Frank J.</author>
+                                    <author corresp="#mccormick">McCormick, Frank J.</author>
                                     <note type="description" corresp="#uncut #presentation">tinted
                                         illustrations, green cloth, uncut, top edge gilt,
                                         presentation copy to Swinburne from the author, with
@@ -21516,7 +21531,8 @@
                                 <monogr>
                                     <title xml:lang="fr">Notre Ami le Chat, Préface de François
                                         Coppée</title>
-                                    <author>Meguin, P.</author>
+                                    <author>Megnin, P.</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -21529,7 +21545,7 @@
                                 <monogr>
                                     <title>Handbook to the Carnivora, Cats, Civets and
                                         Mongooses</title>
-                                    <author>Lydekker, R.</author>
+                                    <author corresp="#lydekker">Lydekker, R.</author>
                                     <note type="description">coloured plates</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -21544,7 +21560,7 @@
                             <biblStruct corresp="#owned" xml:id="sb500.3">
                                 <monogr>
                                     <title>The Aerial World</title>
-                                    <author>Hartwig, G.</author>
+                                    <author corresp="#hartwig">Hartwig, G.</author>
                                     <note type="description">plates, map and woodcuts</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -21562,12 +21578,12 @@
                             <biblStruct corresp="#owned" xml:id="sb501.1">
                                 <monogr>
                                     <title xml:lang="la">Enchiridion Elementorum Puerilium</title>
-                                    <author>Melanethon</author>
+                                    <author corresp="#melanchthon">Melanethon</author>
                                     <note type="description">title within woodcut border, woodcut
                                         engraving at the end, worm-holed</note>
                                     <imprint>
-                                        <pubPlace>Wittenberg</pubPlace>
-                                        <publisher>Josef Klug</publisher><!-- based off of USTC. -->
+                                        <pubPlace ref="#wittenberg">Wittenberg</pubPlace>
+                                        <publisher corresp="#klug">Josef Klug</publisher><!-- based off of USTC. -->
                                         <date>15--</date><!-- USTC showing dates in 1523, 1525, and 1527, alewinga -->
                                     </imprint>
                                 </monogr>
@@ -21579,7 +21595,7 @@
                             <biblStruct corresp="#owned" xml:id="sb502.1">
                                 <monogr>
                                     <title xml:lang="fr">Poésies, première série</title>
-                                    <author>Mendès, Catulle</author>
+                                    <author corresp="#mendès">Mendès, Catulle</author>
                                     <note type="description" corresp="#uncut">one of 65 copies,
                                         uncut, imperial 8vo.</note>
                                     <imprint>
@@ -21593,7 +21609,7 @@
                             <biblStruct corresp="#owned" xml:id="sb502.2">
                                 <monogr>
                                     <title xml:lang="it">Poésie Religiose</title>
-                                    <author>Rapisardi, M.</author>
+                                    <author corresp="#rapisardi">Rapisardi, M.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with inscription</note>
                                     <imprint>
@@ -21611,7 +21627,7 @@
                                 <monogr>
                                     <title>Modern Love, and Poems of the English Roadside, with
                                         Poems and Ballads</title>
-                                    <author>Meredith, George</author>
+                                    <author corresp="#meredith">Meredith, George</author>
                                     <note type="description" corresp="#presentation">original green
                                         cloth; Presentation copy from the author to Swinburne, with
                                         autograph inscription on the title</note>
@@ -21708,7 +21724,7 @@
                             <biblStruct corresp="#owned" xml:id="sb505.2">
                                 <monogr>
                                     <title>Introduction to the Literature of Europe</title>
-                                    <author>Hallam, H.</author>
+                                    <author corresp="#hallam">Hallam, H.</author>
                                     <note type="description" corresp="#presentation">calf gilt,
                                         marbled edges, prize presented to Swinburne at Eton
                                         1853</note>
@@ -21729,7 +21745,7 @@
                             <biblStruct corresp="#owned" xml:id="sb505.3">
                                 <monogr>
                                     <title>On Viol and Flute</title>
-                                    <author>Gosse, E. W.</author>
+                                    <author corresp="#gosse">Gosse, E. W.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the Author's
@@ -21749,7 +21765,7 @@
                             <biblStruct corresp="#owned #annotated" xml:id="sb506.1">
                                 <monogr>
                                     <title>A Tragi-Coomodie called The Witch</title>
-                                    <author>Middleton, Thos.</author>
+                                    <author corresp="#middleton">Middleton, Thos.</author>
                                     <note type="description">half russia, autograph signature on
                                         title, and note; on fly-leaf is a pencil note in Swinburne's
                                         writing</note>
@@ -21760,7 +21776,7 @@
                                         in the possession of Mr. Steevens---Alexx. Popes, <date
                                             when="1798-11-28">Nov. 28th, 1798</date></note>
                                     <imprint>
-                                        <publisher>J. Nichols</publisher>
+                                        <publisher corresp="#nichols">J. Nichols</publisher>
                                         <date when="1778"/>
                                     </imprint>
                                 </monogr>
@@ -21774,7 +21790,7 @@
                                 <monogr>
                                     <title>Works, now first collected, with some Account of the
                                         Author, and notes by Alex. Dyce</title>
-                                    <author>Middleton, T.</author>
+                                    <author corresp="#middleton">Middleton, T.</author>
                                     <note type="description">portrait, calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -21800,7 +21816,7 @@
                             <biblStruct corresp="#owned" xml:id="sb508.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Middleton, T.</author>
+                                    <author corresp="#middleton">Middleton, T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -21836,7 +21852,7 @@
                             <biblStruct corresp="#owned" xml:id="sb509.1">
                                 <monogr>
                                     <title xml:lang="fr">Histoire de la Révolution Française</title>
-                                    <author>Mignet, F.</author>
+                                    <author corresp="#mignet">Mignet, F.</author>
                                     <note type="description">portrait and engravings, calf gilt,
                                         marbled edges</note>
                                     <imprint>
@@ -21855,7 +21871,7 @@
                             <biblStruct corresp="#owned" xml:id="sb509.2">
                                 <monogr>
                                     <title xml:lang="it">La Gerusalemme Liberata Poema</title>
-                                    <author>Tasso, Torq.</author>
+                                    <author corresp="#tasso">Tasso, Torq.</author>
                                     <note type="description">frontispiece, calf, back of vol. I
                                         injured</note>
                                     <imprint>
@@ -21877,7 +21893,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Lois Inédits des XII et XIII
                                         Siècles</title>
-                                    <author>Michel, F.</author>
+                                    <author corresp="#michel_f">Michel, F.</author>
                                     <note type="description" corresp="#uncut">half morocco, uncut</note>
                                     <note type="etc">
                                         <num value="14"/>
@@ -21894,7 +21910,7 @@
                             <biblStruct corresp="#owned #annotated #signed" xml:id="sb510.1">
                                 <monogr>
                                     <title>On Liberty</title>
-                                    <author>Mill, J. S.</author>
+                                    <author corresp="#mill">Mill, J. S.</author>
                                     <note type="description">signature and pencil note in
                                         Swinburne's writing on fly-leaf</note>
                                     <note type="inscription">A. C. Swinburne, Ball. Coll.
@@ -21909,7 +21925,7 @@
                             <biblStruct corresp="#owned" xml:id="sb510.2">
                                 <monogr>
                                     <title>Psalms in Metre</title>
-                                    <author>Cayley, C. B.</author>
+                                    <author corresp="#cayley">Cayley, C. B.</author>
                                     <note type="description">signature on fly-leaf</note>
                                     <note type="inscription">W. M. Rossetti</note>
                                     <imprint>
@@ -21921,7 +21937,7 @@
                             </biblStruct>
                             <bibl xml:id="sb510.3">
                                 <title>Nemesis of Faith</title>
-                                <author>Fourde, J. A.</author>
+                                <author corresp="#froude">Fourde, J. A.</author>
                                 <date when="1849"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/njp.32101068598430"/>
@@ -21932,14 +21948,14 @@
                                 <monogr>
                                     <title>Poetical Works, with Life of the Author by John
                                         Mitford</title>
-                                    <author>Milton, John</author>
+                                    <author corresp="#milton">Milton, John</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, from his
                                         affectionate Grandfather John E. Swinburne, <date
                                             when="1853-12-13">31 Decr. 1853</date></note>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1851"/>
                                     </imprint>
                                     <extent>
@@ -21960,7 +21976,7 @@
                                 <monogr>
                                     <title>Poetical Works, with Life, Critical Dissertation and
                                         Explanatory Notes, by Geo. Gilfillan</title>
-                                    <author>Milton, John</author>
+                                    <author corresp="#milton">Milton, John</author>
                                     <note type="description">brown morocco extra, tooled sides, gilt
                                         edges, by Wright</note>
                                     <imprint>
@@ -21978,7 +21994,7 @@
                             <biblStruct corresp="#owned" xml:id="sb513.1">
                                 <monogr>
                                     <title>Works (Prose Works), with Life by John Mitford</title>
-                                    <author>Milton, John</author>
+                                    <author corresp="#milton">Milton, John</author>
                                     <imprint>
                                         <date when="1867"/>
                                     </imprint>
@@ -22003,7 +22019,7 @@
                                 <monogr>
                                     <title>Our Village, with Introduction by Anne Thackeray
                                         Ritchie</title>
-                                    <author>Mitford, M. R.</author>
+                                    <author corresp="#mitford">Mitford, M. R.</author>
                                     <note type="description" corresp="#presentation">100
                                         illustrations by Hugh Thomson, cloth gilt, gilt edges,
                                         presentation copy to Swinburne from A. T. Ritchie, with
@@ -22020,7 +22036,7 @@
                             <biblStruct corresp="#owned" xml:id="sb515.1">
                                 <monogr>
                                     <title>A Vision of England and other Poems</title>
-                                    <author>Mozley, J. R.</author>
+                                    <author corresp="#mozley">Mozley, J. R.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph letter of the
                                         author</note>
@@ -22034,7 +22050,7 @@
                             <biblStruct corresp="#owned" xml:id="sb515.2">
                                 <monogr>
                                     <title>David Copperfield</title>
-                                    <author>Dickens, C.</author>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
                                     <note type="description">with inscription</note>
                                     <note type="inscription">A. C. Swinburne, from his affectionate
                                         friend Theodore Watts</note>
@@ -22078,7 +22094,7 @@
                                 <monogr>
                                     <title xml:lang="fr">OEuvres, avec les Notes de tous les
                                         Commentateurs, publiée par L. Animé-Martin</title>
-                                    <author>Molière</author>
+                                    <author corresp="#molière">Molière</author>
                                     <note type="description">portrait and plates, calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -22108,7 +22124,7 @@
                                 <monogr>
                                     <title xml:lang="fr">OEuvres avec Notes et Variantes par
                                         Alphonse Panly</title>
-                                    <author>Molière</author>
+                                    <author corresp="#molière">Molière</author>
                                     <note type="description" corresp="#uncut">wanting vol. III,
                                         uncut</note>
                                     <imprint>
@@ -22141,13 +22157,13 @@
                                 <monogr>
                                     <title xml:lang="fr">OEuvres, accompagnée de notes par A. L.
                                         Sardon</title>
-                                    <author>Rabelais</author>
+                                    <author corresp="#rabelais">Rabelais</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="20"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>San Remo</pubPlace>
+                                        <pubPlace ref="#san_remo">San Remo</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                     <extent>
@@ -22167,7 +22183,7 @@
                                 <monogr>
                                     <title>Platonica, or a Platonicall Song of the Soul, consisting
                                         of foure severall Poems</title>
-                                    <author>More, Henry</author>
+                                    <author corresp="#more">More, Henry</author>
                                     <note type="description">half morocco, marbled edges, some
                                         headlines cut into</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -22185,7 +22201,7 @@
                             <biblStruct corresp="#owned" xml:id="sb519.1">
                                 <monogr>
                                     <title>Life, Letters and Last Poems</title>
-                                    <author>Morrison-Grant, L.</author>
+                                    <author corresp="#morrison-grant">Morrison-Grant, L.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Jessie A. Anderson</name>
@@ -22200,9 +22216,9 @@
                             <biblStruct corresp="#owned" xml:id="sb519.2">
                                 <monogr>
                                     <title>Woven of Dreams</title>
-                                    <author>Wagstaff, B. S.</author>
+                                    <author corresp="#wagstaff">Wagstaff, B. S.</author>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -22213,6 +22229,7 @@
                                 <monogr>
                                     <title>Songs of the London Man, etc.</title>
                                     <author>Mackay, Alice D.</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">portrait</note>
                                     <note type="etc" corresp="#presentation">all presentation copies
                                         to Swinburne with autograph inscriptions<num value="6"
@@ -22229,7 +22246,7 @@
                             <biblStruct corresp="#owned" xml:id="sb520.1">
                                 <monogr>
                                     <title>The Earthly Paradise, a Poem</title>
-                                    <author>Morris, William</author>
+                                    <author corresp="#morris">Morris, William</author>
                                     <note type="description" corresp="#presentation">presentation copy to Swinburne, with
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, from his friend the
@@ -22257,7 +22274,7 @@
                             <biblStruct corresp="#owned" xml:id="sb521.1">
                                 <monogr>
                                     <title>The Earthly Paradise</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description">presentation copy to D. G. Rossetti,
                                         with inscription</note>
                                     <note type="inscription">Dante Gabriel Rossetti, from his friend
@@ -22276,7 +22293,7 @@
                             <biblStruct corresp="#owned" xml:id="sb521.2">
                                 <monogr>
                                     <title>The Earthly Paradise</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <edition>Fifth Edition</edition>
                                     <imprint>
                                         <date when="1874"/>
