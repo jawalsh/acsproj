@@ -3248,6 +3248,10 @@
                         <birth when="1866"/>
                         <death when="1957"/>
                     </person>
+                    <person xml:id="murray_j">
+                        <persName source="http://id.loc.gov/authorities/names/n50034267">John 
+                            Murray (Firm)</persName>
+                    </person>
                     <person xml:id="musset">
                         <persName source="http://id.loc.gov/authorities/names/n80036706">Musset,
                             Alfred de, 1810-1857</persName>
@@ -22316,7 +22320,7 @@
                             <biblStruct corresp="#owned" xml:id="sb522.1">
                                 <monogr>
                                     <title>AEneids of Virgil, done into English Verse</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#presentation">original cloth, presentation copy, with
                                         autograph inscvription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, from his
@@ -22334,7 +22338,7 @@
                             <biblStruct corresp="#owned" xml:id="sb523.1">
                                 <monogr>
                                     <title>Hopes and Fears for Arts, Five Lectures</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         cloth, uncut, presentation copy, with autograph
                                         inscription</note>
@@ -22353,7 +22357,7 @@
                             <biblStruct corresp="#owned" xml:id="sb524.1">
                                 <monogr>
                                     <title>Signs of Change, Seven Lectures</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         cloth, uncut, presentation copy, with autograph
                                         inscription</note>
@@ -22373,7 +22377,7 @@
                                 <monogr>
                                     <title>The Sundering Flood (the last work which Morris
                                         wrote)</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne,with autograph letter of S.
                                         C. Cockerell inserted</note>
@@ -22390,7 +22394,7 @@
                                 <monogr>
                                     <title>Handbook for the Travellers in Durham and
                                         Northumberland</title>
-                                    <author>Murray, J.</author>
+                                    <author corresp="#murray_j">Murray, J.</author>
                                     <note type="description">maps and plans, Swinburne's copy, with
                                         pencil note in his writing on half-title</note>
                                     <imprint>
@@ -22405,7 +22409,7 @@
                             <biblStruct corresp="#owned" xml:id="sb527.1">
                                 <monogr>
                                     <title xml:lang="fr">OEuvres</title>
-                                    <author>Musset, Alfred de</author>
+                                    <author corresp="#musset">Musset, Alfred de</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -22430,7 +22434,7 @@
                             <biblStruct corresp="#owned" xml:id="sb527.2">
                                 <monogr>
                                     <title xml:lang="fr">Biographie par Paul de Musset</title>
-                                    <author>Musset, Alfred de</author>
+                                    <author corresp="#musset">Musset, Alfred de</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -22444,7 +22448,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Poésies, Odes funambulesques suivies d'un
                                         Commentaire</title>
-                                    <author>Banville, T. de</author>
+                                    <author corresp="#banville">Banville, T. de</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="18"/>
@@ -22463,7 +22467,7 @@
                                 <monogr>
                                     <title>Unfortunate Traveller, of Life of Jack Wilton, with Essay
                                         by E. Gosse</title>
-                                    <author>Nash, T.</author>
+                                    <author corresp="#nash">Nash, T.</author>
                                     <note type="description" corresp="#uncut">frontispiece,
                                         uncut</note>
                                     <imprint>
@@ -22476,7 +22480,7 @@
                             <biblStruct corresp="#owned" xml:id="sb528.2">
                                 <monogr>
                                     <title>Poems and Plays</title>
-                                    <author>Goldsmith, O.</author>
+                                    <author corresp="#goldsmith">Goldsmith, O.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. Dobson</name>
@@ -22492,7 +22496,7 @@
                             <biblStruct corresp="#owned" xml:id="sb528.3">
                                 <monogr>
                                     <title>Prince Lucifer</title>
-                                    <author>Austin, Alfred</author>
+                                    <author corresp="#austin">Austin, Alfred</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -22509,7 +22513,7 @@
                             <biblStruct corresp="#owned #annotated" xml:id="sb529.1">
                                 <monogr>
                                     <title>The Sonnet in England, and other Essays</title>
-                                    <author>Noble, J. Ashcroft</author>
+                                    <author corresp="#noble">Noble, J. Ashcroft</author>
                                     <note type="description" corresp="#uncut">uncut, pencil note on
                                         fly-leaf in the handwriting of Swinburne</note>
                                     <imprint>
@@ -22523,14 +22527,14 @@
                         <listBibl type="lot" xml:id="sb530">
                             <bibl xml:id="sb530.1">
                                 <title>Miss Shafto</title>
-                                <author>Norris, W. E.</author>
+                                <author corresp="#norris">Norris, W. E.</author>
                                 <date when="1890"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112052949259"/>
                             </bibl>
                             <bibl xml:id="sb530.2">
                                 <title>The Despotic Lady, and others</title>
-                                <author>Norris, W. E.</author>
+                                <author corresp="#norris">Norris, W. E.</author>
                                 <date when="1895"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112052948764"/>
@@ -22539,7 +22543,7 @@
                                 <monogr>
                                     <title>Giles Ingleby</title>
                                     <!-- Spelling. Check. -->
-                                    <author>Norris, W. E.</author>
+                                    <author corresp="#norris">Norris, W. E.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -22551,7 +22555,7 @@
                             <biblStruct corresp="#owned" xml:id="sb530.4">
                                 <monogr>
                                     <title>His Own Father</title>
-                                    <author>Norris, W. E.</author>
+                                    <author corresp="#norris">Norris, W. E.</author>
                                     <note type="etc">and others buy the same author<num value="9"
                                         /></note>
                                     <imprint>
@@ -22566,7 +22570,7 @@
                             <biblStruct corresp="#owned" xml:id="sb531.1">
                                 <monogr>
                                     <title>Fables, Original and Selected, both series</title>
-                                    <author>Northcote, Jas.</author>
+                                    <author corresp="#northcote">Northcote, Jas.</author>
                                     <note type="description" corresp="#uncut">fine impression of the
                                         engravings, uncut</note>
                                     <imprint>
@@ -22590,7 +22594,7 @@
                             <biblStruct corresp="#owned" xml:id="sb532.1">
                                 <monogr>
                                     <title>Mythology Greek and Roman</title>
-                                    <author>Nosselt, F.</author>
+                                    <author corresp="#nösselt">Nosselt, F.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Mrs. Angus W. Hall</name>
@@ -22606,10 +22610,10 @@
                             <biblStruct corresp="#owned" xml:id="sb532.2">
                                 <monogr>
                                     <title>My Study Fire</title>
-                                    <author>Mabie, H. W.</author>
+                                    <author corresp="#mabie">Mabie, H. W.</author>
                                     <note type="description">65 illustrations</note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -22619,7 +22623,7 @@
                             <biblStruct corresp="#owned" xml:id="sb532.3">
                                 <monogr>
                                     <title>The Sacred Tree, or the Tree in Religion and Myth</title>
-                                    <author>Philpot, Mrs. J. H.</author>
+                                    <author corresp="#philpot">Philpot, Mrs. J. H.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -22734,7 +22738,7 @@
                             <biblStruct corresp="#owned" xml:id="sb533.6">
                                 <monogr>
                                     <title>La Comtesse de Charny</title>
-                                    <author>Dumas, A.</author>
+                                    <author corresp="#dumas">Dumas, A.</author>
                                     <note type="description">half calf gilt, some titles
                                         missing</note>
                                     <imprint>
@@ -22762,7 +22766,7 @@
                             <biblStruct corresp="#owned" xml:id="sb533.7">
                                 <monogr>
                                     <title>Les Quarante-Cinq.</title>
-                                    <author>Dumas, A.</author>
+                                    <author corresp="#dumas">Dumas, A.</author>
                                     <note type="description">half calf gilt</note>
                                     <note type="etc">
                                         <num value="38"/>
@@ -22840,7 +22844,7 @@
                                 <monogr>
                                     <title>Works, together with his Remains</title>
                                     <idno type="tcp">A53278</idno>
-                                    <author>Oldham, John</author>
+                                    <author corresp="#oldham">Oldham, John</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date when="1684"/>
@@ -22853,7 +22857,7 @@
                                 <monogr>
                                     <title>Scandenberg: or Love and Liberty, a Tragedy, with List of
                                         English Dramatick Poets</title>
-                                    <author>Whincop, Thos.</author>
+                                    <author corresp="#whincop">Whincop, Thos.</author>
                                     <note type="description">frontispiece, calf</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -22869,7 +22873,7 @@
                             <biblStruct corresp="#owned" xml:id="sb537.1">
                                 <monogr>
                                     <title>Rubáiyát of Omar Kháyyåim</title>
-                                    <author>Omar</author>
+                                    <author corresp="#khayyam">Omar</author>
                                     <respStmt>
                                         <resp>rendered into English Verse by</resp>
                                         <name full="yes">Edward FitzGerald</name>
@@ -22898,7 +22902,7 @@
                                 <monogr>
                                     <title>Edward FitzGerald's Rubáiyát of Omar Kháyyåim, with their
                                         original Persian sources, collected from his own MSS</title>
-                                    <author>Omar</author>
+                                    <author corresp="#khayyam">Omar</author>
                                     <respStmt>
                                         <resp>literally translated by</resp>
                                         <name full="yes">Edward Heron-Allen</name>
@@ -22917,7 +22921,7 @@
                             <biblStruct corresp="#owned" xml:id="sb539.1">
                                 <monogr>
                                     <title>Rubáiyát of Omar Kháyyåim</title>
-                                    <author>Omar</author>
+                                    <author corresp="#khayyam">Omar</author>
                                     <respStmt>
                                         <resp>rendered into English Verse by</resp>
                                         <name full="yes">Edward FitzGerald</name>
@@ -22940,7 +22944,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Rubáiyát d'Omar Kháyyåim, traduits en
                                         Vers Français, avec Notices par Fernand Henry</title>
-                                    <author>Omar</author>
+                                    <author corresp="#khayyam">Omar</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne copy to Swinburne, with
                                         autograph inscription of the translator</note>
@@ -22957,7 +22961,7 @@
                             <biblStruct corresp="#owned" xml:id="sb541.1">
                                 <monogr>
                                     <title>An Epic of Women, and other Poems</title>
-                                    <author>O'Shaughnessy, Arthur W. E.</author>
+                                    <author corresp="#oshaughnessy">O'Shaughnessy, Arthur W. E.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription on
                                         fly-leaf</note>
@@ -22974,7 +22978,7 @@
                             <biblStruct corresp="#owned" xml:id="sb541.2">
                                 <monogr>
                                     <title>Lays of France</title>
-                                    <author>O'Shaughnessy, Arthur W. E.</author>
+                                    <author corresp="#oshaughnessy">O'Shaughnessy, Arthur W. E.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. with
@@ -22992,11 +22996,11 @@
                             <biblStruct corresp="#owned" xml:id="sb542.1">
                                 <monogr>
                                     <title xml:lang="la">Opera Quae supersunt</title>
-                                    <author>Ovid</author>
+                                    <author corresp="#ovid">Ovid</author>
                                     <note type="description">frontispiece and vignettes by Eisen,
                                         old French calf, gilt edges</note>
                                     <imprint>
-                                        <publisher>J. Barbou</publisher>
+                                        <publisher corresp="#barbou_jg">J. Barbou</publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1762"/>
                                     </imprint>
@@ -23016,7 +23020,7 @@
                             <biblStruct corresp="#owned" xml:id="sb543.1">
                                 <monogr>
                                     <title>The Tyne and its Tributaries described</title>
-                                    <author>Palmer, W. J.</author>
+                                    <author corresp="#palmer">Palmer, W. J.</author>
                                     <note type="description">illustrations, green cloth gilt,
                                         imperial 8vo.</note>
                                     <imprint>
@@ -23029,7 +23033,7 @@
                             <biblStruct corresp="#owned" xml:id="sb543.2">
                                 <monogr>
                                     <title>History of Northumberland</title>
-                                    <author>Bates, C. J.</author>
+                                    <author corresp="#bates">Bates, C. J.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1895"/>
@@ -23041,7 +23045,7 @@
                             <biblStruct corresp="#owned" xml:id="sb543.3">
                                 <monogr>
                                     <title>History of Westmoreland</title>
-                                    <author>Ferguson, R. S.</author>
+                                    <author corresp="#ferguson">Ferguson, R. S.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -23058,10 +23062,11 @@
                                 <monogr>
                                     <title>Life and Adventures of Peter Wilkins, a
                                         Cornish-man</title>
-                                    <author>Paltock, R.</author>
+                                    <author corresp="#paltock">Paltock, R.</author>
                                     <note type="description">half calf gilt, title mended</note>
                                     <imprint>
                                         <pubPlace>Berwick</pubPlace>
+                                        <!-- Seems to be an old London neighborhood. Can this be tagged as London? -->
                                         <date when="1784"/>
                                     </imprint>
                                     <extent>
@@ -23077,7 +23082,7 @@
                             <biblStruct corresp="#owned" xml:id="sb544.2">
                                 <monogr>
                                     <title>Narratives form Criminal Trials in Scotland</title>
-                                    <author>Burton, J. H.</author>
+                                    <author corresp="#burton_j">Burton, J. H.</author>
                                     <note type="description">binding broken</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -23097,7 +23102,7 @@
                                 <monogr>
                                     <title>Catherine Sforza, translated and prepared by Paul
                                         Sylvester</title>
-                                    <author>Pasolini, Count Pier D.</author>
+                                    <author corresp="#pasolini">Pasolini, Count Pier D.</author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustrations, half vellum, uncut</note>
                                     <imprint>
@@ -23110,7 +23115,7 @@
                             <biblStruct corresp="#owned" xml:id="sb545.2">
                                 <monogr>
                                     <title>Links with the Past</title>
-                                    <author>Bagot, Mrs. C.</author>
+                                    <author corresp="#bagot">Bagot, Mrs. C.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <date when="1902"/>
@@ -23122,7 +23127,7 @@
                             <biblStruct corresp="#owned" xml:id="sb545.3">
                                 <monogr>
                                     <title>English Children in the Olden Time</title>
-                                    <author>Godfrey, Eliz.</author>
+                                    <author corresp="#godfrey">Godfrey, Eliz.</author>
                                     <note type="description">32 illustrations (2 copies)</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -23160,7 +23165,7 @@
                             <biblStruct corresp="#owned" xml:id="sb546.2">
                                 <monogr>
                                     <title>Letters, with introduction and notes</title>
-                                    <author>Lamb, C.</author>
+                                    <author corresp="#lamb_c">Lamb, C.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. Ainger</name>
@@ -23186,7 +23191,7 @@
                             <biblStruct corresp="#owned" xml:id="sb547.1">
                                 <monogr>
                                     <title>Odes</title>
-                                    <author>Patmore, Coventry</author>
+                                    <author corresp="#patmore">Patmore, Coventry</author>
                                     <note type="description">"not published" with Introduction
                                         signed, original wrappers, printed on fly-leaf</note>
                                     <note type="inscription">C. P. Old Lands, Uckfield, <date
@@ -23206,6 +23211,7 @@
                                 <monogr>
                                     <title>Bards and the Birds</title>
                                     <author>Paton, F. Noel</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut">illustrations by Mrs.
                                         Hugh Blackburn and H. Paton, uncut</note>
                                     <imprint>
