@@ -4866,6 +4866,11 @@
                             Joseph, active 1523-1552</persName>
                         <floruit from="1523" to="1552"/>
                     </person>
+                    <person xml:id="antonio">
+                        <persName source="http://id.loc.gov/authorities/names/nr2002025102">Benedetti, 
+                            Giovanni Antonio de', active 1492-approximately 1511</persName>
+                        <floruit from="1492" to="1511" cert="unknown"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -23224,7 +23229,7 @@
                             <biblStruct corresp="#owned" xml:id="sb548.2">
                                 <monogr>
                                     <title>The Soul of a Cat, and other Stories</title>
-                                    <author>Benson, Margaret</author>
+                                    <author corresp="#benson_m">Benson, Margaret</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="8"/>
@@ -23241,7 +23246,7 @@
                             <biblStruct corresp="#owned" xml:id="sb549.1">
                                 <monogr>
                                     <title>The Masque of Shadows, and other Poems</title>
-                                    <author>Payne, John</author>
+                                    <author corresp="#payne">Payne, John</author>
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -23259,7 +23264,7 @@
                             <biblStruct corresp="#owned" xml:id="sb550.1">
                                 <monogr>
                                     <title>Songs of Life and Death</title>
-                                    <author>Payne, J.</author>
+                                    <author corresp="#payne">Payne, J.</author>
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy from the author to Swinburne with
                                         autograph inscription</note>
@@ -23279,7 +23284,7 @@
                             <biblStruct corresp="#owned" xml:id="sb550A.1">
                                 <monogr>
                                     <title>Lautrec, a Poem</title>
-                                    <author>Payne, J.</author>
+                                    <author corresp="#payne">Payne, J.</author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         wrappers, uncut, presentation copy from the author with
                                         autograph inscription</note>
@@ -23298,7 +23303,7 @@
                             <biblStruct corresp="#owned" xml:id="sb551.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Payne, J.</author>
+                                    <author corresp="#payne">Payne, J.</author>
                                     <note type="description" corresp="#uncut #presentation">vellum,
                                         uncut, top edge gilt, presentation copy with autograph
                                         inscription note enclosed. Printed privately for the Villon
@@ -23323,7 +23328,7 @@
                             <biblStruct corresp="#owned" xml:id="sb552.1">
                                 <monogr>
                                     <title>Vigil and Vision, new Sonnets</title>
-                                    <author>Payne, J.</author>
+                                    <author corresp="#payne">Payne, J.</author>
                                     <note type="description" corresp="#uncut">buckram, uncut, top
                                         edge gilt</note>
                                     <imprint>
@@ -23340,7 +23345,7 @@
                                 <monogr>
                                     <title>Headlong Hall, Gryll Grange, Nightmare Abbey, Maid
                                         Marian, etc.</title>
-                                    <author>Peacock, T. Love</author>
+                                    <author corresp="#peacock">Peacock, T. Love</author>
                                     <respStmt>
                                         <resp>edited by Richard Garnett</resp>
                                         <name full="yes"/>
@@ -23396,26 +23401,26 @@
                         <listBibl type="lot" xml:id="sb554">
                             <bibl xml:id="sb554.1">
                                 <title>The Fair Island, a Poem</title>
-                                <author>Peel, Edmund</author>
+                                <author corresp="#peel">Peel, Edmund</author>
                                 <date when="1851"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t17m06k2h"/>
                             </bibl>
                             <bibl xml:id="sb554.2">
                                 <title>Love's Victory, Lyrical Poems</title>
-                                <author>Blaikie, J. A.</author>
+                                <author corresp="#blaikie">Blaikie, J. A.</author>
                                 <date when="1800"/>
                                 <relatedItem type="none" target=""/>
                             </bibl>
                             <biblStruct corresp="#owned" xml:id="sb554.3">
                                 <monogr>
                                     <title>Leaves of the Lotos</title>
-                                    <author>Sickels, D. B.</author>
+                                    <author corresp="#sickels">Sickels, D. B.</author>
                                     <note type="etc" corresp="#presentation">and others, all
                                         presentation copies to Swinburne, with authors'
                                             inscriptions<num value="10"/></note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                 </monogr>
@@ -23428,11 +23433,11 @@
                                 <monogr>
                                     <title>Works, collected and edited, with some Account of his
                                         life and Writings, by Alex. Dyce</title>
-                                    <author>Peele, G.</author>
+                                    <author corresp="#peele">Peele, G.</author>
                                     <note type="description">half morocco, gilt edges</note>
                                     <edition/>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date from="1829" to="1839"/>
                                     </imprint>
                                     <extent>
@@ -23451,7 +23456,7 @@
                             <biblStruct corresp="#owned" xml:id="sb556.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Peele, G.</author>
+                                    <author corresp="#peele">Peele, G.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -23475,7 +23480,7 @@
                             <biblStruct corresp="#owned" xml:id="sb557.1">
                                 <monogr>
                                     <title>Memoires of the Royal Navy, 1679-88</title>
-                                    <author>Pepys, S.</author>
+                                    <author corresp="#pepys">Pepys, S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. R. Tamer</name>
@@ -23492,7 +23497,7 @@
                                 <monogr>
                                     <title>Pilgrim's Progress, a facsimile of the first edition,
                                         with Introduction by J. Brown</title>
-                                    <author>Bunyan, J.</author>
+                                    <author corresp="#bunyan">Bunyan, J.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1895"/>
@@ -23521,13 +23526,13 @@
                             <biblStruct corresp="#owned" xml:id="sb558.1">
                                 <monogr>
                                     <title>Selection from the Minor Poems</title>
-                                    <author>Lydgate, Dan. John</author>
+                                    <author corresp="#lydgate">Lydgate, Dan. John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. O. Halliwell</name>
                                     </respStmt>
                                     <imprint>
-                                        <publisher>Percy Society</publisher>
+                                        <publisher corresp="#percy_society">Percy Society</publisher>
                                         <date when="1840"/>
                                     </imprint>
                                 </monogr>
@@ -23537,14 +23542,14 @@
                             <biblStruct corresp="#owned" xml:id="sb558.2">
                                 <monogr>
                                     <title>Believe as you List</title>
-                                    <author>Massinger, P.</author>
+                                    <author corresp="#massinger">Massinger, P.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">T. Crofton Croker</name>
                                     </respStmt>
                                     <note type="description">half bound</note>
                                     <imprint>
-                                        <publisher>Percy Society</publisher>
+                                        <publisher corresp="#percy_society">Percy Society</publisher>
                                         <date when="1849"/>
                                     </imprint>
                                 </monogr>
@@ -23554,10 +23559,10 @@
                             <biblStruct corresp="#owned" xml:id="sb558.3">
                                 <monogr>
                                     <title>Pastime of Pleasure</title>
-                                    <author>Hawes, S.</author>
+                                    <author corresp="#hawes">Hawes, S.</author>
                                     <note type="description">half bound</note>
                                     <imprint>
-                                        <publisher>Percy Society</publisher>
+                                        <publisher corresp="#percy_society">Percy Society</publisher>
                                         <date when="1815"/>
                                     </imprint>
                                 </monogr>
@@ -23577,7 +23582,7 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
-                                        <publisher>Percy Society</publisher>
+                                        <publisher corresp="#percy_society">Percy Society</publisher>
                                         <date when="1847"/>
                                     </imprint>
                                 </monogr>
@@ -23589,7 +23594,7 @@
                             <biblStruct corresp="#owned" xml:id="sb559.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Phillips, Stephen</author>
+                                    <author corresp="#phillips">Phillips, Stephen</author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -23602,7 +23607,7 @@
                             <biblStruct corresp="#owned" xml:id="sb559.2">
                                 <monogr>
                                     <title>Hannibal, a Historical Drama</title>
-                                    <author>Nichol, John</author>
+                                    <author corresp="#nichol">Nichol, John</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1873"/>
@@ -23614,7 +23619,7 @@
                             <biblStruct corresp="#owned" xml:id="sb559.3">
                                 <monogr>
                                     <title>Lyrics</title>
-                                    <author>Benson, A. C.</author>
+                                    <author corresp="#benson_a">Benson, A. C.</author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -23632,7 +23637,7 @@
                                 <monogr>
                                     <title xml:lang="la">Olympia, Pythia, Nemea, Isthmia Caetorum
                                         Octo Lyricorum Carmina</title>
-                                    <author>Pindarus</author>
+                                    <author corresp="#pindar">Pindarus</author>
                                     <imprint>
                                         <date when="1539"/>
                                     </imprint>
@@ -23647,7 +23652,7 @@
                                     <note type="description">in 1 vol. old red morocco, gilt
                                         edges</note>
                                     <imprint>
-                                        <publisher>H. Steph.</publisher>
+                                        <publisher corresp="#estienne">H. Steph.</publisher>
                                         <date when="1566"/>
                                     </imprint>
                                 </monogr>
@@ -23661,7 +23666,7 @@
                                 <monogr>
                                     <title>Dialogues, translated with Analyses and Introductions by
                                         B. Jowett</title>
-                                    <author>Plato</author>
+                                    <author corresp="#plato">Plato</author>
                                     <note type="description">brown cloth, top edge gilt</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
@@ -23692,7 +23697,7 @@
                                 <monogr>
                                     <title>The Monarchie of Man (1590-1632), with Introduction and
                                         Notes</title>
-                                    <author>Eliot, Sir John</author>
+                                    <author corresp="#eliot_j">Eliot, Sir John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Gossart</name>
@@ -23718,7 +23723,7 @@
                                     <title>De Jure Maiestatis, or Political Treatise of Government
                                         (1628-30) and Letter Book, edited with Notes, etc. by A. B.
                                         Grossart</title>
-                                    <author>Eliot, Sir John</author>
+                                    <author corresp="#eliot_j">Eliot, Sir John</author>
                                     <note type="description">one of 100 copies, facsimiles,
                                         privately printed</note>
                                     <imprint>
@@ -23739,11 +23744,13 @@
                                 <monogr>
                                     <title>A Sunday Paper on Politics, Domestic Economy and
                                         Theatricals</title>
-                                    <author>Examiner, The</author>
+                                    <author corresp="#hunt_l">Examiner, The</author>
+                                    <!-- Hunt was the editor of the Examiner, so it feels appropriate to associate here. -->
                                     <note type="description">old calf, binding of one vol. broken
                                         and some leaves defective</note>
                                     <imprint>
-                                        <publisher>Published by J. Hunt</publisher>
+                                        <publisher corresp="#hunt_l">Published by J. Hunt</publisher>
+                                        <!-- a.k.a. James Henry Leigh Hunt -->
                                         <date from="1810" to="1814"/>
                                     </imprint>
                                     <extent>
@@ -23762,7 +23769,7 @@
                             <biblStruct corresp="#owned" xml:id="sb565.1">
                                 <monogr>
                                     <title>Merry Songs and Ballads prior to the year 1800</title>
-                                    <author>Farmer, John S.</author>
+                                    <author corresp="#farmer">Farmer, John S.</author>
                                     <note type="description" corresp="#uncut">uncut, privately
                                         printed</note>
                                     <imprint>
@@ -23789,7 +23796,7 @@
                                 <monogr>
                                     <title>Edward Fitzgerald, 1809-1909, Centenary Celebrations
                                         Souvenir (with the Rubaiyat of Omar Khayyam)</title>
-                                    <author>Fitzgerald, E.</author>
+                                    <author corresp="#fitzgerald_e">Fitzgerald, E.</author>
                                     <note type="description">portrait and illustrations, white
                                         cloth</note>
                                     <imprint>
@@ -23836,7 +23843,7 @@
                             <biblStruct corresp="#owned" xml:id="sb568.1">
                                 <monogr>
                                     <title>Tis Pitty Shee's a Whore</title>
-                                    <author>Ford, John</author>
+                                    <author corresp="#ford_j">Ford, John</author>
                                     <note type="description">title mended, some leaves
                                         stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -23852,7 +23859,7 @@
                                 <monogr>
                                     <title>Adrasta, or the Woman's Spleene and Love's Conquest, a
                                         Tragi-Comedie never acted</title>
-                                    <author>Jones, J.</author>
+                                    <author corresp="#jones_j">Jones, J.</author>
                                     <note type="description">half bound, with pencil note in
                                         Swinburne's writing, title defective and mended</note>
                                     <note type="etc">
@@ -23869,11 +23876,11 @@
                             <biblStruct corresp="#owned" xml:id="sb569.1">
                                 <monogr>
                                     <title>Oliver Cromwell</title>
-                                    <author>Gardiner, S. R.</author>
+                                    <author corresp="#gardiner">Gardiner, S. R.</author>
                                     <note type="description" corresp="#uncut">coloured portrait and
                                         other portraits, etc. uncut</note>
                                     <imprint>
-                                        <publisher>Goupil &amp; Co.</publisher>
+                                        <publisher corresp="#goupil_cie">Goupil &amp; Co.</publisher>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -23886,7 +23893,7 @@
                                 <monogr>
                                     <title>Essays on several Important Subjects in Philosophy and
                                         Religion</title>
-                                    <author>Glanvill, Jos.</author>
+                                    <author corresp="#glanvill">Glanvill, Jos.</author>
                                     <note type="description">old sheep</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A42813</idno>
@@ -23918,7 +23925,12 @@
                             <biblStruct corresp="#owned" xml:id="sb571.1">
                                 <monogr>
                                     <title xml:lang="fr">Histoire de Marie-Antoinette</title>
-                                    <author>Goncourt, E. et J. de</author>
+                                    <author corresp="#goncourt_e">
+                                        <persName>Goncourt, E.</persName>
+                                    </author>
+                                    <author corresp="#goncourt_j">
+                                        <persName>Goncourt, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">printed within
                                         pictoral borders by Giacomelli, portraits, plates, etc.
                                         uncut</note>
@@ -23935,7 +23947,7 @@
                                 <monogr>
                                     <title>Whole Art and Trade of Husbandry contained in foure
                                         Books</title>
-                                    <author>Googe, B.</author>
+                                    <author corresp="#googe">Googe, B.</author>
                                     <note type="description">black letter, half calf, a few
                                         head-lines slightly cut into</note>
                                     <imprint>
@@ -23950,7 +23962,7 @@
                             <biblStruct corresp="#owned" xml:id="sb573.1">
                                 <monogr>
                                     <title>Memoir of Thomas Lodge</title>
-                                    <author>Gosse, Edmund W.</author>
+                                    <author corresp="#gosse">Gosse, Edmund W.</author>
                                     <note type="description" corresp="#uncut #presentation">only 10
                                         copies printed, of which this is no. 1, half roan, uncut,
                                         presentation copy with autograph inscription. Privately
@@ -23969,7 +23981,7 @@
                             <biblStruct corresp="#owned" xml:id="sb574.1">
                                 <monogr>
                                     <title>Memoir on Samuel Rowlands</title>
-                                    <author>Gosse, E. W.</author>
+                                    <author corresp="#gosse">Gosse, E. W.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne from his friend
@@ -23998,7 +24010,7 @@
                                     <title>Ciceronis Amor. Tullie's Loue, wherein is discoursed the
                                         prime of Ciceroe's Youth, a Worke full of pleasure as
                                         following Ciceroe's Vaine</title>
-                                    <author>Greene, Robert</author>
+                                    <author corresp="#greene">Greene, Robert</author>
                                     <note type="description">black letter, old calf, ornament on
                                         sides, title in facsimile and a leaf mended</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -24017,7 +24029,7 @@
                                     <title>A Pleasant Comedie called A Woman will haue her Will, as
                                         it hath been diverse time acted with great applause</title>
                                     <idno type="tcp">A02800</idno>
-                                    <author>Houghton, William</author>
+                                    <author corresp="#haughton">Houghton, William</author>
                                     <note type="description">half bound, interlaced, some leaves
                                         stained and a few headlines cut into</note>
                                     <imprint>
@@ -24039,7 +24051,7 @@
                                 <monogr>
                                     <title>Exemplary Lives and Memorable Acts of Nine most worthy
                                         Women of the World</title>
-                                    <author>Heywood, T.</author>
+                                    <author corresp="#heywood_t">Heywood, T.</author>
                                     <note type="description">portraits (one mounted), calf, some
                                         leaves stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -24059,7 +24071,7 @@
                                         Predictions interpreted and their truth made good by our
                                         English Annalls</title>
                                     <idno type="tcp">A43598</idno>
-                                    <author>Heywood, T.</author>
+                                    <author corresp="#heywood_t">Heywood, T.</author>
                                     <note type="description">frontispiece, calf</note>
                                     <imprint>
                                         <date when="1651"/>
@@ -24096,7 +24108,7 @@
                                     <title>Genuine Works, with Biographical Anecdotes by Nichols and
                                         Stevens, containing, Clavis, Hogarthiana, illustrative
                                         Essays, etc.</title>
-                                    <author>Hogarth, Wm.</author>
+                                    <author corresp="#hogarth">Hogarth, Wm.</author>
                                     <note type="description" corresp="#uncut">50 additional plates,
                                         uncut</note>
                                     <imprint>
@@ -24113,7 +24125,7 @@
                             <biblStruct corresp="#owned" xml:id="sb581.1">
                                 <monogr>
                                     <title>Rip Van Winkle</title>
-                                    <author>Irving, W.</author>
+                                    <author corresp="#irving">Irving, W.</author>
                                     <note type="description">illustrations by G. Browne</note>
                                     <imprint>
                                         <date when="1887"/>
@@ -24129,6 +24141,7 @@
                                     <title>Fables and Tales suggested by the Frescoes of Pompeii and
                                         Herculaneum</title>
                                     <author>Le Gros, W. B.</author>
+                                    <!-- Title found, but no LCNAF / full name. -->
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1835"/>
@@ -24157,7 +24170,7 @@
                                 <monogr>
                                     <title>Poems, etc. (1592-1638), edited with Introduction and
                                         Notes by A. B. Grosart</title>
-                                    <author>James, Rich.</author>
+                                    <author corresp="#james">James, Rich.</author>
                                     <note type="description" corresp="#uncut">one of 106 copies,
                                         frontispiece and illustrations, uncut, privately
                                         printed</note>
@@ -24173,7 +24186,7 @@
                             <biblStruct corresp="#owned" xml:id="sb583.1">
                                 <monogr>
                                     <title>Tragedie of Solimon and Perseda</title>
-                                    <author>Kyd, T.</author>
+                                    <author corresp="#kyd">Kyd, T.</author>
                                     <note type="description" corresp="#presentation">old boards,
                                         imprinted for Edward White. Presentation copy to Swinburne
                                         with inscription on fly-leaf</note>
@@ -24196,7 +24209,7 @@
                                 <monogr>
                                     <title>Frutefull Sermons, with others not heretofore set forth in
                                         print</title>
-                                    <author>Latymer, Hugh</author>
+                                    <author corresp="#latimer">Latymer, Hugh</author>
                                     <note type="description">black letter, engraved title, calf,
                                         printed by John Daye</note>
                                     <imprint>
@@ -24215,10 +24228,10 @@
                                 <monogr>
                                     <title xml:lang="la">De Serpentibus opus singulare ac
                                         exactissimum</title>
-                                    <author>Leonicennus, Nic.</author>
+                                    <author corresp="#leoniceno">Leonicennus, Nic.</author>
                                     <note type="description">old boards</note>
                                     <imprint>
-                                        <publisher>Joan. Ant. de Benedictis</publisher>
+                                        <publisher corresp="#antonio">Joan. Ant. de Benedictis</publisher>
                                         <pubPlace ref="#bologna">Bononia</pubPlace>
                                         <date when="1518"/>
                                     </imprint>
