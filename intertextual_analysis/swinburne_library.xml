@@ -674,6 +674,12 @@
                         <birth when="1821"/>
                         <death when="1908"/>
                     </person>
+                    <person xml:id="baiardi">
+                        <persName source="http://id.loc.gov/authorities/names/nr98022509">Baiardi, 
+                            Ottavio Antonio, 1694-1764</persName>
+                        <birth when="1694"/>
+                        <death when="1764"/>
+                    </person>
                     <person xml:id="baily">
                         <persName source="http://id.loc.gov/authorities/names/n82070562">Baily,
                             James Thomas Herbert, 1865-1914</persName>
@@ -2938,6 +2944,11 @@
                             Stéphane, 1842-1898</persName>
                         <birth when="1842"/>
                         <death when="1898"/>
+                    </person>
+                    <person xml:id="malory">
+                        <persName source="http://id.loc.gov/authorities/names/n80067109">Malory, 
+                            Thomas, Sir, active 15th century</persName>
+                        <floruit from="1400" to="1499"/>
                     </person>
                     <person xml:id="mandeville">
                         <persName source="http://id.loc.gov/authorities/names/n80119371">Mandeville,
@@ -24278,7 +24289,7 @@
                             <biblStruct corresp="#owned" xml:id="sb587.1">
                                 <monogr>
                                     <title>The Monk: a Romance</title>
-                                    <author>Lewis, M. G.</author>
+                                    <author corresp="#lewis">Lewis, M. G.</author>
                                     <note type="description" corresp="#uncut">portrait, one of 300
                                         copies, uncut, privately printed</note>
                                     <imprint>
@@ -24296,7 +24307,7 @@
                                 <monogr>
                                     <title xml:lang="fr">L'Apollonide Drame Lyrique en trois Parties
                                         et Cinq Tableaux, Musique de F. Servais</title>
-                                    <author>Lisle, Le Conte de</author>
+                                    <author corresp="#lisle">Lisle, Le Conte de</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <imprint>
@@ -24310,7 +24321,7 @@
                             <biblStruct corresp="#owned" xml:id="sb588.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Bijoux de Marguerite</title>
-                                    <author>Leconte, S. C.</author>
+                                    <author corresp="#leconte">Leconte, S. C.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -24322,7 +24333,7 @@
                             <biblStruct corresp="#owned" xml:id="sb588.3">
                                 <monogr>
                                     <title xml:lang="fr">Le Sang des Fleurs</title>
-                                    <author>Fontainas, A.</author>
+                                    <author corresp="#fontainas">Fontainas, A.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="inscription">To my wonderful Master, Charles A. Swinburne <!-- sic -->, the poet of wild and pious love. Most respectfully, A. Fontainas.</note><!-- Taken from Harvard's catalog entry -->
@@ -24341,7 +24352,7 @@
                             <biblStruct corresp="#owned" xml:id="sb589.1">
                                 <monogr>
                                     <title xml:lang="fr">Dictionnaire de la Langue Française</title>
-                                    <author>Littré, E.</author>
+                                    <author corresp="#littré">Littré, E.</author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -24365,7 +24376,7 @@
                             <biblStruct corresp="#owned" xml:id="sb590.1">
                                 <monogr>
                                     <title xml:lang="la">De Rerum Natura Libri sex</title>
-                                    <author>Lucretius</author>
+                                    <author corresp="#lucretius_carus">Lucretius</author>
                                     <note type="description">red morocco, gilt edges</note>
                                     <imprint>
                                         <date when="1813"/>
@@ -24377,7 +24388,7 @@
                             <biblStruct corresp="#owned" xml:id="sb590.2">
                                 <monogr>
                                     <title xml:lang="la">Tibulli at Propertii Opera</title>
-                                    <author>Catulli</author>
+                                    <author corresp="#catullus">Catulli</author>
                                     <note type="description">old calf</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -24397,6 +24408,7 @@
                                 <monogr>
                                     <title>Dictionary: English, German and French</title>
                                     <author>Ludwig, Chris.</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">calf</note>
                                     <imprint>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
@@ -24410,7 +24422,12 @@
                             <biblStruct corresp="#owned" xml:id="sb591.2">
                                 <monogr>
                                     <title>Greek-English Lexicon</title>
-                                    <author>Liddell and Scott</author>
+                                    <author corresp="#liddell">
+                                        <persName>Liddell</persName>
+                                    </author>
+                                    <author corresp="#scott_r">
+                                        <persName>Scott</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -24434,7 +24451,7 @@
                                         necessary, a great sort profitable and many verye
                                         precious</title>
                                     <idno type="tcp">A68420</idno>
-                                    <author>Lupton, Thos.</author>
+                                    <author corresp="#lupton">Lupton, Thos.</author>
                                     <note type="description">black letter, calf, gilt edges, two
                                         last leaves slightly defective, printed for Edward
                                         White</note>
@@ -24454,7 +24471,7 @@
                                 <monogr>
                                     <title>Gallery of Illustrious Literary Characters, with Notices
                                         by W. Maginn</title>
-                                    <author>Maclise, D.</author>
+                                    <author corresp="#maclise">Maclise, D.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Bates</name>
@@ -24470,7 +24487,7 @@
                             <biblStruct corresp="#owned" xml:id="sb593.2">
                                 <monogr>
                                     <title>Sir Phillips Sidney</title>
-                                    <author>Stoddart, Anna M.</author>
+                                    <author corresp="#stoddart_a">Stoddart, Anna M.</author>
                                     <note type="description" corresp="#presentation">portrait and
                                         illustrations, presentation copy to Swinburne from the
                                         author, with inscription</note>
@@ -24490,8 +24507,12 @@
                                 <monogr>
                                     <title>The True Tragedy of Herod and Antipater, with the Death
                                         of faire Marriam</title>
-                                    <author>Markham, Gervase and Wm. Sampson</author>
-                                    <!-- Two authors. Check -->
+                                    <author corresp="#markham">
+                                        <persName>Markham, Gervase</persName>
+                                    </author>
+                                    <author corresp="#sampson">
+                                        <persName>Wm. Sampson</persName>
+                                    </author>
                                     <note type="description">half bound, Swinburne's copy, with five
                                         lines of writing in pencil by him, printed by G. Eld. for
                                         Mathew Rhodes</note>
@@ -24509,7 +24530,7 @@
                             <biblStruct corresp="#owned" xml:id="sb595.1">
                                 <monogr>
                                     <title>A Fine Companion</title>
-                                    <author>Marmyon, Shakerley</author>
+                                    <author corresp="#marmion">Marmyon, Shakerley</author>
                                     <note type="description">half calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -24521,7 +24542,7 @@
                             <bibl xml:id="sb595.2">
                                 <title>The Slighted Maid, a Comedy</title>
                                 <idno type="tcp">A61309</idno>
-                                <author>Stapylton, Sir R.</author>
+                                <author corresp="#stapylton">Stapylton, Sir R.</author>
                                 <date when="1663"/>
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A61309.0001.001"/>
@@ -24530,7 +24551,7 @@
                                 <monogr>
                                     <title>The Stepmother, a Tragi-Comedy</title>
                                     <idno type="tcp">A61310</idno>
-                                    <author>Stapylton, Sir R.</author>
+                                    <author corresp="#stapylton">Stapylton, Sir R.</author>
                                     <note type="description">in 1 vol. half russia, some leaves
                                         stained</note>
                                     <imprint>
@@ -24546,11 +24567,11 @@
                                 <monogr>
                                     <title>Astarte, a Fragment of Truth concerning George Gordon
                                         Byron, Sixth Lord Byron</title>
-                                    <author>Milbanke, Ralph, Earl of Lovelace</author>
+                                    <author corresp="#lovelace">Milbanke, Ralph, Earl of Lovelace</author>
                                     <note type="description" corresp="#uncut">portraits and
                                         fascimiles, uncut</note>
                                     <imprint>
-                                        <publisher>Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -24564,7 +24585,7 @@
                                     <title>Εἰκονοκλαστης, in Answer to a Book intitled Εἰκων
                                         Βασιλικον</title>
                                     <!-- Need help with Greek. Check -->
-                                    <author>Milton, John</author>
+                                    <author corresp="#milton">Milton, John</author>
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -24580,9 +24601,8 @@
                                 <monogr>
                                     <title xml:lang="la">Pro Populo Anglicano Defensio contra
                                         Claudii Anonymi alias Salmasii</title>
-                                    <author>Milton. J.</author>
+                                    <author corresp="#milton">Milton. J.</author>
                                     <note type="description">old calf</note>
-
                                     <imprint>
                                         <date when="1651"/>
                                     </imprint>
@@ -24596,7 +24616,7 @@
                                 <monogr>
                                     <title>Love is Enough, or the Freeing of Pharamond, a
                                         Morality</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author, with autograph
                                         inscription</note>
@@ -24616,7 +24636,7 @@
                                 <monogr>
                                     <title>Story of Sigurd the Volsung and the Fall of the
                                         Niblungs</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#presentation">original cloth, presentation copy with
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from his
@@ -24637,7 +24657,7 @@
                             <biblStruct corresp="#owned" xml:id="sb601.1">
                                 <monogr>
                                     <title>Odyssey of Homer done into English Verse</title>
-                                    <author>Morris, Wm.</author>
+                                    <author corresp="#morris">Morris, Wm.</author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         boards, uncut, presentation copy from the author to
                                         Swinburne, with autograph inscription</note>
@@ -24661,7 +24681,7 @@
                             <biblStruct corresp="#owned" xml:id="sb602.1">
                                 <monogr>
                                     <title>A Dream of John Ball and a King's Lesson</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >frontispiece by Edward Burne-Jones, uncut, presentation
                                         copy from the author to Swinburne, with autograph
@@ -24681,7 +24701,7 @@
                             <biblStruct corresp="#owned" xml:id="sb603.1">
                                 <monogr>
                                     <title>A Tale of the House of the Wolfings</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne, with
                                         autograph inscription</note>
@@ -24701,7 +24721,7 @@
                             <biblStruct corresp="#owned" xml:id="sb604.1">
                                 <monogr>
                                     <title>The Roots of the Mountains</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne from William
@@ -24719,7 +24739,7 @@
                             <biblStruct corresp="#owned" xml:id="sb605.1">
                                 <monogr>
                                     <title>Poems by the Way</title>
-                                    <author>Morris, W.</author>
+                                    <author corresp="#morris">Morris, W.</author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
                                         <date when="1891"/>
@@ -24734,7 +24754,7 @@
                                 <monogr>
                                     <title>Byrth, Lyf &amp; Actes of Kyng Arthur, with an
                                         Introduction and Notes by Robert Southey...and in the end Le Morte Darthur</title>
-                                    <author>Malory, Thomas</author>
+                                    <author corresp="#malory">Malory, Thomas</author>
                                     <note type="description">vellum gilt</note>
                                     <imprint>
                                         <date when="1817"/>
@@ -24754,10 +24774,10 @@
                                 <monogr>
                                     <title>Minstrelsy Ancient and Modern, with Historical
                                         Introduction and Notes</title>
-                                    <author>Motherwell, Wm.</author>
+                                    <author corresp="#motherwell">Motherwell, Wm.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
-                                        <pubPlace>Glasgow</pubPlace>
+                                        <pubPlace ref="#glasgow">Glasgow</pubPlace>
                                         <date when="1827"/>
                                     </imprint>
                                 </monogr>
@@ -24770,7 +24790,7 @@
                                 <monogr>
                                     <title>Tottenham Court, a Pleasant Comedie Acted in the Yeare
                                         MDCXXXIII at the private House in Salisbury Court</title>
-                                    <author>Nabbes, Thos.</author>
+                                    <author corresp="#nabbes">Nabbes, Thos.</author>
                                     <note type="description">fore-edge of title slightly cut into,
                                         printed by Richard Oulton for Charles Greene</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -24788,7 +24808,7 @@
                             <biblStruct corresp="#owned" xml:id="sb609.1">
                                 <monogr>
                                     <title>The Choice of Valentines</title>
-                                    <author>Nash, T.</author>
+                                    <author corresp="#nash">Nash, T.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. S. Farmer</name>
@@ -24806,7 +24826,7 @@
                             <biblStruct corresp="#owned" xml:id="sb609.2">
                                 <monogr>
                                     <title>A Satirycal Dialogue</title>
-                                    <author>Goddard, Wm.</author>
+                                    <author corresp="#goddard">Goddard, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. S. Farmer</name>
@@ -24842,7 +24862,7 @@
                                     <title>The Ile of Gulls, as it hath been often Acted in the
                                         Black Fryers, by the Children of the Revels</title>
                                     <idno type="tcp">A69188</idno>
-                                    <author>Day, John</author>
+                                    <author corresp="#day">Day, John</author>
                                     <note type="description">head-lines cut into</note>
                                     <imprint>
                                         <date when="1633"/>
@@ -24854,7 +24874,7 @@
                             <biblStruct corresp="#owned" xml:id="sb610.3">
                                 <monogr>
                                     <title>Cupid's Whirligig</title>
-                                    <author>Sharpham, E.</author>
+                                    <author corresp="#sharpham">Sharpham, E.</author>
                                     <note type="description">half bound, some leaves cut round and
                                         cut into</note>
                                     <imprint>
@@ -24870,12 +24890,12 @@
                                     <title>The Nauigations, Pereginations and Voyages made into
                                         Turkie, translated out of the French by T. Washington the
                                         younger</title>
-                                    <author>Nicholay, Nicholas</author>
+                                    <author corresp="#nicolay">Nicholay, Nicholas</author>
                                     <note type="description">curious old woodcuts, calf gilt, red
                                         and gilt edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>Imprinted by Thomas Dawson</publisher>
+                                        <publisher corresp="#dawson">Imprinted by Thomas Dawson</publisher>
                                         <date when="1585"/>
                                     </imprint>
                                 </monogr>
@@ -24887,7 +24907,7 @@
                                 <monogr>
                                     <title>Twelve Stories selected and done into English, with
                                         Memoir by Percy Pinkerton</title>
-                                    <author xml:lang="fr">Novellieri Italiani. Matteo
+                                    <author xml:lang="fr" corresp="#bandello">Novellieri Italiani. Matteo
                                         Bandello</author>
                                     <note type="description" corresp="#uncut">red cloth,
                                         uncut</note>
@@ -24976,7 +24996,7 @@
                             <biblStruct corresp="#owned" xml:id="sb614.2">
                                 <monogr>
                                     <title>A Lost Mother</title>
-                                    <author>Barlow, George</author>
+                                    <author corresp="#barlow">Barlow, George</author>
                                     <note type="description" corresp="#presentation">frontispiece,
                                         presentation copy to Swinburne, with autograph letter of the
                                         author</note>
@@ -24999,7 +25019,7 @@
                             <biblStruct corresp="#owned" xml:id="sb615.1">
                                 <monogr>
                                     <title>Certaine Learned and Elegant VVorkes</title><!-- vvorks -->
-                                    <author>Brooke, Fulke Greville, Lord</author>
+                                    <author corresp="#brooke_f">Brooke, Fulke Greville, Lord</author>
                                     <note type="description">old calf, last leaf soiled. As usual
                                         this copy commences at p. 23. It is conjectured that the
                                         absent pages consisted of "A Treatise on Religion" which was
@@ -25017,7 +25037,7 @@
                             <biblStruct corresp="#owned" xml:id="sb616.1">
                                 <monogr>
                                     <title>Workes. Another copy</title>
-                                    <author>Brooke, F. G. Lord</author>
+                                    <author corresp="#brooke_f">Brooke, F. G. Lord</author>
                                     <note type="description">calf, rebacked, M.S. notes, piece of
                                         title torn off. This book came out of the library at Sion .
                                         . . . The notes are the handwriting of Philip Earl of
@@ -25035,7 +25055,7 @@
                             <biblStruct corresp="#owned" xml:id="sb617.1">
                                 <monogr>
                                     <title>Memoir of Edward Calvert, Artist</title>
-                                    <author>Calvert, Saml.</author>
+                                    <author corresp="#calvert">Calvert, Saml.</author>
                                     <note type="description" corresp="#uncut #presentation">one of
                                         350 copes, portrait and reproductions from his paintings,
                                         buckram, uncut, presentation copy from the author to
@@ -25052,7 +25072,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Délices de l'Esprit Dialogues dediez
                                         aux beaux Esprits du Monde</title>
-                                    <author>Desmarests, I.</author>
+                                    <author corresp="#desmarets_de_saint-sorlin">Desmarests, I.</author>
                                     <note type="description">engravings, old calf gilt</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -25074,7 +25094,7 @@
                                         desolation de la tresinclyte et fameuse cite de Troye,
                                         jusques au regne du tres vertueuse Roy Francois à present
                                         regnant</title>
-                                    <author>Gilles, Nicole</author>
+                                    <author corresp="#gilles">Gilles, Nicole</author>
                                     <note type="description">lettres batárdes, titles within woodcut
                                         borders, the first in red and black, large woodcuts,
                                         pedigrees, ornamental initials, etc. crimson levant morocco
@@ -25097,7 +25117,7 @@
                                 <monogr>
                                     <title>Illustrations of the Life of Shakespeare, Part the
                                         First</title>
-                                    <author>Halliwell, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">Halliwell, J. O.</author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         presentation copy with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -25115,11 +25135,12 @@
                                 <monogr>
                                     <title xml:lang="it">Antichita di Ercolano (da O. A.
                                         Bojardi)</title>
-                                    <author>Herculaneum</author>
+                                    <author corresp="#baiardi">Bojardi, O. A.</author>
+                                    <!-- Other sources I've found state this as author, appears to be supported by title. -->
                                     <note type="description">numerous fine engravings, etc. old
                                         calf, gilt edges</note>
                                     <imprint>
-                                        <pubPlace>Napoli</pubPlace>
+                                        <pubPlace ref="#naples">Napoli</pubPlace>
                                         <date from="1757" to="1779"/>
                                     </imprint>
                                     <extent>
