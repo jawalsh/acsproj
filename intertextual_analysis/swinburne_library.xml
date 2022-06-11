@@ -1887,6 +1887,11 @@
                         <birth when="1837"/>
                         <death when="1900"/>
                     </person>
+                    <person xml:id="field">
+                        <persName source="http://id.loc.gov/authorities/names/no99044520">Field,
+                            E. M., Mrs., 1856-</persName>
+                        <birth when="1856"/>
+                    </person>
                     <person xml:id="fielding">
                         <persName source="http://id.loc.gov/authorities/names/n79016886">Fielding,
                             Henry, 1707-1754</persName>
@@ -2501,6 +2506,12 @@
                             Richard, 1592-1638</persName>
                         <birth when="1592"/>
                         <death when="1638"/>
+                    </person>
+                    <person xml:id="jeanne">
+                        <persName source="http://id.loc.gov/authorities/names/n85010894">Jeanne 
+                            d'Albret, Queen of Navarre, 1528-1572</persName>
+                        <birth when="1528"/>
+                        <death when="1572"/>
                     </person>
                     <person xml:id="jefferies">
                         <persName source="http://id.loc.gov/authorities/names/n81125341">Jefferies,
@@ -25173,7 +25184,7 @@
                                 <monogr>
                                     <title>Hierarchie of the Blessed Angells, their Names, Orders
                                         and Offices, the Fall of Lucifer with his Angells</title>
-                                    <author>Heywood, Thos.</author>
+                                    <author corresp="#heywood_t">Heywood, Thos.</author>
                                     <note type="description">engraved title by Cecill, old
                                         calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -25191,7 +25202,7 @@
                             <biblStruct corresp="#owned" xml:id="sb623.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Hogarth, W.</author>
+                                    <author corresp="#hogarth">Hogarth, W.</author>
                                     <note type="description">portrait and engravings, mounted in a
                                         vol. old russia, broken</note>
                                     <imprint>
@@ -25208,7 +25219,7 @@
                                 <monogr>
                                     <title>Historie of Ireland from the first inhabitation therof
                                         unto the yeare 1509, continued by Rich. Stanyhurst</title>
-                                    <author>Holinshed, Raph.</author>
+                                    <author corresp="#holinshed">Holinshed, Raph.</author>
                                     <note type="description">black letter, engraved title and
                                         woodcuts, half calf, red edges</note>
                                     <imprint>
@@ -25224,7 +25235,7 @@
                                     <title>Historie of Scotlande from the originall therof unto the
                                         yeare 1571</title>
                                     <idno type="tcp">A03448</idno>
-                                    <author>Holinshed, R.</author>
+                                    <author corresp="#holinshed">Holinshed, R.</author>
                                     <note type="description">black letter, engraved title and
                                         woodcuts, half calf, red edges</note>
                                     <imprint>
@@ -25249,7 +25260,7 @@
                             <biblStruct corresp="#owned" xml:id="sb626.1">
                                 <monogr>
                                     <title>Iliad</title>
-                                    <author>Homer</author>
+                                    <author corresp="#homer">Homer</author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Geo. Chapman</name>
@@ -25281,7 +25292,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Comédies de Plaute, nouvelle traduction
                                         par Mons. Guendeville, avec des notes, etc.</title>
-                                    <author>Plautus</author>
+                                    <author corresp="#plautus">Plautus</author>
                                     <note type="description">plates, French calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -25320,7 +25331,7 @@
                                 <monogr>
                                     <title>Comedies, literally translated into English Prose, with
                                         notes, by H. T. Riley</title>
-                                    <author>Plautus</author>
+                                    <author corresp="#plautus">Plautus</author>
                                     <imprint>
                                         <date when="1894"/>
                                     </imprint>
@@ -25337,7 +25348,7 @@
                                 <monogr>
                                     <title>Comedies and Fables of Phaedrus, translated into English
                                         Prose by H. T. Riley</title>
-                                    <author>Terence</author>
+                                    <author corresp="#terence">Terence</author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
                                         <date when="1901"/>
@@ -25405,7 +25416,7 @@
                         <listBibl type="lot" xml:id="sb630">
                             <bibl xml:id="sb630.1">
                                 <title>The She Gallants, a Comedy</title>
-                                <author>Landsdown, Geo. Granville, Lord</author>
+                                <author corresp="#lansdowne">Landsdown, Geo. Granville, Lord</author>
                                 <date>n.d.</date>
                                 <relatedItem type="ia"
                                     target="https://archive.org/details/shegallantscomed00lans/page/n4/mode/2up"/>
@@ -25413,14 +25424,14 @@
                             </bibl>
                             <bibl xml:id="sb630.2">
                                 <title>The Committee, a Comedy</title>
-                                <author>Howard, Sir R.</author>
+                                <author corresp="#howard">Howard, Sir R.</author>
                                 <date>n.d.</date>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/pst.000006518295"/>
                             </bibl>
                             <bibl xml:id="sb630.3">
                                 <title>Sir Courtly Nice and it Cannot be, a Comedy</title>
-                                <author>Crown, John</author>
+                                <author corresp="#crown">Crown, John</author>
                                 <date>n.d.</date>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/osu.32435017925306"/>
@@ -25429,7 +25440,8 @@
                                 <monogr>
                                     <title>The Drummer, or the Haunted House, a Comedy, with Preface
                                         and Letter By Sir Richard Steele</title>
-                                    <author>Harrison, Mr.</author>
+                                    <author corresp="#addison">Harrison, Mr.</author>
+                                    <!-- Not sure if this is a typo or a misprint, but other sources say the author is Joseph Addison. -->
                                     <note type="description">half bound</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -25446,7 +25458,7 @@
                             <biblStruct corresp="#owned" xml:id="sb631.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Poe, E. A.</author>
+                                    <author corresp="#poe">Poe, E. A.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John H. Ingram</name>
@@ -25473,7 +25485,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Choisies, traduction nouvelle par
                                         W. L. Hughes</title>
-                                    <author>Poe, E.</author>
+                                    <author corresp="#poe">Poe, E.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -25488,7 +25500,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Passé le Détroit la Vie et l'Art à
                                         Lonres</title>
-                                    <author>Mourey, G.</author>
+                                    <author corresp="#mourey">Mourey, G.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -25502,7 +25514,7 @@
                             <biblStruct corresp="#owned" xml:id="sb632.3">
                                 <monogr>
                                     <title xml:lang="fr">Les Poëmes de l'amour et de la Mort</title>
-                                    <author>Lebey, A.</author>
+                                    <author corresp="#lebey">Lebey, A.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne, with inscriptions<num
@@ -25554,7 +25566,7 @@
                             <biblStruct corresp="#owned" xml:id="sb634.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Scott, W. Bell</author>
+                                    <author corresp="#scott_wi">Scott, W. Bell</author>
                                     <note type="description">17 etchings by the author and L. Alma
                                         Tadena</note>
                                     <note type="etc">
@@ -25598,7 +25610,7 @@
                             <biblStruct corresp="#owned" xml:id="sb635.2">
                                 <monogr>
                                     <title>Adventures of Ferdinand, Count Fathom</title>
-                                    <author>Smollett, T.</author>
+                                    <author corresp="#smollett">Smollett, T.</author>
                                     <note type="description">plates</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -25615,7 +25627,7 @@
                                 <monogr>
                                     <title>The Saint's Tragedy, with Preface by F. D.
                                         Maurice</title>
-                                    <author>Kingsley, C.</author>
+                                    <author corresp="#kingsley">Kingsley, C.</author>
                                     <note type="description">morocco gilt, gilt edges</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -25633,7 +25645,7 @@
                                 <monogr>
                                     <title>Old Picture Books, with other Essays on Bookish
                                         Subjects</title>
-                                    <author>Pollard, A. W.</author>
+                                    <author corresp="#pollard">Pollard, A. W.</author>
                                     <note type="description">woodcuts</note>
                                     <imprint>
                                         <date when="1902"/>
@@ -25645,7 +25657,7 @@
                             <biblStruct corresp="#owned" xml:id="sb636.2">
                                 <monogr>
                                     <title>Forgotten Children's Books</title>
-                                    <author>Tuer, A. W.</author>
+                                    <author corresp="#tuer">Tuer, A. W.</author>
                                     <note type="description">400 illustrations</note>
                                     <imprint>
                                         <date from="1898" to="1899"/>
@@ -25661,7 +25673,7 @@
                                 <monogr>
                                     <title>History and Progress of Children's Literature in
                                         England</title>
-                                    <author>Field, Mrs. E. M.</author>
+                                    <author corresp="#field">Field, Mrs. E. M.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -25682,7 +25694,7 @@
                                 <monogr>
                                     <title>Popish Plot, a Study in the History of the Reign of
                                         Charles II.</title>
-                                    <author>Pollock, J.</author>
+                                    <author corresp="#pollock_j">Pollock, J.</author>
                                     <note type="description">royal 8vo.</note>
                                     <imprint>
                                         <date when="1903"/>
@@ -25694,7 +25706,7 @@
                             <biblStruct corresp="#owned" xml:id="sb637.2">
                                 <monogr>
                                     <title>Napoleon, the Last Phase</title>
-                                    <author>Rosebery, Lord</author>
+                                    <author corresp="#rosebery">Rosebery, Lord</author>
                                     <imprint>
                                         <date when="1900"/>
                                     </imprint>
@@ -25705,7 +25717,7 @@
                             <biblStruct corresp="#owned" xml:id="sb637.3">
                                 <monogr>
                                     <title>Life of Louis XI</title>
-                                    <author>Hare, C.</author>
+                                    <author corresp="#hare">Hare, C.</author>
                                     <note type="description" corresp="#uncut">portraits,
                                         uncut</note>
                                     <note type="etc">
@@ -25724,7 +25736,7 @@
                                 <monogr>
                                     <title>The English Parnassus, or a Help to English
                                         Poesis</title>
-                                    <author>Poole, Joshua</author>
+                                    <author corresp="#poole">Poole, Joshua</author>
                                     <note type="description">frontispiece, mounted, calf, some
                                         leaves supplied from another copy</note>
                                     <imprint>
@@ -25742,7 +25754,7 @@
                                 <monogr>
                                     <title>Works, with Commentary and Notes of Warburton;
                                         Translation of Homer's Illiad and Odyssey</title>
-                                    <author>Pope, Alex.</author>
+                                    <author corresp="#pope">Pope, Alex.</author>
                                     <note type="description">together, portrait and plates, old calf
                                         gilt, ex-libris of R. H. Alexan. Bennett in each vol.</note>
                                     <imprint>
@@ -25794,7 +25806,7 @@
                                 <monogr>
                                     <title>Works, collected in part by Rt. Hon. J. W. Croker, with
                                         Introduction and Notes by W. Elwin</title>
-                                    <author>Pope A.</author>
+                                    <author corresp="#pope">Pope A.</author>
                                     <note type="description">portraits and other illustrations,
                                         brown cloth</note>
                                     <imprint>
@@ -25830,7 +25842,7 @@
                             <biblStruct corresp="#owned" xml:id="sb641.1">
                                 <monogr>
                                     <title xml:lang="la">Magiae Naturalis Libri XX</title>
-                                    <author>Porta, Joh. Bapt.</author>
+                                    <author corresp="#porta">Porta, Joh. Bapt.</author>
                                     <note type="description">engraved title and woodcuts,
                                         vellum</note>
                                     <imprint>
@@ -25852,7 +25864,7 @@
                                 <monogr>
                                     <title>An Autobiographical Fragment and Biographical
                                         Notes</title>
-                                    <author>Proctor, Bryan Waller (Barry Cornwall)</author>
+                                    <author corresp="#cornwall">Proctor, Bryan Waller (Barry Cornwall)</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with Anne B.
@@ -25868,7 +25880,7 @@
                                 <monogr>
                                     <title>Samuel Taylor Coleridge, a Narrative of the Events of his
                                         Life</title>
-                                    <author>Campbell, J. Dykes</author>
+                                    <author corresp="#campbell_j">Campbell, J. Dykes</author>
                                     <note type="description">portrait, with inscription</note>
                                     <note type="inscription">Mr. Algernon C. Swinburne, with the
                                         Author's kind regards</note>
@@ -25884,7 +25896,7 @@
                             <biblStruct corresp="#owned" xml:id="sb643.1">
                                 <monogr>
                                     <title>Death of Ezekiel's Wife</title>
-                                    <author>Purchas, John</author>
+                                    <author corresp="#purchas">Purchas, John</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. from
@@ -25901,7 +25913,7 @@
                             <biblStruct corresp="#owned" xml:id="sb643.2">
                                 <monogr>
                                     <title>Sermon at Brighton</title>
-                                    <author>Purchas, John</author>
+                                    <author corresp="#purchas">Purchas, John</author>
                                     <note type="inscription">A. C. Swinburne, Esqre. from the Author
                                         J. P.</note>
                                     <imprint>
@@ -25917,7 +25929,7 @@
                                     <title xml:lang="fr">L'Heptameron on Histories des Amaus
                                         Fortunez des Nouvelles de Marguerite de Valois, Royne de
                                         Navarre</title>
-                                    <author>Queen of Navarre</author>
+                                    <author corresp="#jeanne">Queen of Navarre</author>
                                     <note type="description">calf antique, red edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -25932,28 +25944,28 @@
                         <listBibl type="lot" xml:id="sb645">
                             <bibl xml:id="sb645.1">
                                 <title>Old Fires and Profitable Ghosts</title>
-                                <author>Quiller-Couch, A. T.</author>
+                                <author corresp="#quiller-couch">Quiller-Couch, A. T.</author>
                                 <date when="1900"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwk5tk"/>
                             </bibl>
                             <bibl xml:id="sb645.2">
                                 <title>Laird's Luck, etc.</title>
-                                <author>Quiller-Couch, A. T.</author>
+                                <author corresp="#quiller-couch">Quiller-Couch, A. T.</author>
                                 <date when="1901"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t8w957k0k"/>
                             </bibl>
                             <bibl xml:id="sb645.3">
                                 <title>John Fletcher's Madonna</title>
-                                <author>Carr, Mrs. C.</author>
+                                <author corresp="#carr_a">Carr, Mrs. C.</author>
                                 <date when="1905"/>
                                 <relatedItem type="none" target=""/>
                             </bibl>
                             <biblStruct corresp="#owned" xml:id="sb645.4">
                                 <monogr>
                                     <title>The Doings of Raffles Haw</title>
-                                    <author>Doyle, A. Conan</author>
+                                    <author corresp="#doyle">Doyle, A. Conan</author>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies<num value="20"/></note>
                                     <imprint>
@@ -25970,7 +25982,7 @@
                                     <title xml:lang="fr">Oeuvres Complètes, avec les Notes de tous
                                         les Commentateurs, publiés par L. Aimé-Martin, avec des
                                         additions</title>
-                                    <author>Racine, J.</author>
+                                    <author corresp="#racine">Racine, J.</author>
                                     <note type="description">portrait and plates, calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -25999,7 +26011,7 @@
                             <biblStruct corresp="#owned" xml:id="sb647.1">
                                 <monogr>
                                     <title>Ovid Travestie, a Burlesque upon Ovid's Epistles</title>
-                                    <author>Radcliffe, Capt. Alex.</author>
+                                    <author corresp="#radcliffe">Radcliffe, Capt. Alex.</author>
                                     <note type="description" corresp="#uncut">one of 250 copies,
                                         uncut</note>
                                     <imprint>
@@ -26012,7 +26024,7 @@
                             <bibl xml:id="sb647.2">
                                 <title>Notes on the Life of John Payne Collier, with List of his
                                     Works</title>
-                                <author>Wheatley, H. B.</author>
+                                <author corresp="#wheatley">Wheatley, H. B.</author>
                                 <date when="1884"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044050817758"/>
@@ -26020,7 +26032,7 @@
                             <biblStruct corresp="#owned" xml:id="sb647.3">
                                 <monogr>
                                     <title>Bibliography of Ruskin</title>
-                                    <author>Shepherd, R. H.</author>
+                                    <author corresp="#shepherd">Shepherd, R. H.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="etc" corresp="#presentation">and others, some
@@ -26040,7 +26052,7 @@
                                     <title>Poems, with the Muses Looking-Glass and Amyntas,
                                         whereunto is added the Jealous Lovers</title>
                                     <idno type="tcp">A10411</idno>
-                                    <author>Randolph, Tho.</author>
+                                    <author corresp="#randolph">Randolph, Tho.</author>
                                     <note type="description">frontispiece, old binding</note>
                                     <imprint>
                                         <date when="1664"/>
@@ -26057,7 +26069,7 @@
                             <biblStruct corresp="#owned" xml:id="sb649.1">
                                 <monogr>
                                     <title xml:lang="it">Giustizia, Versi</title>
-                                    <author>Rapisardi, Mario</author>
+                                    <author corresp="#rapisardi">Rapisardi, Mario</author>
                                     <note type="description">portrait, two autograph letters of the
                                         author and one of Aurelio Safii enclosed</note>
                                     <imprint>
@@ -26073,12 +26085,12 @@
                                 <monogr>
                                     <title xml:lang="it">Prometeo Liberato, tradotto da Mario
                                         Rapisardi</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription of
                                         Rapisardi</note>
                                     <imprint>
-                                        <pubPlace>Palermo</pubPlace>
+                                        <pubPlace ref="#palermo">Palermo</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -26090,7 +26102,7 @@
                                 <monogr>
                                     <title>Peg Woffington, with Introduction by Autsin
                                         Dobson</title>
-                                    <author>Reade, Chas.</author>
+                                    <author corresp="#reade_ch">Reade, Chas.</author>
                                     <note type="description" corresp="#uncut">large paper, one of
                                         200 copies, illustrations by Hugh Thomson, buckram gilt,
                                         uncut, royal 8vo.</note>
@@ -26108,7 +26120,7 @@
                             <biblStruct corresp="#owned" xml:id="sb651.1">
                                 <monogr>
                                     <title>Umba Coeli</title>
-                                    <author>Reade, Compton</author>
+                                    <author corresp="#reade_co">Reade, Compton</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy, with autograph letter from the author to
                                         Swinburne</note>
@@ -26120,7 +26132,7 @@
                             </biblStruct>
                             <bibl xml:id="sb651.2">
                                 <title>News from Nowhere</title>
-                                <author>Morris, W.</author>
+                                <author corresp="#morris">Morris, W.</author>
                                 <date when="1891"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.b5615849"/>
@@ -26129,7 +26141,7 @@
                                 <monogr>
                                     <title>Notes on the Principal Pictures in the Royal
                                         Academy</title>
-                                    <author>Ruskin, J.</author>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
                                     <note type="etc">
                                         <num value="14"/>
                                     </note>
@@ -26146,6 +26158,7 @@
                                 <monogr>
                                     <title>Concerning Charles Lamb</title>
                                     <author>Rees, R. Wilkins</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">with autograph letter of the
                                         author</note>
                                     <imprint>
@@ -26157,7 +26170,7 @@
                             <biblStruct corresp="#owned" xml:id="sb652.2">
                                 <monogr>
                                     <title>Whistler</title>
-                                    <author>Macfall, Haldane</author>
+                                    <author corresp="#macfall">Macfall, Haldane</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1905"/>
@@ -26173,12 +26186,13 @@
                                 <monogr>
                                     <title>Sonnets</title>
                                     <author>Temple, J. Scott</author>
+                                    <!-- No LCNAF found, possibly http://id.loc.gov/authorities/names/n50005768 -->
                                     <note type="description">autograph letter of author
                                         enclosed</note>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne<num value="14"/></note>
                                     <imprint>
-                                        <pubPlace>Reigate</pubPlace>
+                                        <pubPlace corresp="#reigate">Reigate</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -26189,7 +26203,7 @@
                             <biblStruct corresp="#owned" xml:id="sb653.1">
                                 <monogr>
                                     <title xml:lang="fr">Le Peintre Mystique</title>
-                                    <author>Réné, Xavier de</author>
+                                    <author corresp="#reul">Réné, Xavier de</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <pubPlace ref="#brussels">Bruxelles</pubPlace>
@@ -26201,7 +26215,7 @@
                             <biblStruct corresp="#owned" xml:id="sb653.2">
                                 <monogr>
                                     <title>Hellas</title>
-                                    <author>Marceton, P.</author>
+                                    <author corresp="#mariéton">Marceton, P.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -26217,7 +26231,7 @@
                             <biblStruct corresp="#owned" xml:id="sb653.3">
                                 <monogr>
                                     <title>Chansons Grises</title>
-                                    <author>Lebey, André</author>
+                                    <author corresp="#lebey">Lebey, André</author>
                                     <note type="description" corresp="#uncut">one of 250 copies,
                                         uncut</note>
                                     <note type="etc" corresp="#presentation">and another, all
@@ -26268,7 +26282,7 @@
                             <biblStruct corresp="#owned" xml:id="sb654.3">
                                 <monogr>
                                     <title>The Brontës in Ireland</title>
-                                    <author>Wright, W.</author>
+                                    <author corresp="#wright_w">Wright, W.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
@@ -26285,7 +26299,7 @@
                             <biblStruct corresp="#owned" xml:id="sb655.1">
                                 <monogr>
                                     <title>Clarissa</title>
-                                    <author>Richardson, S.</author>
+                                    <author corresp="#richardson">Richardson, S.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, for T. Watts
@@ -26318,7 +26332,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Vie Privée du Maréchal de Richeliu,
                                         contenant ses Amours et Intrigues</title>
-                                    <author>Richeliu</author>
+                                    <author corresp="#richelieu">Richeliu</author>
                                     <note type="description">half bound</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -26334,7 +26348,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Historie de Napoléon et de la Grande
                                         Amrée</title>
-                                    <author>Segur, Comte de</author>
+                                    <author corresp="#ségur">Segur, Comte de</author>
                                     <note type="description">half calf, Swinburne's copy, with his
                                         signature on fly-leaf</note>
                                     <note type="etc">
@@ -26355,7 +26369,7 @@
                             <biblStruct corresp="#owned" xml:id="sb657.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Amours des Lyristes</title>
-                                    <author>Rieux, Lionel des</author>
+                                    <author corresp="#rieux">Rieux, Lionel des</author>
                                     <note type="description" corresp="#uncut">uncut, with
                                         inscription</note>
                                     <note type="inscription" xml:lang="fr">à Ch. Algernon Swinburne
@@ -26370,11 +26384,11 @@
                             <biblStruct corresp="#owned" xml:id="sb657.2">
                                 <monogr>
                                     <title>Jenseits der Wasser</title>
-                                    <author>Mackay, J. H.</author>
+                                    <author corresp="#mackay">Mackay, J. H.</author>
                                     <note type="description">autograph letter to Swinburne
                                         enclosed</note>
                                     <imprint>
-                                        <pubPlace>Zurich</pubPlace>
+                                        <pubPlace ref="#zurich">Zurich</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -26387,7 +26401,7 @@
                                 <monogr>
                                     <title>A Little Book of Songs and Ballads gathered from Ancient
                                         Musick Books, MS and printed</title>
-                                    <author>Rimbault, E. F.</author>
+                                    <author corresp="#rimbault">Rimbault, E. F.</author>
                                     <note type="description">half morocco</note>
                                     <imprint>
                                         <date when="1851"/>
@@ -26399,7 +26413,7 @@
                             <biblStruct corresp="#owned" xml:id="sb658.2">
                                 <monogr>
                                     <title>English Fairy Tales</title>
-                                    <author>Jacobs, J.</author>
+                                    <author corresp="#jacobs">Jacobs, J.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
@@ -26417,14 +26431,14 @@
                             <biblStruct corresp="#owned" xml:id="sb659.1">
                                 <monogr>
                                     <title>Records of Tennyson, Ruskin and Browning</title>
-                                    <author>Ritchie, Anne Thackeray</author>
+                                    <author corresp="#ritchie">Ritchie, Anne Thackeray</author>
                                     <note type="description" corresp="#uncut #presentation">portrait
                                         and illustrations, uncut, top edge gilt, presentation copy,
                                         with inscription</note>
                                     <note>A. C. Swinburne, from Anne Ritchie and Emily
                                         Ritchie</note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -26440,6 +26454,7 @@
                                     <note type="description">frontispiece, etc.</note>
                                     <imprint>
                                         <publisher>Grampian Club</publisher>
+                                        <!-- No LCNAF found. -->
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -26452,7 +26467,7 @@
                                 <monogr>
                                     <title>Ancient Songs from the time of Henry the Third to the
                                         Revolution</title>
-                                    <author>Ritson, J.</author>
+                                    <author corresp="#ritson">Ritson, J.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date when="1790"/>
@@ -26464,7 +26479,7 @@
                             <biblStruct corresp="#owned" xml:id="sb660.2">
                                 <monogr>
                                     <title>Dissertation on Romance and Minstrelsy</title>
-                                    <author>Ritson, J.</author>
+                                    <author corresp="#ritson">Ritson, J.</author>
                                     <note type="description" corresp="#uncut">one of 400 copies,
                                         uncut</note>
                                     <imprint>
@@ -26493,7 +26508,7 @@
                                 <monogr>
                                     <title>The Devil's Pronoun, and other Phantasies, five designs
                                         by E. F. R.</title>
-                                    <author>Robertson, Frances F.</author>
+                                    <author corresp="#forbes-robertson">Robertson, Frances F.</author>
                                     <note type="description" corresp="#uncut #presentation">buckram,
                                         uncut, presentation copy with inscription</note>
                                     <note type="inscription">To Mr. Swinburne from the author, whom
@@ -26513,7 +26528,7 @@
                             <biblStruct corresp="#owned" xml:id="sb662.1">
                                 <monogr>
                                     <title>La Lanterne, 54 nos.</title>
-                                    <author>Rochefort, H.</author>
+                                    <author corresp="#rochefort">Rochefort, H.</author>
                                     <note type="description">various</note>
                                     <imprint>
                                         <date from="1868" to="1876"/>
@@ -26542,7 +26557,7 @@
                             <biblStruct corresp="#owned" xml:id="sb662.2">
                                 <monogr>
                                     <title xml:lang="fr">Poésies Nouvelles</title>
-                                    <author>Gautier, T.</author>
+                                    <author corresp="#gautier">Gautier, T.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="61"/></note>
@@ -26559,12 +26574,12 @@
                             <biblStruct corresp="#owned" xml:id="sb663.1">
                                 <monogr>
                                     <title xml:lang="es">Poemas</title>
-                                    <author>Rocuant, M. L.</author>
+                                    <author corresp="#rocuant">Rocuant, M. L.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne from the author with
                                         interesting autograph inscription</note>
                                     <imprint>
-                                        <pubPlace>Santiago de Chile</pubPlace>
+                                        <pubPlace ref="#santiago">Santiago de Chile</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -26578,7 +26593,7 @@
                             <biblStruct corresp="#owned" xml:id="sb664.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Rogers, Samuel</author>
+                                    <author corresp="#rogers">Rogers, Samuel</author>
                                     <note type="description">with vignette engravings after Turner
                                         and Stothard, half morocco gilt, gilt edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
