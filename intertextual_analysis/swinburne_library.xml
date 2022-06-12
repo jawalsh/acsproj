@@ -4712,6 +4712,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2016025058">Abbotsford 
                             Club (Edinburgh, Scotland)</orgName>
                     </org>
+                    <org xml:id="shelley_society">
+                        <orgName source="http://id.loc.gov/authorities/names/n80032748">Shelley 
+                            Society</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -26609,7 +26613,7 @@
                             <biblStruct corresp="#owned" xml:id="sb665.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Rogers, S.</author>
+                                    <author corresp="#rogers">Rogers, S.</author>
                                     <note type="description" corresp="#presentation">portrait and
                                         woodcuts, crushed morocco gilt, tooled borders on the sides,
                                         gilt edges, by Hayday, presentation copy from the author
@@ -26618,7 +26622,7 @@
                                         sincere friend, Samuel Rogers, <date when="1852-02-28">Feby.
                                             28, 1852</date></note>
                                     <imprint>
-                                        <publisher>Moxon</publisher>
+                                        <publisher corresp="#moxon">Moxon</publisher>
                                         <date when="1845"/>
                                     </imprint>
                                     <extent>
@@ -26635,7 +26639,7 @@
                             <biblStruct corresp="#owned" xml:id="sb666.1">
                                 <monogr>
                                     <title>Commonplace and other Short Stories</title>
-                                    <author>Rossetti, Christina, G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, Christina, G.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1870"/>
@@ -26647,7 +26651,7 @@
                             <biblStruct corresp="#owned" xml:id="sb666.2">
                                 <monogr>
                                     <title>New Poems hitherto unpublished</title>
-                                    <author>Rossetti, Christina, G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, Christina, G.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Wm. Rossetti</name>
@@ -26665,7 +26669,7 @@
                             <biblStruct corresp="#owned" xml:id="sb667.1">
                                 <monogr>
                                     <title>Sing-Song, a Nursery Rhyme Book</title>
-                                    <author>Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
                                     <note type="description" corresp="#presentation">120
                                         illustrations by Arthur Hughes, presentation copy with
                                         inscription</note>
@@ -26686,7 +26690,7 @@
                                 <monogr>
                                     <title>Poetical Works, with Memoir and Notes by W. M.
                                         Rossetti</title>
-                                    <author>Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1904"/>
@@ -26699,7 +26703,7 @@
                                 <monogr>
                                     <title>Maude, a Story for Girls, with Introduction by W. M.
                                         Rossetti</title>
-                                    <author>Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <note type="etc">
                                         <num value="3"/>
@@ -26717,7 +26721,7 @@
                                 <monogr>
                                     <title>Family Letters, with Supplementary Letters and
                                         Appendicies</title>
-                                    <author>Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. M. Rossetti</name>
@@ -26740,7 +26744,7 @@
                             <biblStruct corresp="#owned" xml:id="sb670.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description" corresp="#uncut #presentation">cloth
                                         gilt, uncut, presentation copy to A. C. Swinburne from the
                                         author, with inscription</note>
@@ -26761,7 +26765,7 @@
                             <biblStruct corresp="#owned" xml:id="sb671.1">
                                 <monogr>
                                     <title>Poems, with Memoir by F. Hüffer</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne with
                                         autograph inscription</note>
@@ -26782,7 +26786,7 @@
                                 <monogr>
                                     <title>Collected Works, edited with Preface and Notes by William
                                         M. Rossetti</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description" corresp="#uncut #presentation">cloth
                                         gilt, uncut, presentation copy to A. C. Swinburne from the
                                         editorm with inscription</note>
@@ -26805,7 +26809,7 @@
                             <biblStruct corresp="#owned" xml:id="sb673.1">
                                 <monogr>
                                     <title>Family Letters, with Memoir by W. M. Rossetti</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">To my dear old friend Algernon Charles
@@ -26829,7 +26833,7 @@
                                 <monogr>
                                     <title>Letters to William Allingham, 1854-1870, by Geo. B.
                                         Hill</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description">portrait and illustrations</note>
                                     <imprint>
                                         <date when="1897"/>
@@ -26842,7 +26846,7 @@
                                 <monogr>
                                     <title>A Versified Autobiography, translated and supplmented by
                                         W. M. Rossetti</title>
-                                    <author>Rossetti, Gabriel</author>
+                                    <author corresp="#rossetti_d">Rossetti, Gabriel</author>
                                     <note type="description" corresp="#uncut">illustrations,
                                         buckram, uncut, top edge gilt</note>
                                     <note type="etc">
@@ -26860,7 +26864,7 @@
                             <biblStruct corresp="#owned" xml:id="sb675.1">
                                 <monogr>
                                     <title>Swinburne's Poems and Ballads, a Criticism</title>
-                                    <author>Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">Rossetti, W. M.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">With the author's compliments</note>
@@ -26877,7 +26881,7 @@
                                 <monogr>
                                     <title>Fine Art, chiefly Contemporary Notices reprinted with
                                         Revisions</title>
-                                    <author>Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">Rossetti, W. M.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">From the author</note>
@@ -26894,7 +26898,7 @@
                             <biblStruct corresp="#owned" xml:id="sb677.1">
                                 <monogr>
                                     <title>Lives of Famous Poets</title>
-                                    <author>Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">Rossetti, W. M.</author>
                                     <note type="description" corresp="#presentation">portrait,
                                         original cloth, presentation copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne with W. M.
@@ -26912,7 +26916,7 @@
                             <biblStruct corresp="#owned" xml:id="sb678.1">
                                 <monogr>
                                     <title>Some Reminiscences</title>
-                                    <author>Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">Rossetti, W. M.</author>
                                     <note type="description" corresp="#uncut">portraits, etc.
                                         buckram, uncut</note>
                                     <imprint>
@@ -26930,7 +26934,7 @@
                             <biblStruct corresp="#owned" xml:id="sb678.2">
                                 <monogr>
                                     <title>Familiar Letters</title>
-                                    <author>Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">Scott, Sir W.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
@@ -26948,7 +26952,7 @@
                             <biblStruct corresp="#owned" xml:id="sb678.3">
                                 <monogr>
                                     <title>Memoir, by C. L. Reade and C. Reade</title>
-                                    <author>Reade, C.</author>
+                                    <author corresp="#reade_ch">Reade, C.</author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
@@ -26995,6 +26999,7 @@
                                 <monogr>
                                     <title>Proceedings</title>
                                     <author>Royal Colonial Institute</author>
+                                    <!-- LCNAF found, but not sure how to add entry for an organizaton. -->
                                     <note type="description">2 duplicates</note>
                                     <imprint>
                                         <date from="1884" to="1892"/>
@@ -27048,7 +27053,7 @@
                                 <monogr>
                                     <title><foreign xml:lang="la">Musarum Deliciae</foreign>, or the
                                         Muses Recreation, Wit's Recreations, etc.</title>
-                                    <author>Mennis, Sir J.</author>
+                                    <author corresp="#mennes">Mennis, Sir J.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -27072,7 +27077,7 @@
                             <biblStruct corresp="#owned" xml:id="sb682.1">
                                 <monogr>
                                     <title>Ethics of the Dust</title>
-                                    <author>Ruskin, John</author>
+                                    <author corresp="#ruskin">Ruskin, John</author>
                                     <note type="description" corresp="#presentation">original cloth, presentation copy from
                                         the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, with the old
@@ -27093,7 +27098,7 @@
                             <biblStruct corresp="#owned" xml:id="sb683.1">
                                 <monogr>
                                     <title>Modern Painters, with Index, etc.</title>
-                                    <author>Ruskin, J.</author>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
                                     <note type="description">illustrations, wanting vol. I</note>
                                     <imprint>
                                         <date when="1896"/>
@@ -27120,7 +27125,7 @@
                             <biblStruct corresp="#owned" xml:id="sb683.2">
                                 <monogr>
                                     <title>Stones of Venice</title>
-                                    <author>Ruskin, J.</author>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
                                     <note type="description">illustrations by the author</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -27140,7 +27145,7 @@
                             <biblStruct corresp="#owned" xml:id="sb683.3">
                                 <monogr>
                                     <title>Notes on Pictures</title>
-                                    <author>Ruskin, J.</author>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">and others by the same Author<num value="20"
                                         /></note>
@@ -27162,7 +27167,7 @@
                                 <monogr>
                                     <title>Rossetti: Preraphaelitism Papers, 1854 to 1862, arranged
                                         and edited by W. M. Rossetti</title>
-                                    <author>Ruskin</author>
+                                    <author corresp="#ruskin">Ruskin</author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         cloth gilt, presentation copy with autograph
                                         incsription</note>
@@ -27182,7 +27187,7 @@
                                 <monogr>
                                     <title xml:lang="it">Ricordi e Scritti, publicati per eura del
                                         Municipio di Forli</title>
-                                    <author>Saffi, Aurelio</author>
+                                    <author corresp="#saffi">Saffi, Aurelio</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, a token
@@ -27232,7 +27237,7 @@
                             <biblStruct corresp="#owned" xml:id="sb686.1">
                                 <monogr>
                                     <title>The Hats of Humanity, a Homily</title>
-                                    <author>Sala, G. A.</author>
+                                    <author corresp="#sala">Sala, G. A.</author>
                                     <note type="description">coloured illustrations</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -27243,7 +27248,7 @@
                             <biblStruct corresp="#owned" xml:id="sb686.2">
                                 <monogr>
                                     <title>Orion, an Epic Poem</title>
-                                    <author>Horne, R. H.</author>
+                                    <author corresp="#horne">Horne, R. H.</author>
                                     <note type="description">calf, gilt edges</note>
                                     <imprint>
                                         <date when="1843"/>
@@ -27273,7 +27278,7 @@
                             <biblStruct corresp="#owned" xml:id="sb687.1">
                                 <monogr>
                                     <title>Ballads of Down</title>
-                                    <author>Savage-Armstrong, G. F.</author>
+                                    <author corresp="#savage-armstrong">Savage-Armstrong, G. F.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with autograph inscription</note>
                                     <note type="inscription">To the only English poet now living,
@@ -27290,6 +27295,7 @@
                                 <monogr>
                                     <title>The Islander's, a Poem</title>
                                     <author>Kane, E.</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="etc" corresp="#presentation">and others, all
@@ -27306,7 +27312,7 @@
                             <biblStruct corresp="#owned" xml:id="sb688.1">
                                 <monogr>
                                     <title>Year of the World</title>
-                                    <author>Scott, Wm. Bell</author>
+                                    <author corresp="#scott_wi">Scott, Wm. Bell</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne with the author's
@@ -27320,7 +27326,7 @@
                             </biblStruct>
                             <bibl xml:id="sb688.2">
                                 <title>Poems</title>
-                                <author>Scott, Wm. Bell</author>
+                                <author corresp="#scott_wi">Scott, Wm. Bell</author>
                                 <date when="1854"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/njp.32101065762401"/>
@@ -27329,7 +27335,7 @@
                                 <monogr>
                                     <title>History and Practice of the Fine and Ornamental
                                         Arts</title>
-                                    <author>Scott, Wm. Bell</author>
+                                    <author corresp="#scott_wi">Scott, Wm. Bell</author>
                                     <note type="description">50 illustrations by W. J. Linton</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -27347,7 +27353,7 @@
                                 <monogr>
                                     <title>Autobiographical Notes of his Life, and Notices of his
                                         Artistic and Poetic Circle of Friends, 1830 to 1882</title>
-                                    <author>Scott Wm. B.</author>
+                                    <author corresp="#scott_wi">Scott Wm. B.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Minto</name>
@@ -27371,7 +27377,7 @@
                             <biblStruct corresp="#owned" xml:id="sb690.1">
                                 <monogr>
                                     <title>Minstrelsy of the Scottish Border</title>
-                                    <author>Scott, Sir Walter</author>
+                                    <author corresp="#scott_wa">Scott, Sir Walter</author>
                                     <note type="description">half russia</note>
                                     <imprint>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
@@ -27391,7 +27397,7 @@
                             <biblStruct corresp="#owned" xml:id="sb690.2">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Browning, Robt.</author>
+                                    <author corresp="#browning_r">Browning, Robt.</author>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
@@ -27413,7 +27419,7 @@
                             <biblStruct corresp="#owned" xml:id="sb691.1">
                                 <monogr>
                                     <title>Lady of the Lake</title>
-                                    <author>Scott, Sir Walter</author>
+                                    <author corresp="#scott_wa">Scott, Sir Walter</author>
                                     <note type="description">illustrations by Birket Foster and J.
                                         Gilbert, green morocco gilt, tooled borders, gilt edges,
                                         with inscription</note>
@@ -27436,7 +27442,7 @@
                             <biblStruct corresp="#owned" xml:id="sb692.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">Scott, Sir W.</author>
                                     <note type="description">frontispiece, etc. after J. M. W.
                                         Turner, etc. polished calf gilt, marbled edges</note>
                                     <imprint>
@@ -27478,7 +27484,7 @@
                                 <monogr>
                                     <title>Waverly Novels, with Introductory Essays and Notes by
                                         Andrew Lang</title>
-                                    <author>Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">Scott, Sir W.</author>
                                     <note type="description">illustrations, red cloth, top edge
                                         gilt</note>
                                     <edition>Border Edition</edition>
@@ -27621,7 +27627,7 @@
                             <biblStruct corresp="#owned" xml:id="sb695.2">
                                 <monogr>
                                     <title>Memoirs and Literary Remains of Lady Jane Grey</title>
-                                    <author>Nicolas, Sir H.</author>
+                                    <author corresp="#nicolas">Nicolas, Sir H.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1832"/>
@@ -27632,7 +27638,7 @@
                             <biblStruct corresp="#owned" xml:id="sb695.3">
                                 <monogr>
                                     <title>Essay on Sepulchres</title>
-                                    <author>Godwin, Wm.</author>
+                                    <author corresp="#godwin">Godwin, Wm.</author>
                                     <note type="description">frontispiece</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -27651,7 +27657,7 @@
                             <biblStruct corresp="#owned" xml:id="sb696.1">
                                 <monogr>
                                     <title>Tillers of the Sand</title>
-                                    <author>Seaman, Owen</author>
+                                    <author corresp="#seaman">Seaman, Owen</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1895"/>
@@ -27663,7 +27669,7 @@
                             <biblStruct corresp="#owned" xml:id="sb696.2">
                                 <monogr>
                                     <title>Borrowed Plumes</title>
-                                    <author>Seaman, Owen</author>
+                                    <author corresp="#seaman">Seaman, Owen</author>
                                     <note type="description">2 copies</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -27676,7 +27682,7 @@
                             <biblStruct corresp="#owned" xml:id="sb696.3">
                                 <monogr>
                                     <title>In Cap and Bells</title>
-                                    <author>Seaman, Owen</author>
+                                    <author corresp="#seaman">Seaman, Owen</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1905"/>
@@ -27689,7 +27695,7 @@
                             <biblStruct corresp="#owned" xml:id="sb696.4">
                                 <monogr>
                                     <title>Salvage</title>
-                                    <author>Seaman, Owen</author>
+                                    <author corresp="#seaman">Seaman, Owen</author>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
@@ -27729,7 +27735,7 @@
                             <biblStruct corresp="#owned" xml:id="sb698.1">
                                 <monogr>
                                     <title>Dramatick Works</title>
-                                    <author>Shadwell, Thos.</author>
+                                    <author corresp="#shadwell">Shadwell, Thos.</author>
                                     <note type="description">portrait by Gribelin, calf gilt, yellow
                                         edges</note>
                                     <imprint>
@@ -27749,7 +27755,7 @@
                                         number printed in Quarto during his Lifetime, or before the
                                         Restoration, published from the Originals by George
                                         Steevens</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">calf gilt, yellow edges</note>
                                     <imprint>
                                         <date when="1766"/>
@@ -27774,7 +27780,7 @@
                                     <title>Supplement to the Edition of Shakespeare's Plays,
                                         published in 1778, by Johnson and Steevens, with Notes,
                                         etc.</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">frontispiece, old calf</note>
                                     <imprint>
                                         <date when="1780"/>
@@ -27791,7 +27797,7 @@
                                 <monogr>
                                     <title>Genuine Remains in Verse and Prose, with Notes by R.
                                         Thyer</title>
-                                    <author>Bulter, S.</author>
+                                    <author corresp="#butler">Bulter, S.</author>
                                     <note type="description">old calf</note>
                                     <imprint>
                                         <date when="1759"/>
@@ -27808,13 +27814,13 @@
                             <biblStruct corresp="#owned" xml:id="sb700.3">
                                 <monogr>
                                     <title>The Microcosm</title>
-                                    <author>Griffin, G.</author>
+                                    <author corresp="#griffin">Griffin, G.</author>
                                     <note type="description">calf gilt</note>
                                     <note type="etc">
                                         <num value="14"/>
                                     </note>
                                     <imprint>
-                                        <pubPlace>Windsor</pubPlace>
+                                        <pubPlace ref="#windsor">Windsor</pubPlace>
                                         <date when="1787"/>
                                     </imprint>
                                 </monogr>
@@ -27827,7 +27833,7 @@
                             <biblStruct corresp="#owned" xml:id="sb701.1">
                                 <monogr>
                                     <title>Romeo and Juliet</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. H. Furness</name>
@@ -27835,7 +27841,7 @@
                                     <note type="description">brown cloth, royal 8vo.</note>
                                     <edition>New Variorum Edition</edition>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -27850,7 +27856,7 @@
                                 <monogr>
                                     <title>Titus Andronicus, facsimile of First Quarto by C.
                                         Praetorius, with Introduction by Arthur Symons</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description" corresp="#presentation">half roan,
                                         presentation copy to Swinburne, with autograph
                                         inscription</note>
@@ -27872,7 +27878,7 @@
                             <biblStruct corresp="#owned" xml:id="sb703.1">
                                 <monogr>
                                     <title>Merchant of Venice</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. H. Furness</name>
@@ -27880,7 +27886,7 @@
                                     <note type="description">brown cloth, royal 8vo.</note>
                                     <edition>New Variorum Edition</edition>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
@@ -27892,7 +27898,7 @@
                             <biblStruct corresp="#owned" xml:id="sb704.1">
                                 <monogr>
                                     <title>As You Like It</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. H. Furness</name>
@@ -27905,7 +27911,7 @@
                                         1890</date></note>
                                     <edition>Variorum Edition</edition>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -27917,7 +27923,7 @@
                             <biblStruct corresp="#owned" xml:id="sb705.1">
                                 <monogr>
                                     <title>Hamlet, with Appendix</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. H. Furness</name>
@@ -27925,7 +27931,7 @@
                                     <note type="description">brown cloth, royal 8vo.</note>
                                     <edition>New Variorum Edition</edition>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                     <extent>
@@ -27944,10 +27950,11 @@
                             <biblStruct corresp="#owned" xml:id="sb706.1">
                                 <monogr>
                                     <title>Hamlet, reprint of First Edition</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <publisher>Shakespeare Press</publisher>
+                                        <!-- Two LCNAF entries found, one in Stratford-Upon-Avon, the other in New York. -->
                                         <date when="1825"/>
                                     </imprint>
                                 </monogr>
@@ -27957,7 +27964,7 @@
                             <biblStruct corresp="#owned" xml:id="sb706.2">
                                 <monogr>
                                     <title>Demetrius and Enanthe</title>
-                                    <author>Fletcher, J.</author>
+                                    <author corresp="#fletcher">Fletcher, J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Alex. Dyce</name>
@@ -27973,7 +27980,7 @@
                             <biblStruct corresp="#owned" xml:id="sb706.3">
                                 <monogr>
                                     <title>Life and Death of the Merry Deuill of Edmonton</title>
-                                    <author>Brewer, Thos.</author>
+                                    <author corresp="#brewer">Brewer, Thos.</author>
                                     <note type="description">woodcut on the title, half bound</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -27990,7 +27997,7 @@
                             <biblStruct corresp="#owned" xml:id="sb707.1">
                                 <monogr>
                                     <title>Tragedie of Antonie and Cleopatra</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. H. Furness</name>
@@ -28002,7 +28009,7 @@
                                             1907</date></note>
                                     <edition>Variorum Edition</edition>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -28016,7 +28023,7 @@
                                 <monogr>
                                     <title>Plays, with Prefaces, Glossary, etc. by I.
                                         Gollanez</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">only, frontispieces, morocco, top edge
                                         gilt, etc.</note>
                                     <edition>“Temple Edition”</edition>
@@ -28034,7 +28041,7 @@
                             <biblStruct corresp="#owned" xml:id="sb709.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">illustrations, russia gilt, marbled
                                         edges, binding of some vol. broken, royal 8vo.</note>
                                     <edition>“Knight's Pictoral Edition”</edition>
@@ -28069,7 +28076,7 @@
                             <biblStruct corresp="#owned" xml:id="sb710.1">
                                 <monogr>
                                     <title>Works, the Text revised by Alex. Dyce</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1875"/>
@@ -28103,7 +28110,7 @@
                                 <monogr>
                                     <title>Sonnets never before interpreted, etc. by Gerald
                                         Massey</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1866"/>
@@ -28116,7 +28123,7 @@
                                 <monogr>
                                     <title>Poems, edited, with Introduction and Notes, by George
                                         Wyndham</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -28129,7 +28136,7 @@
                                 <monogr>
                                     <title>Shakespeare Apocrypha, edited, with Notes, etc. by C. F.
                                         Tucker Brooke</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
@@ -28146,7 +28153,7 @@
                             <biblStruct corresp="#owned" xml:id="sb712.1">
                                 <monogr>
                                     <title>Sonnets</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Edward Dowden</name>
@@ -28163,7 +28170,7 @@
                             <biblStruct corresp="#owned" xml:id="sb712.2">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Carew, Thos.</author>
+                                    <author corresp="#carew">Carew, Thos.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Arthur Vincent</name>
@@ -28180,7 +28187,7 @@
                             <biblStruct corresp="#owned" xml:id="sb712.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Tennyson, A.</author>
+                                    <author corresp="#tennyson">Tennyson, A.</author>
                                     <note type="description" corresp="#presentation">morocco gilt,
                                         gilt edges, presentation copy to Swinburne from his tutor,
                                         with inscription, dated Eton, Easter, <date when="1850"
@@ -28204,10 +28211,10 @@
                                         Dramas, now first collected and printed from the early
                                         editionsm with introductory Notices by J. Payne
                                         Collier</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">half mococco, top edge gilt</note>
                                     <imprint>
-                                        <publisher>T. Rodd</publisher>
+                                        <publisher corresp="#rodd_t">T. Rodd</publisher>
                                         <date when="1843"/>
                                     </imprint>
                                     <extent>
@@ -28225,7 +28232,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Complètes, F. Victor Hugo
                                         traducteur</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="inscription" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -28277,7 +28284,7 @@
                             <bibl xml:id="sb714.2">
                                 <title xml:lang="fr">Lettres à M. Panizzi, 1850-1870, publiées par
                                     Louis Fagan</title>
-                                <author>Mérimée, P.</author>
+                                <author corresp="#mérimée">Mérimée, P.</author>
                                 <note type="description" corresp="#uncut">portrait, uncut, etc. a
                                     parcel</note>
                                 <extent>
@@ -28292,6 +28299,7 @@
                         <listBibl type="lot" xml:id="sb715">
                             <bibl xml:id="sb715.1">
                                 <author>Shakespeare Society Publications</author>
+                                <!-- Two possible LCNAFs, see entry above. -->
                                 <date>various years</date>
                                 <extent><measure unit="volumes" quantity="39"/>various</extent>
                                 <note resp="#jawalsh">Not possible to determine the identity of
@@ -28302,7 +28310,7 @@
                             <biblStruct corresp="#owned" xml:id="sb716.1">
                                 <monogr>
                                     <title>A Ballad Book</title>
-                                    <author>Sharpe, C. Kirkpatrick</author>
+                                    <author corresp="#sharpe">Sharpe, C. Kirkpatrick</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">David Laing</name>
@@ -28320,7 +28328,7 @@
                                 <monogr>
                                     <title>Aurora Leigh, edited, with Prefatory Note, by A. C.
                                         Swinburne</title>
-                                    <author>Browning, E. B.</author>
+                                    <author corresp="#browning_e">Browning, E. B.</author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -28334,7 +28342,7 @@
                             <biblStruct corresp="#owned" xml:id="sb717.1">
                                 <monogr>
                                     <title>Miscellaneous and Posthumous Poems</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description">russia, marbled edges, binding
                                         broken</note>
                                     <imprint>
@@ -28349,7 +28357,8 @@
                                     <title>Memoir of Percy Bysshe Shelley by T. Medwin, and Original
                                         Poems and Papers by Percy Bysshe Shelley, now first
                                         collected</title>
-                                    <author>Shelley Papers, The</author>
+                                    <author corresp="#shelley_p">Shelley Papers, The</author>
+                                    <!-- Not sure if this is the correct association. -->
                                     <note type="description">half roan</note>
                                     <imprint>
                                         <date when="1833"/>
@@ -28363,7 +28372,7 @@
                             <biblStruct corresp="#owned" xml:id="sb718.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Mrs. Shelley</name>
@@ -28373,7 +28382,7 @@
                                         Mansell</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>Moxon</publisher>
+                                        <publisher corresp="#moxon">Moxon</publisher>
                                         <date when="1839"/>
                                     </imprint>
                                     <extent>
@@ -28395,7 +28404,7 @@
                                 <monogr>
                                     <title>Poetical Works, edited, with Notes and Memoir, by W. M.
                                         Rossetti</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1870"/>
@@ -28427,7 +28436,7 @@
                             <biblStruct corresp="#owned" xml:id="sb719.3">
                                 <monogr>
                                     <title>Relics of Shelley</title>
-                                    <author>Garnett, Ricd.</author>
+                                    <author corresp="#garnett">Garnett, Ricd.</author>
                                     <note type="description">2 copies</note>
                                     <imprint>
                                         <date when="1862"/>
@@ -28441,7 +28450,7 @@
                             <biblStruct corresp="#owned" xml:id="sb720.1">
                                 <monogr>
                                     <title>Poetical and Prose Works</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. Buxton Forman</name>
@@ -28482,7 +28491,7 @@
                                 <monogr>
                                     <title>Essays, Letters from Abroad, Translations and
                                         Fragments</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Mrs. Shelley</name>
@@ -28490,7 +28499,7 @@
                                     <note type="description">red cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>Moxon</publisher>
+                                        <publisher corresp="#moxon">Moxon</publisher>
                                         <date when="1840"/>
                                     </imprint>
                                     <extent>
@@ -28508,14 +28517,14 @@
                                 <monogr>
                                     <title>Alastor, of the Spirit of Solitude, and other
                                         Poems</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">B. Dobell</name>
                                     </respStmt>
                                     <note type="description">one of 300 copies</note>
                                     <imprint>
-                                        <publisher>Shelley Society</publisher>
+                                        <publisher corresp="#shelley_society">Shelley Society</publisher>
                                         <date when="1886"/>
                                     </imprint>
                                 </monogr>
