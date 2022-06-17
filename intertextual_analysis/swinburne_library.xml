@@ -1970,6 +1970,12 @@
                         <birth when="1818"/>
                         <death when="1894"/>
                     </person>
+                    <person xml:id="fust">
+                        <persName source="http://id.loc.gov/authorities/names/n88297844">Fust, 
+                            Johannes, 1400-1466</persName>
+                        <birth when="1400"/>
+                        <death when="1466"/>
+                    </person>
                     <person xml:id="galimberti_schanzer">
                         <persName source="http://id.loc.gov/authorities/names/no2009149484"
                             >Galimberti Schanzer, Alice, 1873-1936</persName>
@@ -4598,6 +4604,12 @@
                             William, 1770-1850</persName>
                         <birth when="1770"/>
                         <death when="1850"/>
+                    </person>
+                    <person xml:id="wordsworth_c">
+                        <persName source="http://id.loc.gov/authorities/names/n88175415">Wordsworth, 
+                            Christopher, 1807-1885</persName>
+                        <birth when="1807"/>
+                        <death when="1885"/>
                     </person>
                     <person xml:id="worsley">
                         <persName source="http://id.loc.gov/authorities/names/n2001060935">Worsley,
@@ -30102,8 +30114,7 @@
                                     <imprint>
                                         <publisher>Printed by J. Andrews</publisher>
                                         <!-- No LCNAF found. -->
-                                        <pubPlace>Clements Lane, E.C.</pubPlace>
-                                        <!-- Probably in London, not sure how to associate. -->
+                                        <pubPlace ref="#london">Clements Lane, E.C.</pubPlace>
                                         <date>n.d. [c. 1866]</date>
                                     </imprint>
                                 </monogr>
@@ -31818,12 +31829,12 @@
                                 <monogr>
                                     <title xml:lang="it">Vite de piu Eccellenti Architetti, Pittori
                                         et Scultori Italiani</title>
-                                    <author>Vasari, G.</author>
+                                    <author corresp="#vasari">Vasari, G.</author>
                                     <note type="description">olf calf gilt, gilt edges, binding of
                                         vol. I broken, small hole in pp. 521-522</note>
                                     <edition corresp="#first_ed">Edizione Prima</edition>
                                     <imprint>
-                                        <publisher>Torrentino</publisher>
+                                        <publisher corresp="#torrentino">Torrentino</publisher>
                                         <pubPlace ref="#florence">Fiorenza</pubPlace>
                                         <date when="1550"/>
                                     </imprint>
@@ -31843,7 +31854,7 @@
                                 <monogr>
                                     <title>Works in Verse and Prose, Complete, collected and edited
                                         with Notes, etc. by A. B. Grosart</title>
-                                    <author>Vaughan, Henry</author>
+                                    <author corresp="#vaughan">Vaughan, Henry</author>
                                     <note type="description" corresp="#uncut">large paper, one of
                                         106 copies, facsimiles, uncut, printed for private
                                         circulation</note>
@@ -31869,7 +31880,7 @@
                             <biblStruct corresp="#owned" xml:id="sb832.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Cygnes (Poésies 1885-1886)</title>
-                                    <author>Vielé-Griffin, Francis</author>
+                                    <author corresp="#vielé-griffin">Vielé-Griffin, Francis</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription" xml:lang="fr">À Algernon Charles
@@ -31888,7 +31899,7 @@
                             <biblStruct corresp="#owned" xml:id="sb833.1">
                                 <monogr>
                                     <title xml:lang="it">Mémorie de Oliverio scritte da lui</title>
-                                    <author>Villari, L. A.</author>
+                                    <author corresp="#villari">Villari, L. A.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with inscription</note>
                                     <note type="etc">and another, with signature of Swinburne on
@@ -31907,11 +31918,11 @@
                                 <monogr>
                                     <title>Poems, done into English Verse, with Critical
                                         Introduction by John Payne</title>
-                                    <author>Villon, F.</author>
+                                    <author corresp="#villon">Villon, F.</author>
                                     <note type="description" corresp="#uncut">frontispiece and
                                         facsimiles, uncut</note>
                                     <imprint>
-                                        <pubPlace>Portland, Maine</pubPlace>
+                                        <pubPlace ref="#portland">Portland, Maine</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -31923,11 +31934,11 @@
                             <biblStruct corresp="#owned" xml:id="sb835.1d">
                                 <monogr>
                                     <title>Opera</title>
-                                    <author>Virgilius</author>
+                                    <author corresp="#virgil">Virgilius</author>
                                     <note type="description">ruled in red, old English red morocco,
                                         gilt ornaments on sides, gilt edges</note>
                                     <imprint>
-                                        <publisher>Aldus</publisher>
+                                        <publisher corresp="#manuzio">Aldus</publisher>
                                         <pubPlace ref="#venice">Venet.</pubPlace>
                                         <date when="1541"/>
                                     </imprint>
@@ -31941,7 +31952,7 @@
                             <biblStruct corresp="#owned" xml:id="sb836.1">
                                 <monogr>
                                     <title>Opera, edidit J. A. Amar</title>
-                                    <author>Virgilius</author>
+                                    <author corresp="#virgil">Virgilius</author>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1826"/>
@@ -31956,7 +31967,7 @@
                                 <monogr>
                                     <title xml:lang="la">Comoediae Sex, cura et studio J. A.
                                         Amar</title>
-                                    <author>Terentius</author>
+                                    <author corresp="#terence">Terentius</author>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1823"/>
@@ -32018,7 +32029,7 @@
                                 <monogr>
                                     <title>Northumberland Words, Glossary of Words used in the
                                         Country of Northumberland and on the Tyneside</title>
-                                    <author>Heslop, R. O.</author>
+                                    <author corresp="#haldane">Heslop, R. O.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -32040,7 +32051,7 @@
                             <biblStruct corresp="#owned" xml:id="sb838.1">
                                 <monogr>
                                     <title>Evocations</title>
-                                    <author>Vivien, R.</author>
+                                    <author corresp="#vivien'">Vivien, R.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription">To Swinburne who saw the Lesbian
@@ -32074,11 +32085,11 @@
                                 <monogr>
                                     <title>Lettres, Écrites de Loudres sur les Anglois et autres
                                         sujets</title>
-                                    <author>Voltaire, M. de</author>
+                                    <author corresp="#voltaire">Voltaire, M. de</author>
                                     <note type="description"/>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Basle (Lond.)</pubPlace>
+                                        <pubPlace ref="#london">Basle (Lond.)</pubPlace>
                                         <date when="1734"/>
                                     </imprint>
                                 </monogr>
@@ -32089,7 +32100,7 @@
                                 <monogr>
                                     <title>Essay upon the Civil Wars of France and Epick Poetry of
                                         the European Nations</title>
-                                    <author>Voltaire, M. de</author>
+                                    <author corresp="#voltaire">Voltaire, M. de</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1727"/>
@@ -32101,7 +32112,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Le Brutus avec un Discours sur la
                                         Tragédie</title>
-                                    <author>Voltaire, M. de</author>
+                                    <author corresp="#voltaire">Voltaire, M. de</author>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1731"/>
@@ -32113,7 +32124,7 @@
                             <biblStruct corresp="#owned" xml:id="sb839.4">
                                 <monogr>
                                     <title xml:lang="fr">Le Temple du Goût</title>
-                                    <author>Voltaire, M. de</author>
+                                    <author corresp="#voltaire">Voltaire, M. de</author>
                                     <note type="description">in 1 vol. old calf, broken</note>
                                     <imprint>
                                         <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
@@ -32128,7 +32139,7 @@
                                 <monogr>
                                     <title>Historical and Critical Memoirs of his Life and Writings,
                                         from the French of Dom Chaudon</title>
-                                    <author>Voltaire</author>
+                                    <author corresp="#voltaire">Voltaire</author>
                                     <note type="description">calf, signature “Shirley Brooks, <date
                                             when="1862-11-11">11th Novr. 1862</date>” on the
                                         title</note>
@@ -32144,7 +32155,7 @@
                                 <monogr>
                                     <title>Quarrel of the School-Boys at Athens, as lately acted at
                                         a School near Westminster</title>
-                                    <author>Defoe, Daniel</author><!-- corrected from "Voltaire", alewinga -->
+                                    <author corresp="#defoe">Defoe, Daniel</author><!-- corrected from "Voltaire", alewinga -->
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date when="1717"/>
@@ -32156,7 +32167,7 @@
                             <biblStruct corresp="#owned" xml:id="sb840.3">
                                 <monogr>
                                     <title>Epics of the Ton</title>
-                                    <author>Voltaire</author>
+                                    <author corresp="#voltaire">Voltaire</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date when="1807"/>
@@ -32170,7 +32181,7 @@
                             <biblStruct corresp="#owned" xml:id="sb841.1">
                                 <monogr>
                                     <title>A Century of Sonnets</title>
-                                    <author>Waddington, Saml.</author>
+                                    <author corresp="#waddington">Waddington, Saml.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne from the author with autograph
                                         inscription</note>
@@ -32190,7 +32201,7 @@
                             <biblStruct corresp="#owned" xml:id="sb842.1">
                                 <monogr>
                                     <title>Epigrams of Art, Life and Nature</title>
-                                    <author>Watson, Wm.</author>
+                                    <author corresp="#watson">Watson, Wm.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, Esq.
@@ -32198,7 +32209,7 @@
                                             1884</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Liverpool</pubPlace>
+                                        <pubPlace ref="#liverpool">Liverpool</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -32210,7 +32221,7 @@
                             <biblStruct corresp="#owned" xml:id="sb843.1">
                                 <monogr>
                                     <title>Aylwin</title>
-                                    <author>Watts-Dunton, T.</author>
+                                    <author corresp="#watts-dunton">Watts-Dunton, T.</author>
                                     <note type="description">2 copies</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -32222,7 +32233,7 @@
                             <biblStruct corresp="#owned" xml:id="sb843.2">
                                 <monogr>
                                     <title>Story of the Treasure Seekers</title>
-                                    <author>Nesbit, E.</author>
+                                    <author corresp="#nesbit">Nesbit, E.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -32233,7 +32244,7 @@
                             </biblStruct>
                             <bibl xml:id="sb843.3">
                                 <title>Isles of Sunset</title>
-                                <author>Benson, A. C.</author>
+                                <author corresp="#benson_a">Benson, A. C.</author>
                                 <date when="1904"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.$b682943"/>
@@ -32242,7 +32253,7 @@
                             <biblStruct corresp="#owned" xml:id="sb843.4">
                                 <monogr>
                                     <title>Dariel</title>
-                                    <author>Blackmore, R. D.</author>
+                                    <author corresp="#blackmore">Blackmore, R. D.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">and other Novels<num value="20"/></note>
                                     <imprint>
@@ -32257,7 +32268,7 @@
                             <biblStruct corresp="#owned" xml:id="sb844.1">
                                 <monogr>
                                     <title>Christmas at the Mermaid</title>
-                                    <author>Watts-Dunton, T.</author>
+                                    <author corresp="#watts-dunton">Watts-Dunton, T.</author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >illustrations by Herbert Cole, morocco, uncut, top edge
                                         gilt, presentation copy from the author to Swinburne with
@@ -32279,7 +32290,7 @@
                             <biblStruct corresp="#owned" xml:id="sb845.1">
                                 <monogr>
                                     <title>Dramatic Works</title>
-                                    <author>Webster, John</author>
+                                    <author corresp="#webster_j">Webster, John</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">William Hazlitt</name>
@@ -32305,7 +32316,7 @@
                                 <monogr>
                                     <title>Works, with Notes and some Account of his life and
                                         Writings, by J. O. Halliwell</title>
-                                    <author>Marston, John</author>
+                                    <author corresp="#marston_j">Marston, John</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -32329,12 +32340,12 @@
                             <biblStruct corresp="#owned" xml:id="sb846.1">
                                 <monogr>
                                     <title>Astronomy and General Physics</title>
-                                    <author>Whewell, Wm.</author>
+                                    <author corresp="#whewell">Whewell, Wm.</author>
                                     <note type="description">morocco gilt, gilt edges; a Prize
                                         awarded to Swinburne when at Eton, from C. O. Goodford,
                                         dated 1853</note>
                                     <imprint>
-                                        <publisher>Pickering</publisher>
+                                        <publisher corresp="#pickering">Pickering</publisher>
                                         <date when="1847"/>
                                     </imprint>
                                 </monogr>
@@ -32347,14 +32358,14 @@
                             <biblStruct corresp="#owned" xml:id="sb847.1">
                                 <monogr>
                                     <title>Leaves of Grass; Drum Taps</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description" corresp="#presentation">half bound,
                                         marbled edges, presentation copy to Swinburne with autograph
                                         inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne from Walt
                                         Whitman</note>
                                     <imprint>
-                                        <pubPlace>New York</pubPlace>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date from="1865" to="1867">1867, 1865</date>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/>in 1 vol.</extent>
@@ -32374,7 +32385,7 @@
                                 <monogr>
                                     <title>Poems, selected and edited by Wm. Michael
                                         Rossetti</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description">portrait, original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -32392,7 +32403,7 @@
                                         Invitation of Managers American Institute on opening their
                                         40th Annual Exhibition, New York, noon September 7,
                                         1871</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with autograph inscription on half-title</note>
                                     <note type="inscription">To Alg. Chs. Swinburne from the
@@ -32411,7 +32422,7 @@
                             <biblStruct corresp="#owned" xml:id="sb851.1">
                                 <monogr>
                                     <title>Democratic Vistas</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         wrappers, uncut, presentation copy with autograph
                                         inscription</note>
@@ -32419,7 +32430,7 @@
                                             <date when="1871-11">Nov. 1871</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <pubPlace>Washington, D. C.</pubPlace>
+                                        <pubPlace ref="#washington">Washington, D. C.</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -32431,7 +32442,7 @@
                             <biblStruct corresp="#owned" xml:id="sb852.1">
                                 <monogr>
                                     <title>Leaves of Grass</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description" corresp="#uncut #presentation">portrait
                                         inserted, uncut, presentation copy from the author, with
                                         autograph inscription</note>
@@ -32439,7 +32450,7 @@
                                         Whitman, Washington, U.S. <date when="1871-11">November,
                                             1871</date></note>
                                     <imprint>
-                                        <pubPlace>Washington, D. C.</pubPlace>
+                                        <pubPlace ref="#washington">Washington, D. C.</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -32452,7 +32463,7 @@
                             <biblStruct corresp="#owned" xml:id="sb853.1">
                                 <monogr>
                                     <title>Leaves of Grass</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author with autograph inscription, and
                                         portrait and photograph of the author inserted, one with his
@@ -32472,11 +32483,11 @@
                             <biblStruct corresp="#owned" xml:id="sb854.1">
                                 <monogr>
                                     <title>As a Strong Bird on Pinions Free, and other Poems</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description">original cloth, with the
                                         advertisements</note>
                                     <imprint>
-                                        <pubPlace>Washington</pubPlace>
+                                        <pubPlace ref="#washington">Washington</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                 </monogr>
@@ -32489,7 +32500,7 @@
                             <biblStruct corresp="#owned" xml:id="sb855.1">
                                 <monogr>
                                     <title>Gems from Walt Whitman</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <respStmt>
                                         <resp>selected by</resp>
                                         <name full="yes">Elizabeth Porter Gould</name>
@@ -32500,7 +32511,7 @@
                                         compliments of Elizabeth Porter Gould, Botson,
                                         Massachusettes, U.S.A.</note>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -32512,13 +32523,13 @@
                             <biblStruct corresp="#owned" xml:id="sb856.1">
                                 <monogr>
                                     <title>Gems from: selected by Elizabeth Porter Gould</title>
-                                    <author>Whitman, W.</author>
+                                    <author corresp="#whitman">Whitman, W.</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription of E. P. Gould
                                         and MS. poem sent to the dinner given in honour of Walt
                                         Whitman's seventieth birthday, oblong.</note>
                                     <imprint>
-                                        <pubPlace>Philadelphia</pubPlace>
+                                        <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -32531,7 +32542,7 @@
                             <biblStruct corresp="#owned" xml:id="sb857.1">
                                 <monogr>
                                     <title>Intentions</title>
-                                    <author>Wilde, Oscar</author>
+                                    <author corresp="#wilde">Wilde, Oscar</author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         cloth, uncut, presentation copy with autograph
                                         inscription</note>
@@ -32552,7 +32563,7 @@
                                 <monogr>
                                     <title>Bibliography of the Writings of Alfred Lord
                                         Tennyson</title>
-                                    <author>Wise, T. J.</author>
+                                    <author corresp="#wise">Wise, T. J.</author>
                                     <note type="description" corresp="#uncut #presentation">only 100
                                         copies printed, portrait and facsimiles on Japanese paper,
                                         green cloth, uncut, presentation copy from the author with
@@ -32577,7 +32588,7 @@
                             <biblStruct corresp="#owned" xml:id="sb859.1">
                                 <monogr>
                                     <title>Dante Rossetti and the Pre-Raphaelite Movement</title>
-                                    <author>Wood, Esther</author>
+                                    <author corresp="#wood">Wood, Esther</author>
                                     <note type="description" corresp="#uncut #presentation">portrait
                                         and plates, half vellum, uncut, top edge gilt, presentation
                                         copy with inscription on fly-leaf</note>
@@ -32595,7 +32606,7 @@
                             <biblStruct corresp="#owned" xml:id="sb860.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Wordsworth, Wm.</author>
+                                    <author corresp="#wordsworth">Wordsworth, Wm.</author>
                                     <note type="description">old half russia, marbled edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -32609,7 +32620,7 @@
                             </biblStruct>
                             <bibl xml:id="sb860.2">
                                 <title>The Recluse</title>
-                                <author>Wordsworth, Wm.</author>
+                                <author corresp="#wordsworth">Wordsworth, Wm.</author>
                                 <date when="1888"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015063911559"/>
@@ -32619,7 +32630,7 @@
                             <biblStruct corresp="#owned" xml:id="sb861.1">
                                 <monogr>
                                     <title>Poems, including Lyrical Ballads</title>
-                                    <author>Wordsworth, Wm.</author>
+                                    <author corresp="#wordsworth">Wordsworth, Wm.</author>
                                     <note type="description">frontispiece, calf</note>
                                     <imprint>
                                         <date when="1815"/>
@@ -32636,7 +32647,7 @@
                             <biblStruct corresp="#owned" xml:id="sb861.2">
                                 <monogr>
                                     <title>Poems, another edition</title>
-                                    <author>Wordsworth, Wm.</author>
+                                    <author corresp="#wordsworth">Wordsworth, Wm.</author>
                                     <note type="description">portrait and vignette, red morocco
                                         gilt, gilt edges</note>
                                     <note type="etc">
@@ -32654,7 +32665,7 @@
                             <biblStruct corresp="#owned" xml:id="sb862.1">
                                 <monogr>
                                     <title>The Prelude of Growth of a Poet's Mind</title>
-                                    <author>Wordsworth, Wm.</author>
+                                    <author corresp="#wordsworth">Wordsworth, Wm.</author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1850"/>
@@ -32666,7 +32677,7 @@
                             <biblStruct corresp="#owned" xml:id="sb862.2">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Hood, T.</author>
+                                    <author corresp="#hood">Hood, T.</author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
                                         <date when="1852"/>
@@ -32678,7 +32689,7 @@
                             <biblStruct corresp="#owned" xml:id="sb862.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author>Wotton, Sir H.</author>
+                                    <author corresp="#wotton">Wotton, Sir H.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Alex. Dyce</name>
@@ -32700,7 +32711,7 @@
                             <biblStruct corresp="#owned" xml:id="sb863.1">
                                 <monogr>
                                     <title>Greece, Pictorial, Descriptive and Historical</title>
-                                    <author>Wordswith, Chris.</author>
+                                    <author corresp="#wordsworth_c">Wordswith, Chris.</author>
                                     <note type="description">illustrations, calf gilt, marbled
                                         edges</note>
                                     <imprint>
@@ -32714,7 +32725,7 @@
                                 <monogr>
                                     <title>Greece, Pictorial, Descriptive and Historical, another
                                         edition</title>
-                                    <author>Wordswith, Chris.</author>
+                                    <author corresp="#wordsworth_c">Wordswith, Chris.</author>
                                     <note type="description">illustrations, calf gilt, marbled
                                         edges, imperial 8vo.</note>
                                     <imprint>
@@ -32730,7 +32741,18 @@
                                 <monogr>
                                     <title>Dramatic Works, with Biographical and Critical Notices by
                                         Leigh Hunt</title>
-                                    <author>Wycherley, Congreve, Vanbrugh and Farquhar</author>
+                                    <author corresp="#wycherley">
+                                        <persName>Wycherley</persName>
+                                    </author>
+                                    <author corresp="#congreve">
+                                        <persName>Congreve</persName>
+                                    </author>
+                                    <author corresp="#vanbrugh">
+                                        <persName>Vanbrugh</persName>
+                                    </author>
+                                    <author corresp="#farquhar">
+                                        <persName>Farquhar</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1840"/>
@@ -32743,6 +32765,8 @@
                                 <monogr>
                                     <title>Works, with Memoir by Barry Cornwall</title>
                                     <author>Johnson, Ben</author>
+                                    <!-- Likely http://id.loc.gov/authorities/names/n2006020095,
+                                            but difficult to say for certain. -->
                                     <note type="description">portrait, half calf, top edge gilt,
                                         royal 8vo.</note>
                                     <imprint>
@@ -32758,7 +32782,7 @@
                             <biblStruct corresp="#owned" xml:id="sb865.1">
                                 <monogr>
                                     <title>A Lonely Little Lady</title>
-                                    <author>Wyllarde, Dolf</author>
+                                    <author corresp="#wyllarde">Wyllarde, Dolf</author>
                                     <note type="description">50 illustrations by Ida Lovering</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -32771,7 +32795,7 @@
                             <biblStruct corresp="#owned" xml:id="sb865.2">
                                 <monogr>
                                     <title>Sir Hudson Lowe and Napoleon</title>
-                                    <author>Seaton, R. C.</author>
+                                    <author corresp="#seaton">Seaton, R. C.</author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -32783,7 +32807,7 @@
                             <biblStruct corresp="#owned" xml:id="sb865.3">
                                 <monogr>
                                     <title>Pictures of Travel, and other Poems</title>
-                                    <author>Bell, Mackenzie</author>
+                                    <author corresp="#bell">Bell, Mackenzie</author>
                                     <note type="description" corresp="#presentation">portrait and
                                         illustrations, presentation copy with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with
@@ -32812,7 +32836,7 @@
                             </bibl>
                             <bibl xml:id="sb866.2">
                                 <title>Puppet-play, now first done into English</title>
-                                <author>Dr. Johannes Faustus</author>
+                                <author corresp="#fust">Dr. Johannes Faustus</author>
                                 <date when="1893"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.b4082872"/>
@@ -32820,7 +32844,7 @@
                             <biblStruct corresp="#owned" xml:id="sb866.3">
                                 <monogr>
                                     <title xml:lang="it">Per La Morte di Victor Hugo, Ode</title>
-                                    <author>Salvadori, G.</author>
+                                    <author corresp="#salvadori">Salvadori, G.</author>
                                     <note type="description">with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, I weep
                                         for Adonais—he is dead!</note>
@@ -32838,7 +32862,7 @@
                             <biblStruct corresp="#owned" xml:id="sb867.1">
                                 <monogr>
                                     <title>Undine, a Tragedy in Four Acts</title>
-                                    <author>Wynne, Whitworth</author>
+                                    <author corresp="#wynne">Wynne, Whitworth</author>
                                     <note type="description" corresp="#uncut #presentation">buckram,
                                         uncut, top edge gilt, presentation copy to Swinburne, with
                                         inscription and autograph letter enclosed</note>
@@ -32854,7 +32878,7 @@
                             <biblStruct corresp="#owned" xml:id="sb867.2">
                                 <monogr>
                                     <title>My Father as I recall him</title>
-                                    <author>Dickens, Mamie</author>
+                                    <author corresp="#dickens_m">Dickens, Mamie</author>
                                     <note type="description" corresp="#uncut">illustrations,
                                         buckram, uncut</note>
                                     <note type="etc">
@@ -32914,7 +32938,7 @@
                             <biblStruct corresp="#owned" xml:id="sb869.1">
                                 <monogr>
                                     <title>Poems from Victor Hugo</title>
-                                    <author>Young, Sir Geo.</author>
+                                    <author corresp="#young">Young, Sir Geo.</author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with author's inscription on
                                         title</note>
