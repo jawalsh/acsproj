@@ -3890,6 +3890,12 @@
                         <birth when="1860"/>
                         <death when="1932"/>
                     </person>
+                    <person xml:id="scott_l">
+                        <persName source="http://id.loc.gov/authorities/names/n79117171">Scott, 
+                            Leader, 1837-1902</persName>
+                        <birth when="1837"/>
+                        <death when="1902"/>
+                    </person>
                     <person xml:id="scott_r">
                         <persName source="http://id.loc.gov/authorities/names/n88642602">Scott,
                             Robert, 1811-1887</persName>
@@ -4750,6 +4756,14 @@
                         <orgName source="http://id.loc.gov/authorities/names/no96044617">Vale 
                             Press</orgName>
                     </org>
+                    <org xml:id="samurai_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n86080368">Samurai 
+                            Press</orgName>
+                    </org>
+                    <org xml:id="bodoni">
+                        <orgName source="http://id.loc.gov/authorities/names/n81038854">Officina 
+                            Bodoni</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -4931,7 +4945,11 @@
                             Giovanni Antonio de', active 1492-approximately 1511</persName>
                         <floruit from="1492" to="1511" cert="unknown"/>
                     </person>
-                    
+                    <person xml:id="cooke">
+                        <persName source="http://id.loc.gov/authorities/names/nr94015505">Cooke, 
+                            William, active 1632-1642</persName>
+                        <floruit from="1632" to="1642"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -32955,7 +32973,7 @@
                                 <monogr>
                                     <title>Downfall of Robert, Earl of Huntington, with Notes, etc.
                                         by J. Payne Collier</title>
-                                    <author>Munday, A.</author>
+                                    <author corresp="#munday">Munday, A.</author>
                                     <note type="description" corresp="#uncut">Swinburne's copy, with
                                         pencil note in his writings, uncut</note>
                                     <imprint>
@@ -32974,7 +32992,7 @@
                             <biblStruct corresp="#owned" xml:id="sb870.1">
                                 <monogr>
                                     <title>Women Novelists of Queen Victoria's Reign</title>
-                                    <author>Oliphant, Mrs., etc.</author>
+                                    <author corresp="#oliphant">Oliphant, Mrs., etc.</author>
                                     <note type="description">2 copies</note>
                                     <imprint>
                                         <date when="1897"/>
@@ -32986,7 +33004,7 @@
                             <biblStruct corresp="#owned" xml:id="sb870.2">
                                 <monogr>
                                     <title>My Devon Year</title>
-                                    <author>Phillpotts, Eden</author>
+                                    <author corresp="#phillpotts">Phillpotts, Eden</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -33005,7 +33023,7 @@
                                     <title>The XV Bookes of P. Ouidius Nas. entituled Metamorphosis,
                                         translated out of Latine into English Meeter by Arthur
                                         Golding</title>
-                                    <author>Ovid</author>
+                                    <author corresp="#ovid">Ovid</author>
                                     <note type="description">black letter, old vellum</note>
                                     <imprint>
                                         <date when="1603"/>
@@ -33020,7 +33038,7 @@
                                     <title>Heresiography, or a Description of the Heretickes and
                                         Sectaries sprung up in these later times</title>
                                     <idno type="tcp">A54528</idno>
-                                    <author>Pagitt, E.</author>
+                                    <author corresp="#pagitt">Pagitt, E.</author>
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date when="1654"/>
@@ -33038,12 +33056,13 @@
                                 <monogr>
                                     <title>Short and True Account of the Inquisition and its
                                         Proceedings</title>
-                                    <author>Piazza, H. B.</author>
+                                    <author corresp="#piazza">Piazza, H. B.</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date when="1722"/>
                                         <pubPlace ref="#london">Londres</pubPlace>
                                         <publisher>Guillaume Bowyer</publisher>
+                                        <!-- No LCNAF found. -->
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="google" target="https://books.google.com/books?id=u0VfAAAAcAAJ"/>
@@ -33053,7 +33072,7 @@
                             <biblStruct corresp="#owned" xml:id="sb873.1">
                                 <monogr>
                                     <title>Palace of Pleasure</title>
-                                    <author>Painter, Wm.</author>
+                                    <author corresp="#painter">Painter, Wm.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Joseph Jacobs</name>
@@ -33079,7 +33098,7 @@
                                 <monogr>
                                     <title>Diary and Correspondence, with Life and Notes, by Lord
                                         Braybrooke, and Additional Notes by Mynors Bright</title>
-                                    <author>Pepys, Saml.</author>
+                                    <author corresp="#pepys">Pepys, Saml.</author>
                                     <note type="description" corresp="#uncut">portraits, half roan,
                                         uncut</note>
                                     <imprint>
@@ -33177,7 +33196,6 @@
                             <biblStruct xml:id="sb877.1">
                                 <monogr>
                                 <title>Poast with a Pacquet of Letters</title>
-                                
                                 <note type="description">black letters, old russia, broken,
                                     imperfect</note>
                                 <imprint>
@@ -33215,6 +33233,7 @@
                                         (Hypnerotomachia Poliphili), printed at Venice by Aldus, in
                                         1499</title>
                                     <author>Poliphilus</author>
+                                    <!-- Other sources list the author as Francesco Colonna. -->
                                     <note type="description">woodcuts</note>
                                     <imprint>
                                         <date when="1893"/>
@@ -33229,11 +33248,11 @@
                                 <monogr>
                                     <title xml:lang="it">Della Fisonomia dell'Huomo, tradotti di
                                         Latino in Volgare</title>
-                                    <author>Porta, Gio. B.</author>
+                                    <author corresp="#porta">Porta, Gio. B.</author>
                                     <note type="description">curios old woodcuts, half bound, pencil
                                         note in Swinburne's writing</note>
                                     <imprint>
-                                        <pubPlace>Padova</pubPlace>
+                                        <pubPlace corresp="#padua">Padova</pubPlace>
                                         <date when="1623"/>
                                     </imprint>
                                 </monogr>
@@ -33245,7 +33264,7 @@
                                 <monogr>
                                     <title>Divine Fancies digested into Epigrammes, Meditations and
                                         Observations</title>
-                                    <author>Quarles, Francis</author>
+                                    <author corresp="#quarles">Quarles, Francis</author>
                                     <note type="description">old boards</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A10251</idno>
@@ -33264,7 +33283,7 @@
                             <biblStruct corresp="#owned" xml:id="sb882.1">
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres, suivies des Remarques</title>
-                                    <author>Rabelais, F.</author>
+                                    <author corresp="#rabelais">Rabelais, F.</author>
                                     <note type="description" corresp="#uncut">portrait and
                                         engravings, uncut</note>
                                     <imprint>
@@ -33301,7 +33320,7 @@
                             <biblStruct corresp="#owned" xml:id="sb883.2">
                                 <monogr>
                                     <title>Ports, Harbours, etc. of Great Britain</title>
-                                    <author>Finden</author>
+                                    <author corresp="#finden">Finden</author>
                                     <note type="description">plates, half morocco, gilt edges</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -33320,7 +33339,7 @@
                             <biblStruct corresp="#owned" xml:id="sb884.1">
                                 <monogr>
                                     <title>Edgar Allan Poe, a Memorial Volume</title>
-                                    <author>Rice, S. S.</author>
+                                    <author corresp="#rice_s">Rice, S. S.</author>
                                     <note type="description">portrait, etc.</note>
                                     <imprint>
                                         <pubPlace ref="#baltimore">Baltimore</pubPlace>
@@ -33334,7 +33353,7 @@
                                 <monogr>
                                     <title>Some Writings and Speeches, with Notice in Memoriam by G.
                                         S. Venables</title>
-                                    <author>Houghton, Lord</author>
+                                    <author corresp="#milnes">Houghton, Lord</author>
                                     <note type="description" corresp="#uncut">vellum, uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -33352,7 +33371,7 @@
                                 <monogr>
                                     <title>Ancient English Metrical Romances, revised with Notes and
                                         Glossary, by Edmund Goldsmid</title>
-                                    <author>Ritson, Joseph</author>
+                                    <author corresp="#ritson">Ritson, Joseph</author>
                                     <note type="description">large paper, only 75 copies printed,
                                         green morocco gilt, top edge gilt</note>
                                     <imprint>
@@ -33370,7 +33389,7 @@
                             <bibl xml:id="sb886.1">
                                 <title>Valentinian, a Tragedy</title>
                                 <idno type="tcp">A39812</idno>
-                                <author>Rochester, Earl of</author>
+                                <author corresp="#rochester">Rochester, Earl of</author>
                                 <date when="1685"/>
                                 <relatedItem type="ota"
                                     target="http://hdl.handle.net/20.500.12024/A39812"/>
@@ -33389,7 +33408,7 @@
                                 <monogr>
                                     <title>The Sacrifice, a Tragedy</title>
                                     <idno type="tcp">A40875</idno>
-                                    <author>Fane, Sir Francis</author>
+                                    <author corresp="#fane_f">Fane, Sir Francis</author>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
@@ -33406,7 +33425,7 @@
                                 <monogr>
                                     <title>Poems, edited, with Introduction and Notes by W. M.
                                         Rossetti</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description" corresp="#uncut #presentation">one of
                                         30 copies, plates on Japanese paper, vellum, uncut.
                                         Presentation copy, with inscription</note>
@@ -33441,7 +33460,7 @@
                                     <note type="inscription">William J. Thoms kindly given to me by
                                         Lord Powis</note>
                                     <imprint>
-                                        <publisher>Roxburghe Club</publisher>
+                                        <publisher corresp="#roxburghe_club">Roxburghe Club</publisher>
                                         <date when="1838"/>
                                     </imprint>
                                 </monogr>
@@ -33455,10 +33474,10 @@
                                 <monogr>
                                     <title>Complete Poems, edited, with Introduction and Notes, by
                                         A. B. Grosart</title>
-                                    <author>Barnfield, Rich.</author>
+                                    <author corresp="#barnfield">Barnfield, Rich.</author>
                                     <note type="description">frontispiece, half morocco</note>
                                     <imprint>
-                                        <publisher>Roxburghe Club</publisher>
+                                        <publisher corresp="#roxburghe_club">Roxburghe Club</publisher>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
@@ -33471,7 +33490,7 @@
                                         Henry A. Bright</title>
                                     <note type="description">one of 80 copies, half morocco</note>
                                     <imprint>
-                                        <publisher>Roxburghe Club</publisher>
+                                        <publisher corresp="#roxburghe_club">Roxburghe Club</publisher>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -33485,7 +33504,7 @@
                                 <monogr>
                                     <title>Bibliography of the Writings in Prose and Verse of John
                                         Ruskin</title>
-                                    <author>Ruskin, J.</author>
+                                    <author corresp="#ruskin">Ruskin, J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Thos. J. Wise</name>
@@ -33564,7 +33583,7 @@
                             <biblStruct corresp="#owned" xml:id="sb891.1">
                                 <monogr>
                                     <title>Vineigliata and Maiano</title>
-                                    <author>Scott, Leader</author>
+                                    <author corresp="#scott_l">Scott, Leader</author>
                                     <note type="description">illustrations, half vellum, gilt
                                         edges</note>
                                     <imprint>
@@ -33578,7 +33597,7 @@
                             <biblStruct corresp="#owned" xml:id="sb891.2">
                                 <monogr>
                                     <title>Gems of French Art</title>
-                                    <author>Scott, W. B.</author>
+                                    <author corresp="#scott_wi">Scott, W. B.</author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         presentation copy to Swinburne from the author, with
                                         autograph inscription</note>
@@ -33619,6 +33638,7 @@
                                 <monogr>
                                     <title>Account of the Origin of the “Pickwick Papers”</title>
                                     <author>Seymour, Mrs.</author>
+                                    <!-- Jane Seymour, diffiuclt to determine appropriate LCNAF. -->
                                     <note type="description" corresp="#presentation">one of 50
                                         copies, presentation copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the
@@ -33635,7 +33655,7 @@
                                 <monogr>
                                     <title>The Blessed Damozel, with Introduction by W. M.
                                         Rossetti</title>
-                                    <author>Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_d">Rossetti, D. G.</author>
                                     <note type="description">frontispiece and decorations</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -33649,7 +33669,7 @@
                             <biblStruct corresp="#owned" xml:id="sb894.1">
                                 <monogr>
                                     <title>Venus and Adonis</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
@@ -33669,7 +33689,7 @@
                             <biblStruct corresp="#owned" xml:id="sb895.1">
                                 <monogr>
                                     <title>Lucrece</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
@@ -33689,7 +33709,7 @@
                             <biblStruct corresp="#owned" xml:id="sb896.1">
                                 <monogr>
                                     <title>Passionate Pilgrim</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
@@ -33709,7 +33729,7 @@
                             <biblStruct corresp="#owned" xml:id="sb897.1">
                                 <monogr>
                                     <title>Pericles</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
@@ -33729,7 +33749,7 @@
                             <biblStruct corresp="#owned" xml:id="sb898.1">
                                 <monogr>
                                     <title>Sonnets</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Lee</name>
@@ -33751,6 +33771,7 @@
                                     <title>Extracts from the Registers of the Stationer's Company,
                                         with Notes and Illustrations by J. Payne Collier</title>
                                     <author>Shakespeare Society</author>
+                                    <!-- Lots of these, hard to determine appropriate LCNAF. -->
                                     <note type="description" corresp="#uncut #presentation">one of
                                         six copies in this form, half roan, uncut, presentation
                                         copy, with autograph inscription</note>
@@ -33796,7 +33817,7 @@
                                     <title>The Fleire, as it hath beene often Played in the
                                         Blacke-Fryers by the Children of the Revels</title>
                                     <idno type="tcp">A12078</idno>
-                                    <author>Sharpham, E.</author>
+                                    <author corresp="#sharpham">Sharpham, E.</author>
                                     <note type="description">half bound, title soiled and mended,
                                         some leaves stained and some headlines cut into, with
                                         autograph signature of John Genest, and players' names in
@@ -33817,7 +33838,7 @@
                             <biblStruct corresp="#owned" xml:id="sb902.1">
                                 <monogr>
                                     <title xml:lang="fr">Hellas, Drame Lyrique</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <respStmt>
                                         <resp>traduction de</resp>
                                         <name full="yes">Tola Dorian</name>
@@ -33839,7 +33860,7 @@
                             <biblStruct corresp="#owned" xml:id="sb903.1">
                                 <monogr>
                                     <title>Hellas</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description">another copy, with inscription</note>
                                     <note type="inscription" xml:lang="fr">A mon tres cher et
                                         illustre Mairte, Ch. Algernon Swinburne hommage et
@@ -33856,7 +33877,7 @@
                             <biblStruct corresp="#owned" xml:id="sb904.1">
                                 <monogr>
                                     <title>Hellas</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description" corresp="#uncut">another copy,
                                         uncut</note>
                                     <imprint>
@@ -33872,7 +33893,7 @@
                                 <monogr>
                                     <title>Epipsychidion, with Introduction by Stopford A. Brooke
                                         and Note by A. C. Swinburne</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <respStmt>
                                         <resp>edtied by</resp>
                                         <name full="yes">R. A. Potts</name>
@@ -33892,7 +33913,7 @@
                                 <monogr>
                                     <title>Mask of Anarchy, facsimile of Shelley's MS. with
                                         Introduction by H. Buxton Forman</title>
-                                    <author>Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <date when="1887"/>
@@ -33904,11 +33925,11 @@
                             <biblStruct corresp="#owned" xml:id="sb906.2">
                                 <monogr>
                                     <title>The Web of Life, a Book of Poems</title>
-                                    <author>Gibson, W. W.</author>
+                                    <author corresp="#gibson">Gibson, W. W.</author>
                                     <note type="description" corresp="#uncut">uncut, one of 300
                                         copies</note>
                                     <imprint>
-                                        <publisher>Samurai Press</publisher>
+                                        <publisher corresp="#samurai_press">Samurai Press</publisher>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -33920,7 +33941,7 @@
                                 <monogr>
                                     <title>Complete Poems, edited, with Essay on Life and Writings
                                         and Notes and Illustrations, by A. B. Grosart</title>
-                                    <author>Sidney, Sir Phillips</author>
+                                    <author corresp="#sidney_p1554">Sidney, Sir Phillips</author>
                                     <note type="description" corresp="#uncut">one of 300 copies,
                                         portrait, etc. half roan, uncut, privately printed</note>
                                     <imprint>
@@ -33941,7 +33962,7 @@
                                 <monogr>
                                     <title xml:lang="la">Opera Omnia Gr. et Lat. cum Notis R. F. Ph.
                                         Brunck</title>
-                                    <author>Sophocles</author>
+                                    <author corresp="#sophocles">Sophocles</author>
                                     <note type="description">old blue morocco, gilt edges</note>
                                     <imprint>
                                         <pubPlace ref="#strasbourg">Argent.</pubPlace>
@@ -33967,12 +33988,13 @@
                         </listBibl>
                         <listBibl type="lot" xml:id="sb909">
                             <biblStruct xml:id="sb909.1">
-<monogr>                                <title>Speeches and Passages of this Great and Happy Parliment from
+                                <monogr>
+                                    <title>Speeches and Passages of this Great and Happy Parliment from
                                     the third of November, 1640, to this instant June, 1641</title>
                                 <idno type="tcp">A83496</idno>
                                 <imprint>
                                     <date when="1641"/>
-                                    <publisher>William Cooke</publisher>
+                                    <publisher corresp="#cooke">William Cooke</publisher>
                                 </imprint></monogr>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A83496.0001.001"/>
@@ -33999,7 +34021,7 @@
                                 <monogr>
                                     <title>Complete Works in Verse and Prose, edited, with Life,
                                         Notes, etc. by A. B. Grosart</title>
-                                    <author>Spenser, Edmund</author>
+                                    <author corresp="#spenser">Spenser, Edmund</author>
                                     <note type="description" corresp="#uncut">large paper, one of
                                         100 copies, facsimile, uncut. Printed for private
                                         circulation only</note>
@@ -34036,13 +34058,13 @@
                                     <title xml:lang="la">Opera, exacta cura recognitus et emendatur,
                                         Copiosus Index, varia lectio in culce operis impressa (ex
                                         recens. B. Rhenani)</title>
-                                    <author>Tacitus, Corn.</author>
+                                    <author corresp="#tacitus">Tacitus, Corn.</author>
                                     <note type="description">old russia, rebacked</note>
                                     <imprint>
                                         <pubPlace ref="#venice">Venet.
                                             </pubPlace>
-                                        <publisher>Haeredum Aldi Manutii Romani</publisher>
-                                        <publisher>Andreae Asulani Soceri</publisher>
+                                        <publisher corresp="#manuzio">Haeredum Aldi Manutii Romani</publisher>
+                                        <publisher corresp="#aedes_aldi">Andreae Asulani Soceri</publisher>
                                         <date when="1534"/>
                                     </imprint>
                                 </monogr>
@@ -34053,13 +34075,13 @@
                             <biblStruct corresp="#owned" xml:id="sb912.1">
                                 <monogr>
                                     <title xml:lang="it">La Gerusalemme Liberata</title>
-                                    <author>Tasso, Torq.</author>
+                                    <author corresp="#tasso">Tasso, Torq.</author>
                                     <note type="description">frontispiece, old blue morocco gilt,
                                         tooled borders, ornaments and coats-of-arms on the sides,
                                         silk linings, gilt and marbled edges, by Kalthoeber</note>
                                     <imprint>
-                                        <pubPlace>Parma</pubPlace>
-                                        <publisher>Bodoniani</publisher>
+                                        <pubPlace ref="#parma">Parma</pubPlace>
+                                        <publisher corresp="#bodoni">Bodoniani</publisher>
                                         <date when="1794"/>
                                     </imprint>
                                     <extent>
@@ -34077,10 +34099,10 @@
                                 <monogr>
                                     <title xml:lang="it">Aminta Favola Boschereccia, ora alla sua
                                         vera lezione ridotta</title>
-                                    <author>Tasso, T.</author>
+                                    <author corresp="#tasso">Tasso, T.</author>
                                     <note type="description">portrait on title, calf</note>
                                     <imprint>
-                                        <pubPlace>Crisopoli</pubPlace>
+                                        <pubPlace corresp="#parma">Crisopoli</pubPlace>
                                         <date when="1796"/>
                                     </imprint>
                                 </monogr>
@@ -34108,7 +34130,7 @@
                                     <title>The Old, Old, Very Old Man, or Age and Long Life of
                                         Thomas Par, etc.</title>
                                     <idno type="tcp">A13482</idno>
-                                    <author>Taylor, John</author>
+                                    <author corresp="#taylor_j">Taylor, John</author>
                                     <note type="description">woodcuts, half calf</note>
                                     <imprint>
                                         <date from="1635" to="1641"/>
@@ -34126,7 +34148,7 @@
                             <biblStruct corresp="#owned" xml:id="sb915.1">
                                 <monogr>
                                     <title>Orphan of Pimlico</title>
-                                    <author>Thackeray, Wm.</author>
+                                    <author corresp="#thackeray">Thackeray, Wm.</author>
                                     <note type="description">illustrations</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -34140,7 +34162,7 @@
                             <biblStruct corresp="#owned" xml:id="sb915.2">
                                 <monogr>
                                     <title>Fairy Tales, with Introductions by E. Gosse</title>
-                                    <author>Andersen, H. C.</author>
+                                    <author corresp="#andersen">Andersen, H. C.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -34164,6 +34186,7 @@
                                         morocco gilt, gilt edges</note>
                                     <imprint>
                                         <pubPlace>in Cosmopoli</pubPlace>
+                                        <!-- Getty doesn't have anything for this. -->
                                         <date when="1750"/>
                                     </imprint>
                                 </monogr>
@@ -34175,7 +34198,7 @@
                                 <monogr>
                                     <title>Five Hundred Points of Good Husbandry</title>
                                     <idno type="tcp">A14064</idno>
-                                    <author>Tusser, Thos.</author>
+                                    <author corresp="#tusser">Tusser, Thos.</author>
                                     <note type="description">black letter, half calf</note>
                                     <imprint>
                                         <date when="1672"/>
