@@ -4117,11 +4117,22 @@
                         <birth when="1808"/>
                         <death when="1881"/>
                     </person>
+                    <person xml:id="spencer">
+                        <persName source="http://id.loc.gov/authorities/names/n84134072">Spencer, 
+                            John, -1680</persName>
+                        <death when="1680"/>
+                    </person>
                     <person xml:id="spenser">
                         <persName source="http://id.loc.gov/authorities/names/n78081910">Spenser,
                             Edmund, 1552?-1599</persName>
                         <birth cert="unknown" when="1552"/>
                         <death when="1599"/>
+                    </person>
+                    <person xml:id="sprat">
+                        <persName source="http://id.loc.gov/authorities/names/n50078848">Sprat, 
+                            Thomas, 1635-1713</persName>
+                        <birth when="1635"/>
+                        <death when="1713"/>
                     </person>
                     <person xml:id="stables">
                         <persName source="http://id.loc.gov/authorities/names/n82112114">Stables,
@@ -4495,6 +4506,12 @@
                         <birth when="1732"/>
                         <death when="1807"/>
                     </person>
+                    <person xml:id="waller">
+                        <persName source="http://id.loc.gov/authorities/names/n78097077">Waller, 
+                            Edmund, 1606-1687</persName>
+                        <birth when="1606"/>
+                        <death when="1687"/>
+                    </person>
                     <person xml:id="warren">
                         <persName source="http://id.loc.gov/authorities/names/n82208515">Warren,
                             John Byrne Leicester, Baron de Tabley, 1835-1895</persName>
@@ -4763,6 +4780,10 @@
                     <org xml:id="bodoni">
                         <orgName source="http://id.loc.gov/authorities/names/n81038854">Officina 
                             Bodoni</orgName>
+                    </org>
+                    <org xml:id="methuen_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n82162085">Methuen 
+                            &amp; Co.</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -34217,18 +34238,23 @@
                                <monogr> <title>Three Poems upon the Death of his late Highness Oliver Lord
                                     Protector of England, Scotland and Ireland</title>
                                 <idno type="tcp">A36664</idno>
-                                <author>Waller, Edmund</author>
-                                <author>Dryden, John</author>
-                                <author>Sprat, Thomas</author>
-                               <imprint> <date when="1659"/>
-                               <publisher>William Wilson</publisher><pubPlace ref="#london">London</pubPlace></imprint></monogr>
+                                <author corresp="#waller">Waller, Edmund</author>
+                                <author corresp="#dryden">Dryden, John</author>
+                                <author corresp="#sprat">Sprat, Thomas</author>
+                                    <imprint> <date when="1659"/>
+                                        <publisher>William Wilson</publisher>
+                                        <!-- Possibly http://id.loc.gov/authorities/names/no2018012275,
+                                                but difficult to say for certain. -->
+                                        <pubPlace ref="#london">London</pubPlace>
+                                    </imprint>
+                               </monogr>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A67351.0001.001"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb918.2">
                                 <monogr>
                                     <title>Letting of Humours Blood in the Head Vaine, etc.</title>
-                                    <author>Rowlands, S.</author>
+                                    <author corresp="#rowlands">Rowlands, S.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Sir W. Scott</name>
@@ -34249,10 +34275,11 @@
                                     <title>The White Devil, or Vittoria Corombona, a Lady of Venice,
                                         a Tragedy</title>
                                     <idno type="tcp">A14875</idno>
-                                    <author>Webster, John</author>
+                                    <author corresp="#webster_j">Webster, John</author>
                                     <note type="description">russia, for John Playfere</note>
                                     <imprint>
                                         <publisher>Printed by G. Miller</publisher>
+                                        <!-- No LCNAF found. -->
                                         <date when="1665"/>
                                     </imprint>
                                 </monogr>
@@ -34265,7 +34292,7 @@
                             <biblStruct corresp="#owned" xml:id="sb920.1">
                                 <monogr>
                                     <title>Poems on Several Occasions</title>
-                                    <author>Wesley, Saml.</author>
+                                    <author corresp="#wesley">Wesley, Saml.</author>
                                     <note type="description">old calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -34278,7 +34305,7 @@
                             <biblStruct corresp="#owned" xml:id="sb920.2">
                                 <monogr>
                                     <title>Life written by himself</title>
-                                    <author>Herbert of Cherbury, Edward Lord</author>
+                                    <author corresp="#herbert_cherbury">Herbert of Cherbury, Edward Lord</author>
                                     <note type="description">recumbent portrait, half morocco</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -34295,7 +34322,7 @@
                             <biblStruct corresp="#owned" xml:id="sb921.1">
                                 <monogr>
                                     <title>Salome, Drame en un Acte</title>
-                                    <author>Wilde, Oscar</author>
+                                    <author corresp="#wilde">Wilde, Oscar</author>
                                     <note type="description" corresp="#uncut #presentation">uncut.
                                         Presentation from the author to Swinburne, with autograph
                                         inscription</note>
@@ -34314,7 +34341,7 @@
                             <biblStruct corresp="#owned" xml:id="sb922.1">
                                 <monogr>
                                     <title>Queen Margot Wife of Henry of Navarre</title>
-                                    <author>Williams, H. Noel</author>
+                                    <author corresp="#williams">Williams, H. Noel</author>
                                     <note type="description" corresp="#presentation">16 illustrations, presentation copy to
                                         Swinburne with inscription</note>
                                     <imprint>
@@ -34327,7 +34354,7 @@
                             <biblStruct corresp="#owned" xml:id="sb922.2">
                                 <monogr>
                                     <title>Stories from the Arabian Nights re-told</title>
-                                    <author>Housman, L.</author>
+                                    <author corresp="#housman">Housman, L.</author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1907"/>
@@ -34345,7 +34372,7 @@
                             <biblStruct corresp="#owned" xml:id="sb923.1">
                                 <monogr>
                                     <title>London Journal</title>
-                                    <author>Hunt, Leigh</author>
+                                    <author corresp="#hunt_l">Hunt, Leigh</author>
                                     <note type="description">half bound</note>
                                     <imprint>
                                         <date when="1834"/>
@@ -34364,7 +34391,7 @@
                             <biblStruct corresp="#owned" xml:id="sb923.2">
                                 <monogr>
                                     <title>Rembrandt, a Memorial of his Tercentenary</title>
-                                    <author>Michel, E.</author>
+                                    <author corresp="#michel_e">Michel, E.</author>
                                     <note type="description">portrait and plates</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -34387,7 +34414,7 @@
                                 <monogr>
                                     <title>Workes, with Epigrammes, Masques, etc.</title>
                                     <idno type="tcp">A04632</idno>
-                                    <author>Jonson, Ben</author>
+                                    <author corresp="#jonson">Jonson, Ben</author>
                                     <note type="description">engraved title by Hole, but no
                                         portrait, old calf</note>
                                     <imprint>
@@ -34405,7 +34432,7 @@
                             <biblStruct corresp="#owned" xml:id="sb925.1">
                                 <monogr>
                                     <title>In English Homes</title>
-                                    <author>Latham, C.</author>
+                                    <author corresp="#latham">Latham, C.</author>
                                     <note type="description">illustrations, cloth gilt, gilt
                                         edges</note>
                                     <imprint>
@@ -34425,7 +34452,7 @@
                                 <monogr>
                                     <title>Egypt, Descriptive, Historical and Picturesque,
                                         translated by C. Bell, with Notes, etc. S. Birch</title>
-                                    <author>Ebers, G.</author>
+                                    <author corresp="#ebers">Ebers, G.</author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -34444,7 +34471,7 @@
                             <biblStruct corresp="#owned" xml:id="sb926.1">
                                 <monogr>
                                     <title xml:lang="fr">L'Après-Midi d'un Faune</title>
-                                    <author>Mallarmé, Steph.</author>
+                                    <author corresp="#mallarmé">Mallarmé, Steph.</author>
                                     <note type="description" corresp="#presentation">one of 195
                                         copies, presentation copy with book label and autograph
                                         inscription</note>
@@ -34464,7 +34491,7 @@
                             <biblStruct corresp="#owned" xml:id="sb927.1">
                                 <monogr>
                                     <title xml:lang="it">Rime di Francesco Petrarca</title>
-                                    <author>Petrarch</author>
+                                    <author corresp="#petrarca">Petrarch</author>
                                     <note type="description">portrait, half vellum, Pisa della
                                         tipografia della Societa Letteraria</note>
                                     <imprint>
@@ -34505,7 +34532,7 @@
                                 <monogr>
                                     <title>Lives of the Noble Grecians and Romanes, translated into
                                         French bu J. Amiot, and into English by Thos. North</title>
-                                    <author>Plutarch</author>
+                                    <author corresp="#plutarch">Plutarch</author>
                                     <respStmt>
                                         <resp>translator</resp>
                                         <persName>Thomas North</persName>
@@ -34514,7 +34541,7 @@
                                         portraits, old russia broken. Presentation copy from William
                                         Morris to A. C. Swinburne, with autograph inscription</note>
                                     <imprint>
-                                        <publisher>Imprinted by Richard Field</publisher>
+                                        <publisher corresp="#field_r">Imprinted by Richard Field</publisher>
                                         <date when="1595"/>
                                     </imprint>
                                 </monogr>
@@ -34530,7 +34557,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Vies des Hommes Illustres, Grecs et
                                         Romains, translatees en Francois par J. Amiot</title>
-                                    <author>Plutarch</author>
+                                    <author corresp="#plutarch">Plutarch</author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -34545,7 +34572,7 @@
                             <biblStruct corresp="#owned" xml:id="sb929.2">
                                 <monogr>
                                     <title>Les Oeuvres Morales, transltees par J. Amiot</title>
-                                    <author>Plutarch</author>
+                                    <author corresp="#plutarch">Plutarch</author>
                                     <note type="description">old calf, title in facsimile</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -34568,8 +34595,8 @@
                                     <note type="description" corresp="#uncut">reprint of the edition of 1499,
                                         woodcuts, uncut</note>
                                     <imprint>
-                                        <pubPlace>London</pubPlace>
-                                        <publisher>Methuen &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <publisher corresp="#methuen_co">Methuen &amp; Co.</publisher>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -34581,7 +34608,7 @@
                             <biblStruct corresp="#owned" xml:id="sb931.1">
                                 <monogr>
                                     <title xml:lang="la">De Humana Physiognomia Libri IIII</title>
-                                    <author>Porta, Jo. Bapt.</author>
+                                    <author corresp="#porta">Porta, Jo. Bapt.</author>
                                     <note type="description">engraved title and curious plates, old
                                         vellum</note>
                                     <imprint>
@@ -34596,7 +34623,7 @@
                                 <monogr>
                                     <title>Twelve Etchings by Paul R. Rajon with Memoir and Notes by
                                         F. G. Stephens</title>
-                                    <author>Rajon</author>
+                                    <author corresp="#rajon">Rajon</author>
                                     <note type="description">portraits and plates</note>
                                     <imprint>
                                         <date>18--?</date>
@@ -34609,7 +34636,7 @@
                                 <monogr>
                                     <title>Ramblings in the Elucidation of the Autograph of
                                         Milton</title>
-                                    <author>Sotheby, S. Leigh</author>
+                                    <author corresp="#sotheby">Sotheby, S. Leigh</author>
                                     <note type="description">portraits and facsimiles, half
                                         morocco</note>
                                     <note type="etc">
@@ -34627,7 +34654,7 @@
                             <biblStruct corresp="#owned" xml:id="sb933.1">
                                 <monogr>
                                     <title>Opera</title>
-                                    <author>Sallustius</author>
+                                    <author corresp="#sallust">Sallustius</author>
                                     <note type="description">engraved title and woodcuts,
                                         vellum</note>
                                     <imprint>
@@ -34643,7 +34670,7 @@
                             <biblStruct corresp="#owned" xml:id="sb934.1">
                                 <monogr>
                                     <title>Comedies, Histories and Tragedies</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description">facsimile reprint of the first folio of
                                         1623, portrait on title, russia, - e.</note>
                                     <!-- Can't read the last part. -->
@@ -34664,7 +34691,7 @@
                                     <title>Comedies, Histories and Tragedies, facsimile of the first
                                         folio of 1623, with Introduction and Census of Copies by
                                         Sidney Lee</title>
-                                    <author>Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
                                     <note type="description" corresp="#uncut">rough calf, uncut,
                                         with ties</note>
                                     <imprint>
@@ -34681,7 +34708,7 @@
                                 <monogr>
                                     <title>Things, New and Old, or a Storehouse of Similes,
                                         Sentences, Allegories, etc.</title>
-                                    <author>Spencer, John</author>
+                                    <author corresp="#spencer">Spencer, John</author>
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -34698,7 +34725,7 @@
                                 <monogr>
                                     <title>Chronicle of the Kings of England</title>
                                     <idno type="tcp">A29737</idno>
-                                    <author>Baker, R.</author>
+                                    <author corresp="#baker">Baker, R.</author>
                                     <note type="description">engraved title, old calf</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -34716,7 +34743,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Le Grant Therece en Francoys tat en Rime
                                         que en Prose, nouvellement imprime à Paris</title>
-                                    <author>Terentius</author>
+                                    <author corresp="#terence">Terentius</author>
                                     <note type="description" corresp="#presentation">lettres
                                         batardes, double columns, woodcut title repaired, numerous
                                         spirited woodcuts of theartrical scenes, old russia, broken,
@@ -34727,7 +34754,7 @@
                                         friend, William Morris, <date when="1872-03-25">March 25th,
                                             1872</date></note>
                                     <imprint>
-                                        <publisher>J. Petit</publisher>
+                                        <publisher corresp="#petit">J. Petit</publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1539"/>
                                         <!-- Hard to read. Looks like a "9" written in for the last digit. -->
@@ -34778,6 +34805,19 @@
             <div source="watts-dunton">
                 <div type="day" n="1">
                     <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd5">
+                            <biblStruct xml:id="wd5.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title xml:lang="latin">Tragoediae Superstites et deperditarum Fragments.
+                                        ex recensione</title>
+                                    <author corresp="#aeschylus">Aeschylus</author>
+                                    <imprint>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>
+                        <!-- thomdaro: still learning how to add these entries, will return to this when I can. -->
                         <listBibl type="lot" xml:id="wd236">
                             <biblStruct xml:id="wd236.2" corresp="#annotated">
                                 <monogr>
