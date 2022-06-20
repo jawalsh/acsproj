@@ -4785,6 +4785,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n82162085">Methuen 
                             &amp; Co.</orgName>
                     </org>
+                    <org xml:id="oxford_university_press">
+                        <orgName corresp="http://id.loc.gov/authorities/names/n80126136">Oxford 
+                            University Press</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -34808,16 +34812,23 @@
                         <listBibl type="lot" xml:id="wd5">
                             <biblStruct xml:id="wd5.1" corresp="#presented_by #annotated">
                                 <monogr>
-                                    <title xml:lang="latin">Tragoediae Superstites et deperditarum Fragments.
-                                        ex recensione</title>
+                                    <title xml:lang="latin">Tragoediae Superstites et deperditarum 
+                                        Fragments. ex recensione G. Dindorfii</title>
                                     <author corresp="#aeschylus">Aeschylus</author>
+                                    <note type="description" corresp="#presentation">vellum, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend 
+                                        Algernon Charles Swinburne</note>
                                     <imprint>
-                                        <pubPlace ref="#oxford">Oxford</pubPlace>
+                                        <pubPlace ref="#oxford">Oxonium</pubPlace>
+                                        <publisher corresp="#oxford_university_press">Typographeo Academico</publisher>
                                     </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
+                                <relatedItem n="1" type="ia" target="https://archive.org/details/tragoediaesupers01euri/"/>
+                                <relatedItem n="2" type="ia" target="https://archive.org/details/tragoediaesupers02euri/"/>
                             </biblStruct>
                         </listBibl>
-                        <!-- thomdaro: still learning how to add these entries, will return to this when I can. -->
                         <listBibl type="lot" xml:id="wd236">
                             <biblStruct xml:id="wd236.2" corresp="#annotated">
                                 <monogr>
