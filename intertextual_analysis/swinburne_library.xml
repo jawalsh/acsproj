@@ -740,6 +740,12 @@
                         <birth when="1848"/>
                         <death when="1927"/>
                     </person>
+                    <person xml:id="barker_h">
+                        <persName source="http://id.loc.gov/authorities/names/n86804258">Barker, 
+                            Henry J. (Henry James), 1852-1934</persName>
+                        <birth when="1852"/>
+                        <death when="1934"/>
+                    </person>
                     <person xml:id="barlow">
                         <persName source="http://id.loc.gov/authorities/names/n50017421">Barlow,
                             George, 1847-1913 or 1914</persName>
@@ -4786,8 +4792,12 @@
                             &amp; Co.</orgName>
                     </org>
                     <org xml:id="oxford_university_press">
-                        <orgName corresp="http://id.loc.gov/authorities/names/n80126136">Oxford 
+                        <orgName source="http://id.loc.gov/authorities/names/n80126136">Oxford 
                             University Press</orgName>
+                    </org>
+                    <org xml:id="macmillan_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
+                            &amp; Co.</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -34825,8 +34835,41 @@
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="2"/></extent>
                                 </monogr>
-                                <relatedItem n="1" type="ia" target="https://archive.org/details/tragoediaesupers01euri/"/>
-                                <relatedItem n="2" type="ia" target="https://archive.org/details/tragoediaesupers02euri/"/>
+                                <relatedItem n="1" type="ia" 
+                                    target="https://archive.org/details/tragoediaesupers01euri/"/>
+                                <relatedItem n="2" type="ia" 
+                                    target="https://archive.org/details/tragoediaesupers02euri/"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd25">
+                            <biblStruct xml:id="wd25.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Pride and Prejudice, with Introduction by Austin
+                                        Dobson</title>
+                                    <author corresp="#austen">Austen, J.</author>
+                                    <note type="description" corresp="#presentation">illustrations by 
+                                        C. E. Brock, presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton, from Algernon 
+                                        Charles Swinburne, <date when="1905-06-07"/>June 7th, 1905</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">Macmillan &amp; Co.</publisher>
+                                        <pubPlace corresp="#london">London</pubPlace>
+                                        <date when="1904"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="google"
+                                    target="https://www.google.com/books/edition/Pride_and_Prejudice/bE46AQAAMAAJ"/>
+                                <note type="fulltext">The edition used here is from 1906, but with 
+                                    the same illustrator and introduction.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd40">
+                            <biblStruct xml:id="wd40.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Original English as written by our Little Ones at School</title>
+                                    <author corresp="#barker_h">Barker, H. J.</author>
+                                    <imprint></imprint>
+                                </monogr>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd236">
