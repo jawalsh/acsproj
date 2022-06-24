@@ -752,6 +752,18 @@
                         <birth when="1847"/>
                         <death when="1913" cert="unknown"/>
                     </person>
+                    <person xml:id="barlow_j">
+                        <persName source="http://id.loc.gov/authorities/names/n50017802">Barlow, 
+                            Jane, 1856-1917</persName>
+                        <birth when="1856"/>
+                        <death when="1917"/>                        
+                    </person>
+                    <person xml:id="barnard">
+                        <persName source="http://id.loc.gov/authorities/names/n50017805">Barnard,
+                            Anne Lindsay, Lady, 1750-1825</persName>
+                        <birth when="1750"/>
+                        <death when="1825"/>
+                    </person>
                     <person xml:id="barnes">
                         <persName source="http://id.loc.gov/authorities/names/n50017811">Barnes,
                             Barnabe, 1569?-1609</persName>
@@ -1300,6 +1312,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n79027228">Chaucer,
                             Geoffrey, -1400</persName>
                         <death when="1400"/>
+                    </person>
+                    <person xml:id="chesterton">
+                        <persName source="http://id.loc.gov/authorities/names/n79021157">Chesterton, 
+                            G. K. (Gilbert Keith), 1874-1936</persName>
+                        <birth when="1874"/>
+                        <death when="1936"/>
                     </person>
                     <person xml:id="chetwood">
                         <persName source="http://id.loc.gov/authorities/names/n50037146">Chetwood,
@@ -4798,6 +4816,10 @@
                     <org xml:id="macmillan_co">
                         <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
                             &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="smith_elder_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n88079762">Smith, 
+                            Elder, and Co.</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -34860,7 +34882,8 @@
                                 <relatedItem n="1" type="google"
                                     target="https://www.google.com/books/edition/Pride_and_Prejudice/bE46AQAAMAAJ"/>
                                 <note type="fulltext">The edition used here is from 1906, but with 
-                                    the same illustrator and introduction.</note>
+                                    the same illustrator and introduction. Additionally, publisher data applies 
+                                    here, as it's a reprint of the 1904 edition.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd40">
@@ -34868,21 +34891,70 @@
                                 <monogr>
                                     <title>Original English as written by our Little Ones at School</title>
                                     <author corresp="#barker_h">Barker, H. J.</author>
-                                    <imprint></imprint>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne, with autograph inscription.</note>
+                                    <note type="inscription"> W. T. Watts, from A. C. Swinburne</note>
+                                    <imprint>
+                                        <date when="1899"/>
+                                    </imprint>
                                 </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044096984901"/>
+                                <note type="fulltext">This is the original edition, published in 1889.</note>
                             </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd41">
+                            <biblStruct xml:id="wd41.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>A Creel of Irish Stories</title>
+                                    <author corresp="#barlow_j">Barlow, Jane</author>
+                                    <note type="description" corresp="#uncut #presentation">
+                                        green cloth, uncut, presentation copy from Swinburne, with inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton, from Algernon 
+                                        Charles Swinburne, <date when="1898-01-15"/> Jan. 15th, 1898</note>
+                                    <imprint>
+                                        <publisher corresp="#methuen_co">Methuen &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t50g3j797"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd42">
+                            <biblStruct xml:id="wd42.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>South Africa a Century Ago, edited with Memoirs and Notes 
+                                        by W. H. Wilkins</title>
+                                    <author corresp="#barnard">Barnard, Lady Anne</author>
+                                    <note type="description" corresp="#uncut #presentation">portrait, buckram,
+                                        uncut, presentation copy from Swinburne, with inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton, from A. C. Swinburne, 
+                                        <date when="1901-05-10"/>May 10th, 1901</note>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">Smith, Elder, &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1901"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175002822883"/>
+                                <note type="fulltext">No publication date given in the catalogue, but this
+                                    appears to be the correct edition.</note>
+                            </biblStruct>                            
                         </listBibl>
                         <listBibl type="lot" xml:id="wd236">
                             <biblStruct xml:id="wd236.2" corresp="#annotated">
                                 <monogr>
                                     <title>Charles Dickens</title>
-                                    <author>Chesterton, G.K.</author>
+                                    <author corresp="#chesterton">Chesterton, G.K.</author>
                                     <note type="description">2 portraits, green cloth, pencil note
                                         in Swinburne's writing on fly-leaf</note>
                                     <edition corresp="#first_ed">1st, British</edition>
                                     <!-- alewinga, inferred from publication date and binding description. -->
                                     <imprint>
-                                        <publisher>Methuen &amp; Co.</publisher>
+                                        <publisher corresp="#methuen_co">Methuen &amp; Co.</publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
@@ -34906,7 +34978,7 @@
                                         in Swinburne's writing: </note>
                                     <note type="inscription">93 Coleridge's baby</note>
                                     <imprint>
-                                        <publisher>Macmillan and Co.</publisher>
+                                        <publisher corresp="#macmillan_co">Macmillan and Co.</publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
