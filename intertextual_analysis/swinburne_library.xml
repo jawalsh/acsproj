@@ -4821,6 +4821,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n88079762">Smith, 
                             Elder, and Co.</orgName>
                     </org>
+                    <org xml:id="william_blackwood_and_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/no00093522">William 
+                            Blackwood and Sons</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -4838,8 +4842,8 @@
                             Aldo, 1449 or 1450-1515</persName>
                     </person>
                     <person xml:id="torresanus">
-                        <persName source="http://id.loc.gov/authorities/names/no95027093"
-                            >Torresanus, Andreas, de Asula, 1451-1529</persName>
+                        <persName source="http://id.loc.gov/authorities/names/no95027093">Torresanus, 
+                            Andreas, de Asula, 1451-1529</persName>
                     </person>
                     <person xml:id="pickering">
                         <persName source="http://id.loc.gov/authorities/names/no89021301">Pickering,
@@ -34943,6 +34947,72 @@
                                 <note type="fulltext">No publication date given in the catalogue, but this
                                     appears to be the correct edition.</note>
                             </biblStruct>                            
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd54">
+                            <biblStruct xml:id="wd54.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works, with an Introduction by George Darley</title>
+                                    <author corresp="#beaumont">
+                                        <persName>Beaumont</persName>
+                                    </author>
+                                    <author corresp="#fletcher">
+                                        <persName>Fletcher</persName>
+                                    </author>
+                                    <note type="description" corresp="#presentation">2 portraits 
+                                        and vignettes, brown cloth,  presentation copy from Swinburne 
+                                        with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his affectionate friend 
+                                        Algernon Charles Swinburne, <date when="1884-03"/>March, 1884</note> 
+                                    <imprint>
+                                        <date when="1883"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwdwld"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwe3pp"/>
+                                <note type="fulltext">This is the 1880 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd67">
+                            <biblStruct xml:id="wd67.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Rabelais</title>
+                                    <author corresp="#besant">Besant, Walter</author>
+                                    <note type="description" corresp="#presentation">green cloth, 
+                                        presentation copy from Swinburne, with inscription in his writing.</note>
+                                    <note type="inscription">To W. T. Watts from his friend A. C. Swinburne, 
+                                        <date when="1879-09"/>Septr. 1879</note>
+                                    <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            William Blackwood and Sons</publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
+                                        <date when="1879"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.b4765632"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd71">
+                            <biblStruct xml:id="wd71.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Mary Anerley, a Yorkshire Tale</title>
+                                    <author corresp="#blackmore">Blackmore, R. D.</author>
+                                    <note type="description" corresp="#presentation">red cloth,
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts from A. C. Swinburne, Lancing-on
+                                        Sea, <date when="1888-10-09"/>Oct. 9th, 1888</note>
+                                    <imprint>
+                                        <date when="1881"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nnc1.cu54759919"/>
+                                <note type="fulltext">This is the 1912 edition. Google has an 1880 edition,
+                                    but it's published in three volumes.</note>
+                            </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd236">
                             <biblStruct xml:id="wd236.2" corresp="#annotated">
