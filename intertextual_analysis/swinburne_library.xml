@@ -963,6 +963,10 @@
                         <birth when="1444" cert="unknown"/>
                         <death when="1510"/>
                     </person>
+                    <person xml:id="boulting">
+                        <persName source="http://id.loc.gov/authorities/names/n80120841">Boulting, 
+                            William</persName>
+                    </person>
                     <person xml:id="braddon">
                         <persName source="http://id.loc.gov/authorities/names/n79066474">Braddon, M.
                             E. (Mary Elizabeth), 1835-1915</persName>
@@ -4824,6 +4828,10 @@
                     <org xml:id="william_blackwood_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no00093522">William 
                             Blackwood and Sons</orgName>
+                    </org>
+                    <org xml:id="archibald_constable_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
+                            Constable &amp; Co.</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -35009,9 +35017,98 @@
                                     </imprint>
                                 </monogr>
                                 <relatedItem n="1" type="ht"
-                                    target="https://hdl.handle.net/2027/nnc1.cu54759919"/>
-                                <note type="fulltext">This is the 1912 edition. Google has an 1880 edition,
-                                    but it's published in three volumes.</note>
+                                    target="https://hdl.handle.net/2027/coo.31924060443169"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/coo.31924013435841"/>
+                                <relatedItem n="3" type="ht"
+                                    target="https://hdl.handle.net/2027/coo.31924060443177"/>
+                                <note type="fulltext">This is an 1880 edition in three volumes.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd88">
+                            <biblStruct xml:id="wd88.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Aeneas Silvius, Orator, Man of Letters, Statesman and Pope</title>
+                                    <author corresp="#boulting">Boulting, Wm.</author>
+                                    <note type="description" corresp="#uncut #presentation">illustrations, 
+                                        green cloth, uncut, t. e. g. presentation copy from Swinburne with 
+                                        autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon 
+                                        Charles Swinburne, <date when="1909-01-30"/>Jan. 30th, 1909</note>
+                                    <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            Archibald Constable and Co., Ltd.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1908"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/coo1.ark:/13960/t74t75m1h"/>
+                            </biblStruct>                            
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd109">
+                            <biblStruct xml:id="wd109.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Aurora Leigh, with Prefatory Note by A. C. Swinburne</title>
+                                    <author corresp="#browning_e">Browning, E. B.</author>
+                                    <note type="description" corresp="#presentation">portrait, 
+                                        presentation copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton
+                                        from A. C. Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">Smith, Elder, &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1898"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044010153583"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd127">
+                            <biblStruct xml:id="wd127.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>A Book for Boys and Girls, facsimile of first edition, 
+                                        with Introduction by J. Brown</title>
+                                    <author corresp="#bunyan">Bunyan, John</author>
+                                    <note type="description" corresp="#uncut #presentation">sheep, uncut, 
+                                        presentation copy from Swinburne, with autograph inscription
+                                        on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts, a new year's gift
+                                        from Algernon Charles Swinburne, <date when="1890"/>1890, ‘Gather 
+                                        the children and those that suck the breast,’ Joel ii, 16.</note>
+                                    <edition>Facsimile of first edition.</edition>
+                                    <imprint>
+                                        <publisher>Elliot Stock</publisher>
+                                        <!-- No certain LCNAF found, possibly 
+                                            http://id.loc.gov/authorities/names/no99025352. -->
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1889"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/osu.32435056127038"/>
+                            </biblStruct>                            
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd140">
+                            <biblStruct xml:id="wd140.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works, with his Letters, Journals and Life by Thos. Moore</title>
+                                    <author corresp="#byron">Byron, Lord</author>
+                                    <note type="description" corresp="#presentation">portraits, frontispieces, 
+                                        etc. calf gilt, m. e. presentation copy from Swinburne, with autograph 
+                                        inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton from Algernon
+                                        Charles Swinburne</note>
+                                    <imprint>
+                                        <date from="1832" to="1833"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="17"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target=""/>
+                                <!-- thomdaro: will determine which set of volumes to link at the start
+                                    of next work period.-->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd236">
