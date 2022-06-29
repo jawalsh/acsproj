@@ -5019,6 +5019,12 @@
                             William, active 1632-1642</persName>
                         <floruit from="1632" to="1642"/>
                     </person>
+                    <person xml:id="frowde">
+                        <persName source="http://id.loc.gov/authorities/names/nr93008543">Frowde, 
+                            Henry, 1841-1927</persName>
+                        <birth when="1841"/>
+                        <death when="1927"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -35158,9 +35164,93 @@
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ia"
+                                <relatedItem n="1" type="ia"
                                     target="https://archive.org/details/worksoflordbyron06byro/"/>
                                 <note type="fulltext">This is the 2nd edition, published in 1905.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd152">
+                            <biblStruct xml:id="wd152.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Poetical Works, edited with Notes by J. L. Robertson</title>
+                                    <author corresp="#campbell_t">Campbell, Thos.</author>
+                                    <note type="description" corresp="#presentation">portrait, 
+                                        red cloth, presentation copy, with autograph inscription from 
+                                        Swinburne.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton from 
+                                        Algernon Charles Swinburne, <date when="1908-01-03"/>
+                                        Jan. 3rd, 1908</note>
+                                    <imprint>
+                                        <publisher corresp="#frowde">Henry Frowde</publisher>
+                                        <publisher corresp="#oxford_university_press">
+                                            Oxford University Press</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1907"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/coo1.ark:/13960/t0wq0j26h"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd182">
+                            <biblStruct xml:id="wd182.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Lectures and Notes on Shakespeare and other Dramatists</title>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
+                                    <note type="description" corresp="#presentation">cloth gilt, presentation 
+                                        copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon 
+                                        Charles Swinburne</note>
+                                    <imprint>
+                                        <date>n.d.</date>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwnpcz"/>
+                                <note type="fulltext">This is the only version of this book HT has published
+                                    before 1908, but not certain that it's the exact version listed in the catalogue.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd186">
+                            <biblStruct xml:id="wd186.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Christabel and Lyrical and Imaginative Poems, arranged and 
+                                        introduced by A. C. Swinburne</title>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
+                                    <note type="description" corresp="#presentation">portrait on title, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts from his friend A. C. Swinburne,
+                                        <date when="1873-06-30"/>June 30/73</note>
+                                    <imprint>
+                                        <date when="1873"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/christabellyrica00cole/"/>
+                                <note type="fulltext">This is an 1869 copy.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd192">
+                            <biblStruct xml:id="wd192.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Comedies</title>
+                                    <author corresp="#congreve">Congreve, Wm.</author>
+                                    <note type="description" corresp="#uncut #presentation">portrait, 
+                                        buckram, uncut, presentation copy from Swinburne, with autograph 
+                                        inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from 
+                                        A. C. Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#methuen_co">Methuen &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1895"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/comediesofwillia0000cong_y2n5/"/>
+                                <relatedItem n="2" type="ia"
+                                    target="https://archive.org/details/comedieswilliam02conggoog/"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd236">
