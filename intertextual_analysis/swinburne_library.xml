@@ -4833,6 +4833,14 @@
                         <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
                             Constable &amp; Co.</orgName>
                     </org>
+                    <org xml:id="robson_and_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/no2015105177">Robson 
+                            and Sons</orgName>
+                    </org>
+                    <org xml:id="chapman_and_hall">
+                        <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
+                            and Hall</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -35332,6 +35340,106 @@
                                 </monogr>
                                 <relatedItem n="1" type="ht"
                                     target="https://hdl.handle.net/2027/nyp.33433112033794"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd208">
+                            <biblStruct xml:id="wd208.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Complete Works, edited by A. B. Grosart, vol. I</title>
+                                    <author corresp="#crashaw">Crashaw, Richard</author>
+                                    <note type="description" corresp="#presentation">presentation copy 
+                                        from Swinburne, with autograph inscription, private printing.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne,
+                                        <date when="1904-04-05"/>April 5th, 1904</note>
+                                    <imprint>
+                                        <publisher corresp="#robson_and_sons">Robson and Sons</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1872"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/coo.31924013173392"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd230">
+                            <biblStruct xml:id="wd230.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Posthumous Papers of the Pickwick Club</title>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <note type="description" corresp="#uncut #presentation">illustrations 
+                                        by Seymour, Buss, “Phiz” and Leech, 2 vol. green cloth, uncut, 
+                                        presentation copy from Swinburne, with inscription in pencil.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from
+                                        Algernon Charles Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#chapman_and_hall">Chapman and Hall</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1887"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044011727310"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044011727328"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd231">
+                            <biblStruct xml:id="wd231.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Posthumous Papers of the Pickwick Club</title>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <note type="description" corresp="#uncut #presentation">43
+                                        illustrations, brown cloth, uncut, presentation copy from
+                                        Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from 
+                                        Algernon Charles Swinburne,  <date when="1897-03-25"/>
+                                        March 25th, 1897</note>
+                                    <imprint>
+                                        <date when="1890"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn1f8c"/>
+                                <note type="fulltext">This is an 1892 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd232">
+                            <biblStruct xml:id="wd232.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Posthumous Papers of the Pickwick Club, with
+                                        Notes, etc. by A. Lang, vol. I</title>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <note type="description" corresp="#presentation">illustrations, red 
+                                        cloth, presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Danton, from Algernon 
+                                        Charles Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#chapman_and_hall">Chapman and Hall, Ld.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/umn.31951002047839f"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd235">
+                            <biblStruct xml:id="wd235.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>David Copperfield</title>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <note type="description" corresp="#uncut #presentation">brown cloth,
+                                        uncut, presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne.</note>
+                                    <imprint>
+                                        <date when="1890"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uiug.30112042036472"/>
+                                <note type="fulltext">While this edition was published in 1890, it's
+                                    difficult to determine if this is the exact one noted in the catalogue.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd236">
