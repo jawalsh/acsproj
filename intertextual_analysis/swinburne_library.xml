@@ -776,6 +776,12 @@
                         <birth when="1574"/>
                         <death when="1627"/>
                     </person>
+                    <person xml:id="bartlett">
+                        <persName source="http://id.loc.gov/authorities/names/n80060941">Bartlett, 
+                            John, 1820-1905</persName>
+                        <birth when="1820"/>
+                        <death when="1905"/>
+                    </person>
                     <person xml:id="bates">
                         <persName source="http://id.loc.gov/authorities/names/nr94036910">Bates,
                             Cadwallader John</persName>
@@ -5032,6 +5038,10 @@
                             Henry, 1841-1927</persName>
                         <birth when="1841"/>
                         <death when="1927"/>
+                    </person>
+                    <person xml:id="menzies">
+                        <persName source="http://id.loc.gov/authorities/names/no2019130921">Menzies, 
+                            W. G.</persName>
                     </person>
                 </listPerson>
                 
@@ -35615,7 +35625,91 @@
                                     target="https://hdl.handle.net/2027/hvd.32044005548110"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd249">
+                            <biblStruct xml:id="wd249.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Letters, edited by his sister-in-law and his eldest daughter</title>
+                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <note type="description" corresp="#presentation">presentation copy 
+                                        from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon 
+                                        Charles Swinburne, <date when="1899-08-08"/>August 8th, 1899</note>
+                                    <imprint>
+                                        <date when="1880"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="3"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwjmcu"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwjmc5"/>
+                                <relatedItem n="3" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.b3550120"/>
+                                <note type="fulltext">This is an 1882 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd258">
+                            <biblStruct xml:id="wd258.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Rodney Stone</title>
+                                    <author corresp="#doyle">Doyle, A. Conan</author>
+                                    <note type="description" corresp="#presentation">illustrations, presentation 
+                                        copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. Theodore Watts Dunton (Upper Remove) from 
+                                        his sincere friend Algernon Chas. Swinburne (Lower Remove) Eton</note>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">Smith, Elder &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1896"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433074968318"/>
+                            </biblStruct>
+                        </listBibl>
                     </div>
+                    <div type="size" n="quarto">
+                        <listBibl type="lot" xml:id="wd265">
+                            <biblStruct xml:id="wd265.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Emma Lady Hamilton, a Biographical Essay, with a Catalogue 
+                                        of her published portraits</title>
+                                    <author corresp="#baily">Baily, J. T. Herbert</author>
+                                    <note type="description" corresp="#uncut #presentation">coloured miniature 
+                                        portrait, and other portraits, some coloured, vellum, uncut, t. e. g. presentation 
+                                        copy from Swinburne, with autograph inscription on fly-leaf.</note>
+                                    <note type="inscription"> Walter Theodore Watts-Dunton from Algernon 
+                                        Charles Swinburne, <date when="1905-12-11"/>Dec. 11th, 1905</note>
+                                    <imprint>
+                                        <publisher corresp="#menzies">W. G. Menzies</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1905"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015029404293"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd266">
+                            <biblStruct xml:id="wd266.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>New and Complete Concordance, or Verbal Index to Words, Phrases 
+                                        and Passages in the Dramatic Works of Shakespeare</title>
+                                    <author corresp="#bartlett">Bartlett, John</author>
+                                    <note type="description" corresp="#presentation">half morocco, presentation 
+                                        copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from Algernon Charles 
+                                        Swinburne, <date when="1894-10-25"/>October 25th, 1894</note>
+                                    <imprint>
+                                        <date when="1894"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/chi.77729656"/>
+                                <note type="fulltext">This is an 1896 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                    </div>    
                 </div>
                 <div type="day" n="2">
                     <div type="size" n="octavo">
