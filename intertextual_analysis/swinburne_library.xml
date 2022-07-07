@@ -633,6 +633,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n79045174">Arnold,
                             Matthew, 1822-1888</persName>
                     </person>
+                    <person xml:id="ashton">
+                        <persName source="http://id.loc.gov/authorities/names/n80050483">Ashton,
+                            John, 1834-1911</persName>
+                        <birth when="1834"/>
+                        <death when="1911"/>
+                    </person>
                     <person xml:id="asselineau">
                         <persName source="http://id.loc.gov/authorities/names/n85112574">Asselineau,
                             Charles, 1820-1874</persName>
@@ -4846,6 +4852,18 @@
                     <org xml:id="chapman_and_hall">
                         <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
                             and Hall</orgName>
+                    </org>
+                    <org xml:id="longmans_green_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no91016531">Longmans, 
+                            Green, and Co.</orgName>
+                    </org>
+                    <org xml:id="simpkin_marshall_hamilton_kent_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2002109454">Simpkin, 
+                            Marshall, Hamilton, Kent &amp; Co. Ltd.</orgName>
+                    </org>
+                    <org xml:id="michel_levy_freres">
+                        <orgName source="http://id.loc.gov/authorities/names/no00071921">Michel 
+                            Lévy frères (Firm)</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -35709,10 +35727,101 @@
                                 <note type="fulltext">This is an 1896 edition.</note>
                             </biblStruct>
                         </listBibl>
-                    </div>    
+                        <listBibl type="lot" xml:id="wd285">
+                            <biblStruct xml:id="wd285.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Christabel, Facsimile of the Manuscript, with
+                                        Textual and other Notes by E. H. Coleridge</title>
+                                    <author corresp="#coleridge_s">Coleridge, S. T.</author>
+                                    <note type="description" corresp="#presentation">portrait, half morocco, 
+                                        t. e. g. presentation copy from Swinburne, with inscription in his writing 
+                                        on half-title.</note>
+                                    <note type="inscription">Valter Theodore Watts-Dunton from Algernon 
+                                        Charles Swinburne, <date when="1907-05-16"/>May 16th, 1907</note>
+                                    <imprint>
+                                        <publisher corresp="#frowde">Henry Frowde</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1907"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/coo1.ark:/13960/t50g4772h"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd289">
+                            <biblStruct xml:id="wd289.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Description of the Wordsworth and Coleridge Manuscripts in
+                                        the possession of Mr. T. Norton Longman, edited, with
+                                        Notes, by W. Hale White</title>
+                                    <note type="description" corresp="#uncut #presentation">3 facsimiles, 
+                                        half vellum, uncut, presentation copy from Swinburne, with autograph 
+                                        inscription on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts-Danton from Algernon 
+                                        Charles Swinburne, <date when="1897-06-15"/>June 15th, 1897</note>
+                                    <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            Longmans, Green and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="google"
+                                    target="https://www.google.com/books/edition/A_Description_of_the_Wordsworth_Coleridg/HztAAAAAYAAJ?hl=en"/>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                    <div type="size" n="folio">
+                        <listBibl type="lot" xml:id="wd294">
+                            <biblStruct xml:id="wd294.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Real Sailor-Songs</title>
+                                    <author corresp="#ashton">Ashton, John</author>
+                                    <note type="description" corresp="#uncut #presentation">200 woodcut 
+                                        illustrations, half bound, uncut, presentation copy from Swinburne, with
+                                        autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from Algernon Charles 
+                                        Swinburne, <date when="1891-10-27"/>October 27, 1891</note>
+                                    <imprint>
+                                        <publisher corresp="#simpkin_marshall_hamilton_kent_co">
+                                            Simpkin, Marshall, Hamilton, Kent &amp; Co., Ltd.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/njp.32101050623881"/>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
                 </div>
                 <div type="day" n="2">
                     <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd302">
+                            <biblStruct xml:id="wd302.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Les trois Mousquetaires</title>
+                                    <author corresp="#dumas">Dumas, Alex.</author>
+                                    <note type="description" corresp="#uncut #presentation">illustrations 
+                                        after M. Leloir, uncut, presentation copy from Swinburne, with autograph 
+                                        inscription in each vol., and a 3-line extract from Victor Hugo on parting 
+                                        from Dumas in Swinburne’s handwriting.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend Algernon
+                                        Charles Swinburne, <date when="1893-12-25"/>Christmas Day, 1893</note>
+                                    <edition corresp="#deluxe_ed">"Edition de grand luxe."</edition>
+                                    <imprint>
+                                        <publisher corresp="#michel_levy_freres">Michel Levy Freres</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1894"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwl1d8"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwl1cj"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd327">
                             <biblStruct xml:id="wd327.1" corresp="#annotated">
                                 <monogr>
