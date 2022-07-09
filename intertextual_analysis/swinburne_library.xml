@@ -2266,6 +2266,12 @@
                             century</persName>
                         <floruit from="1300" to="1399"/>
                     </person>
+                    <person xml:id="haggard">
+                        <persName source="http://id.loc.gov/authorities/names/n80010495">Haggard, 
+                            H. Rider (Henry Rider), 1856-1925</persName>
+                        <birth when="1856"/>
+                        <death when="1925"/>
+                    </person>
                     <person xml:id="hake">
                         <persName source="http://id.loc.gov/authorities/names/n83016832">Hake,
                             Thomas Gordon, 1809-1895</persName>
@@ -4881,6 +4887,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n83142809">Calmann-Lévy 
                             (Firm)</orgName>
                     </org>
+                    <org xml:id="george_routledge_and_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/n81144562">George 
+                            Routledge and Sons</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -5076,6 +5086,12 @@
                     <person xml:id="menzies">
                         <persName source="http://id.loc.gov/authorities/names/no2019130921">Menzies, 
                             W. G.</persName>
+                    </person>
+                    <person xml:id="toovey">
+                        <persName source="http://id.loc.gov/authorities/names/nr98036643">Toovey, 
+                            James, 1814-1893</persName>
+                        <birth when="1814"/>
+                        <death when="1893"/>
                     </person>
                 </listPerson>
                 
@@ -35927,7 +35943,6 @@
                                 <monogr>
                                     <title>Miscellanies</title>
                                     <author corresp="#fitzgerald_e">Fitzgerald (E.)</author>
-
                                     <note type="description">another copy, with pencil note on title
                                         in Swinburne's writing: </note>
                                     <note type="inscription">93 Coleridge's baby</note>
@@ -35939,6 +35954,89 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044090313040"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd328">
+                            <biblStruct xml:id="wd328.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works, with Notes, Critical and Explanatory, by William Gifford, 
+                                        edited with Additions by Alex. Dyce</title>
+                                    <author corresp="#ford_j">Ford, John</author>
+                                    <note type="description" corresp="#uncut #presentation">green cloth, uncut, 
+                                        presentation copy from Swinburne, with autograph inscription, and on p. 249, 
+                                        two alternative passages for mutilated lines in Swinburne’s writing.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton, from Algernon Charles 
+                                        Swinburne, <date when="1904-01-03"/>Jan. 3rd, 1904</note>
+                                    <imprint>
+                                        <publisher corresp="#toovey">James Toovey</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1869"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="3"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/workswithnotescr01forduoft/"/>
+                                <relatedItem n="2" type="ia"
+                                    target="https://archive.org/details/workswithnotescr02forduoft/"/>
+                                <!-- Volume 3 is not present on Internet Archive, or other usable sources.  -->
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd330">
+                            <biblStruct xml:id="wd330.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Life of Jonathan Swift, vol. I</title>
+                                    <author corresp="#forster">Forster, John</author>
+                                    <note type="description" corresp="#presentation">portrait, presentation 
+                                        copy from Swinburne, with autograph inscription on half title.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his affectionate friend 
+                                        Algernon Ch. Swinburne, <date when="1880-09-22"/>Sept. 22nd, 1880</note>
+                                    <imprint>
+                                        <date when="1875"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t3cz3bd67"/>
+                                <note type="fulltext">This is a New York edition from 1876.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd335">
+                            <biblStruct xml:id="wd335.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>English Seaman in the Sixteenth Century</title>
+                                    <author corresp="#froude">Froude, J. A.</author>
+                                    <note type="description" corresp="#presentation">presentation copy 
+                                        from Swinburne with autograph inscription.</note>
+                                    <note type="inscription"> Walter Theodore Watts, from Algernon Charles 
+                                        Swinburne, <date when="1895-04-24"/>April 24th, 1895</note>
+                                    <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            Longmans, Green and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1895"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/loc.ark:/13960/t6931cr8x"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd336">
+                            <biblStruct xml:id="wd336.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>English Seaman in the Sixteenth Century</title>
+                                    <author corresp="#froude">Froude, J. A.</author>
+                                    <note type="description" corresp="#presentation">another copy,
+                                        presentation copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription"> Walter Theodore Watts, from Algernon Charles 
+                                        Swinburne, <date when="1895-04-24"/>April 24th, 1895</note>
+                                    <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            Longmans, Green and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1895"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/loc.ark:/13960/t6931cr8x"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd355">
@@ -36002,6 +36100,52 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044018775346"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd376">
+                            <biblStruct xml:id="wd376.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Dramatic and Poetical Works, with Memoirs and Notes by Alex. Dyce</title>
+                                    <author corresp="#greene">
+                                        <persName>Greene, R.</persName>
+                                    </author>
+                                    <author corresp="#peele">
+                                        <persName>Peele, G.</persName>
+                                    </author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne, with autograph inscription, and 14 lines of composition by
+                                        Swinburne in his handwriting on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts from his affectionate friend 
+                                        Algernon Charles Swinburne, <date when="1884-03"/>March, 1884</note>
+                                    <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            George Routledge and Sons</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1883"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t8rb73k6p"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd388">
+                            <biblStruct xml:id="wd388.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>A Farmer’s Year, being his Commonplace Book for 1898</title>
+                                    <author corresp="#haggard">Haggard, H. R.</author>
+                                    <note type="description" corresp="#presentation">2 maps and 36 illustrations, 
+                                        presentation copy from Swinburne with inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1899-10-30"/>Oct. 30, ’99</note>
+                                    <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            Longmans, Green, and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1899"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/coo1.ark:/13960/t3jw8xh4d"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd477">
