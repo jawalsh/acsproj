@@ -1779,6 +1779,12 @@
                         <birth when="1802"/>
                         <death when="1870"/>
                     </person>
+                    <person xml:id="dumas_fils">
+                        <persName source="http://id.loc.gov/authorities/names/n81120314">Dumas, 
+                            Alexandre, 1824-1895</persName>
+                        <birth when="1824"/>
+                        <death when="1895"/>
+                    </person>
                     <person xml:id="dundonald">
                         <persName source="http://id.loc.gov/authorities/names/n50054509">Dundonald,
                             Thomas Cochrane, Earl of, 1775-1860</persName>
@@ -1802,6 +1808,12 @@
                             1856-1877</persName>
                         <birth when="1856"/>
                         <death when="1877"/>
+                    </person>
+                    <person xml:id="dutt_w">
+                        <persName source="http://id.loc.gov/authorities/names/nr88000686">Dutt, 
+                            William A. (William Alfred), 1870-1939</persName>
+                        <birth when="1870"/>
+                        <death when="1939"/>
                     </person>
                     <person xml:id="ebers">
                         <persName source="http://id.loc.gov/authorities/names/n83124624">Ebers,
@@ -4864,6 +4876,10 @@
                     <org xml:id="michel_levy_freres">
                         <orgName source="http://id.loc.gov/authorities/names/no00071921">Michel 
                             Lévy frères (Firm)</orgName>
+                    </org>
+                    <org xml:id="calmann_levy">
+                        <orgName source="http://id.loc.gov/authorities/names/n83142809">Calmann-Lévy 
+                            (Firm)</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -35820,6 +35836,90 @@
                                     target="https://hdl.handle.net/2027/hvd.hwl1d8"/>
                                 <relatedItem n="2" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwl1cj"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd303">
+                            <biblStruct xml:id="wd303.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Le Chevalier de Maison Rouge</title>
+                                    <author corresp="#dumas">Dumas, A.</author>
+                                    <note type="description" corresp="#uncut #presentation">illustrations by 
+                                        Julien le Blant, uncut, presentation copy from Swinburne, with autograph 
+                                        inscription on half title in pencil.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend Algernon 
+                                        Charles Swinburne, <date when="1894-01-01"/>New Year’s Day, 1894</note>
+                                    <edition corresp="#deluxe_ed">"Edition de luxe."</edition>
+                                    <imprint>
+                                        <publisher>Emile Testard</publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1894"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwaezc"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwaeyc"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd306">
+                            <biblStruct xml:id="wd306.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Denise: Piece en Quatre Actes</title>
+                                    <author corresp="#dumas_fils">Dumas fils, A.</author>
+                                    <note type="description" corresp="#presentation">half morocco, t. e. g. 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore VVatts-Dunton, from Algernon
+                                        Charles Swinburne, <date when="1905-09-30"/>Sept. 30th, 1905</note>
+                                    <imprint>
+                                        <publisher corresp="#calmann_levy">Calmann-Lévy (Firm)</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1885"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044024336927"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd309">
+                            <biblStruct xml:id="wd309.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Highways and Byways in East Anglia</title>
+                                    <author corresp="#dutt_w">Dutt, Wm. A.</author>
+                                    <note type="description" corresp="#uncut #presentation">illustrations by 
+                                        Joseph Pennell, uncut, t. e. g. presentation copy from Swinburne, with 
+                                        autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton, from A. C. 
+                                        Swinburne, <date when="1901-02-13"/>Feb. 13th, 1901</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">Macmillan and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1901"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433071357747"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd311">
+                            <biblStruct xml:id="wd311.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Ormond, a Tale</title>
+                                    <author corresp="#edgeworth">Edgeworth, Maria</author>
+                                    <note type="description" corresp="#uncut #presentation">illustrations by 
+                                        C. Schloesser, uncut, presentation copy from Swinburne, with inscription 
+                                        on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts, from Algernon Charles
+                                        Swinburne, <date when="1895-08-07"/>August 7th, 1895</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">Macmillan and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1895"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uiuo.ark:/13960/s20bh8s1h8h"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd327">
