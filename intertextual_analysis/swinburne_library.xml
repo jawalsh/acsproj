@@ -2306,6 +2306,12 @@
                         <birth when="1834"/>
                         <death when="1894"/>
                     </person>
+                    <person xml:id="hamilton">
+                        <persName source="http://id.loc.gov/authorities/names/nr99020419">Hamilton, 
+                            George L. (George Livingstone), 1874-1940</persName>
+                        <birth when="1874"/>
+                        <death when="1940"/>
+                    </person>
                     <person xml:id="hannay">
                         <persName source="http://id.loc.gov/authorities/names/n50017733 ">Hannay,
                             David, 1853-1934</persName>
@@ -4890,6 +4896,10 @@
                     <org xml:id="george_routledge_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/n81144562">George 
                             Routledge and Sons</orgName>
+                    </org>
+                    <org xml:id="a_lacroix_verboeckhoven"> 
+                        <orgName source="http://id.loc.gov/authorities/names/n99835512">A. Lacroix, 
+                            Verboeckhoven</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -36148,6 +36158,146 @@
                                     target="https://hdl.handle.net/2027/coo1.ark:/13960/t3jw8xh4d"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd398">
+                            <biblStruct xml:id="wd398.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Chaucer’s Indebtedness to Guido Delle Colonne</title>
+                                    <author corresp="#hamilton">Hamilton, G. L.</author>
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation 
+                                        copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne,
+                                        <date when="1903-03-13"/>March 13th, 1903</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">The Macmillan Company</publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
+                                        <date when="1903"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015047648251"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd416">
+                            <biblStruct xml:id="wd416.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Hesperides and Noble Numbers, edited by A. Pollard, with Preface 
+                                        by A. C. Swinburne</title>
+                                    <author corresp="#herrick">Herrick, Robt.</author>
+                                    <note type="description" corresp="#uncut #presentation">frontispiece, cloth gilt, 
+                                        uncut, presentation copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from A. C. Swinburne, 
+                                        <date when="1891-12-25"/>Xmas 1891</note>
+                                    <imprint>
+                                        <date when="1891"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433074858899"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/umn.319510023584470"/>
+                                <note type="fulltext">This is an 1898 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd421">
+                            <biblStruct xml:id="wd421.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Over Fen and Fold</title>
+                                    <!-- This is the title given in the catalogue, but actual title is "Wold". See item. -->
+                                    <author>Hissey, Jas. John</author>
+                                    <!-- No LCNAF found. -->
+                                    <note type="description" corresp="#uncut #presentation">map and illustrations,
+                                        uncut, presentation copy from Swinburne with autograph inscription 
+                                        on half title.</note>
+                                    <note type="inscription"> W. T. Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1901-04-27"/>April 27th, 1901</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">Macmillan and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1898"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044019321744"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd437">
+                            <biblStruct xml:id="wd437.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>William Shakespeare</title>
+                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <note type="description" corresp="#uncut #presentation">half morocco, uncut, 
+                                        t. e. g. presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his affectionate friend
+                                        Algernon Ch. Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#a_lacroix_verboeckhoven">
+                                            A. Lacroix, Verboeckhoven</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1864"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433082511175"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd439">
+                            <biblStruct xml:id="wd439.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Histoire d’un Crime</title>
+                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation 
+                                        copy from Swinburne, with inscription in pencil.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend Algernon 
+                                        Charles Swinburne</note>
+                                    <imprint>
+                                        <publisher>J. Hetzel</publisher>
+                                        <!-- No LCNAF found for individual, but some for possible organizations. -->
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1877"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uga1.32108000912470"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd440">
+                            <biblStruct xml:id="wd440.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>La Pitié Supreme</title>
+                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <note type="description" corresp="#presentation">pp. 1-32 only, presentation 
+                                        copy from Swinburne, with his autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts, from A. C. Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#michel_levy_freres">Michel Levy Freres</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1879"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015030363165"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd442">
+                            <biblStruct xml:id="wd442.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>OEuvres: Cromwell</title>
+                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <note type="description" corresp="#uncut #presentation">portrait, uncut, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend Algernon 
+                                        Charles Swinburne, <date when="1887-04-05"/>April 5th, 1887</note>
+                                    <imprint>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1876"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015053697895"/>
+                                <note type="fulltext">This is an 1880 edition.</note>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd477">
                             <biblStruct xml:id="wd477.1" corresp="#annotated #presented_by">
                                 <monogr>
@@ -36172,7 +36322,6 @@
                                     <title>Nelson's Words and Deeds</title>
                                     <author>Nelson, Horatio</author>
                                     <editor corresp="#russell">Russell, W. Clark</editor>
-
                                     <note type="description" corresp="#presentation">presentation
                                         copy from Swinburne, with autograph inscription on
                                         half-title: </note>
