@@ -2681,6 +2681,14 @@
                             Captain (Charles Henry), -1855</persName>
                         <death when="1855"/>
                     </person>
+                    <person xml:id="kropotkin">
+                        <persName source="http://id.loc.gov/authorities/names/n79033037">Kropotkin, 
+                            Petr Alekseevich, kni︠a︡zʹ, 1842-1921</persName>
+                        <!-- Entry contains a liguature tie and another unidentified mark, 
+                            not sure how to encode. -->
+                        <birth when="1842"/>
+                        <death when="1921"/>
+                    </person>
                     <person xml:id="kyd">
                         <persName source="http://id.loc.gov/authorities/names/n50058277">Kyd,
                             Thomas, 1558-1594</persName>
@@ -3373,6 +3381,12 @@
                             Thomas, 1567-1601</persName>
                         <birth when="1567"/>
                         <death when="1601"/>
+                    </person>
+                    <person xml:id="nelson">
+                        <persName source="http://id.loc.gov/authorities/names/n80066193">Nelson, 
+                            Horatio Nelson, Viscount, 1758-1805</persName>
+                        <birth when="1758"/>
+                        <death when="1805"/>
                     </person>
                     <person xml:id="nesbit">
                         <persName source="http://id.loc.gov/authorities/names/n85097242">Nesbit, E.
@@ -4910,6 +4924,18 @@
                     <org xml:id="c_and_j_ollier">
                         <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
                             and J. Ollier (Firm)</orgName>
+                    </org>
+                    <org xml:id="j_m_dent_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
+                            Dent &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="sampson_low_marston_searle_rivington">
+                        <orgName source="http://id.loc.gov/authorities/names/nr00003465">Sampson 
+                            Low, Marston, Searle &amp; Rivington</orgName>
+                    </org>
+                    <org xml:id="chatto_windus">
+                        <orgName source="http://id.loc.gov/authorities/names/n85242407">Chatto 
+                            &amp; Windus (Firm)</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -36413,7 +36439,7 @@
                                            </note>
                                     <note type="inscription">W.T. Watts-Dunton, from A.C.S.</note>
                                     <imprint>
-                                        <publisher>J.M. Dent and Co.</publisher>
+                                        <publisher corresp="#j_m_dent_co">J.M. Dent and Co.</publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
@@ -36424,7 +36450,7 @@
                             <biblStruct xml:id="wd477.2" corresp="#annotated #presented_by">
                                 <monogr>
                                     <title>Nelson's Words and Deeds</title>
-                                    <author>Nelson, Horatio</author>
+                                    <author corresp="#nelson">Nelson, Horatio</author>
                                     <editor corresp="#russell">Russell, W. Clark</editor>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from Swinburne, with autograph inscription on
@@ -36432,8 +36458,8 @@
                                     <note type="inscription">Walter Theodore Watts, from Algernon Charles
                                         Swinburne, <date when="1890-11-13">Nov. 13, '90</date></note>
                                     <imprint>
-                                        <publisher>Sampson Low, Marston, Searle, &amp; Rivington,
-                                            Ltd.</publisher>
+                                        <publisher corresp="#sampson_low_marston_searle_rivington">
+                                            Sampson Low, Marston, Searle, &amp; Rivington, Ltd.</publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
@@ -36442,12 +36468,48 @@
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t6c24vd18"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd478">
+                            <biblStruct xml:id="wd478.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Timber, or Discoveries, being Observations on Men and Manners</title>
+                                    <author corresp="#jonson">Jonson, B.</author>
+                                    <note type="description" corresp="#presentation">portrait, limp morocco, 
+                                        t. e. g. presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts Dunton, from A. C. Swinburne, 
+                                        <date when="1898-10-12"/>Oct. 12, 1898</note>
+                                    <imprint>
+                                        <date when="1898"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015000586134"/>
+                                <note type="fulltext">This is an American version from 1892.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd483">
+                            <biblStruct xml:id="wd483.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Letters to his Family and Friends, edited by Sidney Colvin</title>
+                                    <author corresp="#keats">Keats, J.</author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from Algernon Charles 
+                                        Swinburne, <date when="1891-06-24"/>June 24th, 1891</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">Macmillan and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015011528232"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd545">
                             <biblStruct xml:id="wd545.1" corresp="#annotated #presented_by">
                                 <monogr>
                                     <title>Hellenics, enlarged and completed</title>
                                     <author corresp="#landor_w">Landor, W. S.</author>
-
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy with inscription in Swinburne's writing:
                                             </note>
@@ -36461,6 +36523,28 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044086805694"/>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                    <div type="size" n="folio">
+                        <listBibl type="lot" xml:id="wd503">
+                            <biblStruct xml:id="wd503.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Atalanta in Calydon</title>
+                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <note type="description" corresp="#uncut #presentation">one of 250 copies,
+                                        printed in black and red, ornamental borders and initials, vellum, uncut, with 
+                                        ties, presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from Algernon Charles 
+                                        Swinburne, <date when="1894-08-14"/>August 14th, 1894</note>
+                                    <imprint>
+                                        <publisher corresp="#chatto_windus">Chatto &amp; Windus</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1894"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015065549480"/>
                             </biblStruct>
                         </listBibl>
                     </div>
