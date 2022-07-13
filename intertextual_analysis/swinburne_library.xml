@@ -2601,6 +2601,12 @@
                         <birth when="1866"/>
                         <death when="1941"/>
                     </person>
+                    <person xml:id="jerrold">
+                        <persName source="http://id.loc.gov/authorities/names/n50039198">Jerrold, 
+                            Douglas, 1803-1857</persName>
+                        <birth when="1803"/>
+                        <death when="1857"/>
+                    </person>
                     <person xml:id="johnson_r">
                         <persName source="http://id.loc.gov/authorities/names/n86025566">Johnson,
                             Robert Underwood, 1853-1937</persName>
@@ -4901,6 +4907,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n99835512">A. Lacroix, 
                             Verboeckhoven</orgName>
                     </org>
+                    <org xml:id="c_and_j_ollier">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
+                            and J. Ollier (Firm)</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -5102,6 +5112,11 @@
                             James, 1814-1893</persName>
                         <birth when="1814"/>
                         <death when="1893"/>
+                    </person>
+                    <person xml:id="colburn">
+                        <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
+                            Henry, -1855</persName>
+                        <death when="1855"/>
                     </person>
                 </listPerson>
                 
@@ -36296,6 +36311,95 @@
                                 <relatedItem n="1" type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015053697895"/>
                                 <note type="fulltext">This is an 1880 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd443">
+                            <biblStruct xml:id="wd443.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>OEuvres: Notre Dame de Paris</title>
+                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <note type="description" corresp="#uncut #presentation">portrait, uncut, 
+                                        presentation copy from Swinburne, with inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend 
+                                        A. C. Swinburne</note>
+                                    <imprint>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1879"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/chi.14562755"/>
+                                <note type="fulltext">This is an 1878 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd446">
+                            <biblStruct xml:id="wd446.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Foliage: or Poems Original and Translated</title>
+                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <note type="description" corresp="#presentation">half calf gilt, presentation 
+                                        copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton, from Algernon Charles 
+                                        Swinburne, <date when="1909-03-05"/>March 5th, 1909</note>
+                                    <edition corresp="#first_ed">First edition.</edition>
+                                    <imprint>
+                                        <publisher corresp="#c_and_j_ollier">C. and J. Ollier</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1818"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433074906706"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd469">
+                            <biblStruct xml:id="wd469.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Men of Character</title>
+                                    <author corresp="#jerrold">Jerrold, Douglas</author>
+                                    <note type="description" corresp="#presentation">illustrations by W. M. 
+                                        Thackeray, half calf, presentation copy  from Swinburne, with autograph 
+                                        inscription on title.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend 
+                                        A. C. Swinburne</note>
+                                    <edition corresp="#first_ed">First edition.</edition>
+                                    <imprint>
+                                        <publisher corresp="#colburn">H. Colburn</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1838"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="3"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/menofcharacter01jerr"/>
+                                <relatedItem n="2" type="ia"
+                                    target="https://archive.org/details/menofcharacter02jerr"/>
+                                <relatedItem n="3" type="ia"
+                                    target="https://archive.org/details/menofcharacter03jerr"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd476">
+                            <biblStruct xml:id="wd476.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works, with a Biographical Memoir by William Gifford</title>
+                                    <author corresp="#jonson">Jonson, Ben</author>
+                                    <note type="description" corresp="#presentation">portrait and vignette, brown 
+                                        cloth, presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his afiectionate friend 
+                                        A. C. Swinburne, <date when="1884-03"/>March, 1884</note>
+                                    <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            George Routledge and Sons</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1879"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn2wzz"/>
+                                <note type="fulltext">There is an additional note in the catalogue, as follows: "The 
+                                    poet Swinburne has written in his characteristic hand writing on the half-title of this 
+                                    volume a copy of the sonnet he composed on Ben Jonson, commencing 'Broad 
+                                    based, broad fronted, bounteous, I-multiform.' This is written in 14 lines."</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd477">
