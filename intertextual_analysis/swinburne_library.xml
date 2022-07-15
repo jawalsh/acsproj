@@ -4937,6 +4937,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n85242407">Chatto 
                             &amp; Windus (Firm)</orgName>
                     </org>
+                    <org xml:id="saunders_and_otley">
+                        <orgName source="http://id.loc.gov/authorities/names/nr89001366">Saunders 
+                            and Otley</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -36505,6 +36509,105 @@
                                     target="https://hdl.handle.net/2027/mdp.39015011528232"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd528">
+                            <biblStruct xml:id="wd528.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Memoirs of a Revolutionist with Preface by George Brandes</title>
+                                    <author corresp="#kropotkin">Kropotkin, P.</author>
+                                    <note type="description" corresp="#presentation">portraits, red cloth, 
+                                        presentation copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton from Algernon Charles 
+                                        Swinburne, <date when="1899-12-30"/>Dec. 30th, 1899, <!-- there's a note 
+                                        in Greek here --> —Aesch. Pers. 402-404</note>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">Smith, Elder &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1899"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/njp.32101047667462"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/njp.32101047667454"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd539">
+                            <biblStruct xml:id="wd539.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Gebir, Count Julian, and other Poems</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon
+                                        Charles Swinburne, <date when="1899-06-07"/>June 7th, 1899</note>
+                                    <edition corresp="#first_ed">First edition.</edition>
+                                    <imprint>
+                                        <date when="1831"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t0ht2mh4k"/>
+                                <note type="fulltext">This does not appear to be the first edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd540">
+                            <biblStruct xml:id="wd540.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Gebir, Count Julian, and other Poems</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#presentation">half calf, presentation copy 
+                                        from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from 
+                                        A. C. Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#moxon">Edward Moxon</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1831"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t0ht2mh4k"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd542">
+                            <biblStruct xml:id="wd542.2" corresp="#presented_by #signed">
+                                <monogr>
+                                    <title>Merry Devil of Edmonton, edited with Notes, etc. by H. Walker</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#uncut #presentation">frontispiece, uncut, 
+                                        presentation copy from Swinburne, written on half-title in pencil.</note>
+                                    <note type="inscription">W. T. W. D. from A. C. S</note>
+                                    <imprint>
+                                        <publisher corresp="#j_m_dent_co">J. M. Dent and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/merrydevilofedmo00fabe/"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd543">
+                            <biblStruct xml:id="wd543.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>The Pentameron and Pentalogia</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#presentation">half morocco, t. e. g. 
+                                        presentation copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1900-04"/>April, 1900</note>
+                                    <edition corresp="#first_ed">First edition.</edition>
+                                    <imprint>
+                                        <publisher corresp="#saunders_and_otley">Saunders and Otley</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1837"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.$b162545"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd545">
                             <biblStruct xml:id="wd545.1" corresp="#annotated #presented_by">
                                 <monogr>
@@ -36523,6 +36626,25 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044086805694"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd549">
+                            <biblStruct xml:id="wd549.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title xml:lang="la">Poemata et Inscriptiones</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne with autograph inscription on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton from Algernon
+                                        Charles Swinburne, in aeternam dilectissimamque memoriam W. S. L.</note>
+                                    <edition corresp="#first_ed">First edition.</edition>
+                                    <imprint>
+                                        <date when="1847"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/poemataetinscri00landgoog/"/>
+                                <note type="fulltext">Labeled "novis auxit", i.e. New Edition.</note>
                             </biblStruct>
                         </listBibl>
                     </div>
