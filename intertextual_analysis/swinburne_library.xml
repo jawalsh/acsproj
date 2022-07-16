@@ -1340,6 +1340,12 @@
                             W. R. (William Rufus), -1766</persName>
                         <death when="1766"/>
                     </person>
+                    <person xml:id="church">
+                        <persName source="http://id.loc.gov/authorities/names/n50041178">Church, 
+                            Alfred John, 1829-1912</persName>
+                        <birth when="1829"/>
+                        <death when="1912"/>
+                    </person>
                     <person xml:id="cibber">
                         <persName source="http://id.loc.gov/authorities/names/n80005833">Cibber,
                             Colley, 1671-1757</persName>
@@ -4941,6 +4947,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr89001366">Saunders 
                             and Otley</orgName>
                     </org>
+                    <org xml:id="seeley_and_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n82240727">Seeley 
+                            and Co.</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -5147,6 +5157,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
                             Henry, -1855</persName>
                         <death when="1855"/>
+                    </person>
+                    <person xml:id="lemerre">
+                        <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
+                            Lemerre, éditeur</persName>
                     </person>
                 </listPerson>
                 
@@ -36647,6 +36661,67 @@
                                 <note type="fulltext">Labeled "novis auxit", i.e. New Edition.</note>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd550">
+                            <biblStruct xml:id="wd550.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Last Fruit off an Old Tree</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#presentation">original cloth, presentation 
+                                        copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription"> Walter Theodore Watts Dunton from Algernon Charles 
+                                        Swinburne, <date when="1898-01-03"/>Jan. 3rd, 1898</note>
+                                    <edition corresp="#first_ed">First edition.</edition>
+                                    <imprint>
+                                        <publisher corresp="#moxon">Edward Moxon</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1853"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t3zs2qp71"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd553">
+                            <biblStruct xml:id="wd553.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Charles James Fox, a Commentary on his Life and Character, 
+                                        edited by S. Wheeler</title>
+                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <note type="description" corresp="#presentation">portrait, presentation
+                                        copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">W.T. Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1907-05-04"/>May 4th, 1907 </note>
+                                    <imprint>
+                                        <publisher corresp="#murray_j">John Murray</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1907"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015063637857"/>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                    <div type="size" n="quarto">
+                        <listBibl type="lot" xml:id="wd569">
+                            <biblStruct xml:id="wd569.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Le Tombeau</title>
+                                    <author corresp="#gautier">Gautier, Théophile</author>
+                                    <note type="description" corresp="#uncut #presentation">portrait, limp vellum, 
+                                        uncut, presentation copy from Swinburne, with autograph inscription on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts, from his friend 
+                                        Algernon Charles Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#lemerre">Alphonse Lemerre</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1873"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/loc.ark:/13960/t2s47z980"/>
+                            </biblStruct>
+                        </listBibl>     
                     </div>
                     <div type="size" n="folio">
                         <listBibl type="lot" xml:id="wd503">
@@ -36669,6 +36744,26 @@
                                     target="https://hdl.handle.net/2027/mdp.39015065549480"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd588">
+                            <biblStruct xml:id="wd588.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>The Laureate’s Country, Description of Places connected with the Life of 
+                                        Lord Tennyson</title>
+                                    <author corresp="#church">Church, Alfred J.</author>
+                                    <note type="description" corresp="#presentation">illustrations, green cloth, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1902-04-14"/>April 14th, 1902</note>
+                                    <imprint>
+                                        <publisher corresp="#seeley_and_co">Seeley and Co., Limited</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t43r15217"/>
+                            </biblStruct>
+                        </listBibl>
                     </div>
                 </div>
                 <div type="day" n="3">
@@ -36678,7 +36773,6 @@
                                 <monogr>
                                     <title>Life and Death of the Merry Deuill of Edmonton</title>
                                     <author>T.B.</author>
-
                                     <note type="description">woodcut on title, Swinburne's copy,
                                         with pencil note in his writing</note>
                                     <imprint>
@@ -36686,8 +36780,7 @@
                                         <respStmt>
                                             <resp>printer</resp>
                                             <orgName>J. Nichols and Son</orgName>
-                                        </respStmt>
-                                        
+                                        </respStmt>                                      
                                         <date when="1819"/>
                                     </imprint>
                                 </monogr>
@@ -36701,7 +36794,6 @@
                                     <title>Lyrics from the Dramatists of the Elizabethan Age</title>
                                     <author/>
                                     <editor>Bullen, A.H. (Arthur Henry)</editor>
-
                                     <note type="description" corresp="#presentation #uncut">buckram,
                                         uncut, presentation copy with inscription in Swinburne's
                                         writing: </note>
@@ -36736,8 +36828,7 @@
                                         affectionate friend Algernon Charles Swinburne</note><!-- half title inscription-->
                                     <note type="inscription">poem</note>
                                     <imprint>
-                                        <publisher/>
-                                        
+                                        <publisher/>                                      
                                         <date/>
                                     </imprint>
                                 </monogr>
