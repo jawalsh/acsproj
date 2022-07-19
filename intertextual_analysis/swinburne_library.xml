@@ -2799,6 +2799,12 @@
                         <birth cert="unknown" when="1653"/>
                         <death when="1692"/>
                     </person>
+                    <person xml:id="lee_s">
+                        <persName source="http://id.loc.gov/authorities/names/n50039716">Lee, 
+                            Sidney, Sir, 1859-1926</persName>
+                        <birth when="1859"/>
+                        <death when="1926"/>
+                    </person>
                     <person xml:id="lehmann">
                         <persName source="http://id.loc.gov/authorities/names/n82096267">Lehmann, R.
                             C. (Rudolf Chambers), 1856-1929</persName>
@@ -2834,6 +2840,12 @@
                             G. (Matthew Gregory), 1775-1818</persName>
                         <birth when="1775"/>
                         <death when="1818"/>
+                    </person>
+                    <person xml:id="leyland">
+                        <persName source="http://id.loc.gov/authorities/names/no2020109608">Leyland, 
+                            John, 1857?-1924</persName>
+                        <birth when="1857" cert="unknown"/>
+                        <death when="1924"/>
                     </person>
                     <person xml:id="liddell">
                         <persName source="http://id.loc.gov/authorities/names/n50050382">Liddell,
@@ -2964,6 +2976,12 @@
                     <person xml:id="lyte">
                         <persName source="http://id.loc.gov/authorities/names/nr92004097">Lyte, H.
                             C. Maxwell, Sir</persName>
+                    </person>
+                    <person xml:id="lytton">
+                        <persName source="http://id.loc.gov/authorities/names/n81061467">Lytton, 
+                            Edward Robert Bulwer Lytton, Earl of, 1831-1891</persName>
+                        <birth when="1831"/>
+                        <death when="1891"/>
                     </person>
                     <person xml:id="mabie">
                         <persName source="http://id.loc.gov/authorities/names/n50041977">Mabie,
@@ -3106,6 +3124,12 @@
                     <person xml:id="marriott">
                         <persName source="http://id.loc.gov/authorities/names/n83230285">Marriott,
                             William, Ph. Dr.</persName>
+                    </person>
+                    <person xml:id="marryat">
+                        <persName source="http://id.loc.gov/authorities/names/n50059513">Marryat, 
+                            Frederick, 1792-1848</persName>
+                        <birth when="1792"/>
+                        <death when="1848"/>
                     </person>
                     <person xml:id="marston_j">
                         <persName source="http://id.loc.gov/authorities/names/n79138755">Marston,
@@ -4951,6 +4975,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n82240727">Seeley 
                             and Co.</orgName>
                     </org>
+                    <org xml:id="sandoz_et_fischbacher">
+                        <orgName source="http://id.loc.gov/authorities/names/no2009104791">Sandoz 
+                            et Fischbacher</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -5161,6 +5189,10 @@
                     <person xml:id="lemerre">
                         <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
                             Lemerre, éditeur</persName>
+                    </person>
+                    <person xml:id="gibbings">
+                      <persName source="http://id.loc.gov/authorities/names/n94101558">Gibbings, 
+                        W. W.</persName>
                     </person>
                 </listPerson>
                 
@@ -36768,6 +36800,44 @@
                 </div>
                 <div type="day" n="3">
                     <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd597">
+                            <biblStruct xml:id="wd597.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Autobiography of Edward Lord Herbert of Cherbury, with Notes, etc.</title>
+                                    <author corresp="#lee_s">Lee, Sidney L.</author>
+                                    <note type="description" corresp="#presentation">portraits, presentation 
+                                        copy from Swinburne, with inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from his friend Algernon 
+                                        Charles Swinburne, <date when="1892-06"/>June, 1892</note>
+                                    <imprint>
+                                        <publisher corresp="#gibbings">William W. Gibbings</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1892"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/wu.89099752578"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd602">
+                            <biblStruct xml:id="wd602.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>The Peak of Derbyshire, its Scenery and Antiquities</title>
+                                    <author corresp="#leyland">Leyland, John</author>
+                                    <note type="description" corresp="#presentation">illustrations by A.  Dawson and 
+                                        H. Railton, presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1905-09-04"/>Sept. 4, 1905</note>
+                                    <imprint>
+                                        <publisher corresp="#seeley_and_co">Seeley and Co. Limited</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.ax0002551109"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd606">
                             <biblStruct xml:id="wd606.1" corresp="#owned #annotated">
                                 <monogr>
@@ -36786,6 +36856,24 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hxg8u4"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd610">
+                            <biblStruct xml:id="wd610.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Le Livre des Sonnets: Quatorze dizains de Sonnets Choisis</title>
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation 
+                                        copy from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from Algernon Charles
+                                        Swinburne, <date when="1882-03"/>March, 1882</note>
+                                    <imprint>
+                                        <publisher corresp="#lemerre">Alphonse Lemerre</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1875"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015059668395"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd621">
@@ -36807,6 +36895,60 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwpj3d"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd623">
+                            <biblStruct xml:id="wd623.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Night and Morning</title>
+                                    <author corresp="#lytton">Lytton, Lord</author>
+                                    <note type="description" corresp="#presentation">frontispiece, limp morocco, t. e. g. 
+                                        presentation copy from Swinburne, with autograph inscription on half-title, 
+                                        written in pencil</note>
+                                    <note type="inscription">To W. T. Watts-Dunton, from A. C. Swinburne</note>
+                                    <imprint>
+                                        <date when="1903"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t84j0dx6q"/>
+                                <note type="fulltext">This is an American version from 1899.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd624">
+                            <biblStruct xml:id="wd624.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Night and Morning</title>
+                                    <author corresp="#lytton">Lytton, Lord</author>
+                                    <note type="description" corresp="#uncut #presentation">brown cloth, uncut, 
+                                        presentation copy from Swinburne, with autograph inscription on half-title.</note>
+                                    <note type="inscription">W. T. Watts-Dunton, from A. C. Swinburne,
+                                        <date when="1903-05-06"/>May 6th, 1903</note>
+                                    <imprint>
+                                        <date>n.d.</date>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t84j0dx6q"/>
+                                <note type="fulltext">This is an American version from 1899.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd625">
+                            <biblStruct xml:id="wd625.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Lucretia, or The Children of Night</title>
+                                    <author corresp="#lytton">Lytton, Lord</author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton, from A. C. Swinburne, 
+                                        <date when="1903-05-06"/>May 6th, 1903</note>
+                                    <imprint>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044086832193"/>
+                                <note type="fulltext">This is an American version from 1892.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd638">
@@ -36837,6 +36979,73 @@
                                 <note type="fulltext">Cannot tell edition without date, but 1850
                                     edition (linked) seems most likely since no date on title
                                     page.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd641">
+                            <biblStruct xml:id="wd641.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Peter Simple, with Introduction by D. Hannay</title>
+                                    <author corresp="#marryat">Marryat, Capt.</author>
+                                    <note type="description" corresp="#presentation">illustrations, limp morocco, t. e. g. 
+                                        presentation copy from Swinburne with inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1908-09-02"/>Sept. 2, 1908</note>
+                                    <imprint>
+                                        <date when="1904"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn3q7p"/>
+                                <note type="fulltext">This is a 1902 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd645">
+                            <biblStruct xml:id="wd645.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Dramatic Works, with an Introduction by Hartley Coleridge</title>
+                                    <author corresp="#massinger">
+                                        <persName>Massinger</persName>
+                                    </author>
+                                    <author corresp="#ford_j">
+                                        <persName>Ford</persName>
+                                    </author>
+                                    <note type="description" corresp="#presentation">portrait and vignette, brown cloth,
+                                        presentation copy from Swinburne with autograph inscription. This volume is 
+                                        rendered extremely interesting by the Poet Swinburne having written in his 
+                                        characteristic handwriting a copy of his sonnet on Philip Massinger, commencing:
+                                        “Clouds here and there arisen an hour past noon.” This finishes with his 
+                                        signature “A. C. S."</note>
+                                    <note type="inscription"> Walter Theodore Watts from his affectionate friend
+                                        Algernon Ch. Swinburne, <date when="1884-03"/>March 1884</note>
+                                    <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            George Routledge and Sons</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1875"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.32044014716138"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd655">
+                            <biblStruct xml:id="wd655.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Les Poésies de Catulle Mendès, premère série</title>
+                                    <author corresp="#mendès">Mendès</author>
+                                    <note type="description" corresp="#uncut #presentation">portrait, uncut (wanting 
+                                        pp. 89-102), presentation copy from Swinburne with inscription.</note>
+                                    <note type="inscription">A. C. Swinburne to W. T. Watts, 
+                                        <date when="1882-11"/>Nov. 1882</note>
+                                    <imprint>
+                                        <publisher corresp="#sandoz_et_fischbacher">
+                                            Sandoz et Fischbacher, Editeurs</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1876"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/wu.89065621021"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd790">
