@@ -354,6 +354,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/7013352" xml:id="baltimore">
                         <placeName type="preferred">Baltimore</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7003712" xml:id="berlin">
+                        <placeName type="preferred">Berlin</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7010955" xml:id="birmingham">
                         <placeName type="preferred">Birmingham</placeName>
                     </place>
@@ -2654,6 +2657,10 @@
                         <birth when="1809"/>
                         <death when="1893"/>
                     </person>
+                    <person xml:id="kemble_a">
+                        <persName source="http://id.loc.gov/authorities/names/n00027610">Kemble, 
+                            Adelaide</persName>
+                    </person>
                     <person xml:id="ker">
                         <persName source="http://id.loc.gov/authorities/names/nr91018978">Ker, John
                             Bellenden, 1765?-1842</persName>
@@ -3600,6 +3607,10 @@
                         <birth when="1729"/>
                         <death when="1811"/>
                     </person>
+                    <person xml:id="perrett">
+                        <persName source="http://id.loc.gov/authorities/names/n87111728">Perrett, 
+                            W.</persName>
+                    </person>
                     <person xml:id="petrarca">
                         <persName source="http://id.loc.gov/authorities/names/n79092622">Petrarca,
                             Francesco, 1304-1374</persName>
@@ -3909,6 +3920,12 @@
                             William Clark, 1844-1911</persName>
                         <birth when="1844"/>
                         <death when="1911"/>
+                    </person>
+                    <person xml:id="rutter">
+                        <persName source="http://id.loc.gov/authorities/names/no97013777">Rutter, 
+                            Frank, 1876-1937</persName>
+                        <birth when="1876"/>
+                        <death when="1937"/>
                     </person>
                     <person xml:id="sade">
                         <persName source="http://id.loc.gov/authorities/names/n80005109">Sade,
@@ -4703,6 +4720,12 @@
                         <birth when="1854"/>
                         <death when="1900"/>
                     </person>
+                    <person xml:id="wilkes">
+                        <persName source="http://id.loc.gov/authorities/names/n79021681">Wilkes, 
+                            John, 1725-1797</persName>
+                        <birth when="1725"/>
+                        <death when="1797"/>
+                    </person>
                     <person xml:id="wilkins">
                         <persName source="http://id.loc.gov/authorities/names/nr93013027">Wilkins,
                             William, 1852-</persName>
@@ -4978,6 +5001,10 @@
                     <org xml:id="sandoz_et_fischbacher">
                         <orgName source="http://id.loc.gov/authorities/names/no2009104791">Sandoz 
                             et Fischbacher</orgName>
+                    </org>
+                    <org xml:id="brown_langham_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2021119077">Brown, 
+                            Langham &amp; Co.</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -37048,12 +37075,52 @@
                                     target="https://hdl.handle.net/2027/wu.89065621021"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd703">
+                            <biblStruct xml:id="wd703.2" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>An Essay on Woman</title>
+                                    <author corresp="#wilkes">Wilkes, J.</author>
+                                    <note type="description" corresp="#presentation">presentation copy from Swinburne 
+                                        with inscription.</note>
+                                    <note type="inscription">To W. T. Watts-Dunton from A. C. Swinburne</note>
+                                    <imprint>
+                                        <publisher>James Hay</publisher>
+                                        <!-- Difficult to determine correct LCNAF if one exists. -->
+                                        <pubPlace ref="#aberdeen">Aberdeen</pubPlace>
+                                        <date when="1888"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175035206336"/>
+                                <note type="fulltext">This edition was published in 1788, but also in Aberdeen.
+                                    Possibly a typo in the catalogue.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd744">
+                            <biblStruct xml:id="wd744.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Story of King Lear from Geoffrey of Monmouth to Shakespeare</title>
+                                    <author corresp="#perrett">Perrett, W.</author>
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation copy 
+                                        from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1907-12-02"/>Dec. 2, 1907</note>
+                                    <imprint>
+                                        <publisher>Mayer &amp; Müller</publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#berlin">Berlin</pubPlace>
+                                        <date when="1904"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015013431864"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd790">
                             <biblStruct xml:id="wd790.1" corresp="#owned #annotated">
                                 <monogr>
                                     <title>Essays towards a Critical Method</title>
                                     <author>Robertson, John M.</author>
-
                                     <note type="description">red cloth, Swinburne's copy, with note
                                         in his writing on title: </note>
                                     <note type="inscription">Do let me feel this gentleman's
@@ -37068,18 +37135,39 @@
                                     target="https://hdl.handle.net/2027/hvd.hxcrfs"/>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd827">
+                            <biblStruct xml:id="wd827.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Some Reminiscences</title>
+                                    <author corresp="#rossetti">Rossetti, W. M.</author>
+                                    <note type="description" corresp="#uncut #presentation">portraits, etc. buckram, 
+                                        uncut, t. e. g. presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1906-10-18"/>Oct. 18th, 1906</note>
+                                    <imprint>
+                                        <publisher corresp="#brown_langham_co">
+                                            Brown, Langham &amp; Co. Ltd.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1906"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.b4107782"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.b4107783"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd834">
                             <biblStruct xml:id="wd834.1" corresp="#annotated">
                                 <monogr>
                                     <title>Selections from the Writings of John Ruskin: 1860-1888,
                                         second series</title>
                                     <author corresp="#ruskin">Ruskin, J.</author>
-
                                     <note type="description">portrait, green cloth, some pencil
                                         notes on fly-leaf in Swinburne's handwriting</note>
                                     <imprint>
                                         <publisher/>
-                                        
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -37087,6 +37175,74 @@
                                     target="https://hdl.handle.net/2027/mdp.39015001359473"/>
                                 <note type="fulltext">HT copy appears to be a different
                                     edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd837">
+                            <biblStruct xml:id="wd837.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Dante Gabriel Rossetti, Painter and Man of Letters</title>
+                                    <author corresp="#rutter">Rutter, Frank</author>
+                                    <note type="description" corresp="#uncut #presentation">24 illustrations, limp 
+                                        morocco, uncut, t. e. g. presentation copy from Swinburne with inscription.</note>
+                                    <note type="inscription">Theodore Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1908-12-25"/>Xmas, 1908</note>
+                                    <imprint>
+                                        <publisher>Grant Richards</publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date>n.d.</date>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175006884640"/>
+                                <note type="fulltext">HT copy does not appear to have a published date, but
+                                    catalog record has date listed as 1908. Illustrations are also present.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd843">
+                            <biblStruct xml:id="wd843.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>A Week in a French Country-House</title>
+                                    <author corresp="#kemble_a">Sartoris, Adelaide</author>
+                                    <note type="description" corresp="#presentation">portrait and illustrations, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1903-01-01"/>New Year’s Day, 1903</note>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            Smith, Elder &amp; Co.
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1902"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hnp691"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd847">
+                            <biblStruct xml:id="wd847.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Rob Roy</title>
+                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation copy 
+                                        from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">W. T. Watts-Dunton, from A. C. Swinburne, 
+                                        <date when="1904-05-09"/>May 9th, 1904</note>
+                                    <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            Archibald Constable and Co.</publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
+                                        <date when="1818"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="3"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175035206930"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175035206807"/>
+                                <relatedItem n="3" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175035206872"/>
                             </biblStruct>
                         </listBibl>
                     </div>
