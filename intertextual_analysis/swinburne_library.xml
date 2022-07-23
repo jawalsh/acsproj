@@ -5221,6 +5221,12 @@
                       <persName source="http://id.loc.gov/authorities/names/n94101558">Gibbings, 
                         W. W.</persName>
                     </person>
+                    <person corresp="douglas">
+                        <persName source="http://id.loc.gov/authorities/names/no93024045">Douglas, 
+                            David, 1823-1916</persName>
+                        <birth when="1823"/>
+                        <death when="1916"/>
+                    </person>
                 </listPerson>
                 
             </div>
@@ -37243,6 +37249,81 @@
                                     target="https://hdl.handle.net/2027/uc1.31175035206807"/>
                                 <relatedItem n="3" type="ht"
                                     target="https://hdl.handle.net/2027/uc1.31175035206872"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd849">
+                            <biblStruct xml:id="wd849.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Waverley Novels, vol. XIV</title>
+                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne, with inscription.</note>
+                                    <note type="inscription"> Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne</note>
+                                    <imprint>
+                                        <date when="1830"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433112022532"/>
+                                <note type="fulltext">This is an 1836 American edition, with volumes 13 and 14
+                                    combined together.</note>
+                            </biblStruct>
+                            <biblStruct xml:id="wd849.2" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>In Memoriam</title>
+                                    <author corresp="#tennyson">Tennyson, A.</author>
+                                    <note type="description" corresp="#presentation">presentation copy from 
+                                        Swinburne, with inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1906-01-10"/>Jan. 10th, 1906</note>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">Macmillan and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1905"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015033583801"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd853">
+                            <biblStruct xml:id="wd853.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Journal, from the original Manuscript at Abbotsford</title>
+                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <note type="description" corresp="#presentation">portrait, presentation copy from 
+                                        Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from his brother in Scott Algernon 
+                                        Charles Swinburne, <date when="1890-11-22"/>November 22nd, 1890</note>
+                                    <imprint>
+                                        <publisher corresp="#douglas">David Douglas</publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
+                                        <date when="1890"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwp42x"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hwp42y"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd877">
+                            <biblStruct xml:id="wd877.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Rivers of Great Britain, Descriptive, Historical, Pictorial, East Coast</title>
+                                    <note type="description" corresp="#presentation">numerous illustrations, blue cloth, 
+                                        g. e. presentation copy from Swinburne, with autograph inscription on the title.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1900-06-03"/>June 3rd, 1900</note>
+                                    <imprint>
+                                        <date when="1889"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.c3394150"/>
+                                <note type="fulltext">This is an 1892 edition.</note>
                             </biblStruct>
                         </listBibl>
                     </div>
