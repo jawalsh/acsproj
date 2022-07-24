@@ -5006,6 +5006,14 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2021119077">Brown, 
                             Langham &amp; Co.</orgName>
                     </org>
+                    <org xml:id="cassell_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99031535">Cassell 
+                            &amp; Company</orgName>
+                    </org>
+                    <org xml:id="bradbury_agnew_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no99016369">Bradbury, 
+                            Agnew and Co.</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -37309,6 +37317,8 @@
                                     target="https://hdl.handle.net/2027/hvd.hwp42y"/>
                             </biblStruct>
                         </listBibl>
+                    </div>
+                    <div type="size" n="quarto">
                         <listBibl type="lot" xml:id="wd877">
                             <biblStruct xml:id="wd877.1" corresp="#presented_by #annotated">
                                 <monogr>
@@ -37326,10 +37336,112 @@
                                 <note type="fulltext">This is an 1892 edition.</note>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd878">
+                            <biblStruct xml:id="wd878.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Rivers of Great Britain. The Thames from Source to Sea</title>
+                                    <note type="description" corresp="#presentation">numerous illustrations, green 
+                                        cloth, g. e. presentation copy from Swinburne, with autograph inscription on 
+                                        half-title.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne, 
+                                        <date when="1906-04-12"/>April 12, 1906 </note>
+                                    <imprint>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.e0000914507"/>
+                                <note type="fulltext">This is an 1885 edition.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd879">
+                            <biblStruct xml:id="wd879.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Rivers of Great Britain. Descriptive, Historical, Pictorial, South and West 
+                                        Coasts</title>
+                                    <note type="description" corresp="#presentation">numerous illustrations, red cloth,
+                                        g. e. presentation copy from Swinburne, with autograph inscription on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1900-06-07"/>June 7th, 1900</note>
+                                    <imprint>
+                                        <publisher corresp="#cassell_co">Cassell and Company</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/pst.000072246184"/>
+                            </biblStruct>
+                        </listBibl>
                     </div>
                 </div>
                 <div type="day" n="4">
                     <div type="size" n="octavo">
+                        <listBibl type="lot" xml:id="wd908">
+                            <biblStruct xml:id="wd908.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Works, Handy Volume Edition</title>
+                                    <author corresp="#shakespeare">Shakespeare, W.</author>
+                                    <note type="description" corresp="#presentation">wanting vol. II, binding broken, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton from Algernon Charles 
+                                        Swinburne, <date when="1900-05-16"/>May 16th, 1900</note>
+                                    <imprint>
+                                        <publisher corresp="#bradbury_agnew_co">
+                                            Bradbury, Agnew, and Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1866"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="13"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq3"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq4"/>
+                                <relatedItem n="3" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq5"/>
+                                <relatedItem n="4" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq6"/>
+                                <relatedItem n="5" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq7"/>
+                                <relatedItem n="6" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq8"/>
+                                <relatedItem n="7" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pq9"/>
+                                <relatedItem n="8" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pqa"/>
+                                <relatedItem n="9" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pqb"/>
+                                <relatedItem n="10" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pqc"/>
+                                <relatedItem n="11" type="ht"
+                                    target="https://hdl.handle.net/2027/nyp.33433074896972"/>
+                                <relatedItem n="12" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pqe"/>
+                                <relatedItem n="13" type="ht"
+                                    target="https://hdl.handle.net/2027/hvd.hn6pqf"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd923">
+                            <biblStruct xml:id="wd923.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>The Cenci</title>
+                                    <author corresp="#shelley_p">Shelley, P. B.</author>
+                                    <note type="description" corresp="#presentation">morocco, inside leafy borders, g. e. 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts, from Algernon Charles Swinburne, 
+                                        <date when="1887-10-03"/>Oct. 3, 1887</note>
+                                    <edition corresp="#sec_ed">Second edition.</edition>
+                                    <imprint>
+                                        <publisher corresp="#c_and_j_ollier">C and J Ollier</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1821"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/dul1.ark:/13960/t49p49d44"/>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd926">
                             <biblStruct xml:id="wd926.1" corresp="#owned #signed">
                                 <monogr>
