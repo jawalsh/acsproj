@@ -4386,6 +4386,12 @@
                         <birth when="1800"/>
                         <death when="1871"/>
                     </person>
+                    <person xml:id="swift">
+                        <persName source="http://id.loc.gov/authorities/names/n78096912">Swift, 
+                            Jonathan, 1667-1745</persName>
+                        <birth when="1667"/>
+                        <death when="1745"/>
+                    </person>
                     <person xml:id="swinburne">
                         <persName source="http://id.loc.gov/authorities/names/n79047585">Swinburne,
                             Algernon Charles, 1837-1909</persName>
@@ -5013,6 +5019,10 @@
                     <org xml:id="bradbury_agnew_co">
                         <orgName source="http://id.loc.gov/authorities/names/no99016369">Bradbury, 
                             Agnew and Co.</orgName>
+                    </org>
+                    <org xml:id="kegan_paul_trench_trubner_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n82010410">Kegan 
+                            Paul, Trench, Trubner &amp; Co.</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -37468,19 +37478,79 @@
                                 </monogr>
                             </biblStruct>
                         </listBibl>
+                        <listBibl type="lot" xml:id="wd934">
+                            <biblStruct xml:id="wd934.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Les Cenci, Drame, traduction de Tola Dorian, avec Préface de 
+                                        A. C. Swinburne</title>
+                                    <author corresp="#shelley_p">Shelley, Percy Bysshe</author>
+                                    <note type="description" corresp="#uncut #presentation">uncut, presentation copy
+                                        from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription"> W. T. Watts from his friend A. C. Swinburne</note>
+                                    <imprint>
+                                        <publisher corresp="#lemerre">Alphonse Lemerre</publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1883"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.aa0003796968"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd945">
+                            <biblStruct xml:id="wd945.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Countess of Pembroke’s Arcadia, the original quarto edition (1590) in 
+                                        photographic facsimile, with bibliographical introduction, edited by 
+                                        H. Oskar Sommer</title>
+                                    <author corresp="#sidney_p1554">Sidney, Sir P.</author>
+                                    <note type="description" corresp="#uncut #presentation">one of 300 copies, uncut, 
+                                        presentation copy from Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">To Walter Theodore Watts from Algernon Charles 
+                                        Swinburne, <date when="1891-12-25"/>Christmas, 1891</note>
+                                    <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            Kegan Paul, Trench, Trubner &amp; Co.</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date>1891</date>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/countessofpembro00sidnuoft/"/>
+                                <note type="fulltext">Publishing details are not given in the catalogue, but the edition
+                                    found on IA marks it as one of these 300 copies.</note>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd993">
+                            <biblStruct xml:id="wd993.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Gulliver’s Travels, edited by I. Gollanez</title>
+                                    <author corresp="#swift">Swift, J.</author>
+                                    <note type="description" corresp="#presentation">portrait, limp morocco, t. e. g. 
+                                        presentation copy from Swinburne with autograph inscription on half-title.</note>
+                                    <note type="inscription">Walter Theodore Watts Dunton, from Algernon Charles 
+                                        Swinburne, <date when="1898-10-15"/>Oct. 15, ’98</note>
+                                    <imprint>
+                                        <date when="1897"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015078566257"/>
+                                <note type="fulltext">This is a general edition published in 1896. I was unable to 
+                                    locate a scan of the edition listed in this catalogue.</note>
+                            </biblStruct>
+                        </listBibl>
                         <listBibl type="lot" xml:id="wd1029">
                             <biblStruct xml:id="wd1029.1" corresp="#owned #signed">
                                 <monogr>
                                     <title>Erechtheus, a Tragedy</title>
                                     <author corresp="#swinburne">Swinburne, Algernon
                                         Charles</author>
-
                                     <note type="description">original cloth Swinburne's copy, with
                                         his autograph signature on half-title.</note>
                                     <edition corresp="#sec_ed">Second edition</edition>
                                     <imprint>
-                                        <publisher/>
-                                        
+                                        <publisher/>                                     
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
@@ -37495,7 +37565,6 @@
                                     <title>Poems and Ballads, second series</title>
                                     <author corresp="#swinburne">Swinburne, Algernon
                                         Charles</author>
-
                                     <note type="description" corresp="#uncut">original cloth uncut,
                                         containing numerous annotations and corrections in
                                         Swinburne's handwriting</note>
@@ -37516,7 +37585,6 @@
                                     <title>Studies in Song</title>
                                     <author corresp="#swinburne">Swinburne, Algernon
                                         Charles</author>
-
                                     <note type="description" corresp="#uncut">original cloth, uncut,
                                         note on half-title in Swinburne's handwriting</note>
                                     <edition corresp="#first_ed">first edition</edition>
@@ -37537,7 +37605,6 @@
                                     <title>A Study of Shakespeare</title>
                                     <author corresp="#swinburne">Swinburne, Algernon
                                         Charles</author>
-
                                     <note type="description">Original cloth, swinburne's copy, with
                                         his initials on half-title, and a note and
                                         some corrections in his handwriting.</note>
@@ -37559,7 +37626,6 @@
                                     <title>A Midsummer Holiday, and other Poems</title>
                                     <author corresp="#swinburne">Swinburne, Charles
                                         Algernon</author>
-
                                     <note type="description" corresp="#uncut">original cloth, uncut,
                                         note in Swinburne's writing inserted</note>
                                     <imprint>
@@ -37578,7 +37644,6 @@
                                     <title>The Age of Shakespeare</title>
                                     <author corresp="#swinburne">Swinburne, Algernon
                                         Charles</author>
-
                                     <note type="description" corresp="#uncut">buckram, uncut, top
                                         edge gilt with pencil note and correction in Swinburne's
                                         handwriting.</note>
@@ -37590,6 +37655,44 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/coo1.ark:/13960/t8pc3jb45"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1072">
+                            <biblStruct xml:id="wd1072.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>The Apocrypha</title>
+                                    <author corresp="#swinburne">Swinburne</author>
+                                    <note type="description" corresp="#presentation">presentation copy from Swinburne, 
+                                        contains the following inscription in his handwriting.</note>
+                                    <note type="inscription">Walter Theodore Watts from Algernon Charles Swinburne—
+                                        'The Light of the Lord leadeth him, who giveth wisdom to the godly.’
+                                        —Ecclesiasticus, L, 29.</note>
+                                    <imprint>
+                                        <date>n.d.</date>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ia"
+                                    target="https://archive.org/details/variorumteachers00ball/"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1073">
+                            <biblStruct xml:id="wd1073.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>The Tribute, a Collection of Miscellaneous Unpublished Poems by various 
+                                        authors (Tennyson, Wordsworth, Landor, etc.) edited by Lord Northampton</title>
+                                    <author corresp="#swinburne">Swinburne</author>
+                                    <note type="description" corresp="#presentation">original cloth, presentation copy 
+                                        from Swinburne with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton from Algernon Charles 
+                                        Swinburne, <date when="1904-11-28"/>Nov. 28th, 1904</note>
+                                    <imprint>
+                                        <publisher corresp="#murray_j">John Murray</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1837"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/umn.31951001752609a"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="wd1098">
