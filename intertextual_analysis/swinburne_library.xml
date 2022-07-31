@@ -4845,6 +4845,12 @@
                         <birth when="1832"/>
                         <death when="1898"/>
                     </person>
+                    <person xml:id="yule">
+                        <persName source="http://id.loc.gov/authorities/names/n50014621">Yule, 
+                            Henry, Sir, 1820-1889</persName>
+                        <birth when="1820"/>
+                        <death when="1889"/>
+                    </person>
                 </listPerson>
             </div>
             <div n="publishers">
@@ -5041,6 +5047,10 @@
                     <org xml:id="harper_brothers">
                         <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
                             &amp; Brothers</orgName>
+                    </org>
+                    <org xml:id="sherratt_hughes">
+                        <orgName source="http://id.loc.gov/authorities/names/nr92017449">Sherratt 
+                            &amp; Hughes</orgName>
                     </org>
                 </listOrg>
                 <listPerson>
@@ -37975,6 +37985,101 @@
                                 </monogr>
                                 <relatedItem n="1" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044086806692"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1170">
+                            <biblStruct xml:id="wd1170.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Dramatic Works, with Biographical and Critical Notices by Leigh
+                                        Hunt</title>
+                                    <author corresp="#wycherley">
+                                        <persName>Wycherley</persName>
+                                    </author>
+                                    <author corresp="#congreve">
+                                        <persName>Congreve</persName>
+                                    </author>
+                                    <author corresp="#vanbrugh">
+                                        <persName>Vanbrugh</persName>
+                                    </author>
+                                    <author corresp="#farquhar">
+                                        <persName>Farquhar</persName>
+                                    </author>
+                                    <note type="description" corresp="#presentation">portrait, presentation copy from 
+                                        Swinburne, with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts from his affectionate friend, 
+                                        A. C. Swinburne, <date when="1884-03"/>March, 1884</note>
+                                    <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            George Routledge and Sons</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1880"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc1.31175002740879"/>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1173">
+                            <biblStruct xml:id="wd1173.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Book of Ser Marco Polo, translated and edited with Notes</title>
+                                    <author corresp="#yule">Yule, Col. Henry</author>
+                                    <note type="description" corresp="#uncut #presentation">titles in red and black, 
+                                        plans and illustrations, green cloth, uncut, presentation copy from Swinburne 
+                                        with autograph inscription.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton, from Algernon Charles 
+                                        Swinburne, <date when="1897-06-10"/>June 10th, 1897 (this book given by me to 
+                                        my father in the year of its publication, and returned to me after the death of my 
+                                        mother, is now offered to the best and dearest friend I ever had—A. C. S)</note>
+                                    <imprint>
+                                        <publisher corresp="#murray_j">John Murray</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1875"/>
+                                    </imprint>
+                                    <extent><measure unit="volumes" quantity="2"/></extent>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015011401018"/>
+                                <relatedItem n="2" type="ht"
+                                    target="https://hdl.handle.net/2027/mdp.39015059444730"/>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                    <div type="size" n="quarto">
+                        <listBibl type="lot" xml:id="wd1189">
+                            <biblStruct xml:id="wd1189.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Sporting Pictures, edited by E. W. Savory, with descriptions by 
+                                        B. Fletcher Robinson</title>
+                                    <note type="description" corresp="#presentation">coloured illustrations, 
+                                        presentation copy from Swinburne, with autograph inscription on fly-leaf.</note>
+                                    <note type="inscription">W. T. Watts-Dunton from A. C. Swinburne Feb. 8. 9.</note>
+                                    <!-- Difficult to determine the date, possibly Feb. 1889? -->
+                                    <imprint>
+                                        <date>n.d.</date>
+                                    </imprint>
+                                </monogr>
+                                <!-- No related items found on HT, IA or Google books. -->
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl type="lot" xml:id="wd1200">
+                            <biblStruct xml:id="wd1200.1" corresp="#presented_by #annotated">
+                                <monogr>
+                                    <title>Willobie his Avisa, with an Essay towards its interpretation, by 
+                                        Charles Hughes</title>
+                                    <note type="description" corresp="#uncut #presentation">one of 500 copies, half 
+                                        morocco, uncut, t. e. g. presentation copy from Swinburne, with autograph
+                                        inscription on half title.</note>
+                                    <note type="inscription">Walter Theodore Watts-Dunton, from 
+                                        Algernon Charles Swinburne, <date when="1904-11-18"/>Nov. 18th, 1904</note>
+                                    <imprint>
+                                        <publisher corresp="#sherratt_hughes">Sherratt and Hughes</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1904"/>
+                                    </imprint>
+                                </monogr>
+                                <relatedItem n="1" type="ht"
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t33200b4n"/>
                             </biblStruct>
                         </listBibl>
                     </div>
