@@ -5052,6 +5052,14 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr92017449">Sherratt 
                             &amp; Hughes</orgName>
                     </org>
+                    <org xml:id="trustees_british_museum">
+                        <orgName source="http://id.loc.gov/authorities/names/n81082964">British 
+                            Museum. Trustees</orgName>
+                    </org>
+                    <org xml:id="minerva_press">
+                        <orgName source="http://id.loc.gov/authorities/names/no99039897">Minerva 
+                            Press</orgName>
+                    </org>
                 </listOrg>
                 <listPerson>
                     <person xml:id="bindoni">
@@ -6282,8 +6290,7 @@
                         <listBibl type="lot" xml:id="sb026">
                             <biblStruct corresp="#owned" xml:id="sb026.1">
                                 <monogr>
-                                    <!-- is this a typo? -->
-                                    <title>Isaiah XL-LXVI, editded with Notes</title>
+                                    <title>Isaiah XL-LXVI, edited with Notes</title>
                                     <author corresp="#arnold_m">
                                         <persName>Arnold, Matthew</persName>
                                     </author>
@@ -6555,8 +6562,7 @@
                                     </respStmt>
                                     <note type="description">brown cloth</note>
                                     <imprint>
-                                        <!-- Not sure how to find this organization, no LCNAF -->
-                                        <publisher>
+                                        <publisher corresp="#trustees_british_museum">
                                             <orgName>Order of the Trustees</orgName>
                                         </publisher>
                                         <date when="1897"/>
@@ -7349,9 +7355,8 @@
                                     <note>A MS. note states that the corrections were made by the
                                         author after publication.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
-                                    <imprint>
-                                        <!-- Minerva doesn't have an LCNAF, but it was renamed to A.K. Newman & Co. -->
-                                        <publisher corresp="#a_k_newman_co">
+                                    <imprint>                                       
+                                        <publisher corresp="#minerva_press">
                                             <orgName>Minerva Press</orgName>
                                         </publisher>
                                         <date when="1808"/>
