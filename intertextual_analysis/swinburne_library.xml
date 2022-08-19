@@ -1286,6 +1286,12 @@
                         <birth when="1869"/>
                         <death when="1917"/>
                     </person>
+                    <person xml:id="cecchi">
+                        <persName source="http://id.loc.gov/authorities/names/n84186682">Cecchi, 
+                            Giovanni Maria, 1518-1587</persName>
+                        <birth when="1518"/>
+                        <death when="1587"/>
+                    </person>
                     <person xml:id="centlivre">
                         <persName source="http://id.loc.gov/authorities/names/n81114005">Centlivre,
                             Susanna, 1667?-1723</persName>
@@ -1314,6 +1320,11 @@
                             George, 1559?-1634</persName>
                         <birth cert="unknown" when="1559"/>
                         <death when="1634"/>
+                    </person>
+                    <person xml:id="chartier">
+                        <persName source="http://id.loc.gov/authorities/names/n84091919">Chartier, 
+                            Alain, active 15th century</persName>
+                        <floruit from="1400" to="1499"/>
                     </person>
                     <person xml:id="chatelain">
                         <persName source="http://id.loc.gov/authorities/names/n96061548">Chatelain, 
@@ -8285,9 +8296,9 @@
                                         Romantic Narrattive Poetry of the Italians, Memiors and
                                         Notes by Antonio Panizzi</title>
                                     <note type="description">9 vol. portrait</note>
-                                    <imprint>
-                                        <!-- Other sources I've found list William Pickering as a publisher, no place given -->
-                                        <pubPlace>Pickering</pubPlace>
+                                    <imprint> 
+                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1830" to="1834"/>
                                     </imprint>
                                     <extent>
@@ -8684,7 +8695,7 @@
                                     <note type="description" corresp="#uncut">3 vol. portrait, uncut
                                         (3 covers missing)</note>
                                     <imprint>
-                                        <!-- Some sources list John Pearson, no LCNAF on file -->
+                                        <!-- No LCNAF found. -->
                                         <publisher>
                                             <persName>Pearson</persName>
                                         </publisher>
@@ -8843,7 +8854,9 @@
                             <biblStruct corresp="#owned" xml:id="sb094.2">
                                 <monogr>
                                     <title>The Rodiad</title>
-                                    <!-- George Coleman is apparently a pseudonym / literary hoax. How to associate? -->
+                                    <!-- According to Wikipedia, the author and publication date of this 
+                                        work has been misattributed, and the actual author is Richard 
+                                        Monckton Milnes. More research needed to confirm this. -->
                                     <author>
                                         <persName>Coleman, G.</persName>
                                     </author>
@@ -9892,8 +9905,7 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb124.2">
                                 <monogr>
-                                    <title>Quo Vadis</title>
-                                    <!-- xml:lang is Latvian? -->
+                                    <title xml:lang="la">Quo Vadis</title>
                                     <author corresp="#sienkiewicz">Sienkiewiez, H.</author>
                                     <respStmt>
                                         <resp>translated by</resp>
@@ -9981,8 +9993,7 @@
                                     </respStmt>
                                     <respStmt>
                                         <resp>edited by</resp>
-                                        <name full="yes">his wife</name>
-                                        <!-- Frances Burton? -->
+                                        <name full="yes">Isabel Burton</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut #presentation">5 vol.
                                         in 6, green cloth, uncut, presentation copy with
@@ -10009,9 +10020,8 @@
                                 <monogr>
                                     <title xml:lang="it">Vita di Benvenuto Cellini Orefice e
                                         Scultore Fiorentino</title>
-                                    <author>Campani, G. P.</author>
-                                    <!-- Check speling. -->
-                                    <!-- Other sources list author as Francesco Tassi. No LCNAF found for Campani. -->
+                                    <author>Gio. Palamede Carpani</author>
+                                    <!-- No LCNAF found. -->
                                     <note type="description">portrait, calf gilt</note>
                                     <imprint>
                                         <pubPlace ref="#milan">Milano</pubPlace>
@@ -10315,8 +10325,7 @@
                             <biblStruct corresp="#owned" xml:id="sb135.1">
                                 <monogr>
                                     <title>Tristan and Iseult, a Drama in four Acts</title>
-                                    <author corresp="#carr_j">Carr, J. Comyus</author>
-                                    <!-- Check spelling. -->
+                                    <author corresp="#carr_j">Carr, J. Comyns</author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">To A. C. Swinburne from J. Comyus
@@ -10370,10 +10379,8 @@
                             <biblStruct corresp="#owned" xml:id="sb137.1">
                                 <monogr>
                                     <title xml:lang="it">Il Corredo Comedia</title>
-                                    <author>Cecchi, Gianmaria</author>
-                                    <!-- No LCNAF found, though these links are worth examining. -->
-                                    <!-- https://id.loc.gov/resources/works/7775044.html -->
-                                    <!-- https://id.loc.gov/authorities/names/n84186682.html -->
+                                    <author corresp="#cecchi">Cecchi, Gianmaria</author>
+                                    <!-- Gianmaria is an abbreviation of 'Giovanni Maria'. -->
                                     <note type="description">old blue morocco gilt, inside gilt
                                         borders, gilt edges, by H. Duru</note>
                                     <imprint>
@@ -10439,9 +10446,7 @@
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres nouvellement imprimées reueues et
                                         corrigées oultre les précédentes impressions</title>
-                                    <author>Charlier, Alain</author>
-                                    <!-- Check spelling. -->
-                                    <!-- No LCNAF found. -->
+                                    <author corresp="#chartier">Chartier, Alain</author>
                                     <note type="description">woodcuts, ruled in red, red morocco
                                         gilt, gilt edges, by C. Smith, 2 leaves in neat fascimile,
                                         autograph of P. Scarron on title, and an ex-libris of Hom.
