@@ -10634,8 +10634,7 @@
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb144.3">
                                 <monogr>
-                                    <title>Poetical Works, with a Memoir by Edward Ell</title>
-                                    <!-- Check spelling. -->
+                                    <title>Poetical Works, with a Memoir by Edward Bell</title>
                                     <author corresp="#rogers">Rogers, S.</author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
@@ -11256,8 +11255,8 @@
                                 <monogr>
                                     <title>The Dwale Bluth, Hebditch's Legacy, etc.</title>
                                     <author corresp="#brown_f">Madox-Brown, F.</author>
-                                    <!-- Sources online list author as Oliver Madox Brown (no hyphen).
-                                    For the time being, will associate with Ford (his son). -->
+                                    <!-- HT catalogue record lists Oliver Madox Brown (Madox-Brown is a 
+                                        variant listed on the LCNAF) as the main author. -->
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. M. Rossetti</name>
@@ -11281,7 +11280,8 @@
                                     <title>This is my Birthday, with Introduction by I.
                                         Zangwill</title>
                                     <author>Bartle, Anita</author>
-                                    <!-- No LCNAF found. -->
+                                    <!-- No LCNAF found. Anita Bartle was a columnist for the Daily Chronicle,
+                                        and this is a compilation of her works.-->
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">To the Poet Algernon Charles Swinburne,
@@ -11768,7 +11768,8 @@
                                     <title>Day Dreams, to which are added some Translations from
                                         Italian</title>
                                     <author>James, Sir J. Kingston</author>
-                                    <!-- No LCNAF found. -->
+                                    <!-- No LCNAF found. More info here: 
+                                        https://en.wikipedia.org/wiki/Sir_John_James,_1st_Baronet -->
                                     <note type="description" corresp="#uncut">uncut, printed for
                                         private circulation</note>
                                     <note type="etc">
@@ -11907,7 +11908,7 @@
                                     <title>Investigation into the Language of Robinson
                                         Crusoe</title>
                                     <author>Lannert, G. L.</author>
-                                    <!-- No LCNAF found. (full name Gustaf L:son (?) Lannert) -->
+                                    <!-- No LCNAF found. -->
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
@@ -13027,9 +13028,7 @@
                             <biblStruct corresp="#owned" xml:id="sb214.2">
                                 <monogr>
                                     <title>Voiage and Travayle</title>
-                                    <author>Maundeville, Sir J.</author>
-                                    <!-- Other sources list Syr John Maundeville as part of the title, likely
-                                            the principal character. John Ashton appears to be the author. -->
+                                    <author corresp="#mandeville">Maundeville, Sir J.</author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John Ashton</name>
@@ -13272,7 +13271,6 @@
                                     <title xml:lang="co">L'Historie d'Eutropio de le Vite et fatti
                                         de tutti gl'Imperatori Romani unovamente tradotte di Latino
                                         in lengua Italiana</title>
-                                    <!-- Google Translate detected Corsican.-->
                                     <author corresp="#eutropius">Eutropius</author>
                                     <note type="description">old Venetian morocco binding, gilt
                                         borders and ornaments on sides, gilt edges, tooled in Arabic
@@ -13347,8 +13345,8 @@
                             <biblStruct corresp="#owned" xml:id="sb225.1">
                                 <monogr>
                                     <title>Callirrhoë: Fair Rosamund</title>
-                                    <author>Field, Michael</author>
-                                    <!-- No LCNAF found. -->
+                                    <author corresp="#bradley_k">Field, Michael</author>
+                                    <!-- Michael field was a pseudonym used by Katharine Harris Bradley. -->
                                     <note type="description">parchment, with inscription</note>
                                     <note type="inscription">A. Swinburne, Esq. from the author,
                                             <date when="1884-05">May, 1884</date></note>
@@ -13361,7 +13359,7 @@
                             </biblStruct>
                             <bibl xml:id="sb225.2">
                                 <title>The Father's Tragedy</title>
-                                <author>Field, Michael</author>
+                                <author corresp="#bradley_k">Field, Michael</author>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
                                 <note type="fulltext">225.2, .3, and .4 are three works in one
@@ -13369,7 +13367,7 @@
                             </bibl>
                             <bibl xml:id="sb225.3">
                                 <title>William Rufus</title>
-                                <author>Field, Michael</author>
+                                <author corresp="#bradley_k">Field, Michael</author>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
                                 <note type="fulltext">225.2, .3, and .4 are three works in one
@@ -13392,7 +13390,7 @@
                             <biblStruct corresp="#owned" xml:id="sb225.5">
                                 <monogr>
                                     <title>Wild Honey from Various Thyme</title>
-                                    <author>Field, Michael</author>
+                                    <author corresp="#bradley_k">Field, Michael</author>
                                     <note type="description" corresp="#uncut">uncut, top edge
                                         gilt</note>
                                     <imprint>
@@ -13407,7 +13405,7 @@
                             <biblStruct corresp="#owned" xml:id="sb226.1">
                                 <monogr>
                                     <title>Long Ago</title>
-                                    <author>Field, Michael</author>
+                                    <author corresp="#bradley_k">Field, Michael</author>
                                     <note type="description" corresp="#presentation #uncut">one of 100
                                         copies, vellum, uncut, presentation copy, with
                                         inscription</note>
@@ -13424,7 +13422,7 @@
                             <biblStruct corresp="#owned" xml:id="sb226.2">
                                 <monogr>
                                     <title>Noontide Branches</title>
-                                    <author>Field, Michael</author>
+                                    <author corresp="#bradley_k">Field, Michael</author>
                                     <note type="description" corresp="#uncut">one of 150 copies,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
