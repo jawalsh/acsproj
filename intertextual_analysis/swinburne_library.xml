@@ -256,90 +256,6 @@
             <div n="places">
                 <head>Place names</head>
                 <listPlace>
-                    <place source="http://vocab.getty.edu/page/tgn/7008038" xml:id="paris">
-                        <placeName type="preferred">Paris</placeName>
-                        <placeName>Parigi</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7018159" xml:id="venice">
-                        <placeName type="preferred">Venice</placeName>
-                        <placeName>Vinegia</placeName>
-                        <placeName>Venetia</placeName>
-                        <placeName>Venesia</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7000457" xml:id="florence">
-                        <placeName type="preferred">Florence</placeName>
-                        <placeName>Firenze</placeName>
-                        <placeName>Florentiae</placeName>
-                        <placeName>Fiorenza</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
-                        <placeName type="preferred">Vārānasi</placeName>
-                        <placeName>Benares</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7006810" xml:id="hague">
-                        <placeName type="preferred">Hague, The</placeName>
-                        <placeName>La Haye</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7006809" xml:id="leiden">
-                        <placeName type="preferred">Leiden</placeName>
-                        <placeName>Lugdunum Batavorum</placeName>
-                        <placeName>Leide</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7012329" xml:id="leipzig">
-                        <placeName type="preferred">Leipzig</placeName>
-                        <placeName>Lipsia</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7007269" xml:id="basel">
-                        <placeName type="preferred">Basel</placeName>
-                        <placeName>Basil</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7007868" xml:id="brussels">
-                        <placeName type="preferred">Brussels</placeName>
-                        <placeName>Bruxelles</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7003321" xml:id="vienna">
-                        <placeName type="preferred">Vienna</placeName>
-                        <placeName>Wien</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7000874" xml:id="rome">
-                        <placeName type="preferred">Rome</placeName>
-                        <placeName>Roma</placeName>
-                        <placeName>Romae</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7012346" xml:id="strasbourg">
-                        <placeName type="preferred">Strasbourg</placeName>
-                        <placeName>Argentum</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7010874" xml:id="cambridge">
-                        <placeName type="preferred">Cambridge</placeName>
-                        <placeName>Cantabrigia</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7011931" xml:id="oxford">
-                        <placeName type="preferred">Oxford</placeName>
-                        <placeName>Oxonii</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7007006" xml:id="leeuwarden">
-                        <placeName type="preferred">Leeuwarden</placeName>
-                        <placeName>Leorardiae</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7005903" xml:id="milan">
-                        <placeName type="preferred">Milan</placeName>
-                        <placeName>Milano</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7004847" xml:id="bologna">
-                        <placeName type="preferred">Bologna</placeName>
-                        <placeName>Bononia</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7008772" xml:id="lyon">
-                        <placeName type="preferred">Lyon</placeName>
-                        <placeName>Lugduni</placeName>
-                    </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7011781" xml:id="london">
-                        <placeName type="preferred">London</placeName>
-                        <placeName>Basle (Lond.)</placeName>
-                        <placeName>Clements Lane, E.C.</placeName>
-                        <placeName>Londra</placeName>
-                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7009782" xml:id="aberdeen">
                         <placeName type="preferred">Aberdeen</placeName>
                         <placeName>Aberdonia</placeName>
@@ -354,11 +270,19 @@
                     <place source="http://vocab.getty.edu/page/tgn/7013352" xml:id="baltimore">
                         <placeName type="preferred">Baltimore</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7007269" xml:id="basel">
+                        <placeName type="preferred">Basel</placeName>
+                        <placeName>Basil</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7003712" xml:id="berlin">
                         <placeName type="preferred">Berlin</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7010955" xml:id="birmingham">
                         <placeName type="preferred">Birmingham</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7004847" xml:id="bologna">
+                        <placeName type="preferred">Bologna</placeName>
+                        <placeName>Bononia</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7013445" xml:id="boston">
                         <placeName type="preferred">Boston</placeName>
@@ -366,9 +290,13 @@
                     <place source="ttp://vocab.getty.edu/page/tgn/7011483" xml:id="brighton">
                         <placeName type="preferred">Brighton</placeName>
                     </place>
-                    <place source="http://vocab.getty.edu/page/tgn/7030776" xml:id="kolkata">
-                        <placeName type="preferred">Kolkata</placeName>
-                        <placeName>Calcutta</placeName>
+                    <place source="http://vocab.getty.edu/page/tgn/7007868" xml:id="brussels">
+                        <placeName type="preferred">Brussels</placeName>
+                        <placeName>Bruxelles</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7010874" xml:id="cambridge">
+                        <placeName type="preferred">Cambridge</placeName>
+                        <placeName>Cantabrigia</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7003947" xml:id="catania">
                         <placeName type="preferred">Catania</placeName>
@@ -382,12 +310,7 @@
                     <place source="http://vocab.getty.edu/page/tgn/7013641" xml:id="columbia">
                         <placeName type="preferred">Columbia</placeName>
                         <placeName>Columbia, S.C.</placeName>
-                    </place>
-                    
-                    <place source="http://vocab.getty.edu/page/tgn/7004942" xml:id="parma">
-                        <placeName type="preferred">Parma</placeName>
-                        <placeName>Crisopoli</placeName>
-                    </place>
+                    </place>                  
                     <place source="http://vocab.getty.edu/page/tgn/7001306" xml:id="dublin">
                         <placeName type="preferred">Dublin</placeName>
                     </place>
@@ -397,11 +320,21 @@
                     <place source="http://vocab.getty.edu/page/tgn/7011916" xml:id="eton">
                         <placeName type="preferred">Eton</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7000457" xml:id="florence">
+                        <placeName type="preferred">Florence</placeName>
+                        <placeName>Firenze</placeName>
+                        <placeName>Florentiae</placeName>
+                        <placeName>Fiorenza</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/1000070" xml:id="france">
                         <placeName type="preferred">France</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7017283" xml:id="glasgow">
                         <placeName type="preferred">Glasgow</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7006810" xml:id="hague">
+                        <placeName type="preferred">Hague, The</placeName>
+                        <placeName>La Haye</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/1004602" xml:id="hammersmith">
                         <placeName type="preferred">Hammersmith</placeName>
@@ -409,22 +342,58 @@
                     <place source="http://vocab.getty.edu/page/tgn/7008153" xml:id="kent">
                         <placeName type="preferred">Kent</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7030776" xml:id="kolkata">
+                        <placeName type="preferred">Kolkata</placeName>
+                        <placeName>Calcutta</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7007006" xml:id="leeuwarden">
+                        <placeName type="preferred">Leeuwarden</placeName>
+                        <placeName>Leorardiae</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7006809" xml:id="leiden">
+                        <placeName type="preferred">Leiden</placeName>
+                        <placeName>Lugdunum Batavorum</placeName>
+                        <placeName>Leide</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7012329" xml:id="leipzig">
+                        <placeName type="preferred">Leipzig</placeName>
+                        <placeName>Lipsia</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7010597" xml:id="liverpool">
                         <placeName type="preferred">Liverpool</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011781" xml:id="london">
+                        <placeName type="preferred">London</placeName>
+                        <placeName>Basle (Lond.)</placeName>
+                        <placeName>Clements Lane, E.C.</placeName>
+                        <placeName>Londra</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7008772" xml:id="lyon">
+                        <placeName type="preferred">Lyon</placeName>
+                        <placeName>Lugduni</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7001933" xml:id="melbourne">
                         <placeName type="preferred">Melbourne</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7005903" xml:id="milan">
+                        <placeName type="preferred">Milan</placeName>
+                        <placeName>Milano</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7004474" xml:id="naples">
                         <placeName type="preferred">Naples</placeName>
                         <placeName>Napoli</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7007567" xml:id="new_york">
-                        <placeName type="preferred">New York</placeName><!-- New York without "city" is the preferred name on TGN -->
+                        <placeName type="preferred">New York</placeName>
+                        <!-- New York without "city" is the preferred name on TGN -->
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7012026" xml:id="newcastle">
                         <placeName type="preferred">Newcastle upon Tyne</placeName>
                         <placeName>Newcastle</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011931" xml:id="oxford">
+                        <placeName type="preferred">Oxford</placeName>
+                        <placeName>Oxonii</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7003085" xml:id="padua">
                         <placeName type="preferred">Padua</placeName>
@@ -432,6 +401,14 @@
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7003928" xml:id="palermo">
                         <placeName type="preferred">Palermo</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7008038" xml:id="paris">
+                        <placeName type="preferred">Paris</placeName>
+                        <placeName>Parigi</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7004942" xml:id="parma">
+                        <placeName type="preferred">Parma</placeName>
+                        <placeName>Crisopoli</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7014406" xml:id="philadelphia">
                         <placeName type="preferred">Philadelphia</placeName>
@@ -443,6 +420,11 @@
                     <place source="http://vocab.getty.edu/page/tgn/7011736" xml:id="reigate">
                         <placeName type="preferred">Reigate</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7000874" xml:id="rome">
+                        <placeName type="preferred">Rome</placeName>
+                        <placeName>Roma</placeName>
+                        <placeName>Romae</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7014456" xml:id="san_francisco">
                         <placeName type="preferred">San Francisco</placeName>
                     </place>
@@ -453,12 +435,30 @@
                         <placeName type="preferred">Santiago</placeName>
                         <placeName>Santiago de Chile</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7012346" xml:id="strasbourg">
+                        <placeName type="preferred">Strasbourg</placeName>
+                        <placeName>Argentum</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/1030796" xml:id="sunbury">
                         <placeName type="preferred">Sunbury</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7005688" xml:id="turin">
                         <placeName type="preferred">Turin</placeName>
                         <placeName>Torino</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
+                        <placeName type="preferred">Vārānasi</placeName>
+                        <placeName>Benares</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7018159" xml:id="venice">
+                        <placeName type="preferred">Venice</placeName>
+                        <placeName>Vinegia</placeName>
+                        <placeName>Venetia</placeName>
+                        <placeName>Venesia</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7003321" xml:id="vienna">
+                        <placeName type="preferred">Vienna</placeName>
+                        <placeName>Wien</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7013962" xml:id="washington">
                         <placeName type="preferred">Washington</placeName>
@@ -475,17 +475,11 @@
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7007302" xml:id="zurich">
                         <placeName type="preferred">Zurich</placeName>
-                    </place>
-                    
-                    
+                    </place>                            
                     <!--<place source="" xml:id="">
                         <placeName type="preferred"></placeName>
-                    </place>-->        
-                    
-                    
-                </listPlace>
-                
-                
+                    </place>-->     
+                </listPlace>            
             </div>
             <div n="authors">
                 <listPerson>
@@ -4867,161 +4861,177 @@
             <div n="publishers">
                 <head>Publishers, Printers, etc.</head>
                 <listOrg>
-                    <org xml:id="kelmscott">
-                        <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
-                            Press</orgName>
-                    </org>
-                    <org xml:id="kama_sastra_society">
-                        <orgName source="http://id.loc.gov/authorities/names/nb2006006446">Kama
-                            Shastra Society of London and Benares</orgName>
-                    </org>
-                    <org xml:id="edward_moxon_co">
-                        <orgName source="http://id.loc.gov/authorities/names/nr00017940">Edward
-                            Moxon &amp; Co.</orgName>
-                    </org>
-                    <org xml:id="villon_society">
-                        <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
-                            Society</orgName>
-                    </org>
-                    <org xml:id="chiswick_press">
-                        <orgName source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
-                            Press</orgName>
-                    </org>
-                    <org xml:id="chaucer_society">
-                        <orgName source="http://id.loc.gov/authorities/names/nr98010609">Chaucer
-                            Society (London, England)</orgName>
-                    </org>
-                    <org xml:id="ashendene_press">
-                        <orgName source="http://id.loc.gov/authorities/names/n81144054">Ashendene
-                            Press</orgName>
-                    </org>
-                    <org xml:id="boussod_valadon_cie">
-                        <orgName source="http://id.loc.gov/authorities/names/n83317533">Boussod,
-                            Valadon &amp; Cie</orgName>
-                    </org>
-                    <org xml:id="spenser_society">
-                        <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
-                            Society</orgName>
-                    </org>
-                    <org xml:id="percy_society">
-                        <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
-                            Society</orgName>
-                    </org>
-                    <org xml:id="lee_priory">
-                        <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
-                            Press of Lee Priory</orgName>
-                    </org>
-                    <org xml:id="goupil_cie">
-                        <orgName source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
-                            Cie</orgName>
-                    </org>
-                    <org xml:id="roxburghe_club">
-                        <orgName source="http://id.loc.gov/authorities/names/n50068391">Roxburghe
-                            Club</orgName>
-                    </org>
-                    <org xml:id="daniel_press">
-                        <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
-                            Press</orgName>
-                    </org>
-                    <org xml:id="aedes_aldi">
-                        <orgName source="http://id.loc.gov/authorities/names/no2015128037">Aedes
-                            Aldi et Andreae Asulani Soceri</orgName>
-                    </org>
                     <org xml:id="a_k_newman_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr91016003">A.K. 
                             Newman &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="a_lacroix_verboeckhoven"> 
+                        <orgName source="http://id.loc.gov/authorities/names/n99835512">A. Lacroix, 
+                            Verboeckhoven</orgName>
                     </org>
                     <org xml:id="abbotsford_club">
                         <orgName source="http://id.loc.gov/authorities/names/no2016025058">Abbotsford 
                             Club (Edinburgh, Scotland)</orgName>
                     </org>
-                    <org xml:id="shelley_society">
-                        <orgName source="http://id.loc.gov/authorities/names/n80032748">Shelley 
-                            Society</orgName>
+                    <org xml:id="aedes_aldi">
+                        <orgName source="http://id.loc.gov/authorities/names/no2015128037">Aedes
+                            Aldi et Andreae Asulani Soceri</orgName>
                     </org>
-                    <org xml:id="vale_press">
-                        <orgName source="http://id.loc.gov/authorities/names/no96044617">Vale 
-                            Press</orgName>
+                    <org xml:id="archibald_constable_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
+                            Constable &amp; Co.</orgName>
                     </org>
-                    <org xml:id="samurai_press">
-                        <orgName source="http://id.loc.gov/authorities/names/n86080368">Samurai 
+                    <org xml:id="ashendene_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n81144054">Ashendene
                             Press</orgName>
                     </org>
                     <org xml:id="bodoni">
                         <orgName source="http://id.loc.gov/authorities/names/n81038854">Officina 
                             Bodoni</orgName>
                     </org>
-                    <org xml:id="methuen_co">
-                        <orgName source="http://id.loc.gov/authorities/names/n82162085">Methuen 
-                            &amp; Co.</orgName>
+                    <org xml:id="boussod_valadon_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/n83317533">Boussod,
+                            Valadon &amp; Cie</orgName>
                     </org>
-                    <org xml:id="oxford_university_press">
-                        <orgName source="http://id.loc.gov/authorities/names/n80126136">Oxford 
-                            University Press</orgName>
+                    <org xml:id="bradbury_agnew_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no99016369">Bradbury, 
+                            Agnew and Co.</orgName>
                     </org>
-                    <org xml:id="macmillan_co">
-                        <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
-                            &amp; Co.</orgName>
-                    </org>
-                    <org xml:id="smith_elder_co">
-                        <orgName source="http://id.loc.gov/authorities/names/n88079762">Smith, 
-                            Elder, and Co.</orgName>
-                    </org>
-                    <org xml:id="william_blackwood_and_sons">
-                        <orgName source="http://id.loc.gov/authorities/names/no00093522">William 
-                            Blackwood and Sons</orgName>
-                    </org>
-                    <org xml:id="archibald_constable_co">
-                        <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
-                            Constable &amp; Co.</orgName>
-                    </org>
-                    <org xml:id="robson_and_sons">
-                        <orgName source="http://id.loc.gov/authorities/names/no2015105177">Robson 
-                            and Sons</orgName>
-                    </org>
-                    <org xml:id="chapman_and_hall">
-                        <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
-                            and Hall</orgName>
-                    </org>
-                    <org xml:id="longmans_green_co">
-                        <orgName source="http://id.loc.gov/authorities/names/no91016531">Longmans, 
-                            Green, and Co.</orgName>
-                    </org>
-                    <org xml:id="simpkin_marshall_hamilton_kent_co">
-                        <orgName source="http://id.loc.gov/authorities/names/no2002109454">Simpkin, 
-                            Marshall, Hamilton, Kent &amp; Co. Ltd.</orgName>
-                    </org>
-                    <org xml:id="michel_levy_freres">
-                        <orgName source="http://id.loc.gov/authorities/names/no00071921">Michel 
-                            Lévy frères (Firm)</orgName>
-                    </org>
-                    <org xml:id="calmann_levy">
-                        <orgName source="http://id.loc.gov/authorities/names/n83142809">Calmann-Lévy 
-                            (Firm)</orgName>
-                    </org>
-                    <org xml:id="george_routledge_and_sons">
-                        <orgName source="http://id.loc.gov/authorities/names/n81144562">George 
-                            Routledge and Sons</orgName>
-                    </org>
-                    <org xml:id="a_lacroix_verboeckhoven"> 
-                        <orgName source="http://id.loc.gov/authorities/names/n99835512">A. Lacroix, 
-                            Verboeckhoven</orgName>
+                    <org xml:id="brown_langham_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2021119077">Brown, 
+                            Langham &amp; Co.</orgName>
                     </org>
                     <org xml:id="c_and_j_ollier">
                         <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
                             and J. Ollier (Firm)</orgName>
                     </org>
+                    <org xml:id="calmann_levy">
+                        <orgName source="http://id.loc.gov/authorities/names/n83142809">Calmann-Lévy 
+                            (Firm)</orgName>
+                    </org>
+                    <org xml:id="cassell_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99031535">Cassell 
+                            &amp; Company</orgName>
+                    </org>
+                    <org xml:id="chapman_and_hall">
+                        <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
+                            and Hall</orgName>
+                    </org>
+                    <org xml:id="chatto_windus">
+                        <orgName source="http://id.loc.gov/authorities/names/n85242407">Chatto 
+                            &amp; Windus (Firm)</orgName>
+                    </org>
+                    <org xml:id="chaucer_society">
+                        <orgName source="http://id.loc.gov/authorities/names/nr98010609">Chaucer
+                            Society (London, England)</orgName>
+                    </org>
+                    <org xml:id="chiswick_press">
+                        <orgName source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
+                            Press</orgName>
+                    </org>
+                    <org xml:id="daniel_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
+                            Press</orgName>
+                    </org>
+                    <org xml:id="edward_moxon_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr00017940">Edward
+                            Moxon &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="fratelli_bocca">
+                        <orgName source="http://id.loc.gov/authorities/names/n86815346">Fratelli 
+                            Bocca</orgName>
+                    </org>
+                    <org xml:id="george_bell_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/no95020268">George 
+                            Bell &amp; Sons</orgName>
+                    </org>
+                    <org xml:id="george_routledge_and_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/n81144562">George 
+                            Routledge and Sons</orgName>
+                    </org>
+                    <org xml:id="goupil_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
+                            Cie</orgName>
+                    </org>
+                    <org xml:id="harper_brothers">
+                        <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
+                            &amp; Brothers</orgName>
+                    </org>
                     <org xml:id="j_m_dent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="kama_sastra_society">
+                        <orgName source="http://id.loc.gov/authorities/names/nb2006006446">Kama
+                            Shastra Society of London and Benares</orgName>
+                    </org>
+                    <org xml:id="kegan_paul_trench_trubner_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n82010410">Kegan 
+                            Paul, Trench, Trubner &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="kelmscott">
+                        <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
+                            Press</orgName>
+                    </org>    
+                    <org xml:id="lee_priory">
+                        <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
+                            Press of Lee Priory</orgName>
+                    </org>
+                    <org xml:id="longmans_green_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no91016531">Longmans, 
+                            Green, and Co.</orgName>
+                    </org>
+                    <org xml:id="macmillan_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
+                            &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="methuen_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n82162085">Methuen 
+                            &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="michel_levy_freres">
+                        <orgName source="http://id.loc.gov/authorities/names/no00071921">Michel 
+                            Lévy frères (Firm)</orgName>
+                    </org>
+                    <org xml:id="minerva_press">
+                        <orgName source="http://id.loc.gov/authorities/names/no99039897">Minerva 
+                            Press</orgName>
+                    </org>
+                    <org xml:id="oxford_university_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n80126136">Oxford 
+                            University Press</orgName>
+                    </org>
+                    <org xml:id="percy_society">
+                        <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
+                            Society</orgName>
+                    </org>
+                    <org xml:id="robson_and_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/no2015105177">Robson 
+                            and Sons</orgName>
+                    </org>
+                    <org xml:id="roxburghe_club">
+                        <orgName source="http://id.loc.gov/authorities/names/n50068391">Roxburghe
+                            Club</orgName>
+                    </org>
+                    <org xml:id="sampson_low_marston_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2003021408">Sampson 
+                            Low, Marston &amp; Company</orgName>
                     </org>
                     <org xml:id="sampson_low_marston_searle_rivington">
                         <orgName source="http://id.loc.gov/authorities/names/nr00003465">Sampson 
                             Low, Marston, Searle &amp; Rivington</orgName>
                     </org>
-                    <org xml:id="chatto_windus">
-                        <orgName source="http://id.loc.gov/authorities/names/n85242407">Chatto 
-                            &amp; Windus (Firm)</orgName>
+                    <org xml:id="samurai_press">
+                        <orgName source="http://id.loc.gov/authorities/names/n86080368">Samurai 
+                            Press</orgName>
+                    </org>
+                    <org xml:id="sandoz_et_fischbacher">
+                        <orgName source="http://id.loc.gov/authorities/names/no2009104791">Sandoz 
+                            et Fischbacher</orgName>
+                    </org>
+                    <org xml:id="sands_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2010030280">Sands 
+                            &amp; Co.</orgName>
                     </org>
                     <org xml:id="saunders_and_otley">
                         <orgName source="http://id.loc.gov/authorities/names/nr89001366">Saunders 
@@ -5031,131 +5041,109 @@
                         <orgName source="http://id.loc.gov/authorities/names/n82240727">Seeley 
                             and Co.</orgName>
                     </org>
-                    <org xml:id="sandoz_et_fischbacher">
-                        <orgName source="http://id.loc.gov/authorities/names/no2009104791">Sandoz 
-                            et Fischbacher</orgName>
-                    </org>
-                    <org xml:id="brown_langham_co">
-                        <orgName source="http://id.loc.gov/authorities/names/no2021119077">Brown, 
-                            Langham &amp; Co.</orgName>
-                    </org>
-                    <org xml:id="cassell_co">
-                        <orgName source="http://id.loc.gov/authorities/names/nr99031535">Cassell 
-                            &amp; Company</orgName>
-                    </org>
-                    <org xml:id="bradbury_agnew_co">
-                        <orgName source="http://id.loc.gov/authorities/names/no99016369">Bradbury, 
-                            Agnew and Co.</orgName>
-                    </org>
-                    <org xml:id="kegan_paul_trench_trubner_co">
-                        <orgName source="http://id.loc.gov/authorities/names/n82010410">Kegan 
-                            Paul, Trench, Trubner &amp; Co.</orgName>
-                    </org>
-                    <org xml:id="sampson_low_marston_co">
-                        <orgName source="http://id.loc.gov/authorities/names/nr2003021408">Sampson 
-                            Low, Marston &amp; Company</orgName>
-                    </org>
-                    <org xml:id="harper_brothers">
-                        <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
-                            &amp; Brothers</orgName>
+                    <org xml:id="shelley_society">
+                        <orgName source="http://id.loc.gov/authorities/names/n80032748">Shelley 
+                            Society</orgName>
                     </org>
                     <org xml:id="sherratt_hughes">
                         <orgName source="http://id.loc.gov/authorities/names/nr92017449">Sherratt 
                             &amp; Hughes</orgName>
                     </org>
+                    <org xml:id="simpkin_marshall_hamilton_kent_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2002109454">Simpkin, 
+                            Marshall, Hamilton, Kent &amp; Co. Ltd.</orgName>
+                    </org>
+                    <org xml:id="smith_elder_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n88079762">Smith, 
+                            Elder, and Co.</orgName>
+                    </org>
+                    <org xml:id="spenser_society">
+                        <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
+                            Society</orgName>
+                    </org>
                     <org xml:id="trustees_british_museum">
                         <orgName source="http://id.loc.gov/authorities/names/n81082964">British 
                             Museum. Trustees</orgName>
                     </org>
-                    <org xml:id="minerva_press">
-                        <orgName source="http://id.loc.gov/authorities/names/no99039897">Minerva 
+                    <org xml:id="vale_press">
+                        <orgName source="http://id.loc.gov/authorities/names/no96044617">Vale 
                             Press</orgName>
                     </org>
+                    <org xml:id="villon_society">
+                        <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
+                            Society</orgName>
+                    </org>                   
+                    <org xml:id="william_blackwood_and_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/no00093522">William 
+                            Blackwood and Sons</orgName>
+                    </org>            
                 </listOrg>
                 <listPerson>
+                    <person xml:id="antonio">
+                        <persName source="http://id.loc.gov/authorities/names/nr2002025102">Benedetti, 
+                            Giovanni Antonio de', active 1492-approximately 1511</persName>
+                        <floruit from="1492" to="1511" cert="unknown"/>
+                    </person>
+                    <person xml:id="barbou_jg">
+                        <persName source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
+                            Joseph-Gérard, 1723-1790?</persName>
+                        <birth when="1723"/>
+                        <death when="1790" cert="unknown"/>
+                    </person>
+                    <person sameAs="#estienne"/>
+                    <person xml:id="barker_r">
+                        <persName source="http://id.loc.gov/authorities/names/nr95013746">Barker,
+                            Robert, -1645</persName>
+                        <death when="1645"/>
+                    </person>
                     <person xml:id="bindoni">
                         <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
                             Francesco, active 1523-1553</persName>
                         <floruit from="1523" to="1553"/>
                     </person>
-                    <person xml:id="pasini">
-                        <persName source="http://id.loc.gov/authorities/names/no95036795">Pasini,
-                            Maffeo, active 1524-1551</persName>
-                        <floruit from="1524" to="1551"/>
-                    </person>
-                    <person xml:id="manuzio">
-                        <persName source="http://id.loc.gov/authorities/names/n79117173">Manuzio,
-                            Aldo, 1449 or 1450-1515</persName>
-                    </person>
-                    <person xml:id="torresanus">
-                        <persName source="http://id.loc.gov/authorities/names/no95027093">Torresanus, 
-                            Andreas, de Asula, 1451-1529</persName>
-                    </person>
-                    <person xml:id="pickering">
-                        <persName source="http://id.loc.gov/authorities/names/no89021301">Pickering,
-                            William, 1796-1854</persName>
-                    </person>
                     <person xml:id="bohn">
-                        <persName source="http://id.loc.gov/authorities/names/n50045707">Bohn, Henry
-                            G. (Henry George), 1796-1884</persName>
+                        <persName source="http://id.loc.gov/authorities/names/n50045707">Bohn, 
+                            Henry G. (Henry George), 1796-1884</persName>
+                        <birth when="1796"/>
+                        <death when="1884"/>
                     </person>
-                    <person xml:id="barker_r">
-                        <persName source="http://id.loc.gov/authorities/names/nr95013746">Barker,
-                            Robert, -1645</persName>
+                    <person xml:id="browne">
+                        <persName source="http://id.loc.gov/authorities/names/no96045862">Browne, 
+                            John, -1622</persName>
+                        <death when="1622"/>
                     </person>
-                    <person xml:id="field_j">
-                        <persName source="http://id.loc.gov/authorities/names/nr93041232">Field,
-                            John, -1668</persName>
+                    <person xml:id="buck">
+                        <persName source="http://id.loc.gov/authorities/names/nr98036594">Buck, 
+                            John, active 1625-1635</persName>
+                        <floruit from="1625" to="1635"/>
                     </person>
-                    <person xml:id="husner">
-                        <persName source="http://id.loc.gov/authorities/names/nr95004554">Husner,
-                            Georg, -1505</persName>
+                    <person xml:id="buck_t">
+                        <persName source="http://id.loc.gov/authorities/names/no96045857">Buck, 
+                            Thomas</persName>
                     </person>
-                    <person xml:id="huth">
-                        <persName source="http://id.loc.gov/authorities/names/n83139105">Huth,
-                            Henry, 1815-1878</persName>
-                    </person>
-                    <person xml:id="nichols">
-                        <persName source="http://id.loc.gov/authorities/names/n80032806">Nichols,
-                            John, 1745-1826</persName>
-                    </person>
-                    <person xml:id="barbou_jg">
-                        <persName source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
-                            Joseph-Gérard, 1723-1790?</persName>
-                    </person>
-                    <person sameAs="#estienne"/>
-                    <person xml:id="hunt_j">
-                        <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
-                            John, 1775-1848</persName>
-                    </person>
-                    <person xml:id="dawson">
-                        <persName source="http://id.loc.gov/authorities/names/nr96000751">Dawson,
-                            Thomas, -1620</persName>
-                    </person>
-                    <person xml:id="rodd_t">
-                        <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
-                            Thomas, 1763-1822</persName>
+                    <person xml:id="budge">
+                        <persName source="http://id.loc.gov/authorities/names/nr00026606">Budge, 
+                            John, -1625</persName>
+                        <death when="1625"/>
                     </person>
                     <person xml:id="cavalcalupo">
-                        <persName source="http://id.loc.gov/authorities/names/no96046077"
-                            >Cavalcalupo, Domenico</persName>
+                        <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
+                            Domenico</persName>
                     </person>
-                    <person xml:id="ellis_f">
-                        <persName source="http://id.loc.gov/authorities/names/n50008884">Ellis,
-                            Frederick Startridge, 1830-1901</persName>
+                    <person xml:id="colburn">
+                        <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
+                            Henry, -1855</persName>
+                        <death when="1855"/>
                     </person>
-                    <person xml:id="torrentino">
-                        <persName source="http://id.loc.gov/authorities/names/n85296837">Torrentino,
-                            Lorenzo, -1563</persName>
+                    <person xml:id="cooke">
+                        <persName source="http://id.loc.gov/authorities/names/nr94015505">Cooke, 
+                            William, active 1632-1642</persName>
+                        <floruit from="1632" to="1642"/>
                     </person>
-                    <person xml:id="field_r">
-                        <persName source="http://id.loc.gov/authorities/names/nr97012172">Field,
-                            Richard, -1624</persName>
-                    </person>
-                    <person xml:id="petit">
-                        <persName source="http://id.loc.gov/authorities/names/n93042253">Petit,
-                            Jean, active 1492-1530</persName>
-                        <floruit from="1492" to="1530"/>
+                    <person xml:id="crooke">
+                        <persName source="http://id.loc.gov/authorities/names/nr95014267">Crooke, 
+                            Andrew, -1674</persName>
+                        <death when="1674"/>
                     </person>
                     <person xml:id="daniel">
                         <persName source="http://id.loc.gov/authorities/names/nb99012313">Daniel,
@@ -5163,128 +5151,14 @@
                         <birth when="1836"/>
                         <death when="1919"/>
                     </person>
-                    <person xml:id="moxon">
-                        <persName source="http://id.loc.gov/authorities/names/no91026075">Moxon, 
-                            Edward, 1801-1858</persName>
-                        <birth when="1801"/>
-                        <death when="1858"/>
+                    <person xml:id="daniel_r">
+                        <persName source="http://id.loc.gov/authorities/names/nr95012973">Daniel, 
+                            Roger</persName>
                     </person>
-                    <person xml:id="moseley">
-                        <persName source="http://id.loc.gov/authorities/names/no90019019">Moseley,
-                            Humphrey, -1661</persName>
-                        <death when="1661"/>
-                    </person>
-                    <person xml:id="marriot">
-                        <persName source="http://id.loc.gov/authorities/names/nr94036760">Marriot, 
-                            Richard, active 17th century</persName>
-                        <floruit from="1600" to="1699"/>
-                    </person>
-                    <person xml:id="dring">
-                        <persName source="http://id.loc.gov/authorities/names/nr94027011">Dring, 
-                            Thomas, -1695</persName>
-                        <death when="1695"/>
-                    </person>
-                    <person xml:id="giunta">
-                        <persName source="http://id.loc.gov/authorities/names/nr97028549">Giunta, 
-                            Bernardo, active 1567-1627</persName>
-                        <floruit from="1567" to="1627"/>
-                    </person>
-                    <person xml:id="oporinus">
-                        <persName source="http://id.loc.gov/authorities/names/no96009568">Oporinus, 
-                            Joannes, 1507-1568</persName>
-                        <birth when="1507"/>
-                        <death when="1568"/>
-                    </person>
-                    <person xml:id="budge">
-                        <persName source="http://id.loc.gov/authorities/names/nr00026606">Budge, 
-                            John, -1625</persName>
-                        <death when="1625"/>
-                    </person>
-                    <person xml:id="browne">
-                        <persName source="http://id.loc.gov/authorities/names/no96045862">Browne, 
-                            John, -1622</persName>
-                        <death when="1622"/>
-                    </person>
-                    <person xml:id="crooke">
-                        <persName source="http://id.loc.gov/authorities/names/nr95014267">Crooke, 
-                            Andrew, -1674</persName>
-                        <death when="1674"/>
-                    </person>
-                    <person xml:id="jaggard">
-                        <persName source="http://id.loc.gov/authorities/names/n50000034">Jaggard, 
-                            William, 1569-1623</persName>
-                        <birth when="1569"/>
-                        <death when="1623"/>
-                    </person>
-                    <person xml:id="featherstone">
-                        <persName source="http://id.loc.gov/authorities/names/nr93004260">Featherstone, 
-                            Henry, -1647</persName>
-                        <death when="1647"/>
-                    </person>
-                    <person xml:id="speed">
-                        <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
-                            Samuel, -1681</persName>
-                        <death when="1681"/>
-                    </person>
-                    <person xml:id="meighen">
-                        <persName source="http://id.loc.gov/authorities/names/nr95022729">Meighen, 
-                            Richard, active 1656</persName>
-                        <floruit when="1656"/>
-                    </person>
-                    <person xml:id="emery">
-                        <persName source="http://id.loc.gov/authorities/names/nr97009915">Emery, 
-                            Jasper, active 1629-1651</persName>
-                        <floruit from="1629" to="1651"/>                        
-                    </person>
-                    <person xml:id="thorpe">
-                        <persName source="http://id.loc.gov/authorities/names/no00048827">Thorpe, 
-                            Thomas, 1570?-1635?</persName>
-                        <birth when="1570" cert="unknown"/>
-                        <death when="1635" cert="unknown"/>
-                    </person>
-                    <person xml:id="klug">
-                        <persName source="http://id.loc.gov/authorities/names/no97038923">Klug, 
-                            Joseph, active 1523-1552</persName>
-                        <floruit from="1523" to="1552"/>
-                    </person>
-                    <person xml:id="antonio">
-                        <persName source="http://id.loc.gov/authorities/names/nr2002025102">Benedetti, 
-                            Giovanni Antonio de', active 1492-approximately 1511</persName>
-                        <floruit from="1492" to="1511" cert="unknown"/>
-                    </person>
-                    <person xml:id="cooke">
-                        <persName source="http://id.loc.gov/authorities/names/nr94015505">Cooke, 
-                            William, active 1632-1642</persName>
-                        <floruit from="1632" to="1642"/>
-                    </person>
-                    <person xml:id="frowde">
-                        <persName source="http://id.loc.gov/authorities/names/nr93008543">Frowde, 
-                            Henry, 1841-1927</persName>
-                        <birth when="1841"/>
-                        <death when="1927"/>
-                    </person>
-                    <person xml:id="menzies">
-                        <persName source="http://id.loc.gov/authorities/names/no2019130921">Menzies, 
-                            W. G.</persName>
-                    </person>
-                    <person xml:id="toovey">
-                        <persName source="http://id.loc.gov/authorities/names/nr98036643">Toovey, 
-                            James, 1814-1893</persName>
-                        <birth when="1814"/>
-                        <death when="1893"/>
-                    </person>
-                    <person xml:id="colburn">
-                        <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
-                            Henry, -1855</persName>
-                        <death when="1855"/>
-                    </person>
-                    <person xml:id="lemerre">
-                        <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
-                            Lemerre, éditeur</persName>
-                    </person>
-                    <person xml:id="gibbings">
-                      <persName source="http://id.loc.gov/authorities/names/n94101558">Gibbings, 
-                        W. W.</persName>
+                    <person xml:id="dawson">
+                        <persName source="http://id.loc.gov/authorities/names/nr96000751">Dawson,
+                            Thomas, -1620</persName>
+                        <death when="1620"/>
                     </person>
                     <person corresp="douglas">
                         <persName source="http://id.loc.gov/authorities/names/no93024045">Douglas, 
@@ -5292,8 +5166,183 @@
                         <birth when="1823"/>
                         <death when="1916"/>
                     </person>
-                </listPerson>
-                
+                    <person xml:id="dring">
+                        <persName source="http://id.loc.gov/authorities/names/nr94027011">Dring, 
+                            Thomas, -1695</persName>
+                        <death when="1695"/>
+                    </person>
+                    <person xml:id="ellis_f">
+                        <persName source="http://id.loc.gov/authorities/names/n50008884">Ellis,
+                            Frederick Startridge, 1830-1901</persName>
+                        <birth when="1830"/>
+                        <death when="1901"/>
+                    </person>
+                    <person xml:id="emery">
+                        <persName source="http://id.loc.gov/authorities/names/nr97009915">Emery, 
+                            Jasper, active 1629-1651</persName>
+                        <floruit from="1629" to="1651"/>                        
+                    </person>
+                    <person xml:id="featherstone">
+                        <persName source="http://id.loc.gov/authorities/names/nr93004260">Featherstone, 
+                            Henry, -1647</persName>
+                        <death when="1647"/>
+                    </person>
+                    <person xml:id="field_j">
+                        <persName source="http://id.loc.gov/authorities/names/nr93041232">Field,
+                            John, -1668</persName>
+                        <death when="1668"/>
+                    </person>
+                    <person xml:id="field_r">
+                        <persName source="http://id.loc.gov/authorities/names/nr97012172">Field,
+                            Richard, -1624</persName>
+                        <death when="1624"/>
+                    </person>
+                    <person xml:id="frowde">
+                        <persName source="http://id.loc.gov/authorities/names/nr93008543">Frowde, 
+                            Henry, 1841-1927</persName>
+                        <birth when="1841"/>
+                        <death when="1927"/>
+                    </person>
+                    <person xml:id="gibbings">
+                        <persName source="http://id.loc.gov/authorities/names/n94101558">Gibbings, 
+                            W. W.</persName>
+                    </person>
+                    <person xml:id="giunta">
+                        <persName source="http://id.loc.gov/authorities/names/nr97028549">Giunta, 
+                            Bernardo, active 1567-1627</persName>
+                        <floruit from="1567" to="1627"/>
+                    </person>
+                    <person xml:id="hunt_j">
+                        <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
+                            John, 1775-1848</persName>
+                        <birth when="1775"/>
+                        <death when="1848"/>
+                    </person>
+                    <person xml:id="husner">
+                        <persName source="http://id.loc.gov/authorities/names/nr95004554">Husner,
+                            Georg, -1505</persName>
+                        <death when="1505"/>
+                    </person>
+                    <person xml:id="huth">
+                        <persName source="http://id.loc.gov/authorities/names/n83139105">Huth,
+                            Henry, 1815-1878</persName>
+                        <birth when="1815"/>
+                        <death when="1878"/>
+                    </person>
+                    <person xml:id="jaggard">
+                        <persName source="http://id.loc.gov/authorities/names/n50000034">Jaggard, 
+                            William, 1569-1623</persName>
+                        <birth when="1569"/>
+                        <death when="1623"/>
+                    </person>
+                    <person xml:id="jones">
+                        <persName source="http://id.loc.gov/authorities/names/nr97032167">Jones, 
+                            William, -1643</persName>
+                        <death when="1643"/>
+                    </person>
+                    <person xml:id="klug">
+                        <persName source="http://id.loc.gov/authorities/names/no97038923">Klug, 
+                            Joseph, active 1523-1552</persName>
+                        <floruit from="1523" to="1552"/>
+                    </person>
+                    <person xml:id="lemerre">
+                        <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
+                            Lemerre, éditeur</persName>
+                    </person>
+                    <person xml:id="manuzio">
+                        <persName source="http://id.loc.gov/authorities/names/n79117173">Manuzio,
+                            Aldo, 1449 or 1450-1515</persName>
+                        <birth from="1449" to="1450"/>
+                        <death when="1515"/>
+                    </person>
+                    <person xml:id="marriot">
+                        <persName source="http://id.loc.gov/authorities/names/nr94036760">Marriot, 
+                            Richard, active 17th century</persName>
+                        <floruit from="1600" to="1699"/>
+                    </person>
+                    <person xml:id="meighen">
+                        <persName source="http://id.loc.gov/authorities/names/nr95022729">Meighen, 
+                            Richard, active 1656</persName>
+                        <floruit when="1656"/>
+                    </person>
+                    <person xml:id="menzies">
+                        <persName source="http://id.loc.gov/authorities/names/no2019130921">Menzies, 
+                            W. G.</persName>
+                    </person>
+                    <person xml:id="moseley">
+                        <persName source="http://id.loc.gov/authorities/names/no90019019">Moseley,
+                            Humphrey, -1661</persName>
+                        <death when="1661"/>
+                    </person>
+                    <person xml:id="moxon">
+                        <persName source="http://id.loc.gov/authorities/names/no91026075">Moxon, 
+                            Edward, 1801-1858</persName>
+                        <birth when="1801"/>
+                        <death when="1858"/>
+                    </person>
+                    <person xml:id="nichols">
+                        <persName source="http://id.loc.gov/authorities/names/n80032806">Nichols,
+                            John, 1745-1826</persName>
+                        <birth when="1745"/>
+                        <death when="1826"/>
+                    </person>
+                    <person xml:id="oporinus">
+                        <persName source="http://id.loc.gov/authorities/names/no96009568">Oporinus, 
+                            Joannes, 1507-1568</persName>
+                        <birth when="1507"/>
+                        <death when="1568"/>
+                    </person>
+                    <person xml:id="pasini">
+                        <persName source="http://id.loc.gov/authorities/names/no95036795">Pasini,
+                            Maffeo, active 1524-1551</persName>
+                        <floruit from="1524" to="1551"/>
+                    </person>
+                    <person xml:id="petit">
+                        <persName source="http://id.loc.gov/authorities/names/n93042253">Petit,
+                            Jean, active 1492-1530</persName>
+                        <floruit from="1492" to="1530"/>
+                    </person>
+                    <person xml:id="pickering">
+                        <persName source="http://id.loc.gov/authorities/names/no89021301">Pickering,
+                            William, 1796-1854</persName>
+                        <birth when="1796"/>
+                        <death when="1854"/>
+                    </person>
+                    <person xml:id="rodd_t">
+                        <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
+                            Thomas, 1763-1822</persName>
+                        <birth when="1763"/>
+                        <death when="1822"/>
+                    </person>
+                    <person xml:id="speed">
+                        <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
+                            Samuel, -1681</persName>
+                        <death when="1681"/>
+                    </person>
+                    <person xml:id="thorpe">
+                        <persName source="http://id.loc.gov/authorities/names/no00048827">Thorpe, 
+                            Thomas, 1570?-1635?</persName>
+                        <birth when="1570" cert="unknown"/>
+                        <death when="1635" cert="unknown"/>
+                    </person>
+                    <person xml:id="toovey">
+                        <persName source="http://id.loc.gov/authorities/names/nr98036643">Toovey, 
+                            James, 1814-1893</persName>
+                        <birth when="1814"/>
+                        <death when="1893"/>
+                    </person>
+                    <person xml:id="torrentino">
+                        <persName source="http://id.loc.gov/authorities/names/n85296837">Torrentino,
+                            Lorenzo, -1563</persName>
+                        <death when="1563"/>
+                    </person>
+                    <person xml:id="torresanus">
+                        <persName source="http://id.loc.gov/authorities/names/no95027093">Torresanus, 
+                            Andreas, de Asula, 1451-1529</persName>
+                        <birth when="1451"/>
+                        <death when="1529"/>
+                    </person>       
+                </listPerson>        
             </div>
         </front>
         <body>
@@ -5314,6 +5363,9 @@
                                         in his verses, A. Agresti, London, <date when="1904-10"
                                             >October, 1904</date></note>
                                     <imprint>
+                                        <publisher corresp="#fratelli_bocca">
+                                            <orgName>Fratelli Bocca</orgName>
+                                        </publisher>
                                         <pubPlace ref="#turin">Torino</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
@@ -5332,6 +5384,11 @@
                                     <note type="description" corresp="#uncut">portrait and etchings,
                                         buckram, uncut, top edge gilt, royal 8vo</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Grant Richards</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -5346,6 +5403,10 @@
                                     </author>
                                     <note type="descripton" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#sands_co">
+                                            <orgName>Sands &amp; Co</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -5362,6 +5423,11 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Society for Promoting Christian Knowledge</orgName>
+                                        </publisher>
+                                        <!-- Several LCNAFs exist for this organization. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
                                 </monogr>
@@ -5381,6 +5447,10 @@
                                     <note type="inscription">A.C. Swinburne, Esq. a tribute of
                                         admiration from the Author</note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell &amp; Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -5419,6 +5489,10 @@
                                     <note type="description">illustrations by G. Cruikshank and Tony
                                         Johannot, red cloth</note>
                                     <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            <orgName>George Routledge &amp; Sons, Limited</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                     <extent>
@@ -5446,12 +5520,16 @@
                         <listBibl type="lot" xml:id="sb005">
                             <biblStruct corresp="#owned" xml:id="sb005.1">
                                 <monogr>
-                                    <title>Roxana Tragoedia</title>
+                                    <title>Roxana Tragædia</title>
                                     <author corresp="#alabaster">
                                         <persName>Alabaster, Gul.</persName>
                                     </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#jones">
+                                            <persName>William Jones</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1632"/>
                                     </imprint>
                                 </monogr>
@@ -5469,6 +5547,18 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="ESTC">S103874</idno>
                                     <imprint>
+                                        <publisher corresp="#buck">
+                                            <persName>John Buck</persName>
+                                        </publisher>
+                                        <publisher corresp="#buck_t">
+                                            <persName>Thomas Buck</persName>
+                                        </publisher>
+                                        <publisher corresp="#daniel_r">
+                                            <persName>Roger Daniel</persName>
+                                        </publisher>
+                                        <!-- Individuals are listed here, but they can potentially be folded into one organization,
+                                        e.g. Cambridge University Press. These three appear to be the principle printers at the time. -->
+                                        <pubPlace ref="#cambridge">Cantabrigiæ</pubPlace>
                                         <date when="1632"/>                                   
                                     </imprint>                                  
                                     <extent>
