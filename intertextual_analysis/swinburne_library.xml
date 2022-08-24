@@ -4905,6 +4905,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
                             and J. Ollier (Firm)</orgName>
                     </org>
+                    <org xml:id="cadell_davies">
+                        <orgName source="http://id.loc.gov/authorities/names/n81066332">Cadell 
+                            &amp; Davies</orgName>
+                    </org>
                     <org xml:id="calmann_levy">
                         <orgName source="http://id.loc.gov/authorities/names/n83142809">Calmann-Lévy 
                             (Firm)</orgName>
@@ -4980,6 +4984,10 @@
                     <org xml:id="longmans_green_co">
                         <orgName source="http://id.loc.gov/authorities/names/no91016531">Longmans, 
                             Green, and Co.</orgName>
+                    </org>
+                    <org xml:id="longman_green_longman_roberts_green">
+                        <orgName source="http://id.loc.gov/authorities/names/nb2011023328">Longman, 
+                            Green, Longman, Roberts and Green</orgName>
                     </org>
                     <org xml:id="macmillan_co">
                         <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
@@ -5061,6 +5069,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="trubner_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n81144561">Trübner 
+                            &amp; Co.</orgName>
+                    </org>
                     <org xml:id="trustees_british_museum">
                         <orgName source="http://id.loc.gov/authorities/names/n81082964">British 
                             Museum. Trustees</orgName>
@@ -5125,6 +5137,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr00026606">Budge, 
                             John, -1625</persName>
                         <death when="1625"/>
+                    </person>
+                    <person xml:id="burby">
+                        <persName source="http://id.loc.gov/authorities/names/n2004153126">Burby, 
+                            Cuthbert, -1607</persName>
+                        <death when="1607"/>
                     </person>
                     <person xml:id="cavalcalupo">
                         <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
@@ -5212,6 +5229,11 @@
                             Bernardo, active 1567-1627</persName>
                         <floruit from="1567" to="1627"/>
                     </person>
+                    <person xml:id="hayes">
+                        <persName source="http://id.loc.gov/authorities/names/no2010059617">Hayes, 
+                            Thomas, -1604?</persName>
+                        <death when="1604" cert="unknown"/>
+                    </person>
                     <person xml:id="hunt_j">
                         <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
                             John, 1775-1848</persName>
@@ -5249,6 +5271,10 @@
                         <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
                             Lemerre, éditeur</persName>
                     </person>
+                    <person xml:id="ling">
+                        <persName source="http://id.loc.gov/authorities/names/n82207865">N. L. 
+                            (Nicholas Ling), active 1580-1607</persName>
+                    </person>
                     <person xml:id="manuzio">
                         <persName source="http://id.loc.gov/authorities/names/n79117173">Manuzio,
                             Aldo, 1449 or 1450-1515</persName>
@@ -5268,6 +5294,12 @@
                     <person xml:id="menzies">
                         <persName source="http://id.loc.gov/authorities/names/no2019130921">Menzies, 
                             W. G.</persName>
+                    </person>
+                    <person xml:id="molini">
+                        <persName source="http://id.loc.gov/authorities/names/no2019071372">Molini, 
+                            Giovanni Claudio, 1724-1812</persName>
+                        <birth when="1724"/>
+                        <death when="1812"/>
                     </person>
                     <person xml:id="moseley">
                         <persName source="http://id.loc.gov/authorities/names/no90019019">Moseley,
@@ -5580,6 +5612,16 @@
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#buck">
+                                            <persName>John Buck</persName>
+                                        </publisher>
+                                        <publisher corresp="#buck_t">
+                                            <persName>Thomas Buck</persName>
+                                        </publisher>
+                                        <publisher corresp="#daniel_r">
+                                            <persName>Roger Daniel</persName>
+                                        </publisher>
+                                        <pubPlace ref="#cambridge">Cantabrigiæ</pubPlace>
                                         <date when="1632"/>
                                     </imprint>
                                 </monogr>
@@ -5597,6 +5639,9 @@
                                     <note xml:lang="it">riveduta dall'autore e accresciuta</note>
                                     <edition corresp="#sec_ed" xml:lang="it">seconda edizione</edition>
                                     <imprint>
+                                        <publisher corresp="#molini">
+                                            <persName>Gio. Cl. Molini</persName>
+                                        </publisher>
                                         <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
                                         <date from="1788" to="1789"/>
                                     </imprint>
@@ -5604,9 +5649,18 @@
                                         <measure unit="volumes" quantity="6"/>
                                     </extent>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
-                                <note type="fulltext">The 1700s copies are not available, but there
-                                    are later versions, though not the 6 vol.</note>
+                                <relatedItem n="1" type="google" 
+                                    target="https://www.google.com/books/edition/Tragedie_di_Vittorio_Alfieri_da_Asti_Sec/N2VnAAAAcAAJ"/>
+                                <relatedItem n="2" type="google" 
+                                    target="https://www.google.com/books/edition/Tragedie_di_Vittorio_Alfieri_da_Asti_Sec/RWVnAAAAcAAJ"/>
+                                <relatedItem n="3" type="google" 
+                                    target="https://www.google.com/books/edition/Tragedie_di_Vittorio_Alfieri_da_Asti_Vol/5fzrPEVgmSIC"/>
+                                <relatedItem n="4" type="google" 
+                                    target="https://www.google.com/books/edition/Volume_Quarto_Inedite/jWVnAAAAcAAJ"/>
+                                <relatedItem n="5" type="google" 
+                                    target="https://www.google.com/books/edition/Volume_Quinto_Inedite/lmVnAAAAcAAJ"/>
+                                <note type="fulltext">Vol. 1, page 277 confirms this set has six volumes,
+                                    but I was not able to locate the sixth.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb007">
@@ -5621,11 +5675,21 @@
                                     <note type="description" corresp="#uncut">old calf, broken, some
                                         leaves cut into</note>
                                     <imprint>
+                                        <publisher corresp="#ling">
+                                            <persName>Nicholas Ling</persName>
+                                        </publisher>
+                                        <publisher corresp="#burby">
+                                            <persName>Cuthbert Burby</persName>
+                                        </publisher>
+                                        <publisher corresp="#hayes">
+                                            <persName>Thomas Hayes</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1600"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="tcp"
-                                    target="http://name.umdl.umich.edu/A16884.0001.001"/>
+                                <relatedItem type="ia"
+                                    target="https://archive.org/details/englandsparnassu00allo_0"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb008">
@@ -5638,6 +5702,10 @@
                                     <note type="description">autograph letter of M.H. Spielmann to
                                         A.C. Swinburne inserted, imperial 8vo</note>
                                     <imprint>
+                                        <publisher corresp="#harper_brothers">
+                                            <orgName>Harper &amp; Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                 </monogr>
@@ -5663,6 +5731,10 @@
                                     </note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#cadell_davies">
+                                            <orgName>Cadell and Davies</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1812"/>
                                     </imprint>
                                 </monogr>
@@ -5679,6 +5751,10 @@
                                     </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#trubner_co">
+                                            <orgName>Trübner and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1865" to="1870"/>
                                     </imprint>
                                     <extent>
@@ -5707,6 +5783,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longman_green_longman_roberts_green">
+                                            <orgName>Longman, Green, Longman, Roberts, &amp; Green</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1865"/>
                                     </imprint>
                                 </monogr>
@@ -5730,6 +5810,11 @@
                                     <note type="description" corresp="#uncut">illustrations, half
                                         vellum, uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>The Imperial Press</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                 </monogr>
@@ -5752,6 +5837,10 @@
                                     <note type="description" corresp="#uncut">frontispiece,
                                         uncut</note>
                                     <imprint>
+                                        <publisher>n.a.</publisher>
+                                        <!-- No publisher on the physical item or in the HT catalog record.
+                                            Listed as "for private circulation."-->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
