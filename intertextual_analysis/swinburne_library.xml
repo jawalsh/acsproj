@@ -4965,6 +4965,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
                     </org>
+                    <org xml:id="john_march_son">
+                        <orgName source="http://id.loc.gov/authorities/names/no2015091012">John 
+                            March &amp; Son</orgName>
+                    </org>
                     <org xml:id="kama_sastra_society">
                         <orgName source="http://id.loc.gov/authorities/names/nb2006006446">Kama
                             Shastra Society of London and Benares</orgName>
@@ -4976,7 +4980,7 @@
                     <org xml:id="kelmscott">
                         <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
                             Press</orgName>
-                    </org>    
+                    </org>
                     <org xml:id="lee_priory">
                         <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
                             Press of Lee Priory</orgName>
@@ -5084,7 +5088,11 @@
                     <org xml:id="villon_society">
                         <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
                             Society</orgName>
-                    </org>                   
+                    </org>
+                    <org xml:id="whittaker_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr98011309">Whittaker 
+                            &amp; Co.</orgName>
+                    </org>
                     <org xml:id="william_blackwood_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no00093522">William 
                             Blackwood and Sons</orgName>
@@ -5266,6 +5274,11 @@
                         <persName source="http://id.loc.gov/authorities/names/no97038923">Klug, 
                             Joseph, active 1523-1552</persName>
                         <floruit from="1523" to="1552"/>
+                    </person>
+                    <person xml:id="le_maistre">
+                        <persName source="http://id.loc.gov/authorities/names/no2021114677">Le Maistre, 
+                            Mathieu, active approximately 1598-approximately 1628</persName>
+                        <floruit from="1598" to="1628" cert="unknown"/>
                     </person>
                     <person xml:id="lemerre">
                         <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
@@ -5857,6 +5870,10 @@
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#whittaker_co">
+                                            <orgName>Whittaker and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1857"/>
                                     </imprint>
                                     <extent>
@@ -5882,10 +5899,10 @@
                                     </respStmt>
                                     <note type="description">black cloth, royal 8vo.</note>
                                     <imprint>
-                                        <pubPlace ref="#varanasi">Benares</pubPlace>
                                         <publisher corresp="#kama_sastra_society">
                                             <orgName>Kamashastra Society</orgName>
                                         </publisher>
+                                        <pubPlace ref="#varanasi">Benares</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
                                     <extent>
@@ -5964,6 +5981,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            <orgName>Archibald Constable and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -5983,7 +6004,11 @@
                                     <note type="description">calf</note>
                                     <note type="etc">etc.</note>
                                     <imprint>
-                                        <date when="1720"/><!-- I think this was mistakenly noted as  1720 and should be 1770. ESTC lists no edition for 1720. -->
+                                        <publisher corresp="#john_march_son">
+                                            <orgName>J. &amp; J. March</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1720"/><!-- I think this was mistakenly noted as 1720 and should be 1770. ESTC lists no edition for 1720. -->
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht" target="https://hdl.handle.net/2027/njp.32101037715388"/>
@@ -6005,6 +6030,12 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            <orgName>Thomas Constable and Company</orgName>
+                                        </publisher>
+                                        <!-- Archibald Constable and Co. became Thomas Constable and Co. in
+                                        the late 1840s. The latter has no LCNAF, so the former might be the best option.-->
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1857"/>
                                     </imprint>
                                 </monogr>
@@ -6021,6 +6052,9 @@
                                     </author>
                                     <note type="description">vellum</note>
                                     <imprint>
+                                        <publisher corresp="#le_maistre">
+                                            <persName>Matteo il Maestro</persName>
+                                        </publisher>
                                         <pubPlace xml:lang="it" ref="#paris">Parigi</pubPlace>
                                         <date when="1609"/>
                                     </imprint>
@@ -6028,10 +6062,10 @@
                                         <measure unit="volumes" quantity="3"/>
                                     </extent>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
-                                <note type="fulltext">There appears to be other collections of the
-                                    author's letters from this year, but only books one and
-                                    two.</note>
+                                <relatedItem type="google" 
+                                    target="https://www.google.com/books/edition/Lettere_di_M_Pietro_Aretino/iVlCAAAAcAAJ"/>
+                                <!-- This entry lists three volumes, but "Libri VI" looks like just one book –
+                                i.e. Volume 6. Should there be others? Maybe Volumes 4 - 6? -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb015">
