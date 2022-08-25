@@ -4917,6 +4917,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr99031535">Cassell 
                             &amp; Company</orgName>
                     </org>
+                    <org xml:id="cassell_petter_galpin">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99039236">Cassell, 
+                            Petter &amp; Galpin</orgName>
+                    </org>
                     <org xml:id="chapman_and_hall">
                         <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
                             and Hall</orgName>
@@ -5359,6 +5363,10 @@
                         <birth when="1763"/>
                         <death when="1822"/>
                     </person>
+                    <person xml:id="scott_wa_publisher">
+                        <persName source="http://id.loc.gov/authorities/names/nr93008554">Scott, 
+                            Walter (Publisher)</persName>
+                    </person>
                     <person xml:id="speed">
                         <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
                             Samuel, -1681</persName>
@@ -5387,6 +5395,11 @@
                         <birth when="1451"/>
                         <death when="1529"/>
                     </person>       
+                    <person xml:id="vitali">
+                        <persName source="http://id.loc.gov/authorities/names/nr94029692">Vitali, 
+                            Bernardino dei, active 1494-1539</persName>
+                        <floruit from="1494" to="1539"/>
+                    </person>
                 </listPerson>        
             </div>
         </front>
@@ -6078,11 +6091,12 @@
                                     <note type="description">portrait on title, old red levant
                                         morocco, inside gilt borders, gilt edges</note>
                                     <imprint>
-                                        <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
-                                        <publisher>
-                                            <persName>Delande Pere</persName>
+                                        <publisher corresp="#vitali">
+                                            <persName>Bernardino dei Vitali</persName>
                                         </publisher>
-                                        <!-- could not find LCNAF or addtl information -->
+                                        <!-- HTRC lists publisher as Bernardino dei Vitali, and USTC has a copy
+                                        from 1535 published by him as well.-->
+                                        <pubPlace xml:lang="it" ref="#venice">Vinegia</pubPlace>
                                         <date when="1535"/>
                                     </imprint>
                                 </monogr>
@@ -6094,6 +6108,7 @@
                             <biblStruct corresp="#owned" xml:id="sb016.1">
                                 <monogr>
                                     <title xml:lang="it">Sopposite Comediea</title>
+                                    <!-- Check spelling, research suggests Suppositi. -->
                                     <author corresp="#ariosto">
                                         <persName>Ariosto, Lodovico</persName>
                                     </author>
@@ -6111,7 +6126,9 @@
                                         <date when="1537"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
+                                <relatedItem type="google" 
+                                    target="https://www.google.com/books/edition/Comedia_intitolata_li_soppositi/PCheAAAAcAAJ"/>
+                                <!-- This appears to be the correct edition, assuming the spelling above is correct. -->
                                 <note type="provenance" target="https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/gpjosq/alma99573636312205899">University of Illinois Urbana-Champaign</note>
                             </biblStruct>
                         </listBibl>
@@ -6151,6 +6168,10 @@
                                         <persName>Armstrong, E.J.</persName>
                                     </author>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -6164,6 +6185,10 @@
                                         <persName>Armstrong, E.J.</persName>
                                     </author>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -6184,6 +6209,7 @@
                                     target="https://hdl.handle.net/2027/coo.31924013543578"/>
                                 <note type="fulltext">HT copy lists author as G.F. (George Francis)
                                     Armstrong</note>
+                                <!-- Is this the correct copy? -->
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb018.4">
                                 <monogr>
@@ -6199,6 +6225,7 @@
                                     target="https://hdl.handle.net/2027/bc.ark:/13960/t9z06sm8p"/>
                                 <note type="fulltext">HT copy lists author as G.F. (George Francis)
                                     Armstrong</note>
+                                <!-- Is this the correct copy? -->
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb018.5">
                                 <monogr>
@@ -6213,6 +6240,10 @@
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne with inscriptions<num value="5"/></note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -6230,6 +6261,10 @@
                                     </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#cassell_petter_galpin">
+                                            <orgName>Cassell, Petter and Galpin</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                 </monogr>
@@ -6245,6 +6280,10 @@
                                     <note type="description" corresp="#uncut">portrait, vellum,
                                         uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman &amp; Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -6262,6 +6301,14 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#scott_wa_publisher">
+                                            <persName>Walter Scott</persName>
+                                        </publisher>
+                                        <!-- Walter Scott (also a Baronet but not the same person as the novelist)
+                                            also had a publishing company (Walter Scott Publishing Company) but
+                                            it appears he personally published some volumes in London, while the
+                                            Company was based in Newcastle-On-Tyne. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
