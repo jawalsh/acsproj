@@ -4965,6 +4965,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
                             &amp; Brothers</orgName>
                     </org>
+                    <org xml:id="houghton_mifflin_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n88002745">Houghton, 
+                            Mifflin and Company</orgName>
+                    </org>
                     <org xml:id="j_m_dent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
@@ -4989,9 +4993,21 @@
                         <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
                             Press of Lee Priory</orgName>
                     </org>
+                    <org xml:id="longman_brown_green_longmans">
+                        <orgName source="http://id.loc.gov/authorities/names/nr93032702">Longman, 
+                            Brown, Green, and Longmans</orgName>
+                    </org>
+                    <org xml:id="longman_brown_green_longmans_roberts">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2003035795">Longman, 
+                            Brown, Green, Longmans, &amp; Roberts</orgName>
+                    </org>
                     <org xml:id="longmans_green_co">
                         <orgName source="http://id.loc.gov/authorities/names/no91016531">Longmans, 
                             Green, and Co.</orgName>
+                    </org>
+                    <org xml:id="longman_green_longman_roberts">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008102701">Longman, 
+                            Green, Longman &amp; Roberts</orgName>
                     </org>
                     <org xml:id="longman_green_longman_roberts_green">
                         <orgName source="http://id.loc.gov/authorities/names/nb2011023328">Longman, 
@@ -5020,6 +5036,10 @@
                     <org xml:id="percy_society">
                         <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
                             Society</orgName>
+                    </org>
+                    <org xml:id="richard_bentley_and_son">
+                        <orgName source="http://id.loc.gov/authorities/names/n79018629">Richard 
+                            Bentley and Son</orgName>
                     </org>
                     <org xml:id="robson_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no2015105177">Robson 
@@ -5154,6 +5174,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n2004153126">Burby, 
                             Cuthbert, -1607</persName>
                         <death when="1607"/>
+                    </person>
+                    <person xml:id="burt">
+                        <persName source="http://id.loc.gov/authorities/names/n82258456">Burt, 
+                            A. L. (Albert Levi), 1843-1913</persName>
+                        <birth when="1843"/>
+                        <death when="1913"/>
                     </person>
                     <person xml:id="cavalcalupo">
                         <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
@@ -6333,7 +6359,7 @@
                                 </monogr>
                                 <relatedItem type="none" target=""/>
                                 <note type="fulltext">There is a work by this title and close in
-                                    year, but the author is different. Additionally, Sir Edwin
+                                    year, but the author is Sir Lewis Morris. Additionally, Sir Edwin
                                     Arnold does have works around this same time, but none have this
                                     title.</note>
                             </biblStruct>
@@ -6365,6 +6391,10 @@
                                         presentation copes to Swinburne with inscriptions<num
                                             value="30"/></note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -6382,12 +6412,15 @@
                                     <note type="description">crimson morocco extra, richly gilt
                                         sides, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#longman_brown_green_longmans">
+                                            <orgName>Longman, Brown, Green and Longmans</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/poems04unkngoog/page/n7/mode/2up"
-                                />
+                                    target="https://archive.org/details/poems04unkngoog/page/n7/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb021.2">
                                 <monogr>
@@ -6398,6 +6431,10 @@
                                     </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -6414,6 +6451,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -6430,6 +6471,10 @@
                                     </author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longman_brown_green_longmans_roberts">
+                                            <orgName>Longman, Brown, Green, Longmans, &amp; Roberts</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
                                 </monogr>
@@ -6451,6 +6496,9 @@
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
@@ -6468,12 +6516,15 @@
                                     </author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longman_green_longman_roberts">
+                                            <orgName>Longman, Green, Longman, and Roberts</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1861"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/populareducation00arnorich/page/n8/mode/2up"
-                                />
+                                    target="https://archive.org/details/populareducation00arnorich/page/n8/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb023.2">
                                 <monogr>
@@ -6483,6 +6534,10 @@
                                     </author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                 </monogr>
@@ -6500,6 +6555,10 @@
                                     </note>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -6516,6 +6575,13 @@
                                     </author>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#burt">
+                                            <persName>A. L. Burt</persName>
+                                        </publisher>
+                                        <!-- No title page, but HT catalog record lists A. L. Burt. Assuming the
+                                            individual should be referenced here, but there is also an A. L.
+                                            Burt Company based in New York. -->
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1865"/>
                                     </imprint>
                                 </monogr>
@@ -6533,6 +6599,10 @@
                                     </note>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                 </monogr>
@@ -6551,6 +6621,10 @@
                                         copy from the author, with inscription</note>
                                     <note type="inscription">With Mr. Arnold's Compliments</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                 </monogr>
@@ -6570,6 +6644,10 @@
                                     <note type="inscription">With very kind regards M.A.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -6583,6 +6661,10 @@
                                         <persName>Arnold, Matthew</persName>
                                     </author>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -6599,6 +6681,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -6615,11 +6701,17 @@
                                     </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t3125wb8m"/>
+                                <!-- This item and its HT record states it's the 5th edition, 
+                                    should be changed? -->
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb027.2">
                                 <monogr>
@@ -6629,6 +6721,10 @@
                                     </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -6643,11 +6739,17 @@
                                     </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uva.x000310763"/>
+                                <!-- This item and its HT record states it's the 2nd edition, 
+                                    should be changed? -->
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb027.4">
                                 <monogr>
@@ -6660,6 +6762,10 @@
                                     </note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -6693,6 +6799,10 @@
                                         presentation copies to Swinburne with inscriptions<num
                                             value="12"/></note>
                                     <imprint>
+                                        <publisher corresp="#houghton_mifflin_company">
+                                            <orgName>Houghton, Mifflin and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -6715,16 +6825,15 @@
                                     <note type="description">old morocco extra, richly gilt sides,
                                         gilt edges, joints cracked</note>
                                     <imprint>
-                                        <pubPlace ref="#venice">Venet.</pubPlace>
                                         <publisher xml:lang="la" corresp="aedes_aldi">
                                             <orgName>in aedibus Aldi et And. Soceri</orgName>
                                         </publisher>
+                                        <pubPlace ref="#venice">Venet.</pubPlace>
                                         <date when="1515"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/auligelliinoctiu00gell/page/n3/mode/2up"
-                                />
+                                    target="https://archive.org/details/auligelliinoctiu00gell/page/n3/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb030">
@@ -6738,6 +6847,10 @@
                                         cloth</note>
                                     <edition>Steventon Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_and_son">
+                                            <orgName>Richard Bentley &amp; Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                     <extent>
@@ -6772,6 +6885,11 @@
                                         uncut, top edge gilt</note>
                                     <edition>Winchester Edition</edition>
                                     <imprint>
+                                        <publisher>
+                                            <persName>John Grant</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF. -->
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                     <extent>
@@ -6813,6 +6931,10 @@
                                         Austin <date when="1881-10-24">Octr. 24th 1881</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
