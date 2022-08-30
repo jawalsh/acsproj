@@ -5013,6 +5013,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nb2011023328">Longman, 
                             Green, Longman, Roberts and Green</orgName>
                     </org>
+                    <org xml:id="longman_hurst_rees_orme">
+                        <orgName source="http://id.loc.gov/authorities/names/no91024715">Longman, 
+                            Hurst, Rees, and Orme</orgName>
+                    </org>
                     <org xml:id="macmillan_co">
                         <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
                             &amp; Co.</orgName>
@@ -5215,6 +5219,12 @@
                             Thomas, -1620</persName>
                         <death when="1620"/>
                     </person>
+                    <person xml:id="dentu">
+                        <persName source="http://id.loc.gov/authorities/names/no2008112109">Dentu, 
+                            E. (Edouard), 1830-1884</persName>
+                        <birth when="1830"/>
+                        <death when="1884"/>
+                    </person>
                     <person corresp="douglas">
                         <persName source="http://id.loc.gov/authorities/names/no93024045">Douglas, 
                             David, 1823-1916</persName>
@@ -5266,6 +5276,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97028549">Giunta, 
                             Bernardo, active 1567-1627</persName>
                         <floruit from="1567" to="1627"/>
+                    </person>
+                    <person xml:id="griffiths">
+                        <persName source="http://id.loc.gov/authorities/names/nr91034589">Griffiths, 
+                            Vaughan</persName>
                     </person>
                     <person xml:id="hayes">
                         <persName source="http://id.loc.gov/authorities/names/no2010059617">Hayes, 
@@ -5383,11 +5397,23 @@
                         <birth when="1796"/>
                         <death when="1854"/>
                     </person>
+                    <person xml:id="poulet-malassis">
+                        <persName source="http://id.loc.gov/authorities/names/n90678667">Poulet-Malassis, 
+                            Auguste, 1825-1878</persName>
+                        <birth when="1825"/>
+                        <death when="1878"/>
+                    </person>
                     <person xml:id="rodd_t">
                         <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
                             Thomas, 1763-1822</persName>
                         <birth when="1763"/>
                         <death when="1822"/>
+                    </person>
+                    <person xml:id="rouveyre">
+                        <persName source="http://id.loc.gov/authorities/names/nr2001030287">Rouveyre, 
+                            Edouard, 1849-1930</persName>
+                        <birth when="1849"/>
+                        <death when="1930"/>
                     </person>
                     <person xml:id="scott_wa_publisher">
                         <persName source="http://id.loc.gov/authorities/names/nr93008554">Scott, 
@@ -5403,6 +5429,10 @@
                             Thomas, 1570?-1635?</persName>
                         <birth when="1570" cert="unknown"/>
                         <death when="1635" cert="unknown"/>
+                    </person>
+                    <person xml:id="tinsley">
+                        <persName source="http://id.loc.gov/authorities/names/nr93008083">Tinsley, 
+                            Samuel</persName>
                     </person>
                     <person xml:id="toovey">
                         <persName source="http://id.loc.gov/authorities/names/nr98036643">Toovey, 
@@ -6958,6 +6988,7 @@
                                         <publisher corresp="#trustees_british_museum">
                                             <orgName>Order of the Trustees</orgName>
                                         </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -6978,6 +7009,9 @@
                                         presentation copy from the author to Swinburne, with
                                         autograph inscription</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
@@ -7063,6 +7097,10 @@
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#colburn">
+                                            <persName>Henry Colburn</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1826"/>
                                     </imprint>
                                     <extent>
@@ -7087,6 +7125,10 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#tinsley">
+                                            <persName>Samuel Tinsley</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                     <extent>
@@ -7106,6 +7148,10 @@
                                         <persName>Barham, R. H.</persName>
                                     </author>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_and_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                     <extent>
@@ -7129,6 +7175,10 @@
                                     <note type="description">half russia, pencil note in Swinburne's
                                         writing</note>
                                     <imprint>
+                                        <publisher corresp="#griffiths">
+                                            <persName>V. Griffiths</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1798"/>
                                     </imprint>
                                 </monogr>
@@ -7146,6 +7196,10 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longman_hurst_rees_orme">
+                                            <orgName>Longman, Hurst, Rees, and Orme</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1807"/>
                                     </imprint>
                                 </monogr>
@@ -7167,6 +7221,10 @@
                                     <note type="description" corresp="#uncut">illustrations by
                                         Leech, Cruikshank, etc. original cloth, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_and_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                     <extent>
@@ -7190,6 +7248,10 @@
                                     </author>
                                     <note type="description">illustrations, royal 8vo</note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                     <extent>
@@ -7210,6 +7272,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -7230,11 +7296,15 @@
                                     <note type="inscription" xml:lang="fr">Mr. Algernon C. Swinburne
                                         Bon souvenir et mille Remerciments, C.B.</note>
                                     <imprint>
+                                        <publisher corresp="#dentu">
+                                            <persName>E. Dentu</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1861"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
+                                <relatedItem type="google" 
+                                    target="https://www.google.com/books/edition/Richard_Wagner_et_Tannhauser_%C3%A0_Paris/VSRDAAAAcAAJ"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb040.2">
                                 <monogr>
@@ -7248,6 +7318,9 @@
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#rouveyre">
+                                            <persName>E. Rouveyre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
@@ -7270,13 +7343,19 @@
                                             >1864</date>, to Algernon C. Swinburne</note>
                                     <edition corresp="#first_ed">First edition</edition>
                                     <imprint>
+                                        <publisher corresp="#poulet-malassis">
+                                            <persName>Poulet-Malassis</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>De Broise</persName>
+                                        </publisher>
+                                        <!-- Sources suggest first name is Eugene, no LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1857"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/lesfleursdum00baud/page/n6/mode/2up"
-                                />
+                                    target="https://archive.org/details/lesfleursdum00baud/page/n6/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb042">
@@ -33473,8 +33552,6 @@
                                 <monogr>
                                     <title>Works, with Memoir by Barry Cornwall</title>
                                     <author corresp="#jonson">Jonson, Ben</author>
-                                    <!-- Likely http://id.loc.gov/authorities/names/n2006020095,
-                                            but difficult to say for certain. -->
                                     <note type="description">portrait, half calf, top edge gilt,
                                         royal 8vo.</note>
                                     <imprint>
