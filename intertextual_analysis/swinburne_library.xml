@@ -332,6 +332,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/7017283" xml:id="glasgow">
                         <placeName type="preferred">Glasgow</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7010782" xml:id="great_yarmouth">
+                        <placeName type="preferred">Great Yarmouth</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7006810" xml:id="hague">
                         <placeName type="preferred">Hague, The</placeName>
                         <placeName>La Haye</placeName>
@@ -4961,6 +4964,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
                             Cie</orgName>
                     </org>
+                    <org xml:id="hachette">
+                        <orgName source="http://id.loc.gov/authorities/names/n81053359">Hachette 
+                            (Firm)</orgName>
+                    </org>
                     <org xml:id="harper_brothers">
                         <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
                             &amp; Brothers</orgName>
@@ -5021,6 +5028,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
                             &amp; Co.</orgName>
                     </org>
+                    <org xml:id="mercure_de_france">
+                        <orgName source="http://id.loc.gov/authorities/names/n91049975">Mercure 
+                            de France (Firm)</orgName>
+                    </org>
                     <org xml:id="methuen_co">
                         <orgName source="http://id.loc.gov/authorities/names/n82162085">Methuen 
                             &amp; Co.</orgName>
@@ -5040,6 +5051,10 @@
                     <org xml:id="percy_society">
                         <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
                             Society</orgName>
+                    </org>
+                    <org xml:id="quantin">
+                        <orgName source="http://id.loc.gov/authorities/names/no99008273">A. 
+                            Quantin (Firm)</orgName>
                     </org>
                     <org xml:id="richard_bentley_and_son">
                         <orgName source="http://id.loc.gov/authorities/names/n79018629">Richard 
@@ -5112,6 +5127,10 @@
                     <org xml:id="vale_press">
                         <orgName source="http://id.loc.gov/authorities/names/no96044617">Vale 
                             Press</orgName>
+                    </org>
+                    <org xml:id="vanderauwera">
+                        <orgName source="http://id.loc.gov/authorities/names/no2011068073">Imp. 
+                            et lith. de Ch. Vanderauwera</orgName>
                     </org>
                     <org xml:id="villon_society">
                         <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
@@ -5327,6 +5346,12 @@
                     <person xml:id="lemerre">
                         <persName source="http://id.loc.gov/authorities/names/no2019149343">Alphonse 
                             Lemerre, éditeur</persName>
+                    </person>
+                    <person xml:id="levy">
+                        <persName source="http://id.loc.gov/authorities/names/n84193992">Lévy, 
+                            Calmann, 1819-1891</persName>
+                        <birth when="1819"/>
+                        <death when="1891"/>
                     </person>
                     <person xml:id="ling">
                         <persName source="http://id.loc.gov/authorities/names/n82207865">N. L. 
@@ -7368,13 +7393,18 @@
                                     </author>
                                     <note type="description">half calf</note>
                                     <imprint>
+                                        <publisher corresp="#poulet-malassis">
+                                            <persName>Poulet-Malassis</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>De Broise</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1860"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/lesparadisartif00quingoog/page/n8/mode/2up"
-                                />
+                                    target="https://archive.org/details/lesparadisartif00quingoog/page/n8/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb042.2">
                                 <monogr>
@@ -7385,6 +7415,9 @@
                                     <note type="description">portraits, etc. calf gilt, marbled
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
@@ -7418,6 +7451,9 @@
                                     </author>
                                     <note type="description">portrait, morocco, gilt edges</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName corresp="#calmann_levy">Calmann-Lévy</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
@@ -7453,6 +7489,9 @@
                                     <note type="description" corresp="#uncut">portrait and
                                         facsimile, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#quantin">
+                                            <orgName>Maison Quantin</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
@@ -7468,6 +7507,9 @@
                                     </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName corresp="#levy">Calmann Lévy</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
@@ -7487,6 +7529,9 @@
                                         <num value="24"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#hachette">
+                                            <orgName>Librairie Hachette &amp; Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
@@ -7505,6 +7550,9 @@
                                     <note type="description" corresp="#uncut">portrait, uncut,
                                         pencil note in handwriting of Swinburne on fly-leaf</note>
                                     <imprint>
+                                        <publisher corresp="#mercure_de_france">
+                                            <orgName>Société du Mercure de France</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
@@ -7521,6 +7569,12 @@
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc"><num value="3"/>and another</note>
                                     <imprint>
+                                        <publisher corresp="#vanderauwera">
+                                            <orgName>Typ. de C. Vanderauwera</orgName>
+                                        </publisher>
+                                        <!-- Not sure if this is correct, pulled from HT catalog record.
+                                            Record also lists "chez tout les libraires," but this translates
+                                            to "at all booksellers."-->
                                         <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
@@ -7539,7 +7593,13 @@
                                     </author>
                                     <note type="description">2 vol.</note>
                                     <imprint>
-                                        <date>n. d.</date>
+                                        <publisher>
+                                            <orgName>James MacDonald &amp; Co.</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. There is a James MacDonald Co., but
+                                            they're based in New York. -->
+                                        <pubPlace ref="#great_yarmouth">Great Yarmouth</pubPlace>
+                                        <date cert="unknown">1873</date>
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="2"/>
