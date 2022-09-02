@@ -3842,6 +3842,11 @@
                         <birth when="1752"/>
                         <death when="1803"/>
                     </person>
+                    <person xml:id="robinson">
+                        <persName source="http://id.loc.gov/authorities/names/n86822794">Robinson, 
+                            Robert, active 1877-1892</persName>
+                        <floruit from="1877" to="1892"/>
+                    </person>
                     <person xml:id="rochefort">
                         <persName source="http://id.loc.gov/authorities/names/n84077760">Rochefort,
                             Henri, 1831-1913</persName>
@@ -4980,6 +4985,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
                     </org>
+                    <org xml:id="john_harris">
+                        <orgName source="http://id.loc.gov/authorities/names/n85194340">John 
+                            Harris (Firm)</orgName>
+                    </org>
                     <org xml:id="john_march_son">
                         <orgName source="http://id.loc.gov/authorities/names/no2015091012">John 
                             March &amp; Son</orgName>
@@ -5007,6 +5016,10 @@
                     <org xml:id="longman_brown_green_longmans_roberts">
                         <orgName source="http://id.loc.gov/authorities/names/nr2003035795">Longman, 
                             Brown, Green, Longmans, &amp; Roberts</orgName>
+                    </org>
+                    <org xml:id="longman_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2002013989">Longman 
+                            &amp; Co.</orgName>
                     </org>
                     <org xml:id="longmans_green_co">
                         <orgName source="http://id.loc.gov/authorities/names/no91016531">Longmans, 
@@ -5116,6 +5129,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="tinsley_brothers">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99022043">Tinsley 
+                            Brothers</orgName>
+                    </org>
                     <org xml:id="trubner_co">
                         <orgName source="http://id.loc.gov/authorities/names/n81144561">Trübner 
                             &amp; Co.</orgName>
@@ -5192,6 +5209,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr00026606">Budge, 
                             John, -1625</persName>
                         <death when="1625"/>
+                    </person>
+                    <person xml:id="bullen">
+                        <persName source="http://id.loc.gov/authorities/names/n79018768">Bullen, 
+                            A. H. (Arthur Henry), 1857-1920</persName>
+                        <birth when="1857"/>
+                        <death when="1920"/>
                     </person>
                     <person xml:id="burby">
                         <persName source="http://id.loc.gov/authorities/names/n2004153126">Burby, 
@@ -5338,6 +5361,10 @@
                             Joseph, active 1523-1552</persName>
                         <floruit from="1523" to="1552"/>
                     </person>
+                    <person xml:id="labitte">
+                        <persName source="http://id.loc.gov/authorities/names/n83227335">Labitte, 
+                            A.</persName>
+                    </person>
                     <person xml:id="le_maistre">
                         <persName source="http://id.loc.gov/authorities/names/no2021114677">Le Maistre, 
                             Mathieu, active approximately 1598-approximately 1628</persName>
@@ -5356,6 +5383,11 @@
                     <person xml:id="ling">
                         <persName source="http://id.loc.gov/authorities/names/n82207865">N. L. 
                             (Nicholas Ling), active 1580-1607</persName>
+                    </person>
+                    <person xml:id="luchino">
+                        <persName source="http://id.loc.gov/authorities/names/nr95034195">Luchino, 
+                            Vincenzo, active 1550-1566</persName>
+                        <floruit from="1550" to="1566"/>
                     </person>
                     <person xml:id="manuzio">
                         <persName source="http://id.loc.gov/authorities/names/n79117173">Manuzio,
@@ -5422,6 +5454,12 @@
                         <birth when="1796"/>
                         <death when="1854"/>
                     </person>
+                    <person xml:id="pickering_b">
+                        <persName source="http://id.loc.gov/authorities/names/nr95027071">Pickering, 
+                            Basil Montagu, 1836-1878</persName>
+                        <birth when="1836"/>
+                        <death when="1878"/>
+                    </person>
                     <person xml:id="poulet-malassis">
                         <persName source="http://id.loc.gov/authorities/names/n90678667">Poulet-Malassis, 
                             Auguste, 1825-1878</persName>
@@ -5475,7 +5513,13 @@
                             Andreas, de Asula, 1451-1529</persName>
                         <birth when="1451"/>
                         <death when="1529"/>
-                    </person>       
+                    </person>
+                    <person xml:id="unwin">
+                        <persName source="http://id.loc.gov/authorities/names/nr98001249">Unwin, 
+                            T. Fisher (Thomas Fisher), 1848-1935</persName>
+                        <birth when="1848"/>
+                        <death when="1935"/>
+                    </person>
                     <person xml:id="vitali">
                         <persName source="http://id.loc.gov/authorities/names/nr94029692">Vitali, 
                             Bernardino dei, active 1494-1539</persName>
@@ -7623,6 +7667,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1885" to="1888"/>
                                     </imprint>
                                     <extent>
@@ -7674,8 +7722,9 @@
                                         marbled edges, binding of some vol. broken</note>
                                     <imprint>
                                         <publisher corresp="#moxon">
-                                            <persName>Moxon</persName>
+                                            <persName>Edward Moxon</persName>
                                         </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1843"/>
                                     </imprint>
                                     <extent>
@@ -7720,6 +7769,13 @@
                                         linen boards, uncut, top edge gilt</note>
                                     <edition>Variorum Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <publisher corresp="#bullen">
+                                            <persName>A. H. Bullen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1904" to="1908"/>
                                     </imprint>
                                     <biblScope unit="volume" from="I" to="III"/>
@@ -7746,6 +7802,9 @@
                                         avec admiration et sympathie, Stéphane Mallarmé</note>
                                     <edition corresp="#first_ed">l'édition Française originale</edition>
                                     <imprint>
+                                        <publisher corresp="#labitte">
+                                            <persName>Adolphe Labitte</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
@@ -7763,21 +7822,24 @@
                                     </author>
                                     <note type="description">old binding</note>
                                     <imprint>
-                                        <publisher xml:lang="it" corresp="#manuzio">nelle Case d'Aldo
-                                            Romano</publisher>
+                                        <publisher xml:lang="it" corresp="#manuzio">
+                                            <persName>Aldo Romano</persName>
+                                        </publisher>
                                         <pubPlace xml:lang="it" ref="#venice">in Vinegia</pubPlace>
                                         <date when="1515"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/bub_gb_5tlNAAAAcAAJ/page/n6/mode/2up"
-                                />
+                                    target="https://archive.org/details/bub_gb_5tlNAAAAcAAJ/page/n6/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb051.2">
                                 <monogr>
                                     <title xml:lang="la">Terentii De Lingua Latina</title>
                                     <note type="description">vellum</note>
                                     <imprint>
+                                        <publisher corresp="#luchino">
+                                            <persName>Vincentium Luchinum</persName>
+                                        </publisher>
                                         <pubPlace ref="#rome">Romae</pubPlace>
                                         <date when="1557"/>
                                     </imprint>
@@ -7863,6 +7925,10 @@
                                         très sincère, P. Berger, <date when="1907-06-11">11 Juin,
                                             1907</date></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Société franc̜aise d'imprimerie et de librairie</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
@@ -7957,6 +8023,10 @@
                                     </author>
                                     <note type="etc">etc.</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -7974,6 +8044,10 @@
                                         <num value="20"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -7991,12 +8065,15 @@
                                     <note type="description">woodcuts by J. Bewick, half calf,
                                         marbled edges</note>
                                     <imprint>
+                                        <publisher corresp="#john_harris">
+                                            <orgName>John Harris</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1814"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/lookingglassform00inberq/page/n3/mode/2up"
-                                />
+                                    target="https://archive.org/details/lookingglassform00inberq/page/n3/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb057.2">
                                 <monogr>
@@ -8044,6 +8121,10 @@
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Charles Collett</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#sunbury">Sunbury</pubPlace>
                                         <date when="1862"/>
                                     </imprint>
@@ -8062,6 +8143,9 @@
                                     <note type="description">woodcuts by Bewick, calf gilt, marbled
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#longman_co">
+                                            <orgName>Longman and Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#newcastle">Newcastle</pubPlace>
                                         <date when="1818"/>
                                     </imprint>
@@ -8080,6 +8164,10 @@
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longman_green_longman_roberts">
+                                            <orgName>Longman, Green, Longman, and Roberts</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1862"/>
                                     </imprint>
                                 </monogr>
@@ -8097,6 +8185,10 @@
                                     <note type="description">portrait and illustrations, half calf;
                                         imperial 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#robinson">
+                                            <persName>R. Robinson</persName>
+                                        </publisher>
+                                        <!-- Self-published? -->
                                         <pubPlace ref="#newcastle">Newcastle</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
@@ -8116,6 +8208,10 @@
                                     <note type="description" corresp="#uncut">portraits and
                                         illustrations, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#unwin">
+                                            <persName>T. F. Unwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -8130,6 +8226,11 @@
                                     </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>H. S. Nichols</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -8145,12 +8246,15 @@
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">etc.</note>
                                     <imprint>
+                                        <publisher corresp="#tinsley_brothers">
+                                            <orgName>Tinsley Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1864"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/nilebasinpartish00burt/page/n10/mode/2up"
-                                />
+                                    target="https://archive.org/details/nilebasinpartish00burt/page/n10/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb060.4">
                                 <monogr>
@@ -8163,6 +8267,10 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#pickering_b">
+                                            <persName>Basil Montagu Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
