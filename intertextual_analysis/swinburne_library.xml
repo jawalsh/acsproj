@@ -4933,6 +4933,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
                             and Hall</orgName>
                     </org>
+                    <org xml:id="charles_l_webster_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2006035384">Charles 
+                            L. Webster and Company</orgName>
+                    </org>
                     <org xml:id="chatto_windus">
                         <orgName source="http://id.loc.gov/authorities/names/n85242407">Chatto 
                             &amp; Windus (Firm)</orgName>
@@ -5465,6 +5469,12 @@
                             Auguste, 1825-1878</persName>
                         <birth when="1825"/>
                         <death when="1878"/>
+                    </person>
+                    <person xml:id="quaritch">
+                        <persName source="http://id.loc.gov/authorities/names/n50050524">Quaritch, 
+                            Bernard, 1819-1899</persName>
+                        <birth when="1819"/>
+                        <death when="1899"/>
                     </person>
                     <person xml:id="rodd_t">
                         <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
@@ -8285,6 +8295,10 @@
                                         Francois publié avec des Notes par M. Viollet le Due</title>
                                     <note type="description">10 vol.</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>P. Jannet</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1854"/>
                                     </imprint>
@@ -8318,6 +8332,9 @@
                                     <title xml:lang="fr">Saint-Amant: Oeuvres Complètes, accompaguée
                                         des Notes par Ch. L. Livet</title>
                                     <imprint>
+                                        <publisher>
+                                            <persName>P. Jannet</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1855"/>
                                     </imprint>
@@ -8338,6 +8355,9 @@
                                         <num value="13"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>P. Jannet</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1856"/>
                                     </imprint>
@@ -8358,6 +8378,10 @@
                                     <note type="inscription">With the Author's very kind regards,
                                         Brighton, <date when="1896-04">April 1896</date></note>
                                     <imprint>
+                                        <publisher corresp="#sampson_low_marston_co">
+                                            <orgName>Sampson Low, Marston and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -8371,6 +8395,10 @@
                                         <persName>Black, Wm.</persName>
                                     </author>
                                     <imprint>
+                                        <publisher corresp="#sampson_low_marston_searle_rivington">
+                                            <orgName>Sampson Low, Marston, Searle, &amp; Rivington</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                     <extent>
@@ -8394,6 +8422,10 @@
                                         <num value="14"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                     <extent>
@@ -8417,6 +8449,10 @@
                                     </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#harper_brothers">
+                                            <orgName>Harper &amp; Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -8430,6 +8466,10 @@
                                         <persName>Baring-Gould, S.</persName>
                                     </author>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -8451,6 +8491,10 @@
                                         <num value="14"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -8470,6 +8514,10 @@
                                         <name full="yes">R. H. Shepherd</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#pickering_b">
+                                            <persName>Basil Montagu Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -8484,6 +8532,9 @@
                                     </author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
@@ -8527,10 +8578,15 @@
                                         gratitude for Blake's sake and my own, W. M. Rossetti, <date
                                             when="1874-10">October 1874</date></note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="none" target=""/>
+                                <relatedItem type="google" 
+                                    target="https://www.google.com/books/edition/The_Poetical_Works_of_William_Blake_Lyri/2LSSTBJY8zMC"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb066">
@@ -8571,6 +8627,10 @@
                                         illustrations, cloth glit, uncut, top edge gilt; imperial
                                         8vo</note>
                                     <imprint>
+                                        <publisher corresp="#quaritch">
+                                            <persName>Bernard Quaritch</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                     <extent>
@@ -8594,6 +8654,9 @@
                                     </author>
                                     <note type="description">facsimile</note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
@@ -8613,6 +8676,10 @@
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -8635,6 +8702,10 @@
                                     <note type="description" corresp="#uncut">2 vol. portrait, half
                                         bound, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -8655,6 +8726,10 @@
                                     <note type="description" corresp="#uncut">portrait, buckram,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -8673,6 +8748,10 @@
                                     <note type="description">2 vol. portrait and illustrations from
                                         Blake's works, cloth gilt</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1863"/>
                                     </imprint>
                                 </monogr>
@@ -8721,6 +8800,10 @@
                                     <note type="etc">and another<num value="2"/></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#a_k_newman_co">
+                                            <orgName>Newman and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -8746,6 +8829,10 @@
                                         Blouet, <date when="1894-10-17">Oct. 17/94</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#charles_l_webster_co">
+                                            <orgName>Charles L. Webster &amp; Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
