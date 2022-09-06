@@ -3,9 +3,9 @@
 type="compact" ?>
 <?xml-stylesheet type="text/xsl" href="swinburne.xsl"?>
 <!DOCTYPE TEI [
-<!ENTITY wd '<choice><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
-<!ENTITY shd '<choice><abbr>shd</abbr><expan>should</expan></choice>'>
-<!ENTITY Shd '<choice><abbr>Shd</abbr><expan>Should</expan></choice>'>
+<!ENTITY wd '<choice xmlns="http://www.tei-c.org/ns/1.0"><abbr>w<hi rendition="#super #u">d</hi></abbr><expan>would</expan></choice>'>
+<!ENTITY shd '<choice xmlns="http://www.tei-c.org/ns/1.0"><abbr>shd</abbr><expan>should</expan></choice>'>
+<!ENTITY Shd '<choice xmlns="http://www.tei-c.org/ns/1.0"><abbr>Shd</abbr><expan>Should</expan></choice>'>
 <!ENTITY title 'Ashley MS 5263: Erechtheus'>
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000001-04">
@@ -1195,7 +1195,7 @@ type="compact" ?>
 						<l>Struck, &amp; beneath the triple wound that shook</l>
 						<l>The stony ⁁ <add place="above">sinews &amp; <gap reason="cancelled" extent="1 word"/> stark</add> roots of the earth<del>,</del> <subst><del seq="1">that</del><add seq="2" place="above">when</add></subst> <subst><del seq="1">all the <unclear cert="low">sleep</unclear></del><add seq="2" place="above">&amp; <gap reason="cancelled" extent="1 word"/> sinews rentqua</add></subst></l>
 <!-- check line -->						<l><del>Quaked as <subst><del seq="1">a <subst><del seq="2">windy water</del><add seq="3" place="above">reed-bed</add></subst></del><add seq="4" place="below"><del>reeds in a river</del></add></subst></del><del>, from the cleft</del></l>
-						<l>Sprang toward the sun<del>light</del> a <subst><del seq="1">fount sudden</del><add seq="2" place="above">sharp salt</add></subst> fount, &amp; <subst><del seq="1"><uncear cert="medium">lay</unclear></del><add seq="2" place="above">sank</add></subst></l>
+						<l>Sprang toward the sun<del>light</del> a <subst><del seq="1">fount sudden</del><add seq="2" place="above">sharp salt</add></subst> fount, &amp; <subst><del seq="1"><unclear cert="medium">lay</unclear></del><add seq="2" place="above">sank</add></subst></l>
 						<l><subst><del seq="1">As now rock-bedded in our eyese it</del><add seq="2" place="above">Where lying it lights the heart up of the hill,</add></subst></l>
 						<l>A well of bright <subst><del seq="1">sea-</del><add seq="2" place="above"><del seq="3">bleak </del></add><add seq="4">strange </add></subst>brine; but she that reared</l>
 						<l>Thy father with <del>th</del> her same chaste fostering hand</l>
@@ -1209,10 +1209,10 @@ type="compact" ?>
 						<l>The strong <gap reason="cancelled" extent="1 word" unit="chars" atLeast="3" atMost="4"/> king of the tempest-rifted sea</l>
 						<l>Loosed reinless on the low Thriasian <subst><del seq="1">sea</del><add seq="2" place="inline">plain</add></subst></l>
 						<l>The thunders of his <subst><del seq="1"><gap reason="cancelled" extent="1 word" unit="chars" atLeast="7" atMost="11"/></del><add seq="2" place="above"></add></subst>chariots, <subst><del seq="1"><unclear cert="medium">in</unclear> one gult</del><add seq="2" place="above">swallowing stunned</add></subst></l>
-						<l><subst><del seq="1">Men,</del><add seq="2" place="above">Earth,</add></subst> beasts, <subst>earth, trees,<del seq="1"></del><add seq="2" place="above">&amp; men</add></subst> the whole blind <subst><del seq="1"><gap extent="1 word"/></del><add seq="2" place="above">foundering</add></subst> world</l>
+						<l><subst><del seq="1">Men,</del><add seq="2" place="above">Earth,</add></subst> beasts, earth, trees,<subst><del seq="1"></del><add seq="2" place="above">&amp; men</add></subst> the whole blind <subst><del seq="1"><gap extent="1 word"/></del><add seq="2" place="above">foundering</add></subst> world</l>
 						<l>That was the sun’s <del>delight</del> at morning, &amp; ere noon</l>
 						<l>Death’s; nor this only prey <del><unclear cert="low">suffered</unclear></del> fulfilled his mind;</l>
-						<!--paused. -->
+						<!-- paused. -->
 						<l>For with strange <subst><del seq="1">keels <subst><del seq="1">black-<unclear cert="medium">sailed</unclear></del><add seq="2" place="above">sharp-edged</add></subst></del><add seq="2" place="above">crook-toothed prows</add></subst> of Carian folk</l>
 						<l>Who snatch <subst><del seq="1">their</del><add seq="2" place="above">a</add></subst> sanguine life out of the <subst><del seq="1">foam</del><add seq="2" place="above">sea</add></subst>,</l><label>470</label>
 
@@ -1407,9 +1407,7 @@ type="compact" ?>
 						<l rendition="#ti-2">As a cloud that he sheds upon the sea.</l>
 					</lg>
 					<lg>
-						<l rendition="#ti-3">
-							<!-- check [Epode. --> Of this hoary-headed woe<label rendition="#n"
-									>[<hi rendition="#i">Epode.</hi></label></l>
+						<l rendition="#ti-3"><!-- check [Epode. --> Of this hoary-headed woe<label rendition="#n" >[<hi rendition="#i">Epode.</hi></label></l>
 						<l rendition="#ti-3">Song made memory long ago;</l>
 						<l rendition="#ti-3">Now a younger grief to mourn</l>
 						<l rendition="#ti-3">Needs a new song younger born.</l>
