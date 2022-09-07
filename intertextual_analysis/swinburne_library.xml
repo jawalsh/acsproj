@@ -5332,6 +5332,12 @@
                             Thomas, -1604?</persName>
                         <death when="1604" cert="unknown"/>
                     </person>
+                    <person xml:id="heinemann">
+                        <persName source="http://id.loc.gov/authorities/names/n81125390">Heinemann, 
+                            William, 1863-1920</persName>
+                        <birth when="1863"/>
+                        <death when="1920"/>
+                    </person>
                     <person xml:id="hunt_j">
                         <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
                             John, 1775-1848</persName>
@@ -5359,6 +5365,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97032167">Jones, 
                             William, -1643</persName>
                         <death when="1643"/>
+                    </person>
+                    <person xml:id="kennerley">
+                        <persName source="http://id.loc.gov/authorities/names/n85346049">Kennerley, 
+                            Mitchell, 1878-1950</persName>
+                        <birth when="1878"/>
+                        <death when="1950"/>
                     </person>
                     <person xml:id="klug">
                         <persName source="http://id.loc.gov/authorities/names/no97038923">Klug, 
@@ -5436,6 +5448,10 @@
                         <birth when="1745"/>
                         <death when="1826"/>
                     </person>
+                    <person xml:id="nutt">
+                        <persName source="http://id.loc.gov/authorities/names/nr2003009625">Nutt, 
+                            David</persName>
+                    </person>
                     <person xml:id="oporinus">
                         <persName source="http://id.loc.gov/authorities/names/no96009568">Oporinus, 
                             Joannes, 1507-1568</persName>
@@ -5463,6 +5479,12 @@
                             Basil Montagu, 1836-1878</persName>
                         <birth when="1836"/>
                         <death when="1878"/>
+                    </person>
+                    <person xml:id="plaats">
+                        <persName source="http://id.loc.gov/authorities/names/no2019102214">Plaats, 
+                            François van der, approximately 1670-1715</persName>
+                        <birth when="1670" cert="unknown"/>
+                        <death when="1715"/>
                     </person>
                     <person xml:id="poulet-malassis">
                         <persName source="http://id.loc.gov/authorities/names/n90678667">Poulet-Malassis, 
@@ -5496,6 +5518,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
                             Samuel, -1681</persName>
                         <death when="1681"/>
+                    </person>
+                    <person xml:id="tauchnitz">
+                        <persName source="http://id.loc.gov/authorities/names/nr93045993">Tauchnitz, 
+                            Bernhard, 1816-1895</persName>
+                        <birth when="1816"/>
+                        <death when="1895"/>
                     </person>
                     <person xml:id="thorpe">
                         <persName source="http://id.loc.gov/authorities/names/no00048827">Thorpe, 
@@ -8996,6 +9024,9 @@
                                     <note type="description">old calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#plaats">
+                                            <persName>François vander Plaats</persName>
+                                        </publisher>
                                         <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
                                         <date when="1701"/>
                                     </imprint>
@@ -9013,7 +9044,9 @@
                                         Notes by Antonio Panizzi</title>
                                     <note type="description">9 vol. portrait</note>
                                     <imprint> 
-                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date from="1830" to="1834"/>
                                     </imprint>
@@ -9078,6 +9111,10 @@
                                     <note type="description" corresp="#uncut">numerous portraits,
                                         illustrations, facsimilies, etc. uncut</note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                     <extent>
@@ -9154,6 +9191,10 @@
                                     <note type="etc">and some others by the same author<num
                                             value="12"/></note>
                                     <imprint>
+                                        <publisher corresp="#tauchnitz">
+                                            <persName>Bernhard Tauchnitz</persName>
+                                        </publisher>
+                                        <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -9171,6 +9212,10 @@
                                     <note type="description" corresp="#uncut">illustrations by J.
                                         Pennell and Hugh Thomas, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
@@ -9185,6 +9230,10 @@
                                     </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -9201,6 +9250,10 @@
                                         <num value="18"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -9218,6 +9271,10 @@
                                     <note type="description" corresp="#uncut">2 vol. buckram,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#heinemann">
+                                            <persName>William Heinemann</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                     <extent>
@@ -9254,6 +9311,10 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#kennerley">
+                                            <persName>Mitchell Kennerley</persName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1909"/>
                                     </imprint>
                                 </monogr>
@@ -9270,6 +9331,11 @@
                                         <persName>Brathwaite, Rich.</persName>
                                     </author>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Robert Roberts</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine LCNAF. -->
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
@@ -9287,6 +9353,10 @@
                                     </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1857"/>
                                     </imprint>
                                 </monogr>
@@ -9297,6 +9367,10 @@
                                 <monogr>
                                     <title>Fables of Aesop</title>
                                     <imprint>
+                                        <publisher corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -9315,6 +9389,10 @@
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
@@ -9341,6 +9419,10 @@
                                         regards of Professor E. Arber, <date when="1901-05-20">20
                                             May, 1901</date></note>
                                     <imprint>
+                                        <publisher corresp="#frowde">
+                                            <persName>Henry Frowde</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="8"/>I-IX, missing vol
@@ -9413,7 +9495,7 @@
                                     <imprint>
                                         <!-- No LCNAF found. -->
                                         <publisher>
-                                            <persName>Pearson</persName>
+                                            <persName>John Pearson</persName>
                                         </publisher>
                                         <date when="1873"/>
                                     </imprint>
@@ -9493,6 +9575,10 @@
                                     <note type="description" corresp="#uncut">portraits and illustrations, green
                                         cloth, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#harper_brothers">
+                                            <orgName>Harper &amp; Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date from="1899" to="1900"/>
                                     </imprint>
                                     <extent>
@@ -9598,6 +9684,10 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -9611,6 +9701,10 @@
                                     <title>Doctor Cupid: a Novel</title>
                                     <author corresp="#broughton">Broughton, Rhoda</author>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_and_son">
+                                            <orgName>Richard Bentley &amp; Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -9649,6 +9743,10 @@
                                     <note type="etc">and others by the same author<num value="9"
                                         /></note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -9662,6 +9760,10 @@
                                     <title>John Leech, and other Papers</title>
                                     <author corresp="#brown_j">Brown, John</author>
                                     <imprint>
+                                        <publisher>
+                                            <persName>David Douglas</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
