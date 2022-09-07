@@ -37,9 +37,38 @@ type="compact" ?>
 						<collection>Ashley</collection>
 						<idno>5263</idno>
 					</msIdentifier>
+					<physDesc>
+						<p>Bound in red leather covered boards with gold gilt lettering and decoration. Cover reads, at top center 
+<quote rendition="#center">Erechtheus<lb/>
+<!-- half-inch rulle -->
+A. C. Swinburne<lb/>
+1876
+</quote>.
+Bottom center , in smaller type, reads,
+<quote rendition="#center">
+BRIT. MUS.<lb/>
+ASHLEY MS.<lb/>
+5263.
+</quote>. Spine is divided into 6 regions by 5 raised ridges. Counting regions, 1-6 from top to bottom, within the second region is printed <quote>ERECH-<lb/>THEUS</quote>. At the bottom of the sixth and final region is printed <quote>1876</quote>.
+<quote>
+</p>
+<p>T. J. Wise’s book plate is pasted in center of inside front cover. In the lower right corner of the bookplate illustration is a seated, female angel reading a scroll. Along the left side is standing or hovering female angel blowing a trumpet and holding a scroll. On the flowing scrolls in the center of the image is printed <quote>THOMAS<lb/>JAMES VVISE<lb/>HIS BOOK</quote>. In the bottom center of the bookplate is printed, <quote>BOOKS BRING ME FRIENDS<lb/>WHERE’ER ON EARTH I BE,<lb/>SOLACE OF SDOLITVDE—<lb/>BONDS OF SOCIETY!</quote></p>
+<p>
+A slip of paper pasted into the bound volume reads:
+<floatingText>
+	<body>
+<head>Erechtheus: A Tragedy. By Algernon Charles Swinburne.<lb/>1876.</head>
+<p>The original holograph Manuscript, consisting of sixty-two folio leaves of white paper, mostly written upon one side only, and including in all seventy-nine pages of MS. In common with Swinburne’s early manuscripts, but unlike his later ones, which exhibit but few changes, the MS. of <title rendition="#i">Erechtheus</title> is crowded with corrections, alterations, and additions, in some places half a page at a time being marked out. Since no cmplete MS. of either _Atalanta in Calydon_ or _Tristram of Lyonesse_ has been preservered, I regard this noble volume as being the finest and most desireable Swinburne manuscript extant. It was given by the poet to Watts-Dunton, from whom I purchased it in September 1909. I give a greatly reduced facsimile of the first page; and also, in order to show the extent of deletion, an equally reduced facsimile of p. 48. Loosely inserted is an A.L.S. from Watts-Dunton to Swinburne, in which the writer remarks—
+	<quote rendition="#block #i"><emph rendition="#i">Don’t, pray, forget that I am to have the MS. of <title>‘Erehtheus’ Where is it?</quote>
+</p>
+<p>Bound in red levant morocco by Riviere. The leaves measure 13¼ × 8⅜ inches.</p>
+							</physDesc>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+	
+
+		
 		<encodingDesc>
 			<editorialDecl>
 				<quotation>
@@ -1239,23 +1268,24 @@ type="compact" ?>
 						<l>That shake on us their shadow, till men’s heads</l><label>490</label>
 						<l>Bend, &amp; their hearts <subst><del seq="1">are <unclear cert="medium">withered</unclear></del><add place="above" seq="2">even with <subst><del seq="1">the</del><add place="above">its forward</add></subst> wind <del><unclear cert="medium">&amp;</unclear></del></add></subst></l>
 							<!-- paused 2022-09-06 12:05 -->
-						<l>Wither, so blasts all seed in them of hope</l>
-						<l>Its breath &amp; blight of presage; yea, even now</l>
+						<l>Wither, <subst><del seq="1">so blasted <unclear cert="medium">with its bl</unclear></del><add seq="2" place="above">so blasts <subst><del seq="1"><unclear cert="medium">in them the</unclear><add seq="2" place="above">all</add></subst> seed<add seq="4" place="below">⁁</add><add seq="3" place="above">in them</add> of hope</add></subst></l>
+						<l>Its <del><gap extent="3" unit="chars"/></del> breath &amp; blight of presage; yea, even now</l>
 						<l>The winter of this wind out of the deeps</l>
-						<l>Makes cold our trust in comfort of the Gods</l>
-						<l>And blind our eye toward outlook; yet not here,</l>
-						<l>Here never shall the Thracian plant on high</l>
-						<l>For ours his father’s symbol, nor with wreaths</l>
-						<l>A strange folk wreathe it upright set &amp; crowned</l>
-						<l>Here where our natural people born behold</l>
-						<l>The golden Gorgon of the shield’s defence</l>
-						<l>That screens their flowering olive, nor strange Gods</l>
+						<l>Makes cold <del>the</del> our trust in comfort of the Gods</l>
+						<l>And blind<del>s</del> our eye<del>s</del> toward outlook; yet not here,</l>
+						<l>Here never shall the Thracian <subst><del seq="1"><gap extent="3" unit="chars"></del><add seq="2" place="above">plant</add></subst> on high</l>
+						<l><subst><del seq="1">In the <unclear>olive’s</unclear> place the trident,</del><add seq="2" place="above">For ours his father’s <del seq="3"><unclear cert="low">flanked</unclear></del>symbol,</add></subst> nor with wreaths</l>
+						<l><subst><del seq="1">His</del><add place="above" seq="2">A</add></subst> strange folk wreathe it <subst><del seq="1">upright set, <unclear cert="high">nor give</unclear></del><add seq="2" place="above">upright set &amp; crowned</add></subst></l>
+						<l><subst><del seq="1">For the <gap extent="4" unit="chars"/>’s<note resp="#jawalsh">An apostrophe s (’s) is clearly legible at end of word.</note></del><add seq="2" place='above'>Here <del><unclear cert="medium">in</unclear> <gap extent="4" unit="chars"/> heart</del> where our<add place="below">⁁</add><add place="above">natural</add> people born behold</l><label>500</lavel>
+						<l>The golden Gorgon of the shield’s <subst><del seq="1">that <gap unit="chars" extent="3"/></del><add seq="2" place='above'>defence</add></subst></l>
+						<l><del>Before</del>That screens<note resp="#jawalsh">May have been “screened> with "ed" replaced by "s".</note> their flowering olive, nor <del><unclear cert="low">his<note resp="#jawalsh">this?</note></unclear>strange Gods</l>
 						<l>Be graced, &amp; Pallas here have praise no more. <ptr type="note"
 								target="#note_01"/></l>
 						<l>And if this be not I must give my child,</l>
-						<l>Thee, mine own very blood &amp; spirit of mine,</l>
+						<l><subst><add place="left" seq="2">Thee, <del seq="1">M</del><add seq="3">m</add></subst>ine<del> own, my</del> very <subst><del seq="1">child <gap extent="3" unit="chars"/> to be</del><add seq="2" place="above"><del>flesh</del> blood &amp; spirit of mine,</l>
 
-						<l>Thee to be slain. Turn from me, turn thine eyes</l>
+						<l>Thee to be slain. <subst><del seq="1">Look not <unclear cert="low">&amp; from<unclear> me now</del><add place="above" seq="2">Turn from me, turn thine eyes</l>
+						<!-- paused 2022-09-07 -->
 						<l>A little from me; I can bear not yet</l>
 						<l>To see if still they smile on mine or no,</l>
 						<l>If fear make faint the light in them, or faith</l>
