@@ -4957,6 +4957,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr00017940">Edward
                             Moxon &amp; Co.</orgName>
                     </org>
+                    <org xml:id="fields_osgood_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no96011604">Fields, 
+                            Osgood &amp; Co.</orgName>
+                    </org>
                     <org xml:id="fratelli_bocca">
                         <orgName source="http://id.loc.gov/authorities/names/n86815346">Fratelli 
                             Bocca</orgName>
@@ -4988,6 +4992,14 @@
                     <org xml:id="j_m_dent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="james_miller">
+                        <orgName source="http://id.loc.gov/authorities/names/no98132613">James 
+                            Miller (Firm)</orgName>
+                    </org>
+                    <org xml:id="james_r_osgood_company">
+                        <orgName source="http://id.loc.gov/authorities/names/no96013109">James 
+                            R. Osgood and Company</orgName>
                     </org>
                     <org xml:id="john_harris">
                         <orgName source="http://id.loc.gov/authorities/names/n85194340">John 
@@ -5041,6 +5053,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no91024715">Longman, 
                             Hurst, Rees, and Orme</orgName>
                     </org>
+                    <org xml:id="longman_rees_orme_brown_green_longman">
+                        <orgName source="http://id.loc.gov/authorities/names/nr93032704">Longman, 
+                            Rees, Orme, Brown, Green, and Longman</orgName>
+                    </org>
                     <org xml:id="macmillan_co">
                         <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
                             &amp; Co.</orgName>
@@ -5073,7 +5089,7 @@
                         <orgName source="http://id.loc.gov/authorities/names/no99008273">A. 
                             Quantin (Firm)</orgName>
                     </org>
-                    <org xml:id="richard_bentley_and_son">
+                    <org xml:id="richard_bentley_son">
                         <orgName source="http://id.loc.gov/authorities/names/n79018629">Richard 
                             Bentley and Son</orgName>
                     </org>
@@ -5133,6 +5149,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="ticknor_fields">
+                        <orgName source="http://id.loc.gov/authorities/names/n85316845">Ticknor 
+                            and Fields</orgName>
+                    </org>
                     <org xml:id="tinsley_brothers">
                         <orgName source="http://id.loc.gov/authorities/names/nr99022043">Tinsley 
                             Brothers</orgName>
@@ -5156,6 +5176,14 @@
                     <org xml:id="villon_society">
                         <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
                             Society</orgName>
+                    </org>
+                    <org xml:id="ward_lock_bowden">
+                        <orgName source="http://id.loc.gov/authorities/names/n91028365">Ward, 
+                            Lock &amp; Bowden, ltd.</orgName>
+                    </org>
+                    <org xml:id="ward_lock_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n80036611">Ward, 
+                            Lock &amp; Co.</orgName>
                     </org>
                     <org xml:id="whittaker_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr98011309">Whittaker 
@@ -5270,6 +5298,11 @@
                             E. (Edouard), 1830-1884</persName>
                         <birth when="1830"/>
                         <death when="1884"/>
+                    </person>
+                    <person xml:id="dillingham">
+                        <persName source="http://id.loc.gov/authorities/names/nr89013850">Dillingham, 
+                            Charles Theodore, 1842-</persName>
+                        <birth when="1842"/>
                     </person>
                     <person corresp="douglas">
                         <persName source="http://id.loc.gov/authorities/names/no93024045">Douglas, 
@@ -6984,7 +7017,7 @@
                                         cloth</note>
                                     <edition>Steventon Edition</edition>
                                     <imprint>
-                                        <publisher corresp="#richard_bentley_and_son">
+                                        <publisher corresp="#richard_bentley_son">
                                             <orgName>Richard Bentley &amp; Son</orgName>
                                         </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
@@ -7255,7 +7288,7 @@
                                         <persName>Barham, R. H.</persName>
                                     </author>
                                     <imprint>
-                                        <publisher corresp="#richard_bentley_and_son">
+                                        <publisher corresp="#richard_bentley_son">
                                             <orgName>Richard Bentley and Son</orgName>
                                         </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
@@ -7328,7 +7361,7 @@
                                     <note type="description" corresp="#uncut">illustrations by
                                         Leech, Cruikshank, etc. original cloth, uncut</note>
                                     <imprint>
-                                        <publisher corresp="#richard_bentley_and_son">
+                                        <publisher corresp="#richard_bentley_son">
                                             <orgName>Richard Bentley and Son</orgName>
                                         </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
@@ -9701,7 +9734,7 @@
                                     <title>Doctor Cupid: a Novel</title>
                                     <author corresp="#broughton">Broughton, Rhoda</author>
                                     <imprint>
-                                        <publisher corresp="#richard_bentley_and_son">
+                                        <publisher corresp="#richard_bentley_son">
                                             <orgName>Richard Bentley &amp; Son</orgName>
                                         </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
@@ -9774,10 +9807,16 @@
                             <biblStruct corresp="#owned" xml:id="sb096.2">
                                 <monogr>
                                     <title>Life of Edgar Allen Poe</title>
-                                    <author corresp="#gill">Gill, W. F.</author>
+                                    <author corresp="#gill">
+                                        <persName>Gill, W. F.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy to Swinburne, with inscription</note>
                                     <imprint>
+                                        <publisher corresp="#dillingham">
+                                            <persName>C. T. Dillingham</persName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -9787,10 +9826,16 @@
                             <biblStruct corresp="#owned" xml:id="sb096.3">
                                 <monogr>
                                     <title>Companions of my Solitude</title>
-                                    <author corresp="#helps">Helps, Sir A.</author>
+                                    <author corresp="#helps">
+                                        <persName>Helps, Sir A.</persName>
+                                    </author>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="14"/></note>
                                     <imprint>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1852"/>
                                     </imprint>
                                 </monogr>
@@ -9802,7 +9847,9 @@
                             <bibl xml:id="sb097.1">
                                 <title>Earlier Poems <date from="1826" to="1833"
                                     >1826-1833</date></title>
-                                <author corresp="#browning_e">Browning, E. B.</author>
+                                <author corresp="#browning_e">
+                                    <persName>Browning, E. B.</persName>
+                                </author>
                                 <note type="description" corresp="#uncut #presentation">uncut,
                                     presentation copy, with inscription</note>
                                 <note type="inscription">A. C. Swinburne, with kind and grateful
@@ -9810,17 +9857,23 @@
                                         <date when="1897-10-30">Oct. 30, 1897</date></note>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.c031240496"/>
-                                <note type="fulltext">HT copt dated 1878.</note>
+                                <note type="fulltext">HT copy dated 1878.</note>
                             </bibl>
                             <biblStruct corresp="#owned" xml:id="sb097.2">
                                 <monogr>
                                     <title>Prometheus Bound and other Poems</title>
-                                    <author corresp="#browning_e">Browning, E. B.</author>
+                                    <author corresp="#browning_e">
+                                        <persName>Browning, E. B.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#ward_lock_bowden">
+                                            <orgName>Ward, Lock &amp; Bowden</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                 </monogr>
@@ -9832,13 +9885,19 @@
                             <biblStruct corresp="#owned" xml:id="sb098.1">
                                 <monogr>
                                     <title>Letters Addressed to Richard Hengist Horne</title>
-                                    <author corresp="#browning_e">Browning, E. B.</author>
+                                    <author corresp="#browning_e">
+                                        <persName>Browning, E. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. R. Townshend Mayer</name>
                                     </respStmt>
                                     <note type="description">original cloth</note>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                     <extent>
@@ -9853,7 +9912,9 @@
                             <biblStruct corresp="#owned" xml:id="sb098.2">
                                 <monogr>
                                     <title>Letters and Unpublished Writings</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Stephen Wheeler</name>
@@ -9863,6 +9924,10 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -9874,9 +9939,15 @@
                             <biblStruct corresp="#owned" xml:id="sb099.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#browning_e">Browning, E. B.</author>
+                                    <author corresp="#browning_e">
+                                        <persName>Browning, E. B.</persName>
+                                    </author>
                                     <note type="description">5 vol. original cloth</note>
                                     <imprint>
+                                        <publisher corresp="#james_miller">
+                                            <orgName>James Miller</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                     <extent>
@@ -9898,7 +9969,9 @@
                             <biblStruct corresp="#owned" xml:id="sb100.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#browning_e">Browning E. B.</author>
+                                    <author corresp="#browning_e">
+                                        <persName>Browning, E. B.</persName>
+                                    </author>
                                     <note type="description">5 vol. (wanting vol. II), portrait,
                                         brown cloth</note>
                                     <imprint>
@@ -9916,13 +9989,19 @@
                             <biblStruct corresp="#owned" xml:id="sb100.2">
                                 <monogr>
                                     <title>Translation of the Iliad of Homer</title>
-                                    <author corresp="#worsley">Worlsey, P. S.</author>
+                                    <author corresp="#worsley">
+                                        <persName>Worlsey, P. S.</persName>
+                                    </author>
                                     <note type="description">vol. I, signature of D. G. Rosetti on
                                         title</note>
                                     <note type="etc">
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            <orgName>William Blackwood and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1865"/>
                                     </imprint>
                                     <biblScope unit="volume">I</biblScope>
@@ -9935,28 +10014,39 @@
                             <biblStruct corresp="#owned" xml:id="sb101.1">
                                 <monogr>
                                     <title>Strafford: an Historical Tragedy</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description">half roan</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longman_rees_orme_brown_green_longman">
+                                            <orgName>Longman, Rees, Orme, Brown, Green, &amp; Longman</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1837"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/straffordanhist00browgoog/page/n10/mode/2up"
-                                />
+                                    target="https://archive.org/details/straffordanhist00browgoog/page/n10/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned #annotated" xml:id="sb101.2">
                                 <monogr>
                                     <title>Prose Life of Strafford, with Introduction by C. H.
                                         Firth, and Forewords by F. J. Furnivall</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description">pencil note on flyleaf in handwriting
                                         of Swinburne</note>
                                     <note type="etc">
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -9968,10 +10058,16 @@
                             <biblStruct corresp="#owned" xml:id="sb102.1">
                                 <monogr>
                                     <title>Sordello</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#moxon">
+                                            <persName>Edward Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1840"/>
                                     </imprint>
                                 </monogr>
@@ -9983,10 +10079,16 @@
                             <biblStruct corresp="#owned" xml:id="sb103.1">
                                 <monogr>
                                     <title>Christmas Eve and Easter Day</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description">original cloth, loose</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman &amp; Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1850"/>
                                     </imprint>
                                 </monogr>
@@ -9998,10 +10100,16 @@
                             <biblStruct corresp="#owned" xml:id="sb104.1">
                                 <monogr>
                                     <title>Dramitis Personae</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#ticknor_fields">
+                                            <orgName>Ticknor and Fields</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1864"/>
                                     </imprint>
                                 </monogr>
@@ -10011,13 +10119,19 @@
                             <biblStruct corresp="#owned" xml:id="sb104.2">
                                 <monogr>
                                     <title>Bells and Pomegranates, with Notes by T. J. Wise</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">both series, 2 vol. 2
                                         portraits, uncut</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#ward_lock_co">
+                                            <orgName>Ward, Lock &amp; Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1896" to="1897"/>
                                     </imprint>
                                     <extent>
@@ -10034,7 +10148,9 @@
                             <biblStruct corresp="#owned" xml:id="sb105.1">
                                 <monogr>
                                     <title>The Ring and the Book</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">4 vol. green
                                         cloth; Presentation copy from the author, with autograph
                                         inscription</note>
@@ -10043,6 +10159,10 @@
                                             '68</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1868" to="1869"/>
                                     </imprint>
                                     <extent>
@@ -10063,10 +10183,16 @@
                             <biblStruct corresp="#owned" xml:id="sb106.1">
                                 <monogr>
                                     <title>The Ring and the Book</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <note type="description">4 vol. green cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#fields_osgood_co">
+                                            <orgName>Fields, Osgood, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                     <extent>
@@ -10086,9 +10212,15 @@
                             <biblStruct corresp="#owned" xml:id="sb107.1">
                                 <monogr>
                                     <title>Balaustion's Adventure</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#james_r_osgood_company">
+                                            <orgName>James R. Osgood and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -10098,9 +10230,15 @@
                             <biblStruct corresp="#owned" xml:id="sb107.2">
                                 <monogr>
                                     <title>Ferishtah's Fancies</title>
-                                    <author corresp="#browning_r">Browning, R.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, R.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
