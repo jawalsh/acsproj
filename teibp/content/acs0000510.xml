@@ -564,13 +564,13 @@ A slip of paper pasted into the bound volume reads:
 						<l>Slaves of no man, subjects of none;</l>
 						<l>A wonder enthroned on the hills &amp; sea,</l>
 						<l>A maiden crowned with a fourfold glory</l>
-						<addSpan spanTo="#endSpan01"/>
-						<delSpan spanTo="#endSpan01"/>
+						<addSpan spanTo="#anchor002"/>
+						<delSpan spanTo="#anchor002"/>
 						<l>Flowers that the winter can blast not or bend;</l>
 						<note resp="acs"><gap extent="1 character" unit="chars" atLeast="1" atMost="1"/>3 <!-- deleted char before 3. --></note>
 						<l>Song-wreath &amp; story,<lb/> the fairest of fame,</l>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
-						<l>That none from <subst><del seq="1">her</del> <add seq="2" place="inline">the</add></subst><lb/> pride of her head may rend,</l><anchor xml:id="endSpan01"/>
+						<l>That none from <subst><del seq="1">her</del> <add seq="2" place="inline">the</add></subst><lb/> pride of her head may rend,</l><anchor xml:id="anchor002"/>
 						<note resp="acs" place="left margin">></note>
 						<l>That none from the pride of her head may rend,</l>
 						<l>Violet &amp; olive-leaf purple &amp; hoary,</l>
@@ -1083,9 +1083,9 @@ A slip of paper pasted into the bound volume reads:
 				</sp>
 				<sp>
 					<speaker rendition="#left #inline">C.</speaker>
-					<lg><delSpan spanTo="#anch001"/>
+					<lg><delSpan spanTo="#anchor001"/>
 						<l>Praised be his goodwill toward me all</l>
-						<l>Great thank from me be toward <del>him</del></l><anchor xml:id="anch001"/>
+						<l>Great thank from me be toward <del>him</del></l><anchor xml:id="anchor001"/>
 						<l>Thanks all my life long shall he <subst><del seq="1">have</del><add seq="2" place="above">gain</add></subst> of mine.</l>
 					</lg>
 				</sp>
@@ -1287,18 +1287,31 @@ A slip of paper pasted into the bound volume reads:
 						<l><add place="left" seq="2">Thee, </add><subst><del seq="1">M</del><add seq="3">m</add></subst>ine<del> own, my</del> very <subst><del seq="1">child <gap extent="3" unit="chars"/> to be</del><add seq="2" place="above"><del>flesh</del> blood &amp; spirit of mine,</add></subst></l>
 
 						<l>Thee to be slain. <subst><del seq="1">Look not <unclear cert="low">&amp; from</unclear> me now</del><add place="above" seq="2">Turn from me, turn thine eyes</add></subst></l>
-						<!-- paused 2022-09-07 -->
 						<l>A little from me; I can bear not yet</l>
-						<l>To see if still they smile on mine or no,</l>
-						<l>If fear make faint the light in them, or faith</l>
-						<l>Fix them as stars of safety. Need have we,</l>
-						<l>Sore need of stars that set not in mid storm,</l>
-						<l>Lights that outlast the lightnings; yet my heart</l>
-						<l>Endures not to make proof of thine or these,</l>
+						<l>To <subst><del seq="1">know</del><add seq="2" place="above">see</add></subst> <subst><del seq="1"><gap unit="chars" extent="4"/> look <gap unit="chars" extent="3"/></del><add seq="2" place="above">if still they smile on mine or no,</add></subst></l>
+						<l>If fear <del seq="1">strike darkness</del> make faint the light in them, or faith</l>
+						<l>Fix them as stars <subst><del seq="1">that save sea-travelling men</del><add seq="2" place="below">of safety. Need have we,</add></subst></l>		
+						<l><subst><del seq="1">And <unclear cert="medium">set</unclear></del><add seq="2" place="above"><del>Ou<gap unit="chars" extent=""/></del></add></subst><del> not <unclear cert="medium">in</unclear> &amp; shine beyond the lightning</del></l><label><subst><del seq="1">500</del><add place="inline" seq="2">510</add></label>
+						<l>Sore need of <subst><del seq="1">light</del><add seq="2" place="above">stars</add></subst> that set not in mid storm,</l>
+						<l>Lights that out<subst><del seq="1"><unclear cert="medium">last</unclear><add seq="2" place="above">shine</add><add seq="3" place="below">last</add></subst> the lightnings; yet my heart</l>
+						<l><del><unclear cert="medium">Can</unclear></del>Endures not to make proof of thine or these,</l>
 						<l>Not yet to know thee whom I made, &amp; bare</l>
 						<l>What manner of woman; had I borne thee man,</l>
 						<l>I had made no question of thine eyes or heart,</l>
-						<l>Nor spared to read the scriptures in them writ,</l>
+						<l><subst><del seq="1">But <gap unit="chars" extent="4"/> <gap unit="chars" extent="7"/> <unclear cert="low">&amp;</unclear> <gap unit="chars" extent="4"/> <unclear cert="medium">thee</unclear><del><add seq="2" gap="above">Nor spared to read <del>bid</del> the scriptures in them writ</add></subst></l>
+						<l><add place="margin">Wert thou my son &amp;c.</add><note resp="#jawalsh">The preceding text is a pointer to the contiuation of the text after on the following folio (with lines labeled 530 and 540) following a page and a half of deleted text.</note></l>
+						<delSpan target="#anchor003"/>
+						<l>Nor spared to read their writings, nor for fear</l>
+						<l>Held the from death; for <del><gap unit="chars" extent="3"/</del> if this fire of war</l>
+						<l>Had <subst><del seq="1">girdled in</del><add seq="2" place="above">now ringed round</add></subst> our city, &amp; in my halls</l>
+						<l>No seed of daughters were but flower of sons</l>
+						<l>Would <del>not</del> I <subst><del seq="1">bid them forth to proof of spears</del><add seq="2" place="above">then for fear of death not bid them forth</add></subst></l>
+						<l><del>Not sp</del> Straight to the spear’s proof, clear of heart as they</l>
+						<l>And <unclear cert="medium">liberal</unclear> of their lives? <subst><del seq="1">for I &wd; have</del><add seq="2" place="above">yea, had I sons,</add></subst></l>
+						<l>Sons fit to fight I &wd; not have <!-- paused 2022-09-12 --> </l>						
+						<anchor xml:id="anchor003"/>
+						
+						
 						<l>Wert thou my son; yet couldst thou then but die</l>
 						<l>Fallen in sheer fight by chance &amp; charge of spears</l>
 						<l>And have no more of memory, fill no tomb</l>
