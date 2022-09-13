@@ -4760,11 +4760,6 @@
                             William, 1852-</persName>
                         <birth when="1852"/>
                     </person>
-                    <person xml:id="williams_e">
-                        <persName source="http://id.loc.gov/authorities/names/no2021123492">Williams, 
-                            E. P., active 19th century</persName>
-                        <floruit from="1800" to="1899"/>
-                    </person>
                     <person xml:id="williams">
                         <persName source="http://id.loc.gov/authorities/names/no99068895">Williams,
                             H. Noel (Hugh Noel), 1870-1925</persName>
@@ -4914,6 +4909,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2021119077">Brown, 
                             Langham &amp; Co.</orgName>
                     </org>
+                    <org xml:id="burns_oates">
+                        <orgName source="http://id.loc.gov/authorities/names/no2017014927">Burns 
+                            &amp; Oates</orgName>
+                    </org>
                     <org xml:id="c_kegan_paul_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2006002324">C. 
                             Kegan Paul &amp; Co.</orgName>
@@ -4961,6 +4960,10 @@
                     <org xml:id="daniel_press">
                         <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
                             Press</orgName>
+                    </org>
+                    <org xml:id="duckworth_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n2001128401">Duckworth 
+                            &amp; Co. (Manchester, England)</orgName>
                     </org>
                     <org xml:id="edward_moxon_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr00017940">Edward
@@ -5174,6 +5177,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="taylor_hessey">
+                        <orgName source="http://id.loc.gov/authorities/names/nr98034981">Taylor 
+                            and Hessey</orgName>
+                    </org>
                     <org xml:id="ticknor_fields">
                         <orgName source="http://id.loc.gov/authorities/names/n85316845">Ticknor 
                             and Fields</orgName>
@@ -5201,6 +5208,10 @@
                     <org xml:id="villon_society">
                         <orgName source="http://id.loc.gov/authorities/names/no2002113997">Villon
                             Society</orgName>
+                    </org>
+                    <org xml:id="w_h_allen_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2006099052">W.
+                            H. Allen &amp; Co.</orgName>
                     </org>
                     <org xml:id="ward_lock_bowden">
                         <orgName source="http://id.loc.gov/authorities/names/n91028365">Ward, 
@@ -5616,6 +5627,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr93008083">Tinsley, 
                             Samuel</persName>
                     </person>
+                    <person xml:id="tooke">
+                        <persName source="http://id.loc.gov/authorities/names/nr94036482">Tooke, 
+                            Benjamin, -1716</persName>
+                        <death when="1716"/>
+                    </person>
                     <person xml:id="toovey">
                         <persName source="http://id.loc.gov/authorities/names/nr98036643">Toovey, 
                             James, 1814-1893</persName>
@@ -5643,6 +5659,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94029692">Vitali, 
                             Bernardino dei, active 1494-1539</persName>
                         <floruit from="1494" to="1539"/>
+                    </person>
+                    <person xml:id="williams_e">
+                        <persName source="http://id.loc.gov/authorities/names/no2021123492">Williams, 
+                            E. P., active 19th century</persName>
+                        <floruit from="1800" to="1899"/>
                     </person>
                 </listPerson>        
             </div>
@@ -11302,7 +11323,9 @@
                             <biblStruct corresp="#owned" xml:id="sb128.3">
                                 <monogr>
                                     <title>Poetical Works, with Memoir by W. B. Scott</title>
-                                    <author corresp="#byron">Byron, Lord</author>
+                                    <author corresp="#byron">
+                                        <persName>Byron, Lord</persName>
+                                    </author>
                                     <note type="description">portrait, half morocco gilt</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -11326,7 +11349,9 @@
                             <biblStruct corresp="#owned" xml:id="sb129.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#campion">Campion, Thos.</author>
+                                    <author corresp="#campion">
+                                        <persName>Campion, Thos.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -11334,7 +11359,10 @@
                                     <note type="description" corresp="#uncut">one of 400 copies,
                                         uncut, privately printed</note>
                                     <imprint>
-                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -11347,10 +11375,16 @@
                                 <monogr>
                                     <title>Life of Friedrich Schiller, comprehending an Examination
                                         of his Works</title>
-                                    <author corresp="#carlyle">Carlyle, Thos.</author>
+                                    <author corresp="#carlyle">
+                                        <persName>Carlyle, Thos.</persName>
+                                    </author>
                                     <note type="description">portrait, calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#taylor_hessey">
+                                            <orgName>Taylor and Hessey</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1825"/>
                                     </imprint>
                                 </monogr>
@@ -11360,9 +11394,15 @@
                             <biblStruct corresp="#owned" xml:id="sb130.2">
                                 <monogr>
                                     <title>The French Revolution, a History</title>
-                                    <author corresp="#carlyle">Carlyle, Thos.</author>
+                                    <author corresp="#carlyle">
+                                        <persName>Carlyle, Thos.</persName>
+                                    </author>
                                     <note type="description"/>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1848"/>
                                     </imprint>
                                     <extent>
@@ -11379,11 +11419,17 @@
                             <biblStruct corresp="#owned" xml:id="sb130.3">
                                 <monogr>
                                     <title>Latter Day Pamphlets</title>
-                                    <author corresp="#carlyle">Carlyle, Thos.</author>
+                                    <author corresp="#carlyle">
+                                        <persName>Carlyle, Thos.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1855"/>
                                     </imprint>
                                 </monogr>
@@ -11396,10 +11442,16 @@
                                 <monogr>
                                     <title>History of Friedrich II of Prussia called Fredrick the
                                         Great</title>
-                                    <author corresp="#carlyle">Carlyle, T.</author>
+                                    <author corresp="#carlyle">
+                                        <persName>Carlyle, Thos.</persName>
+                                    </author>
                                     <note type="description"/>
                                     <edition>Library Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1858" to="1865"/>
                                     </imprint>
                                     <extent>
@@ -11424,8 +11476,14 @@
                             <biblStruct corresp="#owned" xml:id="sb132.1">
                                 <monogr>
                                     <title>Life of John Sterling</title>
-                                    <author corresp="#carlyle">Carlyle, T.</author>
+                                    <author corresp="#carlyle">
+                                        <persName>Carlyle, Thos.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1852"/>
                                     </imprint>
                                 </monogr>
@@ -11435,9 +11493,15 @@
                             <biblStruct corresp="#owned" xml:id="sb132.2">
                                 <monogr>
                                     <title>Life of J. M. W. Turner</title>
-                                    <author corresp="#hamerton">Hamerton, P. G.</author>
+                                    <author corresp="#hamerton">
+                                        <persName>Hamerton, P. G.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#seeley_and_co">
+                                            <orgName>Seeley and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -11447,12 +11511,18 @@
                             <biblStruct corresp="#owned" xml:id="sb132.3">
                                 <monogr>
                                     <title>Life of Lord Chancellor Eldon</title>
-                                    <author corresp="#twiss">Twiss, H.</author>
+                                    <author corresp="#twiss">
+                                        <persName>Twiss, H.</persName>
+                                    </author>
                                     <note type="description">portrait and plates</note>
                                     <note type="etc">
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1844"/>
                                     </imprint>
                                     <extent>
@@ -11471,13 +11541,19 @@
                             <biblStruct corresp="#owned" xml:id="sb133.1">
                                 <monogr>
                                     <title>Memoirs of his Life and Writings</title>
-                                    <author corresp="#carlyle">Carlyle, T.</author>
+                                    <author corresp="#carlyle">
+                                        <persName>Carlyle, T.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. H. Shepherd</name>
                                     </respStmt>
                                     <note type="description">portrait and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#w_h_allen_co">
+                                            <orgName>W. H. Allen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                     <extent>
@@ -11492,12 +11568,19 @@
                             <biblStruct corresp="#owned" xml:id="sb133.2">
                                 <monogr>
                                     <title>Thomas Carlyle, the Man and his Books</title>
-                                    <author corresp="#wylie">Wylie, W. H.</author>
+                                    <author corresp="#wylie">
+                                        <persName>Wylie, W. H.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Marshall Japp and Company</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -11509,8 +11592,14 @@
                             <biblStruct corresp="#owned" xml:id="sb134.1">
                                 <monogr>
                                     <title>Carmina Mariana. Second Series</title>
-                                    <editor>Orby Shipley</editor>
+                                    <editor>
+                                        <persName>Orby Shipley</persName>
+                                    </editor>
                                     <imprint>
+                                        <publisher corresp="#burns_oates">
+                                            <orgName>Burns and Oates</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -11520,13 +11609,19 @@
                             <biblStruct corresp="#owned" xml:id="sb134.2">
                                 <monogr>
                                     <title>Comedies</title>
-                                    <author corresp="#aristophanes">Aristophanes</author>
+                                    <author corresp="#aristophanes">
+                                        <persName>Aristophanes</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <resp>translated by</resp>
                                         <name full="yes">B. B. Rogers</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell &amp; Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                     <biblScope unit="volume">V</biblScope>
@@ -11537,7 +11632,9 @@
                             <biblStruct corresp="#owned" xml:id="sb134.3">
                                 <monogr>
                                     <title>The Seven Plays in English Verse</title>
-                                    <author corresp="#aeschylus">Aeschylus</author>
+                                    <author corresp="#aeschylus">
+                                        <persName>Aeschylus</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>by</resp>
                                         <name full="yes">Lewis Campbell</name>
@@ -11546,6 +11643,10 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -11557,12 +11658,18 @@
                             <biblStruct corresp="#owned" xml:id="sb135.1">
                                 <monogr>
                                     <title>Tristan and Iseult, a Drama in four Acts</title>
-                                    <author corresp="#carr_j">Carr, J. Comyns</author>
+                                    <author corresp="#carr_j">
+                                        <persName>Carr, J. Comyns</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">To A. C. Swinburne from J. Comyus
                                         Carr</note>
                                     <imprint>
+                                        <publisher corresp="#duckworth_co">
+                                            <orgName>Duckworth and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -11572,13 +11679,19 @@
                             <biblStruct corresp="#owned" xml:id="sb135.2">
                                 <monogr>
                                     <title>David and Bathshua, a Drama in five Acts</title>
-                                    <author corresp="#wynne">Wynne, C. W.</author>
+                                    <author corresp="#wynne">
+                                        <persName>Wynne, C. W.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="etc">
                                         <num value="2"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -11591,7 +11704,9 @@
                                 <monogr>
                                     <title>Carmina, now first completely Englished into Verse and
                                         Prose</title>
-                                    <author corresp="#catullus">Catullus</author>
+                                    <author corresp="#catullus">
+                                        <persName>Catullus</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>Englished by</resp>
                                         <name full="yes">Sir R. F. Burton</name>
@@ -11600,6 +11715,7 @@
                                     <note type="description" corresp="#uncut">frontispiece, half
                                         parchment, uncut, privately printed</note>
                                     <imprint>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -11611,13 +11727,16 @@
                             <biblStruct corresp="#owned" xml:id="sb137.1">
                                 <monogr>
                                     <title xml:lang="it">Il Corredo Comedia</title>
-                                    <author corresp="#cecchi">Cecchi, Gianmaria</author>
+                                    <author corresp="#cecchi">
+                                        <persName>Cecchi, Gianmaria</persName>
+                                    </author>
                                     <!-- Gianmaria is an abbreviation of 'Giovanni Maria'. -->
                                     <note type="description">old blue morocco gilt, inside gilt
                                         borders, gilt edges, by H. Duru</note>
                                     <imprint>
-                                        <publisher xml:lang="it" corresp="#giunta">appresso Bernardo
-                                            Giunti</publisher>
+                                        <publisher xml:lang="it" corresp="#giunta">appresso 
+                                            <persName>Bernardo Giunti</persName>
+                                        </publisher>
                                         <pubPlace xml:lang="it" ref="#venice">In Venetia</pubPlace>
                                         <date when="1585"/>
                                     </imprint>
@@ -11630,10 +11749,16 @@
                             <biblStruct corresp="#owned" xml:id="sb138.1">
                                 <monogr>
                                     <title>Dramatic Works, with a new Account of her Life</title>
-                                    <author corresp="#centlivre">Centlivre, Mrs.</author>
+                                    <author corresp="#centlivre">
+                                        <persName>Centlivre, Mrs.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
-                                        <publisher>Pearson</publisher>
+                                        <publisher>
+                                            <persName>John Pearson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                     <extent>
@@ -11653,8 +11778,10 @@
                                 <monogr>
                                     <title>Thealma and Clearchus, a Pastoral History in smooth and
                                         easie Verse</title>
-                                    <author corresp="#chalkhill">Chalkhill, John <note>an acquaintance and friend of
-                                            Edmund Spenser</note></author>
+                                    <author corresp="#chalkhill">
+                                        <persName>Chalkhill, John</persName>
+                                        <note>an acquaintance and friend of Edmund Spenser</note>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Izaak Walton</name>
@@ -11663,11 +11790,16 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A31552</idno>
                                     <imprint>
+                                        <publisher corresp="#tooke">
+                                            <persName>Benj. Tooke</persName>
+                                        </publisher>
+                                        <!-- Could also be his son, d. 1723, but Sr. seems more active. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1683"/>
                                     </imprint>
                                 </monogr>
-
-                                <relatedItem type="ht" target="https://hdl.handle.net/2027/uc2.ark:/13960/t46q1wc21"/>
+                                <relatedItem type="ht" 
+                                    target="https://hdl.handle.net/2027/uc2.ark:/13960/t46q1wc21"/>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A31552.0001.001"/>
                                 <note type="fulltext">HT edition is from 1820.</note>
