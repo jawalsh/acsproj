@@ -5193,6 +5193,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="t_payne_son">
+                        <orgName source="http://id.loc.gov/authorities/names/nr96031378">T. Payne 
+                            and Son</orgName>
+                    </org>
                     <org xml:id="taylor_hessey">
                         <orgName source="http://id.loc.gov/authorities/names/nr98034981">Taylor 
                             and Hessey</orgName>
@@ -5314,6 +5318,11 @@
                             A. L. (Albert Levi), 1843-1913</persName>
                         <birth when="1843"/>
                         <death when="1913"/>
+                    </person>
+                    <person xml:id="byrn">
+                        <persName source="http://id.loc.gov/authorities/names/no96046058">Byrn, 
+                            James, -1802</persName>
+                        <death when="1802"/>
                     </person>
                     <person xml:id="cavalcalupo">
                         <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
@@ -5440,6 +5449,11 @@
                         <birth when="1863"/>
                         <death when="1920"/>
                     </person>
+                    <person xml:id="herringman">
+                        <persName source="http://id.loc.gov/authorities/names/n85196058">Herringman, 
+                            Henry, -1704</persName>
+                        <death when="1704"/>
+                    </person>
                     <person xml:id="hunt_j">
                         <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
                             John, 1775-1848</persName>
@@ -5467,6 +5481,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97032167">Jones, 
                             William, -1643</persName>
                         <death when="1643"/>
+                    </person>
+                    <person xml:id="keble">
+                        <persName source="http://id.loc.gov/authorities/names/nr93051911">Keble, 
+                            Samuel</persName>
                     </person>
                     <person xml:id="kennerley">
                         <persName source="http://id.loc.gov/authorities/names/n85346049">Kennerley, 
@@ -5649,6 +5667,11 @@
                         <birth when="1849"/>
                         <death when="1930"/>
                     </person>
+                    <person xml:id="sare">
+                        <persName source="http://id.loc.gov/authorities/names/nr93034674">Sare, 
+                            Richard, -1724</persName>
+                        <death when="1724"/>
+                    </person>
                     <person xml:id="scott_wa_publisher">
                         <persName source="http://id.loc.gov/authorities/names/nr93008554">Scott, 
                             Walter (Publisher)</persName>
@@ -5657,6 +5680,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
                             Samuel, -1681</persName>
                         <death when="1681"/>
+                    </person>
+                    <person xml:id="stock">
+                        <persName source="http://id.loc.gov/authorities/names/no99025352">Stock, 
+                            Elliot</persName>
                     </person>
                     <person xml:id="tauchnitz">
                         <persName source="http://id.loc.gov/authorities/names/nr93045993">Tauchnitz, 
@@ -13102,12 +13129,18 @@
                             <biblStruct corresp="#owned" xml:id="sb168.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#cowper">Cowper, Wm.</author>
+                                    <author corresp="#cowper">
+                                        <persName>Cowper, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait, calf
                                         gilt, marbled edges, presentation copy to A. C. Swinburne
                                         from W. R. Lascelles, on his leaving Eton</note>
                                     <edition>Pickering's Aldine Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#pickering">
+                                            <persName>WIlliam Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1830"/>
                                     </imprint>
                                     <extent>
@@ -13123,18 +13156,29 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb169">
-                            <bibl xml:id="sb169.1a">
-                                <title>Poetical Works, with his Letters, Journals and Life, by his
-                                    Son</title>
-                                <author corresp="#crabbe">Crabbe, Geo.</author>
-                                <note type="description" corresp="#uncut #presentation"
-                                    >frontispieces and rignettes, uncut, presentation copy, with
-                                    autograph inscription</note>
-                                <note type="inscription">Algernon Charles Swinburne, from Theodore
-                                    Watts Dunton, <date when="1898-04-05">Ap. 5/98</date></note>
-                                <extent>
-                                    <measure unit="volumes" quantity="8"/>
-                                </extent>
+                            <biblStruct xml:id="sb169.1">
+                                <monogr>
+                                    <title>Poetical Works, with his Letters, Journals and Life, by his
+                                        Son</title>
+                                    <author corresp="#crabbe">
+                                        <persName>Crabbe, Geo.</persName>
+                                    </author>
+                                    <note type="description" corresp="#uncut #presentation"
+                                        >frontispieces and rignettes, uncut, presentation copy, with
+                                        autograph inscription</note>
+                                    <note type="inscription">Algernon Charles Swinburne, from Theodore
+                                        Watts Dunton, <date when="1898-04-05">Ap. 5/98</date></note>
+                                    <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <orgName>John Murray</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1834"/>
+                                    </imprint>
+                                    <extent>
+                                        <measure unit="volumes" quantity="8"/>
+                                    </extent>
+                                </monogr>
                                 <relatedItem n="1" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwjz1q"/>
                                 <relatedItem n="2" type="ht"
@@ -13151,17 +13195,23 @@
                                     target="https://hdl.handle.net/2027/hvd.hwjyzu"/>
                                 <relatedItem n="8" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwjz1r"/>
-                            </bibl>
+                            </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb170">
                             <biblStruct corresp="#owned" xml:id="sb170.1">
                                 <monogr>
                                     <title>Reflections on the Origin and Destiny of Imperial
                                         Britain</title>
-                                    <author corresp="#cramb">Cramb, J. A.</author>
+                                    <author corresp="#cramb">
+                                        <persName>Cramb, J. A.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph letter inserted</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -13171,7 +13221,9 @@
                             <biblStruct corresp="#owned" xml:id="sb170.2">
                                 <monogr>
                                     <title>Historical Tales from Shakespeare</title>
-                                    <author corresp="#quiller-couch">Quiller-Couch, A. T.</author>
+                                    <author corresp="#quiller-couch">
+                                        <persName>Quiller-Couch, A. T.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author to Swinburne, with autograph
                                         inscription</note>
@@ -13179,6 +13231,11 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Edward Arnold</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -13192,13 +13249,18 @@
                                     <idno type="tcp">A34931</idno>
                                     <title>Steps to the Temple, The Delights of the Muses, and
                                         Carmen Deo Nostro</title>
-                                    <author corresp="#crashaw">Crashaw, Ric.</author>
+                                    <author corresp="#crashaw">
+                                        <persName>Crashaw, Ric.</persName>
+                                    </author>
                                     <note type="description">old calf gilt</note>
                                     <imprint>
+                                        <publisher corresp="#herringman">
+                                            <persName>Henry Herringman</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1670"/>
                                     </imprint>
                                 </monogr>
-
                                 <relatedItem type="tcp"
                                     target="https://quod.lib.umich.edu/e/eebo/A34931.0001.001"/>
                             </biblStruct>
@@ -13208,9 +13270,19 @@
                                 <monogr>
                                     <title>Love and Madness, a Story too true, in a series of
                                         Letters (including several of Chatterton)</title>
-                                    <author corresp="#croft">Croft, Sir H.</author>
+                                    <author corresp="#croft">
+                                        <persName>Croft, Sir H.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
+                                        <publisher corresp="#byrn">
+                                            <persName>James Byrn</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>Richard Byrn</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#dublin">Dublin</pubPlace>
                                         <date when="1780"/>
                                     </imprint>
                                 </monogr>
@@ -13221,12 +13293,21 @@
                                 <monogr>
                                     <title>Short View of Immorality and Profaneness of the English
                                         Stage, with Defence and Second Defence</title>
-                                    <author corresp="#collier_j">Collier, Jer.</author>
+                                    <author corresp="#collier_j">
+                                        <persName>Collier, Jer.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
+                                        <publisher corresp="#keble">
+                                            <persName>S. Keble</persName>    
+                                        </publisher>
+                                        <publisher corresp="#sare">
+                                            <persName>R. Sare</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1699" to="1704"/>
                                     </imprint>
-                                    <extent>
+                                    <extent>  
                                         <measure unit="volumes" quantity="1"/>
                                     </extent>
                                 </monogr>
@@ -13240,10 +13321,16 @@
                                 <monogr>
                                     <title>Poems, supposed to have been written at Bristol by Thomas
                                         Rowley, etc.</title>
-                                    <author corresp="#chatterton">Chatterton, T.</author>
+                                    <author corresp="#chatterton">
+                                        <persName>Chatterton, T.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#t_payne_son">
+                                            <orgName>T. Payne and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1777"/>
                                     </imprint>
                                 </monogr>
@@ -13259,6 +13346,10 @@
                                     <note type="description" corresp="#uncut">uncut, some pencil notes on fly-leaf in
                                         the handwriting of Swinburne</note>
                                     <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -13270,9 +13361,15 @@
                             <biblStruct corresp="#owned" xml:id="sb174.1">
                                 <monogr>
                                     <title>In the Himalayas and on the Indian Plains</title>
-                                    <author corresp="#gordon_cumming">Cumming, C. F. Gordon</author>
+                                    <author corresp="#gordon_cumming">
+                                        <persName>Cumming, C. F. Gordon</persName>
+                                    </author>
                                     <note type="description">42 illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
