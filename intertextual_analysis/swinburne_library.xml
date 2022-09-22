@@ -4897,6 +4897,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n81144054">Ashendene
                             Press</orgName>
                     </org>
+                    <org xml:id="bell_daldy">
+                        <orgName source="http://id.loc.gov/authorities/names/no2001089993">Bell 
+                            and Daldy</orgName>
+                    </org>
                     <org xml:id="bodoni">
                         <orgName source="http://id.loc.gov/authorities/names/n81038854">Officina 
                             Bodoni</orgName>
@@ -4940,6 +4944,10 @@
                     <org xml:id="cassell_petter_galpin">
                         <orgName source="http://id.loc.gov/authorities/names/nr99039236">Cassell, 
                             Petter &amp; Galpin</orgName>
+                    </org>
+                    <org xml:id="century_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n81038526">Century 
+                            Company</orgName>
                     </org>
                     <org xml:id="chapman_and_hall">
                         <orgName source="http://id.loc.gov/authorities/names/n81117573">Chapman
@@ -5201,6 +5209,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr98034981">Taylor 
                             and Hessey</orgName>
                     </org>
+                    <org xml:id="thomas_y_crowell_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n88072126">Thomas 
+                            Y. Crowell Company</orgName>
+                    </org>
                     <org xml:id="ticknor_fields">
                         <orgName source="http://id.loc.gov/authorities/names/n85316845">Ticknor 
                             and Fields</orgName>
@@ -5272,6 +5284,11 @@
                             Robert, -1645</persName>
                         <death when="1645"/>
                     </person>
+                    <person xml:id="bedell">
+                        <persName source="http://id.loc.gov/authorities/names/nr94027241">Bedell, 
+                            Gabriel, -1668</persName>
+                        <death when="1668"/>
+                    </person>
                     <person xml:id="bindoni">
                         <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
                             Francesco, active 1523-1553</persName>
@@ -5336,6 +5353,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
                             Henry, -1855</persName>
                         <death when="1855"/>
+                    </person>
+                    <person xml:id="collins_t">
+                        <persName source="http://id.loc.gov/authorities/names/nr94027242">Collins, 
+                            Thomas, active 1650-1682</persName>
+                        <floruit from="1650" to="1682"/>
                     </person>
                     <person xml:id="cooke">
                         <persName source="http://id.loc.gov/authorities/names/nr94015505">Cooke, 
@@ -13379,7 +13401,9 @@
                             <biblStruct corresp="#owned" xml:id="sb174.2">
                                 <monogr>
                                     <title>Icelandic Legends</title>
-                                    <author corresp="#arnason">Arnason, J.</author>
+                                    <author corresp="#arnason">
+                                        <persName>Arnason, J.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">G. E. J. Powell</name>
@@ -13390,6 +13414,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
                                 </monogr>
@@ -13401,9 +13429,15 @@
                             <biblStruct corresp="#owned" xml:id="sb175.1">
                                 <monogr>
                                     <title>Aspects of George Meredith</title>
-                                    <author corresp="#curle">Curle, Richd. H. P.</author>
+                                    <author corresp="#curle">
+                                        <persName>Curle, Richd. H. P.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            <orgName>George Routledge &amp; Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -13413,10 +13447,15 @@
                             <biblStruct corresp="#owned" xml:id="sb175.2">
                                 <monogr>
                                     <title>Poems, with new Poems</title>
-                                    <author corresp="#johnson_r">Johnson, R. U.</author>
+                                    <author corresp="#johnson_r">
+                                        <persName>Johnson, R. U.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#sec_ed">second edition</edition>
                                     <imprint>
+                                        <publisher corresp="#century_company">
+                                            <orgName>The Century Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
@@ -13427,7 +13466,9 @@
                             <biblStruct corresp="#owned" xml:id="sb175.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>selected by</resp>
                                         <resp>edited by</resp>
@@ -13437,6 +13478,9 @@
                                         presentation copies to Swinburne, with autograph
                                         incriptions</note>
                                     <imprint>
+                                        <publisher corresp="#thomas_y_crowell_company">
+                                            <orgName>Thomas Y. Crowell &amp; Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date>n. d.</date>
                                     </imprint>
@@ -13451,7 +13495,9 @@
                                 <monogr>
                                     <title>A Defence of Ryme, against a Pamphlet entituled
                                         Observations in the Art of English Poesie</title>
-                                    <author corresp="#daniel_s">Daniel, S.</author>
+                                    <author corresp="#daniel_s">
+                                        <persName>Daniel, S.</persName>
+                                    </author>
                                     <note type="description">half calf, some headlines cut into,
                                         Printed for E. Blount</note>
                                     <imprint>
@@ -13466,7 +13512,9 @@
                                 <monogr>
                                     <title xml:lang="it">La Commedia di Dante Alighieri, illustra da
                                         Ugo Foscolo</title>
-                                    <author corresp="#dante">Dante</author>
+                                    <author corresp="#dante">
+                                        <persName>Dante</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations, half calf,
                                         marbled edges</note>
                                     <imprint>
@@ -13491,10 +13539,16 @@
                                     <title xml:lang="fr">La Général Choderelos de Laclos, Auteur des
                                         Liaisons Dangereuses, <date from="1741" to="1803"
                                             >1741-1803</date>, d'après des Documents inédits</title>
-                                    <author corresp="#dard">Dard, Émile</author>
+                                    <author corresp="#dard">
+                                        <persName>Dard, Émile</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut, in
                                         case</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Perrin et cie</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
@@ -13507,13 +13561,19 @@
                             <biblStruct corresp="#owned" xml:id="sb179.1">
                                 <monogr>
                                     <title>Complete Poems, with Notes, etc.</title>
-                                    <author corresp="#davies">Davies, Sir John</author>
+                                    <author corresp="#davies">
+                                        <persName>Davies, Sir John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
                                     </respStmt>
                                     <note type="description"/>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                     <extent>
@@ -13529,7 +13589,9 @@
                                 <monogr>
                                     <title>Day Dreams, to which are added some Translations from
                                         Italian</title>
-                                    <author>James, Sir J. Kingston</author>
+                                    <author>
+                                        <persName>James, Sir J. Kingston</persName>
+                                    </author>
                                     <!-- No LCNAF found. More info here: 
                                         https://en.wikipedia.org/wiki/Sir_John_James,_1st_Baronet -->
                                     <note type="description" corresp="#uncut">uncut, printed for
@@ -13538,6 +13600,10 @@
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                 </monogr>
@@ -13550,7 +13616,9 @@
                                 <monogr>
                                     <title>Poetical Rhapsody, with several other Pieces, with
                                         Memoirs and Notes</title>
-                                    <author corresp="#davison">Davison, Francis</author>
+                                    <author corresp="#davison">
+                                        <persName>Davison, Francis</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Nicholas H. Nicolas</name>
@@ -13558,7 +13626,10 @@
                                     <note type="description" corresp="#uncut">facsimile and
                                         pedigree, uncut</note>
                                     <imprint>
-                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1826"/>
                                     </imprint>
                                     <extent>
@@ -13575,7 +13646,9 @@
                             <biblStruct corresp="#owned" xml:id="sb181.1">
                                 <monogr>
                                     <title>Poetical Rhapsody</title>
-                                    <author corresp="#davison">Davison, F.</author>
+                                    <author corresp="#davison">
+                                        <persName>Davison, F.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -13583,6 +13656,10 @@
                                     <note type="description" corresp="#uncut">buckram, uncut, top
                                         edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                     <extent>
@@ -13600,7 +13677,9 @@
                                 <monogr>
                                     <title>History of Mademoiselle de Beleau, or the New
                                         Roxana</title>
-                                    <author corresp="#defoe">Defoe, D.</author>
+                                    <author corresp="#defoe">
+                                        <persName>Defoe, D.</persName>
+                                    </author>
                                     <note type="description">portrait mended, half calf</note>
                                     <imprint>
                                         <date when="1775"/>
@@ -13614,7 +13693,9 @@
                                     <title>Discourses upon the First Decade of T. Livius, with his
                                         Prince</title>
                                     <idno type="tcp">A50322</idno>
-                                    <author corresp="#machiavelli">Machiavelli</author>
+                                    <author corresp="#machiavelli">
+                                        <persName>Machiavelli</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">E. Dacres</name>
@@ -13624,6 +13705,13 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#bedell">
+                                            <persName>G. Bedell</persName>
+                                        </publisher>
+                                        <publisher corresp="#collins_t">
+                                            <persName>T. Collins</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1663"/>
                                     </imprint>
                                 </monogr>
@@ -13637,7 +13725,9 @@
                             <biblStruct corresp="#owned" xml:id="sb183.1">
                                 <monogr>
                                     <title>Life and Surprising Adventures of Robinson Crusoe</title>
-                                    <author corresp="#defoe">Defoe, D.</author>
+                                    <author corresp="#defoe">
+                                        <persName>Defoe, D.</persName>
+                                    </author>
                                     <note type="description">46 engravings after Harvey</note>
                                     <imprint>
                                         <date when="1839"/>
@@ -13652,10 +13742,16 @@
                                 <monogr>
                                     <title>Life and Surprising Adventures of Robinson Crusoe, with
                                         Biographical Introduction by Henry Kingsley</title>
-                                    <author corresp="#defoe">Defoe, D.</author>
+                                    <author corresp="#defoe">
+                                        <persName>Defoe, D.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition>Another Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#bell_daldy">
+                                            <orgName>Bell &amp; Daldy</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
