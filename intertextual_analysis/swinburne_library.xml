@@ -453,6 +453,9 @@
                         <placeName type="preferred">Turin</placeName>
                         <placeName>Torino</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/1000462" xml:id="uppsala">
+                        <placeName type="preferred">Uppsala</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7001509" xml:id="varanasi">
                         <placeName type="preferred">Vārānasi</placeName>
                         <placeName>Benares</placeName>
@@ -608,16 +611,16 @@
                         <death when="1533"/>
                     </person>
                     <person xml:id="aristophanes">
-                        <persName source="http://id.loc.gov/authorities/names/n79072756"
-                            >Aristophanes</persName>
+                        <persName source="http://id.loc.gov/authorities/names/n79072756">Aristophanes
+                        </persName>
                     </person>
                     <person xml:id="aristotle">
-                        <persName source="http://id.loc.gov/authorities/names/n79004182"
-                            >Aristotle</persName>
+                        <persName source="http://id.loc.gov/authorities/names/n79004182">Aristotle
+                        </persName>
                     </person>
                     <person xml:id="armstrong">
-                        <persName source="http://id.loc.gov/authorities/names/no2018069617"
-                            >Armstrong, Edmund J. (Edmund John), 1841-1865</persName>
+                        <persName source="http://id.loc.gov/authorities/names/no2018069617">Armstrong, 
+                            Edmund J. (Edmund John), 1841-1865</persName>
                         <birth when="1841"/>
                         <death when="1865"/>
                     </person>
@@ -4889,6 +4892,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2015128037">Aedes
                             Aldi et Andreae Asulani Soceri</orgName>
                     </org>
+                    <org xml:id="almqvist_wiksells">
+                        <orgName source="http://id.loc.gov/authorities/names/n96044306">Almqvist 
+                            &amp; Wiksells</orgName>
+                    </org>
                     <org xml:id="archibald_constable_co">
                         <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
                             Constable &amp; Co.</orgName>
@@ -4945,6 +4952,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr99039236">Cassell, 
                             Petter &amp; Galpin</orgName>
                     </org>
+                    <org xml:id="cassell_publishing_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99035481">Cassell 
+                            Publishing Co.</orgName>
+                    </org>
                     <org xml:id="century_company">
                         <orgName source="http://id.loc.gov/authorities/names/n81038526">Century 
                             Company</orgName>
@@ -4968,6 +4979,10 @@
                     <org xml:id="chiswick_press">
                         <orgName source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
                             Press</orgName>
+                    </org>
+                    <org xml:id="d_c_heath_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n82149887">D.C. 
+                            Heath and Company</orgName>
                     </org>
                     <org xml:id="daniel_press">
                         <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
@@ -5064,6 +5079,10 @@
                     <org xml:id="lee_priory">
                         <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
                             Press of Lee Priory</orgName>
+                    </org>
+                    <org xml:id="librairie_des_bibliophiles">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008106849">Librairie 
+                            des bibliophiles</orgName>
                     </org>
                     <org xml:id="little_brown_company">
                         <orgName source="http://id.loc.gov/authorities/names/n80020835">Little, 
@@ -5172,6 +5191,10 @@
                     <org xml:id="saunders_and_otley">
                         <orgName source="http://id.loc.gov/authorities/names/nr89001366">Saunders 
                             and Otley</orgName>
+                    </org>
+                    <org xml:id="savoye">
+                        <orgName source="http://id.loc.gov/authorities/names/no2018166234">Savoye 
+                            (Firm)</orgName>
                     </org>
                     <org xml:id="seeley_and_co">
                         <orgName source="http://id.loc.gov/authorities/names/n82240727">Seeley 
@@ -13765,12 +13788,18 @@
                                 <monogr>
                                     <title>Investigation into the Language of Robinson
                                         Crusoe</title>
-                                    <author>Lannert, G. L.</author>
+                                    <author>
+                                        <persName>Lannert, G. L.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Almqvist &amp; Wiksell</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#uppsala">Uppsala</pubPlace>
                                         <date when="1910"/>
                                     </imprint>
                                 </monogr>
@@ -13783,10 +13812,16 @@
                                 <monogr>
                                     <title>Dramatic Works, now first Collected, with Illustrative
                                         Notes and Menoir of the Author</title>
-                                    <author corresp="#dekker">Dekker, Thos.</author>
+                                    <author corresp="#dekker">
+                                        <persName>Dekker, Thos.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
-                                        <publisher>Pearson</publisher>
+                                        <publisher>
+                                            <persName>John Pearson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                     <extent>
@@ -13807,9 +13842,15 @@
                             <biblStruct corresp="#owned" xml:id="sb185.1">
                                 <monogr>
                                     <title>Comparative Estimate of Modern English Poets</title>
-                                    <author corresp="#devey">Devey, J.</author>
+                                    <author corresp="#devey">
+                                        <persName>Devey, J.</persName>
+                                    </author>
                                     <note type="description">half bound</note>
                                     <imprint>
+                                        <publisher corresp="#edward_moxon_co">
+                                            <orgName>E. Moxon, Son, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
@@ -13825,6 +13866,10 @@
                                         <name full="yes">Douglas Sladen</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#cassell_publishing_co">
+                                            <orgName>The Cassell Publishing Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -13842,6 +13887,10 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Bunce and Huntington</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1865"/>
                                     </imprint>
@@ -13854,10 +13903,16 @@
                             <biblStruct corresp="#owned" xml:id="sb186.1">
                                 <monogr>
                                     <title>Posthumous Papers of the Pickwick Club</title>
-                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <author corresp="#dickens_c">
+                                        <persName>Dickens, C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations by
                                         Seymour, "Buss," "Phiz" and Leech, green cloth, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                     <extent>
@@ -13874,10 +13929,16 @@
                             <biblStruct corresp="#owned" xml:id="sb187.1">
                                 <monogr>
                                     <title>Memoirs of Joseph Grimaldi</title>
-                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <author corresp="#dickens_c">
+                                        <persName>Dickens, C.</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations by G.
                                         Cruikshank</note>
                                     <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            <orgName>George Routledge &amp; Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -13887,7 +13948,9 @@
                             <biblStruct corresp="#owned" xml:id="sb187.2">
                                 <monogr>
                                     <title>History of Jonathan Wild</title>
-                                    <author corresp="#fielding">Fielding, H.</author>
+                                    <author corresp="#fielding">
+                                        <persName>Fielding, H.</persName>
+                                    </author>
                                     <note type="description">illustrations by "Phiz"</note>
                                     <imprint>
                                         <date when="1843"/>
@@ -13901,11 +13964,17 @@
                             <biblStruct corresp="#owned" xml:id="sb187.3">
                                 <monogr>
                                     <title>Gaieties and Gravities</title>
-                                    <author corresp="#smith_h">Smith, H.</author>
+                                    <author corresp="#smith_h">
+                                        <persName>Smith, H.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#colburn">
+                                            <persName>Henry Colburn</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1826"/>
                                     </imprint>
                                     <extent>
@@ -13924,11 +13993,17 @@
                             <biblStruct corresp="#owned" xml:id="sb188.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#dickens_c">Dickens, C.</author>
+                                    <author corresp="#dickens_c">
+                                        <persName>Dickens, C.</persName>
+                                    </author>
                                     <note type="description">illustrations by Seymour, Cruikshank,
                                         "Phiz," etc. red cloth gilt, top edge gilt</note>
                                     <edition>Biographical Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1902" to="1903"/>
                                     </imprint>
                                     <extent>
@@ -13977,13 +14052,15 @@
                                         Comiques, Burlesques, et Familières, etc.</title>
                                     <note type="description">old calf</note>
                                     <imprint>
+                                        <publisher corresp="#savoye">
+                                            <orgName>Savoye</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1748"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/bub_gb_g0rxaXXQwXAC/page/n8/mode/2up"
-                                />
+                                    target="https://archive.org/details/bub_gb_g0rxaXXQwXAC/page/n8/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb190">
@@ -13991,12 +14068,17 @@
                                 <monogr>
                                     <title xml:lang="fr">Le Neveu de Rameau, publié et précédé d'une
                                         Introduction par H. Motheau</title>
-                                    <author corresp="#diderot">Diderot</author>
+                                    <author corresp="#diderot">
+                                        <persName>Diderot</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, insterted is a very interesting
                                         Autograph Letter addressed to Swinburne from John Morley,
                                         date <date when="1876-02-12">Feb. 12, 1876</date>, and
                                         relating to the work</note>
                                     <imprint>
+                                        <publisher corresp="#librairie_des_bibliophiles">
+                                            <orgName>Librairie des bibliophiles</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
@@ -14010,10 +14092,16 @@
                                 <monogr>
                                     <title>Book of the Spiritual Life, with Memoir by Sir C. W.
                                         Dilke</title>
-                                    <author corresp="#dilke">Dilke, Lady</author>
+                                    <author corresp="#dilke">
+                                        <persName>Dilke, Lady</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits and
                                         illustrations, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <orgName>John Murray</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -14023,12 +14111,22 @@
                             <biblStruct corresp="#owned" xml:id="sb191.2">
                                 <monogr>
                                     <title>Mystical Hymns</title>
-                                    <author corresp="#orpheus">Orpheus</author>
+                                    <author corresp="#orpheus">
+                                        <persName>Orpheus</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">T. Taylor</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Bertram Dobell</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves and Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -14038,12 +14136,18 @@
                             <biblStruct corresp="#owned" xml:id="sb191.3">
                                 <monogr>
                                     <title>Literary Study of the Bible</title>
-                                    <author corresp="#moulton_r">Moulton, R. G.</author>
+                                    <author corresp="#moulton_r">
+                                        <persName>Moulton, R. G.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#d_c_heath_company">
+                                            <orgName>D. C. Heath &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -14057,9 +14161,15 @@
                                     <title>Thoughts on Art, Philosphy and Religion, selected from
                                         his unpublished Papers, with Introductory Note by John
                                         Nichol</title>
-                                    <author corresp="#dobell">Dobell, Sydney</author>
+                                    <author corresp="#dobell">
+                                        <persName>Dobell, Sydney</persName>
+                                    </author>
                                     <note type="description">portait</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
