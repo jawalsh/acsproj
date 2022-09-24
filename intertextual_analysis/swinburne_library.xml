@@ -5032,6 +5032,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
                             &amp; Brothers</orgName>
                     </org>
+                    <org xml:id="henry_colburn_richard_bentley">
+                        <orgName source="http://id.loc.gov/authorities/names/nr90016122">Henry 
+                            Colburn and Richard Bentley (Firm)</orgName>
+                    </org>
                     <org xml:id="henry_s_king_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr2003029941">Henry 
                             S. King (Publisher)</orgName>
@@ -5474,6 +5478,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n94101558">Gibbings, 
                             W. W.</persName>
                     </person>
+                    <person xml:id="gide">
+                        <persName source="http://id.loc.gov/authorities/names/no99088193">Gide, 
+                            Casimir, 1804-1868</persName>
+                        <birth when="1804"/>
+                        <death when="1868"/>
+                    </person>
                     <person xml:id="giunta">
                         <persName source="http://id.loc.gov/authorities/names/nr97028549">Giunta, 
                             Bernardo, active 1567-1627</persName>
@@ -5720,6 +5730,12 @@
                     <person xml:id="scott_wa_publisher">
                         <persName source="http://id.loc.gov/authorities/names/nr93008554">Scott, 
                             Walter (Publisher)</persName>
+                    </person>
+                    <person xml:id="smith_j">
+                        <persName source="http://id.loc.gov/authorities/names/n88175997">Smith, 
+                            John Russell, 1810-1894</persName>
+                        <birth when="1810"/>
+                        <death when="1894"/>
                     </person>
                     <person xml:id="speed">
                         <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
@@ -14179,12 +14195,18 @@
                             <biblStruct corresp="#owned" xml:id="sb192.2">
                                 <monogr>
                                     <title>Poetical Works, with Memoir, etc. by John Nichol</title>
-                                    <author corresp="#dobell">Dobell, Sydney</author>
+                                    <author corresp="#dobell">
+                                        <persName>Dobell, Sydney</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                     <extent>
@@ -14201,13 +14223,19 @@
                             <biblStruct corresp="#owned" xml:id="sb193.1">
                                 <monogr>
                                     <title>Proverbs in Porcelain, and other Verses</title>
-                                    <author corresp="#dobson">Dobson, A.</author>
+                                    <author corresp="#dobson">
+                                        <persName>Dobson, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription, original cloth</note>
                                     <note type="inscription">Algernon C. Swinburne from E. W. Gosse,
                                             <date when="1877-06-01">June 1, 1877</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#henry_s_king_co">
+                                            <orgName>Henry S. King &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -14219,7 +14247,9 @@
                             <biblStruct corresp="#owned" xml:id="sb194.1">
                                 <monogr>
                                     <title>Phantasmagoria, and other Poems, by Lewis Caroll</title>
-                                    <author corresp="#carroll">Dodgson, C. L.</author>
+                                    <author corresp="#carroll">
+                                        <persName>Dodgson, C. L.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">blue cloth,
                                         gilt edges, presentation copy, with autograph
                                         inscription</note>
@@ -14227,21 +14257,24 @@
                                         kind reagards, <date when="1869-01">Jan. 1869</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t0ft8kn34"/>
-                                <note type="fulltext">Unclear why sales catalog has listed "Dodgson"
-                                    as the author.</note>
-                                <!-- Dodgson is Lewis Caroll's real name. -AM -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb195">
                             <biblStruct corresp="#owned" xml:id="sb195.1">
                                 <monogr>
                                     <title>Select Collection of Old English PLays</title>
-                                    <author corresp="#dodsley">Dodsley, Robt.</author>
+                                    <author corresp="#dodsley">
+                                        <persName>Dodsley, Robt.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Carew Hazlitt</name>
@@ -14249,6 +14282,10 @@
                                     <note type="description" corresp="#uncut">green cloth,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves and Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1874" to="1876"/>
                                     </imprint>
                                     <extent>
@@ -14292,10 +14329,15 @@
                                 <monogr>
                                     <title xml:lang="fr">Manuscrit Pictographique Americain, précédé
                                         d'une Notice sur l'Idégraphie des Peaux-Rouges</title>
-                                    <author corresp="#domenech">Domenech, Abbé Em.</author>
+                                    <author corresp="#domenech">
+                                        <persName>Domenech, Abbé Em.</persName>
+                                    </author>
                                     <note type="description">illustrations, half calf, marbled
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#gide">
+                                            <persName>Gide</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1860"/>
                                     </imprint>
@@ -14310,13 +14352,18 @@
                             <biblStruct corresp="#owned" xml:id="sb197.1">
                                 <monogr>
                                     <title>Poems, in English and French</title>
-                                    <author corresp="#douglas">Douglas, Lord Alfred</author>
+                                    <author corresp="#douglas">
+                                        <persName>Douglas, Lord Alfred</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >portraits, uncut, presentation copy, with
                                         inscription</note>
                                     <note type="inscription">With the author's compliments, Alfred
                                         Douglas, <date when="1876-11">November, 1876</date></note>
                                     <imprint>
+                                        <publisher corresp="#mercure_de_france">
+                                            <orgName>The Mercvre de France</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
@@ -14333,7 +14380,9 @@
                                     <note type="description">old calf, red edges, binding
                                         broken</note>
                                     <imprint>
-                                        <publisher corresp="#oporinus">Oporinus</publisher>
+                                        <publisher corresp="#oporinus">
+                                            <persName>Oporinus</persName>
+                                        </publisher>
                                         <pubPlace ref="#basel">Basil</pubPlace>
                                         <date when="1547"/>
                                     </imprint>
@@ -14403,9 +14452,15 @@
                                 <monogr>
                                     <title>Complete Works, with Introductions and Notes by Rich.
                                         Hooper</title>
-                                    <author corresp="#drayton">Drayton, Michael</author>
+                                    <author corresp="#drayton">
+                                        <persName>Drayton, Michael</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#smith_j">
+                                            <persName>John Russell Smith</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                     <extent>
@@ -14422,9 +14477,15 @@
                             <biblStruct corresp="#owned" xml:id="sb200.2">
                                 <monogr>
                                     <title>Random Records</title>
-                                    <author corresp="#colman">Colman, Geo.</author>
+                                    <author corresp="#colman">
+                                        <persName>Colman, Geo.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#henry_colburn_richard_bentley">
+                                            <persName>Henry Colburn and Richard Bentley</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1830"/>
                                     </imprint>
                                     <extent>
@@ -14439,7 +14500,9 @@
                             <biblStruct corresp="#owned" xml:id="sb200.3">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#rabelais">Rabelais, F.</author>
+                                    <author corresp="#rabelais">
+                                        <persName>Rabelais, F.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Urquhart</name>
@@ -14450,7 +14513,9 @@
                                         <num value="7"/>
                                     </note>
                                     <imprint>
-                                        <publisher corresp="#bohn">Bohn</publisher>
+                                        <publisher corresp="#bohn">
+                                            <persName>Bohn</persName>
+                                        </publisher>
                                         <date when="1863"/>
                                     </imprint>
                                     <extent>
@@ -14470,10 +14535,16 @@
                                 <monogr>
                                     <title>Critical and Miscellaneous Prose Works, with Notes,
                                         Illustrations and Life by E. Malone</title>
-                                    <author corresp="#dryden">Dryden, John</author>
+                                    <author corresp="#dryden">
+                                        <persName>Dryden, John</persName>
+                                    </author>
                                     <note type="description">3 vol. in 4, frontispiece of portraits,
                                         russia, marbled edges, binding broken</note>
                                     <imprint>
+                                        <publisher corresp="#cadell_davies">
+                                            <orgName>T. Cadell Jun. and W. Davies</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1800"/>
                                     </imprint>
                                     <extent>
@@ -14498,9 +14569,16 @@
                                     <title>Works, with Notes, Historical, Critical and Explanatory,
                                         and Life of the Author by Sir Walter Scott, revised and
                                         corrected by George Saintsbury</title>
-                                    <author corresp="#dryden">Dryden, John</author>
+                                    <author corresp="#dryden">
+                                        <persName>Dryden, John</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>William Paterson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF.
+                                               Possibly http://id.loc.gov/authorities/names/no2022097889 -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date from="1882" to="1893"/>
                                     </imprint>
@@ -14550,11 +14628,16 @@
                             <biblStruct corresp="#owned" xml:id="sb203.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Trois Mousquetaires</title>
-                                    <author corresp="#dumas">Dumas, Alex.</author>
+                                    <author corresp="#dumas">
+                                        <persName>Dumas, Alex.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illusrations by
                                         Maurice Leloir, uncut, imperial 8vo.</note>
                                     <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Grand Luxe</edition>
                                     <imprint>
+                                        <publisher corresp="#calmann_levy">
+                                            <persName>Calmann Lévy</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
@@ -14572,12 +14655,18 @@
                             <biblStruct corresp="#owned" xml:id="sb204.1">
                                 <monogr>
                                     <title>Le Chevalier de Maison-Rouge</title>
-                                    <author corresp="#dumas">Dumas, A.</author>
+                                    <author corresp="#dumas">
+                                        <persName>Dumas, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 110 copies,
                                         illustrations by Julien le Blont, uncut, imperial
                                         8vo.</note>
                                     <edition corresp="#deluxe_ed">Édition de Luxe</edition>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Émile Testard</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
