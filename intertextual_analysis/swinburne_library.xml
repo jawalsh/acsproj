@@ -5012,6 +5012,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr99014071">G. G. 
                             and J. Robinson (Paternoster Row, London, England)</orgName>
                     </org>
+                    <org xml:id="g_routledge_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr90009397">G. Routledge 
+                            &amp; Co.</orgName>
+                    </org>
                     <org xml:id="george_bell_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no95020268">George 
                             Bell &amp; Sons</orgName>
@@ -5031,7 +5035,7 @@
                     <org xml:id="harper_brothers">
                         <orgName source="http://id.loc.gov/authorities/names/n50041511">Harper 
                             &amp; Brothers</orgName>
-                    </org>
+                    </org>    
                     <org xml:id="henry_colburn_richard_bentley">
                         <orgName source="http://id.loc.gov/authorities/names/nr90016122">Henry 
                             Colburn and Richard Bentley (Firm)</orgName>
@@ -5152,6 +5156,14 @@
                         <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
                             Society</orgName>
                     </org>
+                    <org xml:id="phillips_sampson_company">
+                        <orgName source="http://id.loc.gov/authorities/names/nr97015361">Phillips, 
+                            Sampson &amp; Company</orgName>
+                    </org>
+                    <org xml:id="pickering_chatto">
+                        <orgName source="http://id.loc.gov/authorities/names/n87823290">Pickering 
+                            &amp; Chatto</orgName>
+                    </org>
                     <org xml:id="quantin">
                         <orgName source="http://id.loc.gov/authorities/names/no99008273">A. 
                             Quantin (Firm)</orgName>
@@ -5159,6 +5171,10 @@
                     <org xml:id="reeves_turner">
                         <orgName source="http://id.loc.gov/authorities/names/no99088998">Reeves 
                             &amp; Turner</orgName>
+                    </org>
+                    <org xml:id="richard_bentley">
+                        <orgName source="http://id.loc.gov/authorities/names/nr90014415">Richard 
+                            Bentley (Firm)</orgName>
                     </org>
                     <org xml:id="richard_bentley_son">
                         <orgName source="http://id.loc.gov/authorities/names/n79018629">Richard 
@@ -5179,6 +5195,10 @@
                     <org xml:id="sampson_low_marston_searle_rivington">
                         <orgName source="http://id.loc.gov/authorities/names/nr00003465">Sampson 
                             Low, Marston, Searle &amp; Rivington</orgName>
+                    </org>
+                    <org xml:id="sampson_low_son_marston">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2002013980">Sampson 
+                            Low, Son &amp; Marston</orgName>
                     </org>
                     <org xml:id="samurai_press">
                         <orgName source="http://id.loc.gov/authorities/names/n86080368">Samurai 
@@ -5235,6 +5255,10 @@
                     <org xml:id="taylor_hessey">
                         <orgName source="http://id.loc.gov/authorities/names/nr98034981">Taylor 
                             and Hessey</orgName>
+                    </org>
+                    <org xml:id="thacker_spink_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n87932183">Thacker, 
+                            Spink &amp; Co.</orgName>
                     </org>
                     <org xml:id="thomas_y_crowell_company">
                         <orgName source="http://id.loc.gov/authorities/names/n88072126">Thomas 
@@ -14684,7 +14708,9 @@
                             <biblStruct corresp="#owned" xml:id="sb205.1">
                                 <monogr>
                                     <title>Mémoires</title>
-                                    <author corresp="#dumas">Dumas, A.</author>
+                                    <author corresp="#dumas">
+                                        <persName>Dumas, A.</persName>
+                                    </author>
                                     <note type="description">26 vol. in 13 (wanting vol. XXI-XXII),
                                         half roan</note>
                                     <note type="etc">
@@ -14723,8 +14749,14 @@
                                 <monogr>
                                     <title>Life, by Thomas Earl of Dundonald and H. R. Fox
                                         Bourne</title>
-                                    <author corresp="#dundonald">Dundonald, Thomas Lord Cochrane, Earl of</author>
+                                    <author corresp="#dundonald">
+                                        <persName>Dundonald, Thomas Lord Cochrane, Earl of</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley">
+                                            <orgName>Richard Bentley</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                     <extent>
@@ -14739,9 +14771,15 @@
                             <biblStruct corresp="#owned" xml:id="sb206.2">
                                 <monogr>
                                     <title>Life of Nelson</title>
-                                    <author corresp="#mahan">Mahan, Capt. A. T.</author>
+                                    <author corresp="#mahan">
+                                        <persName>Mahan, Capt. A. T.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#little_brown_company">
+                                            <orgName>Little, Brown, and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -14752,12 +14790,18 @@
                                 <monogr>
                                     <title>Life, Letters and Friendships of Richard Monckton Milnes,
                                         first Lord Houghton</title>
-                                    <author corresp="#reid">Reid, T. Wemyss</author>
+                                    <author corresp="#reid">
+                                        <persName>Reid, T. Wemyss</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#cassell_co">
+                                            <orgName>Cassell &amp; Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                     <extent>
@@ -14774,11 +14818,17 @@
                             <biblStruct corresp="#owned" xml:id="sb207.1">
                                 <monogr>
                                     <title>Wit and Mirth, or Pills to Purge Melancholy</title>
-                                    <author corresp="#durfey">D'Urfey, T.</author>
+                                    <author corresp="#durfey">
+                                        <persName>D'Urfey, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut,
                                         reprint</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#tonson">
+                                            <persName>J. Tonson</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1719" to="1720">n. d.</date>
                                     </imprint>
                                     <extent>
@@ -14804,8 +14854,13 @@
                                 <monogr>
                                     <title>Bengaliana, a Dish of Rice and Curry and other
                                         indigestible Ingredients</title>
-                                    <author corresp="#dutt_s">Dutt, Shoshee C.</author>
+                                    <author corresp="#dutt_s">
+                                        <persName>Dutt, Shoshee C.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#thacker_spink_co">
+                                            <orgName>Thacker, Spink, and Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#kolkata">Calcutta</pubPlace>
                                         <date>n. d.</date>
                                     </imprint>
@@ -14816,7 +14871,9 @@
                             <biblStruct corresp="#owned" xml:id="sb208.2">
                                 <monogr>
                                     <title>A Vision of Sumeru, and other Poems</title>
-                                    <author corresp="#dutt_s">Dutt, Shosbee C.</author>
+                                    <author corresp="#dutt_s">
+                                        <persName>Dutt, Shosbee C.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <pubPlace ref="#kolkata">Calcutta</pubPlace>
@@ -14828,7 +14885,9 @@
                             <biblStruct corresp="#owned" xml:id="sb208.3">
                                 <monogr>
                                     <title xml:lang="fr">Le Journal de Milles D'Arvers</title>
-                                    <author corresp="#dutt_t">Dutt, Toru</author>
+                                    <author corresp="#dutt_t">
+                                        <persName>Dutt, Toru</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">half calf,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esqre. Hommage
@@ -14876,7 +14935,9 @@
                             <biblStruct corresp="#owned" xml:id="sb210.1">
                                 <monogr>
                                     <title>Political, Religious and Love Poems</title>
-                                    <author>Early English Text Society</author>
+                                    <author>
+                                        <orgName>Early English Text Society</orgName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">F. J. Furnivall</name>
@@ -14886,6 +14947,10 @@
                                     <note type="inscription">Algernon C. Swinburne from W. M.
                                         Rossetti, <date when="1866">1866</date></note>
                                     <imprint>
+                                        <publisher corresp="#trubner_co">
+                                            <orgName>N. Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
                                 </monogr>
@@ -14897,7 +14962,9 @@
                             <biblStruct corresp="#owned" xml:id="sb211.1">
                                 <monogr>
                                     <title>The Babes Book, Manners and Meals in Olden time</title>
-                                    <author>Early English Text Society</author>
+                                    <author>
+                                        <orgName>Early English Text Society</orgName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">F. J. Furnivall</name>
@@ -14908,6 +14975,13 @@
                                         Editor's compts. and thanks <date when="1868-01-28">28 Jany.
                                             1868</date></note>
                                     <imprint>
+                                        <publisher corresp="#milford">
+                                            <persName>Humphrey Milford</persName>
+                                        </publisher>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Oxford University Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
@@ -14917,7 +14991,9 @@
                             <biblStruct corresp="#owned" xml:id="sb211.2">
                                 <monogr>
                                     <title>Dialogue against the Feuer Perstilence</title>
-                                    <author corresp="#bullein">Bullein, Wm.</author>
+                                    <author corresp="#bullein">
+                                        <persName>Bullein, Wm.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">M. W. Bullen</name>
@@ -14929,6 +15005,13 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#milford">
+                                            <persName>Humphrey Milford</persName>
+                                        </publisher>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Oxford University Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
@@ -14940,11 +15023,17 @@
                             <biblStruct corresp="#owned" xml:id="sb212.1">
                                 <monogr>
                                     <title>Tales and Novels</title>
-                                    <author corresp="#edgeworth">Edgeworth, Maria</author>
+                                    <author corresp="#edgeworth">
+                                        <persName>Edgeworth, Maria</persName>
+                                    </author>
                                     <note type="description">(wanting vol. V), frontispiece, green
                                         cloth, top edge gilt</note>
                                     <edition>Longford Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#george_routledge_and_sons">
+                                            <orgName>George Routledge and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                     <extent>
@@ -14978,11 +15067,17 @@
                             <biblStruct corresp="#owned" xml:id="sb212.2">
                                 <monogr>
                                     <title>Norwood, or Village Life in New England</title>
-                                    <author corresp="#beecher">Beecher, H. Ward</author>
+                                    <author corresp="#beecher">
+                                        <persName>Beecher, H. Ward</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="20"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#sampson_low_son_marston">
+                                            <orgName>Sampson Low, Son, and Marston</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                     <extent>
@@ -15001,9 +15096,16 @@
                             <biblStruct corresp="#owned" xml:id="sb213.1">
                                 <monogr>
                                     <title>Daniel Deronda</title>
-                                    <author corresp="#eliot_g">Eliot, Geo.</author>
+                                    <author corresp="#eliot_g">
+                                        <persName>Eliot, Geo.</persName>
+                                    </author>
                                     <imprint>
-                                        <date>n. d.</date>
+                                        <publisher>
+                                            <orgName>The Hawarden Press</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1899"/>
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="3"/>
@@ -15019,11 +15121,18 @@
                             <biblStruct corresp="#owned" xml:id="sb213.2">
                                 <monogr>
                                     <title>Middlemarch</title>
-                                    <author corresp="#eliot_g">Eliot, Geo.</author>
+                                    <author corresp="#eliot_g">
+                                        <persName>Eliot, Geo.</persName>
+                                    </author>
                                     <note type="description">etc. 8 vol.</note>
                                     <!-- Could be an etc. -->
                                     <imprint>
-                                        <date>n. d.</date>
+                                        <publisher>
+                                            <orgName>The Hawarden Press</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1899"/>
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="3"/>
@@ -15039,7 +15148,9 @@
                             <biblStruct corresp="#owned" xml:id="sb213.3">
                                 <monogr>
                                     <title>The Lusiads</title>
-                                    <author corresp="#camões">Camoeus</author>
+                                    <author corresp="#camões">
+                                        <persName>Camoeus</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">R. F. Burton</name>
@@ -15048,6 +15159,10 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#tinsley_brothers">
+                                            <orgName>Tinsley Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                     <extent>
@@ -15064,13 +15179,19 @@
                             <biblStruct corresp="#owned" xml:id="sb214.1">
                                 <monogr>
                                     <title>Letters to Miss Louisa Swinburne, etc.</title>
-                                    <author corresp="#elizabeth">Elizabeth of England (Princess)</author>
+                                    <author corresp="#elizabeth">
+                                        <persName>Elizabeth of England (Princess)</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">P. C. Yorke</name>
                                     </respStmt>
                                     <note type="description">portraits</note>
                                     <imprint>
+                                        <publisher corresp="#unwin">
+                                            <persName>T. Fisher Unwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -15085,7 +15206,9 @@
                             <biblStruct corresp="#owned" xml:id="sb214.2">
                                 <monogr>
                                     <title>Voiage and Travayle</title>
-                                    <author corresp="#mandeville">Maundeville, Sir J.</author>
+                                    <author corresp="#mandeville">
+                                        <persName>Maundeville, Sir J.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John Ashton</name>
@@ -15096,6 +15219,10 @@
                                         time at Lancing-on-Sea, W. Theodore Watts, Lancing-on-Sea,
                                             <date when="1887-11-25">Nov. 25/87</date></note>
                                     <imprint>
+                                        <publisher corresp="#pickering_chatto">
+                                            <orgName>Pickering &amp; Chatto</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -15107,10 +15234,16 @@
                             <biblStruct corresp="#owned" xml:id="sb215.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#emerson">Emerson, Ralph W.</author>
+                                    <author corresp="#emerson">
+                                        <persName>Emerson, Ralph W.</persName>
+                                    </author>
                                     <note type="description">frontispiece, calf gilt, gilt
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#g_routledge_co">
+                                            <orgName>George Routledge &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1850"/>
                                     </imprint>
                                 </monogr>
@@ -15120,8 +15253,14 @@
                             <biblStruct corresp="#owned" xml:id="sb215.2">
                                 <monogr>
                                     <title>May-Day, and other Pieces</title>
-                                    <author corresp="#emerson">Emerson, Ralph W.</author>
+                                    <author corresp="#emerson">
+                                        <persName>Emerson, Ralph W.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#ticknor_fields">
+                                            <orgName>Ticknor and Fields</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                 </monogr>
@@ -15131,8 +15270,14 @@
                             <biblStruct corresp="#owned" xml:id="sb215.3">
                                 <monogr>
                                     <title>Essays, Second Series</title>
-                                    <author corresp="#emerson">Emerson, Ralph W.</author>
+                                    <author corresp="#emerson">
+                                        <persName>Emerson, Ralph W.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#phillips_sampson_company">
+                                            <orgName>Phillips, Sampson, and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
                                 </monogr>
@@ -15170,6 +15315,10 @@
                                     <note type="description" corresp="#uncut">buckram, uncut, top
                                         edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
