@@ -5008,6 +5008,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n86815346">Fratelli 
                             Bocca</orgName>
                     </org>
+                    <org xml:id="funk_wagnalls_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n50059391">Funk 
+                            &amp; Wagnalls Company</orgName>
+                    </org>
                     <org xml:id="g_g_j_robinson">
                         <orgName source="http://id.loc.gov/authorities/names/nr99014071">G. G. 
                             and J. Robinson (Paternoster Row, London, England)</orgName>
@@ -5039,6 +5043,10 @@
                     <org xml:id="henry_colburn_richard_bentley">
                         <orgName source="http://id.loc.gov/authorities/names/nr90016122">Henry 
                             Colburn and Richard Bentley (Firm)</orgName>
+                    </org>
+                    <org xml:id="henry_holt_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n88156497">Henry 
+                            Holt and Company</orgName>
                     </org>
                     <org xml:id="henry_s_king_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr2003029941">Henry 
@@ -5446,6 +5454,12 @@
                             Charles Theodore, 1842-</persName>
                         <birth when="1842"/>
                     </person>
+                    <person xml:id="dobell_b">
+                        <persName source="http://id.loc.gov/authorities/names/n50028845">Dobell, 
+                            Bertram, 1842-1914</persName>
+                        <birth when="1842"/>
+                        <death when="1914"/>
+                    </person>
                     <person corresp="douglas">
                         <persName source="http://id.loc.gov/authorities/names/no93024045">Douglas, 
                             David, 1823-1916</persName>
@@ -5491,6 +5505,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97012172">Field,
                             Richard, -1624</persName>
                         <death when="1624"/>
+                    </person>
+                    <person xml:id="firmin-didot">
+                        <persName source="http://id.loc.gov/authorities/names/n82040025">Firmin-Didot, 
+                            Ambroise, 1790-1876</persName>
+                        <birth when="1790"/>
+                        <death when="1876"/>
                     </person>
                     <person xml:id="frowde">
                         <persName source="http://id.loc.gov/authorities/names/nr93008543">Frowde, 
@@ -5645,6 +5665,12 @@
                         <birth when="1877"/>
                         <death when="1952"/>
                     </person>
+                    <person xml:id="millar">
+                        <persName source="http://id.loc.gov/authorities/names/n50033644">Millar, 
+                            Andrew, 1705-1768</persName>
+                        <birth when="1705"/>
+                        <death when="1768"/>
+                    </person>
                     <person xml:id="molini">
                         <persName source="http://id.loc.gov/authorities/names/no2019071372">Molini, 
                             Giovanni Claudio, 1724-1812</persName>
@@ -5655,6 +5681,12 @@
                         <persName source="http://id.loc.gov/authorities/names/no90019019">Moseley,
                             Humphrey, -1661</persName>
                         <death when="1661"/>
+                    </person>
+                    <person xml:id="mosher">
+                        <persName source="http://id.loc.gov/authorities/names/n84017478">Mosher, 
+                            Thomas Bird, 1852-1923</persName>
+                        <birth when="1852"/>
+                        <death when="1923"/>
                     </person>
                     <person xml:id="moxon">
                         <persName source="http://id.loc.gov/authorities/names/no91026075">Moxon, 
@@ -14159,10 +14191,9 @@
                                         <name full="yes">T. Taylor</name>
                                     </respStmt>
                                     <imprint>
-                                        <publisher>
+                                        <publisher corresp="#dobell_b">
                                             <persName>Bertram Dobell</persName>
                                         </publisher>
-                                        <!-- No LCNAF found. -->
                                         <publisher corresp="#reeves_turner">
                                             <orgName>Reeves and Turner</orgName>
                                         </publisher>
@@ -15359,6 +15390,9 @@
                                         Lat.</title>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
+                                        <publisher corresp="#firmin-didot">
+                                            <persName>Ambrosio Firmin Didot</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1864"/>
                                     </imprint>
@@ -15374,13 +15408,19 @@
                             <biblStruct corresp="#owned" xml:id="sb218.2">
                                 <monogr>
                                     <title xml:lang="fr">Notre-Dame de Paris</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description">plates and illustrations, calf gilt,
                                         marbled edges, imperial 8vo.</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Sagnier et Bray</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1844"/>
                                     </imprint>
@@ -15393,7 +15433,9 @@
                             <biblStruct corresp="#owned" xml:id="sb219.1">
                                 <monogr>
                                     <title>In Praise of Folly, with Life of Erasmus, etc.</title>
-                                    <author corresp="#erasmus">Erasmus</author>
+                                    <author corresp="#erasmus">
+                                        <persName>Erasmus</persName>
+                                    </author>
                                     <note type="description">illustrations by Holbein</note>
                                     <imprint>
                                         <date when="1876"/>
@@ -15406,7 +15448,9 @@
                             <biblStruct corresp="#owned" xml:id="sb219.2">
                                 <monogr>
                                     <title>A Novelist's Note Book</title>
-                                    <author corresp="#murray_d">Murray, D. C.</author>
+                                    <author corresp="#murray_d">
+                                        <persName>Murray, D. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">some
                                         presentation copies to Swinburne</note>
                                     <note type="etc">
@@ -15425,10 +15469,16 @@
                                     <title xml:lang="la">Poesis Philosophica, vel saltem Reliquiae
                                         Poesis Philosophicae, Empedocilis, Xenophonis, Timonis,
                                         Parmenidis, Cleanthis, Epicharmi</title>
-                                    <author corresp="#estienne">Estienne, H.</author>
+                                    <author corresp="#estienne">
+                                        <persName>Estienne, H.</persName>
+                                    </author>
                                     <note type="description">calf, arms of Herbery Norman Evans, M.
                                         D. on sides, marbled edges</note>
                                     <imprint>
+                                        <publisher corresp="#estienne">
+                                            <persName>Henr. Stephanus</persName>
+                                        </publisher>
+                                        <pubPlace ref="#geneva">Geneva</pubPlace>
                                         <date when="1573"/>
                                     </imprint>
                                 </monogr>
@@ -15440,7 +15490,9 @@
                             <biblStruct corresp="#owned" xml:id="sb221.1">
                                 <monogr>
                                     <title>Works, Plays and Poems, with Critical Notes, etc.</title>
-                                    <author corresp="#etherege">Etherege, Sir Geo.</author>
+                                    <author corresp="#etherege">
+                                        <persName>Etherege, Sir Geo.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. Wilson Verity</name>
@@ -15448,6 +15500,10 @@
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#limited_ed">Limited Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
@@ -15458,12 +15514,18 @@
                                 <monogr>
                                     <title>Letters to Elizabeth Hitchener, with Introduction and
                                         Notes</title>
-                                    <author corresp="#shelley_p">Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">
+                                        <persName>Shelley, P. B.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#dobell_b">
+                                            <persName>Bertram Dobell</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -15477,7 +15539,9 @@
                                     <title xml:lang="co">L'Historie d'Eutropio de le Vite et fatti
                                         de tutti gl'Imperatori Romani unovamente tradotte di Latino
                                         in lengua Italiana</title>
-                                    <author corresp="#eutropius">Eutropius</author>
+                                    <author corresp="#eutropius">
+                                        <persName>Eutropius</persName>
+                                    </author>
                                     <note type="description">old Venetian morocco binding, gilt
                                         borders and ornaments on sides, gilt edges, tooled in Arabic
                                         interlaced design</note>
@@ -15493,7 +15557,9 @@
                             <biblStruct corresp="#owned" xml:id="sb223.1">
                                 <monogr>
                                     <title>Comedies, Letters, Poems, Essays, etc.</title>
-                                    <author corresp="#farquhar">Farquhar, Geo.</author>
+                                    <author corresp="#farquhar">
+                                        <persName>Farquhar, Geo.</persName>
+                                    </author>
                                     <note type="description">plates, half calf, yellow edges</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -15509,16 +15575,22 @@
                             <biblStruct corresp="#owned" xml:id="sb223.2">
                                 <monogr>
                                     <title>Works, with Notes</title>
-                                    <author corresp="#chapman">Chapman, Geo.</author>
+                                    <author corresp="#chapman">
+                                        <persName>Chapman, Geo.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. H. Shepherd</name>
                                     </respStmt>
                                     <note type="description">frontispiece, tree calf gilt, marbled
                                         edges</note>
-                                    <note type="etc">another edition, <date when="1875"
-                                            >1875</date><num value="8"/></note>
+                                    <note type="etc">another edition, 
+                                        <date when="1875">1875</date><num value="8"/></note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -15530,7 +15602,9 @@
                             <biblStruct corresp="#owned" xml:id="sb224.1">
                                 <monogr>
                                     <title>Songs of Doubt and Dream (Poems)</title>
-                                    <author corresp="#fawcett">Fawcett, Edgar</author>
+                                    <author corresp="#fawcett">
+                                        <persName>Fawcett, Edgar</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with the author's inscription</note>
                                     <note type="inscription">To A. C. Swinburne Esq. with many
@@ -15539,6 +15613,9 @@
                                     <!-- Last name [sic] -->
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#funk_wagnalls_company">
+                                            <orgName>Funk &amp; Wagnalls Company</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
@@ -15551,13 +15628,19 @@
                             <biblStruct corresp="#owned" xml:id="sb225.1">
                                 <monogr>
                                     <title>Callirrhoë: Fair Rosamund</title>
-                                    <author corresp="#bradley_k">Field, Michael</author>
-                                    <!-- Michael field was a pseudonym used by Katharine Harris Bradley. -->
+                                    <author corresp="#bradley_k">
+                                        <persName>Field, Michael</persName>
+                                    </author>
+                                    <!-- Michael Field was a pseudonym used by Katharine Harris Bradley. -->
                                     <note type="description">parchment, with inscription</note>
                                     <note type="inscription">A. Swinburne, Esq. from the author,
                                             <date when="1884-05">May, 1884</date></note>
                                     <imprint>
-                                        <date>n. d.</date>
+                                        <publisher corresp="#henry_holt_company">
+                                            <orgName>Henry Holt and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
+                                        <date when="1884"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
@@ -15565,7 +15648,9 @@
                             </biblStruct>
                             <bibl xml:id="sb225.2">
                                 <title>The Father's Tragedy</title>
-                                <author corresp="#bradley_k">Field, Michael</author>
+                                <author corresp="#bradley_k">
+                                    <persName>Field, Michael</persName>
+                                </author>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
                                 <note type="fulltext">225.2, .3, and .4 are three works in one
@@ -15573,7 +15658,9 @@
                             </bibl>
                             <bibl xml:id="sb225.3">
                                 <title>William Rufus</title>
-                                <author corresp="#bradley_k">Field, Michael</author>
+                                <author corresp="#bradley_k">
+                                    <persName>Field, Michael</persName>
+                                </author>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t0vq32g01"/>
                                 <note type="fulltext">225.2, .3, and .4 are three works in one
@@ -15582,7 +15669,9 @@
                             <biblStruct corresp="#owned" xml:id="sb225.4">
                                 <monogr>
                                     <title>Loyalty or Love</title>
-                                    <author>Field, Michael</author>
+                                    <author corresp="#bradley_k">
+                                        <persName>Field, Michael</persName>
+                                    </author>
                                     <note type="description">parchment</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -15596,10 +15685,16 @@
                             <biblStruct corresp="#owned" xml:id="sb225.5">
                                 <monogr>
                                     <title>Wild Honey from Various Thyme</title>
-                                    <author corresp="#bradley_k">Field, Michael</author>
+                                    <author corresp="#bradley_k">
+                                        <persName>Field, Michael</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, top edge
                                         gilt</note>
                                     <imprint>
+                                        <publisher corresp="#unwin">
+                                            <persName>T. Fisher Unwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -15611,7 +15706,9 @@
                             <biblStruct corresp="#owned" xml:id="sb226.1">
                                 <monogr>
                                     <title>Long Ago</title>
-                                    <author corresp="#bradley_k">Field, Michael</author>
+                                    <author corresp="#bradley_k">
+                                        <persName>Field, Michael</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation #uncut">one of 100
                                         copies, vellum, uncut, presentation copy, with
                                         inscription</note>
@@ -15619,6 +15716,10 @@
                                         Field <date when="1889-05-27">May 27, 1889</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
+                                        <!-- Catalog record says London: G. Bell, but scan says
+                                               Thomas B. Mosher, Portland, Maine. -->
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -15628,7 +15729,9 @@
                             <biblStruct corresp="#owned" xml:id="sb226.2">
                                 <monogr>
                                     <title>Noontide Branches</title>
-                                    <author corresp="#bradley_k">Field, Michael</author>
+                                    <author corresp="#bradley_k">
+                                        <persName>Field, Michael</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 150 copies,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -15645,10 +15748,16 @@
                             <biblStruct corresp="#owned" xml:id="sb227.1">
                                 <monogr>
                                     <title>History of Tom Jones, a Foundling</title>
-                                    <author corresp="#fielding">Fielding, Henry</author>
+                                    <author corresp="#fielding">
+                                        <persName>Fielding, Henry</persName>
+                                    </author>
                                     <note type="description">old mottled calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#millar">
+                                            <persName>A. Millar</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1749"/>
                                     </imprint>
                                     <extent>
@@ -15673,10 +15782,16 @@
                             <biblStruct corresp="#owned" xml:id="sb228.1">
                                 <monogr>
                                     <title>Amelia</title>
-                                    <author corresp="#fielding">Fielding, H.</author>
+                                    <author corresp="#fielding">
+                                        <persName>Fielding, H.</persName>
+                                    </author>
                                     <note type="description">original calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#millar">
+                                            <persName>A. Millar</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1752"/>
                                     </imprint>
                                     <extent>
@@ -15696,12 +15811,18 @@
                             <biblStruct corresp="#owned" xml:id="sb229.1">
                                 <monogr>
                                     <title>Works, with Biographical Essay by Leslie Stephen</title>
-                                    <author corresp="#fielding">Fielding, H.</author>
+                                    <author corresp="#fielding">
+                                        <persName>Fielding, H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustratoins, india proofs, buckram, uncut, with the
                                         cancelled leaf, imperial 8vo.</note>
                                     <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Luxe</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                     <extent>
@@ -15735,11 +15856,16 @@
                                 <monogr>
                                     <title>Journal of a Voyage to Lisbon, with Introduction and
                                         Notes by Austin Dobson</title>
-                                    <author corresp="#fielding">Fielding, H.</author>
+                                    <author corresp="#fielding">
+                                        <persName>Fielding, H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 25 copies on
                                         Japanese vellum, portrait, half vellum, uncut</note>
                                     <imprint>
-                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -15752,10 +15878,16 @@
                                 <monogr>
                                     <title>Polonius: a Collection of Wise Saws and Modern
                                         Instances</title>
-                                    <author corresp="#fitzgerald_e">Fitzgerald, E.</author>
+                                    <author corresp="#fitzgerald_e">
+                                        <persName>Fitzgerald, E.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 450 copies,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#mosher">
+                                            <persName>Thomas B. Mosher</persName>
+                                        </publisher>
+                                        <pubPlace ref="#portland">Portland, Maine</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
