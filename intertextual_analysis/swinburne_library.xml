@@ -4908,6 +4908,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2001089993">Bell 
                             and Daldy</orgName>
                     </org>
+                    <org xml:id="bodley_head">
+                        <orgName source="http://id.loc.gov/authorities/names/nr88010186">Bodley 
+                            Head (Firm)</orgName>
+                    </org>
                     <org xml:id="bodoni">
                         <orgName source="http://id.loc.gov/authorities/names/n81038854">Officina 
                             Bodoni</orgName>
@@ -5056,6 +5060,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n88002745">Houghton, 
                             Mifflin and Company</orgName>
                     </org>
+                    <org xml:id="hutchinson_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008101666">Hutchinson 
+                            &amp; Co. (Publishers)</orgName>
+                    </org>
                     <org xml:id="j_m_dent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
@@ -5091,6 +5099,10 @@
                     <org xml:id="kelmscott">
                         <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
                             Press</orgName>
+                    </org>
+                    <org xml:id="lawrence_bullen">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2003002951">Lawrence 
+                            &amp; Bullen</orgName>
                     </org>
                     <org xml:id="lee_priory">
                         <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
@@ -5131,6 +5143,10 @@
                     <org xml:id="longman_hurst_rees_orme">
                         <orgName source="http://id.loc.gov/authorities/names/no91024715">Longman, 
                             Hurst, Rees, and Orme</orgName>
+                    </org>
+                    <org xml:id="longman_hurst_rees_orme_brown">
+                        <orgName source="http://id.loc.gov/authorities/names/nr93032708">Longman, 
+                            Hurst, Rees, Orme, and Brown</orgName>
                     </org>
                     <org xml:id="longman_rees_orme_brown_green_longman">
                         <orgName source="http://id.loc.gov/authorities/names/nr93032704">Longman, 
@@ -5239,6 +5255,14 @@
                     <org xml:id="sherratt_hughes">
                         <orgName source="http://id.loc.gov/authorities/names/nr92017449">Sherratt 
                             &amp; Hughes</orgName>
+                    </org>
+                    <org xml:id="sherwood_gilbert_piper">
+                        <orgName source="http://id.loc.gov/authorities/names/no2002007248">Sherwood, 
+                            Gilbert, and Piper</orgName>
+                    </org>
+                    <org xml:id="sherwood_neely_jones">
+                        <orgName source="http://id.loc.gov/authorities/names/no00074158">Sherwood, 
+                            Neely, and Jones</orgName>
                     </org>
                     <org xml:id="simpkin_marshall_hamilton_kent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2002109454">Simpkin, 
@@ -5650,6 +5674,10 @@
                             Richard, active 17th century</persName>
                         <floruit from="1600" to="1699"/>
                     </person>
+                    <person xml:id="mckay">
+                        <persName source="http://id.loc.gov/authorities/names/no2006016203">McKay, 
+                            David (Publisher)</persName>
+                    </person>
                     <person xml:id="meighen">
                         <persName source="http://id.loc.gov/authorities/names/nr95022729">Meighen, 
                             Richard, active 1656</persName>
@@ -5856,6 +5884,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94029692">Vitali, 
                             Bernardino dei, active 1494-1539</persName>
                         <floruit from="1494" to="1539"/>
+                    </person>
+                    <person xml:id="washbourne">
+                        <persName source="http://id.loc.gov/authorities/names/nr94008012">Washbourne, 
+                            Henry</persName>
                     </person>
                     <person xml:id="williams_e">
                         <persName source="http://id.loc.gov/authorities/names/no2021123492">Williams, 
@@ -15899,9 +15931,15 @@
                             <biblStruct corresp="#owned" xml:id="sb232.1">
                                 <monogr>
                                     <title>Works with Essay on his Life by Jon Bee</title>
-                                    <author corresp="#foote">Foote, Samuel</author>
+                                    <author corresp="#foote">
+                                        <persName>Foote, Samuel</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#sherwood_gilbert_piper">
+                                            <orgName>Sherwood, Gilbert, and Piper</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1830"/>
                                     </imprint>
                                     <extent>
@@ -15917,10 +15955,16 @@
                             <biblStruct corresp="#owned" xml:id="sb232.2">
                                 <monogr>
                                     <title>Omniana, or Horae Olisiores</title>
-                                    <author corresp="#southey">Southey, Robert</author>
+                                    <author corresp="#southey">
+                                        <persName>Southey, Robert</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longman_hurst_rees_orme_brown">
+                                            <orgName>Longman, Hurst, Rees, Orme, and Brown</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1812"/>
                                     </imprint>
                                     <extent>
@@ -15935,12 +15979,18 @@
                             <biblStruct corresp="#owned" xml:id="sb232.3">
                                 <monogr>
                                     <title>Tales of the Drama</title>
-                                    <author corresp="#macauley">Macaulay, Mrs.</author>
+                                    <author corresp="#macauley">
+                                        <persName>Macaulay, Mrs.</persName>
+                                    </author>
                                     <note type="description">woodcuts</note>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#sherwood_neely_jones">
+                                            <orgName>Sherwood, Neely, and Jones</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1822"/>
                                     </imprint>
                                 </monogr>
@@ -15952,7 +16002,9 @@
                             <biblStruct corresp="#owned" xml:id="sb233.1">
                                 <monogr>
                                     <title>Table-Talk and Bon-Mots, with Introduction Memoir</title>
-                                    <author corresp="#foote">Foote, S.</author>
+                                    <author corresp="#foote">
+                                        <persName>Foote, S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Wm. Cooke</name>
@@ -15970,7 +16022,9 @@
                             <biblStruct corresp="#owned" xml:id="sb233.2">
                                 <monogr>
                                     <title>Table-Talk, to which is added Porsoniana</title>
-                                    <author corresp="#rogers">Rogers, Samuel</author>
+                                    <author corresp="#rogers">
+                                        <persName>Rogers, Samuel</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Alex Dyce</name>
@@ -15978,6 +16032,11 @@
                                     <note type="description" corresp="#uncut">large paper, portraits
                                         and plates, uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>H. A. Rogers</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->                                        
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -15990,12 +16049,18 @@
                                 <monogr>
                                     <title>Dramatic Works, with Notes Critical and Explanatory by W.
                                         Gifford</title>
-                                    <author corresp="#ford_j">Ford, John</author>
+                                    <author corresp="#ford_j">
+                                        <persName>Ford, John</persName>
+                                    </author>
                                     <note type="description">tree-calf gilt, marbled edges, by Clark
                                         and Bedford</note>
                                     <!--Clark and Bedford are English bookbinders -AM -->
                                     <edition>Best Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1827"/>
                                     </imprint>
                                     <extent>
@@ -16012,13 +16077,19 @@
                             <biblStruct corresp="#owned" xml:id="sb235.1">
                                 <monogr>
                                     <title>Works, with Additions by Alex Dyce</title>
-                                    <author corresp="#ford_j">Ford, J.</author>
+                                    <author corresp="#ford_j">
+                                        <persName>Ford, J.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">William Gifford</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lawrence_bullen">
+                                            <orgName>Lawrence and Bullen</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                     <extent>
@@ -16037,11 +16108,17 @@
                             <biblStruct corresp="#owned" xml:id="sb236.1">
                                 <monogr>
                                     <title>Life and times of Oliver Goldsmith</title>
-                                    <author corresp="#forster">Forster, John</author>
+                                    <author corresp="#forster">
+                                        <persName>Forster, John</persName>
+                                    </author>
                                     <note type="description">portrait, exrtra-illustrated with
                                         numerous portraits and engravings, some scarce, half morocco
                                         gilt, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                     <extent>
@@ -16058,7 +16135,9 @@
                             <biblStruct corresp="#owned" xml:id="sb237.1">
                                 <monogr>
                                     <title xml:lang="de">Die Feuerprobe der Liebe Angioletta</title>
-                                    <author>Friedmann, Alfred</author>
+                                    <author>
+                                        <persName>Friedmann, Alfred</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <imprint>
                                         <pubPlace ref="#vienna">Wien</pubPlace>
@@ -16070,7 +16149,9 @@
                             <biblStruct corresp="#owned" xml:id="sb237.2">
                                 <monogr>
                                     <title>Merlin, Orpheus</title>
-                                    <author>Friedmann, Alfred</author>
+                                    <author>
+                                        <persName>Friedmann, Alfred</persName>
+                                    </author>
                                     <imprint>
                                         <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1874"/>
@@ -16082,7 +16163,9 @@
                             <biblStruct corresp="#owned" xml:id="sb237.3">
                                 <monogr>
                                     <title xml:lang="de">Aus Hellas</title>
-                                    <author>Friedmann, Alfred</author>
+                                    <author>
+                                        <persName>Friedmann, Alfred</persName>
+                                    </author>
                                     <imprint>
                                         <pubPlace ref="#vienna">Wien</pubPlace>
                                         <date when="1874"/>
@@ -16093,7 +16176,9 @@
                             <biblStruct corresp="#owned" xml:id="sb237.4">
                                 <monogr>
                                     <title>Savilia</title>
-                                    <author>Friedmann, Alfred</author>
+                                    <author>
+                                        <persName>Friedmann, Alfred</persName>
+                                    </author>
                                     <note type="etc" corresp="#presentation">and another, all
                                         presentation copies to Swinburne, with author's
                                             inscriptions<num value="5"/></note>
@@ -16109,7 +16194,9 @@
                             <biblStruct corresp="#owned" xml:id="sb238.1">
                                 <monogr>
                                     <title>Short Studies on Great Subjects</title>
-                                    <author corresp="#froude">Froude, J. A.</author>
+                                    <author corresp="#froude">
+                                        <persName>Froude, J. A.</persName>
+                                    </author>
                                     <imprint>
                                         <date when="1891"/>
                                     </imprint>
@@ -16131,12 +16218,18 @@
                             <biblStruct corresp="#owned" xml:id="sb238.2">
                                 <monogr>
                                     <title>Reliques of Ancient English Poetry</title>
-                                    <author corresp="#percy">Percy, Thos.</author>
+                                    <author corresp="#percy">
+                                        <persName>Percy, Thos.</persName>
+                                    </author>
                                     <note type="description">half morocco</note>
                                     <note type="etc">
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#washbourne">
+                                            <persName>Henry Washbourne</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1847"/>
                                     </imprint>
                                     <extent>
@@ -16155,7 +16248,9 @@
                             <biblStruct corresp="#owned" xml:id="sb239.1">
                                 <monogr>
                                     <title xml:lang="it">Rassegna della Letteratura Inglese</title>
-                                    <author corresp="#galimberti_schanzer">Galimberti, Alice</author>
+                                    <author corresp="#galimberti_schanzer">
+                                        <persName>Galimberti, Alice</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with autograph inscription,
                                         and interesting autograph letter of the author
@@ -16175,13 +16270,19 @@
                             <biblStruct corresp="#owned" xml:id="sb240.1">
                                 <monogr>
                                     <title>English Poems</title>
-                                    <author corresp="#le_gallienne">Gallienne, Richard le</author>
+                                    <author corresp="#le_gallienne">
+                                        <persName>Gallienne, Richard le</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. a
                                         small acknowledgement of joy in his genius from Richard le
                                         Gallienne, <date when="1892-10-06">6 Oct. '92</date></note>
                                     <imprint>
+                                        <publisher corresp="#elkin_mathews_john_lane">
+                                            <orgName>Elkin Mathews and John Lane</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -16193,13 +16294,19 @@
                             <biblStruct corresp="#owned" xml:id="sb241.1">
                                 <monogr>
                                     <title>Prose Fancies</title>
-                                    <author corresp="#le_gallienne">Gallienne, R. le</author>
+                                    <author corresp="#le_gallienne">
+                                        <persName>Gallienne, R. le</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">portrait
                                         by P. Wilson Steer, presentation copy from the author to A.
                                         C. Swinburne, with inscription, blue cloth, uncut</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with homage from
                                         Richard le Gallienne</note>
                                     <imprint>
+                                        <publisher corresp="#elkin_mathews_john_lane">
+                                            <orgName>Elkin Mathews and John Lane</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -16211,7 +16318,9 @@
                             <biblStruct corresp="#owned" xml:id="sb242.1">
                                 <monogr>
                                     <title>Travels in England</title>
-                                    <author corresp="#le_gallienne">Gallienne, R. le</author>
+                                    <author corresp="#le_gallienne">
+                                        <persName>Gallienne, R. le</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">illustrations
                                         by H. Railton, presentation copy to Swinburne, with
                                         autograph inscription</note>
@@ -16219,6 +16328,11 @@
                                         with homage and gratitued from Richard le Gallienne, <date
                                             when="1900-08">August, 1900</date></note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Grant Richards</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -16237,6 +16351,9 @@
                                     <note type="etc">presentation copies with inscriptions<num
                                             value="5"/></note>
                                     <imprint>
+                                        <publisher corresp="#mckay">
+                                            <persName>David McKay</persName>
+                                        </publisher>
                                         <pubPlace ref="#philadelphia">Philadelphia</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
@@ -16249,9 +16366,15 @@
                             <biblStruct corresp="#owned" xml:id="sb243.1">
                                 <monogr>
                                     <title>Nelson's Friendships</title>
-                                    <author corresp="#gamlin">Gamlin, Mrs. H.</author>
+                                    <author corresp="#gamlin">
+                                        <persName>Gamlin, Mrs. H.</persName>
+                                    </author>
                                     <note type="description">portraits and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#hutchinson_co">
+                                            <orgName>Hutchinson &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                     <extent>
@@ -16266,11 +16389,17 @@
                             <biblStruct corresp="#owned" xml:id="sb243.2">
                                 <monogr>
                                     <title>Savonarola, a Tragedy</title>
-                                    <author corresp="#austin">Austin, Alfred</author>
+                                    <author corresp="#austin">
+                                        <persName>Austin, Alfred</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -16282,10 +16411,16 @@
                             <biblStruct corresp="#owned" xml:id="sb244.1">
                                 <monogr>
                                     <title>Story of Siena and San Gimiguano</title>
-                                    <author corresp="#gardner">Gardner, Edmund G.</author>
+                                    <author corresp="#gardner">
+                                        <persName>Gardner, Edmund G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations by H. M.
                                         James, cloth gilt, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#j_m_dent_co">
+                                            <orgName>J. M. Dent &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -16295,9 +16430,15 @@
                             <biblStruct corresp="#owned" xml:id="sb244.2">
                                 <monogr>
                                     <title>The Golden Age</title>
-                                    <author corresp="#grahame">Grahame, K.</author>
+                                    <author corresp="#grahame">
+                                        <persName>Grahame, K.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#bodley_head">
+                                            <orgName>John Lane: the Bodley Head</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -16307,12 +16448,19 @@
                             <biblStruct corresp="#owned" xml:id="sb244.3">
                                 <monogr>
                                     <title>Only Toys!</title>
-                                    <author corresp="#anstey">Anstey, F.</author>
+                                    <author corresp="#anstey">
+                                        <persName>Anstey, F.</persName>
+                                    </author>
                                     <note type="description">35 illustrations</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Grant Richards</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -16324,9 +16472,15 @@
                             <biblStruct corresp="#owned" xml:id="sb245.1">
                                 <monogr>
                                     <title>Cranford, with Preface by Anne Thackeray Ritchie</title>
-                                    <author corresp="#gaskell">Gaskell, Mrs.</author>
+                                    <author corresp="#gaskell">
+                                        <persName>Gaskell, Mrs.</persName>
+                                    </author>
                                     <note type="description">illustrations by Hugh Thomson</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
