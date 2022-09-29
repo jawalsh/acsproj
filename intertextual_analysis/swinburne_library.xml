@@ -5036,6 +5036,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n79029235">Goupil &amp;
                             Cie</orgName>
                     </org>
+                    <org xml:id="griffith_farran_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2006031121">Griffith, 
+                            Farran and Co.</orgName>
+                    </org>
                     <org xml:id="hachette">
                         <orgName source="http://id.loc.gov/authorities/names/n81053359">Hachette 
                             (Firm)</orgName>
@@ -5055,6 +5059,10 @@
                     <org xml:id="henry_s_king_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr2003029941">Henry 
                             S. King (Publisher)</orgName>
+                    </org>
+                    <org xml:id="heugel">
+                        <orgName source="http://id.loc.gov/authorities/names/n86080591">Heugel 
+                            (Firm)</orgName>
                     </org>
                     <org xml:id="houghton_mifflin_company">
                         <orgName source="http://id.loc.gov/authorities/names/n88002745">Houghton, 
@@ -5292,6 +5300,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n87932183">Thacker, 
                             Spink &amp; Co.</orgName>
                     </org>
+                    <org xml:id="thomas_nelson_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/n80046390">Thomas 
+                            Nelson &amp; Sons</orgName>
+                    </org>
                     <org xml:id="thomas_y_crowell_company">
                         <orgName source="http://id.loc.gov/authorities/names/n88072126">Thomas 
                             Y. Crowell Company</orgName>
@@ -5451,6 +5463,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr95014267">Crooke, 
                             Andrew, -1674</persName>
                         <death when="1674"/>
+                    </person>
+                    <person xml:id="curtis">
+                        <persName source="http://id.loc.gov/authorities/names/nr94037621">Curtis, 
+                            Langley</persName>
                     </person>
                     <person xml:id="daniel">
                         <persName source="http://id.loc.gov/authorities/names/nb99012313">Daniel,
@@ -5879,6 +5895,12 @@
                             T. Fisher (Thomas Fisher), 1848-1935</persName>
                         <birth when="1848"/>
                         <death when="1935"/>
+                    </person>
+                    <person xml:id="vanier">
+                        <persName source="http://id.loc.gov/authorities/names/no2008172944">Vanier, 
+                            Léon, 1847-1896</persName>
+                        <birth when="1847"/>
+                        <death when="1896"/>
                     </person>
                     <person xml:id="vitali">
                         <persName source="http://id.loc.gov/authorities/names/nr94029692">Vitali, 
@@ -16490,7 +16512,9 @@
                             <biblStruct corresp="#owned" xml:id="sb245.2">
                                 <monogr>
                                     <title>Little Britain and the Spectre Bridgegroom, etc.</title>
-                                    <author corresp="#irving">Irving, W.</author>
+                                    <author corresp="#irving">
+                                        <persName>Irving, W.</persName>
+                                    </author>
                                     <note type="description">illustrations by C. O. Murray</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -16503,13 +16527,19 @@
                             <biblStruct corresp="#owned" xml:id="sb245.3">
                                 <monogr>
                                     <title>Rip Van Winkle and the Legend of Sleepy Hollow</title>
-                                    <author corresp="#irving">Irving, W.</author>
+                                    <author corresp="#irving">
+                                        <persName>Irving, W.</persName>
+                                    </author>
                                     <note type="description">53 illustrations by G. H.
                                         Boughton</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -16521,10 +16551,16 @@
                             <biblStruct corresp="#owned" xml:id="sb246.1">
                                 <monogr>
                                     <title>Works, with Introduction by A. W. Ward</title>
-                                    <author corresp="#gaskell">Gaskell, Mrs.</author>
+                                    <author corresp="#gaskell">
+                                        <persName>Gaskell, Mrs.</persName>
+                                    </author>
                                     <note type="description">frontispieces, red cloth, top edge
                                         gilt</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -16552,10 +16588,15 @@
                             <biblStruct corresp="#owned" xml:id="sb247.1">
                                 <monogr>
                                     <title>Richard Wagner</title>
-                                    <author corresp="#gasperini">Gasperini, A. de</author>
+                                    <author corresp="#gasperini">
+                                        <persName>Gasperini, A. de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, facsimile,
                                         etc. uncut</note>
                                     <imprint>
+                                        <publisher corresp="#heugel">
+                                            <orgName>Heugel et Cie.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
@@ -16566,9 +16607,14 @@
                             <biblStruct corresp="#owned" xml:id="sb247.2">
                                 <monogr>
                                     <title>Pensées, Introduction by Paul Marieton</title>
-                                    <author corresp="#roux">Roux, Jos.</author>
+                                    <author corresp="#roux">
+                                        <persName>Roux, Jos.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
@@ -16582,6 +16628,10 @@
                                     <note type="description" corresp="#presentation">presentation copies to Swinburne, with
                                         autograph inscriptions, royal 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#vanier">
+                                            <persName>Léon Vanier</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -16598,17 +16648,21 @@
                                 <monogr>
                                     <title>Aurthour and Merlin: a Theatrical Romance, now first
                                         edited from the Auchinleek MS</title>
-                                    <author corresp="#abbotsford_club">Abbotsford Club</author>
+                                    <author corresp="#abbotsford_club">
+                                        <orgName>Abbotsford Club</orgName>
+                                    </author>
                                     <note type="description">frontispiece, morocco, gilt edges, arms
                                         on the sides</note>
                                     <imprint>
+                                        <publisher corresp="#abbotsford_club">
+                                            <orgName>Abbotsford Club</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1838"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/arthourmerlinmet00abbo/page/n12/mode/2up"
-                                />
+                                    target="https://archive.org/details/arthourmerlinmet00abbo/page/n12/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb249">
@@ -16616,7 +16670,9 @@
                                 <monogr>
                                     <title>England's Parnassus, or The Choyest Flowers of our
                                         Moderne Poets</title>
-                                    <author corresp="#allott">Allot, R.</author>
+                                    <author corresp="#allott">
+                                        <persName>Allot, R.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. Payne Colleir</name>
@@ -16638,7 +16694,9 @@
                             <biblStruct corresp="#owned" xml:id="sb250.1">
                                 <monogr>
                                     <title>The Thames from its Rise to the Nore</title>
-                                    <author>Armstrong, Walter</author>
+                                    <author>
+                                        <persName>Armstrong, Walter</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description">2 vol. in 1, illustrations, half
                                         morocco, gilt edges</note>
@@ -16661,7 +16719,9 @@
                                         for private circulation, uncut, presentation copy to
                                         Swinburne, with inscription</note>
                                     <imprint>
-                                        <publisher corresp="#ashendene_press">Ashendene Press</publisher>
+                                        <publisher corresp="#ashendene_press">
+                                            <orgName>Ashendene Press</orgName>
+                                        </publisher>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -16676,7 +16736,9 @@
                                 <monogr>
                                     <title>Emma Lady Hamilton, a Biographical Essay, with Catalogue
                                         of her Published Portraits</title>
-                                    <author corresp="#baily">Baily, J. T. Herbert</author>
+                                    <author corresp="#baily">
+                                        <persName>Baily, J. T. Herbert</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >portraits, some coloured, parchment, uncut, presentation
                                         copy with inscription</note>
@@ -16684,6 +16746,10 @@
                                         respectful compliments from J. T. Herbert Baily, <date
                                             when="1907-04-05">5 April, 1907</date></note>
                                     <imprint>
+                                        <publisher corresp="#menzies">
+                                            <persName>W. G. Menzies</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -16696,9 +16762,15 @@
                                 <monogr>
                                     <title>Memoir of Richard Busby, with some Account of Westminster
                                         School</title>
-                                    <author corresp="#barker_g">Barker, G. F. Russel</author>
+                                    <author corresp="#barker_g">
+                                        <persName>Barker, G. F. Russel</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#lawrence_bullen">
+                                            <orgName>Lawrence and Bullen</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -16713,6 +16785,11 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>"Pall Mall" Press</orgName>
+                                        </publisher>
+                                        <!-- LCNAF found, but only for their Paris location. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -16725,7 +16802,9 @@
                                 <monogr>
                                     <title xml:lang="la">Oratio in Obitum Ser. Cosmi Medicis Magni
                                         Hetrutuae Ducis</title>
-                                    <author>Baudinius, O.</author>
+                                    <author>
+                                        <persName>Baudinius, O.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <imprint>
                                         <date when="1574"/>
@@ -16737,7 +16816,9 @@
                                 <monogr>
                                     <title xml:lang="la">Oratio Petri Victorii habita in Funere
                                         Cosmi Medicis Magni Ducis Etriariae</title>
-                                    <author>Baudinius, O.</author>
+                                    <author>
+                                        <persName>Baudinius, O.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">in 1 vol. uncut</note>
                                     <imprint>
                                         <pubPlace ref="#florence">Florentiae</pubPlace>
@@ -16758,7 +16839,9 @@
                             <biblStruct corresp="#owned" xml:id="sb254.3">
                                 <monogr>
                                     <title>Agripanda Tragedia</title>
-                                    <author corresp="#decio">Decis da Herte, Ant.</author>
+                                    <author corresp="#decio">
+                                        <persName>Decis da Herte, Ant.</persName>
+                                    </author>
                                     <!-- Probably Antonio Decio, but difficult to verify. The time period matches,
                                         and Decio has one associated work with his LCNAF titled 'Acripanda'. -->
                                     <note type="description">vellum</note>
@@ -16815,6 +16898,10 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A39799</idno>
                                     <imprint>
+                                        <publisher corresp="#curtis">
+                                            <persName>Langley Curtis</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1682"/>
                                     </imprint>
                                 </monogr>
@@ -16824,10 +16911,12 @@
                             <biblStruct corresp="#owned" xml:id="sb256.2">
                                 <monogr>
                                     <title>The Rival Ladies, a Tragi-Comedy</title>
-                                    <author corresp="#dryden">Dryden, John</author>
-                                    <imprint>                                       
-                                        <date when="1669"/>
+                                    <author corresp="#dryden">
+                                        <persName>Dryden, John</persName>
+                                    </author>
+                                    <imprint> 
                                         <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1669"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="google" target="https://books.google.com/books?id=3eZiAAAAcAAJ"/>
@@ -16839,12 +16928,15 @@
                                 <monogr>
                                     <title xml:lang="la">De Laudibus Vitae Rusticae Commentarius in
                                         secundam Oratii Odem a libro epodon</title>
-                                    <author>Bernard, B.</author>
+                                    <author>
+                                        <persName>Bernard, B.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description">vellum, Ben Johnson's copy, with his
                                         signature on title; also an Autograph Letter from Sidney C.
                                         Cockerell addressed to Mr. Swinburne.</note>
                                     <imprint>
+                                        <!-- Unsure of how to encode publisher. -->
                                         <pubPlace ref="#florence">Florentiae</pubPlace>
                                         <date when="1613"/>
                                     </imprint>
@@ -16857,17 +16949,22 @@
                             <biblStruct corresp="#owned" xml:id="sb258.1">
                                 <monogr>
                                     <title>History of the Island of Guernsey</title>
-                                    <author>Berry, W.</author>
+                                    <author>
+                                        <persName>Berry, W.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut">map and plates,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#longman_hurst_rees_orme_brown">
+                                            <orgName>Longman, Hurst, Rees, Orme, and Brown</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1815"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/dli.bengal.10689.16940/page/n3/mode/2up"
-                                />
+                                    target="https://archive.org/details/dli.bengal.10689.16940/page/n3/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb258.2">
                                 <monogr>
@@ -16877,6 +16974,10 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#griffith_farran_co">
+                                            <orgName>Griffith Farran &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -16909,7 +17010,9 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
-                                        <publisher corresp="#barker_r">R. Barker</publisher>
+                                        <publisher corresp="#barker_r">
+                                            <persName>R. Barker</persName>
+                                        </publisher>
                                         <date when="1613"/>
                                     </imprint>
                                 </monogr>
@@ -16924,9 +17027,15 @@
                                     <title>Little Engravings, Classical and Contemporary, Number II,
                                         William Blake, being all his Woodcuts photographically
                                         reproduced, with Introduction by Laurence Binyon</title>
-                                    <author corresp="#blake">Blake, W.</author>
+                                    <author corresp="#blake">
+                                        <persName>Blake, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans Green &amp; Co</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -16938,7 +17047,9 @@
                             <biblStruct corresp="#owned" xml:id="sb261.1">
                                 <monogr>
                                     <title>Prophetic Books of William Blake: Jerusalem</title>
-                                    <author corresp="#blake">Blake, W.</author>
+                                    <author corresp="#blake">
+                                        <persName>Blake, W.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. R. D. Maclagan</name>
@@ -16948,6 +17059,10 @@
                                         copy to Swinburne, with Autograph Letters of the editors
                                         inserted</note>
                                     <imprint>
+                                        <publisher corresp="#bullen">
+                                            <persName>A. H. Bullen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -16959,7 +17074,9 @@
                             <biblStruct corresp="#owned" xml:id="sb262.1">
                                 <monogr>
                                     <title>Jerusalem, reproduced facsimilie</title>
-                                    <author corresp="#blake">Blake, W.</author>
+                                    <author corresp="#blake">
+                                        <persName>Blake, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne</note>
                                     <imprint>
@@ -16978,7 +17095,9 @@
                                 <monogr>
                                     <title>Marriage of Heaven and Hell, Muir's facsimile reprint in
                                         colours</title>
-                                    <author corresp="#blake">Blake, W.</author>
+                                    <author corresp="#blake">
+                                        <persName>Blake, W.</persName>
+                                    </author>
                                     <note type="description">half roan</note>
                                     <imprint>
                                         <date>n. d.</date>
@@ -17012,6 +17131,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#thomas_nelson_sons">
+                                            <orgName>T. Nelson and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                 </monogr>
