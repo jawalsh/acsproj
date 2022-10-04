@@ -2385,10 +2385,13 @@
                     <person xml:id="hawes">
                         <persName source="http://id.loc.gov/authorities/names/n82108715">Hawes,
                             Stephen, -1523?</persName>
+                        <death when="1523" cert="unknown"/>
                     </person>
                     <person xml:id="hawkins_t">
                         <persName source="http://id.loc.gov/authorities/names/nr92006750">Hawkins,
                             Thomas, 1729 or 1730-1772</persName>
+                        <birth when="1729" cert="unknown"/>
+                        <death when="1772"/>
                     </person>
                     <person xml:id="hawkins_w">
                         <persName source="http://id.loc.gov/authorities/names/n83230261">Hawkins,
@@ -3166,8 +3169,8 @@
                         <death when="1887"/>
                     </person>
                     <person xml:id="martial">
-                        <persName source="http://id.loc.gov/authorities/names/n82013667"
-                            >Martial</persName>
+                        <persName source="http://id.loc.gov/authorities/names/n82013667">Martial
+                        </persName>
                     </person>
                     <person xml:id="martineau">
                         <persName source="http://id.loc.gov/authorities/names/n79027175">Martineau,
@@ -5088,6 +5091,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2009077382">Janet 
                             et Cotelle</orgName>
                     </org>
+                    <org xml:id="john_ballantyne_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2010000813">John 
+                            Ballantyne and Co.</orgName>
+                    </org>
                     <org xml:id="john_harris">
                         <orgName source="http://id.loc.gov/authorities/names/n85194340">John 
                             Harris (Firm)</orgName>
@@ -5690,6 +5697,12 @@
                             Richard, active 17th century</persName>
                         <floruit from="1600" to="1699"/>
                     </person>
+                    <person xml:id="mayer">
+                        <persName source="http://id.loc.gov/authorities/names/n88600166">Mayer, 
+                            Joseph, 1803-1886</persName>
+                        <birth when="1803"/>
+                        <death when="1886"/>
+                    </person>
                     <person xml:id="mckay">
                         <persName source="http://id.loc.gov/authorities/names/no2006016203">McKay, 
                             David (Publisher)</persName>
@@ -5768,6 +5781,11 @@
                         <persName source="http://id.loc.gov/authorities/names/no95036795">Pasini,
                             Maffeo, active 1524-1551</persName>
                         <floruit from="1524" to="1551"/>
+                    </person>
+                    <person xml:id="paterson">
+                        <persName source="http://id.loc.gov/authorities/names/no2020104268">Paterson, 
+                            William, 1833 or 1834-</persName>
+                        <birth when="1833" cert="unknown"/>
                     </person>
                     <person xml:id="petit">
                         <persName source="http://id.loc.gov/authorities/names/n93042253">Petit,
@@ -14683,11 +14701,9 @@
                                     </author>
                                     <note type="description">portrait</note>
                                     <imprint>
-                                        <publisher>
+                                        <publisher corresp="#paterson">
                                             <persName>William Paterson</persName>
                                         </publisher>
-                                        <!-- Difficult to determine correct LCNAF.
-                                               Possibly http://id.loc.gov/authorities/names/no2022097889 -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date from="1882" to="1893"/>
                                     </imprint>
@@ -17150,6 +17166,10 @@
                                     <note type="description" corresp="#uncut">12 etchings by C. O.
                                         Murray, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lawrence_bullen">
+                                            <orgName>Lawrence and Bullen</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -17160,10 +17180,13 @@
                                 <monogr>
                                     <title>Fugitive Pieces, facsimilie reprint of the suppressed
                                         edition of 1806</title>
-                                    <author corresp="#byron">Byron, Lord</author>
+                                    <author corresp="#byron">
+                                        <persName>Byron, Lord</persName>
+                                    </author>
                                     <note type="description">one of 100 copies, vellum, printed for
                                         private circulation</note>
                                     <imprint>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                 </monogr>
@@ -17175,7 +17198,9 @@
                             <biblStruct corresp="#owned" xml:id="sb266.1">
                                 <monogr>
                                     <title>The Ship of Fools</title>
-                                    <author corresp="#brant">Brant, S.</author>
+                                    <author corresp="#brant">
+                                        <persName>Brant, S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Alex Barclay</name>
@@ -17183,6 +17208,9 @@
                                     <note type="description" corresp="#uncut">portrait and woodcuts,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#paterson">
+                                            <persName>William Paterson</persName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
@@ -17202,7 +17230,9 @@
                                     <title>A Joviall Crew, of The Merry Beggars, presented in
                                         Comedie at the Cock-Pit in Drury-Lane, in the year
                                         1641</title>
-                                    <author corresp="#brome">Brome, R.</author>
+                                    <author corresp="#brome">
+                                        <persName>Brome, R.</persName>
+                                    </author>
                                     <note type="description">half bound, title and last leaf mended,
                                         Swinburne's copy, with pencil note on fly-leaf in his
                                         writing</note>
@@ -17217,15 +17247,22 @@
                                     target="http://name.umdl.umich.edu/A29637.0001.001"/>
                                 <note>Proquest Document ID: 2248504208</note>
                                 <note type="fulltext">TCP and Google editions are a 1652 edition.</note>
+                                <!-- Not sure if that means this is the correct edition. -->
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb268">
                             <biblStruct corresp="#owned" xml:id="sb268.1">
                                 <monogr>
                                     <title>Trivial Poems and Triolets</title>
-                                    <author corresp="#carey">Carey, P.</author>
+                                    <author corresp="#carey">
+                                        <persName>Carey, P.</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <orgName>John Murray</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1820"/>
                                     </imprint>
                                 </monogr>
@@ -17241,6 +17278,10 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#sherratt_hughes">
+                                            <orgName>Sherratt and Hughes</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -17253,7 +17294,9 @@
                                 <monogr>
                                     <title xml:lang="la">Dialogo de la Seraphica uirgine Saneta
                                         Catherina da Siena de la diuina prouidentia</title>
-                                    <author corresp="#catherine">Catherina da Siena</author>
+                                    <author corresp="#catherine">
+                                        <persName>Catherina da Siena</persName>
+                                    </author>
                                     <note type="description">woodcuts, old blue morocco, gilt edges,
                                         two leaves slightly defective and mended</note>
                                     <imprint>
@@ -17269,7 +17312,9 @@
                                 <monogr>
                                     <title xml:lang="la">Epistole et Orationi della Seraphica
                                         Vergine Santa Catherina da Siena</title>
-                                    <author corresp="#catherine">Catherina da Siena</author>
+                                    <author corresp="#catherine">
+                                        <persName>Catherina da Siena</persName>
+                                    </author>
                                     <note type="description">title within ornamental border,
                                         calf</note>
                                     <imprint>
@@ -17290,6 +17335,10 @@
                                     </respStmt>
                                     <note type="description">old boards</note>
                                     <imprint>
+                                        <publisher corresp="#nichols">
+                                            <persName>Iohannis Nichols</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london" xml:lang="la">Londini</pubPlace>
                                         <date when="1788"/>
                                     </imprint>
                                 </monogr>
@@ -17301,7 +17350,9 @@
                             <biblStruct corresp="#owned" xml:id="sb272.1">
                                 <monogr>
                                     <title>With the Pervigilium Veneris</title>
-                                    <author corresp="#catullus">Catullus</author>
+                                    <author corresp="#catullus">
+                                        <persName>Catullus</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. G. Owen</name>
@@ -17309,6 +17360,10 @@
                                     <note type="description" corresp="#uncut">illustrations by J. R.
                                         Weguelin, red cloth, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lawrence_bullen">
+                                            <orgName>Lawrence and Bullen</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -17322,7 +17377,9 @@
                                     <title>An Epicede, or Funerall Song, on the most disastrous
                                         Death of High-borne Prince of Men, Henry Prince of
                                         Wales</title>
-                                    <author corresp="#chapman">Chapman, Geo.</author>
+                                    <author corresp="#chapman">
+                                        <persName>Chapman, Geo.</persName>
+                                    </author>
                                     <note type="description">but wanting the plate, half bound,
                                         rare. Printed by T. S. for John Budge, and are to be sould
                                         at his Shop at the great south dore of Paules, and at
@@ -17330,9 +17387,11 @@
                                     <edition corresp="#first_ed">Original Edition</edition>
                                     <idno type="tcp">A18410</idno>
                                     <imprint>
-                                        <date when="1612"/>
+                                        <publisher corresp="#budge">
+                                            <persName>Budge, John</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#budge">Budge, John</publisher>
+                                        <date when="1612"/>                          
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="tcp"
@@ -17345,13 +17404,17 @@
                                 <monogr>
                                     <title>The Widdowes Teares, a Comedie</title>
                                     <idno type="tcp">A18426</idno>
-                                    <author corresp="#chapman">Chapman, G.</author>
+                                    <author corresp="#chapman">
+                                        <persName>Chapman, G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">(2 copies), uncut,
                                         very imperfect</note>
                                     <imprint>
-                                        <date when="1612"/>
-                                       <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#browne">Browne, John</publisher>
+                                        <publisher corresp="#browne">
+                                            <persName>Browne, John</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1612"/> 
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Stansby, William</persName>
@@ -17368,14 +17431,15 @@
                                     <title>Bussy D'Ambois, a Tragedie, as it hath been often Acted
                                         with great Applause</title>
                                     <idno type="tcp">A18403</idno>
-                                    <author corresp="#chapman">Chapman, G.</author>
+                                    <author corresp="#chapman">
+                                        <persName>Chapman, G.</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <imprint>
-                                        <date when="1641"/>
                                         <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1641"/> 
                                     </imprint>
                                 </monogr>
-
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A18403.0001.001"/>
                                 <note type="fulltext">Proquest Document ID: 2264191220; EEBO
@@ -17384,15 +17448,21 @@
                             <biblStruct corresp="#owned" xml:id="sb275.2">
                                 <monogr>
                                     <title>The Tragedie of Chabot Admirall of France</title>
-                                    <author corresp="#chapman">Chapman, G.</author>
-                                    <author corresp="#shirley">J. Shirley</author>
+                                    <author corresp="#chapman">
+                                        <persName>Chapman, G.</persName>
+                                    </author>
+                                    <author corresp="#shirley">
+                                        <persName>J. Shirley</persName>
+                                    </author>
                                     <note type="description">half bound, some letters cut
                                         into</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <date when="1639"/>
+                                        <publisher corresp="#crooke">
+                                            <persName>Crooke, Andrew</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                       <publisher corresp="#crooke">Crooke, Andrew</publisher>
+                                        <date when="1639"/> 
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Cotes, Thomas</persName>
@@ -17414,7 +17484,10 @@
                                         Emery Walker &amp; S. C. Cockwell, <date when="1904-09-08"
                                             >Sept. 8, 1904</date></note>
                                     <imprint>
-                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -17426,7 +17499,9 @@
                             <biblStruct corresp="#owned" xml:id="sb277.1">
                                 <monogr>
                                     <title>Marciano, or the Discovery, a Tragi-Comedy</title>
-                                    <author corresp="#clark_w">Clark, Wm.</author>
+                                    <author corresp="#clark_w">
+                                        <persName>Clark, Wm.</persName>
+                                    </author>
                                     <note type="description">half morocco</note>
                                     <imprint>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
@@ -17439,7 +17514,9 @@
                             <biblStruct corresp="#owned" xml:id="sb277.2">
                                 <monogr>
                                     <title>Love's Graduate, a Comedy</title>
-                                    <author corresp="#webster_j">Webster, John</author>
+                                    <author corresp="#webster_j">
+                                        <persName>Webster, John</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">one of 150
                                         copies, half vellum, presentation copy to Swinburne, printed
                                         at the Private Press of II. Daniel</note>
@@ -17447,21 +17524,30 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>H. Daniel</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/lovesgraduateac00ricegoog/page/n4/mode/2up"
-                                />
+                                    target="https://archive.org/details/lovesgraduateac00ricegoog/page/n4/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb278">
                             <biblStruct corresp="#owned" xml:id="sb278.1">
                                 <monogr>
                                     <title>Tixall Poetry, with Notes and illustrations</title>
-                                    <author corresp="#clifford">Clifford, Arthur</author>
+                                    <author corresp="#clifford">
+                                        <persName>Clifford, Arthur</persName>
+                                    </author>
                                     <note type="description">frontispiece, calf, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#john_ballantyne_co">
+                                            <orgName>John Ballantyne and Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1813"/>
                                     </imprint>
@@ -17483,6 +17569,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <orgName>John Murray</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1841"/>
                                     </imprint>
                                 </monogr>
@@ -17516,6 +17606,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#mayer">
+                                            <persName>Joseph Mayer</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                 </monogr>
@@ -17527,7 +17621,9 @@
                             <biblStruct corresp="#owned" xml:id="sb280.1">
                                 <monogr>
                                     <title>The Poet's Pilgrimage, an Allegorical Poem</title>
-                                    <author corresp="#collier_jp">Collier, J. Payne</author>
+                                    <author corresp="#collier_jp">
+                                        <persName>Collier, J. Payne</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">one of 50 copies,
                                         uncut, presentation copy to Swinburne, with autograph letter
                                         of the author written at the age of 92</note>
@@ -17545,10 +17641,16 @@
                                     <title>History of English Dramatic Poetry to the time of
                                         Shakespeare, and Annals of the Stage to the
                                         Restoration</title>
-                                    <author corresp="#collier_jp">Collier, J. P.</author>
+                                    <author corresp="#collier_jp">
+                                        <persName>Collier, J. P.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">half morocco,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell &amp; Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                     <extent>
@@ -17568,7 +17670,9 @@
                                 <monogr>
                                     <title xml:lang="la">De Magistratibus at Republica Venetorum
                                         libri V</title>
-                                    <author corresp="#contarini">Contarenus, Gasp.</author>
+                                    <author corresp="#contarini">
+                                        <persName>Contarenus, Gasp.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -17596,7 +17700,9 @@
                             <biblStruct corresp="#owned" xml:id="sb283.1">
                                 <monogr>
                                     <title>A Fig for Fortune</title>
-                                    <author corresp="#copley">Copley, A.</author>
+                                    <author corresp="#copley">
+                                        <persName>Copley, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, printed for the
                                         Spencer Society</note>
                                     <imprint>
