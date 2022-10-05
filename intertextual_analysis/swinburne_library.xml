@@ -301,6 +301,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/7003947" xml:id="catania">
                         <placeName type="preferred">Catania</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7453942" xml:id="chilworth">
+                        <placeName type="preferred">Chilworth</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/1004281" xml:id="chiswick">
                         <placeName type="preferred">Chiswick</placeName>
                     </place>
@@ -378,6 +381,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/7008772" xml:id="lyon">
                         <placeName type="preferred">Lyon</placeName>
                         <placeName>Lugduni</placeName>
+                    </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7010477" xml:id="manchester">
+                        <placeName type="preferred">Manchester</placeName>
                     </place>
                     <place source="http://vocab.getty.edu/page/tgn/7001933" xml:id="melbourne">
                         <placeName type="preferred">Melbourne</placeName>
@@ -5295,6 +5301,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="t_n_foulis">
+                        <orgName source="http://id.loc.gov/authorities/names/nr95042946">T.N. 
+                            Foulis (Firm)</orgName>
+                    </org>                    
                     <org xml:id="t_payne_son">
                         <orgName source="http://id.loc.gov/authorities/names/nr96031378">T. Payne 
                             and Son</orgName>
@@ -5330,6 +5340,10 @@
                     <org xml:id="trustees_british_museum">
                         <orgName source="http://id.loc.gov/authorities/names/n81082964">British 
                             Museum. Trustees</orgName>
+                    </org>
+                    <org xml:id="unwin_brothers">
+                        <orgName source="http://id.loc.gov/authorities/names/no00078429">Unwin 
+                            Brothers (Firm)</orgName>
                     </org>
                     <org xml:id="vale_press">
                         <orgName source="http://id.loc.gov/authorities/names/no96044617">Vale 
@@ -5391,6 +5405,11 @@
                             Gabriel, -1668</persName>
                         <death when="1668"/>
                     </person>
+                    <person xml:id="bentley">
+                        <persName source="http://id.loc.gov/authorities/names/nr94039708">Bentley, 
+                            Richard, -1697</persName>
+                        <death when="1697"/>
+                    </person>
                     <person xml:id="bindoni">
                         <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
                             Francesco, active 1523-1553</persName>
@@ -5450,6 +5469,11 @@
                     <person xml:id="chapple">
                         <persName source="http://id.loc.gov/authorities/names/nr93018783">Chapple, 
                             Clement</persName>
+                    </person>
+                    <person xml:id="clavell">
+                        <persName source="http://id.loc.gov/authorities/names/n85005966">Clavell, 
+                            Robert, -1711</persName>
+                        <death when="1711"/>
                     </person>
                     <person xml:id="colburn">
                         <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
@@ -5647,6 +5671,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n83227335">Labitte, 
                             A.</persName>
                     </person>
+                    <person xml:id="lane">
+                        <persName source="http://id.loc.gov/authorities/names/n81042780">Lane, 
+                            John, 1854-1925</persName>
+                        <birth when="1854"/>
+                        <death when="1925"/>
+                    </person>
                     <person xml:id="le_maistre">
                         <persName source="http://id.loc.gov/authorities/names/no2021114677">Le Maistre, 
                             Mathieu, active approximately 1598-approximately 1628</persName>
@@ -5686,6 +5716,10 @@
                             Vincenzo, active 1550-1566</persName>
                         <floruit from="1550" to="1566"/>
                     </person>
+                    <person xml:id="magnes">
+                        <persName source="http://id.loc.gov/authorities/names/nr94039721">Magnes, 
+                            James</persName>
+                    </person>
                     <person xml:id="manuzio">
                         <persName source="http://id.loc.gov/authorities/names/n79117173">Manuzio,
                             Aldo, 1449 or 1450-1515</persName>
@@ -5696,6 +5730,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94036760">Marriot, 
                             Richard, active 17th century</persName>
                         <floruit from="1600" to="1699"/>
+                    </person>
+                    <person xml:id="mathews">
+                        <persName source="http://id.loc.gov/authorities/names/n88154900">Mathews, 
+                            Elkin, 1851-1921</persName>
+                        <birth when="1851"/>
+                        <death when="1921"/>
                     </person>
                     <person xml:id="mayer">
                         <persName source="http://id.loc.gov/authorities/names/n88600166">Mayer, 
@@ -17706,6 +17746,10 @@
                                     <note type="description" corresp="#uncut">uncut, printed for the
                                         Spencer Society</note>
                                     <imprint>
+                                        <publisher corresp="#spenser_society">
+                                            <orgName>Spenser Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#manchester">Manchester</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                 </monogr>
@@ -17715,7 +17759,9 @@
                             <biblStruct corresp="#owned" xml:id="sb283.2">
                                 <monogr>
                                     <title>Poems, with Notes etc.</title>
-                                    <author corresp="#barnes">Barnes, Barnabe</author>
+                                    <author corresp="#barnes">
+                                        <persName>Barnes, Barnabe</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -17723,6 +17769,8 @@
                                     <note type="description" corresp="#uncut">only 30 copies
                                         printed, uncut</note>
                                     <imprint>
+                                        <pubPlace>Blackburn</pubPlace>
+                                        <!-- Multiple Blackburns in the UK, unsure of which should be referenced here. -->
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -17730,11 +17778,14 @@
                                     target="https://hdl.handle.net/2027/hvd.32044009521816"/>
                                 <note type="fulltext">HT copy is same, but only has one very small,
                                     poor scan of the text.</note>
+                                <!-- This is an unusual case, not sure how to note publisher here. -->
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb283.3">
                                 <monogr>
                                     <title>Selections from his Poems</title>
-                                    <author corresp="#drayton">Drayton, M.</author>
+                                    <author corresp="#drayton">
+                                        <persName>Drayton, M.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -17745,6 +17796,10 @@
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#unwin_brothers">
+                                            <orgName>Unwin Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#chilworth">Chilworth</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                 </monogr>
@@ -17757,12 +17812,18 @@
                                 <monogr>
                                     <title>Traueller for the English Wits</title>
                                     <idno type="tcp">A19384</idno>
-                                    <author corresp="#coryate">Coriate, Thos.</author>
+                                    <author corresp="#coryate">
+                                        <persName>Coriate, Thos.</persName>
+                                    </author>
                                     <note type="description">woodcuts, old calf, broken</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher corresp="#jaggard">W. Jaggard</publisher>
-                                        <publisher corresp="#featherstone">Fetherston, Hentry</publisher>
+                                        <publisher corresp="#jaggard">
+                                            <persName>W. Jaggard</persName>
+                                        </publisher>
+                                        <publisher corresp="#featherstone">
+                                            <persName>Fetherston, Henry</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date when="1616"/>
                                     </imprint>
@@ -17776,9 +17837,18 @@
                                 <monogr>
                                     <title>The Heresy of Job, with the Inventions of William
                                         Blake</title>
-                                    <author corresp="#money-coutts">Coutts, Francis</author>
+                                    <author corresp="#money-coutts">
+                                        <persName>Coutts, Francis</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">plates, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lane">
+                                            <persName>John Lane</persName>
+                                        </publisher>
+                                        <publisher corresp="#bodley_head">
+                                            <orgName>The Bodley Head</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -17791,9 +17861,15 @@
                                 <monogr>
                                     <title>The Art of Theatre, with Preface by R. Graham
                                         Robertson</title>
-                                    <author corresp="#craig">Craig, E. Gordon</author>
+                                    <author corresp="#craig">
+                                        <persName>Craig, E. Gordon</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#t_n_foulis">
+                                            <persName>T. N. Foulis</persName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -17812,6 +17888,8 @@
                                     <note type="inscription">A. C. Swinburne from A. H. Bullen,
                                             <date when="1888-10-08">8th October, 1888</date></note>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -17823,11 +17901,16 @@
                             <biblStruct corresp="#owned" xml:id="sb287.1">
                                 <monogr>
                                     <title>Queen Elizabeth</title>
-                                    <author corresp="#creighton">Creighton, Mandell</author>
+                                    <author corresp="#creighton">
+                                        <persName>Creighton, Mandell</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">coloured frontispiece,
                                         portraits, etc. uncut</note>
                                     <imprint>
-                                        <publisher corresp="#boussod_valadon_cie">Boussod, Valadon &amp; Co.</publisher>
+                                        <publisher corresp="#boussod_valadon_cie">
+                                            <orgName>Boussod, Valadon &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -17839,12 +17922,18 @@
                             <biblStruct corresp="#owned" xml:id="sb288.1">
                                 <monogr>
                                     <title>The Garden of Francesca</title>
-                                    <author>Cullimore, Henry</author>
+                                    <author>
+                                        <persName>Cullimore, Henry</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription and
                                         dedicatory verse in the author's writing</note>
                                     <imprint>
+                                        <publisher corresp="#mathews">
+                                            <persName>Elkin Mathews</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -17854,12 +17943,16 @@
                             <biblStruct corresp="#owned" xml:id="sb288.2">
                                 <monogr>
                                     <title>Lyrics of the Dawn</title>
-                                    <author corresp="#scollard">Scollard, C.</author>
+                                    <author corresp="#scollard">
+                                        <persName>Scollard, C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with author's
                                         inscription</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace/>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -17872,10 +17965,16 @@
                                 <monogr>
                                     <title>Giovani Antonio Bazzi, hitherto usually styled Sodoma,
                                         the Man and the Painter, 1477-1549</title>
-                                    <author corresp="#cust">Cust, Robert H. H.</author>
+                                    <author corresp="#cust">
+                                        <persName>Cust, Robert H. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustrations, blue cloth, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -17887,7 +17986,9 @@
                             <biblStruct corresp="#owned" xml:id="sb290.1">
                                 <monogr>
                                     <title>Poems, with Introduction, Notes and Illustrations</title>
-                                    <author corresp="#daniel_g">Daniel, Geo.</author>
+                                    <author corresp="#daniel_g">
+                                        <persName>Daniel, Geo.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -17895,6 +17996,8 @@
                                     <note type="description" corresp="#uncut">portrait, uncut,
                                         printed for private circulation only</note>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                     <extent>
@@ -17916,7 +18019,9 @@
                                 <monogr>
                                     <title>Complete Works in Verse and Prose, with Notes,
                                         etc.</title>
-                                    <author corresp="#daniel_s">Daniel, Samuel</author>
+                                    <author corresp="#daniel_s">
+                                        <persName>Daniel, Samuel</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -17924,7 +18029,10 @@
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         portrait, uncut</note>
                                     <imprint>
-                                        <publisher corresp="#spenser_society">Spenser Society</publisher>
+                                        <publisher corresp="#spenser_society">
+                                            <orgName>Spenser Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1885" to="1896"/>
                                     </imprint>
                                     <extent>
@@ -17947,11 +18055,16 @@
                             <biblStruct corresp="#owned" xml:id="sb292.1">
                                 <monogr>
                                     <title>Complete Works</title>
-                                    <author corresp="#daniel_s">Daniel, S.</author>
+                                    <author corresp="#daniel_s">
+                                        <persName>Daniel, S.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">another copy, wanting
                                         vol. II, uncut</note>
                                     <imprint>
-                                        <publisher corresp="#spenser_society">Spenser Society</publisher>
+                                        <publisher corresp="#spenser_society">
+                                            <orgName>Spenser Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1885" to="1896"/>
                                     </imprint>
                                     <extent>
@@ -17973,13 +18086,17 @@
                                 <monogr>
                                     <title>The City-Night-Cap, or Crede quod habes &amp; habes, a
                                         Tragi-Comedy</title>
-                                    <author corresp="#davenport">Davenport, Robt.</author>
+                                    <author corresp="#davenport">
+                                        <persName>Davenport, Robt.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A37210</idno>
                                     <imprint>
-                                        <date when="1661"/>
+                                        <publisher corresp="#speed">
+                                            <persName>Speed, Samuel</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#speed">Speed, Samuel</publisher>
+                                        <date when="1661"/>                            
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Cottrel, Ja.</persName>
@@ -17992,36 +18109,46 @@
                             <biblStruct corresp="#owned" xml:id="sb293.2">
                                 <monogr>
                                     <title>The Witts, a Comedie</title><!-- The vvitts, a comedie -->
-                                    <author corresp="#davenant">Davenant, Sir. Wm.</author>
+                                    <author corresp="#davenant">
+                                        <persName>Davenant, Sir. Wm.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <date when="1636"/>
+                                        <publisher corresp="#meighen">
+                                            <persName>Meighen, Richard</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#meighen">Meighen, Richard</publisher>
+                                        <date when="1636"/>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Mathewes, Augustine</persName>
                                         </respStmt>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="tcp" target=" 	http://name.umdl.umich.edu/A19883.0001.001"/>
+                                <relatedItem type="tcp" 
+                                    target="http://name.umdl.umich.edu/A19883.0001.001"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb293.3">
                                 <monogr>
                                     <title>Love Tricks, or the School of Complements</title>
                                     <idno type="tcp">A12152</idno>
-                                    <author corresp="#shirley">Shirley, J.</author>
+                                    <author corresp="#shirley">
+                                        <persName>Shirley, J.</persName>
+                                    </author>
                                     <imprint>
-                                        <date when="1667"/>
+                                        <publisher corresp="#dring">
+                                            <persName>Dring, Thomas</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#dring">Dring, Thomas</publisher>
+                                        <date when="1667"/>   
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Tomlins, R.</persName>
                                         </respStmt>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="google" target="https://books.google.com/books?id=muJiAAAAcAAJ"/>
+                                <relatedItem type="google" 
+                                    target="https://books.google.com/books?id=muJiAAAAcAAJ"/>
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A12152.0001.001"/>                          
                                 <note type="fulltext">TCP is first edition.</note>
@@ -18033,9 +18160,11 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A20866</idno>
                                     <imprint>
-                                        <date when="1631"/>
+                                        <publisher corresp="#emery">
+                                            <persName>Emery, Japser</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#emery">Emery, Japser</publisher>
+                                        <date when="1631"/>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Mathewes, A.</persName>
@@ -18049,11 +18178,15 @@
                                 <monogr>
                                     <title>Tragedie of Charles Duke of Byron</title>
                                     <idno type="tcp">A18404</idno>
-                                    <author corresp="#chapman">Chapman, Geo.</author>
+                                    <author corresp="#chapman">
+                                        <persName>Chapman, Geo.</persName>
+                                    </author>
                                     <imprint>
-                                        <date when="1608"/>
+                                        <publisher corresp="#thorpe">
+                                            <persName>Thorppe, Thomas</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#thorpe">Thorppe, Thomas</publisher>
+                                        <date when="1608"/>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Eld, G.</persName>
@@ -18068,11 +18201,14 @@
                                     <title>Albumazar, a Comedy presented before the King's Maiesty
                                         at Cambridge</title>
                                     <idno type="tcp">A13802</idno>
-                                    <author corresp="#tomkis">Tomkis, T.</author>
+                                    <author corresp="#tomkis">
+                                        <persName>Tomkis, T.</persName>
+                                    </author>
                                     <note type="description">(wanting the Epilogue)</note>
                                     <imprint>
-                                        <date when="1634"/>
+                                        <publisher/>
                                         <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1634"/>
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Okes, Nicholas</persName>
@@ -18090,15 +18226,20 @@
                                     <title>Technogamia, or the Marriages of the Arts, a Comedie,
                                         etc.</title>
                                     <idno type="tcp">A03496</idno>
-                                    <author corresp="#holyday">Holiday, Barten</author>
+                                    <author corresp="#holyday">
+                                        <persName>Holiday, Barten</persName>
+                                    </author>
                                     <note type="description">in 1 vol. old calf, one title slightly
                                         defective and some leaves stained and torn; sold not subject
                                         to return</note>
                                     <imprint>
+                                        <publisher corresp="#meighen">
+                                            <persName>Meighen, Richard</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1630"/>
                                         <date from="1608" to="1667"/>
-                                        <!-- This refers to all the works in the lot. --><pubPlace ref="#london">London</pubPlace>
-                                        <publisher corresp="#meighen">Meighen, Richard</publisher>
+                                        <!-- This refers to all the works in the lot. -->
                                         <respStmt>
                                             <resp>printer</resp>
                                             <persName>Haviland, John</persName>
@@ -18122,11 +18263,16 @@
                                 <monogr>
                                     <title>Works, now first collected with an Introduction and Notes
                                         by A. H. Bullen</title>
-                                    <author corresp="#day">Day, John</author>
+                                    <author corresp="#day">
+                                        <persName>Day, John</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">half vellum,
                                         uncut</note>
                                     <imprint>
-                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
@@ -18147,6 +18293,10 @@
                                     <note type="description" corresp="#uncut">3 facsimilies, half
                                         vellum, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -18162,6 +18312,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#scott_wa_publisher">
+                                            <persName>Walter Scott</persName>
+                                        </publisher>
+                                        <pubPlace ref="#newcastle">Newcastle</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -18173,12 +18327,18 @@
                             <biblStruct corresp="#owned" xml:id="sb296.1">
                                 <monogr>
                                     <title>Canidia of the Witches, a Rhapsody in Five Parts</title>
-                                    <author corresp="#dixon_r">Dixon, R.</author>
+                                    <author corresp="#dixon_r">
+                                        <persName>Dixon, R.</persName>
+                                    </author>
                                     <note type="description">calf, manuscript notes in a
                                         contemporary hand</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A36182</idno>
                                     <imprint>
+                                        <publisher corresp="#clavell">
+                                            <persName>Robert Clavell</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1683"/>
                                     </imprint>
                                 </monogr>
@@ -18191,7 +18351,9 @@
                                 <monogr>
                                     <title>Complete Poems, with Preface, Essay on Life and Writings
                                         and Notes</title>
-                                    <author corresp="#donne">Donne, John</author>
+                                    <author corresp="#donne">
+                                        <persName>Donne, John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Gosart</name>
@@ -18199,6 +18361,8 @@
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         portrait, half roan, uncut, privately printed</note>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                     <extent>
@@ -18215,11 +18379,20 @@
                                 <monogr>
                                     <title>The Mistaken Husband, a Comadie as it is acted by His
                                         Majesties Servants at the Theatre-Royall</title>
-                                    <author corresp="#dryden">Dryden, J.</author>
+                                    <author corresp="#dryden">
+                                        <persName>Dryden, J.</persName>
+                                    </author>
                                     <note type="description">binding broken</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A36653</idno>
                                     <imprint>
+                                        <publisher corresp="#magnes">
+                                            <persName>J. Magnes</persName>
+                                        </publisher>
+                                        <publisher corresp="#bentley">
+                                            <persName>R. Bentley</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1675"/>
                                     </imprint>
                                 </monogr>
