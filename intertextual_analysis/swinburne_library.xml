@@ -5085,6 +5085,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
                     </org>
+                    <org xml:id="j_r_tonson">
+                        <orgName source="http://id.loc.gov/authorities/names/nr97003999">J. and R. 
+                            Tonson</orgName>
+                    </org>
                     <org xml:id="james_miller">
                         <orgName source="http://id.loc.gov/authorities/names/no98132613">James 
                             Miller (Firm)</orgName>
@@ -5133,6 +5137,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2008106849">Librairie 
                             des bibliophiles</orgName>
                     </org>
+                    <org xml:id="librairie_fischbacher">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2002030074">Librairie 
+                            Fischbacher</orgName>
+                    </org>
                     <org xml:id="little_brown_company">
                         <orgName source="http://id.loc.gov/authorities/names/n80020835">Little, 
                             Brown and Company</orgName>
@@ -5176,6 +5184,10 @@
                     <org xml:id="macmillan_co">
                         <orgName source="http://id.loc.gov/authorities/names/n81038616">Macmillan
                             &amp; Co.</orgName>
+                    </org>
+                    <org xml:id="magnin_blanchard_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008103227">Magnin, 
+                            Blanchard et Cie</orgName>
                     </org>
                     <org xml:id="mercure_de_france">
                         <orgName source="http://id.loc.gov/authorities/names/n91049975">Mercure 
@@ -5462,6 +5474,18 @@
                             James, -1802</persName>
                         <death when="1802"/>
                     </person>
+                    <person xml:id="cademan">
+                        <persName source="http://id.loc.gov/authorities/names/nr94031163">Cademan, 
+                            William, approximately 1640-1689</persName>
+                        <birth when="1640" cert="unknown"/>
+                        <death when="1689"/>
+                    </person>
+                    <person xml:id="cassino">
+                        <persName source="http://id.loc.gov/authorities/names/nr2001026928">Cassino, 
+                            Samuel Edson, 1856-1937</persName>
+                        <birth when="1856"/>
+                        <death when="1937"/>
+                    </person>
                     <person xml:id="cavalcalupo">
                         <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
                             Domenico</persName>
@@ -5604,6 +5628,11 @@
                             Bernardo, active 1567-1627</persName>
                         <floruit from="1567" to="1627"/>
                     </person>
+                    <person xml:id="goodwin">
+                        <persName source="http://id.loc.gov/authorities/names/nr95000218">Goodwin, 
+                            Timothy, -1720</persName>
+                        <death when="1720"/>
+                    </person>
                     <person xml:id="griffiths">
                         <persName source="http://id.loc.gov/authorities/names/nr91034589">Griffiths, 
                             Vaughan</persName>
@@ -5731,6 +5760,11 @@
                             Richard, active 17th century</persName>
                         <floruit from="1600" to="1699"/>
                     </person>
+                    <person xml:id="martyn">
+                        <persName source="http://id.loc.gov/authorities/names/nr94029630">Martyn, 
+                            John, active 1649-1680</persName>
+                        <floruit from="1649" to="1680"/>
+                    </person>
                     <person xml:id="mathews">
                         <persName source="http://id.loc.gov/authorities/names/n88154900">Mathews, 
                             Elkin, 1851-1921</persName>
@@ -5755,6 +5789,11 @@
                     <person xml:id="menzies">
                         <persName source="http://id.loc.gov/authorities/names/no2019130921">Menzies, 
                             W. G.</persName>
+                    </person>
+                    <person xml:id="meredith_c">
+                        <persName source="http://id.loc.gov/authorities/names/nr94028529">Meredith, 
+                            Christopher, -1653</persName>
+                        <death when="1653"/>
                     </person>
                     <person xml:id="milford">
                         <persName source="http://id.loc.gov/authorities/names/n79103843">Milford, 
@@ -5899,6 +5938,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
                             Samuel, -1681</persName>
                         <death when="1681"/>
+                    </person>
+                    <person xml:id="stephens">
+                        <persName source="http://id.loc.gov/authorities/names/nr94033779">Stephens, 
+                            Philemon, -approximately 1665</persName>
+                        <death when="1665" cert="unknown"/>
                     </person>
                     <person xml:id="stock">
                         <persName source="http://id.loc.gov/authorities/names/no99025352">Stock, 
@@ -18405,8 +18449,14 @@
                                 <monogr>
                                     <title>The Spanish Rogue, as it was acted by his Majesties
                                         Servants</title>
-                                    <author corresp="#duffett">Dufett, Tho.</author>
+                                    <author corresp="#duffett">
+                                        <persName>Dufett, Tho.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#cademan">
+                                            <persName>William Cademan</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1674"/>
                                     </imprint>
                                 </monogr>
@@ -18418,12 +18468,21 @@
                             <biblStruct corresp="#owned" xml:id="sb299.2">
                                 <monogr>
                                     <title>Bellamira, or the Mistress, a Comedy</title>
-                                    <author corresp="#sedley">Sedley, Sir Chas.</author>
+                                    <author corresp="#sedley">
+                                        <persName>Sedley, Sir Chas.</persName>
+                                    </author>
                                     <note type="description">last leaf defective and mended and
                                         filled in by Swinburne in pencil</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A59053</idno>
                                     <imprint>
+                                        <publisher>
+                                            <persName>L. C.</persName>
+                                        </publisher>
+                                        <publisher corresp="#goodwin">
+                                            <persName>Timothy Goodwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1687"/>
                                     </imprint>
                                 </monogr>
@@ -18434,8 +18493,14 @@
                                 <monogr>
                                     <title>History of King Richard the Second</title>
                                     <idno type="tcp">A59496</idno>
-                                    <author corresp="#tate">Tate, N.</author>
+                                    <author corresp="#tate">
+                                        <persName>Tate, N.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#j_r_tonson">
+                                            <orgName>Jacob and Richard Tonson</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1681"/>
                                     </imprint>
                                 </monogr>
@@ -18446,7 +18511,9 @@
                                 <monogr>
                                     <title>The Chances, a Comedy, etc.</title>
                                     <idno type="tcp">A39799</idno>
-                                    <author corresp="#buckingham">Buckingham, Duke of</author>
+                                    <author corresp="#buckingham">
+                                        <persName>Buckingham, Duke of</persName>
+                                    </author>
                                     <note type="description">half bound, some head-lines cut
                                         into</note>
                                     <imprint>
@@ -18456,7 +18523,6 @@
                                         <measure unit="volumes" quantity="2"/>
                                     </extent>
                                 </monogr>
-
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A39799.0001.001"/>
                                 <note type="fulltext">Not sure about the two volumes. I don't see
@@ -18472,7 +18538,9 @@
                             <biblStruct corresp="#owned" xml:id="sb300.1">
                                 <monogr>
                                     <title>Orlando Furioso</title>
-                                    <author corresp="#ariosto">Arisoto, Lod.</author>
+                                    <author corresp="#ariosto">
+                                        <persName>Arisoto, Lod.</persName>
+                                    </author>
                                     <note type="description">5 vol. in 2, portrait, old brown
                                         morocco gilt, borders and arms on the sides, inside gilt
                                         borders, silk linings, red and gilt edges, by Riviere</note>
@@ -18503,8 +18571,17 @@
                                 <monogr>
                                     <title>Historie of the Reigne of King Henry the Seventh</title>
                                     <idno type="tcp">A01483</idno>
-                                    <author corresp="#bacon">Bacon, Sir F.</author>
+                                    <author corresp="#bacon">
+                                        <persName>Bacon, Sir F.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#stephens">
+                                            <persName>Philemon Stephens</persName>
+                                        </publisher>
+                                        <publisher corresp="#meredith_c">
+                                            <persName>Christopher Meredith</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1629"/>
                                     </imprint>
                                 </monogr>
@@ -18515,7 +18592,9 @@
                                 <monogr>
                                     <title>Collection of the History of England</title>
                                     <idno type="tcp">A19824</idno>
-                                    <author corresp="#daniel_s">Daniel, S.</author>
+                                    <author corresp="#daniel_s">
+                                        <persName>Daniel, S.</persName>
+                                    </author>
                                     <note type="description">half calf, pencil note on fly-leaf in
                                         handwriting of Swinburne</note>
                                     <imprint>
@@ -18537,9 +18616,15 @@
                             <biblStruct corresp="#owned" xml:id="sb302.1">
                                 <monogr>
                                     <title>Life of Napoleon Bonaparte</title>
-                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">
+                                        <persName>Baring-Gould, S.</persName>
+                                    </author>
                                     <note type="description">plates and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -18549,12 +18634,17 @@
                             <biblStruct corresp="#owned" xml:id="sb302.2">
                                 <monogr>
                                     <title>The Mahogany Tree</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#cassino">
+                                            <persName>Samuel E. Cassino</persName>
+                                        </publisher>
                                         <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
@@ -18567,7 +18657,9 @@
                             <biblStruct corresp="#owned" xml:id="sb303.1">
                                 <monogr>
                                     <title>Another copy</title>
-                                    <author corresp="#baring-gould">Baring-Gould, S.</author>
+                                    <author corresp="#baring-gould">
+                                        <persName>Baring-Gould, S.</persName>
+                                    </author>
                                     <imprint>
                                         <date when="1897"/>
                                     </imprint>
@@ -18577,7 +18669,9 @@
                             <biblStruct corresp="#owned" xml:id="sb303.2">
                                 <monogr>
                                     <title>Romeo and Juliet</title>
-                                    <author corresp="#shakespeare">Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">
+                                        <persName>Shakespeare, W.</persName>
+                                    </author>
                                     <note type="description">coloured illustrations</note>
                                     <note type="etc">
                                         <num value="3"/>
@@ -18606,6 +18700,16 @@
                                     <note type="description">old calf, title and last leaf mended,
                                         no portrait; sold not subject to return</note>
                                     <imprint>
+                                        <publisher corresp="#martyn">
+                                            <persName>John Martyn</persName>
+                                        </publisher>
+                                        <publisher corresp="#herringman">
+                                            <persName>Henry Herringman</persName>
+                                        </publisher>
+                                        <publisher corresp="#marriot">
+                                            <persName>Richard Marriot</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1679"/>
                                     </imprint>
                                 </monogr>
@@ -18618,7 +18722,9 @@
                                 <monogr>
                                     <title xml:lang="la">Epistolarum Leonis Decimi Pont. Max. Nomine
                                         Scriptarum, etc.</title>
-                                    <author corresp="#bembo">Bembo, P.</author>
+                                    <author corresp="#bembo">
+                                        <persName>Bembo, P.</persName>
+                                    </author>
                                     <note type="description">old half binding</note>
                                     <imprint>
                                         <pubPlace ref="#venice">Venetia</pubPlace>
@@ -18629,8 +18735,8 @@
                                     </extent>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/bub_gb_nt17gBFSCjoC/page/n4/mode/2up"
-                                />
+                                    target="https://archive.org/details/bub_gb_nt17gBFSCjoC/page/n4/mode/2up"/>
+                                <note type="fulltext">Published in 1540.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb306">
@@ -18648,7 +18754,9 @@
                                         dangerous, may be noted Acts vi, 3 “Ye may appoint” instead
                                         of “We,” and 1 Tim. iv, 6 “Thy” for “the Doctrine”</note>
                                     <imprint>
-                                        <publisher corresp="#field_j">J. Field</publisher>
+                                        <publisher corresp="#field_j">
+                                            <persName>J. Field</persName>
+                                        </publisher>
                                         <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1660" instant="false"/>
                                     </imprint>
@@ -18684,7 +18792,9 @@
                             <biblStruct corresp="#owned" xml:id="sb308.1">
                                 <monogr>
                                     <title>Illustrations of the Book of Job</title>
-                                    <author corresp="#blake">Blake, W.</author>
+                                    <author corresp="#blake">
+                                        <persName>Blake, W.</persName>
+                                    </author>
                                     <note type="description">plates, half morocco, gilt edges</note>
                                     <imprint>
                                         <date when="1825"/>
@@ -18701,10 +18811,14 @@
                             <biblStruct corresp="#owned" xml:id="sb309.1">
                                 <monogr>
                                     <title>De Preclaris Mulieribus</title>
-                                    <author corresp="#boccaccio">Boccaccio, Giov.</author>
+                                    <author corresp="#boccaccio">
+                                        <persName>Boccaccio, Giov.</persName>
+                                    </author>
                                     <note type="description">85 leaves</note>
                                     <imprint>
-                                        <publisher corresp="#husner">G. Husner</publisher>
+                                        <publisher corresp="#husner">
+                                            <persName>G. Husner</persName>
+                                        </publisher>
                                         <pubPlace ref="#strasbourg">Argentum</pubPlace>
                                         <date when="1479" instant="false">c. 1479</date>
                                     </imprint>
@@ -18717,7 +18831,9 @@
                             <biblStruct corresp="#owned" xml:id="sb309.2">
                                 <monogr>
                                     <title>De Casibus Virorum illustrium</title>
-                                    <author corresp="#boccaccio">Boccaccio, Giov.</author>
+                                    <author corresp="#boccaccio">
+                                        <persName>Boccaccio, Giov.</persName>
+                                    </author>
                                     <note type="description" anchored="true">149 leaves, gothic
                                         letter, both printed in the same type by the same printer,
                                         red initials, straight-grained red morocco gilt, gilt edges,
@@ -18728,7 +18844,9 @@
                                                 <reg instant="false">notae</reg>
                                             </choice></foreign></note>
                                     <imprint>
-                                        <publisher corresp="#husner">G. Husner</publisher>
+                                        <publisher corresp="#husner">
+                                            <persName>G. Husner</persName>
+                                        </publisher>
                                         <pubPlace ref="#strasbourg">Argentum</pubPlace>
                                         <date when="1479" instant="false">c. 1479</date>
                                     </imprint>
@@ -18746,7 +18864,9 @@
                                 <monogr>
                                     <title xml:lang="la">De Consolatione et De Disciplina
                                         Scholarum</title>
-                                    <author corresp="#boethius">Boetius</author>
+                                    <author corresp="#boethius">
+                                        <persName>Boetius</persName>
+                                    </author>
                                     <note type="description" anchored="true">gothic letter, old
                                         vellum, Dr. Kloss's copy with his book label</note>
                                     <imprint>
@@ -18762,9 +18882,15 @@
                                 <monogr>
                                     <title>Drawings for Dante's Divina Commedia, facsimilies from
                                         the originals, with Introduction by F. Lippmann</title>
-                                    <author corresp="#botticelli">Botticelli, S.</author>
+                                    <author corresp="#botticelli">
+                                        <persName>Botticelli, S.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#lawrence_bullen">
+                                            <orgName>Lawrence and Bullen</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -18784,9 +18910,14 @@
                                 <monogr>
                                     <title xml:lang="fr">Histoire de l'Art Dramatique en France,
                                         etc.</title>
-                                    <author corresp="#gautier">Gautier, T.</author>
+                                    <author corresp="#gautier">
+                                        <persName>Gautier, T.</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <imprint>
+                                        <publisher corresp="#magnin_blanchard_cie">
+                                            <orgName>Magnin, Blanchard et Compagnie</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date from="1858" to="1867"/>
                                     </imprint>
@@ -18816,12 +18947,18 @@
                             <biblStruct corresp="#owned" xml:id="sb312.2">
                                 <monogr>
                                     <title>OEuvres</title>
-                                    <author corresp="#rotrou">Rotrou, Jean</author>
+                                    <author corresp="#rotrou">
+                                        <persName>Rotrou, Jean</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <note type="etc">
                                         <num value="15"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>T. Desoer</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1820"/>
                                     </imprint>
@@ -18848,11 +18985,16 @@
                                 <monogr>
                                     <title xml:lang="fr">Poésies qui ye figurerout pas dans ses
                                         OEuvres, précédées d'une Autobiographie</title>
-                                    <author corresp="#gautier">Gautier, Th.</author>
+                                    <author corresp="#gautier">
+                                        <persName>Gautier, Th.</persName>
+                                    </author>
                                     <note type="description" anchored="true">portrait, polished calf
                                         gilt, gilt edges</note>
                                     <imprint>
-                                        <publisher xml:lang="fr">Imprimerie Particulière</publisher>
+                                        <publisher xml:lang="fr">
+                                            <orgName>Imprimerie Particulière</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#france">France</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
@@ -18877,6 +19019,7 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/dul1.ark:/13960/t7fr1tz44"/>
+                                <note type="fulltext">1913 reprint of the 1823 edition.</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb314.2">
                                 <monogr>
@@ -18898,10 +19041,16 @@
                             <biblStruct corresp="#owned" xml:id="sb315.1">
                                 <monogr>
                                     <title>Cadore, or Titian's Country</title>
-                                    <author corresp="#gilbert_j">Gilbert, Josiah</author>
+                                    <author corresp="#gilbert_j">
+                                        <persName>Gilbert, Josiah</persName>
+                                    </author>
                                     <note type="description">plates and illustrations, green cloth,
                                         imperial 8vo</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                 </monogr>
@@ -18911,13 +19060,19 @@
                             <biblStruct corresp="#owned" xml:id="sb315.2">
                                 <monogr>
                                     <title>The Florence of Landor</title>
-                                    <author corresp="#whiting">Whiting, Lilian</author>
+                                    <author corresp="#whiting">
+                                        <persName>Whiting, Lilian</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustrations, red cloth, uncut, top edge gilt</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#little_brown_company">
+                                            <orgName>Little, Brown, and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -18929,7 +19084,9 @@
                             <biblStruct corresp="#owned" xml:id="sb316.1">
                                 <monogr>
                                     <title xml:lang="fr">Le Coffret D'Ébène</title>
-                                    <author corresp="#gille">Gille, Valere</author>
+                                    <author corresp="#gille">
+                                        <persName>Gille, Valere</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -18937,6 +19094,9 @@
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#librairie_fischbacher">
+                                            <orgName>Librairie Fischbacher</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
@@ -18949,7 +19109,9 @@
                                     <title xml:lang="fr">Les Chats: Extraits de Pices Rares at
                                         Curieuses en Vers et en Prose, de tout concernant la gent
                                         feline recuillis par Jéan Gay</title>
-                                    <author corresp="#gay">Jéan Gay</author>
+                                    <author corresp="#gay">
+                                        <persName>Jéan Gay</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -18968,7 +19130,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Histoire des Faïences Patriotiques sous la
                                         Revolution</title>
-                                    <author corresp="#champfleury">Champfleury</author>
+                                    <author corresp="#champfleury">
+                                        <persName>Champfleury</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -18980,6 +19144,9 @@
                                     </note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#dentu">
+                                            <persName>E. Dentu</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
