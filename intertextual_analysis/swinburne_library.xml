@@ -5001,6 +5001,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
                             Press</orgName>
                     </org>
+                    <org xml:id="dodd_mead_company">
+                        <orgName source="http://id.loc.gov/authorities/names/n83068916">Dodd, 
+                            Mead &amp; Company</orgName>
+                    </org>
                     <org xml:id="duckworth_co">
                         <orgName source="http://id.loc.gov/authorities/names/n2001128401">Duckworth 
                             &amp; Co. (Manchester, England)</orgName>
@@ -5081,6 +5085,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2008101666">Hutchinson 
                             &amp; Co. (Publishers)</orgName>
                     </org>
+                    <org xml:id="indian_press">
+                        <orgName source="http://id.loc.gov/authorities/names/no2002100455">Indian 
+                            Press (Allahabad, India)</orgName>
+                    </org>
                     <org xml:id="j_m_dent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
                             Dent &amp; Co.</orgName>
@@ -5132,6 +5140,10 @@
                     <org xml:id="lee_priory">
                         <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
                             Press of Lee Priory</orgName>
+                    </org>
+                    <org xml:id="leonard_smithers">
+                        <orgName source="http://id.loc.gov/authorities/names/n89605930">Leonard 
+                            Smithers (Firm)</orgName>
                     </org>
                     <org xml:id="librairie_des_bibliophiles">
                         <orgName source="http://id.loc.gov/authorities/names/no2008106849">Librairie 
@@ -5236,6 +5248,10 @@
                     <org xml:id="richard_bentley_son">
                         <orgName source="http://id.loc.gov/authorities/names/n79018629">Richard 
                             Bentley and Son</orgName>
+                    </org>
+                    <org xml:id="robert_clarke_company">
+                        <orgName source="http://id.loc.gov/authorities/names/no2006089437">Robert 
+                            Clarke Company</orgName>
                     </org>
                     <org xml:id="robson_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no2015105177">Robson 
@@ -5426,6 +5442,12 @@
                         <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
                             Francesco, active 1523-1553</persName>
                         <floruit from="1523" to="1553"/>
+                    </person>
+                    <person xml:id="bogue">
+                        <persName source="http://id.loc.gov/authorities/names/no2011167655">Bogue, 
+                            David, 1852-1897</persName>
+                        <birth when="1852"/>
+                        <death when="1897"/>
                     </person>
                     <person xml:id="bohn">
                         <persName source="http://id.loc.gov/authorities/names/n50045707">Bohn, 
@@ -5652,6 +5674,10 @@
                         <persName source="http://id.loc.gov/authorities/names/n85196058">Herringman, 
                             Henry, -1704</persName>
                         <death when="1704"/>
+                    </person>
+                    <person xml:id="hooper">
+                        <persName source="http://id.loc.gov/authorities/names/n50028938">Hooper, 
+                            S. (Samuel)</persName>
                     </person>
                     <person xml:id="hunt_j">
                         <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
@@ -6011,6 +6037,10 @@
                     </person>
                     <person xml:id="washbourne">
                         <persName source="http://id.loc.gov/authorities/names/nr94008012">Washbourne, 
+                            Henry</persName>
+                    </person>
+                    <person xml:id="wigstead">
+                        <persName source="http://id.loc.gov/authorities/names/nr93042206">Wigstead, 
                             Henry</persName>
                     </person>
                     <person xml:id="williams_e">
@@ -19160,7 +19190,9 @@
                                 <monogr>
                                     <title xml:lang="it">De gli Hecatomithi (i guali son cento
                                         Avenimenti)</title>
-                                    <author corresp="#giraldi">Giraldi Cinthio, G. B.</author>
+                                    <author corresp="#giraldi">
+                                        <persName>Giraldi Cinthio, G. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19187,7 +19219,9 @@
                             <biblStruct corresp="#owned" xml:id="sb318.1">
                                 <monogr>
                                     <title xml:lang="it">Le Fiammedi</title>
-                                    <author corresp="#giraldi">Giraldi Cinthio, G. B.</author>
+                                    <author corresp="#giraldi">
+                                        <persName>Giraldi Cinthio, G. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19205,7 +19239,9 @@
                                 <monogr>
                                     <title xml:lang="it">Cinque Primi Canti della Guerra di
                                         Fiandra</title>
-                                    <author corresp="#maggi">D'Anghiari, G. M.</author>
+                                    <author corresp="#maggi">
+                                        <persName>D'Anghiari, G. M.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19221,7 +19257,9 @@
                             <biblStruct corresp="#owned" xml:id="sb318.3">
                                 <monogr>
                                     <title xml:lang="it">Di Ruggero, Canti quatro, 1544</title>
-                                    <author>Horivolo, Bart.</author>
+                                    <author>
+                                        <persName>Horivolo, Bart.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <respStmt>
                                         <resp/>
@@ -19245,7 +19283,9 @@
                                 <monogr>
                                     <title>Plays and Poems, now first collected with Notes and
                                         Memoir</title>
-                                    <author corresp="#glapthorne">Glapthorne, Henry</author>
+                                    <author corresp="#glapthorne">
+                                        <persName>Glapthorne, Henry</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19254,6 +19294,11 @@
                                         uncut</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher>
+                                            <persName>John Pearson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                     <extent>
@@ -19268,7 +19313,9 @@
                             <biblStruct corresp="#owned" xml:id="sb319.2">
                                 <monogr>
                                     <title>Field and Hedgerow</title>
-                                    <author corresp="#jefferies">Jefferies, R.</author>
+                                    <author corresp="#jefferies">
+                                        <persName>Jefferies, R.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19276,6 +19323,10 @@
                                     <note type="description"/>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -19285,7 +19336,9 @@
                             <biblStruct corresp="#owned" xml:id="sb319.3">
                                 <monogr>
                                     <title>Gallica and other Essays</title>
-                                    <author corresp="#hallard">Hallard, J. H.</author>
+                                    <author corresp="#hallard">
+                                        <persName>Hallard, J. H.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19296,6 +19349,10 @@
                                     </note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -19308,7 +19365,9 @@
                                 <monogr>
                                     <title><foreign xml:lang="la">Confessio Amantis</foreign>,
                                         collated with the best Manuscripts</title>
-                                    <author corresp="#gower">Gower, John</author>
+                                    <author corresp="#gower">
+                                        <persName>Gower, John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Dr. Reinhold Pauli</name>
@@ -19316,6 +19375,10 @@
                                     <note type="description">crushed red morocco, gilt edges</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#bell_daldy">
+                                            <orgName>Bell and Daldy</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1857"/>
                                     </imprint>
                                     <extent>
@@ -19361,7 +19424,9 @@
                             <biblStruct corresp="#owned" xml:id="sb322.1">
                                 <monogr>
                                     <title>Bairaktar, a Tragedy</title>
-                                    <author>Graham, Jas.</author>
+                                    <author>
+                                        <persName>Graham, Jas.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <respStmt>
                                         <resp/>
@@ -19379,7 +19444,9 @@
                                 <monogr>
                                     <title>More Hawarden Horace, with Introduction by T. E.
                                         Page</title>
-                                    <author corresp="#graves">Graves, C. L.</author>
+                                    <author corresp="#graves">
+                                        <persName>Graves, C. L.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19387,6 +19454,10 @@
                                     <note type="description"/>
                                     <edition/>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -19396,7 +19467,9 @@
                             <biblStruct corresp="#owned" xml:id="sb322.3">
                                 <monogr>
                                     <title>Masque of the Three Loves</title>
-                                    <author corresp="#jennings">Jennings, J. G.</author>
+                                    <author corresp="#jennings">
+                                        <persName>Jennings, J. G.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19406,6 +19479,9 @@
                                             value="7"/></note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#indian_press">
+                                            <orgName>Indian Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#allahabad">Allahbad</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
@@ -19418,7 +19494,9 @@
                             <biblStruct corresp="#owned" xml:id="sb323.1">
                                 <monogr>
                                     <title>The Golden Age</title>
-                                    <author corresp="#grahame">Graham, K.</author>
+                                    <author corresp="#grahame">
+                                        <persName>Graham, K.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19427,6 +19505,13 @@
                                         Parrish</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#lane">
+                                            <persName>John Lane</persName>
+                                        </publisher>
+                                        <publisher corresp="#bodley_head">
+                                            <orgName>The Bodley Head</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -19436,7 +19521,9 @@
                             <biblStruct corresp="#owned" xml:id="sb323.2">
                                 <monogr>
                                     <title>Aylwin</title>
-                                    <author corresp="#watts-dunton">Watts-Dunton, T.</author>
+                                    <author corresp="#watts-dunton">
+                                        <persName>Watts-Dunton, T.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19444,6 +19531,10 @@
                                     <note type="description">2 copies</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#dodd_mead_company">
+                                            <orgName>Dodd, Mead and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -19453,7 +19544,9 @@
                             <biblStruct corresp="#owned" xml:id="sb323.3">
                                 <monogr>
                                     <title>The Master-Christian</title>
-                                    <author corresp="#corelli">Corelli, Marie</author>
+                                    <author corresp="#corelli">
+                                        <persName>Corelli, Marie</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19461,6 +19554,10 @@
                                     <note type="etc">and other Novels<num value="18"/></note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -19472,7 +19569,9 @@
                             <biblStruct corresp="#owned" xml:id="sb324.1">
                                 <monogr>
                                     <title>Last Links with Byron, Shelley and Keats</title>
-                                    <author>Graham, Wm.</author>
+                                    <author>
+                                        <persName>Graham, Wm.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <respStmt>
                                         <resp/>
@@ -19481,6 +19580,10 @@
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#leonard_smithers">
+                                            <orgName>Leonard Smithers &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -19490,7 +19593,9 @@
                             <biblStruct corresp="#owned" xml:id="sb324.2">
                                 <monogr>
                                     <title>Letters to his Family and Friends</title>
-                                    <author corresp="#keats">Keats, John</author>
+                                    <author corresp="#keats">
+                                        <persName>Keats, John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Sidney Colvin</name>
@@ -19498,6 +19603,10 @@
                                     <note type="description"/>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -19507,7 +19616,9 @@
                             <biblStruct corresp="#owned" xml:id="sb324.3">
                                 <monogr>
                                     <title>Life and Letters of Erasmus</title>
-                                    <author corresp="#froude">Froude, J. A.</author>
+                                    <author corresp="#froude">
+                                        <persName>Froude, J. A.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19515,6 +19626,10 @@
                                     <note type="description"/>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -19524,7 +19639,9 @@
                             <biblStruct corresp="#owned" xml:id="sb324.4">
                                 <monogr>
                                     <title>Poems in Many Lands</title>
-                                    <author corresp="#rodd_r">Rodd, R.</author>
+                                    <author corresp="#rodd_r">
+                                        <persName>Rodd, R.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp/>
                                         <name full="yes"/>
@@ -19534,6 +19651,10 @@
                                     </note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#bogue">
+                                            <persName>David Bogue</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                 </monogr>
@@ -19551,6 +19672,10 @@
                                         <name full="yes">H. Reeve</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                     <extent>
@@ -19567,12 +19692,18 @@
                             <biblStruct corresp="#owned" xml:id="sb329.2">
                                 <monogr>
                                     <title>Letter of the Kings of England</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell, J. O.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#colburn">
+                                            <persName>Henry Colburn</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1848"/>
                                     </imprint>
                                     <extent>
@@ -19590,9 +19721,15 @@
                                 <monogr>
                                     <title>Provincial Glossary, with Collection of Local
                                         Proverbs</title>
-                                    <author corresp="#grose">Grose, F.</author>
+                                    <author corresp="#grose">
+                                        <persName>Grose, F.</persName>
+                                    </author>
                                     <note type="description">calf gilt</note>
                                     <imprint>
+                                        <publisher corresp="#hooper">
+                                            <persName>S. Hooper</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1790"/>
                                     </imprint>
                                 </monogr>
@@ -19604,6 +19741,15 @@
                                     <title>The Olio: Collection of Essays, etc.</title>
                                     <note type="description">frontispiece, half morocco</note>
                                     <imprint>
+                                        <publisher corresp="#hooper">
+                                            <persName>Hooper</persName>
+                                        </publisher>
+                                        <publisher corresp="#wigstead">
+                                            <persName>Wigstead</persName>
+                                        </publisher>
+                                        <!-- Listed on item as "Hooper and Wigstead", but couldn't find an
+                                                LCNAF for them as a firm, split it up into two <persons> instead.-->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1796"/>
                                     </imprint>
                                 </monogr>
@@ -19629,7 +19775,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Le Semeur de Cendres, <date from="1898"
                                             to="1900">1898-1900</date></title>
-                                    <author corresp="#guérin">Guerin, Chas.</author>
+                                    <author corresp="#guérin">
+                                        <persName>Guerin, Chas.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription, inserted
                                         are four autograph letters, one interesting one from W. M.
@@ -19637,6 +19785,9 @@
                                     <note type="inscription" xml:lang="fr">Au grand Swinburne,
                                         Charles Guerin</note>
                                     <imprint>
+                                        <publisher corresp="#mercure_de_france">
+                                            <orgName>Société du Mercure de France</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
@@ -19649,9 +19800,14 @@
                             <biblStruct corresp="#owned" xml:id="sb332.1">
                                 <monogr>
                                     <title>Songs of American Destiny, a Vision of New Hellas</title>
-                                    <author corresp="#guthrie">Guthrie, W. N.</author>
+                                    <author corresp="#guthrie">
+                                        <persName>Guthrie, W. N.</persName>
+                                    </author>
                                     <note type="description">decorations by L. H. Meakin</note>
                                     <imprint>
+                                        <publisher corresp="#robert_clarke_company">
+                                            <orgName>The Robert Clarke Company</orgName>
+                                        </publisher>
                                         <pubPlace ref="#cincinnati">Cincinnati</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
@@ -19673,6 +19829,10 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#heinemann">
+                                            <persName>William Heinemann</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -19685,7 +19845,9 @@
                                 <monogr>
                                     <title>Poems, done into English Verse with Biographical and
                                         Critical Introduction by John Payne</title>
-                                    <author corresp="#hafiz">Hafiz of Shiraz</author>
+                                    <author corresp="#hafiz">
+                                        <persName>Hafiz of Shiraz</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">large
                                         paper, half vellum, uncut, presentation copy with autograph
                                         note, imperial 8vo. Privately printed for the Villon
@@ -19693,6 +19855,10 @@
                                     <note type="inscription">To A. C. Swinburne, Esq. his old and
                                         constant lover John Payne</note>
                                     <imprint>
+                                        <publisher corresp="#villon_society">
+                                            <orgName>The Villon Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                     <extent>
@@ -19711,7 +19877,9 @@
                             <biblStruct corresp="#owned" xml:id="sb334.1">
                                 <monogr>
                                     <title>Memoirs of Eight Years</title>
-                                    <author corresp="#hake">Hake, Gordon</author>
+                                    <author corresp="#hake">
+                                        <persName>Hake, Gordon</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation copy from the author, with
                                         inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esq. from the
@@ -19726,13 +19894,23 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb335">
-                            <bibl xml:id="sb335.1">
-                                <title>Dictionary of Old English Plays</title>
-                                <author corresp="#halliwell-phillipps">Halliwell, J. O.</author>
-                                <date when="1860"/>
-                                <relatedItem type="ht"
-                                    target="https://hdl.handle.net/2027/hvd.32044100891456"/>
-                            </bibl>
+                            <biblStruct xml:id="sb335.1">
+                                <monogr>
+                                    <title>Dictionary of Old English Plays</title>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell, J. O.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#smith_j">
+                                            <persName>John Russell Smith</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1860"/>
+                                    </imprint>
+                                </monogr>
+                                    <relatedItem type="ht"
+                                        target="https://hdl.handle.net/2027/hvd.32044100891456"/>
+                            </biblStruct>
                             <bibl xml:id="sb335.2">
                                 <title>Essays on Fiction</title>
                                 <author corresp="#senior">Senior, N. W.</author>
