@@ -4997,6 +4997,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n82149887">D.C. 
                             Heath and Company</orgName>
                     </org>
+                    <org xml:id="d_lothrop_company">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99031653">D. 
+                            Lothrop &amp; Company</orgName>
+                    </org>
                     <org xml:id="daniel_press">
                         <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
                             Press</orgName>
@@ -5401,6 +5405,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr98011309">Whittaker 
                             &amp; Co.</orgName>
                     </org>
+                    <org xml:id="whittingham_wilkins">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2003009335">Whittingham 
+                            &amp; Wilkins</orgName>
+                    </org>
                     <org xml:id="william_blackwood_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no00093522">William 
                             Blackwood and Sons</orgName>
@@ -5411,6 +5419,10 @@
                     </org>
                 </listOrg>
                 <listPerson>
+                    <person xml:id="adlard">
+                        <persName source="http://id.loc.gov/authorities/names/nr93020052">Adlard, 
+                            James Evan</persName>
+                    </person>
                     <person xml:id="antonio">
                         <persName source="http://id.loc.gov/authorities/names/nr2002025102">Benedetti, 
                             Giovanni Antonio de', active 1492-approximately 1511</persName>
@@ -5758,6 +5770,12 @@
                         <birth when="1819"/>
                         <death when="1891"/>
                     </person>
+                    <person xml:id="lilly">
+                        <persName source="http://id.loc.gov/authorities/names/nr95033971">Lilly, 
+                            Joseph, 1804-1870</persName>
+                        <birth when="1804"/>
+                        <death when="1870"/>
+                    </person>
                     <person xml:id="ling">
                         <persName source="http://id.loc.gov/authorities/names/n82207865">N. L. 
                             (Nicholas Ling), active 1580-1607</persName>
@@ -6047,6 +6065,10 @@
                         <persName source="http://id.loc.gov/authorities/names/no2021123492">Williams, 
                             E. P., active 19th century</persName>
                         <floruit from="1800" to="1899"/>
+                    </person>
+                    <person xml:id="worthington">
+                        <persName source="http://id.loc.gov/authorities/names/nr92032062">Worthington, 
+                            R.</persName>
                     </person>
                 </listPerson>        
             </div>
@@ -19911,13 +19933,23 @@
                                     <relatedItem type="ht"
                                         target="https://hdl.handle.net/2027/hvd.32044100891456"/>
                             </biblStruct>
-                            <bibl xml:id="sb335.2">
-                                <title>Essays on Fiction</title>
-                                <author corresp="#senior">Senior, N. W.</author>
-                                <date when="1864"/>
+                            <biblStruct xml:id="sb335.2">
+                                <monogr>
+                                    <title>Essays on Fiction</title>
+                                    <author corresp="#senior">
+                                        <persName>Senior, N. W.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#longman_green_longman_roberts_green">
+                                            <orgName>Longman, Green, Longman, Roberts, &amp; Green</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1864"/>
+                                </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015064438677"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb335.3">
                                 <monogr>
                                     <title>English Elegies</title>
@@ -19926,6 +19958,13 @@
                                         <name full="yes">J. C. Bailey</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#lane">
+                                            <persName>John Lane</persName>
+                                        </publisher>
+                                        <publisher corresp="#bodley_head">
+                                            <orgName>The Bodley Head</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -19942,6 +19981,10 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#lilly">
+                                            <persName>Joseph Lilly</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                 </monogr>
@@ -19955,7 +19998,9 @@
                             <biblStruct corresp="#owned" xml:id="sb336.1">
                                 <monogr>
                                     <title>Outlines of the Life of Shakespeare</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription, printed for
                                         the author's friends</note>
@@ -19963,6 +20008,7 @@
                                         kinds regards, Hollingbury Copse, Brighton, <date
                                             when="1881-06">June, 1881</date></note>
                                     <imprint>
+                                        <publisher/>
                                         <pubPlace ref="#brighton">Brighton</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
@@ -19975,7 +20021,9 @@
                             <biblStruct corresp="#owned" xml:id="sb337.1">
                                 <monogr>
                                     <title>Outlines of the Life of Shakespeare</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
@@ -19983,6 +20031,10 @@
                                             when="1882-08">Augt. 1882</date></note>
                                     <edition corresp="#sec_ed">Second Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -19994,7 +20046,9 @@
                             <biblStruct corresp="#owned" xml:id="sb338.1">
                                 <monogr>
                                     <title>Outlines of the Life of Shakespeare</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation #uncut"
                                         >illustrations, green cloth, uncut, presentation copy from
                                         the author to A. C. Swinburne, with autograph inscription,
@@ -20015,12 +20069,18 @@
                             <biblStruct corresp="#owned" xml:id="sb339.1">
                                 <monogr>
                                     <title>Outline of the Life of Shakepseare</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         presentation copy from the author to A. C. Swinburne, with
                                         autograph inscription, imperial 8vo.</note>
                                     <edition>Another Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                     <extent>
@@ -20038,13 +20098,19 @@
                                 <monogr>
                                     <title>Memoranda on Alls Well that Ends Well, The Two Gentlemen
                                         of Verona, etc.</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         kind regards, Hollingbury Copse, Brighton, <date
                                             when="1879-11-29">29 Nov. 1879</date></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Fleet and Bishop</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#brighton">Brighton</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
@@ -20057,13 +20123,19 @@
                             <biblStruct corresp="#owned" xml:id="sb341.1">
                                 <monogr>
                                     <title>Memoranda on the Tragedy of Hamlet</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         kind regards, Hollingbury Copse, Brighton, <date
                                             when="1880-01">Jan. 1880</date></note>
                                     <imprint>
+                                        <publisher corresp="#adlard">
+                                            <persName>James Evan Adlard</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                 </monogr>
@@ -20076,13 +20148,19 @@
                                 <monogr>
                                     <title>Memoranda on Love's Labour Lost, King John, Othello,
                                         etc.</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell-Phillips, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell-Phillips, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         kind regards, Hollingbury Copse, Brighton, <date
                                             when="1880-06">June 1880</date></note>
                                     <imprint>
+                                        <publisher corresp="#adlard">
+                                            <persName>James Evan Adlard</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                 </monogr>
@@ -20094,7 +20172,9 @@
                             <biblStruct corresp="#owned" xml:id="sb343.1">
                                 <monogr>
                                     <title>The Woodlanders</title>
-                                    <author corresp="#hardy">Hardy, Thos.</author>
+                                    <author corresp="#hardy">
+                                        <persName>Hardy, Thos.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy from the author to Swinburne, with
                                         autograph inscription on half title</note>
@@ -20102,6 +20182,10 @@
                                         author's regrad, <date when="1887-05">May 1887</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                     <extent>
@@ -20120,7 +20204,9 @@
                             <biblStruct corresp="#owned" xml:id="sb344.1">
                                 <monogr>
                                     <title>Wessex Poems and other Verses</title>
-                                    <author corresp="#hardy">Hardy, Thos.</author>
+                                    <author corresp="#hardy">
+                                        <persName>Hardy, Thos.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">30
                                         illustrations by the author, presentation copy with
                                         autograph inscription</note>
@@ -20128,6 +20214,10 @@
                                         genius has for more than thirty years been the charm of
                                         Thomas Hardy, <date when="1898-12">Dec. 1898</date></note>
                                     <imprint>
+                                        <publisher corresp="#harper_brothers">
+                                            <orgName>Harper &amp; Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -20139,7 +20229,9 @@
                             <biblStruct corresp="#owned" xml:id="sb345.1">
                                 <monogr>
                                     <title>The Well-Beloved, a Sketch of a Temperament</title>
-                                    <author corresp="#hardy">Hardy, Thos.</author>
+                                    <author corresp="#hardy">
+                                        <persName>Hardy, Thos.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">etching and
                                         map, original cloth, top edge gilt, presentation copy with
                                         autograph inscription</note>
@@ -20159,12 +20251,13 @@
                             <biblStruct corresp="#owned" xml:id="sb346.1">
                                 <monogr>
                                     <title>The Dynasts, a Drama</title>
-                                    <author corresp="#hardy">Hardy, Thos.</author>
+                                    <author corresp="#hardy">
+                                        <persName>Hardy, Thos.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription</note>
                                     <note type="inscription">To Algernon C. Swinburne from Thomas
-                                        Hardy, with best wishes for <date when="1904"
-                                        >1904</date></note>
+                                        Hardy, with best wishes for <date when="1904">1904</date></note>
                                     <imprint>
                                         <date when="1903"/>
                                     </imprint>
@@ -20180,7 +20273,9 @@
                             <biblStruct corresp="#owned" type="lot" xml:id="sb346.2">
                                 <monogr>
                                     <title>Under the Iron Flail</title>
-                                    <author corresp="#oxenham">Oxenham, John</author>
+                                    <author corresp="#oxenham">
+                                        <persName>Oxenham, John</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="etc">
@@ -20201,11 +20296,16 @@
                                 <monogr>
                                     <title>Origin of the English Drama, with Explanatory
                                         Notes</title>
-                                    <author corresp="#hawkins_t">Hawkins, Thos.</author>
+                                    <author corresp="#hawkins_t">
+                                        <persName>Hawkins, Thos.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1773"/>
+                                        <!-- This is an unusual case: printed at Oxford, for someone in
+                                                London, but sold by two others in Oxford and Cambridge. 
+                                                Not sure how to represent this. Leaving record as-is for now. -->
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="3"/>
@@ -20225,15 +20325,23 @@
                                     <title xml:lang="la">Corolla Varia; Eclogae tres contexta per
                                         Guil. Hawkins Scholarum Hadleianum in Agro
                                         Suffolcienci</title>
-                                    <author corresp="#hawkins_w">Hawkins, Wm.</author>
+                                    <author corresp="#hawkins_w">
+                                        <persName>Hawkins, Wm.</persName>
+                                    </author>
                                     <note type="description">frontispiece by T. Cecil, and plate,
                                         olive levant morocco</note>
                                     <imprint>
+                                        <publisher/>
                                         <pubPlace ref="#cambridge">Cantabrigia</pubPlace>
                                         <date when="1634"/>
+                                        <!-- Just thought this was really funny: there's no publisher listed on
+                                                Google Books, and where the publisher would normally be on
+                                                the cover, it says in Latin, "I am a very famous printer from the 
+                                                Academy". Maybe the author also printed the work? -->
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="google" target="https://books.google.com/books?id=cOVoAAAAcAAJ"/>
+                                <relatedItem type="google" 
+                                    target="https://books.google.com/books?id=cOVoAAAAcAAJ"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb349">
@@ -20241,9 +20349,15 @@
                                 <monogr>
                                     <title>Correspondence and Table-Talk with a Memoir by his
                                         Son</title>
-                                    <author corresp="#haydon">Haydon, Benji. R.</author>
+                                    <author corresp="#haydon">
+                                        <persName>Haydon, Benji. R.</persName>
+                                    </author>
                                     <note type="description">facsimile illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#worthington">
+                                            <persName>R. Worthington</persName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                     <extent>
@@ -20260,7 +20374,9 @@
                             <biblStruct corresp="#owned" xml:id="sb350.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#hayne">Hayne, P. H.</author>
+                                    <author corresp="#hayne">
+                                        <persName>Hayne, P. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait and
                                         numerous illustrations, presentation copy to Swinburne, with
                                         author's inscription</note>
@@ -20268,6 +20384,9 @@
                                         sincere regards and best wishes of his friend Paul Hamilton
                                         Hayne, <date when="1884-07-16">July 16th, 1884</date></note>
                                     <imprint>
+                                        <publisher corresp="#d_lothrop_company">
+                                            <orgName>D. Lothrop and Company</orgName>
+                                        </publisher>
                                         <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
@@ -20280,7 +20399,9 @@
                             <biblStruct corresp="#owned" xml:id="sb351.1">
                                 <monogr>
                                     <title>Lectures on the English Poets</title>
-                                    <author corresp="#hazlitt">Hazlitt, Wm.</author>
+                                    <author corresp="#hazlitt">
+                                        <persName>Hazlitt, Wm.</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -20296,7 +20417,9 @@
                                 <monogr>
                                     <title>Characteristics of the English Poets from Chaucer to
                                         Shirley</title>
-                                    <author corresp="#minto">Minto, Wm.</author>
+                                    <author corresp="#minto">
+                                        <persName>Minto, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, Esq. with the
@@ -20305,6 +20428,10 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            <orgName>William Blackwood and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -20316,10 +20443,16 @@
                             <biblStruct corresp="#owned" xml:id="sb352.1">
                                 <monogr>
                                     <title>Life, Work and Opinions, by William Stigand</title>
-                                    <author corresp="#heine">Heine, Heinrich</author>
+                                    <author corresp="#heine">
+                                        <persName>Heine, Heinrich</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy to Swinburne</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                     <extent>
@@ -20334,7 +20467,9 @@
                             <biblStruct corresp="#owned" xml:id="sb352.2">
                                 <monogr>
                                     <title>William Blake</title>
-                                    <author corresp="#symons">Symons, A.</author>
+                                    <author corresp="#symons">
+                                        <persName>Symons, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">buckram, uncut, top edge gilt,
                                         presentation copy to Swinburne from the author with
                                         autograph inscription</note>
@@ -20342,6 +20477,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            <orgName>Archibald Constable and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -20353,7 +20492,9 @@
                             <biblStruct corresp="#owned" xml:id="sb353.1">
                                 <monogr>
                                     <title>A Book of Verses</title>
-                                    <author corresp="#henley">Henley, Wm. Ernest</author>
+                                    <author corresp="#henley">
+                                        <persName>Henley, Wm. Ernest</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with autograph inscription on
                                         fly-leaf</note>
@@ -20373,7 +20514,9 @@
                             <biblStruct corresp="#owned" xml:id="sb354.1">
                                 <monogr>
                                     <title>Works, Poems, Essays, etc.</title>
-                                    <author corresp="#henley">Henley, W. E.</author>
+                                    <author corresp="#henley">
+                                        <persName>Henley, W. E.</persName>
+                                    </author>
                                     <note type="description">portrait, blue cloth, top edge
                                         gilt</note>
                                     <imprint>
@@ -20390,10 +20533,16 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb355.1">
                                 <monogr>
                                     <title>Expedition to the Isle of Rhe</title>
-                                    <author corresp="#herbert_cherbury">Herbert of Cherbury, Edward Lord</author>
+                                    <author corresp="#herbert_cherbury">
+                                        <persName>Herbert of Cherbury, Edward Lord</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, Swinburne's
                                         copy with his autograph signature on fly-leaf</note>
                                     <imprint>
+                                        <publisher corresp="#whittingham_wilkins">
+                                            <orgName>Whittingham &amp; Wilkins</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1860"/>
                                     </imprint>
                                 </monogr>
