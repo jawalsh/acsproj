@@ -369,6 +369,9 @@
                         <placeName type="preferred">Leipzig</placeName>
                         <placeName>Lipsia</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7011444" xml:id="lewes">
+                        <placeName type="preferred">Lewes</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7010597" xml:id="liverpool">
                         <placeName type="preferred">Liverpool</placeName>
                     </place>
@@ -4913,6 +4916,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n81144054">Ashendene
                             Press</orgName>
                     </org>
+                    <org xml:id="baxter_son">
+                        <orgName source="http://id.loc.gov/authorities/names/no2022107789">Baxter 
+                            and Son</orgName>
+                    </org>
                     <org xml:id="bell_daldy">
                         <orgName source="http://id.loc.gov/authorities/names/no2001089993">Bell 
                             and Daldy</orgName>
@@ -5025,6 +5032,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no96011604">Fields, 
                             Osgood &amp; Co.</orgName>
                     </org>
+                    <org xml:id="francis_john_rivington">
+                        <orgName source="http://id.loc.gov/authorities/names/no2020104833">Francis 
+                            and John Rivington (Firm)</orgName>
+                    </org>
                     <org xml:id="fratelli_bocca">
                         <orgName source="http://id.loc.gov/authorities/names/n86815346">Fratelli 
                             Bocca</orgName>
@@ -5084,6 +5095,10 @@
                     <org xml:id="houghton_mifflin_company">
                         <orgName source="http://id.loc.gov/authorities/names/n88002745">Houghton, 
                             Mifflin and Company</orgName>
+                    </org>
+                    <org xml:id="hurst_robinson_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n84168493">Hurst, 
+                            Robinson, and Co.</orgName>
                     </org>
                     <org xml:id="hutchinson_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008101666">Hutchinson 
@@ -5317,6 +5332,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no00074158">Sherwood, 
                             Neely, and Jones</orgName>
                     </org>
+                    <org xml:id="simpkin_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2016070050">Simpkin 
+                            &amp; Co.</orgName>
+                    </org>
                     <org xml:id="simpkin_marshall_hamilton_kent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2002109454">Simpkin, 
                             Marshall, Hamilton, Kent &amp; Co. Ltd.</orgName>
@@ -5466,6 +5485,12 @@
                             Henry G. (Henry George), 1796-1884</persName>
                         <birth when="1796"/>
                         <death when="1884"/>
+                    </person>
+                    <person xml:id="bouton">
+                        <persName source="http://id.loc.gov/authorities/names/nr98002857">Bouton, 
+                            James W., 1831-1902</persName>
+                        <birth when="1831"/>
+                        <death when="1902"/>
                     </person>
                     <person xml:id="browne">
                         <persName source="http://id.loc.gov/authorities/names/no96045862">Browne, 
@@ -5621,6 +5646,12 @@
                             Henry, -1647</persName>
                         <death when="1647"/>
                     </person>
+                    <person xml:id="fellowes">
+                        <persName source="http://id.loc.gov/authorities/names/no2013123647">Fellowes, 
+                            Benjamin, active 1827-1855</persName>
+                        <birth when="1827"/>
+                        <death when="1855"/>
+                    </person>
                     <person xml:id="fenner">
                         <persName source="http://id.loc.gov/authorities/names/n2006087024">Fenner, 
                             Rest</persName>
@@ -5675,6 +5706,10 @@
                         <persName source="http://id.loc.gov/authorities/names/no2010059617">Hayes, 
                             Thomas, -1604?</persName>
                         <death when="1604" cert="unknown"/>
+                    </person>
+                    <person xml:id="hearne">
+                        <persName source="http://id.loc.gov/authorities/names/nr93005251">Hearne, 
+                            Richard</persName>
                     </person>
                     <person xml:id="heinemann">
                         <persName source="http://id.loc.gov/authorities/names/n81125390">Heinemann, 
@@ -20555,12 +20590,18 @@
                                 <monogr>
                                     <title>Works, with Remarks on his Writings and Life by W.
                                         Jerdan</title>
-                                    <author corresp="#herbert">Herbet, Geo.</author>
+                                    <author corresp="#herbert">
+                                        <persName>Herbet, Geo.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait, calf
                                         antique, red edges, presentation copy to A. C. Swinburne on
                                         his leaving Eton, from B. W. Lubbock, with
                                         inscription</note>
                                     <imprint>
+                                        <publisher corresp="#g_routledge_co">
+                                            <orgName>George Routledge and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
@@ -20572,12 +20613,18 @@
                             <biblStruct corresp="#owned" xml:id="sb356.2">
                                 <monogr>
                                     <title>On Viol and Flute</title>
-                                    <author corresp="#gosse">Gosse, E.</author>
+                                    <author corresp="#gosse">
+                                        <persName>Gosse, E.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">frontispiece, uncut,
                                         inscription on fly-leaf</note>
                                     <note type="inscription">A. C. Swinburne from Edmund
                                         Gosse</note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -20589,7 +20636,9 @@
                             <biblStruct corresp="#owned" xml:id="sb357.1">
                                 <monogr>
                                     <title>Complete Poems, with Notes, etc.</title>
-                                    <author corresp="#herrick">Herrick, Robt.</author>
+                                    <author corresp="#herrick">
+                                        <persName>Herrick, Robt.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -20597,6 +20646,10 @@
                                     <note type="description" corresp="#uncut">dedicated to
                                         Swinburne, portrait, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                     <extent>
@@ -20615,11 +20668,17 @@
                             <biblStruct corresp="#owned" xml:id="sb358.1">
                                 <monogr>
                                     <title>Hesperides, or Works both Humane and Divine</title>
-                                    <author corresp="#herrick">Herrick, R.</author>
+                                    <author corresp="#herrick">
+                                        <persName>Herrick, R.</persName>
+                                    </author>
                                     <note type="description">portrait, calf gilt, tooled borders,
                                         gilt edges</note>
                                     <edition>Pickering's Aldine Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1846"/>
                                     </imprint>
                                     <extent>
@@ -20637,7 +20696,9 @@
                                 <monogr>
                                     <title>Hesperides and Noble Members, with Preface by A. C.
                                         Swinburne</title>
-                                    <author corresp="#herrick">Herrick, R.</author>
+                                    <author corresp="#herrick">
+                                        <persName>Herrick, R.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Alfred Pollard</name>
@@ -20645,6 +20706,10 @@
                                     <note type="description">large paper, one of 200 copies, half
                                         morocco, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#lawrence_bullen">
+                                            <orgName>Lawrence &amp; Bullen</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                     <extent>
@@ -20662,12 +20727,17 @@
                                 <monogr>
                                     <title>Dialogue on Wit and Folly, with Account of the Author by
                                         F. W. Fairholt</title>
-                                    <author corresp="#heywood_j">Heywood, J.</author>
+                                    <author corresp="#heywood_j">
+                                        <persName>Heywood, J.</persName>
+                                    </author>
                                     <note type="description">half roan, with inscription</note>
                                     <note type="inscription">To J. Y. Akerman, Esq. with the best
                                         respects of Fred. W. Fairholt</note>
                                     <imprint>
-                                        <publisher corresp="#percy_society">Percy Society</publisher>
+                                        <publisher corresp="#percy_society">
+                                            <orgName>Percy Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1846"/>
                                     </imprint>
                                 </monogr>
@@ -20677,7 +20747,9 @@
                             <biblStruct corresp="#owned" xml:id="sb360.2">
                                 <monogr>
                                     <title>Proverbs</title>
-                                    <author corresp="#heywood_j">Heywood, J.</author>
+                                    <author corresp="#heywood_j">
+                                        <persName>Heywood, J.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John S. Farmer</name>
@@ -20697,12 +20769,18 @@
                             <biblStruct corresp="#owned" xml:id="sb360.3">
                                 <monogr>
                                     <title>Old English Drama</title>
-                                    <author corresp="#heywood_j">Heywood, J.</author>
+                                    <author corresp="#heywood_j">
+                                        <persName>Heywood, J.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#hurst_robinson_co">
+                                            <orgName>Hurst, Robinson, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1825"/>
                                     </imprint>
                                     <extent>
@@ -20720,12 +20798,18 @@
                                 <monogr>
                                     <title>Pleasant Dialogues and Drammas, with other
                                         Fancies</title>
-                                    <author corresp="#heywood_t">Heywood, Thos.</author>
+                                    <author corresp="#heywood_t">
+                                        <persName>Heywood, Thos.</persName>
+                                    </author>
                                     <note type="description">old morocco, title repaired and some
                                         head-lines cut into</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03241</idno>
                                     <imprint>
+                                        <publisher corresp="#hearne">
+                                            <persName>R. H.</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1637"/>
                                     </imprint>
                                 </monogr>
@@ -20741,10 +20825,16 @@
                                 <monogr>
                                     <title>Dramtic Works, with Illustrative Notes and Memoir of the
                                         Author</title>
-                                    <author corresp="#heywood_t">Heywood, T.</author>
+                                    <author corresp="#heywood_t">
+                                        <persName>Heywood, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
-                                        <publisher>Pearson</publisher>
+                                        <publisher>
+                                            <persName>John Pearson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                     <extent>
@@ -20784,12 +20874,17 @@
                             <biblStruct corresp="#owned" xml:id="sb363.2">
                                 <monogr>
                                     <title xml:lang="fr">Anciens et Modernes</title>
-                                    <author corresp="#saint-victor">Saint Victor, P. de</author>
+                                    <author corresp="#saint-victor">
+                                        <persName>Saint Victor, P. de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#levy">
+                                            <persName>Calmann Lévy</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
@@ -20799,18 +20894,30 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb364">
-                            <bibl xml:id="sb364.1">
-                                <title>General Dictionary of Provincialisms</title>
-                                <author corresp="#holloway">Holloway, Wm.</author>
-                                <date when="1839"/>
+                            <biblStruct xml:id="sb364.1">
+                                <monogr>
+                                    <title>General Dictionary of Provincialisms</title>
+                                    <author corresp="#holloway">
+                                        <persName>Holloway, Wm.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#baxter_son">
+                                            <orgName>Baxter and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#lewes">Lewes</pubPlace>
+                                        <date when="1839"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwslqr"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb364.2">
                                 <monogr>
                                     <title>Essay on the Archaeology of Popular English Phrases and
                                         Nursery Rhymes, <date when="1834">1834</date></title>
-                                    <author corresp="#ker">Ker, J. Bellenden</author>
+                                    <author corresp="#ker">
+                                        <persName>Ker, J. Bellenden</persName>
+                                    </author>
                                     <note type="description">in 1 vol. half calf</note>
                                     <imprint>
                                         <date from="1834" to="1839"/>
@@ -20831,7 +20938,9 @@
                                 <monogr>
                                     <title>Dictionary of the English Language, for Rhyming,
                                         Spelling, etc.</title>
-                                    <author corresp="#walker">Walker, J.</author>
+                                    <author corresp="#walker">
+                                        <persName>Walker, J.</persName>
+                                    </author>
                                     <note type="description">sheep</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -20868,11 +20977,37 @@
                                 <monogr>
                                     <title>Iliad, Greek text, with copious English Notes by William
                                         Trollope</title>
-                                    <author corresp="#homer">Homer</author>
+                                    <author corresp="#homer">
+                                        <persName>Homer</persName>
+                                    </author>
                                     <note type="description">This is without doubt the copy which
                                         was used by Swinburne, probably when he was at Eton, and
                                         contains numerous pencil notes in his hand-writing.</note>
                                     <imprint>
+                                        <publisher corresp="#francis_john_rivington">
+                                            <orgName>F. &amp; J. Rivington</orgName>
+                                        </publisher>
+                                        <publisher corresp="#longman_co">
+                                            <orgName>Longman and Co.</orgName>
+                                        </publisher>
+                                        <publisher>
+                                            <orgName>Hamilton and Co.</orgName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#whittaker_co">
+                                            <persName>Whittaker and Co.</persName>
+                                        </publisher>
+                                        <publisher corresp="#simpkin_co">
+                                            <orgName>Simpkin and Co.</orgName>
+                                        </publisher>
+                                        <publisher corresp="#fellowes">
+                                            <persName>B. Fellowes</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>E. Williams</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1847"/>
                                     </imprint>
                                 </monogr>
@@ -20886,7 +21021,9 @@
                             <biblStruct corresp="#owned" xml:id="sb366.1">
                                 <monogr>
                                     <title>Whole Works</title>
-                                    <author corresp="#homer">Homer</author>
+                                    <author corresp="#homer">
+                                        <persName>Homer</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">George Chapman</name>
@@ -20907,9 +21044,15 @@
                             <biblStruct corresp="#owned" xml:id="sb366.2">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#garnett">Garnett, R.</author>
+                                    <author corresp="#garnett">
+                                        <persName>Garnett, R.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#elkin_mathews_john_lane">
+                                            <orgName>Elkin Mathews and John Lane</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -20938,7 +21081,9 @@
                                 <monogr>
                                     <title xml:lang="la">Carmina et Cycli Epici Reliquiae, Gr. at
                                         Lat. cum Indice Nominum et Rerum</title>
-                                    <author corresp="#homer">Homer</author>
+                                    <author corresp="#homer">
+                                        <persName>Homer</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -20950,40 +21095,54 @@
                                 <note type="fulltext">HT copy from 1877; still published in Paris
                                     with same title.</note>
                             </biblStruct>
-                            <bibl xml:id="sb367.2">
-                                <title xml:lang="la">Aristophanis Comoediae, Gr. et Lat. cum
+                            <biblStruct xml:id="sb367.2">
+                                <monogr>
+                                    <title xml:lang="la">Aristophanis Comoediae, Gr. et Lat. cum
                                     Indicibus</title>
-                                <note type="description">half morocco, marbled edges</note>
-                                <pubPlace ref="#paris">Paris</pubPlace>
-                                <date when="1862"/>
+                                    <note type="description">half morocco, marbled edges</note>
+                                    <imprint>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1862"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/inu.32000000894784"/>
                                 <note type="fulltext">HT has 1860 copy; correct title with Greek and
                                     Latin text.</note>
-                            </bibl>
-                            <bibl xml:id="sb367.3">
-                                <title>Aeschyli et Sophoclis Tragoediae et Fragementa, Gr. et Lat.
-                                    cum Indicibus</title>
-                                <note type="description">half morocco, marbled edges, imperial
-                                    8vo.</note>
-                                <note type="etc">
-                                    <num value="4"/>
-                                </note>
-                                <pubPlace ref="#paris">Paris</pubPlace>
-                                <date when="1856"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb367.3">
+                                <monogr>
+                                    <title>Aeschyli et Sophoclis Tragoediae et Fragementa, Gr. et Lat.
+                                        cum Indicibus</title>
+                                    <note type="description">half morocco, marbled edges, imperial
+                                        8vo.</note>
+                                    <note type="etc">
+                                        <num value="4"/>
+                                    </note>
+                                    <imprint>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1856"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015028379264"/>
                                 <note type="fulltext">HT copy from 1877; best candidate that has
                                     both Greek and Latin; title correct.</note>
-                            </bibl>
+                            </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb368">
                             <biblStruct corresp="#owned" xml:id="sb368.1">
                                 <monogr>
                                     <title>Ancient Mysteries described</title>
-                                    <author corresp="#hone">Hone, W.</author>
+                                    <author corresp="#hone">
+                                        <persName>Hone, W.</persName>
+                                    </author>
                                     <note type="description">plates, one coloured</note>
                                     <imprint>
+                                        <publisher corresp="#hone">
+                                            <persName>William Hone</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1823"/>
                                     </imprint>
                                 </monogr>
@@ -20994,7 +21153,9 @@
                                 <monogr>
                                     <title>Apocryphal New Testament, <date when="1821"
                                         >1821</date></title>
-                                    <author corresp="#hone">Hone, W.</author>
+                                    <author corresp="#hone">
+                                        <persName>Hone, W.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
                                         <date from="1821" to="1823"/>
@@ -21007,8 +21168,14 @@
                             <biblStruct corresp="#owned" xml:id="sb368.3">
                                 <monogr>
                                     <title>Collection of English Miracle Plays, or Mysteries</title>
-                                    <author corresp="#marriott">Marriott, Wm.</author>
+                                    <author corresp="#marriott">
+                                        <persName>Marriott, Wm.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Schweighauser &amp; Co.</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#basel">Basel</pubPlace>
                                         <date when="1838"/>
                                     </imprint>
@@ -21019,12 +21186,17 @@
                             <biblStruct corresp="#owned" xml:id="sb368.4">
                                 <monogr>
                                     <title>Story of the Stick</title>
-                                    <author corresp="#real">Réal, A.</author>
+                                    <author corresp="#real">
+                                        <persName>Réal, A.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#bouton">
+                                            <persName>J. W. Bouton</persName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
