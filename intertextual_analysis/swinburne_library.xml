@@ -451,6 +451,9 @@
                         <placeName type="preferred">Santiago</placeName>
                         <placeName>Santiago de Chile</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7019047" xml:id="sheffield">
+                        <placeName type="preferred">Sheffield</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7012346" xml:id="strasbourg">
                         <placeName type="preferred">Strasbourg</placeName>
                         <placeName>Argentum</placeName>
@@ -5092,9 +5095,17 @@
                         <orgName source="http://id.loc.gov/authorities/names/n86080591">Heugel 
                             (Firm)</orgName>
                     </org>
+                    <org xml:id="hodder_stoughton">
+                        <orgName source="http://id.loc.gov/authorities/names/n50057721">Hodder 
+                            and Stoughton</orgName>
+                    </org>
                     <org xml:id="houghton_mifflin_company">
                         <orgName source="http://id.loc.gov/authorities/names/n88002745">Houghton, 
                             Mifflin and Company</orgName>
+                    </org>
+                    <org xml:id="hunt_clarke">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2004005822">Hunt 
+                            and Clarke</orgName>
                     </org>
                     <org xml:id="hurst_robinson_co">
                         <orgName source="http://id.loc.gov/authorities/names/n84168493">Hurst, 
@@ -5107,6 +5118,10 @@
                     <org xml:id="indian_press">
                         <orgName source="http://id.loc.gov/authorities/names/no2002100455">Indian 
                             Press (Allahabad, India)</orgName>
+                    </org>
+                    <org xml:id="j_hetzel_et_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/n88043766">Librairie J. Hetzel 
+                            et cie</orgName>
                     </org>
                     <org xml:id="j_m_dent_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2008053834">J.M. 
@@ -5239,6 +5254,10 @@
                     <org xml:id="oxford_university_press">
                         <orgName source="http://id.loc.gov/authorities/names/n80126136">Oxford 
                             University Press</orgName>
+                    </org>
+                    <org xml:id="pagnerre_firm">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008082820">Pagnerre 
+                            (Firm)</orgName>
                     </org>
                     <org xml:id="percy_society">
                         <orgName source="http://id.loc.gov/authorities/names/no89010528">Percy
@@ -5549,6 +5568,11 @@
                         <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
                             Domenico</persName>
                     </person>
+                    <person xml:id="cawthorn">
+                        <persName source="http://id.loc.gov/authorities/names/no2009021693">Cawthorn, 
+                            James, -1833</persName>
+                        <death when="1833"/>
+                    </person>
                     <person xml:id="chapple">
                         <persName source="http://id.loc.gov/authorities/names/nr93018783">Chapple, 
                             Clement</persName>
@@ -5726,6 +5750,10 @@
                         <persName source="http://id.loc.gov/authorities/names/n50028938">Hooper, 
                             S. (Samuel)</persName>
                     </person>
+                    <person xml:id="houssiaux">
+                        <persName source="http://id.loc.gov/authorities/names/no2011145806">Houssiaux, 
+                            Alexandre</persName>
+                    </person>
                     <person xml:id="hunt_j">
                         <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
                             John, 1775-1848</persName>
@@ -5772,6 +5800,12 @@
                     <person xml:id="labitte">
                         <persName source="http://id.loc.gov/authorities/names/n83227335">Labitte, 
                             A.</persName>
+                    </person>
+                    <person xml:id="lacy">
+                        <persName source="http://id.loc.gov/authorities/names/n83061181">Lacy, 
+                            Thomas Hailes, 1809-1873</persName>
+                        <birth when="1809"/>
+                        <death when="1873"/>
                     </person>
                     <person xml:id="lane">
                         <persName source="http://id.loc.gov/authorities/names/n81042780">Lane, 
@@ -6038,6 +6072,12 @@
                             Thomas, 1570?-1635?</persName>
                         <birth when="1570" cert="unknown"/>
                         <death when="1635" cert="unknown"/>
+                    </person>
+                    <person xml:id="tilt">
+                        <persName source="http://id.loc.gov/authorities/names/nr93002483">Tilt, 
+                            Charles, 1797-1861</persName>
+                        <birth when="1797"/>
+                        <death when="1861"/>
                     </person>
                     <person xml:id="tinsley">
                         <persName source="http://id.loc.gov/authorities/names/nr93008083">Tinsley, 
@@ -21210,9 +21250,15 @@
                                 <monogr>
                                     <title>Comic Annual for 1832, '34, '35, '37, '38, and
                                         '42</title>
-                                    <author corresp="#hood">Hood, Thos.</author>
+                                    <author corresp="#hood">
+                                        <persName>Hood, Thos.</persName>
+                                    </author>
                                     <note type="description">humorous illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#tilt">
+                                            <persName>Charles Tilt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1832" to="1842"/>
                                     </imprint>
                                     <extent>
@@ -21238,7 +21284,9 @@
                                 <monogr>
                                     <title>Works, Comic and Serious, in Prose and Verse, with
                                         Notes</title>
-                                    <author corresp="#hood">Hood, T.</author>
+                                    <author corresp="#hood">
+                                        <persName>Hood, T.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">his Son</name>
@@ -21282,11 +21330,17 @@
                             <biblStruct corresp="#owned" xml:id="sb371.1">
                                 <monogr>
                                     <title>Peter Priggins, the College Scout</title>
-                                    <author corresp="#hook">Hook, Theodore</author>
+                                    <author corresp="#hook">
+                                        <persName>Hook, Theodore</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations by Phiz,
                                         uncut, stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#colburn">
+                                            <persName>Henry Colburn</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1841"/>
                                     </imprint>
                                     <extent>
@@ -21305,7 +21359,9 @@
                             <biblStruct corresp="#owned" xml:id="sb372.1">
                                 <monogr>
                                     <title>Costume of the Ancients</title>
-                                    <author corresp="#hope">Hope, Thos.</author>
+                                    <author corresp="#hope">
+                                        <persName>Hope, Thos.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">plates,
                                         uncut, presentations copy with inscription, royal
                                         8vo.</note>
@@ -21327,13 +21383,19 @@
                             <biblStruct corresp="#owned" xml:id="sb373.1">
                                 <monogr>
                                     <title>Death of Marlowe, a Tragedy</title>
-                                    <author corresp="#horne">Horne, R. H.</author>
+                                    <author corresp="#horne">
+                                        <persName>Horne, R. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon Chas. Swinburne, with the
                                         admiring regards of R. H. Horne, <date when="1871-12">Decr.
                                             1871</date></note>
                                     <imprint>
+                                        <publisher corresp="#lacy">
+                                            <persName>Thomas Hailes Lacy</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                 </monogr>
@@ -21344,7 +21406,9 @@
                                 <monogr>
                                     <title>Cosmo de' Medici, an Historical Tragedy, and other
                                         Poems</title>
-                                    <author corresp="#horne">Horne, R. H.</author>
+                                    <author corresp="#horne">
+                                        <persName>Horne, R. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">50
                                         copies only for sale, frontispiece, uncut, presentation copy
                                         with inscription</note>
@@ -21353,6 +21417,11 @@
                                             when="1876-01-08">Jan. 8/76</date></note>
                                     <edition corresp="#deluxe_ed" xml:lang="fr">Édition de Luxe</edition>
                                     <imprint>
+                                        <publisher>
+                                            <persName>George Rivers</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -21365,7 +21434,9 @@
                                 <monogr>
                                     <title>King Nihil's Round Table, or the Regicides'
                                         Symposium</title>
-                                    <author corresp="#horne">Horne, R. H.</author>
+                                    <author corresp="#horne">
+                                        <persName>Horne, R. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         "Private unpublished, <date when="1882-02-15">Feby.
                                             15/82.</date> R.H.H." presentation copy with
@@ -21384,9 +21455,15 @@
                             <biblStruct corresp="#owned" xml:id="sb375.1">
                                 <monogr>
                                     <title>Mary Queen of Scots and her Accusers</title>
-                                    <author corresp="#hosack">Hosack, J.</author>
+                                    <author corresp="#hosack">
+                                        <persName>Hosack, J.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            <orgName>William Blackwood and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                     <extent>
@@ -21401,9 +21478,15 @@
                             <biblStruct corresp="#owned" xml:id="sb375.2">
                                 <monogr>
                                     <title>The Girlhood of Mary Queen of Scots</title>
-                                    <author corresp="#stoddart_j">Stoddart, Jane T.</author>
+                                    <author corresp="#stoddart_j">
+                                        <persName>Stoddart, Jane T.</persName>
+                                    </author>
                                     <note type="description">6 illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#hodder_stoughton">
+                                            <orgName>Hodder and Stoughton</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                 </monogr>
@@ -21413,12 +21496,19 @@
                             <biblStruct corresp="#owned" xml:id="sb375.3">
                                 <monogr>
                                     <title>Mary Queen of Scots in Captivity</title>
-                                    <author corresp="#leader">Leader, J. D.</author>
+                                    <author corresp="#leader">
+                                        <persName>Leader, J. D.</persName>
+                                    </author>
                                     <note type="description">portraits</note>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Leader &amp; Sons</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#sheffield">Sheffield</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                 </monogr>
@@ -21430,7 +21520,9 @@
                             <biblStruct corresp="#owned" xml:id="sb376.1">
                                 <monogr>
                                     <title>Ford Madox Brown, a Record of his Life and Work</title>
-                                    <author corresp="#ford_fm">Hueffer, Ford M.</author>
+                                    <author corresp="#ford_fm">
+                                        <persName>Hueffer, Ford M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">numerous
                                         illustrations, fancy cloth, top edge gilt, presentation copy
                                         with inscription</note>
@@ -21438,6 +21530,10 @@
                                         Theodore Watts-Dunton, <date when="1900-04">April,
                                             1900</date></note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -21449,9 +21545,14 @@
                             <biblStruct corresp="#owned" xml:id="sb377.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Contemplations</title>
-                                    <author corresp="#hugo">Hugo, Victor</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, Victor</persName>
+                                    </author>
                                     <note type="description">morocco, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#michel_levy_freres">
+                                            <orgName>Michel Lévy frères</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1856"/>
                                     </imprint>
@@ -21467,12 +21568,17 @@
                             <biblStruct corresp="#owned" xml:id="sb377.2">
                                 <monogr>
                                     <title xml:lang="fr">Thèâtre Complet</title>
-                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">
+                                        <persName>Vacquerie, Aug.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="18"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#calmann_levy">
+                                            <persName>Calmann Lévy</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
@@ -21490,9 +21596,14 @@
                             <biblStruct corresp="#owned" xml:id="sb378.1">
                                 <monogr>
                                     <title xml:lang="fr">La Legende des Siècles</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description">vellum, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#michel_levy_freres">
+                                            <orgName>Michel Lévy frères</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1859"/>
                                     </imprint>
@@ -21508,7 +21619,9 @@
                             <biblStruct corresp="#owned" xml:id="sb378.2">
                                 <monogr>
                                     <title>Salammbō</title>
-                                    <author corresp="#flaubert">Flaubert, G.</author>
+                                    <author corresp="#flaubert">
+                                        <persName>Flaubert, G.</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -21523,12 +21636,17 @@
                             <biblStruct corresp="#owned" xml:id="sb378.3">
                                 <monogr>
                                     <title xml:lang="fr">Les Miettes de l'Histoire</title>
-                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">
+                                        <persName>Vacquerie, Aug.</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#pagnerre_firm">
+                                            <orgName>Pagnerre</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1863"/>
                                     </imprint>
@@ -21541,12 +21659,17 @@
                             <biblStruct corresp="#owned" xml:id="sb379.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Chatiments</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">Walter Theodore Watts from his friend
                                         Algernon Charles Swinburne</note>
                                     <imprint>
+                                        <publisher corresp="#michel_levy_freres">
+                                            <orgName>Michel Lévy frères</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
@@ -21559,13 +21682,18 @@
                             <biblStruct corresp="#owned" xml:id="sb380.1">
                                 <monogr>
                                     <title xml:lang="fr">Torquemada, Drame</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the Author to Swinburne, with
                                         autograph inscription</note>
                                     <note type="inscription" xml:lang="fr">À mon cher Swinburne,
                                         Victor Hugo</note>
                                     <imprint>
+                                        <publisher corresp="#calmann_levy">
+                                            <persName>Calmann Lévy</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
@@ -21579,7 +21707,9 @@
                                 <monogr>
                                     <title xml:lang="fr">La Legende des Siècles, Tome cinquième et
                                         dernier</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author with autograph inscription
                                         on half-title</note>
@@ -21602,7 +21732,9 @@
                             <biblStruct corresp="#owned" xml:id="sb382.1">
                                 <monogr>
                                     <title>Hernani, a Drama, with Introduction</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated into English Verse</resp>
                                         <name full="yes">R. Farquharson Sharp</name>
@@ -21626,12 +21758,15 @@
                             <biblStruct corresp="#owned" xml:id="sb383.1">
                                 <monogr>
                                     <title>OEvres</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits,
                                         uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
-                                        <date when="1875"/><!-- I think this is a series published by A. Lemerre. They aren't numbered 1-10. see HathiTrust -->
+                                        <date when="1875"/>
+                                        <!-- I think this is a series published by A. Lemerre. They aren't numbered 1-10. see HathiTrust -->
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="10"/>
@@ -21646,12 +21781,20 @@
                             <biblStruct corresp="#owned" xml:id="sb384.1">
                                 <monogr>
                                     <title xml:lang="fr">OEvres Complètes</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">wanting Poésie XV and
                                         XVI, uncut</note>
                                     <edition xml:lang="fr">Edition Definitive d'après les Manuscrits
                                         Originaux</edition>
                                     <imprint>
+                                        <publisher corresp="#j_hetzel_et_cie">
+                                            <orgName>J. Hetzel &amp; Cie</orgName>
+                                        </publisher>
+                                        <publisher corresp="#quantin">
+                                            <orgName>Maison Quantin</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace><!-- Edition Hetzel Quantin -->
                                         <date from="1880" to="1885"/>
                                     </imprint>
@@ -21666,19 +21809,23 @@
                             <biblStruct corresp="#owned" xml:id="sb385.1">
                                 <monogr>
                                     <title>OEvres, Poésie XIII</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne</note>
                                     <note type="inscription" xml:lang="fr">À mon grand et cher
                                         Swinburne. Victor Hugo</note>
                                     <imprint>
+                                        <publisher corresp="#houssiaux">
+                                            <persName>A. Houssiaux</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/uvrescompltesd13hugo/page/n10/mode/1up/search/OEvres%2C+Po%C3%A9sie+XIII?q=OEvres%2C+Po%C3%A9sie+XIII"
-                                />
+                                    target="https://archive.org/details/uvrescompltesd13hugo/page/n10/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb386">
@@ -21686,13 +21833,19 @@
                                 <monogr>
                                     <title>Translations from his Poems, by Henry Carrington, Dean of
                                         Bocking</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation #uncut">portrait, vellum, uncut, presentation
                                         copy from the translator, MS. note on fly-leaf in
                                         Swinburne's hand-writing</note>
                                     <note type="inscription">And deans rush in where poets fear to
                                         tread</note>
                                     <imprint>
+                                        <publisher corresp="#scott_wa_publisher">
+                                            <persName>Walter Scott</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
                                 </monogr>
@@ -21704,10 +21857,16 @@
                             <biblStruct corresp="#owned" xml:id="sb387.1">
                                 <monogr>
                                     <title>The Reflector, a Quarterly Magazine</title>
-                                    <author corresp="#hunt_l">Hunt, Leigh</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, Leigh</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#hunt_j" >
+                                            <persName>John Hunt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1811"/>
                                     </imprint>
                                     <extent>
@@ -21719,17 +21878,29 @@
                                 <relatedItem n="2" type="ht"
                                     target="https://hdl.handle.net/2027/inu.30000093234908"/>
                             </biblStruct>
-                            <bibl xml:id="sb387.2">
-                                <title>Imagination and Fancy</title>
-                                <author corresp="#hunt_l">Hunt, Leigh</author>
-                                <date when="1846"/>
+                            <biblStruct xml:id="sb387.2">
+                                <monogr>
+                                    <title>Imagination and Fancy</title>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, Leigh</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1846"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/umn.319510024000388"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb387.3">
                                 <monogr>
                                     <title>Book for a Corner</title>
-                                    <author corresp="#hunt_l">Hunt, Leigh</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, Leigh</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -21753,11 +21924,17 @@
                             <biblStruct corresp="#owned" xml:id="sb388.1">
                                 <monogr>
                                     <title>The Story of Rimini, a Poem</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">original boards,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <orgName>John Murray</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1816"/>
                                     </imprint>
                                 </monogr>
@@ -21769,10 +21946,16 @@
                             <biblStruct corresp="#owned" xml:id="sb389.1">
                                 <monogr>
                                     <title>Foliage, or Poems Original and Translated</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description">half calf, marbled edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#c_and_j_ollier">
+                                            <orgName>C. and J. Ollier</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1818"/>
                                     </imprint>
                                 </monogr>
@@ -21782,9 +21965,15 @@
                             <biblStruct corresp="#owned" xml:id="sb389.2">
                                 <monogr>
                                     <title>Feast of the Poets</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#cawthorn">
+                                            <persName>James Cawthorn</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1814"/>
                                     </imprint>
                                 </monogr>
@@ -21794,7 +21983,9 @@
                             <biblStruct corresp="#owned" xml:id="sb389.3">
                                 <monogr>
                                     <title>Poems by Thomas Gent, 1820</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description">in 1 vol. half calf</note>
                                     <imprint>
                                         <date from="1814" to="1820"/>
@@ -21805,7 +21996,7 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.31175035202699"/>
-                                <note type="fulltext">The item in this lot was not located, so waht
+                                <note type="fulltext">The item in this lot was not located, so what
                                     has been chosen instead is a work by T. Gent called "Poetic
                                     sketches" from 1805.</note>
                             </biblStruct>
@@ -21814,10 +22005,16 @@
                             <biblStruct corresp="#owned" xml:id="sb390.1">
                                 <monogr>
                                     <title>The Companion</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description">half calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#hunt_clarke">
+                                            <orgName>Hunt and Clarke</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1828"/>
                                     </imprint>
                                 </monogr>
@@ -21827,10 +22024,16 @@
                             <biblStruct corresp="#owned" xml:id="sb390.2">
                                 <monogr>
                                     <title>The Liberal, Verse and Prose from the South</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#hunt_j">
+                                            <persName>John Hunt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1822" to="1823"/>
                                     </imprint>
                                     <extent>
@@ -21845,12 +22048,19 @@
                             <biblStruct corresp="#owned" xml:id="sb390.3">
                                 <monogr>
                                     <title>The Indicator</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Joseph Appleyard</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1822"/>
                                     </imprint>
                                 </monogr>
@@ -21862,10 +22072,16 @@
                             <biblStruct corresp="#owned" xml:id="sb391.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#hunt_l">Hunt, L.</author>
+                                    <author corresp="#hunt_l">
+                                        <persName>Hunt, L.</persName>
+                                    </author>
                                     <note type="description">half calf gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#moxon">
+                                            <persName>Edward Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1832"/>
                                     </imprint>
                                 </monogr>
