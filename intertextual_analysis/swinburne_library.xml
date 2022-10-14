@@ -4939,6 +4939,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n81038854">Officina 
                             Bodoni</orgName>
                     </org>
+                    <org xml:id="bourdilliat_cie">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008183380">Bourdilliat 
+                            et Cie</orgName>
+                    </org>
                     <org xml:id="boussod_valadon_cie">
                         <orgName source="http://id.loc.gov/authorities/names/n83317533">Boussod,
                             Valadon &amp; Cie</orgName>
@@ -5098,6 +5102,10 @@
                     <org xml:id="henry_s_king_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr2003029941">Henry 
                             S. King (Publisher)</orgName>
+                    </org>
+                    <org xml:id="heredi_bonelli">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2005011576">Heredi 
+                            di Giovanni Maria Bonelli</orgName>
                     </org>
                     <org xml:id="heugel">
                         <orgName source="http://id.loc.gov/authorities/names/n86080591">Heugel 
@@ -5287,6 +5295,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no99088998">Reeves 
                             &amp; Turner</orgName>
                     </org>
+                    <org xml:id="roberts_brothers">
+                        <orgName source="http://id.loc.gov/authorities/names/n87891395">Roberts 
+                            Brothers (Boston, Mass.)</orgName>
+                    </org>
                     <org xml:id="richard_bentley">
                         <orgName source="http://id.loc.gov/authorities/names/nr90014415">Richard 
                             Bentley (Firm)</orgName>
@@ -5473,6 +5485,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr93020052">Adlard, 
                             James Evan</persName>
                     </person>
+                    <person xml:id="allen_g">
+                        <persName source="http://id.loc.gov/authorities/names/nr93010126">Allen, 
+                            George, 1832-1907</persName>
+                        <birth when="1832"/>
+                        <death when="1907"/>
+                    </person>
                     <person xml:id="antonio">
                         <persName source="http://id.loc.gov/authorities/names/nr2002025102">Benedetti, 
                             Giovanni Antonio de', active 1492-approximately 1511</persName>
@@ -5499,6 +5517,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94039708">Bentley, 
                             Richard, -1697</persName>
                         <death when="1697"/>
+                    </person>
+                    <person xml:id="bentley_1794">
+                        <persName source="http://id.loc.gov/authorities/names/no97043431">Bentley, 
+                            Richard, 1794-1871</persName>
+                        <birth when="1794"/>
+                        <death when="1871"/>
                     </person>
                     <person xml:id="bindoni">
                         <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
@@ -5758,6 +5782,11 @@
                             Henry, -1704</persName>
                         <death when="1704"/>
                     </person>
+                    <person xml:id="hookham">
+                        <persName source="http://id.loc.gov/authorities/names/no2022083845">Hookham, 
+                            T. (Thomas), -1846</persName>
+                        <death when="1846"/>
+                    </person>
                     <person xml:id="hooper">
                         <persName source="http://id.loc.gov/authorities/names/n50028938">Hooper, 
                             S. (Samuel)</persName>
@@ -5959,6 +5988,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr93003863">Newby, 
                             Thomas Cautley</persName>
                     </person>
+                    <person xml:id="nichol_ja">
+                        <persName source="http://id.loc.gov/authorities/names/no2010000815">Nichol, 
+                            James, active 1850-1869</persName>
+                        <floruit from="1850" to="1869"/>
+                    </person>
                     <person xml:id="nichols">
                         <persName source="http://id.loc.gov/authorities/names/n80032806">Nichols,
                             John, 1745-1826</persName>
@@ -6035,6 +6069,12 @@
                             Justus Starr, 1810-1888</persName>
                         <birth when="1810"/>
                         <death when="1888"/>
+                    </person>
+                    <person xml:id="redway">
+                        <persName source="http://id.loc.gov/authorities/names/nr2003020834">Redway, 
+                            George, active 1883-1900</persName>
+                        <birth when="1883"/>
+                        <death when="1900"/>
                     </person>
                     <person xml:id="rodd_t">
                         <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
@@ -23603,21 +23643,37 @@
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uva.x001173455"/>
                             </biblStruct>
-                            <bibl type="lot" xml:id="sb431.2">
-                                <title>Essays of Elia</title>
-                                <author corresp="#lamb_c">Lamb, Charles</author>
-                                <date when="1849"/>
+                            <biblStruct type="lot" xml:id="sb431.2">
+                                <monogr>
+                                    <title>Essays of Elia</title>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, Charles</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#moxon">
+                                            <persName>Edward Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1849"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/coo.31924105428894"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb431.3">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#cooper_t">Cooper, T.</author>
+                                    <author corresp="#cooper_t">
+                                        <persName>Cooper, T.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#hodder_stoughton">
+                                            <orgName>Hodder and Stoughton</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -23630,7 +23686,9 @@
                                 <monogr>
                                     <title>Beauty and the Beast, reprinted, with Notes, etc. by R.
                                         H. Shepherd</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">only 100 copies printed, presentation
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne from his grateful
@@ -23638,6 +23696,10 @@
                                         Kingston Vale, <date when="1886-02-24">Feb. 24,
                                         1886</date></note>
                                     <imprint>
+                                        <publisher corresp="#redway">
+                                            <persName>George Redway</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                 </monogr>
@@ -23649,7 +23711,9 @@
                             <biblStruct corresp="#owned" xml:id="sb433.1">
                                 <monogr>
                                     <title>Specimens of English Dramatic Poets</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">I. Gollanez</name>
@@ -23657,6 +23721,10 @@
                                     <note type="description" corresp="#uncut">portraits,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#j_m_dent_co">
+                                            <orgName>J. M. Dent and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                     <extent>
@@ -23671,13 +23739,19 @@
                             <biblStruct corresp="#owned" xml:id="sb433.2">
                                 <monogr>
                                     <title>Charles Lamb and the Lloyds</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">E. V. Lucas</name>
                                     </respStmt>
                                     <note type="description">portraits</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -23688,11 +23762,17 @@
                                 <monogr>
                                     <title>Poems, Plays and Miscellaneous Essays, with Notes, etc.
                                         by Alfred Ainger</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -23705,10 +23785,15 @@
                                 <monogr>
                                     <title>Works, with Sketch of his Life by Sir T. N.
                                         Talfourd</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <note type="description">portrait, calf gilt, gilt edges</note>
                                     <imprint>
-                                        <publisher corresp="#moxon">Moxon</publisher>
+                                        <publisher corresp="#moxon">
+                                            <persName>Edward Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1850"/>
                                     </imprint>
                                     <extent>
@@ -23730,13 +23815,19 @@
                                 <monogr>
                                     <title>Life, Letters and Writings, with Notes and
                                         Illustrations</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Percy Fitzgerald</name>
                                     </respStmt>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#edward_moxon_co">
+                                            <orgName>E. Moxon and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                     <extent>
@@ -23754,8 +23845,7 @@
                                 <relatedItem n="5" type="ia"
                                     target="https://archive.org/details/lamblifelettersw05lamb/page/n6/mode/2up"/>
                                 <relatedItem n="6" type="ia"
-                                    target="https://archive.org/details/lamblifelettersw06lamb/page/n6/mode/2up"
-                                />
+                                    target="https://archive.org/details/lamblifelettersw06lamb/page/n6/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb436">
@@ -23801,6 +23891,10 @@
                                     <note type="description" corresp="#uncut">portrait, red cloth,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                     <extent>
@@ -23828,7 +23922,9 @@
                             <biblStruct corresp="#owned" xml:id="sb438.1">
                                 <monogr>
                                     <title>The Count Arezzi, a Tragedy</title>
-                                    <author corresp="#landor_r">Landor, Robt. E.</author>
+                                    <author corresp="#landor_r">
+                                        <persName>Landor, Robt. E.</persName>
+                                    </author>
                                     <note type="description"/>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -23841,13 +23937,19 @@
                                 <monogr>
                                     <title>The Earl of Brecon, a Tragedy, Faith's Fraud, a Tragedy,
                                         and The Ferryman, a Drama</title>
-                                    <author corresp="#landor_r">Landor, Robt. E.</author>
+                                    <author corresp="#landor_r">
+                                        <persName>Landor, Robt. E.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">half calf gilt, marbled edges,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">Rossetti, P.—R. B. To Algernon
                                         Swinburne, <date when="1866">1866</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#saunders_and_otley">
+                                            <orgName>Saunder's and Otley</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1841"/>
                                     </imprint>
                                     <extent>
@@ -23862,10 +23964,16 @@
                             <biblStruct corresp="#owned" xml:id="sb439.1">
                                 <monogr>
                                     <title>The Fawn of Sertorious</title>
-                                    <author corresp="#landor_r">Landor, Robt. E.</author>
+                                    <author corresp="#landor_r">
+                                        <persName>Landor, Robt. E.</persName>
+                                    </author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#longman_brown_green_longmans">
+                                            <orgName>Longman, Brown, Green, &amp; Longmans</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1846"/>
                                     </imprint>
                                     <extent>
@@ -23882,7 +23990,9 @@
                             <biblStruct corresp="#owned" xml:id="sb440.1">
                                 <monogr>
                                     <title>Gebir, a Poem</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <imprint>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1803"/>
@@ -23892,15 +24002,22 @@
                             </biblStruct>
                             <bibl xml:id="sb440.2">
                                 <title>Anthony and Octavius</title>
-                                <author corresp="#landor_w">Landor, W. S.</author>
+                                <author corresp="#landor_w">
+                                    <persName>Landor, W. S.</persName>
+                                </author>
                                 <date when="1858"/>
                                 <relatedItem type="none" target=""/>
                             </bibl>
                             <biblStruct corresp="#owned" xml:id="sb440.3">
                                 <monogr>
                                     <title>Hellenics, comprising Heroic Idylls, etc.</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#nichol_ja">
+                                            <persName>James Nichol</persName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1859"/>
                                     </imprint>
@@ -23914,7 +24031,9 @@
                                 <monogr>
                                     <title xml:lang="la">Idyllia nova quinque Heroum atque Heroidum,
                                         etc.</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <note type="description">calf gilt, marbled edges; The only
                                         edition of the scarce work mentioned by Lowndes was printed
                                         at Pisa in 1820</note>
@@ -23932,10 +24051,16 @@
                                 <monogr>
                                     <title>Imaginary Conversations of Literary Men and Statesmen,
                                         Both Series</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#colburn">
+                                            <persName>Henry Colburn</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1826" to="1829"/>
                                     </imprint>
                                     <extent>
@@ -23960,11 +24085,17 @@
                             <biblStruct corresp="#owned" xml:id="sb443.1">
                                 <monogr>
                                     <title>The Pentameron and Pentalogia</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">original cloth,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#saunders_and_otley">
+                                            <orgName>Saunders and Otley</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1837"/>
                                     </imprint>
                                 </monogr>
@@ -23976,9 +24107,15 @@
                             <biblStruct corresp="#owned" xml:id="sb444.1">
                                 <monogr>
                                     <title>Andrea of Hungary, and Giovanna of Naples</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#bentley_1794">
+                                            <persName>Richard Bentley</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1839"/>
                                     </imprint>
                                 </monogr>
@@ -23988,9 +24125,15 @@
                             <biblStruct corresp="#owned" xml:id="sb444.2">
                                 <monogr>
                                     <title>Heroic Idylls, with Additional Poems</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#newby">
+                                            <persName>T. Cautley Newby</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1863"/>
                                     </imprint>
                                 </monogr>
@@ -24000,7 +24143,9 @@
                             <biblStruct corresp="#owned" xml:id="sb444.3">
                                 <monogr>
                                     <title>Portraits</title>
-                                    <author corresp="#webster_a">Webster, Augusta</author>
+                                    <author corresp="#webster_a">
+                                        <persName>Webster, Augusta</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
@@ -24018,10 +24163,15 @@
                             <biblStruct corresp="#owned" xml:id="sb445.1">
                                 <monogr>
                                     <title>Dry Sticks Fagoted</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <note type="description">original cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#nichol_ja">
+                                            <persName>James Nichol</persName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
@@ -24032,13 +24182,18 @@
                             <biblStruct corresp="#owned" xml:id="sb445.2">
                                 <monogr>
                                     <title>In the Garden of Dreams</title>
-                                    <author corresp="#moulton_l">Moulton, L. Chandler</author>
+                                    <author corresp="#moulton_l">
+                                        <persName>Moulton, L. Chandler</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne with the
                                         admiring regards of Louise Chandler Moulton, <date
                                             when="1889-12">December, 1889</date></note>
                                     <imprint>
+                                        <publisher corresp="#roberts_brothers">
+                                            <orgName>Roberts Brothers</orgName>
+                                        </publisher>
                                         <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
@@ -24051,7 +24206,9 @@
                             <biblStruct corresp="#owned" xml:id="sb446.1">
                                 <monogr>
                                     <title>Pericles and Aspasia</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">C. G. Crump</name>
@@ -24059,6 +24216,10 @@
                                     <note type="description" corresp="#uncut">etchings by H.
                                         Railton, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#j_m_dent_co">
+                                            <orgName>J. M. Dent and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                     <extent>
@@ -24073,13 +24234,19 @@
                             <biblStruct corresp="#owned" xml:id="sb446.2">
                                 <monogr>
                                     <title>Letters and other Unpublished Writings</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">S. Wheeler</name>
                                     </respStmt>
                                     <note type="description">portraits</note>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -24089,12 +24256,18 @@
                             <biblStruct corresp="#owned" xml:id="sb446.3">
                                 <monogr>
                                     <title>Crotchet Castle</title>
-                                    <author corresp="#peacock">Peacock, T.</author>
+                                    <author corresp="#peacock">
+                                        <persName>Peacock, T.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#hookham">
+                                            <persName>T. Hookham</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1831"/>
                                     </imprint>
                                 </monogr>
@@ -24106,7 +24279,9 @@
                             <biblStruct corresp="#owned" xml:id="sb447.1">
                                 <monogr>
                                     <title>Letters, Private and Public</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Stephen Wheeler</name>
@@ -24114,6 +24289,10 @@
                                     <note type="description" corresp="#uncut">portrait, uncut, 2
                                         copies</note>
                                     <imprint>
+                                        <publisher corresp="#duckworth_co">
+                                            <orgName>Duckworth &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -24123,9 +24302,15 @@
                             <biblStruct corresp="#owned" xml:id="sb447.2">
                                 <monogr>
                                     <title>Imaginary Conversations of Greeks and Romans</title>
-                                    <author corresp="#landor_w">Landor, W. S.</author>
+                                    <author corresp="#landor_w">
+                                        <persName>Landor, W. S.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#moxon">
+                                            <persName>Edward Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
@@ -24135,7 +24320,9 @@
                             <biblStruct corresp="#owned" xml:id="sb447.3">
                                 <monogr>
                                     <title>Letters and Recollections of Sir Walter Scott</title>
-                                    <author corresp="#hughes">Hughes, Mrs.</author>
+                                    <author corresp="#hughes">
+                                        <persName>Hughes, Mrs.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. G. Hutchinson</name>
@@ -24145,6 +24332,10 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -24156,30 +24347,52 @@
                             <biblStruct corresp="#owned" xml:id="sb448.1">
                                 <monogr>
                                     <title>Old Friends, Essays in Epistolary Parody</title>
-                                    <author corresp="#lang">Lang, A.</author>
+                                    <author corresp="#lang">
+                                        <persName>Lang, A.</persName>
+                                    </author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwdf33"/>
                             </biblStruct>
-                            <bibl xml:id="sb448.2">
-                                <title>Letters on Literature</title>
-                                <author corresp="#lang">Lang, A.</author>
-                                <date when="1892"/>
+                            <biblStruct xml:id="sb448.2">
+                                <monogr>
+                                    <title>Letters on Literature</title>
+                                    <author corresp="#lang">
+                                        <persName>Lang, A.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1892"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/osu.32435078326238"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb448.3">
                                 <monogr>
                                     <title>Homeric Hymns</title>
-                                    <author corresp="#lang">Lang, A.</author>
+                                    <author corresp="#lang">
+                                        <persName>Lang, A.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="6"/></note>
                                     <imprint>
+                                        <publisher corresp="#allen_g">
+                                            <persName>George Allen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -24191,11 +24404,17 @@
                             <biblStruct corresp="#owned" xml:id="sb449.1">
                                 <monogr>
                                     <title xml:lang="fr">Nos Vieux Proverbes</title>
-                                    <author corresp="#larchey">Larchey, L.</author>
+                                    <author corresp="#larchey">
+                                        <persName>Larchey, L.</persName>
+                                    </author>
                                     <note type="description">illustrations, half morocco gilt, top
                                         edge gilt</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher>
+                                            <persName>P. Mouillot</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
@@ -24206,9 +24425,18 @@
                             <biblStruct corresp="#owned" xml:id="sb449.2">
                                 <monogr>
                                     <title xml:lang="fr">Balzac, sa Vie et ses OEuvres</title>
-                                    <author corresp="#surville">Surville, L.</author>
+                                    <author corresp="#surville">
+                                        <persName>Surville, L.</persName>
+                                    </author>
                                     <note type="description">half calf, marbled edges</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Jaccottet</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#bourdilliat_cie">
+                                            <orgName>Bourdilliat et Cie</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
@@ -24248,7 +24476,9 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb450.1">
                                 <monogr>
                                     <title>Classical Dictionary of Proper Names</title>
-                                    <author corresp="#lemprière">Lemprière</author>
+                                    <author corresp="#lemprière">
+                                        <persName>Lemprière</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>enlarged by</resp>
                                         <name full="yes">Anthon and Barker</name>
@@ -24273,7 +24503,9 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb451.1">
                                 <monogr>
                                     <title>Adventures of Gil Blas</title>
-                                    <author corresp="#le_sage">Lesage, A. R.</author>
+                                    <author corresp="#le_sage">
+                                        <persName>Lesage, A. R.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Martin Smart</name>
@@ -24306,6 +24538,9 @@
                                         aggiunte molte da Tomaso Porcacchi</title>
                                     <note type="description">old vellum</note>
                                     <imprint>
+                                        <publisher corresp="#heredi_bonelli">
+                                            <orgName>Heredi di Giovan Maria Bonelli</orgName>
+                                        </publisher>
                                         <pubPlace ref="#venice">in Venetia</pubPlace>
                                         <date when="1571"/>
                                     </imprint>
