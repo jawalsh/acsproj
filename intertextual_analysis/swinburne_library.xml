@@ -4903,6 +4903,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2016025058">Abbotsford 
                             Club (Edinburgh, Scotland)</orgName>
                     </org>
+                    <org xml:id="adam_charles_black">
+                        <orgName source="http://id.loc.gov/authorities/names/n50075615">Adam 
+                            and Charles Black (Firm)</orgName>
+                    </org>
                     <org xml:id="aedes_aldi">
                         <orgName source="http://id.loc.gov/authorities/names/no2015128037">Aedes
                             Aldi et Andreae Asulani Soceri</orgName>
@@ -5023,6 +5027,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n85046469">Daniel
                             Press</orgName>
                     </org>
+                    <org xml:id="deighton_bell_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2001026476">Deighton, 
+                            Bell, and Co.</orgName>
+                    </org>
                     <org xml:id="dodd_mead_company">
                         <orgName source="http://id.loc.gov/authorities/names/n83068916">Dodd, 
                             Mead &amp; Company</orgName>
@@ -5038,6 +5046,10 @@
                     <org xml:id="elkin_mathews_john_lane">
                         <orgName source="http://id.loc.gov/authorities/names/no2015126480">Elkin 
                             Mathews and John Lane (Firm)</orgName>
+                    </org>
+                    <org xml:id="everett_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2014025839">Everett 
+                            &amp; Co. (London, England)</orgName>
                     </org>
                     <org xml:id="fields_osgood_co">
                         <orgName source="http://id.loc.gov/authorities/names/no96011604">Fields, 
@@ -5070,6 +5082,10 @@
                     <org xml:id="george_bell_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no95020268">George 
                             Bell &amp; Sons</orgName>
+                    </org>
+                    <org xml:id="george_robertson_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2014036263">George 
+                            Robertson &amp; Company</orgName>
                     </org>
                     <org xml:id="george_routledge_and_sons">
                         <orgName source="http://id.loc.gov/authorities/names/n81144562">George 
@@ -5114,6 +5130,10 @@
                     <org xml:id="hodder_stoughton">
                         <orgName source="http://id.loc.gov/authorities/names/n50057721">Hodder 
                             and Stoughton</orgName>
+                    </org>
+                    <org xml:id="horace_cox">
+                        <orgName source="http://id.loc.gov/authorities/names/no2019012668">Horace 
+                            Cox (Firm)</orgName>
                     </org>
                     <org xml:id="houghton_mifflin_company">
                         <orgName source="http://id.loc.gov/authorities/names/n88002745">Houghton, 
@@ -5182,6 +5202,10 @@
                     <org xml:id="kelmscott">
                         <orgName source="http://id.loc.gov/authorities/names/n82126751">Kelmscott
                             Press</orgName>
+                    </org>
+                    <org xml:id="kerr_richardson">
+                        <orgName source="http://id.loc.gov/authorities/names/no2006119107">Kerr 
+                            &amp; Richardson</orgName>
                     </org>
                     <org xml:id="lawrence_bullen">
                         <orgName source="http://id.loc.gov/authorities/names/nr2003002951">Lawrence 
@@ -5632,6 +5656,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94015505">Cooke, 
                             William, active 1632-1642</persName>
                         <floruit from="1632" to="1642"/>
+                    </person>
+                    <person xml:id="coulon">
+                        <persName source="http://id.loc.gov/authorities/names/no2021017204">Coulon, 
+                            Willem, 1711-1782</persName>
+                        <birth when="1711"/>
+                        <death when="1782"/>
                     </person>
                     <person xml:id="crooke">
                         <persName source="http://id.loc.gov/authorities/names/nr95014267">Crooke, 
@@ -24558,6 +24588,9 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#coulon">
+                                            <persName>Gulielmi Coulon</persName>
+                                        </publisher>
                                         <pubPlace ref="#leeuwarden">Leorardiae</pubPlace>
                                         <date when="1747"/>
                                     </imprint>
@@ -24572,10 +24605,16 @@
                             <biblStruct corresp="#owned" xml:id="sb453.1">
                                 <monogr>
                                     <title>Nuts and Nutcrackers</title>
-                                    <author corresp="#lever">Lever, C.</author>
+                                    <author corresp="#lever">
+                                        <persName>Lever, C.</persName>
+                                    </author>
                                     <note type="description">illustrations by "Phiz"</note>
                                     <imprint>
-                                        <date>n.d.</date>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1857"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
@@ -24583,7 +24622,9 @@
                             </biblStruct>
                             <bibl xml:id="sb453.2">
                                 <title>Mowhawks, a Novel</title>
-                                <author corresp="#braddon">Braddon, Miss</author>
+                                <author corresp="#braddon">
+                                    <persName>Braddon, Miss</persName>
+                                </author>
                                 <date>n.d.</date>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112041509362"/>
@@ -24594,7 +24635,9 @@
                             <biblStruct corresp="#owned" xml:id="sb453.3">
                                 <monogr>
                                     <title>Alone on a Wide Wide Sea</title>
-                                    <author corresp="#russell">Russel, W. Clark</author>
+                                    <author corresp="#russell">
+                                        <persName>Russel, W. Clark</persName>
+                                    </author>
                                     <note type="etc">and other Novels<num value="52"/></note>
                                     <imprint>
                                         <date when="1893"/>
@@ -24614,10 +24657,17 @@
                             <biblStruct corresp="#owned" xml:id="sb454.1">
                                 <monogr>
                                     <title>The Monk, a Romance</title>
-                                    <author corresp="#lewis">Lewis, M. G.</author>
+                                    <author corresp="#lewis">
+                                        <persName>Lewis, M. G.</persName>
+                                    </author>
                                     <note type="description">portrait and etchings by R. C.
                                         Armour</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Gibbings &amp; Company</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -24634,12 +24684,18 @@
                             <biblStruct corresp="#owned" xml:id="sb454.2">
                                 <monogr>
                                     <title>Modern Painters, with Index</title>
-                                    <author corresp="#ruskin">Ruskin, J.</author>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin, J.</persName>
+                                    </author>
                                     <note type="description">wanting vol. IV</note>
                                     <note type="etc">
                                         <num value="20"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#allen_g">
+                                            <persName>George Allen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -24665,9 +24721,15 @@
                                 <monogr>
                                     <title>Dramatic Works, with Notes and Account of his Life and
                                         Writings by F. W. Fairholt</title>
-                                    <author corresp="#lyly">Lilly, John</author>
+                                    <author corresp="#lyly">
+                                        <persName>Lilly, John</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#smith_j">
+                                            <persName>John Russell Smith</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
                                     <extent>
@@ -24683,12 +24745,17 @@
                                 <monogr>
                                     <title>Ancient and Modern Scottish Songs and Heroic Ballads,
                                         etc.</title>
-                                    <author corresp="#herd">Herd, D.</author>
+                                    <author corresp="#herd">
+                                        <persName>Herd, D.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#kerr_richardson">
+                                            <orgName>Kerr &amp; Richardson</orgName>
+                                        </publisher>
                                         <pubPlace ref="#glasgow">Glasgow</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
@@ -24707,10 +24774,17 @@
                                 <monogr>
                                     <title>Short Introduction to Grammar, with Rules
                                         Construed</title>
-                                    <author corresp="#lily">Lilly, Wm.</author>
+                                    <author corresp="#lily">
+                                        <persName>Lilly, Wm.</persName>
+                                    </author>
                                     <note type="description">engraved titles and woodcut, old
                                         sheep</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Roger Norton</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1721"/>
                                     </imprint>
                                 </monogr>
@@ -24722,7 +24796,9 @@
                             <biblStruct corresp="#owned" xml:id="sb456.2">
                                 <monogr>
                                     <title>London Vocabulary, English and Latin</title>
-                                    <author corresp="#greenwood">Greenwood, Jas.</author>
+                                    <author corresp="#greenwood">
+                                        <persName>Greenwood, Jas.</persName>
+                                    </author>
                                     <note type="description">woodcuts</note>
                                     <note type="etc">
                                         <num value="5"/>
@@ -24740,30 +24816,52 @@
                             <biblStruct corresp="#owned" xml:id="sb457.1">
                                 <monogr>
                                     <title>Lyrics and other Poems</title>
-                                    <author corresp="#lindsay">Lindsay, Lady</author>
+                                    <author corresp="#lindsay">
+                                        <persName>Lindsay, Lady</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015053628692"/>
                             </biblStruct>
-                            <bibl xml:id="sb457.2">
-                                <title>Quest, a Fantastic Poem</title>
-                                <author corresp="#lindsay">Lindsay, Lady</author>
-                                <date when="1905"/>
+                            <biblStruct xml:id="sb457.2">
+                                <monogr>
+                                    <title>Quest, a Fantastic Poem</title>
+                                    <author corresp="#lindsay">
+                                        <persName>Lindsay, Lady</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1905"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ia"
                                     target="https://archive.org/details/godfreysquestaf00lindgoog/page/n11/mode/2up"/>
                                 <note type="fulltext">IA copy full title is "Godfrey's Quest: A
                                     Fantastic Poem"</note>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb457.3">
                                 <monogr>
                                     <title>Miscellanies</title>
-                                    <author corresp="#fitzgerald_e">Fitzgerald, E.</author>
+                                    <author corresp="#fitzgerald_e">
+                                        <persName>Fitzgerald, E.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -24773,11 +24871,17 @@
                             <biblStruct corresp="#owned" xml:id="sb457.4">
                                 <monogr>
                                     <title>Poems, with Memoir by Robert Bridges</title>
-                                    <author corresp="#dixon_rw">Dixon, R. W.</author>
+                                    <author corresp="#dixon_rw">
+                                        <persName>Dixon, R. W.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="12"/></note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1909"/>
                                     </imprint>
                                 </monogr>
@@ -24789,10 +24893,16 @@
                             <biblStruct corresp="#owned" xml:id="sb458.1">
                                 <monogr>
                                     <title>The Lake Country</title>
-                                    <author corresp="#linton">Linton, E. Lynn</author>
+                                    <author corresp="#linton">
+                                        <persName>Linton, E. Lynn</persName>
+                                    </author>
                                     <note type="description">illustrations by W. J. Linton, cloth
                                         gilt, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1864"/>
                                     </imprint>
                                 </monogr>
@@ -24802,9 +24912,15 @@
                             <biblStruct corresp="#owned" xml:id="sb458.2">
                                 <monogr>
                                     <title>Highways and Byways in Yorkshire</title>
-                                    <author corresp="#norway">Norway, A. H.</author>
+                                    <author corresp="#norway">
+                                        <persName>Norway, A. H.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -24814,7 +24930,9 @@
                             <biblStruct corresp="#owned" xml:id="sb458.3">
                                 <monogr>
                                     <title>Old Yorkshire</title>
-                                    <author corresp="#smith">Smith, W.</author>
+                                    <author corresp="#smith">
+                                        <persName>Smith, W.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
                                         <date when="1882"/>
@@ -24851,7 +24969,9 @@
                                 <monogr>
                                     <title>Christianity in the Cartoons, referred to Artistic
                                         Treatment and Historic Fact</title>
-                                    <author corresp="#lloyd">Lloyd, W. Watkiss</author>
+                                    <author corresp="#lloyd">
+                                        <persName>Lloyd, W. Watkiss</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait and
                                         illustrations, presentation copy with inscription</note>
                                     <note type="inscription">To A. C. Swinburne, W. Watkiss
@@ -24869,11 +24989,18 @@
                             <biblStruct corresp="#owned" xml:id="sb461.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#locker-lampson">Locker, Fred</author>
+                                    <author corresp="#locker-lampson">
+                                        <persName>Locker, Fred</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         "Not Published," frontispiece by G. Cruikshank, half
                                         morocco, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>John Wilson</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
@@ -24885,10 +25012,15 @@
                             <biblStruct corresp="#owned" xml:id="sb462.1">
                                 <monogr>
                                     <title>Memoirs of Sir Walter Scott</title>
-                                    <author corresp="#lockhart">Lockhart, J. G.</author>
+                                    <author corresp="#lockhart">
+                                        <persName>Lockhart, J. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">frontispiece, half morocco, uncut,
                                         marbled edges, in case</note>
                                     <imprint>
+                                        <publisher corresp="#adam_charles_black">
+                                            <orgName>Adam and Charles Black</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
@@ -24923,9 +25055,14 @@
                                 <monogr>
                                     <title>Glaucus and Silla, with other Lyrical and Pastoral
                                         Poems</title>
-                                    <author corresp="#lodge">Lodge, Thos.</author>
+                                    <author corresp="#lodge">
+                                        <persName>Lodge, Thos.</persName>
+                                    </author>
                                     <note type="description">half morocco, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>C. Whittingham</orgName>
+                                        </publisher>
                                         <pubPlace ref="#chiswick">Chiswick</pubPlace>
                                         <date when="1819"/>
                                     </imprint>
@@ -24948,6 +25085,9 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>C. Whittingham</orgName>
+                                        </publisher>
                                         <pubPlace ref="#chiswick">Chiswick</pubPlace>
                                         <date when="1818"/>
                                     </imprint>
@@ -24960,7 +25100,9 @@
                             <biblStruct corresp="#owned" xml:id="sb464.1">
                                 <monogr>
                                     <title>The Biglow Papers, with Notes, etc., Both Series</title>
-                                    <author corresp="#lowell">Lowell, J. R.</author>
+                                    <author corresp="#lowell">
+                                        <persName>Lowell, J. R.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">H. Wilbur</name>
@@ -24983,9 +25125,15 @@
                             <biblStruct corresp="#owned" xml:id="sb464.2">
                                 <monogr>
                                     <title>Mr. Punch's Pocket Ibsen</title>
-                                    <author corresp="#anstey">Anstey, F.</author>
+                                    <author corresp="#anstey">
+                                        <persName>Anstey, F.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -24995,12 +25143,18 @@
                             <biblStruct corresp="#owned" xml:id="sb464.3">
                                 <monogr>
                                     <title>Mr. Punch's Prize Novels</title>
-                                    <author corresp="#lehmann">Lehmann, R. C.</author>
+                                    <author corresp="#lehmann">
+                                        <persName>Lehmann, R. C.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#bradbury_agnew_co">
+                                            <orgName>Bradbury, Agnew, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -25012,9 +25166,15 @@
                             <biblStruct corresp="#owned" xml:id="sb465.1">
                                 <monogr>
                                     <title>Memoirs of Eton and Etonians</title>
-                                    <author corresp="#lubbock">Lubbock, Alfred</author>
+                                    <author corresp="#lubbock">
+                                        <persName>Lubbock, Alfred</persName>
+                                    </author>
                                     <note type="description">portraits and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -25024,9 +25184,15 @@
                             <biblStruct corresp="#owned" xml:id="sb465.2">
                                 <monogr>
                                     <title>Eton in the Forties</title>
-                                    <author corresp="#coleridge">Coleridge, A. D.</author>
+                                    <author corresp="#coleridge">
+                                        <persName>Coleridge, A. D.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#richard_bentley_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -25036,12 +25202,18 @@
                             <biblStruct corresp="#owned" xml:id="sb465.3">
                                 <monogr>
                                     <title>Annals of the Westminster School</title>
-                                    <author corresp="#sargeaunt">Sargeaunt, John</author>
+                                    <author corresp="#sargeaunt">
+                                        <persName>Sargeaunt, John</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -25053,7 +25225,9 @@
                             <biblStruct corresp="#owned" xml:id="sb466.1">
                                 <monogr>
                                     <title>Life of Charles Lamb</title>
-                                    <author corresp="#lucas">Lucas, E. V.</author>
+                                    <author corresp="#lucas">
+                                        <persName>Lucas, E. V.</persName>
+                                    </author>
                                     <note type="description">50 illustrations</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -25074,9 +25248,15 @@
                             <biblStruct corresp="#owned" xml:id="sb466.2">
                                 <monogr>
                                     <title>Life of Sir Richard Burton</title>
-                                    <author corresp="#wright_t">Wright, Thos.</author>
+                                    <author corresp="#wright_t">
+                                        <persName>Wright, Thos.</persName>
+                                    </author>
                                     <note type="description">64 plates</note>
                                     <imprint>
+                                        <publisher corresp="#everett_co">
+                                            <orgName>Everett &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -25091,12 +25271,18 @@
                             <biblStruct corresp="#owned" xml:id="sb466.3">
                                 <monogr>
                                     <title>The Real Blake, a Portrait Biography</title>
-                                    <author corresp="#ellis_e">Ellis, Edwin J.</author>
+                                    <author corresp="#ellis_e">
+                                        <persName>Ellis, Edwin J.</persName>
+                                    </author>
                                     <note type="description">13 illustrations</note>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -25108,7 +25294,9 @@
                             <biblStruct corresp="#owned" xml:id="sb467.1">
                                 <monogr>
                                     <title>The Friendly Town, a Little Book for the Urbane</title>
-                                    <author corresp="#lucas">Lucas, E. V.</author>
+                                    <author corresp="#lucas">
+                                        <persName>Lucas, E. V.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">illustrations
                                         on fly-leaves, red cloth, top edge gilt, presentation copy
                                         with inscription</note>
@@ -25126,12 +25314,17 @@
                             <biblStruct corresp="#owned" xml:id="sb467.2">
                                 <monogr>
                                     <title>Songs from a Studio</title>
-                                    <author>Woodward, A. T.</author>
+                                    <author>
+                                        <persName>Woodward, A. T.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presented to A. C. Swinburne by the Author, with original
                                         Sonnet, etc. in his handwriting</note>
                                     <imprint>
+                                        <publisher corresp="#george_robertson_co">
+                                            <orgName>George Robertson &amp; Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#melbourne">Melbourne</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
@@ -25146,8 +25339,13 @@
                                     <title><foreign xml:lang="la">De Rerum Natura Libri
                                             Sex</foreign>, with Notes and a Translation by H. A. J.
                                         Munro</title>
-                                    <author corresp="#lucretius_carus">Lucretius</author>
+                                    <author corresp="#lucretius_carus">
+                                        <persName>Lucretius</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#deighton_bell_co">
+                                            <orgName>Deighton Bell and Co</orgName>
+                                        </publisher>
                                         <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
@@ -25163,11 +25361,16 @@
                             <biblStruct corresp="#owned" xml:id="sb468.2">
                                 <monogr>
                                     <title>Commentary on Catullus</title>
-                                    <author corresp="#ellis_r">Ellis, R.</author>
+                                    <author corresp="#ellis_r">
+                                        <persName>Ellis, R.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
@@ -25181,7 +25384,9 @@
                                 <monogr>
                                     <title xml:lang="it">La Natura Libri VI di T. Lucrezio Caro
                                         tradotti da Mario Rapisardi</title>
-                                    <author corresp="#lucretius_carus">Lucretius</author>
+                                    <author corresp="#lucretius_carus">
+                                        <persName>Lucretius</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne with inscription</note>
                                     <imprint>
@@ -25197,7 +25402,9 @@
                             <biblStruct corresp="#owned" xml:id="sb469.2">
                                 <monogr>
                                     <title>Lucifero, Poema</title>
-                                    <author corresp="#rapisardi">Rapisardi, M.</author>
+                                    <author corresp="#rapisardi">
+                                        <persName>Rapisardi, M.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#milan">Milano</pubPlace>
@@ -25212,7 +25419,9 @@
                             <biblStruct corresp="#owned" xml:id="sb469.3">
                                 <monogr>
                                     <title xml:lang="fr">Le Lit Amoureux</title>
-                                    <author>Bourdel, L.</author>
+                                    <author>
+                                        <persName>Bourdel, L.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne with autograph
@@ -25243,6 +25452,10 @@
                                         sincere regards, <date when="1889-05-11"
                                         >5-11-89</date></note>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -25265,31 +25478,46 @@
                                         Bullen's Compliments, <date when="1887-09-02"
                                         >9.2.87</date></note>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/lyricsfromsongb03bullgoog/page/n8/mode/2up"
-                                />
+                                    target="https://archive.org/details/lyricsfromsongb03bullgoog/page/n8/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb472">
                             <bibl xml:id="sb472.1">
                                 <title>Poems of the Unknown Way</title>
-                                <author corresp="#lysaght">Lysaght, S. R.</author>
+                                <author corresp="#lysaght">
+                                    <persName>Lysaght, S. R.</persName>
+                                </author>
                                 <date when="1894"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwkgnz"/>
                                 <note type="fulltext">HT copy from 1901.</note>
                             </bibl>
-                            <bibl xml:id="sb472.2">
-                                <title>Poems</title>
-                                <author>Barlow, Thos.</author>
-                                <!-- Difficult to determine which LCNAF corresponds here. -->
-                                <date when="1894"/>
+                            <biblStruct xml:id="sb472.2">
+                                <monogr>
+                                    <title>Poems</title>
+                                    <author>
+                                        <persName>Barlow, Thos.</persName>
+                                    </author>
+                                    <!-- Difficult to determine which LCNAF corresponds here. -->
+                                    <imprint>
+                                        <publisher corresp="#horace_cox">
+                                            <persName>Horace Cox</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1894"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/coo1.ark:/13960/t6pz5rj1z"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb472.3">
                                 <monogr>
                                     <title>The Way of Perfect Love</title>
