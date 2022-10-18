@@ -349,6 +349,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/1004602" xml:id="hammersmith">
                         <placeName type="preferred">Hammersmith</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/1039835" xml:id="kehl">
+                        <placeName type="preferred">Kehl</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/7008153" xml:id="kent">
                         <placeName type="preferred">Kent</placeName>
                     </place>
@@ -5411,6 +5414,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2022002866">Società 
                             tipografica de' classici italiani</orgName>
                     </org>
+                    <org xml:id="societe_litteraire_typographique">
+                        <orgName source="http://id.loc.gov/authorities/names/nb2018026122">Société 
+                            littéraire typographique</orgName>
+                    </org>
                     <org xml:id="spenser_society">
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
@@ -5618,6 +5625,11 @@
                         <birth when="1640" cert="unknown"/>
                         <death when="1689"/>
                     </person>
+                    <person xml:id="carpenter">
+                        <persName source="http://id.loc.gov/authorities/names/nr2003017576">Carpenter, 
+                            James, active 1799-1850</persName>
+                        <floruit from="1799" to="1850"/>
+                    </person>
                     <person xml:id="cassino">
                         <persName source="http://id.loc.gov/authorities/names/nr2001026928">Cassino, 
                             Samuel Edson, 1856-1937</persName>
@@ -5719,6 +5731,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94028497">Du Pré, 
                             Galliot, -1561</persName>
                         <death when="1561"/>
+                    </person>
+                    <person xml:id="duchesne">
+                        <persName source="http://id.loc.gov/authorities/names/no96002730">Duchesne, 
+                            Marie-Antoinette</persName>
                     </person>
                     <person xml:id="ellis_f">
                         <persName source="http://id.loc.gov/authorities/names/n50008884">Ellis,
@@ -5841,6 +5857,10 @@
                             Henry, 1815-1878</persName>
                         <birth when="1815"/>
                         <death when="1878"/>
+                    </person>
+                    <person xml:id="ingalton">
+                        <persName source="http://id.loc.gov/authorities/names/n2018056974">Ingalton 
+                            Drake, R.</persName>
                     </person>
                     <person xml:id="jaggard">
                         <persName source="http://id.loc.gov/authorities/names/n50000034">Jaggard, 
@@ -6218,9 +6238,18 @@
                         <persName source="http://id.loc.gov/authorities/names/nr94008012">Washbourne, 
                             Henry</persName>
                     </person>
+                    <person xml:id="watts">
+                        <persName source="http://id.loc.gov/authorities/names/nr93041862">Watts, 
+                            John, -1763</persName>
+                        <death when="1763"/>
+                    </person>
                     <person xml:id="wigstead">
                         <persName source="http://id.loc.gov/authorities/names/nr93042206">Wigstead, 
                             Henry</persName>
+                    </person>
+                    <person xml:id="willem">
+                        <persName source="http://id.loc.gov/authorities/names/no2011112742">Willem, 
+                            Léon (Publisher)</persName>
                     </person>
                     <person xml:id="williams_e">
                         <persName source="http://id.loc.gov/authorities/names/no2021123492">Williams, 
@@ -25521,8 +25550,13 @@
                             <biblStruct corresp="#owned" xml:id="sb472.3">
                                 <monogr>
                                     <title>The Way of Perfect Love</title>
-                                    <author corresp="#king">King, G. Goddard</author>
+                                    <author corresp="#king">
+                                        <persName>King, G. Goddard</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>The Macmillan Company</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
@@ -25533,11 +25567,18 @@
                             <biblStruct corresp="#owned" xml:id="sb472.4">
                                 <monogr>
                                     <title>Poems and Ballads</title>
-                                    <author corresp="#sanders">Sanders, Johanna M.</author>
+                                    <author corresp="#sanders">
+                                        <persName>Sanders, Johanna M.</persName>
+                                    </author>
                                     <note type="etc" corresp="#presentation">and Other Poetical
                                         Works, some presentation copies to Swinburne with
                                             inscriptions<num value="40"/></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Brunt &amp; Company</orgName>
+                                        </publisher>
+                                        <!-- No exact maych found, possibly W. N. Brunt Company. 
+                                                http://id.loc.gov/authorities/names/no2021045298 -->
                                         <pubPlace ref="#san_francisco">San Francisco</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
@@ -25550,10 +25591,16 @@
                             <biblStruct corresp="#owned" xml:id="sb473.1">
                                 <monogr>
                                     <title>History of Eton College (1440-1898)</title>
-                                    <author corresp="#lyte">Lyte, Sir H. C. Maxwell</author>
+                                    <author corresp="#lyte">
+                                        <persName>Lyte, Sir H. C. Maxwell</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations, blue
                                         cloth, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -25563,10 +25610,15 @@
                             <biblStruct corresp="#owned" xml:id="sb473.2">
                                 <monogr>
                                     <title>Fasti Etonenses, a Biographical History of Eton</title>
-                                    <author corresp="#benson_a">Benson, A. C.</author>
+                                    <author corresp="#benson_a">
+                                        <persName>Benson, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits and
                                         illustrations, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#ingalton">
+                                            <persName>R. Ingalton Drake</persName>
+                                        </publisher>
                                         <pubPlace ref="#eton">Eton</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
@@ -25581,7 +25633,9 @@
                                     <title>Guernsey Folk Lore, Collection of Popular Superstitions,
                                         Legendary Tales, Proverbs, etc. of the People of that
                                         Island</title>
-                                    <author>MacCulloch, Sir Edgar</author>
+                                    <author>
+                                        <persName>MacCulloch, Sir Edgar</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -25590,6 +25644,10 @@
                                     <note type="description">illustrations, green cloth, top edge
                                         gilt</note>
                                     <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -25601,10 +25659,16 @@
                             <biblStruct corresp="#owned" xml:id="sb475.1">
                                 <monogr>
                                     <title>Jean Jacques Rousseau, a New Criticism</title>
-                                    <author corresp="#macdonald">Macdonald, F.</author>
+                                    <author corresp="#macdonald">
+                                        <persName>Macdonald, F.</persName>
+                                    </author>
                                     <note type="description">portraits and fascimiles, buckram, top
                                         edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -25622,6 +25686,10 @@
                                         Emerson</title>
                                     <note type="description">two portraits</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                     <extent>
@@ -25636,12 +25704,18 @@
                             <biblStruct corresp="#owned" xml:id="sb475.3">
                                 <monogr>
                                     <title>Autobiography</title>
-                                    <author corresp="#besant">Besant, Sir W.</author>
+                                    <author corresp="#besant">
+                                        <persName>Besant, Sir W.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#hutchinson_co">
+                                            <orgName>Hutchinson &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -25654,8 +25728,14 @@
                                 <monogr>
                                     <title>Literary Life and Correspondence of the Countess of
                                         Blessington</title>
-                                    <author corresp="#madden_r">Madden, R. R.</author>
+                                    <author corresp="#madden_r">
+                                        <persName>Madden, R. R.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#newby">
+                                            <persName>T. C. Newby</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1855"/>
                                     </imprint>
                                     <extent>
@@ -25673,7 +25753,9 @@
                                 <monogr>
                                     <title>Johnny Gibb of Gushetneuk in the Parish of
                                         Pyketillim</title>
-                                    <author corresp="#alexander">Alexander, Wm.</author>
+                                    <author corresp="#alexander">
+                                        <persName>Alexander, Wm.</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations</note>
                                     <note type="etc">
                                         <num value="9"/>
@@ -25692,10 +25774,17 @@
                             <biblStruct corresp="#owned" xml:id="sb477.1">
                                 <monogr>
                                     <title xml:lang="fr">publié par Charpentier</title>
-                                    <author>Magasin de Librairie, Le</author>
+                                    <author>
+                                        <persName>Magasin de Librairie, Le</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Charpentier</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. Possibly
+                                               http://id.loc.gov/authorities/names/n2004063006 -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1859"/>
                                     </imprint>
@@ -25715,13 +25804,19 @@
                             <biblStruct corresp="#owned" xml:id="sb477.2">
                                 <monogr>
                                     <title>OEuvres</title>
-                                    <author corresp="#voltaire">Voltaire</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">wanting vol. VIII,
                                         half vellum, uncut; royal 8vo.</note>
                                     <note type="etc">
                                         <num value="11"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#societe_litteraire_typographique">
+                                            <orgName>Société Littéraire-Typographique</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#kehl">Kehl</pubPlace>
                                         <date when="1784"/>
                                     </imprint>
                                     <extent>
@@ -25764,6 +25859,9 @@
                                         autograph inscription</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher/>
+                                        <!-- None given on item or in HT catalog record. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                 </monogr>
@@ -25775,10 +25873,15 @@
                             <biblStruct corresp="#owned" xml:id="sb479.1">
                                 <monogr>
                                     <title>Don Juan, a Play in Four Acts</title>
-                                    <author corresp="#mansfield">Mansfield, Rich.</author>
+                                    <author corresp="#mansfield">
+                                        <persName>Mansfield, Rich.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
-                                        <pubPlace ref="#york">York</pubPlace>
+                                        <publisher corresp="#bouton">
+                                            <persName>J. W. Bouton</persName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -25788,10 +25891,17 @@
                             <biblStruct corresp="#owned" xml:id="sb479.2">
                                 <monogr>
                                     <title>The Aims of Art</title>
-                                    <author corresp="#morris">Morris, Wm.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <note type="etc">some presentation copies to Swinburne with
                                             inscriptions<num value="10"/></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Office of "The Commonweal"</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -25803,13 +25913,16 @@
                             <biblStruct corresp="#owned" xml:id="sb480.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Chaines de l'Esclavage</title>
-                                    <author corresp="#marat">Marat, J. P. <foreign xml:lang="fr">l'ami du
-                                            Peuple</foreign></author>
+                                    <author corresp="#marat">
+                                        <persName>Marat, J. P.</persName>
+                                        <foreign xml:lang="fr">l'ami du Peuple</foreign>
+                                    </author>
                                     <note type="description">half calf gilt, marbled edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher xml:lang="fr">de l'imprimerie de
-                                            Marat</publisher>
+                                        <publisher corresp="#marat" xml:lang="fr">
+                                            de l'imprimerie de <persName>Marat</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1792"/>
                                     </imprint>
@@ -25822,7 +25935,9 @@
                             <biblStruct corresp="#owned" xml:id="sb481.1">
                                 <monogr>
                                     <title>Hippolyta</title>
-                                    <author corresp="#mariéton">Marieton, P.</author>
+                                    <author corresp="#mariéton">
+                                        <persName>Marieton, P.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <imprint>
@@ -25837,30 +25952,39 @@
                             <biblStruct corresp="#owned" xml:id="sb481.2">
                                 <monogr>
                                     <title xml:lang="fr">Struensée, Drame</title>
-                                    <author corresp="#meurice">Meurice, P.</author>
+                                    <author corresp="#meurice">
+                                        <persName>Meurice, P.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne, with inscriptions<num
                                             value="12"/></note>
                                     <imprint>
+                                        <publisher corresp="#levy">
+                                            <persName>Calmann Lévy</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/struensedrame00meuruoft/page/n5/mode/2up"
-                                />
+                                    target="https://archive.org/details/struensedrame00meuruoft/page/n5/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb482">
                             <biblStruct corresp="#owned" xml:id="sb482.1">
                                 <monogr>
                                     <title>OEuvres Complettes</title>
-                                    <author corresp="#marivaux">Marivaux, M. de</author>
+                                    <author corresp="#marivaux">
+                                        <persName>Marivaux, M. de</persName>
+                                    </author>
                                     <note type="description">old French calf gilt, marbled
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#duchesne">
+                                            <persName>Veuve Duchesne</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1781"/>
                                     </imprint>
@@ -25897,9 +26021,14 @@
                                 <monogr>
                                     <title xml:lang="fr">Théâtre Choisi, publicé par F. de Marescot
                                         et D. Jouaust, avec une Préface par F. Sarcey</title>
-                                    <author corresp="#marivaux">Marivaux</author>
+                                    <author corresp="#marivaux">
+                                        <persName>Marivaux</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#librairie_des_bibliophiles">
+                                            <orgName>Librarie des Bibliophiles</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
@@ -25916,10 +26045,16 @@
                                 <monogr>
                                     <title xml:lang="fr">César Borgia, sa Vie, sa Captitié, sa
                                         Mort</title>
-                                    <author corresp="#yriarte">Yriate, C.</author>
+                                    <author corresp="#yriarte">
+                                        <persName>Yriate, C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits,
                                         illustrations, etc. uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>J. Rothschild</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
@@ -25935,13 +26070,18 @@
                             <biblStruct corresp="#owned" xml:id="sb483.3">
                                 <monogr>
                                     <title>Madame Potiphar</title>
-                                    <author corresp="#borel">Borel, P.</author>
+                                    <author corresp="#borel">
+                                        <persName>Borel, P.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">frontispiece, etc.
                                         uncut</note>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#willem">
+                                            <persName>Léon Willem</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
@@ -25958,13 +26098,19 @@
                             <biblStruct corresp="#owned" xml:id="sb484.1">
                                 <monogr>
                                     <title>Dramatic Works, with Prefactory Notice</title>
-                                    <author corresp="#marlowe">Marlowe, Chris.</author>
+                                    <author corresp="#marlowe">
+                                        <persName>Marlowe, Chris.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>selected by</resp>
                                         <name full="yes">Percy E. Pinkerton</name>
                                     </respStmt>
                                     <note type="description">morocco, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#scott_wa_publisher">
+                                            <persName>Walter Scott</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
                                 </monogr>
@@ -25974,14 +26120,19 @@
                             <biblStruct corresp="#owned" xml:id="sb484.2">
                                 <monogr>
                                     <title>Essays</title>
-                                    <author corresp="#bacon">Bacon, Lord</author>
+                                    <author corresp="#bacon">
+                                        <persName>Bacon, Lord</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">B. Montagu</name>
                                     </respStmt>
                                     <note type="description">morocco, gilt edges</note>
                                     <imprint>
-                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1845"/>
                                     </imprint>
                                 </monogr>
@@ -25991,13 +26142,19 @@
                             <biblStruct corresp="#owned" xml:id="sb484.3">
                                 <monogr>
                                     <title>Poetical Works of Thomas Little</title>
-                                    <author corresp="#moore">Moore, T.</author>
+                                    <author corresp="#moore">
+                                        <persName>Moore, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">calf,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="etc">
                                         <num value="14"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#carpenter">
+                                            <persName>James Carpenter</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1808"/>
                                     </imprint>
                                 </monogr>
@@ -26010,10 +26167,15 @@
                                 <monogr>
                                     <title>Works, with Notes and some Account of his Life and
                                         Writings, by Alex. Dyce</title>
-                                    <author corresp="#marlowe">Marlowe, C.</author>
+                                    <author corresp="#marlowe">
+                                        <persName>Marlowe, C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
-                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1850"/>
                                     </imprint>
                                     <extent>
@@ -26032,7 +26194,9 @@
                             <biblStruct corresp="#owned" xml:id="sb486.1">
                                 <monogr>
                                     <title>Works, with an Introduction by J. A. Symonds</title>
-                                    <author corresp="#marlowe">Marlowe, C.</author>
+                                    <author corresp="#marlowe">
+                                        <persName>Marlowe, C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Havelock Ellis</name>
@@ -26053,7 +26217,9 @@
                             <biblStruct corresp="#owned" xml:id="sb487.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#marston_j">Marston, John</author>
+                                    <author corresp="#marston_j">
+                                        <persName>Marston, John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -26062,6 +26228,10 @@
                                         uncut</note>
                                     <edition corresp="#limited_ed">Limited Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                     <extent>
@@ -26080,9 +26250,15 @@
                             <biblStruct corresp="#owned" xml:id="sb488.1">
                                 <monogr>
                                     <title>All in All, Poems and Sonnets</title>
-                                    <author corresp="#marston_p">Marston, Philip B.</author>
+                                    <author corresp="#marston_p">
+                                        <persName>Marston, Philip B.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -26092,7 +26268,9 @@
                             <biblStruct corresp="#owned" xml:id="sb488.2">
                                 <monogr>
                                     <title>Wind Voices</title>
-                                    <author corresp="#marston_p">Marston, Philip B.</author>
+                                    <author corresp="#marston_p">
+                                        <persName>Marston, Philip B.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne, from his friend
@@ -26108,10 +26286,16 @@
                             <biblStruct corresp="#owned" xml:id="sb488.3">
                                 <monogr>
                                     <title>A Last Harvest</title>
-                                    <author corresp="#marston_p">Marston, Philip B.</author>
+                                    <author corresp="#marston_p">
+                                        <persName>Marston, Philip B.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to A. C. Swinburne, with inscription</note>
                                     <imprint>
+                                        <publisher corresp="#mathews">
+                                            <persName>Elkin Mathews</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -26124,7 +26308,9 @@
                                 <monogr>
                                     <title>Collected Poems, with Biography Sketch by Louise C.
                                         Moulton</title>
-                                    <author corresp="#marston_p">Marston, P. B.</author>
+                                    <author corresp="#marston_p">
+                                        <persName>Marston, P. B.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy with inscription</note>
                                     <note type="inscription">To Algernon C. Swinburne, the Poems by
@@ -26132,6 +26318,9 @@
                                         regards of Louise Chandler Moulton, <date when="1892-11-18"
                                             >November 18, 1892</date></note>
                                     <imprint>
+                                        <publisher corresp="#roberts_brothers">
+                                            <orgName>Roberts Brothers</orgName>
+                                        </publisher>
                                         <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
@@ -26145,7 +26334,9 @@
                                 <monogr>
                                     <title>For a Song's Sake, and other Stories, with Memoir by W.
                                         Sharp</title>
-                                    <author corresp="#marston_p">Marston, P. B.</author>
+                                    <author corresp="#marston_p">
+                                        <persName>Marston, P. B.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -26164,6 +26355,10 @@
                                     </respStmt>
                                     <note type="description">10 designs by W. Crane</note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -26173,7 +26368,9 @@
                             <biblStruct corresp="#owned" xml:id="sb490.3">
                                 <monogr>
                                     <title>A Christmas Posy</title>
-                                    <author corresp="#molesworth">Molesworth, Mrs.</author>
+                                    <author corresp="#molesworth">
+                                        <persName>Molesworth, Mrs.</persName>
+                                    </author>
                                     <note type="description">illustrations by W. Crane</note>
                                     <note type="etc">
                                         <num value="9"/>
@@ -26192,12 +26389,18 @@
                             <biblStruct corresp="#owned #signed" xml:id="sb491.1">
                                 <monogr>
                                     <title>Epigrammata</title>
-                                    <author corresp="#martial">Martial</author>
+                                    <author corresp="#martial">
+                                        <persName>Martial</persName>
+                                    </author>
                                     <note type="description">half calf, Swinburne's copy, with
                                         autograph signature</note>
                                     <note type="inscription">Algernon C. Swinburne, <date
                                             when="1850-01-30">Janry. 30th, 1850</date></note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Caroli Tauchnitii</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#leipzig">Lipsia</pubPlace>
                                         <date when="1829"/>
                                     </imprint>
@@ -26211,9 +26414,15 @@
                                 <monogr>
                                     <title>Autobiography, with Memorials by Maria Weston
                                         Chapman</title>
-                                    <author corresp="#martineau">Martineau, Harriet</author>
+                                    <author corresp="#martineau">
+                                        <persName>Martineau, Harriet</persName>
+                                    </author>
                                     <note type="description">portraits and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                     <extent>
@@ -26235,6 +26444,10 @@
                                         <num value="30"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#watts">
+                                            <persName>John Watts</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1722"/>
                                     </imprint>
                                     <extent>
