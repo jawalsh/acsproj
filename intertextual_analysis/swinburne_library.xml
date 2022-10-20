@@ -4969,13 +4969,17 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2017014927">Burns 
                             &amp; Oates</orgName>
                     </org>
+                    <org xml:id="c_and_j_ollier">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
+                            and J. Ollier (Firm)</orgName>
+                    </org>
                     <org xml:id="c_kegan_paul_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2006002324">C. 
                             Kegan Paul &amp; Co.</orgName>
                     </org>
-                    <org xml:id="c_and_j_ollier">
-                        <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
-                            and J. Ollier (Firm)</orgName>
+                    <org xml:id="c_whittingham_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr99033690">C. 
+                            Whittingham and Co.</orgName>
                     </org>
                     <org xml:id="cadell_davies">
                         <orgName source="http://id.loc.gov/authorities/names/n81066332">Cadell 
@@ -5056,6 +5060,10 @@
                     <org xml:id="elkin_mathews_john_lane">
                         <orgName source="http://id.loc.gov/authorities/names/no2015126480">Elkin 
                             Mathews and John Lane (Firm)</orgName>
+                    </org>
+                    <org xml:id="ellis_white">
+                        <orgName source="http://id.loc.gov/authorities/names/no2018145534">Ellis 
+                            &amp; White (Firm)</orgName>
                     </org>
                     <org xml:id="everett_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2014025839">Everett 
@@ -5157,6 +5165,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr2004005822">Hunt 
                             and Clarke</orgName>
                     </org>
+                    <org xml:id="hurst_blackett">
+                        <orgName source="http://id.loc.gov/authorities/names/no2006060582">Hurst 
+                            &amp; Blackett</orgName>
+                    </org>
                     <org xml:id="hurst_robinson_co">
                         <orgName source="http://id.loc.gov/authorities/names/n84168493">Hurst, 
                             Robinson, and Co.</orgName>
@@ -5200,6 +5212,10 @@
                     <org xml:id="john_harris">
                         <orgName source="http://id.loc.gov/authorities/names/n85194340">John 
                             Harris (Firm)</orgName>
+                    </org>
+                    <org xml:id="john_lane_company">
+                        <orgName source="http://id.loc.gov/authorities/names/nr91043825">John 
+                            Lane Company</orgName>
                     </org>
                     <org xml:id="john_march_son">
                         <orgName source="http://id.loc.gov/authorities/names/no2015091012">John 
@@ -5918,6 +5934,10 @@
                             John, 1854-1925</persName>
                         <birth when="1854"/>
                         <death when="1925"/>
+                    </person>
+                    <person xml:id="lawford">
+                        <persName source="http://id.loc.gov/authorities/names/no2017085046">Lawford, 
+                            Geo.</persName>
                     </person>
                     <person xml:id="le_maistre">
                         <persName source="http://id.loc.gov/authorities/names/no2021114677">Le Maistre, 
@@ -27464,7 +27484,9 @@
                                 <monogr>
                                     <title xml:lang="fr">OEuvres avec Notes et Variantes par
                                         Alphonse Panly</title>
-                                    <author corresp="#molière">Molière</author>
+                                    <author corresp="#molière">
+                                        <persName>Molière</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">wanting vol. III,
                                         uncut</note>
                                     <imprint>
@@ -27497,12 +27519,18 @@
                                 <monogr>
                                     <title xml:lang="fr">OEuvres, accompagnée de notes par A. L.
                                         Sardon</title>
-                                    <author corresp="#rabelais">Rabelais</author>
+                                    <author corresp="#rabelais">
+                                        <persName>Rabelais</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="20"/>
                                     </note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>J. Gay et fils</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#san_remo">San Remo</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
@@ -27523,12 +27551,17 @@
                                 <monogr>
                                     <title>Platonica, or a Platonicall Song of the Soul, consisting
                                         of foure severall Poems</title>
-                                    <author corresp="#more">More, Henry</author>
+                                    <author corresp="#more">
+                                        <persName>More, Henry</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges, some
                                         headlines cut into</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A51312</idno>
                                     <imprint>
+                                        <publisher corresp="#daniel_r">
+                                            <persName>Roger Daniel</persName>
+                                        </publisher>
                                         <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1642"/>
                                     </imprint>
@@ -27541,7 +27574,9 @@
                             <biblStruct corresp="#owned" xml:id="sb519.1">
                                 <monogr>
                                     <title>Life, Letters and Last Poems</title>
-                                    <author corresp="#morrison-grant">Morrison-Grant, L.</author>
+                                    <author corresp="#morrison-grant">
+                                        <persName>Morrison-Grant, L.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Jessie A. Anderson</name>
@@ -27556,8 +27591,13 @@
                             <biblStruct corresp="#owned" xml:id="sb519.2">
                                 <monogr>
                                     <title>Woven of Dreams</title>
-                                    <author corresp="#wagstaff">Wagstaff, B. S.</author>
+                                    <author corresp="#wagstaff">
+                                        <persName>Wagstaff, B. S.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#john_lane_company">
+                                            <orgName>John Lane Company</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
@@ -27568,13 +27608,19 @@
                             <biblStruct corresp="#owned" xml:id="sb519.3">
                                 <monogr>
                                     <title>Songs of the London Man, etc.</title>
-                                    <author>Mackay, Alice D.</author>
+                                    <author>
+                                        <persName>Mackay, Alice D.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description">portrait</note>
                                     <note type="etc" corresp="#presentation">all presentation copies
                                         to Swinburne with autograph inscriptions<num value="6"
                                         /></note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -27586,13 +27632,19 @@
                             <biblStruct corresp="#owned" xml:id="sb520.1">
                                 <monogr>
                                     <title>The Earthly Paradise, a Poem</title>
-                                    <author corresp="#morris">Morris, William</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, William</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation copy to Swinburne, with
                                         inscription</note>
                                     <note type="inscription">A. C. Swinburne, from his friend the
                                         Author</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#ellis_f">
+                                            <persName>F. S. Ellis</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1868" to="1870"/>
                                     </imprint>
                                     <extent>
@@ -27614,13 +27666,19 @@
                             <biblStruct corresp="#owned" xml:id="sb521.1">
                                 <monogr>
                                     <title>The Earthly Paradise</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <note type="description">presentation copy to D. G. Rossetti,
                                         with inscription</note>
                                     <note type="inscription">Dante Gabriel Rossetti, from his friend
                                         the Author</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#roberts_brothers">
+                                            <orgName>Roberts Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                     <extent>
@@ -27633,9 +27691,15 @@
                             <biblStruct corresp="#owned" xml:id="sb521.2">
                                 <monogr>
                                     <title>The Earthly Paradise</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <edition>Fifth Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#ellis_white">
+                                            <orgName>Ellis &amp; White</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                     <extent>
@@ -27656,13 +27720,19 @@
                             <biblStruct corresp="#owned" xml:id="sb522.1">
                                 <monogr>
                                     <title>AEneids of Virgil, done into English Verse</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">original cloth, presentation copy, with
                                         autograph inscvription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, from his
                                         friend William Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#ellis_white">
+                                            <orgName>Ellis and White</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
@@ -27674,7 +27744,9 @@
                             <biblStruct corresp="#owned" xml:id="sb523.1">
                                 <monogr>
                                     <title>Hopes and Fears for Arts, Five Lectures</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         cloth, uncut, presentation copy, with autograph
                                         inscription</note>
@@ -27682,6 +27754,10 @@
                                         friend William Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#ellis_white">
+                                            <orgName>Ellis &amp; White</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -27693,7 +27769,9 @@
                             <biblStruct corresp="#owned" xml:id="sb524.1">
                                 <monogr>
                                     <title>Signs of Change, Seven Lectures</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         cloth, uncut, presentation copy, with autograph
                                         inscription</note>
@@ -27701,6 +27779,10 @@
                                         William Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves and Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
@@ -27713,11 +27795,17 @@
                                 <monogr>
                                     <title>The Sundering Flood (the last work which Morris
                                         wrote)</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne,with autograph letter of S.
                                         C. Cockerell inserted</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -27730,10 +27818,16 @@
                                 <monogr>
                                     <title>Handbook for the Travellers in Durham and
                                         Northumberland</title>
-                                    <author corresp="#murray_j">Murray, J.</author>
+                                    <author corresp="#murray_j">
+                                        <persName>Murray, J.</persName>
+                                    </author>
                                     <note type="description">maps and plans, Swinburne's copy, with
                                         pencil note in his writing on half-title</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -27745,9 +27839,14 @@
                             <biblStruct corresp="#owned" xml:id="sb527.1">
                                 <monogr>
                                     <title xml:lang="fr">OEuvres</title>
-                                    <author corresp="#musset">Musset, Alfred de</author>
+                                    <author corresp="#musset">
+                                        <persName>Musset, Alfred de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
@@ -27770,9 +27869,15 @@
                             <biblStruct corresp="#owned" xml:id="sb527.2">
                                 <monogr>
                                     <title xml:lang="fr">Biographie par Paul de Musset</title>
-                                    <author corresp="#musset">Musset, Alfred de</author>
+                                    <author corresp="#musset">
+                                        <persName>Musset, Alfred de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>G. Charpentier</persName>
+                                        </publisher>
+                                        <!-- LCNAF found for org, but not for individual. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
@@ -27784,12 +27889,17 @@
                                 <monogr>
                                     <title xml:lang="fr">Poésies, Odes funambulesques suivies d'un
                                         Commentaire</title>
-                                    <author corresp="#banville">Banville, T. de</author>
+                                    <author corresp="#banville">
+                                        <persName>Banville, T. de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="18"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
@@ -27803,10 +27913,16 @@
                                 <monogr>
                                     <title>Unfortunate Traveller, of Life of Jack Wilton, with Essay
                                         by E. Gosse</title>
-                                    <author corresp="#nash">Nash, T.</author>
+                                    <author corresp="#nash">
+                                        <persName>Nash, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">frontispiece,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#c_whittingham_co">
+                                            <orgName>Charles Whittingham &amp; Co</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -27816,13 +27932,19 @@
                             <biblStruct corresp="#owned" xml:id="sb528.2">
                                 <monogr>
                                     <title>Poems and Plays</title>
-                                    <author corresp="#goldsmith">Goldsmith, O.</author>
+                                    <author corresp="#goldsmith">
+                                        <persName>Goldsmith, O.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. Dobson</name>
                                     </respStmt>
                                     <note type="description">frontispiece by H. Railton</note>
                                     <imprint>
+                                        <publisher corresp="#j_m_dent_co">
+                                            <orgName>J. M. Dent and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -27832,12 +27954,18 @@
                             <biblStruct corresp="#owned" xml:id="sb528.3">
                                 <monogr>
                                     <title>Prince Lucifer</title>
-                                    <author corresp="#austin">Austin, Alfred</author>
+                                    <author corresp="#austin">
+                                        <persName>Austin, Alfred</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="7"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -27849,10 +27977,16 @@
                             <biblStruct corresp="#owned #annotated" xml:id="sb529.1">
                                 <monogr>
                                     <title>The Sonnet in England, and other Essays</title>
-                                    <author corresp="#noble">Noble, J. Ashcroft</author>
+                                    <author corresp="#noble">
+                                        <persName>Noble, J. Ashcroft</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, pencil note on
                                         fly-leaf in the handwriting of Swinburne</note>
                                     <imprint>
+                                        <publisher corresp="#elkin_mathews_john_lane">
+                                            <orgName>Elkin Mathews and John Lane</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -27861,27 +27995,53 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb530">
-                            <bibl xml:id="sb530.1">
-                                <title>Miss Shafto</title>
-                                <author corresp="#norris">Norris, W. E.</author>
-                                <date when="1890"/>
+                            <biblStruct xml:id="sb530.1">
+                                <monogr>
+                                    <title>Miss Shafto</title>
+                                    <author corresp="#norris">
+                                        <persName>Norris, W. E.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#richard_bentley_son">
+                                            <orgName>Richard Bentley and Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1890"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112052949259"/>
-                            </bibl>
-                            <bibl xml:id="sb530.2">
-                                <title>The Despotic Lady, and others</title>
-                                <author corresp="#norris">Norris, W. E.</author>
-                                <date when="1895"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb530.2">
+                                <monogr>
+                                    <title>The Despotic Lady, and others</title>
+                                    <author corresp="#norris">
+                                        <persName>Norris, W. E.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1895"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112052948764"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb530.3">
                                 <monogr>
                                     <title>Giles Ingleby</title>
                                     <!-- Spelling. Check. -->
-                                    <author corresp="#norris">Norris, W. E.</author>
+                                    <author corresp="#norris">
+                                        <persName>Norris, W. E.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -27891,10 +28051,16 @@
                             <biblStruct corresp="#owned" xml:id="sb530.4">
                                 <monogr>
                                     <title>His Own Father</title>
-                                    <author corresp="#norris">Norris, W. E.</author>
+                                    <author corresp="#norris">
+                                        <persName>Norris, W. E.</persName>
+                                    </author>
                                     <note type="etc">and others buy the same author<num value="9"
                                         /></note>
                                     <imprint>
+                                        <publisher corresp="#hurst_blackett">
+                                            <orgName>Hurst and Blackett</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
@@ -27906,10 +28072,19 @@
                             <biblStruct corresp="#owned" xml:id="sb531.1">
                                 <monogr>
                                     <title>Fables, Original and Selected, both series</title>
-                                    <author corresp="#northcote">Northcote, Jas.</author>
+                                    <author corresp="#northcote">
+                                        <persName>Northcote, Jas.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">fine impression of the
                                         engravings, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lawford">
+                                            <persName>Geo. Lawford</persName>
+                                        </publisher>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1828" to="1833"/>
                                     </imprint>
                                     <extent>
@@ -27930,7 +28105,9 @@
                             <biblStruct corresp="#owned" xml:id="sb532.1">
                                 <monogr>
                                     <title>Mythology Greek and Roman</title>
-                                    <author corresp="#nösselt">Nosselt, F.</author>
+                                    <author corresp="#nösselt">
+                                        <persName>Nosselt, F.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Mrs. Angus W. Hall</name>
@@ -27946,9 +28123,14 @@
                             <biblStruct corresp="#owned" xml:id="sb532.2">
                                 <monogr>
                                     <title>My Study Fire</title>
-                                    <author corresp="#mabie">Mabie, H. W.</author>
+                                    <author corresp="#mabie">
+                                        <persName>Mabie, H. W.</persName>
+                                    </author>
                                     <note type="description">65 illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#dodd_mead_company">
+                                            <orgName>Dodd, Mead and Company</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
@@ -27959,12 +28141,18 @@
                             <biblStruct corresp="#owned" xml:id="sb532.3">
                                 <monogr>
                                     <title>The Sacred Tree, or the Tree in Religion and Myth</title>
-                                    <author corresp="#philpot">Philpot, Mrs. J. H.</author>
+                                    <author corresp="#philpot">
+                                        <persName>Philpot, Mrs. J. H.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -27978,6 +28166,10 @@
                                     <title>Rabelais</title>
                                     <author>Nouvelle Collection Jannet</author>
                                     <imprint>
+                                        <publisher>
+                                            <persName>E. Picard</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
@@ -28008,6 +28200,9 @@
                                     <title>Clement Marot</title>
                                     <author>Nouvelle Collection Jannet</author>
                                     <imprint>
+                                        <publisher>
+                                            <persName>E. Picard</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
@@ -28074,7 +28269,9 @@
                             <biblStruct corresp="#owned" xml:id="sb533.6">
                                 <monogr>
                                     <title>La Comtesse de Charny</title>
-                                    <author corresp="#dumas">Dumas, A.</author>
+                                    <author corresp="#dumas">
+                                        <persName>Dumas, A.</persName>
+                                    </author>
                                     <note type="description">half calf gilt, some titles
                                         missing</note>
                                     <imprint>
@@ -28102,7 +28299,9 @@
                             <biblStruct corresp="#owned" xml:id="sb533.7">
                                 <monogr>
                                     <title>Les Quarante-Cinq.</title>
-                                    <author corresp="#dumas">Dumas, A.</author>
+                                    <author corresp="#dumas">
+                                        <persName>Dumas, A.</persName>
+                                    </author>
                                     <note type="description">half calf gilt</note>
                                     <note type="etc">
                                         <num value="38"/>
@@ -28133,6 +28332,10 @@
                                     <note type="description">large paper, frontispiece by I.
                                         Cruikshank, tree-calf gilt, yellow edges, by Riviere</note>
                                     <imprint>
+                                        <publisher corresp="#hurst_robinson_co">
+                                            <orgName>Hurst, Robinson, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1825"/>
                                     </imprint>
                                     <extent>
@@ -28152,6 +28355,11 @@
                                         Dramatic Writers</title>
                                     <note type="description">half vellum</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>John Martin</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1814"/>
                                     </imprint>
                                     <extent>
