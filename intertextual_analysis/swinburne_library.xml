@@ -5193,6 +5193,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr97003999">J. and R. 
                             Tonson</orgName>
                     </org>
+                    <org xml:id="j_selwin_tait_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/n2016069444">J. 
+                            Selwin Tait &amp; Sons</orgName>
+                    </org>
                     <org xml:id="james_miller">
                         <orgName source="http://id.loc.gov/authorities/names/no98132613">James 
                             Miller (Firm)</orgName>
@@ -5344,6 +5348,10 @@
                     <org xml:id="pickering_chatto">
                         <orgName source="http://id.loc.gov/authorities/names/n87823290">Pickering 
                             &amp; Chatto</orgName>
+                    </org>
+                    <org xml:id="pickering_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2003021837">Pickering 
+                            and Co.</orgName>
                     </org>
                     <org xml:id="quantin">
                         <orgName source="http://id.loc.gov/authorities/names/no99008273">A. 
@@ -5859,6 +5867,11 @@
                             Henry, -1704</persName>
                         <death when="1704"/>
                     </person>
+                    <person xml:id="hindmarsh">
+                        <persName source="http://id.loc.gov/authorities/names/nr94027009">Hindmarsh, 
+                            Joseph, active 1678-1696</persName>
+                        <floruit from="1678" to="1696"/>
+                    </person>
                     <person xml:id="hookham">
                         <persName source="http://id.loc.gov/authorities/names/no2022083845">Hookham, 
                             T. (Thomas), -1846</persName>
@@ -5867,6 +5880,12 @@
                     <person xml:id="hooper">
                         <persName source="http://id.loc.gov/authorities/names/n50028938">Hooper, 
                             S. (Samuel)</persName>
+                    </person>
+                    <person xml:id="hotten">
+                        <persName source="http://id.loc.gov/authorities/names/n82062580">Hotten, 
+                            John Camden, 1832-1873</persName>
+                        <birth when="1832"/>
+                        <death when="1873"/>
                     </person>
                     <person xml:id="houssiaux">
                         <persName source="http://id.loc.gov/authorities/names/no2011145806">Houssiaux, 
@@ -5989,6 +6008,10 @@
                             Edward, 1806-1874</persName>
                         <birth when="1806"/>
                         <death when="1874"/>
+                    </person>
+                    <person xml:id="maclehose">
+                        <persName source="http://id.loc.gov/authorities/names/nr93005796">Maclehose, 
+                            James (Publisher)</persName>
                     </person>
                     <person xml:id="magnes">
                         <persName source="http://id.loc.gov/authorities/names/nr94039721">Magnes, 
@@ -28388,9 +28411,15 @@
                                 <monogr>
                                     <title>Works, together with his Remains</title>
                                     <idno type="tcp">A53278</idno>
-                                    <author corresp="#oldham">Oldham, John</author>
+                                    <author corresp="#oldham">
+                                        <persName>Oldham, John</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
+                                        <publisher corresp="#hindmarsh">
+                                            <persName>Jo. Hindmarsh</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1684"/>
                                     </imprint>
                                 </monogr>
@@ -28401,7 +28430,9 @@
                                 <monogr>
                                     <title>Scandenberg: or Love and Liberty, a Tragedy, with List of
                                         English Dramatick Poets</title>
-                                    <author corresp="#whincop">Whincop, Thos.</author>
+                                    <author corresp="#whincop">
+                                        <persName>Whincop, Thos.</persName>
+                                    </author>
                                     <note type="description">frontispiece, calf</note>
                                     <note type="etc">
                                         <num value="6"/>
@@ -28417,7 +28448,9 @@
                             <biblStruct corresp="#owned" xml:id="sb537.1">
                                 <monogr>
                                     <title>Rubáiyát of Omar Kháyyåim</title>
-                                    <author corresp="#khayyam">Omar</author>
+                                    <author corresp="#khayyam">
+                                        <persName>Omar</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>rendered into English Verse by</resp>
                                         <name full="yes">Edward FitzGerald</name>
@@ -28446,7 +28479,9 @@
                                 <monogr>
                                     <title>Edward FitzGerald's Rubáiyát of Omar Kháyyåim, with their
                                         original Persian sources, collected from his own MSS</title>
-                                    <author corresp="#khayyam">Omar</author>
+                                    <author corresp="#khayyam">
+                                        <persName>Omar</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>literally translated by</resp>
                                         <name full="yes">Edward Heron-Allen</name>
@@ -28454,6 +28489,10 @@
                                     <note type="description" corresp="#uncut">frontispiece, green
                                         cloth gilt, uncut, top edge gilt, royal 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#quaritch">
+                                            <persName>Bernard Quaritch</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -28465,7 +28504,9 @@
                             <biblStruct corresp="#owned" xml:id="sb539.1">
                                 <monogr>
                                     <title>Rubáiyát of Omar Kháyyåim</title>
-                                    <author corresp="#khayyam">Omar</author>
+                                    <author corresp="#khayyam">
+                                        <persName>Omar</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>rendered into English Verse by</resp>
                                         <name full="yes">Edward FitzGerald</name>
@@ -28488,11 +28529,17 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Rubáiyát d'Omar Kháyyåim, traduits en
                                         Vers Français, avec Notices par Fernand Henry</title>
-                                    <author corresp="#khayyam">Omar</author>
+                                    <author corresp="#khayyam">
+                                        <persName>Omar</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne copy to Swinburne, with
                                         autograph inscription of the translator</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Jean Maisonneuve</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
@@ -28505,7 +28552,9 @@
                             <biblStruct corresp="#owned" xml:id="sb541.1">
                                 <monogr>
                                     <title>An Epic of Women, and other Poems</title>
-                                    <author corresp="#oshaughnessy">O'Shaughnessy, Arthur W. E.</author>
+                                    <author corresp="#oshaughnessy">
+                                        <persName>O'Shaughnessy, Arthur W. E.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy from the author, with autograph inscription on
                                         fly-leaf</note>
@@ -28513,6 +28562,10 @@
                                         the Author's most complete homage, <date when="1870-10"
                                             >October, 1870</date></note>
                                     <imprint>
+                                        <publisher corresp="#hotten">
+                                            <persName>John Camden Hotten</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                 </monogr>
@@ -28522,13 +28575,20 @@
                             <biblStruct corresp="#owned" xml:id="sb541.2">
                                 <monogr>
                                     <title>Lays of France</title>
-                                    <author corresp="#oshaughnessy">O'Shaughnessy, Arthur W. E.</author>
+                                    <author corresp="#oshaughnessy">
+                                        <persName>O'Shaughnessy, Arthur W. E.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. with
                                         the Author's literary homage &amp; very friendly regards,
                                             <date when="1872">1872</date></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Ellis and Green</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                 </monogr>
@@ -28540,11 +28600,15 @@
                             <biblStruct corresp="#owned" xml:id="sb542.1">
                                 <monogr>
                                     <title xml:lang="la">Opera Quae supersunt</title>
-                                    <author corresp="#ovid">Ovid</author>
+                                    <author corresp="#ovid">
+                                        <persName>Ovid</persName>
+                                    </author>
                                     <note type="description">frontispiece and vignettes by Eisen,
                                         old French calf, gilt edges</note>
                                     <imprint>
-                                        <publisher corresp="#barbou_jg">J. Barbou</publisher>
+                                        <publisher corresp="#barbou_jg">
+                                            <persName>J. Barbou</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1762"/>
                                     </imprint>
@@ -28564,10 +28628,16 @@
                             <biblStruct corresp="#owned" xml:id="sb543.1">
                                 <monogr>
                                     <title>The Tyne and its Tributaries described</title>
-                                    <author corresp="#palmer">Palmer, W. J.</author>
+                                    <author corresp="#palmer">
+                                        <persName>Palmer, W. J.</persName>
+                                    </author>
                                     <note type="description">illustrations, green cloth gilt,
                                         imperial 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -28577,9 +28647,15 @@
                             <biblStruct corresp="#owned" xml:id="sb543.2">
                                 <monogr>
                                     <title>History of Northumberland</title>
-                                    <author corresp="#bates">Bates, C. J.</author>
+                                    <author corresp="#bates">
+                                        <persName>Bates, C. J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -28589,7 +28665,9 @@
                             <biblStruct corresp="#owned" xml:id="sb543.3">
                                 <monogr>
                                     <title>History of Westmoreland</title>
-                                    <author corresp="#ferguson">Ferguson, R. S.</author>
+                                    <author corresp="#ferguson">
+                                        <persName>Ferguson, R. S.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -28606,7 +28684,9 @@
                                 <monogr>
                                     <title>Life and Adventures of Peter Wilkins, a
                                         Cornish-man</title>
-                                    <author corresp="#paltock">Paltock, R.</author>
+                                    <author corresp="#paltock">
+                                        <persName>Paltock, R.</persName>
+                                    </author>
                                     <note type="description">half calf gilt, title mended</note>
                                     <imprint>
                                         <pubPlace>Berwick</pubPlace>
@@ -28626,7 +28706,9 @@
                             <biblStruct corresp="#owned" xml:id="sb544.2">
                                 <monogr>
                                     <title>Narratives form Criminal Trials in Scotland</title>
-                                    <author corresp="#burton_j">Burton, J. H.</author>
+                                    <author corresp="#burton_j">
+                                        <persName>Burton, J. H.</persName>
+                                    </author>
                                     <note type="description">binding broken</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -28646,10 +28728,16 @@
                                 <monogr>
                                     <title>Catherine Sforza, translated and prepared by Paul
                                         Sylvester</title>
-                                    <author corresp="#pasolini">Pasolini, Count Pier D.</author>
+                                    <author corresp="#pasolini">
+                                        <persName>Pasolini, Count Pier D.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait and
                                         illustrations, half vellum, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#heinemann">
+                                            <persName>Willaim Heinemann</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -28659,9 +28747,16 @@
                             <biblStruct corresp="#owned" xml:id="sb545.2">
                                 <monogr>
                                     <title>Links with the Past</title>
-                                    <author corresp="#bagot">Bagot, Mrs. C.</author>
+                                    <author corresp="#bagot">
+                                        <persName>Bagot, Mrs. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Edward Arnold</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -28671,12 +28766,18 @@
                             <biblStruct corresp="#owned" xml:id="sb545.3">
                                 <monogr>
                                     <title>English Children in the Olden Time</title>
-                                    <author corresp="#godfrey">Godfrey, Eliz.</author>
+                                    <author corresp="#godfrey">
+                                        <persName>Godfrey, Eliz.</persName>
+                                    </author>
                                     <note type="description">32 illustrations (2 copies)</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                 </monogr>
@@ -28693,6 +28794,10 @@
                                         <name full="yes">James Gairdner</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            <orgName>A. Constable and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">Westminster</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                     <extent>
@@ -28709,7 +28814,9 @@
                             <biblStruct corresp="#owned" xml:id="sb546.2">
                                 <monogr>
                                     <title>Letters, with introduction and notes</title>
-                                    <author corresp="#lamb_c">Lamb, C.</author>
+                                    <author corresp="#lamb_c">
+                                        <persName>Lamb, C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. Ainger</name>
@@ -28719,6 +28826,10 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                     <extent>
@@ -28735,7 +28846,9 @@
                             <biblStruct corresp="#owned" xml:id="sb547.1">
                                 <monogr>
                                     <title>Odes</title>
-                                    <author corresp="#patmore">Patmore, Coventry</author>
+                                    <author corresp="#patmore">
+                                        <persName>Patmore, Coventry</persName>
+                                    </author>
                                     <note type="description">"not published" with Introduction
                                         signed, original wrappers, printed on fly-leaf</note>
                                     <note type="inscription">C. P. Old Lands, Uckfield, <date
@@ -28743,6 +28856,7 @@
                                             author</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
@@ -28754,11 +28868,17 @@
                             <biblStruct corresp="#owned" xml:id="sb548.1">
                                 <monogr>
                                     <title>Bards and the Birds</title>
-                                    <author>Paton, F. Noel</author>
+                                    <author>
+                                        <persName>Paton, F. Noel</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut">illustrations by Mrs.
                                         Hugh Blackburn and H. Paton, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves and Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -28768,12 +28888,18 @@
                             <biblStruct corresp="#owned" xml:id="sb548.2">
                                 <monogr>
                                     <title>The Soul of a Cat, and other Stories</title>
-                                    <author corresp="#benson_m">Benson, Margaret</author>
+                                    <author corresp="#benson_m">
+                                        <persName>Benson, Margaret</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#heinemann">
+                                            <persName>William Heinemann</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
@@ -28785,13 +28911,19 @@
                             <biblStruct corresp="#owned" xml:id="sb549.1">
                                 <monogr>
                                     <title>The Masque of Shadows, and other Poems</title>
-                                    <author corresp="#payne">Payne, John</author>
+                                    <author corresp="#payne">
+                                        <persName>Payne, John</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         homage to the greatest living English Poet</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#pickering_b">
+                                            <persName>Basil Montagu Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                 </monogr>
@@ -28803,7 +28935,9 @@
                             <biblStruct corresp="#owned" xml:id="sb550.1">
                                 <monogr>
                                     <title>Songs of Life and Death</title>
-                                    <author corresp="#payne">Payne, J.</author>
+                                    <author corresp="#payne">
+                                        <persName>Payne, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">original cloth,
                                         presentation copy from the author to Swinburne with
                                         autograph inscription</note>
@@ -28811,6 +28945,10 @@
                                         compliments</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#henry_s_king_co">
+                                            <orgName>Henry S. King &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                 </monogr>
@@ -28823,7 +28961,9 @@
                             <biblStruct corresp="#owned" xml:id="sb550A.1">
                                 <monogr>
                                     <title>Lautrec, a Poem</title>
-                                    <author corresp="#payne">Payne, J.</author>
+                                    <author corresp="#payne">
+                                        <persName>Payne, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         wrappers, uncut, presentation copy from the author with
                                         autograph inscription</note>
@@ -28831,6 +28971,10 @@
                                         John Payne</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#pickering_co">
+                                            <orgName>Pickering and Co</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
@@ -28842,7 +28986,9 @@
                             <biblStruct corresp="#owned" xml:id="sb551.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#payne">Payne, J.</author>
+                                    <author corresp="#payne">
+                                        <persName>Payne, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">vellum,
                                         uncut, top edge gilt, presentation copy with autograph
                                         inscription note enclosed. Printed privately for the Villon
@@ -28851,6 +28997,10 @@
                                         his loyal servant John Payne, with a copy of 'Poetical
                                         Works,' including many new Poems</note>
                                     <imprint>
+                                        <publisher corresp="#villon_society">
+                                            <orgName>Villon Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                     <extent>
@@ -28867,11 +29017,16 @@
                             <biblStruct corresp="#owned" xml:id="sb552.1">
                                 <monogr>
                                     <title>Vigil and Vision, new Sonnets</title>
-                                    <author corresp="#payne">Payne, J.</author>
+                                    <author corresp="#payne">
+                                        <persName>Payne, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut, top
                                         edge gilt</note>
                                     <imprint>
-                                        <publisher corresp="#villon_society">Villon Society</publisher>
+                                        <publisher corresp="#villon_society">
+                                            <orgName>Villon Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -28884,7 +29039,9 @@
                                 <monogr>
                                     <title>Headlong Hall, Gryll Grange, Nightmare Abbey, Maid
                                         Marian, etc.</title>
-                                    <author corresp="#peacock">Peacock, T. Love</author>
+                                    <author corresp="#peacock">
+                                        <persName>Peacock, T. Love</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by Richard Garnett</resp>
                                         <name full="yes"/>
@@ -28938,27 +29095,48 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb554">
-                            <bibl xml:id="sb554.1">
-                                <title>The Fair Island, a Poem</title>
-                                <author corresp="#peel">Peel, Edmund</author>
-                                <date when="1851"/>
+                            <biblStruct xml:id="sb554.1">
+                                <monogr>
+                                    <title>The Fair Island, a Poem</title>
+                                    <author corresp="#peel">
+                                        <persName>Peel, Edmund</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#francis_john_rivington">
+                                            <orgName>Francis &amp; John Rivington</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1851"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t17m06k2h"/>
-                            </bibl>
-                            <bibl xml:id="sb554.2">
-                                <title>Love's Victory, Lyrical Poems</title>
-                                <author corresp="#blaikie">Blaikie, J. A.</author>
-                                <date when="1800"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb554.2">
+                                <monogr>
+                                    <title>Love's Victory, Lyrical Poems</title>
+                                    <author corresp="#blaikie">
+                                        <persName>Blaikie, J. A.</persName>
+                                    </author>
+                                    <imprint>
+                                        <date when="1800"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="none" target=""/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb554.3">
                                 <monogr>
                                     <title>Leaves of the Lotos</title>
-                                    <author corresp="#sickels">Sickels, D. B.</author>
+                                    <author corresp="#sickels">
+                                        <persName>Sickels, D. B.</persName>
+                                    </author>
                                     <note type="etc" corresp="#presentation">and others, all
                                         presentation copies to Swinburne, with authors'
                                             inscriptions<num value="10"/></note>
                                     <imprint>
+                                        <publisher corresp="#j_selwin_tait_sons">
+                                            <orgName>J. Selwin Tait &amp; Sons</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
@@ -28972,11 +29150,16 @@
                                 <monogr>
                                     <title>Works, collected and edited, with some Account of his
                                         life and Writings, by Alex. Dyce</title>
-                                    <author corresp="#peele">Peele, G.</author>
+                                    <author corresp="#peele">
+                                        <persName>Peele, G.</persName>
+                                    </author>
                                     <note type="description">half morocco, gilt edges</note>
                                     <edition/>
                                     <imprint>
-                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1829" to="1839"/>
                                     </imprint>
                                     <extent>
@@ -28995,7 +29178,9 @@
                             <biblStruct corresp="#owned" xml:id="sb556.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#peele">Peele, G.</author>
+                                    <author corresp="#peele">
+                                        <persName>Peele, G.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. H. Bullen</name>
@@ -29003,6 +29188,10 @@
                                     <note type="description" corresp="#uncut">green cloth,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                     <extent>
@@ -29019,13 +29208,19 @@
                             <biblStruct corresp="#owned" xml:id="sb557.1">
                                 <monogr>
                                     <title>Memoires of the Royal Navy, 1679-88</title>
-                                    <author corresp="#pepys">Pepys, S.</author>
+                                    <author corresp="#pepys">
+                                        <persName>Pepys, S.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. R. Tamer</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>The Clarendon Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -29036,9 +29231,15 @@
                                 <monogr>
                                     <title>Pilgrim's Progress, a facsimile of the first edition,
                                         with Introduction by J. Brown</title>
-                                    <author corresp="#bunyan">Bunyan, J.</author>
+                                    <author corresp="#bunyan">
+                                        <persName>Bunyan, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -29054,6 +29255,10 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -29065,13 +29270,18 @@
                             <biblStruct corresp="#owned" xml:id="sb558.1">
                                 <monogr>
                                     <title>Selection from the Minor Poems</title>
-                                    <author corresp="#lydgate">Lydgate, Dan. John</author>
+                                    <author corresp="#lydgate">
+                                        <persName>Lydgate, Dan. John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. O. Halliwell</name>
                                     </respStmt>
                                     <imprint>
-                                        <publisher corresp="#percy_society">Percy Society</publisher>
+                                        <publisher corresp="#percy_society">
+                                            <orgName>Percy Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1840"/>
                                     </imprint>
                                 </monogr>
@@ -29081,14 +29291,19 @@
                             <biblStruct corresp="#owned" xml:id="sb558.2">
                                 <monogr>
                                     <title>Believe as you List</title>
-                                    <author corresp="#massinger">Massinger, P.</author>
+                                    <author corresp="#massinger">
+                                        <persName>Massinger, P.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">T. Crofton Croker</name>
                                     </respStmt>
                                     <note type="description">half bound</note>
                                     <imprint>
-                                        <publisher corresp="#percy_society">Percy Society</publisher>
+                                        <publisher corresp="#percy_society">
+                                            <orgName>Percy Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1849"/>
                                     </imprint>
                                 </monogr>
@@ -29098,10 +29313,15 @@
                             <biblStruct corresp="#owned" xml:id="sb558.3">
                                 <monogr>
                                     <title>Pastime of Pleasure</title>
-                                    <author corresp="#hawes">Hawes, S.</author>
+                                    <author corresp="#hawes">
+                                        <persName>Hawes, S.</persName>
+                                    </author>
                                     <note type="description">half bound</note>
                                     <imprint>
-                                        <publisher corresp="#percy_society">Percy Society</publisher>
+                                        <publisher corresp="#percy_society">
+                                            <orgName>Percy Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1815"/>
                                     </imprint>
                                 </monogr>
@@ -29121,7 +29341,10 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
-                                        <publisher corresp="#percy_society">Percy Society</publisher>
+                                        <publisher corresp="#percy_society">
+                                            <orgName>Percy Society</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1847"/>
                                     </imprint>
                                 </monogr>
@@ -29133,10 +29356,19 @@
                             <biblStruct corresp="#owned" xml:id="sb559.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#phillips">Phillips, Stephen</author>
+                                    <author corresp="#phillips">
+                                        <persName>Phillips, Stephen</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#lane">
+                                            <persName>John Lane</persName>
+                                        </publisher>
+                                        <publisher corresp="#bodley_head">
+                                            <orgName>The Bodley Head</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1898"/>
                                     </imprint>
                                 </monogr>
@@ -29146,9 +29378,15 @@
                             <biblStruct corresp="#owned" xml:id="sb559.2">
                                 <monogr>
                                     <title>Hannibal, a Historical Drama</title>
-                                    <author corresp="#nichol">Nichol, John</author>
+                                    <author corresp="#nichol">
+                                        <persName>Nichol, John</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#maclehose">
+                                            <persName>J. Maclehose</persName>
+                                        </publisher>
+                                        <pubPlace ref="#glasgow">Glasgow</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
@@ -29158,12 +29396,18 @@
                             <biblStruct corresp="#owned" xml:id="sb559.3">
                                 <monogr>
                                     <title>Lyrics</title>
-                                    <author corresp="#benson_a">Benson, A. C.</author>
+                                    <author corresp="#benson_a">
+                                        <persName>Benson, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#lane">
+                                            <persName>John Lane</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -29176,7 +29420,9 @@
                                 <monogr>
                                     <title xml:lang="la">Olympia, Pythia, Nemea, Isthmia Caetorum
                                         Octo Lyricorum Carmina</title>
-                                    <author corresp="#pindar">Pindarus</author>
+                                    <author corresp="#pindar">
+                                        <persName>Pindarus</persName>
+                                    </author>
                                     <imprint>
                                         <date when="1539"/>
                                     </imprint>
