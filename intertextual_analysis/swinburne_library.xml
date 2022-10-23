@@ -352,6 +352,9 @@
                     <place source="http://vocab.getty.edu/page/tgn/1004602" xml:id="hammersmith">
                         <placeName type="preferred">Hammersmith</placeName>
                     </place>
+                    <place source="http://vocab.getty.edu/page/tgn/7012004" xml:id="ipswich">
+                        <placeName type="preferred">Ipswich</placeName>
+                    </place>
                     <place source="http://vocab.getty.edu/page/tgn/1039835" xml:id="kehl">
                         <placeName type="preferred">Kehl</placeName>
                     </place>
@@ -5373,6 +5376,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n79018629">Richard 
                             Bentley and Son</orgName>
                     </org>
+                    <org xml:id="richard_taylor_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no99059418">Richard 
+                            Taylor and Co.</orgName>
+                    </org>
                     <org xml:id="robert_clarke_company">
                         <orgName source="http://id.loc.gov/authorities/names/no2006089437">Robert 
                             Clarke Company</orgName>
@@ -5420,6 +5427,10 @@
                     <org xml:id="seeley_and_co">
                         <orgName source="http://id.loc.gov/authorities/names/n82240727">Seeley 
                             and Co.</orgName>
+                    </org>
+                    <org xml:id="seton_mackenzie">
+                        <orgName source="http://id.loc.gov/authorities/names/no2018055413">Seton 
+                            &amp; MacKenzie</orgName>
                     </org>
                     <org xml:id="shelley_society">
                         <orgName source="http://id.loc.gov/authorities/names/n80032748">Shelley 
@@ -5566,6 +5577,11 @@
                             Giovanni Antonio de', active 1492-approximately 1511</persName>
                         <floruit from="1492" to="1511" cert="unknown"/>
                     </person>
+                    <person xml:id="baker_j">
+                        <persName source="http://id.loc.gov/authorities/names/nr95037846">Baker, 
+                            John, active 1657-1685</persName>
+                        <floruit from="1657" to="1685"/>
+                    </person>
                     <person xml:id="barbou_jg">
                         <persName source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
                             Joseph-Gérard, 1723-1790?</persName>
@@ -5697,6 +5713,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
                             Henry, -1855</persName>
                         <death when="1855"/>
+                    </person>
+                    <person xml:id="collins_r">
+                        <persName source="http://id.loc.gov/authorities/names/n2005025238">Collins, 
+                            Richard, active 1630-1636</persName>
+                        <floruit from="1630" to="1636"/>
                     </person>
                     <person xml:id="collins_t">
                         <persName source="http://id.loc.gov/authorities/names/nr94027242">Collins, 
@@ -6087,6 +6108,16 @@
                         <birth when="1772"/>
                         <death when="1856"/>
                     </person>
+                    <person xml:id="moore_r">
+                        <persName source="http://id.loc.gov/authorities/names/nr93007803">Moore, 
+                            Richard, active 1607-1631</persName>
+                        <birth when="1607"/>
+                        <death when="1631"/>
+                    </person>
+                    <person xml:id="mortlock">
+                        <persName source="http://id.loc.gov/authorities/names/n86021666">Mortlock, 
+                            Henry</persName>
+                    </person>
                     <person xml:id="moseley">
                         <persName source="http://id.loc.gov/authorities/names/no90019019">Moseley,
                             Humphrey, -1661</persName>
@@ -6107,6 +6138,11 @@
                     <person xml:id="newby">
                         <persName source="http://id.loc.gov/authorities/names/nr93003863">Newby, 
                             Thomas Cautley</persName>
+                    </person>
+                    <person xml:id="newman">
+                        <persName source="http://id.loc.gov/authorities/names/nr93007989">Newman, 
+                            Thomas, active 1587-1598</persName>
+                        <floruit from="1587" to="1598"/>
                     </person>
                     <person xml:id="nichol_ja">
                         <persName source="http://id.loc.gov/authorities/names/no2010000815">Nichol, 
@@ -6207,6 +6243,12 @@
                             Edouard, 1849-1930</persName>
                         <birth when="1849"/>
                         <death when="1930"/>
+                    </person>
+                    <person xml:id="royston">
+                        <persName source="http://id.loc.gov/authorities/names/n85013594">Royston, 
+                            Richard, 1599-1686</persName>
+                        <birth when="1599"/>
+                        <death when="1686"/>
                     </person>
                     <person xml:id="sare">
                         <persName source="http://id.loc.gov/authorities/names/nr93034674">Sare, 
@@ -29437,7 +29479,9 @@
                                     <note type="description">in 1 vol. old red morocco, gilt
                                         edges</note>
                                     <imprint>
-                                        <publisher corresp="#estienne">H. Steph.</publisher>
+                                        <publisher corresp="#estienne">
+                                            <persName>H. Steph.</persName>
+                                        </publisher>
                                         <date when="1566"/>
                                     </imprint>
                                 </monogr>
@@ -29451,9 +29495,17 @@
                                 <monogr>
                                     <title>Dialogues, translated with Analyses and Introductions by
                                         B. Jowett</title>
-                                    <author corresp="#plato">Plato</author>
+                                    <author corresp="#plato">
+                                        <persName>Plato</persName>
+                                    </author>
                                     <note type="description">brown cloth, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Oxford University Press</orgName>
+                                        </publisher>
+                                        <publisher corresp="#milford">
+                                            <persName>Humphrey Milford</persName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
@@ -29482,7 +29534,9 @@
                                 <monogr>
                                     <title>The Monarchie of Man (1590-1632), with Introduction and
                                         Notes</title>
-                                    <author corresp="#eliot_j">Eliot, Sir John</author>
+                                    <author corresp="#eliot_j">
+                                        <persName>Eliot, Sir John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Gossart</name>
@@ -29490,6 +29544,8 @@
                                     <note type="description" corresp="#uncut">one of 100 copies,
                                         portraits and facsimiles, uncut, privately printed</note>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                     <extent>
@@ -29508,10 +29564,14 @@
                                     <title>De Jure Maiestatis, or Political Treatise of Government
                                         (1628-30) and Letter Book, edited with Notes, etc. by A. B.
                                         Grossart</title>
-                                    <author corresp="#eliot_j">Eliot, Sir John</author>
+                                    <author corresp="#eliot_j">
+                                        <persName>Eliot, Sir John</persName>
+                                    </author>
                                     <note type="description">one of 100 copies, facsimiles,
                                         privately printed</note>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                     <extent>
@@ -29529,12 +29589,16 @@
                                 <monogr>
                                     <title>A Sunday Paper on Politics, Domestic Economy and
                                         Theatricals</title>
-                                    <author corresp="#hunt_l">Examiner, The</author>
+                                    <author corresp="#hunt_l">
+                                        <orgName>Examiner, The</orgName>
+                                    </author>
                                     <!-- Hunt was the editor of the Examiner, so it feels appropriate to associate here. -->
                                     <note type="description">old calf, binding of one vol. broken
                                         and some leaves defective</note>
                                     <imprint>
-                                        <publisher corresp="#hunt_l">Published by J. Hunt</publisher>
+                                        <publisher corresp="#hunt_l">
+                                            <persName>J. Hunt</persName>
+                                        </publisher>
                                         <!-- a.k.a. James Henry Leigh Hunt -->
                                         <date from="1810" to="1814"/>
                                     </imprint>
@@ -29554,10 +29618,14 @@
                             <biblStruct corresp="#owned" xml:id="sb565.1">
                                 <monogr>
                                     <title>Merry Songs and Ballads prior to the year 1800</title>
-                                    <author corresp="#farmer">Farmer, John S.</author>
+                                    <author corresp="#farmer">
+                                        <persName>Farmer, John S.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, privately
                                         printed</note>
                                     <imprint>
+                                        <publisher/>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                     <extent>
@@ -29581,10 +29649,17 @@
                                 <monogr>
                                     <title>Edward Fitzgerald, 1809-1909, Centenary Celebrations
                                         Souvenir (with the Rubaiyat of Omar Khayyam)</title>
-                                    <author corresp="#fitzgerald_e">Fitzgerald, E.</author>
+                                    <author corresp="#fitzgerald_e">
+                                        <persName>Fitzgerald, E.</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations, white
                                         cloth</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>East Anglian Daily Times</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#ipswich">Ipswich</pubPlace>
                                         <date when="1909"/>
                                     </imprint>
                                 </monogr>
@@ -29600,6 +29675,8 @@
                                     <note type="description" corresp="#uncut">frontispeice, buckram,
                                         uncut</note>
                                     <imprint>
+                                        <publisher>Apud Typographicos Academicos</publisher>
+                                        <!-- "Among academic printers" in Latin. -->
                                         <pubPlace ref="#aberdeen">Aberdonia</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
@@ -29617,6 +29694,10 @@
                                     <note type="description" corresp="#uncut">portrait, half vellum,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#ward_lock_co">
+                                            <orgName>Ward, Lock, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -29628,12 +29709,18 @@
                             <biblStruct corresp="#owned" xml:id="sb568.1">
                                 <monogr>
                                     <title>Tis Pitty Shee's a Whore</title>
-                                    <author corresp="#ford_j">Ford, John</author>
+                                    <author corresp="#ford_j">
+                                        <persName>Ford, John</persName>
+                                    </author>
                                     <note type="description">title mended, some leaves
                                         stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A01057</idno>
                                     <imprint>
+                                        <publisher corresp="#collins_r">
+                                            <persName>Richard Collins</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1633"/>
                                     </imprint>
                                 </monogr>
@@ -29644,28 +29731,40 @@
                                 <monogr>
                                     <title>Adrasta, or the Woman's Spleene and Love's Conquest, a
                                         Tragi-Comedie never acted</title>
-                                    <author corresp="#jones_j">Jones, J.</author>
+                                    <author corresp="#jones_j">
+                                        <persName>Jones, J.</persName>
+                                    </author>
                                     <note type="description">half bound, with pencil note in
                                         Swinburne's writing, title defective and mended</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#royston">
+                                            <persName>Richard Royston</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1635"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ia" target="https://archive.org/details/adrastaorwomanss00jone"/>
+                                <relatedItem type="ia" 
+                                    target="https://archive.org/details/adrastaorwomanss00jone"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb569">
                             <biblStruct corresp="#owned" xml:id="sb569.1">
                                 <monogr>
                                     <title>Oliver Cromwell</title>
-                                    <author corresp="#gardiner">Gardiner, S. R.</author>
+                                    <author corresp="#gardiner">
+                                        <persName>Gardiner, S. R.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">coloured portrait and
                                         other portraits, etc. uncut</note>
                                     <imprint>
-                                        <publisher corresp="#goupil_cie">Goupil &amp; Co.</publisher>
+                                        <publisher corresp="#goupil_cie">
+                                            <orgName>Goupil &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -29678,11 +29777,20 @@
                                 <monogr>
                                     <title>Essays on several Important Subjects in Philosophy and
                                         Religion</title>
-                                    <author corresp="#glanvill">Glanvill, Jos.</author>
+                                    <author corresp="#glanvill">
+                                        <persName>Glanvill, Jos.</persName>
+                                    </author>
                                     <note type="description">old sheep</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A42813</idno>
                                     <imprint>
+                                        <publisher corresp="#baker_j">
+                                            <persName>John Baker</persName>
+                                        </publisher>
+                                        <publisher corresp="#mortlock">
+                                            <persName>Henry Mortlock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1676"/>
                                     </imprint>
                                 </monogr>
@@ -29732,10 +29840,16 @@
                                 <monogr>
                                     <title>Whole Art and Trade of Husbandry contained in foure
                                         Books</title>
-                                    <author corresp="#googe">Googe, B.</author>
+                                    <author corresp="#googe">
+                                        <persName>Googe, B.</persName>
+                                    </author>
                                     <note type="description">black letter, half calf, a few
                                         head-lines slightly cut into</note>
                                     <imprint>
+                                        <publisher corresp="#moore_r">
+                                            <persName>Richard More</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1614"/>
                                     </imprint>
                                 </monogr>
@@ -29747,7 +29861,9 @@
                             <biblStruct corresp="#owned" xml:id="sb573.1">
                                 <monogr>
                                     <title>Memoir of Thomas Lodge</title>
-                                    <author corresp="#gosse">Gosse, Edmund W.</author>
+                                    <author corresp="#gosse">
+                                        <persName>Gosse, Edmund W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">only 10
                                         copies printed, of which this is no. 1, half roan, uncut,
                                         presentation copy with autograph inscription. Privately
@@ -29755,6 +29871,11 @@
                                     <note type="inscription">Algernon C. Swinburne from his friend
                                         the author</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>R. Anderson</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#glasgow">Glasgow</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
@@ -29766,7 +29887,9 @@
                             <biblStruct corresp="#owned" xml:id="sb574.1">
                                 <monogr>
                                     <title>Memoir on Samuel Rowlands</title>
-                                    <author corresp="#gosse">Gosse, E. W.</author>
+                                    <author corresp="#gosse">
+                                        <persName>Gosse, E. W.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne from his friend
@@ -29795,12 +29918,22 @@
                                     <title>Ciceronis Amor. Tullie's Loue, wherein is discoursed the
                                         prime of Ciceroe's Youth, a Worke full of pleasure as
                                         following Ciceroe's Vaine</title>
-                                    <author corresp="#greene">Greene, Robert</author>
+                                    <author corresp="#greene">
+                                        <persName>Greene, Robert</persName>
+                                    </author>
                                     <note type="description">black letter, old calf, ornament on
                                         sides, title in facsimile and a leaf mended</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A02080</idno>
                                     <imprint>
+                                        <publisher corresp="#newman">
+                                            <persName>Thomas Newman</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>John Winington</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1589"/>
                                     </imprint>
                                 </monogr>
@@ -29814,7 +29947,9 @@
                                     <title>A Pleasant Comedie called A Woman will haue her Will, as
                                         it hath been diverse time acted with great applause</title>
                                     <idno type="tcp">A02800</idno>
-                                    <author corresp="#haughton">Houghton, William</author>
+                                    <author corresp="#haughton">
+                                        <persName>Houghton, William</persName>
+                                    </author>
                                     <note type="description">half bound, interlaced, some leaves
                                         stained and a few headlines cut into</note>
                                     <imprint>
@@ -29834,12 +29969,18 @@
                                 <monogr>
                                     <title>Exemplary Lives and Memorable Acts of Nine most worthy
                                         Women of the World</title>
-                                    <author corresp="#heywood_t">Heywood, T.</author>
+                                    <author corresp="#heywood_t">
+                                        <persName>Heywood, T.</persName>
+                                    </author>
                                     <note type="description">portraits (one mounted), calf, some
                                         leaves stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03196</idno>
                                     <imprint>
+                                        <publisher corresp="#royston">
+                                            <persName>Richard Royston</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1640"/>
                                     </imprint>
                                 </monogr>
@@ -29854,7 +29995,9 @@
                                         Predictions interpreted and their truth made good by our
                                         English Annalls</title>
                                     <idno type="tcp">A43598</idno>
-                                    <author corresp="#heywood_t">Heywood, T.</author>
+                                    <author corresp="#heywood_t">
+                                        <persName>Heywood, T.</persName>
+                                    </author>
                                     <note type="description">frontispiece, calf</note>
                                     <imprint>
                                         <date when="1651"/>
@@ -29862,7 +30005,8 @@
                                 </monogr>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A43598.0001.001"/>
-                                <note>Fine that TCP is a 1641 ed. because 1651 is a reissue with the only change being the title page.</note>
+                                <note>Fine that TCP is a 1641 ed. because 1651 is a reissue with the only change 
+                                    being the title page.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb579">
@@ -29875,6 +30019,7 @@
                                     </respStmt>
                                     <note type="description">one of 75 copies, half roan</note>
                                     <imprint>
+                                        <publisher/>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1822"/>
                                     </imprint>
@@ -29889,24 +30034,33 @@
                                     <title>Genuine Works, with Biographical Anecdotes by Nichols and
                                         Stevens, containing, Clavis, Hogarthiana, illustrative
                                         Essays, etc.</title>
-                                    <author corresp="#hogarth">Hogarth, Wm.</author>
+                                    <author corresp="#hogarth">
+                                        <persName>Hogarth, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">50 additional plates,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#longman_hurst_rees_orme_brown">
+                                            <orgName>Longman, Hurst, Rees, Orme, and Brown</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1817"/>
                                     </imprint>
                                     <extent>
                                         <measure unit="volumes" quantity="1">vol. III</measure>
                                     </extent>
                                 </monogr>
-                                <relatedItem type="ht" target="https://hdl.handle.net/2027/nyp.33433081868048"/>
+                                <relatedItem type="ht" 
+                                    target="https://hdl.handle.net/2027/nyp.33433081868048"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb581">
                             <biblStruct corresp="#owned" xml:id="sb581.1">
                                 <monogr>
                                     <title>Rip Van Winkle</title>
-                                    <author corresp="#irving">Irving, W.</author>
+                                    <author corresp="#irving">
+                                        <persName>Irving, W.</persName>
+                                    </author>
                                     <note type="description">illustrations by G. Browne</note>
                                     <imprint>
                                         <date when="1887"/>
@@ -29921,10 +30075,16 @@
                                 <monogr>
                                     <title>Fables and Tales suggested by the Frescoes of Pompeii and
                                         Herculaneum</title>
-                                    <author>Le Gros, W. B.</author>
+                                    <author>
+                                        <persName>Le Gros, W. B.</persName>
+                                    </author>
                                     <!-- Title found, but no LCNAF / full name. -->
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#bentley_1794">
+                                            <persName>RIchard Bentley</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1835"/>
                                     </imprint>
                                 </monogr>
@@ -29937,6 +30097,9 @@
                                     <note type="description">portrait and illustrations by G.
                                         Cruikshank, etc.</note>
                                     <imprint>
+                                        <publisher corresp="#seton_mackenzie">
+                                            <orgName>Seton &amp; Mackenzie</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
@@ -29951,11 +30114,17 @@
                                 <monogr>
                                     <title>Poems, etc. (1592-1638), edited with Introduction and
                                         Notes by A. B. Grosart</title>
-                                    <author corresp="#james">James, Rich.</author>
+                                    <author corresp="#james">
+                                        <persName>James, Rich.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 106 copies,
                                         frontispiece and illustrations, uncut, privately
                                         printed</note>
                                     <imprint>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                 </monogr>
@@ -29967,7 +30136,9 @@
                             <biblStruct corresp="#owned" xml:id="sb583.1">
                                 <monogr>
                                     <title>Tragedie of Solimon and Perseda</title>
-                                    <author corresp="#kyd">Kyd, T.</author>
+                                    <author corresp="#kyd">
+                                        <persName>Kyd, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">old boards,
                                         imprinted for Edward White. Presentation copy to Swinburne
                                         with inscription on fly-leaf</note>
@@ -29990,7 +30161,9 @@
                                 <monogr>
                                     <title>Frutefull Sermons, with others not heretofore set forth in
                                         print</title>
-                                    <author corresp="#latimer">Latymer, Hugh</author>
+                                    <author corresp="#latimer">
+                                        <persName>Latymer, Hugh</persName>
+                                    </author>
                                     <note type="description">black letter, engraved title, calf,
                                         printed by John Daye</note>
                                     <imprint>
@@ -29999,7 +30172,8 @@
                                 </monogr>
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A05143.0001.001"/>
-                                <note>TCP and OTA are an earlier, less complete collection of Latimer's sermons. See ESTC/S108315.</note>
+                                <note>TCP and OTA are an earlier, less complete collection of Latimer's sermons. 
+                                    See ESTC/S108315.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb585">
@@ -30007,17 +30181,20 @@
                                 <monogr>
                                     <title xml:lang="la">De Serpentibus opus singulare ac
                                         exactissimum</title>
-                                    <author corresp="#leoniceno">Leonicennus, Nic.</author>
+                                    <author corresp="#leoniceno">
+                                        <persName>Leonicennus, Nic.</persName>
+                                    </author>
                                     <note type="description">old boards</note>
                                     <imprint>
-                                        <publisher corresp="#antonio">Joan. Ant. de Benedictis</publisher>
+                                        <publisher corresp="#antonio">
+                                            <persName>Joan. Ant. de Benedictis</persName>
+                                        </publisher>
                                         <pubPlace ref="#bologna">Bononia</pubPlace>
                                         <date when="1518"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/nicolaileonicen00leon/page/n4/mode/2up"
-                                />
+                                    target="https://archive.org/details/nicolaileonicen00leon/page/n4/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb586">
@@ -30057,7 +30234,9 @@
                             <biblStruct corresp="#owned" xml:id="sb587.1">
                                 <monogr>
                                     <title>The Monk: a Romance</title>
-                                    <author corresp="#lewis">Lewis, M. G.</author>
+                                    <author corresp="#lewis">
+                                        <persName>Lewis, M. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, one of 300
                                         copies, uncut, privately printed</note>
                                     <imprint>
@@ -30075,10 +30254,15 @@
                                 <monogr>
                                     <title xml:lang="fr">L'Apollonide Drame Lyrique en trois Parties
                                         et Cinq Tableaux, Musique de F. Servais</title>
-                                    <author corresp="#lisle">Lisle, Le Conte de</author>
+                                    <author corresp="#lisle">
+                                        <persName>Lisle, Le Conte de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
@@ -30089,7 +30273,9 @@
                             <biblStruct corresp="#owned" xml:id="sb588.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Bijoux de Marguerite</title>
-                                    <author corresp="#leconte">Leconte, S. C.</author>
+                                    <author corresp="#leconte">
+                                        <persName>Leconte, S. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -30101,28 +30287,42 @@
                             <biblStruct corresp="#owned" xml:id="sb588.3">
                                 <monogr>
                                     <title xml:lang="fr">Le Sang des Fleurs</title>
-                                    <author corresp="#fontainas">Fontainas, A.</author>
+                                    <author corresp="#fontainas">
+                                        <persName>Fontainas, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
-                                    <note type="inscription">To my wonderful Master, Charles A. Swinburne <!-- sic -->, the poet of wild and pious love. Most respectfully, A. Fontainas.</note><!-- Taken from Harvard's catalog entry -->
+                                    <note type="inscription">To my wonderful Master, Charles A. Swinburne <!-- sic -->, 
+                                        the poet of wild and pious love. Most respectfully, A. Fontainas.</note>
+                                    <!-- Taken from Harvard's catalog entry -->
                                     <imprint>
+                                        <publisher>
+                                            <persName>Veuve Monnom</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#brussels">Bruxelles</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/lesangdesfleurs00font/page/n6/mode/2up"
-                                />
-                                <note type="provenance" target="http://id.lib.harvard.edu/alma/990024748490203941/catalog">HHoughton Library, Harvard University</note>
+                                    target="https://archive.org/details/lesangdesfleurs00font/page/n6/mode/2up"/>
+                                <note type="provenance" 
+                                    target="http://id.lib.harvard.edu/alma/990024748490203941/catalog">
+                                    Houghton Library, Harvard University</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb589">
                             <biblStruct corresp="#owned" xml:id="sb589.1">
                                 <monogr>
                                     <title xml:lang="fr">Dictionnaire de la Langue Française</title>
-                                    <author corresp="#littré">Littré, E.</author>
+                                    <author corresp="#littré">
+                                        <persName>Littré, E.</persName>
+                                    </author>
                                     <note type="description">half morocco, marbled edges</note>
                                     <imprint>
+                                        <publisher corresp="#hachette">
+                                            <orgName>Hachette et Cie</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
@@ -30144,9 +30344,15 @@
                             <biblStruct corresp="#owned" xml:id="sb590.1">
                                 <monogr>
                                     <title xml:lang="la">De Rerum Natura Libri sex</title>
-                                    <author corresp="#lucretius_carus">Lucretius</author>
+                                    <author corresp="#lucretius_carus">
+                                        <persName>Lucretius</persName>
+                                    </author>
                                     <note type="description">red morocco, gilt edges</note>
                                     <imprint>
+                                        <publisher corresp="#richard_taylor_co">
+                                            <orgName>Ricardi Taylor et Socii</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">Londini</pubPlace>
                                         <date when="1813"/>
                                     </imprint>
                                 </monogr>
