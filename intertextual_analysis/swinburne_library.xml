@@ -5472,6 +5472,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n80044799">Spenser
                             Society</orgName>
                     </org>
+                    <org xml:id="swan_sonnenschein_co">
+                        <orgName source="http://id.loc.gov/authorities/names/n82158535">Swan 
+                            Sonnenschein &amp; Co.</orgName>
+                    </org>
                     <org xml:id="t_n_foulis">
                         <orgName source="http://id.loc.gov/authorities/names/nr95042946">T.N. 
                             Foulis (Firm)</orgName>
@@ -5593,6 +5597,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr95013746">Barker,
                             Robert, -1645</persName>
                         <death when="1645"/>
+                    </person>
+                    <person xml:id="baskerville">
+                        <persName source="http://id.loc.gov/authorities/names/n81103313">Baskerville, 
+                            John, 1706-1775</persName>
+                        <birth when="1706"/>
+                        <death when="1775"/>
                     </person>
                     <person xml:id="bedell">
                         <persName source="http://id.loc.gov/authorities/names/nr94027241">Bedell, 
@@ -5864,6 +5874,11 @@
                             Timothy, -1720</persName>
                         <death when="1720"/>
                     </person>
+                    <person xml:id="greene_c">
+                        <persName source="http://id.loc.gov/authorities/names/nr97004870">Greene, 
+                            Charles, active 1631-1648</persName>
+                        <floruit from="1631" to="1648"/>
+                    </person>
                     <person xml:id="griffiths">
                         <persName source="http://id.loc.gov/authorities/names/nr91034589">Griffiths, 
                             Vaughan</persName>
@@ -5943,6 +5958,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97032167">Jones, 
                             William, -1643</persName>
                         <death when="1643"/>
+                    </person>
+                    <person xml:id="jones_t">
+                        <persName source="http://id.loc.gov/authorities/names/nr97019190">Jones, 
+                            Thomas, active 1600-1637</persName>
+                        <floruit from="1600" to="1637"/>
                     </person>
                     <person xml:id="keble">
                         <persName source="http://id.loc.gov/authorities/names/nr93051911">Keble, 
@@ -6232,6 +6252,11 @@
                         <birth when="1883"/>
                         <death when="1900"/>
                     </person>
+                    <person xml:id="rhodes">
+                        <persName source="http://id.loc.gov/authorities/names/n2005015955">Rhodes, 
+                            Matthew, active 1622-1642</persName>
+                        <floruit from="1622" to="1642"/>
+                    </person>
                     <person xml:id="rodd_t">
                         <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
                             Thomas, 1763-1822</persName>
@@ -6250,6 +6275,11 @@
                         <birth when="1599"/>
                         <death when="1686"/>
                     </person>
+                    <person xml:id="saalbach">
+                        <persName source="http://id.loc.gov/authorities/names/no2021098836">Saalbach, 
+                            Georg, active 1724-1744</persName>
+                        <floruit from="1724" to="1744"/>
+                    </person>
                     <person xml:id="sare">
                         <persName source="http://id.loc.gov/authorities/names/nr93034674">Sare, 
                             Richard, -1724</persName>
@@ -6258,6 +6288,17 @@
                     <person xml:id="scott_wa_publisher">
                         <persName source="http://id.loc.gov/authorities/names/nr93008554">Scott, 
                             Walter (Publisher)</persName>
+                    </person>
+                    <person xml:id="seile">
+                        <persName source="http://id.loc.gov/authorities/names/nr94028570">Seile, 
+                            Henry, 1595-1660</persName>
+                        <birth when="1595"/>
+                        <death when="1660"/>
+                    </person>
+                    <person xml:id="sheares">
+                        <persName source="http://id.loc.gov/authorities/names/nr94033789">Sheares, 
+                            William, -1662</persName>
+                        <death when="1662"/>
                     </person>
                     <person xml:id="smith_j">
                         <persName source="http://id.loc.gov/authorities/names/n88175997">Smith, 
@@ -6328,6 +6369,10 @@
                             Andreas, de Asula, 1451-1529</persName>
                         <birth when="1451"/>
                         <death when="1529"/>
+                    </person>
+                    <person xml:id="twyford">
+                        <persName source="http://id.loc.gov/authorities/names/no00033912">Twyford, 
+                            Timothy</persName>
                     </person>
                     <person xml:id="unwin">
                         <persName source="http://id.loc.gov/authorities/names/nr98001249">Unwin, 
@@ -30362,13 +30407,18 @@
                             <biblStruct corresp="#owned" xml:id="sb590.2">
                                 <monogr>
                                     <title xml:lang="la">Tibulli at Propertii Opera</title>
-                                    <author corresp="#catullus">Catulli</author>
+                                    <author corresp="#catullus">
+                                        <persName>Catulli</persName>
+                                    </author>
                                     <note type="description">old calf</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <edition>Baskerville's Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#baskerville">
+                                            <persName>Johannis Baskerville</persName>
+                                        </publisher>
                                         <pubPlace ref="#birmingham">Birmingham</pubPlace>
                                         <date when="1772"/>
                                     </imprint>
@@ -30381,17 +30431,21 @@
                             <biblStruct corresp="#owned" xml:id="sb591.1">
                                 <monogr>
                                     <title>Dictionary: English, German and French</title>
-                                    <author>Ludwig, Chris.</author>
+                                    <author>
+                                        <persName>Ludwig, Chris.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description">calf</note>
                                     <imprint>
+                                        <publisher corresp="#saalbach">
+                                            <persName>G. Saalbach</persName>
+                                        </publisher>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1736"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/dictionaryenglis00ludwuoft/page/n4/mode/2up"
-                                />
+                                    target="https://archive.org/details/dictionaryenglis00ludwuoft/page/n4/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb591.2">
                                 <monogr>
@@ -30425,7 +30479,9 @@
                                         necessary, a great sort profitable and many verye
                                         precious</title>
                                     <idno type="tcp">A68420</idno>
-                                    <author corresp="#lupton">Lupton, Thos.</author>
+                                    <author corresp="#lupton">
+                                        <persName>Lupton, Thos.</persName>
+                                    </author>
                                     <note type="description">black letter, calf, gilt edges, two
                                         last leaves slightly defective, printed for Edward
                                         White</note>
@@ -30443,13 +30499,19 @@
                                 <monogr>
                                     <title>Gallery of Illustrious Literary Characters, with Notices
                                         by W. Maginn</title>
-                                    <author corresp="#maclise">Maclise, D.</author>
+                                    <author corresp="#maclise">
+                                        <persName>Maclise, D.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Bates</name>
                                     </respStmt>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date>n.d.</date>
                                     </imprint>
                                 </monogr>
@@ -30459,7 +30521,9 @@
                             <biblStruct corresp="#owned" xml:id="sb593.2">
                                 <monogr>
                                     <title>Sir Phillips Sidney</title>
-                                    <author corresp="#stoddart_a">Stoddart, Anna M.</author>
+                                    <author corresp="#stoddart_a">
+                                        <persName>Stoddart, Anna M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait and
                                         illustrations, presentation copy to Swinburne from the
                                         author, with inscription</note>
@@ -30467,6 +30531,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            <orgName>WIlliam Blackwood and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -30491,6 +30559,10 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A06982</idno>
                                     <imprint>
+                                        <publisher corresp="#rhodes">
+                                            <persName>Mathew Rhodes</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1622"/>
                                     </imprint>
                                 </monogr>
@@ -30502,31 +30574,54 @@
                             <biblStruct corresp="#owned" xml:id="sb595.1">
                                 <monogr>
                                     <title>A Fine Companion</title>
-                                    <author corresp="#marmion">Marmyon, Shakerley</author>
+                                    <author corresp="#marmion">
+                                        <persName>Marmyon, Shakerley</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#meighen">
+                                            <persName>Richard Meighen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1633"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="ia" target="https://archive.org/details/finecompanionact00marm"/>
+                                <relatedItem type="ia" 
+                                    target="https://archive.org/details/finecompanionact00marm"/>
                             </biblStruct>
-                            <bibl xml:id="sb595.2">
-                                <title>The Slighted Maid, a Comedy</title>
-                                <idno type="tcp">A61309</idno>
-                                <author corresp="#stapylton">Stapylton, Sir R.</author>
-                                <date when="1663"/>
+                            <biblStruct xml:id="sb595.2">
+                                <monogr>
+                                    <title>The Slighted Maid, a Comedy</title>
+                                    <idno type="tcp">A61309</idno>
+                                    <author corresp="#stapylton">
+                                        <persName>Stapylton, Sir R.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#dring">
+                                            <persName>Thomas Dring</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1663"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="tcp"
                                     target=" http://name.umdl.umich.edu/A61309.0001.001"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb595.3">
                                 <monogr>
                                     <title>The Stepmother, a Tragi-Comedy</title>
                                     <idno type="tcp">A61310</idno>
-                                    <author corresp="#stapylton">Stapylton, Sir R.</author>
+                                    <author corresp="#stapylton">
+                                        <persName>Stapylton, Sir R.</persName>
+                                    </author>
                                     <note type="description">in 1 vol. half russia, some leaves
                                         stained</note>
                                     <imprint>
+                                        <publisher corresp="#twyford">
+                                            <persName>Timothy Twyford</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1664"/>
                                     </imprint>
                                 </monogr>
@@ -30539,11 +30634,16 @@
                                 <monogr>
                                     <title>Astarte, a Fragment of Truth concerning George Gordon
                                         Byron, Sixth Lord Byron</title>
-                                    <author corresp="#lovelace">Milbanke, Ralph, Earl of Lovelace</author>
+                                    <author corresp="#lovelace">
+                                        <persName>Milbanke, Ralph, Earl of Lovelace</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits and
                                         fascimiles, uncut</note>
                                     <imprint>
-                                        <publisher corresp="#chiswick_press">Chiswick Press</publisher>
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswick Press</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -30557,7 +30657,9 @@
                                     <title>Εἰκονοκλαστης, in Answer to a Book intitled Εἰκων
                                         Βασιλικον</title>
                                     <!-- Need help with Greek. Check -->
-                                    <author corresp="#milton">Milton, John</author>
+                                    <author corresp="#milton">
+                                        <persName>Milton, John</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
@@ -30573,9 +30675,16 @@
                                 <monogr>
                                     <title xml:lang="la">Pro Populo Anglicano Defensio contra
                                         Claudii Anonymi alias Salmasii</title>
-                                    <author corresp="#milton">Milton. J.</author>
+                                    <author corresp="#milton">
+                                        <persName>Milton, John</persName>
+                                    </author>
                                     <note type="description">old calf</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Du-Gardianis</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">Londini</pubPlace>
                                         <date when="1651"/>
                                     </imprint>
                                 </monogr>
@@ -30588,7 +30697,9 @@
                                 <monogr>
                                     <title>Love is Enough, or the Freeing of Pharamond, a
                                         Morality</title>
-                                    <author corresp="#morris">Morris, Wm.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author, with autograph
                                         inscription</note>
@@ -30596,6 +30707,10 @@
                                         friend William Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#roberts_brothers">
+                                            <orgName>Roberts Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
@@ -30608,15 +30723,18 @@
                                 <monogr>
                                     <title>Story of Sigurd the Volsung and the Fall of the
                                         Niblungs</title>
-                                    <author corresp="#morris">Morris, Wm.</author>
-                                    <note type="description" corresp="#presentation">original cloth, presentation copy with
-                                        inscription</note>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
+                                    <note type="description" corresp="#presentation">original cloth, presentation 
+                                        copy with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, from his
                                         friend William Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1887"/>
-                                        <!-- I question this as the First Edition. There are copies as early as 1877. Perhaps this is a mistake in the library catalog? -->
+                                        <!-- I question this as the First Edition. There are copies as early as 1877. 
+                                            Perhaps this is a mistake in the library catalog? -->
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
@@ -30629,7 +30747,9 @@
                             <biblStruct corresp="#owned" xml:id="sb601.1">
                                 <monogr>
                                     <title>Odyssey of Homer done into English Verse</title>
-                                    <author corresp="#morris">Morris, Wm.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">original
                                         boards, uncut, presentation copy from the author to
                                         Swinburne, with autograph inscription</note>
@@ -30637,6 +30757,10 @@
                                         Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                     <extent>
@@ -30653,7 +30777,9 @@
                             <biblStruct corresp="#owned" xml:id="sb602.1">
                                 <monogr>
                                     <title>A Dream of John Ball and a King's Lesson</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >frontispiece by Edward Burne-Jones, uncut, presentation
                                         copy from the author to Swinburne, with autograph
@@ -30662,6 +30788,10 @@
                                         Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1888"/>
                                     </imprint>
                                 </monogr>
@@ -30673,7 +30803,9 @@
                             <biblStruct corresp="#owned" xml:id="sb603.1">
                                 <monogr>
                                     <title>A Tale of the House of the Wolfings</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne, with
                                         autograph inscription</note>
@@ -30682,6 +30814,10 @@
                                             1888</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -30693,13 +30829,19 @@
                             <biblStruct corresp="#owned" xml:id="sb604.1">
                                 <monogr>
                                     <title>The Roots of the Mountains</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy, with autograph inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne from William
                                         Morris</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -30711,9 +30853,15 @@
                             <biblStruct corresp="#owned" xml:id="sb605.1">
                                 <monogr>
                                     <title>Poems by the Way</title>
-                                    <author corresp="#morris">Morris, W.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
                                 </monogr>
@@ -30726,9 +30874,15 @@
                                 <monogr>
                                     <title>Byrth, Lyf &amp; Actes of Kyng Arthur, with an
                                         Introduction and Notes by Robert Southey...and in the end Le Morte Darthur</title>
-                                    <author corresp="#malory">Malory, Thomas</author>
+                                    <author corresp="#malory">
+                                        <persName>Malory, Thomas</persName>
+                                    </author>
                                     <note type="description">vellum gilt</note>
                                     <imprint>
+                                        <publisher corresp="#longman_hurst_rees_orme_brown">
+                                            <orgName>Longman, Hurst, Rees, Orme, and Brown</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1817"/>
                                     </imprint>
                                     <extent>
@@ -30746,9 +30900,15 @@
                                 <monogr>
                                     <title>Minstrelsy Ancient and Modern, with Historical
                                         Introduction and Notes</title>
-                                    <author corresp="#motherwell">Motherwell, Wm.</author>
+                                    <author corresp="#motherwell">
+                                        <persName>Motherwell, Wm.</persName>
+                                    </author>
                                     <note type="description">half calf</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>John Wylie</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#glasgow">Glasgow</pubPlace>
                                         <date when="1827"/>
                                     </imprint>
@@ -30762,12 +30922,17 @@
                                 <monogr>
                                     <title>Tottenham Court, a Pleasant Comedie Acted in the Yeare
                                         MDCXXXIII at the private House in Salisbury Court</title>
-                                    <author corresp="#nabbes">Nabbes, Thos.</author>
+                                    <author corresp="#nabbes">
+                                        <persName>Nabbes, Thos.</persName>
+                                    </author>
                                     <note type="description">fore-edge of title slightly cut into,
                                         printed by Richard Oulton for Charles Greene</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A07978</idno>
                                     <imprint>
+                                        <publisher corresp="#greene_c">
+                                            <persName>Charles Greene</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
                                         <date when="1638"/>
                                     </imprint>
@@ -30780,25 +30945,33 @@
                             <biblStruct corresp="#owned" xml:id="sb609.1">
                                 <monogr>
                                     <title>The Choice of Valentines</title>
-                                    <author corresp="#nash">Nash, T.</author>
+                                    <author corresp="#nash">
+                                        <persName>Nash, T.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. S. Farmer</name>
                                     </respStmt>
                                     <note type="description">half bound</note>
                                     <imprint>
+                                        <publisher/>
+                                        <!-- Privately printed. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/choiseofvalentin00nashuoft/page/n8/mode/2up"
-                                />
-                                <note type="provenance" target="https://solo.bodleian.ox.ac.uk/permalink/f/89vilt/oxfaleph021326137">Held at Balliol College Library, Swinburne Collection z s 01</note>
+                                    target="https://archive.org/details/choiseofvalentin00nashuoft/page/n8/mode/2up" />
+                                <note type="provenance" 
+                                    target="https://solo.bodleian.ox.ac.uk/permalink/f/89vilt/oxfaleph021326137">
+                                    Held at Balliol College Library, Swinburne Collection z s 01</note>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb609.2">
                                 <monogr>
                                     <title>A Satirycal Dialogue</title>
-                                    <author corresp="#goddard">Goddard, Wm.</author>
+                                    <author corresp="#goddard">
+                                        <persName>Goddard, Wm.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. S. Farmer</name>
@@ -30808,12 +30981,14 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher/>
+                                        <!-- Privately printed. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/satirycalldialog00goddrich/page/n12/mode/2up"
-                                />
+                                    target="https://archive.org/details/satirycalldialog00goddrich/page/n12/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb610">
@@ -30823,6 +30998,10 @@
                                     <note type="description">head-lines cut into</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#jones_t">
+                                            <persName>Thomas Jones</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1624"/>
                                     </imprint>
                                 </monogr>
@@ -30834,9 +31013,15 @@
                                     <title>The Ile of Gulls, as it hath been often Acted in the
                                         Black Fryers, by the Children of the Revels</title>
                                     <idno type="tcp">A69188</idno>
-                                    <author corresp="#day">Day, John</author>
+                                    <author corresp="#day">
+                                        <persName>Day, John</persName>
+                                    </author>
                                     <note type="description">head-lines cut into</note>
                                     <imprint>
+                                        <publisher corresp="#sheares">
+                                            <persName>William Sheares</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1633"/>
                                     </imprint>
                                 </monogr>
@@ -30846,7 +31031,9 @@
                             <biblStruct corresp="#owned" xml:id="sb610.3">
                                 <monogr>
                                     <title>Cupid's Whirligig</title>
-                                    <author corresp="#sharpham">Sharpham, E.</author>
+                                    <author corresp="#sharpham">
+                                        <persName>Sharpham, E.</persName>
+                                    </author>
                                     <note type="description">half bound, some leaves cut round and
                                         cut into</note>
                                     <imprint>
@@ -30862,12 +31049,16 @@
                                     <title>The Nauigations, Pereginations and Voyages made into
                                         Turkie, translated out of the French by T. Washington the
                                         younger</title>
-                                    <author corresp="#nicolay">Nicholay, Nicholas</author>
+                                    <author corresp="#nicolay">
+                                        <persName>Nicholay, Nicholas</persName>
+                                    </author>
                                     <note type="description">curious old woodcuts, calf gilt, red
                                         and gilt edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher corresp="#dawson">Imprinted by Thomas Dawson</publisher>
+                                        <publisher corresp="#dawson">
+                                            Imprinted by <persName>Thomas Dawson</persName>
+                                        </publisher>
                                         <date when="1585"/>
                                     </imprint>
                                 </monogr>
@@ -30879,11 +31070,16 @@
                                 <monogr>
                                     <title>Twelve Stories selected and done into English, with
                                         Memoir by Percy Pinkerton</title>
-                                    <author xml:lang="fr" corresp="#bandello">Novellieri Italiani. Matteo
-                                        Bandello</author>
+                                    <author xml:lang="fr" corresp="#bandello">Novellieri Italiani. 
+                                        <persName>Matteo Bandello</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">red cloth,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#nimmo">
+                                            <persName>John C. Nimmo</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -30903,6 +31099,10 @@
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -30956,9 +31156,13 @@
                                         <name full="yes">A. W. Pollard</name>
                                     </respStmt>
                                     <note type="description" corresp="#presentation">large paper,
-                                        one of 50 copies, vellum, presentation copy to
-                                        Swinburne</note>
+                                        one of 50 copies, vellum, presentation copy to Swinburne</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>David Stott</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -30968,7 +31172,9 @@
                             <biblStruct corresp="#owned" xml:id="sb614.2">
                                 <monogr>
                                     <title>A Lost Mother</title>
-                                    <author corresp="#barlow">Barlow, George</author>
+                                    <author corresp="#barlow">
+                                        <persName>Barlow, George</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">frontispiece,
                                         presentation copy to Swinburne, with autograph letter of the
                                         author</note>
@@ -30976,6 +31182,10 @@
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#swan_sonnenschein_co">
+                                            <orgName>Swan Sonnenschein &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                 </monogr>
@@ -30991,18 +31201,24 @@
                             <biblStruct corresp="#owned" xml:id="sb615.1">
                                 <monogr>
                                     <title>Certaine Learned and Elegant VVorkes</title><!-- vvorks -->
-                                    <author corresp="#brooke_f">Brooke, Fulke Greville, Lord</author>
+                                    <author corresp="#brooke_f">
+                                        <persName>Brooke, Fulke Greville, Lord</persName>
+                                    </author>
                                     <note type="description">old calf, last leaf soiled. As usual
                                         this copy commences at p. 23. It is conjectured that the
                                         absent pages consisted of "A Treatise on Religion" which was
                                         cancelled by order of Laud—Bible. Anglo- Poetica.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <date when="1633"/>
+                                        <publisher corresp="#seile">
+                                            <persName>Henry Seyle</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1633"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="tcp" target="http://name.umdl.umich.edu/A02226.0001.001"/>
+                                <relatedItem type="tcp" 
+                                    target="http://name.umdl.umich.edu/A02226.0001.001"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb616">
