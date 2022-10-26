@@ -5252,6 +5252,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr2003002951">Lawrence 
                             &amp; Bullen</orgName>
                     </org>
+                    <org xml:id="leadenhall_press">
+                        <orgName source="http://id.loc.gov/authorities/names/no2001062646">Leadenhall 
+                            Press</orgName>
+                    </org>
                     <org xml:id="lee_priory">
                         <orgName source="http://id.loc.gov/authorities/names/no94000403">Private
                             Press of Lee Priory</orgName>
@@ -5566,6 +5570,12 @@
                     </org>
                 </listOrg>
                 <listPerson>
+                    <person xml:id="aa">
+                        <persName source="http://id.loc.gov/authorities/names/n83120429">Aa, 
+                            Pieter van der, 1659-1733</persName>
+                        <birth when="1659"/>
+                        <death when="1733"/>
+                    </person>
                     <person xml:id="adlard">
                         <persName source="http://id.loc.gov/authorities/names/nr93020052">Adlard, 
                             James Evan</persName>
@@ -5678,6 +5688,11 @@
                             A. L. (Albert Levi), 1843-1913</persName>
                         <birth when="1843"/>
                         <death when="1913"/>
+                    </person>
+                    <person xml:id="butter">
+                        <persName source="http://id.loc.gov/authorities/names/nr93001353">Butter, 
+                            Nathaniel, -1664</persName>
+                        <death when="1664"/>
                     </person>
                     <person xml:id="byrn">
                         <persName source="http://id.loc.gov/authorities/names/no96046058">Byrn, 
@@ -5927,6 +5942,10 @@
                         <persName source="http://id.loc.gov/authorities/names/no2011145806">Houssiaux, 
                             Alexandre</persName>
                     </person>
+                    <person xml:id="hunne">
+                        <persName source="http://id.loc.gov/authorities/names/n2004075107">Hunne, 
+                            John</persName>
+                    </person>
                     <person xml:id="hunt_j">
                         <persName source="http://id.loc.gov/authorities/names/nr92008396">Hunt,
                             John, 1775-1848</persName>
@@ -5947,6 +5966,11 @@
                     <person xml:id="ingalton">
                         <persName source="http://id.loc.gov/authorities/names/n2018056974">Ingalton 
                             Drake, R.</persName>
+                    </person>
+                    <person xml:id="islip">
+                        <persName source="http://id.loc.gov/authorities/names/n92067312">Islip, 
+                            Adam, -1639</persName>
+                        <death when="1639"/>
                     </person>
                     <person xml:id="jaggard">
                         <persName source="http://id.loc.gov/authorities/names/n50000034">Jaggard, 
@@ -31232,18 +31256,24 @@
                                         Pembroke, who was used to scrawl and spoil his books in this
                                         manner.</note>
                                     <imprint>
-                                        <date when="1633"/>
+                                        <publisher corresp="#seile">
+                                            <persName>Henry Seyle</persName>
+                                        </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1633"/>  
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="tcp" target="http://name.umdl.umich.edu/A02226.0001.001"/>
+                                <relatedItem type="tcp" 
+                                    target="http://name.umdl.umich.edu/A02226.0001.001"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb617">
                             <biblStruct corresp="#owned" xml:id="sb617.1">
                                 <monogr>
                                     <title>Memoir of Edward Calvert, Artist</title>
-                                    <author corresp="#calvert">Calvert, Saml.</author>
+                                    <author corresp="#calvert">
+                                        <persName>Calvert, Saml.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">one of
                                         350 copes, portrait and reproductions from his paintings,
                                         buckram, uncut, presentation copy from the author to
@@ -31260,7 +31290,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Délices de l'Esprit Dialogues dediez
                                         aux beaux Esprits du Monde</title>
-                                    <author corresp="#desmarets_de_saint-sorlin">Desmarests, I.</author>
+                                    <author corresp="#desmarets_de_saint-sorlin">
+                                        <persName>Desmarests, I.</persName>
+                                    </author>
                                     <note type="description">engravings, old calf gilt</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -31282,7 +31314,9 @@
                                         desolation de la tresinclyte et fameuse cite de Troye,
                                         jusques au regne du tres vertueuse Roy Francois à present
                                         regnant</title>
-                                    <author corresp="#gilles">Gilles, Nicole</author>
+                                    <author corresp="#gilles">
+                                        <persName>Gilles, Nicole</persName>
+                                    </author>
                                     <note type="description">lettres batárdes, titles within woodcut
                                         borders, the first in red and black, large woodcuts,
                                         pedigrees, ornamental initials, etc. crimson levant morocco
@@ -31305,12 +31339,18 @@
                                 <monogr>
                                     <title>Illustrations of the Life of Shakespeare, Part the
                                         First</title>
-                                    <author corresp="#halliwell-phillipps">Halliwell, J. O.</author>
+                                    <author corresp="#halliwell-phillipps">
+                                        <persName>Halliwell, J. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         presentation copy with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         best compts.</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -31323,8 +31363,11 @@
                                 <monogr>
                                     <title xml:lang="it">Antichita di Ercolano (da O. A.
                                         Bojardi)</title>
-                                    <author corresp="#baiardi">Bojardi, O. A.</author>
-                                    <!-- Other sources I've found state this as author, appears to be supported by title. -->
+                                    <author corresp="#baiardi">
+                                        <persName>Bojardi, O. A.</persName>
+                                    </author>
+                                    <!-- Other sources I've found state this as author, 
+                                        appears to be supported by title. -->
                                     <note type="description">numerous fine engravings, etc. old
                                         calf, gilt edges</note>
                                     <imprint>
@@ -31361,25 +31404,35 @@
                                 <monogr>
                                     <title>Hierarchie of the Blessed Angells, their Names, Orders
                                         and Offices, the Fall of Lucifer with his Angells</title>
-                                    <author corresp="#heywood_t">Heywood, Thos.</author>
+                                    <author corresp="#heywood_t">
+                                        <persName>Heywood, Thos.</persName>
+                                    </author>
                                     <note type="description">engraved title by Cecill, old
                                         calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03207</idno>
                                     <imprint>
+                                        <publisher corresp="#islip">
+                                            <persName>Adam Islip</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1635"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A03207.0001.001"/>
-                                <note type="provenance" target="https://find.library.duke.edu/catalog/DUKE000276157">Duke University</note>
+                                <note type="provenance" 
+                                    target="https://find.library.duke.edu/catalog/DUKE000276157">
+                                    Duke University</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb623">
                             <biblStruct corresp="#owned" xml:id="sb623.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#hogarth">Hogarth, W.</author>
+                                    <author corresp="#hogarth">
+                                        <persName>Hogarth, W.</persName>
+                                    </author>
                                     <note type="description">portrait and engravings, mounted in a
                                         vol. old russia, broken</note>
                                     <imprint>
@@ -31396,7 +31449,9 @@
                                 <monogr>
                                     <title>Historie of Ireland from the first inhabitation therof
                                         unto the yeare 1509, continued by Rich. Stanyhurst</title>
-                                    <author corresp="#holinshed">Holinshed, Raph.</author>
+                                    <author corresp="#holinshed">
+                                        <persName>Holinshed, Raph.</persName>
+                                    </author>
                                     <note type="description">black letter, engraved title and
                                         woodcuts, half calf, red edges</note>
                                     <imprint>
@@ -31412,10 +31467,16 @@
                                     <title>Historie of Scotlande from the originall therof unto the
                                         yeare 1571</title>
                                     <idno type="tcp">A03448</idno>
-                                    <author corresp="#holinshed">Holinshed, R.</author>
+                                    <author corresp="#holinshed">
+                                        <persName>Holinshed, Raph.</persName>
+                                    </author>
                                     <note type="description">black letter, engraved title and
                                         woodcuts, half calf, red edges</note>
                                     <imprint>
+                                        <publisher corresp="#hunne">
+                                            <persName>Ione Hunne</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1577"/>
                                     </imprint>
                                 </monogr>
@@ -31437,7 +31498,9 @@
                             <biblStruct corresp="#owned" xml:id="sb626.1">
                                 <monogr>
                                     <title>Iliad</title>
-                                    <author corresp="#homer">Homer</author>
+                                    <author corresp="#homer">
+                                        <persName>Homer</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Geo. Chapman</name>
@@ -31447,6 +31510,10 @@
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <idno type="tcp">A03512</idno>
                                     <imprint>
+                                        <publisher corresp="#butter">
+                                            <persName>Nathaniell Butter</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1610"/>
                                     </imprint>
                                 </monogr>
@@ -31467,10 +31534,15 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Comédies de Plaute, nouvelle traduction
                                         par Mons. Guendeville, avec des notes, etc.</title>
-                                    <author corresp="#plautus">Plautus</author>
+                                    <author corresp="#plautus">
+                                        <persName>Plautus</persName>
+                                    </author>
                                     <note type="description">plates, French calf gilt, marbled
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#aa">
+                                            <persName>Pierre Vander Aa</persName>
+                                        </publisher>
                                         <pubPlace ref="#leiden">à Leide</pubPlace>
                                         <date when="1719"/>
                                     </imprint>
@@ -31497,8 +31569,7 @@
                                 <relatedItem n="9" type="ia"
                                     target="https://archive.org/details/bub_gb_YwdzmlbXIHIC/page/n7/mode/2up"/>
                                 <relatedItem n="10" type="ia"
-                                    target="https://archive.org/details/bub_gb_pUuiP_spoO8C/page/n6/mode/2up"
-                                />
+                                    target="https://archive.org/details/bub_gb_pUuiP_spoO8C/page/n6/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb628">
@@ -31506,8 +31577,14 @@
                                 <monogr>
                                     <title>Comedies, literally translated into English Prose, with
                                         notes, by H. T. Riley</title>
-                                    <author corresp="#plautus">Plautus</author>
+                                    <author corresp="#plautus">
+                                        <persName>Plautus</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                     <extent>
@@ -31523,7 +31600,9 @@
                                 <monogr>
                                     <title>Comedies and Fables of Phaedrus, translated into English
                                         Prose by H. T. Riley</title>
-                                    <author corresp="#terence">Terence</author>
+                                    <author corresp="#terence">
+                                        <persName>Terence</persName>
+                                    </author>
                                     <note type="description">frontispiece</note>
                                     <imprint>
                                         <date when="1901"/>
@@ -31591,7 +31670,9 @@
                         <listBibl type="lot" xml:id="sb630">
                             <bibl xml:id="sb630.1">
                                 <title>The She Gallants, a Comedy</title>
-                                <author corresp="#lansdowne">Landsdown, Geo. Granville, Lord</author>
+                                <author corresp="#lansdowne">
+                                    <persName>Landsdown, Geo. Granville, Lord</persName>
+                                </author>
                                 <date>n.d.</date>
                                 <relatedItem type="ia"
                                     target="https://archive.org/details/shegallantscomed00lans/page/n4/mode/2up"/>
@@ -31599,14 +31680,18 @@
                             </bibl>
                             <bibl xml:id="sb630.2">
                                 <title>The Committee, a Comedy</title>
-                                <author corresp="#howard">Howard, Sir R.</author>
+                                <author corresp="#howard">
+                                    <persName>Howard, Sir R.</persName>
+                                </author>
                                 <date>n.d.</date>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/pst.000006518295"/>
                             </bibl>
                             <bibl xml:id="sb630.3">
                                 <title>Sir Courtly Nice and it Cannot be, a Comedy</title>
-                                <author corresp="#crown">Crown, John</author>
+                                <author corresp="#crown">
+                                    <persName>Crown, John</persName>
+                                </author>
                                 <date>n.d.</date>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/osu.32435017925306"/>
@@ -31615,8 +31700,11 @@
                                 <monogr>
                                     <title>The Drummer, or the Haunted House, a Comedy, with Preface
                                         and Letter By Sir Richard Steele</title>
-                                    <author corresp="#addison">Harrison, Mr.</author>
-                                    <!-- Not sure if this is a typo or a misprint, but other sources say the author is Joseph Addison. -->
+                                    <author corresp="#addison">
+                                        <persName>Harrison, Mr.</persName>
+                                    </author>
+                                    <!-- Not sure if this is a typo or a misprint, but other 
+                                        sources say the author is Joseph Addison. -->
                                     <note type="description">half bound</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -31633,7 +31721,9 @@
                             <biblStruct corresp="#owned" xml:id="sb631.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#poe">Poe, E. A.</author>
+                                    <author corresp="#poe">
+                                        <persName>Poe, E. A.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">John H. Ingram</name>
@@ -31644,6 +31734,9 @@
                                     <note type="inscription">To A. C. Swinburne, with the Editor's
                                         best wishes</note>
                                     <imprint>
+                                        <publisher corresp="#adam_charles_black">
+                                            <orgName>A. and C. Black</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
@@ -31651,7 +31744,7 @@
                                         <measure unit="volumes" quantity="4"/>
                                     </extent>
                                 </monogr>
-                                <relatedItem type="ht"
+                                <relatedItem n="3" type="ht"
                                     target="https://hdl.handle.net/2027/uva.x000177937"/>
                             </biblStruct>
                         </listBibl>
@@ -31660,7 +31753,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Oeuvres Choisies, traduction nouvelle par
                                         W. L. Hughes</title>
-                                    <author corresp="#poe">Poe, E.</author>
+                                    <author corresp="#poe">
+                                        <persName>Poe, E.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -31675,7 +31770,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Passé le Détroit la Vie et l'Art à
                                         Lonres</title>
-                                    <author corresp="#mourey">Mourey, G.</author>
+                                    <author corresp="#mourey">
+                                        <persName>Mourey, G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -31689,7 +31786,9 @@
                             <biblStruct corresp="#owned" xml:id="sb632.3">
                                 <monogr>
                                     <title xml:lang="fr">Les Poëmes de l'amour et de la Mort</title>
-                                    <author corresp="#lebey">Lebey, A.</author>
+                                    <author corresp="#lebey">
+                                        <persName>Lebey, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne, with inscriptions<num
@@ -31722,32 +31821,52 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb634">
-                            <bibl xml:id="sb634.1">
-                                <title>Poet's Praise (The) from Homer to Swinburne, collected and
-                                    arranged, with notes, by E. Davenport Adams</title>
-                                <date when="1894"/>
+                            <biblStruct xml:id="sb634.1">
+                                <monogr>
+                                    <title>Poet's Praise (The) from Homer to Swinburne, collected and
+                                        arranged, with notes, by E. Davenport Adams</title>
+                                        <imprint>
+                                            <publisher corresp="#stock">
+                                                <persName>Elliot Stock</persName>
+                                            </publisher>
+                                            <pubPlace ref="#london">London</pubPlace>
+                                            <date when="1894"/>
+                                        </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.$b27458"/>
-                            </bibl>
-                            <bibl xml:id="sb634.2">
-                                <title>Sea Song and River Rhyme from Chaucer to Tennyson, selected
-                                    and edited by E. Davenport Adams, with a Poem by A. C.
-                                    Swinburne</title>
-                                <note type="description">12 etchings</note>
-                                <date when="1890"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb634.2">
+                                <monogr>
+                                    <title>Sea Song and River Rhyme from Chaucer to Tennyson, selected
+                                        and edited by E. Davenport Adams, with a Poem by A. C.
+                                        Swinburne</title>
+                                    <note type="description">12 etchings</note>
+                                        <imprint corresp="#kegan_paul_trench_trubner_co">
+                                            <publisher>Kegan Paul, Trench, Trübner &amp; Co.</publisher>
+                                            <pubPlace ref="#london">London</pubPlace>
+                                            <date when="1890"/>
+                                        </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/inu.30000092244171"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb634.3">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#scott_wi">Scott, W. Bell</author>
+                                    <author corresp="#scott_wi">
+                                        <persName>Scott, W. Bell</persName>
+                                    </author>
                                     <note type="description">17 etchings by the author and L. Alma
                                         Tadena</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -31766,6 +31885,11 @@
                                     </respStmt>
                                     <note type="description">half vellum</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Percival and Co.</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1891" to="1892"/>
                                     </imprint>
                                     <extent>
@@ -31785,7 +31909,9 @@
                             <biblStruct corresp="#owned" xml:id="sb635.2">
                                 <monogr>
                                     <title>Adventures of Ferdinand, Count Fathom</title>
-                                    <author corresp="#smollett">Smollett, T.</author>
+                                    <author corresp="#smollett">
+                                        <persName>Smollett, T.</persName>
+                                    </author>
                                     <note type="description">plates</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -31802,12 +31928,18 @@
                                 <monogr>
                                     <title>The Saint's Tragedy, with Preface by F. D.
                                         Maurice</title>
-                                    <author corresp="#kingsley">Kingsley, C.</author>
+                                    <author corresp="#kingsley">
+                                        <persName>Kingsley, C.</persName>
+                                    </author>
                                     <note type="description">morocco gilt, gilt edges</note>
                                     <note type="etc">
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#john_w_parker_son">
+                                            <orgName>J. W. Parker &amp; Son</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1851"/>
                                     </imprint>
                                 </monogr>
@@ -31820,9 +31952,15 @@
                                 <monogr>
                                     <title>Old Picture Books, with other Essays on Bookish
                                         Subjects</title>
-                                    <author corresp="#pollard">Pollard, A. W.</author>
+                                    <author corresp="#pollard">
+                                        <persName>Pollard, A. W.</persName>
+                                    </author>
                                     <note type="description">woodcuts</note>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -31832,9 +31970,15 @@
                             <biblStruct corresp="#owned" xml:id="sb636.2">
                                 <monogr>
                                     <title>Forgotten Children's Books</title>
-                                    <author corresp="#tuer">Tuer, A. W.</author>
+                                    <author corresp="#tuer">
+                                        <persName>Tuer, A. W.</persName>
+                                    </author>
                                     <note type="description">400 illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#leadenhall_press">
+                                            <orgName>The Leadenhall Press, Ltd.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1898" to="1899"/>
                                     </imprint>
                                 </monogr>
@@ -31848,7 +31992,9 @@
                                 <monogr>
                                     <title>History and Progress of Children's Literature in
                                         England</title>
-                                    <author corresp="#field">Field, Mrs. E. M.</author>
+                                    <author corresp="#field">
+                                        <persName>Field, Mrs. E. M.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -31869,9 +32015,15 @@
                                 <monogr>
                                     <title>Popish Plot, a Study in the History of the Reign of
                                         Charles II.</title>
-                                    <author corresp="#pollock_j">Pollock, J.</author>
+                                    <author corresp="#pollock_j">
+                                        <persName>Pollock, J.</persName>
+                                    </author>
                                     <note type="description">royal 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#duckworth_co">
+                                            <orgName>Duckworth and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
                                 </monogr>
@@ -31881,8 +32033,14 @@
                             <biblStruct corresp="#owned" xml:id="sb637.2">
                                 <monogr>
                                     <title>Napoleon, the Last Phase</title>
-                                    <author corresp="#rosebery">Rosebery, Lord</author>
+                                    <author corresp="#rosebery">
+                                        <persName>Rosebery, Lord</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#harper_brothers">
+                                            <orgName>Harper and Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -31892,13 +32050,19 @@
                             <biblStruct corresp="#owned" xml:id="sb637.3">
                                 <monogr>
                                     <title>Life of Louis XI</title>
-                                    <author corresp="#hare">Hare, C.</author>
+                                    <author corresp="#hare">
+                                        <persName>Hare, C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits,
                                         uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#harper_brothers">
+                                            <orgName>Harper and Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
                                 </monogr>
@@ -31911,7 +32075,9 @@
                                 <monogr>
                                     <title>The English Parnassus, or a Help to English
                                         Poesis</title>
-                                    <author corresp="#poole">Poole, Joshua</author>
+                                    <author corresp="#poole">
+                                        <persName>Poole, Joshua</persName>
+                                    </author>
                                     <note type="description">frontispiece, mounted, calf, some
                                         leaves supplied from another copy</note>
                                     <imprint>
@@ -31920,7 +32086,8 @@
                                 </monogr>
                                 <relatedItem type="tcp"
                                     target="http://name.umdl.umich.edu/A55357.0001.001"/>
-
+                                <note type="fulltext">Appears that this copy was published in 1657 – not sure
+                                if this is a typo, error in the catalogue, or original entry forgot the note.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb639">
@@ -31928,10 +32095,58 @@
                                 <monogr>
                                     <title>Works, with Commentary and Notes of Warburton;
                                         Translation of Homer's Illiad and Odyssey</title>
-                                    <author corresp="#pope">Pope, Alex.</author>
+                                    <author corresp="#pope">
+                                        <persName>Pope, Alex.</persName>
+                                    </author>
                                     <note type="description">together, portrait and plates, old calf
                                         gilt, ex-libris of R. H. Alexan. Bennett in each vol.</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>T. Osborne</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <orgName>C. Hitch and L. Hawes</orgName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>John Rivington</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>R. Baldwin</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>W. Johnston</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>J. Richardson</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>S. Crowder</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <orgName>P. Davey and B. Law</orgName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>T. Longman</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>T. Caslon</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>T. Field</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>T. Pote</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <orgName>H. Woodgate and S. Brooks</orgName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>S. Baker</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>T. Payne</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1760"/>
                                     </imprint>
                                     <extent>
@@ -31980,10 +32195,16 @@
                                 <monogr>
                                     <title>Works, collected in part by Rt. Hon. J. W. Croker, with
                                         Introduction and Notes by W. Elwin</title>
-                                    <author corresp="#pope">Pope A.</author>
+                                    <author corresp="#pope">
+                                        <persName>Pope A.</persName>
+                                    </author>
                                     <note type="description">portraits and other illustrations,
                                         brown cloth</note>
                                     <imprint>
+                                        <publisher corresp="#murray_j">
+                                            <persName>John Murray</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                     <extent>
