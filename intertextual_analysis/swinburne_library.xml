@@ -4928,6 +4928,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
                             Constable &amp; Co.</orgName>
                     </org>
+                    <org xml:id="art_gallery_corporation_london">
+                        <orgName source="http://id.loc.gov/authorities/names/n96007425">Art Gallery 
+                            of the Corporation of London</orgName>
+                    </org>
                     <org xml:id="ashendene_press">
                         <orgName source="http://id.loc.gov/authorities/names/n81144054">Ashendene
                             Press</orgName>
@@ -4975,6 +4979,10 @@
                     <org xml:id="c_and_j_ollier">
                         <orgName source="http://id.loc.gov/authorities/names/nr2004005565">C. 
                             and J. Ollier (Firm)</orgName>
+                    </org>
+                    <org xml:id="c_hitch_l_hawes">
+                        <orgName source="http://id.loc.gov/authorities/names/no2010149516">C. 
+                            Hitch and L. Hawes (Firm)</orgName>
                     </org>
                     <org xml:id="c_kegan_paul_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2006002324">C. 
@@ -5051,6 +5059,10 @@
                     <org xml:id="duckworth_co">
                         <orgName source="http://id.loc.gov/authorities/names/n2001128401">Duckworth 
                             &amp; Co. (Manchester, England)</orgName>
+                    </org>
+                    <org xml:id="e_g_goldsmid">
+                        <orgName source="http://id.loc.gov/authorities/names/nr2003008778">E. 
+                            &amp; G. Goldsmid</orgName>
                     </org>
                     <org xml:id="edward_lloyd_ltd">
                         <orgName source="http://id.loc.gov/authorities/names/no2016044815">Edward 
@@ -5200,6 +5212,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n2016069444">J. 
                             Selwin Tait &amp; Sons</orgName>
                     </org>
+                    <org xml:id="james_bowden">
+                        <orgName source="http://id.loc.gov/authorities/names/no2009052340">James 
+                            Bowden (Firm)</orgName>
+                    </org>
                     <org xml:id="james_miller">
                         <orgName source="http://id.loc.gov/authorities/names/no98132613">James 
                             Miller (Firm)</orgName>
@@ -5231,6 +5247,10 @@
                     <org xml:id="john_w_parker_son">
                         <orgName source="http://id.loc.gov/authorities/names/nr2002044381">John 
                             W. Parker and Son</orgName>
+                    </org>
+                    <org xml:id="john_wiley_sons">
+                        <orgName source="http://id.loc.gov/authorities/names/n80083764">John 
+                            Wiley &amp; Sons</orgName>
                     </org>
                     <org xml:id="kama_sastra_society">
                         <orgName source="http://id.loc.gov/authorities/names/nb2006006446">Kama
@@ -5307,6 +5327,10 @@
                     <org xml:id="longman_hurst_rees_orme_brown">
                         <orgName source="http://id.loc.gov/authorities/names/nr93032708">Longman, 
                             Hurst, Rees, Orme, and Brown</orgName>
+                    </org>
+                    <org xml:id="longman_rees_orme_brown_green">
+                        <orgName source="http://id.loc.gov/authorities/names/nr00010088">Longman, 
+                            Rees, Orme, Brown, and Green</orgName>
                     </org>
                     <org xml:id="longman_rees_orme_brown_green_longman">
                         <orgName source="http://id.loc.gov/authorities/names/nr93032704">Longman, 
@@ -5596,6 +5620,12 @@
                             John, active 1657-1685</persName>
                         <floruit from="1657" to="1685"/>
                     </person>
+                    <person xml:id="baker_s">
+                        <persName source="http://id.loc.gov/authorities/names/n85017651">Baker, 
+                            Samuel, approximately 1711-1778</persName>
+                        <birth when="1711" cert="unknown"/>
+                        <death when="1778"/>
+                    </person>
                     <person xml:id="barbou_jg">
                         <persName source="http://id.loc.gov/authorities/names/no2008174489">Barbou,
                             Joseph-Gérard, 1723-1790?</persName>
@@ -5647,11 +5677,19 @@
                         <birth when="1796"/>
                         <death when="1884"/>
                     </person>
+                    <person xml:id="bosworth">
+                        <persName source="http://id.loc.gov/authorities/names/no98089357">Bosworth, 
+                            Thomas</persName>
+                    </person>
                     <person xml:id="bouton">
                         <persName source="http://id.loc.gov/authorities/names/nr98002857">Bouton, 
                             James W., 1831-1902</persName>
                         <birth when="1831"/>
                         <death when="1902"/>
+                    </person>
+                    <person xml:id="bowman">
+                        <persName source="http://id.loc.gov/authorities/names/nr93000979">Bowman, 
+                            Francis</persName>
                     </person>
                     <person xml:id="browne">
                         <persName source="http://id.loc.gov/authorities/names/no96045862">Browne, 
@@ -5699,6 +5737,12 @@
                             James, -1802</persName>
                         <death when="1802"/>
                     </person>
+                    <person xml:id="cadell">
+                        <persName source="http://id.loc.gov/authorities/names/n88007821">Cadell, 
+                            Thomas, 1773-1836</persName>
+                        <birth when="1773"/>
+                        <death when="1836"/>
+                    </person>
                     <person xml:id="cademan">
                         <persName source="http://id.loc.gov/authorities/names/nr94031163">Cademan, 
                             William, approximately 1640-1689</persName>
@@ -5709,6 +5753,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr2003017576">Carpenter, 
                             James, active 1799-1850</persName>
                         <floruit from="1799" to="1850"/>
+                    </person>
+                    <person xml:id="caslon">
+                        <persName source="http://id.loc.gov/authorities/names/nr91017140">Caslon, 
+                            Thomas, -1783</persName>
+                        <death when="1783"/>
                     </person>
                     <person xml:id="cassino">
                         <persName source="http://id.loc.gov/authorities/names/nr2001026928">Cassino, 
@@ -5764,6 +5813,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr95014267">Crooke, 
                             Andrew, -1674</persName>
                         <death when="1674"/>
+                    </person>
+                    <person xml:id="crowder">
+                        <persName source="http://id.loc.gov/authorities/names/nr92035018">Crowder, 
+                            Stanley, -1798</persName>
+                        <death when="1798"/>
                     </person>
                     <person xml:id="curtis">
                         <persName source="http://id.loc.gov/authorities/names/nr94037621">Curtis, 
@@ -5856,6 +5910,11 @@
                         <persName source="http://id.loc.gov/authorities/names/nr97012172">Field,
                             Richard, -1624</persName>
                         <death when="1624"/>
+                    </person>
+                    <person xml:id="field_t">
+                        <persName source="http://id.loc.gov/authorities/names/no96046229">Field, 
+                            Thomas, active 1755-1775</persName>
+                        <floruit from="1755" to="1775"/>
                     </person>
                     <person xml:id="firmin-didot">
                         <persName source="http://id.loc.gov/authorities/names/n82040025">Firmin-Didot, 
@@ -5978,6 +6037,11 @@
                         <birth when="1569"/>
                         <death when="1623"/>
                     </person>
+                    <person xml:id="johnston">
+                        <persName source="http://id.loc.gov/authorities/names/nr92035043">Johnston, 
+                            W. (William), -1804</persName>
+                        <death when="1804"/>
+                    </person>
                     <person xml:id="jones">
                         <persName source="http://id.loc.gov/authorities/names/nr97032167">Jones, 
                             William, -1643</persName>
@@ -6058,6 +6122,12 @@
                     <person xml:id="ling">
                         <persName source="http://id.loc.gov/authorities/names/n82207865">N. L. 
                             (Nicholas Ling), active 1580-1607</persName>
+                    </person>
+                    <person xml:id="longman">
+                        <persName source="http://id.loc.gov/authorities/names/nr92022905">Longman, 
+                            Thomas, 1731-1797</persName>
+                        <birth when="1731"/>
+                        <death when="1797"/>
                     </person>
                     <person xml:id="lowndes">
                         <persName source="http://id.loc.gov/authorities/names/nr92035145">Lowndes, 
@@ -6214,6 +6284,11 @@
                         <birth when="1507"/>
                         <death when="1568"/>
                     </person>
+                    <person xml:id="osborne">
+                        <persName source="http://id.loc.gov/authorities/names/n82080180">Osborne, 
+                            Thomas, -1767</persName>
+                        <death when="1767"/>
+                    </person>
                     <person xml:id="owen">
                         <persName source="http://id.loc.gov/authorities/names/n85089711">Owen, 
                             W. (William), -1793</persName>
@@ -6228,6 +6303,12 @@
                         <persName source="http://id.loc.gov/authorities/names/no2020104268">Paterson, 
                             William, 1833 or 1834-</persName>
                         <birth when="1833" cert="unknown"/>
+                    </person>
+                    <person xml:id="payne_t">
+                        <persName source="http://id.loc.gov/authorities/names/n85089712">Payne, 
+                            Thomas, 1719-1799</persName>
+                        <birth when="1719"/>
+                        <death when="1799"/>
                     </person>
                     <person xml:id="petit">
                         <persName source="http://id.loc.gov/authorities/names/n93042253">Petit,
@@ -6280,6 +6361,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n2005015955">Rhodes, 
                             Matthew, active 1622-1642</persName>
                         <floruit from="1622" to="1642"/>
+                    </person>
+                    <person xml:id="rivington">
+                        <persName source="http://id.loc.gov/authorities/names/nr92035157">Rivington, 
+                            J. (John), 1720-1792</persName>
+                        <birth when="1720"/>
+                        <death when="1792"/>
                     </person>
                     <person xml:id="rodd_t">
                         <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
@@ -32101,49 +32188,54 @@
                                     <note type="description">together, portrait and plates, old calf
                                         gilt, ex-libris of R. H. Alexan. Bennett in each vol.</note>
                                     <imprint>
-                                        <publisher>
+                                        <publisher corresp="#osborne">
                                             <persName>T. Osborne</persName>
                                         </publisher>
-                                        <publisher>
+                                        <publisher corresp="#c_hitch_l_hawes">
                                             <orgName>C. Hitch and L. Hawes</orgName>
                                         </publisher>
-                                        <publisher>
+                                        <publisher corresp="#rivington">
                                             <persName>John Rivington</persName>
                                         </publisher>
                                         <publisher>
                                             <persName>R. Baldwin</persName>
                                         </publisher>
-                                        <publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#johnston">
                                             <persName>W. Johnston</persName>
                                         </publisher>
                                         <publisher>
                                             <persName>J. Richardson</persName>
                                         </publisher>
-                                        <publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#crowder">
                                             <persName>S. Crowder</persName>
                                         </publisher>
                                         <publisher>
                                             <orgName>P. Davey and B. Law</orgName>
                                         </publisher>
-                                        <publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#longman">
                                             <persName>T. Longman</persName>
                                         </publisher>
-                                        <publisher>
+                                        <publisher corresp="#caslon">
                                             <persName>T. Caslon</persName>
                                         </publisher>
-                                        <publisher>
+                                        <publisher corresp="#field_t">
                                             <persName>T. Field</persName>
                                         </publisher>
                                         <publisher>
                                             <persName>T. Pote</persName>
                                         </publisher>
+                                        <!-- No LCNAF found. -->
                                         <publisher>
                                             <orgName>H. Woodgate and S. Brooks</orgName>
                                         </publisher>
-                                        <publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#baker_s">
                                             <persName>S. Baker</persName>
                                         </publisher>
-                                        <publisher>
+                                        <publisher corresp="#payne_t">
                                             <persName>T. Payne</persName>
                                         </publisher>
                                         <pubPlace ref="#london">London</pubPlace>
@@ -32237,7 +32329,9 @@
                             <biblStruct corresp="#owned" xml:id="sb641.1">
                                 <monogr>
                                     <title xml:lang="la">Magiae Naturalis Libri XX</title>
-                                    <author corresp="#porta">Porta, Joh. Bapt.</author>
+                                    <author corresp="#porta">
+                                        <persName>Porta, Joh. Bapt.</persName>
+                                    </author>
                                     <note type="description">engraved title and woodcuts,
                                         vellum</note>
                                     <imprint>
@@ -32259,12 +32353,18 @@
                                 <monogr>
                                     <title>An Autobiographical Fragment and Biographical
                                         Notes</title>
-                                    <author corresp="#cornwall">Proctor, Bryan Waller (Barry Cornwall)</author>
+                                    <author corresp="#cornwall">
+                                        <persName>Proctor, Bryan Waller (Barry Cornwall)</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with Anne B.
                                         Proctor's grateful regards</note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1877"/>
                                     </imprint>
                                 </monogr>
@@ -32275,11 +32375,17 @@
                                 <monogr>
                                     <title>Samuel Taylor Coleridge, a Narrative of the Events of his
                                         Life</title>
-                                    <author corresp="#campbell_j">Campbell, J. Dykes</author>
+                                    <author corresp="#campbell_j">
+                                        <persName>Campbell, J. Dykes</persName>
+                                    </author>
                                     <note type="description">portrait, with inscription</note>
                                     <note type="inscription">Mr. Algernon C. Swinburne, with the
                                         Author's kind regards</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -32291,24 +32397,31 @@
                             <biblStruct corresp="#owned" xml:id="sb643.1">
                                 <monogr>
                                     <title>Death of Ezekiel's Wife</title>
-                                    <author corresp="#purchas">Purchas, John</author>
+                                    <author corresp="#purchas">
+                                        <persName>Purchas, John</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, Esq. from
                                         ye Author J. P. <date when="1866-08-17"> Augst. 17,
                                             1866</date></note>
                                     <imprint>
+                                        <publisher corresp="#bosworth">
+                                            <persName>Thomas Bosworth</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/deathezekielswi00purcgoog/page/n4/mode/2up"
-                                />
+                                    target="https://archive.org/details/deathezekielswi00purcgoog/page/n4/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb643.2">
                                 <monogr>
                                     <title>Sermon at Brighton</title>
-                                    <author corresp="#purchas">Purchas, John</author>
+                                    <author corresp="#purchas">
+                                        <persName>Purchas, John</persName>
+                                    </author>
                                     <note type="inscription">A. C. Swinburne, Esqre. from the Author
                                         J. P.</note>
                                     <imprint>
@@ -32324,7 +32437,9 @@
                                     <title xml:lang="fr">L'Heptameron on Histories des Amaus
                                         Fortunez des Nouvelles de Marguerite de Valois, Royne de
                                         Navarre</title>
-                                    <author corresp="#jeanne">Queen of Navarre</author>
+                                    <author corresp="#jeanne">
+                                        <persName>Queen of Navarre</persName>
+                                    </author>
                                     <note type="description">calf antique, red edges</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -32337,33 +32452,65 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb645">
-                            <bibl xml:id="sb645.1">
-                                <title>Old Fires and Profitable Ghosts</title>
-                                <author corresp="#quiller-couch">Quiller-Couch, A. T.</author>
-                                <date when="1900"/>
+                            <biblStruct xml:id="sb645.1">
+                                <monogr>
+                                    <title>Old Fires and Profitable Ghosts</title>
+                                    <author corresp="#quiller-couch">
+                                        <persName>Quiller-Couch, A. T.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#cassell_co">
+                                            <orgName>Cassell and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1900"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwk5tk"/>
-                            </bibl>
-                            <bibl xml:id="sb645.2">
-                                <title>Laird's Luck, etc.</title>
-                                <author corresp="#quiller-couch">Quiller-Couch, A. T.</author>
-                                <date when="1901"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb645.2">
+                                <monogr>
+                                    <title>Laird's Luck, etc.</title>
+                                    <author corresp="#quiller-couch">
+                                        <persName>Quiller-Couch, A. T.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#cassell_co">
+                                            <orgName>Cassell and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1901"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t8w957k0k"/>
-                            </bibl>
-                            <bibl xml:id="sb645.3">
-                                <title>John Fletcher's Madonna</title>
-                                <author corresp="#carr_a">Carr, Mrs. C.</author>
-                                <date when="1905"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb645.3">
+                                <monogr>
+                                    <title>John Fletcher's Madonna</title>
+                                    <author corresp="#carr_a">
+                                        <persName>Carr, Mrs. C.</persName>
+                                    </author>
+                                    <imprint>
+                                        <date when="1905"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="none" target=""/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb645.4">
                                 <monogr>
                                     <title>The Doings of Raffles Haw</title>
-                                    <author corresp="#doyle">Doyle, A. Conan</author>
+                                    <author corresp="#doyle">
+                                        <persName>Doyle, A. Conan</persName>
+                                    </author>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies<num value="20"/></note>
                                     <imprint>
+                                        <publisher corresp="#cassell_co">
+                                            <orgName>Cassell and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -32377,10 +32524,16 @@
                                     <title xml:lang="fr">Oeuvres Complètes, avec les Notes de tous
                                         les Commentateurs, publiés par L. Aimé-Martin, avec des
                                         additions</title>
-                                    <author corresp="#racine">Racine, J.</author>
+                                    <author corresp="#racine">
+                                        <persName>Racine, J.</persName>
+                                    </author>
                                     <note type="description">portrait and plates, calf gilt, marbled
                                         edges</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Lefèvre et Furne</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1844"/>
                                     </imprint>
@@ -32406,34 +32559,53 @@
                             <biblStruct corresp="#owned" xml:id="sb647.1">
                                 <monogr>
                                     <title>Ovid Travestie, a Burlesque upon Ovid's Epistles</title>
-                                    <author corresp="#radcliffe">Radcliffe, Capt. Alex.</author>
+                                    <author corresp="#radcliffe">
+                                        <persName>Radcliffe, Capt. Alex.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 250 copies,
                                         uncut</note>
                                     <imprint>
+                                        <!-- Privately printed, location unknown. -->
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.$b161110"/>
                             </biblStruct>
-                            <bibl xml:id="sb647.2">
-                                <title>Notes on the Life of John Payne Collier, with List of his
-                                    Works</title>
-                                <author corresp="#wheatley">Wheatley, H. B.</author>
-                                <date when="1884"/>
+                            <biblStruct xml:id="sb647.2">
+                                <monogr>
+                                    <title>Notes on the Life of John Payne Collier, with List of his
+                                        Works</title>
+                                    <author corresp="#wheatley">
+                                        <persName>Wheatley, H. B.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1884"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044050817758"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb647.3">
                                 <monogr>
                                     <title>Bibliography of Ruskin</title>
-                                    <author corresp="#shepherd">Shepherd, R. H.</author>
+                                    <author corresp="#shepherd">
+                                        <persName>Shepherd, R. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne, with inscriptions<num
                                             value="15"/></note>
                                     <imprint>
+                                        <publisher corresp="#john_wiley_sons">
+                                            <orgName>John Wiley and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
@@ -32447,9 +32619,15 @@
                                     <title>Poems, with the Muses Looking-Glass and Amyntas,
                                         whereunto is added the Jealous Lovers</title>
                                     <idno type="tcp">A10411</idno>
-                                    <author corresp="#randolph">Randolph, Tho.</author>
+                                    <author corresp="#randolph">
+                                        <persName>Randolph, Tho.</persName>
+                                    </author>
                                     <note type="description">frontispiece, old binding</note>
                                     <imprint>
+                                        <publisher corresp="#bowman">
+                                            <persName>Francis Bowman</persName>
+                                        </publisher>
+                                        <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1664"/>
                                     </imprint>
                                 </monogr>
@@ -32462,23 +32640,30 @@
                             <biblStruct corresp="#owned" xml:id="sb649.1">
                                 <monogr>
                                     <title xml:lang="it">Giustizia, Versi</title>
-                                    <author corresp="#rapisardi">Rapisardi, Mario</author>
+                                    <author corresp="#rapisardi">
+                                        <persName>Rapisardi, Mario</persName>
+                                    </author>
                                     <note type="description">portrait, two autograph letters of the
                                         author and one of Aurelio Safii enclosed</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Niccolò Giannotta</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#catania">Catania</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/giustiziaversi00rapiuoft/page/n10/mode/2up"
-                                />
+                                    target="https://archive.org/details/giustiziaversi00rapiuoft/page/n10/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb649.2">
                                 <monogr>
                                     <title xml:lang="it">Prometeo Liberato, tradotto da Mario
                                         Rapisardi</title>
-                                    <author corresp="#shelley_p">Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">
+                                        <persName>Shelley, P. B.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne, with autograph inscription of
                                         Rapisardi</note>
@@ -32495,11 +32680,17 @@
                                 <monogr>
                                     <title>Peg Woffington, with Introduction by Autsin
                                         Dobson</title>
-                                    <author corresp="#reade_ch">Reade, Chas.</author>
+                                    <author corresp="#reade_ch">
+                                        <persName>Reade, Chas.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">large paper, one of
                                         200 copies, illustrations by Hugh Thomson, buckram gilt,
                                         uncut, royal 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#allen_g">
+                                            <persName>George Allen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -32513,7 +32704,9 @@
                             <biblStruct corresp="#owned" xml:id="sb651.1">
                                 <monogr>
                                     <title>Umba Coeli</title>
-                                    <author corresp="#reade_co">Reade, Compton</author>
+                                    <author corresp="#reade_co">
+                                        <persName>Reade, Compton</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy, with autograph letter from the author to
                                         Swinburne</note>
@@ -32523,22 +32716,41 @@
                                 </monogr>
                                 <relatedItem type="none" target=""/>
                             </biblStruct>
-                            <bibl xml:id="sb651.2">
-                                <title>News from Nowhere</title>
-                                <author corresp="#morris">Morris, W.</author>
-                                <date when="1891"/>
+                            <biblStruct xml:id="sb651.2">
+                                <monogr>
+                                    <title>News from Nowhere</title>
+                                    <author corresp="#morris">
+                                        <persName>Morris, W.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1891"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.b5615849"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb651.3">
                                 <monogr>
                                     <title>Notes on the Principal Pictures in the Royal
                                         Academy</title>
-                                    <author corresp="#ruskin">Ruskin, J.</author>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin, J.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="14"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#allen_g">
+                                            <persName>George Allen</persName>
+                                        </publisher>
+                                        <publisher corresp="#ellis_white">
+                                            <orgName>Ellis and White</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#kent">Kent</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -32550,7 +32762,9 @@
                             <biblStruct corresp="#owned" xml:id="sb652.1">
                                 <monogr>
                                     <title>Concerning Charles Lamb</title>
-                                    <author>Rees, R. Wilkins</author>
+                                    <author>
+                                        <persName>Rees, R. Wilkins</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description">with autograph letter of the
                                         author</note>
@@ -32563,9 +32777,15 @@
                             <biblStruct corresp="#owned" xml:id="sb652.2">
                                 <monogr>
                                     <title>Whistler</title>
-                                    <author corresp="#macfall">Macfall, Haldane</author>
+                                    <author corresp="#macfall">
+                                        <persName>Macfall, Haldane</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#t_n_foulis">
+                                            <persName>T. N. Foulis</persName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1905"/>
                                     </imprint>
                                 </monogr>
@@ -32578,7 +32798,9 @@
                             <biblStruct corresp="#owned" xml:id="sb652.3">
                                 <monogr>
                                     <title>Sonnets</title>
-                                    <author>Temple, J. Scott</author>
+                                    <author>
+                                        <persName>Temple, J. Scott</persName>
+                                    </author>
                                     <!-- No LCNAF found, possibly http://id.loc.gov/authorities/names/n50005768 -->
                                     <note type="description">autograph letter of author
                                         enclosed</note>
@@ -32596,7 +32818,9 @@
                             <biblStruct corresp="#owned" xml:id="sb653.1">
                                 <monogr>
                                     <title xml:lang="fr">Le Peintre Mystique</title>
-                                    <author corresp="#reul">Réné, Xavier de</author>
+                                    <author corresp="#reul">
+                                        <persName>Réné, Xavier de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <pubPlace ref="#brussels">Bruxelles</pubPlace>
@@ -32608,9 +32832,14 @@
                             <biblStruct corresp="#owned" xml:id="sb653.2">
                                 <monogr>
                                     <title>Hellas</title>
-                                    <author corresp="#mariéton">Marceton, P.</author>
+                                    <author corresp="#mariéton">
+                                        <persName>Marceton, P.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
@@ -32624,13 +32853,18 @@
                             <biblStruct corresp="#owned" xml:id="sb653.3">
                                 <monogr>
                                     <title>Chansons Grises</title>
-                                    <author corresp="#lebey">Lebey, André</author>
+                                    <author corresp="#lebey">
+                                        <persName>Lebey, André</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 250 copies,
                                         uncut</note>
                                     <note type="etc" corresp="#presentation">and another, all
                                         presentation copies to Swinburne, with authors'
                                             inscriptions<num value="4"/></note>
                                     <imprint>
+                                        <publisher corresp="#mercure_de_france">
+                                            <orgName>Mercvre de France</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
@@ -32649,6 +32883,10 @@
                                     </respStmt>
                                     <note type="description">illustrations by W. Crane</note>
                                     <imprint>
+                                        <publisher corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -32675,12 +32913,18 @@
                             <biblStruct corresp="#owned" xml:id="sb654.3">
                                 <monogr>
                                     <title>The Brontës in Ireland</title>
-                                    <author corresp="#wright_w">Wright, W.</author>
+                                    <author corresp="#wright_w">
+                                        <persName>Wright, W.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#hodder_stoughton">
+                                            <orgName>Hodder and Stoughton</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -32692,12 +32936,17 @@
                             <biblStruct corresp="#owned" xml:id="sb655.1">
                                 <monogr>
                                     <title>Clarissa</title>
-                                    <author corresp="#richardson">Richardson, S.</author>
+                                    <author corresp="#richardson">
+                                        <persName>Richardson, S.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, for T. Watts
                                         Dunton</note>
                                     <imprint>
+                                        <publisher corresp="#tauchnitz">
+                                            <persName>Bernhard Tauchnitz</persName>
+                                        </publisher>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1862"/>
                                     </imprint>
@@ -32709,23 +32958,33 @@
                                 <relatedItem n="3" type="ht"
                                     target="https://hdl.handle.net/2027/ucm.5325084377"/>
                             </biblStruct>
-                            <bibl xml:id="sb655.2">
-                                <title>Catalogue of the Loan Collection of Pictures and Drawings by
-                                    J. M. W. Turner, etc. with Notes by A. G. Temple</title>
-                                <note type="etc">
-                                    <num value="5"/>
-                                </note>
-                                <date when="1899"/>
+                            <biblStruct xml:id="sb655.2">
+                                <monogr>
+                                    <title>Catalogue of the Loan Collection of Pictures and Drawings by
+                                        J. M. W. Turner, etc. with Notes by A. G. Temple</title>
+                                    <note type="etc">
+                                        <num value="5"/>
+                                    </note>
+                                    <imprint>
+                                        <publisher corresp="#art_gallery_corporation_london">
+                                            <orgName>Art Gallery of the Corporation of London</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1899"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044033979956"/>
-                            </bibl>
+                            </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb656">
                             <biblStruct corresp="#owned" xml:id="sb656.1">
                                 <monogr>
                                     <title xml:lang="fr">Vie Privée du Maréchal de Richeliu,
                                         contenant ses Amours et Intrigues</title>
-                                    <author corresp="#richelieu">Richeliu</author>
+                                    <author corresp="#richelieu">
+                                        <persName>Richeliu</persName>
+                                    </author>
                                     <note type="description">half bound</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -32741,7 +33000,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Historie de Napoléon et de la Grande
                                         Amrée</title>
-                                    <author corresp="#ségur">Segur, Comte de</author>
+                                    <author corresp="#ségur">
+                                        <persName>Segur, Comte de</persName>
+                                    </author>
                                     <note type="description">half calf, Swinburne's copy, with his
                                         signature on fly-leaf</note>
                                     <note type="etc">
@@ -32762,7 +33023,9 @@
                             <biblStruct corresp="#owned" xml:id="sb657.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Amours des Lyristes</title>
-                                    <author corresp="#rieux">Rieux, Lionel des</author>
+                                    <author corresp="#rieux">
+                                        <persName>Rieux, Lionel des</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, with
                                         inscription</note>
                                     <note type="inscription" xml:lang="fr">à Ch. Algernon Swinburne
@@ -32777,10 +33040,16 @@
                             <biblStruct corresp="#owned" xml:id="sb657.2">
                                 <monogr>
                                     <title>Jenseits der Wasser</title>
-                                    <author corresp="#mackay">Mackay, J. H.</author>
+                                    <author corresp="#mackay">
+                                        <persName>Mackay, J. H.</persName>
+                                    </author>
                                     <note type="description">autograph letter to Swinburne
                                         enclosed</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Verlags-Magazin</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#zurich">Zurich</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
@@ -32794,9 +33063,15 @@
                                 <monogr>
                                     <title>A Little Book of Songs and Ballads gathered from Ancient
                                         Musick Books, MS and printed</title>
-                                    <author corresp="#rimbault">Rimbault, E. F.</author>
+                                    <author corresp="#rimbault">
+                                        <persName>Rimbault, E. F.</persName>
+                                    </author>
                                     <note type="description">half morocco</note>
                                     <imprint>
+                                        <publisher corresp="#smith_j">
+                                            <persName>John Russell Smith</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1851"/>
                                     </imprint>
                                 </monogr>
@@ -32806,13 +33081,19 @@
                             <biblStruct corresp="#owned" xml:id="sb658.2">
                                 <monogr>
                                     <title>English Fairy Tales</title>
-                                    <author corresp="#jacobs">Jacobs, J.</author>
+                                    <author corresp="#jacobs">
+                                        <persName>Jacobs, J.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <edition/>
                                     <imprint>
+                                        <pubPlace corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </pubPlace>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -32824,7 +33105,9 @@
                             <biblStruct corresp="#owned" xml:id="sb659.1">
                                 <monogr>
                                     <title>Records of Tennyson, Ruskin and Browning</title>
-                                    <author corresp="#ritchie">Ritchie, Anne Thackeray</author>
+                                    <author corresp="#ritchie">
+                                        <persName>Ritchie, Anne Thackeray</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">portrait
                                         and illustrations, uncut, top edge gilt, presentation copy,
                                         with inscription</note>
@@ -32848,6 +33131,7 @@
                                     <imprint>
                                         <publisher>Grampian Club</publisher>
                                         <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1874"/>
                                     </imprint>
                                 </monogr>
@@ -32860,9 +33144,16 @@
                                 <monogr>
                                     <title>Ancient Songs from the time of Henry the Third to the
                                         Revolution</title>
-                                    <author corresp="#ritson">Ritson, J.</author>
+                                    <author corresp="#ritson">
+                                        <persName>Ritson, J.</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>J. Johnson</persName>                                            
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1790"/>
                                     </imprint>
                                 </monogr>
@@ -32872,10 +33163,15 @@
                             <biblStruct corresp="#owned" xml:id="sb660.2">
                                 <monogr>
                                     <title>Dissertation on Romance and Minstrelsy</title>
-                                    <author corresp="#ritson">Ritson, J.</author>
+                                    <author corresp="#ritson">
+                                        <persName>Ritson, J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">one of 400 copies,
                                         uncut</note>
                                     <imprint>
+                                        <publisher corresp="#e_g_goldsmid">
+                                            <orgName>E. and G. Goldsmid</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
@@ -32889,6 +33185,10 @@
                                         Explanatory, and Appendix</title>
                                     <note type="description">calf gilt, marbled edges</note>
                                     <imprint>
+                                        <publisher corresp="#longman_rees_orme_brown_green">
+                                            <orgName>Longman, Rees, Orme, Brown, &amp; Green</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1827"/>
                                     </imprint>
                                 </monogr>
@@ -32901,7 +33201,9 @@
                                 <monogr>
                                     <title>The Devil's Pronoun, and other Phantasies, five designs
                                         by E. F. R.</title>
-                                    <author corresp="#forbes-robertson">Robertson, Frances F.</author>
+                                    <author corresp="#forbes-robertson">
+                                        <persName>Robertson, Frances F.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">buckram,
                                         uncut, presentation copy with inscription</note>
                                     <note type="inscription">To Mr. Swinburne from the author, whom
@@ -32910,6 +33212,10 @@
                                         S.W. Dear Mr. Swinburne, they scorn me for my little book;
                                         will you tell me if they are right?</note>
                                     <imprint>
+                                        <publisher corresp="#reeves_turner">
+                                            <orgName>Reeves &amp; Turner</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
@@ -32921,7 +33227,9 @@
                             <biblStruct corresp="#owned" xml:id="sb662.1">
                                 <monogr>
                                     <title>La Lanterne, 54 nos.</title>
-                                    <author corresp="#rochefort">Rochefort, H.</author>
+                                    <author corresp="#rochefort">
+                                        <persName>Rochefort, H.</persName>
+                                    </author>
                                     <note type="description">various</note>
                                     <imprint>
                                         <date from="1868" to="1876"/>
@@ -32950,11 +33258,17 @@
                             <biblStruct corresp="#owned" xml:id="sb662.2">
                                 <monogr>
                                     <title xml:lang="fr">Poésies Nouvelles</title>
-                                    <author corresp="#gautier">Gautier, T.</author>
+                                    <author corresp="#gautier">
+                                        <persName>Gautier, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc" corresp="#presentation">some presentation
                                         copies to Swinburne<num value="61"/></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Charpentier</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
@@ -32967,7 +33281,9 @@
                             <biblStruct corresp="#owned" xml:id="sb663.1">
                                 <monogr>
                                     <title xml:lang="es">Poemas</title>
-                                    <author corresp="#rocuant">Rocuant, M. L.</author>
+                                    <author corresp="#rocuant">
+                                        <persName>Rocuant, M. L.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne from the author with
                                         interesting autograph inscription</note>
@@ -32986,11 +33302,20 @@
                             <biblStruct corresp="#owned" xml:id="sb664.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#rogers">Rogers, Samuel</author>
+                                    <author corresp="#rogers">
+                                        <persName>Rogers, Samuel</persName>
+                                    </author>
                                     <note type="description">with vignette engravings after Turner
                                         and Stothard, half morocco gilt, gilt edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#cadell">
+                                            <persName>T. Cadell</persName>
+                                        </publisher>
+                                        <publisher corresp="#moxon">
+                                            <persName>E. Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1834"/>
                                     </imprint>
                                 </monogr>
@@ -33002,7 +33327,9 @@
                             <biblStruct corresp="#owned" xml:id="sb665.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#rogers">Rogers, S.</author>
+                                    <author corresp="#rogers">
+                                        <persName>Rogers, S.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait and
                                         woodcuts, crushed morocco gilt, tooled borders on the sides,
                                         gilt edges, by Hayday, presentation copy from the author
@@ -33011,7 +33338,10 @@
                                         sincere friend, Samuel Rogers, <date when="1852-02-28">Feby.
                                             28, 1852</date></note>
                                     <imprint>
-                                        <publisher corresp="#moxon">Moxon</publisher>
+                                        <publisher corresp="#moxon">
+                                            <persName>Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1845"/>
                                     </imprint>
                                     <extent>
@@ -33028,9 +33358,15 @@
                             <biblStruct corresp="#owned" xml:id="sb666.1">
                                 <monogr>
                                     <title>Commonplace and other Short Stories</title>
-                                    <author corresp="#rossetti_c">Rossetti, Christina, G.</author>
+                                    <author corresp="#rossetti_c">
+                                        <persName>Rossetti, Christina, G.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#ellis_f">
+                                            <persName>F. S. Ellis</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1870"/>
                                     </imprint>
                                 </monogr>
@@ -33040,13 +33376,19 @@
                             <biblStruct corresp="#owned" xml:id="sb666.2">
                                 <monogr>
                                     <title>New Poems hitherto unpublished</title>
-                                    <author corresp="#rossetti_c">Rossetti, Christina, G.</author>
+                                    <author corresp="#rossetti_c">
+                                        <persName>Rossetti, Christina, G.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Wm. Rossetti</name>
                                     </respStmt>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1896"/>
                                     </imprint>
                                 </monogr>
@@ -33058,7 +33400,9 @@
                             <biblStruct corresp="#owned" xml:id="sb667.1">
                                 <monogr>
                                     <title>Sing-Song, a Nursery Rhyme Book</title>
-                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">
+                                        <persName>Rossetti, C. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">120
                                         illustrations by Arthur Hughes, presentation copy with
                                         inscription</note>
@@ -33079,9 +33423,15 @@
                                 <monogr>
                                     <title>Poetical Works, with Memoir and Notes by W. M.
                                         Rossetti</title>
-                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">
+                                        <persName>Rossetti, C. G.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher corresp="#thomas_y_crowell_company">
+                                            <orgName>Thomas Y. Crowell &amp; Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -33092,12 +33442,18 @@
                                 <monogr>
                                     <title>Maude, a Story for Girls, with Introduction by W. M.
                                         Rossetti</title>
-                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">
+                                        <persName>Rossetti, C. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#james_bowden">
+                                            <persName>James Bowden</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -33110,7 +33466,9 @@
                                 <monogr>
                                     <title>Family Letters, with Supplementary Letters and
                                         Appendicies</title>
-                                    <author corresp="#rossetti_c">Rossetti, C. G.</author>
+                                    <author corresp="#rossetti_c">
+                                        <persName>Rossetti, C. G.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. M. Rossetti</name>
@@ -33122,6 +33480,10 @@
                                         admiration always on the increase. W. M. Rossetti, <date
                                             when="1908-10">Octr. 1908</date></note>
                                     <imprint>
+                                        <publisher corresp="#brown_langham_co">
+                                            <orgName>Brown, Langham &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -33133,7 +33495,9 @@
                             <biblStruct corresp="#owned" xml:id="sb670.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#rossetti_dg">Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_dg">
+                                        <persName>Rossetti, D. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">cloth
                                         gilt, uncut, presentation copy to A. C. Swinburne from the
                                         author, with inscription</note>
