@@ -5076,6 +5076,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2015126480">Elkin 
                             Mathews and John Lane (Firm)</orgName>
                     </org>
+                    <org xml:id="ellis_elvey">
+                        <orgName source="http://id.loc.gov/authorities/names/no98110082">Ellis 
+                            &amp; Elvey</orgName>
+                    </org>
                     <org xml:id="ellis_white">
                         <orgName source="http://id.loc.gov/authorities/names/no2018145534">Ellis 
                             &amp; White (Firm)</orgName>
@@ -5223,6 +5227,10 @@
                     <org xml:id="james_r_osgood_company">
                         <orgName source="http://id.loc.gov/authorities/names/no96013109">James 
                             R. Osgood and Company</orgName>
+                    </org>
+                    <org xml:id="james_r_osgood_mcilvaine_co">
+                        <orgName source="http://id.loc.gov/authorities/names/no2008023289">James 
+                            R. Osgood, McIlvaine &amp; Co.</orgName>
                     </org>
                     <org xml:id="janet_et_cotelle">
                         <orgName source="http://id.loc.gov/authorities/names/no2009077382">Janet 
@@ -5742,6 +5750,10 @@
                             Thomas, 1773-1836</persName>
                         <birth when="1773"/>
                         <death when="1836"/>
+                    </person>
+                    <person xml:id="cadell_r">
+                        <persName source="http://id.loc.gov/authorities/names/no2007018185">Cadell, 
+                            Robert</persName>
                     </person>
                     <person xml:id="cademan">
                         <persName source="http://id.loc.gov/authorities/names/nr94031163">Cademan, 
@@ -6430,6 +6442,12 @@
                     <person xml:id="stock">
                         <persName source="http://id.loc.gov/authorities/names/no99025352">Stock, 
                             Elliot</persName>
+                    </person>
+                    <person xml:id="tait"> 
+                        <persName source="http://id.loc.gov/authorities/names/n88175334">Tait, 
+                            William, 1793-1864</persName>
+                        <birth when="1793"/>
+                        <death when="1864"/>
                     </person>
                     <person xml:id="tauchnitz">
                         <persName source="http://id.loc.gov/authorities/names/nr93045993">Tauchnitz, 
@@ -33518,14 +33536,18 @@
                             <biblStruct corresp="#owned" xml:id="sb671.1">
                                 <monogr>
                                     <title>Poems, with Memoir by F. Hüffer</title>
-                                    <author corresp="#rossetti_dg">Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_dg">
+                                        <persName>Rossetti, D. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy from the author to Swinburne with
                                         autograph inscription</note>
                                     <note type="inscription">To Algernon Swinburne with all
-                                        affection. D. G. Rossetti, <date when="1879"
-                                        >1879</date></note>
+                                        affection. D. G. Rossetti, <date when="1879">1879</date></note>
                                     <imprint>
+                                        <publisher corresp="#tauchnitz">
+                                            <persName>Bernhard Tauchnitz</persName>
+                                        </publisher>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
@@ -33539,13 +33561,20 @@
                                 <monogr>
                                     <title>Collected Works, edited with Preface and Notes by William
                                         M. Rossetti</title>
-                                    <author corresp="#rossetti_dg">Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_dg">
+                                        <persName>Rossetti, D. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">cloth
                                         gilt, uncut, presentation copy to A. C. Swinburne from the
                                         editorm with inscription</note>
                                     <note type="inscription">Algernon Charles Swinburne, a double
                                         reminiscence, W. M. R. <date when="1887">1887</date></note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Ellis and Scrutton</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                     <extent>
@@ -33562,13 +33591,19 @@
                             <biblStruct corresp="#owned" xml:id="sb673.1">
                                 <monogr>
                                     <title>Family Letters, with Memoir by W. M. Rossetti</title>
-                                    <author corresp="#rossetti_dg">Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_dg">
+                                        <persName>Rossetti, D. G.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait,
                                         presentation copy with autograph inscription</note>
                                     <note type="inscription">To my dear old friend Algernon Charles
                                         Swinburne, W. M. Rossetti, <date when="1895-12-02">2 Decr.
                                             1895</date></note>
                                     <imprint>
+                                        <publisher corresp="#ellis_elvey">
+                                            <orgName>Ellis and Elvey</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                     <extent>
@@ -33586,9 +33621,15 @@
                                 <monogr>
                                     <title>Letters to William Allingham, 1854-1870, by Geo. B.
                                         Hill</title>
-                                    <author corresp="#rossetti_dg">Rossetti, D. G.</author>
+                                    <author corresp="#rossetti_dg">
+                                        <persName>Rossetti, D. G.</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#unwin">
+                                            <persName>T. Fisher Unwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -33599,13 +33640,19 @@
                                 <monogr>
                                     <title>A Versified Autobiography, translated and supplmented by
                                         W. M. Rossetti</title>
-                                    <author corresp="#rossetti_dg">Rossetti, Gabriel</author>
+                                    <author corresp="#rossetti_dg">
+                                        <persName>Rossetti, Gabriel</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations,
                                         buckram, uncut, top edge gilt</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#sands_co">
+                                            <orgName>Sands &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
@@ -33617,11 +33664,17 @@
                             <biblStruct corresp="#owned" xml:id="sb675.1">
                                 <monogr>
                                     <title>Swinburne's Poems and Ballads, a Criticism</title>
-                                    <author corresp="#rossetti">Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">
+                                        <persName>Rossetti, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">With the author's compliments</note>
                                     <imprint>
+                                        <publisher corresp="#hotten">
+                                            <persName>John Camden Hotten</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
                                 </monogr>
@@ -33634,12 +33687,18 @@
                                 <monogr>
                                     <title>Fine Art, chiefly Contemporary Notices reprinted with
                                         Revisions</title>
-                                    <author corresp="#rossetti">Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">
+                                        <persName>Rossetti, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">From the author</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                 </monogr>
@@ -33651,13 +33710,19 @@
                             <biblStruct corresp="#owned" xml:id="sb677.1">
                                 <monogr>
                                     <title>Lives of Famous Poets</title>
-                                    <author corresp="#rossetti">Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">
+                                        <persName>Rossetti, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">portrait,
                                         original cloth, presentation copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne with W. M.
                                         Rossetti's love, <date when="1878-03">March,
                                         1878</date></note>
                                     <imprint>
+                                        <publisher corresp="#ward_lock_co">
+                                            <orgName>Ward, Lock, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                 </monogr>
@@ -33669,10 +33734,16 @@
                             <biblStruct corresp="#owned" xml:id="sb678.1">
                                 <monogr>
                                     <title>Some Reminiscences</title>
-                                    <author corresp="#rossetti">Rossetti, W. M.</author>
+                                    <author corresp="#rossetti">
+                                        <persName>Rossetti, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portraits, etc.
                                         buckram, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#brown_langham_co">
+                                            <orgName>Brown Langham &amp; Co</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                     <extent>
@@ -33687,9 +33758,16 @@
                             <biblStruct corresp="#owned" xml:id="sb678.2">
                                 <monogr>
                                     <title>Familiar Letters</title>
-                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">
+                                        <persName>Scott, Sir W.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>David Douglas</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. Possibly
+                                           http://id.loc.gov/authorities/names/no93024045 -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
@@ -33705,11 +33783,17 @@
                             <biblStruct corresp="#owned" xml:id="sb678.3">
                                 <monogr>
                                     <title>Memoir, by C. L. Reade and C. Reade</title>
-                                    <author corresp="#reade_ch">Reade, C.</author>
+                                    <author corresp="#reade_ch">
+                                        <persName>Reade, C.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="12"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                     <extent>
@@ -33733,6 +33817,19 @@
                                     <note type="inscription">With Mr. Locker-Lampson's compliments,
                                             <date when="1886-03-23">23 March, 1886</date></note>
                                     <imprint>
+                                        <publisher corresp="#quaritch">
+                                            <persName>Bernard Quaritch</persName>
+                                        </publisher>
+                                        <!-- For the catalogue -->
+                                        <publisher>
+                                            <orgName>Charles Wittingham &amp; Co.</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#chiswick_press">
+                                            <orgName>Chiswich Press</orgName>
+                                        </publisher>
+                                        <!-- For the appendix -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1886" to="1900"/>
                                     </imprint>
                                     <extent>
@@ -33744,17 +33841,23 @@
                                 <relatedItem n="2" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044080260235"/>
                                 <note type="fulltext">HT copies both. n1 is the catalogue from 1886,
-                                    and n2 is the appendix dfrom 1900.</note>
+                                    and n2 is the appendix from 1900.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb680">
                             <biblStruct corresp="#owned" xml:id="sb680.1">
                                 <monogr>
                                     <title>Proceedings</title>
-                                    <author>Royal Colonial Institute</author>
+                                    <author>
+                                        <orgName>Royal Colonial Institute</orgName>
+                                    </author>
                                     <!-- LCNAF found, but not sure how to add entry for an organizaton. -->
                                     <note type="description">2 duplicates</note>
                                     <imprint>
+                                        <publisher corresp="#sampson_low_marston_searle_rivington">
+                                            <orgName>Sampson Low, Marston, Searle &amp; Rivington</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1884" to="1892"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="10"/>XV-XXIII</extent>
@@ -33806,7 +33909,9 @@
                                 <monogr>
                                     <title><foreign xml:lang="la">Musarum Deliciae</foreign>, or the
                                         Muses Recreation, Wit's Recreations, etc.</title>
-                                    <author corresp="#mennes">Mennis, Sir J.</author>
+                                    <author corresp="#mennes">
+                                        <persName>Mennis, Sir J.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -33830,12 +33935,13 @@
                             <biblStruct corresp="#owned" xml:id="sb682.1">
                                 <monogr>
                                     <title>Ethics of the Dust</title>
-                                    <author corresp="#ruskin">Ruskin, John</author>
-                                    <note type="description" corresp="#presentation">original cloth, presentation copy from
-                                        the author, with autograph inscription</note>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin, John</persName>
+                                    </author>
+                                    <note type="description" corresp="#presentation">original cloth, 
+                                        presentation copy from the author, with autograph inscription</note>
                                     <note type="inscription">A. C. Swinburne, with the old
-                                        Lecturer's earnest regards, Chrstmas, <date when="1865"
-                                            >1865</date></note>
+                                        Lecturer's earnest regards, Chrstmas, <date when="1865">1865</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1866"/>
@@ -33851,7 +33957,9 @@
                             <biblStruct corresp="#owned" xml:id="sb683.1">
                                 <monogr>
                                     <title>Modern Painters, with Index, etc.</title>
-                                    <author corresp="#ruskin">Ruskin, J.</author>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin, J.</persName>
+                                    </author>
                                     <note type="description">illustrations, wanting vol. I</note>
                                     <imprint>
                                         <date when="1896"/>
@@ -33878,7 +33986,9 @@
                             <biblStruct corresp="#owned" xml:id="sb683.2">
                                 <monogr>
                                     <title>Stones of Venice</title>
-                                    <author corresp="#ruskin">Ruskin, J.</author>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin, J.</persName>
+                                    </author>
                                     <note type="description">illustrations by the author</note>
                                     <imprint>
                                         <date when="1898"/>
@@ -33898,11 +34008,17 @@
                             <biblStruct corresp="#owned" xml:id="sb683.3">
                                 <monogr>
                                     <title>Notes on Pictures</title>
-                                    <author corresp="#ruskin">Ruskin, J.</author>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin, J.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">and others by the same Author<num value="20"
                                         /></note>
                                     <imprint>
+                                        <publisher corresp="#allen_g">
+                                            <persName>George Allen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                     <extent>
@@ -33920,7 +34036,9 @@
                                 <monogr>
                                     <title>Rossetti: Preraphaelitism Papers, 1854 to 1862, arranged
                                         and edited by W. M. Rossetti</title>
-                                    <author corresp="#ruskin">Ruskin</author>
+                                    <author corresp="#ruskin">
+                                        <persName>Ruskin</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">illustrations,
                                         cloth gilt, presentation copy with autograph
                                         incsription</note>
@@ -33928,6 +34046,10 @@
                                         friend and admirer, W. M. Rossetti, <date when="1898-12"
                                             >Decr. /98</date></note>
                                     <imprint>
+                                        <publisher corresp="#allen_g">
+                                            <persName>George Allen</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -33940,7 +34062,9 @@
                                 <monogr>
                                     <title xml:lang="it">Ricordi e Scritti, publicati per eura del
                                         Municipio di Forli</title>
-                                    <author corresp="#saffi">Saffi, Aurelio</author>
+                                    <author corresp="#saffi">
+                                        <persName>Saffi, Aurelio</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, a token
@@ -33990,7 +34114,9 @@
                             <biblStruct corresp="#owned" xml:id="sb686.1">
                                 <monogr>
                                     <title>The Hats of Humanity, a Homily</title>
-                                    <author corresp="#sala">Sala, G. A.</author>
+                                    <author corresp="#sala">
+                                        <persName>Sala, G. A.</persName>
+                                    </author>
                                     <note type="description">coloured illustrations</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -34001,9 +34127,16 @@
                             <biblStruct corresp="#owned" xml:id="sb686.2">
                                 <monogr>
                                     <title>Orion, an Epic Poem</title>
-                                    <author corresp="#horne">Horne, R. H.</author>
+                                    <author corresp="#horne">
+                                        <persName>Horne, R. H.</persName>
+                                    </author>
                                     <note type="description">calf, gilt edges</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>J. Miller</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1843"/>
                                     </imprint>
                                 </monogr>
@@ -34031,13 +34164,19 @@
                             <biblStruct corresp="#owned" xml:id="sb687.1">
                                 <monogr>
                                     <title>Ballads of Down</title>
-                                    <author corresp="#savage-armstrong">Savage-Armstrong, G. F.</author>
+                                    <author corresp="#savage-armstrong">
+                                        <persName>Savage-Armstrong, G. F.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with autograph inscription</note>
                                     <note type="inscription">To the only English poet now living,
                                         Algernon Charles Swinburne from G. F. Savage-Armstrong,
                                             <date when="1901-05-01">May 1, 1901</date></note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
@@ -34047,7 +34186,9 @@
                             <biblStruct corresp="#owned" xml:id="sb687.2">
                                 <monogr>
                                     <title>The Islander's, a Poem</title>
-                                    <author>Kane, E.</author>
+                                    <author>
+                                        <persName>Kane, E.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
@@ -34065,35 +34206,57 @@
                             <biblStruct corresp="#owned" xml:id="sb688.1">
                                 <monogr>
                                     <title>Year of the World</title>
-                                    <author corresp="#scott_wi">Scott, Wm. Bell</author>
+                                    <author corresp="#scott_wi">
+                                        <persName>Scott, Wm. Bell</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">Algernon C. Swinburne with the author's
                                         affectionate regards</note>
                                     <imprint>
+                                        <publisher corresp="#tait">
+                                            <persName>William Tait</persName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1846"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/njp.32101067174332"/>
                             </biblStruct>
-                            <bibl xml:id="sb688.2">
-                                <title>Poems</title>
-                                <author corresp="#scott_wi">Scott, Wm. Bell</author>
-                                <date when="1854"/>
+                            <biblStruct xml:id="sb688.2">
+                                <monogr>
+                                    <title>Poems</title>
+                                    <author corresp="#scott_wi">
+                                        <persName>Scott, Wm. Bell</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1854"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/njp.32101065762401"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb688.3">
                                 <monogr>
                                     <title>History and Practice of the Fine and Ornamental
                                         Arts</title>
-                                    <author corresp="#scott_wi">Scott, Wm. Bell</author>
+                                    <author corresp="#scott_wi">
+                                        <persName>Scott, Wm. Bell</persName>
+                                    </author>
                                     <note type="description">50 illustrations by W. J. Linton</note>
                                     <note type="etc">
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1867"/>
                                     </imprint>
                                 </monogr>
@@ -34106,7 +34269,9 @@
                                 <monogr>
                                     <title>Autobiographical Notes of his Life, and Notices of his
                                         Artistic and Poetic Circle of Friends, 1830 to 1882</title>
-                                    <author corresp="#scott_wi">Scott Wm. B.</author>
+                                    <author corresp="#scott_wi">
+                                        <persName>Scott Wm. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Minto</name>
@@ -34114,6 +34279,10 @@
                                     <note type="description" corresp="#uncut">portrait and
                                         illustrations, original cloth, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#james_r_osgood_mcilvaine_co">
+                                            <orgName>James R. Osgood, McIlvaine &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1892"/>
                                     </imprint>
                                     <extent>
@@ -34130,9 +34299,14 @@
                             <biblStruct corresp="#owned" xml:id="sb690.1">
                                 <monogr>
                                     <title>Minstrelsy of the Scottish Border</title>
-                                    <author corresp="#scott_wa">Scott, Sir Walter</author>
+                                    <author corresp="#scott_wa">
+                                        <persName>Scott, Sir Walter</persName>
+                                    </author>
                                     <note type="description">half russia</note>
                                     <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            <orgName>A. Constable and Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1821"/>
                                     </imprint>
@@ -34150,11 +34324,17 @@
                             <biblStruct corresp="#owned" xml:id="sb690.2">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#browning_r">Browning, Robt.</author>
+                                    <author corresp="#browning_r">
+                                        <persName>Browning, Robt.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1889" to="1894"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="3"/>vol. XI, XVI, and
@@ -34172,7 +34352,9 @@
                             <biblStruct corresp="#owned" xml:id="sb691.1">
                                 <monogr>
                                     <title>Lady of the Lake</title>
-                                    <author corresp="#scott_wa">Scott, Sir Walter</author>
+                                    <author corresp="#scott_wa">
+                                        <persName>Scott, Sir Walter</persName>
+                                    </author>
                                     <note type="description">illustrations by Birket Foster and J.
                                         Gilbert, green morocco gilt, tooled borders, gilt edges,
                                         with inscription</note>
@@ -34183,22 +34365,32 @@
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#adam_charles_black">
+                                            <orgName>A. and C. Black</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1853"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwp6lp"/>
+                                <note type="fulltext">HT catalog record says A. and C. Black, Edinburgh, 
+                                    but actual item says Little, Brown, and Co., Boston.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb692">
                             <biblStruct corresp="#owned" xml:id="sb692.1">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">
+                                        <persName>Scott, Sir W.</persName>
+                                    </author>
                                     <note type="description">frontispiece, etc. after J. M. W.
                                         Turner, etc. polished calf gilt, marbled edges</note>
                                     <imprint>
+                                        <publisher corresp="#cadell_r">
+                                            <orgName>Robert Cadell</orgName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1833"/>
                                     </imprint>
