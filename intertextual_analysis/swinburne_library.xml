@@ -5036,6 +5036,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr89016983">Chiswick
                             Press</orgName>
                     </org>
+                    <org xml:id="constable">
+                        <orgName source="http://id.loc.gov/authorities/names/n83231319">Constable 
+                            (Firm)</orgName>
+                    </org>
                     <org xml:id="d_c_heath_company">
                         <orgName source="http://id.loc.gov/authorities/names/n82149887">D.C. 
                             Heath and Company</orgName>
@@ -5083,6 +5087,10 @@
                     <org xml:id="ellis_white">
                         <orgName source="http://id.loc.gov/authorities/names/no2018145534">Ellis 
                             &amp; White (Firm)</orgName>
+                    </org>
+                    <org xml:id="estes_lauriat">
+                        <orgName source="http://id.loc.gov/authorities/names/nr96042512">Estes 
+                            &amp; Lauriat</orgName>
                     </org>
                     <org xml:id="everett_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2014025839">Everett 
@@ -5199,6 +5207,10 @@
                     <org xml:id="indian_press">
                         <orgName source="http://id.loc.gov/authorities/names/no2002100455">Indian 
                             Press (Allahabad, India)</orgName>
+                    </org>
+                    <org xml:id="j_f_c_rivington">
+                        <orgName source="http://id.loc.gov/authorities/names/nr96012029">J., 
+                            F., and C. Rivington (Firm)</orgName>
                     </org>
                     <org xml:id="j_hetzel_et_cie">
                         <orgName source="http://id.loc.gov/authorities/names/n88043766">Librairie J. Hetzel 
@@ -5652,6 +5664,10 @@
                         <birth when="1706"/>
                         <death when="1775"/>
                     </person>
+                    <person xml:id="bathurst">
+                        <persName source="http://id.loc.gov/authorities/names/n85149158">Bathurst, 
+                            Charles</persName>
+                    </person>
                     <person xml:id="bedell">
                         <persName source="http://id.loc.gov/authorities/names/nr94027241">Bedell, 
                             Gabriel, -1668</persName>
@@ -5667,6 +5683,11 @@
                             Richard, 1794-1871</persName>
                         <birth when="1794"/>
                         <death when="1871"/>
+                    </person>
+                    <person xml:id="bew">
+                        <persName source="http://id.loc.gov/authorities/names/n79025913">Bew, 
+                            John, -1793</persName>
+                        <death when="1793"/>
                     </person>
                     <person xml:id="bindoni">
                         <persName source="http://id.loc.gov/authorities/names/no95036794">Bindoni,
@@ -5777,6 +5798,11 @@
                         <birth when="1856"/>
                         <death when="1937"/>
                     </person>
+                    <person xml:id="cater">
+                        <persName source="http://id.loc.gov/authorities/names/n85099870">Cater, 
+                            William, active 1759-1787</persName>
+                        <floruit from="1759" to="1787"/>
+                    </person>
                     <person xml:id="cavalcalupo">
                         <persName source="http://id.loc.gov/authorities/names/no96046077">Cavalcalupo, 
                             Domenico</persName>
@@ -5799,6 +5825,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr91025522">Colburn,
                             Henry, -1855</persName>
                         <death when="1855"/>
+                    </person>
+                    <person xml:id="collins_j">
+                        <persName source="http://id.loc.gov/authorities/names/n83206619">Collins, 
+                            John, 1742-1808</persName>
+                        <birth when="1742"/>
+                        <death when="1808"/>
                     </person>
                     <person xml:id="collins_r">
                         <persName source="http://id.loc.gov/authorities/names/n2005025238">Collins, 
@@ -5860,6 +5892,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr89013850">Dillingham, 
                             Charles Theodore, 1842-</persName>
                         <birth when="1842"/>
+                    </person>
+                    <person xml:id="dilly">
+                        <persName source="http://id.loc.gov/authorities/names/n85217761">Dilly, 
+                            Charles, 1739-1807</persName>
+                        <birth when="1739"/>
+                        <death when="1807"/>
                     </person>
                     <person xml:id="dobell_b">
                         <persName source="http://id.loc.gov/authorities/names/n50028845">Dobell, 
@@ -5940,6 +5978,11 @@
                         <birth when="1841"/>
                         <death when="1927"/>
                     </person>
+                    <person xml:id="gardner_h">
+                        <persName source="http://id.loc.gov/authorities/names/nr91032238">Gardner, 
+                            Henry Lasher, -1808</persName>
+                        <death when="1808"/>
+                    </person>
                     <person xml:id="gibbings">
                         <persName source="http://id.loc.gov/authorities/names/n94101558">Gibbings, 
                             W. W.</persName>
@@ -5974,6 +6017,11 @@
                             Thomas, -1604?</persName>
                         <death when="1604" cert="unknown"/>
                     </person>
+                    <person xml:id="hayes_s">
+                        <persName source="http://id.loc.gov/authorities/names/nr92006966">Hayes, 
+                            Samuel, active 1779-1795</persName>
+                        <floruit from="1779" to="1795"/>
+                    </person>
                     <person xml:id="hearne">
                         <persName source="http://id.loc.gov/authorities/names/nr93005251">Hearne, 
                             Richard</persName>
@@ -5994,6 +6042,11 @@
                             Joseph, active 1678-1696</persName>
                         <floruit from="1678" to="1696"/>
                     </person>
+                    <person xml:id="hinton">
+                        <persName source="http://id.loc.gov/authorities/names/n88041025">Hinton, 
+                            John, -1781</persName>
+                        <death when="1781"/>
+                    </person>
                     <person xml:id="hookham">
                         <persName source="http://id.loc.gov/authorities/names/no2022083845">Hookham, 
                             T. (Thomas), -1846</persName>
@@ -6002,6 +6055,10 @@
                     <person xml:id="hooper">
                         <persName source="http://id.loc.gov/authorities/names/n50028938">Hooper, 
                             S. (Samuel)</persName>
+                    </person>
+                    <person xml:id="horsfield">
+                        <persName source="http://id.loc.gov/authorities/names/nr92035039">Horsfield, 
+                            R. (Robert)</persName>
                     </person>
                     <person xml:id="hotten">
                         <persName source="http://id.loc.gov/authorities/names/n82062580">Hotten, 
@@ -6145,6 +6202,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr92035145">Lowndes, 
                             W. (William)</persName>
                     </person>
+                    <person xml:id="lowndes_t">
+                        <persName source="http://id.loc.gov/authorities/names/nr91019158">Lowndes, 
+                            Thomas, 1719-1784</persName>
+                        <birth when="1719"/>
+                        <death when="1784"/>
+                    </person>
                     <person xml:id="luchino">
                         <persName source="http://id.loc.gov/authorities/names/nr95034195">Luchino, 
                             Vincenzo, active 1550-1566</persName>
@@ -6261,6 +6324,11 @@
                         <birth when="1801"/>
                         <death when="1858"/>
                     </person>
+                    <person xml:id="newberry">
+                        <persName source="http://id.loc.gov/authorities/names/no2020068098">Newberry, 
+                            Francis, -1780</persName>
+                        <death when="1780"/>
+                    </person>
                     <person xml:id="newby">
                         <persName source="http://id.loc.gov/authorities/names/nr93003863">Newby, 
                             Thomas Cautley</persName>
@@ -6374,11 +6442,27 @@
                             Matthew, active 1622-1642</persName>
                         <floruit from="1622" to="1642"/>
                     </person>
+                    <person xml:id="richardson_w">
+                        <persName source="http://id.loc.gov/authorities/names/nr97002823">Richardson, 
+                            William, -1788</persName>
+                        <death when="1788"/>
+                    </person>
+                    <person xml:id="ridley">
+                        <persName source="http://id.loc.gov/authorities/names/no96051305">Ridley, 
+                            John, -1782</persName>
+                        <death when="1782"/>
+                    </person>
                     <person xml:id="rivington">
                         <persName source="http://id.loc.gov/authorities/names/nr92035157">Rivington, 
                             J. (John), 1720-1792</persName>
                         <birth when="1720"/>
                         <death when="1792"/>
+                    </person>
+                    <person xml:id="robson">
+                        <persName source="http://id.loc.gov/authorities/names/n85067301">Robson, 
+                            James, 1733-1806</persName>
+                        <birth when="1733"/>
+                        <death when="1806"/>
                     </person>
                     <person xml:id="rodd_t">
                         <persName source="http://id.loc.gov/authorities/names/n83148978">Rodd,
@@ -6442,6 +6526,12 @@
                     <person xml:id="stock">
                         <persName source="http://id.loc.gov/authorities/names/no99025352">Stock, 
                             Elliot</persName>
+                    </person>
+                    <person xml:id="strahan">
+                        <persName source="http://id.loc.gov/authorities/names/no90007820">Strahan, 
+                            William, 1715-1785</persName>
+                        <birth when="1715"/>
+                        <death when="1785"/>
                     </person>
                     <person xml:id="tait"> 
                         <persName source="http://id.loc.gov/authorities/names/n88175334">Tait, 
@@ -6528,6 +6618,12 @@
                         <persName source="http://id.loc.gov/authorities/names/nr93041862">Watts, 
                             John, -1763</persName>
                         <death when="1763"/>
+                    </person>
+                    <person xml:id="white_b">
+                        <persName source="http://id.loc.gov/authorities/names/n85067492">White, 
+                            Benjamin, approximately 1724-1794</persName>
+                        <birth when="1724" cert="unknown"/>
+                        <death when="1794"/>
                     </person>
                     <person xml:id="wigstead">
                         <persName source="http://id.loc.gov/authorities/names/nr93042206">Wigstead, 
@@ -34429,11 +34525,17 @@
                                 <monogr>
                                     <title>Waverly Novels, with Introductory Essays and Notes by
                                         Andrew Lang</title>
-                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">
+                                        <persName>Scott, Sir W.</persName>
+                                    </author>
                                     <note type="description">illustrations, red cloth, top edge
                                         gilt</note>
                                     <edition>Border Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#estes_lauriat">
+                                            <orgName>Estes and Lauriat</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                     <extent>
@@ -34563,6 +34665,11 @@
                                         Sorts</title>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#collins_j">
+                                            <persName>John Collins</persName>
+                                        </publisher>
+                                        <!-- "Publish'd by the Author Himself" on item, used catalog record. -->
+                                        <pubPlace ref="#birmingham">Birmingham</pubPlace>
                                         <date when="1804"/>
                                     </imprint>
                                 </monogr>
@@ -34572,7 +34679,9 @@
                             <biblStruct corresp="#owned" xml:id="sb695.2">
                                 <monogr>
                                     <title>Memoirs and Literary Remains of Lady Jane Grey</title>
-                                    <author corresp="#nicolas">Nicolas, Sir H.</author>
+                                    <author corresp="#nicolas">
+                                        <persName>Nicolas, Sir H.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1832"/>
@@ -34583,7 +34692,9 @@
                             <biblStruct corresp="#owned" xml:id="sb695.3">
                                 <monogr>
                                     <title>Essay on Sepulchres</title>
-                                    <author corresp="#godwin">Godwin, Wm.</author>
+                                    <author corresp="#godwin">
+                                        <persName>Godwin, Wm.</persName>
+                                    </author>
                                     <note type="description">frontispiece</note>
                                     <note type="etc">
                                         <num value="10"/>
@@ -34602,9 +34713,15 @@
                             <biblStruct corresp="#owned" xml:id="sb696.1">
                                 <monogr>
                                     <title>Tillers of the Sand</title>
-                                    <author corresp="#seaman">Seaman, Owen</author>
+                                    <author corresp="#seaman">
+                                        <persName>Seaman, Owen</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1895"/>
                                     </imprint>
                                 </monogr>
@@ -34614,10 +34731,16 @@
                             <biblStruct corresp="#owned" xml:id="sb696.2">
                                 <monogr>
                                     <title>Borrowed Plumes</title>
-                                    <author corresp="#seaman">Seaman, Owen</author>
+                                    <author corresp="#seaman">
+                                        <persName>Seaman, Owen</persName>
+                                    </author>
                                     <note type="description">2 copies</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#constable">
+                                            <orgName>Constable and Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -34627,7 +34750,9 @@
                             <biblStruct corresp="#owned" xml:id="sb696.3">
                                 <monogr>
                                     <title>In Cap and Bells</title>
-                                    <author corresp="#seaman">Seaman, Owen</author>
+                                    <author corresp="#seaman">
+                                        <persName>Seaman, Owen</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1905"/>
@@ -34640,12 +34765,18 @@
                             <biblStruct corresp="#owned" xml:id="sb696.4">
                                 <monogr>
                                     <title>Salvage</title>
-                                    <author corresp="#seaman">Seaman, Owen</author>
+                                    <author corresp="#seaman">
+                                        <persName>Seaman, Owen</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#archibald_constable_co">
+                                            <orgName>Archibald Constable &amp; Co</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -34669,6 +34800,10 @@
                                         birthday, from Theodore Watts, <date when="1887-04-05">April
                                             5/87</date></note>
                                     <imprint>
+                                        <publisher corresp="#redway">
+                                            <persName>George Redway</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -34680,7 +34815,9 @@
                             <biblStruct corresp="#owned" xml:id="sb698.1">
                                 <monogr>
                                     <title>Dramatick Works</title>
-                                    <author corresp="#shadwell">Shadwell, Thos.</author>
+                                    <author corresp="#shadwell">
+                                        <persName>Shadwell, Thos.</persName>
+                                    </author>
                                     <note type="description">portrait by Gribelin, calf gilt, yellow
                                         edges</note>
                                     <imprint>
@@ -34700,9 +34837,21 @@
                                         number printed in Quarto during his Lifetime, or before the
                                         Restoration, published from the Originals by George
                                         Steevens</title>
-                                    <author corresp="#shakespeare">Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">
+                                        <persName>Shakespeare, W.</persName>
+                                    </author>
                                     <note type="description">calf gilt, yellow edges</note>
                                     <imprint>
+                                        <publisher corresp="#j_r_tonson">
+                                            <orgName>J. and R. Tonson</orgName>
+                                        </publisher>
+                                        <publisher corresp="#payne_t">
+                                            <persName>T. Payne</persName>
+                                        </publisher>
+                                        <publisher corresp="#richardson_w">
+                                            <persName>W. Richardson</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1766"/>
                                     </imprint>
                                     <extent>
@@ -34725,9 +34874,111 @@
                                     <title>Supplement to the Edition of Shakespeare's Plays,
                                         published in 1778, by Johnson and Steevens, with Notes,
                                         etc.</title>
-                                    <author corresp="#shakespeare">Shakespeare, W.</author>
+                                    <author corresp="#shakespeare">
+                                        <persName>Shakespeare, W.</persName>
+                                    </author>
                                     <note type="description">frontispiece, old calf</note>
                                     <imprint>
+                                        <publisher corresp="#bathurst">
+                                            <persName>C. Bathurst</persName>
+                                        </publisher>
+                                        <publisher corresp="#strahan">
+                                            <persName>W. Strahan</persName>
+                                        </publisher>
+                                        <publisher corresp="#j_f_c_rivington">
+                                            <orgName>J. F. and C. Rivington</orgName>
+                                        </publisher>
+                                        <publisher corresp="#hinton">
+                                            <persName>J. Hinton</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>L. Davis</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#horsfield">
+                                            <persName>R. Horsfield</persName>
+                                        </publisher>
+                                        <publisher corresp="#owen">
+                                            <persName>W. Owen</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>E. Johnson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#crowder">
+                                            <persName>S. Crowder</persName>
+                                        </publisher>
+                                        <publisher corresp="#white_b">
+                                            <persName>B. White</persName>
+                                        </publisher>
+                                        <publisher corresp="#longman">
+                                            <persName>T. Longman</persName>
+                                        </publisher>
+                                        <publisher corresp="#dilly">
+                                            <persName>C. Dilly</persName>
+                                        </publisher>
+                                        <publisher corresp="#cadell">
+                                            <persName>T. Cadell</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <orgName>J. and T. Bowles</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#lowndes_t">
+                                            <persName>T. Lowndes</persName>
+                                        </publisher>
+                                        <publisher corresp="#robson">
+                                            <persName>J. Robson</persName>
+                                        </publisher>
+                                        <publisher corresp="#payne_t">
+                                            <persName>T. Payne</persName>
+                                        </publisher>
+                                        <publisher corresp="#gardner_h">
+                                            <persName>H. L. Gardner</persName>
+                                        </publisher>
+                                        <publisher corresp="#nichols">
+                                            <persName>J. Nichols</persName>
+                                        </publisher>
+                                        <publisher corresp="#bew">
+                                            <persName>J. Bew</persName>
+                                        </publisher>
+                                        <publisher corresp="#cater">
+                                            <persName>W. Cater</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>W. Stuart</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#newberry">
+                                            <persName>F. Newberry</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>G. Robinson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher>
+                                            <persName>R. Baldwin</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher>
+                                            <persName>T. Beecroft</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#ridley">
+                                            <persName>J. Ridley</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>T. Evans</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#hayes_s">
+                                            <persName>S. Hayes</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>E. Johnson</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1780"/>
                                     </imprint>
                                     <extent>
