@@ -5128,6 +5128,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/nr90009397">G. Routledge 
                             &amp; Co.</orgName>
                     </org>
+                    <org xml:id="garnier_freres">
+                        <orgName source="http://id.loc.gov/authorities/names/n83131245">Garnier 
+                            frères</orgName>
+                    </org>
                     <org xml:id="george_bell_sons">
                         <orgName source="http://id.loc.gov/authorities/names/no95020268">George 
                             Bell &amp; Sons</orgName>
@@ -5199,6 +5203,10 @@
                     <org xml:id="hunt_clarke">
                         <orgName source="http://id.loc.gov/authorities/names/nr2004005822">Hunt 
                             and Clarke</orgName>
+                    </org>
+                    <org xml:id="hurd_houghton">
+                        <orgName source="http://id.loc.gov/authorities/names/nr97017122">Hurd 
+                            &amp; Houghton</orgName>
                     </org>
                     <org xml:id="hurst_blackett">
                         <orgName source="http://id.loc.gov/authorities/names/no2006060582">Hurst 
@@ -37663,7 +37671,9 @@
                             <biblStruct corresp="#owned" xml:id="sb762.2">
                                 <monogr>
                                     <title>The Faithless Favorite, a Mixed Tragedy</title>
-                                    <author>Sauter, Edwin</author>
+                                    <author>
+                                        <persName>Sauter, Edwin</persName>
+                                    </author>
                                     <!-- LCNAF found, but likely not the same Edwin Sauter. -->
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
@@ -37691,6 +37701,10 @@
                                         and illustrations, some coloured, vellum, uncut, top edge
                                         gilt, presentation copy to Swinburne from his sister</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -37716,10 +37730,14 @@
                             <biblStruct corresp="#owned" xml:id="sb765.1">
                                 <monogr>
                                     <title xml:lang="it">Le Tredecci Piacevoli Notre</title>
-                                    <author corresp="#straparola">Straparola da Caravaggio, Giovan.-Fran</author>
+                                    <author corresp="#straparola">
+                                        <persName>Straparola da Caravaggio, Giovan.-Fran</persName>
+                                    </author>
                                     <note type="description">calf gilt, gilt edges</note>
                                     <imprint>
-                                        <publisher corresp="#cavalcalupo">appresso Domenico Caualcalupo</publisher>
+                                        <publisher corresp="#cavalcalupo">
+                                            appresso <persName>Domenico Caualcalupo</persName>
+                                        </publisher>
                                         <pubPlace ref="#venice">in Venetia</pubPlace>
                                         <date when="1586"/>
                                     </imprint>
@@ -37733,7 +37751,9 @@
                                     <title xml:lang="la">Strozii Poetae Pater et Filius</title>
                                     <note type="description">old stamped binding</note>
                                     <imprint>
-                                        <publisher corresp="#aedes_aldi">in aedibus Aldi at Soceri</publisher>
+                                        <publisher corresp="#aedes_aldi">
+                                            in <orgName>aedibus Aldi at Soceri</orgName>
+                                        </publisher>
                                         <pubPlace ref="#venice">Venet.</pubPlace>
                                         <date when="1513"/>
                                     </imprint>
@@ -37745,12 +37765,18 @@
                             <biblStruct corresp="#owned" xml:id="sb767.1">
                                 <monogr>
                                     <title>Historical Introduction to the Rolls Series</title>
-                                    <author corresp="#stubbs">Stubbs, Wm.</author>
+                                    <author corresp="#stubbs">
+                                        <persName>Stubbs, Wm.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Arthur Hassall</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -37760,12 +37786,18 @@
                             <biblStruct corresp="#owned" xml:id="sb767.2">
                                 <monogr>
                                     <title>Plays</title>
-                                    <author corresp="#sheridan">Sheridan, R. B.</author>
+                                    <author corresp="#sheridan">
+                                        <persName>Sheridan, R. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">W. Fraser Rae</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -37775,13 +37807,19 @@
                             <biblStruct corresp="#owned" xml:id="sb767.3">
                                 <monogr>
                                     <title>Diary of Master William Silence</title>
-                                    <author corresp="#madden_d">Madden, Hon. D. H.</author>
+                                    <author corresp="#madden_d">
+                                        <persName>Madden, Hon. D. H.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">vignettes, buckram,
                                         uncut</note>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -37794,9 +37832,15 @@
                                 <monogr>
                                     <title>Selections from his Works, with Life of the Author, and
                                         Critical Remarks by Alfred Suckling</title>
-                                    <author corresp="#suckling">Suckling, Sir John</author>
+                                    <author corresp="#suckling">
+                                        <persName>Suckling, Sir John</persName>
+                                    </author>
                                     <note type="description">portrait, royal 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#longman_rees_orme_brown_green_longman">
+                                            <orgName>Longman, Rees, Orme, Brown, Green, &amp; Longman</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1836"/>
                                     </imprint>
                                 </monogr>
@@ -37808,7 +37852,9 @@
                             <biblStruct corresp="#owned" xml:id="sb769.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Mysteries de Paris</title>
-                                    <author corresp="#sue">Sue, Eugine</author>
+                                    <author corresp="#sue">
+                                        <persName>Sue, Eugine</persName>
+                                    </author>
                                     <note type="description">woodcuts, half calf</note>
                                     <imprint>
                                         <pubPlace ref="#brussels">Bruxelles</pubPlace>
@@ -37826,10 +37872,15 @@
                             <biblStruct corresp="#owned" xml:id="sb769.2">
                                 <monogr>
                                     <title xml:lang="fr">Les Contes Drolatiques</title>
-                                    <author corresp="#balzac">Balzac</author>
+                                    <author corresp="#balzac">
+                                        <persName>Balzac</persName>
+                                    </author>
                                     <note type="description">illustrations by G. Doré, vellum, red
                                         edges</note>
                                     <imprint>
+                                        <publisher corresp="#garnier_freres">
+                                            Librairie <orgName>Garnier Freres</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1855"/>
                                     </imprint>
@@ -37840,7 +37891,9 @@
                             <biblStruct corresp="#owned" xml:id="sb769.3">
                                 <monogr>
                                     <title xml:lang="fr">Le Meunier D'Angibault</title>
-                                    <author corresp="#sand">Sand, G.</author>
+                                    <author corresp="#sand">
+                                        <persName>Sand, G.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="20"/>
                                     </note>
@@ -37861,13 +37914,19 @@
                             <biblStruct corresp="#owned" xml:id="sb770.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">lexant morocco
                                         inlaid and gilt backs, inside line borders and ornaments,
                                         rough edges, top edge gilt, by Riviere, Fine Copy. This copy
                                         was speacially bound by the publishers, and presented by
                                         them to Swinburne</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                     <extent>
@@ -37892,7 +37951,9 @@
                             <biblStruct corresp="#owned" xml:id="sb771.1">
                                 <monogr>
                                     <title>Tragedies</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">levnt morocco
                                         gilt, inside line borders, gilt edges, by Riviere, Fine
                                         Copy. This copy was specially bound for the publishers, and
@@ -37922,7 +37983,9 @@
                             <biblStruct corresp="#owned" xml:id="sb772.1">
                                 <monogr>
                                     <title>Cleopatra</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description">presentation copy to the author from
                                         Mr. T. J. Wise, with inscription, half olive morocco,
                                         original wrappers bound in, Very Rare. In another copy of
@@ -37932,7 +37995,9 @@
                                         treading on a consecrated vestment.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher>Printed by J. Andrews</publisher>
+                                        <publisher>
+                                            Printed by <persName>J. Andrews</persName>
+                                        </publisher>
                                         <!-- No LCNAF found. -->
                                         <pubPlace ref="#london">Clements Lane, E.C.</pubPlace>
                                         <date>n.d. [c. 1866]</date>
@@ -37945,8 +38010,14 @@
                             <biblStruct corresp="#owned" xml:id="sb773.1">
                                 <monogr>
                                     <title>Atalanta in Calydon, a Tragedy</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#edward_moxon_co">
+                                            <orgName>Edward Moxon &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1865"/>
                                     </imprint>
                                 </monogr>
@@ -37956,9 +38027,15 @@
                             <biblStruct corresp="#owned" xml:id="sb773.2">
                                 <monogr>
                                     <title>Atalanta in Calydon, a Tragedy</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description">another edition</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                 </monogr>
@@ -37968,7 +38045,9 @@
                             <biblStruct corresp="#owned" xml:id="sb773.3">
                                 <monogr>
                                     <title>Poetical Works</title>
-                                    <author corresp="#herbert">Herbert, Geo.</author>
+                                    <author corresp="#herbert">
+                                        <persName>Herbert, Geo.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">A. B. Grosart</name>
@@ -37978,12 +38057,15 @@
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1876"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/dli.bengal.10689.23416/page/n5/mode/2up"
-                                />
+                                    target="https://archive.org/details/dli.bengal.10689.23416/page/n5/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb774">
@@ -37991,7 +38073,9 @@
                                 <monogr>
                                     <title>Atalanta in Calydon, and Lyrical Poems, selected with
                                         Introduction by William Sharp</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburne, with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, with
@@ -38000,6 +38084,9 @@
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#tauchnitz">
+                                            <persName>Bernhard Tauchnitz</persName>
+                                        </publisher>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
@@ -38012,13 +38099,18 @@
                             <biblStruct corresp="#owned" xml:id="sb775.1">
                                 <monogr>
                                     <title>Atalanta in Claydon, and Lyrical Poems</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>selected by</resp>
                                         <name full="yes">Wm. Sharp</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut, 2 copies</note>
                                     <imprint>
+                                        <publisher corresp="#tauchnitz">
+                                            <persName>Bernhard Tauchnitz</persName>
+                                        </publisher>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
@@ -38029,12 +38121,17 @@
                             <biblStruct corresp="#owned" xml:id="sb775.2">
                                 <monogr>
                                     <title>Chastelard and Mary Stuart</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, 6 copies</note>
                                     <note type="etc">
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#tauchnitz">
+                                            <persName>Bernhard Tauchnitz</persName>
+                                        </publisher>
                                         <pubPlace ref="#leipzig">Leipzig</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
@@ -38047,11 +38144,17 @@
                             <biblStruct corresp="#owned" xml:id="sb776.1">
                                 <monogr>
                                     <title>William Blake, a Critical Essay</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description">illustrations from Blake's designs,
                                         coloured and plain, blue cloth</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#hotten">
+                                            <persName>John Camden Hotten</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1868"/>
                                     </imprint>
                                 </monogr>
@@ -38063,7 +38166,9 @@
                             <biblStruct corresp="#owned" xml:id="sb777.1">
                                 <monogr>
                                     <title>Songs Before Sunrise</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">one of
                                         25 copies printed on large paper, for private circulation
                                         only, white cloth, uncut, presentation copy</note>
@@ -38071,7 +38176,10 @@
                                         Ellis</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
-                                        <publisher corresp="#ellis_f">F. S. Ellis</publisher>
+                                        <publisher corresp="#ellis_f">
+                                            <persName>F. S. Ellis</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1871"/>
                                     </imprint>
                                 </monogr>
@@ -38085,9 +38193,15 @@
                             <biblStruct corresp="#owned" xml:id="sb778.1">
                                 <monogr>
                                     <title>A Word for the Navy</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description">original wrappers, 3 copies</note>
                                     <imprint>
+                                        <publisher corresp="#redway">
+                                            <persName>George Redway</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -38099,7 +38213,9 @@
                             <biblStruct corresp="#owned" xml:id="sb779.1">
                                 <monogr>
                                     <title>Grace Darling</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">only a few copies
                                         printed for private circulation, vellum, uncut, 4to.</note>
                                     <edition corresp="#first_ed">First Edition</edition>
@@ -38113,7 +38229,9 @@
                         <listBibl type="lot" xml:id="sb780">
                             <bibl xml:id="sb780.1">
                                 <title>Grace Darling</title>
-                                <author corresp="#swinburne">Swinburne, A. C.</author>
+                                <author corresp="#swinburne">
+                                    <persName>Swinburne, A. C.</persName>
+                                </author>
                                 <note type="description">another copy</note>
                                 <date when="1893"/>
                                 <relatedItem type="none" target=""/>
@@ -38122,7 +38240,9 @@
                         <listBibl type="lot" xml:id="sb781">
                             <bibl xml:id="sb781.1">
                                 <title>Grace Darling</title>
-                                <author corresp="#swinburne">Swinburne, A. C.</author>
+                                <author corresp="#swinburne">
+                                    <persName>Swinburne, A. C.</persName>
+                                </author>
                                 <note type="description">another copy</note>
                                 <date when="1893"/>
                                 <relatedItem type="none" target=""/>
@@ -38132,27 +38252,48 @@
                             <biblStruct corresp="#owned" xml:id="sb782.1">
                                 <monogr>
                                     <title>Studies in Prose and Poetry</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#mosher">
+                                            <persName>Thomas B. Mosher</persName>
+                                        </publisher>
+                                        <pubPlace corresp="#portland">Portland, Maine</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwp8tz"/>
                             </biblStruct>
-                            <bibl xml:id="sb782.2">
-                                <title>Essays and Studies</title>
-                                <author corresp="#swinburne">Swinburne, A. C.</author>
-                                <date when="1876"/>
+                            <biblStruct xml:id="sb782.2">
+                                <monogr>
+                                  <title>Essays and Studies</title>
+                                  <author corresp="#swinburne">
+                                      <persName>Swinburne, A. C.</persName>
+                                  </author>
+                                    <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1876"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hwp8tu"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb782.3">
                                 <monogr>
                                     <title>Chastelard, a Tragedy</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#hurd_houghton">
+                                            <orgName>Hurd and Houghton</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1866"/>
                                     </imprint>
@@ -38163,9 +38304,15 @@
                             <biblStruct corresp="#owned" xml:id="sb782.4">
                                 <monogr>
                                     <title>Rosamund Queen of the Lombards, a Tragedy</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -38177,13 +38324,19 @@
                             <biblStruct corresp="#owned #corrected" xml:id="sb783.1">
                                 <monogr>
                                     <title>Poems</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">author's original
                                         proofs, with Swinburne's correction, uncut. This vol.
                                         contains Songs before Sunrise, Songs of Two Nations, and Ode
                                         on the Proclamation of the French Republic.</note>
                                     <edition>Collected Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto &amp; Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="1"/>II</extent>
@@ -38196,7 +38349,9 @@
                             <biblStruct corresp="#owned #corrected" xml:id="sb784.1">
                                 <monogr>
                                     <title>A Century of English Poetry</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description">author's proof, with numerous MS.
                                         alterations and corrections in the handwriting of
                                         Swinburne</note>
@@ -38218,7 +38373,9 @@
                             <biblStruct corresp="#owned" xml:id="sb785.1">
                                 <monogr>
                                     <title xml:lang="fr">Ode à la Statue de Victor Hugo</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>traduction de</resp>
                                         <name full="yes">Tola Dorian</name>
@@ -38231,13 +38388,15 @@
                                         Dorian, Neuillym <date when="1882-12-15">15 Decembre,
                                             1882</date></note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/odelastatuedevi00swingoog/page/n10/mode/2up"
-                                />
+                                    target="https://archive.org/details/odelastatuedevi00swingoog/page/n10/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb786">
@@ -38245,7 +38404,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Poëmes et Ballads, Notes sur Swinburne par
                                         Guy Maupassant</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>traduction de</resp>
                                         <name full="yes">G. Mourey</name>
@@ -38262,13 +38423,18 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Cenci, avec Préface de A. C.
                                         Swinburne</title>
-                                    <author corresp="#shelley_p">Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">
+                                        <persName>Shelley, P. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>traduction de</resp>
                                         <name full="yes">Tola Dorian</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
@@ -38280,7 +38446,9 @@
                             <biblStruct corresp="#owned" xml:id="sb786.3">
                                 <monogr>
                                     <title xml:lang="fr">D. Japhet d'Armenie, Comedie</title>
-                                    <author corresp="#scarron">Scarron, M.</author>
+                                    <author corresp="#scarron">
+                                        <persName>Scarron, M.</persName>
+                                    </author>
                                     <note type="description">old sheep</note>
                                     <note type="etc">
                                         <num value="4"/>
@@ -38299,7 +38467,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Poëmes et Ballads, traduits par G. Mourey,
                                         Notes sur Swinburne par Guy de Maussapant</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -38312,7 +38482,9 @@
                                 <monogr>
                                     <title xml:lang="fr">Fleurs Exotiques, Poésies Etraugères en
                                         Vers Français</title>
-                                    <author>Dolane, R.</author>
+                                    <author>
+                                        <persName>Dolane, R.</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
@@ -38325,7 +38497,9 @@
                             <biblStruct corresp="#owned" xml:id="sb787.3">
                                 <monogr>
                                     <title xml:lang="fr">Poëmes Lyriques</title>
-                                    <author>Dorian, Tola</author>
+                                    <author>
+                                        <persName>Dorian, Tola</persName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
@@ -38338,7 +38512,9 @@
                             <biblStruct corresp="#owned" xml:id="sb787.4">
                                 <monogr>
                                     <title xml:lang="fr">A mes Slaves</title>
-                                    <author>Dorian, Tola</author>
+                                    <author>
+                                        <persName>Dorian, Tola</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc" corresp="#presentation">and others; all
                                         presentation copies to Swinburne, with inscriptions<num
@@ -38355,26 +38531,33 @@
                             <biblStruct corresp="#owned" xml:id="sb788.1">
                                 <monogr>
                                     <title xml:lang="fr">Nouveaux Poëmes et Ballades</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>traduction d'</resp>
                                         <name full="yes">Albert Savine</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>P. V. Stock</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/nouveauxpomeset00swingoog/page/n7/mode/2up"
-                                />
+                                    target="https://archive.org/details/nouveauxpomeset00swingoog/page/n7/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb788.2">
                                 <monogr>
                                     <title xml:lang="fr">Poëmes et Ballades, Notes sur Swinburne par
                                         Guy de Maupassant</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>traduction de</resp>
                                         <name full="yes">G. Mourey</name>
@@ -38391,13 +38574,18 @@
                                 <monogr>
                                     <title xml:lang="fr">Les Cenci, avec Preface de A. C.
                                         Swinburne</title>
-                                    <author corresp="#shelley_p">Shelley, P. B.</author>
+                                    <author corresp="#shelley_p">
+                                        <persName>Shelley, P. B.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>traduction de</resp>
                                         <name full="yes">Tola Dorian</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <orgName>Alphonse Lemerre</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1883"/>
                                     </imprint>
@@ -38412,7 +38600,9 @@
                                 <monogr>
                                     <title>Chants d'avant l'Aube, traduits par M. Gabriel
                                         Mourey</title>
-                                    <author corresp="#swinburne">Swinburne, A. C.</author>
+                                    <author corresp="#swinburne">
+                                        <persName>Swinburne, A. C.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut
                                         and unopened, presentation copy with inscription from
                                         Gabriel Mourey</note>
@@ -38428,7 +38618,9 @@
                             <biblStruct corresp="#owned" xml:id="sb790.1">
                                 <monogr>
                                     <title>Anime Figura</title>
-                                    <author corresp="#symonds">Symonds, J. Addington</author>
+                                    <author corresp="#symonds">
+                                        <persName>Symonds, J. Addington</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1882"/>
@@ -38439,7 +38631,9 @@
                             <biblStruct corresp="#owned" xml:id="sb790.2">
                                 <monogr>
                                     <title>Sabbation, Honor Neale, and other Poems</title>
-                                    <author corresp="#trench_r">Trench, R. C.</author>
+                                    <author corresp="#trench_r">
+                                        <persName>Trench, R. C.</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1838"/>
@@ -38453,11 +38647,16 @@
                             <biblStruct corresp="#owned" xml:id="sb790.3">
                                 <monogr>
                                     <title>Alexandria and her Schools</title>
-                                    <author corresp="#kingsley">Kingsley, Chas.</author>
+                                    <author corresp="#kingsley">
+                                        <persName>Kingsley, Chas.</persName>
+                                    </author>
                                     <note type="etc">
                                         <num value="6"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
                                         <pubPlace ref="#cambridge">Cambridge</pubPlace>
                                         <date when="1854"/>
                                     </imprint>
@@ -38470,11 +38669,17 @@
                             <biblStruct corresp="#owned" xml:id="sb791.1">
                                 <monogr>
                                     <title>Wine, Women and Song</title>
-                                    <author corresp="#symonds">Symonds, J. A.</author>
+                                    <author corresp="#symonds">
+                                        <persName>Symonds, J. A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">vellum, uncut and
                                         unopened, fine clean copy</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chatto_windus">
+                                            <orgName>Chatto and Windus</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
                                 </monogr>
@@ -38486,13 +38691,19 @@
                             <biblStruct corresp="#owned" xml:id="sb792.1">
                                 <monogr>
                                     <title>Introduction to the Study of Browning</title>
-                                    <author corresp="#symons">Symons, Arthur</author>
+                                    <author corresp="#symons">
+                                        <persName>Symons, Arthur</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, Esq. with the author's
                                         compliments</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#cassell_co">
+                                            <orgName>Cassell &amp; Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                 </monogr>
@@ -38504,13 +38715,19 @@
                             <biblStruct corresp="#owned" xml:id="sb793.1">
                                 <monogr>
                                     <title>Days and Nights</title>
-                                    <author corresp="#symons">Symons, Arthur</author>
+                                    <author corresp="#symons">
+                                        <persName>Symons, Arthur</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with autograph inscription</note>
                                     <note type="inscription">To A. C. Swinburne, Esq. in deepest
                                         admiration, Arthur Symons</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -38522,11 +38739,17 @@
                             <biblStruct corresp="#owned" xml:id="sb794.1">
                                 <monogr>
                                     <title>Studies in Two Literatures</title>
-                                    <author corresp="#symons">Symons, Arthur</author>
+                                    <author corresp="#symons">
+                                        <persName>Symons, Arthur</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">original cloth,
                                         uncut</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#leonard_smithers">
+                                            <orgName>Leonard Smithers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -38538,10 +38761,19 @@
                             <biblStruct corresp="#owned" xml:id="sb795.1">
                                 <monogr>
                                     <title>Poems, Dramatic and Lyrical</title>
-                                    <author corresp="#warren">Tabley, J. L. Warren, Lord de</author>
+                                    <author corresp="#warren">
+                                        <persName>Tabley, J. L. Warren, Lord de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations by C. S. Ricketts, green
                                         cloth gilt, uncut, top edge gilt</note>
                                     <imprint>
+                                        <publisher corresp="#elkin_mathews_john_lane">
+                                            <orgName>Elkin Mathews and John Lane</orgName>
+                                        </publisher>
+                                        <publisher corresp="#bodley_head">
+                                            <orgName>The Bodley Head</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -38551,13 +38783,19 @@
                             <biblStruct corresp="#owned" xml:id="sb795.2">
                                 <monogr>
                                     <title>Orpheus in Thrace, and Other Poems</title>
-                                    <author corresp="#warren">Tabley, J. L. Warren, Lord de</author>
+                                    <author corresp="#warren">
+                                        <persName>Tabley, J. L. Warren, Lord de</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">buckram, uncut, top
                                         edge gilt</note>
                                     <note type="etc">
                                         <num value="10"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1901"/>
                                     </imprint>
                                 </monogr>
@@ -38569,7 +38807,9 @@
                             <biblStruct corresp="#owned" xml:id="sb796.1">
                                 <monogr>
                                     <title>Tales from My Garden</title>
-                                    <author corresp="#alma-tadema">Tadema, L. Alma</author>
+                                    <author corresp="#alma-tadema">
+                                        <persName>Tadema, L. Alma</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">coloured
                                         illustrations by Pamela C. Smith, presentation copy from the
                                         author to Swinburne, with autograph inscription</note>
@@ -38590,9 +38830,15 @@
                             <biblStruct corresp="#owned" xml:id="sb798.1">
                                 <monogr>
                                     <title>Works, complete</title>
-                                    <author corresp="#taylor_h">Taylor, Sir Henry</author>
+                                    <author corresp="#taylor_h">
+                                        <persName>Taylor, Sir Henry</persName>
+                                    </author>
                                     <note type="description">green cloth</note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_co">
+                                            <orgName>Kegan Paul, Trench &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1877" to="1878"/>
                                     </imprint>
                                     <extent>
