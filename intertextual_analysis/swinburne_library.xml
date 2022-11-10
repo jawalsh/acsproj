@@ -4924,6 +4924,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/n96044306">Almqvist 
                             &amp; Wiksells</orgName>
                     </org>
+                    <org xml:id="alston_rivers">
+                        <orgName source="http://id.loc.gov/authorities/names/no2019155658">Alston 
+                            Rivers (Firm)</orgName>
+                    </org>
                     <org xml:id="archibald_constable_co">
                         <orgName source="http://id.loc.gov/authorities/names/n87864025">Archibald 
                             Constable &amp; Co.</orgName>
@@ -4967,6 +4971,10 @@
                     <org xml:id="bradbury_agnew_co">
                         <orgName source="http://id.loc.gov/authorities/names/no99016369">Bradbury, 
                             Agnew and Co.</orgName>
+                    </org>
+                    <org xml:id="bradbury_evans">
+                        <orgName source="http://id.loc.gov/authorities/names/n85042912">Bradbury
+                            &amp; Evans</orgName>
                     </org>
                     <org xml:id="brown_langham_co">
                         <orgName source="http://id.loc.gov/authorities/names/no2021119077">Brown, 
@@ -5088,6 +5096,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2018145534">Ellis 
                             &amp; White (Firm)</orgName>
                     </org>
+                    <org xml:id="elston_press">
+                        <orgName source="http://id.loc.gov/authorities/names/no94024681">Elston 
+                            Press</orgName>
+                    </org>
                     <org xml:id="estes_lauriat">
                         <orgName source="http://id.loc.gov/authorities/names/nr96042512">Estes 
                             &amp; Lauriat</orgName>
@@ -5167,6 +5179,10 @@
                     <org xml:id="hawes_clarke_collins">
                         <orgName source="http://id.loc.gov/authorities/names/nr98033290">Hawes, 
                             Clarke and Collins</orgName>
+                    </org>
+                    <org xml:id="henry_colburn_co">
+                        <orgName source="http://id.loc.gov/authorities/names/nr00018054">Henry 
+                            Colburn and Co. (1851-1852)</orgName>
                     </org>
                     <org xml:id="henry_colburn_richard_bentley">
                         <orgName source="http://id.loc.gov/authorities/names/nr90016122">Henry 
@@ -5375,6 +5391,10 @@
                     <org xml:id="longman_hurst_rees_orme_brown">
                         <orgName source="http://id.loc.gov/authorities/names/nr93032708">Longman, 
                             Hurst, Rees, Orme, and Brown</orgName>
+                    </org>
+                    <org xml:id="longman_hurst_rees_orme_brown_green">
+                        <orgName source="http://id.loc.gov/authorities/names/nr93032706">Longman, 
+                            Hurst, Rees, Orme, Brown, and Green</orgName>
                     </org>
                     <org xml:id="longman_rees_orme_brown_green">
                         <orgName source="http://id.loc.gov/authorities/names/nr00010088">Longman, 
@@ -5951,7 +5971,7 @@
                         <birth when="1842"/>
                         <death when="1914"/>
                     </person>
-                    <person corresp="douglas">
+                    <person xml:id="douglas_d">
                         <persName source="http://id.loc.gov/authorities/names/no93024045">Douglas, 
                             David, 1823-1916</persName>
                         <birth when="1823"/>
@@ -6424,6 +6444,10 @@
                         <persName source="http://id.loc.gov/authorities/names/nr2003009625">Nutt, 
                             David</persName>
                     </person>
+                    <person xml:id="ollivier">
+                        <persName source="http://id.loc.gov/authorities/names/nr93013506">Ollivier, 
+                            John</persName>
+                    </person>
                     <person xml:id="oporinus">
                         <persName source="http://id.loc.gov/authorities/names/no96009568">Oporinus, 
                             Joannes, 1507-1568</persName>
@@ -6439,6 +6463,12 @@
                         <persName source="http://id.loc.gov/authorities/names/n85089711">Owen, 
                             W. (William), -1793</persName>
                         <death when="1793"/>
+                    </person>
+                    <person xml:id="parker">
+                        <persName source="http://id.loc.gov/authorities/names/n79062996">Parker, 
+                            John Henry, 1806-1884</persName>
+                        <birth when="1806"/>
+                        <death when="1884"/>
                     </person>
                     <person xml:id="pasini">
                         <persName source="http://id.loc.gov/authorities/names/no95036795">Pasini,
@@ -6578,6 +6608,11 @@
                             John Russell, 1810-1894</persName>
                         <birth when="1810"/>
                         <death when="1894"/>
+                    </person>
+                    <person xml:id="souter">
+                        <persName source="http://id.loc.gov/authorities/names/nr2006029801">Souter, 
+                            John, active 1814-1847</persName>
+                        <floruit from="1814" to="1847"/>
                     </person>
                     <person xml:id="speed">
                         <persName source="http://id.loc.gov/authorities/names/nr96035500">Speed, 
@@ -10912,10 +10947,9 @@
                                     <title>John Leech, and other Papers</title>
                                     <author corresp="#brown_j">Brown, John</author>
                                     <imprint>
-                                        <publisher>
+                                        <publisher corresp="#douglas_d">
                                             <persName>David Douglas</persName>
                                         </publisher>
-                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1882"/>
                                     </imprint>
@@ -33932,11 +33966,9 @@
                                     </author>
                                     <note type="description">portrait</note>
                                     <imprint>
-                                        <publisher>
+                                        <publisher corresp="#douglas_d">
                                             <persName>David Douglas</persName>
                                         </publisher>
-                                        <!-- Difficult to determine correct LCNAF, if one exists. Possibly
-                                           http://id.loc.gov/authorities/names/no93024045 -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1894"/>
                                     </imprint>
@@ -38861,27 +38893,45 @@
                             <biblStruct corresp="#owned" xml:id="sb799.1">
                                 <monogr>
                                     <title>Maud and other Poems</title>
-                                    <author corresp="#tennyson">Tennyson, Alfred Lord</author>
+                                    <author corresp="#tennyson">
+                                        <persName>Tennyson, Alfred Lord</persName>
+                                    </author>
                                     <note type="description">calf, marbled edges</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#moxon">
+                                            <persName>Edward Moxon</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1855"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uiug.30112070318727"/>
                             </biblStruct>
-                            <bibl xml:id="sb799.2">
-                                <title>Poems by Two Brothers</title>
-                                <author corresp="#tennyson">Tennyson, Alfred Lord</author>
-                                <date when="1893"/>
+                            <biblStruct xml:id="sb799.2">
+                                <monogr>
+                                    <title>Poems by Two Brothers</title>
+                                    <author corresp="#tennyson">
+                                        <persName>Tennyson, Alfred Lord</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1893"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/nyp.33433059332092"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb799.3">
                                 <monogr>
                                     <title>Harold, a Poem</title>
-                                    <author corresp="#tennyson">Tennyson, Alfred Lord</author>
+                                    <author corresp="#tennyson">
+                                        <persName>Tennyson, Alfred Lord</persName>
+                                    </author>
                                     <note type="etc">and others by the same author<num value="8"
                                         /></note>
                                     <imprint>
@@ -38896,7 +38946,9 @@
                                 <monogr>
                                     <title>The Lover's Tale and other Poems, now first collected
                                         with a monograph (by R. H. Shepherd)</title>
-                                    <author corresp="#tennyson">Tennyson, A. Lord</author>
+                                    <author corresp="#tennyson">
+                                        <persName>Tennyson, A. Lord</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">one of 50
                                         copies printed for private circulationm presentation copy to
                                         Swinburne, with inscription</note>
@@ -38917,7 +38969,9 @@
                             <biblStruct corresp="#owned" xml:id="sb801.1">
                                 <monogr>
                                     <title>A Memoir by his Son</title>
-                                    <author corresp="#tennyson">Tennyson, A. Lord</author>
+                                    <author corresp="#tennyson">
+                                        <persName>Tennyson, A. Lord</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">portrait, uncut</note>
                                     <imprint>
                                         <date when="1899"/>
@@ -38925,19 +38979,32 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015031306395"/>
+                                <note type="fulltext">Copy is from 1906.</note>
                             </biblStruct>
-                            <bibl xml:id="sb801.2">
-                                <title>Alfred Tennyson</title>
-                                <author corresp="#lang">Lang, A.</author>
-                                <date when="1901"/>
+                            <biblStruct xml:id="sb801.2">
+                                <monogr>
+                                    <title>Alfred Tennyson</title>
+                                    <author corresp="#lang">
+                                        <persName>Lang, A.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            <orgName>William Blackwood and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
+                                        <date when="1901"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015031307393"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb801.3">
                                 <monogr>
                                     <title>Alfred Lord Tennyson, a Study of his Life and
                                         Work</title>
-                                    <author corresp="#waugh">Waugh, A.</author>
+                                    <author corresp="#waugh">
+                                        <persName>Waugh, A.</persName>
+                                    </author>
                                     <note type="description">portraits and illustrations, two
                                         copies</note>
                                     <note type="etc">
@@ -38949,13 +39016,16 @@
                                 </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.$b794398"/>
+                                <note type="fulltext">Copy is from 1894.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb802">
                             <biblStruct corresp="#owned" xml:id="sb802.1">
                                 <monogr>
                                     <title>Works, annotated</title>
-                                    <author corresp="#tennyson">Tennyson, A. Lord</author>
+                                    <author corresp="#tennyson">
+                                        <persName>Tennyson, A. Lord</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">Hallam Lord Tennyson</name>
@@ -38963,6 +39033,10 @@
                                     <note type="description">various</note>
                                     <edition>Eversley Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>The Macmillan Company</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1908"/>
                                     </imprint>
                                     <extent>
@@ -38985,10 +39059,15 @@
                             <biblStruct corresp="#owned" xml:id="sb803.1">
                                 <monogr>
                                     <title xml:lang="la">Comoediae</title>
-                                    <author corresp="#varro">Terentius</author>
+                                    <author corresp="#varro">
+                                        <persName>Terentius</persName>
+                                    </author>
                                     <note type="description">old red morocco, gilt edges</note>
                                     <edition>Baskerville's Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#baskerville">
+                                            <persName>Johannis Baskerville</persName>
+                                        </publisher>
                                         <pubPlace ref="#birmingham">Birmingham</pubPlace>
                                         <date when="1772"/>
                                     </imprint>
@@ -38999,7 +39078,9 @@
                             <biblStruct corresp="#owned" xml:id="sb803.2">
                                 <monogr>
                                     <title xml:lang="la">Ovidii Fastorum lib. VI</title>
-                                    <author corresp="#varro">Terentius</author>
+                                    <author corresp="#varro">
+                                        <persName>Terentius</persName>
+                                    </author>
                                     <note type="description">old binding, apud Seb. Gryphium</note>
                                     <imprint>
                                         <pubPlace ref="#lyon">Lugduni</pubPlace>
@@ -39016,22 +39097,30 @@
                                     <note type="description">calf, numerous MS. notes in pencil,
                                         presumed to be in the handwriting of Swinburne</note>
                                     <imprint>
+                                        <publisher corresp="#parker">
+                                            <persName>John Henry Parker</persName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1848"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/gykaindiackygre03unkngoog/page/n7/mode/2up"
-                                />
+                                    target="https://archive.org/details/gykaindiackygre03unkngoog/page/n7/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb805">
                             <biblStruct corresp="#owned" xml:id="sb805.1">
                                 <monogr>
                                     <title>Vanity Fair</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">illustrations by the author</note>
                                     <imprint>
+                                        <publisher corresp="#bradbury_evans">
+                                            <orgName>Bradbury and Evans</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1849"/>
                                     </imprint>
                                 </monogr>
@@ -39041,9 +39130,15 @@
                             <biblStruct corresp="#owned" xml:id="sb805.2">
                                 <monogr>
                                     <title>Harry Mowbray</title>
-                                    <author corresp="#knox_c">Knox, Capt.</author>
+                                    <author corresp="#knox_c">
+                                        <persName>Knox, Capt.</persName>
+                                    </author>
                                     <note type="description">plates, half calf</note>
                                     <imprint>
+                                        <publisher corresp="#ollivier">
+                                            <persName>John Ollivier</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1843"/>
                                     </imprint>
                                 </monogr>
@@ -39055,11 +39150,17 @@
                             <biblStruct corresp="#owned" xml:id="sb806.1">
                                 <monogr>
                                     <title>The Newcomes</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">illustrations by R. Doyle, half bound,
                                         stained</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#bradbury_evans">
+                                            <orgName>Bradbury and Evans</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1854"/>
                                     </imprint>
                                     <extent>
@@ -39074,7 +39175,9 @@
                             <biblStruct corresp="#owned" xml:id="sb806.2">
                                 <monogr>
                                     <title>The Virginians</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">illustrations by the author, half
                                         calf</note>
                                     <note type="etc">
@@ -39082,6 +39185,11 @@
                                     </note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>Aldine Book Publishing Co.</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#boston">Boston</pubPlace>
                                         <date when="1858"/>
                                     </imprint>
                                     <extent>
@@ -39099,13 +39207,19 @@
                                 <monogr>
                                     <title>Sultan Stork and other Stories, with the Bibliography of
                                         Thackeray by R. H. Shepherd</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy, with inscription</note>
                                     <note type="inscription">A. C. Swinburne, a small token of
                                         gratitude and admiration from the editor, Richard Herne
                                         Shepherd</note>
                                     <imprint>
+                                        <publisher corresp="#redway">
+                                            <orgName>George Redway</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -39115,12 +39229,18 @@
                             <biblStruct corresp="#owned" xml:id="sb807.2">
                                 <monogr>
                                     <title>Miscellaneous Essays</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">illustrations by the author</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
                                 </monogr>
@@ -39132,10 +39252,16 @@
                             <biblStruct corresp="#owned" xml:id="sb808.1">
                                 <monogr>
                                     <title>Collection of Letters of W. M. Thackeray, 1847-55</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">portraits and reproductions, half
                                         morocco, imperial 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1887"/>
                                     </imprint>
                                 </monogr>
@@ -39145,12 +39271,18 @@
                             <biblStruct corresp="#owned" xml:id="sb808.2">
                                 <monogr>
                                     <title>Contributions to “Punch”</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">illustrations by the author</note>
                                     <note type="etc">
                                         <num value="3"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1886"/>
                                     </imprint>
                                 </monogr>
@@ -39162,7 +39294,9 @@
                             <biblStruct corresp="#owned #annotated" xml:id="sb809.1">
                                 <monogr>
                                     <title>Luck of Barry Lyndon, a Romance</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut, Swinburne's
                                         copy, with pencil note in his writing on fly-leaf</note>
                                     <imprint>
@@ -39177,24 +39311,46 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb810">
-                            <bibl xml:id="sb810.1">
-                                <title>Memoirs of Barry Lyndon</title>
-                                <author corresp="#thackeray">Thackeray, W. M.</author>
-                                <date when="1902"/>
+                            <biblStruct xml:id="sb810.1">
+                                <monogr>
+                                    <title>Memoirs of Barry Lyndon</title>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1902"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044086838596"/>
-                            </bibl>
-                            <bibl xml:id="sb810.2">
-                                <title>Christmas Books</title>
-                                <author corresp="#thackeray">Thackeray, W. M.</author>
-                                <date when="1903"/>
+                            </biblStruct>
+                            <biblStruct xml:id="sb810.2">
+                                <monogr>
+                                    <title>Christmas Books</title>
+                                    <author corresp="#thackeray">
+                                        Thackeray, W. M.
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#j_m_dent_co">
+                                            <orgName>J. M. Dent &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1903"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/hvd.32044086838265"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb810.3">
                                 <monogr>
                                     <title>A Shabby Genteel Story</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">and others by the same author,
                                         illustrations by the author, etc.</note>
                                     <imprint>
@@ -39211,12 +39367,18 @@
                             <biblStruct corresp="#owned" xml:id="sb811.1">
                                 <monogr>
                                     <title>The New Sketch Book</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">R. S. Garnett</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#alston_rivers">
+                                            <orgName>Alston Rivers, Ltd.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1906"/>
                                     </imprint>
                                 </monogr>
@@ -39227,7 +39389,9 @@
                                 <monogr>
                                     <title>Selections from his Works, with Introduction by Mrs. A.
                                         Ireland</title>
-                                    <author corresp="#reade_ch">Reade, Chas.</author>
+                                    <author corresp="#reade_ch">
+                                        <persName>Reade, Chas.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date when="1891"/>
@@ -39238,7 +39402,9 @@
                             <biblStruct corresp="#owned" xml:id="sb811.3">
                                 <monogr>
                                     <title>Life of Lord Byron</title>
-                                    <author corresp="#castelar">Castelar, E.</author>
+                                    <author corresp="#castelar">
+                                        <persName>Castelar, E.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">Mrs. A. Arnold</name>
@@ -39247,6 +39413,10 @@
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#tinsley_brothers">
+                                            <orgName>Tinsley Brothers</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
@@ -39258,9 +39428,15 @@
                             <biblStruct corresp="#owned" xml:id="sb812.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description">green cloth</note>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                     <extent><measure unit="volumes" quantity="12"/>24 vol. (wanting
@@ -39310,13 +39486,19 @@
                             <biblStruct corresp="#owned" xml:id="sb813.1">
                                 <monogr>
                                     <title>Works</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">illustrations
                                         by the author, red cloth, top edge gilt, presentation copy
                                         from A. C. Swinburne to W. T. Watts-Dunton, with autograph
                                         inscription</note>
                                     <edition>Biographical Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#smith_elder_co">
+                                            <orgName>Smith, Elder, &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                     <extent>
@@ -39354,7 +39536,9 @@
                             <biblStruct corresp="#owned" xml:id="sb814.1">
                                 <monogr>
                                     <title>Bibliography of Thackeray, by R. H. Shepherd</title>
-                                    <author corresp="#thackeray">Thackeray, W. M.</author>
+                                    <author corresp="#thackeray">
+                                        <persName>Thackeray, W. M.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">large paper,
                                         presentation copy, with inscription and autograph letter
                                         inserted, imperial 8vo.</note>
@@ -39362,6 +39546,10 @@
                                         from the editor, R. H. Shepherd, <date when="1880-12-13"
                                             >Dec. 13, 1880</date></note>
                                     <imprint>
+                                        <publisher corresp="#stock">
+                                            <persName>Elliot Stock</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1880"/>
                                     </imprint>
                                 </monogr>
@@ -39374,36 +39562,57 @@
                                 <monogr>
                                     <title xml:lang="fr">Voyage de Polyclète, ou Lettres Romaines,
                                         abrégé par M. de Rouillon</title>
-                                    <author corresp="#théis">Theis, Baron de</author>
+                                    <author corresp="#théis">
+                                        <persName>Theis, Baron de</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">calf,
                                         presentation copy, with inscription</note>
                                     <note type="inscription" xml:lang="fr">Aldolce amico Swinburne,
                                         L. Sinibaldi</note>
                                     <imprint>
+                                        <publisher corresp="#souter">
+                                            <persName>J. Souter</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1825"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/voyagedepolyclt00rouigoog/page/n4/mode/2up"
-                                />
+                                    target="https://archive.org/details/voyagedepolyclt00rouigoog/page/n4/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb816">
-                            <bibl xml:id="sb816.1">
-                                <title>Crome's Etchings, a Catalogue and an Appreciation, with some
-                                    Account of his Paintings</title>
-                                <author corresp="#theobald">Theobald, H. S.</author>
-                                <date when="1906"/>
+                            <biblStruct xml:id="sb816.1">
+                                <monogr>
+                                    <title>Crome's Etchings, a Catalogue and an Appreciation, with some
+                                     Account of his Paintings</title>
+                                    <author corresp="#theobald">
+                                        <persName>Theobald, H. S.</persName>
+                                    </author>
+                                    <imprint>
+                                        <publisher corresp="#macmillan_co">
+                                            <orgName>Macmillan and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
+                                        <date when="1906"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc2.ark:/13960/t44q7zg2v"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb816.2">
                                 <monogr>
                                     <title>Love Letters of Mary Queen of Scots to James Earl of
                                         Bothwell</title>
-                                    <author corresp="#campbell_h">Campbell, H.</author>
+                                    <author corresp="#campbell_h">
+                                        <persName>Campbell, H.</persName>
+                                    </author>
                                     <note type="description">portrait, half calf, red edges</note>
                                     <imprint>
+                                        <publisher corresp="#longman_hurst_rees_orme_brown_green">
+                                            <orgName>Longman, Hurst, Rees, Orme, Brown, and Green</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1824"/>
                                     </imprint>
                                 </monogr>
@@ -39413,8 +39622,13 @@
                             <biblStruct corresp="#owned" xml:id="sb816.3">
                                 <monogr>
                                     <title>Rise of the Greek Epic</title>
-                                    <author corresp="#murray_g">Murray, G.</author>
+                                    <author corresp="#murray_g">
+                                        <persName>Murray, G.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1907"/>
                                     </imprint>
@@ -39433,6 +39647,9 @@
                                         <name full="yes">B. Jowett</name>
                                     </respStmt>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
@@ -39448,7 +39665,9 @@
                             <biblStruct corresp="#owned" xml:id="sb817.2">
                                 <monogr>
                                     <title>Politics, with Essay, Notes, Indicies, etc.</title>
-                                    <author corresp="#aristotle">Aristotle</author>
+                                    <author corresp="#aristotle">
+                                        <persName>Aristotle</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>translated by</resp>
                                         <name full="yes">B. Jowett</name>
@@ -39457,6 +39676,9 @@
                                         <num value="4"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#oxford_university_press">
+                                            <orgName>Clarendon Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#oxford">Oxford</pubPlace>
                                         <date when="1885"/>
                                     </imprint>
@@ -39475,7 +39697,9 @@
                                 <monogr>
                                     <title>Plays and Poems, with critical Introduction and
                                         Notes</title>
-                                    <author corresp="#tourneur">Tourneur, C.</author>
+                                    <author corresp="#tourneur">
+                                        <persName>Tourneur, C.</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">J. Churton Collins</name>
@@ -39502,10 +39726,16 @@
                             <biblStruct corresp="#owned" xml:id="sb819.1">
                                 <monogr>
                                     <title>Records of Shelley, Byron and the Author</title>
-                                    <author corresp="#trelawny">Trelawny, E. J.</author>
+                                    <author corresp="#trelawny">
+                                        <persName>Trelawny, E. J.</persName>
+                                    </author>
                                     <note type="description">portrait and illustrations</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#pickering_b">
+                                            <persName>Basil Montagu Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1878"/>
                                     </imprint>
                                     <extent>
@@ -39523,9 +39753,15 @@
                                 <monogr>
                                     <title>Adventures of a Younger Son, with Introduction by E.
                                         Garnett</title>
-                                    <author corresp="#trelawny">Trelawny, Sir J.</author>
+                                    <author corresp="#trelawny">
+                                        <persName>Trelawny, Sir J.</persName>
+                                    </author>
                                     <note type="description">portrait, illustrations, etc.</note>
                                     <imprint>
+                                        <publisher corresp="#unwin">
+                                            <persName>T. Fisher Unwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
                                 </monogr>
@@ -39535,9 +39771,16 @@
                             <biblStruct corresp="#owned" xml:id="sb820.2">
                                 <monogr>
                                     <title>History of the Gunpowder Plot</title>
-                                    <author corresp="#sidney_p1872">Sidney, P.</author>
+                                    <author corresp="#sidney_p1872">
+                                        <persName>Sidney, P.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher>
+                                            <orgName>The Religious Tract Society</orgName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1904"/>
                                     </imprint>
                                 </monogr>
@@ -39547,13 +39790,19 @@
                             <biblStruct corresp="#owned" xml:id="sb820.3">
                                 <monogr>
                                     <title>Inner and Middle Temple</title>
-                                    <author corresp="#bellot">Bellot, Hugh H. L.</author>
+                                    <author corresp="#bellot">
+                                        <persName>Bellot, Hugh H. L.</persName>
+                                    </author>
                                     <note type="description">90 illustrations</note>
                                     <note type="etc">
                                         <num value="10"/>
                                     </note>
                                     <edition/>
                                     <imprint>
+                                        <publisher corresp="#methuen_co">
+                                            <orgName>Methuen &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
                                 </monogr>
@@ -39565,9 +39814,15 @@
                             <biblStruct corresp="#owned" xml:id="sb821.1">
                                 <monogr>
                                     <title>Realities of Irish Life</title>
-                                    <author corresp="#trench_w">Trench, W. S.</author>
+                                    <author corresp="#trench_w">
+                                        <persName>Trench, W. S.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1869"/>
                                     </imprint>
                                 </monogr>
@@ -39577,7 +39832,9 @@
                             <biblStruct corresp="#owned" xml:id="sb821.2">
                                 <monogr>
                                     <title>Traits and Stories of Irish Peasantry</title>
-                                    <author corresp="#carleton">Carleton, Wm.</author>
+                                    <author corresp="#carleton">
+                                        <persName>Carleton, Wm.</persName>
+                                    </author>
                                     <note type="description">portrait</note>
                                     <imprint>
                                         <date>n.d.</date>
@@ -39590,12 +39847,18 @@
                             <biblStruct corresp="#owned" xml:id="sb821.3">
                                 <monogr>
                                     <title>St. Kilda</title>
-                                    <author corresp="#heathcote">Heathcote, N.</author>
+                                    <author corresp="#heathcote">
+                                        <persName>Heathcote, N.</persName>
+                                    </author>
                                     <note type="description">illiustrations, etc.</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#longmans_green_co">
+                                            <orgName>Longmans, Green, and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
                                 </monogr>
@@ -39607,11 +39870,17 @@
                             <biblStruct corresp="#owned" xml:id="sb822.1">
                                 <monogr>
                                     <title>Mrs. Matthews, or Family Mysteries, a Novel</title>
-                                    <author corresp="#trollope_f">Trollope, Mrs.</author>
+                                    <author corresp="#trollope_f">
+                                        <persName>Trollope, Mrs.</persName>
+                                    </author>
                                     <note type="description">original boards, with
                                         advertisements</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#henry_colburn_co">
+                                            <orgName>Colburn and Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1851"/>
                                     </imprint>
                                     <extent>
@@ -39630,11 +39899,17 @@
                             <biblStruct corresp="#owned" xml:id="sb823.1">
                                 <monogr>
                                     <title>Orley Farm</title>
-                                    <author corresp="#trollope_a">Trollope, A.</author>
+                                    <author corresp="#trollope_a">
+                                        <persName>Trollope, A.</persName>
+                                    </author>
                                     <note type="description">illustrations by J. E. Millais, half
                                         calf</note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1862"/>
                                     </imprint>
                                     <extent>
@@ -39652,12 +39927,17 @@
                                 <monogr>
                                     <title>Journal, from the Original Manuscript at
                                         Abbotsford</title>
-                                    <author corresp="#scott_wa">Scott, Sir W.</author>
+                                    <author corresp="#scott_wa">
+                                        <persName>Scott, Sir W.</persName>
+                                    </author>
                                     <note type="description">portraits</note>
                                     <note type="etc">
                                         <num value="8"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#douglas_d">
+                                            <persName>David Douglas</persName>
+                                        </publisher>
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1890"/>
                                     </imprint>
@@ -39675,9 +39955,15 @@
                             <biblStruct corresp="#owned" xml:id="sb824.1">
                                 <monogr>
                                     <title>Chronicles of Barsetshire</title>
-                                    <author corresp="#trollope_a">Trollope, A.</author>
+                                    <author corresp="#trollope_a">
+                                        <persName>Trollope, A.</persName>
+                                    </author>
                                     <note type="description">and some parts</note>
                                     <imprint>
+                                        <publisher corresp="#chapman_and_hall">
+                                            <orgName>Chapman and Hall</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1879"/>
                                     </imprint>
                                     <extent>
@@ -39705,7 +39991,9 @@
                             <biblStruct corresp="#owned" xml:id="sb825.1">
                                 <monogr>
                                     <title>Narcissus, a Twelfe Night Merriment</title>
-                                    <author>Tudor Library</author>
+                                    <author>
+                                        <orgName>Tudor Library</orgName>
+                                    </author>
                                     <!-- No LCNAF found. -->
                                     <respStmt>
                                         <resp>edited by</resp>
@@ -39713,6 +40001,10 @@
                                     </respStmt>
                                     <note type="description">one of 500 copies, imperial 8vo.</note>
                                     <imprint>
+                                        <publisher corresp="#nutt">
+                                            <persName>David Nutt</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1893"/>
                                     </imprint>
                                 </monogr>
@@ -39722,8 +40014,13 @@
                             <biblStruct corresp="#owned" xml:id="sb825.2">
                                 <monogr>
                                     <title>Five Arthurian Poems</title>
-                                    <author corresp="#morris">Morris, Wm.</author>
+                                    <author corresp="#morris">
+                                        <persName>Morris, Wm.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#elston_press">
+                                            <orgName>Elston Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
@@ -39734,8 +40031,13 @@
                             <biblStruct corresp="#owned" xml:id="sb825.3">
                                 <monogr>
                                     <title>Comus a Maske</title>
-                                    <author corresp="#milton">Milton, J.</author>
+                                    <author corresp="#milton">
+                                        <persName>Milton, J.</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#elston_press">
+                                            <orgName>Elston Press</orgName>
+                                        </publisher>
                                         <pubPlace ref="#new_york">New York</pubPlace>
                                         <date when="1902"/>
                                     </imprint>
@@ -39773,10 +40075,15 @@
                             <biblStruct corresp="#owned" xml:id="sb827.1">
                                 <monogr>
                                     <title xml:lang="fr">Mes Premières Années de Paris</title>
-                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">
+                                        <persName>Vacquerie, Aug.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy to Swinburnem with inscription</note>
                                     <imprint>
+                                        <publisher corresp="#michel_levy_freres">
+                                            <orgName>Michel Lévy Frères</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
@@ -39787,16 +40094,21 @@
                             <biblStruct corresp="#owned" xml:id="sb827.2">
                                 <monogr>
                                     <title xml:lang="fr">Trente-Six Ballades Joyeuses</title>
-                                    <author corresp="#banville">Bauville, T. de</author>
+                                    <author corresp="#banville">
+                                        <persName>Bauville, T. de</persName>
+                                    </author>
+                                    <!-- Typo in catalogue? -->
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1873"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/trentesixballad00assegoog/page/n6/mode/2up"
-                                />
+                                    target="https://archive.org/details/trentesixballad00assegoog/page/n6/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb827.3">
                                 <monogr>
@@ -39812,6 +40124,9 @@
                                         <num value="9"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1891"/>
                                     </imprint>
@@ -39824,21 +40139,27 @@
                             <biblStruct corresp="#owned" xml:id="sb828.1">
                                 <monogr>
                                     <title>Tragaldabas</title>
-                                    <author corresp="#vacquerie">Vacquerie, Aug.</author>
+                                    <author corresp="#vacquerie">
+                                        <persName>Vacquerie, Aug.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#michel_levy_freres">
+                                            <orgName>Michel Lévy Frères</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1875"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/tragaldabas00vacquoft/page/n10/mode/2up"
-                                />
+                                    target="https://archive.org/details/tragaldabas00vacquoft/page/n10/mode/2up"/>
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb828.2">
                                 <monogr>
                                     <title>Correspondance, 1815-35</title>
-                                    <author corresp="#hugo">Hugo, V.</author>
+                                    <author corresp="#hugo">
+                                        <persName>Hugo, V.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
@@ -39853,13 +40174,20 @@
                             <biblStruct corresp="#owned" xml:id="sb828.3">
                                 <monogr>
                                     <title xml:lang="fr">Victor Hugo et son Temps</title>
-                                    <author corresp="#barbou_a">Barbou, A.</author>
+                                    <author corresp="#barbou_a">
+                                        <persName>Barbou, A.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">illustrations, uncut,
                                         imperial 8vo</note>
                                     <note type="etc" corresp="#presentation">and others, some
                                         presentation copies to Swinburne with inscriptions<num
                                             value="9"/></note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Eugène Hugues</persName>
+                                        </publisher>
+                                        <!-- No conclusive LCNAF found, possibly
+                                            http://id.loc.gov/authorities/names/n80016642 -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1881"/>
                                     </imprint>
@@ -39872,7 +40200,9 @@
                             <biblStruct corresp="#owned" xml:id="sb829.1">
                                 <monogr>
                                     <title>The Rowley Poems</title>
-                                    <author corresp="#chatterton">Chatterton, T.</author>
+                                    <author corresp="#chatterton">
+                                        <persName>Chatterton, T.</persName>
+                                    </author>
                                     <note type="description">woodcut borders and initial letters,
                                         one of 210 copies, original boards</note>
                                     <imprint>
@@ -39895,12 +40225,16 @@
                                 <monogr>
                                     <title xml:lang="it">Vite de piu Eccellenti Architetti, Pittori
                                         et Scultori Italiani</title>
-                                    <author corresp="#vasari">Vasari, G.</author>
+                                    <author corresp="#vasari">
+                                        <persName>Vasari, G.</persName>
+                                    </author>
                                     <note type="description">olf calf gilt, gilt edges, binding of
                                         vol. I broken, small hole in pp. 521-522</note>
                                     <edition corresp="#first_ed">Edizione Prima</edition>
                                     <imprint>
-                                        <publisher corresp="#torrentino">Torrentino</publisher>
+                                        <publisher corresp="#torrentino">
+                                            <persName>Lorenzo Torrentino</persName>
+                                        </publisher>
                                         <pubPlace ref="#florence">Fiorenza</pubPlace>
                                         <date when="1550"/>
                                     </imprint>
@@ -39920,7 +40254,9 @@
                                 <monogr>
                                     <title>Works in Verse and Prose, Complete, collected and edited
                                         with Notes, etc. by A. B. Grosart</title>
-                                    <author corresp="#vaughan">Vaughan, Henry</author>
+                                    <author corresp="#vaughan">
+                                        <persName>Vaughan, Henry</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">large paper, one of
                                         106 copies, facsimiles, uncut, printed for private
                                         circulation</note>
@@ -39946,7 +40282,9 @@
                             <biblStruct corresp="#owned" xml:id="sb832.1">
                                 <monogr>
                                     <title xml:lang="fr">Les Cygnes (Poésies 1885-1886)</title>
-                                    <author corresp="#vielé-griffin">Vielé-Griffin, Francis</author>
+                                    <author corresp="#vielé-griffin">
+                                        <persName>Vielé-Griffin, Francis</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription" xml:lang="fr">À Algernon Charles
@@ -39965,12 +40303,18 @@
                             <biblStruct corresp="#owned" xml:id="sb833.1">
                                 <monogr>
                                     <title xml:lang="it">Mémorie de Oliverio scritte da lui</title>
-                                    <author corresp="#villari">Villari, L. A.</author>
+                                    <author corresp="#villari">
+                                        <persName>Villari, L. A.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne with inscription</note>
                                     <note type="etc">and another, with signature of Swinburne on
                                             fly-leaf<num value="2"/></note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Niccolo Giannotta</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#catania">Catania</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
@@ -39984,10 +40328,15 @@
                                 <monogr>
                                     <title>Poems, done into English Verse, with Critical
                                         Introduction by John Payne</title>
-                                    <author corresp="#villon">Villon, F.</author>
+                                    <author corresp="#villon">
+                                        <persName>Villon, F.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">frontispiece and
                                         facsimiles, uncut</note>
                                     <imprint>
+                                        <publisher corresp="#mosher">
+                                            <persName>Thomas B Mosher</persName>
+                                        </publisher>
                                         <pubPlace ref="#portland">Portland, Maine</pubPlace>
                                         <date when="1900"/>
                                     </imprint>
