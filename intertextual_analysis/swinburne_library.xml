@@ -4996,6 +4996,10 @@
                         <orgName source="http://id.loc.gov/authorities/names/no2006002324">C. 
                             Kegan Paul &amp; Co.</orgName>
                     </org>
+                    <org xml:id="c_r_baldwin">
+                        <orgName source="http://id.loc.gov/authorities/names/no2021074550">C. 
+                            and R. Baldwin (Firm)</orgName>
+                    </org>
                     <org xml:id="c_whittingham_co">
                         <orgName source="http://id.loc.gov/authorities/names/nr99033690">C. 
                             Whittingham and Co.</orgName>
@@ -5832,6 +5836,12 @@
                             James, -1802</persName>
                         <death when="1802"/>
                     </person>
+                    <person xml:id="byrne">
+                        <persName source="http://id.loc.gov/authorities/names/nr91006607">Byrne, 
+                            Patrick, 1741?-1814</persName>
+                        <birth when="1741" cert="unknown"/>
+                        <death when="1814"/>
+                    </person>
                     <person xml:id="cadell">
                         <persName source="http://id.loc.gov/authorities/names/n88007821">Cadell, 
                             Thomas, 1773-1836</persName>
@@ -6197,6 +6207,11 @@
                             Thomas, active 1600-1637</persName>
                         <floruit from="1600" to="1637"/>
                     </person>
+                    <person xml:id="josse">
+                        <persName source="http://id.loc.gov/authorities/names/no2007089501">Josse, 
+                            Jean-François, -1779</persName>
+                        <death when="1779"/>
+                    </person>
                     <person xml:id="keble">
                         <persName source="http://id.loc.gov/authorities/names/nr93051911">Keble, 
                             Samuel</persName>
@@ -6370,6 +6385,10 @@
                             Andrew, 1705-1768</persName>
                         <birth when="1705"/>
                         <death when="1768"/>
+                    </person>
+                    <person xml:id="mkenzie">
+                        <persName source="http://id.loc.gov/authorities/names/nr98004528">M'Kenzie, 
+                            William</persName>
                     </person>
                     <person xml:id="molini">
                         <persName source="http://id.loc.gov/authorities/names/no2019071372">Molini, 
@@ -6711,7 +6730,11 @@
                             Bernardino dei, active 1494-1539</persName>
                         <floruit from="1494" to="1539"/>
                     </person>
-                    <person>
+                    <person xml:id="walmsley">
+                        <persName source="http://id.loc.gov/authorities/names/no2018038697">Walmsley, 
+                            G. G. (Gilbert Gough), 1834-1904</persName>
+                        <birth when="1834"/>
+                        <death when="1904"/>
                     </person>
                     <person xml:id="washbourne">
                         <persName source="http://id.loc.gov/authorities/names/nr94008012">Washbourne, 
@@ -6745,6 +6768,10 @@
                         <persName source="http://id.loc.gov/authorities/names/no2021123492">Williams, 
                             E. P., active 19th century</persName>
                         <floruit from="1800" to="1899"/>
+                    </person>
+                    <person xml:id="wogan">
+                        <persName source="http://id.loc.gov/authorities/names/nr92035193">Wogan, 
+                            Patrick</persName>
                     </person>
                     <person xml:id="worthington">
                         <persName source="http://id.loc.gov/authorities/names/nr92032062">Worthington, 
@@ -40346,14 +40373,18 @@
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb835">
-                            <biblStruct corresp="#owned" xml:id="sb835.1d">
+                            <biblStruct corresp="#owned" xml:id="sb835.1">
                                 <monogr>
                                     <title>Opera</title>
-                                    <author corresp="#virgil">Virgilius</author>
+                                    <author corresp="#virgil">
+                                        <persName>Virgilius</persName>
+                                    </author>
                                     <note type="description">ruled in red, old English red morocco,
                                         gilt ornaments on sides, gilt edges</note>
                                     <imprint>
-                                        <publisher corresp="#manuzio">Aldus</publisher>
+                                        <publisher corresp="#manuzio">
+                                            <persName>Aldus</persName>
+                                        </publisher>
                                         <pubPlace ref="#venice">Venet.</pubPlace>
                                         <date when="1541"/>
                                     </imprint>
@@ -40367,7 +40398,9 @@
                             <biblStruct corresp="#owned" xml:id="sb836.1">
                                 <monogr>
                                     <title>Opera, edidit J. A. Amar</title>
-                                    <author corresp="#virgil">Virgilius</author>
+                                    <author corresp="#virgil">
+                                        <persName>Virgilius</persName>
+                                    </author>
                                     <imprint>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1826"/>
@@ -40382,8 +40415,14 @@
                                 <monogr>
                                     <title xml:lang="la">Comoediae Sex, cura et studio J. A.
                                         Amar</title>
-                                    <author corresp="#terence">Terentius</author>
+                                    <author corresp="#terence">
+                                        <persName>Terentius</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Lefevre</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1823"/>
                                     </imprint>
@@ -40396,15 +40435,22 @@
                                 <relatedItem n="2" type="ht"
                                     target="https://hdl.handle.net/2027/hvd.hn658f"/>
                             </biblStruct>
-                            <bibl xml:id="sb836.3">
-                                <title>Lucani Pharsalia</title>
-                                <pubPlace ref="#paris">Paris</pubPlace>
-                                <date when="1822"/>
+                            <biblStruct xml:id="sb836.3">
+                                <monogr>
+                                    <title>Lucani Pharsalia</title>
+                                    <imprint>
+                                        <publisher>
+                                            <persName>Lefevre</persName>
+                                        </publisher>
+                                        <pubPlace ref="#paris">Paris</pubPlace>
+                                        <date when="1822"/>
+                                    </imprint>
+                                </monogr>
                                 <relatedItem n="1" type="ht"
                                     target="https://hdl.handle.net/2027/nyp.33433081610267"/>
                                 <relatedItem n="2" type="ht"
                                     target="https://hdl.handle.net/2027/nyp.33433081610275"/>
-                            </bibl>
+                            </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb836.4">
                                 <monogr>
                                     <title>Lucretii de rerum Natura, edidit J. A. Amar</title>
@@ -40433,6 +40479,10 @@
                                     <note type="description">large paper, only 24 copies
                                         printed</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>Thomas G. Stevenson</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
                                         <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1843"/>
                                     </imprint>
@@ -40444,12 +40494,18 @@
                                 <monogr>
                                     <title>Northumberland Words, Glossary of Words used in the
                                         Country of Northumberland and on the Tyneside</title>
-                                    <author corresp="#haldane">Heslop, R. O.</author>
+                                    <author corresp="#haldane">
+                                        <persName>Heslop, R. O.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="5"/>
                                     </note>
                                     <imprint>
+                                        <publisher corresp="#kegan_paul_trench_trubner_co">
+                                            <orgName>Kegan Paul, Trench, Trübner &amp; Co.</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date from="1892" to="1893"/>
                                     </imprint>
                                     <extent>
@@ -40466,13 +40522,18 @@
                             <biblStruct corresp="#owned" xml:id="sb838.1">
                                 <monogr>
                                     <title>Evocations</title>
-                                    <author corresp="#vivien'">Vivien, R.</author>
+                                    <author corresp="#vivien'">
+                                        <persName>Vivien, R.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation">uncut,
                                         presentation copy with inscription</note>
                                     <note type="inscription">To Swinburne who saw the Lesbian
                                         kissing across the smitten Lutes with lips more sweet than
                                         the sound of the lute string. Renée Vivien</note>
                                     <imprint>
+                                        <publisher corresp="#lemerre">
+                                            <persName>Alphonse Lemerre</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1903"/>
                                     </imprint>
@@ -40486,13 +40547,15 @@
                                         Précédée d'une Notice par F. de Marescot</title>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#librairie_des_bibliophiles">
+                                            <orgName>Librairie des Bibliophiles</orgName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1872"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/turcaretcomdiee00sagegoog/page/n8/mode/2up"
-                                />
+                                    target="https://archive.org/details/turcaretcomdiee00sagegoog/page/n8/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb839">
@@ -40500,10 +40563,17 @@
                                 <monogr>
                                     <title>Lettres, Écrites de Loudres sur les Anglois et autres
                                         sujets</title>
-                                    <author corresp="#voltaire">Voltaire, M. de</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire, M. de</persName>
+                                    </author>
                                     <note type="description"/>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher>
+                                            <persName>William Bowyer</persName>
+                                        </publisher>
+                                        <!-- Not sure if Sr. or Jr., both were alive and printing until
+                                            1737, when Sr. died. No LCNAF for firm. -->
                                         <pubPlace ref="#london">Basle (Lond.)</pubPlace>
                                         <date when="1734"/>
                                     </imprint>
@@ -40515,7 +40585,9 @@
                                 <monogr>
                                     <title>Essay upon the Civil Wars of France and Epick Poetry of
                                         the European Nations</title>
-                                    <author corresp="#voltaire">Voltaire, M. de</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire, M. de</persName>
+                                    </author>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
                                         <date when="1727"/>
@@ -40527,18 +40599,26 @@
                                 <monogr>
                                     <title xml:lang="fr">Le Brutus avec un Discours sur la
                                         Tragédie</title>
-                                    <author corresp="#voltaire">Voltaire, M. de</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire, M. de</persName>
+                                    </author>
                                     <imprint>
+                                        <publisher corresp="#josse">
+                                            <persName>Je. Fr. Josse</persName>
+                                        </publisher>
                                         <pubPlace ref="#paris">Paris</pubPlace>
                                         <date when="1731"/>
                                     </imprint>
                                 </monogr>
-                                <relatedItem type="google" target="https://books.google.com/books?id=PjAHAAAAQAAJ"/>                        
+                                <relatedItem type="google" 
+                                    target="https://books.google.com/books?id=PjAHAAAAQAAJ"/>                        
                             </biblStruct>
                             <biblStruct corresp="#owned" xml:id="sb839.4">
                                 <monogr>
                                     <title xml:lang="fr">Le Temple du Goût</title>
-                                    <author corresp="#voltaire">Voltaire, M. de</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire, M. de</persName>
+                                    </author>
                                     <note type="description">in 1 vol. old calf, broken</note>
                                     <imprint>
                                         <pubPlace ref="#amsterdam">Amsterdam</pubPlace>
@@ -40553,11 +40633,38 @@
                                 <monogr>
                                     <title>Historical and Critical Memoirs of his Life and Writings,
                                         from the French of Dom Chaudon</title>
-                                    <author corresp="#voltaire">Voltaire</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire</persName>
+                                    </author>
                                     <note type="description">calf, signature “Shirley Brooks, <date
                                             when="1862-11-11">11th Novr. 1862</date>” on the
                                         title</note>
                                     <imprint>
+                                        <publisher>
+                                            <persName>L. White</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher corresp="#wogan">
+                                            <persName>P. Wogan</persName>
+                                        </publisher>
+                                        <publisher corresp="#byrne">
+                                            <persName>P. Byrne</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>J. Cash</persName>
+                                        </publisher>
+                                        <!-- No LCNAF found. -->
+                                        <publisher corresp="#mkenzie">
+                                            <persName>W. M'Kenzie</persName>
+                                        </publisher>
+                                        <publisher>
+                                            <persName>J. Moore</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
+                                        <publisher>
+                                            <persName>J. Jones</persName>
+                                        </publisher>
+                                        <!-- Difficult to determine correct LCNAF, if one exists. -->
                                         <pubPlace ref="#dublin">Dublin</pubPlace>
                                         <date when="1786"/>
                                     </imprint>
@@ -40569,7 +40676,10 @@
                                 <monogr>
                                     <title>Quarrel of the School-Boys at Athens, as lately acted at
                                         a School near Westminster</title>
-                                    <author corresp="#defoe">Defoe, Daniel</author><!-- corrected from "Voltaire", alewinga -->
+                                    <author corresp="#defoe">
+                                        <persName>Defoe, Daniel</persName>
+                                    </author>
+                                    <!-- corrected from "Voltaire", alewinga -->
                                     <note type="description">half calf</note>
                                     <imprint>
                                         <date when="1717"/>
@@ -40581,9 +40691,15 @@
                             <biblStruct corresp="#owned" xml:id="sb840.3">
                                 <monogr>
                                     <title>Epics of the Ton</title>
-                                    <author corresp="#voltaire">Voltaire</author>
+                                    <author corresp="#voltaire">
+                                        <persName>Voltaire</persName>
+                                    </author>
                                     <note type="description">calf</note>
                                     <imprint>
+                                        <publisher corresp="#c_r_baldwin">
+                                            <orgName>C. and R. Baldwin</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1807"/>
                                     </imprint>
                                 </monogr>
@@ -40595,7 +40711,9 @@
                             <biblStruct corresp="#owned" xml:id="sb841.1">
                                 <monogr>
                                     <title>A Century of Sonnets</title>
-                                    <author corresp="#waddington">Waddington, Saml.</author>
+                                    <author corresp="#waddington">
+                                        <persName>Waddington, Saml.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy to Swinburne from the author with autograph
                                         inscription</note>
@@ -40604,6 +40722,10 @@
                                             October, 1889</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#george_bell_sons">
+                                            <orgName>George Bell and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1889"/>
                                     </imprint>
                                 </monogr>
@@ -40615,7 +40737,9 @@
                             <biblStruct corresp="#owned" xml:id="sb842.1">
                                 <monogr>
                                     <title>Epigrams of Art, Life and Nature</title>
-                                    <author corresp="#watson">Watson, Wm.</author>
+                                    <author corresp="#watson">
+                                        <persName>Watson, Wm.</persName>
+                                    </author>
                                     <note type="description" corresp="#presentation">presentation
                                         copy with inscription</note>
                                     <note type="inscription">To Algernon Charles Swinburne, Esq.
@@ -40623,6 +40747,9 @@
                                             1884</date></note>
                                     <edition corresp="#first_ed">First Edition</edition>
                                     <imprint>
+                                        <publisher corresp="#walmsley">
+                                            <persName>Gilbert G. Walmsley</persName>
+                                        </publisher>
                                         <pubPlace ref="#liverpool">Liverpool</pubPlace>
                                         <date when="1884"/>
                                     </imprint>
@@ -40635,9 +40762,15 @@
                             <biblStruct corresp="#owned" xml:id="sb843.1">
                                 <monogr>
                                     <title>Aylwin</title>
-                                    <author corresp="#watts-dunton">Watts-Dunton, T.</author>
+                                    <author corresp="#watts-dunton">
+                                        <persName>Watts-Dunton, T.</persName>
+                                    </author>
                                     <note type="description">2 copies</note>
                                     <imprint>
+                                        <publisher corresp="#hurst_blackett">
+                                            <orgName>Hurst and Blackett</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -40647,9 +40780,15 @@
                             <biblStruct corresp="#owned" xml:id="sb843.2">
                                 <monogr>
                                     <title>Story of the Treasure Seekers</title>
-                                    <author corresp="#nesbit">Nesbit, E.</author>
+                                    <author corresp="#nesbit">
+                                        <persName>Nesbit, E.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <imprint>
+                                        <publisher corresp="#unwin">
+                                            <persName>T. Fisher Unwin</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1899"/>
                                     </imprint>
                                 </monogr>
@@ -40658,7 +40797,9 @@
                             </biblStruct>
                             <bibl xml:id="sb843.3">
                                 <title>Isles of Sunset</title>
-                                <author corresp="#benson_a">Benson, A. C.</author>
+                                <author corresp="#benson_a">
+                                    <persName>Benson, A. C.</persName>
+                                </author>
                                 <date when="1904"/>
                                 <relatedItem type="ht"
                                     target="https://hdl.handle.net/2027/uc1.$b682943"/>
@@ -40667,10 +40808,16 @@
                             <biblStruct corresp="#owned" xml:id="sb843.4">
                                 <monogr>
                                     <title>Dariel</title>
-                                    <author corresp="#blackmore">Blackmore, R. D.</author>
+                                    <author corresp="#blackmore">
+                                        <persName>Blackmore, R. D.</persName>
+                                    </author>
                                     <note type="description">illustrations</note>
                                     <note type="etc">and other Novels<num value="20"/></note>
                                     <imprint>
+                                        <publisher corresp="#william_blackwood_and_sons">
+                                            <orgName>William Blackwood and Sons</orgName>
+                                        </publisher>
+                                        <pubPlace ref="#edinburgh">Edinburgh</pubPlace>
                                         <date when="1897"/>
                                     </imprint>
                                 </monogr>
@@ -40682,7 +40829,9 @@
                             <biblStruct corresp="#owned" xml:id="sb844.1">
                                 <monogr>
                                     <title>Christmas at the Mermaid</title>
-                                    <author corresp="#watts-dunton">Watts-Dunton, T.</author>
+                                    <author corresp="#watts-dunton">
+                                        <persName>Watts-Dunton, T.</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut #presentation"
                                         >illustrations by Herbert Cole, morocco, uncut, top edge
                                         gilt, presentation copy from the author to Swinburne with
@@ -40704,13 +40853,19 @@
                             <biblStruct corresp="#owned" xml:id="sb845.1">
                                 <monogr>
                                     <title>Dramatic Works</title>
-                                    <author corresp="#webster_j">Webster, John</author>
+                                    <author corresp="#webster_j">
+                                        <persName>Webster, John</persName>
+                                    </author>
                                     <respStmt>
                                         <resp>edited by</resp>
                                         <name full="yes">William Hazlitt</name>
                                     </respStmt>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <imprint>
+                                        <publisher corresp="#smith_j">
+                                            <persName>John Russell Smith</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1857"/>
                                     </imprint>
                                     <extent>
@@ -40730,7 +40885,9 @@
                                 <monogr>
                                     <title>Works, with Notes and some Account of his life and
                                         Writings, by J. O. Halliwell</title>
-                                    <author corresp="#marston_j">Marston, John</author>
+                                    <author corresp="#marston_j">
+                                        <persName>Marston, John</persName>
+                                    </author>
                                     <note type="description" corresp="#uncut">uncut</note>
                                     <note type="etc">
                                         <num value="7"/>
@@ -40748,24 +40905,29 @@
                                     target="https://hdl.handle.net/2027/mdp.39015024080429"/>
                                 <relatedItem n="3" type="ht"
                                     target="https://hdl.handle.net/2027/mdp.39015019171340"/>
+                                <note type="fulltext">Copy from 1856.</note>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb846">
                             <biblStruct corresp="#owned" xml:id="sb846.1">
                                 <monogr>
                                     <title>Astronomy and General Physics</title>
-                                    <author corresp="#whewell">Whewell, Wm.</author>
+                                    <author corresp="#whewell">
+                                        <persName>Whewell, Wm.</persName>
+                                    </author>
                                     <note type="description">morocco gilt, gilt edges; a Prize
                                         awarded to Swinburne when at Eton, from C. O. Goodford,
                                         dated 1853</note>
                                     <imprint>
-                                        <publisher corresp="#pickering">Pickering</publisher>
+                                        <publisher corresp="#pickering">
+                                            <persName>William Pickering</persName>
+                                        </publisher>
+                                        <pubPlace ref="#london">London</pubPlace>
                                         <date when="1847"/>
                                     </imprint>
                                 </monogr>
                                 <relatedItem type="ia"
-                                    target="https://archive.org/details/astronphysicsl00whewuoft/page/n6/mode/2up"
-                                />
+                                    target="https://archive.org/details/astronphysicsl00whewuoft/page/n6/mode/2up"/>
                             </biblStruct>
                         </listBibl>
                         <listBibl type="lot" xml:id="sb847">
