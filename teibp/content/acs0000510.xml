@@ -1336,7 +1336,7 @@ A slip of paper pasted into the bound volume reads:
 						<l>But born of the earth itself, the natural ground,</l>
 						<l><unclear cert="low">Not set in</unclear></l>
 						<anchor xml:id="anchor004"/>
-						<delSpan spanTo="anchor005"/>
+						<delSpan spanTo="#anchor005"/>
 						<l>Nor spared to read the scriptures in them writ</l>
 						<l>Wert thou my son; yet couldst thou then but die</l>
 						<l>Fallen &amp;c.</l>
@@ -1349,35 +1349,48 @@ A slip of paper pasted into the bound volume reads:
 						<anchor xml:id="anchor005"/>
 						<pb n="17r"/>
 						<fw><subst><del>16</del><add place="below">17</add></subst></fw>
-						<!-- paused 2022-09-13 -->
-						<l>Wert thou my son; yet couldst thou then but die</l>
-						<l>Fallen in sheer fight by chance &amp; charge of spears</l>
+						<delSpan spanTo="#anchor006"/>
+						<l>Would not I give <unclear cert="low">these</unclear>? <subst><del>Nor with</del><add place="above">Nor <note resp="#jawalsh">Not?</note> with</add></subst> <gap extent="6" unit="chars"/> <gap extent="4" unit="chars"/><add place="below">&amp; with no tear shed.</add></l>
+						<l>To <gap extent="4" unit="chars"/> them out of man?
+					<add place="below"><del>Make their heart</del></add>	Yet <subst><del>my sons</del><add place="below">these</add></subst> being slain</l><anchor xml:id="anchor006"/>
+						<l>Wert thou my son; yet <del>by</del> couldst thou then but die</l>
+						<l>Fallen in sheer fight <subst><add place="below">by</add><del>&amp;</del></subst> chance <subst><del>of</del><add place="below">&amp;</add></subst> charge of spears<label>520</label></l>
 						<l>And have no more of memory, fill no tomb</l>
-						<l>More famous than thy fellows in fair field,</l>
-						<l>Where many share the grave, many the praise;</l>
-						<l>But one crown shall one only girl my child</l>
-						<l>Wear, dead for this dear city, &amp; give back life</l>
+						<l>More <subst><del><unclear cert="low">flowers</unclear></del><add place="above">famous</add></del> than their fellows <subst><del>equal <gap extent="6" unit="chars"/></del><add place="above">in fair field,</add></subst></l>
+						<l>Where many share the <del><gap extent="6" unit="chars"></del> grave, many the praise;</l>
+						<l>But one crown shall <subst><del><subst><del>this one<del><add place="above">only</add></subst> my child alone</del><add place="below">one only <subst><del>child</del> <del>maiden</del> girl</subst> my child</l>
+						<l>Wear, <subst><del>dying for this to save<del><add place="above">dead for</add></subst> this ⁁ <add place="above">dear</add> city, &amp; give back life</l>
 						<l>To him that gave her &amp; to me that bare,</l>
-						<l>And save two sisters living; &amp; all this,</l>
-						<l>Is this not all good? I shall give thee, child,</l>
-						<l>Thee but by fleshly nature mine, to bleed</l>
-						<l>For dear land’s love; but if the city fall</l>
+						<delSpan spanTo="#anchor007"/>
+						<l>And let two sisters live; &amp; all these things,</l>
+						<l>Are they not all good? for the child give</l><anchor xml:id="anchor007"/>
+						<addSpan place="margin" spanTo="#anchor008"/>
+						<l>And save two sisters living; <lb/> &amp; all this,</l>
+						<l>Is this not all good? I shall <lb/> give thee, child,</l><anchor xml:id="anchor008"/>
+						<l><subst><del>Is</del><add place="above">Thee</add></subst> but by fleshly nature mine, <subst><del>who dies</del><add place="below">to bleed</add></subst></l>
+						<l>For <subst><del seq="1">this</del><add seq="2" place="above">dear</add></subst> land’s love; but if the city fall</l>
 						<l>What part is left me in my children then? <ptr type="note"
-								target="#df1708"/></l>
+								target="#df1708"/><label>530</label></l>
 						<l>But if it stand &amp; thou for it lie dead,</l>
-						<l>Then hast thou in it a better part than we,</l>
-						<l>A holier portion than we all; for each</l>
-						<l>Hath but the length of his own life to live,</l>
-						<l>And this most glorious mother-land on earth</l>
-						<l>To worship till that life have end; but thine</l>
+						<l>Then hast thou <subst><del><unclear>&amp; than have all <note resp="#jawalsh">thee have all?</note></unclear></del><add place="above">in it a better part than <subst><del seq="1">all</del><add seq="2" place="above">we,</add></subst></subst></l>
+						<l>A holier portion than we all; <subst><del seq="1"><unclear>who in</unclear>life</del><add seq="2" place="above">for each</add></subst></l>
+						<l><subst><del seq="1"><unclear cert="low">Long</unclear> as the glory of the <unclear cert="low">sea</unclear></del><add seq="2" place="above"> Hath but <subst><del seq="1">his own</del><add seq="2" place="above">the</add></subst> <del><gap extent="3" unit="chars"/> &amp;</del> length of his own life to live,</add></subst></l>
+						
+						<l>And this most glorious <subst><del seq="1">country</del><add seq="2" place="above">mother-land</add></subst> on earth</l>
+						<l>To worship <subst><del seq="1">while <gap unit="chars" extent="2"/> <gap unit="chars" extent="5"/> that</del><add seq="2" place="above">till that life have end;</add></subst> but thine</l>
 						<l>Hath end no more than hers; thou, dead, shalt live</l>
-						<l>Till Athens live not; for the days &amp; nights</l>
-						<l>Given of thy bare brief dark dividual life,</l>
-
-						<l>Shall she give thee half all her agelong own</l>
-						<l>And all its glory; for thou givest her these;</l>
-						<l>But with one hand she takes &amp; gives again</l>
+						<l>Till Athens live not; for <subst><del seq="1">some <gap unit="chars" extent="3"/> <gap unit="chars" extent="2"/></del><add seq="2" place="above">the</add></subst> days &amp; nights</l>
+						<l>Given of thy bare brief <subst><del seq="1"><gap unit="words" extent="1"/></del><add seq="2" place="above"><unclear cert="medium">shadow breathing</unclear></add><add seq="3" place="below">dark dividual</add></subst> life,</l>
+						<l>Shall she give thee ⁁ <add place="above">half</add> all  ⁁ <subst><del seq="1">ages of her own</del><add seq="2" place="above">her agelong own</add></subst><label>540</label></l>
+						<l>And all <subst><del seq="1">their</del><add seq="2" place="above">its</add></subst> glor<subst><del seq="1">ies</del><add seq="2" place="above">y</add></subst>; for thou givest her these;</l>
+						<l><subst><del seq="1">And she give back</del><add seq="2" place="above">But <subst><del seq="1"><gap unit="chars" extent="7"/></del><add seq="2" place="inline">with</add></subst> one hand she takes &amp; gives again</add></subst></l>
 						<l>More than I gave or she requires of thee.</l>
+						<delSpan spanTo="#anchor008"/>
+						<l>one lie, one light one Life that is born <gap extent="3" unit="chars"/> not of birth &amp; death.</l>
+						<l>A life not born of man nor</l>
+						<anchor xml:id="anchor008"/>
+						<pg n="17v"/>
+						<!-- paused 2023-04-17 -->
 						<l>Come therefore, I will make thee fit for death,</l>
 						<l>I that could give thee, dear, no gift at birth</l>
 						<l>Save of light life that breathes &amp; bleeds, even I</l>
