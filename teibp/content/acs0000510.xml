@@ -1366,7 +1366,7 @@ A slip of paper pasted into the bound volume reads:
 						</subst> my child alone
 			</del>
 			<add place="below">one only 
-			<subst><del>child</del> <del>maiden</del> <add>girl</add></subst></add></subst> my child<!-- check line. --></l>
+			<subst><del seq="1">child</del> <del seq="2">maiden</del> <add seq="3">girl</add></subst></add></subst> my child</l>
 <l>Wear, <subst><del>dying for this to save</del><add place="above">dead for</add></subst> this ⁁ <add place="above">dear</add> city, &amp; give back life</l>
 						<l>To him that gave her &amp; to me that bare,</l>
 						<delSpan spanTo="#anchor007"/>
@@ -1400,53 +1400,55 @@ A slip of paper pasted into the bound volume reads:
 						<pb n="17v"/>
 						<!-- paused 2023-04-17 -->
 						<l>Come therefore, I will make thee fit for death,</l>
-						<l>I that could give thee, dear, no gift at birth</l>
-						<l>Save of light life that breathes &amp; bleeds, even I</l>
+						<l>I that <choice><abbr>c<hi rendition="#super #u">d</hi></abbr><expan>could</expan></choice> give <del>no more</del> thee, dear, no <subst><del seq="1">more than</del><add place="above" seq="2">gift at birth</add></subst></l>
+						<l><subst><del seq="1">But this</del><add place="above" seq="2">Save of</add></subst> light life that breathes &amp; bleeds, even I</l>
 						<l>Will help thee to this better gift than mine</l>
-						<l>And lead thee by this little living hand</l>
-						<l>That death shall make so strong, to that great end</l>
-						<l>Whence it shall lighten like a god’s, &amp; strike</l>
-						<l>Dead the strong heart of battle that would break</l>
-						<l>Athens; but ye, pray for this land, old men,</l>
+						<l>And lead thee by this ⁁ <add place="above">little living</add> hand <del>that <unclear cert="high">being</unclear></del></l>
+						<l>That death shall <del>strengthen</del> make so strong, <subst><del seq="1">&amp; all the sea</del><add seq="2" place="above">to that great end</add></subst></l>
+						<l>Whence it shall <subst><del seq="1"><unclear cert="medium">bid the battle back, &amp; build</unclear></del><add seq="2" place="above">lighten like a god’s, &amp; <del>bid <unclear cert="medium">break</unclear></del> strike</add></subst> <label>550</label></l>
+						<l><del>Above the sea’s reach</del></l>
+						<l><del>The</del> Dead the strong heart of battle that <choice><abbr>w<hi rendition="#super">d</hi></abbr><expan>would</expan></choice> break</l>
+						<l>Athens; but <del><unclear cert="low">b</del> ye, pray for this land, old men,</l>
 						<l>That it may bring forth never child on earth</l>
-						<l>To love it less, for none may more, than we.</l>
+						<l>To love it less, <subst><del seq="1">than as</del><add seq="2" place="above">for <del seq="3">if</del></add></subst> none <subst><del seq="1">shall</del><add seq="2" place="above">may</add></subst> more, than we. <label><del>(136)</del></label></l>
 					</lg>
 				</sp>
 			</div>
+			<pb n="18r"/>
 			<div xml:id="df0974" type="stasimon"
 				n="[Stasimon 3: Out of the north wind grief came forth...]">
 				<sp>
-					<speaker rendition="#left #inline">C.</speaker>
+					<speaker>Chorus.</speaker>
 					<lg>
-						<l rendition="#ti-1">Out of the north wind grief came forth, <label type= "strophe ">str. 1</label></l>
+						<l>Out of the north wind grief <subst><del seq="1">comes</del><add seq="2" place="above">came</add></subst> forth, <label type= "strophe ">str. 1.</label><note type="meter" resp="#acs">˘˘¯˘/˘˘¯/˘˘˘¯</note></l>
 						<l rendition="#ti-2">And the shining of a sword out of the sea.</l>
-						<l rendition="#ti-1">Yea, of old the first-blown blast blew the prelude of
-							this last,</l>
-						<l rendition="#ti-2">The blast of his trumpet upon Rhodope.</l>
+						<l rendition="#ti-1"> <subst><del seq="1">For</del><add seq="2" place="above">Yea,</add></subst> of old the first-blown blast blew the prelude of this last,</l>
+						<l rendition="#ti-2">The blast of his trumpet upon Rhodope. <note type="meter" resp="#acs">˘¯/˘˘¯˘/˘˘˘˘¯</note></l>
 						<l rendition="#ti-1">Out of the north skies full of his cloud,</l>
-						<l rendition="#ti-1">With the clamour of his storms as of a crowd</l>
-						<l rendition="#ti-1">At the wheels of a great king crying aloud,</l>
-						<l rendition="#ti-1">At the axle of a strong king’s car</l>
-						<l rendition="#ti-1">That has girded on the girdle of war—</l>
+						<l rendition="#ti-1">With <subst><del seq="1">a</del><add seq="2" place="above">the</add></subst> clamour of his <subst><del seq="1">strong</del><add seq="2" place="above">storms</add></subst> <del><unclear cert="medium">cry</unclear></del> as of a crowd <label>560</label></l>
+						<l rendition="#ti-1">At the wheels of a great ⁁ <add place="above">king</add> crying aloud <note type="meter" resp="#acs">˘˘¯/˘˘˘¯/˘˘˘¯</l>
+						<l rendition="#ti-1">At the <subst><del seq="1">wheel</del><add seq="2" place="above">axle</add></subst> of a <subst><del seq="1">great</del><add seq="2" place="above">strong</add></subst>  king’s car</l>
+						<l rendition="#ti-1">That has girded <subst><del seq="1">him with</del><add seq="2" place="above">on the girdle of war</add></subst></l>
 						<l rendition="#ti-1">With hands that lightened the skies in sunder</l>
 						<l rendition="#ti-1">And feet whose fall was followed of thunder,</l>
-						<l rendition="#ti-2">A god, a great god strange of name,</l>
-						<l rendition="#ti-2">With horse-yoke fleeter-hoofed than flame,</l>
+						<l rendition="#ti-2">A god, a  <subst><del seq="1">strange</del><add seq="2" place="above">great</add></subst> god strange of <del>his</del> name,</l>
+						<l rendition="#ti-2"> <subst><del seq="1">One</del><add seq="2" place="inline"><del>To the man</del></add><add place="above">With horse <subst><del seq="1">of</del><add seq="2" place="below">-yoke</add></subst> of fleeter</subst>-hoof<subst><del seq="1">s</del><add seq="2" place="over">ed</add></subst><add place="below"><del><unclear>need</unclear></del></add> than flame<del>s</del>,</l>
 						<l rendition="#ti-1">To the mountain bed of a maiden came,</l>
+						<milestone/><!-- short horizontal line, centered. -->
 						<l rendition="#ti-1">Oreithyia, the bride mismated,</l>
 
 						<l rendition="#ti-1">Wofully wed in a snow-strewn bed</l>
 						<l rendition="#ti-1">With a bridegroom that kisses the bride’s mouth
-							dead;</l>
-						<l rendition="#ti-1">Without garland, without glory, without song,</l>
-						<l rendition="#ti-1">As a fawn by night on the hills belated,</l>
-						<l rendition="#ti-1">Given over for a spoil unto the strong.</l>
+							dead; <label>570</label></l>
+						<l rendition="#ti-1"><subst><del seq="1">Nor <unclear cert="low">sung</unclear></del><add seq="2" place="above">Without</add></subst> garland, without glory, without song,</l>
+						<l rendition="#ti-1">As a fawn ⁁ <add place="above">by night on</add> the hills  <gap extent="1 word" unit="chars" atLeast="2" /> belated,</l>
+						<label><del>(20)</del></label><l rendition="#ti-1">Given over  <subst><del seq="1">to the god the</del><add seq="2" place="above">for a <subst><del seq="1">prey to</del><add seq="2" place="below">spoil unto</add></subst> the <del>too</del> strong</add></subst></l>
 						<l rendition="#ti-1">From lips how pale so keen a wail <label rendition="#n"
-									>[<hi rendition="#i">Ant.</hi> 1</label></l>
-						<l rendition="#ti-2">At the grasp of a god’s hand on her she gave,</l>
-						<l rendition="#ti-1">When his breath that darkens air made a havoc of her
-							hair,</l>
-						<l rendition="#ti-2">It rang from the mountain even to the wave;</l>
+									>[<hi rendition="#i">ant.</hi> 1</label></l>
+						<l rendition="#ti-2">At the  <subst><del seq="1"><unclear cert="high">harrying</unclear></del><add seq="2" place="above">grasp</add></subst> of  <subst><del seq="1">his</del><add seq="2" place="above">a god’s</add></subst> hand on her she gave,</l>
+						<l rendition="#ti-1">When his <subst><del seq="1">hand</del><add seq="2" place="above">breath</add></subst> that darkens air  <subst><del seq="1"><gap extent="1 word" unit="chars" atLeast="3" /> <gap extent="1 word" unit="chars" atLeast="7" /> <gap extent="1 word" unit="chars" atLeast="4" /> her braided</del><add seq="2" place="below">made a havoc of her hair,</add></subst></l>
+						<l rendition="#ti-2">It rang from the <del><gap extent="1 or 2 words" unit="chars" atLeast="2" />  <subst><del seq="1">mountains</del><add seq="2" place="above"><del seq="3">hills</del></add><add place="above" seq="4">cloud</del></add><add place="below" seq="5">mountain</subst> even <del>⁁</del> <add place="above"><del>over</del></add> <del><gap unit="chars" atLeast="1" /></del> to the <subst><del seq="1">sea</del><add seq="2" place="inline">wave</add></subst></l>
+						<!-- paused 2023-04-18 -->
 						<l rendition="#ti-1">Rang with a cry, <q rendition="#i #nq">Woe’s me, woe is
 								me!</q>
 						</l>
