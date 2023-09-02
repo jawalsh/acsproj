@@ -7,9 +7,12 @@
     <xsl:template match="/">
         <results>
             <!-- list of citations -->
-            <listNote>
+            <listNoteBody>
                 <xsl:apply-templates select="//tei:body//tei:note[not(child::tei:cit) and @resp='#acs']"/>
-            </listNote>
+            </listNoteBody>
+            <listNoteBack>
+                <xsl:apply-templates select="//tei:back//tei:note[not(child::tei:cit) and @resp='#acs']"/>
+            </listNoteBack>
             <listCit>
                 <xsl:apply-templates select="//tei:cit"/>
             </listCit>
@@ -22,6 +25,11 @@
     </xsl:template>
 <!-- extract notes (not cit) -->
     <xsl:template match="//tei:body//tei:note[not(child::tei:cit) and @resp='#acs']">
+        <note vol="{substring-after(./ancestor::tei:TEI/@xml:id, 'acs0000001-0')}" corresp="swinburne_library.xml#{./ancestor::tei:text[@type='poem']/@xml:id}">
+            <xsl:apply-templates/>
+        </note>
+    </xsl:template>
+    <xsl:template match="//tei:back//tei:note[not(child::tei:cit) and @resp='#acs']">
         <note vol="{substring-after(./ancestor::tei:TEI/@xml:id, 'acs0000001-0')}" corresp="swinburne_library.xml#{./ancestor::tei:text[@type='poem']/@xml:id}">
             <xsl:apply-templates/>
         </note>
