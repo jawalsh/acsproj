@@ -1,36 +1,96 @@
 <?xml version="1.0"?>
-<TEI>
+<?oxygen RNGSchema="swinburne.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="acs0000000-00">
 	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Index to <title>The Algernon Charles Swinburne Project</title></title>
+				<editor role="editor">
+					<persName key="jawalsh"> John A. Walsh </persName>
+				</editor>
+			</titleStmt>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+				href="includes/publicationStmt.xml"/>
+			<seriesStmt>
+				<title>The Swinburne Project: An Electronic Edition of the Works of Algernon Charles
+					Swinburne</title>
+				<respStmt>
+					<resp> Edited by </resp>
+					<name> John A. Walsh </name>
+				</respStmt>
+				<respStmt>
+					<resp>Transcriber and Encoder</resp>
+					<persName>Alice Wei</persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<include xmlns="http://www.w3.org/2001/XInclude" href="acs0000000-00-md.xml"
+					xpointer="element(acs0000000-00-bibl)"/>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p xml:id="quotation_format">single</p>
+				</quotation>
+			</editorialDecl>
+			<include xmlns="http://www.w3.org/2001/XInclude" href="includes/tagsDecl.xml"/>
+			<p><note n="true" xml:id="hasPageImages"/></p>
+		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<listBibl>
 				<head>The Algernon Charles Swinburne Project</head>
 				<listBibl>
-					<head>Poems and Ballads, First Series</head>	
-					<bibl>A Ballad of Life</bibl>
-					<bibl>A Ballad of Death</bibl>
-					<bibl>Laus Veneris</bibl>
-					<bibl>Phaedra</bibl>
-					<bibl>The Triumph of Time</bibl>
-					<bibl>Les Noyades</bibl>
-					<bibl>A Leave-Taking</bibl>
-					<bibl>Itylus</bibl>
-					<bibl>Anactoria</bibl>
-					<bibl>Hymn to Proserpine</bibl>
-					<bibl>Ilicet</bibl>
-					<bibl>Hermaphroditus</bibl>
-					<bibl>Fragoletta</bibl>
-					<bibl>Rondel</bibl>
-					<bibl>Satia te Sanguine</bibl>
-					<bibl>A Litany</bibl>
-					<bibl>A Lamentation</bibl>
-					<bibl>Anima Anceps</bibl>
-					<bibl>In the Orchard</bibl>
-					<bibl>A Match</bibl>
+					<head>Published volumes: Poems</head>
+					<listBibl>
+						<bibl>Poems and Ballads, First Series (1866)</bibl>
+						<listBibl>
+							<bibl>A Ballad of Life</bibl>
+							<bibl>A Ballad of Death</bibl>
+							<bibl>Laus Veneris</bibl>
+							<bibl>Phaedra</bibl>
+							<bibl>The Triumph of Time</bibl>
+							<bibl>Les Noyades</bibl>
+							<bibl>A Leave-Taking</bibl>
+							<bibl>Itylus</bibl>
+							<bibl>Anactoria</bibl>
+							<bibl>Hymn to Proserpine</bibl>
+							<bibl>Ilicet</bibl>
+							<bibl>Hermaphroditus</bibl>
+							<bibl>Fragoletta</bibl>
+							<bibl>Rondel</bibl>
+							<bibl>Satia te Sanguine</bibl>
+							<bibl>A Litany</bibl>
+							<bibl>A Lamentation</bibl>
+							<bibl>Anima Anceps</bibl>
+							<bibl>In the Orchard</bibl>
+							<bibl>A Match</bibl>
+							<bibl>Faustine</bibl>
+							<bibl>A Cameo</bibl>
+							<bibl>Song Before Death</bibl>
+							<bibl>Rococo</bibl>
+							<bibl>Stage Love</bibl>
+							<bibl>The Leper</bibl>
+							<bibl>A Ballad of Burdens</bibl>
+							<bibl>Rondel</bibl>
+							<bibl>Before the Mirror</bibl>
+							<bibl>Erotion</bibl>
+							<bibl>In Memory of Walter Savage Landor</bibl>
+							<bibl>A Song in Time of Order. 1852</bibl>
+							<bibl>A Song in Time of Revolution. 1860</bibl>
+							<bibl>To Victor Hugo</bibl>
+							<bibl>Before Dawn</bibl>
+							<bibl>Dolores</bibl>
+							<bibl>The Garden of Proserpine</bibl>
+							<bibl>Hesperia</bibl>
+							<bibl>Love at Sea</bibl>
+							<bibl>April</bibl>
+						</listBibl>
+					</listBibl>
 				</listBibl>
 			</listBibl>
 		</body>
 	</text>
-</tei>
-						
+</TEI>
