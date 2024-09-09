@@ -1716,7 +1716,7 @@ A slip of paper pasted into the bound volume reads:
 				</sp>
 				<sp>
 					<lg>
-						<l><speaker rendition="left">Erechtheus.</speaker> Man, what shrill wind of speech &amp; wrangling air</l>
+						<l><label rendition="#left">Erechtheus.</label><note resp="#jawalsh">"label" tag should be "speaker" but "speaker not valid inside "l".</note>Man, what shrill wind of speech &amp; wrangling air</l>
 						<l>Blows in our ears a summons from thy lips</l>
 						<pb n="22v"/>
 						<pb n="23r"/>
@@ -1740,7 +1740,7 @@ A slip of paper pasted into the bound volume reads:
 						<l>Or by that father’s sceptre, &amp; the foot</l>
 						<l>Whose tramp far off makes tremble <subst><del seq="1">there her heart</del><add seq="2" place="above">for pure fear</add></subst></l>
 						<l>Thy <subst><del seq="1">heart</del><add seq="2" place="above">soul</add></subst><note resp="#jawalsh">I don't see the hyphen from heart/soul-struck, unless it is one with the deletion line.</note> struck mother, piercing like a sword</l>
-						<l>The <del><gap extent="1 word" unit="chars" atLeast="3" atMost="3"/> <gap extent="1 word" unit="chars" atLeast="3" atMost="4"/> <note resp="#jawalsh">Second gap could be "vast"?</note>immortal womb that bare thee; by the waves <label>700</label></l>
+						<l>The <del><gap extent="1 word" unit="chars" atLeast="3" atMost="3"/> <gap extent="1 word" unit="chars" atLeast="3" atMost="4"/><note resp="#jawalsh">Second gap could be "vast"?</note></del> immortal womb that bare thee; by the waves <label>700</label></l>
 						<l>That no man bridles &amp; that bound thy world,</l>
 						<l>And by the winds &amp; storms of all the sea,</l>
 						<l>He swears to raze from eyeshot of the sun</l>
