@@ -1763,14 +1763,16 @@ A slip of paper pasted into the bound volume reads:
 						<l>To fight then be it; for if to die or live,</l>
 						<l>No man but only a god knows this much yet</l>
 						<!-- paused 2024-09-10 -->
-						<l>Seeing us fare forth, who bear but in our hands</l>
-						<l>The weapons not the fortunes of our fight;</l>
-						<l>For these now rest as lots that yet undrawn</l>
-						<l>Lie in the lap of the unknown hour; but this</l>
+						<l><del>Wh</del>Seeing us <note resp="#jawalsh">Gaps look like "other side", bu that doesn't seem to make sense.</note><subst><del seq="1"><gap extent="1 word" unit="chars" atLeast="4" atMost="6"/> <gap extent="1 word" unit="chars" atLeast="4" atMost="4"/></del><add seq="2" place="above">us fare forth,</add></subst> <subst><del seq="1">with only swords</del><add seq="2" place="above">who bear but</add></subst> in our hands</l>
+						<l><subst><del seq="1">Our</del><add seq="2" place="above">The</add></subst> weapons not <subst><del seq="1">our</del><add seq="2" place="above">the</add></subst> fortunes of our fight;</l>
+						<l>For these <subst><del seq="1">yet</del><add seq="2" place="below">⁁</add><add seq="3" place="above">now rest</add></subst> as lots that yet undrawn</l>
+						<l>Lie in the lap of the <subst><del seq="1">unborn</del><add seq="2" place="above">unknown</add></subst> hour; but this</l>
 						<l>I know, not thou, whose hollow mouth of storm</l>
-						<l>Is but a warlike wind, a sharp salt breath</l>
-						<l>That bites &amp; wounds not; death nor life of mine</l>
+						<l>Is but a warlike wind, a <subst><del seq="1">salt sharp</del><add seq="2" place="inline">shrill salt</add></subst> breath<del>,</del><note resp="#jawalsh">The printed edition prints the cancelled (here) "sharp salt breath" rather than the revised (here) "shrill salt breath".</note></l>
+						<l><subst><del seq="1">An air of</del><add seq="2" place="above">From</add></subst> the sharp sea <del>bitterly</del> blown on the bitter air<note resp="#jawalsh">This line does not appear in the printed edition!</note></l>
+					    <l>That bites &amp; wounds not; death nor life of mine <label>720</label></l>
 						<l>Shall give to death or lordship of strange kings</l>
+						<!-- paused 2024-09-11 -->
 						<l>The soul of this live city, nor their heel</l>
 						<l>Bruise her dear brow discrowned, nor snaffle or goad</l>
 						<l>Wound her free mouth or stain her sanguine side</l>
